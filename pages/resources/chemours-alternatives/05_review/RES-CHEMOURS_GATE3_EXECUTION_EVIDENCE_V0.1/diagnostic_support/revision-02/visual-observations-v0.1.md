@@ -1,0 +1,13 @@
+# RES-CHEMOURS rebuilt candidate: actual visual preflight
+
+Evidence type: STATIC_VISUAL. Role: execution self-check using layout-interaction-verification V0.2, not independent approval. Source V0.2 SHA-256 `e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b`, 18,831 bytes; shared consumer V0.2. This is a new inspection, not inherited PASS from the earlier candidate.
+
+Opened all three newly rendered `diagnostic-{1440,768,390}-full.png` images and every readable overlapping segment (1440: 01–04, 768: 01–05, 390: 01–06), then both menu and all three Cookie images in this directory. Complete page sizes are 1440×3082, 768×3648, 390×4464 at 1×. All six modules, connections and complete Footer were covered.
+
+Actual observations: Hero and qualification headings wrap cleanly; full source claims and both inline Chemours link labels are readable; four numbered brief entries retain their bold lead-ins and complete explanations; three qualification steps retain their paragraphs. Products remains first, Documents second, with primary/secondary emphasis. The widest two-column areas retain object relationships at 768 and collapse in the same order at 390. Sources, fixed review date and full independence statement remain visible. No truncation, overlap, artificial fixed-height blank, added competitor logo, pairing, recommendation or page-owned state was seen.
+
+Both menus show eight entries in approved order, current Resources marker and Close. The corrected Menu border is functional Teal. All three Cookie images show the complete no_optional_analytics wording, Close and Read Cookie Policy, now with Teal labels and borders. Native computed-color results are in `runtime-preflight-v0.1.json`; focus and keyboard entry/background isolation are additionally in `focus-supplement-v0.1.json`.
+
+`RESCH-PF-SHARED-01` is resolved for this candidate by consuming the new neutral owner package. No local shared override was added. The previous candidate and shared-color hold remain retained outside this revision folder. The initial focus supplement for this revision raced the asynchronous native dialog close event and subsequent programmatic Products focus at 390; its failure JSON/helper are retained. Waiting two animation frames for close-event focus restoration, then rerunning the full supplement produced correct Products Enter intent in all three widths. The candidate source was unchanged.
+
+No unresolved visual or runtime defect remains in the exercised scope. Actual other-browser/device/screen-reader behavior, native browser zoom and production receiving/routes/cookie inventory are outside this local evidence. No production requests were made.

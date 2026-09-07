@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TiO2 Malaysia Homepage Visual Directions V0.1</title>
+  <style>
+    :root {
+      --navy: #062B5B;
+      --deep-navy: #031B3A;
+      --teal: #00A99D;
+      --accent-teal: #14B8A6;
+      --white: #FFFFFF;
+      --soft: #F5F8FB;
+      --border: #D9E2EC;
+      --body: #334155;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-width: 320px; background: #E8EEF4; color: var(--body); font-family: Inter, Arial, Helvetica, sans-serif; }
+    button, a { font: inherit; }
+    .review-page { padding: 28px 0 60px; }
+    .review-header { width: min(1320px, calc(100% - 40px)); margin: 0 auto 26px; padding: 24px 28px; background: var(--white); border: 1px solid var(--border); }
+    .review-header h1 { margin: 0 0 8px; color: var(--deep-navy); font-size: 28px; }
+    .review-header p { margin: 0; line-height: 1.6; }
+    .review-kicker { margin-bottom: 8px; color: var(--teal); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .direction-section { width: min(1320px, calc(100% - 40px)); margin: 0 auto 34px; }
+    .direction-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 12px; }
+    .direction-heading h2 { margin: 0; color: var(--deep-navy); font-size: 24px; }
+    .direction-heading p { max-width: 720px; margin: 0; text-align: right; line-height: 1.5; }
+    .pc-preview-shell { width: 100%; height: 862px; overflow: hidden; background: #CCD7E2; border: 1px solid #B8C7D6; }
+    .pc-preview-scale { width: 1440px; height: 1000px; transform: scale(.86); transform-origin: top left; }
+    .mobile-pair { display: grid; grid-template-columns: 390px 390px; justify-content: center; gap: 28px; padding: 24px; background: #CCD7E2; border: 1px solid #B8C7D6; }
+    .preview-label { margin: 12px 0 8px; color: var(--navy); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .preview-links { display: flex; gap: 10px; margin-top: 10px; }
+    .preview-links a { color: var(--navy); font-size: 12px; font-weight: 700; }
+    .artboard { position: relative; overflow: hidden; background: var(--white); color: var(--body); }
+    .artboard.pc { width: 1440px; height: 1000px; }
+    .artboard.mobile { width: 390px; height: 844px; }
+    .visual-status { height: 30px; display: flex; align-items: center; justify-content: center; background: var(--deep-navy); color: var(--white); font-size: 11px; font-weight: 700; letter-spacing: .09em; }
+    .mobile .visual-status { height: 26px; font-size: 8px; letter-spacing: .05em; }
+    .brand-logo { display: block; width: 190px; height: auto; object-fit: contain; }
+    .mobile .brand-logo { width: 124px; }
+    .site-header { height: 84px; background: var(--white); border-bottom: 1px solid var(--border); }
+    .site-header-inner { width: 1280px; height: 100%; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+    .site-nav { display: flex; align-items: center; gap: 24px; color: var(--navy); font-size: 14px; font-weight: 600; white-space: nowrap; }
+    .site-nav span { display: inline-block; }
+    .visual-cta { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; padding: 0 22px; border: 1px solid transparent; border-radius: 7px; background: var(--teal); color: var(--white); font-size: 14px; font-weight: 700; letter-spacing: .01em; }
+    .visual-cta.secondary { border-color: var(--navy); background: transparent; color: var(--navy); }
+    .visual-cta.dark-secondary { border-color: rgba(255,255,255,.68); background: transparent; color: var(--white); }
+    .header-rfq { min-height: 44px; padding: 0 18px; background: var(--navy); }
+    .mobile-header { height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 0 18px; background: var(--white); border-bottom: 1px solid var(--border); }
+    .mobile-actions { display: flex; align-items: center; gap: 8px; }
+    .menu-control { min-height: 38px; padding: 0 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--white); color: var(--navy); font-weight: 700; }
+    .mobile-rfq { min-height: 38px; padding: 0 12px; border-radius: 6px; background: var(--navy); font-size: 12px; }
+    .copy-label { display: inline-flex; align-items: center; min-height: 26px; padding: 4px 8px; border: 1px solid currentColor; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: .06em; }
+    .hero-actions { display: flex; gap: 12px; margin-top: 24px; }
+    .route-strip { display: grid; }
+    .route-item { position: relative; display: flex; align-items: center; gap: 15px; }
+    .route-num { font-size: 11px; font-weight: 700; letter-spacing: .1em; }
+    .route-copy strong { display: block; margin-bottom: 4px; }
+    .route-copy span { font-size: 12px; }
+    .route-arrow { margin-left: auto; font-size: 18px; }
+
+    /* Direction A: Industrial Editorial */
+    .a-hero { height: 760px; background: linear-gradient(90deg, var(--white) 0 58%, var(--soft) 58% 100%); }
+    .a-hero::before { content: ""; position: absolute; left: 0; top: 114px; width: 9px; height: 760px; background: var(--teal); }
+    .a-hero-inner { width: 1280px; height: 100%; margin: 0 auto; display: grid; grid-template-columns: 58% 42%; align-items: center; }
+    .a-copy { padding-right: 60px; }
+    .a-overline { margin-bottom: 20px; color: var(--teal); font-size: 13px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+    .a-copy h1 { max-width: 730px; margin: 0 0 20px; color: var(--deep-navy); font-size: 66px; line-height: 1.03; letter-spacing: -.035em; }
+    .a-copy h1 span { color: var(--teal); }
+    .a-copy p { max-width: 630px; margin: 18px 0 0; color: var(--body); font-size: 17px; line-height: 1.65; }
+    .a-art { position: relative; height: 610px; margin-left: 22px; overflow: hidden; background: var(--deep-navy); }
+    .a-art::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, transparent 0 58%, rgba(20,184,166,.22) 58% 72%, transparent 72%); }
+    .a-art::after { content: ""; position: absolute; right: -85px; bottom: -115px; width: 390px; height: 390px; border: 52px solid rgba(0,169,157,.24); border-radius: 50%; }
+    .a-icon { position: absolute; right: -40px; top: 25px; width: 520px; height: 520px; object-fit: contain; opacity: .94; }
+    .a-art-index { position: absolute; left: 30px; top: 30px; color: rgba(255,255,255,.72); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    .a-art-note { position: absolute; left: 30px; bottom: 30px; max-width: 250px; padding-left: 15px; border-left: 3px solid var(--teal); color: var(--white); font-size: 12px; line-height: 1.5; }
+    .a-route { height: 126px; grid-template-columns: 260px repeat(3, 1fr); background: var(--white); border-top: 1px solid var(--border); }
+    .a-route-title { display: flex; flex-direction: column; justify-content: center; padding-left: 80px; color: var(--navy); }
+    .a-route-title small { margin-bottom: 6px; color: var(--teal); font-weight: 700; letter-spacing: .12em; }
+    .a-route .route-item { padding: 0 34px; border-left: 1px solid var(--border); color: var(--navy); }
+    .a-route .route-num { color: var(--teal); }
+    .a-route .route-copy strong { font-size: 18px; }
+    .a-route .route-copy span { color: var(--body); }
+
+    .a-mobile-hero { position: relative; height: 604px; overflow: hidden; background: var(--white); }
+    .a-mobile-hero::before { content: ""; position: absolute; right: -130px; top: 4px; width: 330px; height: 330px; border: 48px solid rgba(0,169,157,.08); border-radius: 50%; }
+    .a-mobile-icon { position: absolute; right: -95px; top: 20px; width: 300px; opacity: .14; }
+    .a-mobile-copy { position: relative; z-index: 2; padding: 48px 20px 0; }
+    .a-mobile-copy .a-overline { max-width: 235px; margin-bottom: 14px; font-size: 10px; line-height: 1.5; }
+    .a-mobile-copy h1 { max-width: 340px; margin: 0 0 14px; color: var(--deep-navy); font-size: 42px; line-height: 1.02; letter-spacing: -.035em; }
+    .a-mobile-copy h1 span { color: var(--teal); }
+    .a-mobile-copy p { max-width: 335px; margin: 14px 0 0; font-size: 14px; line-height: 1.55; }
+    .mobile-copy-label { margin-top: 13px; color: var(--navy); font-size: 8px; }
+    .a-mobile-copy .hero-actions { display: grid; grid-template-columns: 1fr 1fr; margin-top: 20px; }
+    .a-mobile-copy .visual-cta { min-height: 46px; padding: 0 10px; font-size: 12px; }
+    .a-mobile-editorial-note { margin-top: 24px; padding: 14px 0 0 14px; border-left: 3px solid var(--teal); color: var(--navy); font-size: 11px; line-height: 1.5; }
+    .a-mobile-route { height: 150px; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--border); background: var(--soft); }
+    .a-mobile-route .route-item { display: block; padding: 19px 12px 12px; border-right: 1px solid var(--border); }
+    .a-mobile-route .route-item:last-child { border-right: 0; }
+    .a-mobile-route .route-num { color: var(--teal); font-size: 9px; }
+    .a-mobile-route .route-copy strong { margin-top: 10px; color: var(--navy); font-size: 13px; }
+    .a-mobile-route .route-copy span { display: block; color: var(--body); font-size: 9px; line-height: 1.35; }
+    .a-mobile-route .route-arrow { position: absolute; right: 10px; bottom: 10px; color: var(--navy); }
+
+    /* Direction B: Technical Procurement System */
+    .b-hero { position: relative; height: 760px; overflow: hidden; background: var(--deep-navy); color: var(--white); }
+    .b-hero::before { content: ""; position: absolute; inset: 0; opacity: .22; background-image: linear-gradient(rgba(217,226,236,.18) 1px, transparent 1px), linear-gradient(90deg, rgba(217,226,236,.18) 1px, transparent 1px); background-size: 64px 64px; }
+    .b-hero::after { content: ""; position: absolute; left: 0; top: 0; width: 46%; height: 6px; background: var(--teal); }
+    .b-hero-inner { position: relative; z-index: 2; width: 1280px; height: 100%; margin: 0 auto; display: grid; grid-template-columns: 52% 48%; gap: 56px; align-items: center; }
+    .b-overline { margin-bottom: 20px; color: var(--accent-teal); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    .b-copy h1 { max-width: 690px; margin: 0 0 22px; color: var(--white); font-size: 60px; line-height: 1.05; letter-spacing: -.03em; }
+    .b-copy h1 span { color: var(--accent-teal); }
+    .b-copy p { max-width: 590px; margin: 18px 0 0; color: rgba(255,255,255,.78); font-size: 16px; line-height: 1.65; }
+    .b-copy .copy-label { color: var(--white); opacity: .82; }
+    .b-sheet { position: relative; min-height: 530px; padding: 30px 32px; background: var(--white); color: var(--body); border-top: 5px solid var(--teal); }
+    .b-sheet-header { display: grid; grid-template-columns: 1fr 92px; gap: 20px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+    .b-sheet-kicker { margin-bottom: 8px; color: var(--teal); font-size: 10px; font-weight: 700; letter-spacing: .12em; }
+    .b-sheet h2 { margin: 0; color: var(--deep-navy); font-size: 27px; line-height: 1.2; }
+    .b-sheet-icon { width: 82px; height: 82px; object-fit: contain; }
+    .scope-row { display: grid; grid-template-columns: 52px 1fr auto; gap: 18px; align-items: center; min-height: 96px; border-bottom: 1px solid var(--border); }
+    .scope-index { color: var(--teal); font-size: 13px; font-weight: 700; letter-spacing: .1em; }
+    .scope-main strong { display: block; margin-bottom: 6px; color: var(--navy); font-size: 17px; }
+    .scope-main span { color: var(--body); font-size: 12px; }
+    .scope-state { color: var(--navy); font-size: 10px; font-weight: 700; letter-spacing: .06em; }
+    .b-sheet-foot { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding-top: 20px; color: var(--navy); font-size: 10px; font-weight: 700; letter-spacing: .06em; }
+    .b-route { height: 126px; grid-template-columns: 240px repeat(3, 1fr); background: var(--navy); color: var(--white); border-top: 1px solid rgba(255,255,255,.18); }
+    .b-route-title { display: flex; flex-direction: column; justify-content: center; padding-left: 80px; }
+    .b-route-title small { margin-bottom: 6px; color: var(--accent-teal); font-weight: 700; letter-spacing: .12em; }
+    .b-route .route-item { padding: 0 30px; border-left: 1px solid rgba(255,255,255,.18); }
+    .b-route .route-num { color: var(--accent-teal); }
+    .b-route .route-copy strong { color: var(--white); font-size: 17px; }
+    .b-route .route-copy span { color: rgba(255,255,255,.66); }
+
+    .b-mobile-hero { position: relative; height: 604px; overflow: hidden; padding: 0 18px; background: var(--deep-navy); color: var(--white); }
+    .b-mobile-hero::before { content: ""; position: absolute; inset: 0; opacity: .2; background-image: linear-gradient(rgba(217,226,236,.18) 1px, transparent 1px), linear-gradient(90deg, rgba(217,226,236,.18) 1px, transparent 1px); background-size: 38px 38px; }
+    .b-mobile-copy { position: relative; z-index: 2; padding-top: 32px; }
+    .b-mobile-copy .b-overline { margin-bottom: 12px; font-size: 9px; }
+    .b-mobile-copy h1 { margin: 0 0 12px; color: var(--white); font-size: 35px; line-height: 1.04; letter-spacing: -.025em; }
+    .b-mobile-copy h1 span { color: var(--accent-teal); }
+    .b-mobile-copy p { margin: 10px 0 0; color: rgba(255,255,255,.72); font-size: 12px; line-height: 1.5; }
+    .b-mobile-copy .copy-label { margin-top: 10px; color: var(--white); font-size: 8px; }
+    .b-mobile-copy .hero-actions { display: grid; grid-template-columns: 1fr 1fr; margin-top: 14px; }
+    .b-mobile-copy .visual-cta { min-height: 42px; padding: 0 8px; font-size: 11px; }
+    .b-mobile-sheet { position: relative; z-index: 2; margin-top: 16px; padding: 13px 14px; background: var(--white); color: var(--body); border-top: 4px solid var(--teal); }
+    .b-mobile-sheet h2 { margin: 0 0 6px; color: var(--deep-navy); font-size: 14px; }
+    .b-mobile-sheet .sheet-note { margin-bottom: 6px; color: var(--teal); font-size: 8px; font-weight: 700; letter-spacing: .08em; }
+    .b-mobile-row { min-height: 42px; display: grid; grid-template-columns: 24px 1fr auto; gap: 7px; align-items: center; border-top: 1px solid var(--border); }
+    .b-mobile-row strong { color: var(--navy); font-size: 10px; }
+    .b-mobile-row span { font-size: 8px; }
+    .b-mobile-route { height: 150px; grid-template-columns: repeat(3, 1fr); background: var(--navy); color: var(--white); border-top: 1px solid rgba(255,255,255,.18); }
+    .b-mobile-route .route-item { display: block; padding: 18px 11px 10px; border-right: 1px solid rgba(255,255,255,.18); }
+    .b-mobile-route .route-item:last-child { border-right: 0; }
+    .b-mobile-route .route-num { color: var(--accent-teal); font-size: 9px; }
+    .b-mobile-route .route-copy strong { margin-top: 10px; color: var(--white); font-size: 13px; }
+    .b-mobile-route .route-copy span { display: block; color: rgba(255,255,255,.62); font-size: 9px; line-height: 1.35; }
+    .b-mobile-route .route-arrow { position: absolute; right: 10px; bottom: 10px; color: var(--accent-teal); }
+
+    body.capture-mode { margin: 0; padding: 0; min-width: 0; overflow: hidden; background: var(--white); }
+    body.capture-mode .artboard { margin: 0; transform: none; }
+    @media (max-width: 900px) {
+      .review-page { padding-top: 16px; }
+      .review-header, .direction-section { width: calc(100% - 24px); }
+      .direction-heading { display: block; }
+      .direction-heading p { margin-top: 8px; text-align: left; }
+      .pc-preview-shell { overflow: auto; }
+      .mobile-pair { grid-template-columns: 390px; justify-content: start; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main class="review-page" id="review-page">
+    <section class="review-header">
+      <div class="review-kicker">VISUAL DIRECTION ONLY / NOT PRODUCTION / COPY NOT FINAL</div>
+      <h1>TiO₂ Malaysia Homepage — A/B First-Screen Direction Review</h1>
+      <p>Both directions preserve the approved Header → Hero → compact Markets / Products / Documents procurement path. Existing Logo/Icon assets are used only as approved brand and atmosphere elements; no generated image, factory image or proof asset is used.</p>
+    </section>
+
+    <section class="direction-section">
+      <div class="direction-heading"><h2>Direction A — Industrial Editorial</h2><p>Large whitespace, strong editorial hierarchy and restrained brand-symbol composition.</p></div>
+      <div class="pc-preview-shell"><div class="pc-preview-scale">
+        <div class="artboard pc" id="direction-a-pc">
+          <div class="visual-status">VISUAL DIRECTION ONLY / NOT PRODUCTION / COPY NOT FINAL</div>
+          <header class="site-header"><div class="site-header-inner">
+            <img class="brand-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia visual direction logo">
+            <nav class="site-nav" aria-label="Direction A desktop navigation"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span class="visual-cta header-rfq">Request a Quote</span></nav>
+          </div></header>
+          <section class="a-hero"><div class="a-hero-inner">
+            <div class="a-copy">
+              <div class="a-overline">Malaysia-Origin Supply Platform · Working Position</div>
+              <h1>Malaysia Titanium Dioxide<br><span>for Industrial Procurement</span></h1>
+              <span class="copy-label">COPY DRAFT / FACT COPY PENDING</span>
+              <p>Working copy: a focused entry point for international buyers evaluating market, product and document paths.</p>
+              <div class="hero-actions"><span class="visual-cta">Request a Quote</span><span class="visual-cta secondary">View Products</span></div>
+            </div>
+            <div class="a-art" aria-label="Decorative approved brand symbol composition">
+              <div class="a-art-index">Industrial materials / editorial system</div>
+              <img class="a-icon" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (2).png" alt="Approved brand symbol used decoratively">
+              <div class="a-art-note">APPROVED BRAND SYMBOL<br>ATMOSPHERE ONLY<br>NOT FACT EVIDENCE</div>
+            </div>
+          </div></section>
+          <section class="route-strip a-route">
+            <div class="a-route-title"><small>START HERE</small><strong>Procurement path</strong></div>
+            <div class="route-item"><span class="route-num">01</span><div class="route-copy"><strong>Markets</strong><span>EU · UK · India · Brazil</span></div><span class="route-arrow">→</span></div>
+            <div class="route-item"><span class="route-num">02</span><div class="route-copy"><strong>Products</strong><span>Grade selection route</span></div><span class="route-arrow">→</span></div>
+            <div class="route-item"><span class="route-num">03</span><div class="route-copy"><strong>Documents</strong><span>Information and request</span></div><span class="route-arrow">→</span></div>
+          </section>
+        </div>
+      </div></div>
+      <div class="preview-links"><a href="?capture=direction-a-pc">Open A desktop at 1440×1000</a></div>
+    </section>
+
+    <section class="direction-section">
+      <div class="direction-heading"><h2>Direction B — Technical Procurement System</h2><p>Deep Navy technical field, specification-sheet language and structured procurement scope.</p></div>
+      <div class="pc-preview-shell"><div class="pc-preview-scale">
+        <div class="artboard pc" id="direction-b-pc">
+          <div class="visual-status">VISUAL DIRECTION ONLY / NOT PRODUCTION / COPY NOT FINAL</div>
+          <header class="site-header"><div class="site-header-inner">
+            <img class="brand-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia visual direction logo">
+            <nav class="site-nav" aria-label="Direction B desktop navigation"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span class="visual-cta header-rfq">Request a Quote</span></nav>
+          </div></header>
+          <section class="b-hero"><div class="b-hero-inner">
+            <div class="b-copy">
+              <div class="b-overline">Procurement entry / Malaysia titanium dioxide</div>
+              <h1>Structured for<br><span>Industrial Buying Decisions</span></h1>
+              <span class="copy-label">COPY DRAFT / FACT COPY PENDING</span>
+              <p>Working copy: begin with destination market, product route or controlled document information.</p>
+              <div class="hero-actions"><span class="visual-cta">Request a Quote</span><span class="visual-cta dark-secondary">View Products</span></div>
+            </div>
+            <div class="b-sheet">
+              <div class="b-sheet-header"><div><div class="b-sheet-kicker">STRUCTURAL DATA ONLY · VISUAL DIRECTION</div><h2>Procurement Scope<br>Working Structure</h2></div><img class="b-sheet-icon" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (2).png" alt="Approved decorative brand symbol"></div>
+              <div class="scope-row"><span class="scope-index">01</span><div class="scope-main"><strong>Market routes</strong><span>EU / UK / India / Brazil</span></div><span class="scope-state">4 PATHS</span></div>
+              <div class="scope-row"><span class="scope-index">02</span><div class="scope-main"><strong>Product portfolio</strong><span>Four selection groups; details remain technical-review gated</span></div><span class="scope-state">14 GRADES</span></div>
+              <div class="scope-row"><span class="scope-index">03</span><div class="scope-main"><strong>Document route</strong><span>Information hub + controlled request path</span></div><span class="scope-state">2 ROUTES</span></div>
+              <div class="b-sheet-foot"><span>NO CERTIFICATION / AVAILABILITY CLAIM</span><span>FACT CLAIMS PENDING</span></div>
+            </div>
+          </div></section>
+          <section class="route-strip b-route">
+            <div class="b-route-title"><small>SELECT ENTRY</small><strong>Procurement route</strong></div>
+            <div class="route-item"><span class="route-num">01</span><div class="route-copy"><strong>Markets</strong><span>Choose destination</span></div><span class="route-arrow">→</span></div>
+            <div class="route-item"><span class="route-num">02</span><div class="route-copy"><strong>Products</strong><span>Review grade paths</span></div><span class="route-arrow">→</span></div>
+            <div class="route-item"><span class="route-num">03</span><div class="route-copy"><strong>Documents</strong><span>Understand request route</span></div><span class="route-arrow">→</span></div>
+          </section>
+        </div>
+      </div></div>
+      <div class="preview-links"><a href="?capture=direction-b-pc">Open B desktop at 1440×1000</a></div>
+    </section>
+
+    <section class="direction-section">
+      <div class="direction-heading"><h2>Mobile comparison — 390×844</h2><p>Both preserve Logo + Menu + compact RFQ and keep the three procurement entrances visible.</p></div>
+      <div class="mobile-pair">
+        <div>
+          <div class="preview-label">Direction A mobile</div>
+          <div class="artboard mobile" id="direction-a-mobile">
+            <div class="visual-status">VISUAL DIRECTION ONLY / NOT PRODUCTION / COPY NOT FINAL</div>
+            <header class="mobile-header"><img class="brand-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia logo"><div class="mobile-actions"><button class="menu-control" type="button">Menu</button><span class="visual-cta mobile-rfq">RFQ</span></div></header>
+            <section class="a-mobile-hero"><img class="a-mobile-icon" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (2).png" alt="Approved brand symbol used as atmosphere"><div class="a-mobile-copy"><div class="a-overline">Malaysia-Origin Supply Platform · Working Position</div><h1>Malaysia Titanium Dioxide<br><span>for Industrial Procurement</span></h1><span class="copy-label mobile-copy-label">COPY DRAFT / FACT COPY PENDING</span><p>Working copy for visual hierarchy only: market, product and document paths for industrial buyers.</p><div class="hero-actions"><span class="visual-cta">Request a Quote</span><span class="visual-cta secondary">View Products</span></div><div class="a-mobile-editorial-note">Approved brand symbol used as atmosphere only — not proof evidence.</div></div></section>
+            <section class="route-strip a-mobile-route"><div class="route-item"><span class="route-num">01</span><div class="route-copy"><strong>Markets</strong><span>Choose destination</span></div><span class="route-arrow">→</span></div><div class="route-item"><span class="route-num">02</span><div class="route-copy"><strong>Products</strong><span>Grade route</span></div><span class="route-arrow">→</span></div><div class="route-item"><span class="route-num">03</span><div class="route-copy"><strong>Documents</strong><span>Info route</span></div><span class="route-arrow">→</span></div></section>
+          </div>
+          <div class="preview-links"><a href="?capture=direction-a-mobile">Open A mobile</a></div>
+        </div>
+        <div>
+          <div class="preview-label">Direction B mobile</div>
+          <div class="artboard mobile" id="direction-b-mobile">
+            <div class="visual-status">VISUAL DIRECTION ONLY / NOT PRODUCTION / COPY NOT FINAL</div>
+            <header class="mobile-header"><img class="brand-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia logo"><div class="mobile-actions"><button class="menu-control" type="button">Menu</button><span class="visual-cta mobile-rfq">RFQ</span></div></header>
+            <section class="b-mobile-hero"><div class="b-mobile-copy"><div class="b-overline">Procurement entry / Malaysia titanium dioxide</div><h1>Structured for<br><span>Industrial Buying Decisions</span></h1><span class="copy-label">COPY DRAFT / FACT COPY PENDING</span><p>Working copy: start with market, product route or document information.</p><div class="hero-actions"><span class="visual-cta">Request a Quote</span><span class="visual-cta dark-secondary">View Products</span></div><div class="b-mobile-sheet"><div class="sheet-note">STRUCTURAL DATA ONLY</div><h2>Procurement scope</h2><div class="b-mobile-row"><span>01</span><strong>Market routes</strong><span>4 PATHS</span></div><div class="b-mobile-row"><span>02</span><strong>Product portfolio</strong><span>14 GRADES</span></div><div class="b-mobile-row"><span>03</span><strong>Document route</strong><span>2 ROUTES</span></div></div></div></section>
+            <section class="route-strip b-mobile-route"><div class="route-item"><span class="route-num">01</span><div class="route-copy"><strong>Markets</strong><span>Destination</span></div><span class="route-arrow">→</span></div><div class="route-item"><span class="route-num">02</span><div class="route-copy"><strong>Products</strong><span>Grade paths</span></div><span class="route-arrow">→</span></div><div class="route-item"><span class="route-num">03</span><div class="route-copy"><strong>Documents</strong><span>Request route</span></div><span class="route-arrow">→</span></div></section>
+          </div>
+          <div class="preview-links"><a href="?capture=direction-b-mobile">Open B mobile</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const captureId = new URLSearchParams(window.location.search).get('capture');
+    if (captureId) {
+      const target = document.getElementById(captureId);
+      if (target) {
+        document.body.className = 'capture-mode';
+        document.body.replaceChildren(target);
+      }
+    }
+  </script>
+</body>
+</html>

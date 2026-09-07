@@ -1,0 +1,37 @@
+{
+  "source_id": "SERP-REV-BUY-WHOLESALER-20260829",
+  "source_type": "serp",
+  "source_name": "Web search raw response (base64 JSON envelope)",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "titanium dioxide wholesaler"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-08-29T00:00:00+08:00",
+  "data_date_shown_by_source": "2026-08-29",
+  "capture_method": "complete raw response returned by web search; JSON serialized and base64 encoded for byte-safe append-only storage; decoded JSON copy added for direct local analysis",
+  "files": [
+    "raw_search_response.json.b64",
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "analysis_eligible": "YES",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Use as SERP intent evidence; do not treat result counts as search volume.",
+    "Stored file is base64 encoding of the complete serialized tool response."
+  ],
+  "sha256": {
+    "raw_search_response.json.b64": "106a054decc0eef34d8a50c2b837501272e02e779e78bc0db2f8b23a0c815ce2",
+    "raw_search_response.json": "5c7c714831c5d1fb6a71869c0496c028cba4196d91b4807aab32991b31de9f23"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json.b64": 46711,
+    "raw_search_response.json": 34741
+  },
+  "correction_to": "manifest.json",
+  "notes": "Append-only finalized manifest. Original PENDING_HASH manifest preserved; no prior raw evidence changed."
+}

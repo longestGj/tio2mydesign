@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path'),root='D:/23MySec/pages/markets/india',out=__dirname,src=root+'/04_planning/gate4-v1.0';
+let code=fs.readFileSync('D:/23MySec/pages/markets/netherlands/05_review/gate4-project-control-v0.2/independent-review/verify.cjs','utf8');
+code=code.replace(/const base=.*?;\r?\n/,'const base='+JSON.stringify(root)+',src=base+"/04_planning/gate4-v1.0",out='+JSON.stringify(out)+',entry=src+"/MARKET-IN-001_GATE4_COMPLETE_VISUAL_V1.0.html",url="file:///"+entry;\n');
+const start=code.indexOf('const freeze='),end=code.indexOf("const b=read(base");
+code=code.slice(0,start)+`const rawInv=json(src+'/approval_core/export-inventory.json'),inv={assets:rawInv.assets.map(x=>({...x,path:src+'/approval_core/'+x.file,relativePath:x.file,logicalViewport:{width:Number(x.file.match(/_(1440|768|390)_/)[1])},state:x.state==='NORMAL_FULL_PAGE'?'normal':x.state}))};
+const identity={records:[rawInv.source,...inv.assets].map(x=>({path:x.path,match:hash(x.path)===x.sha256&&read(x.path).length===x.bytes,actualSha256:hash(x.path)})),pngDimensions:inv.assets.map(x=>({path:x.path,w:read(x.path).readUInt32BE(16),h:read(x.path).readUInt32BE(20),match:read(x.path).readUInt32BE(16)===(x.logicalViewport.width===390?780:x.logicalViewport.width)}))};fs.writeFileSync(out+'/identity.json',JSON.stringify(identity,null,2));
+`+code.slice(end);
+code=code.replaceAll('MARKET-EU-NL_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md','MARKET-IN-001_GATE2_FULL_BUYER_CLEAN_COPY_V0.1.md').replaceAll("'.hero p'","'.module-1 p'").replaceAll('.applicationGroup','.contexts article').replaceAll('window.__navigationIntents','window.localNavigation').replaceAll('deviceScaleFactor:1','deviceScaleFactor:width===390?2:1');
+code=code.replace(/row\.footerFocusRender=null;[\s\S]*?row\.controls=/,'row.controls=');
+fs.writeFileSync(out+'/verify.cjs',code);

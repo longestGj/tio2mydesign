@@ -1,0 +1,197 @@
+{
+  "page_id": "MARKET-EU-BE",
+  "workset_id": "BE-G4-COMPLETE-20260907-02",
+  "freeze_id": "BE-G4-FREEZE-20260907-02",
+  "finding_id": "BE-G4-IR-01",
+  "role": "EXECUTION_SELF_CHECK",
+  "generated_at": "2026-09-07T06:45:40.910Z",
+  "checks": [
+    {
+      "key": "source delta is exact BE-04 rule",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "key": "historical immutable: D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_V1.0.html",
+      "status": "PASS",
+      "detail": {
+        "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_V1.0.html",
+        "bytes": 21689,
+        "sha256": "73aad15d48c3261b31e34e71288c95a73ec5ab2e869af611ecdbf270aead92dc"
+      }
+    },
+    {
+      "key": "historical immutable: D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_FREEZE_RECORD_V1.0.json",
+      "status": "PASS",
+      "detail": {
+        "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_FREEZE_RECORD_V1.0.json",
+        "bytes": 2668,
+        "sha256": "ad3376e1f6b72f804f5ebec6335b2f022c004f346c535d10d12b9c374cd3791b"
+      }
+    },
+    {
+      "key": "historical immutable: D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_EVIDENCE_INDEX_V1.0.json",
+      "status": "PASS",
+      "detail": {
+        "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_EVIDENCE_INDEX_V1.0.json",
+        "bytes": 19404,
+        "sha256": "883db5666eb1fa2f3c343fbbdd0f8f27456e6beb4070d30281ca504cfbd6ca67"
+      }
+    },
+    {
+      "key": "historical immutable: D:/23MySec/pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md",
+      "status": "PASS",
+      "detail": {
+        "path": "D:/23MySec/pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md",
+        "bytes": 3796,
+        "sha256": "6dc915f84948344c00f8a64128d9f6dfe107f98d5b874354c82b51b3b25094ee"
+      }
+    },
+    {
+      "key": "historical immutable: D:/23MySec/pages/markets/belgium/05_review/gate4-complete-independent-v1.0/REVIEW.md",
+      "status": "PASS",
+      "detail": {
+        "path": "D:/23MySec/pages/markets/belgium/05_review/gate4-complete-independent-v1.0/REVIEW.md",
+        "bytes": 10776,
+        "sha256": "b8ba7cc0b69a85ffc1e9a8c5f0f43c21ac077de88b4e358186a72f95d63c2ce1"
+      }
+    },
+    {
+      "key": "evidence identity bindings",
+      "status": "PASS",
+      "detail": {
+        "images": 45
+      }
+    },
+    {
+      "key": "evidence category counts",
+      "status": "PASS",
+      "detail": {
+        "total_unique_images": 45,
+        "new_full_pages": 3,
+        "retained_menu_cookie_states": 5,
+        "regenerated_continuous_segments": 19,
+        "new_focus_state_images": 18,
+        "opened_new_images": 40
+      }
+    },
+    {
+      "key": "all new images visually opened",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "key": "retained state equivalence",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "key": "focused runtime",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS_PENDING_STATIC_VISUAL_READBACK",
+        "checks": 51
+      }
+    },
+    {
+      "key": "full regression runtime",
+      "status": "PASS",
+      "detail": {
+        "status": "RUNTIME_PASS_PENDING_VISUAL",
+        "checks": 115
+      }
+    },
+    {
+      "key": "focus collision acceptance",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "key": "stage boundary retained",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "key": "new frozen identities are consistent",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "failed": [],
+  "artifacts": [
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_V1.1.html",
+      "bytes": 21728,
+      "sha256": "9e58374966ad2f13de0074ecfbf24f4c69644e55d340c070d7aa9b82debc9aa3"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_INPUT_INDEX_V1.1.json",
+      "bytes": 19000,
+      "sha256": "f368d7d9a959434bbbf3f291b92bed20a7493c99f018aee08fd2f36a54002f70"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_WORKSET_V1.1.json",
+      "bytes": 1552,
+      "sha256": "7377b70a2a141aaf65ea557f29d91272f6c8c3df7ed148c02a9dc96c71de0269"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_PREFLIGHT_RECORD_V1.1.json",
+      "bytes": 2252,
+      "sha256": "440369ae3e13c289899a9d454b81de745c43c61918d2908653a4c123457bfb55"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_FREEZE_RECORD_V1.1.json",
+      "bytes": 4287,
+      "sha256": "43410a43435de2e41b0d32372bb5db18c19e12592bb1505a50af35a70c84a23b"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_EVIDENCE_INDEX_V1.1.json",
+      "bytes": 30141,
+      "sha256": "24a8b43f5663707d91c13c9d0fb614012d43e39d785f1e851ece928e11a3ac54"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_COMPOSITION_REPORT_V1.1.md",
+      "bytes": 2715,
+      "sha256": "8d063cee65b88187a977c9cf14f2805feac7f9f9379949bfbcc41967f114c849"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/05_review/MARKET-EU-BE_GATE4_BE_G4_IR_01_REVISION_RESPONSE_V1.0.md",
+      "bytes": 2765,
+      "sha256": "d7a5c6c9c66a3531cb842c3094aa65e66742686d0b9ca2db145f1c08aab7ae00"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/05_review/MARKET-EU-BE_GATE4_EXECUTION_SELF_CHECK_V1.1.md",
+      "bytes": 2110,
+      "sha256": "5a6bb125746406881cac2bf5b1924a5f580f3706f5e49f75ba9594d932773088"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/05_review/MARKET-EU-BE_GATE4_REVIEW_SUBMISSION_V1.1.md",
+      "bytes": 1540,
+      "sha256": "b1e685555d8f5b85497b90bcfda995a3c35797755f273bfaca57799774baad26"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md",
+      "bytes": 5340,
+      "sha256": "d15d5eab216720b27dad3a617fc4346381b150ce1e69c6ab0489d5f974bfd821"
+    }
+  ],
+  "image_counts": {
+    "total_unique_images": 45,
+    "new_full_pages": 3,
+    "retained_menu_cookie_states": 5,
+    "regenerated_continuous_segments": 19,
+    "new_focus_state_images": 18,
+    "opened_new_images": 40
+  },
+  "runtime_counts": {
+    "full_regression": 115,
+    "focused_repair": 51,
+    "failures": 0
+  },
+  "restrictions": {
+    "edited_scope": "Belgium page files only",
+    "root_status_index": "NOT_EDITED_BY_THIS_WORKSET",
+    "gate6": "NOT_AUTHORIZED_OR_STARTED"
+  },
+  "status": "DELIVERY_READBACK_PASS_PENDING_INDEPENDENT_FOCUSED_REREVIEW"
+}

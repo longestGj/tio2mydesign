@@ -1,0 +1,104 @@
+{
+  "pageId": "RES-TRADE-BR",
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "checkedAt": "2026-09-07T04:02:46.822Z",
+  "role": "EXECUTION_SELF_CHECK_NOT_INDEPENDENT_APPROVAL",
+  "candidate": {
+    "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/gate3-v0.1/RES-TRADE-BR_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 29790,
+    "sha256": "1832a06e8289d2dec5d56e45f2d3ff80dce4bc5580b55de2787ca892d293ccb0"
+  },
+  "checks": {
+    "approvedInputsMatch": "PASS",
+    "durableDependencies": "PASS",
+    "sharedConsumerNeutral": "PASS",
+    "contentRelationshipsMatch": "PASS",
+    "threeViewportsVisible": "PASS",
+    "touchTargets44": "PASS",
+    "mobileMenuExit": "PASS",
+    "applicableStates": "PASS",
+    "pageSpecificRisks": "PASS"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    }
+  ],
+  "sharedConsumer": {
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "bytes": 2409,
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+    "version": "V0.2",
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002"
+  },
+  "approvedInputs": [
+    {
+      "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/RES-TRADE-BR_GATE2_CONTENT_SKELETON_V0.1.md",
+      "bytes": 4759,
+      "sha256": "17209bce23f3eb3441b4ceb5a254e23e1992c63b9fbcaddb8b5de67e12861186",
+      "role": "A"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/RES-TRADE-BR_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+      "bytes": 12786,
+      "sha256": "bb83adeb1a2a21ee7b7c4d854d569d5b73ba6a9fc75421a387fe9eeded5b6c5f",
+      "role": "B"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/RES-TRADE-BR_GATE2_CONTENT_CONTRACT_V0.2.md",
+      "bytes": 10579,
+      "sha256": "0a0e9e16a5bd8334ddfcf4b1c13a5b09dc87c050c5396695b25ce2bb20108c36",
+      "role": "C"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/brazil-trade/05_review/RES-TRADE-BR_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "bytes": 2932,
+      "sha256": "3fe067d3eef4e52768b44190aebeac4ece0af52a3d8636b683c2c585f46a7bfd",
+      "role": "Review"
+    }
+  ],
+  "inputBinding": {
+    "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/gate3-v0.1/input-binding.json",
+    "bytes": 10565,
+    "sha256": "7fa9c5aa6045f2ab737f0cc1472e1ef95725e17961359a1eba27cb40af233da4"
+  },
+  "runtimeEvidence": {
+    "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/gate3-v0.1/diagnostic_support/render/runtime.json",
+    "bytes": 152811,
+    "sha256": "d9e487fe97577694dc17379ddc106acc0e0a5be86f4fc018161bbf1efc85f29d"
+  },
+  "visualEvidence": {
+    "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/gate3-v0.1/diagnostic_support/visual-preflight.json",
+    "bytes": 15778,
+    "sha256": "3ad1ad8aaf4c313dd77f85c85483c8fa37df0cf5d9f70f4961c8b7d80d5b0abe"
+  },
+  "evidenceTypes": [
+    "SOURCE_INSPECTION",
+    "ACTUAL_RUNTIME",
+    "ACTUAL_IMAGE_INSPECTION",
+    "LOCAL_SIMULATION"
+  ],
+  "formalExportsGenerated": false,
+  "limitations": [
+    "Local navigation intention only; external receivers and production consent/storage not exercised.",
+    "No new live legal research; approved dated explanation and refresh dependency preserved."
+  ],
+  "unresolvedRequiredFindings": []
+}

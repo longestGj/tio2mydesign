@@ -1,0 +1,27 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+
+const root = 'D:/23MySec';
+const out = `${root}/pages/markets/germany/04_planning/gate3-v0.1`;
+const manifestPath = `${root}/pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md`;
+const hash = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const checks = [];
+const check = (name, condition, detail = '') => checks.push({ name, status: condition ? 'PASS' : 'FAIL', detail });
+const inventory = JSON.parse(fs.readFileSync(`${out}/asset-inventory.json`, 'utf8'));
+const freeze = JSON.parse(fs.readFileSync(`${out}/freeze-record.json`, 'utf8'));
+const formal = JSON.parse(fs.readFileSync(`${out}/diagnostic_support/formal-runtime.json`, 'utf8'));
+const sourceText = fs.readFileSync(inventory.source.path, 'utf8');
+const manifestText = fs.readFileSync(manifestPath, 'utf8');
+const handoffText = fs.readFileSync(`${root}/pages/markets/germany/05_review/MARKET-EU-DE_GATE3_TO_GATE4_HANDOFF_DRAFT_V0.1.md`, 'utf8');
+check('source matches freeze and inventory', hash(inventory.source.path) === freeze.source.sha256 && hash(inventory.source.path) === inventory.source.sha256, inventory.source.sha256);
+check('formal runtime matches source and passes', formal.status === 'PASS' && formal.source.sha256 === inventory.source.sha256 && formal.checks.every(entry => entry.status === 'PASS'), { status: formal.status, checks: formal.checks.length });
+check('five approval images only', inventory.approval_core.images.length === 5 && fs.readdirSync(`${out}/approval_core`).filter(name => name.endsWith('.png')).length === 5, inventory.approval_core.images.map(entry => entry.path));
+for (const entry of [...inventory.approval_core.images, ...inventory.approval_core.reports]) check(`identity ${entry.path}`, fs.existsSync(entry.path) && fs.statSync(entry.path).size === entry.bytes && hash(entry.path) === entry.sha256, entry.sha256);
+check('all core hashes appear in Manifest', [...inventory.approval_core.images, ...inventory.approval_core.reports, inventory.source, inventory.freeze, inventory.preflight, inventory.inputBinding].every(entry => manifestText.includes(entry.sha256)), 'core identity coverage');
+check('candidate has no other business-page or temporary dependency', !/99_workspace|pages\/(?!markets\/germany)/i.test(sourceText), 'source dependency scan');
+check('candidate Manifest remains draft', manifestText.includes('DRAFT_FOR_PROJECT_CONTROL_REVIEW') && manifestText.includes('NOT_USER_APPROVED') && !manifestText.includes('PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL'), 'manifest status scan');
+check('handoff remains unready', handoffText.includes('DRAFT / NOT_READY_UNTIL_GATE3_USER_APPROVAL') && handoffText.includes('Gate 4–10 remain `NOT_AUTHORIZED`'), 'handoff status scan');
+const result = { status: checks.every(entry => entry.status === 'PASS') ? 'PASS' : 'FAIL', pageId: 'MARKET-EU-DE', source: inventory.source, coreAssets: inventory.approval_core.images.length, checks, auditedAt: new Date().toISOString() };
+fs.writeFileSync(`${out}/diagnostic_support/submission-audit.json`, JSON.stringify(result, null, 2));
+console.log(JSON.stringify(result, null, 2));
+if (result.status !== 'PASS') process.exitCode = 1;

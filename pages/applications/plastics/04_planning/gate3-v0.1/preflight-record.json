@@ -1,0 +1,129 @@
+{
+  "pageId": "APP-PLAS",
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "checkedAt": "2026-09-07T07:03:28.909Z",
+  "role": "EXECUTION_SELF_CHECK_NOT_INDEPENDENT_APPROVAL",
+  "candidate": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/APP-PLAS_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 36573,
+    "sha256": "252bc39147933465c91ad9d506dabd8b57e99e8f9122198c9af0da0c733ec55e"
+  },
+  "checks": {
+    "approvedInputsMatch": "PASS",
+    "durableDependencies": "PASS",
+    "sharedConsumerNeutral": "PASS",
+    "contentRelationshipsMatch": "PASS",
+    "threeViewportsVisible": "PASS",
+    "touchTargets44": "PASS",
+    "mobileMenuExit": "PASS",
+    "applicableStates": "PASS",
+    "pageSpecificRisks": "PASS"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    }
+  ],
+  "approvedInputs": [
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_CONTENT_SKELETON_V0.2.md",
+      "bytes": 3010,
+      "sha256": "370cefbd64f9146aaa5146989fad25312f7eb6ec0051c4a445ece74650365128",
+      "role": "A"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_FULL_BUYER_CLEAN_COPY_V0.3.md",
+      "bytes": 12318,
+      "sha256": "8db6d6fa979831e1e5c5930bdfe3ec261bb74d252304658251a37932bbea4f92",
+      "role": "B"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_CONTENT_CONTRACT_V0.3.md",
+      "bytes": 7583,
+      "sha256": "646cc89f7c331d22c77d1d71abf2f605c44d1cd2eb4fd633f8a0f72ded5aa204",
+      "role": "C"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE2_REMAINING_SEVEN_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+      "bytes": 4632,
+      "sha256": "8ed9810a96d1bde005f1d7e756995d494b13932fa386a79bbf177062997c3372",
+      "role": "Gate2Approval"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md",
+      "bytes": 8797,
+      "sha256": "c71a381b19bf4961d41a895a1e4b6ddf897bf224583561f78491cc67c3102cb4",
+      "role": "IncomingManifest"
+    }
+  ],
+  "sharedConsumer": {
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "bytes": 2409,
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+    "version": "V0.2",
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002"
+  },
+  "inputBinding": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/input-binding.json",
+    "bytes": 17587,
+    "sha256": "6a225a56d3b34659fff49f64a4dfece158389fb2b9a8bb8300d9392ffbc2060b"
+  },
+  "runtimeEvidence": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/diagnostic_support/runtime-preflight.json",
+    "bytes": 77726,
+    "sha256": "cf6887b2726f586cd6594a83651e1a2df202a7cc3f4acb3063b9f9712ed6e19e"
+  },
+  "visualReadback": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/diagnostic_support/visual-readback.json",
+    "bytes": 4331,
+    "sha256": "09351a50c4dc02a85864053d281516ad6314828247a76f936d1776a492c80ce0"
+  },
+  "sharedEvidenceInheritance": {
+    "component": "Global Header/Footer, Mobile Menu and Cookie Settings",
+    "ownerPackage": {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "bytes": 2409,
+      "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+      "version": "V0.2",
+      "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002"
+    },
+    "originalReport": {
+      "path": "D:/23MySec/99_workspace/gate3-v02-validation/shared-consumer-v0.2/shared-consumer-validation.json",
+      "bytes": 7778,
+      "sha256": "373993fb476f86d454600c75d0a4b99ae4f9a9fa7547a6eb8ed099b05f477683"
+    },
+    "inheritedCoverage": "Shared package source identity, seven current-navigation parameters, complete focus cycle, background isolation, cross-breakpoint close and colour assertions at 1440/768/390.",
+    "currentPageNoImpactBasis": "APP-PLAS embeds the page-neutral package output and has no CSS selectors or scripts targeting shared Header, Footer, menu or Cookie classes.",
+    "currentPageActualTests": "Three-view Header/Footer/current-state assembly; 768 and 390 menu open, selection close, Escape, background restore and focus return; 390 Cookie entry, close and focus return.",
+    "gaps": "Production routing, receiver behaviour and actual implementation remain Gate 8/9. No current-page anomaly triggered expanded full shared retest."
+  },
+  "evidenceTypes": [
+    "SOURCE_INSPECTION",
+    "ACTUAL_RUNTIME",
+    "STATIC_VISUAL",
+    "LOCAL_NAVIGATION_SIMULATION"
+  ],
+  "formalExportsGenerated": false,
+  "limitations": [
+    "Local navigation was prevented while testing menu selection-close so that the planning file remained loaded; this does not prove receiver routes.",
+    "APP-PLAS embeds no form. Documents, Sample and RFQ submission and receiving behaviour remain with their owners and Gate 8/9."
+  ],
+  "unresolvedRequiredFindings": []
+}

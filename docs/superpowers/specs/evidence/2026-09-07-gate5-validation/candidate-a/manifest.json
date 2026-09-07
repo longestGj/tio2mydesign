@@ -1,0 +1,83 @@
+{
+  "exerciseId": "G5-LAB-01",
+  "synthetic": true,
+  "pageRegistryId": null,
+  "url": null,
+  "primaryKeyword": "NOT_APPLICABLE_SYNTHETIC",
+  "candidate": "A",
+  "current": true,
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "packageCompleteness": "COMPLETE_FOR_RECEIVING_EXERCISE",
+  "pageApproval": "NONE",
+  "actualGate6Authorization": "NOT_AUTHORIZED",
+  "exerciseAuthorization": {
+    "decision": "G5-DESIGN-APPROVAL-01",
+    "path": "../../../2026-09-07-gate5-design-user-approval-v0.1.md",
+    "scope": "Approved Agent/Skill design and isolated validation / independent review / receiving rehearsal only"
+  },
+  "authorityOrder": [
+    {
+      "path": "../input/brief.md",
+      "scope": "Current raw exercise constraints; neutral shell, N/F, state scope, metadata and output boundary"
+    },
+    {
+      "path": "../../../../../../90_archive/skills/2026-09-07/gate4-method-validation/input.md",
+      "scope": "Unique O/C/R editorial authority: Exact visible content only"
+    },
+    {
+      "path": "../../../../../../90_archive/skills/2026-09-07/gate4-method-validation/design-v1/report.md",
+      "scope": "Concrete visual rule table only; old report claims not current evidence"
+    }
+  ],
+  "freeze": "freeze.json",
+  "freezeId": "G5-LAB-01-CANDIDATE-A-F1",
+  "sourceCombination": "320230f713e39ed5b296c5cfe6e220ab45f6d414f689f44a6d83079d687c2c74",
+  "editableEntry": "source/index.html",
+  "mediaAbsentEntry": "source/index.html?media=absent",
+  "assets": "asset-inventory.json",
+  "specification": "final-visual-report.md",
+  "preflight": "preflight.md",
+  "selfCheck": "self-check.md",
+  "receivingEntry": "G5-LAB-01_GATE5_TO_GATE6_HANDOFF.md",
+  "diagnosticEntry": "diagnostic/identity-check.json",
+  "actualRuntime": "exports/runtime.json",
+  "independentReview": {
+    "status": "PENDING_ROOT_CONTROLLED_REVIEW",
+    "record": null
+  },
+  "history": {
+    "precursor": "../../../../../../90_archive/skills/2026-09-07/gate4-method-validation/design-v1/",
+    "failedOrDiagnosticCandidates": "diagnostic/",
+    "sourceChange": "SELF-01 corrected before F1; prior app source retained"
+  },
+  "sharedComponents": {
+    "owner": "Current exercise brief",
+    "productionChrome": "NOT_APPLICABLE",
+    "productionLogo": "NOT_APPLICABLE",
+    "productionConsent": "NOT_APPLICABLE"
+  },
+  "externalImplementation": "NOT_STARTED_NOT_AUTHORIZED",
+  "openItems": [
+    {
+      "id": "LAB-LIMIT-RECEIVER",
+      "owner": "Future real conversion/receiver owner",
+      "stage": "Future Gate 7/8/9 if authorized",
+      "status": "OUT_OF_EXERCISE_SCOPE",
+      "detail": "Local preview only; no delivery"
+    },
+    {
+      "id": "LAB-LIMIT-PRODUCTION",
+      "owner": "Future shared/development owners",
+      "stage": "Future Gate 7/8/9/10 if authorized",
+      "status": "OUT_OF_EXERCISE_SCOPE",
+      "detail": "Production Chrome/Consent, CMS, scoped route, robots/canonical delivery and publishing not verified"
+    },
+    {
+      "id": "LAB-LIMIT-PLATFORMS",
+      "owner": "Future runtime/accessibility QA owner",
+      "stage": "Applicable future runtime QA",
+      "status": "UNVERIFIED_EXPLICIT_EXCLUSION",
+      "detail": "True browser UI zoom, other engines/devices and assistive-technology output not tested"
+    }
+  ]
+}

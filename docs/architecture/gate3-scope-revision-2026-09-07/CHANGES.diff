@@ -1,0 +1,1274 @@
+--- before/docs/architecture/PAGE_GATE_1_5_STANDARD_V1.3.md
++++ after/docs/architecture/PAGE_GATE_1_5_STANDARD_V1.3.md
+@@ -0,0 +1,242 @@
++# TiO2 Malaysia 页面 Gate 1–5 统一标准 V1.3
++
++> 2026-09-07：用户明确要求“现在开始定向修订”。本版仅收敛Gate 3范围、证据和审查停止条件；前版[V1.2](PAGE_GATE_1_5_STANDARD_V1.2.md)保留。阶段编号继续服从[Gate工作流V2.0](GATE_WORKFLOW_V2.0.md)，本次不实施Gate 4/5合并，不新增页面执行或开发授权。
++
++## 1. 文档控制
++
++| 字段 | 当前值 |
++|---|---|
++| Document ID | `PAGE-GATE-1-5-STANDARD` |
++| Version | `V1.3` |
++| Status | `APPROVED_PROJECT_STANDARD / ACTIVE` |
++| Approval source | 既有标准批准及2026-09-07用户“现在开始定向修订”；本版仅变更Gate 3控制条款 |
++| Effective date | `2026-09-07` |
++| Scope | `D:\23MySec` 中所有页面的 Gate 1–5 策划、内容、视觉和审批 |
++| Governing authority | 根 `AGENTS.md`、当前批准 PRD、页面登记册和页面专属 Brief |
++
++本文件是 Gate 1–5 的唯一详细流程标准。页面 Playbook 和页面专属 Brief 可以增加更严格要求，但不得降低本文件的交付、审批、版本和证据要求。
++
++## 2. 核心原则
++
++1. 所有页面使用同一 Gate 1–5 结构；页面内容可以不同，交付格式、批准规则和当前基线管理不得各自解释。
++2. 用户可以用自然语言、截图、草图、中文或英文提出页面想法。页面执行任务负责把输入规范化为 Brief、内容骨架和正式合同，不要求用户先写技术文档。
++3. 页面必须尽早让用户审查“要说什么”，再进入“怎么排”和“长什么样”。不得等完整视觉稿完成后才第一次暴露内容方向。
++4. 提交不等于批准；项目总控复审通过不等于用户批准；某一 Gate 获批不自动授权下一 Gate。
++5. 已批准旧页面不因本标准生效而自动重做。下一次修订或进入下一阶段时补齐当前 Manifest、权威引用和缺失的响应式证据。
++6. Gate 3–5 暂不调用付费 Superdesign 插件。页面执行任务继续使用项目既有的本地规格、HTML/CSS/脚本渲染、PNG 导出和人工复核流程；工具选择不得降低任何交付、响应式、内容真实性、视觉或审批标准。除非用户以后明确重新授权，否则不得因插件默认触发规则、执行任务偏好或追求视觉变体而调用 Superdesign 或产生相关费用。
++
++## 3. 用户想法的最早输入点
++
++### 3.1 Gate 0 / Gate 1：Page Intent Card
++
++每个页面的 Brief 必须包含一张用户可直接审查的 Page Intent Card：
++
++| 必填项 | 说明 |
++|---|---|
++| Audience | 主要访问者是谁 |
++| Buyer problem | 访问者需要解决什么问题 |
++| Core message | 页面最重要的一句话 |
++| Must include | 用户要求必须出现的内容、事实、图片或表达 |
++| Must exclude | 明确不出现的内容、承诺、页面关系或视觉元素 |
++| Primary CTA | 页面最主要的下一步 |
++| Secondary CTA | 可选的第二行动；没有时明确写 `NONE` |
++| Ownership boundary | 本页负责什么、哪些内容归其他页面 |
++
++Gate 1 结束前必须形成检查点 `CONTENT_INTENT_CONFIRMED`。未确认时可以继续研究，但不得把内容方向写成已批准方案。
++
++### 3.2 Gate 2：内容骨架先审，完整文案后审
++
++在制作线框前，先提交一页可快速判断的内容骨架：
++
++- H1；
++- Hero 核心信息；
++- 模块顺序；
++- 每个模块的一句话目的；
++- 主 CTA、次 CTA 及目标 URL；
++- SEO Title、Meta Description 和 Canonical 方向；
++- GEO / Schema 拟表达的实体与关系；
++- 受限事实、条件模块和隐藏规则。
++
++内容骨架确认后，再用真实完整文案完成 Gate 2。进入 Gate 3 前必须形成检查点 `FULL_COPY_AND_MODULE_ORDER_CONFIRMED`。这两个检查点属于现有 Gate，不新增 Gate 编号。
++
++## 4. Gate 1–5 标准交付
++
++### 4.1 Gate 1：研究、关键词与证据
++
++**目标：**确认页面身份、搜索意图、买家问题和可公开事实边界。
++
++**强制交付：**
++
++- 已填写的页面 Brief 与 Page Intent Card；
++- 主关键词、辅助关键词、排除关键词和防内耗边界；
++- 搜索意图、目标采购阶段、买家问题和内部页面关系；
++- 事实与证据表，至少包含来源、来源日期、适用范围和验证状态；
++- GEO 实体、可能的可引用答案和时间敏感事实清单；
++- 禁止公开、尚未验证、条件公开和明确冻结的字段；
++- `CONTENT_INTENT_CONFIRMED` 记录。
++
++**Gate 1 锁定：**页面身份、关键词所有权、事实边界和研究范围。证据缺失只冻结受影响字段，不得编造替代事实。
++
++### 4.2 Gate 2：完整内容、SEO 与 GEO 架构
++
++**目标：**在视觉布局前确认页面实际要发布的内容和机器可读表达。
++
++**强制交付：**
++
++- 已确认的内容骨架；
++- H1、Hero、全部模块标题和真实完整正文；
++- 模块顺序及每个模块帮助买家完成的判断；
++- CTA 文案、URL、预填字段、上下游内链和面包屑；
++- SEO Title、Meta Description、Canonical、索引和语言方向；
++- GEO 的实体、关系、简明答案、FAQ、来源和日期；
++- Schema 类型、字段来源和可见文案一致性规则；
++- 正常、空值、证据受限、route 未就绪和表单失败等条件状态；
++- `FULL_COPY_AND_MODULE_ORDER_CONFIRMED` 记录。
++
++**Gate 2 锁定：**真实文案、模块顺序、链接关系、CTA、SEO/GEO/Schema 事实范围。Gate 3 不得用短占位文字替换真实内容。
++
++### 4.3 Gate 3：完整内容的响应式结构验证
++
++**目标与提交停止条件：**完整批准内容与关系在三端成立；模块、标题、行动和字段位置合理；响应式重排无裁切、碰撞和操作障碍；关键状态的内容位置与行为关系清楚。批准输入、共享合同、基本可读性/可访问性及上述要求均满足后，完成自检并提交独立审查，不继续以纯视觉优化为由扩大制作。提交、独立审查与用户批准仍分别记录。
++
++**强制逻辑视口：**1440 Desktop、768 Tablet、390 Mobile，均为完整真实内容至Footer。Tablet独立判断，Mobile完整单列重排。可见控件继续检查至少44×44px的实际命中区域。780物理宽仅可登记为390 logical @2x；375、430、1024按专项结构风险补查，不默认追加全页资产。
++
++开始时在已有任务输入卡/设计说明列出“结构问题—预期关系—验证位置/视口/状态”。新增状态图或返修须关联具体结构、操作或批准合同问题；不以固定卡片数、页高、图片数或PASS数作为质量指标。
++
++**制作边界：**直接使用有效基础样式与共享组件，可以为阅读、内容关系及操作调整分组、列、宽度、换行、间距和控件位置。不要求去色或重新画灰色稿；不制作多套配色、装饰风格、阴影或媒体处理方案，不为更精致反复打磨视觉。违反批准品牌/共享合同或造成对比度、焦点可见性等实际障碍的问题仍需按责任处理，不能称为“纯视觉建议”而放行。
++
++**共享验证与页面验证分层：**有效共享owner证据在身份、合同、功能/视口覆盖均匹配且本页无影响性覆盖修改时，可以继承对应完整组件检查；本页仍实际核对版本/导航/CTA、三端连接与遮挡，适用窄屏菜单的打开、选择关闭、背景及焦点返回，以及Cookie等实际存在组件的入口与退出。继承依据、缺口和本页实测分别记录。共享版本/owner合同变化、页面样式/行为覆盖、特殊组装、证据缺失或异常触发受影响范围完整复验；不能只凭版本号或PASS摘要免检。具体方法见布局核验Skill的Gate 3范围。
++
++**正式交付：**可编辑冻结源及正式依赖、三端完整线框、必要移动菜单证据、本页结构/操作特有的关键状态证据，以及现有设计说明、自检、独立审查和当前Manifest。错误、空值、受限、展开等按真实功能覆盖；共享Cookie不默认逐页逐宽重复导出。状态图标明其解决的问题；同一证据可覆盖多个要求，额外视口需对应不同重排或未覆盖风险，无固定数量上限。长页仍须按可读比例完整查看，分段图及过程测量作为支持证据，不进入默认批准核心。
++
++共享状态图片的继承不等于本页运行验证；有效源与证据身份仍须核对。未变资产可精确引用，不重导整套；源变更后建立新冻结身份并更新受影响证据。规格、预检、自检摘要与交接导航可置于现有报告的明确章节；独立审查保持独立，不为步骤凑文件。
++
++**Gate 3锁定：**批准内容顺序、对象/字段关系、信息优先级、主要行动位置和必要响应式行为。交接把条目标为“结构约束”或“当前实现参数”；页面字号、行高、间距及非合同性的具体宽度默认属于后者。列数、控件所属区域和响应式重排不得被默认为自由参数。Gate 4可在不改变约束与owner合同的情况下调整视觉参数，并复验受影响布局；不因纯视觉参数改变自动重开Gate 3。既有已批准页面的显式锁定继续有效，本条不自动解除历史约束。
++
++**独立审查边界：**报告具体违反的要求和读者影响。内容丢失/错配、裁切/遮挡、键盘操作障碍、无有效证据的关键范围、批准合同冲突属于需解决项；无合同冲突且不影响结构、理解和操作的配色、卡片风格、精细留白建议交Gate 4，不阻塞Gate 3。CMS、真实接收及生产路由等按合同留给Gate 8/9，不把本地模拟当作实现通过。用户批准仍是关闭条件，审查返修按实际缺陷需要执行。
++
++**工具边界：**使用既有本地策划源、渲染与核验，不调用Superdesign，不实施生产开发。已批准页面成果、hash与授权保持；未来获授权工作使用本版，旧规范中相冲突的Gate 3逐页共享全量验证和视觉阻塞要求按本节解释。其他Gate规则不因此降低。
++
++### 4.4 Gate 4：视觉方向
++
++**目标：**确认本页如何使用已批准品牌系统，不在此阶段重新定义全站品牌。
++
++**强制交付：**
++
++- 色彩、字体、间距、卡片、按钮、表单、图片和图表规则；
++- 关键组件及必要状态样例；
++- Desktop、Tablet、Mobile 的密度和缩放规则；
++- 图片的证据边界、替代文本方向和无图片回退；
++- 与已批准 Home、Global Chrome 和同类页面的一致性说明。
++
++Gate 4 是视觉语言和组件方向，不要求用局部样例冒充完整页面视觉稿。
++
++**Gate 4 锁定：**本页视觉语言、组件外观、媒体规则和状态表达。
++
++### 4.5 Gate 5：完整视觉稿与当前基线
++
++**目标：**用真实文案证明页面在主要设备和关键状态下可以交付开发。
++
++**强制交付：**
++
++- `1440px` Desktop 完整页面；
++- `768px` Tablet 完整页面；
++- `390px` Mobile 完整页面，允许 `780px @2x` 导出；
++- Mobile Menu open；
++- 页面适用的重要交互、表单、错误、空值、受限、无图片和长内容状态；
++- 最终视觉规格；
++- 当前唯一 Gate 1–5 基线 Manifest。
++
++完整视觉必须检查：真实内容、首屏高度、按钮后空白、横向溢出、裁切、Footer 闭合、最小 44px 触控目标、字号、对比度和键盘/焦点状态方向。
++
++**Gate 5 锁定：**用户批准的完整视觉、文案呈现、响应式表现和交互状态。Gate 5 批准不授权 Gate 6总审与交付、Gate 8开发、部署、发布或索引。
++
++## 5. Global Chrome 统一所有权
++
++Header、Mobile Header、Mobile Menu 和 Footer 是全站共享组件，由 Home / Global Chrome owner 维护唯一生产基线。页面任务只负责：
++
++- 声明本页的 current navigation key；
++- 在完整页面中展示组装后的共享组件；
++- 验证本页正文与共享组件的连接、响应式和 Footer 闭合；
++- 引用当前 Global Chrome 规范、Manifest 和资产键。
++
++页面任务不得自行重设计、复制分叉或改变 Header/Footer，不得改变 Logo、一级导航顺序或固定 RFQ 规则。可见导航不得显示内部状态词；当前页只使用视觉 active treatment，不显示 `CURRENT` 等内部标签。
++
++## 6. 状态与批准
++
++需要用户决定的 Gate 成果统一使用以下状态链：
++
++`DRAFT_FOR_PROJECT_CONTROL_REVIEW`
++
++→ `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL`
++
++→ `APPROVED / CLOSED`
++
++规则：
++
++1. 页面任务只能提交草案，不能自行写成项目总控 PASS 或用户批准。
++2. 项目总控 PASS 后仍必须等待用户明确批准，除非当前任务卡明确授权总控独立关闭该类非用户决策项。
++3. 用户批准日期、批准对象和批准范围必须写入当前 Manifest；不得用后续推断扩大批准范围。
++4. Gate 1–5 的检查点和局部决定可以在 Brief 中记录，但不得伪装成整个 Gate 已批准。
++5. 任一 Gate 的 `APPROVED / CLOSED` 只关闭该 Gate，不自动打开下一 Gate。
++
++## 7. 当前唯一 Manifest
++
++每个页面必须维护一个当前权威文件，推荐命名：
++
++`PAGE-ID_CURRENT_GATE_BASELINE_MANIFEST_Vx.x.md`
++
++Manifest 至少包含：
++
++- Page ID、URL、页面类型和生命周期；
++- Gate 1–5 当前权威文件；
++- 当前视觉资产、逻辑/物理尺寸、版本、字节数和 SHA-256；
++- 当前 Global Chrome 版本、Manifest 和 asset keys；
++- 用户批准对象、日期和来源；
++- 被替代版本及保留路径；
++- 开放问题、事实冻结、外部依赖和下一 Gate 授权状态；
++- 明确的 authority / consumption order。
++
++同一页面不得同时存在两个未标明优先级的“current”完整 Brief、视觉规格或 Manifest。历史文件必须保留并标记 `SUPERSEDED`、`HISTORICAL` 或等效状态，不得删除或反向控制当前版本。
++
++## 8. 批准后的变更
++
++已批准内容发生实质变化时：
++
++1. 复制当前版本并升级版本号；
++2. 登记变更原因、影响范围、回退基线和新 Review ID；
++3. 只重开受影响的 Gate 或定向审查范围；
++4. 生成新 Manifest，并将旧基线标记为被替代但可回退；
++5. 涉及文案事实的变化同步检查 SEO、GEO 和 Schema；
++6. 涉及布局的变化重新检查 1440、768、390；
++7. 未获新批准前，旧批准基线继续是对外与开发权威。
++
++## 9. 既有页面过渡规则
++
++- 不要求已经批准的页面立即重做 Gate 1–5。
++- 页面下次修订或进入下一阶段时，必须建立/更新一个当前 Manifest，并明确历史版本优先级。
++- 既有页面缺少 768px 证据时，应在下一次视觉修订补齐；在补齐前必须登记为明确的 carry-forward item，不能把 1440 或 390 直接当作 Tablet 证据。
++- 既有页面的 Header/Footer 视觉可以继续作为组装证明，但生产实现和开发合同必须引用共享 Global Chrome，不得要求每页独立开发。
++- 过渡整理不得改变已经批准的页面内容、事实、视觉或阶段授权。
++
++## 10. Gate 5 提交前最小检查表
++
++- [ ] Page Intent Card 已确认。
++- [ ] 完整真实文案与模块顺序已确认。
++- [ ] 关键词、事实、SEO、GEO、Schema 和 CTA 边界一致。
++- [ ] 1440、768、390 完整证据齐全。
++- [ ] Mobile Menu 和适用状态齐全。
++- [ ] Global Chrome 只引用共享基线，无页面级分叉。
++- [ ] 无内部治理词进入 Buyer Clean。
++- [ ] 当前 Manifest 唯一且包含尺寸、版本和 SHA-256。
++- [ ] 历史版本保留并明确 superseded 状态。
++- [ ] 用户批准范围和下一 Gate 授权没有混写。
++
++## 11. 版本记录
++
++| 日期 | 版本 | 决定 |
++|---|---|---|
++| 2026-09-07 | V1.3 | 用户授权Gate 3定向收敛：结构停止条件、共享证据继承、状态图按风险、视觉建议归属和结构/参数交接。 |
++| 2026-09-07 | V1.2 | Gate 6统一总审与开发交付；Gate 7历史兼容，8/9/10编号与授权边界保持。 |
++| 2026-09-05 | V1.1 | 用户决定暂不使用付费 Superdesign 插件；Gate 3–5 继续采用既有本地设计与验证流程，交付和审批标准不变。 |
++| 2026-09-01 | V1.0 | 用户批准建立统一 Gate 1–5 标准、两个早期内容确认点、1440/768/390 视觉证据、共享 Global Chrome 所有权和单一当前 Manifest 规则。 |
+--- before/skills/layout-interaction-verification/references/gate3-structure-scope.md
++++ after/skills/layout-interaction-verification/references/gate3-structure-scope.md
+@@ -0,0 +1,38 @@
++# Gate 3结构核验范围
++
++仅在任务明确为Gate 3响应式线框时使用；其他阶段按所传合同核验，不自动继承本范围的证据减量或视觉建议处理。项目要求由[Gate标准V2.1 §4.3](../../../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md)控制，方法不授予批准权。
++
++## 检查范围与停止
++
++保留完整批准内容、关系、三端全页、触控区域、基本可读性、焦点可见性及实际操作检查。先从任务输入卡读“结构问题—预期—位置/视口/状态”；每个新增状态图或返修都对应一个具体风险/合同要求，不能为了样式探索增加资产。完整范围无阻塞问题后交回结果；实际Gate关闭仍由有权角色和用户决定。
++
++| 发现 | 处理 |
++|---|---|
++| 正文/关系丢失、裁切、CTA遮挡、必要状态无法使用、键盘障碍 | Gate 3缺陷，修复并复验 |
++| 输入身份、品牌、事实、共享合同冲突 | 交对应owner；关键冲突未解决不得写PASS，继续不依赖部分 |
++| 缺乏关键验证或继承证据不适用 | 未覆盖范围，不可用“没有发现问题”代替验证 |
++| 无合同冲突且不影响理解/操作的颜色偏好、阴影、卡片外观、细微留白建议 | 记录位置及原因，交Gate 4；不阻塞Gate 3、不生成返修图 |
++| 真实CMS、生产路由、接收、设备等未来实现项 | 记录合同依赖，交Gate 8/9；不以模拟冒充实现 |
++
++建议与缺陷按影响判断，不按它是否属于CSS判断。对比度不足、不可见焦点或违反批准品牌色仍是实际问题。不要把审美偏好写成需要全部清零的Gate 3 Finding。
++
++## 共享证据继承
++
++逐组件判断，不能一次继承整站。仅当以下条件全部可核对时复用对应owner完整检查：
++
++- 原始报告可访问，绑定有效共享源/依赖身份与owner合同，明确实际测试环境、视口、功能及状态；结论适用且无相关未关闭缺陷。
++- 当前组件源/依赖与被测来源一致；若嵌入/转换，存在可核对映射，无法证明一致则不继承。
++- 本页没有影响该组件的CSS选择器、脚本、布局上下文或行为覆盖；仅凭组件hash相同不足以判断全局CSS无影响。
++- 当前使用的功能、断点和状态在原证据内；更新了owner合同后先比对差异，旧报告不能自动覆盖新要求。
++
++本页仍实际检查当前导航/固定CTA/Logo/法律入口、三端Header—正文—Footer连接与遮挡；两个适用窄屏的菜单打开、选择关闭、背景恢复、焦点返回；Cookie等实际存在组件的入口、打开/关闭及焦点返回。本页特有状态和长内容独立检查，不能继承另一业务页的通过结果。
++
++适用的焦点循环、隐藏背景隔离、跨断点关闭等完整共享检查可引用有效owner证据。证据缺失、版本或合同不匹配、页面覆盖/特殊组装、操作异常时，对受影响组件、状态和视口完整复验；不能证明影响范围时完整复验该组件。问题由owner处理，页面错误消费由页面修正；无关的已验证部分不重新运行。
++
++在现有预检/核验报告逐组件记录：共享源与合同路径/版本/hash；原始报告路径/hash及覆盖范围；本页一致性/无影响覆盖的依据；继承了哪些检查；本页实际检查及证据；缺口和扩大复验原因。继承注明“引用共享验证”，不要标为当前页ACTUAL_RUNTIME或NOT_APPLICABLE；证据类型沿用原始实际类别，并另记来源页面/共享范围。独立审查者直接核对原报告与本页组装，不能只接受执行者的继承声明。
++
++## 图片与参数
++
++三端完整线框必须实际查看，长页逐段覆盖。菜单保留必要状态证据；相同共享状态不机械按三宽另存，只有独特重排、遮挡或无法继承的风险才新增。可用一个证据解释多个要求，但不能用一张静态图声称多端交互全部实测。测量与过程分段留在支持层，独立审查默认不再保存整套相同图片。
++
++交接区分“结构约束”和“当前实现参数”。字号、行高、间距等非明确合同值通常为参数；内容关系、顺序、列数/重排合同及行动所属区域仍为约束。共享owner的明确尺寸/样式要求不可降为自由参数。历史批准中显式锁定的值不自动放宽。
+--- before/agents/gate3-execution/agent.md
++++ after/agents/gate3-execution/agent.md
+@@ -2,10 +2,12 @@
+ 
+ ## 文档控制
+ 
+-- 角色：`agent-gate3`，响应式结构负责人；项目角色文件 V0.2，2026-09-07。
++- 角色：`agent-gate3`，响应式结构负责人；项目角色文件 V0.3，2026-09-07。
+ - 来源：[已认可角色设计](../../docs/superpowers/specs/2026-09-07-gate3-execution-agent-design-v0.1.md)、[后续批准记录](../../docs/superpowers/specs/2026-09-07-gate3-skill-method-design-v0.1.md)、[入口整理记录](../../docs/superpowers/specs/2026-09-07-gate3-agent-entry-integration-v0.1.md)及[两个真实页面复盘](../../docs/superpowers/specs/2026-09-07-gate3-two-page-process-retrospective-v0.1.md)。用户2026-09-07明确授权V0.2定向修订；V0.1原文保存在[历史快照](history/agent-v0.1.md)。
+ - 用途：由获授权的执行任务明确读取。保存本文件不等于运行注册、自动加载或某页Gate 3授权。
+ - 本文件维护职责、判断和交接；两项Skill维护具体方法；页面资料维护事实、批准与当前版本。方法已有[首轮有限验证](../../docs/superpowers/specs/2026-09-07-gate3-skill-validation-v0.1.md)，角色已在Poland市场页和Chloride Process聚合页走通至用户批准；仍不代表表格、表单、FAQ、媒体或所有页面类型已验证。
++
++本次V0.3按用户“现在开始定向修订”执行；[修订前V0.2](history/agent-v0.2-scope-control-baseline.md)保留。新范围以[Gate标准V2.1 §4.3](../../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md)和[当前基线V1.3](../../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)为准；旧页验证不代表V0.3已完成真实页面验证。
+ 
+ ## 1. 目标与权限
+ 
+@@ -15,7 +17,13 @@
+ 
+ 内容/事实/行为确需改变时，提交精确前后差异、原因、影响、风险和回退，交内容责任方及有权批准者处理。共享Header/Footer、Logo、法律和接收合同由对应owner维护；你只纠正本页的错误消费并证明组装，不另建分叉。
+ 
+-只制作策划用途的本地设计源和证据，不进入开发项目修改实现，不调用付费Superdesign。Gate 4视觉语言、Gate 5完整视觉及后续开发发布不属于本角色授权。
++只制作策划用途的本地设计源和证据，不进入开发项目修改实现，不调用付费Superdesign。Gate 4完整视觉及后续开发发布不属于本角色授权。
++
++### 1.1 制作范围与提交条件
++
++本关只确认：完整内容与关系在三端成立；标题/模块/行动/字段位置合理；重排无裁切、碰撞和操作障碍；关键状态的结构与行为关系明确。批准输入与合同、自检范围及这些条件满足后提交独立审查，不为视觉更精致继续迭代。
++
++沿用有效基础样式，不为线框重新去色。可以解决阅读和操作问题，不制作配色/装饰/阴影/媒体处理变体，不反复打磨无结构影响的字号和留白。纯视觉建议交Gate 4；违反批准品牌或造成对比度、焦点可见性障碍的问题不属于可忽略建议。
+ 
+ ## 2. 启动与有效输入
+ 
+@@ -39,7 +47,7 @@
+ 
+ 接收后只记录影响当前线框的缺口或冲突。缺少帮助/错误文字时指出具体状态并交内容责任方，继续不依赖它的布局；来源冲突核对日期、对象和范围，不能静默任选。企业事实缺证按根§2.6及当前用户决定处理，不恢复旧Hold。共享路由尚未实现时按完整网站设计并记录后续依赖，不把实现状态写入买家页面。
+ 
+-启动时形成一页任务输入卡或在设计报告开头给出等价区块：Page ID、当前Manifest、A/B/C及hash、共享owner与页面中立消费包、页面类型、真实状态矩阵、允许写入范围、正式输出位置、Gate 3授权和停止点。它只导航现有权威，不复制B全文或建立第二份Manifest。
++启动时形成一页任务输入卡或在设计报告开头给出等价区块：Page ID、当前Manifest、A/B/C及hash、共享owner与页面中立消费包、页面类型、真实状态矩阵、允许写入范围、正式输出位置、Gate 3授权和停止点。它只导航现有权威，不复制B全文或建立第二份Manifest。同一区块列出“本页结构问题—预期关系—位置/视口/状态”；新增状态图或返修说明对应问题，不能为凑资产而增加工作。
+ 
+ ## 3. 组织设计与两项方法
+ 
+@@ -52,7 +60,7 @@
+ | 新建线框或布局返修 | [responsive-wireframe-design](../../skills/responsive-wireframe-design/SKILL.md) | 传入页面任务、批准完整内容与顺序、操作及共享合同、视口/比例、允许写入范围、绝对`output_dir`和`report_path`；交回设计源、导出资产、映射/取舍、身份清单及未完成项 |
+ | 提交前核验或定向复验 | [layout-interaction-verification](../../skills/layout-interaction-verification/SKILL.md) | 传入原始要求、候选源/资产、视口/比例、绝对`report_path`及必要`evidence_dir`；复验另传原Finding和接受条件；交回检查证据、Finding、范围及未测项，不修改候选 |
+ 
+-共享Header/Footer/Cookie的后续页面规划默认从[页面中立Gate 3消费包](../../docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md)生成，并继续由其列明的Global Chrome、品牌、Logo和法律owner控制。只传当前一级导航、批准Logo路径及页面内容，不从最近完成的业务页面复制组装。共享owner更新时先核对包的适用状态；页面不能自行把包升级为新权威。
++共享Header/Footer/Cookie的后续页面规划默认从[页面中立Gate 3消费包](../../docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md)生成，并继续由其列明的Global Chrome、品牌、Logo和法律owner控制。只传当前一级导航、批准Logo路径及页面内容，不从最近完成的业务页面复制组装。共享owner更新时先核对包的适用状态；页面不能自行把包升级为新权威。按[Gate 3核验范围](../../skills/layout-interaction-verification/references/gate3-structure-scope.md)逐组件决定共享证据继承和本页实测；来源不明、覆盖修改、特殊组装或异常触发受影响完整复验，不能凭共享PASS免掉本页组装检查。
+ 
+ 设计报告、自检报告、独立审查报告使用各自明确的路径；不得覆盖他人的报告。输出路径由本页既有正式规划/线框与审查目录确定，创建前按[目录说明](../../02_DIRECTORY_GUIDE.md)检查。方法中间资料可在工作区，正式产物和唯一证据必须保存到正式页面目录。
+ 
+@@ -67,10 +75,10 @@
+ | 交付职责 | 内容 |
+ |---|---|
+ | 响应式与交互规格 | 三端结构、内容位置映射、关键转换/取舍、适用状态、共享引用及组装说明 |
+-| 完整线框资产 | 可编辑设计源、1440/768/390全页、移动菜单与适用关键状态；记录源版本、逻辑/物理尺寸、比例、状态、字节数和SHA-256 |
++| 完整线框资产 | 可编辑设计源、1440/768/390全页、必要移动菜单证据与本页结构/操作关键状态；共享Cookie不默认逐页逐宽重导；记录源版本、逻辑/物理尺寸、比例、状态、字节数和SHA-256 |
+ | 核验与问题记录 | 实际内容/关系和图像检查、几何与交互证据、全部实质Finding、未测范围及返修复验 |
+ | 页面当前Manifest | 批准上游与候选线框组合、资产身份、共享基线、审查/决定指针、开放项及下一Gate权限 |
+-| Gate 4交接表 | Gate 3批准后按[交接合同](../../docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.1.md)记录锁定结构、组件/三端/状态映射、可由Gate 4决定项和后续边界；状态不替代Gate 4授权 |
++| Gate 4交接表 | Gate 3批准后按[交接合同](../../docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md)记录锁定结构、组件/三端/状态映射、可由Gate 4决定项和后续边界；状态不替代Gate 4授权 |
+ 
+ 规格和简短自检可在同一文件的明确章节；不强造额外交付数量。Manifest不记录自身hash，不复制全文和历轮Finding；方法报告引用原文位置，不复制第二份B。
+ 
+@@ -80,11 +88,11 @@
+ 
+ ## 5. 完整自检与提交摘要
+ 
+-正式渲染前必须完成硬预检，并取得可追溯的`PASS_FOR_FORMAL_RENDER`：批准输入和当前共享来源身份一致；候选及运行依赖不以临时目录或其他业务页面为唯一来源；B内容/关系双向一致；1440/768/390诊断渲染无裁切；共享菜单选择后关闭并恢复背景；Cookie和页面专属关键状态实际可运行；可见控件达到44px宽和高。适用项失败时先修正，只保留诊断证据，不生成正式资产清单。具体方法及检查记录由设计Skill维护。
++正式渲染前必须完成硬预检，并取得可追溯的`PASS_FOR_FORMAL_RENDER`：批准输入和当前共享来源身份一致；候选及运行依赖不以临时目录或其他业务页面为唯一来源；B内容/关系双向一致；1440/768/390诊断渲染无裁切；本页菜单退出/背景恢复和Cookie入口/退出等组装操作实际可用，共享完整检查的继承须有适用原始证据；页面专属关键状态实际可运行；可见控件达到44px宽和高。适用项失败时先修正，只保留诊断证据，不生成正式资产清单。具体方法及检查记录由设计Skill维护。
+ 
+ 预检通过后确定候选冻结点：记录源的绝对路径、字节、SHA-256、批准输入组合、共享消费包版本、预检记录及时间。此后首次生成正式三端和状态资产；任何源变化都结束该冻结身份，必须建立新候选或明确替换当前未批准候选，并重导受影响资产。不得用旧图或旧观察证明新源。
+ 
+-检查三端实际全页至Footer及全部适用关键状态；风险优先不等于只看风险区域。发现问题并修复后继续覆盖余下范围。内容存在于源中、导出成功或无横向滚动，都不能代替完整可见性证据；完整显示合同下的选中值、展开及错误状态同样检查。触控目标按项目44px宽和高核对。
++检查三端实际全页至Footer及本页适用关键状态，共享完整行为按已核实的继承范围与本页实测共同覆盖；风险优先不等于只看风险区域。发现问题并修复后继续覆盖余下范围。内容存在于源中、导出成功或无横向滚动，都不能代替完整可见性证据；完整显示合同下的选中值、展开及错误状态同样检查。触控目标按项目44px宽和高核对。
+ 
+ 证据分两层。批准核心证据只含当前冻结源、三端全页、适用关键状态、输入/共享身份、资产清单、设计报告、自检和独立结论；诊断支持证据保存分段图、逐项测量、早期候选、失败与复验。两层都可追溯，但Manifest只绑定核心证据并指向诊断目录，不把全部诊断文件列成用户审阅成果。
+ 
+@@ -110,11 +118,11 @@
+ - 审查范围、风险位置、已知开放项；复验时提供稳定Finding ID、接受条件、改动位置和影响资产。
+ - 独立报告及证据的绝对输出路径、允许写入范围；被审候选与旧报告只读。
+ 
+-审查者可复用布局与交互核验Skill，但应实际读取权威输入、打开图像并按证据条件运行核验。执行者的自检/设计说明单独标识供参考，不替代原始要求，也不预写审查结论。其方法报告不自动获得总控PASS或用户批准。
++审查者使用布局与交互核验Skill时必须明确任务为Gate 3，读取其Gate 3范围；实际读取权威输入、打开图像，并核实共享证据适用性及本页操作。每个阻塞项说明违反的要求和读者影响；纯视觉偏好交Gate 4，不要求其清零才通过本关。执行者的自检/设计说明单独标识供参考，不替代原始要求，也不预写审查结论。其方法报告不自动获得总控PASS或用户批准。
+ 
+ 总控通过后，用户确认时直接展示三端线框、关键状态和需决定的具体取舍，说明变化、影响、风险与建议；文件只作追溯。`PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL`由有权总控给出，`APPROVED / CLOSED`依据实际用户决定记录；本执行角色不自行授予。
+ 
+-用户批准Gate 3后，完成页面级`{PAGE_ID}_GATE3_TO_GATE4_HANDOFF_V0.1.md`，状态为`READY_FOR_GATE4_WHEN_AUTHORIZED`。它汇总而不复制：当前批准入口、冻结结构、三端/组件/状态映射、共享owner、Gate 4可决定项、Gate 5及后续依赖。交接表就绪不等于Gate 4已授权。
++用户批准Gate 3后，完成页面级`{PAGE_ID}_GATE3_TO_GATE4_HANDOFF_V0.1.md`或既有报告的等价交接章节，由当前Manifest指向唯一入口；状态为`READY_FOR_GATE4_WHEN_AUTHORIZED`。它汇总而不复制：当前批准入口、冻结结构、三端/组件/状态映射、共享owner、Gate 4可决定项及Gate 6/8/9后续依赖。明确区分结构约束与当前实现参数；非合同性的字号/行高/间距调整由视觉阶段处理并复验，不自动重开Gate 3。既有显式锁定、列数/重排合同及owner约束不自动放宽。交接表就绪不等于Gate 4已授权。
+ 
+ ## 7. 返修与停止
+ 
+--- before/skills/responsive-wireframe-design/SKILL.md
++++ after/skills/responsive-wireframe-design/SKILL.md
+@@ -3,11 +3,13 @@
+ description: Create or revise responsive wireframes from confirmed full copy, module order and interaction contracts. Use for content-heavy layouts, technical comparisons, forms and their responsive states; deliver editable planning sources and rendered evidence. Not for rewriting copy, deciding page strategy, final visual styling or implementing a production site.
+ ---
+ 
+-# 响应式线框设计 V0.2
++# 响应式线框设计 V0.3
+ 
+ 把完整内容转成可检验的响应式结构。方法提出并制作布局候选，Agent 对方案取舍、整合和阶段提交负责。
+ 
+ 2026-09-07定向修订：在两个真实页面试跑后增加正式渲染前硬预检、候选冻结、核心/诊断证据分层及页面中立共享消费。V0.1保存在[历史快照](history/SKILL-v0.1.md)。
++
++V0.3定向收敛Gate 3制作范围、共享验证继承和状态证据；[修订前V0.2](history/SKILL-v0.2-scope-control-baseline.md)保留。
+ 
+ ## 输入与交付位置
+ 
+@@ -27,7 +29,7 @@
+ 
+ 按批准阅读顺序列出模块，沿用已有模块标识或章节位置，标明它解决的判断、必须保留的内容关系及适用状态。映射只记录位置与关系，不再抄一份完整正文。
+ 
+-从中选出最可能失效的布局：密集比较、长字段、长按钮或链接、多个选择、状态展开。先识别结构风险，不先套固定网格、页长或卡片数量。
++从中选出最可能失效的布局：密集比较、长字段、长按钮或链接、多个选择、状态展开。先识别结构风险，不先套固定网格、页长或卡片数量。在现有说明列出“结构问题—预期—位置/视口/状态”；新增状态图及返修对应具体问题。沿用有效基础样式，不制作视觉风格变体；满足内容、关系、重排与操作要求后交回，不继续做纯视觉打磨。合同冲突和实际可读性/操作障碍仍需解决。
+ 
+ ### 2. 保留语义地分组和重排
+ 
+@@ -48,17 +50,17 @@
+ 
+ TiO2 Malaysia Gate 3 按当前项目标准交付 1440、768、390 逻辑宽度。每个视口完整展示正文及共享组装；Tablet 独立决定列数和密度，Mobile 按完整单列重排。780 物理宽导出只标为 390 logical @2x，不作为 Tablet 证据。其他任务按其提供的视口合同处理。
+ 
+-为页面实际拥有的功能制作初始与关键变化状态；至少包括要求的移动菜单。选择、展开、空值、错误、提交中和结果状态按合同适用，不机械全部添加。不能因为需要演示状态而新造选项、承诺、字段或接收动作。
++为页面实际拥有的功能制作初始与关键变化状态；移动菜单保留必要证据。Gate 3共享Cookie等相同状态不默认逐页逐宽重导，独特重排或未覆盖风险才新增图；适用状态仍须有可核对的验证覆盖，不用减少图片代替检查。选择、展开、空值、错误、提交中和结果状态按合同适用，不机械全部添加。不能因为需要演示状态而新造选项、承诺、字段或接收动作。
+ 
+ 共享组件消费提供的当前基线，保留固定行动与导航映射。发现共享合同问题交回 Agent，不另造本页版本。内部测量、文件名和状态说明放在页面框外或方法报告中。
+ 
+-TiO2 Malaysia页面后续默认读取[页面中立共享消费包](../../docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md)。传入当前一级导航与批准Logo路径，从包生成Header/Footer/Cookie；不得以另一个业务页面的HTML或依赖目录作为新页面母版。包只是规划消费源，具体文字、品牌和行为仍服从其列出的owner合同。
++TiO2 Malaysia页面后续默认读取[页面中立共享消费包](../../docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md)。传入当前一级导航与批准Logo路径，从包生成Header/Footer/Cookie；不得以另一个业务页面的HTML或依赖目录作为新页面母版。包只是规划消费源，具体文字、品牌和行为仍服从其列出的owner合同。Gate 3必须按[共享继承与本页核验范围](../layout-interaction-verification/references/gate3-structure-scope.md)记录可继承的原始证据和本页实际操作；不符合继承条件则完整复验受影响范围。
+ 
+ ### 4. 正式渲染前硬预检与冻结
+ 
+ 先做诊断渲染和实际操作，全部满足后才生成正式资产。完整判据与记录格式见[预检、冻结与证据分层](references/preflight-freeze-evidence.md)。至少确认批准输入与共享来源身份、耐久依赖、B双向内容关系、三端可见性与44px命中区、覆盖层退出/背景恢复，以及本页专属高风险状态。
+ 
+-输出`PASS_FOR_FORMAL_RENDER`记录前，可运行[scripts/check-preflight-record.mjs](scripts/check-preflight-record.mjs)复算候选与依赖hash、拒绝核心源依赖`99_workspace`或其他业务页面，并检查所需判据均有实际结果。该脚本只检查记录和文件身份，不能代替浏览器操作或人工图像查看。
++输出`PASS_FOR_FORMAL_RENDER`记录前，可运行[scripts/check-preflight-record.mjs](scripts/check-preflight-record.mjs)复算候选与依赖hash、拒绝核心源依赖`99_workspace`或其他业务页面，并检查所需判据均有实际结果。该脚本只检查既有字段和文件身份，不自动判定新增的共享继承资格、工作范围或审查归属；这些由Agent与独立审查者核对，不能用脚本PASS替代浏览器操作、原始证据或图像查看。
+ 
+ 预检通过后记录冻结源的路径、字节、SHA-256、批准输入、共享包和预检记录。冻结之后才导出正式三端和状态图。源发生任何变化即产生新冻结身份；旧图片和旧核验不能继续绑定。
+ 
+--- before/skills/responsive-wireframe-design/references/preflight-freeze-evidence.md
++++ after/skills/responsive-wireframe-design/references/preflight-freeze-evidence.md
+@@ -1,6 +1,6 @@
+ # Gate 3预检、冻结与证据分层
+ 
+-在TiO2 Malaysia页面生成正式Gate 3图片前使用。本参考细化设计Skill的硬停止条件，不改变页面授权或Gate标准。
++在TiO2 Malaysia页面生成正式Gate 3图片前使用。本参考依据[Gate标准V2.1 §4.3](../../../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md)细化硬停止条件；页面授权保持。执行前读[Gate 3核验范围](../../layout-interaction-verification/references/gate3-structure-scope.md)，共享完整检查可有条件继承，本页必要操作不能继承。
+ 
+ ## PASS_FOR_FORMAL_RENDER最低条件
+ 
+@@ -9,17 +9,17 @@
+ 3. 共享Header/Footer/Cookie来自当前页面中立消费包或共享owner正式来源；当前导航、Logo、法律文字和固定CTA准确。
+ 4. B中每个可见标题、段落、字段、链接和对象关系均能从输入找到并从候选回查；无编辑标签、占位、截断或新增承诺。
+ 5. 1440、768、390诊断渲染覆盖至Footer；无隐藏裁切、横向越界、碰撞或异常固定空白；可见控件宽高均至少44px。
+-6. 两个窄屏的移动菜单实际验证打开、首焦点、Tab/Shift+Tab、Escape、选择链接关闭、背景`inert`与滚动恢复、跨Desktop断点关闭。
+-7. Cookie及本页真实状态实际走通焦点进入、循环、关闭和返回；无对应功能标为`NOT_APPLICABLE`并说明合同依据。
+-8. 页面专属风险逐项通过或形成明确开放Finding；存在阻塞布局问题时不得冻结。
++6. 两个适用窄屏的移动菜单在本页实际验证打开、选择链接关闭、背景与焦点恢复。首焦点、Tab/Shift+Tab、Escape、背景隔离、跨Desktop断点关闭等完整共享检查须由适用owner原始证据或本页完整复验覆盖；继承不成立、影响范围不明或有异常时完整复验受影响组件。
++7. 本页Cookie等共享组件实际验证入口、打开/关闭及焦点返回，完整焦点循环等共享检查按第6项的继承条件覆盖。本页特有的真实状态完整检查。无对应功能才标为`NOT_APPLICABLE`并说明合同依据，引用共享验证不能标成不适用。
++8. 页面专属风险逐项通过或形成明确开放Finding；存在阻塞内容、布局、操作、合同或关键证据问题时不得冻结。无合同冲突且不影响结构/操作的视觉建议交Gate 4，不阻断冻结；不为了清零视觉建议新增候选。
+ 
+ 预检可生成诊断截图、测量和失败记录。没有`PASS_FOR_FORMAL_RENDER`前不生成正式命名PNG、正式资产清单或提交Manifest候选。
+ 
+ ## 预检记录
+ 
+-记录至少包含：候选路径/字节/hash；批准输入与共享依赖路径/hash；上述八类结果及证据位置；浏览器/渲染器和逻辑视口；运行、静态、源码和模拟的证据类型；执行者与时间；状态。
++记录至少包含：候选路径/字节/hash；批准输入与共享依赖路径/hash；上述八类结果及证据位置；浏览器/渲染器和逻辑视口；运行、静态、源码和模拟的证据类型；执行者与时间；状态。共享证据继承时，在同一记录附逐组件来源/合同/报告路径与hash、覆盖、无影响覆盖的依据、引用检查、本页实测、缺口及扩大复验原因。现有checks仍记PASS/FAIL/NOT_APPLICABLE，PASS需由上述适用证据支持；引用范围与本页ACTUAL_RUNTIME分开。
+ 
+-`scripts/check-preflight-record.mjs`接收JSON记录，复算候选及依赖身份并检查硬字段。每项检查使用`PASS`、`FAIL`或`NOT_APPLICABLE`；只有合同确实无该功能时可用`NOT_APPLICABLE`。浏览器行为和人工图像查看必须先真实完成，不能由脚本自动推定。
++`scripts/check-preflight-record.mjs`接收JSON记录，复算候选及依赖身份并检查硬字段。每项检查使用`PASS`、`FAIL`或`NOT_APPLICABLE`；只有合同确实无该功能时可用`NOT_APPLICABLE`。浏览器行为和人工图像查看必须按本次实际范围完成，共享继承另核对原始证据；脚本不校验继承资格或证据充分性，不能自动推定。
+ 
+ ## 冻结点
+ 
+@@ -27,6 +27,6 @@
+ 
+ ## 两层证据
+ 
+-`approval_core`用于批准组合：冻结源、三端完整图、适用关键状态图、输入/共享身份、核心资产清单、设计报告、自检与独立结论。
++`approval_core`用于批准组合：冻结源、三端完整图、必要移动菜单及本页结构/操作关键状态证据、输入/共享身份与适用共享报告指针、核心资产清单、设计报告、自检与独立结论。
+ 
+ `diagnostic_support`用于发现和复现：诊断渲染、可读分段图、逐项测量与动作JSON、失败、旧候选、返修前后和局部证据。诊断资料保留但不逐项加入Manifest或默认用户展示。核心清单给出诊断目录和仍有效Finding即可。
+--- before/skills/layout-interaction-verification/SKILL.md
++++ after/skills/layout-interaction-verification/SKILL.md
+@@ -3,19 +3,25 @@
+ description: Verify responsive planning assets against authoritative content and interaction contracts. Use to inspect content visibility, comparison relationships, clipping, spacing, touch targets and state behavior across supplied viewports. Reports evidence and findings without editing the candidate; static images do not prove runtime behavior or Gate approval.
+ ---
+ 
+-# 布局与交互核验 V0.3
++# 布局与交互核验 V0.4
+ 
+ 对照权威输入与实际成果发现可读性、关系和操作问题。可用于执行自检或独立审查；使用同一方法不会使自检变成独立审查。只写核验报告和必要证据，不修改被审设计、内容、批准记录或他人审查结论。
+ 
+ 2026-09-07合并修订：在V0.2风险模型上增加Gate 4共同工作集、4A诊断与4B最终核验的范围区分。V0.2保存在[历史快照](history/SKILL-v0.2.md)，V0.1继续保留。
+ 
++V0.4在并行Gate 4合并版V0.3上增加仅对Gate 3适用的范围配置；[修订前V0.3](history/SKILL-v0.3-before-gate3-scope.md)保留。Gate 4共同工作集、4A/4B和其他阶段完整核验能力保持。
++
+ ## 输入与范围
+ 
+ 接收完整内容与顺序、动作/状态及共享合同、候选源与导出资产、视口与导出比例，以及`report_path`和必要的`evidence_dir`绝对路径。Gate 4任务还接收`workset_id`、共同`input_index`、同一`design_source`与`evidence_index`，说明本次是4A范围明确的诊断、4B冻结组合的完整检查，还是Finding定向复验；复验提供原Finding、接受条件和变化版本。
+ 
++任务明确为Gate 3时，必须读取[Gate 3结构核验范围](references/gate3-structure-scope.md)，按其共享继承条件、图像范围和问题归属检查；没有明确阶段时按完整输入合同核验，不自行启用精简范围。
++
+ 实际读取权威输入，不只采信执行方报告。共同入口中身份未变且已独立核对的材料可以引用，但不得只接受另一方法的摘要。缺少某类输入时只作其余可支持的检查，指出不能验证的具体结论；没有交互源时仍能检查静态图，但不能声称行为通过。已有报告不可擅自覆盖，也不重复导出身份相同的正式资产。
+ 
+ 4A诊断只对指定样例和风险作结论，不得外推为三端整页通过。Gate 4最终独立审查须接收4B冻结记录；冻结前的协作意见属于预检观察。源、批准组合或正式核心资产在冻结后变化时停止审查并要求新冻结身份，不把旧证据挂到新候选。一个最终审查环节可以包含Finding、返修和多次定向复审。
++
++Gate 3正式独立审查同样必须接收预检通过后的冻结记录，从准确候选及证据开始；共享继承不取消冻结身份或独立审查要求。
+ 
+ ## 方法
+ 
+@@ -66,13 +72,13 @@
+ 
+ 不为完成核验添加表单或虚构状态。实际提交、发送消息及生产操作不属于本方法。成功/错误可用本地模拟验证呈现，但记录为模拟。静态状态图只能证明所示状态外观，不能代替真实菜单操作、焦点测试或数据接收。
+ 
+-每项证据注明`ACTUAL_RUNTIME`、`STATIC_VISUAL`、`SOURCE_INSPECTION`或`LOCAL_SIMULATION`。只有实际运行的行为才能写成运行通过；源码存在监听器、静态图显示展开或检查脚本返回字符串均不能替代操作。页面共享行为在当前冻结组合中仍须核对，但不为增加PASS数量重复生成等价断言。
++每项证据注明`ACTUAL_RUNTIME`、`STATIC_VISUAL`、`SOURCE_INSPECTION`或`LOCAL_SIMULATION`。只有实际运行的行为才能写成运行通过；源码存在监听器、静态图显示展开或检查脚本返回字符串均不能替代操作。页面共享行为在当前冻结组合中仍须核对，但不为增加PASS数量重复生成等价断言。Gate 3允许按专用范围引用有效共享完整验证，并实际执行本页组装检查；引用证据注明原来源/范围，不伪称为当前页运行通过。其他阶段不自动沿用这项继承规则。
+ 
+ ### 5. 按影响形成问题并定向复验
+ 
+ 每个 Finding 包含稳定 ID、文件/模块/视口/状态位置、预期与实见、证据、读者影响、严重度及接受条件。严重度沿用任务项目口径，不另造 Gate 状态。必要时附局部证据及其在全页中的位置；避免用整张长图让 Agent 猜问题。
+ 
+-确定缺陷、有依据的改进建议和未验证事项分别记录。没有缺陷无需为了证明审查深入制造 Finding；如果关键范围没测，不能总结为全面无问题。
++确定缺陷、有依据的改进建议和未验证事项分别记录。Gate 3中无合同冲突且无结构/操作影响的纯视觉建议明确交Gate 4，不列为本关阻塞；合同偏差、不可见焦点、对比度不足等仍按实际影响处理。没有缺陷无需为了证明审查深入制造 Finding；如果关键范围没测，不能总结为全面无问题。
+ 
+ 复验读取新的实际成果，核对原接受条件及相邻回归；布局改变后检查各主要视口和受影响状态。保留原 Finding ID，并注明本次结果，不编辑旧报告或代替用户关闭 Gate。
+ 
+--- before/skills/layout-interaction-verification/references/core-risk-model.md
++++ after/skills/layout-interaction-verification/references/core-risk-model.md
+@@ -1,6 +1,6 @@
+-# Gate 3核心不变量与页面专属风险模型
++# 布局核验核心不变量与页面专属风险模型
+ 
+-核验开始时先建立两层范围。层级用于保证覆盖和控制证据规模，不是质量打分。
++核验开始时先建立两层范围。层级用于保证覆盖和控制证据规模，不是质量打分。Gate 3必须同时使用[结构核验范围](gate3-structure-scope.md)：共享完整行为可在符合条件时引用，本页组装仍实测；其他阶段按完整任务合同处理。
+ 
+ ## 固定核心不变量
+ 
+@@ -10,9 +10,9 @@
+ | 内容与关系 | 三端是否完整显示B的可见内容、顺序、对象关系和动作；是否出现输入没有的内容？ |
+ | 响应几何 | 1440/768/390是否无裁切、碰撞、横向越界和异常空白；可见控件是否宽高均至少44px？ |
+ | 共享组装 | 当前导航、固定CTA、Logo、Footer、法律/Cookie是否消费当前owner且无业务页面血缘？ |
+-| 覆盖层操作 | 适用菜单/对话框是否实际验证焦点进入、循环、退出、背景隔离和恢复？ |
++| 覆盖层操作 | 适用菜单/对话框的焦点进入、循环、退出、背景隔离和恢复是否有适用验证？Gate 3区分共享继承和当前页实测，其他阶段按传入合同实际核验。 |
+ | 动作边界 | href、上下文和选择语义是否符合C；本地记录、模拟和生产接收是否准确区分？ |
+-| 完整视觉覆盖 | 是否实际查看三端全页至Footer及全部正式关键状态，而非只看缩略图或脚本结果？ |
++| 完整呈现覆盖 | 是否实际查看三端全页至Footer及全部正式关键状态，而非只看缩略图或脚本结果？ |
+ 
+ ## 页面专属风险
+ 
+--- before/docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md
++++ after/docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md
+@@ -0,0 +1,117 @@
++# Gate 3 → Gate 4 成果交接合同 V0.2
++
++## 1. 文档控制
++
++- 日期：2026-09-07。
++- 状态：`USER_AUTHORIZED_TARGETED_REVISION / ACTIVE`。用户2026-09-07要求“现在开始定向修订”，本版按已讨论控制范围更新；[V0.1](2026-09-07-gate3-to-gate4-handoff-contract-v0.1.md)保留历史，不回写旧页交接。
++- 目的：明确页面Gate 3批准后，Gate 4完整视觉任务实际接收什么，避免Gate 4从历史报告和证据目录重新推断结构。
++- 适用对象：TiO2 Malaysia页面Gate 3执行Agent、总控和Gate 4执行Agent。
++- 不包含：修改Gate标准、批准当前Gate 4 Agent候选、自动授权任何页面Gate 4、启动Gate 4制作或开发发布。
++
++本合同遵守[页面Gate 1–4统一标准](../../architecture/PAGE_GATE_1_4_STANDARD_V2.1.md)和[Agent与Skill分工标准](../../architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md)。Gate 3锁定结构、模块顺序、信息优先级和主要交互位置；Gate 4据此决定视觉语言、组件外观、媒体规则和状态表达。
++
++## 2. Gate 4接收的五类核心成果
++
++| 核心成果 | 必须包含 | Gate 4怎样使用 |
++|---|---|---|
++| 1. 当前批准入口 | 当前Manifest、Gate 3用户批准/关闭记录、Gate 4授权状态 | 确认Page ID、URL、批准对象、冻结版本与可开始范围 |
++| 2. 上游内容与行为指针 | 批准Brief及A/B/C或等价源的精确路径、版本、hash；B仍是可见正文唯一编辑源 | 读取真实文字、事实、CTA、状态和共享合同；不使用交接文件复制出的竞争正文 |
++| 3. 冻结结构源 | 可编辑Gate 3线框源、源hash、复现所需正式依赖和资产清单 | 在已批准结构上应用视觉语言；不得凭PNG猜DOM关系或重建版式 |
++| 4. 正式结构证据 | 1440、768、390完整线框；必要移动菜单证据；本页结构/操作关键状态；共享完整验证按条件引用，不默认重复三端Cookie图 | 直接查看三端密度、模块连接、真实长内容和状态位置 |
++| 5. Gate 3→4交接表 | 锁定项、组件/状态/三端映射、共享owner、可由Gate 4决定的视觉问题、风险与后续依赖 | 成为Gate 4的工作导航，避免重新阅读全部执行历史才知道能改什么 |
++
++五类成果允许直接引用既有文件。每页Gate 3获批后应提供一份简明交接导航，可保存为页面 `05_review/` 下的 `{PAGE_ID}_GATE3_TO_GATE4_HANDOFF_V0.1.md`，也可使用已有报告中包含同等信息的明确章节；当前Manifest指向唯一入口，不重复创建同内容文件。旧页面已有交接无需重做。
++
++状态使用 `READY_FOR_GATE4_WHEN_AUTHORIZED`。文件就绪不等于Gate 4已授权；Gate 4授权仍由页面当前Manifest和用户决定控制。
++
++## 3. 标准交接表内容
++
++### A. 身份与权限
++
++- Page ID、页面名称、语言、URL与 `site_scope`。
++- 当前Gate 3批准Manifest、用户批准记录、冻结线框源及hash。
++- Gate 4状态：未授权、已授权或定向返修；明确停止点。
++
++### B. 结构锁定清单
++
++- 批准模块顺序、每个模块的读者任务和信息优先级。
++- Header、Footer、CTA、目录、表单、表格、FAQ、来源或媒体等实际组件的位置。
++- Desktop、Tablet、Mobile的列数、重排、折叠和关联关系。
++- 主要交互的位置与结果语义；哪些行为由共享或接收页owner控制。
++
++这里记录位置和关系，引用B/C原文，不复制整页正文。逐项区分“结构约束”与“当前实现参数”：内容关系、顺序、必要列数/重排、主要行动区域为约束；非合同性的字号、行高、间距、宽度为当前参数。共享owner明确值和历史批准显式锁定不得降为自由参数。Gate 4调整参数后复验受影响布局，无约束变化不自动重开Gate 3。
++
++### C. 组件、视口与状态矩阵
++
++| 区域/组件 | 1440结构 | 768结构 | 390结构 | 必要状态 | 正式证据 | owner/继承 |
++|---|---|---|---|---|---|---|
++| 页面实际区域 | 锁定关系 | 锁定关系 | 锁定关系 | 仅列实际适用状态 | 对应全页/状态图或适用共享证据；注明本页实测 | 页面、Global Chrome、法律、接收页等 |
++
++矩阵用于Gate 4选择代表样例。它不规定视觉颜色、阴影或表面处理，也不要求每个模块单独出图。每个额外状态证据注明解决的结构/操作问题；已被同一证据覆盖的要求直接引用。共享证据必须列出原始报告、来源身份、覆盖和本页实测范围，不能只写“继承PASS”。
++
++### D. Gate 4可决定与不可决定
++
++Gate 4可在批准品牌系统内决定：
++
++- 颜色用途、字体层级、行高、间距尺度和表面层级；
++- 卡片、表格、按钮、表单、引用、图标及适用状态的视觉表达；
++- 代表性媒体方向、裁切、替代文本方向和无图片回退；
++- 不改变结构关系的自然换行与内容高度；
++- 哪些真实区域最适合证明视觉方向。
++
++Gate 4不可自行改变：
++
++- 正文、事实、模块顺序、列数与响应式重排关系；
++- 控件所属区域、CTA目标、字段类型、必填性、选择数量或结果语义；
++- 页面职责、URL、关键词、Schema事实边界及共享owner合同；
++- 用视觉暗示未批准的性能、推荐、认证、来源或运行状态。
++
++若视觉制作确需改变不可决定项，按问题归属定向交回Gate 3或内容/行为owner。
++
++### E. 视觉风险与代表样例建议
++
++只写会影响Gate 4取样的真实风险，例如最长技术字段、最密集比较、复杂选择、来源归属、深浅背景切换或无图片分支。每项说明：风险位置、需证明的视觉问题、建议视口/状态。它是任务输入，不预先指定视觉答案。
++
++### F. 共享与后续边界
++
++- 当前品牌、Logo、Global Chrome、法律/CMP及适用同类页面的owner入口。
++- 本页导航当前项、固定CTA和共享组件连接规则。
++- Gate 3未验证的生产路由、接收、真实设备、读屏等后续事项。
++- 视觉阶段仍需完成的全页视觉验证及待处理的纯视觉建议；其编号/衔接按已并行批准的[Gate工作流V3.0](../../architecture/GATE_WORKFLOW_V3.0.md)，完整视觉由Gate 4负责。
++
++## 4. 支持证据不作为默认成果包
++
++下列资料必须保留并可追溯，但Gate 4默认不需要逐份加载：
++
++- 执行自检全文、总控独立审查全文和原始测量JSON；
++- 分段查看图、焦点过程图、逐链接检查和身份复算明细；
++- 已修复attempt、旧候选、失败截图和返修过程文件；
++- 与最终冻结组合重复的独立重渲染图片。
++
++当前Manifest和交接表必须给出这些资料的位置及仍有效Finding。Gate 4遇到身份争议、结构疑问或相关风险时再打开。历史资料不删除，也不进入买家页面或被包装成视觉要求。
++
++## 5. 交接完成标准
++
++Gate 4执行Agent只读核心成果后，应能明确回答：
++
++1. 哪个Gate 3源和哪些三端/状态图已经批准？
++2. 本页模块顺序、信息优先级和响应式关系是什么？
++3. 哪些组件及状态必须由视觉方向覆盖，哪些规则可复用？
++4. 哪些文字、事实、行为和共享组件不能改变？
++5. 哪些视觉决定尚未作出，Gate 4应拿什么真实区域来证明？
++6. 哪些属于Gate 4完整视觉或后续实现/验收事项？
++
++任何一项只能通过翻查历史尝试或猜测得到，交接尚未完成。缺少关键输入时Gate 4指出具体缺口并继续不依赖部分，不自行补造结构或视觉事实。
++
++## 6. 版本与变更
++
++- Gate 3候选送用户前可先准备交接表草稿；只有用户批准对应冻结组合后，才标记 `READY_FOR_GATE4_WHEN_AUTHORIZED`。
++- Gate 3批准后发生结构变化，旧交接表保留历史，按受影响范围升版并重新获得所需批准；未获新批准前旧批准基线继续有效。
++- Gate 4从批准结构开展方向与完整视觉制作，不反向覆盖Gate 3批准源。
++- 当前Manifest仍是页面唯一阶段入口；交接表是工作导航，不建立第二个状态权威。
++
++## 7. 兼容与审查使用
++
++旧交接、批准图与Manifest原样保留，不因本版要求重做。未来获授权工作按本版交接；旧页显式锁定的约束不自动放宽。纯视觉参数与结构约束存在歧义时读取原批准范围，不由新字段推定用户解除锁定。
++
++Gate 4审查纯视觉建议不反向要求Gate 3清零；若确需改变结构约束，按实际影响定向交回。Gate 6总审继续核对合同一致性，Gate 9按批准最终视觉与行为验证开发结果，不能把Gate 3共享证据继承作为生产免检依据。
+--- before/AGENTS.md
++++ after/AGENTS.md
+@@ -4,7 +4,7 @@
+ 
+ 适用 `D:\23MySec`：研究、内容/页面架构、视觉、SEO/GEO、开发交付规格与只读验收。WordPress、Next.js、CMS、代码、测试实现、修复、合并、部署及发布属于独立开发项目；本任务不得在 `D:\16Wordpress_nextjs` 执行这些操作。
+ 
+-先完整读取本文件和[PROJECT_CONTEXT](PROJECT_CONTEXT.md)，涉及任何Gate的解释、执行、审查、交接或Agent/Skill设计，另必读[当前Gate工作流](docs/architecture/GATE_WORKFLOW_V3.0.md)；再按第4节读取任务资料；本轮已读且未变的不重复加载。进入子目录执行前读取适用AGENTS；链接和子目录规则不假设自动加载。
++先完整读取本文件和[PROJECT_CONTEXT](PROJECT_CONTEXT.md)，涉及任何Gate的解释、执行、审查、交接或Agent/Skill设计，另必读[当前Gate工作流](docs/architecture/GATE_WORKFLOW_V3.0.md)；Gate 3另按[当前标准§4.3](docs/architecture/PAGE_GATE_1_4_STANDARD_V2.0.md)及[Agent/Skill当前基线](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)执行，旧规范相冲突的Gate 3制作/检查范围按该定向修订解释；再按第4节读取任务资料；本轮已读且未变的不重复加载。进入子目录执行前读取适用AGENTS；链接和子目录规则不假设自动加载。
+ 
+ 本文件管规则；[状态](00_PROJECT_STATUS.md)管进度，[索引](01_PROJECT_INDEX.md)管导航，[目录说明](02_DIRECTORY_GUIDE.md)管放置；不要求每项任务通读全部入口或历史。
+ 
+@@ -41,7 +41,7 @@
+ - 每页一个当前权威 Manifest，明确其组合基线及历史版本。生命周期、关键词状态、事实状态、外部实施状态分开；`PROVISIONAL`不自动变批准。审查流：`DRAFT_FOR_PROJECT_CONTROL_REVIEW` → `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL` → `APPROVED / CLOSED`。
+ - Gate 0准入；1研究/意图确认；2完整文案/模块顺序确认；3线框；4完整视觉设计与验证（4A方向内部检查、4B唯一正式关闭）；5为历史编号（职责并入4，不再单独执行）；6策划总审与开发交付；7为历史编号（职责并入6，不再单独执行）；8外部技术承接与开发；9只读验收；Gate 10发布授权。当前流程4→6→8是正常衔接。旧Gate 7文件、hash、批准和限制按当前工作流兼容，既有授权不扩大。不得跳过有效Gate或把提交/自检/定时运行视为批准；已明确授权的连续流程按原范围执行。
+ - 页面必须有登记身份和批准 Brief；不得增加页面/URL/主关键词或侵占其他页职责。新页面做URL、主词与意图去重；`NO_PRIMARY_KEYWORD`不强造商业主词。Schema仅表达与批准可见内容一致的事实。
+-- Gate 3/4完整1440 Desktop、768 Tablet、390 Mobile；780仅作390 logical @2x。真实长文案、完整模块、移动菜单与关键状态必须验收；视觉/无障碍详细标准按第4节。暂不调用付费Superdesign。
++- Gate 3/4完整1440 Desktop、768 Tablet、390 Mobile；780仅作390 logical @2x。真实长文案、完整模块、移动菜单与关键状态必须验收；Gate 3共享验证继承、必要状态图和结构审查停止条件按当前标准§4.3，其他阶段不自动精简；视觉/无障碍详细标准按第4节。暂不调用付费Superdesign。
+ - Header/Footer由Home/Global Chrome owner共用维护，页面只声明导航状态并证明组装，不另开发分叉；固定RFQ，不显示买家可见 `CURRENT` 标签。品牌、生产SVG、CTA与法律共享区引用当前合同。
+ - 开发合同要求 `site_scope=tio2-my`，覆盖查询/路由/缓存/菜单/SEO/表单/媒体，禁止跨scope fallback及向其他站泄露。只读QA发现问题发给开发任务，不直接修代码。验收通过≠已发布。
+ - 变更页面、事实、架构、关键词、导航、交付隔离或发布条件，先列原因、影响、风险、回退和同步文件并获批准。保留用户编辑和历史；批准范围变化升版本，不覆盖历史批准源，不删除资料。正式成果不放临时目录。
+@@ -68,3 +68,4 @@
+ 
+ 2026-09-06用户批准入口重构，见[迁移记录](docs/architecture/PROJECT_ENTRY_RESTRUCTURE_MIGRATION_V1.0.md)；不改变页面、事实、Gate或发布授权。
+ 
++
+--- before/01_PROJECT_INDEX.md
++++ after/01_PROJECT_INDEX.md
+@@ -6,17 +6,17 @@
+ 
+ | 要了解什么 | 当前入口 |
+ |---|---|
+-| 当前Gate职责与历史兼容 | [Gate工作流V2.0](docs/architecture/GATE_WORKFLOW_V2.0.md)：Gate 6统一策划总审与交付；Gate 7不再单独执行，8/9/10编号保持；[全库盘点与同步记录](docs/architecture/GATE6_CONSOLIDATION_AUDIT_AND_CHANGE_RECORD_V1.0.md)。不改变下列页面批准与授权。 |
++| 当前Gate职责与历史兼容 | [Gate工作流V3.0](docs/architecture/GATE_WORKFLOW_V3.0.md)：原Gate 4/5合并为完整视觉Gate 4，原Gate 7职责并入Gate 6；5/7保留历史编号，8/9/10保持。不改变下列页面批准与授权。 |
+ | 稳定规则/阅读路由 | [AGENTS](AGENTS.md) |
+ | 全站前四环节已有结论 | [PROJECT_CONTEXT](PROJECT_CONTEXT.md) |
+ | 页面进度、未决项与当前页面指针 | [PROJECT_STATUS](00_PROJECT_STATUS.md) |
+ | 文件放置、旧路径对应 | [DIRECTORY_GUIDE](02_DIRECTORY_GUIDE.md) |
+-| 詳细治理（保留原章编号） | [治理细则V1.1](docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.1.md) |
+-| Gate 1–5流程/质量标准 | [PAGE_GATE_1_5_STANDARD_V1.2](docs/architecture/PAGE_GATE_1_5_STANDARD_V1.2.md) |
++| 詳细治理（保留原章编号） | [治理细则V1.2](docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.2.md) |
++| Gate 1–4流程/质量标准 | [PAGE_GATE_1_4_STANDARD_V2.1](docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md) |
+ | 全站Gate1责任与逐页确认 | [Gate1串行控制V1.0](docs/architecture/GATE1_SITE_WIDE_SERIAL_CONTROL_V1.0.md)：本controller只负责Gate1；子代理执行、总控独立审查、用户确认一页再启动下一页；Gate2由用户指定的其他controller负责。57页覆盖盘点不等于批量重做或全部已独立验收。 |
+ | Agent与Skill职责 | [分工标准V1.0](docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md) |
+-| Gate 6 Agent与方法设计 | [首版设计V0.1](docs/superpowers/specs/2026-09-07-gate6-agent-skill-design-v0.1.md)：一个[策划总审与交付Agent](agents/gate6-review-delivery/agent.md)，两项新方法（合同一致性核验、开发交付规格整理），复用布局核验；[有限独立验证](docs/superpowers/specs/2026-09-07-gate6-skill-validation-v0.1.md)及Poland真实总审/独立包复核完成。详细设计仍为候选；Poland Gate6成果待用户批准，未注册、未外发或授权开发。 |
+-| Gate 5 Agent与方法设计 | [首版设计V0.1及Gate 5→6接收合同](docs/superpowers/specs/2026-09-07-gate5-agent-skill-design-v0.1.md)已获[用户批准并授权继续验证](docs/superpowers/specs/2026-09-07-gate5-design-user-approval-v0.1.md)；[角色V0.1](agents/gate5-execution/agent.md)＋[完整页面视觉制作V0.1](skills/full-page-visual-composition/SKILL.md)，复用布局与交互核验。[有限隔离验证](docs/superpowers/specs/2026-09-07-gate5-skill-validation-v0.1.md)后，Poland与Chloride Process两个首批真实页面完成子代理执行、根任务独立审查及用户批准关闭；[两页真实流程复盘](docs/superpowers/specs/2026-09-07-gate5-two-page-process-retrospective-v0.1.md)记录三层证据、状态适用性、工具误报辨别、冻结复跑和Gate 6接收经验。随后[Spain与DOC-COO固定串行](docs/architecture/GATE5_TWO_ELIGIBLE_PAGE_SERIAL_CONTROL_V1.0.md)亦完成制作、独立审查并获用户“批准”关闭；两页Gate 6只就绪未授权。Agent/Skill正文尚未据此升版。 |
++| Gate 4完整视觉Agent与方法 | [当前基线Manifest V1.1](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md)：一个[完整视觉执行Agent](agents/gate4-complete-visual/agent.md)，三项能力Skill及[共同工作合同](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md)。4A为内部方向检查，4B冻结后进入唯一最终独立审查环节；旧Gate 4/5角色与成果保留历史。Belgium仍暂停，本次设计批准不恢复页面执行。 |
++| Gate 6 Agent与方法设计 | [当前角色V0.2](agents/gate6-review-delivery/agent.md)引用有效Gate 4最终审查证据，只复核变化、缺口和合同冲突；继续负责整体策划一致性、问题闭环、唯一开发交付包及Gate 9接受条件。[历史设计V0.1](docs/superpowers/specs/2026-09-07-gate6-agent-skill-design-v0.1.md)及验证记录保留；角色源不授权具体页面、外发或开发。 |
+ | 项目自有Skill | [方法源目录](skills/README.md)；[迁出与三方法拆分](docs/architecture/PROJECT_SKILL_DIRECTORY_AND_GATE1_SPLIT_V1.0.md) + [批准设计](docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-design-v0.1.md) + [第一项方法源](skills/search-intent-evidence-analysis/SKILL.md) + [文件交接合同与验证V0.4](docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-validation-v0.4.md)：先保存并读回，再返回路径/摘要/未完成事项；四条工具路径的方法验证保留于 V0.3；未安装/未正式启用 |
+ | Gate 1执行Agent角色 | 当前项目角色文件：[agent.md](agents/gate1-execution/agent.md)，由[已批准角色说明V0.7](docs/superpowers/specs/2026-09-06-gate1-execution-agent-design-v0.7.md)整理；未安装或运行平台注册。2026-09-06按用户要求由Italy子代理明确读取角色、执行Skill、保存方法报告并读回综合，四核心交付不变；[Italy当前记录V0.3](pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md)已完成独立复审、用户内容批准及Gate 1正式关闭。[Germany当前记录V0.3](pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md)已补齐独立总控审查PASS并于2026-09-07正式关闭Gate 1，DE-D02可选事实未批准且不阻塞。两页后续Gate授权及进度由相应Controller管理；第二项问题驱动研究Skill暂缓，未创建。旧角色设计保留历史 |
+ | Gate 2执行Agent设计与交付 | 当前项目角色：[agent.md](agents/gate2-execution/agent.md) V0.5；[设计收束V0.7](docs/superpowers/specs/2026-09-06-gate2-execution-agent-design-v0.7.md)与[当前交付结构V0.4](docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md)。两步流程保持；Buyer冷读必须扫描完整页面，外部公司/品牌/链接/事实触发第三方来源表达精度检查。C仅因动作、事实/来源范围、机器语义、模块职责或条件渲染变化升级；Manifest仅因实质阶段或权威组合变化升级。V0.4保存为Chemours测试基线，未建立Gate 2专属Skill。 |
+@@ -24,15 +24,14 @@
+ | Gate 2串行Full Copy批次 | [历史12页总控合同V1.1](docs/architecture/GATE2_SERIAL_FULL_COPY_CONTROL_V1.1.md)已完成并登记用户结果；[当前七页串行控制V1.0](docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md)已获授权，按Germany、Italy、Coatings、Plastics、Masterbatch、Printing Inks、Paper顺序逐页完成执行、独立Buyer Review、返修复核与总控复核，全部完成后统一交用户审核。两批均不自动授权Gate3。 |
+ | Spain当前页面任务 | [当前Manifest V0.12](pages/markets/spain/MARKET-EU-ES_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md)：Gate1–5已`APPROVED / CLOSED`；[ES-G5-APPROVAL-01](pages/markets/spain/05_review/MARKET-EU-ES_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md)。[Gate 5→6正式接收](pages/markets/spain/05_review/MARKET-EU-ES_GATE5_TO_GATE6_HANDOFF_V0.1.md)已就绪，Gate6及后续未授权。 |
+ | DOC-COO当前页面任务 | [当前Manifest V0.12](pages/documents/certificate-of-origin/04_planning/DOC-COO_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md)：Gate1–5已`APPROVED / CLOSED`；[COO-G5-APPROVAL-01](pages/documents/certificate-of-origin/05_review/DOC-COO_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md)。六模块、文档预选合同及事实边界保持；[Gate 5→6正式接收](pages/documents/certificate-of-origin/05_review/DOC-COO_GATE5_TO_GATE6_HANDOFF_V0.1.md)已就绪，Gate6及后续未授权。 |
+-| Netherlands当前页面任务 | [当前Manifest V0.7](pages/markets/netherlands/MARKET-EU-NL_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md)：Gate1–4关闭；V0.2修复正文链接标点间距并通过独立复验；Gate5输入就绪但未授权。VVVF归属、三类应用、文档数量规则及Netherlands询价上下文保持。 |
+-| Belgium当前页面任务 | [当前Manifest V0.6](pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md)：Gate1–3关闭，Gate4按八页预授权串行执行；产品形态限定、三类买家语境、文件规则及Belgium询价上下文保持。 |
++| Netherlands当前页面任务 | [当前Manifest V0.7](pages/markets/netherlands/MARKET-EU-NL_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md)：旧Gate4方向关闭；已批准方向和42张证据继续有效。当前完整Gate4只补实际4B缺口，尚未授权继续执行。 |
++| Belgium当前页面任务 | [当前Manifest V0.6](pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md)：Gate1–3关闭，旧Gate4执行暂停。合并决定不自动恢复，也不把原方向授权扩展为完整视觉；恢复范围须另行明确。 |
+ | Poland当前页面任务 | [当前Manifest V0.20](pages/markets/poland/MARKET-EU-PL_CURRENT_GATE_BASELINE_MANIFEST_V0.20.md)：Gate1–5已批准关闭；用户指定本页执行Gate6，综合审查与新包独立核验完成，实质必修Finding 0。[Gate6提交](pages/markets/poland/05_review/MARKET-EU-PL_GATE6_REVIEW_SUBMISSION_V0.1.md)为`PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL`，12项Gate9接受条件及6类后续依赖已整理；没有外发或Gate8–10授权。 |
+ | RES-CHEMOURS当前页面任务 | [当前Manifest V0.17](pages/resources/chemours-alternatives/RES-CHEMOURS_CURRENT_GATE_BASELINE_MANIFEST_V0.17.md)；Gate 1–3已`APPROVED / CLOSED`。用户2026-09-07回复“通过。”批准Gate 3 V0.2冻结组合；[批准与关闭记录](pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_USER_APPROVAL_AND_CLOSURE_V0.1.md)和[Gate 3→4交接表](pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_TO_GATE4_HANDOFF_V0.1.md)已完成，后者为`READY_FOR_GATE4_WHEN_AUTHORIZED`。Mapping/indexing继续独立待决，Gate 4未授权。 |
+ | Chloride Process当前页面任务 | [当前Manifest V0.22](pages/products/chloride-process/PRODUCT-PROC-CL_CURRENT_GATE_BASELINE_MANIFEST_V0.22.md)：Gate 1–5已`APPROVED / CLOSED`；[CL-G5-APPROVAL-01](pages/products/chloride-process/05_review/PRODUCT-PROC-CL_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md)。Gate 5→6接收已就绪，Gate 6–10未授权。 |
+-| Gate 3 Agent与方法 | [当前基线Manifest V1.2](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md)是单一总入口；当前项目角色[agent.md](agents/gate3-execution/agent.md) V0.2，配套[线框设计方法](skills/responsive-wireframe-design/SKILL.md) V0.2、[布局交互核验方法](skills/layout-interaction-verification/SKILL.md) V0.2、[页面中立共享消费包V0.2](docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md)及[Gate 3→4交接合同V0.1](docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.1.md)。[第三页实测V0.2](docs/superpowers/specs/2026-09-07-gate3-v0.2-live-test-result-v0.2.md)已完成执行、自检、独立审查及用户批准关闭。未运行注册，也未授权任何Gate 4。 |
++| Gate 3 Agent与方法 | [当前基线Manifest V1.3](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)：[执行角色V0.3](agents/gate3-execution/agent.md)、[线框设计V0.3](skills/responsive-wireframe-design/SKILL.md)、[布局核验V0.4](skills/layout-interaction-verification/SKILL.md)及[交接合同V0.2](docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md)。用户授权范围控制定向修订，标准§4.3为准；[修订与校验记录](docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md)。历史V0.2页面验证保留，V0.3尚未做真实新页面试跑；不扩大页面授权。 |
+ | Gate 3八页串行批次 | [当前串行控制V1.8](docs/architecture/GATE3_EIGHT_PAGE_SERIAL_CONTROL_V1.8.md)：八页均已由子代理严格串行完成，并经总控独立审查按预授权关闭Gate3；[完成审计](docs/architecture/GATE3_EIGHT_PAGE_SERIAL_COMPLETION_V1.0.md)核对8个冻结源、64张正式图及全部审查/关闭/交接记录，身份差异0。本合同不授权Gate4–10。 |
+ | Gate 3五个Resource串行批次 | [当前串行控制V1.6](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_CONTROL_V1.6.md)：五页均已严格串行完成并按预授权关闭Gate3；[完成记录](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_V1.0.md)与[机器审计](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_AUDIT_V1.0.json)确认5个冻结源、40张正式图、身份差异0、失败页0。 |
+-| Gate 4 Agent与方法设计 | [细化记录V0.2](docs/superpowers/specs/2026-09-07-gate4-agent-skill-design-v0.2.md)及[初版历史V0.1](docs/superpowers/specs/2026-09-07-gate4-agent-skill-design-v0.1.md)；[Agent候选源](agents/gate4-execution/agent.md)与[品牌应用和视觉样例Skill候选](skills/brand-applied-visual-design/SKILL.md)保持V0.1。[有限隔离验证](docs/superpowers/specs/2026-09-07-gate4-skill-validation-v0.1.md)后，已按用户授权完成[Poland首个真实页面制作、自检、独立初审、返修与复验](pages/markets/poland/05_review/MARKET-EU-PL_GATE4_PROJECT_CONTROL_REVIEW_V0.1.md)，Poland与Chloride Process方向均已获用户批准关闭；[两页流程复盘](docs/superpowers/specs/2026-09-07-gate4-two-page-process-retrospective-v0.1.md)总结页面判断、真实状态、独立审查及采集经验。未据此改写方法正文或普遍批准、运行注册。Gate 2不设专属Skill。 |
+ | 本次入口重构记录 | [迁移与核验](docs/architecture/PROJECT_ENTRY_RESTRUCTURE_MIGRATION_V1.0.md) |
+ 
+ ## 2. 定位、架构与事实权威
+@@ -102,3 +101,7 @@
+ 
+ 
+ 
++
++
++
++
+--- before/00_PROJECT_STATUS.md
++++ after/00_PROJECT_STATUS.md
+@@ -1,20 +1,20 @@
+ # TiO2 Malaysia · 当前项目状态
+ 
+-> 流程解释更新（2026-09-07）：按[Gate工作流V2.0](docs/architecture/GATE_WORKFLOW_V2.0.md)，原Gate 7交付职责并入Gate 6；以下页面状态、历史Gate 7结果及权限保持原记录，不据此自动关闭或开启任何阶段。
++> 流程解释更新（2026-09-07）：按[Gate工作流V3.0](docs/architecture/GATE_WORKFLOW_V3.0.md)，原Gate 4/5合并为当前Gate 4，4A为内部方向检查、4B为唯一正式关闭；原Gate 7职责继续并入Gate 6。历史页面状态、文件名、批准和权限保持，成果映射不等于继续执行授权。
+ 
+-> 快照：2026-09-07 / V0.253。用户授权Gate 2 Controller对12个Gate1已关闭、Gate2未开始页面按DOC-COO起始的固定队列串行完成Full Copy、独立Buyer Review与总控复核；中间不逐页提交用户，全部完成后统一由用户审核；该Gate2合同本身不授权Gate3，后续八页Gate3串行授权见第二段。批次合同见 `docs/architecture/GATE2_SERIAL_FULL_COPY_CONTROL_V1.1.md`；12页固定串行队列已完成；前七页及RES-R706、EU/UK/India/Brazil五个Resource页均已获用户批准并关闭Gate2，五页批准记录为`G2-5RESOURCE-APPROVAL-01`；用户现已授权这五页按`G3-5RESOURCE-SERIAL-01`使用子代理严格串行执行Gate3。PRODUCT-PROC-CL Gate2全文与模块顺序、Gate3三端线框与关键状态均已获用户批准并关闭，当前Manifest V0.19，Poland与本页Gate4方向均已获用户批准关闭；PRODUCT-PROC-SU、RES-TRADE-EU、RES-TRADE-UK、RES-TRADE-IN与RES-TRADE-BR Gate1均已获用户批准并关闭，其他Gate2由相应controller负责。用户明确“APP都不要”，因此本Gate1串行任务跳过所有Applications页面且不改其现有成果/owner状态；该范围不取消独立的Application文章工作。RES-TRADE-BR的802/2025最终措施、850/2026名单修订、四档税额、Ex-001及公共利益程序边界已经Agent→项目Skill→总控独立复核，并获用户2026-09-06回复“同意”批准`BR-TRADE-D01`；Gate2由其他controller负责。APP-PLAS与APP-INK此前的根目录直出稿均不构成受治理D22成稿，用户要求两篇重新按流程制作；两篇受治理流程均已完成。用户现已批准APP-MB、APP-INK与APP-PAPER三个当前精确成稿作为正式对外内容输入；连同此前获批的APP-COAT与APP-PLAS，五个已登记Application主类目均已有用户批准文章。Application文章Controller后续专责持续发现、评估、排序和派发二级应用文章主题；D22只负责获批题目的文章研究与写作。当前选题总计划已整理5篇已批准主文章、42个候选题材及28个逐题研究单元；用户已批准R01 WRITE方向；R01读者质量定向修订已在不回退A03的情况下完成，新RQR与独立A00通过，D23已核对六项精确哈希并确认SOP blocker关闭，现等待用户批准修订正文；R02及后续单元未启动。所有文章内容批准均不授权页面Gate、HTML、开发或发布。Spain、DOC-COO、Netherlands、Belgium、India、Brazil EN/PT及Sulfate Process的当前Full Copy与模块顺序已获用户批量批准，八页Gate2均关闭；批准组合见G2-8PAGE-APPROVAL-01。Brazil English与Brazil Portuguese Gate1均已批准关闭；PT-BR D01方向/CTA、D02葡语COO和D03规划路径已获用户“批准。”确认，V0.2批准组合及决定登记V1.8已完成。由本Controller负责的新Market页面Gate1串行队列至此全部完成。Belgium、India、Netherlands、Poland、Italy既有决定保持。RES-PROC既有比较审查及其他任务状态不在本轮改写，没有新增开发或发布授权。“已通过”均指已有记录；运行时依赖须在发布前新鲜复验，历史探针不是今天的结果。
++> 快照：2026-09-07 / V0.254。用户授权Gate 2 Controller对12个Gate1已关闭、Gate2未开始页面按DOC-COO起始的固定队列串行完成Full Copy、独立Buyer Review与总控复核；中间不逐页提交用户，全部完成后统一由用户审核；该Gate2合同本身不授权Gate3，后续八页Gate3串行授权见第二段。批次合同见 `docs/architecture/GATE2_SERIAL_FULL_COPY_CONTROL_V1.1.md`；12页固定串行队列已完成；前七页及RES-R706、EU/UK/India/Brazil五个Resource页均已获用户批准并关闭Gate2，五页批准记录为`G2-5RESOURCE-APPROVAL-01`；用户现已授权这五页按`G3-5RESOURCE-SERIAL-01`使用子代理严格串行执行Gate3。PRODUCT-PROC-CL Gate2全文与模块顺序、Gate3三端线框与关键状态均已获用户批准并关闭，当前Manifest V0.19，Poland与本页Gate4方向均已获用户批准关闭；PRODUCT-PROC-SU、RES-TRADE-EU、RES-TRADE-UK、RES-TRADE-IN与RES-TRADE-BR Gate1均已获用户批准并关闭，其他Gate2由相应controller负责。用户明确“APP都不要”，因此本Gate1串行任务跳过所有Applications页面且不改其现有成果/owner状态；该范围不取消独立的Application文章工作。RES-TRADE-BR的802/2025最终措施、850/2026名单修订、四档税额、Ex-001及公共利益程序边界已经Agent→项目Skill→总控独立复核，并获用户2026-09-06回复“同意”批准`BR-TRADE-D01`；Gate2由其他controller负责。APP-PLAS与APP-INK此前的根目录直出稿均不构成受治理D22成稿，用户要求两篇重新按流程制作；两篇受治理流程均已完成。用户现已批准APP-MB、APP-INK与APP-PAPER三个当前精确成稿作为正式对外内容输入；连同此前获批的APP-COAT与APP-PLAS，五个已登记Application主类目均已有用户批准文章。Application文章Controller后续专责持续发现、评估、排序和派发二级应用文章主题；D22只负责获批题目的文章研究与写作。当前选题总计划已整理5篇已批准主文章、42个候选题材及28个逐题研究单元；用户已批准R01 WRITE方向；R01读者质量定向修订已在不回退A03的情况下完成，新RQR与独立A00通过，D23已核对六项精确哈希并确认SOP blocker关闭，现等待用户批准修订正文；R02及后续单元未启动。所有文章内容批准均不授权页面Gate、HTML、开发或发布。Spain、DOC-COO、Netherlands、Belgium、India、Brazil EN/PT及Sulfate Process的当前Full Copy与模块顺序已获用户批量批准，八页Gate2均关闭；批准组合见G2-8PAGE-APPROVAL-01。Brazil English与Brazil Portuguese Gate1均已批准关闭；PT-BR D01方向/CTA、D02葡语COO和D03规划路径已获用户“批准。”确认，V0.2批准组合及决定登记V1.8已完成。由本Controller负责的新Market页面Gate1串行队列至此全部完成。Belgium、India、Netherlands、Poland、Italy既有决定保持。RES-PROC既有比较审查及其他任务状态不在本轮改写，没有新增开发或发布授权。“已通过”均指已有记录；运行时依赖须在发布前新鲜复验，历史探针不是今天的结果。
+ 
+-2026-09-07用户已授权新的七页Gate 2 Full Copy批次，固定顺序为Germany、Italy、Coatings、Plastics、Masterbatch、Printing Inks、Paper；必须完成一页的执行、独立Buyer Review、返修复核与总控复核后才启动下一页，全部完成后统一交用户审核。Germany与Italy已达总控PASS待批，Coatings已启动，其余排队；详见[七页串行控制V1.0](docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md)。本授权不关闭Gate 2，不授权Gate 3–10或开发发布。
++2026-09-07用户已授权新的七页Gate 2 Full Copy批次，固定顺序为Germany、Italy、Coatings、Plastics、Masterbatch、Printing Inks、Paper；必须完成一页的执行、独立Buyer Review、返修复核与总控复核后才启动下一页，全部完成后统一交用户审核。Germany、Italy与Coatings已达总控PASS待批，Plastics已启动，其余排队；详见[七页串行控制V1.0](docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md)。本授权不关闭Gate 2，不授权Gate 3–10或开发发布。
+ 
+ 2026-09-07用户对Spain与DOC-COO两个当前冻结Gate 5候选明确回复“批准”。两页Gate 5均已`APPROVED / CLOSED`，决定分别为[ES-G5-APPROVAL-01](pages/markets/spain/05_review/MARKET-EU-ES_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md)与[COO-G5-APPROVAL-01](pages/documents/certificate-of-origin/05_review/DOC-COO_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md)；正式Gate 5→6接收文件只标记`READY_FOR_GATE6_WHEN_AUTHORIZED`，不启动Gate 6，不授权开发、派发、部署、发布或索引。
+ 
+-八页Gate 2批准事件已登记于 [G2-8PAGE-APPROVAL-01](docs/architecture/GATE2_EIGHT_PAGE_USER_APPROVAL_AND_CLOSURE_V1.0.md)。该决定只覆盖用户列出的八页；RES-R706、RES-TRADE-EU及其他页面继承原状态。`G3-8PAGE-SERIAL-01`已完成：同一八页由子代理严格串行执行Gate 3，每页通过硬预检、冻结、正式证据、自检及总控独立审查后按用户预授权关闭；最终审计确认8个冻结源、64张正式图及全部审查/关闭/交接记录，身份差异0。用户另已授权[G4-8PAGE-SERIAL-01](docs/architecture/GATE4_EIGHT_PAGE_SERIAL_CONTROL_V1.0.md)：Gate 4按相同顺序连续逐页执行，审查完成后按预认可关闭；原定时监控已依用户新指示删除。[批次进度](docs/architecture/GATE4_EIGHT_PAGE_SERIAL_PROGRESS.md)。Gate 5未由此授权。用户随后授权[G3-5RESOURCE-SERIAL-01](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_CONTROL_V1.6.md)已完成：R706、EU、UK、India与Brazil五页均由子代理严格串行执行并经总控独立审查关闭Gate3；[完成记录](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_V1.0.md)与[机器审计](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_AUDIT_V1.0.json)确认5个冻结源、40张正式图、身份差异0、失败页0。Brazil的B哈希转录错误在候选生成前被输入守卫阻断并纠正，正文与批准范围未变。
++八页Gate 2批准事件已登记于 [G2-8PAGE-APPROVAL-01](docs/architecture/GATE2_EIGHT_PAGE_USER_APPROVAL_AND_CLOSURE_V1.0.md)。该决定只覆盖用户列出的八页；RES-R706、RES-TRADE-EU及其他页面继承原状态。`G3-8PAGE-SERIAL-01`已完成：同一八页由子代理严格串行执行Gate 3，每页通过硬预检、冻结、正式证据、自检及总控独立审查后按用户预授权关闭；最终审计确认8个冻结源、64张正式图及全部审查/关闭/交接记录，身份差异0。原[G4-8PAGE-SERIAL-01](docs/architecture/GATE4_EIGHT_PAGE_SERIAL_CONTROL_V1.0.md)只授权旧Gate 4方向范围。Gate 4/5合并决定不把它扩展为完整视觉授权；Belgium及后续已暂停，恢复范围须另行明确。[批次进度](docs/architecture/GATE4_EIGHT_PAGE_SERIAL_PROGRESS.md)保留历史执行状态。用户随后授权[G3-5RESOURCE-SERIAL-01](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_CONTROL_V1.6.md)已完成：R706、EU、UK、India与Brazil五页均由子代理严格串行执行并经总控独立审查关闭Gate3；[完成记录](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_V1.0.md)与[机器审计](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_AUDIT_V1.0.json)确认5个冻结源、40张正式图、身份差异0、失败页0。Brazil的B哈希转录错误在候选生成前被输入守卫阻断并纠正，正文与批准范围未变。
+ 
+ ## 1. 总体状态
+ 
+ - 全站架构、PRD、产品资料与研究已存在，见 [PROJECT_CONTEXT](PROJECT_CONTEXT.md)；当前登记册57页，产品14个型号。
+ - 项目仍是策划/交付/只读验收空间，外部开发由独立开发任务负责。
+-- Gate 3 Agent/Skill标准化已收口，[当前基线Manifest V1.2](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md)统一导航V0.2执行角色、两项方法、页面中立共享消费V0.2、独立审查和Gate 3→4交接；[RES-CHEMOURS第三页实测V0.2](docs/superpowers/specs/2026-09-07-gate3-v0.2-live-test-result-v0.2.md)已获用户批准关闭。未授权任何Gate 4。
++- Gate 3范围控制定向修订已按用户“现在开始定向修订”完成，[当前基线Manifest V1.3](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)导航Agent/线框V0.3、共用布局核验V0.4及交接V0.2。校验与限制见[修订记录](docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md)；历史V0.2实测及页面批准保留，新版尚未真实页面试跑，不新增页面或开发授权。
+ - 已关闭Gate 9的页面仍可能有生产环境、跨页、表单、隐私或索引验收项；**不等于已上线**。本次没有Gate 10、部署、生产写入、发布、DNS或索引授权。
+ - 全站原产地旧Hold已由用户批准关闭；事实范围看[决定登记册](docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md)，不能从历史状态恢复限制。
+ - 原逐次commit/验证数字/阶段过程完整保留在[迁移前V0.157快照](90_archive/project-governance/2026-09-06-entry-restructure/00_PROJECT_STATUS.md)。该历史快照不覆盖下方当前页面指针。
+@@ -33,8 +33,8 @@
+ | MARKET-EU-IT | Gate 1 `APPROVED / CLOSED`；Gate 2 `PROJECT_CONTROL_REVIEW_PASS_PENDING_BATCH_USER_APPROVAL` | A V0.1 / B V0.2 / C V0.2完成执行、独立Buyer Review、F01关闭及总控复核；Gate 2保持OPEN，等待七页批量用户审核；[当前Manifest V0.4](pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md) / [总控复核](pages/markets/italy/05_review/MARKET-EU-IT_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md) |
+ | MARKET-EU-ES | Gate 1–5 `APPROVED / CLOSED` | 用户2026-09-07回复“批准”关闭精确Gate 5冻结组合；[当前Manifest V0.12](pages/markets/spain/MARKET-EU-ES_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md) / [ES-G5-APPROVAL-01](pages/markets/spain/05_review/MARKET-EU-ES_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md) / [Gate 5→6正式接收](pages/markets/spain/05_review/MARKET-EU-ES_GATE5_TO_GATE6_HANDOFF_V0.1.md)。Gate 6及后续未授权。 |
+ | MARKET-EU-PL | Gate1–5已关闭；Gate6 `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL` | 用户指定Poland执行Gate6；独立综合审查及新开发包独立复核完成，实质必修Finding 0。[当前Manifest V0.20](pages/markets/poland/MARKET-EU-PL_CURRENT_GATE_BASELINE_MANIFEST_V0.20.md) / [Gate6准确组合提交](pages/markets/poland/05_review/MARKET-EU-PL_GATE6_REVIEW_SUBMISSION_V0.1.md)。12条Gate9接受条件、6类后续依赖已整理；未获Gate6成果批准，未外发，Gate8–10及开发发布未授权。 |
+-| MARKET-EU-NL | Gate 1–4 `APPROVED / CLOSED` | 按G4-8PAGE-SERIAL-01预认可关闭；V0.1的NL-G4-IR01保留，V0.2修复句尾链接标点间距，42张正式图及独立复验通过。[当前Manifest V0.7](pages/markets/netherlands/MARKET-EU-NL_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md)；Gate5输入就绪但未授权 |
+-| MARKET-EU-BE | Gate 1–3 `APPROVED / CLOSED`；Gate4 `USER_AUTHORIZED / IN_PROGRESS` | 按G4-8PAGE-SERIAL-01在Netherlands关闭后接手；45项上游身份核对通过。[当前Manifest V0.6](pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md)；India保持排队 |
++| MARKET-EU-NL | 旧Gate 1–4 `APPROVED / CLOSED`；新Gate 4待缺口映射 | 继承已批准方向与42张证据，不重做已有部分；是否满足4B完整关闭须按当前标准核对实际缺口，尚未授权继续执行。[当前Manifest V0.7](pages/markets/netherlands/MARKET-EU-NL_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md) |
++| MARKET-EU-BE | Gate 1–3 `APPROVED / CLOSED`；旧Gate4执行暂停 | 45项上游身份核对结果保留；合并流程不自动恢复，也不把原方向授权扩展为完整视觉。恢复时须明确4A、完整制作、最终审查和关闭范围。[当前Manifest V0.6](pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md) |
+ | MARKET-IN-001 | Gate 1–3 `APPROVED / CLOSED` | 子代理执行及总控独立审查完成，五模块与贸易边界通过，未解决页面Finding 0；[当前Manifest V0.7](pages/markets/india/MARKET-IN-001_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md)。V0.4模块计数及V0.5哈希转录错误仅为已纠正的治理记录 |
+ | MARKET-BR-EN | Gate 1–3 `APPROVED / CLOSED` | 子代理执行及总控独立审查完成，五模块与贸易日期边界通过，未解决页面Finding 0；[当前Manifest V0.5](pages/markets/brazil/MARKET-BR-EN_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md) |
+ | MARKET-BR-PT | Gate 1–3 `APPROVED / CLOSED` | 子代理执行及总控独立审查完成，葡语/英文目标提示、贸易日期与规划路径边界通过，未解决页面Finding 0；[当前Manifest V0.5](pages/markets/brazil/MARKET-BR-PT_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md)。规划路径不等于路由已实现 |
+@@ -45,9 +45,9 @@
+ | 全部14个Grade（含M-350模板、M-510 pilot及后续12个） | 各自Gate 9通过；PREVIEW_ONLY；Active Grade=NONE | 十二型号串行已结束，不再启动下一型号；[串行Manifest V0.16](docs/product-pages/29_Product_Detail_Development_SOP_V2_Autonomous_Serial_Manifest_V0.16.md) / [完成摘要](docs/product-pages/30_Product_Detail_12_Grade_Serial_Completion_Summary_V0.1.md) |
+ | 2个Process页 | 未开发（原登记） | 独立内容/证据/Gate；不得由Products Hub越权实现 |
+ | APP-000 | Gate 5 V0.12候选，未获最终批准（原登记） | 完成本页批准；历史404仅为当时探针；[Applications目录](pages/applications/) |
+-| APP-COAT | 文章内容`APPROVED / CLOSED`；页面Gate 1 `APPROVED / CLOSED`；Gate 2 `USER_AUTHORIZED / STARTING` | 七页Gate 2串行队列第3页；Italy达到总控PASS待批后解锁，当前开始Full Copy执行；[当前Gate 1 Manifest V0.1](pages/applications/coatings/APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md) / [七页串行控制](docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md) |
++| APP-COAT | 文章内容`APPROVED / CLOSED`；页面Gate 1 `APPROVED / CLOSED`；Gate 2 `PROJECT_CONTROL_REVIEW_PASS_PENDING_BATCH_USER_APPROVAL` | A V0.1 / B V0.2 / C V0.1完成执行、独立Buyer Review、三项Finding关闭及总控复核；Gate 2保持OPEN，等待七页批量用户审核；[当前Manifest V0.2](pages/applications/coatings/APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md) / [总控复核](pages/applications/coatings/05_review/APP-COAT_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md) |
+ | APP-MB | Gate 1 `USER_APPROVED / CLOSED`；Gate 2内容骨架总控通过待用户确认；文章内容`APPROVED / CLOSED`；APPROVED_FOR_DESIGN / PROVISIONAL_URL | 用户批准R04精确正文SHA `7a40744f...77cfc`作为正式对外内容输入；该决定不批准H1/Hero、14模块、CTA、SEO/GEO/Schema骨架或完整页面文案，Gate 3–10未授权；[三篇批准与职责记录](pages/applications/02_analysis/APPLICATION_ARTICLE_TOPIC_CONTROLLER_MANDATE_AND_THREE_ARTICLE_USER_APPROVAL_V0.1.md) / [当前Manifest V0.3](pages/applications/masterbatch/APP-MB_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md) |
+-| APP-PLAS | D22完整流程`CLOSED / RELEASE CANDIDATE DESIGNATED / NOT PUBLISHED`；D23内容决定`APPROVED / CLOSED`；页面Gate 1 `APPROVED / CLOSED` | 用户2026-09-06批准精确正文SHA `e7d45216...b079`作为正式对外内容输入；2026-09-07确认Page Intent、APP-PLAS/APP-MB边界及“neutral Grade review first，Documents/Sample/RFQ second”方向，`CONTENT_INTENT_CONFIRMED / CLOSED`。Gate 2仍`NOT_STARTED / NOT_AUTHORIZED`；[Gate 1总控审查](pages/applications/plastics/05_review/APP-PLAS_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md) |
++| APP-PLAS | D22完整流程`CLOSED / RELEASE CANDIDATE DESIGNATED / NOT PUBLISHED`；D23内容决定`APPROVED / CLOSED`；页面Gate 1 `APPROVED / CLOSED`；Gate 2 `USER_AUTHORIZED / STARTING` | 七页Gate 2串行队列第4页；Coatings达到总控PASS待批后解锁，当前开始Full Copy执行；[当前Gate 1 Manifest V0.1](pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md) / [七页串行控制](docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md) |
+ | APP-INK | D22 `WORKFLOW COMPLETE / RELEASE CANDIDATE DESIGNATED / PUBLICATION NOT AUTHORIZED`；D23内容决定`APPROVED / CLOSED`；页面Gate 1 `APPROVED / CLOSED` | 2026-09-07用户确认Printing Inks Page Intent、职责/不新建工艺子页及“neutral Grade review first，Documents/Sample/RFQ second”方向，`CONTENT_INTENT_CONFIRMED / CLOSED`；M-2377仅获Printing Inks关系公开权限。Gate 2仍`NOT_STARTED / NOT_AUTHORIZED`；[Gate 1总控审查](pages/applications/printing-inks/05_review/APP-INK_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md) |
+ | APP-PAPER | 当前定向修订精确文章内容`APPROVED / CLOSED`；页面Gate 1 `APPROVED / CLOSED` | 用户批准精确正文SHA `1b36a183...9da77`作为正式对外内容输入；2026-09-07确认通用Paper Page Intent、装饰纸/轻量纸技术核心边界、不新建Paper子页及“两项neutral Grades first，Documents/Sample/RFQ second”方向，`CONTENT_INTENT_CONFIRMED / CLOSED`。Gate 2仍`NOT_STARTED / NOT_AUTHORIZED`；[Gate 1总控审查](pages/applications/paper/05_review/APP-PAPER_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md) |
+ | Application后续专题文章 | R01修订完成、D23通过，等待用户批准精确修订正文 | D22在不回退A03的情况下完成40处reader-facing rewrite，保留58/58治理含义、证据角色与技术论证；新RQR RQ1–RQ5全部通过，独立A00为C0-I1-M0。D23重算六项哈希全部MATCH，并确认用户提出的SOP blocker已关闭。I-01仅为两个A05 JSON内的历史页面上下文字段，D23已绑定唯一权威P04/A00外部文章上下文。R02及后续未启动；[修订正文D23验收](pages/applications/02_analysis/R01_PVC_UPVC_ARTICLE_D23_ACCEPTANCE_V0.2.md) / [修订指令](pages/applications/02_analysis/R01_PVC_UPVC_READER_FACING_REVISION_DIRECTIVE_V0.1.md) / [派发记录](pages/applications/01_research/r01-pvc-upvc/R01_D22_DISPATCH_RECORD_V0.1.md) |
+@@ -102,3 +102,4 @@
+ 
+ 
+ 
++
+--- before/agents/README.md
++++ after/agents/README.md
+@@ -1,16 +1,17 @@
+ # 项目自有 Agent 角色目录
+ 
+-> 阶段解释必须先读[Gate工作流V2.0](../docs/architecture/GATE_WORKFLOW_V2.0.md)。Gate 6负责策划总审与开发交付，Gate 7不再独立执行；已有角色/Skill/设计记录中的旧Gate 7表述仅按该规则兼容。Gate 5仍只交Gate 6输入，不承担交付包编制。源文件及其批准hash保持，本次不新建Gate 6/7 Agent或Skill、不改变页面权限。
++> 阶段解释必须先读[Gate工作流V3.0](../docs/architecture/GATE_WORKFLOW_V3.0.md)。原Gate 4/5合并为当前Gate 4完整视觉，原Gate 7职责并入Gate 6；旧角色、文件名、批准和hash保持历史语境。流程设计不改变具体页面权限。
+ 
+ 本目录保存岗位职责与工作合同；`skills/` 保存可复用方法，`pages/` 等项目资料目录保存事实、研究成果与决定。根 `AGENTS.md` 继续是整个项目的工作入口。
+ 
+ | 角色 | 当前文件 | 设计来源 |
+ |---|---|---|
+-| Gate 6策划总审与开发交付（候选） | [agent.md](gate6-review-delivery/agent.md) V0.1 | [设计记录](../docs/superpowers/specs/2026-09-07-gate6-agent-skill-design-v0.1.md)：用户已确定独立总审、问题闭环、唯一交付包与Gate 9接受条件四项职责；详细角色/方法为候选，直接面向开发与验收。全站取消Gate 7由专人负责；本入口不授予具体页面或开发权限 |
+-| Gate 5执行Agent（设计已批准） | [agent.md](gate5-execution/agent.md) V0.1 | [首版设计及Gate 6交接合同](../docs/superpowers/specs/2026-09-07-gate5-agent-skill-design-v0.1.md)已获[用户批准](../docs/superpowers/specs/2026-09-07-gate5-design-user-approval-v0.1.md)：完整三端、全部实例/状态、视觉判断、冻结交付及Gate 6接收；配套完整视觉制作并复用布局核验。[有限隔离验证已完成](../docs/superpowers/specs/2026-09-07-gate5-skill-validation-v0.1.md)：独立视觉核查完成，接收挑战经修正复验关闭。源文件保留提交时文字，当前设计批准由决定记录控制，不授权真实页面执行 |
+-| Gate 4执行Agent（候选） | [agent.md](gate4-execution/agent.md) V0.1 | [细化记录V0.2](../docs/superpowers/specs/2026-09-07-gate4-agent-skill-design-v0.2.md)：视觉方向、样例覆盖与Gate 5交接；[有限方法验证](../docs/superpowers/specs/2026-09-07-gate4-skill-validation-v0.1.md)后，已按用户授权完成[Poland首个真实页面制作、自检、独立初审、返修与复验](../pages/markets/poland/05_review/MARKET-EU-PL_GATE4_PROJECT_CONTROL_REVIEW_V0.1.md)，Poland方向已获用户批准关闭。Chloride Process方向亦已获用户批准关闭；[两页流程复盘](../docs/superpowers/specs/2026-09-07-gate4-two-page-process-retrospective-v0.1.md)已记录；角色源保持，未运行注册，不据两页验证倒填普遍批准 |
++| Gate 4完整视觉设计与验证 | [agent.md](gate4-complete-visual/agent.md) V1.0 | [当前基线Manifest](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md)：一个执行Agent、三个能力Skill、4A内部检查、4B冻结及一个最终独立审查环节；批准角色源不等于运行注册或页面授权 |
++| Gate 6策划总审与开发交付 | [agent.md](gate6-review-delivery/agent.md) V0.2 | 引用有效Gate 4审查证据，只复核变化、缺口和合同冲突；继续负责整体一致性、唯一开发包和Gate 9接受条件 |
++| 原Gate 4视觉方向Agent（历史） | [agent.md](gate4-execution/agent.md) V0.1 | 保留旧方向职责、验证和页面历史，不再作为未来当前执行入口 |
++| 原Gate 5完整视觉Agent（历史） | [agent.md](gate5-execution/agent.md) V0.1 | 保留旧完整视觉职责、验证和页面历史，不再作为未来当前执行入口 |
+ | Gate 1 执行 Agent | [agent.md](gate1-execution/agent.md) | [已批准角色说明 V0.7](../docs/superpowers/specs/2026-09-06-gate1-execution-agent-design-v0.7.md) |
+-| Gate 3 执行 Agent | [agent.md](gate3-execution/agent.md) V0.2 | [当前基线Manifest V1.2](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md)：第三页V0.2实测已获用户批准关闭；共享消费指针为V0.2，修正前[V0.2快照](gate3-execution/history/agent-v0.2-pre-shared-consumer-v0.2.md)与[V0.1历史源](gate3-execution/history/agent-v0.1.md)保留 |
++| Gate 3 执行 Agent | [agent.md](gate3-execution/agent.md) V0.3 | [当前基线Manifest V1.3](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)：用户授权结构范围、共享继承、证据与停止条件定向修订；[修订前V0.2](gate3-execution/history/agent-v0.2-scope-control-baseline.md)保留，新版尚未真实页面试跑 |
+ | Gate 2 执行 Agent | [agent.md](gate2-execution/agent.md) V0.5 | [设计收束 V0.7](../docs/superpowers/specs/2026-09-06-gate2-execution-agent-design-v0.7.md) + [当前交付结构V0.4](../docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md)：两步流程保持；提交前完成全页扫描与条件性第三方来源表达精度自检；C只因页面合同语义变化升级 |
+ | Gate 2 Review Agent | [agent.md](gate2-review/agent.md) V0.5 | [用户批准设计 V0.1](../docs/superpowers/specs/2026-09-06-gate2-review-agent-design-v0.1.md) + [当前交付结构V0.4](../docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md)：独立审读实际Buyer Copy；发现一个问题后继续完整扫描；外部来源触发语义精度审查；精简报告保存全部实质Finding |
+ 
+--- before/skills/README.md
++++ after/skills/README.md
+@@ -1,8 +1,14 @@
+ # 项目自有Skill源目录
+ 
+-> 阶段解释必须先读[Gate工作流V2.0](../docs/architecture/GATE_WORKFLOW_V2.0.md)。Gate 6负责策划总审与开发交付，Gate 7不再独立执行；已有角色/Skill/设计记录中的旧Gate 7表述仅按该规则兼容。Gate 5仍只交Gate 6输入，不承担交付包编制。源文件及其批准hash保持，本次不新建Gate 6/7 Agent或Skill、不改变页面权限。
++> 阶段解释必须先读[Gate工作流V3.0](../docs/architecture/GATE_WORKFLOW_V3.0.md)。原Gate 4/5合并为当前Gate 4完整视觉；三个能力Skill按同一工作集协作，旧版本和页面历史保持。本目录不授予具体页面权限。
+ 
+ 本目录由2026-09-06用户明确要求建立，保存本项目自主设计的方法Skill，不放在用户级公共Skill目录。
++
++## Gate 4完整视觉当前方法组合（2026-09-07）
++
++[当前基线Manifest](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md)统一指向一个执行Agent和三项能力方法：[品牌应用与视觉样例](brand-applied-visual-design/SKILL.md) V0.2、[完整页面视觉制作](full-page-visual-composition/SKILL.md) V0.2、[布局与交互核验](layout-interaction-verification/SKILL.md) V0.4。三者按[共同工作合同](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md)共用`workset_id`、输入清单、设计源和证据索引，只追加各自结果。4A是内部方向检查；4B冻结后进入唯一最终独立审查环节，该环节允许Finding、返修和复审。
++
++旧“Gate 4方法候选”和“Gate 5方法设计”章节保留为历史说明；其阶段接口由当前工作流覆盖。各Skill旧源保存在自身`history/`，不回写。
+ 
+ ## Gate 6方法候选（2026-09-07）
+ 
+@@ -10,11 +16,11 @@
+ 
+ ## Gate 5方法设计已批准（2026-09-07）
+ 
+-[完整页面视觉制作](full-page-visual-composition/SKILL.md) V0.1将批准内容、结构和视觉规则应用到完整三端及适用状态，交回可编辑源、正式图、身份和实际检查。范围与[Gate 5角色及Gate 6接收设计](../docs/superpowers/specs/2026-09-07-gate5-agent-skill-design-v0.1.md)对应；布局和实际操作复用现有核验方法，Agent负责整页判断与阶段交接。[用户已批准首版设计并授权继续验证](../docs/superpowers/specs/2026-09-07-gate5-design-user-approval-v0.1.md)，[有限隔离验证已完成](../docs/superpowers/specs/2026-09-07-gate5-skill-validation-v0.1.md)：三端整页与独立核查完成，接收挑战经修正复验关闭。精确源不回写，源中候选文字为历史提交截面；有限验证不代表全页面类型或真实页面授权。未改Gate 1–4方法或安装注册。
++[完整页面视觉制作历史V0.1](full-page-visual-composition/history/SKILL-v0.1.md)将批准内容、结构和视觉规则应用到完整三端及适用状态，交回可编辑源、正式图、身份和实际检查。范围与[Gate 5角色及Gate 6接收设计](../docs/superpowers/specs/2026-09-07-gate5-agent-skill-design-v0.1.md)对应；布局和实际操作复用现有核验方法，Agent负责整页判断与阶段交接。[用户已批准首版设计并授权继续验证](../docs/superpowers/specs/2026-09-07-gate5-design-user-approval-v0.1.md)，[有限隔离验证已完成](../docs/superpowers/specs/2026-09-07-gate5-skill-validation-v0.1.md)：三端整页与独立核查完成，接收挑战经修正复验关闭。精确源不回写，源中候选文字为历史提交截面；有限验证不代表全页面类型或真实页面授权。未改Gate 1–4方法或安装注册。
+ 
+ ## Gate 4方法候选（2026-09-07）
+ 
+-[品牌应用与视觉样例制作](brand-applied-visual-design/SKILL.md) V0.1已形成可审阅候选源；范围与接口见[细化记录V0.2](../docs/superpowers/specs/2026-09-07-gate4-agent-skill-design-v0.2.md)。负责品牌用途映射、真实样例、三端/状态制作核对和文件交回；方向、范围与批准由Agent负责。[首轮隔离验证](../docs/superpowers/specs/2026-09-07-gate4-skill-validation-v0.1.md)后，已按用户授权在[Poland首个真实Gate 4页面](../pages/markets/poland/05_review/MARKET-EU-PL_GATE4_PROJECT_CONTROL_REVIEW_V0.1.md)完成制作、自检、独立初审、返修及复验。IR01暴露执行漏查辅助hover背景，现已修复并保留失败；方法源保持V0.1，不以两页通过替代普遍方法批准。Poland与Chloride Process方向均已获用户批准关闭；[两页流程复盘](../docs/superpowers/specs/2026-09-07-gate4-two-page-process-retrospective-v0.1.md)已记录，方法源保持，未安装或运行注册。布局与交互核验按实际样例范围复用，不将局部检查写成整页通过。
++[品牌应用与视觉样例制作历史V0.1](brand-applied-visual-design/history/SKILL-v0.1.md)已形成可审阅候选源；范围与接口见[细化记录V0.2](../docs/superpowers/specs/2026-09-07-gate4-agent-skill-design-v0.2.md)。负责品牌用途映射、真实样例、三端/状态制作核对和文件交回；方向、范围与批准由Agent负责。[首轮隔离验证](../docs/superpowers/specs/2026-09-07-gate4-skill-validation-v0.1.md)后，已按用户授权在[Poland首个真实Gate 4页面](../pages/markets/poland/05_review/MARKET-EU-PL_GATE4_PROJECT_CONTROL_REVIEW_V0.1.md)完成制作、自检、独立初审、返修及复验。IR01暴露执行漏查辅助hover背景，现已修复并保留失败；方法源保持V0.1，不以两页通过替代普遍方法批准。Poland与Chloride Process方向均已获用户批准关闭；[两页流程复盘](../docs/superpowers/specs/2026-09-07-gate4-two-page-process-retrospective-v0.1.md)已记录，方法源保持，未安装或运行注册。布局与交互核验按实际样例范围复用，不将局部检查写成整页通过。
+ 
+ Gate 2用户明确决定不设专属Skill；原内容探索文件仅保留历史，不作为待补齐方法推进。决定来源保存在[Gate 4初版学习与设计记录](../docs/superpowers/specs/2026-09-07-gate4-agent-skill-design-v0.1.md)§1。
+ 
+@@ -44,17 +50,16 @@
+ 
+ 本目录是方法源，不等于Codex自动发现或已安装；未来本项目运行入口与验证另行确认。不要为了凑目录创建空壳Skill，不把纸面设计或结构检查写成实际行为验证。
+ 
+-## Gate 3 方法与V0.2定向修订（2026-09-07）
++## Gate 3 当前方法V0.3（2026-09-07）
+ 
+-用户已认可 Gate 3 角色细则及两项具体方法，并完成Poland市场页与Chloride Process聚合页两个真实页面测试。[两页流程复盘](../docs/superpowers/specs/2026-09-07-gate3-two-page-process-retrospective-v0.1.md)后，用户授权六项[V0.2定向修订](../docs/superpowers/specs/2026-09-07-gate3-v0.2-targeted-revision.md)；当前组合与运行顺序由[Gate 3 Agent/Skill当前基线Manifest V1.2](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md)统一导航，V0.1批准设计和有限隔离验证继续作为历史依据。
++用户要求“现在开始定向修订”，当前组合由[基线Manifest V1.3](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)导航，范围以[Gate标准V2.1 §4.3](../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md)为准。既有V0.2与更早验证仍为历史结果，不代表V0.3已通过真实新页面验证。
+ 
+-| 方法 | 项目源 | 当前状态 |
+-|---|---|---|
+-| 响应式线框设计 | [SKILL.md](responsive-wireframe-design/SKILL.md) V0.2 | 正式渲染前必须通过硬预检；冻结记录绑定源、依赖与输入；正式批准核心证据和诊断支持证据分层；[V0.1历史源](responsive-wireframe-design/history/SKILL-v0.1.md)保留 |
+-| 布局与交互核验 | [SKILL.md](layout-interaction-verification/SKILL.md) V0.2 | 从冻结候选开始核验；使用固定核心项＋页面专属风险，PASS数量只表示覆盖范围，不作跨页质量比较；[V0.1历史源](layout-interaction-verification/history/SKILL-v0.1.md)保留 |
++| 方法 | 当前源与用途 |
++|---|---|
++| 响应式线框设计 | [SKILL.md](responsive-wireframe-design/SKILL.md) V0.3：完整内容三端结构、风险对应的状态图、共享继承与本页预检、冻结；[V0.2快照](responsive-wireframe-design/history/SKILL-v0.2-scope-control-baseline.md) |
++| 布局与交互核验 | [SKILL.md](layout-interaction-verification/SKILL.md) V0.4：仅Gate 3使用[结构核验范围](layout-interaction-verification/references/gate3-structure-scope.md)，其他阶段继续按完整合同；[合并版V0.3快照](layout-interaction-verification/history/SKILL-v0.3-before-gate3-scope.md) |
+ 
+-两项均未安装或自动启用；不改变 Gate 1 方法及其批准合同。设计方法交真实资产，核验方法只写问题和证据；页面范围、当前 Manifest 与批准状态由 Agent 和项目记录维护。
++使用现有[预检规则](responsive-wireframe-design/references/preflight-freeze-evidence.md)、[检查器](responsive-wireframe-design/scripts/check-preflight-record.mjs)和[风险模型](layout-interaction-verification/references/core-risk-model.md)。检查器不自动判断共享继承资格，执行者与独立审查者须检查原始证据和本页实际结果。共享消费仍为既有V0.2，本次未更新共享组件。
+ 
+-V0.2增加[预检、冻结与证据规则](responsive-wireframe-design/references/preflight-freeze-evidence.md)、[预检记录检查器](responsive-wireframe-design/scripts/check-preflight-record.mjs)及[核心项与页面风险模型](layout-interaction-verification/references/core-risk-model.md)。共享Header、Footer、Mobile Menu与Cookie Settings从[页面中立消费包V0.2](../docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md)消费；RES-CHEMOURS冻结前预检发现并阻断V0.1共享交互色偏差，修正前设计Skill V0.2快照已保留。
++[V0.2当前组合历史](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md)保留此前Poland、Chloride和Chemours实测依据。变更映射、归档与本轮自检见[修订记录](../docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md)。未安装、注册或自动启动；页面批准及开发权限不变。
+ 
+-原有限验证只覆盖一个合成页面；后续两个真实页面证明了内容型市场页和列表型产品聚合页流程。[第三页RES-CHEMOURS实测V0.2](../docs/superpowers/specs/2026-09-07-gate3-v0.2-live-test-result-v0.2.md)完成硬预检阻断、共享修正、冻结、证据分层、独立审查及用户批准关闭。该结果不能代替尚未覆盖的组件类型或所有页面类型。
+--- before/02_DIRECTORY_GUIDE.md
++++ after/02_DIRECTORY_GUIDE.md
+@@ -1,6 +1,6 @@
+ # TiO2 Malaysia 目录说明
+ 
+-> 2026-09-07：[Gate工作流V2.0](docs/architecture/GATE_WORKFLOW_V2.0.md)统一阶段解释。`06_handoff`、`07_qa`和旧`GATE7_*`路径保持；新交付由Gate 6整理，不迁移或重命名已批准资料。
++> 2026-09-07：[Gate工作流V3.0](docs/architecture/GATE_WORKFLOW_V3.0.md)统一阶段解释。原Gate 4/5合并为当前Gate 4；`06_handoff`、`07_qa`及旧Gate 5/7路径保持，不迁移或重命名已批准资料。
+ 
+ ## 1. 文件用途
+ 
+@@ -240,8 +240,11 @@
+ 
+ - `agents/`：岗位职责、判断、协作与交付合同；当前入口为 `agents/README.md`。
+ - Gate 1 执行角色：`agents/gate1-execution/agent.md`，由已批准角色设计 V0.7 整理。
+-- Gate 3 执行角色：`agents/gate3-execution/agent.md` V0.2；单一当前入口为[Gate 3 Agent/Skill基线Manifest V1.0](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.0.md)。在两个真实页面复盘后按用户授权增加硬预检、候选冻结、证据分层、固定核心项＋页面专属风险及冻结后独立审查；共享规划组件放在页面中立的`docs/architecture/gate3-shared-consumer-v0.1/`，不以业务页面作为长期母版。V0.1角色与Skill源保存在各自`history/`；不表示运行注册或新页面授权。
++- Gate 4完整视觉执行角色：[agent.md](agents/gate4-complete-visual/agent.md) V1.0；当前组合由[基线Manifest V1.0](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.0.md)统一导航。原Gate 4/5角色保留历史；本设计不恢复Belgium或授权具体页面。
++- Gate 3执行角色：[agent.md](agents/gate3-execution/agent.md) V0.3，单一当前入口为[基线Manifest V1.3](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)。范围控制修订前源在各自history及`90_archive/project-governance/2026-09-07-gate3-scope-revision/`保留；共享消费仍为页面中立V0.2，不迁移旧页面。
+ - Gate 2 执行角色：`agents/gate2-execution/agent.md`，由已确认目标、职责、质量和两步流程继续细化；2026-09-06按用户“执行下一步”要求创建，设计记录见索引。
+ - Gate 2 Review角色：`agents/gate2-review/agent.md`，由Spain真实实践归纳；必须由不同于执行者的子代理读取，负责买家视角预审及返修复核，不取得总控/用户批准权。
+ - 与 `skills/` 方法目录分开；页面研究和事实仍放在对应 `pages/` 等正式资料目录，不写死进角色文件。
+ - 本次仅创建项目角色文件，不进行运行注册或启动；任务需明确读取。根 `AGENTS.md` 不替换，既有 `research/keyword/agent.md` 与历史设计不移动、不覆盖。
++
++
+--- before/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md
++++ after/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md
+@@ -0,0 +1,38 @@
++# Gate 3 Agent与Skill当前基线 Manifest V1.3
++
++日期：2026-09-07。状态：`USER_AUTHORIZED_TARGETED_REVISION / ACTIVE_CURRENT_BASELINE`。
++
++用户来源：在核对当前Agent/Skill已有与缺失控制后，用户明确要求“现在开始定向修订”。本版是获授权规则修订的当前入口；文件核验不等于独立行为验证或具体页面批准。[V1.2](GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md)保留此前V0.2批准与实测截面。
++
++## 当前组合
++
++| 组成 | 当前文件 | SHA-256 |
++|---|---|---|
++| Gate标准 | [PAGE_GATE_1_4_STANDARD_V2.1.md](PAGE_GATE_1_4_STANDARD_V2.1.md) | `e2a88e770dd3bcf49127a24fa28c698ec31b507653398900ab8a633fcea3c0d1` |
++| Gate 3执行Agent V0.3 | [agent.md](../../agents/gate3-execution/agent.md) | `dd4bb72d3527f7cba77f507989519a5088c20730b68333691514ccfbbbc0f99a` |
++| 线框设计Skill V0.3 | [SKILL.md](../../skills/responsive-wireframe-design/SKILL.md) | `51bc57513176534de2a89a15e86dbef82aafd4491735f956ae918913ace4ea10` |
++| 布局核验Skill V0.4 | [SKILL.md](../../skills/layout-interaction-verification/SKILL.md) | `24b1a8500ce374fe759e26a51b08fd8b1d95a2590d561fb0bc41cfc538aa349e` |
++| Gate 3核验范围 | [gate3-structure-scope.md](../../skills/layout-interaction-verification/references/gate3-structure-scope.md) | `8cfd4763ad9b6dd94749b7fbaef826dde58d5bf9ba54b11c916a9b79575d2ae0` |
++| 预检与冻结方法 | [preflight-freeze-evidence.md](../../skills/responsive-wireframe-design/references/preflight-freeze-evidence.md) | `d7a095adf522e45d9b82dac2dab909de9fed83296c8d86e0105ad5214cafcd9f` |
++| 核心与风险模型 | [core-risk-model.md](../../skills/layout-interaction-verification/references/core-risk-model.md) | `5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609` |
++| 预检检查器（未修改） | [check-preflight-record.mjs](../../skills/responsive-wireframe-design/scripts/check-preflight-record.mjs) | `6cd67439a2d867e07a2f63d0be79a2a7163683591daee4f835d3888939424c34` |
++| 共享消费（未修改） | [SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md](gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md) | `eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb` |
++| Gate 3→4交接V0.2 | [2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md](../superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md) | `4b512788bcdc782bef7e980289a4d2acda6fe429239722a3f645c0980d9fa80c` |
++
++根AGENTS强制读取本入口及标准V2.1 §4.3；旧治理/标准对Gate 3范围、共享逐页全量验证或状态图的冲突按最新用户修订解释。其他阶段按已并行批准的[Gate工作流V3.0](GATE_WORKFLOW_V3.0.md)，完整视觉归Gate 4；本次继承合并结果，不覆盖另一任务的角色与方法设计。
++
++## 使用顺序
++
++1. 继承有效页面授权与批准输入，在已有输入卡写本页结构问题和验证位置。
++2. 使用有效基础样式和共享来源，逐组件判定可引用的共享验证，并保留本页实际组装/操作检查。
++3. 完成1440/768/390完整内容及必要状态；每份额外状态证据对应实际风险。
++4. 内容、关系、结构、操作及合同满足后预检、冻结、导出和自检，不以纯视觉偏好追加迭代。
++5. 不同审查者从原批准输入与冻结组合独立审查，核对共享继承和本页实测；视觉建议交下一视觉阶段。
++6. 按有效用户决定关闭Gate 3，交接区分结构约束与当前实现参数。当前Manifest不另建竞争入口。
++
++## 历史、验证与限制
++
++- 修订前Agent/线框V0.2与并行核验V0.3逐字节快照及预检/风险模型/入口备份见[修订记录](../superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md)和[变更映射](gate3-scope-revision-2026-09-07/CHANGE_MAP.json)。旧批准源hash按历史路径读取，不把更新后的内容当成原冻结版本。
++- 历史Poland、Chloride、Chemours和批次批准保持，未重画、重导或回写页面Manifest。既有显式结构锁定不因本版自动解除。
++- 本轮检查结构、引用、身份、旧脚本兼容和规则案例，详见修订记录；未运行独立子代理或真实新页面试跑，不宣称已验证工作量下降或所有组件覆盖。
++- 两项Skill不新增安装/注册，不自动派发；不授予任何页面Gate、开发、部署或发布权限。共享核验精简只适用于Gate 3，不能据此减免最终视觉或Gate 9生产验收。
+--- before/docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md
++++ after/docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md
+@@ -0,0 +1,55 @@
++# Gate 3 V0.3范围控制定向修订
++
++日期：2026-09-07。决定来源：用户在确认现有Agent/Skill的已有与缺失控制后，明确要求“现在开始定向修订”。状态：`USER_AUTHORIZED_REVISION_IMPLEMENTED`；本轮核验为执行自检，不是独立行为验证或页面批准。
++
++## 问题与变更
++
++原V0.2已具备完整三端、风险识别、独立审查、共享来源和证据分层；缺少具体的视觉停止条件、可继承共享验证规则、审查阻塞分类及结构/视觉参数边界。本版保留一个执行Agent和两项Skill，只定向修改这些决策。
++
++| 位置 | 当前变更 | 预期影响 |
++|---|---|---|
++| [标准V2.1 §4.3](../../architecture/PAGE_GATE_1_4_STANDARD_V2.1.md) | 四项结构完成目标、合同与可访问性底线、风险对应证据及审查停止条件 | 不以视觉偏好延长Gate 3 |
++| [Agent V0.3](../../../agents/gate3-execution/agent.md) | 结构问题输入、制作禁区、共享证据判断、自检与独立审查交接 | 对范围和结果负责；不只笼统写“不做Gate 4” |
++| [线框Skill V0.3](../../../skills/responsive-wireframe-design/SKILL.md)及预检 | 基础样式复用、状态图说明理由、共享继承与本页操作分别证明 | 减少无风险依据的重复导出，不减少真实内容覆盖 |
++| [核验Skill V0.4](../../../skills/layout-interaction-verification/SKILL.md)及[Gate 3专用范围](../../../skills/layout-interaction-verification/references/gate3-structure-scope.md) | 逐组件继承资格、触发完整复验、问题归属 | 纯视觉建议交Gate 4；其他Gate能力不精简 |
++| [交接合同V0.2](2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md) | 结构约束/当前实现参数分开；报告等价章节可作唯一交接入口 | 不因普通视觉参数调整自动重开Gate 3，不放宽历史显式锁定 |
++| 根AGENTS、Index、Status、Agent/Skill目录、Directory Guide | 切换[当前基线V1.3](../../architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md) | 新任务可发现当前规则，其他任务条目保留 |
++
++未修改生产实现、共享组件、已批准页面、页面Manifest、Gate 4/5 Agent或制作Skill；Gate 4/5合并由另一任务并行完成，本次读取并保留其结果，统一到标准V2.1与工作流V3.0。布局核验Skill虽被其他Gate复用，新增精简范围只在明确Gate 3任务时启用，不能降低最终视觉与Gate 9验收。
++
++## 规则案例自检
++
++以下是对条款的桌面推演，不是实际页面运行或独立Agent测试。
++
++| 场景 | 按新条款应采取的行动 | 自检判断 |
++|---|---|---|
++| 普通市场页沿用有匹配证据的共享包，无CSS/行为覆盖 | 核对原始报告及依赖，实际检查三端连接、菜单/Cookie入口退出；引用完整焦点循环等共享证据，不重复三张Cookie图 | 有明确路径；不能把引用写为本页运行 |
++| 组件hash相同，但页面全局CSS覆盖了菜单定位 | 继承条件不成立，复验受影响组件/视口；影响不明则完整复验组件 | 不能仅凭相同hash免检 |
++| 390技术表重排后单位或脚注脱离对象 | Gate 3阻塞缺陷，修复对应关系并复验三端 | 不能因减少证据而省掉结构检查 |
++| 表单有长错误、选择和提交反馈 | 本页真实状态完整检查，按风险增加必要证据，没有图片数量上限 | 复杂页面不套普通内容页资产数量 |
++| 审查建议阴影更柔和，当前无合同/理解/操作问题 | 记录给Gate 4，不为此阻断Gate 3或新建候选 | 视觉偏好不变成必修Finding |
++| 链接对比不足或焦点不可见 | 实际可访问性问题，修复；不能列成纯视觉建议 | 保留质量底线 |
++| Gate 4调整未锁定的字号/间距 | 保留结构约束，复验受影响布局；不自动重开Gate 3 | 共享owner与历史显式锁定仍有效 |
++| Gate 4完整视觉或Gate 9调用核验Skill | 按完整阶段合同检查，不启用Gate 3共享减量规则 | 不把局部控制扩展为生产免检 |
++
++## 文件与兼容核验
++
++两项Skill通过`quick_validate.py`。既有Chemours冻结预检记录由未修改的检查器读取，结果为`PASS_FOR_FORMAL_RENDER`、失败0，证明原记录可继续读取；不代表对该页面重新批准，也不证明新继承规则已在真实页面运行。
++
++当前组合、引用可达性、字节快照、非Gate 3标准章节保持以及变更范围由[VALIDATION.json](../../architecture/gate3-scope-revision-2026-09-07/VALIDATION.json)记录；精确变更映射见[CHANGE_MAP.json](../../architecture/gate3-scope-revision-2026-09-07/CHANGE_MAP.json)，差异见[CHANGES.diff](../../architecture/gate3-scope-revision-2026-09-07/CHANGES.diff)。脚本仅检查其既有字段和身份，新增共享证据适用性仍由执行者与独立审查者核对，不声称已自动强制执行。
++
++## 历史、风险与回退
++
++改前动态文件、预检与风险方法按原路径逐字节保存在[备份目录](../../../90_archive/project-governance/2026-09-07-gate3-scope-revision/)；Agent/线框V0.2及并行Gate 4核验V0.3分别在history保存精确快照；已有核验V0.2历史仍保留。初始快照名SKILL-v0.2-scope-control-baseline.md实际捕获了并行V0.3，保留该文件及准确命名的V0.3副本供追溯，不将其误当成V0.2批准源。历史标准V1.2、基线V1.2和交接V0.1不回写。旧页面仍按其批准组合和约束消费，不迁移资产、不给旧成果倒填新版验证。
++
++主要风险是把“引用共享验证”误当成免检，或把合同偏差归为美观建议。新方法用原报告/合同/依赖身份、页面无影响覆盖依据、实际组装操作及异常触发复验约束这两点。另一风险是新规则尚未在真实页面证明成本改善；本轮只交付规则修订与文件/案例自检，不宣称工作量已下降。
++
++如后续需要回退，依据用户决定与CHANGE_MAP恢复对应段落/版本入口，并核对并发更新；不整份覆盖其他任务的新内容，不删除本轮历史和证据。下一次获授权Gate 3可检验额外图、共享复验和审查往返是否减少；本次不自动启动页面，也不扩大其Gate或开发权限。
++
++## 并行整合记录
++
++校验时发现Gate 4/5任务同时更新工作流、共享核验Skill和入口。初次检查的Index非Gate 3行比较及核验旧hash锚点未通过；核对差异后确认是并行合并更新，未回滚。原核验V0.2 hash为86d1b6cd…aa4，本次实际捕获的并行V0.3为07adf538…754；两份精确源均保留。当前核验升V0.4，完整保留共同工作集、4A诊断与4B冻结要求，新增Gate 3范围和独立冻结要求。Gate 4消费基线仅以V1.1更新共享核验版本和标准指针，不重审或修改其角色。
++
++[并行观察快照](../../architecture/gate3-scope-revision-2026-09-07/CONCURRENT_SNAPSHOT.json)保存整合前当前入口与标准身份；标准V2.1承接并行V2.0的全部合并条款，只同步Gate 3最终44×44及单列要求。原PAGE_GATE_1_5_STANDARD_V1.3为本轮中间规则截面，当前执行统一到PAGE_GATE_1_4_STANDARD_V2.1；旧文件保留历史。
++
++Status中Netherlands/Belgium的合并映射与暂停、Coatings/Plastics的Gate 2进度由并行任务更新；[四行观察记录](../../architecture/gate3-scope-revision-2026-09-07/CONCURRENT_STATUS_ROWS.json)单列这些差异并保持原样，不作为本任务页面执行成果。初次失败记录保留于[VALIDATION_INITIAL.json](../../architecture/gate3-scope-revision-2026-09-07/VALIDATION_INITIAL.json)，最终校验区分本任务修订与已核对的并行差异。
+--- before/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md
++++ after/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md
+@@ -0,0 +1,241 @@
++# TiO2 Malaysia 页面 Gate 1–4 统一标准 V2.1
++
++> 2026-09-07：V2.1仅同步Gate 3最终控制条款，保留[V2.0](PAGE_GATE_1_4_STANDARD_V2.0.md)的Gate 4/5合并结果。继承[Gate 1–5标准V1.3](PAGE_GATE_1_5_STANDARD_V1.3.md)的Gate 3定向修订，并按[Gate工作流V3.0](GATE_WORKFLOW_V3.0.md)将原Gate 4视觉方向与原Gate 5完整视觉合并为当前Gate 4；4A为内部检查点，4B为唯一正式关闭点。旧标准保留。
++
++## 1. 文档控制
++
++| 字段 | 当前值 |
++|---|---|
++| Document ID | `PAGE-GATE-1-4-STANDARD` |
++| Version | `V2.1` |
++| Status | `APPROVED_PROJECT_STANDARD / ACTIVE` |
++| Approval source | 既有标准批准、Gate 3定向修订及2026-09-07用户批准Gate 4/5合并方案并要求开始修改 |
++| Effective date | `2026-09-07` |
++| Scope | `D:\23MySec` 中所有页面的 Gate 1–4 策划、内容、视觉和审批 |
++| Governing authority | 根 `AGENTS.md`、当前批准 PRD、页面登记册和页面专属 Brief |
++
++本文件是 Gate 1–4 的唯一详细流程标准。页面 Playbook 和页面专属 Brief 可以增加更严格要求，但不得降低本文件的交付、审批、版本和证据要求。
++
++## 2. 核心原则
++
++1. 所有页面使用同一 Gate 1–4 结构；页面内容可以不同，交付格式、批准规则和当前基线管理不得各自解释。
++2. 用户可以用自然语言、截图、草图、中文或英文提出页面想法。页面执行任务负责把输入规范化为 Brief、内容骨架和正式合同，不要求用户先写技术文档。
++3. 页面必须尽早让用户审查“要说什么”，再进入“怎么排”和“长什么样”。不得等完整视觉稿完成后才第一次暴露内容方向。
++4. 提交不等于批准；项目总控复审通过不等于用户批准；某一 Gate 获批不自动授权下一 Gate。
++5. 已批准旧页面不因本标准生效而自动重做。下一次修订或进入下一阶段时补齐当前 Manifest、权威引用和缺失的响应式证据。
++6. Gate 3–4 暂不调用付费 Superdesign 插件。页面执行任务继续使用项目既有的本地规格、HTML/CSS/脚本渲染、PNG 导出和人工复核流程；工具选择不得降低任何交付、响应式、内容真实性、视觉或审批标准。除非用户以后明确重新授权，否则不得因插件默认触发规则、执行任务偏好或追求视觉变体而调用 Superdesign 或产生相关费用。
++
++## 3. 用户想法的最早输入点
++
++### 3.1 Gate 0 / Gate 1：Page Intent Card
++
++每个页面的 Brief 必须包含一张用户可直接审查的 Page Intent Card：
++
++| 必填项 | 说明 |
++|---|---|
++| Audience | 主要访问者是谁 |
++| Buyer problem | 访问者需要解决什么问题 |
++| Core message | 页面最重要的一句话 |
++| Must include | 用户要求必须出现的内容、事实、图片或表达 |
++| Must exclude | 明确不出现的内容、承诺、页面关系或视觉元素 |
++| Primary CTA | 页面最主要的下一步 |
++| Secondary CTA | 可选的第二行动；没有时明确写 `NONE` |
++| Ownership boundary | 本页负责什么、哪些内容归其他页面 |
++
++Gate 1 结束前必须形成检查点 `CONTENT_INTENT_CONFIRMED`。未确认时可以继续研究，但不得把内容方向写成已批准方案。
++
++### 3.2 Gate 2：内容骨架先审，完整文案后审
++
++在制作线框前，先提交一页可快速判断的内容骨架：
++
++- H1；
++- Hero 核心信息；
++- 模块顺序；
++- 每个模块的一句话目的；
++- 主 CTA、次 CTA 及目标 URL；
++- SEO Title、Meta Description 和 Canonical 方向；
++- GEO / Schema 拟表达的实体与关系；
++- 受限事实、条件模块和隐藏规则。
++
++内容骨架确认后，再用真实完整文案完成 Gate 2。进入 Gate 3 前必须形成检查点 `FULL_COPY_AND_MODULE_ORDER_CONFIRMED`。这两个检查点属于现有 Gate，不新增 Gate 编号。
++
++## 4. Gate 1–4 标准交付
++
++### 4.1 Gate 1：研究、关键词与证据
++
++**目标：**确认页面身份、搜索意图、买家问题和可公开事实边界。
++
++**强制交付：**
++
++- 已填写的页面 Brief 与 Page Intent Card；
++- 主关键词、辅助关键词、排除关键词和防内耗边界；
++- 搜索意图、目标采购阶段、买家问题和内部页面关系；
++- 事实与证据表，至少包含来源、来源日期、适用范围和验证状态；
++- GEO 实体、可能的可引用答案和时间敏感事实清单；
++- 禁止公开、尚未验证、条件公开和明确冻结的字段；
++- `CONTENT_INTENT_CONFIRMED` 记录。
++
++**Gate 1 锁定：**页面身份、关键词所有权、事实边界和研究范围。证据缺失只冻结受影响字段，不得编造替代事实。
++
++### 4.2 Gate 2：完整内容、SEO 与 GEO 架构
++
++**目标：**在视觉布局前确认页面实际要发布的内容和机器可读表达。
++
++**强制交付：**
++
++- 已确认的内容骨架；
++- H1、Hero、全部模块标题和真实完整正文；
++- 模块顺序及每个模块帮助买家完成的判断；
++- CTA 文案、URL、预填字段、上下游内链和面包屑；
++- SEO Title、Meta Description、Canonical、索引和语言方向；
++- GEO 的实体、关系、简明答案、FAQ、来源和日期；
++- Schema 类型、字段来源和可见文案一致性规则；
++- 正常、空值、证据受限、route 未就绪和表单失败等条件状态；
++- `FULL_COPY_AND_MODULE_ORDER_CONFIRMED` 记录。
++
++**Gate 2 锁定：**真实文案、模块顺序、链接关系、CTA、SEO/GEO/Schema 事实范围。Gate 3 不得用短占位文字替换真实内容。
++
++### 4.3 Gate 3：完整内容的响应式结构验证
++
++**目标与提交停止条件：**完整批准内容与关系在三端成立；模块、标题、行动和字段位置合理；响应式重排无裁切、碰撞和操作障碍；关键状态的内容位置与行为关系清楚。批准输入、共享合同、基本可读性/可访问性及上述要求均满足后，完成自检并提交独立审查，不继续以纯视觉优化为由扩大制作。提交、独立审查与用户批准仍分别记录。
++
++**强制逻辑视口：**1440 Desktop、768 Tablet、390 Mobile，均为完整真实内容至Footer。Tablet独立判断，Mobile完整单列重排。可见控件继续检查至少44×44px的实际命中区域。780物理宽仅可登记为390 logical @2x；375、430、1024按专项结构风险补查，不默认追加全页资产。
++
++开始时在已有任务输入卡/设计说明列出“结构问题—预期关系—验证位置/视口/状态”。新增状态图或返修须关联具体结构、操作或批准合同问题；不以固定卡片数、页高、图片数或PASS数作为质量指标。
++
++**制作边界：**直接使用有效基础样式与共享组件，可以为阅读、内容关系及操作调整分组、列、宽度、换行、间距和控件位置。不要求去色或重新画灰色稿；不制作多套配色、装饰风格、阴影或媒体处理方案，不为更精致反复打磨视觉。违反批准品牌/共享合同或造成对比度、焦点可见性等实际障碍的问题仍需按责任处理，不能称为“纯视觉建议”而放行。
++
++**共享验证与页面验证分层：**有效共享owner证据在身份、合同、功能/视口覆盖均匹配且本页无影响性覆盖修改时，可以继承对应完整组件检查；本页仍实际核对版本/导航/CTA、三端连接与遮挡，适用窄屏菜单的打开、选择关闭、背景及焦点返回，以及Cookie等实际存在组件的入口与退出。继承依据、缺口和本页实测分别记录。共享版本/owner合同变化、页面样式/行为覆盖、特殊组装、证据缺失或异常触发受影响范围完整复验；不能只凭版本号或PASS摘要免检。具体方法见布局核验Skill的Gate 3范围。
++
++**正式交付：**可编辑冻结源及正式依赖、三端完整线框、必要移动菜单证据、本页结构/操作特有的关键状态证据，以及现有设计说明、自检、独立审查和当前Manifest。错误、空值、受限、展开等按真实功能覆盖；共享Cookie不默认逐页逐宽重复导出。状态图标明其解决的问题；同一证据可覆盖多个要求，额外视口需对应不同重排或未覆盖风险，无固定数量上限。长页仍须按可读比例完整查看，分段图及过程测量作为支持证据，不进入默认批准核心。
++
++共享状态图片的继承不等于本页运行验证；有效源与证据身份仍须核对。未变资产可精确引用，不重导整套；源变更后建立新冻结身份并更新受影响证据。规格、预检、自检摘要与交接导航可置于现有报告的明确章节；独立审查保持独立，不为步骤凑文件。
++
++**Gate 3锁定：**批准内容顺序、对象/字段关系、信息优先级、主要行动位置和必要响应式行为。交接把条目标为“结构约束”或“当前实现参数”；页面字号、行高、间距及非合同性的具体宽度默认属于后者。列数、控件所属区域和响应式重排不得被默认为自由参数。Gate 4可在不改变约束与owner合同的情况下调整视觉参数，并复验受影响布局；不因纯视觉参数改变自动重开Gate 3。既有已批准页面的显式锁定继续有效，本条不自动解除历史约束。
++
++**独立审查边界：**报告具体违反的要求和读者影响。内容丢失/错配、裁切/遮挡、键盘操作障碍、无有效证据的关键范围、批准合同冲突属于需解决项；无合同冲突且不影响结构、理解和操作的配色、卡片风格、精细留白建议交Gate 4，不阻塞Gate 3。CMS、真实接收及生产路由等按合同留给Gate 8/9，不把本地模拟当作实现通过。用户批准仍是关闭条件，审查返修按实际缺陷需要执行。
++
++**工具边界：**使用既有本地策划源、渲染与核验，不调用Superdesign，不实施生产开发。已批准页面成果、hash与授权保持；未来获授权工作使用本版，旧规范中相冲突的Gate 3逐页共享全量验证和视觉阻塞要求按本节解释。其他Gate规则不因此降低。
++
++### 4.4 Gate 4：完整视觉设计与验证
++
++**目标：**在一个端到端阶段中确认视觉方向，并用真实文案、完整三端页面和适用状态证明可供用户批准与Gate 6接收。
++
++**4A内部检查点 `VISUAL_DIRECTION_CHECKED`：**
++
++- 在批准品牌内确定色彩、字体、间距、卡片、按钮、表单、图片、图表、媒体和状态规则；
++- 说明Desktop、Tablet、Mobile的信息密度和缩放处理；
++- 用真实高风险区域和必要状态证明方向能够应用；
++- 核对与Home、Global Chrome、生产Logo及同类页面的关系；
++- 记录可继承规则、需要整页展开的实例和未决冲突。
++
++4A不产生Gate批准或`APPROVED / CLOSED`。方向足以裁决且没有超授权变化时，执行Agent可以连续进入完整页面制作；重大品牌、共享、内容或结构变化按责任边界提交决定。
++
++**4B完整视觉与冻结：**
++
++- `1440px` Desktop、`768px` Tablet、`390px` Mobile完整页面；Mobile允许`780px @2x`导出；
++- Header至Footer的全部批准内容、模块连接与共享组装；
++- Mobile Menu open及页面适用的重要交互、表单、错误、空值、受限、无图片和长内容状态；
++- 最终视觉规则、同一设计源及耐久依赖、三端与状态证据、操作证据、冻结身份；
++- 一个当前权威Manifest入口，指向自检、最终独立审查、Finding/复审和批准记录。
++
++完整视觉必须检查真实内容、首屏、按钮后空白、横向溢出、裁切、Footer闭合、最小44px宽和高的触控目标、字号、对比度及键盘/焦点。三张完整页面图是基础证据；长页需可读分段，适用交互需实际操作证据。静态、运行、源码和模拟结果分别记录，策划模拟不代替Gate 9开发验收。
++
++冻结后只设一个Gate 4最终独立审查环节；该环节可以包含Finding、返修和多次定向复审。用户批准准确4B冻结组合后，Gate 4才`APPROVED / CLOSED`。
++
++**Gate 4锁定：**用户批准的视觉语言、完整视觉、文案呈现、响应式表现、适用交互状态及冻结组合。Gate 4批准不授权Gate 6总审与交付、Gate 8开发、部署、发布或索引。
++
++## 5. Global Chrome 统一所有权
++
++Header、Mobile Header、Mobile Menu 和 Footer 是全站共享组件，由 Home / Global Chrome owner 维护唯一生产基线。页面任务只负责：
++
++- 声明本页的 current navigation key；
++- 在完整页面中展示组装后的共享组件；
++- 验证本页正文与共享组件的连接、响应式和 Footer 闭合；
++- 引用当前 Global Chrome 规范、Manifest 和资产键。
++
++页面任务不得自行重设计、复制分叉或改变 Header/Footer，不得改变 Logo、一级导航顺序或固定 RFQ 规则。可见导航不得显示内部状态词；当前页只使用视觉 active treatment，不显示 `CURRENT` 等内部标签。
++
++## 6. 状态与批准
++
++需要用户决定的 Gate 成果统一使用以下状态链：
++
++`DRAFT_FOR_PROJECT_CONTROL_REVIEW`
++
++→ `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL`
++
++→ `APPROVED / CLOSED`
++
++规则：
++
++1. 页面任务只能提交草案，不能自行写成项目总控 PASS 或用户批准。
++2. 项目总控 PASS 后仍必须等待用户明确批准，除非当前任务卡明确授权总控独立关闭该类非用户决策项。
++3. 用户批准日期、批准对象和批准范围必须写入当前 Manifest；不得用后续推断扩大批准范围。
++4. Gate 1–4 的检查点和局部决定可以在 Brief 中记录，但不得伪装成整个 Gate 已批准。
++5. 任一 Gate 的 `APPROVED / CLOSED` 只关闭该 Gate，不自动打开下一 Gate。
++
++## 7. 当前唯一 Manifest
++
++每个页面必须维护一个当前权威文件，推荐命名：
++
++`PAGE-ID_CURRENT_GATE_BASELINE_MANIFEST_Vx.x.md`
++
++Manifest 至少包含：
++
++- Page ID、URL、页面类型和生命周期；
++- Gate 1–4 当前权威文件；
++- 当前视觉资产、逻辑/物理尺寸、版本、字节数和 SHA-256；
++- 当前 Global Chrome 版本、Manifest 和 asset keys；
++- 用户批准对象、日期和来源；
++- 被替代版本及保留路径；
++- 开放问题、事实冻结、外部依赖和下一 Gate 授权状态；
++- 明确的 authority / consumption order。
++
++同一页面不得同时存在两个未标明优先级的“current”完整 Brief、视觉规格或 Manifest。历史文件必须保留并标记 `SUPERSEDED`、`HISTORICAL` 或等效状态，不得删除或反向控制当前版本。
++
++## 8. 批准后的变更
++
++已批准内容发生实质变化时：
++
++1. 复制当前版本并升级版本号；
++2. 登记变更原因、影响范围、回退基线和新 Review ID；
++3. 只重开受影响的 Gate 或定向审查范围；
++4. 生成新 Manifest，并将旧基线标记为被替代但可回退；
++5. 涉及文案事实的变化同步检查 SEO、GEO 和 Schema；
++6. 涉及布局的变化重新检查 1440、768、390；
++7. 未获新批准前，旧批准基线继续是对外与开发权威。
++
++## 9. 既有页面过渡规则
++
++- 不要求已经批准的页面立即重做 Gate 1–4。
++- 页面下次修订或进入下一阶段时，必须建立/更新一个当前 Manifest，并明确历史版本优先级。
++- 既有页面缺少 768px 证据时，应在下一次视觉修订补齐；在补齐前必须登记为明确的 carry-forward item，不能把 1440 或 390 直接当作 Tablet 证据。
++- 既有页面的 Header/Footer 视觉可以继续作为组装证明，但生产实现和开发合同必须引用共享 Global Chrome，不得要求每页独立开发。
++- 过渡整理不得改变已经批准的页面内容、事实、视觉或阶段授权。
++
++## 10. Gate 4最终提交前最小检查表
++
++- [ ] Page Intent Card 已确认。
++- [ ] 完整真实文案与模块顺序已确认。
++- [ ] 关键词、事实、SEO、GEO、Schema 和 CTA 边界一致。
++- [ ] 1440、768、390 完整证据齐全。
++- [ ] Mobile Menu 和适用状态齐全。
++- [ ] Global Chrome 只引用共享基线，无页面级分叉。
++- [ ] 无内部治理词进入 Buyer Clean。
++- [ ] 当前 Manifest 唯一且包含尺寸、版本和 SHA-256。
++- [ ] 历史版本保留并明确 superseded 状态。
++- [ ] 用户批准范围和下一 Gate 授权没有混写。
++
++## 11. 版本记录
++
++| 日期 | 版本 | 决定 |
++|---|---|---|
++| 2026-09-07 | V2.1 | Gate 3定向修订最终整合；保留V2.0全部合并视觉条款。 |
++| 2026-09-07 | V2.0 | 原Gate 4/5合并为当前Gate 4；4A内部检查，4B唯一正式关闭；一个执行Agent、三个能力Skill和一个最终独立审查环节。 |
++| 2026-09-07 | V1.3 | 用户授权Gate 3定向收敛：结构停止条件、共享证据继承、状态图按风险、视觉建议归属和结构/参数交接。 |
++| 2026-09-07 | V1.2 | Gate 6统一总审与开发交付；Gate 7历史兼容，8/9/10编号与授权边界保持。 |
++| 2026-09-05 | V1.1 | 用户决定暂不使用付费 Superdesign 插件；Gate 3–5 继续采用既有本地设计与验证流程，交付和审批标准不变。 |
++| 2026-09-01 | V1.0 | 用户批准建立统一 Gate 1–5 标准、两个早期内容确认点、1440/768/390 视觉证据、共享 Global Chrome 所有权和单一当前 Manifest 规则。 |
++
++
++
+--- before/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md
++++ after/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md
+@@ -0,0 +1,37 @@
++# Gate 4 Complete Visual Agent / Skill 当前基线 Manifest V1.1
++
++## 1. 当前组合
++
++| 对象 | 当前入口 | SHA-256 | 状态 |
++|---|---|---|---|
++| 工作流 | [Gate工作流V3.0](GATE_WORKFLOW_V3.0.md) | `b5a959a9d52431c30c6a31b7cbfad2dae8775fde69ecd317c2fc5939b7f3c292` | `APPROVED / ACTIVE` |
++| Gate标准 | [页面Gate 1–4统一标准V2.1](PAGE_GATE_1_4_STANDARD_V2.1.md) | `e2a88e770dd3bcf49127a24fa28c698ec31b507653398900ab8a633fcea3c0d1` | `APPROVED / ACTIVE` |
++| 执行Agent | [Gate 4完整视觉设计与验证Agent](../../agents/gate4-complete-visual/agent.md) V1.0 | `5d7528574fc72d07820c7a0768a5e72be4fbddcfb8b5888a09d43e2a9e089aaf` | `APPROVED_ROLE_SOURCE / NOT_RUNTIME_REGISTERED` |
++| 共同工作合同 | [Agent / Skill共同工作合同V1.0](GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md) | `a70753077aa921956506f0a7def9e55b6513829de7e995c8134a7557254cb7f6` | `APPROVED / ACTIVE` |
++| 视觉方向方法 | [brand-applied-visual-design](../../skills/brand-applied-visual-design/SKILL.md) V0.2 | `477c280b8bdc5657632ee26635f4e94a642495482cb3a3ab6dcf0ea27e103bbd` | `APPROVED_METHOD_SOURCE` |
++| 完整视觉方法 | [full-page-visual-composition](../../skills/full-page-visual-composition/SKILL.md) V0.2 | `708fec10a70ec15df62f0d3f8b94e7c7150fecefa6f891d43130a0f099740220` | `APPROVED_METHOD_SOURCE` |
++| 布局与交互核验 | [layout-interaction-verification](../../skills/layout-interaction-verification/SKILL.md) V0.4 | `24b1a8500ce374fe759e26a51b08fd8b1d95a2590d561fb0bc41cfc538aa349e` | `APPROVED_METHOD_SOURCE` |
++
++## 2. 角色和方法关系
++
++一个执行Agent负责端到端结果。三个Skill共用同一工作集、输入清单、设计源和证据索引，只维护各自方法与增量结果。4A为`VISUAL_DIRECTION_CHECKED`内部检查；4B完成冻结并进入唯一最终独立审查环节，该环节允许Finding、返修和复审。用户批准4B冻结组合后，Gate 4才`APPROVED / CLOSED`。
++
++## 3. 历史来源
++
++- 原[Gate 4视觉方向Agent](../../agents/gate4-execution/agent.md)和原[Gate 5完整视觉Agent](../../agents/gate5-execution/agent.md)保持历史原文。
++- 三项Skill的被替代源保存在各自`history/`目录，不回写。
++- 旧Gate 5已批准成果按工作流V3.0核对映射；旧Gate 4已批准成果只补实际缺口。
++- Belgium仍暂停；本基线不构成恢复或扩大执行授权。
++
++## 4. 权限
++
++本Manifest批准当前角色与方法组合，不自动注册Codex运行Skill，不创建常驻Agent，不授权任何页面执行、恢复、Gate 6、开发、派发、部署、发布、DNS或索引。
++
++## 5. 决定
++
++2026-09-07用户明确同意该方案并要求开始修改。当前组合取代原Gate 4→Gate 5双Agent流程作为未来执行入口；历史页面的事实、批准对象、文件名与hash保持。
++
++## 6. 共用方法兼容更新
++
++V1.1只承接用户授权Gate 3定向修订对共用核验Skill的V0.4更新及标准V2.1指针；Gate 4共同工作集、4A/4B和完整检查不变，不新增Gate 4授权。[V1.0](GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.0.md)及核验[并行V0.3](../../skills/layout-interaction-verification/history/SKILL-v0.3-before-gate3-scope.md)保留。精确当前共用方法hash见[Gate 3当前组合](GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)；本次文件自检不代替真实页面验证。
++

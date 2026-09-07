@@ -1,0 +1,9 @@
+2026-09-07 project-control review helper first run failed before browser launch.
+Cause: helper expected formal export field `exports`; the actual record uses `assets`.
+Observed error: TypeError at project-control-review-v0.1.cjs line 41 (`formal.exports.map`).
+Resolution: preserve this note, correct the helper to read `assets`, and rerun the complete independent review. No frozen or formal asset was modified.
+
+The next complete run returned two reviewer-helper expectation failures, preserved as `project-control-review-first-run-revision-required.json`:
+- Markdown ordered-list numerals were compared with `innerText`, although browser `innerText` omits generated list markers.
+- The open-menu focus cycle correctly included the persistent Close control after the eight navigation items, while the helper allowed only navigation labels.
+Both observations matched the intended DOM and interaction contract; they were helper expectations, not page findings. The helper was corrected and the full review rerun. No frozen or formal asset was modified.

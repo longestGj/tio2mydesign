@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "payloadId": "LEGAL-PRIVACY-CONV-DOC-POST-G9-SOURCE-01",
+  "reviewId": "LEGAL-PRIVACY-G9-CONV-DOC-PARITY-PCR-01",
+  "approvedDate": "2026-09-05",
+  "scope": [
+    "LEGAL-PRIV-EN",
+    "LEGAL-PRIV-MS",
+    "CONV-DOC privacy and actual-data-flow parity only"
+  ],
+  "sourceAuthorities": {
+    "en": {
+      "path": "pages/legal-privacy/04_planning/LEGAL-PRIV-EN_GATE2_FULL_COPY_V0.2.md",
+      "sha256": "896A4CBCEE2CF5A9B19C9B65B62B7C247668A3C5C84DA17E0E61CB0B8E556A37"
+    },
+    "ms": {
+      "path": "pages/legal-privacy/04_planning/LEGAL-PRIV-MS_GATE2_FULL_COPY_V0.2.md",
+      "sha256": "00FB18D246D7FFEA787CDB9BE06EF3B74D547607D62F4E846EFBF2DD0E4FB594"
+    }
+  },
+  "runtimeFacts": {
+    "workflow": "request_documents",
+    "provider": "Web3Forms",
+    "plan": "free",
+    "submissionMode": "browser_direct",
+    "endpoint": "https://api.web3forms.com/submit",
+    "endpointMutability": "fixed",
+    "accessKeyClassification": "browser_available_routing_identifier_not_private_secret",
+    "accessKeyValueMayRender": false,
+    "recipientBinding": "configured_by_ikhlas_in_provider_account_via_access_key",
+    "recipientAddressMayRender": false
+  },
+  "requestDocuments": {
+    "visibleFieldCount": 8,
+    "fields": [
+      {
+        "key": "full_name",
+        "en": "Full Name",
+        "ms": "Nama Penuh",
+        "required": true
+      },
+      {
+        "key": "company",
+        "en": "Company",
+        "ms": "Syarikat",
+        "required": true
+      },
+      {
+        "key": "business_email",
+        "en": "Business Email",
+        "ms": "E-mel Perniagaan",
+        "required": true
+      },
+      {
+        "key": "country_region",
+        "en": "Country/Region",
+        "ms": "Negara/Rantau",
+        "required": true,
+        "meaning": "contact_or_company_location_only"
+      },
+      {
+        "key": "product_grade",
+        "en": "Product Grade",
+        "ms": "Gred Produk",
+        "required": true
+      },
+      {
+        "key": "document_types",
+        "en": "selected Document Types",
+        "ms": "Jenis Dokumen yang dipilih",
+        "required": true,
+        "cardinality": "one_or_more"
+      },
+      {
+        "key": "application_industry",
+        "en": "Application/Industry",
+        "ms": "Aplikasi/Industri",
+        "required": false
+      },
+      {
+        "key": "additional_requirements",
+        "en": "Additional Requirements",
+        "ms": "Keperluan Tambahan",
+        "required": false,
+        "conditionalRequirementMayApply": true
+      }
+    ],
+    "minimalTechnicalDataWhenApplicable": [
+      "page_or_source_context",
+      "stable_request_token",
+      "site_identifier",
+      "workflow_identifier",
+      "minimum_routing_data",
+      "minimum_security_data"
+    ],
+    "notRequestDocumentsFields": [
+      "file_upload",
+      "telephone_or_whatsapp",
+      "company_website",
+      "market_or_destination"
+    ]
+  },
+  "purposes": [
+    "receive_review_and_respond_to_document_requests",
+    "review_product_grade_document_types_optional_application_and_business_context",
+    "confirm_intended_request_scope",
+    "assess_whether_relevant_documents_may_be_available_or_provided",
+    "conduct_necessary_follow_up_communication",
+    "maintain_related_b2b_correspondence",
+    "operate_secure_and_troubleshoot_the_form_service"
+  ],
+  "outcomeBoundary": "submission_does_not_confirm_document_existence_applicability_availability_provision_or_sending",
+  "futureWorkflowDisclosure": {
+    "sample": "future_only_until_active_production_receiver_and_verified_fields",
+    "documentRequest": "active_and_disclosed_now"
+  },
+  "dateStrings": {
+    "en": "Last updated: 5 September 2026",
+    "ms": "Kemas kini terakhir: 5 September 2026"
+  },
+  "retainedWithoutSubstantiveChange": [
+    "controller_identity_and_privacy_contact",
+    "technical_and_usage_information",
+    "international_processing",
+    "rights_and_choices",
+    "security_and_data_minimisation",
+    "business_users_and_children",
+    "three_year_ikhlas_retention_rule",
+    "web3forms_dashboard_30_day_visibility_distinction",
+    "web3forms_physical_retention_up_to_three_years_wording",
+    "cookies_analytics_and_advanced_consent_mode",
+    "seo_geo_schema_contract"
+  ],
+  "implementationRules": {
+    "replaceCurrentRuntimePrivacySource": true,
+    "preserveHistoricalV01": true,
+    "buyerVisibleBodyMustMatchCurrentSource": true,
+    "internalControlsMustNotRender": true,
+    "bmQualifiedHumanReviewRemainsReleaseBlocker": true,
+    "productionWeb3FormsBindingAndPositiveReceiptRemainReleaseBlockers": true,
+    "gate10Authorized": false,
+    "deploymentAuthorized": false,
+    "publicationAuthorized": false,
+    "indexingAuthorized": false
+  }
+}

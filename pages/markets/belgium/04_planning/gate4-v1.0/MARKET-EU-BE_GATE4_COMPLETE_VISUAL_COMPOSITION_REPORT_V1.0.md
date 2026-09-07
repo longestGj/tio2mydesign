@@ -1,0 +1,19 @@
+# MARKET-EU-BE complete visual composition V1.0
+
+2026-09-07. Workset BE-G4-COMPLETE-20260907-01; freeze BE-G4-FREEZE-20260907-01. Status COMPLETE_VISUAL_FROZEN / DRAFT_FOR_PROJECT_CONTROL_REVIEW.
+
+This is the first completed merged Gate 4 visual set after the earlier pre-freeze pause. It derives directly from this page's approved Gate 3 source, with exact B V0.2 and five module relationships preserved. No other business page was used as a template. The current workflow and three methods share one workset, one input index, one design source and one evidence index.
+
+4A decision: [direction check](MARKET-EU-BE_GATE4_VISUAL_DIRECTION_CHECK_V1.0.md). 4B expands that same direction across the entire source. Hero emphasizes the industrial identity and RFQ; product/origin/destination remains a two-paragraph qualification block; the three evaluation contexts use consistent white cards; neutral product review remains after all contexts. Documents gives the selected-Grade process and one quiet COO callout, then separate document actions and a lower-priority EU overview. Final RFQ retains four preparation points and the human review/contact outcome.
+
+Desktop preserves three contexts in columns; tablet preserves label/detail rows; mobile preserves complete stacked contexts and actions. Typography, spacing, surface and border refinements remain inside Gate 3 structural constraints. The only inline markup refinement keeps quotation-request punctuation together; visible text is byte-normalized equal to B. No fact, field, URL, keyword, module sequence or schema relationship is changed. No new image was required.
+
+The shared Chrome, Menu, Footer, Cookie content and behavior are inherited from neutral Shared Consumer V0.2 and Global Chrome V0.5. They retain Markets current, fixed RFQ, approved primary/reverse production SVGs, the three legal links, Cookie Settings and the no-optional-analytics state. This page adds no shared CSS overrides.
+
+Evidence: 8 formal images (three full pages, two Menu states, three Cookie states), 19 readable overlapping segments, 15 focus/Footer diagnostic images. All 42 indexed images were opened. Formal full pages are byte-identical to the preflight full pages, so the readable segments supply continuous pixel evidence for the final freeze without duplicate crops. Source: 21689 bytes, SHA-256 73aad15d48c3261b31e34e71288c95a73ec5ab2e869af611ecdbf270aead92dc.
+
+Actual local runtime checks cover full B, headings and links, object relationships, three viewport geometries, actual 44×44 targets, loaded Inter/Logo, Menu entry/loop/Escape/Close/all eight selections/background isolation/scroll return/cross-breakpoint close, Cookie entry/loop/Close/Escape/focus return, and Footer restoration. Focus and hover are exercised on Hero RFQ, both Documents inline links and EU overview. Functional Teal text is 4.8177:1 on white and 4.5201:1 on Soft Background; Navy text/primary hover is 13.9594:1 on white. Focus ring contrast uses surrounding white/light surfaces.
+
+Navigation callbacks are LOCAL_SIMULATION_NOT_RECEIVED, not real submission. 200% equivalent reflow is tested at 720 CSS width / DPR2 with reduced motion; this is LOCAL_SIMULATION, not native browser zoom verification. No backend or external network is used. Production receivers/routes, real devices, non-Chrome engines, screen-reader speech, native zoom UI and actual consent/storage remain later QA dependencies.
+
+No unresolved visual defect was found in execution self-check. The first focus helper timed out because its selector did not match the Hero action; the selector was corrected and runtime checks passed without changing design source. This is tooling history, not a page Finding. Independent final review and user approval remain required. Gate 6 and implementation are not authorized.

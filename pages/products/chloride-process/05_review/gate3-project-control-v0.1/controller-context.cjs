@@ -1,0 +1,9 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),{pathToFileURL}=require('url');
+const {chromium}=require('C:/Users/longe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const source=process.argv[2],out=process.argv[3];
+(async()=>{const browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1440,height:900}});const requests=[];await page.route(/^https?:/,r=>{requests.push(r.request().url());return r.abort()});await page.goto(pathToFileURL(source).href);await page.evaluate(()=>document.fonts.ready);
+const checks=[];for(const href of ['/request-a-quote/','/request-documents/','/products/m-350/']){await page.locator(`main a[href="${href}"]`).first().click();const record=await page.evaluate(()=>window.planningNavigation.at(-1));const expected=href.startsWith('/request-')?{source_page_id:'PRODUCT-PROC-CL'}:undefined;checks.push({name:href,record,pass:record.href===href&&JSON.stringify(record.context)===JSON.stringify(expected)});}
+const links=await page.locator('main a').evaluateAll(es=>es.map(e=>({text:e.innerText,color:getComputedStyle(e).color,background:getComputedStyle(e).backgroundColor,border:getComputedStyle(e).borderColor})));
+checks.push({name:'body functional colors',pass:links.every(l=>l.color==='rgb(0, 128, 120)'||(l.color==='rgb(255, 255, 255)'&&l.background==='rgb(0, 128, 120)')),links});
+checks.push({name:'no outbound',pass:requests.length===0,requests});
+const data={sourceSha256:crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex'),checks};fs.writeFileSync(path.join(out,'context-and-color-observations.json'),JSON.stringify(data,null,2));console.log(JSON.stringify({checks:checks.length,failures:checks.filter(c=>!c.pass)}));await browser.close();})();

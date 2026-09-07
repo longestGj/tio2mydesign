@@ -1,0 +1,25 @@
+{
+  "pattern": "(?i)(\\bgate[ _-]*(?:10|[0-9])\\b|\\bgate\\b|关卡|阶段门禁)",
+  "scope": "all ripgrep-readable text, including hidden and ignored files; binary assets not text-extracted",
+  "excluded": [
+    ".git",
+    "node_modules",
+    ".venv",
+    "venv",
+    "this audit output and scripts"
+  ],
+  "matched_files": 3253,
+  "matched_lines": 34953,
+  "gate67_files": 1208,
+  "categories": {
+    "其他资料/研究/设计历史：按对象与日期继承": 131,
+    "全局治理/导航/控制记录：识别现行权威": 86,
+    "历史归档/快照：原样保留": 78,
+    "工作区/运行证据：原样保留": 363,
+    "角色/方法：核对现行入口与阶段边界": 16,
+    "作业规范/模板/具体合同：区分新执行与历史授权": 149,
+    "页面合同/成果/批准：保留并按全局兼容规则解释": 2430
+  },
+  "rg_exit": 0,
+  "stderr": ""
+}

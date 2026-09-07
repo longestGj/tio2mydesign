@@ -1,0 +1,19 @@
+{
+  "status": "BLOCKED_BEFORE_FREEZE_SHARED_CONSUMER_CORRECTION",
+  "observationId": "RESCH-PF-SHARED-01",
+  "role": "Execution preflight observation; not independent review",
+  "candidate": {
+    "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.1.html",
+    "bytes": 18831,
+    "sha256": "ec44a759a77a258a53444a560854ba99dc6812b837b423e292e5d3da34e48e9f"
+  },
+  "sharedConsumer": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.1/consumer-package.json",
+  "expected": "CTA Accessibility Addendum V1.0: normal functional link text and interactive borders on white/light surfaces use #008078",
+  "observed": "shared-chrome.css .cookie-actions > * uses #062b5b for text and border; page consumes package unchanged",
+  "evidenceTypes": ["SOURCE_INSPECTION", "STATIC_VISUAL"],
+  "projectControlDisposition": "Confirmed shared consumer defect, not RES-CHEMOURS page defect. Project control will version shared package and update color preflight. Keep candidate unfrozen, no formal exports; rebuild diagnostic candidate and repeat complete hard preflight after corrected source is supplied.",
+  "sourceChanged": false,
+  "formalExportsGenerated": false,
+  "runtimeEvidence": "runtime-preflight-v0.1.json",
+  "visualEvidence": "visual-observations-v0.1.md"
+}

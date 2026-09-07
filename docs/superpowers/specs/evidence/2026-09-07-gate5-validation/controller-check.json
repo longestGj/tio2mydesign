@@ -1,0 +1,715 @@
+{
+  "checkedAt": "2026-09-07T01:29:35.808Z",
+  "scope": "Independent root byte/hash/dimension/coverage verification; no claim of full visual audit or independent rerun of author runtime.",
+  "checks": [
+    {
+      "group": "frozen source",
+      "path": "source/index.html",
+      "actualBytes": 5325,
+      "actualSha256": "3ec171570aec364981e9d7c1309bdfbb29ef7e9022efc00db4e45966d2bc35b5",
+      "pass": true
+    },
+    {
+      "group": "frozen source",
+      "path": "source/styles.css",
+      "actualBytes": 8399,
+      "actualSha256": "021b843c0e63972e37e437970b9d4cb8433c38dcc0dee4a219761844a00d38df",
+      "pass": true
+    },
+    {
+      "group": "frozen source",
+      "path": "source/app.js",
+      "actualBytes": 6453,
+      "actualSha256": "2463cf517a9124572a8c12f4df258aa773270a584d7f63c58d6cf600f9cc3a6b",
+      "pass": true
+    },
+    {
+      "group": "frozen source",
+      "path": "source/assets/Inter-Variable.ttf",
+      "actualBytes": 876576,
+      "actualSha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "pass": true
+    },
+    {
+      "group": "input",
+      "path": "docs/superpowers/specs/evidence/2026-09-07-gate5-validation/input/brief.md",
+      "actualBytes": 9196,
+      "actualSha256": "279fef6eb3a230b569c39420d6afe2d0cdfda009e6eb054720b2b9ca26a61278",
+      "pass": true
+    },
+    {
+      "group": "input",
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/input.md",
+      "actualBytes": 8570,
+      "actualSha256": "9d6b7c235785ec3bd299694121b9779d5f93829db1f9263241308215f738f3dd",
+      "pass": true
+    },
+    {
+      "group": "input",
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/report.md",
+      "actualBytes": 12682,
+      "actualSha256": "992885e01f6f410a0b6679de82e9ccf62d2d51bd6331796deae5451f68030fb7",
+      "pass": true
+    },
+    {
+      "group": "input",
+      "path": "agents/gate5-execution/agent.md",
+      "actualBytes": 12063,
+      "actualSha256": "2b699ac3246699eb8fcfcd7846b06a3cdb1fa666dd39c568e41ceb28cbdcdead",
+      "pass": true
+    },
+    {
+      "group": "input",
+      "path": "skills/full-page-visual-composition/SKILL.md",
+      "actualBytes": 7868,
+      "actualSha256": "684ac4a1ebab836b34d23b54ca3947541fa802c217513114403ff8d1ea13cf1a",
+      "pass": true
+    },
+    {
+      "group": "input",
+      "path": "skills/layout-interaction-verification/SKILL.md",
+      "actualBytes": 8371,
+      "actualSha256": "86d1b6cda29ca2213607e6b5be1f48f3a449105b1385659200584498fb541aa4",
+      "pass": true
+    },
+    {
+      "group": "input",
+      "path": "docs/superpowers/specs/2026-09-07-gate5-design-user-approval-v0.1.md",
+      "actualBytes": 1836,
+      "actualSha256": "e3f7d904a2587258de3e2b1e85a356bff8a604dc399dbd249a4b6fac8dac65a5",
+      "pass": true
+    },
+    {
+      "group": "unchanged precursor",
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/index.html",
+      "actualBytes": 3352,
+      "actualSha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640",
+      "pass": true
+    },
+    {
+      "group": "unchanged precursor",
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/styles.css",
+      "actualBytes": 5952,
+      "actualSha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e",
+      "pass": true
+    },
+    {
+      "group": "unchanged precursor",
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/app.js",
+      "actualBytes": 4314,
+      "actualSha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff",
+      "pass": true
+    },
+    {
+      "group": "unchanged precursor",
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/assets/Inter-Variable.ttf",
+      "actualBytes": 876576,
+      "actualSha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "pass": true
+    },
+    {
+      "group": "preflight",
+      "path": "preflight.md",
+      "actualBytes": 3913,
+      "actualSha256": "80baaf333502fa4606361452c7eda051218ae8e442e8534677ac45946ab1cf59",
+      "pass": true
+    },
+    {
+      "group": "preflight",
+      "path": "diagnostic/preflight-06/runtime.json",
+      "actualBytes": 168295,
+      "actualSha256": "ce4f0e4394bfea0d0e5f40b3c0922e23b4f50ea52c2e5d2eea1d80a5f6a96dbf",
+      "pass": true
+    },
+    {
+      "group": "renderer",
+      "path": "verify-render.cjs",
+      "actualBytes": 15647,
+      "actualSha256": "4c11d0f9943352ac799755959fe8492b0c0e48ec92c20a0039661d8029185061",
+      "pass": true
+    },
+    {
+      "group": "combined identity",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\agents\\gate5-execution\\agent.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\docs\\superpowers\\specs\\evidence\\2026-09-07-gate5-validation\\input\\snapshots\\gate5-agent-v0.1.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\skills\\full-page-visual-composition\\SKILL.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\docs\\superpowers\\specs\\evidence\\2026-09-07-gate5-validation\\input\\snapshots\\full-page-visual-skill-v0.1.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\skills\\layout-interaction-verification\\SKILL.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\docs\\superpowers\\specs\\evidence\\2026-09-07-gate5-validation\\input\\snapshots\\layout-verification-v0.2.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\docs\\superpowers\\specs\\2026-09-07-gate5-agent-skill-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\docs\\superpowers\\specs\\evidence\\2026-09-07-gate5-validation\\input\\snapshots\\gate5-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\90_archive\\skills\\2026-09-07\\gate4-method-validation\\input.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\docs\\superpowers\\specs\\evidence\\2026-09-07-gate5-validation\\input\\snapshots\\gate4-raw-content-input.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\90_archive\\skills\\2026-09-07\\gate4-method-validation\\design-v1\\report.md",
+      "pass": true
+    },
+    {
+      "group": "approved source and snapshot",
+      "path": "D:\\23MySec\\docs\\superpowers\\specs\\evidence\\2026-09-07-gate5-validation\\input\\snapshots\\gate4-visual-rule-report.md",
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/1440-default-full.png",
+      "actualBytes": 295313,
+      "actualSha256": "16d0de940eb90c177c295aaf4f070929c06e86e8e25e946eee4f56c29b71946d",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/1440-default-full.png",
+      "width": 1440,
+      "height": 3035,
+      "viewport": 1440,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/1440-missing-record-error.png",
+      "actualBytes": 78904,
+      "actualSha256": "c2e8fb5402221090ae3f2ac70309690e11cd0aa8007fe62e344e3882483bc5b9",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/1440-missing-record-error.png",
+      "width": 1440,
+      "height": 1002,
+      "viewport": 1440,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/1440-list-open-beta-focus.png",
+      "actualBytes": 79658,
+      "actualSha256": "60addafa176d2d0eb9255e6c0aeefacd5793bcf277e45152fe5ce2ef2a2abee1",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/1440-list-open-beta-focus.png",
+      "width": 1440,
+      "height": 1002,
+      "viewport": 1440,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/1440-beta-selected.png",
+      "actualBytes": 68423,
+      "actualSha256": "57b65114b6239535d76d6f825b31f87fa69e7f08a5e70b4db6184245164b424e",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/1440-beta-selected.png",
+      "width": 1440,
+      "height": 911,
+      "viewport": 1440,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/1440-beta-preview.png",
+      "actualBytes": 84326,
+      "actualSha256": "aee306bb8aaaa3135a4f3be4ea03e3272bac1551dacb6e1b61cf1a02339a3f98",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/1440-beta-preview.png",
+      "width": 1440,
+      "height": 1073,
+      "viewport": 1440,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/1440-faq2-expanded-focus.png",
+      "actualBytes": 46998,
+      "actualSha256": "43419cf0933b0c2f40c760ff36ef65ff1887cac556ceaff85c72e56678baa441",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/1440-faq2-expanded-focus.png",
+      "width": 1440,
+      "height": 697,
+      "viewport": 1440,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/1440-media-absent-full.png",
+      "actualBytes": 276458,
+      "actualSha256": "290359ea06652fe2188eb2d46cd79a35295cffb254a91fef76e9ba76662ba6f4",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/1440-media-absent-full.png",
+      "width": 1440,
+      "height": 2911,
+      "viewport": 1440,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/768-default-full.png",
+      "actualBytes": 287012,
+      "actualSha256": "ad351441cc8c1eede7bbe093422787bce60b6ed56ef929a2a395e7078aec7166",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/768-default-full.png",
+      "width": 768,
+      "height": 3277,
+      "viewport": 768,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/768-menu-open.png",
+      "actualBytes": 52959,
+      "actualSha256": "c81cedbcc2f3891e4102c563519a8f858d53b8daa5078fbf1b0c6f96c835c3e8",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/768-menu-open.png",
+      "width": 768,
+      "height": 1000,
+      "viewport": 768,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/768-missing-record-error.png",
+      "actualBytes": 74729,
+      "actualSha256": "d76351bdd233631521c0010cda0a9dcc91b60861bf2f2bb02ed0965da724d699",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/768-missing-record-error.png",
+      "width": 768,
+      "height": 945,
+      "viewport": 768,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/768-list-open-beta-focus.png",
+      "actualBytes": 75085,
+      "actualSha256": "e1855b06e60599fb03d4555b00e600552713d59d9b4e549445d9ff379a304089",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/768-list-open-beta-focus.png",
+      "width": 768,
+      "height": 945,
+      "viewport": 768,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/768-beta-selected.png",
+      "actualBytes": 64215,
+      "actualSha256": "f58e21824d98bfb7e7bcb5ed61378b189c501f7b87db9346fb8271c532203db3",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/768-beta-selected.png",
+      "width": 768,
+      "height": 854,
+      "viewport": 768,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/768-beta-preview.png",
+      "actualBytes": 79438,
+      "actualSha256": "7412cc28d2b9950cdc0f8fae5661b3cb85025b45975fd4549e289fcc2929bd8c",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/768-beta-preview.png",
+      "width": 768,
+      "height": 1015,
+      "viewport": 768,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/768-faq2-expanded-focus.png",
+      "actualBytes": 45465,
+      "actualSha256": "90f3bfdf655f3a07fbad41328b9d1f0df572fb4baa001d8509a261a8d25676db",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/768-faq2-expanded-focus.png",
+      "width": 768,
+      "height": 654,
+      "viewport": 768,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/768-media-absent-full.png",
+      "actualBytes": 268190,
+      "actualSha256": "bcd7fd64fb762a979415cf627d98d1c01f774edaeb6f8b2edec390d1f467a38c",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/768-media-absent-full.png",
+      "width": 768,
+      "height": 2825,
+      "viewport": 768,
+      "dpr": 1,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/390-default-full.png",
+      "actualBytes": 661915,
+      "actualSha256": "2669a9073307e729e4320e43e4f5832ab1512a10a3f1e584e1f6b52195db3db8",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/390-default-full.png",
+      "width": 780,
+      "height": 9532,
+      "viewport": 390,
+      "dpr": 2,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/390-menu-open.png",
+      "actualBytes": 94767,
+      "actualSha256": "02e42ea86d34d3993fc8737e7f7a4804636652732a1a8b382dc775c761490d2f",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/390-menu-open.png",
+      "width": 780,
+      "height": 1688,
+      "viewport": 390,
+      "dpr": 2,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/390-missing-record-error.png",
+      "actualBytes": 167631,
+      "actualSha256": "cfc597ccefa0afed908e7c46c6ed3ecbb12f3aa7a427eb47c4e99ce9ca02c4ae",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/390-missing-record-error.png",
+      "width": 780,
+      "height": 2310,
+      "viewport": 390,
+      "dpr": 2,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/390-list-open-beta-focus.png",
+      "actualBytes": 162504,
+      "actualSha256": "239bcac011c3bcf0967e7a0eddc498ac09e5057c38a48d46c0025486c796e56f",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/390-list-open-beta-focus.png",
+      "width": 780,
+      "height": 2310,
+      "viewport": 390,
+      "dpr": 2,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/390-beta-selected.png",
+      "actualBytes": 148733,
+      "actualSha256": "7a7a516d0007e163845f31b7376fecfc8fcc0dc9af6e05daf188cdadbb358be1",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/390-beta-selected.png",
+      "width": 780,
+      "height": 2128,
+      "viewport": 390,
+      "dpr": 2,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/390-beta-preview.png",
+      "actualBytes": 186487,
+      "actualSha256": "08ff3e4b8601f34ad7f9dced2ccd16ca323a10c02fe48f034803d30661e3f4ca",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/390-beta-preview.png",
+      "width": 780,
+      "height": 2548,
+      "viewport": 390,
+      "dpr": 2,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/390-faq2-expanded-focus.png",
+      "actualBytes": 103460,
+      "actualSha256": "1d1996629f6a53ad3c9088d5d6c8c2e727a8ec7c117e43025dee111bb77fd93d",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/390-faq2-expanded-focus.png",
+      "width": 780,
+      "height": 1688,
+      "viewport": 390,
+      "dpr": 2,
+      "pass": true
+    },
+    {
+      "group": "formal asset",
+      "path": "exports/390-media-absent-full.png",
+      "actualBytes": 627512,
+      "actualSha256": "c8862edb4ab3d00b0bc7ea00634389f3a0e2f4798a6679c755c30afccfa1ff29",
+      "pass": true
+    },
+    {
+      "group": "PNG dimensions and viewport mapping",
+      "path": "exports/390-media-absent-full.png",
+      "width": 780,
+      "height": 8696,
+      "viewport": 390,
+      "dpr": 2,
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 1440,
+      "state": "default-full",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 1440,
+      "state": "media-absent-full",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 1440,
+      "state": "missing-record-error",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 1440,
+      "state": "beta-selected",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 1440,
+      "state": "beta-preview",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 1440,
+      "state": "faq2-expanded-focus",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 1440,
+      "state": "list-open-beta-focus",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 768,
+      "state": "default-full",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 768,
+      "state": "media-absent-full",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 768,
+      "state": "missing-record-error",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 768,
+      "state": "beta-selected",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 768,
+      "state": "beta-preview",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 768,
+      "state": "faq2-expanded-focus",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 768,
+      "state": "list-open-beta-focus",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 390,
+      "state": "default-full",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 390,
+      "state": "media-absent-full",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 390,
+      "state": "missing-record-error",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 390,
+      "state": "beta-selected",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 390,
+      "state": "beta-preview",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 390,
+      "state": "faq2-expanded-focus",
+      "pass": true
+    },
+    {
+      "group": "formal coverage",
+      "width": 390,
+      "state": "list-open-beta-focus",
+      "pass": true
+    },
+    {
+      "group": "compact menu coverage",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "group": "compact menu coverage",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "group": "frozen/runtime identity agreement",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "rootSpotChecks": [
+    {
+      "asset": "1440-default-full.png",
+      "observation": "Opened overview: all sections, header and footer present; tall image was resized by viewer, so not used as a full readable text audit."
+    },
+    {
+      "asset": "390-beta-preview.png",
+      "observation": "Opened preview region: long selected name wraps, question remains, preview focus and success feedback visible."
+    }
+  ]
+}

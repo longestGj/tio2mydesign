@@ -1,0 +1,37 @@
+# LEGAL-PRIV-MS Current Gate 5 Baseline Manifest V0.6
+
+## Control
+
+| Field | Value |
+|---|---|
+| Manifest ID | `LEGAL-PRIV-MS-CURRENT-G5-06` |
+| Page / URL | `LEGAL-PRIV-MS` / `/ms/privacy-policy/` |
+| Lifecycle | `DESIGN_IN_REVIEW` |
+| Gate 5 | `USER_APPROVED / CLOSED / TARGETED_CORRECTION_VALIDATED` |
+| Gate 6 | `PROJECT_CONTROL_REVIEW_PASS / CLOSED` |
+| Gate 7–10 | `NOT_AUTHORIZED` |
+| Date | 2026-09-02 |
+
+## Copy authority
+
+`LEGAL-PRIV-MS_GATE2_FULL_COPY_V0.1.md` — SHA-256 `9FC9332CD6F1621AD658AAD861647E36E44623583618EE5ECD4A253DF499BC68`.
+
+## Current complete visual evidence
+
+| Asset | Logical / physical size | PNG bytes | PNG SHA-256 | SVG SHA-256 |
+|---|---:|---:|---|---|
+| `LEGAL-PRIV-MS_G5_DESKTOP_1440_BUYER_CLEAN_V0.2` | 1440×7684 | 1,315,703 | `6343C6193C1F7B2E9643FB984FF543CE986BA275382E13721E9BBB12164E0920` | `79D7FF2DEE84EB78F0F5ECA5CB982F8CF577DFCA7B125C1C35268A95CA909CB1` |
+| `LEGAL-PRIV-MS_G5_TABLET_768_BUYER_CLEAN_V0.2` | 768×8234 | 1,121,813 | `0FA695193ADC14471A93DA4C7CC7F4818EC1CAF9AE0A0B176E0D328C37631D93` | `CFAFB6A037B9B72AB26877FC5BD5ADC5442BEC96C8B40B65C00328B98B79F13D` |
+| `LEGAL-PRIV-MS_G5_MOBILE_390_LOGICAL_AT2X_BUYER_CLEAN_V0.2` | 390×11955 logical / 780×23910 physical | 2,539,738 | `63945EFA3DF37ECC07F763ABC469B7D6979FA1645D00E4A5E24395341F9B86FE` | `CFC368956898767A800CA86C9F20481B3255115D1FC3868551AE6C0D40F19732` |
+
+## Shared and authority references
+
+- Mobile Menu V0.2 PNG SHA-256 `7E80645F5D63A9AFF13E8AAE32491BCB363B45717A88DB85A8917AA39D4BEC27`.
+- Gate 5 Full Visual Spec V0.1 plus Targeted Correction/Validation V0.2.
+- Global Chrome V0.5, Footer Legal Utility Addendum V1.0, Production SVG Logo Manifest V1.0 and CTA Accessibility Addendum V1.0.
+- Privacy Desktop TOC remains normal-flow and scrolls with the page.
+- BM human-equivalence review remains a release control.
+
+V0.6 is the current Gate 1–5 consumption authority. V0.5 and gate5_v0.1 assets remain historical approved evidence.
+
+The current overall stage pointer is `pages/legal-privacy/05_review/LEGAL-PRIV-MS_CURRENT_GATE6_BASELINE_MANIFEST_V0.7.md`.

@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path'),sharp=require('sharp');
+const root=__dirname,phase=process.argv[2]||'exports',src=path.join(root,phase),out=path.join(root,'diagnostic',phase==='exports'?'reading-crops':'preflight-reading-crops');fs.mkdirSync(out,{recursive:true});
+(async()=>{for(const w of [1440,768,390]){const dpr=w===390?2:1;for(const state of ['default-full','media-absent-full']){const file=path.join(src,`${w}-${state}.png`),meta=await sharp(file).metadata();const limit=state==='default-full'?meta.height:Math.min(meta.height,1200*dpr);for(let y=0;y<limit;y+=800*dpr){const height=Math.min(900*dpr,meta.height-y);await sharp(file).extract({left:0,top:y,width:meta.width,height}).png().toFile(path.join(out,`${w}-${state}-${y}.png`))}}}console.log(out)})();

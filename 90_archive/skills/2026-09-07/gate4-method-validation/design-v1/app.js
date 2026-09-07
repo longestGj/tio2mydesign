@@ -1,0 +1,21 @@
+const records = [
+{value:'alpha',name:'Sample Alpha — long-form technical reference',measurement:'94.5 %',condition:'Dry sample basis; measured after conditioning for 24 hours at 23 °C.',note:'A — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result.'},
+{value:'beta',name:'Sample Beta — extended evaluation reference with a deliberately long record name',measurement:'0.001 g/L',condition:'Dilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.',note:'B — Preserve the unit and preparation condition when copying this result into an evaluation note.'},
+{value:'gamma',name:'Sample Gamma — assessment reference',measurement:'12–18 µm',condition:'Observed interval across the prepared sample; the interval is not a guaranteed production tolerance.',note:'C — The endpoints describe the observed sample interval only.'}
+];
+const labels=['Record','Measured value','Measurement condition','Note'];
+document.querySelector('#records').innerHTML=`<table><colgroup><col><col><col><col></colgroup><thead><tr>${labels.map(x=>`<th scope="col">${x}</th>`).join('')}</tr></thead><tbody>${records.map(r=>`<tr><th scope="row">${r.name}</th><td class="value">${r.measurement}</td><td>${r.condition}</td><td>${r.note}</td></tr>`).join('')}</tbody></table><ol class="cards">${records.map(r=>`<li class="record-card"><dl>${[r.name,r.measurement,r.condition,r.note].map((x,i)=>`<div class="pair"><dt>${labels[i]}</dt><dd class="${i===0?'record-name':i===1?'value':''}">${x}</dd></div>`).join('')}</dl></li>`).join('')}</ol>`;
+const control=document.querySelector('#record'),list=document.querySelector('#record-options'),error=document.querySelector('#record-error'),result=document.querySelector('#result');
+let selection='';
+list.innerHTML=records.map(r=>`<button type="button" role="option" aria-selected="false" data-value="${r.value}" tabindex="-1">${r.name}</button>`).join('');
+function resetFeedback(){error.hidden=true;result.hidden=true;document.querySelector('#selected-name').textContent='';control.removeAttribute('aria-invalid');control.removeAttribute('aria-describedby')}
+function closeOptions(){list.hidden=true;control.setAttribute('aria-expanded','false')}
+function openOptions(index){list.hidden=false;control.setAttribute('aria-expanded','true');const opts=[...list.children];opts[index??Math.max(0,records.findIndex(r=>r.value===selection))].focus()}
+control.addEventListener('click',()=>list.hidden?openOptions():closeOptions());
+control.addEventListener('keydown',e=>{if(['ArrowDown','ArrowUp','Home','End'].includes(e.key)){e.preventDefault();openOptions(e.key==='End'||e.key==='ArrowUp'?2:0)}});
+list.addEventListener('click',e=>{const option=e.target.closest('[role=option]');if(!option)return;selection=option.dataset.value;document.querySelector('#record-value').textContent=records.find(r=>r.value===selection).name;[...list.children].forEach(el=>el.setAttribute('aria-selected',String(el===option)));resetFeedback();closeOptions();control.focus()});
+list.addEventListener('keydown',e=>{const opts=[...list.children],i=opts.indexOf(document.activeElement);if(['ArrowDown','ArrowUp','Home','End'].includes(e.key)){e.preventDefault();opts[e.key==='Home'?0:e.key==='End'?2:(i+(e.key==='ArrowDown'?1:2))%3].focus()}else if(e.key==='Escape'){e.preventDefault();closeOptions();control.focus()}else if(e.key==='Tab'){closeOptions()}});
+document.addEventListener('click',e=>{if(!e.target.closest('.select-wrap'))closeOptions()});
+document.querySelector('form').addEventListener('submit',e=>{e.preventDefault();closeOptions();resetFeedback();if(!selection){error.hidden=false;control.setAttribute('aria-invalid','true');control.setAttribute('aria-describedby','record-error');control.focus();return}document.querySelector('#selected-name').textContent=records.find(r=>r.value===selection).name;result.hidden=false});
+document.querySelector('#clear').addEventListener('click',()=>{selection='';document.querySelector('#record-value').textContent='Choose a reference record';[...list.children].forEach(el=>el.setAttribute('aria-selected','false'));closeOptions();resetFeedback()});
+if(new URLSearchParams(location.search).get('media')==='absent')document.body.classList.add('media-absent');

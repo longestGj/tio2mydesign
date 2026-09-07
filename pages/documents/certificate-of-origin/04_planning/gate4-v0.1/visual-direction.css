@@ -1,0 +1,23 @@
+/* DOC-COO Gate4 V0.1: page-only refinements; own approved G3 remains baseline.
+   Table/record bands #F0F5F8 -> exact brand Soft Background #F5F8FB.
+   All three evidence types receive the same neutral treatment. */
+main .evidenceTable thead th { background: #F5F8FB; }
+@media (max-width: 1000px) {
+  main .evidenceTable tbody th { background: #F5F8FB; }
+}
+
+/* Stable contrast on actual backgrounds, including both long official links.
+   No box-model, display, line-height or responsive-structure changes. */
+main a:not(.primary):hover {
+  color: #008078;
+  background: #F5F8FB;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+main a.primary:hover {
+  color: #FFFFFF;
+  background: #008078;
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
+}

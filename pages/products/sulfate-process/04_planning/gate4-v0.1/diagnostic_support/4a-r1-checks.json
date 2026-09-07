@@ -1,0 +1,977 @@
+{
+  "workset_id": "SU-G4-COMPLETE-V01",
+  "mode": "4a",
+  "run": "r1",
+  "at": "2026-09-07T06:17:47.086Z",
+  "source": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/PRODUCT-PROC-SU_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 19596,
+    "sha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c"
+  },
+  "css": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/visual-direction.css",
+    "bytes": 772,
+    "sha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019"
+  },
+  "runtime": {
+    "chrome": "152.0.7977.82",
+    "node": "v24.16.0",
+    "playwright": "1.62.1",
+    "headless": true,
+    "externalRequestsAllowed": false
+  },
+  "records": [
+    {
+      "name": "unchanged G3 main and scripts",
+      "pass": true,
+      "data": {},
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "shared owner exact assembly",
+      "pass": true,
+      "data": {},
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "1440/FTC/normal/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 380.078125,
+          "y": 813.5625,
+          "width": 434.5,
+          "height": 44,
+          "top": 813.5625,
+          "right": 814.578125,
+          "bottom": 857.5625,
+          "left": 380.078125
+        },
+        "period": {
+          "x": 814.578125,
+          "y": 824.15625,
+          "width": 4.71875,
+          "height": 20,
+          "top": 824.15625,
+          "right": 819.296875,
+          "bottom": 844.15625,
+          "left": 814.578125
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440/FTC/normal/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 434.5,
+        "height": 44,
+        "x": 380.078125,
+        "y": 813.5625,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "17px",
+        "lineHeight": "28.9px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(255, 255, 255)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(255, 255, 255)",
+        "focus": false,
+        "hover": false
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440/ftc-normal/clean capture",
+      "pass": true,
+      "data": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440/FTC/hover/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 380.078125,
+          "y": 813.5625,
+          "width": 434.5,
+          "height": 44,
+          "top": 813.5625,
+          "right": 814.578125,
+          "bottom": 857.5625,
+          "left": 380.078125
+        },
+        "period": {
+          "x": 814.578125,
+          "y": 824.15625,
+          "width": 4.71875,
+          "height": 20,
+          "top": 824.15625,
+          "right": 819.296875,
+          "bottom": 844.15625,
+          "left": 814.578125
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440/FTC/hover/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 434.5,
+        "height": 44,
+        "x": 380.078125,
+        "y": 813.5625,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "17px",
+        "lineHeight": "28.9px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(245, 248, 251)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(245, 248, 251)",
+        "focus": false,
+        "hover": true
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440/FTC/focus/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 380.078125,
+          "y": 34.5625,
+          "width": 434.5,
+          "height": 44,
+          "top": 34.5625,
+          "right": 814.578125,
+          "bottom": 78.5625,
+          "left": 380.078125
+        },
+        "period": {
+          "x": 814.578125,
+          "y": 45.15625,
+          "width": 4.71875,
+          "height": 20,
+          "top": 45.15625,
+          "right": 819.296875,
+          "bottom": 65.15625,
+          "left": 814.578125
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440/FTC/focus/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 434.5,
+        "height": 44,
+        "x": 380.078125,
+        "y": 34.5625,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "17px",
+        "lineHeight": "28.9px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(255, 255, 255)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(255, 255, 255)",
+        "focus": true,
+        "hover": false
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440/grade-direction/clean capture",
+      "pass": true,
+      "data": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768/FTC/normal/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 252.078125,
+          "y": 855.5,
+          "width": 434.5,
+          "height": 44,
+          "top": 855.5,
+          "right": 686.578125,
+          "bottom": 899.5,
+          "left": 252.078125
+        },
+        "period": {
+          "x": 686.578125,
+          "y": 866.09375,
+          "width": 4.71875,
+          "height": 20,
+          "top": 866.09375,
+          "right": 691.296875,
+          "bottom": 886.09375,
+          "left": 686.578125
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768/FTC/normal/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 434.5,
+        "height": 44,
+        "x": 252.078125,
+        "y": 855.5,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "17px",
+        "lineHeight": "28.9px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(255, 255, 255)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(255, 255, 255)",
+        "focus": false,
+        "hover": false
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768/ftc-normal/clean capture",
+      "pass": true,
+      "data": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768/FTC/hover/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 252.078125,
+          "y": 855.5,
+          "width": 434.5,
+          "height": 44,
+          "top": 855.5,
+          "right": 686.578125,
+          "bottom": 899.5,
+          "left": 252.078125
+        },
+        "period": {
+          "x": 686.578125,
+          "y": 866.09375,
+          "width": 4.71875,
+          "height": 20,
+          "top": 866.09375,
+          "right": 691.296875,
+          "bottom": 886.09375,
+          "left": 686.578125
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768/FTC/hover/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 434.5,
+        "height": 44,
+        "x": 252.078125,
+        "y": 855.5,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "17px",
+        "lineHeight": "28.9px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(245, 248, 251)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(245, 248, 251)",
+        "focus": false,
+        "hover": true
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768/FTC/focus/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 252.078125,
+          "y": 427.5,
+          "width": 434.5,
+          "height": 44,
+          "top": 427.5,
+          "right": 686.578125,
+          "bottom": 471.5,
+          "left": 252.078125
+        },
+        "period": {
+          "x": 686.578125,
+          "y": 438.09375,
+          "width": 4.71875,
+          "height": 20,
+          "top": 438.09375,
+          "right": 691.296875,
+          "bottom": 458.09375,
+          "left": 686.578125
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768/FTC/focus/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 434.5,
+        "height": 44,
+        "x": 252.078125,
+        "y": 427.5,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "17px",
+        "lineHeight": "28.9px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(255, 255, 255)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(255, 255, 255)",
+        "focus": true,
+        "hover": false
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768/grade-direction/clean capture",
+      "pass": true,
+      "data": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390/FTC/normal/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 20,
+          "y": 391.6875,
+          "width": 342,
+          "height": 60.375,
+          "top": 391.6875,
+          "right": 362,
+          "bottom": 452.0625,
+          "left": 20
+        },
+        "period": {
+          "x": 362,
+          "y": 410.21875,
+          "width": 4.484375,
+          "height": 20,
+          "top": 410.21875,
+          "right": 366.484375,
+          "bottom": 430.21875,
+          "left": 362
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390/FTC/normal/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 342,
+        "height": 60.375,
+        "x": 20,
+        "y": 391.6875,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "27.2px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(255, 255, 255)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(255, 255, 255)",
+        "focus": false,
+        "hover": false
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390/ftc-normal/clean capture",
+      "pass": true,
+      "data": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390/FTC/hover/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 20,
+          "y": 391.6875,
+          "width": 342,
+          "height": 60.375,
+          "top": 391.6875,
+          "right": 362,
+          "bottom": 452.0625,
+          "left": 20
+        },
+        "period": {
+          "x": 362,
+          "y": 410.21875,
+          "width": 4.484375,
+          "height": 20,
+          "top": 410.21875,
+          "right": 366.484375,
+          "bottom": 430.21875,
+          "left": 362
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390/FTC/hover/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 342,
+        "height": 60.375,
+        "x": 20,
+        "y": 391.6875,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "27.2px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(245, 248, 251)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(245, 248, 251)",
+        "focus": false,
+        "hover": true
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390/FTC/focus/continuous hit",
+      "pass": true,
+      "data": {
+        "continuousPixels": 1936,
+        "misses": 0,
+        "edgeMisses": [],
+        "rect": {
+          "x": 20,
+          "y": 391.6875,
+          "width": 342,
+          "height": 60.375,
+          "top": 391.6875,
+          "right": 362,
+          "bottom": 452.0625,
+          "left": 20
+        },
+        "period": {
+          "x": 362,
+          "y": 410.21875,
+          "width": 4.484375,
+          "height": 20,
+          "top": 410.21875,
+          "right": 366.484375,
+          "bottom": 430.21875,
+          "left": 362
+        },
+        "periodOwnHit": false,
+        "periodGap": 0,
+        "periodSameLine": true,
+        "focusInset": "-3px",
+        "clientRects": 1
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390/FTC/focus/contrast state",
+      "pass": true,
+      "data": {
+        "text": "U.S. Federal Trade Commission public decision record",
+        "href": "https://www.ftc.gov/system/files/documents/cases/docket_9377_tronox_et_al_initial_decision_redacted_public_version_0.pdf",
+        "width": 342,
+        "height": 60.375,
+        "x": 20,
+        "y": 391.6875,
+        "font": "Inter, Arial, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "27.2px",
+        "fg": "rgb(0, 128, 120)",
+        "bg": "rgb(255, 255, 255)",
+        "outline": "rgb(0, 128, 120)",
+        "outlineWidth": 3,
+        "outlineOffset": -3,
+        "outlineBg": "rgb(255, 255, 255)",
+        "focus": true,
+        "hover": false
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390/grade-direction/clean capture",
+      "pass": true,
+      "data": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    }
+  ],
+  "errors": [],
+  "assets": [
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-ftc-normal.png",
+      "bytes": 17967,
+      "sha256": "9ffb51d1577a1238fa57ac4e0d7a6d8655421264d7cfe7b22708b7326333e8bf",
+      "pixelWidth": 1440,
+      "pixelHeight": 91,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 1,
+      "state": "normal",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 804,
+        "width": 1440,
+        "height": 91
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-ftc-hover.png",
+      "bytes": 18021,
+      "sha256": "4b1d45f22b3cb27d7ee007311e1d54cbf73a5583fd98ece28390c0538d98b2d4",
+      "pixelWidth": 1440,
+      "pixelHeight": 91,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 1,
+      "state": "actual hover",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 804,
+        "width": 1440,
+        "height": 91
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": [
+          "U.S. Federal Trade Commission public decision record"
+        ]
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-ftc-focus.png",
+      "bytes": 18036,
+      "sha256": "7a7bba36f389b1328641846c76f4b6f068b5b3368d6ad081a9e47188996a57b9",
+      "pixelWidth": 1440,
+      "pixelHeight": 91,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 1,
+      "state": "actual focus",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 804,
+        "width": 1440,
+        "height": 91
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "A",
+        "focused": [
+          "U.S. Federal Trade Commission public decision record"
+        ],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-grade-direction.png",
+      "bytes": 104336,
+      "sha256": "5986d7e6bb37085047611bf99f60cc22f78e850e48940d5eef3e30e91e1f6f54",
+      "pixelWidth": 1440,
+      "pixelHeight": 840,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 1,
+      "state": "normal",
+      "region": ".m3",
+      "clip": {
+        "x": 0,
+        "y": 976,
+        "width": 1440,
+        "height": 840
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-ftc-normal.png",
+      "bytes": 18849,
+      "sha256": "42b2be9cb8cabf2772ac767372579f8633f6ca21fcff462098284b1bde3d2d8a",
+      "pixelWidth": 768,
+      "pixelHeight": 120,
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "dpr": 1,
+      "state": "normal",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 856,
+        "width": 768,
+        "height": 120
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-ftc-hover.png",
+      "bytes": 19002,
+      "sha256": "a78c6a72dc9fd46be490ebc2d706b23151b2cecd5611b755dacd954f0633b752",
+      "pixelWidth": 768,
+      "pixelHeight": 120,
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "dpr": 1,
+      "state": "actual hover",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 856,
+        "width": 768,
+        "height": 120
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": [
+          "U.S. Federal Trade Commission public decision record"
+        ]
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-ftc-focus.png",
+      "bytes": 19058,
+      "sha256": "e54e96033c13271dfed8296c0109384061d5dfef714676343abf33b4c88912b2",
+      "pixelWidth": 768,
+      "pixelHeight": 120,
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "dpr": 1,
+      "state": "actual focus",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 856,
+        "width": 768,
+        "height": 120
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "A",
+        "focused": [
+          "U.S. Federal Trade Commission public decision record"
+        ],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-grade-direction.png",
+      "bytes": 112183,
+      "sha256": "5247440edcb35e269d4db317f3ddd5f4a716b24cb83c1738669cbac3e597d46e",
+      "pixelWidth": 768,
+      "pixelHeight": 1211,
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "dpr": 1,
+      "state": "normal",
+      "region": ".m3",
+      "clip": {
+        "x": 0,
+        "y": 1053,
+        "width": 768,
+        "height": 1211
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-ftc-normal.png",
+      "bytes": 16417,
+      "sha256": "b4ad8876d893d11f357b1b69b09c7dccc1c790fa8fb9783cf08c24f9619aed96",
+      "pixelWidth": 390,
+      "pixelHeight": 188,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "state": "normal",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 1192,
+        "width": 390,
+        "height": 188
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-ftc-hover.png",
+      "bytes": 16417,
+      "sha256": "b4ad8876d893d11f357b1b69b09c7dccc1c790fa8fb9783cf08c24f9619aed96",
+      "pixelWidth": 390,
+      "pixelHeight": 188,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "state": "actual hover",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 1192,
+        "width": 390,
+        "height": 188
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-ftc-focus.png",
+      "bytes": 16552,
+      "sha256": "91a55b70c9415cb4e19a3c32fc34bc10530e64f26494fcd56ecaa5dcfeb181a3",
+      "pixelWidth": 390,
+      "pixelHeight": 188,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "state": "actual focus",
+      "region": ".m2 p:has(>a)",
+      "clip": {
+        "x": 0,
+        "y": 1192,
+        "width": 390,
+        "height": 188
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "A",
+        "focused": [
+          "U.S. Federal Trade Commission public decision record"
+        ],
+        "hovered": []
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-grade-direction.png",
+      "bytes": 99043,
+      "sha256": "3738b8606eec3df9d4cea25de213d5cd00e9f9f2f8a4756d06f1388ba6333ec5",
+      "pixelWidth": 390,
+      "pixelHeight": 1603,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "state": "normal",
+      "region": ".m3",
+      "clip": {
+        "x": 0,
+        "y": 1446,
+        "width": 390,
+        "height": 1603
+      },
+      "sourceSha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c",
+      "cssSha256": "65b7e4c3304ff8ddb88fc56a2f2e6183b7000ed0d6e004225a0ac1d751a47019",
+      "evidenceType": "STATIC_VISUAL",
+      "observedCaptureState": {
+        "active": "BODY",
+        "focused": [],
+        "hovered": []
+      }
+    }
+  ]
+}

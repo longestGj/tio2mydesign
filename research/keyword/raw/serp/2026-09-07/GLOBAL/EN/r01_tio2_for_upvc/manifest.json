@@ -1,0 +1,30 @@
+{
+  "source_id": "SERP-R01-UPVC-CORE-20260907",
+  "source_type": "serp",
+  "source_name": "Web search raw response",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "TiO2 for uPVC"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-09-07T08:13:40.4189557+08:00",
+  "data_date_shown_by_source": "2026-09-07",
+  "capture_method": "complete raw response returned by web search and serialized as JSON",
+  "files": [
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Provider result order is preserved; use as SERP-intent evidence, not search-volume evidence."
+  ],
+  "sha256": {
+    "raw_search_response.json": "65a9250fac5388fb92d5ae2e803faca6849fd2145caa14443085bc74b5f2d01d"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json": 34876
+  }
+}

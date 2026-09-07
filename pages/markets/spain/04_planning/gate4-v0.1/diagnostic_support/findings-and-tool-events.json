@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-07T02:03:09.469Z",
+  "pageFindings": [],
+  "candidateRevisionsAfterFreeze": 0,
+  "toolEvents": [
+    {
+      "id": "ES-G4-TOOL-01",
+      "type": "READ_PATH_LOOKUP",
+      "observed": "Attempted prior Chloride source-freeze at package root; file not found.",
+      "resolution": "Located real path approval_core/source-freeze.json with rg and read successfully.",
+      "impact": "No Spain candidate or evidence modified; no render failure."
+    }
+  ],
+  "sharedObservations": [
+    {
+      "id": "ES-G4-SHARED-OBS-01",
+      "location": "Menu open -> desktop breakpoint",
+      "observed": "Menu closes and restores background; activeElement becomes BODY.",
+      "disposition": "Inherited Consumer V0.2; visible Desktop focus placement not claimed. Shared owner follow-up; no page behavior fork."
+    }
+  ],
+  "historicalExperience": "Poland IR01 retained in original page; this Spain run tests each actual hover background. Earlier Spain G3 failures remain untouched upstream.",
+  "rejectedFormalAssets": [],
+  "preflightErrors": 0,
+  "formalErrors": 0
+}

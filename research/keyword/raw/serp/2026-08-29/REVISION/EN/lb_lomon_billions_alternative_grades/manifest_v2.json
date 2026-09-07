@@ -1,0 +1,38 @@
+{
+  "source_id": "SERP-REV-BRAND-LB-20260829",
+  "source_type": "serp",
+  "source_name": "Web search raw response (base64 JSON envelope)",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "LB Group Lomon Billions titanium dioxide alternative equivalent grades"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-08-29T00:00:00+08:00",
+  "data_date_shown_by_source": "2026-08-29",
+  "capture_method": "complete raw response returned by web search; JSON serialized and base64 encoded for byte-safe append-only storage; decoded JSON copy added for direct local analysis",
+  "files": [
+    "raw_search_response.json.b64",
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "analysis_eligible": "YES",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Use as SERP intent evidence; do not treat result counts as search volume.",
+    "No technical equivalence may be inferred from search results.",
+    "Stored file is base64 encoding of the complete serialized tool response."
+  ],
+  "sha256": {
+    "raw_search_response.json.b64": "f86e66005549455b2b2637897e15a5fb289f682ce5504c3eef94e4ce5c2ae316",
+    "raw_search_response.json": "b8d119c70ba721c4ce88d95c0e9b7a5dd003a3dbc024f7901fe68f3fc14204d7"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json.b64": 46210,
+    "raw_search_response.json": 34370
+  },
+  "correction_to": "manifest.json",
+  "notes": "Append-only finalized manifest. Original PENDING_HASH manifest preserved; no prior raw evidence changed."
+}

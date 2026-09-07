@@ -1,0 +1,29 @@
+{
+  "source_id": "SERP-REV-BRAND-VENATOR-20260829",
+  "source_type": "serp",
+  "source_name": "Web search raw response (base64 JSON envelope)",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "Venator Tioxide titanium dioxide alternative equivalent grades"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-08-29T00:00:00+08:00",
+  "data_date_shown_by_source": "2026-08-29",
+  "capture_method": "complete raw response returned by web search; JSON serialized and base64 encoded for byte-safe append-only storage",
+  "files": [
+    "raw_search_response.json.b64"
+  ],
+  "completeness_status": "PENDING_HASH",
+  "analysis_eligible": "NO",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Use as SERP intent evidence; do not treat result counts as search volume.",
+    "No technical equivalence may be inferred from search results.",
+    "Stored file is base64 encoding of the complete serialized tool response."
+  ],
+  "sha256": {},
+  "file_sizes_bytes": {}
+}

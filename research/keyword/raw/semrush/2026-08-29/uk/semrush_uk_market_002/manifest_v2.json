@@ -1,0 +1,50 @@
+{
+  "source_id": "SEMRUSH-UK-MARKET-20260829-002",
+  "source_type": "SEMRUSH_UI_RAW",
+  "market": "UK",
+  "database": "uk",
+  "device": "desktop",
+  "query_date": "2026-08-29",
+  "source_url": "https://zh.semrush.com/analytics/keywordoverview/bulk/?q=titanium+dioxide+supplier+uk&db=uk&bulk=C4S2EMDsQVwWwAQBMQHsAeIkFMEGcYAHQgGxGwCcEYBrAH1FQCZ8jTyraGwpZEUMWXHCgwAZuADGwGBUrV6oCNHjI0mHAhBxCqCsAV0RJcAE88IcAiW9VAjbi6RUkBJIAWISFZsr%2B6oUNfPjVBTShQZHhCLwBzIJ4-UIdrcAoQMTEFIA",
+  "completeness_status": "COMPLETE",
+  "analysis_eligible": "YES",
+  "files": [
+    {
+      "file": "page_outerhtml.html",
+      "bytes": 200305,
+      "sha256": "9471e0a87c5be4bb920388cbce94b27ffdd9b707b395dd5bf7b4d318242e9303"
+    },
+    {
+      "file": "visible_text.txt",
+      "bytes": 2190,
+      "sha256": "a234f3326bed8f012fffaf0d4ba32a6a7b83cd590ea5cb362a8c22d4f06c75d8"
+    },
+    {
+      "file": "dom_snapshot.txt",
+      "bytes": 21074,
+      "sha256": "951ec582965b599a952d555aac66c4c615135422a29a7b43b781e536b7fc8e18"
+    },
+    {
+      "file": "table_rows.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "request_keywords.txt",
+      "bytes": 225,
+      "sha256": "003727c4455f760a512533ced96d51d54682c0d566a774241596bc1b2fbde0df"
+    },
+    {
+      "file": "capture_limitations.txt",
+      "bytes": 322,
+      "sha256": "e32cfc4556dabe3c829a3e004f91e08b689f8007140109fefb87f2b8ed8ab57c"
+    },
+    {
+      "file": "table_rows_from_dom.json",
+      "bytes": 1835,
+      "sha256": "8ec702d2cea1105ca4abda669e75b134924cf0f1c8c49bbccf38ac046b3be26c"
+    }
+  ],
+  "correction_to": "manifest.json",
+  "notes": "Append-only correction: locator-based table_rows.json was empty because Semrush uses a virtualized table; every visible row is preserved in dom_snapshot.txt and extracted verbatim into table_rows_from_dom.json. All 8 requested keywords are present. Unavailable values preserved verbatim."
+}

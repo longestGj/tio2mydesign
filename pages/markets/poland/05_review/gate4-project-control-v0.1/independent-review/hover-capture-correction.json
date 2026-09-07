@@ -1,0 +1,19 @@
+{
+  "reason": "Earlier locator(section).screenshot scrolled the section after hover, changing which link lay under the pointer. Those PNGs are retained as unsuccessful intended-hover captures; earlier pre-screenshot measurements remain accurate. New viewport captures do not scroll.",
+  "states": [
+    {
+      "id": "pl-04",
+      "text": "View Document Hub",
+      "hover": true,
+      "background": "rgb(232, 238, 243)",
+      "color": "rgb(0, 128, 120)"
+    },
+    {
+      "id": "pl-05",
+      "text": "European Union Procurement Overview",
+      "hover": true,
+      "background": "rgb(232, 238, 243)",
+      "color": "rgb(0, 128, 120)"
+    }
+  ]
+}

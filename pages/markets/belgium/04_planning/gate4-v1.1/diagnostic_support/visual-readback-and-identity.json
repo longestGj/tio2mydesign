@@ -1,0 +1,48 @@
+{
+  "page_id": "MARKET-EU-BE",
+  "workset_id": "BE-G4-COMPLETE-20260907-02",
+  "freeze_id": "BE-G4-FREEZE-20260907-02",
+  "finding_id": "BE-G4-IR-01",
+  "role": "EXECUTION_SELF_CHECK",
+  "classification": "STATIC_VISUAL",
+  "opened_assets": {
+    "full_pages": 3,
+    "continuous_segments": 19,
+    "focus_state_images": 18,
+    "total": 40
+  },
+  "viewports": [
+    {
+      "width": 1440,
+      "full_height": 3654,
+      "segments": 5,
+      "result": "PASS"
+    },
+    {
+      "width": 768,
+      "full_height": 4170,
+      "segments": 6,
+      "result": "PASS"
+    },
+    {
+      "width": 390,
+      "full_height": 5369,
+      "segments": 8,
+      "result": "PASS"
+    }
+  ],
+  "observations": [
+    "All five modules remain complete and ordered from Header through Footer at 1440, 768 and 390.",
+    "The 19 overlapping readable segments cover every pixel row through Footer closure; no clipping, collision, abnormal fixed void or broken module transition is visible.",
+    "For Product Hub and quotation request, normal, hover and actual keyboard-focus images were opened at all three widths.",
+    "The inset 3px Functional Teal focus indicator remains fully visible, clear of its own label, neighboring words, punctuation and adjacent lines in all six focus cases.",
+    "The 6px inline padding keeps a visible interior gap between label glyphs and the inset outline. Focus does not change target geometry.",
+    "The quiet COO treatment, selected-Grade and supplementary-Grade relationship, subordinate EU action and final RFQ hierarchy remain unchanged.",
+    "Whole-page visual change is confined to the BE-04 inline-link spacing; no shared Header, Menu, Cookie or Footer visual change is visible."
+  ],
+  "result": "STATIC_VISUAL_PASS / BE-G4-IR-01_ACCEPTANCE_MET",
+  "limitations": [
+    "Full-page images are overview evidence; the continuous segments are the readable full-coverage evidence.",
+    "This is executor readback and does not replace independent focused re-review or user approval."
+  ]
+}

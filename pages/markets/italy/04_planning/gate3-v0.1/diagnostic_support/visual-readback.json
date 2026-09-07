@@ -1,0 +1,53 @@
+{
+  "pageId": "MARKET-EU-IT",
+  "role": "EXECUTION_PREFLIGHT_IMAGE_READBACK",
+  "checkedAt": "2026-09-07T06:03:28.904Z",
+  "openedWith": "view_image original",
+  "fullAndStateAssets": [
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-1440-full.png",
+      "bytes": 659994,
+      "sha256": "d4ed8d49f804681a031ca68a9ef86fe6ae8b38e189c94f0426dc552ab565bf82"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-768-full.png",
+      "bytes": 638518,
+      "sha256": "bd460ef8811b0f1a69890e46f5246b97ebf3015717bdcae04efdc48adc3d1562"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-390-full.png",
+      "bytes": 589215,
+      "sha256": "b36dad51c515d06bc11ae50e1638636f0d455d3c3c5737975a97c9211902b6c1"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-768-menu.png",
+      "bytes": 83966,
+      "sha256": "eab190b2ea781b55987096819c8454a05d71a2bd38d1aa696bf0056795f6158d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-390-menu.png",
+      "bytes": 46570,
+      "sha256": "11510a038daf91cdf8b2702a5a894af3aa7cb3f8b49b61a4f22dc96a65e2f653"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-390-cookie.png",
+      "bytes": 51534,
+      "sha256": "b6d1e427a9e2e337f5c8d0a201a8db3fc155b152f1bcdf7c260cb8d3c5f4eafb"
+    }
+  ],
+  "readableSegments": {
+    "count": 18,
+    "viewed": 18,
+    "width390": 10,
+    "width768": 8
+  },
+  "observations": [
+    "1440 full page preserves seven modules, three distinct context cards, destination mapping, EU split, source adjacency and Footer closure.",
+    "768 full page uses an independent 2+1 context layout and one-column destination/EU layouts without clipping or orphaned content.",
+    "390 full page and ten readable segments preserve all approved text, long links, COO qualifier, destination list, two sources and Footer closure.",
+    "768 and 390 menu states show Markets current with no visible CURRENT label; the background is visible only outside the menu surface and was inert/scroll-locked in runtime checks.",
+    "390 Cookie dialog fits the tightest viewport, retains both full actions and does not overflow."
+  ],
+  "result": "PASS_FOR_PREFLIGHT",
+  "findings": []
+}

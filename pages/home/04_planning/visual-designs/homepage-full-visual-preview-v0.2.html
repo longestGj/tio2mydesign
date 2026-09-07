@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TiO2 Malaysia Homepage Full Visual V0.2 Review</title>
+  <style>
+    :root {
+      --v2-navy: #062B5B;
+      --v2-deep: #031B3A;
+      --v2-teal: #00A99D;
+      --v2-teal-2: #14B8A6;
+      --v2-white: #FFFFFF;
+      --v2-soft: #F5F8FB;
+      --v2-border: #D9E2EC;
+      --v2-body: #334155;
+      --v2-muted: #64748B;
+      --v2-review: #FFF4C7;
+      --v2-review-border: #D79B00;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-width: 320px; background: #E6EDF4; color: var(--v2-body); font-family: Inter, Arial, Helvetica, sans-serif; }
+    button, a { font: inherit; }
+    .v2-review-surface { padding: 30px 0 70px; }
+    .v2-review-intro, .v2-review-section { width: min(1360px, calc(100% - 36px)); margin: 0 auto; }
+    .v2-review-intro { margin-bottom: 28px; padding: 25px 28px; background: var(--v2-white); border: 1px solid var(--v2-border); }
+    .v2-review-intro strong { display: block; margin-bottom: 8px; color: var(--v2-teal); font-size: 14px; letter-spacing: .1em; }
+    .v2-review-intro h1 { margin: 0 0 10px; color: var(--v2-deep); font-size: 30px; line-height: 1.2; }
+    .v2-review-intro p { margin: 0; font-size: 16px; line-height: 1.65; }
+    .v2-review-section { margin-bottom: 38px; }
+    .v2-review-section h2 { margin: 0 0 8px; color: var(--v2-deep); font-size: 26px; }
+    .v2-review-section > p { margin: 0 0 14px; font-size: 15px; line-height: 1.6; }
+    .v2-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .v2-preview-card { min-width: 0; }
+    .v2-preview-card h3 { margin: 0 0 8px; color: var(--v2-navy); font-size: 18px; }
+    .v2-pc-shell { width: 100%; height: 1200px; overflow: hidden; background: #C9D6E2; border: 1px solid #B7C6D4; }
+    .v2-pc-scale { width: 1440px; height: 6000px; transform: scale(.2); transform-origin: top left; }
+    .v2-mobile-shell { width: 100%; height: 1440px; overflow: hidden; display: flex; justify-content: center; background: #C9D6E2; border: 1px solid #B7C6D4; }
+    .v2-mobile-scale { width: 390px; height: 7200px; transform: scale(.2); transform-origin: top center; }
+    .v2-state-grid { display: grid; grid-template-columns: 390px 390px; gap: 24px; justify-content: center; padding: 24px; background: #C9D6E2; border: 1px solid #B7C6D4; }
+    .v2-open-link { display: inline-block; margin-top: 9px; color: var(--v2-navy); font-size: 14px; font-weight: 700; }
+
+    .v2-page { position: relative; overflow: hidden; background: var(--v2-white); color: var(--v2-body); }
+    .v2-page.v2-pc { width: 1440px; height: 6000px; }
+    .v2-page.v2-mobile { width: 390px; height: 7200px; }
+    .v2-page.v2-menu-state { width: 390px; height: 1050px; }
+    .v2-page.v2-product-state { width: 390px; height: 1200px; }
+    .v2-page h1, .v2-page h2, .v2-page h3, .v2-page p { margin-top: 0; }
+    .v2-page h1 { color: var(--v2-deep); font-weight: 700; letter-spacing: -.035em; }
+    .v2-page h2 { color: var(--v2-deep); font-weight: 700; letter-spacing: -.02em; }
+    .v2-page h3 { color: var(--v2-navy); font-weight: 700; }
+    .v2-page p { color: var(--v2-body); }
+    .v2-btn { display: inline-flex; min-height: 52px; align-items: center; justify-content: center; padding: 0 24px; border: 1px solid transparent; border-radius: 7px; background: var(--v2-teal); color: var(--v2-white); font-size: 15px; font-weight: 700; }
+    .v2-btn.v2-secondary { border-color: var(--v2-navy); background: transparent; color: var(--v2-navy); }
+    .v2-btn.v2-navy { background: var(--v2-navy); }
+    .v2-kicker { color: var(--v2-teal); font-size: 14px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    .v2-link { color: var(--v2-navy); font-size: 15px; font-weight: 700; }
+    .v2-review-label { display: none; position: absolute; z-index: 20; top: 12px; right: 16px; max-width: 520px; padding: 7px 9px; border: 1px solid var(--v2-review-border); background: var(--v2-review); color: #5D4300; font-size: 12px; font-weight: 700; line-height: 1.35; letter-spacing: .025em; }
+    .v2-review-mode .v2-review-label { display: block; }
+    .v2-review-banner { display: none; position: absolute; z-index: 30; left: 0; right: 0; top: 0; height: 28px; align-items: center; justify-content: center; background: var(--v2-review); color: #5D4300; border-bottom: 1px solid var(--v2-review-border); font-size: 12px; font-weight: 700; letter-spacing: .06em; }
+    .v2-review-mode .v2-review-banner { display: flex; }
+    .v2-review-mode .v2-pc-header-inner, .v2-review-mode .v2-mobile-header { padding-top: 22px; }
+
+    /* Desktop typography and fixed section heights */
+    .v2-pc .v2-pc-header { height: 96px; background: var(--v2-white); border-bottom: 1px solid var(--v2-border); }
+    .v2-pc-header-inner { width: 1280px; height: 100%; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .v2-logo { display: block; width: 190px; height: auto; object-fit: contain; }
+    .v2-pc-nav { display: flex; align-items: center; gap: 24px; color: var(--v2-navy); font-size: 15px; font-weight: 600; white-space: nowrap; }
+    .v2-pc-nav .v2-btn { min-height: 46px; padding: 0 19px; }
+    .v2-pc .v2-hero { position: relative; height: 740px; background: linear-gradient(90deg, var(--v2-white) 0 61%, var(--v2-soft) 61% 100%); }
+    .v2-hero::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 9px; background: var(--v2-teal); }
+    .v2-pc .v2-hero-inner { width: 1280px; height: 100%; margin: 0 auto; display: grid; grid-template-columns: 61% 39%; align-items: center; }
+    .v2-pc .v2-hero-copy { position: relative; z-index: 3; padding-right: 66px; }
+    .v2-pc .v2-hero h1 { margin: 20px 0 22px; font-size: 62px; line-height: 1.04; }
+    .v2-hero h1 span { color: var(--v2-teal); }
+    .v2-pc .v2-hero p { max-width: 660px; margin-bottom: 0; font-size: 18px; line-height: 1.65; }
+    .v2-hero-actions { display: flex; gap: 13px; margin-top: 28px; }
+    .v2-hero-art { position: relative; height: 560px; overflow: hidden; background: var(--v2-deep); }
+    .v2-hero-art::before { content: ""; position: absolute; right: -85px; bottom: -120px; width: 380px; height: 380px; border: 48px solid rgba(0,169,157,.14); border-radius: 50%; }
+    .v2-hero-art::after { content: ""; position: absolute; inset: 0; background: linear-gradient(140deg, transparent 0 65%, rgba(20,184,166,.13) 65% 77%, transparent 77%); }
+    .v2-hero-icon { position: absolute; right: 8px; top: 68px; width: 415px; opacity: .55; }
+    .v2-art-caption { position: absolute; left: 30px; top: 30px; color: rgba(255,255,255,.76); font-size: 14px; font-weight: 700; letter-spacing: .1em; }
+    .v2-pc .v2-quick { height: 132px; display: grid; grid-template-columns: 270px repeat(3, 1fr); border-top: 1px solid var(--v2-border); border-bottom: 1px solid var(--v2-border); background: var(--v2-white); }
+    .v2-quick-title { display: flex; flex-direction: column; justify-content: center; padding-left: 80px; color: var(--v2-navy); }
+    .v2-quick-title small { margin-bottom: 6px; color: var(--v2-teal); font-size: 14px; font-weight: 700; letter-spacing: .1em; }
+    .v2-quick-title strong { font-size: 18px; }
+    .v2-quick-entry { display: flex; align-items: center; gap: 15px; padding: 0 32px; border-left: 1px solid var(--v2-border); }
+    .v2-quick-entry > span:first-child { color: var(--v2-teal); font-size: 14px; font-weight: 700; }
+    .v2-quick-entry strong { display: block; margin-bottom: 6px; color: var(--v2-navy); font-size: 22px; }
+    .v2-quick-entry p { margin: 0; color: var(--v2-muted); font-size: 15px; line-height: 1.5; }
+    .v2-arrow { margin-left: auto; color: var(--v2-navy); font-size: 23px; }
+
+    .v2-pc-section { position: relative; padding-left: 80px; padding-right: 80px; }
+    .v2-pc .v2-section-head h2 { margin: 12px 0 12px; font-size: 40px; line-height: 1.12; }
+    .v2-pc .v2-section-head p { max-width: 760px; margin-bottom: 0; color: var(--v2-muted); font-size: 17px; line-height: 1.62; }
+    .v2-pc .v2-markets { height: 650px; padding-top: 70px; background: var(--v2-soft); }
+    .v2-markets-head { display: flex; align-items: end; justify-content: space-between; gap: 30px; }
+    .v2-market-grid { display: grid; grid-template-columns: repeat(2, 1fr); margin-top: 36px; border-top: 1px solid var(--v2-border); border-left: 1px solid var(--v2-border); background: var(--v2-white); }
+    .v2-market-card { position: relative; min-height: 190px; padding: 28px 30px; border-right: 1px solid var(--v2-border); border-bottom: 1px solid var(--v2-border); }
+    .v2-market-code { color: var(--v2-teal); font-family: Georgia, "Times New Roman", serif; font-size: 28px; }
+    .v2-market-card h3 { margin: 10px 0 9px; font-size: 26px; }
+    .v2-market-card p { max-width: 490px; margin-bottom: 18px; color: var(--v2-muted); font-size: 16px; line-height: 1.6; }
+
+    .v2-pc .v2-products { height: 1000px; padding-top: 70px; background: var(--v2-white); }
+    .v2-products-head { display: flex; align-items: end; justify-content: space-between; gap: 30px; }
+    .v2-count { padding-left: 18px; border-left: 3px solid var(--v2-teal); color: var(--v2-navy); }
+    .v2-count strong { display: block; font-family: Georgia, "Times New Roman", serif; font-size: 42px; font-weight: 400; }
+    .v2-count span { font-size: 14px; }
+    .v2-product-dossier { margin-top: 38px; border-top: 4px solid var(--v2-teal); border-bottom: 1px solid var(--v2-border); }
+    .v2-product-groups { display: grid; grid-template-columns: 1.35fr 1.25fr 1fr .72fr; background: var(--v2-white); }
+    .v2-product-group { min-height: 460px; padding: 32px 25px; border-right: 1px solid var(--v2-border); }
+    .v2-product-group:last-child { border-right: 0; }
+    .v2-product-group small { color: var(--v2-teal); font-family: Georgia, "Times New Roman", serif; font-size: 20px; }
+    .v2-product-group h3 { min-height: 64px; margin: 12px 0 20px; font-size: 24px; line-height: 1.35; }
+    .v2-grade-list { display: flex; flex-wrap: wrap; gap: 10px; }
+    .v2-grade { display: inline-flex; min-height: 42px; align-items: center; padding: 0 13px; border: 1px solid var(--v2-border); background: var(--v2-soft); color: var(--v2-navy); font-size: 14px; font-weight: 700; }
+    .v2-product-group p { margin-top: 22px; color: var(--v2-muted); font-size: 16px; line-height: 1.58; }
+    .v2-product-actions { display: flex; justify-content: space-between; align-items: center; margin-top: 30px; }
+    .v2-process-links { display: flex; gap: 30px; }
+
+    .v2-pc .v2-applications { height: 650px; padding-top: 68px; background: var(--v2-soft); }
+    .v2-application-grid { display: grid; grid-template-columns: repeat(6, 1fr); margin-top: 36px; border-top: 1px solid var(--v2-border); border-left: 1px solid var(--v2-border); background: var(--v2-white); }
+    .v2-application-card { min-height: 210px; grid-column: span 2; padding: 28px; border-right: 1px solid var(--v2-border); border-bottom: 1px solid var(--v2-border); }
+    .v2-application-card:nth-child(4), .v2-application-card:nth-child(5) { grid-column: span 3; }
+    .v2-app-mark { width: 46px; height: 46px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--v2-teal); color: var(--v2-teal); font-family: Georgia, "Times New Roman", serif; font-size: 22px; }
+    .v2-application-card h3 { margin: 16px 0 9px; font-size: 24px; }
+    .v2-application-card p { margin-bottom: 0; color: var(--v2-muted); font-size: 16px; line-height: 1.58; }
+
+    .v2-pc .v2-about { height: 650px; display: grid; grid-template-columns: 1.05fr .95fr; padding: 0; background: var(--v2-white); }
+    .v2-about-copy { padding: 76px 72px 62px 80px; }
+    .v2-about-copy h2 { margin: 13px 0 18px; font-size: 40px; line-height: 1.12; }
+    .v2-about-copy p { margin-bottom: 24px; font-size: 17px; line-height: 1.65; }
+    .v2-about-layout { position: relative; padding: 76px 80px 62px 42px; background: var(--v2-soft); }
+    .v2-info-sheet { height: 100%; padding: 38px; border-top: 4px solid var(--v2-teal); background: var(--v2-white); }
+    .v2-info-sheet h3 { margin: 0 0 20px; font-family: Georgia, "Times New Roman", serif; font-size: 28px; font-weight: 400; }
+    .v2-info-line { padding: 18px 0; border-top: 1px solid var(--v2-border); }
+    .v2-info-line strong { display: block; margin-bottom: 6px; color: var(--v2-navy); font-size: 18px; }
+    .v2-info-line span { color: var(--v2-muted); font-size: 15px; line-height: 1.55; }
+
+    .v2-pc .v2-documents { height: 640px; padding-top: 68px; background: var(--v2-deep); color: var(--v2-white); }
+    .v2-documents .v2-section-head h2 { color: var(--v2-white); }
+    .v2-documents .v2-section-head p { color: rgba(255,255,255,.72); }
+    .v2-document-grid { display: grid; grid-template-columns: 1fr 1fr; margin-top: 34px; border-top: 4px solid var(--v2-teal); background: var(--v2-white); color: var(--v2-body); }
+    .v2-document-path { min-height: 310px; padding: 36px 38px; border-right: 1px solid var(--v2-border); }
+    .v2-document-path:last-child { border-right: 0; }
+    .v2-document-path h3 { margin: 0 0 14px; font-family: Georgia, "Times New Roman", serif; font-size: 30px; font-weight: 400; }
+    .v2-document-path p { margin-bottom: 22px; color: var(--v2-muted); font-size: 16px; line-height: 1.62; }
+
+    .v2-pc .v2-resources { height: 650px; padding-top: 68px; background: var(--v2-soft); }
+    .v2-resource-layout { display: grid; grid-template-columns: .9fr 1.25fr; gap: 54px; margin-top: 34px; }
+    .v2-resource-topics { border-top: 4px solid var(--v2-teal); background: var(--v2-white); }
+    .v2-resource-topic { padding: 26px 28px; border-bottom: 1px solid var(--v2-border); }
+    .v2-resource-topic h3 { margin: 0 0 9px; font-family: Georgia, "Times New Roman", serif; font-size: 25px; font-weight: 400; }
+    .v2-resource-topic p { margin-bottom: 0; color: var(--v2-muted); font-size: 16px; line-height: 1.58; }
+    .v2-buyer-answers { border-top: 4px solid var(--v2-navy); background: var(--v2-white); }
+    .v2-answer { padding: 23px 26px; border-bottom: 1px solid var(--v2-border); }
+    .v2-answer h3 { margin: 0 0 8px; font-size: 21px; }
+    .v2-answer p { margin-bottom: 0; color: var(--v2-muted); font-size: 16px; line-height: 1.58; }
+
+    .v2-pc .v2-rfq { height: 470px; display: grid; grid-template-columns: .82fr 1.18fr; align-items: center; gap: 60px; padding: 64px 80px; background: var(--v2-navy); color: var(--v2-white); }
+    .v2-rfq h2 { margin: 12px 0 14px; color: var(--v2-white); font-size: 40px; line-height: 1.13; }
+    .v2-rfq p { margin-bottom: 0; color: rgba(255,255,255,.76); font-size: 16px; line-height: 1.62; }
+    .v2-field-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .v2-field { min-height: 54px; display: flex; align-items: center; padding: 0 15px; border: 1px solid rgba(255,255,255,.25); color: rgba(255,255,255,.88); font-size: 14px; }
+    .v2-rfq-action { display: flex; justify-content: flex-end; margin-top: 18px; }
+    .v2-pc .v2-footer { height: 322px; padding: 54px 80px 40px; background: var(--v2-deep); color: rgba(255,255,255,.8); }
+    .v2-footer-top { display: grid; grid-template-columns: 270px 1fr; gap: 65px; }
+    .v2-footer .v2-logo { filter: brightness(0) invert(1); opacity: .85; }
+    .v2-footer-copy { margin-top: 14px; font-size: 14px; line-height: 1.6; }
+    .v2-footer-nav { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 30px; font-size: 15px; }
+    .v2-footer-bottom { display: flex; justify-content: space-between; margin-top: 54px; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.16); font-size: 14px; }
+
+    /* Mobile clean default: menu closed and product groups collapsed */
+    .v2-mobile .v2-mobile-header, .v2-menu-state .v2-mobile-header, .v2-product-state .v2-mobile-header { position: relative; height: 72px; display: flex; align-items: center; justify-content: space-between; padding: 0 18px; background: var(--v2-white); border-bottom: 1px solid var(--v2-border); }
+    .v2-mobile .v2-logo, .v2-menu-state .v2-logo, .v2-product-state .v2-logo { width: 124px; }
+    .v2-mobile-actions { display: flex; align-items: center; gap: 8px; }
+    .v2-menu-button { min-height: 44px; padding: 0 13px; border: 1px solid var(--v2-border); border-radius: 6px; background: var(--v2-white); color: var(--v2-navy); font-size: 15px; font-weight: 700; }
+    .v2-mobile-actions .v2-btn { min-height: 44px; padding: 0 13px; font-size: 14px; }
+    .v2-mobile .v2-hero { position: relative; height: 700px; padding: 64px 20px 0; overflow: hidden; background: var(--v2-white); }
+    .v2-mobile .v2-hero::after { content: ""; position: absolute; right: -115px; top: 70px; width: 310px; height: 310px; border: 42px solid rgba(0,169,157,.055); border-radius: 50%; }
+    .v2-mobile .v2-hero-icon { position: absolute; right: -68px; top: 118px; width: 245px; opacity: .065; }
+    .v2-mobile .v2-hero-copy { position: relative; z-index: 2; }
+    .v2-mobile .v2-kicker { font-size: 14px; line-height: 1.45; }
+    .v2-mobile .v2-hero h1 { margin: 18px 0 18px; font-size: 42px; line-height: 1.04; }
+    .v2-mobile .v2-hero p { margin-bottom: 0; font-size: 16px; line-height: 1.62; }
+    .v2-mobile .v2-hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 26px; }
+    .v2-mobile .v2-btn { min-height: 50px; padding: 0 10px; font-size: 15px; }
+    .v2-mobile .v2-quick { height: 180px; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--v2-border); border-bottom: 1px solid var(--v2-border); background: var(--v2-soft); }
+    .v2-mobile .v2-quick-entry { display: block; padding: 22px 12px; border-right: 1px solid var(--v2-border); }
+    .v2-mobile .v2-quick-entry:last-child { border-right: 0; }
+    .v2-mobile .v2-quick-entry > span:first-child { font-size: 12px; }
+    .v2-mobile .v2-quick-entry strong { margin: 14px 0 6px; font-size: 17px; }
+    .v2-mobile .v2-quick-entry p { font-size: 14px; line-height: 1.45; }
+    .v2-mobile-section { position: relative; padding-left: 18px; padding-right: 18px; }
+    .v2-mobile .v2-section-head h2 { margin: 11px 0 12px; font-size: 32px; line-height: 1.12; }
+    .v2-mobile .v2-section-head p { margin-bottom: 0; color: var(--v2-muted); font-size: 15px; line-height: 1.62; }
+    .v2-mobile .v2-markets { height: 940px; padding-top: 58px; background: var(--v2-soft); }
+    .v2-mobile .v2-market-grid { grid-template-columns: 1fr; margin-top: 30px; }
+    .v2-mobile .v2-market-card { min-height: 166px; padding: 22px; }
+    .v2-mobile .v2-market-code { font-size: 24px; }
+    .v2-mobile .v2-market-card h3 { margin: 8px 0; font-size: 22px; }
+    .v2-mobile .v2-market-card p { margin-bottom: 12px; font-size: 15px; line-height: 1.55; }
+
+    .v2-mobile .v2-products { height: 850px; padding-top: 56px; background: var(--v2-white); }
+    .v2-mobile .v2-products-head { align-items: start; }
+    .v2-mobile .v2-count { padding-left: 12px; }
+    .v2-mobile .v2-count strong { font-size: 36px; }
+    .v2-mobile .v2-count span { font-size: 12px; }
+    .v2-mobile-group-list { margin-top: 30px; border-top: 4px solid var(--v2-teal); border-bottom: 1px solid var(--v2-border); }
+    .v2-mobile-group { min-height: 82px; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 12px; padding: 0 16px; border-top: 1px solid var(--v2-border); }
+    .v2-mobile-group:first-child { border-top: 0; }
+    .v2-mobile-group strong { color: var(--v2-navy); font-size: 16px; line-height: 1.35; }
+    .v2-mobile-group span { color: var(--v2-teal); font-size: 14px; font-weight: 700; }
+    .v2-mobile .v2-process-links { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+    .v2-mobile .v2-process-links .v2-link { min-height: 52px; display: flex; align-items: center; padding: 0 12px; border: 1px solid var(--v2-border); font-size: 14px; }
+    .v2-mobile .v2-product-cta { width: 100%; margin-top: 16px; }
+    .v2-buyer-product-note { margin-top: 20px; padding: 18px; background: var(--v2-soft); color: var(--v2-body); font-size: 15px; line-height: 1.58; }
+    .v2-review-mode .v2-buyer-product-note { display: none; }
+    .v2-mobile-audit { display: none; margin-top: 18px; padding: 16px; border: 1px solid var(--v2-review-border); background: var(--v2-review); }
+    .v2-review-mode .v2-mobile-audit { display: block; }
+    .v2-mobile-audit strong { display: block; margin-bottom: 10px; color: #5D4300; font-size: 12px; }
+    .v2-mobile-audit span { display: inline-block; margin: 0 6px 6px 0; color: #5D4300; font-size: 12px; font-weight: 700; }
+
+    .v2-mobile .v2-applications { height: 900px; padding-top: 56px; background: var(--v2-soft); }
+    .v2-mobile .v2-application-grid { grid-template-columns: 1fr 1fr; margin-top: 30px; }
+    .v2-mobile .v2-application-card, .v2-mobile .v2-application-card:nth-child(4), .v2-mobile .v2-application-card:nth-child(5) { min-height: 210px; grid-column: span 1; padding: 20px; }
+    .v2-mobile .v2-application-card:last-child { grid-column: 1 / -1; }
+    .v2-mobile .v2-app-mark { width: 42px; height: 42px; font-size: 20px; }
+    .v2-mobile .v2-application-card h3 { margin: 14px 0 8px; font-size: 21px; }
+    .v2-mobile .v2-application-card p { font-size: 15px; line-height: 1.55; }
+
+    .v2-mobile .v2-about { height: 800px; display: block; background: var(--v2-white); }
+    .v2-mobile .v2-about-copy { padding: 58px 18px 34px; }
+    .v2-mobile .v2-about-copy h2 { margin: 12px 0 16px; font-size: 32px; line-height: 1.12; }
+    .v2-mobile .v2-about-copy p { margin-bottom: 20px; font-size: 15px; line-height: 1.62; }
+    .v2-mobile .v2-about-layout { height: 390px; padding: 22px 18px 42px; }
+    .v2-mobile .v2-info-sheet { padding: 24px; }
+    .v2-mobile .v2-info-sheet h3 { font-size: 24px; }
+    .v2-mobile .v2-info-line { padding: 15px 0; }
+    .v2-mobile .v2-info-line strong { font-size: 17px; }
+    .v2-mobile .v2-info-line span { font-size: 14px; line-height: 1.55; }
+
+    .v2-mobile .v2-documents { height: 760px; padding-top: 55px; background: var(--v2-deep); color: var(--v2-white); }
+    .v2-mobile .v2-documents .v2-section-head h2 { color: var(--v2-white); }
+    .v2-mobile .v2-documents .v2-section-head p { color: rgba(255,255,255,.74); }
+    .v2-mobile .v2-document-grid { grid-template-columns: 1fr; margin-top: 28px; }
+    .v2-mobile .v2-document-path { min-height: 240px; padding: 28px 24px; border-right: 0; border-bottom: 1px solid var(--v2-border); }
+    .v2-mobile .v2-document-path h3 { font-size: 27px; }
+    .v2-mobile .v2-document-path p { font-size: 15px; line-height: 1.6; }
+
+    .v2-mobile .v2-resources { height: 900px; padding-top: 55px; background: var(--v2-soft); }
+    .v2-mobile .v2-resource-layout { grid-template-columns: 1fr; gap: 28px; margin-top: 28px; }
+    .v2-mobile .v2-resource-topic { padding: 22px; }
+    .v2-mobile .v2-resource-topic h3 { font-size: 22px; }
+    .v2-mobile .v2-resource-topic p { font-size: 15px; line-height: 1.58; }
+    .v2-mobile .v2-answer { padding: 18px 20px; }
+    .v2-mobile .v2-answer h3 { font-size: 18px; line-height: 1.35; }
+    .v2-mobile .v2-answer p { font-size: 14px; line-height: 1.55; }
+
+    .v2-mobile .v2-rfq { height: 650px; display: block; padding: 60px 18px; background: var(--v2-navy); }
+    .v2-mobile .v2-rfq h2 { margin: 12px 0 14px; font-size: 32px; }
+    .v2-mobile .v2-rfq p { font-size: 15px; line-height: 1.62; }
+    .v2-mobile .v2-field-grid { grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 28px; }
+    .v2-mobile .v2-field { min-height: 52px; padding: 0 10px; font-size: 14px; }
+    .v2-mobile .v2-rfq-action { margin-top: 18px; }
+    .v2-mobile .v2-rfq-action .v2-btn { width: 100%; }
+    .v2-mobile .v2-footer { height: 448px; padding: 46px 18px 34px; background: var(--v2-deep); color: rgba(255,255,255,.82); }
+    .v2-mobile .v2-footer-top { display: block; }
+    .v2-mobile .v2-footer .v2-logo { width: 132px; }
+    .v2-mobile .v2-footer-copy { margin-top: 18px; font-size: 14px; }
+    .v2-mobile .v2-footer-nav { grid-template-columns: 1fr 1fr; margin-top: 30px; gap: 0; border-top: 1px solid rgba(255,255,255,.16); }
+    .v2-mobile .v2-footer-nav span { padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,.12); font-size: 14px; }
+    .v2-mobile .v2-footer-bottom { display: block; margin-top: 28px; padding-top: 18px; font-size: 13px; line-height: 1.6; }
+
+    /* Separate mobile state studies */
+    .v2-menu-state { background: var(--v2-white); }
+    .v2-menu-open-panel { height: 390px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(4, 1fr); background: var(--v2-soft); border-bottom: 1px solid var(--v2-border); }
+    .v2-menu-open-panel span { display: flex; align-items: center; padding: 0 20px; border-right: 1px solid var(--v2-border); border-bottom: 1px solid var(--v2-border); color: var(--v2-navy); font-size: 15px; font-weight: 700; }
+    .v2-menu-open-panel span:nth-child(even) { border-right: 0; }
+    .v2-menu-open-panel span:nth-last-child(-n+2) { border-bottom: 0; }
+    .v2-menu-state-hero { position: relative; height: 588px; padding: 55px 20px; overflow: hidden; background: var(--v2-white); }
+    .v2-menu-state-hero::after { content: ""; position: absolute; right: -100px; top: 20px; width: 270px; height: 270px; border: 38px solid rgba(0,169,157,.055); border-radius: 50%; }
+    .v2-menu-state-hero h1 { position: relative; z-index: 2; margin: 16px 0; font-size: 42px; line-height: 1.04; }
+    .v2-menu-state-hero p { position: relative; z-index: 2; font-size: 16px; line-height: 1.62; }
+    .v2-product-state { padding-bottom: 30px; background: var(--v2-white); }
+    .v2-product-state-body { padding: 42px 18px; }
+    .v2-product-state h1 { margin: 10px 0 12px; font-size: 36px; line-height: 1.08; }
+    .v2-product-state p { font-size: 15px; line-height: 1.58; }
+    .v2-expanded-group { margin-top: 24px; border-top: 4px solid var(--v2-teal); border-bottom: 1px solid var(--v2-border); }
+    .v2-expanded-title { display: flex; justify-content: space-between; align-items: center; padding: 20px 16px; background: var(--v2-soft); }
+    .v2-expanded-title strong { color: var(--v2-navy); font-size: 18px; }
+    .v2-expanded-title span { color: var(--v2-teal); font-size: 14px; font-weight: 700; }
+    .v2-expanded-content { padding: 20px 16px; }
+    .v2-expanded-content p { margin: 14px 0 0; color: var(--v2-muted); font-size: 14px; }
+    .v2-collapsed-row { min-height: 76px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; border-bottom: 1px solid var(--v2-border); }
+    .v2-collapsed-row strong { color: var(--v2-navy); font-size: 16px; }
+    .v2-collapsed-row span { color: var(--v2-teal); font-size: 14px; font-weight: 700; }
+    .v2-product-state .v2-btn { width: 100%; margin-top: 24px; }
+
+    body.v2-capture { margin: 0; min-width: 0; overflow: hidden; background: var(--v2-white); }
+    body.v2-capture .v2-page { margin: 0; transform: none; }
+    @media (max-width: 900px) {
+      .v2-review-intro, .v2-review-section { width: calc(100% - 24px); }
+      .v2-compare { grid-template-columns: 1fr; }
+      .v2-state-grid { grid-template-columns: 390px; justify-content: start; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main class="v2-review-surface" id="v2-review-surface">
+    <section class="v2-review-intro">
+      <strong>VISUAL DESIGN REVIEW SURFACE / NOT PRODUCTION / INTERACTIONS NOT IMPLEMENTED</strong>
+      <h1>TiO₂ Malaysia Homepage Full Visual V0.2</h1>
+      <p>Buyer Clean View shows only buyer-facing design content. Internal Review Overlay adds page ownership, evidence gates and asset status for review. Menu Open and Product Expanded are separate interaction-state illustrations; they do not implement real behavior.</p>
+    </section>
+
+    <section class="v2-review-section">
+      <h2>PC comparison — Buyer Clean / Internal Review</h2>
+      <p>Both artboards are 1440 × 6000px and share the same buyer layout.</p>
+      <div class="v2-compare">
+        <div class="v2-preview-card"><h3>Buyer Clean View</h3><div class="v2-pc-shell"><div class="v2-pc-scale" data-render="pc-clean"></div></div><a class="v2-open-link" href="?capture=pc-clean">Open exact PC clean artboard</a></div>
+        <div class="v2-preview-card"><h3>Internal Review Overlay</h3><div class="v2-pc-shell"><div class="v2-pc-scale" data-render="pc-review"></div></div><a class="v2-open-link" href="?capture=pc-review">Open exact PC review artboard</a></div>
+      </div>
+    </section>
+
+    <section class="v2-review-section">
+      <h2>Mobile comparison — Buyer Clean / Internal Review</h2>
+      <p>Both full-page artboards are 390 × 7200px. Default buyer state keeps Menu closed and all four product groups collapsed.</p>
+      <div class="v2-compare">
+        <div class="v2-preview-card"><h3>Buyer Clean View — default state</h3><div class="v2-mobile-shell"><div class="v2-mobile-scale" data-render="mobile-clean"></div></div><a class="v2-open-link" href="?capture=mobile-clean">Open exact mobile clean artboard</a></div>
+        <div class="v2-preview-card"><h3>Internal Review Overlay</h3><div class="v2-mobile-shell"><div class="v2-mobile-scale" data-render="mobile-review"></div></div><a class="v2-open-link" href="?capture=mobile-review">Open exact mobile review artboard</a></div>
+      </div>
+    </section>
+
+    <section class="v2-review-section">
+      <h2>Separate mobile interaction-state illustrations</h2>
+      <p>These static screens demonstrate intended states only. They are not clickable or responsive implementation.</p>
+      <div class="v2-state-grid">
+        <div><h3>Menu Open — 390 × 1050</h3><div data-render="menu-open"></div><a class="v2-open-link" href="?capture=menu-open">Open exact menu state</a></div>
+        <div><h3>Product Expanded — 390 × 1200</h3><div data-render="product-expanded"></div><a class="v2-open-link" href="?capture=product-expanded">Open exact product state</a></div>
+      </div>
+    </section>
+  </main>
+
+  <template id="v2-pc-template">
+    <div class="v2-page v2-pc">
+      <div class="v2-review-banner">INTERNAL REVIEW OVERLAY / NOT BUYER UI / NOT PRODUCTION / INTERACTIONS NOT IMPLEMENTED</div>
+      <header class="v2-pc-header" data-review="HEADER / HOME-001 / NAV OWNERSHIP CHECK"><div class="v2-pc-header-inner">
+        <img class="v2-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia visual-direction logo">
+        <nav class="v2-pc-nav" aria-label="Desktop navigation"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span class="v2-btn v2-navy">Request a Quote</span></nav>
+      </div></header>
+      <section class="v2-hero" data-review="HOME-001 / FACT COPY PENDING / CURRENT VISUAL ASSET — NOT PRODUCTION OR FACT EVIDENCE"><div class="v2-hero-inner">
+        <div class="v2-hero-copy"><div class="v2-kicker">Industrial supply platform for international buyers</div><h1>Malaysia Titanium Dioxide<br><span>for Industrial Procurement</span></h1><p>Review destination markets, product groups, application paths and document-request options from one focused starting point.</p><div class="v2-hero-actions"><span class="v2-btn">Request a Quote</span><span class="v2-btn v2-secondary">View Products</span></div></div>
+        <div class="v2-hero-art"><div class="v2-art-caption">INDUSTRIAL MATERIALS / VISUAL DIRECTION</div><img class="v2-hero-icon" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (2).png" alt="Decorative TiO2 visual-direction symbol"></div>
+      </div></section>
+      <section class="v2-quick" data-review="COMPACT ROUTING ONLY / MARKET-000 + PRODUCT-000 + DOC-000"><div class="v2-quick-title"><small>START HERE</small><strong>Choose a path</strong></div><div class="v2-quick-entry"><span>01</span><div><strong>Markets</strong><p>Choose destination</p></div><span class="v2-arrow">→</span></div><div class="v2-quick-entry"><span>02</span><div><strong>Products</strong><p>Review grade groups</p></div><span class="v2-arrow">→</span></div><div class="v2-quick-entry"><span>03</span><div><strong>Documents</strong><p>Understand requests</p></div><span class="v2-arrow">→</span></div></section>
+      <section class="v2-pc-section v2-markets" data-review="MARKET-000 / EU + UK + INDIA + BRAZIL / MARKET FACTS REQUIRE SOURCE REVIEW"><div class="v2-markets-head"><div class="v2-section-head"><div class="v2-kicker">Markets</div><h2>Start with your destination market</h2><p>Review the market path most relevant to your purchasing and application requirements.</p></div><span class="v2-link">View All Markets →</span></div><div class="v2-market-grid"><article class="v2-market-card"><span class="v2-market-code">EU</span><h3>European Union</h3><p>Explore the EU market route and its Germany, Italy, Spain, Poland, Netherlands and Belgium pathways.</p><span class="v2-link">Explore European Union →</span></article><article class="v2-market-card"><span class="v2-market-code">UK</span><h3>United Kingdom</h3><p>Review the United Kingdom route for product, application and purchasing information.</p><span class="v2-link">Explore United Kingdom →</span></article><article class="v2-market-card"><span class="v2-market-code">IN</span><h3>India</h3><p>Connect market evaluation with coatings, plastics, masterbatch and quotation pathways.</p><span class="v2-link">Explore India →</span></article><article class="v2-market-card"><span class="v2-market-code">BR</span><h3>Brazil</h3><p>Review the English-language Brazil purchasing route and related application information.</p><span class="v2-link">Explore Brazil →</span></article></div></section>
+      <section class="v2-pc-section v2-products" data-review="PRODUCT-000 / TECHNICAL COPY PENDING / 14 MODEL CHECK COMPLETE / M-2377 PROCESS RESTRICTED"><div class="v2-products-head"><div class="v2-section-head"><div class="v2-kicker">Products</div><h2>Four product groups. Fourteen models.</h2><p>Use the grouped index to narrow your evaluation without working through fourteen separate cards.</p></div><div class="v2-count"><strong>14</strong><span>MODELS ACROSS FOUR GROUPS</span></div></div><div class="v2-product-dossier"><div class="v2-product-groups"><article class="v2-product-group"><small>01 / 06</small><h3>Coatings Grades</h3><div class="v2-grade-list"><span class="v2-grade">M-350</span><span class="v2-grade">M-510</span><span class="v2-grade">M-896</span><span class="v2-grade">M-996</span><span class="v2-grade">M-2196</span><span class="v2-grade">M-895</span></div><p>Review coating-focused model pages and compare the available product information.</p></article><article class="v2-product-group"><small>02 / 05</small><h3>Plastics &amp; Masterbatch Grades</h3><div class="v2-grade-list"><span class="v2-grade">M-200</span><span class="v2-grade">M-108</span><span class="v2-grade">M-210</span><span class="v2-grade">M-340</span><span class="v2-grade">M-886</span></div><p>TiO₂ input selection for plastics and masterbatch applications; not finished masterbatch.</p></article><article class="v2-product-group"><small>03 / 02</small><h3>Inks &amp; Multi-Application</h3><div class="v2-grade-list"><span class="v2-grade">M-52</span><span class="v2-grade">M-2377</span></div><p>Review individual model information for ink and multi-application evaluation.</p></article><article class="v2-product-group"><small>04 / 01</small><h3>Specialty Grade</h3><div class="v2-grade-list"><span class="v2-grade">CR-901</span></div><p>Open the dedicated model page for specialist evaluation.</p></article></div></div><div class="v2-product-actions"><div class="v2-process-links"><span class="v2-link">Chloride Process →</span><span class="v2-link">Sulfate / Sulphate Process →</span></div><span class="v2-btn">View All 14 Grades</span></div></section>
+      <section class="v2-pc-section v2-applications" data-review="APP-000 / APP-COAT + APP-PLAS + APP-MB + APP-INK + APP-PAPER / PROVISIONAL URL — PAGE_ID ONLY"><div class="v2-section-head"><div class="v2-kicker">Applications</div><h2>Explore by use case</h2><p>Begin with the application route that best matches your formulation and processing context.</p></div><div class="v2-application-grid"><article class="v2-application-card"><div class="v2-app-mark">C</div><h3>Coatings</h3><p>Review the coatings application path and relevant product-selection information.</p></article><article class="v2-application-card"><div class="v2-app-mark">P</div><h3>Plastics</h3><p>Explore product routes for plastics processing and performance evaluation.</p></article><article class="v2-application-card"><div class="v2-app-mark">M</div><h3>Masterbatch</h3><p>Evaluate titanium dioxide as an input for masterbatch, not finished masterbatch supply.</p></article><article class="v2-application-card"><div class="v2-app-mark">I</div><h3>Printing Inks</h3><p>Open the printing-inks path for model and technical-information review.</p></article><article class="v2-application-card"><div class="v2-app-mark">P</div><h3>Paper</h3><p>Review the paper application pathway and related product information.</p></article></div></section>
+      <section class="v2-about" data-review="ABOUT-001 / FACT COPY PENDING / VERIFIED ASSET PENDING / NO SEPARATE ORIGIN TOP-LEVEL PAGE"><div class="v2-about-copy"><div class="v2-kicker">About TiO₂ Malaysia</div><h2>Company and supply information in one clear route</h2><p>Use the company section to understand the platform, the operating entity and how origin and documentation information are organised.</p><span class="v2-link">Learn About TiO₂ Malaysia →</span></div><div class="v2-about-layout"><div class="v2-info-sheet"><h3>Company &amp; Supply Information</h3><div class="v2-info-line"><strong>Platform overview</strong><span>Who the platform serves and how the website is organised.</span></div><div class="v2-info-line"><strong>Company information</strong><span>Operating-entity and contact information presented in one place.</span></div><div class="v2-info-line"><strong>Origin &amp; document pathways</strong><span>Where buyers can review relevant information and request routes.</span></div></div></div></section>
+      <section class="v2-pc-section v2-documents" data-review="DOC-000 + CONV-DOC ONLY / DOCUMENT AVAILABILITY NOT CLAIMED / SUBPAGES REQUIRE PRD + EVIDENCE"><div class="v2-section-head"><div class="v2-kicker">Documents</div><h2>Understand the information route before requesting documents</h2><p>Use the information hub to understand document categories, or submit a qualified request with the relevant product and market context.</p></div><div class="v2-document-grid"><article class="v2-document-path"><h3>Documents Hub</h3><p>Review how document information is organised and what details may be needed for evaluation.</p><span class="v2-link">View Document Information →</span></article><article class="v2-document-path"><h3>Request Documents</h3><p>Submit the product, destination market, company and document details required for review.</p><span class="v2-link">Request Documents →</span></article></div></section>
+      <section class="v2-pc-section v2-resources" data-review="RES-000 / RES-ORIGIN PLANNED / RES-PROC NOT LIVE / ANSWERS REQUIRE CONTENT REVIEW"><div class="v2-section-head"><div class="v2-kicker">Resources &amp; buyer answers</div><h2>Technical and sourcing topics for purchasing teams</h2><p>Use concise resource paths and buyer answers to move from early research into product and quotation evaluation.</p></div><div class="v2-resource-layout"><div class="v2-resource-topics"><article class="v2-resource-topic"><h3>Alternative-origin sourcing considerations</h3><p>Topics for evaluating supply diversification and origin information responsibly.</p></article><article class="v2-resource-topic"><h3>Chloride and sulfate process overview</h3><p>A route for understanding process terminology before reviewing product pages.</p></article></div><div class="v2-buyer-answers"><article class="v2-answer"><h3>Where should buyers start?</h3><p>Choose a destination market, then review product groups, applications or document information.</p></article><article class="v2-answer"><h3>How are the products organised?</h3><p>Four groups organise fourteen models across coatings, plastics and masterbatch, inks and multi-application, and specialty use.</p></article><article class="v2-answer"><h3>How can a quotation request be prepared?</h3><p>Include the destination, application, grade or specification, quantity, packaging and document needs.</p></article></div></div></section>
+      <section class="v2-rfq" data-review="CONV-RFQ / FIELD SUMMARY ONLY / FORM FLOW + PRIVACY + RESPONSIBILITY PENDING / NO SAMPLE CTA"><div><div class="v2-kicker">Request a Quote</div><h2>Prepare a structured quotation request</h2><p>Provide the purchasing context needed to review your request efficiently.</p></div><div><div class="v2-field-grid"><span class="v2-field">Destination Market</span><span class="v2-field">Application</span><span class="v2-field">Grade / Specification</span><span class="v2-field">Quantity</span><span class="v2-field">Packaging</span><span class="v2-field">Document Needs</span></div><div class="v2-rfq-action"><span class="v2-btn">Request a Quote</span></div></div></section>
+      <footer class="v2-footer" data-review="CONTACT-001 / CONTACT FACTS + LEGAL COPY PENDING"><div class="v2-footer-top"><div><img class="v2-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia visual-direction logo"><div class="v2-footer-copy">A focused titanium dioxide purchasing platform for international industrial buyers.</div></div><nav class="v2-footer-nav"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span>Request a Quote</span></nav></div><div class="v2-footer-bottom"><span>Company</span><span>Contact</span><span>Privacy</span><span>Terms</span></div></footer>
+    </div>
+  </template>
+
+  <template id="v2-mobile-template">
+    <div class="v2-page v2-mobile">
+      <div class="v2-review-banner">INTERNAL REVIEW OVERLAY / NOT BUYER UI / NOT PRODUCTION</div>
+      <header class="v2-mobile-header" data-review="MOBILE DEFAULT / MENU CLOSED / HOME-001"><img class="v2-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia visual-direction logo"><div class="v2-mobile-actions"><button class="v2-menu-button" type="button">Menu</button><span class="v2-btn v2-navy">RFQ</span></div></header>
+      <section class="v2-hero" data-review="HOME-001 / FACT COPY PENDING / CURRENT VISUAL ASSET — ATMOSPHERE ONLY"><img class="v2-hero-icon" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (2).png" alt="Decorative TiO2 visual-direction symbol"><div class="v2-hero-copy"><div class="v2-kicker">Industrial supply platform for international buyers</div><h1>Malaysia Titanium Dioxide<br><span>for Industrial Procurement</span></h1><p>Review destination markets, product groups, application paths and document-request options from one focused starting point.</p><div class="v2-hero-actions"><span class="v2-btn">Request a Quote</span><span class="v2-btn v2-secondary">View Products</span></div></div></section>
+      <section class="v2-quick" data-review="COMPACT ROUTING / MARKET-000 + PRODUCT-000 + DOC-000"><div class="v2-quick-entry"><span>01</span><strong>Markets</strong><p>Destination</p></div><div class="v2-quick-entry"><span>02</span><strong>Products</strong><p>Grade groups</p></div><div class="v2-quick-entry"><span>03</span><strong>Documents</strong><p>Request route</p></div></section>
+      <section class="v2-mobile-section v2-markets" data-review="MARKET-000 / EU + UK + INDIA + BRAZIL / MARKET FACTS REQUIRE REVIEW"><div class="v2-section-head"><div class="v2-kicker">Markets</div><h2>Start with your destination market</h2><p>Review the market path most relevant to your purchasing and application requirements.</p></div><div class="v2-market-grid"><article class="v2-market-card"><span class="v2-market-code">EU</span><h3>European Union</h3><p>Includes routes for Germany, Italy, Spain, Poland, Netherlands and Belgium.</p><span class="v2-link">Explore →</span></article><article class="v2-market-card"><span class="v2-market-code">UK</span><h3>United Kingdom</h3><p>Review product, application and purchasing information.</p><span class="v2-link">Explore →</span></article><article class="v2-market-card"><span class="v2-market-code">IN</span><h3>India</h3><p>Connect market evaluation with application and quotation paths.</p><span class="v2-link">Explore →</span></article><article class="v2-market-card"><span class="v2-market-code">BR</span><h3>Brazil</h3><p>Review the English-language Brazil purchasing route.</p><span class="v2-link">Explore →</span></article></div></section>
+      <section class="v2-mobile-section v2-products" data-review="PRODUCT-000 / DEFAULT GROUPS COLLAPSED / TECHNICAL COPY PENDING / FULL 14-MODEL AUDIT BELOW"><div class="v2-products-head"><div class="v2-section-head"><div class="v2-kicker">Products</div><h2>Four product groups</h2><p>Choose a group to reveal its models.</p></div><div class="v2-count"><strong>14</strong><span>MODELS</span></div></div><div class="v2-mobile-group-list"><div class="v2-mobile-group"><strong>Coatings Grades</strong><span>6 · Expand +</span></div><div class="v2-mobile-group"><strong>Plastics &amp; Masterbatch</strong><span>5 · Expand +</span></div><div class="v2-mobile-group"><strong>Inks &amp; Multi-Application</strong><span>2 · Expand +</span></div><div class="v2-mobile-group"><strong>Specialty Grade</strong><span>1 · Expand +</span></div></div><div class="v2-process-links"><span class="v2-link">Chloride Process →</span><span class="v2-link">Sulfate / Sulphate →</span></div><span class="v2-btn v2-product-cta">View All 14 Grades</span><div class="v2-buyer-product-note">Open a product group to review model names, or use the complete product index.</div><div class="v2-mobile-audit"><strong>INTERNAL 14-MODEL CHECK / UNIQUE</strong><span>M-350</span><span>M-510</span><span>M-896</span><span>M-996</span><span>M-2196</span><span>M-895</span><span>M-200</span><span>M-108</span><span>M-210</span><span>M-340</span><span>M-886</span><span>M-52</span><span>M-2377</span><span>CR-901</span></div></section>
+      <section class="v2-mobile-section v2-applications" data-review="APP-000 / APP-COAT + APP-PLAS + APP-MB + APP-INK + APP-PAPER / PROVISIONAL URL — PAGE_ID ONLY"><div class="v2-section-head"><div class="v2-kicker">Applications</div><h2>Explore by use case</h2><p>Begin with the application route that matches your formulation and processing context.</p></div><div class="v2-application-grid"><article class="v2-application-card"><div class="v2-app-mark">C</div><h3>Coatings</h3><p>Review the coatings path and related product information.</p></article><article class="v2-application-card"><div class="v2-app-mark">P</div><h3>Plastics</h3><p>Explore product routes for plastics processing.</p></article><article class="v2-application-card"><div class="v2-app-mark">M</div><h3>Masterbatch</h3><p>TiO₂ input evaluation, not finished masterbatch.</p></article><article class="v2-application-card"><div class="v2-app-mark">I</div><h3>Printing Inks</h3><p>Open the inks path for product information.</p></article><article class="v2-application-card"><div class="v2-app-mark">P</div><h3>Paper</h3><p>Review the paper application pathway.</p></article></div></section>
+      <section class="v2-about" data-review="ABOUT-001 / FACT COPY PENDING / VERIFIED ASSET PENDING"><div class="v2-about-copy"><div class="v2-kicker">About TiO₂ Malaysia</div><h2>Company and supply information in one clear route</h2><p>Use the company section to understand the platform, operating entity and how origin and documentation information are organised.</p><span class="v2-link">Learn About TiO₂ Malaysia →</span></div><div class="v2-about-layout"><div class="v2-info-sheet"><h3>Company &amp; Supply Information</h3><div class="v2-info-line"><strong>Platform overview</strong><span>Who the platform serves.</span></div><div class="v2-info-line"><strong>Company information</strong><span>Operating-entity and contact information.</span></div><div class="v2-info-line"><strong>Origin &amp; document pathways</strong><span>Where buyers review information and request routes.</span></div></div></div></section>
+      <section class="v2-mobile-section v2-documents" data-review="DOC-000 + CONV-DOC ONLY / DOCUMENT AVAILABILITY NOT CLAIMED"><div class="v2-section-head"><div class="v2-kicker">Documents</div><h2>Information and request paths</h2><p>Understand how document information is organised before submitting a request.</p></div><div class="v2-document-grid"><article class="v2-document-path"><h3>Documents Hub</h3><p>Review document categories and the details needed for evaluation.</p><span class="v2-link">View Information →</span></article><article class="v2-document-path"><h3>Request Documents</h3><p>Submit product, market, company and document details for review.</p><span class="v2-link">Request Documents →</span></article></div></section>
+      <section class="v2-mobile-section v2-resources" data-review="RES-000 / RES-ORIGIN PLANNED / RES-PROC NOT LIVE / ANSWERS REQUIRE CONTENT REVIEW"><div class="v2-section-head"><div class="v2-kicker">Resources &amp; buyer answers</div><h2>Technical and sourcing topics</h2><p>Move from early research into product and quotation evaluation.</p></div><div class="v2-resource-layout"><div class="v2-resource-topics"><article class="v2-resource-topic"><h3>Alternative-origin sourcing considerations</h3><p>Topics for evaluating supply diversification and origin information responsibly.</p></article><article class="v2-resource-topic"><h3>Chloride and sulfate process overview</h3><p>Understand process terminology before reviewing product pages.</p></article></div><div class="v2-buyer-answers"><article class="v2-answer"><h3>Where should buyers start?</h3><p>Choose a destination market, then review products, applications or documents.</p></article><article class="v2-answer"><h3>How are products organised?</h3><p>Four groups organise fourteen models for quicker evaluation.</p></article><article class="v2-answer"><h3>How can a quotation request be prepared?</h3><p>Include destination, application, specification, quantity, packaging and document needs.</p></article></div></div></section>
+      <section class="v2-rfq" data-review="CONV-RFQ / FIELD SUMMARY ONLY / FORM + PRIVACY PENDING / NO SAMPLE CTA"><div class="v2-kicker">Request a Quote</div><h2>Prepare a structured quotation request</h2><p>Provide the purchasing context needed to review your request efficiently.</p><div class="v2-field-grid"><span class="v2-field">Destination Market</span><span class="v2-field">Application</span><span class="v2-field">Grade / Specification</span><span class="v2-field">Quantity</span><span class="v2-field">Packaging</span><span class="v2-field">Document Needs</span></div><div class="v2-rfq-action"><span class="v2-btn">Request a Quote</span></div></section>
+      <footer class="v2-footer" data-review="CONTACT-001 / CONTACT FACTS + LEGAL COPY PENDING"><div class="v2-footer-top"><div><img class="v2-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia visual-direction logo"><div class="v2-footer-copy">A focused titanium dioxide purchasing platform for international industrial buyers.</div></div><nav class="v2-footer-nav"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span>Request a Quote</span></nav></div><div class="v2-footer-bottom"><span>Company · Contact · Privacy · Terms</span></div></footer>
+    </div>
+  </template>
+
+  <template id="v2-menu-template">
+    <div class="v2-page v2-menu-state"><header class="v2-mobile-header"><img class="v2-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia visual-direction logo"><div class="v2-mobile-actions"><button class="v2-menu-button" type="button">Close</button><span class="v2-btn v2-navy">RFQ</span></div></header><nav class="v2-menu-open-panel" aria-label="Menu open state"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span>Request a Quote</span></nav><section class="v2-menu-state-hero"><div class="v2-kicker">Industrial supply platform for international buyers</div><h1>Malaysia Titanium Dioxide<br><span>for Industrial Procurement</span></h1><p>Explore markets, product groups, application routes, buyer documents and company information.</p></section></div>
+  </template>
+
+  <template id="v2-product-state-template">
+    <div class="v2-page v2-product-state"><header class="v2-mobile-header"><img class="v2-logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia visual-direction logo"><div class="v2-mobile-actions"><button class="v2-menu-button" type="button">Menu</button><span class="v2-btn v2-navy">RFQ</span></div></header><section class="v2-product-state-body"><div class="v2-kicker">Products / expanded group</div><h1>Four product groups</h1><p>Coatings Grades is open. Choose a model below, or open another product group.</p><div class="v2-expanded-group"><div class="v2-expanded-title"><strong>Coatings Grades</strong><span>6 · Collapse −</span></div><div class="v2-expanded-content"><div class="v2-grade-list"><span class="v2-grade">M-350</span><span class="v2-grade">M-510</span><span class="v2-grade">M-896</span><span class="v2-grade">M-996</span><span class="v2-grade">M-2196</span><span class="v2-grade">M-895</span></div><p>Open an individual model page to review its product information.</p></div><div class="v2-collapsed-row"><strong>Plastics &amp; Masterbatch</strong><span>5 · Expand +</span></div><div class="v2-collapsed-row"><strong>Inks &amp; Multi-Application</strong><span>2 · Expand +</span></div><div class="v2-collapsed-row"><strong>Specialty Grade</strong><span>1 · Expand +</span></div></div><span class="v2-btn">View All 14 Grades</span></section></div>
+  </template>
+
+  <script>
+    const reviewMap = new Map();
+    function addReviewLabels(root) {
+      root.classList.add('v2-review-mode');
+      root.querySelectorAll('[data-review]').forEach((element) => {
+        const label = document.createElement('span');
+        label.className = 'v2-review-label';
+        label.textContent = element.dataset.review;
+        element.style.position = element.style.position || 'relative';
+        element.prepend(label);
+      });
+    }
+    function makeArtboard(kind) {
+      let templateId = 'v2-pc-template';
+      if (kind.startsWith('mobile')) templateId = 'v2-mobile-template';
+      if (kind === 'menu-open') templateId = 'v2-menu-template';
+      if (kind === 'product-expanded') templateId = 'v2-product-state-template';
+      const root = document.getElementById(templateId).content.firstElementChild.cloneNode(true);
+      root.id = `v2-${kind}`;
+      if (kind.endsWith('review')) addReviewLabels(root);
+      return root;
+    }
+    const capture = new URLSearchParams(window.location.search).get('capture');
+    if (capture) {
+      document.body.className = 'v2-capture';
+      document.body.replaceChildren(makeArtboard(capture));
+    } else {
+      document.querySelectorAll('[data-render]').forEach((target) => target.append(makeArtboard(target.dataset.render)));
+    }
+  </script>
+</body>
+</html>

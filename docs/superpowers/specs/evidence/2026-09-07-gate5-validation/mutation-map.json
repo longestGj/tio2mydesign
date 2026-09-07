@@ -1,0 +1,68 @@
+{
+  "registeredAt": "2026-09-07T01:24:22.236Z",
+  "purpose": "Controlled receiver faults, not author defects or changes to approved method",
+  "baseFreeze": "G5-LAB-01-CANDIDATE-A-F1",
+  "mutations": [
+    {
+      "id": "INJECT-01",
+      "field": "sourceIdentity[0].sha256",
+      "before": "3ec171570aec364981e9d7c1309bdfbb29ef7e9022efc00db4e45966d2bc35b5",
+      "after": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "id": "INJECT-02",
+      "field": "assets",
+      "omitted": "exports/768-default-full.png",
+      "coverageClaimRetained": true
+    },
+    {
+      "id": "INJECT-03",
+      "field": "pageApproval / actualGate6Authorization",
+      "before": [
+        "NOT_REQUESTED_SYNTHETIC_EXERCISE",
+        "NOT_AUTHORIZED"
+      ],
+      "after": [
+        "USER_APPROVED",
+        "AUTHORIZED"
+      ],
+      "authorityActuallyDesignOnly": true
+    }
+  ],
+  "aSourceIdentity": [
+    {
+      "path": "source/index.html",
+      "bytes": 5325,
+      "sha256": "3ec171570aec364981e9d7c1309bdfbb29ef7e9022efc00db4e45966d2bc35b5"
+    },
+    {
+      "path": "source/styles.css",
+      "bytes": 8399,
+      "sha256": "021b843c0e63972e37e437970b9d4cb8433c38dcc0dee4a219761844a00d38df"
+    },
+    {
+      "path": "source/app.js",
+      "bytes": 6453,
+      "sha256": "2463cf517a9124572a8c12f4df258aa773270a584d7f63c58d6cf600f9cc3a6b"
+    },
+    {
+      "path": "source/assets/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    }
+  ],
+  "aRequiredDocs": [
+    {
+      "path": "final-visual-report.md",
+      "sha256": "6abba9407a6466fe0553dc7d3c18661b9172f304967f6ac3f79f598abf7032ff"
+    },
+    {
+      "path": "self-check.md",
+      "sha256": "5f795acd7eab81c8ac28aec2084686a9999e3a029489da7343a66ce82303303e"
+    },
+    {
+      "path": "G5-LAB-01_GATE5_TO_GATE6_HANDOFF.md",
+      "sha256": "76f2c018f44cc816c0e7d89be60894c28b3ae7499b51655a08050dab8987ee59"
+    }
+  ]
+}

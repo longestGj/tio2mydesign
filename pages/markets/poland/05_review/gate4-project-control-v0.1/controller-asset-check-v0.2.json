@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-07",
+  "purpose": "Artifact identity and scope verification, not runtime or visual approval",
+  "checks": [
+    {
+      "version": "0.1",
+      "freezeId": "PL-G4-V01-SOURCE-01",
+      "recordCountIncludingRepeatedReferences": 82,
+      "sourceFreezeSha256": "7057ef146ab69920a1eda6eb4909543c86867b9c1b2eb2658f2ff243dde1cf5e",
+      "exportInventorySha256": "458c0c7bc1847a3dbdf85e3d97fbd467306d8af973a79db3e0bc99684e5166c0",
+      "assetInventorySha256": "dc40becfb64fca745c4a2681a124cf49ecf5ff9c07ad014b13254326b2fef9ce",
+      "captureCount": 18
+    },
+    {
+      "version": "0.2",
+      "freezeId": "PL-G4-V02-SOURCE-01",
+      "recordCountIncludingRepeatedReferences": 109,
+      "sourceFreezeSha256": "c318408082383c67049313c60cbb20b9cb8122f590583573c8d2fc0adf9610e7",
+      "exportInventorySha256": "fc3066f1846dec2808635146de5f9888296927db2de466f5e17c347046ce4dc3",
+      "assetInventorySha256": "cba50b6ab6cb66d6025728393591354fe603cddaa622db9ba09a3cabb612174a",
+      "captureCount": 26
+    }
+  ],
+  "invariants": {
+    "htmlByteIdenticalToV01": true,
+    "mainByteIdenticalToApprovedG3": true,
+    "cssOnlyAppendToV01": true,
+    "cssDiff": [
+      "--- \n",
+      "+++ \n",
+      "@@ -16,3 +16,7 @@\n",
+      " .menuButton,.cookie-actions>*{border-color:var(--pl-teal)}",
+      " .cookie-actions a,.cookie-actions a:visited{color:var(--pl-teal)}",
+      " .cookie-actions>*:hover{background:var(--pl-soft)}",
+      "+",
+      "+/* PL-G4-IR01: explicit compliant hover surface for the two affected supporting links. */",
+      "+#pl-04 .body-action+.body-action a:hover,",
+      "+#pl-05 .body-action+.body-action a:hover{background:var(--pl-soft)}"
+    ]
+  },
+  "prior18CaptureComparison": [
+    {
+      "file": "1440-hero.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "1440-product-review.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "1440-documents.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "1440-hero-focus.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "1440-cookie-focus.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "768-hero.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "768-product-review.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "768-documents.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "768-menu-focus.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "768-cookie-focus.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "390-hero.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "390-product-review.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "390-documents.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "390-material.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "390-final-rfq.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "390-footer.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "390-menu-focus.png",
+      "byteIdentical": true
+    },
+    {
+      "file": "390-cookie-focus.png",
+      "byteIdentical": true
+    }
+  ],
+  "rootOriginalSizeViews": [
+    "1440-pl-04-support-hover.png",
+    "1440-pl-05-support-hover.png",
+    "768-pl-04-support-hover.png",
+    "768-pl-05-support-hover.png",
+    "390-pl-04-support-hover.png",
+    "390-pl-05-support-hover.png",
+    "390-pl-04-support-keyboard-focus.png",
+    "390-pl-05-support-keyboard-focus.png"
+  ],
+  "rootNewViewsObservation": "Eight new state PNGs opened at original size; both supporting labels, pale hover surface and keyboard outlines visible. Viewport clipping outside the target is not claimed as complete section evidence.",
+  "findings": []
+}

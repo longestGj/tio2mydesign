@@ -1,0 +1,108 @@
+{
+  "reviewId": "LEGAL-PRIVACY-G6-PCR-01",
+  "date": "2026-09-02",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Approved V0.1 evidence preserved",
+      "pass": true,
+      "evidence": "assets=12; failures=0"
+    },
+    {
+      "name": "Corrected V0.2 evidence integrity",
+      "pass": true,
+      "evidence": "assets=10; failures=0"
+    },
+    {
+      "name": "Gate 5 V0.2 full regression",
+      "pass": true,
+      "evidence": "status=PASS; findings=0"
+    },
+    {
+      "name": "Targeted page diff only",
+      "pass": true,
+      "evidence": "pairs=9; mismatches=0"
+    },
+    {
+      "name": "Exact approved Footer copyright",
+      "pass": true,
+      "evidence": "9/9 expected"
+    },
+    {
+      "name": "No Terms buyer-visible route or link",
+      "pass": true,
+      "evidence": "0 buyer-visible Terms occurrences"
+    },
+    {
+      "name": "Buyer-visible internal governance absent",
+      "pass": true,
+      "evidence": "0 prohibited governance labels"
+    },
+    {
+      "name": "Frozen Mobile Menu structure",
+      "pass": true,
+      "evidence": "8 primary destinations; 0 extra Privacy utilities"
+    },
+    {
+      "name": "Consent evidence carried forward unchanged",
+      "pass": true,
+      "evidence": "Desktop/Mobile hashes match approved V0.1"
+    },
+    {
+      "name": "Approved copy authorities unchanged",
+      "pass": true,
+      "evidence": "3/3 source hashes"
+    },
+    {
+      "name": "Page registry identity",
+      "pass": true,
+      "evidence": "legal_rows=3; terms_rows=0"
+    },
+    {
+      "name": "57-row keyword master unchanged",
+      "pass": true,
+      "evidence": "rows=57; legal_rows=3"
+    },
+    {
+      "name": "SEO Canonical and language contract",
+      "pass": true,
+      "evidence": "3 unique Canonicals; EN/BM reciprocal hreflang"
+    },
+    {
+      "name": "Schema visible-copy boundary",
+      "pass": true,
+      "evidence": "WebPage + BreadcrumbList; matching inLanguage"
+    },
+    {
+      "name": "Cross-page legal links",
+      "pass": true,
+      "evidence": "approved legal cross-links present"
+    },
+    {
+      "name": "Current technology disclosure",
+      "pass": true,
+      "evidence": "inactive stack and conditional replacement remain explicit"
+    },
+    {
+      "name": "Privacy TOC interaction",
+      "pass": true,
+      "evidence": "normal-flow TOC locked"
+    },
+    {
+      "name": "Responsive evidence completeness",
+      "pass": true,
+      "evidence": "3 pages × 1440/768/390; Mobile exact @2x"
+    },
+    {
+      "name": "V0.6 manifest asset bindings",
+      "pass": true,
+      "evidence": "bound=10/10"
+    },
+    {
+      "name": "Current Gate 6 authority status",
+      "pass": true,
+      "evidence": "4/4 Gate 6 manifests closed; Gate 7–10 not authorized"
+    }
+  ],
+  "failures": []
+}

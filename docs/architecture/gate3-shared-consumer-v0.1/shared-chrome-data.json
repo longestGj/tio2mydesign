@@ -1,0 +1,31 @@
+{
+  "contractId": "GLOBAL-CHROME-005",
+  "siteScope": "tio2-my",
+  "navigation": [
+    {"targetPageId": "HOME-001", "label": "Home", "href": "/"},
+    {"targetPageId": "MARKET-000", "label": "Markets", "href": "/markets/"},
+    {"targetPageId": "PRODUCT-000", "label": "Products", "href": "/products/"},
+    {"targetPageId": "APP-000", "label": "Applications", "href": "/applications/"},
+    {"targetPageId": "DOC-000", "label": "Documents", "href": "/documents/"},
+    {"targetPageId": "RES-000", "label": "Resources", "href": "/resources/"},
+    {"targetPageId": "ABOUT-001", "label": "About", "href": "/about/"}
+  ],
+  "rfq": {
+    "targetPageId": "CONV-RFQ",
+    "label": "Request a Quote",
+    "compactLabel": "RFQ",
+    "href": "/request-a-quote/"
+  },
+  "footer": {
+    "description": "A focused titanium dioxide purchasing platform for international industrial buyers.",
+    "explore": ["HOME-001", "MARKET-000", "PRODUCT-000", "APP-000"],
+    "information": ["DOC-000", "RES-000", "ABOUT-001"],
+    "legalUtilities": [
+      {"label": "Privacy Policy", "href": "/privacy-policy/", "action": "NAVIGATE"},
+      {"label": "Dasar Privasi (BM)", "href": "/ms/privacy-policy/", "action": "NAVIGATE"},
+      {"label": "Cookie Policy", "href": "/cookie-policy/", "action": "NAVIGATE"},
+      {"label": "Cookie Settings", "href": null, "action": "OPEN_COOKIE_SETTINGS"}
+    ],
+    "copyright": "© 2026 TiO2 Malaysia."
+  }
+}

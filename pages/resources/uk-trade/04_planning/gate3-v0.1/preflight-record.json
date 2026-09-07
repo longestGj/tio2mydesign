@@ -1,0 +1,81 @@
+{
+  "pageId": "RES-TRADE-UK",
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "candidate": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate3-v0.1/RES-TRADE-UK_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 26895,
+    "sha256": "f924656e6990458a50c5536ad89d055048602fde9ae1240e4381edd931692398"
+  },
+  "formalExportsGenerated": false,
+  "checks": {
+    "approvedInputsMatch": "PASS",
+    "durableDependencies": "PASS",
+    "sharedConsumerNeutral": "PASS",
+    "contentRelationshipsMatch": "PASS",
+    "threeViewportsVisible": "PASS",
+    "touchTargets44": "PASS",
+    "mobileMenuExit": "PASS",
+    "applicableStates": "PASS",
+    "pageSpecificRisks": "PASS"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    }
+  ],
+  "sharedConsumer": {
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "bytes": 2409,
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+    "version": "V0.2",
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002"
+  },
+  "inputBinding": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate3-v0.1/input-binding.json",
+    "bytes": 10532,
+    "sha256": "f2573f02478cc3636821bf5421f20f66a6c300000ff01e60c21bba56a422ea3e"
+  },
+  "runtime": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate3-v0.1/diagnostic_support/render/runtime.json",
+    "bytes": 91434,
+    "sha256": "9b0352fae2bbf1bf9a2363367869b2ed57898fe32d9b259d97fe31c98faa5586"
+  },
+  "visual": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate3-v0.1/diagnostic_support/visual-preflight.json",
+    "bytes": 11018,
+    "sha256": "19d29617d923f8d75a0277986f5102b7a64b562b42be41dd357f0490960004a8"
+  },
+  "viewports": [
+    1440,
+    768,
+    390
+  ],
+  "evidenceTypes": [
+    "SOURCE_CHECK",
+    "ACTUAL_RUNTIME",
+    "ACTUAL_IMAGE_READBACK",
+    "LOCAL_SIMULATION"
+  ],
+  "notApplicable": [
+    "Page form, FAQ, rate calculator, selector and success states are absent from approved B."
+  ],
+  "unresolvedFindings": [],
+  "createdAt": "2026-09-07T03:44:05.178Z"
+}

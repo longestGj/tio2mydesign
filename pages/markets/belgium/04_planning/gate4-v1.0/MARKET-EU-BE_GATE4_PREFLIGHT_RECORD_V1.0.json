@@ -1,0 +1,49 @@
+{
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "date": "2026-09-07T06:17:36.114Z",
+  "role": "EXECUTION_SELF_CHECK",
+  "runtime": {
+    "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/diagnostic_support/render-r1/runtime-checks.json",
+    "bytes": 80326,
+    "sha256": "272a7da4f69b3ac317b31d64d58d4276e047a7448e1e8706a649dbe6891ea797"
+  },
+  "focus": {
+    "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/diagnostic_support/focus-and-contrast-runtime.json",
+    "bytes": 6561,
+    "sha256": "1edc0764541c607d19aa38bf5fb5801a9a23104c7a3d0e8f1bd7ad5569c41a92"
+  },
+  "visual": {
+    "fullPageOverviewOpened": [
+      1440
+    ],
+    "nativeSegmentsOpened": {
+      "390": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "768": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1440": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "result": "All five modules, full text, natural punctuation, context relations and Footer checked. No visual defect found."
+  },
+  "helperFailure": "Initial focus helper used an invalid first-of-type selector and timed out; corrected helper passed without source changes."
+}

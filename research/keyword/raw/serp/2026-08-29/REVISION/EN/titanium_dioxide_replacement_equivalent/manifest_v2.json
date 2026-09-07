@@ -1,0 +1,37 @@
+{
+  "source_id": "SERP-REV-BUY-REPLACEMENT-20260829",
+  "source_type": "serp",
+  "source_name": "Web search raw response (base64 JSON envelope)",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "titanium dioxide replacement equivalent"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-08-29T00:00:00+08:00",
+  "data_date_shown_by_source": "2026-08-29",
+  "capture_method": "complete raw response returned by web search; JSON serialized and base64 encoded for byte-safe append-only storage; decoded JSON copy added for direct local analysis",
+  "files": [
+    "raw_search_response.json.b64",
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "analysis_eligible": "YES",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Use as SERP intent evidence; do not treat result counts as search volume.",
+    "Stored file is base64 encoding of the complete serialized tool response."
+  ],
+  "sha256": {
+    "raw_search_response.json.b64": "e0041a58ccb412c5baff0f5d161f24e054ff6c84ff7a7ab1c684e1050850b6fd",
+    "raw_search_response.json": "c4f114c5280eacfe2db3a3a84ed6e3acdbdc156f33e0359778010655151d7743"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json.b64": 49917,
+    "raw_search_response.json": 37127
+  },
+  "correction_to": "manifest.json",
+  "notes": "Append-only finalized manifest. Original PENDING_HASH manifest preserved; no prior raw evidence changed."
+}

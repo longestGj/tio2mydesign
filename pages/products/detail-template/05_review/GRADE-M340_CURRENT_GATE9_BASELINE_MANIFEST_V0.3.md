@@ -1,0 +1,15 @@
+# GRADE-M340 Current Gate 9 Baseline Manifest V0.3
+
+| Field | Value |
+|---|---|
+| Page | `GRADE-M340` |
+| Lifecycle | `READ_ONLY_QA_APPROVED` |
+| Gate 0–2 | `APPROVED / CLOSED` |
+| Gate 3–5 | `SATISFIED_BY_APPROVED_TEMPLATE_REUSE` |
+| Gate 6–7 | `GRADE-M340-G7-PCR-01 = PROJECT_CONTROL_REVIEW_PASS / CLOSED` |
+| Gate 8 commit | `8b5d23aa0bd8eeb1763673e651810ee9dc7df1b6` |
+| Gate 9 | `GRADE-M340-G9-PCR-01 = PROJECT_CONTROL_REVIEW_PASS / CLOSED` |
+| Route | `PREVIEW_ONLY` |
+| Gate 10 | `NOT_AUTHORIZED` |
+
+Raw contract SHA is `8DF979421B4D716BA82E910A42F62BF4982102BF00D82DB2782578F5B5AB93A6`; canonical SHA is `313F39434C74E7219A759E4A3A7F177047BA705ADF88F6441CB3B615E9852B3E`. Gate 9 permits serial advancement only to M-886. The Gate 8 Manifest remains immutable history.

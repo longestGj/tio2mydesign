@@ -1,0 +1,110 @@
+{
+  "status": "EXECUTION_VISUAL_CHECK_COMPLETE",
+  "evidenceType": "STATIC_VISUAL",
+  "executor": "Gate3 execution agent; not independent approval",
+  "source": {
+    "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/RES-TRADE-EU_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 22323,
+    "sha256": "e0dd1b936c5010a07b4f67b682e1c43ab8ec4ed283f7b1fc924ea6760be4b509"
+  },
+  "actualOpenedImages": [
+    {
+      "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/approval_core/RES-TRADE-EU_G3_1440-full.png",
+      "bytes": 719953,
+      "sha256": "8433de3d8c0bc8929c3272b26ba78eda0f38364c3321fadaa5c580b91bdf1059",
+      "width": 1440,
+      "height": 4687,
+      "logicalWidth": 1440,
+      "dpr": 1,
+      "state": "full",
+      "diagnosticIdentical": true
+    },
+    {
+      "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/approval_core/RES-TRADE-EU_G3_1440-cookie.png",
+      "bytes": 119132,
+      "sha256": "3c7a4074f1285e9ad7a044d3d5fe174e117108e53279689f4cbe425b81f4b209",
+      "width": 1440,
+      "height": 900,
+      "logicalWidth": 1440,
+      "dpr": 1,
+      "state": "cookie",
+      "diagnosticIdentical": true
+    },
+    {
+      "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/approval_core/RES-TRADE-EU_G3_768-full.png",
+      "bytes": 734295,
+      "sha256": "e70683cc1c58a4518b1f07ec33b2a3d474f2ecc605abca801d35a23e470bc5de",
+      "width": 768,
+      "height": 5575,
+      "logicalWidth": 768,
+      "dpr": 1,
+      "state": "full",
+      "diagnosticIdentical": true
+    },
+    {
+      "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/approval_core/RES-TRADE-EU_G3_768-menu.png",
+      "bytes": 81891,
+      "sha256": "4c8cf3a096f73736459dd6c79de0139ea20e74a44ebc5ca8928a4fcece8d5387",
+      "width": 768,
+      "height": 900,
+      "logicalWidth": 768,
+      "dpr": 1,
+      "state": "menu",
+      "diagnosticIdentical": true
+    },
+    {
+      "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/approval_core/RES-TRADE-EU_G3_768-cookie.png",
+      "bytes": 69586,
+      "sha256": "f31772ffac0fecfd87d1044d76d5f638f4bbc89b3f1da8ce7ade94511ffb8e89",
+      "width": 768,
+      "height": 900,
+      "logicalWidth": 768,
+      "dpr": 1,
+      "state": "cookie",
+      "diagnosticIdentical": true
+    },
+    {
+      "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/approval_core/RES-TRADE-EU_G3_390-full.png",
+      "bytes": 626305,
+      "sha256": "2d993c61ca07b6666b01d4d6893624cb1ae35d68ca6bbe486996fc892ecbbc02",
+      "width": 390,
+      "height": 7506,
+      "logicalWidth": 390,
+      "dpr": 1,
+      "state": "full",
+      "diagnosticIdentical": true
+    },
+    {
+      "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/approval_core/RES-TRADE-EU_G3_390-menu.png",
+      "bytes": 48001,
+      "sha256": "9c3ce9b8663923022a0c882337346d640ce29d0e8b20a43d329d37ce8f59c379",
+      "width": 390,
+      "height": 844,
+      "logicalWidth": 390,
+      "dpr": 1,
+      "state": "menu",
+      "diagnosticIdentical": true
+    },
+    {
+      "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate3-v0.1/approval_core/RES-TRADE-EU_G3_390-cookie.png",
+      "bytes": 52125,
+      "sha256": "29f1b4dc9808b014a23d42ddf54961a0574147834c23ed99819420dfece43645",
+      "width": 390,
+      "height": 844,
+      "logicalWidth": 390,
+      "dpr": 1,
+      "state": "cookie",
+      "diagnosticIdentical": true
+    }
+  ],
+  "openedAt": "2026-09-07T03:35:27.704Z",
+  "nativeReadableCoverage": "26 original-size overlapping diagnostic segments (7 desktop/8 tablet/11 mobile; final mobile strip repeats footer bottom) actually opened to Footer. All eight formal images were separately opened and are byte-identical to diagnostic counterparts.",
+  "observations": [
+    "Three-column table remains readable on 390, every row retains producer category, EUR/kg value and code.",
+    "Entity/group distinction, invoice/code/entity conjunction, fallback and customs-check predicates remain immediately below table.",
+    "All dates, Article 2/254 limitations, seven assessment inputs and Malaysia-origin boundary visible.",
+    "Current 2025/4 explanation is dated 7 September 2026; pending procedure and future cap not represented as new current rate.",
+    "Shared Menu/Cookie complete and readable."
+  ],
+  "unresolvedFindings": []
+}

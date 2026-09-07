@@ -1,0 +1,189 @@
+{
+  "role": "Gate 3 execution Agent",
+  "status": "FROZEN_FOR_FORMAL_RENDER_AND_PROJECT_CONTROL_REVIEW",
+  "frozenAt": "2026-09-07T00:40:10.788Z",
+  "source": {
+    "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+    "bytes": 18831,
+    "sha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b"
+  },
+  "inputs": {
+    "manifest": {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/RES-CHEMOURS_CURRENT_GATE_BASELINE_MANIFEST_V0.15.md",
+      "bytes": 5251,
+      "sha256": "b133638ad8f204e7108b83fa72a2694517991b999a297e831e84c44c2a4ccdef"
+    },
+    "authorization": {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_V0.2_USER_AUTHORIZATION_V0.1.md",
+      "bytes": 1857,
+      "sha256": "5703c03b70897f2c36a224e593f7cda9a2cd6f51dd02ab49143d6001c425a131"
+    },
+    "brief": {
+      "path": "D:/23MySec/docs/page-briefs/RES-CHEMOURS_CHEMOURS_TITANIUM_DIOXIDE_ALTERNATIVES_BRIEF_V0.1.md",
+      "bytes": 9461,
+      "sha256": "8d3f68ff119c6bd65fe8bd5524f0c8bf50351bfba4b8bb79e93fb25208effc69"
+    },
+    "A": {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/RES-CHEMOURS_GATE2_CONTENT_SKELETON_V0.3.md",
+      "bytes": 7011,
+      "sha256": "e4786e732ff75ae250d3e659e95a1d5eb37e42889402ae65f25b724c9f7d817f"
+    },
+    "B": {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/RES-CHEMOURS_GATE2_FULL_BUYER_CLEAN_COPY_V0.3.md",
+      "bytes": 3369,
+      "sha256": "91ae0f0c13701dd9be8f8cdb68fe81781ebd7ad5f6e460ab022ac3466561e5f6"
+    },
+    "C": {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/RES-CHEMOURS_GATE2_CONTENT_CONTRACT_V0.7.md",
+      "bytes": 4905,
+      "sha256": "ab5ba6f7db66dd411974251dbfcb7201ea9bbf92928f638d2619cfc173ffaea4"
+    },
+    "methodBaseline": {
+      "path": "D:/23MySec/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md",
+      "bytes": 8480,
+      "sha256": "3f62b4e01bfecfcfd388d278c0c5020a185dc77347b66bfc2164f3ed8a57f04c"
+    },
+    "agent": {
+      "path": "D:/23MySec/agents/gate3-execution/agent.md",
+      "bytes": 15473,
+      "sha256": "c9b703b5a2e1e68927f9357e2565a1affbe0624cfaa8353fc810e991b80a815b"
+    },
+    "designSkill": {
+      "path": "D:/23MySec/skills/responsive-wireframe-design/SKILL.md",
+      "bytes": 8266,
+      "sha256": "0506605299245dce91ff4f26a05696aad76e62bc281867b7b3794464bdf5791b"
+    },
+    "verificationSkill": {
+      "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+      "bytes": 8371,
+      "sha256": "86d1b6cda29ca2213607e6b5be1f48f3a449105b1385659200584498fb541aa4"
+    }
+  },
+  "sharedConsumer": {
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "bytes": 2409,
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+    "version": "V0.2",
+    "files": [
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+        "role": "renderer"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+        "role": "chrome_data"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+        "role": "consent_data"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+        "role": "style"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+        "role": "behavior"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "role": "font"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+        "role": "font_license"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a",
+        "role": "smoke_fixture"
+      }
+    ],
+    "owners": {
+      "globalChrome": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "cta": {
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "logo": {
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "footerLegal": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "legal": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+        "bytes": 4266,
+        "sha256": "14364f8c3ef8010dbb6449f906d5c82fb317bbfbd3ec1926b42bed81c84f8f1c"
+      },
+      "consent": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/SHARED-CONSENT_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md",
+        "bytes": 1051,
+        "sha256": "be03ef117b2f3f575aa59964d80c10b6b223fc5d1748a6bf7cedf08205bad659"
+      }
+    }
+  },
+  "renderParameters": {
+    "currentPageId": "RES-000",
+    "primaryLogoSrc": "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+    "reverseLogoSrc": "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+    "fontSrc": "dependencies/Inter-Variable.ttf"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "preflight": {
+    "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_PREFLIGHT_RECORD_V0.1.json",
+    "bytes": 10616,
+    "sha256": "d3ab5c8172d206259b02c011378305931d79a45a1447a6bca0d0b9e61430bd0b"
+  },
+  "preflightSchemaCheck": {
+    "path": "D:\\23MySec\\pages\\resources\\chemours-alternatives\\05_review\\RES-CHEMOURS_GATE3_EXECUTION_EVIDENCE_V0.1\\diagnostic_support\\revision-02/preflight-schema-check-v0.1.json",
+    "bytes": 199,
+    "sha256": "7e0760cf4d32958674d8b963bba41dba55a33f61447b373b8be60cd72f63b98d"
+  },
+  "formalExportsGenerated": false
+}

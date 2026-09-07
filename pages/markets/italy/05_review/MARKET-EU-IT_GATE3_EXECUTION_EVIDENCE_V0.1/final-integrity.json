@@ -1,0 +1,85 @@
+{
+  "pageId": "MARKET-EU-IT",
+  "role": "EXECUTION_FINAL_INTEGRITY_NOT_INDEPENDENT_REVIEW",
+  "checkedAt": "2026-09-07T06:06:24.903Z",
+  "result": "PASS",
+  "source": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/MARKET-EU-IT_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 24182,
+    "sha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752"
+  },
+  "formalAssets": 6,
+  "checks": [
+    {
+      "name": "source equals freeze and inventory",
+      "status": "PASS",
+      "details": {
+        "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/MARKET-EU-IT_GATE3_WIREFRAME_V0.1.html",
+        "bytes": 24182,
+        "sha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752"
+      }
+    },
+    {
+      "name": "approved bound inputs still match",
+      "status": "PASS",
+      "details": [
+        "A",
+        "B",
+        "C",
+        "Gate2Approval",
+        "Gate2Review",
+        "CurrentManifest",
+        "Gate3Authorization"
+      ]
+    },
+    {
+      "name": "shared files and dependencies still match",
+      "status": "PASS"
+    },
+    {
+      "name": "preflight identity and status",
+      "status": "PASS"
+    },
+    {
+      "name": "preflight checker rerun",
+      "status": "PASS",
+      "details": {
+        "record": "D:\\23MySec\\pages\\markets\\italy\\04_planning\\gate3-v0.1\\preflight-record.json",
+        "status": "PASS_FOR_FORMAL_RENDER",
+        "failures": []
+      }
+    },
+    {
+      "name": "six scoped formal assets",
+      "status": "PASS"
+    },
+    {
+      "name": "formal hashes dimensions and diagnostic identity",
+      "status": "PASS"
+    },
+    {
+      "name": "three full widths present",
+      "status": "PASS"
+    },
+    {
+      "name": "runtime and readback records match",
+      "status": "PASS"
+    },
+    {
+      "name": "no execution findings",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate manifest exact status",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest binds frozen source and six formal hashes",
+      "status": "PASS"
+    },
+    {
+      "name": "handoff remains draft and Gate4 unauthorized",
+      "status": "PASS"
+    }
+  ]
+}

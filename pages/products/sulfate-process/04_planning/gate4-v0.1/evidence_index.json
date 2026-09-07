@@ -1,0 +1,90 @@
+{
+  "workset_id": "SU-G4-COMPLETE-V01",
+  "freeze_id": "SU-G4-COMPLETE-V01-F01",
+  "status": "COMPLETE_VISUAL_FROZEN / DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "sourceFreeze": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/approval_core/source-freeze.json",
+    "bytes": 14735,
+    "sha256": "e4615952f2989d09c66e61dc45b926c36226fd92fbde5ca3ad698cb090bd8576"
+  },
+  "inputIndex": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/input_index.json",
+    "bytes": 12132,
+    "sha256": "88354d2980c8eacb16b65654e7547dec11261d49330986fbe92a96be595cfd3b"
+  },
+  "exportInventory": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/approval_core/export-inventory.json",
+    "bytes": 35876,
+    "sha256": "20659caa23525fb53398431fda5bed2bd775a83854a1e79a9dc396a160a10cf0"
+  },
+  "assetInventory": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/approval_core/asset-inventory.json",
+    "bytes": 22436,
+    "sha256": "45de9d0e66c2f7687bbd54e1fca7b881d825c0723b2a48953818faf8935f3697"
+  },
+  "report": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/PRODUCT-PROC-SU_GATE4_VISUAL_AND_EXECUTION_REPORT_V0.1.md",
+    "bytes": 11229,
+    "sha256": "ad3d974a03304012b6c6dfb60a100d62916e6df5e593024f6a4a8a3d0b138b64"
+  },
+  "selfcheck": {
+    "path": "D:/23MySec/pages/products/sulfate-process/05_review/PRODUCT-PROC-SU_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+    "bytes": 3407,
+    "sha256": "8fd8cff319c6ea47ba6d8e5e7d7c5aa7ff89ca1a4a94d16b5a60b10da2e2b0a1"
+  },
+  "candidateManifest": {
+    "path": "D:/23MySec/pages/products/sulfate-process/PRODUCT-PROC-SU_CURRENT_GATE_BASELINE_MANIFEST_V0.7_DRAFT.md",
+    "bytes": 3590,
+    "sha256": "322769f57f1be8404801dfa0ffc194d0b1cfc2eb935318c68f9a10547a71fde3"
+  },
+  "direction": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/4A-direction-check.json",
+    "bytes": 1532,
+    "sha256": "df37f1cc1c2ad8787145b704c3c2497a7706edb81f635bb38fc8066f0932bb49"
+  },
+  "evidence": [
+    {
+      "type": "SOURCE_INSPECTION",
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/formal-r1-checks.json",
+      "scope": "Exact upstream main/scripts/style, shared slots, B text and frozen input identities"
+    },
+    {
+      "type": "ACTUAL_RUNTIME",
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/formal-r1-checks.json",
+      "scope": "Actual local viewport geometry, fonts, normal/hover/keyboard, fragments, menu/cookie and anchor"
+    },
+    {
+      "type": "ACTUAL_RUNTIME",
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/additional-checks.json",
+      "scope": "Source neighbor-glyph hit tests and text inset; measured geometry delta"
+    },
+    {
+      "type": "STATIC_VISUAL",
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/visual-readback.json",
+      "scope": "18 formal PNGs opened; 18 original-scale complete-page segments opened; overview limitation explicit"
+    },
+    {
+      "type": "LOCAL_SIMULATION",
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/formal-r1-checks.json",
+      "scope": "Outbound navigation intents only; no receiver"
+    },
+    {
+      "type": "LOCAL_SIMULATION",
+      "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/additional-checks.json",
+      "scope": "200% equivalent reflow; not native zoom"
+    }
+  ],
+  "history": [
+    "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1",
+    "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/4a-r1-checks.json",
+    "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/diagnostic_support/collection-failure.md"
+  ],
+  "pending": [
+    "Final independent review",
+    "User approval",
+    "Native zoom, real devices, other engines and assistive technology",
+    "Production routes, receiver/prefill persistence and consent technology",
+    "External-source freshness"
+  ],
+  "stop": "Frozen HTML/CSS/dependencies/images are immutable. No Gate6 or production work authorized."
+}

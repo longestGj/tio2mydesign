@@ -1,0 +1,509 @@
+{
+  "pageId": "MARKET-IN-001",
+  "reviewer": "/root/gate4_review_a",
+  "scope": "Independent targeted rereview against frozen V1.0 IR01-05 and related regression",
+  "status": "PASS",
+  "worksetId": "IN-G4-WORKSET-V11R2",
+  "freezeId": "IN-G4-V11R2-SOURCE-01",
+  "source": {
+    "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/MARKET-IN-001_GATE4_COMPLETE_VISUAL_V1.1.html",
+    "bytes": 29205,
+    "sha256": "fbad54492a465484a7a4eac05e5a402a8d399722b79d814b369d70a9c6032efe"
+  },
+  "inventory": {
+    "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/export-inventory.json",
+    "bytes": 8945,
+    "sha256": "88997c03cd3eee538ae76789c3f7b1b8b1b947b174ceaeae6b91549cc75aa555"
+  },
+  "authorityManifest": {
+    "path": "D:/23MySec/pages/markets/india/MARKET-IN-001_CURRENT_GATE_BASELINE_MANIFEST_V0.9.md",
+    "bytes": 2178,
+    "sha256": "d4573d3541a058549c19c9a58d992b285edfed989ecdc6102711676f9faed30e"
+  },
+  "report": {
+    "path": "D:\\23MySec\\pages\\markets\\india\\05_review\\gate4-independent-review-v1.1/report.md",
+    "bytes": 8157,
+    "sha256": "5c822bcc509ce7c99588ec2df1bda0b3c0a44c4dfafdcc26d05ff8ae013f9faf"
+  },
+  "findings": [
+    {
+      "id": "IN-G4-IR01",
+      "status": "RESOLVED_IN_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "IN-G4-IR02",
+      "status": "RESOLVED_IN_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "IN-G4-IR03",
+      "status": "RESOLVED_IN_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "IN-G4-IR04",
+      "status": "RESOLVED_IN_INDEPENDENT_REVIEW"
+    },
+    {
+      "id": "IN-G4-IR05",
+      "status": "RESOLVED_IN_INDEPENDENT_REVIEW"
+    }
+  ],
+  "remainingRequiredFindings": [],
+  "userApprovalGranted": false,
+  "gate4Closed": false,
+  "gate6Authorized": false,
+  "identityRecords": 54,
+  "identityAllMatch": true,
+  "inputReuse": [
+    {
+      "path": "D:/23MySec/AGENTS.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/PROJECT_CONTEXT.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE4_MERGED_FIRST_LIVE_TEST_CONTROL_V1.0.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/skills/brand-applied-visual-design/SKILL.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/skills/full-page-visual-composition/SKILL.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/references/core-risk-model.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/docs/page-briefs/MARKET-IN-001_INDIA_BRIEF_V0.2.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/MARKET-IN-001_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/MARKET-IN-001_GATE2_FULL_BUYER_CLEAN_COPY_V0.1.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/MARKET-IN-001_GATE2_CONTENT_CONTRACT_V0.2.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/05_review/MARKET-IN-001_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+      "sameAsPreviouslyObserved": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate3-v0.1/MARKET-IN-001_GATE3_RESPONSIVE_WIREFRAME_V0.1.html",
+      "sameAsPreviouslyObserved": true
+    }
+  ],
+  "all17SegmentPixelsMatch": true,
+  "formalVisualRead": [
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/MARKET-IN-001_GATE4_1440_FULL_V1.1.png",
+      "bytes": 1006433,
+      "sha256": "80d9dfc2831fcba20b8d45b9066fecd1585057362b611cf2fb4123abc24f48fe",
+      "state": "NORMAL_FULL_PAGE",
+      "read": true,
+      "sameAsInterim": false,
+      "coverage": "Final overview and all final native bound readable segments"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/MARKET-IN-001_GATE4_1440_COOKIE_V1.1.png",
+      "bytes": 118461,
+      "sha256": "76741125fcd1dde2a520c7475bed02be2a9614aae50980a9e12f7b95e58116ec",
+      "state": "COOKIE_OPEN_CLOSE_FOCUS",
+      "read": true,
+      "sameAsInterim": true,
+      "coverage": "Entire state image (byte-identical already-read images may inherit static reading)"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/MARKET-IN-001_GATE4_768_FULL_V1.1.png",
+      "bytes": 781365,
+      "sha256": "6702b6ed903ca077b2ece42d31f3cb2e3a06d6bdf1f5ce9bcbd6e3b84d17243d",
+      "state": "NORMAL_FULL_PAGE",
+      "read": true,
+      "sameAsInterim": false,
+      "coverage": "Final overview and all final native bound readable segments"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/MARKET-IN-001_GATE4_768_MENU_V1.1.png",
+      "bytes": 109392,
+      "sha256": "fc9f8ebd3fb3249a6b4b980f4b2502a022dccd79a1a17226ab9002748a5fd16b",
+      "state": "MENU_OPEN_FIRST_FOCUS",
+      "read": true,
+      "sameAsInterim": true,
+      "coverage": "Entire state image (byte-identical already-read images may inherit static reading)"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/MARKET-IN-001_GATE4_768_COOKIE_V1.1.png",
+      "bytes": 72690,
+      "sha256": "14b0a47c5a26ffd9bfaa3e13bf48771be9f632d5a4eb324db22060e662a3396c",
+      "state": "COOKIE_OPEN_CLOSE_FOCUS",
+      "read": true,
+      "sameAsInterim": true,
+      "coverage": "Entire state image (byte-identical already-read images may inherit static reading)"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/MARKET-IN-001_GATE4_390_FULL_V1.1@2x.png",
+      "bytes": 1787304,
+      "sha256": "f85b9a07c7d3f83bc3005fce6e90a9f6a53062222575221f9bbe719f1f6c88c0",
+      "state": "NORMAL_FULL_PAGE",
+      "read": true,
+      "sameAsInterim": false,
+      "coverage": "Final overview and all final native bound readable segments"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/MARKET-IN-001_GATE4_390_MENU_V1.1@2x.png",
+      "bytes": 231376,
+      "sha256": "d14a0a5d9c448edc96dedf508f3c6dd3c48dc1819b79724ede10dfe6a6512012",
+      "state": "MENU_OPEN_FIRST_FOCUS",
+      "read": true,
+      "sameAsInterim": true,
+      "coverage": "Entire state image (byte-identical already-read images may inherit static reading)"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/india/04_planning/gate4-v1.1/approval_core/MARKET-IN-001_GATE4_390_COOKIE_V1.1@2x.png",
+      "bytes": 125295,
+      "sha256": "c6899c6f9c44b2da2646cd4c01834028c9da9886e50ce144737b709f17265b53",
+      "state": "COOKIE_OPEN_CLOSE_FOCUS",
+      "read": true,
+      "sameAsInterim": true,
+      "coverage": "Entire state image (byte-identical already-read images may inherit static reading)"
+    }
+  ],
+  "finalSegmentsRead": [
+    {
+      "file": "1440-part-01.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "1440-part-02.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "1440-part-03.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "1440-part-04.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "768-part-01.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "768-part-02.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "768-part-03.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "768-part-04.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-01@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-02@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-03@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-04@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-05@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-06@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-07@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-08@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    },
+    {
+      "file": "390-part-09@2x.png",
+      "read": true,
+      "pixelsMatch": true
+    }
+  ],
+  "actualRuntime": {
+    "browser": "152.0.7977.82",
+    "pageErrors": [],
+    "networkAttempts": [],
+    "widths": [
+      {
+        "width": 1440,
+        "fullRenderByteMatches": true,
+        "contrast": [
+          {
+            "text": "Product Hub",
+            "normal": 4.817749371824569,
+            "hover": 4.817749371824569,
+            "focus": 4.817749371824569
+          },
+          {
+            "text": "quotation request",
+            "normal": 4.817749371824569,
+            "hover": 4.817749371824569,
+            "focus": 4.817749371824569
+          }
+        ],
+        "hitMaps": [
+          {
+            "text": "Product Hub",
+            "matchingSamples": 1936,
+            "total": 1936,
+            "neighborGlyphMisHits": []
+          },
+          {
+            "text": "quotation request",
+            "matchingSamples": 1936,
+            "total": 1936,
+            "neighborGlyphMisHits": []
+          }
+        ],
+        "sharedStylesMatchG3": true,
+        "period": {
+          "text": "quotation request",
+          "nextText": ".",
+          "extraGap": 0,
+          "sameLine": true
+        },
+        "copy": {
+          "width": 1440,
+          "paragraphs": true,
+          "noJSParagraphs": true,
+          "otherMatches": {
+            "headings": true,
+            "paragraphs": false,
+            "list": true,
+            "table": true,
+            "links": true
+          }
+        },
+        "navigationEvidence": "LOCAL_SIMULATION",
+        "menuCookie": "Actual keyboard entry, loop, isolation, close/return and applicable menu breakpoint regression passed"
+      },
+      {
+        "width": 768,
+        "fullRenderByteMatches": true,
+        "contrast": [
+          {
+            "text": "Product Hub",
+            "normal": 4.817749371824569,
+            "hover": 4.817749371824569,
+            "focus": 4.817749371824569
+          },
+          {
+            "text": "quotation request",
+            "normal": 4.817749371824569,
+            "hover": 4.817749371824569,
+            "focus": 4.817749371824569
+          }
+        ],
+        "hitMaps": [
+          {
+            "text": "Product Hub",
+            "matchingSamples": 1936,
+            "total": 1936,
+            "neighborGlyphMisHits": []
+          },
+          {
+            "text": "quotation request",
+            "matchingSamples": 1936,
+            "total": 1936,
+            "neighborGlyphMisHits": []
+          }
+        ],
+        "sharedStylesMatchG3": true,
+        "period": {
+          "text": "quotation request",
+          "nextText": ".",
+          "extraGap": 0,
+          "sameLine": true
+        },
+        "copy": {
+          "width": 768,
+          "paragraphs": true,
+          "noJSParagraphs": true,
+          "otherMatches": {
+            "headings": true,
+            "paragraphs": false,
+            "list": true,
+            "table": true,
+            "links": true
+          }
+        },
+        "navigationEvidence": "LOCAL_SIMULATION",
+        "menuCookie": "Actual keyboard entry, loop, isolation, close/return and applicable menu breakpoint regression passed"
+      },
+      {
+        "width": 390,
+        "fullRenderByteMatches": true,
+        "contrast": [
+          {
+            "text": "Product Hub",
+            "normal": 4.817749371824569,
+            "hover": 4.817749371824569,
+            "focus": 4.817749371824569
+          },
+          {
+            "text": "quotation request",
+            "normal": 4.817749371824569,
+            "hover": 4.817749371824569,
+            "focus": 4.817749371824569
+          }
+        ],
+        "hitMaps": [
+          {
+            "text": "Product Hub",
+            "matchingSamples": 1936,
+            "total": 1936,
+            "neighborGlyphMisHits": []
+          },
+          {
+            "text": "quotation request",
+            "matchingSamples": 1936,
+            "total": 1936,
+            "neighborGlyphMisHits": []
+          }
+        ],
+        "sharedStylesMatchG3": true,
+        "period": {
+          "text": "quotation request",
+          "nextText": ".",
+          "extraGap": 0,
+          "sameLine": true
+        },
+        "copy": {
+          "width": 390,
+          "paragraphs": true,
+          "noJSParagraphs": true,
+          "otherMatches": {
+            "headings": true,
+            "paragraphs": false,
+            "list": true,
+            "table": true,
+            "links": true
+          }
+        },
+        "navigationEvidence": "LOCAL_SIMULATION",
+        "menuCookie": "Actual keyboard entry, loop, isolation, close/return and applicable menu breakpoint regression passed"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "D:\\23MySec\\pages\\markets\\india\\05_review\\gate4-independent-review-v1.1/identity.json",
+      "bytes": 3800,
+      "sha256": "7dc4119a29a660010d199528f69212113f08313d27d1e9b888f9fdef76c8884e"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\markets\\india\\05_review\\gate4-independent-review-v1.1/runtime.json",
+      "bytes": 522685,
+      "sha256": "ec8dc17f4e7c54ee3dbbaa81db498bd9a78647610a0c96613f2078074f1c9db0"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\markets\\india\\05_review\\gate4-independent-review-v1.1/targeted.json",
+      "bytes": 113761,
+      "sha256": "fefb2b6d49882299172bf63a00d53edaa4a663ad8fad12878e0c2ac196b98061"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\markets\\india\\05_review\\gate4-independent-review-v1.1/supplement.json",
+      "bytes": 52990,
+      "sha256": "3a5fd7a0409a64c68dbfd5eff58f02be9907c9d5fd2bc11e3eae861e14a249b4"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\markets\\india\\05_review\\gate4-independent-review-v1.1/product-390-focus.png",
+      "bytes": 57305,
+      "sha256": "c0eef7fa90af935510c95df2a378b084c1bea4e7ec29556fd2136e5b557ed3f9"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\markets\\india\\05_review\\gate4-independent-review-v1.1/quote-390-focus.png",
+      "bytes": 57388,
+      "sha256": "70b94619747b1bd806926856e4cd8793a6fce78f306297b63c56d014c4fe8cea"
+    }
+  ],
+  "interimHistory": "interim/observation.md records the rejected earlier V1.1 source and parent-directed supersession",
+  "limitations": [
+    "No production receiver/forms/submission",
+    "No CMS or persistence verification",
+    "No real device, screen reader or other browser engine",
+    "No live trade verification"
+  ]
+}

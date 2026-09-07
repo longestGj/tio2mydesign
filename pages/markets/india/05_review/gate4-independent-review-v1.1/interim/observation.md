@@ -1,0 +1,5 @@
+# Superseded V1.1 observation
+
+Before final rereview completion, the independent reviewer observed source SHA 2d127147b5e84185b5ec6d81e3ea889ffdc6a4e55fbd2ee0530c537bff11631d (29,218 bytes), inventory SHA 0cb17af4bea623796f341f714054d392930c38ccf08776473164b91dd01743f7. IR03 remained open: all six normal/hover links were 4.817749:1 but actual Tab focus used #dff5f2 with #008078, 4.239784:1; padding/margin also introduced visible space before the final period. Six hit grids passed 1936/1936 and focus paint was inset. The parent was notified before a report was finalized.
+
+The parent then explicitly supplied updated source SHA fbad54492a465484a7a4eac05e5a402a8d399722b79d814b369d70a9c6032efe and instructed continuation against that identity. These interim machine records are retained as history, not current PASS evidence. Do not interpret paths embedded in them as identities of subsequently overwritten author files. The final rereview must independently verify the supplied new source and affected assets.

@@ -1,0 +1,79 @@
+{
+  "page_id": "MARKET-EU-BE",
+  "workset_id": "BE-G4-COMPLETE-20260907-02",
+  "finding_id": "BE-G4-IR-01",
+  "result": "PASS_FOR_NEW_FREEZE_PENDING_INDEPENDENT_FOCUSED_REREVIEW",
+  "admitted_delta": "main [data-module='BE-04'] p:not(.action) a adds padding-inline:6px and page-local outline-offset:-3px; all other source bytes reverse exactly to V1.0.",
+  "upstream_identity_checks": 57,
+  "upstream_identity_failures": 0,
+  "regression_runtime_checks": 115,
+  "regression_runtime_failures": 0,
+  "focused_runtime_checks": 51,
+  "focused_runtime_failures": 0,
+  "static_assets_opened": {
+    "full_pages": 3,
+    "continuous_segments": 19,
+    "focus_state_images": 18,
+    "total": 40
+  },
+  "focus_acceptance": {
+    "cases": 6,
+    "self_label_collisions": 0,
+    "neighboring_text_collisions": 0,
+    "minimum_target_height": 44,
+    "minimum_target_width": 111.515625,
+    "minimum_focus_contrast": 4.817749371824569,
+    "geometry_stable": true
+  },
+  "full_page_heights": [
+    {
+      "width": 1440,
+      "height": 3654
+    },
+    {
+      "width": 768,
+      "height": 4170
+    },
+    {
+      "width": 390,
+      "height": 5369
+    }
+  ],
+  "continuous_segments": 19,
+  "retained_state_equivalence": [
+    {
+      "width": 1440,
+      "state": "COOKIE",
+      "pixel_identical": true,
+      "sha256": "267a4bf4a6db387fc320322335cbb7a3e63b815acdacca70b90afce4071ad33f"
+    },
+    {
+      "width": 768,
+      "state": "MENU",
+      "pixel_identical": true,
+      "sha256": "93751d40b8945a7c7bd40ba1ef4afc66c36e5058c4b97612be439c880153a54c"
+    },
+    {
+      "width": 768,
+      "state": "COOKIE",
+      "pixel_identical": true,
+      "sha256": "786af6d1ae9167dedbbbcf86ba2f7b94380de7899fd3c63567b930229cddee85"
+    },
+    {
+      "width": 390,
+      "state": "MENU",
+      "pixel_identical": true,
+      "sha256": "66a21f2aaa32c0f8c77ceec35c4d8f0c48fcddca46fe7574aaa4fe21a0e68ba0"
+    },
+    {
+      "width": 390,
+      "state": "COOKIE",
+      "pixel_identical": true,
+      "sha256": "41962d0bb49b9175fb6ef94476b02475252ec08e02d56e121f55c7974f1e8a41"
+    }
+  ],
+  "boundaries": [
+    "No copy, URL, module, shared Chrome, brand, consent, form or behavior change.",
+    "Executor self-check cannot close the Finding or approve Gate 4."
+  ]
+}

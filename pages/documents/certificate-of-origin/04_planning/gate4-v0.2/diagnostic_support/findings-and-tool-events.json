@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-07T02:47:44.116Z",
+  "sourceFreeze": "COO-G4-V02-SOURCE-01",
+  "findings": [
+    {
+      "id": "COO-G4-IR01",
+      "authorStatus": "FIX_SELF_VERIFIED_PENDING_INDEPENDENT_REVIEW",
+      "proof": "formal-source-probe.json;18 actual state PNGs; visual-readback.json",
+      "history": "V0.1 AUTHOR-01 failed text drawing remains unchanged."
+    },
+    {
+      "id": "COO-G4-IR02",
+      "authorStatus": "FIX_SELF_VERIFIED_PENDING_INDEPENDENT_REVIEW",
+      "proof": [
+        {
+          "name": "1440/footer/normal-state-after-capture",
+          "pass": true,
+          "evidenceType": "ACTUAL_RUNTIME",
+          "data": {
+            "active": "BODY",
+            "focused": [],
+            "hovered": []
+          }
+        },
+        {
+          "name": "768/footer/normal-state-after-capture",
+          "pass": true,
+          "evidenceType": "ACTUAL_RUNTIME",
+          "data": {
+            "active": "BODY",
+            "focused": [],
+            "hovered": []
+          }
+        },
+        {
+          "name": "390/footer/normal-state-after-capture",
+          "pass": true,
+          "evidenceType": "ACTUAL_RUNTIME",
+          "data": {
+            "active": "BODY",
+            "focused": [],
+            "hovered": []
+          }
+        }
+      ],
+      "history": "V0.1 AUTHOR-02 incorrect normal labels and original PNGs retained."
+    }
+  ],
+  "currentAuthorBlockingFindings": [],
+  "sourceChangesAfterFreeze": 0,
+  "toolEvents": [
+    {
+      "id": "COO-G4-V02-TOOL-01",
+      "observed": "measure-visual-roles ran before formal-runtime-checks.json existed; measurement JSON wrote but final summary read threw ENOENT.",
+      "resolution": "After formal run completed, repeated measurement script successfully. No source or screenshot changed."
+    },
+    {
+      "id": "COO-G4-V02-TOOL-02",
+      "observed": "PowerShell command quoting for capture-only tooling replacement failed to parse.",
+      "resolution": "Used prepare-formal-capture.cjs with literal JavaScript; no failed shell mutation executed, no frozen source changed."
+    }
+  ],
+  "sharedObservations": [
+    {
+      "observed": "Menu open -> Desktop breakpoint activeElement BODY",
+      "disposition": "Inherited V0.2 Consumer; no page fork, visible focus preservation not claimed."
+    }
+  ],
+  "limitations": "Production receiver/prefill persistence not verified in Gate4; independent review required."
+}

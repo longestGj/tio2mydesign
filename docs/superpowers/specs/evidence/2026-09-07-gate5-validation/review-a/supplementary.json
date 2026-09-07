@@ -1,0 +1,1502 @@
+{
+  "checks": [
+    {
+      "label": "1440 raw literal strings",
+      "pass": true,
+      "data": []
+    },
+    {
+      "label": "1440 text contrast",
+      "pass": true,
+      "data": 4.817749371824569
+    },
+    {
+      "label": "1440 numbers do not cross cell",
+      "pass": true,
+      "data": [
+        {
+          "text": "94.5 %",
+          "textRight": 508.9375,
+          "nextCellLeft": 600,
+          "gapToNextCell": 91.0625
+        },
+        {
+          "text": "0.001 g/L",
+          "textRight": 533.28125,
+          "nextCellLeft": 600,
+          "gapToNextCell": 66.71875
+        },
+        {
+          "text": "12–18 µm",
+          "textRight": 536.921875,
+          "nextCellLeft": 600,
+          "gapToNextCell": 63.078125
+        }
+      ]
+    },
+    {
+      "label": "1440 footer focus white",
+      "pass": true,
+      "data": {
+        "focus": true,
+        "visible": true,
+        "outline": "rgb(255, 255, 255)",
+        "bg": "rgb(3, 27, 58)"
+      }
+    },
+    {
+      "label": "768 raw literal strings",
+      "pass": true,
+      "data": []
+    },
+    {
+      "label": "768 text contrast",
+      "pass": true,
+      "data": 4.817749371824569
+    },
+    {
+      "label": "768 numbers do not cross cell",
+      "pass": true,
+      "data": [
+        {
+          "text": "94.5 %",
+          "textRight": 282.265625,
+          "nextCellLeft": 313.59375,
+          "gapToNextCell": 31.328125
+        },
+        {
+          "text": "0.001 g/L",
+          "textRight": 304.15625,
+          "nextCellLeft": 313.59375,
+          "gapToNextCell": 9.4375
+        },
+        {
+          "text": "12–18 µm",
+          "textRight": 307.390625,
+          "nextCellLeft": 313.59375,
+          "gapToNextCell": 6.203125
+        }
+      ]
+    },
+    {
+      "label": "768 footer focus white",
+      "pass": true,
+      "data": {
+        "focus": true,
+        "visible": true,
+        "outline": "rgb(255, 255, 255)",
+        "bg": "rgb(3, 27, 58)"
+      }
+    },
+    {
+      "label": "768 preserve real body style",
+      "pass": true,
+      "data": {
+        "before": {
+          "style": "height: auto; overflow: auto;",
+          "y": 250
+        },
+        "after": {
+          "style": "height: auto; overflow: auto;",
+          "y": 250,
+          "inert": [
+            false,
+            false
+          ],
+          "position": "static"
+        }
+      }
+    },
+    {
+      "label": "390 raw literal strings",
+      "pass": true,
+      "data": []
+    },
+    {
+      "label": "390 text contrast",
+      "pass": true,
+      "data": 4.817749371824569
+    },
+    {
+      "label": "390 numbers do not cross cell",
+      "pass": true,
+      "data": []
+    },
+    {
+      "label": "390 footer focus white",
+      "pass": true,
+      "data": {
+        "focus": true,
+        "visible": true,
+        "outline": "rgb(255, 255, 255)",
+        "bg": "rgb(3, 27, 58)"
+      }
+    },
+    {
+      "label": "390 preserve real body style",
+      "pass": true,
+      "data": {
+        "before": {
+          "style": "height: auto; overflow: auto;",
+          "y": 250
+        },
+        "after": {
+          "style": "height: auto; overflow: auto;",
+          "y": 250,
+          "inert": [
+            false,
+            false
+          ],
+          "position": "static"
+        }
+      }
+    },
+    {
+      "label": "freeze unchanged at end",
+      "pass": true
+    }
+  ],
+  "colors": [
+    {
+      "w": 1440,
+      "colors": [
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H1",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "56px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "18px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(0, 128, 120)",
+          "ratio": 4.817749371824569,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H3",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "24px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "38px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "18px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(6, 43, 91)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(6, 43, 91)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(6, 43, 91)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(6, 43, 91)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "20px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "20px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "20px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "38px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "38px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "18px"
+        },
+        {
+          "tag": "LABEL",
+          "id": "record-label",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "SPAN",
+          "id": "record-value",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "LABEL",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "question-help",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(0, 128, 120)",
+          "ratio": 4.817749371824569,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "clear",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "38px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "faq-q1",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "faq-q2",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "w": 768,
+      "colors": [
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-toggle",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H1",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "44px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "18px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(0, 128, 120)",
+          "ratio": 4.817749371824569,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H3",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "24px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "34px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "18px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(6, 43, 91)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(6, 43, 91)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(6, 43, 91)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(6, 43, 91)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "18px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "18px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "TH",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "18px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "TD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "34px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "34px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "18px"
+        },
+        {
+          "tag": "LABEL",
+          "id": "record-label",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "SPAN",
+          "id": "record-value",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "LABEL",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "question-help",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(0, 128, 120)",
+          "ratio": 4.817749371824569,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "clear",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "34px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "faq-q1",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "faq-q2",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "w": 390,
+      "colors": [
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "menu-toggle",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H1",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "36px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(0, 128, 120)",
+          "ratio": 4.817749371824569,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H3",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "22px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "28px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "18px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "22px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "18px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "22px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "18px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "22px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "DT",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "DD",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "28px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 10.35474573184942,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "28px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "LABEL",
+          "id": "record-label",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "SPAN",
+          "id": "record-value",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "LABEL",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 13.09690217866694,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "question-help",
+          "fg": "rgb(51, 65, 85)",
+          "bg": "rgb(245, 248, 251)",
+          "ratio": 9.714952160628796,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(0, 128, 120)",
+          "ratio": 4.817749371824569,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "clear",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "H2",
+          "id": "",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "28px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "faq-q1",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "faq-q2",
+          "fg": "rgb(6, 43, 91)",
+          "bg": "rgb(255, 255, 255)",
+          "ratio": 13.959419428188236,
+          "size": "16px"
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(3, 27, 58)",
+          "ratio": 17.188562557698454,
+          "size": "16px"
+        }
+      ]
+    }
+  ],
+  "geometry": [
+    {
+      "w": 1440,
+      "table": [
+        {
+          "text": "94.5 %",
+          "textRight": 508.9375,
+          "nextCellLeft": 600,
+          "gapToNextCell": 91.0625
+        },
+        {
+          "text": "0.001 g/L",
+          "textRight": 533.28125,
+          "nextCellLeft": 600,
+          "gapToNextCell": 66.71875
+        },
+        {
+          "text": "12–18 µm",
+          "textRight": 536.921875,
+          "nextCellLeft": 600,
+          "gapToNextCell": 63.078125
+        }
+      ]
+    },
+    {
+      "w": 768,
+      "table": [
+        {
+          "text": "94.5 %",
+          "textRight": 282.265625,
+          "nextCellLeft": 313.59375,
+          "gapToNextCell": 31.328125
+        },
+        {
+          "text": "0.001 g/L",
+          "textRight": 304.15625,
+          "nextCellLeft": 313.59375,
+          "gapToNextCell": 9.4375
+        },
+        {
+          "text": "12–18 µm",
+          "textRight": 307.390625,
+          "nextCellLeft": 313.59375,
+          "gapToNextCell": 6.203125
+        }
+      ]
+    },
+    {
+      "w": 390,
+      "table": []
+    }
+  ],
+  "fonts": [
+    {
+      "w": 1440,
+      "sel": "h1",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-28pt-Bold",
+          "isCustomFont": true,
+          "glyphCount": 53
+        }
+      ]
+    },
+    {
+      "w": 1440,
+      "sel": "#reading-notes p",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-16pt",
+          "isCustomFont": true,
+          "glyphCount": 174
+        }
+      ]
+    },
+    {
+      "w": 1440,
+      "sel": "tbody td",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-20pt-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ]
+    },
+    {
+      "w": 768,
+      "sel": "h1",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-28pt-Bold",
+          "isCustomFont": true,
+          "glyphCount": 53
+        }
+      ]
+    },
+    {
+      "w": 768,
+      "sel": "#reading-notes p",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-16pt",
+          "isCustomFont": true,
+          "glyphCount": 174
+        }
+      ]
+    },
+    {
+      "w": 768,
+      "sel": "tbody td",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-18pt-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ]
+    },
+    {
+      "w": 390,
+      "sel": "h1",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-28pt-Bold",
+          "isCustomFont": true,
+          "glyphCount": 52
+        }
+      ]
+    },
+    {
+      "w": 390,
+      "sel": "#reading-notes p",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-16pt",
+          "isCustomFont": true,
+          "glyphCount": 171
+        }
+      ]
+    },
+    {
+      "w": 390,
+      "sel": "tbody td",
+      "fonts": []
+    }
+  ],
+  "resize": [
+    {
+      "w": 768,
+      "before": {
+        "style": "height: auto; overflow: auto;",
+        "y": 250
+      },
+      "after": {
+        "style": "height: auto; overflow: auto;",
+        "y": 250,
+        "inert": [
+          false,
+          false
+        ],
+        "position": "static"
+      }
+    },
+    {
+      "w": 390,
+      "before": {
+        "style": "height: auto; overflow: auto;",
+        "y": 250
+      },
+      "after": {
+        "style": "height: auto; overflow: auto;",
+        "y": 250,
+        "inert": [
+          false,
+          false
+        ],
+        "position": "static"
+      }
+    }
+  ],
+  "note": "Initial observations null-only resize assertions are harness false positives: empty style attribute is equivalent to no declaration. This run verifies actual nonempty style and scroll restoration without changing candidate files."
+}

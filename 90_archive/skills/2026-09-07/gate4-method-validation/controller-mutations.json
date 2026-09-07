@@ -1,0 +1,61 @@
+{
+  "baseline_identity_at_copy": [
+    {
+      "path": "index.html",
+      "bytes": 3352,
+      "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 5952,
+      "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+    },
+    {
+      "path": "app.js",
+      "bytes": 4314,
+      "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+    },
+    {
+      "path": "assets/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    }
+  ],
+  "mutated_identity": [
+    {
+      "path": "app.js",
+      "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+    },
+    {
+      "path": "assets/Inter-Variable.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "index.html",
+      "sha256": "5fc8a718f81003b1fdf29ee2ffeb13c9f95f4a8c3576d52a06519e275cf0c4c6"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "a11ad5627b3b855c66accfa4a9a38ba84844e1974874b19ae2b62f134dd33b92"
+    }
+  ],
+  "not_final_designer_baseline": true,
+  "expected_deviations": [
+    {
+      "id": "INJECT-01",
+      "location": "styles.css final --teal override",
+      "expected": "Primary/light functional UI uses decorative #00A99D; white label contrast below exercise 4.5:1."
+    },
+    {
+      "id": "INJECT-02",
+      "location": "index.html .authority-mark",
+      "expected": "Certified supplier is an unsupported, unallowed visible factual/certification claim."
+    },
+    {
+      "id": "INJECT-03",
+      "location": "390 .record-card:nth-child(2) .pair:last-child",
+      "expected": "Beta associated note hidden despite explicit complete visible content requirement; DOM still contains text."
+    }
+  ],
+  "purpose": "controlled diagnostic derivative, not a production candidate or Skill-generated independent result"
+}

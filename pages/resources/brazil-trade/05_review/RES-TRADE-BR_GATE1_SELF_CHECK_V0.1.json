@@ -1,0 +1,62 @@
+{
+  "page_id": "RES-TRADE-BR",
+  "review_id": "RES-TRADE-BR-G1-01",
+  "run_date": "2026-09-06",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "gate_1": "NOT_APPROVED",
+  "gate_2_plus": "NOT_STARTED / NOT_AUTHORIZED",
+  "summary": {
+    "passed": 28,
+    "failed": 0,
+    "claim_rows": 18,
+    "raw_evidence_rows": 9,
+    "raw_hash_matches": "9/9",
+    "duplicate_claim_ids": 0,
+    "duplicate_source_ids": 0,
+    "conflict_markers": 0,
+    "trailing_whitespace": 0
+  },
+  "checks": [
+    {"id": "G1-01", "result": "PASS", "detail": "Complete Brief exists"},
+    {"id": "G1-02", "result": "PASS", "detail": "Gate 1 Research Report exists"},
+    {"id": "G1-03", "result": "PASS", "detail": "Claim/Evidence Register exists and parses as CSV"},
+    {"id": "G1-04", "result": "PASS", "detail": "Current Manifest exists"},
+    {"id": "G1-05", "result": "PASS", "detail": "Project Search Intent Evidence Skill report exists"},
+    {"id": "G1-06", "result": "PASS", "detail": "Raw evidence index exists and parses as CSV"},
+    {"id": "G1-07", "result": "PASS", "detail": "Exact English query was run separately and preserved"},
+    {"id": "G1-08", "result": "PASS", "detail": "Exact Portuguese query was run separately and preserved"},
+    {"id": "G1-09", "result": "PASS", "detail": "Search metrics are Unavailable rather than zero or estimated"},
+    {"id": "G1-10", "result": "PASS", "detail": "All nine raw evidence files exist"},
+    {"id": "G1-11", "result": "PASS", "detail": "All nine raw evidence hashes match the raw index"},
+    {"id": "G1-12", "result": "PASS", "detail": "No duplicate claim IDs"},
+    {"id": "G1-13", "result": "PASS", "detail": "No duplicate source IDs"},
+    {"id": "G1-14", "result": "PASS", "detail": "Page ID, URL, primary keyword, cluster and priority match current registries"},
+    {"id": "G1-15", "result": "PASS", "detail": "Resource and Brazil Market page responsibilities are separated"},
+    {"id": "G1-16", "result": "PASS", "detail": "Investigation, provisional, definitive and public-interest stages are separated"},
+    {"id": "G1-17", "result": "PASS", "detail": "Resolution 850 is applied over the stale Siegwerk list"},
+    {"id": "G1-18", "result": "PASS", "detail": "Four specific-duty amounts are sourced and no transaction total is calculated"},
+    {"id": "G1-19", "result": "PASS", "detail": "NCM is not used as a substitute for the written product scope"},
+    {"id": "G1-20", "result": "PASS", "detail": "Anatase and Ex-001 exclusions remain narrow and separately sourced"},
+    {"id": "G1-21", "result": "PASS", "detail": "No final public-interest outcome is invented"},
+    {"id": "G1-22", "result": "PASS", "detail": "Ordinary tariff and anti-dumping are not collapsed"},
+    {"id": "G1-23", "result": "PASS", "detail": "Malaysia-origin public authority is preserved without a shipment-specific legal inference"},
+    {"id": "G1-24", "result": "PASS", "detail": "COO availability is not silently expanded beyond approved Brazil Market scope"},
+    {"id": "G1-25", "result": "PASS", "detail": "Thirty-day and event-trigger freshness controls are actionable"},
+    {"id": "G1-26", "result": "PASS", "detail": "No conflict markers"},
+    {"id": "G1-27", "result": "PASS", "detail": "No trailing whitespace"},
+    {"id": "G1-28", "result": "PASS", "detail": "Gate 2+, development and D16 remain unauthorised and untouched"}
+  ],
+  "artifact_hashes": {
+    "complete_brief": "D06BFC4FD7242B68CD9A51615B07CF04218C98C3CD9738CE3F0F9AF3C2453C8C",
+    "research_report": "5988F387427BEA0B226CDA16061C0530A2CDFB12C3FA1BFEA81E20660EE910A1",
+    "claim_register": "C98BF205545692D75B0B24BC5FA142C6EA5DAFF66E4BB840B2AAD3D33B1D4769",
+    "skill_report": "FDE1E67D0667851843DC6F27E5AD58769C9AFCA2078DB6ECACD6C5F49CEE6A2D",
+    "raw_evidence_index": "CC79D0E1D63C02F7164433BCCEA4CA74EA941A050240DEC5DA560B66AD22D422",
+    "execution_submission": "C7FFFC5FE24245668057944AD6479678D5AF31279A9E6EB2D79C8B81F91F8E57"
+  },
+  "notes": [
+    "Current Manifest excludes a recursive self-hash.",
+    "The Resolution 850 detail URL could not be fetched directly; the complete official MDIC resolutions-index capture is used for its title and operative description.",
+    "No shared project status, project index or serial-control file was changed."
+  ]
+}

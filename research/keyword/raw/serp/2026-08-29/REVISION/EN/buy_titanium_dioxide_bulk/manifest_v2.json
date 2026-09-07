@@ -1,0 +1,37 @@
+{
+  "source_id": "SERP-REV-BUY-BULK-20260829",
+  "source_type": "serp",
+  "source_name": "Web search raw response (base64 JSON envelope)",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "buy titanium dioxide bulk"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-08-29T00:00:00+08:00",
+  "data_date_shown_by_source": "2026-08-29",
+  "capture_method": "complete raw response returned by web search; JSON serialized and base64 encoded for byte-safe append-only storage; decoded JSON copy added for direct local analysis",
+  "files": [
+    "raw_search_response.json.b64",
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "analysis_eligible": "YES",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Use as SERP intent evidence; do not treat result counts as search volume.",
+    "Stored file is base64 encoding of the complete serialized tool response."
+  ],
+  "sha256": {
+    "raw_search_response.json.b64": "b715cc33aa47dedc52d7f1c8fdb71ccdc2f2b4410d7d50c40d39ad715b2a1f99",
+    "raw_search_response.json": "bb35c407655e5b79862d27828bf041520610434afb2b4526a39ce07c89fe99f4"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json.b64": 38398,
+    "raw_search_response.json": 28558
+  },
+  "correction_to": "manifest.json",
+  "notes": "Append-only finalized manifest. Original PENDING_HASH manifest preserved; no prior raw evidence changed."
+}

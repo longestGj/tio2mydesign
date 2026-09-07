@@ -1,0 +1,18 @@
+# Preserve exact working-file bytes: approved manifests bind SHA-256 identities.
+# Do not normalize existing LF/CRLF or apply clean/smudge transformations.
+* -text -filter -ident
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.zip binary

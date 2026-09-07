@@ -1,0 +1,138 @@
+[
+  {
+    "sample": "specimen-a",
+    "smallPositive": {
+      "valid": false,
+      "rangeUnderflow": true,
+      "value": "0.001"
+    },
+    "focus": [
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Overview",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Comparison",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Reading",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Request",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Request review",
+        "inDialog": true
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "Example Evaluation DeskOverviewComparisonReadingRe",
+        "inDialog": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "close-menu",
+        "text": "Close",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Overview",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Comparison",
+        "inDialog": true
+      }
+    ],
+    "afterEscape": {
+      "open": false,
+      "focus": "menu"
+    }
+  },
+  {
+    "sample": "specimen-b",
+    "smallPositive": {
+      "valid": false,
+      "rangeUnderflow": true,
+      "value": "0.001"
+    },
+    "focus": [
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Overview",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Comparison",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Reading",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Request",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Request review",
+        "inDialog": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Request review",
+        "inDialog": false
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Keep the unit attached to the number",
+        "inDialog": false
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Read conditioning notes before drawing a compariso",
+        "inDialog": false
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Record what is known and leave room for uncertaint",
+        "inDialog": false
+      }
+    ],
+    "afterEscape": {
+      "open": true,
+      "focus": ""
+    }
+  }
+]

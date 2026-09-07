@@ -1,0 +1,10 @@
+{
+  "type": "EXECUTION_HELPER_FAILURE",
+  "stage": "before_candidate_generation",
+  "failedHelper": "build-first-failed.cjs",
+  "error": "SyntaxError: Identifier 'module' has already been declared",
+  "cause": "Fresh CommonJS build helper used the reserved wrapper binding module as a local counter.",
+  "repair": "Renamed only the helper counter to sectionNumber; no candidate or formal assets existed at failure.",
+  "pageFinding": false,
+  "status": "FIXED_PENDING_RERUN"
+}

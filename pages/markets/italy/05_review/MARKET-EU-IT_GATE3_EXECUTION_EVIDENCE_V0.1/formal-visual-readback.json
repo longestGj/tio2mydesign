@@ -1,0 +1,102 @@
+{
+  "pageId": "MARKET-EU-IT",
+  "role": "EXECUTION_FORMAL_IMAGE_READBACK_NOT_INDEPENDENT_REVIEW",
+  "checkedAt": "2026-09-07T06:04:08.430Z",
+  "openedWith": "view_image original",
+  "frozenSourceSha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752",
+  "assets": [
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/approval_core/MARKET-EU-IT_G3_1440-full.png",
+      "bytes": 659994,
+      "sha256": "d4ed8d49f804681a031ca68a9ef86fe6ae8b38e189c94f0426dc552ab565bf82",
+      "width": 1440,
+      "height": 5021,
+      "logicalWidth": 1440,
+      "deviceScaleFactor": 1,
+      "state": "full",
+      "evidenceLayer": "approval_core",
+      "frozenSourceSha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752",
+      "visualReadback": "VIEWED_BY_EXECUTION_AGENT",
+      "diagnosticPixelIdentityMatch": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/approval_core/MARKET-EU-IT_G3_390-cookie.png",
+      "bytes": 51534,
+      "sha256": "b6d1e427a9e2e337f5c8d0a201a8db3fc155b152f1bcdf7c260cb8d3c5f4eafb",
+      "width": 390,
+      "height": 844,
+      "logicalWidth": 390,
+      "deviceScaleFactor": 1,
+      "state": "cookie",
+      "evidenceLayer": "approval_core",
+      "frozenSourceSha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752",
+      "visualReadback": "VIEWED_BY_EXECUTION_AGENT",
+      "diagnosticPixelIdentityMatch": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/approval_core/MARKET-EU-IT_G3_390-full.png",
+      "bytes": 589215,
+      "sha256": "b36dad51c515d06bc11ae50e1638636f0d455d3c3c5737975a97c9211902b6c1",
+      "width": 390,
+      "height": 7431,
+      "logicalWidth": 390,
+      "deviceScaleFactor": 1,
+      "state": "full",
+      "evidenceLayer": "approval_core",
+      "frozenSourceSha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752",
+      "visualReadback": "VIEWED_BY_EXECUTION_AGENT",
+      "diagnosticPixelIdentityMatch": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/approval_core/MARKET-EU-IT_G3_390-menu.png",
+      "bytes": 46570,
+      "sha256": "11510a038daf91cdf8b2702a5a894af3aa7cb3f8b49b61a4f22dc96a65e2f653",
+      "width": 390,
+      "height": 844,
+      "logicalWidth": 390,
+      "deviceScaleFactor": 1,
+      "state": "menu",
+      "evidenceLayer": "approval_core",
+      "frozenSourceSha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752",
+      "visualReadback": "VIEWED_BY_EXECUTION_AGENT",
+      "diagnosticPixelIdentityMatch": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/approval_core/MARKET-EU-IT_G3_768-full.png",
+      "bytes": 638518,
+      "sha256": "bd460ef8811b0f1a69890e46f5246b97ebf3015717bdcae04efdc48adc3d1562",
+      "width": 768,
+      "height": 5690,
+      "logicalWidth": 768,
+      "deviceScaleFactor": 1,
+      "state": "full",
+      "evidenceLayer": "approval_core",
+      "frozenSourceSha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752",
+      "visualReadback": "VIEWED_BY_EXECUTION_AGENT",
+      "diagnosticPixelIdentityMatch": true
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/approval_core/MARKET-EU-IT_G3_768-menu.png",
+      "bytes": 83966,
+      "sha256": "eab190b2ea781b55987096819c8454a05d71a2bd38d1aa696bf0056795f6158d",
+      "width": 768,
+      "height": 900,
+      "logicalWidth": 768,
+      "deviceScaleFactor": 1,
+      "state": "menu",
+      "evidenceLayer": "approval_core",
+      "frozenSourceSha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752",
+      "visualReadback": "VIEWED_BY_EXECUTION_AGENT",
+      "diagnosticPixelIdentityMatch": true
+    }
+  ],
+  "observations": [
+    "All three formal full pages show the seven approved modules through the shared Footer with no missing or added buyer content.",
+    "The 768 formal view preserves the independent 2+1 industry-context arrangement; the 390 formal view preserves complete single-column reading and long-source wrapping.",
+    "Both formal narrow menu states show the approved shared navigation and Markets current state with no buyer-visible CURRENT label.",
+    "The 390 formal Cookie state fits the tightest width with complete actions and no clipping.",
+    "Every formal PNG is pixel-identical to its corresponding diagnostic PNG from the same frozen source."
+  ],
+  "result": "EXECUTION_READBACK_PASS",
+  "findings": []
+}

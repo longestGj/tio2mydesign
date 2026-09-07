@@ -1,0 +1,37 @@
+{
+  "source_id": "SERP-REV-BUY-QUOTE-20260829",
+  "source_type": "serp",
+  "source_name": "Web search raw response (base64 JSON envelope)",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "titanium dioxide quote supplier"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-08-29T00:00:00+08:00",
+  "data_date_shown_by_source": "2026-08-29",
+  "capture_method": "complete raw response returned by web search; JSON serialized and base64 encoded for byte-safe append-only storage; decoded JSON copy added for direct local analysis",
+  "files": [
+    "raw_search_response.json.b64",
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "analysis_eligible": "YES",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Use as SERP intent evidence; do not treat result counts as search volume.",
+    "Stored file is base64 encoding of the complete serialized tool response."
+  ],
+  "sha256": {
+    "raw_search_response.json.b64": "0c4a2fa50a1a0b720dbed14981cd1aea31fbfefd33d68e2d2a05de7e823d2413",
+    "raw_search_response.json": "599ae1ac9fabba5cee6345e18e935ae2b1e9aaa1dbd6a73c9d352597d29e780b"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json.b64": 46138,
+    "raw_search_response.json": 34316
+  },
+  "correction_to": "manifest.json",
+  "notes": "Append-only finalized manifest. Original PENDING_HASH manifest preserved; no prior raw evidence changed."
+}

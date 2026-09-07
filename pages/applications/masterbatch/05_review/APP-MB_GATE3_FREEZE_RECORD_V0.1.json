@@ -1,0 +1,34 @@
+{
+  "freezeId": "APP-MB-G3-FREEZE-01",
+  "pageId": "APP-MB",
+  "date": "2026-09-07",
+  "status": "CANDIDATE_FROZEN_FOR_FORMAL_RENDER",
+  "source": {
+    "path": "D:/23MySec/pages/applications/masterbatch/04_planning/APP-MB_GATE3_WIREFRAME_EDITABLE_SOURCE_V0.1.html",
+    "bytes": 31200,
+    "sha256": "43a70d7c13a387c09a7d07138880f97340890c807a285217d090109b6a65f937"
+  },
+  "reproductionSource": {
+    "path": "D:/23MySec/pages/applications/masterbatch/04_planning/APP-MB_GATE3_BUILD_WIREFRAME_V0.1.cjs",
+    "sha256": "dc48855243212aff5f91b6b0ee83e819f02715a61f6728b0e3457997417c85fd"
+  },
+  "approvedCombination": {
+    "manifest": "D:/23MySec/pages/applications/masterbatch/APP-MB_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+    "A": "633a2165153d0f60711f9c170d84e658cb245d9f971afe81a4f2b079c60344dc",
+    "B": "06bdd245d1722223c415e0c4cecc7248f64d938cc37f936ae160b240faa9343f",
+    "C": "944fee912e10fa2ddf9a5700d2d925e584b07edb998af7b6b13194d8143ad168"
+  },
+  "sharedConsumer": {
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002",
+    "version": "V0.2",
+    "manifestSha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+  },
+  "preflight": {
+    "path": "D:/23MySec/pages/applications/masterbatch/05_review/APP-MB_GATE3_PREFLIGHT_RECORD_V0.1.json",
+    "bytes": 6413,
+    "sha256": "a8619a69ae87af49edd1c0f7c86ecfd5ac132928e5f8abe56ceca59d47f41982",
+    "result": "PASS_FOR_FORMAL_RENDER"
+  },
+  "formalExportsAtFreeze": 0,
+  "invalidationRule": "Any source-byte change invalidates this freeze and all formal assets bound to it."
+}

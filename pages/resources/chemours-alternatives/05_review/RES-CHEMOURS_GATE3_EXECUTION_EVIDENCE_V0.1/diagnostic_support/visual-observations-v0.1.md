@@ -1,0 +1,15 @@
+# RES-CHEMOURS diagnostic visual observations V0.1
+
+Role: Gate 3 execution Agent using layout-interaction-verification V0.2; execution self-check only. Evidence type: STATIC_VISUAL. Candidate: `ec44a759a77a258a53444a560854ba99dc6812b837b423e292e5d3da34e48e9f`, 18,831 bytes. No formal exports had been generated at this observation point.
+
+Opened and visually inspected the three `diagnostic-{1440,768,390}-full.png` images for complete structure, then every native readable overlapping segment: 1440 segments 01–04; 768 segments 01–05; 390 segments 01–06. Segments advance by 750 px with up to 900 px height and overlap 150 px. All six modules and the complete Footer were covered. The full images are 1440×3082, 768×3648, 390×4464 at 1×. Also opened and inspected `diagnostic-768-menu.png`, `diagnostic-390-menu.png` and all three `diagnostic-{width}-cookie.png` images.
+
+The long Hero and qualification heading wrap naturally. Four brief items remain numbered and retain their full bold lead-in and explanation. At 768 the two-column brief retains readable line lengths; at 390 it becomes one ordered vertical list. Three qualification headings and their paragraphs remain adjacent in every view. Products appears before Documents in source and reading order, left before right on wider views and top before bottom at 390; filled/outline emphasis retains primary/secondary distinction.
+
+The two Chemours links remain in their supporting portfolio/application sentence, with underlines and the functional Teal. Their 44 px hit height expands the containing text line without collisions. Sources, fixed review date and complete independence paragraph remain visible above the Footer without badge, competitor logo, inferred pairing or hidden text. No omission, overlapping text, clipped button label or artificial fixed-height gap was observed. The visible menu contains all eight entries, Resources current treatment and the Close control. Cookie text and both controls fit at every width; 390 stacks its controls.
+
+Runtime evidence is separate: `runtime-preflight-v0.1.json` and `focus-supplement-v0.1.json`. These record actual geometry, content/link relations, focus, menu exits and restoration. Local href interception proves navigation intent only, not destination reception or availability.
+
+Preflight observation `RESCH-PF-SHARED-01`: unchanged neutral package uses Navy text/border for Cookie actions while the current CTA addendum requires functional Teal on light surfaces. Referred to project control for shared-owner resolution before freeze; the page does not patch or fork shared CSS. This is not an independent Finding or approval.
+
+Two tooling failures were preserved: initial CommonJS builder reserved-name collision (no source generated) and first screenshot-segment attempt beyond the viewport (source unchanged). The local helper corrections produced the candidate and complete diagnostic evidence above. Failure scripts and result JSON remain in this directory; no failed diagnostic image is a formal asset.

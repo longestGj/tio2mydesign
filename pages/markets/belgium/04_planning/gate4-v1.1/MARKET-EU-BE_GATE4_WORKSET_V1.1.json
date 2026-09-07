@@ -1,0 +1,23 @@
+{
+  "page_id": "MARKET-EU-BE",
+  "workset_id": "BE-G4-COMPLETE-20260907-02",
+  "mode": "FINDING_TARGETED_REPAIR",
+  "finding_id": "BE-G4-IR-01",
+  "authority_manifest": "D:/23MySec/pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md",
+  "prior_execution_manifest": "D:/23MySec/pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md",
+  "rejected_freeze": {
+    "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_FREEZE_RECORD_V1.0.json",
+    "bytes": 2668,
+    "sha256": "ad3376e1f6b72f804f5ebec6335b2f022c004f346c535d10d12b9c374cd3791b"
+  },
+  "independent_finding": {
+    "path": "D:/23MySec/pages/markets/belgium/05_review/gate4-complete-independent-v1.0/REVIEW.md",
+    "bytes": 10776,
+    "sha256": "b8ba7cc0b69a85ffc1e9a8c5f0f43c21ac077de88b4e358186a72f95d63c2ce1"
+  },
+  "input_index": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_INPUT_INDEX_V1.1.json",
+  "design_source": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_V1.1.html",
+  "evidence_index": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_EVIDENCE_INDEX_V1.1.json",
+  "allowed_write_scope": "D:/23MySec/pages/markets/belgium",
+  "authorization_scope": "Repair only the two BE-04 paragraph-link focus indicators and submit a new freeze for independent focused re-review. Preserve approved B, URLs, module structure, brand/shared contracts and all prior evidence. No Gate6, implementation or publishing."
+}

@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TiO2 Malaysia Homepage Wireframe V0.1</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #e5e5e5; color: #1d1d1d; font-family: Arial, Helvetica, sans-serif; }
+    body { min-width: 320px; }
+    .wireframe { width: 100%; min-height: 3500px; background: #fafafa; }
+    .status-bar { min-height: 34px; display: flex; align-items: center; justify-content: center; padding: 7px 16px; border-bottom: 2px solid #333; background: #333; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .08em; }
+    .container { width: calc(100% - 96px); max-width: 1240px; margin: 0 auto; }
+    .header { min-height: 82px; display: flex; align-items: center; border-bottom: 1px solid #777; background: #fff; }
+    .header-row { display: grid; grid-template-columns: 170px 1fr; gap: 24px; align-items: center; }
+    .logo-box { height: 50px; border: 2px solid #333; display: grid; place-items: center; background: #eee; font-weight: 700; }
+    .desktop-nav { display: flex; align-items: center; justify-content: flex-end; gap: 19px; font-size: 13px; font-weight: 700; white-space: nowrap; }
+    .desktop-nav span { display: inline-block; }
+    .cta { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 10px 16px; border: 2px solid #222; background: #333; color: #fff; font-weight: 700; font-size: 13px; }
+    .cta.secondary { background: #fff; color: #222; }
+    .text-link { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+    .mobile-header, .mobile-menu-map { display: none; }
+    .section { border-bottom: 1px solid #999; background: #fafafa; }
+    .section.alt { background: #ededed; }
+    .section-inner { padding: 30px 0; }
+    .module-meta { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-bottom: 18px; padding-bottom: 10px; border-bottom: 1px dashed #777; color: #4a4a4a; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+    .module-meta strong { color: #111; }
+    .pending { display: inline-block; padding: 4px 7px; border: 1px dashed #333; background: #fff; color: #111; font-size: 10px; font-weight: 700; letter-spacing: .04em; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { max-width: 720px; margin-bottom: 14px; font-size: 42px; line-height: 1.08; }
+    h2 { margin-bottom: 10px; font-size: 27px; line-height: 1.15; }
+    h3 { margin-bottom: 8px; font-size: 16px; }
+    p { margin-bottom: 10px; color: #4b4b4b; font-size: 14px; line-height: 1.45; }
+    .eyebrow { margin-bottom: 10px; color: #333; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+    .hero .section-inner { min-height: 390px; display: grid; grid-template-columns: 1.25fr .75fr; gap: 42px; align-items: center; }
+    .hero-copy { padding: 10px 0; }
+    .hero-actions { display: flex; gap: 12px; margin: 22px 0 16px; }
+    .placeholder { min-height: 270px; border: 2px dashed #666; display: grid; place-items: center; padding: 24px; text-align: center; background: repeating-linear-gradient(45deg, #f4f4f4, #f4f4f4 10px, #e8e8e8 10px, #e8e8e8 20px); color: #444; font-weight: 700; }
+    .quick-path { background: #ddd; border-bottom: 2px solid #666; }
+    .quick-path .container { min-height: 98px; display: grid; grid-template-columns: 175px repeat(3, 1fr); align-items: stretch; }
+    .decision-title, .decision-item { display: flex; flex-direction: column; justify-content: center; padding: 14px 18px; border-right: 1px solid #888; }
+    .decision-title { border-left: 1px solid #888; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+    .decision-item strong { margin-bottom: 4px; font-size: 15px; }
+    .decision-item span { color: #555; font-size: 11px; }
+    .intro-row { display: flex; justify-content: space-between; gap: 28px; align-items: end; margin-bottom: 22px; }
+    .intro-row > div:first-child { max-width: 740px; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+    .wire-card { min-height: 130px; padding: 16px; border: 1px solid #777; background: #fff; }
+    .wire-card .boxline { height: 34px; margin-bottom: 12px; border: 1px dashed #999; background: #eee; }
+    .wire-card p { margin-bottom: 6px; font-size: 12px; }
+    .market-card { min-height: 170px; }
+    .market-card .market-id { margin-top: 18px; font-size: 11px; font-weight: 700; }
+    .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 18px; }
+    .product-group { min-height: 148px; padding: 16px; border: 1px solid #666; background: #fff; }
+    .product-group-header { display: flex; justify-content: space-between; gap: 12px; padding-bottom: 10px; border-bottom: 1px dashed #777; }
+    .grade-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 13px; }
+    .grade-id { min-width: 72px; padding: 7px 9px; border: 1px solid #555; background: #eee; text-align: center; font-size: 12px; font-weight: 700; }
+    .product-actions { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 20px; }
+    .process-links { display: flex; gap: 20px; font-size: 12px; }
+    .mobile-products { display: none; }
+    .app-card { min-height: 150px; }
+    .app-card code { display: inline-block; margin-top: 12px; font-size: 11px; font-weight: 700; }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: stretch; }
+    .summary-block { min-height: 260px; padding: 20px; border: 1px solid #777; background: #fff; }
+    .evidence-box { min-height: 92px; margin: 16px 0; border: 2px dashed #777; display: grid; place-items: center; padding: 14px; background: #f3f3f3; text-align: center; }
+    .doc-paths { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .doc-path { min-height: 135px; padding: 18px; border: 1px solid #666; background: #fff; }
+    .doc-warning { margin-top: 14px; padding: 11px 14px; border: 1px dashed #777; color: #444; font-size: 12px; }
+    .resources-layout { display: grid; grid-template-columns: 1fr 1.2fr; gap: 22px; }
+    .resource-list { display: grid; gap: 12px; }
+    .resource-item { min-height: 105px; padding: 16px; border: 1px solid #777; background: #fff; }
+    .qa-list { display: grid; gap: 9px; }
+    .qa-item { min-height: 64px; padding: 12px 14px; border: 1px dashed #777; background: #f8f8f8; font-size: 12px; }
+    .rfq .section-inner { min-height: 330px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center; }
+    .field-summary { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .field { min-height: 42px; padding: 12px; border: 1px solid #888; background: #fff; color: #555; font-size: 12px; }
+    .footer { min-height: 170px; padding: 28px 0; background: #d7d7d7; border-top: 2px solid #555; }
+    .footer-grid { display: grid; grid-template-columns: 1.2fr 2fr 1fr; gap: 26px; }
+    .footer p { font-size: 12px; }
+    .footer-links { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px 16px; font-size: 11px; }
+
+    @media (max-width: 600px) {
+      .wireframe { min-height: 4800px; }
+      .status-bar { min-height: 30px; font-size: 10px; }
+      .container { width: calc(100% - 28px); }
+      .header { min-height: 0; padding: 0; }
+      .header-row, .desktop-nav { display: none; }
+      .mobile-header { min-height: 68px; display: grid; grid-template-columns: 1fr auto auto; gap: 8px; align-items: center; }
+      .mobile-header .logo-box { height: 42px; font-size: 12px; }
+      .mobile-header .menu-button, .mobile-header .cta { min-height: 40px; padding: 8px 10px; border: 2px solid #222; font-size: 11px; }
+      .mobile-header .menu-button { background: #fff; font-weight: 700; }
+      .mobile-menu-map { display: block; padding: 10px 14px 14px; border-top: 1px dashed #777; background: #ededed; }
+      .mobile-menu-map .menu-label { margin-bottom: 8px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+      .mobile-menu-items { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #888; border-left: 1px solid #888; }
+      .mobile-menu-items span { min-height: 34px; display: flex; align-items: center; padding: 7px 9px; border-right: 1px solid #888; border-bottom: 1px solid #888; font-size: 11px; font-weight: 700; }
+      .section-inner { padding: 22px 0; }
+      .module-meta { gap: 5px 8px; margin-bottom: 14px; font-size: 9px; }
+      .pending { font-size: 9px; }
+      h1 { font-size: 29px; }
+      h2 { font-size: 22px; }
+      h3 { font-size: 14px; }
+      p { font-size: 12px; }
+      .hero .section-inner { min-height: 430px; display: block; }
+      .hero-actions { display: grid; grid-template-columns: 1fr 1fr; margin: 16px 0 13px; }
+      .hero-actions .cta { padding: 9px; }
+      .placeholder { min-height: 112px; margin-top: 15px; padding: 12px; font-size: 11px; }
+      .quick-path .container { min-height: 0; display: block; padding: 0; }
+      .decision-title { min-height: 48px; border-left: 1px solid #888; border-bottom: 1px solid #888; }
+      .decision-item { min-height: 52px; border-left: 1px solid #888; border-bottom: 1px solid #888; }
+      .intro-row { display: block; margin-bottom: 14px; }
+      .intro-row .cta { margin-top: 8px; }
+      .grid-4 { grid-template-columns: 1fr 1fr; gap: 9px; }
+      .grid-5 { grid-template-columns: 1fr 1fr; gap: 9px; }
+      .wire-card { min-height: 116px; padding: 12px; }
+      .wire-card .boxline { display: none; }
+      .market-card { min-height: 132px; }
+      .market-card .market-id { margin-top: 10px; font-size: 9px; }
+      .desktop-products { display: none; }
+      .mobile-products { display: grid; gap: 8px; margin-top: 15px; }
+      .product-accordion { min-height: 58px; display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; padding: 11px 12px; border: 1px solid #666; background: #fff; }
+      .product-accordion strong { display: block; margin-bottom: 3px; font-size: 12px; }
+      .product-accordion span { font-size: 10px; color: #555; }
+      .expand-label { border: 1px dashed #555; padding: 7px; font-size: 9px; font-weight: 700; }
+      .product-actions { display: block; margin-top: 13px; }
+      .product-actions .cta { width: 100%; }
+      .process-links { justify-content: space-between; margin-top: 12px; gap: 8px; }
+      .app-card { min-height: 108px; }
+      .app-card code { margin-top: 7px; font-size: 9px; }
+      .grid-5 .app-card:last-child { grid-column: 1 / -1; min-height: 86px; }
+      .split, .doc-paths, .resources-layout, .rfq .section-inner, .footer-grid { display: block; }
+      .summary-block { min-height: 0; padding: 15px; }
+      .summary-block + .summary-block { margin-top: 12px; }
+      .evidence-box { min-height: 66px; margin: 10px 0; font-size: 10px; }
+      .doc-path { min-height: 100px; padding: 14px; }
+      .doc-path + .doc-path { margin-top: 10px; }
+      .resources-layout .qa-list { margin-top: 13px; }
+      .resource-item { min-height: 82px; padding: 12px; }
+      .qa-item { min-height: 52px; }
+      .rfq .section-inner { min-height: 0; }
+      .field-summary { margin: 15px 0; gap: 7px; }
+      .field { min-height: 36px; padding: 9px; font-size: 10px; }
+      .rfq .cta { width: 100%; }
+      .footer { min-height: 230px; padding: 22px 0; }
+      .footer-links { grid-template-columns: 1fr 1fr; margin: 14px 0; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wireframe" aria-label="TiO2 Malaysia homepage low fidelity wireframe">
+    <div class="status-bar">WIREFRAME ONLY / NOT PRODUCTION / NO FINAL COPY / NO FINAL VISUAL</div>
+
+    <header class="header">
+      <div class="container">
+        <div class="header-row">
+          <div class="logo-box">LOGO PLACEHOLDER</div>
+          <nav class="desktop-nav" aria-label="Desktop navigation order">
+            <span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span class="cta">Request a Quote</span>
+          </nav>
+        </div>
+        <div class="mobile-header">
+          <div class="logo-box">LOGO</div>
+          <div class="menu-button">Menu</div>
+          <div class="cta">RFQ</div>
+        </div>
+        <div class="mobile-menu-map" aria-label="Expanded mobile menu wireframe">
+          <div class="menu-label">Expanded menu — complete visible order</div>
+          <div class="mobile-menu-items"><span>1 Home</span><span>2 Markets</span><span>3 Products</span><span>4 Applications</span><span>5 Documents</span><span>6 Resources</span><span>7 About</span><span>8 Request a Quote</span></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section hero">
+      <div class="container section-inner">
+        <div class="hero-copy">
+          <div class="module-meta"><strong>01 HERO</strong><span>Purpose: establish homepage topic + first action</span><span>Target: HOME-001 / CONV-RFQ / PRODUCT-000</span></div>
+          <div class="eyebrow">Homepage theme placeholder</div>
+          <h1>[H1 must contain: malaysia titanium dioxide]</h1>
+          <p>[Audience and supply-platform explanation placeholder — not final marketing copy.]</p>
+          <div class="pending">FACT COPY PENDING — MALAYSIA-ORIGIN DETAILS</div>
+          <div class="hero-actions"><span class="cta">Request a Quote</span><span class="cta secondary">View Products</span></div>
+          <p>No Request Documents · No Sample · No response-time claim</p>
+        </div>
+        <div class="placeholder">DECORATIVE MEDIA PLACEHOLDER ONLY<br><br>NO FINAL IMAGE<br>NO FACT EVIDENCE</div>
+      </div>
+    </section>
+
+    <section class="quick-path" aria-label="Compact procurement decision bar">
+      <div class="container">
+        <div class="decision-title">02 Compact procurement path<br><small>Not a second Hero</small></div>
+        <div class="decision-item"><strong>Markets</strong><span>Target MARKET-000</span></div>
+        <div class="decision-item"><strong>Products</strong><span>Target PRODUCT-000</span></div>
+        <div class="decision-item"><strong>Documents</strong><span>Target DOC-000</span></div>
+      </div>
+    </section>
+
+    <section class="section markets alt">
+      <div class="container section-inner">
+        <div class="module-meta"><strong>03 MARKETS</strong><span>Purpose: choose procurement market</span><span>CTA: Explore Your Market / View All Markets</span><span>Target: MARKET-000 + 4 market pages</span></div>
+        <div class="intro-row"><div><div class="eyebrow">Market-first procurement path</div><h2>[Four primary market entrances]</h2><p>No large flags, no tourism map, no unverified compliance or delivery promise.</p></div><span class="cta secondary">View All Markets</span></div>
+        <div class="grid-4">
+          <article class="wire-card market-card"><div class="boxline"></div><h3>European Union</h3><p>Entry summary placeholder.</p><p>Six-country path: DE / IT / ES / PL / NL / BE</p><div class="market-id">MARKET-EU-001</div></article>
+          <article class="wire-card market-card"><div class="boxline"></div><h3>United Kingdom</h3><p>Buyer-question placeholder only.</p><div class="market-id">MARKET-UK-001</div></article>
+          <article class="wire-card market-card"><div class="boxline"></div><h3>India</h3><p>Buyer-question placeholder only.</p><div class="market-id">MARKET-IN-001</div></article>
+          <article class="wire-card market-card"><div class="boxline"></div><h3>Brazil</h3><p>Buyer-question placeholder only.</p><div class="market-id">MARKET-BR-EN</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products">
+      <div class="container section-inner">
+        <div class="module-meta"><strong>04 PRODUCTS</strong><span>Purpose: show portfolio depth + selection path</span><span>Target: PRODUCT-000 + process + grade pages</span><span>Primary CTA: View All 14 Grades</span></div>
+        <div class="intro-row"><div><div class="eyebrow">Product selection overview</div><h2>14 titanium dioxide grades</h2><p>Four compact groups. No 14-card grid and no grade-detail paragraphs.</p></div><span class="pending">TECHNICAL COPY PENDING</span></div>
+
+        <div class="desktop-products">
+          <div class="products-layout">
+            <article class="product-group"><div class="product-group-header"><strong>Coatings Grades</strong><span>6 grades</span></div><div class="grade-list"><span class="grade-id">M-350</span><span class="grade-id">M-510</span><span class="grade-id">M-896</span><span class="grade-id">M-996</span><span class="grade-id">M-2196</span><span class="grade-id">M-895</span></div></article>
+            <article class="product-group"><div class="product-group-header"><strong>Plastics &amp; Masterbatch Grades</strong><span>5 grades</span></div><div class="grade-list"><span class="grade-id">M-200</span><span class="grade-id">M-108</span><span class="grade-id">M-210</span><span class="grade-id">M-340</span><span class="grade-id">M-886</span></div></article>
+            <article class="product-group"><div class="product-group-header"><strong>Inks &amp; Multi-Application Grades</strong><span>2 grades</span></div><div class="grade-list"><span class="grade-id">M-52</span><span class="grade-id">M-2377</span><span class="pending">PROCESS PENDING</span></div></article>
+            <article class="product-group"><div class="product-group-header"><strong>Specialty Grade</strong><span>1 grade</span></div><div class="grade-list"><span class="grade-id">CR-901</span></div></article>
+          </div>
+        </div>
+
+        <div class="mobile-products" aria-label="Mobile collapsed product groups">
+          <div class="product-accordion"><div><strong>Coatings Grades</strong><span>6 grades · collapsed</span></div><div class="expand-label">Expand grades ▾</div></div>
+          <div class="product-accordion"><div><strong>Plastics &amp; Masterbatch</strong><span>5 grades · collapsed</span></div><div class="expand-label">Expand grades ▾</div></div>
+          <div class="product-accordion"><div><strong>Inks &amp; Multi-Application</strong><span>2 grades · M-2377 process pending</span></div><div class="expand-label">Expand grades ▾</div></div>
+          <div class="product-accordion"><div><strong>Specialty Grade</strong><span>1 grade · collapsed</span></div><div class="expand-label">Expand grades ▾</div></div>
+        </div>
+
+        <div class="product-actions"><span class="cta">View All 14 Grades</span><div class="process-links"><span class="text-link">Chloride Process →</span><span class="text-link">Sulfate Process →</span></div></div>
+      </div>
+    </section>
+
+    <section class="section applications alt">
+      <div class="container section-inner">
+        <div class="module-meta"><strong>05 APPLICATIONS</strong><span>Purpose: select by use case</span><span>Target: APP-000 + five page_ids</span><span>CTA: Explore Applications</span></div>
+        <div class="intro-row"><div><div class="eyebrow">Use-case entrances</div><h2>[Five application paths]</h2><p>Page ID only. Final href is not locked.</p></div><span class="pending">PROVISIONAL URL — PAGE_ID ONLY</span></div>
+        <div class="grid-5">
+          <article class="wire-card app-card"><h3>Coatings</h3><p>Decision-theme placeholder.</p><code>APP-COAT</code></article>
+          <article class="wire-card app-card"><h3>Plastics</h3><p>Decision-theme placeholder.</p><code>APP-PLAS</code></article>
+          <article class="wire-card app-card"><h3>Masterbatch</h3><p>TiO₂ input — not finished masterbatch.</p><code>APP-MB</code></article>
+          <article class="wire-card app-card"><h3>Printing Inks</h3><p>Decision-theme placeholder.</p><code>APP-INK</code></article>
+          <article class="wire-card app-card"><h3>Paper</h3><p>Decision-theme placeholder.</p><code>APP-PAPER</code></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about">
+      <div class="container section-inner">
+        <div class="module-meta"><strong>06 ABOUT / ORIGIN</strong><span>Purpose: platform + operator + evidence entry summary</span><span>Target: ABOUT-001</span><span>CTA: Learn About TiO2 Malaysia</span></div>
+        <div class="split">
+          <div class="summary-block"><div class="eyebrow">Platform and operator summary</div><h2>[About / Origin evidence entry]</h2><p>Neutral platform and operating-entity placeholder. No independent Malaysia Origin page.</p><div class="pending">FACT COPY PENDING</div><p style="margin-top:12px">Manufacturing, Made in Malaysia, COO and batch-traceability wording remains gated.</p><span class="cta secondary">Learn About TiO2 Malaysia</span></div>
+          <div class="summary-block"><div class="evidence-box">PROOF ASSET SLOT<br><span class="pending">VERIFIED ASSET PENDING</span></div><p>No AI/stock/concept image may be labelled as factory, laboratory, warehouse or shipment evidence.</p><div class="pending">NO FACTUAL IMAGE CLAIM</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section documents alt">
+      <div class="container section-inner">
+        <div class="module-meta"><strong>07 DOCUMENTS</strong><span>Purpose: information hub + controlled request</span><span>Targets: DOC-000 / CONV-DOC only</span><span>CTA: Request Documents</span></div>
+        <div class="intro-row"><div><div class="eyebrow">Two approved homepage paths</div><h2>[Document information and request]</h2></div><span class="pending">DOCUMENT AVAILABILITY NOT CLAIMED</span></div>
+        <div class="doc-paths"><div class="doc-path"><h3>Documents Hub</h3><p>Page-purpose placeholder only.</p><strong>DOC-000 →</strong></div><div class="doc-path"><h3>Request Documents</h3><p>Controlled application-path placeholder.</p><strong>CONV-DOC →</strong></div></div>
+        <div class="doc-warning">REACH / TDS / SDS / COA / COO are not shown as live or available file cards in this wireframe.</div>
+      </div>
+    </section>
+
+    <section class="section resources">
+      <div class="container section-inner">
+        <div class="module-meta"><strong>08 RESOURCES / BUYER ANSWERS</strong><span>Purpose: limited research support + GEO answer slots</span><span>Target: RES-000</span><span>CTA: View Resources</span></div>
+        <div class="resources-layout">
+          <div class="resource-list">
+            <div class="resource-item"><h3>Resource entry slot A</h3><p>RES-ORIGIN · summary copy evidence pending</p><span class="pending">CONTENT REVIEW PENDING</span></div>
+            <div class="resource-item"><h3>Resource entry slot B</h3><p>RES-PROC · NEW PAGE CANDIDATE / not presented as live</p><span class="pending">NOT LIVE</span></div>
+          </div>
+          <div class="qa-list">
+            <div class="qa-item"><strong>Buyer question placeholder 1</strong><br>Answer withheld until evidence is approved.</div>
+            <div class="qa-item"><strong>Buyer question placeholder 2</strong><br><span class="pending">ANSWER PENDING</span></div>
+            <div class="qa-item"><strong>Buyer question placeholder 3</strong><br><span class="pending">ANSWER PENDING</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rfq alt">
+      <div class="container section-inner">
+        <div><div class="module-meta"><strong>09 FINAL RFQ</strong><span>Purpose: submit procurement requirement</span><span>Target: CONV-RFQ</span><span>Only CTA: Request a Quote</span></div><div class="eyebrow">Final conversion block</div><h2>[RFQ reason-to-act placeholder]</h2><p>No Sample CTA. No response-time promise. No formal form-flow design.</p><span class="cta">Request a Quote</span></div>
+        <div><div class="pending">FIELD SUMMARY ONLY</div><div class="field-summary"><div class="field">Destination market / port</div><div class="field">Application</div><div class="field">Grade or target specification</div><div class="field">Quantity</div><div class="field">Packaging</div><div class="field">Document needs</div></div></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="module-meta"><strong>10 FOOTER</strong><span>Purpose: navigation + entity/legal placeholders</span><span>Targets: top-level pages / CONTACT-001</span></div>
+        <div class="footer-grid"><div><div class="logo-box">LOGO PLACEHOLDER</div><p>Operating-entity and contact facts render only after verification.</p></div><div class="footer-links"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span>Request a Quote</span></div><div><div class="pending">CONTACT FACTS PENDING</div><p>Legal / privacy links placeholder.</p></div></div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

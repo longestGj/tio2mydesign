@@ -1,0 +1,399 @@
+{
+  "pageId": "RES-CHEMOURS",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "inventoryVersion": "V0.1",
+  "role": "method asset inventory; not current page Manifest or approval",
+  "recordedAt": "2026-09-07T00:42:13.976Z",
+  "source": {
+    "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+    "bytes": 18831,
+    "sha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b"
+  },
+  "freeze": {
+    "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_FREEZE_RECORD_V0.1.json",
+    "bytes": 8341,
+    "sha256": "ecceab47cecef3932ca70ad3537441898b0dba5e59d8736d8bb31aeab034a207"
+  },
+  "sharedConsumer": {
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "bytes": 2409,
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+    "version": "V0.2",
+    "files": [
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+        "role": "renderer"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+        "role": "chrome_data"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+        "role": "consent_data"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+        "role": "style"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+        "role": "behavior"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "role": "font"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+        "role": "font_license"
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a",
+        "role": "smoke_fixture"
+      }
+    ],
+    "owners": {
+      "globalChrome": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "cta": {
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "logo": {
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "footerLegal": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "legal": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+        "bytes": 4266,
+        "sha256": "14364f8c3ef8010dbb6449f906d5c82fb317bbfbd3ec1926b42bed81c84f8f1c"
+      },
+      "consent": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/SHARED-CONSENT_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md",
+        "bytes": 1051,
+        "sha256": "be03ef117b2f3f575aa59964d80c10b6b223fc5d1748a6bf7cedf08205bad659"
+      }
+    }
+  },
+  "renderParameters": {
+    "currentPageId": "RES-000",
+    "primaryLogoSrc": "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+    "reverseLogoSrc": "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+    "fontSrc": "dependencies/Inter-Variable.ttf"
+  },
+  "approval_core": [
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+      "bytes": 18831,
+      "sha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "role": "approval_core",
+      "kind": "editable_planning_source",
+      "state": "frozen",
+      "version": "V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_1440_FULL_V0.1.png",
+      "bytes": 390166,
+      "sha256": "d9c47f86e5baa3d186cf33ca3033fde72c0164ee2e1dd6a0f757fab64e4c699b",
+      "role": "approval_core",
+      "kind": "raster",
+      "state": "full",
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physical": {
+        "width": 1440,
+        "height": 3082
+      },
+      "scale": 1,
+      "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "exportedAt": "2026-09-07T00:40:11.674Z"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_1440_COOKIE_V0.1.png",
+      "bytes": 118499,
+      "sha256": "f8c13c9c8eeb5308ed18a56965f18efa450763f230496e4bf3976f2d6f1ccb2d",
+      "role": "approval_core",
+      "kind": "raster",
+      "state": "cookie",
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physical": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scale": 1,
+      "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "exportedAt": "2026-09-07T00:40:11.746Z"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_FULL_V0.1.png",
+      "bytes": 383968,
+      "sha256": "89ad1a45fb60881f3b10f1ff7dc4a9f05b4127927c44792fef0b12079c7fbfef",
+      "role": "approval_core",
+      "kind": "raster",
+      "state": "full",
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physical": {
+        "width": 768,
+        "height": 3648
+      },
+      "scale": 1,
+      "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "exportedAt": "2026-09-07T00:40:12.120Z"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_MENU_V0.1.png",
+      "bytes": 75587,
+      "sha256": "08ffdc0c22db54cccb4d69daab903b0609c4fecf24ff27e913f397f02610b037",
+      "role": "approval_core",
+      "kind": "raster",
+      "state": "menu",
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physical": {
+        "width": 768,
+        "height": 1000
+      },
+      "scale": 1,
+      "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "exportedAt": "2026-09-07T00:40:12.177Z"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_COOKIE_V0.1.png",
+      "bytes": 89073,
+      "sha256": "a6cb55f99a9e7c048a3a516b2537263e34e317b5bbaf612ec81d6d89740a820f",
+      "role": "approval_core",
+      "kind": "raster",
+      "state": "cookie",
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physical": {
+        "width": 768,
+        "height": 1000
+      },
+      "scale": 1,
+      "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "exportedAt": "2026-09-07T00:40:12.263Z"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_FULL_V0.1.png",
+      "bytes": 338909,
+      "sha256": "2be9a88efa7fb0487e388a997c37f5b9f25a5c614618d73636000f3d03be7b2d",
+      "role": "approval_core",
+      "kind": "raster",
+      "state": "full",
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "physical": {
+        "width": 390,
+        "height": 4464
+      },
+      "scale": 1,
+      "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "exportedAt": "2026-09-07T00:40:12.603Z"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_MENU_V0.1.png",
+      "bytes": 46174,
+      "sha256": "27f7005f06650f7fc8979554ceee66f764897700c0109aab642fb0181fc836e5",
+      "role": "approval_core",
+      "kind": "raster",
+      "state": "menu",
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "physical": {
+        "width": 390,
+        "height": 844
+      },
+      "scale": 1,
+      "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "exportedAt": "2026-09-07T00:40:12.654Z"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_COOKIE_V0.1.png",
+      "bytes": 50936,
+      "sha256": "d0790c2845b50b601b47271f215e1165adf2b0601c2cdeee8bb154a55bcd3c67",
+      "role": "approval_core",
+      "kind": "raster",
+      "state": "cookie",
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "physical": {
+        "width": 390,
+        "height": 844
+      },
+      "scale": 1,
+      "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+      "exportedAt": "2026-09-07T00:40:12.706Z"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_TASK_INPUT_CARD_V0.1.json",
+      "bytes": 9863,
+      "sha256": "5c55af245dab99dd0b23784c0e0804f5ff004fd858561f40bda8c8b120637f89",
+      "role": "approval_core",
+      "kind": "identity_or_process_record"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_PREFLIGHT_RECORD_V0.1.json",
+      "bytes": 10616,
+      "sha256": "d3ab5c8172d206259b02c011378305931d79a45a1447a6bca0d0b9e61430bd0b",
+      "role": "approval_core",
+      "kind": "identity_or_process_record"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_FREEZE_RECORD_V0.1.json",
+      "bytes": 8341,
+      "sha256": "ecceab47cecef3932ca70ad3537441898b0dba5e59d8736d8bb31aeab034a207",
+      "role": "approval_core",
+      "kind": "identity_or_process_record"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_FORMAL_EXPORT_RECORD_V0.1.json",
+      "bytes": 6165,
+      "sha256": "781e2919e74f7b067aaa0309b248c47fdc055221af112ba7361858107a782d55",
+      "role": "approval_core",
+      "kind": "identity_or_process_record"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_DESIGN_METHOD_REPORT_V0.1.md",
+      "bytes": 4797,
+      "sha256": "444478fc1aa09cc723055dcc7a92950c44b146d48b61f723e21f51518cc14bea",
+      "role": "approval_core",
+      "kind": "method_report"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_EXECUTION_SELF_CHECK_V0.1.md",
+      "bytes": 5225,
+      "sha256": "8c115d4b28a769471af15dbca0f4792b95973ec578395963bc5264fc75c3f75d",
+      "role": "approval_core",
+      "kind": "execution_self_check"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "role": "approval_core_dependency",
+      "origin": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "role": "approval_core_dependency",
+      "origin": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "role": "approval_core_dependency",
+      "origin": "Production SVG Manifest V1.0; reference original asset, no page-local Logo copy"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "role": "approval_core_dependency",
+      "origin": "Production SVG Manifest V1.0; reference original asset, no page-local Logo copy"
+    }
+  ],
+  "diagnostic_support": {
+    "directory": "D:/23MySec/pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_EXECUTION_EVIDENCE_V0.1/diagnostic_support",
+    "currentRevisionDirectory": "D:\\23MySec\\pages\\resources\\chemours-alternatives\\05_review\\RES-CHEMOURS_GATE3_EXECUTION_EVIDENCE_V0.1\\diagnostic_support\\revision-02",
+    "verification": {
+      "path": "D:\\23MySec\\pages\\resources\\chemours-alternatives\\05_review\\RES-CHEMOURS_GATE3_EXECUTION_EVIDENCE_V0.1\\diagnostic_support\\revision-02/formal-readback-v0.1.json",
+      "bytes": 5763,
+      "sha256": "5e04524c42d90c35802686d70879631763a24410dc716c2847b7e59531be2c4b"
+    },
+    "currentObservations": {
+      "path": "D:\\23MySec\\pages\\resources\\chemours-alternatives\\05_review\\RES-CHEMOURS_GATE3_EXECUTION_EVIDENCE_V0.1\\diagnostic_support\\revision-02/visual-observations-v0.1.md",
+      "bytes": 2686,
+      "sha256": "99bb247bcd1dbe30127f27c160486d1d77c5d85e09be38905c40cbc015e0cf7c"
+    },
+    "currentRuntime": {
+      "path": "D:\\23MySec\\pages\\resources\\chemours-alternatives\\05_review\\RES-CHEMOURS_GATE3_EXECUTION_EVIDENCE_V0.1\\diagnostic_support\\revision-02/runtime-preflight-v0.1.json",
+      "bytes": 67759,
+      "sha256": "f203da57a1d5a02d6ecde9c66d545cc57cce0cc062d9986ff0f239afadd0a747"
+    },
+    "currentFocus": {
+      "path": "D:\\23MySec\\pages\\resources\\chemours-alternatives\\05_review\\RES-CHEMOURS_GATE3_EXECUTION_EVIDENCE_V0.1\\diagnostic_support\\revision-02/focus-supplement-v0.1.json",
+      "bytes": 3300,
+      "sha256": "aca7f65ad97f0b49c9185e2180e16c18b041676e010e70f49ddb70a1e05369a5"
+    },
+    "preservedEarlierCandidate": {
+      "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.1.html",
+      "bytes": 18831,
+      "sha256": "ec44a759a77a258a53444a560854ba99dc6812b837b423e292e5d3da34e48e9f",
+      "role": "diagnostic_support",
+      "status": "SUPERSEDED_DIAGNOSTIC_ONLY_NEVER_FROZEN"
+    },
+    "failureHistory": [
+      "initial-build-failure.txt",
+      "runtime-preflight-failed-clip.json",
+      "preflight-shared-color-hold-v0.1.json",
+      "revision-02/focus-supplement-failed-close-event.json"
+    ],
+    "note": "Detailed diagnostic PNGs and helpers remain preserved but are not repeated as individual approval assets."
+  },
+  "visualReadback": {
+    "formalAssetsOpened": 8,
+    "fullPagesOpened": 3,
+    "readableDiagnosticSegmentsOpened": 15,
+    "allFormalImagesByteIdenticalToViewedDiagnostic": true
+  },
+  "unresolvedPageFindings": [],
+  "notTested": [
+    "production implementation/routes/receiving",
+    "external source current availability",
+    "other browser engines/real devices/screen readers",
+    "native browser 200 percent zoom",
+    "production consent storage/network inventory"
+  ],
+  "gate4": "NOT_AUTHORIZED"
+}

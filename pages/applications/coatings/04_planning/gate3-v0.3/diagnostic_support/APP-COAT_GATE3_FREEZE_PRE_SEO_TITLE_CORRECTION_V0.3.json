@@ -1,0 +1,41 @@
+{
+  "freezeId": "APP-COAT-G3-FREEZE-V0.3",
+  "pageId": "APP-COAT",
+  "frozenAt": "2026-09-07T06:55:00Z",
+  "status": "CANDIDATE_FROZEN_FOR_FORMAL_RENDER",
+  "candidate": {
+    "path": "D:/23MySec/pages/applications/coatings/04_planning/gate3-v0.3/APP-COAT_GATE3_RESPONSIVE_WIREFRAME_V0.3.html",
+    "bytes": 34063,
+    "sha256": "96676301f642844b0dfc2f50708d472c7d0bb39352d889174bac43cec512fcf3"
+  },
+  "generator": {
+    "path": "D:/23MySec/pages/applications/coatings/04_planning/gate3-v0.3/APP-COAT_GATE3_BUILD_WIREFRAME_V0.3.mjs",
+    "sha256": "a34b749de4ae10d2cd2dff4d990ecf1d4c30aead4f75fb7da4de74b8853ff17e"
+  },
+  "preflight": {
+    "path": "D:/23MySec/pages/applications/coatings/04_planning/gate3-v0.3/APP-COAT_GATE3_PREFLIGHT_RECORD_V0.3.json",
+    "bytes": 4991,
+    "sha256": "7007d6cfbe2a76451d30c26b3a1cdfae02efdba470e08a89bb283381a70af60a",
+    "result": "PASS_FOR_FORMAL_RENDER"
+  },
+  "approvedCombination": {
+    "A": "efa3c0af5bf2e69d6942dafdc83df2decdc571b4c988589788bd0f77a55b0fc2",
+    "B": "e5c9ffa7bcd7ae0375e45e27ba9bc26b95d00d317ff19c243e7e931b17706531",
+    "C": "ab5fd1d67eae464193d6e20b3f80a94afd36e29383ffb5a2c99db8e7103de400"
+  },
+  "sharedConsumer": {
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002",
+    "version": "V0.2",
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+  },
+  "formalExportPlan": [
+    {"viewport":1440,"state":"complete page","scale":1},
+    {"viewport":768,"state":"complete page","scale":1},
+    {"viewport":390,"state":"complete page","scale":1},
+    {"viewport":768,"state":"mobile menu open","scale":1},
+    {"viewport":390,"state":"mobile menu open","scale":1},
+    {"viewport":390,"state":"Grades to Review anchor target","scale":1}
+  ],
+  "invalidationRule": "Any byte change to the candidate source or a frozen dependency ends this freeze identity and requires a new preflight and affected formal exports."
+}

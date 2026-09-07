@@ -1,0 +1,2496 @@
+{
+  "status": "FAIL",
+  "scope": "Governance source, navigation, identity and contract invariants; not independent behavioral validation",
+  "checks": [
+    {
+      "check": "current identity: docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: AGENTS.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: AGENTS.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.4.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.2.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/product-pages/04_Product_Detail_Single_Grade_Operational_Checklist_V1.2.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.3.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: agents/gate3-execution/history/agent-v0.3-before-workflow-alignment.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: agents/gate4-complete-visual/history/agent-v1.0-before-workflow-alignment.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: agents/gate6-review-delivery/history/agent-v0.2-before-workflow-alignment.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: agents/gate3-execution/agent.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: agents/gate3-execution/agent.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: agents/gate4-complete-visual/agent.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: agents/gate4-complete-visual/agent.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: agents/gate6-review-delivery/agent.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: agents/gate6-review-delivery/agent.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: 01_PROJECT_INDEX.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: 01_PROJECT_INDEX.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: PROJECT_CONTEXT.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: PROJECT_CONTEXT.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: 02_DIRECTORY_GUIDE.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: 02_DIRECTORY_GUIDE.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: 00_PROJECT_STATUS.md",
+      "pass": false,
+      "detail": null
+    },
+    {
+      "check": "backup identity: 00_PROJECT_STATUS.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: agents/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: agents/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: skills/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: skills/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/page-briefs/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: docs/page-briefs/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/page-playbooks/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: docs/page-playbooks/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/product-pages/00_README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "backup identity: docs/product-pages/00_README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current identity: docs/architecture/WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "local links resolve",
+      "pass": true,
+      "detail": {
+        "count": 412,
+        "failures": []
+      }
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / ../../agents/gate3-execution/agent.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / ../../skills/responsive-wireframe-design/SKILL.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / ../../skills/layout-interaction-verification/SKILL.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / ../../skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / ../../skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / ../../skills/layout-interaction-verification/references/core-risk-model.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / ../../skills/responsive-wireframe-design/scripts/check-preflight-record.mjs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md / ../superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md / GATE_WORKFLOW_V3.1.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md / PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md / ../../agents/gate4-complete-visual/agent.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md / GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md / ../../skills/brand-applied-visual-design/SKILL.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md / ../../skills/full-page-visual-composition/SKILL.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bound source: GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md / ../../skills/layout-interaction-verification/SKILL.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "shared method identity agrees between consumers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Gate 4 identity independent of Gate 3 manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "role historical bytes: gate3-execution",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "role historical bytes: gate4-complete-visual",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "role historical bytes: gate6-review-delivery",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "page status lines preserved",
+      "pass": false,
+      "detail": null
+    },
+    {
+      "check": "no page files or skill methods changed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "active Gate sequence matches root and workflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Brief formal approval table has active Gates only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Brief two internal checkpoints retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "standard product route excludes retired stage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "product implementation and QA requirements preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fast track eligibility preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Gate 6 role status coherent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Index selects current: GATE_WORKFLOW_V3.1.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Index selects current: PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Index selects current: PAGE_BRIEF_TEMPLATE_V0.4.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Index selects current: GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Index selects current: GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Index selects current: 03_Product_Detail_Template_Reuse_Development_SOP_V2.2.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Index selects current: 04_Product_Detail_Single_Grade_Operational_Checklist_V1.2.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Index selects current: PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.3.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "direction-only history remains limited",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "review-only Gate 6 authority not expanded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "paused page remains paused",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Gate 3 cosmetic suggestion does not block",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Buyer Review and implementation QA retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "technical receipt links to same acceptance contract",
+      "pass": false,
+      "detail": null
+    }
+  ],
+  "links": [
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "../../01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "../page-briefs/PAGE_BRIEF_TEMPLATE_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "../product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.2.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "../product-pages/04_Product_Detail_Single_Grade_Operational_Checklist_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "../page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "../../agents/README.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "../../skills/README.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "target": "WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "target": "GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "target": "../page-briefs/README.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "target": "GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "target": "PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "PROJECT_CONTEXT.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "00_PROJECT_STATUS.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "02_DIRECTORY_GUIDE.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "research/keyword/AGENTS.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "docs/architecture/PROJECT_ENTRY_RESTRUCTURE_MIGRATION_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "docs/architecture/WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.4.md",
+      "target": "../architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.2.md",
+      "target": "../architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/product-pages/04_Product_Detail_Single_Grade_Operational_Checklist_V1.2.md",
+      "target": "../architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.3.md",
+      "target": "../architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/superpowers/specs/2026-09-07-gate3-execution-agent-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/superpowers/specs/2026-09-07-gate3-skill-method-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/superpowers/specs/2026-09-07-gate3-agent-entry-integration-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/superpowers/specs/2026-09-07-gate3-two-page-process-retrospective-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "history/agent-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/superpowers/specs/2026-09-07-gate3-skill-validation-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "history/agent-v0.2-scope-control-baseline.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../AGENTS.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../PROJECT_CONTEXT.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../00_PROJECT_STATUS.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../skills/responsive-wireframe-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../skills/layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../02_DIRECTORY_GUIDE.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "target": "../../docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "target": "../../docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "target": "../../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "target": "../../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "target": "../../skills/brand-applied-visual-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "target": "../../skills/full-page-visual-composition/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "target": "../../skills/layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "target": "history/agent-v1.0-before-workflow-alignment.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "history/agent-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "../../docs/superpowers/specs/2026-09-07-gate6-agent-skill-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "history/agent-v0.2-before-workflow-alignment.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "../../AGENTS.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "../../PROJECT_CONTEXT.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "../../docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "../../skills/page-contract-consistency-review/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "../../skills/layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "../../skills/development-delivery-specification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "target": "../../02_DIRECTORY_GUIDE.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE4_GATE5_CONSOLIDATION_AUDIT_AND_CHANGE_RECORD_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "AGENTS.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "PROJECT_CONTEXT.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "00_PROJECT_STATUS.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "02_DIRECTORY_GUIDE.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.3.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE1_SITE_WIDE_SERIAL_CONTROL_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "agents/gate4-complete-visual/agent.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "agents/gate6-review-delivery/agent.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate6-agent-skill-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "skills/README.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/PROJECT_SKILL_DIRECTORY_AND_GATE1_SPLIT_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "skills/search-intent-evidence-analysis/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-validation-v0.4.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "agents/gate1-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-06-gate1-execution-agent-design-v0.7.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "agents/gate2-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-06-gate2-execution-agent-design-v0.7.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "agents/gate2-review/agent.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-06-gate2-review-agent-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE2_SERIAL_FULL_COPY_CONTROL_V1.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/spain/MARKET-EU-ES_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/spain/05_review/MARKET-EU-ES_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/spain/05_review/MARKET-EU-ES_GATE5_TO_GATE6_HANDOFF_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/documents/certificate-of-origin/04_planning/DOC-COO_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/documents/certificate-of-origin/05_review/DOC-COO_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/documents/certificate-of-origin/05_review/DOC-COO_GATE5_TO_GATE6_HANDOFF_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/netherlands/MARKET-EU-NL_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/poland/MARKET-EU-PL_CURRENT_GATE_BASELINE_MANIFEST_V0.20.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/poland/05_review/MARKET-EU-PL_GATE6_REVIEW_SUBMISSION_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/resources/chemours-alternatives/RES-CHEMOURS_CURRENT_GATE_BASELINE_MANIFEST_V0.17.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/products/chloride-process/PRODUCT-PROC-CL_CURRENT_GATE_BASELINE_MANIFEST_V0.22.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/products/chloride-process/05_review/PRODUCT-PROC-CL_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "agents/gate3-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "skills/responsive-wireframe-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "skills/layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE3_EIGHT_PAGE_SERIAL_CONTROL_V1.8.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE3_EIGHT_PAGE_SERIAL_COMPLETION_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_CONTROL_V1.6.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_AUDIT_V1.0.json",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/PROJECT_ENTRY_RESTRUCTURE_MIGRATION_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/prd/TiO2_Malaysia_Website_PRD_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "research/keyword/11_page_keyword_master.csv",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/page-playbooks/README.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/page-briefs/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/MALAYSIA_ORIGIN_SITE_WIDE_PUBLICATION_AUTHORITY_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/7.27 马来全套TDS +应用指南/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.2.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/product-pages/04_Product_Detail_Single_Grade_Operational_Checklist_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/product-pages/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/product-pages/29_Product_Detail_Development_SOP_V2_Autonomous_Serial_Manifest_V0.16.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "research/keyword/AGENTS.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "research/keyword/08_research_summary.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "research/keyword/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/strategy/TiO2_Malaysia_Website_Positioning_2026-08-29.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "00_PROJECT_STATUS.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/home/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/markets/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/products/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/products/detail-template/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/applications/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/applications/02_analysis/APPLICATION_ARTICLE_TOPIC_CONTROLLER_MANDATE_AND_THREE_ARTICLE_USER_APPROVAL_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/applications/04_planning/APPLICATION_ARTICLE_TOPIC_MASTER_PLAN_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/applications/04_planning/APPLICATION_ARTICLE_TOPIC_BACKLOG_V0.1.csv",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/applications/01_research/r01-pvc-upvc/R01_RESEARCH_DECISION_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/applications/02_analysis/R01_PVC_UPVC_ARTICLE_D23_ACCEPTANCE_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/applications/02_analysis/R01_PVC_UPVC_READER_FACING_REVISION_DIRECTIVE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/documents/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/resources/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/resources/05_review/RES-PROC_CURRENT_GATE9_COMPARATIVE_REVIEW_MANIFEST_V0.13.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/about-contact/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/conversion/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/conversion/request-a-quote/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/conversion/request-sample/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "pages/legal-privacy/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "90_archive/project-governance/2026-09-06-entry-restructure/01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "90_archive/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "99_workspace/",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE4_EIGHT_PAGE_SERIAL_CONTROL_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "01_PROJECT_INDEX.md",
+      "target": "docs/architecture/GATE4_EIGHT_PAGE_SERIAL_PROGRESS.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/prd/TiO2_Malaysia_Website_PRD_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/architecture/MALAYSIA_ORIGIN_SITE_WIDE_PUBLICATION_AUTHORITY_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/prd/TiO2_Malaysia_Website_PRD_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/7.27 马来全套TDS +应用指南/",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "research/keyword/08_research_summary.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "research/keyword/11_page_keyword_master.csv",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/prd/TiO2_Malaysia_Website_PRD_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "research/keyword/11_page_keyword_master.csv",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "AGENTS.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "source": "PROJECT_CONTEXT.md",
+      "target": "00_PROJECT_STATUS.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "AGENTS.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "00_PROJECT_STATUS.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/strategy/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/prd/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/architecture/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/page-playbooks/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/page-briefs/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/product-pages/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/superpowers/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "research/keyword/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "pages/home/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "pages/products/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "pages/markets/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "pages/applications/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "pages/documents/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "pages/resources/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "pages/about-contact/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "pages/conversion/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "90_archive/prd/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "90_archive/pages/home/planning/",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "skills/README.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/architecture/PROJECT_SKILL_DIRECTORY_AND_GATE1_SPLIT_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "00_PROJECT_STATUS.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "agents/gate4-complete-visual/agent.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "agents/gate3-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "02_DIRECTORY_GUIDE.md",
+      "target": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/spain/05_review/MARKET-EU-ES_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/documents/certificate-of-origin/05_review/DOC-COO_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE2_EIGHT_PAGE_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE4_EIGHT_PAGE_SERIAL_CONTROL_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE4_EIGHT_PAGE_SERIAL_PROGRESS.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_CONTROL_V1.6.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_AUDIT_V1.0.json",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "PROJECT_CONTEXT.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.4.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "90_archive/project-governance/2026-09-06-entry-restructure/00_PROJECT_STATUS.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE1_SITE_WIDE_SERIAL_CONTROL_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/home/07_qa/HOME-001_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/07_qa/MARKET-000_CURRENT_GATE9_BASELINE_MANIFEST_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/06_handoff/MARKET-EU-001_CURRENT_GATE8_AUTHORIZATION_MANIFEST_V0.18.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/06_handoff/MARKET-UK-001_CURRENT_GATE8_AUTHORIZATION_MANIFEST_V0.7.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/germany/05_review/MARKET-EU-DE_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/italy/05_review/MARKET-EU-IT_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/spain/MARKET-EU-ES_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/spain/05_review/MARKET-EU-ES_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/spain/05_review/MARKET-EU-ES_GATE5_TO_GATE6_HANDOFF_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/poland/MARKET-EU-PL_CURRENT_GATE_BASELINE_MANIFEST_V0.20.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/poland/05_review/MARKET-EU-PL_GATE6_REVIEW_SUBMISSION_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/netherlands/MARKET-EU-NL_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/india/MARKET-IN-001_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/brazil/MARKET-BR-EN_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/brazil/MARKET-BR-PT_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/markets/",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/products/05_review/PRODUCT-000_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/products/chloride-process/PRODUCT-PROC-CL_CURRENT_GATE_BASELINE_MANIFEST_V0.22.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/products/chloride-process/05_review/PRODUCT-PROC-CL_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/products/chloride-process/05_review/PRODUCT-PROC-CL_GATE5_TO_GATE6_HANDOFF_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/products/sulfate-process/PRODUCT-PROC-SU_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/product-pages/29_Product_Detail_Development_SOP_V2_Autonomous_Serial_Manifest_V0.16.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/product-pages/30_Product_Detail_12_Grade_Serial_Completion_Summary_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/coatings/APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/coatings/05_review/APP-COAT_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/02_analysis/APPLICATION_ARTICLE_TOPIC_CONTROLLER_MANDATE_AND_THREE_ARTICLE_USER_APPROVAL_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/masterbatch/APP-MB_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/printing-inks/05_review/APP-INK_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/paper/05_review/APP-PAPER_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/02_analysis/R01_PVC_UPVC_ARTICLE_D23_ACCEPTANCE_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/02_analysis/R01_PVC_UPVC_READER_FACING_REVISION_DIRECTIVE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/applications/01_research/r01-pvc-upvc/R01_D22_DISPATCH_RECORD_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/07_qa/RES-ORIGIN_CURRENT_GATE9_BASELINE_MANIFEST_V0.11.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/05_review/RES-PROC_CURRENT_GATE9_COMPARATIVE_REVIEW_MANIFEST_V0.13.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/05_review/RESOURCE_SHARED_TEMPLATE_NOT_SHARED_CONTENT_DECISION_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/chemours-alternatives/RES-CHEMOURS_CURRENT_GATE_BASELINE_MANIFEST_V0.17.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/r706-alternative/RES-R706_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/eu-trade/RES-TRADE-EU_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/uk-trade/RES-TRADE-UK_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/india-trade/RES-TRADE-IN_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/resources/brazil-trade/RES-TRADE-BR_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/documents/05_review/DOC-000_POST_GATE9_FAQ_GRADE_ALIGNMENT_DECISION_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/documents/tds-sds-coa/05_review/DOC-TDS_CURRENT_GATE9_BASELINE_MANIFEST_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/documents/reach/06_handoff/DOC-REACH_CURRENT_GATE9_BASELINE_MANIFEST_V0.17.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/documents/certificate-of-origin/04_planning/DOC-COO_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/documents/certificate-of-origin/05_review/DOC-COO_GATE5_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/documents/certificate-of-origin/05_review/DOC-COO_GATE5_TO_GATE6_HANDOFF_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/about-contact/05_review/ABOUT-001_GATE9_PROJECT_CONTROL_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/about-contact/",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/conversion/05_review/CONV-DOC_CURRENT_GATE9_BASELINE_MANIFEST_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/conversion/request-sample/05_review/CONV-SAMPLE_GATE9_CURRENT_BASELINE_MANIFEST_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/conversion/request-a-quote/05_review/CONV-RFQ_GATE8_RECEIVER_ENVIRONMENT_BLOCKER_RECORD_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "pages/legal-privacy/05_review/LEGAL-COOKIE-EN_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md",
+      "pass": true
+    },
+    {
+      "source": "00_PROJECT_STATUS.md",
+      "target": "docs/architecture/PROJECT_ENTRY_RESTRUCTURE_MIGRATION_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate4-complete-visual/agent.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate6-review-delivery/agent.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate4-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate5-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate1-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-gate1-execution-agent-design-v0.7.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate3-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate3-execution/history/agent-v0.2-scope-control-baseline.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate2-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-gate2-execution-agent-design-v0.7.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "gate2-review/agent.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-gate2-review-agent-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate3-two-page-process-retrospective-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "agents/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate3-v0.2-live-test-result-v0.2.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "brand-applied-visual-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "full-page-visual-composition/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "page-contract-consistency-review/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "development-delivery-specification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate6-agent-skill-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate6-skill-validation-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "full-page-visual-composition/history/SKILL-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate5-agent-skill-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate5-design-user-approval-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate5-skill-validation-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "brand-applied-visual-design/history/SKILL-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate4-agent-skill-design-v0.2.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate4-skill-validation-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../pages/markets/poland/05_review/MARKET-EU-PL_GATE4_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate4-two-page-process-retrospective-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate4-agent-skill-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "search-intent-evidence-analysis/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-gate1-execution-agent-design-v0.7.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-validation-v0.4.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-scope-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-validation-v0.3.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-validation-v0.2.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-validation-v0.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/architecture/PROJECT_SKILL_DIRECTORY_AND_GATE1_SPLIT_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "responsive-wireframe-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "responsive-wireframe-design/history/SKILL-v0.2-scope-control-baseline.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "layout-interaction-verification/references/gate3-structure-scope.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "layout-interaction-verification/history/SKILL-v0.3-before-gate3-scope.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "responsive-wireframe-design/scripts/check-preflight-record.mjs",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "layout-interaction-verification/references/core-risk-model.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "skills/README.md",
+      "target": "../docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md",
+      "pass": true
+    },
+    {
+      "source": "docs/page-briefs/README.md",
+      "target": "PAGE_BRIEF_TEMPLATE_V0.4.md",
+      "pass": true
+    },
+    {
+      "source": "docs/page-briefs/README.md",
+      "target": "../architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/page-briefs/README.md",
+      "target": "PAGE_BRIEF_TEMPLATE_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "docs/page-briefs/README.md",
+      "target": "PAGE_BRIEF_TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "source": "docs/page-playbooks/README.md",
+      "target": "../architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/page-playbooks/README.md",
+      "target": "PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "docs/product-pages/00_README.md",
+      "target": "../architecture/GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/product-pages/00_README.md",
+      "target": "03_Product_Detail_Template_Reuse_Development_SOP_V2.2.md",
+      "pass": true
+    },
+    {
+      "source": "docs/product-pages/00_README.md",
+      "target": "04_Product_Detail_Single_Grade_Operational_Checklist_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "docs/product-pages/00_README.md",
+      "target": "../page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.3.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../../agents/gate3-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../../skills/responsive-wireframe-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../../skills/layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../../skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../../skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../../skills/layout-interaction-verification/references/core-risk-model.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../../skills/responsive-wireframe-design/scripts/check-preflight-record.mjs",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.2.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "gate3-scope-revision-2026-09-07/CHANGE_MAP.json",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.4.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "../../agents/gate3-execution/history/agent-v0.3-before-workflow-alignment.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.5.md",
+      "target": "GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "GATE_WORKFLOW_V3.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "../../agents/gate4-complete-visual/agent.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "../../skills/brand-applied-visual-design/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "../../skills/full-page-visual-composition/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "../../skills/layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "../../agents/gate4-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "../../agents/gate5-execution/agent.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.0.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "../../skills/layout-interaction-verification/history/SKILL-v0.3-before-gate3-scope.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md",
+      "target": "GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md",
+      "target": "workflow-entry-alignment-2026-09-07/VALIDATION.json",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md",
+      "target": "workflow-entry-alignment-2026-09-07/CHANGE_MAP.json",
+      "pass": true
+    },
+    {
+      "source": "docs/architecture/WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md",
+      "target": "workflow-entry-alignment-2026-09-07/CHANGES.diff",
+      "pass": true
+    }
+  ],
+  "summary": {
+    "checks": 84,
+    "failed": 3,
+    "links": 412
+  }
+}

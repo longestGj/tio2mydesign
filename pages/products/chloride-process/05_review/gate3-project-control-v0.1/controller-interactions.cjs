@@ -1,0 +1,62 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),{pathToFileURL}=require('url');
+const {chromium}=require('C:/Users/longe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const source=process.argv[2],out=process.argv[3];fs.mkdirSync(out,{recursive:true});
+const sourceSha256=crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex'),url=pathToFileURL(source).href;
+const anchorId='explore-chloride-process-grades';
+(async()=>{const browser=await chromium.launch({headless:true});const results=[];
+try{for(const width of [1440,768,390]){
+ const ctx=await browser.newContext({viewport:{width,height:900},deviceScaleFactor:1});const requests=[],checks=[];
+ const check=(name,actual,expected)=>checks.push({name,actual,expected,pass:JSON.stringify(actual)===JSON.stringify(expected)});
+ await ctx.route(/^https?:/,r=>{requests.push(r.request().url());return r.abort()});
+ const page=await ctx.newPage();await page.goto(url);await page.evaluate(()=>document.fonts.ready);
+ const anchor=page.locator(`a[href="#${anchorId}"]`),target=page.locator('#'+anchorId);
+ await anchor.focus();await page.keyboard.press('Enter');
+ await page.waitForTimeout(100);
+ const anchorResult=await target.evaluate(e=>({active:document.activeElement===e,tag:e.tagName,top:e.getBoundingClientRect().top,bottom:e.getBoundingClientRect().bottom,text:e.textContent}));
+ check('keyboard anchor focuses visible heading',anchorResult.active&&anchorResult.tag==='H2'&&anchorResult.top>=0&&anchorResult.bottom<=900,true);
+ check('anchor exact text',anchorResult.text,'Explore Chloride-Process Grades');
+ await page.screenshot({path:path.join(out,`anchor-${width}.png`)});
+ await page.keyboard.press('Tab');check('tab continues to first grade',await page.evaluate(()=>document.activeElement.getAttribute('href')),'/products/m-350/');
+ await page.goto(url+'#'+anchorId);await page.waitForTimeout(100);
+ check('direct fragment focuses heading',await target.evaluate(e=>document.activeElement===e&&e.getBoundingClientRect().top>=0&&e.getBoundingClientRect().bottom<=900),true);
+ await page.goto(url);await page.evaluate(()=>document.fonts.ready);
+ check('cookie initially closed',await page.locator('dialog').evaluate(e=>e.open),false);
+ if(width<1101){const menu=page.locator('.mobileNav'),toggle=page.locator('.menuButton');
+  await toggle.click();check('menu label',await toggle.innerText(),'Close');
+  check('menu initial focus',await page.evaluate(()=>document.activeElement.textContent),'Home');
+  check('current nav',await menu.locator('[aria-current="page"]').allTextContents(),['Products']);
+  check('8 ordered links',await menu.locator('a').allTextContents(),['Home','Markets','Products','Applications','Documents','Resources','About','Request a Quote']);
+  check('inert background',await page.evaluate(()=>['main','footer','.logoLink','.headerRfq'].every(s=>document.querySelector(s).inert)),true);
+  await page.locator('main a').first().evaluate(e=>e.focus());check('background focus blocked',await page.evaluate(()=>document.activeElement.textContent),'Home');
+  await menu.locator('a').last().focus();await page.keyboard.press('Tab');check('menu forward loop',await page.evaluate(()=>document.activeElement.className),'menuButton');
+  await page.keyboard.press('Shift+Tab');check('menu reverse loop',await page.evaluate(()=>document.activeElement.textContent),'Request a Quote');
+  await page.screenshot({path:path.join(out,`menu-${width}.png`)});
+  const beforeWheel=await page.evaluate(()=>scrollY);await page.mouse.move(width-10,700);await page.mouse.wheel(0,500);await page.waitForTimeout(100);
+  check('menu locks background wheel scroll',await page.evaluate(()=>scrollY),beforeWheel);
+  await page.keyboard.press('Escape');check('Escape closes menu',await menu.isVisible(),false);check('Escape returns focus',await page.evaluate(()=>document.activeElement.className),'menuButton');
+  const menuHrefs=await menu.locator('a').evaluateAll(es=>es.map(e=>e.getAttribute('href')));
+  for(let i=0;i<menuHrefs.length;i++){await toggle.click();await menu.locator('a').nth(i).click();check(`menu item ${i+1} close`,await menu.isVisible(),false);check(`menu item ${i+1} target`,await page.evaluate(()=>window.planningNavigation.at(-1).href),menuHrefs[i]);}
+  check('background restored',await page.evaluate(()=>!document.querySelector('main').inert&&!document.querySelector('footer').inert&&document.body.style.overflow!== 'hidden'),true);
+  await toggle.click();await page.setViewportSize({width:1440,height:900});await page.waitForTimeout(100);
+  check('desktop resize closes menu',await menu.isVisible(),false);check('desktop resize restores background',await page.evaluate(()=>!document.querySelector('main').inert),true);
+  await page.setViewportSize({width,height:900});
+ }
+ const links=page.locator('main a:not([href^="#"])');const hrefs=await links.evaluateAll(es=>es.map(e=>e.getAttribute('href')));
+ for(let i=0;i<hrefs.length;i++){await links.nth(i).click();check(`body link ${i+1}`,await page.evaluate(()=>window.planningNavigation.at(-1).href),hrefs[i]);}
+ const trigger=page.locator('#cookie-trigger');await trigger.click();const dialog=page.locator('dialog');
+ check('cookie opens',await dialog.evaluate(e=>e.open),true);check('cookie initial focus',await page.evaluate(()=>document.activeElement.textContent),'Close');
+ await page.keyboard.press('Shift+Tab');check('cookie reverse loop',await page.evaluate(()=>document.activeElement.textContent),'Read Cookie Policy');await page.keyboard.press('Tab');check('cookie forward loop',await page.evaluate(()=>document.activeElement.textContent),'Close');
+ await page.screenshot({path:path.join(out,`cookie-${width}.png`)});
+ check('cookie exact copy',await page.locator('#cookie-body').innerText(),'No optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.');
+ check('cookie touch targets',await dialog.locator('a,button').evaluateAll(es=>es.every(e=>{const r=e.getBoundingClientRect();return r.width>=44&&r.height>=44})),true);
+ await page.keyboard.press('Escape');check('cookie Escape closes',await dialog.evaluate(e=>e.open),false);check('cookie Escape focus',await page.evaluate(()=>document.activeElement.id),'cookie-trigger');
+ await trigger.click();await dialog.locator('button').click();check('cookie close focus',await page.evaluate(()=>document.activeElement.id),'cookie-trigger');
+ check('outbound requests',requests,[]);
+ await ctx.close();
+ const nojs=await browser.newContext({viewport:{width,height:900},javaScriptEnabled:false});const np=await nojs.newPage();await np.goto(url);await np.locator(`a[href="#${anchorId}"]`).click();
+ check('no JS anchor scroll',await np.locator('#'+anchorId).evaluate(e=>e.getBoundingClientRect().top>=0&&e.getBoundingClientRect().bottom<=900),true);
+ check('no JS grade links',await np.locator('main a').evaluateAll(es=>es.filter(e=>/^View M-/.test(e.textContent)).length),8);
+ await nojs.close();results.push({width,sourceSha256,checks});
+ fs.writeFileSync(path.join(out,'interaction-observations.json'),JSON.stringify(results,null,2));
+}}finally{await browser.close();}
+console.log(JSON.stringify(results.map(r=>({width:r.width,count:r.checks.length,failures:r.checks.filter(c=>!c.pass)})),null,2));})();

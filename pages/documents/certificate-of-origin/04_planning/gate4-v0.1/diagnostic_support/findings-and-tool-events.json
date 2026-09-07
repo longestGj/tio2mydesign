@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-07T02:30:48.844Z",
+  "status": "AUTHOR_VISUAL_FAIL_REQUIRES_REVISION",
+  "sourceFreeze": "COO-G4-V01-SOURCE-01",
+  "pageFindings": [
+    {
+      "id": "COO-G4-AUTHOR-01",
+      "severity": "MAJOR",
+      "status": "OPEN",
+      "location": "#coo-02 a / #coo-06 a long inline official links",
+      "observed": "Official Source hover backgrounds cover adjacent prose at1440/768/390;390 keyboard outline crosses adjacent lines. Inherited vertical14px padding creates48px fragments inside27.2px lines.",
+      "evidence": [
+        "approval_core/1440-official-source-hover.png",
+        "approval_core/768-official-source-hover.png",
+        "approval_core/390-official-source-hover.png",
+        "approval_core/390-official-source-focus.png"
+      ],
+      "missedBy": "Preflight only visually inspected normal content. Actual contrast/target rectangles/fragment-center hit-tests cannot prove neighboring text visibility or hit-boundary isolation.",
+      "disposition": "Keep frozen V0.1 and all evidence; wait for independent review full findings, then parent-directed new version."
+    },
+    {
+      "id": "COO-G4-AUTHOR-02",
+      "severity": "EVIDENCE_METADATA",
+      "status": "ERRATUM_RECORDED",
+      "location": "approval_core/{1440,768,390}-footer.png",
+      "observed": "export-inventory state normal; PNGs actually show returned Cookie Settings focus.",
+      "disposition": "Frozen export retained. visual-readback corrects actual state; these are not pure normal screenshots."
+    }
+  ],
+  "sharedObservations": [
+    {
+      "id": "COO-G4-SHARED-OBS-01",
+      "observed": "Menu open -> Desktop closes/restores background but activeElement BODY.",
+      "disposition": "InheritedConsumerV0.2; no page behavior fork and no claim of visible-focus preservation on this path."
+    }
+  ],
+  "toolEvents": [
+    {
+      "id": "COO-G4-TOOL-01",
+      "observed": "First five-image preflight read response exceeded tool output context.",
+      "resolution": "No observation claimed from truncated response; all seven images reopened in smaller batches before freeze."
+    },
+    {
+      "id": "COO-G4-TOOL-02",
+      "observed": "Lookup of prior measure-rules.cjs path absent.",
+      "resolution": "Listed actual diagnostic directory; read measure-visual-roles.cjs and adapted tooling selectors locally."
+    }
+  ],
+  "preflightAutomaticErrors": 0,
+  "formalAutomaticErrors": 0,
+  "authorVisualFail": true,
+  "candidateRevisionsAfterFreeze": 0,
+  "history": "G3 and Poland IR01 evidence untouched. No failed screenshot removed or overwritten."
+}

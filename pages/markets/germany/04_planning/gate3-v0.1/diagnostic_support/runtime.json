@@ -1,0 +1,6030 @@
+{
+  "status": "PASS",
+  "pageId": "MARKET-EU-DE",
+  "evidenceType": [
+    "ACTUAL_RUNTIME",
+    "STATIC_VISUAL",
+    "SOURCE_INSPECTION",
+    "LOCAL_SIMULATION"
+  ],
+  "source": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/MARKET-EU-DE_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 23892,
+    "sha256": "355efe81188bc486825a2c97532fc63abb5912b089eab9671f930135449ab380"
+  },
+  "browser": "Chrome 152 / Playwright 1.62.1, DPR 1",
+  "formal": false,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 768,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    {
+      "name": "1440 exact Buyer Copy text",
+      "status": "PASS",
+      "detail": {
+        "expectedLength": 5867,
+        "actualLength": 5867
+      }
+    },
+    {
+      "name": "1440 exact Buyer Copy links",
+      "status": "PASS",
+      "detail": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Markets",
+          "href": "/markets/"
+        },
+        {
+          "text": "European Union",
+          "href": "/markets/european-union/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Explore Products",
+          "href": "/products/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Coatings",
+          "href": "/applications/titanium-dioxide-for-coatings/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Plastics",
+          "href": "/applications/titanium-dioxide-for-plastics/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Masterbatch",
+          "href": "/applications/titanium-dioxide-for-masterbatch/"
+        },
+        {
+          "text": "Product Hub",
+          "href": "/products/"
+        },
+        {
+          "text": "Request Documents",
+          "href": "/request-documents/"
+        },
+        {
+          "text": "Products",
+          "href": "/products/"
+        },
+        {
+          "text": "quotation request",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Request a Sample",
+          "href": "/request-sample/"
+        },
+        {
+          "text": "EU Procurement Overview",
+          "href": "/markets/european-union/"
+        },
+        {
+          "text": "EU Titanium Dioxide Trade Update",
+          "href": "/resources/eu-titanium-dioxide-anti-dumping-duty/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "VdL — German coatings market 2025",
+          "href": "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025"
+        },
+        {
+          "text": "GKV — German plastics-processing industry statement",
+          "href": "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html"
+        },
+        {
+          "text": "Hamburg Port Authority — Port Railway",
+          "href": "https://www.hamburg-port-authority.de/en/port-railway"
+        }
+      ]
+    },
+    {
+      "name": "1440 approved structure only",
+      "status": "PASS",
+      "detail": {
+        "h1": 1,
+        "h2": 6,
+        "h3": 4,
+        "sections": 7,
+        "forms": 0,
+        "pageImages": 0,
+        "visibleCurrentWord": false
+      }
+    },
+    {
+      "name": "1440 Footer closes page and no horizontal overflow",
+      "status": "PASS",
+      "detail": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 4771,
+        "footerBottom": 4771.46875,
+        "bodyMargin": "0px",
+        "fontLoaded": true,
+        "bodyFont": "Inter, Arial, sans-serif",
+        "visible": [
+          {
+            "text": "Home",
+            "left": 120,
+            "right": 164,
+            "top": 128,
+            "bottom": 172,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "left": 185.390625,
+            "right": 241.046875,
+            "top": 128,
+            "bottom": 172,
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "left": 262.4375,
+            "right": 370.640625,
+            "top": 128,
+            "bottom": 172,
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Titanium Dioxide Supplier for Germany",
+            "left": 120,
+            "right": 1000,
+            "top": 196,
+            "bottom": 343.1875,
+            "width": 880,
+            "height": 147.1875
+          },
+          {
+            "text": "Evaluate Malaysia-origin titanium dioxide for an industrial requirement with del",
+            "left": 120,
+            "right": 890,
+            "top": 367.1875,
+            "bottom": 461.21875,
+            "width": 770,
+            "height": 94.03125
+          },
+          {
+            "text": "Request a Quote\nExplore Products",
+            "left": 120,
+            "right": 1320,
+            "top": 489.21875,
+            "bottom": 539.609375,
+            "width": 1200,
+            "height": 50.390625
+          },
+          {
+            "text": "Request a Quote",
+            "left": 120,
+            "right": 289.28125,
+            "top": 489.21875,
+            "bottom": 539.609375,
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "Explore Products",
+            "left": 301.28125,
+            "right": 474.890625,
+            "top": 489.21875,
+            "bottom": 539.609375,
+            "width": 173.609375,
+            "height": 50.390625
+          },
+          {
+            "text": "Start with the German Industrial Use You Need to Serve",
+            "left": 120,
+            "right": 1080,
+            "top": 705.609375,
+            "bottom": 806.796875,
+            "width": 960,
+            "height": 101.1875
+          },
+          {
+            "text": "For a Germany sourcing brief, start with the industrial use rather than a countr",
+            "left": 120,
+            "right": 1080,
+            "top": 830.796875,
+            "bottom": 936.359375,
+            "width": 960,
+            "height": 105.5625
+          },
+          {
+            "text": "These industry references help frame the application information to bring into a",
+            "left": 120,
+            "right": 1080,
+            "top": 954.359375,
+            "bottom": 1007.140625,
+            "width": 960,
+            "height": 52.78125
+          },
+          {
+            "text": "Coatings",
+            "left": 147,
+            "right": 479.65625,
+            "top": 1069.140625,
+            "bottom": 1095.578125,
+            "width": 332.65625,
+            "height": 26.4375
+          },
+          {
+            "text": "For automotive OEM, vehicle-refinish, metal-product or another coating project, ",
+            "left": 147,
+            "right": 479.65625,
+            "top": 1109.578125,
+            "bottom": 1320.703125,
+            "width": 332.65625,
+            "height": 211.125
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 147,
+            "right": 479.65625,
+            "top": 1335.703125,
+            "bottom": 1383.703125,
+            "width": 332.65625,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 147,
+            "right": 479.65625,
+            "top": 1339.703125,
+            "bottom": 1383.703125,
+            "width": 332.65625,
+            "height": 44
+          },
+          {
+            "text": "Plastics",
+            "left": 553.65625,
+            "right": 886.328125,
+            "top": 1069.140625,
+            "bottom": 1095.578125,
+            "width": 332.671875,
+            "height": 26.4375
+          },
+          {
+            "text": "For packaging, construction products, technical parts or another plastics use, i",
+            "left": 553.65625,
+            "right": 886.328125,
+            "top": 1109.578125,
+            "bottom": 1267.921875,
+            "width": 332.671875,
+            "height": 158.34375
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 553.65625,
+            "right": 886.328125,
+            "top": 1282.921875,
+            "bottom": 1330.921875,
+            "width": 332.671875,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 553.65625,
+            "right": 886.328125,
+            "top": 1286.921875,
+            "bottom": 1330.921875,
+            "width": 332.671875,
+            "height": 44
+          },
+          {
+            "text": "Masterbatch",
+            "left": 960.328125,
+            "right": 1292.984375,
+            "top": 1069.140625,
+            "bottom": 1095.578125,
+            "width": 332.65625,
+            "height": 26.4375
+          },
+          {
+            "text": "If you are producing a titanium dioxide masterbatch, state the carrier polymer, ",
+            "left": 960.328125,
+            "right": 1292.984375,
+            "top": 1109.578125,
+            "bottom": 1267.921875,
+            "width": 332.65625,
+            "height": 158.34375
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 960.328125,
+            "right": 1292.984375,
+            "top": 1282.921875,
+            "bottom": 1330.921875,
+            "width": 332.65625,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 960.328125,
+            "right": 1292.984375,
+            "top": 1286.921875,
+            "bottom": 1330.921875,
+            "width": 332.65625,
+            "height": 44
+          },
+          {
+            "text": "Choose the Right Evaluation Path",
+            "left": 260,
+            "right": 1180,
+            "top": 1570.703125,
+            "bottom": 1621.296875,
+            "width": 920,
+            "height": 50.59375
+          },
+          {
+            "text": "A country, sector or end-use label does not select a Grade. Use the Product Hub ",
+            "left": 260,
+            "right": 1180,
+            "top": 1645.296875,
+            "bottom": 1742.078125,
+            "width": 920,
+            "height": 96.78125
+          },
+          {
+            "text": "Product Hub",
+            "left": 768.859375,
+            "right": 865.296875,
+            "top": 1645.296875,
+            "bottom": 1689.296875,
+            "width": 96.4375,
+            "height": 44
+          },
+          {
+            "text": "If you do not yet know the Product / Grade, you can still continue to the quotat",
+            "left": 260,
+            "right": 1180,
+            "top": 1760.078125,
+            "bottom": 1839.25,
+            "width": 920,
+            "height": 79.171875
+          },
+          {
+            "text": "Use Documents and Samples for the Review You Are Planning",
+            "left": 260,
+            "right": 1180,
+            "top": 1984.25,
+            "bottom": 2085.4375,
+            "width": 920,
+            "height": 101.1875
+          },
+          {
+            "text": "Use Request Documents when your team has a specific Grade and document request. ",
+            "left": 260,
+            "right": 1180,
+            "top": 2109.4375,
+            "bottom": 2206.21875,
+            "width": 920,
+            "height": 96.78125
+          },
+          {
+            "text": "Request Documents",
+            "left": 293.875,
+            "right": 449.671875,
+            "top": 2109.4375,
+            "bottom": 2153.4375,
+            "width": 155.796875,
+            "height": 44
+          },
+          {
+            "text": "If the Grade is not yet known, review Products or use Not sure / Need help in th",
+            "left": 260,
+            "right": 1180,
+            "top": 2224.21875,
+            "bottom": 2294.609375,
+            "width": 920,
+            "height": 70.390625
+          },
+          {
+            "text": "Products",
+            "left": 537.765625,
+            "right": 607.34375,
+            "top": 2224.21875,
+            "bottom": 2268.21875,
+            "width": 69.578125,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "left": 865.6875,
+            "right": 1002.8125,
+            "top": 2224.21875,
+            "bottom": 2268.21875,
+            "width": 137.125,
+            "height": 44
+          },
+          {
+            "text": "Use Request a Sample when you have an application and a technical evaluation pla",
+            "left": 260,
+            "right": 1180,
+            "top": 2312.609375,
+            "bottom": 2383,
+            "width": 920,
+            "height": 70.390625
+          },
+          {
+            "text": "Request a Sample",
+            "left": 293.875,
+            "right": 431.9375,
+            "top": 2312.609375,
+            "bottom": 2356.609375,
+            "width": 138.0625,
+            "height": 44
+          },
+          {
+            "text": "Describe the German Destination Beyond a Country Label",
+            "left": 120,
+            "right": 840,
+            "top": 2528,
+            "bottom": 2629.1875,
+            "width": 720,
+            "height": 101.1875
+          },
+          {
+            "text": "State Germany as the destination country. Add the final receiving city or site a",
+            "left": 120,
+            "right": 840,
+            "top": 2653.1875,
+            "bottom": 2732.359375,
+            "width": 720,
+            "height": 79.171875
+          },
+          {
+            "text": "If Hamburg is part of your proposed plan, say whether it is the port handover po",
+            "left": 120,
+            "right": 840,
+            "top": 2750.359375,
+            "bottom": 2882.3125,
+            "width": 720,
+            "height": 131.953125
+          },
+          {
+            "text": "Before requesting a quote, assemble the context you already have:",
+            "left": 917,
+            "right": 1291,
+            "top": 2557,
+            "bottom": 2611,
+            "width": 374,
+            "height": 54
+          },
+          {
+            "text": "application and Product / Grade, or state that the Grade is not yet known;",
+            "left": 939,
+            "right": 1291,
+            "top": 2629,
+            "bottom": 2681.78125,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "required or estimated quantity in metric tonnes;",
+            "left": 939,
+            "right": 1291,
+            "top": 2693.78125,
+            "bottom": 2746.5625,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "Germany destination, with final city/site and port or handover point if known;",
+            "left": 939,
+            "right": 1291,
+            "top": 2758.5625,
+            "bottom": 2811.34375,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "packaging, timing and document requirements, if known; and",
+            "left": 939,
+            "right": 1291,
+            "top": 2823.34375,
+            "bottom": 2876.125,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "company and business contact details for follow-up.",
+            "left": 939,
+            "right": 1291,
+            "top": 2888.125,
+            "bottom": 2940.90625,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "Keep EU-Wide Checks with the EU Owners",
+            "left": 260,
+            "right": 1180,
+            "top": 3126.90625,
+            "bottom": 3177.5,
+            "width": 920,
+            "height": 50.59375
+          },
+          {
+            "text": "Germany is part of the European Union procurement context. Use the EU Procuremen",
+            "left": 260,
+            "right": 1180,
+            "top": 3201.5,
+            "bottom": 3315.890625,
+            "width": 920,
+            "height": 114.390625
+          },
+          {
+            "text": "EU Procurement Overview",
+            "left": 783.734375,
+            "right": 986.609375,
+            "top": 3201.5,
+            "bottom": 3245.5,
+            "width": 202.875,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "left": 260,
+            "right": 523.015625,
+            "top": 3271.890625,
+            "bottom": 3315.890625,
+            "width": 263.015625,
+            "height": 44
+          },
+          {
+            "text": "This Germany page focuses on application and destination preparation. It does no",
+            "left": 260,
+            "right": 1180,
+            "top": 3333.890625,
+            "bottom": 3386.671875,
+            "width": 920,
+            "height": 52.78125
+          },
+          {
+            "text": "Send a Germany Destination Request",
+            "left": 164,
+            "right": 1276,
+            "top": 3575.671875,
+            "bottom": 3626.265625,
+            "width": 1112,
+            "height": 50.59375
+          },
+          {
+            "text": "On the quotation form, select a Product / Grade or choose Not sure / Need help. ",
+            "left": 164,
+            "right": 1276,
+            "top": 3650.265625,
+            "bottom": 3703.046875,
+            "width": 1112,
+            "height": 52.78125
+          },
+          {
+            "text": "Request a Quote",
+            "left": 164,
+            "right": 1276,
+            "top": 3721.046875,
+            "bottom": 3771.4375,
+            "width": 1112,
+            "height": 50.390625
+          },
+          {
+            "text": "Request a Quote",
+            "left": 164,
+            "right": 333.28125,
+            "top": 3721.046875,
+            "bottom": 3771.4375,
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "After submission, our team reviews your requirements and details, then contacts ",
+            "left": 164,
+            "right": 1276,
+            "top": 3789.4375,
+            "bottom": 3842.21875,
+            "width": 1112,
+            "height": 52.78125
+          },
+          {
+            "text": "Germany industry and destination references",
+            "left": 120,
+            "right": 1320,
+            "top": 3942.21875,
+            "bottom": 3974.40625,
+            "width": 1200,
+            "height": 32.1875
+          },
+          {
+            "text": "VdL — German coatings market 2025 — published 11 February 2026; the source lists",
+            "left": 142,
+            "right": 1320,
+            "top": 3992.40625,
+            "bottom": 4036.40625,
+            "width": 1178,
+            "height": 44
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "left": 147,
+            "right": 434.890625,
+            "top": 3992.40625,
+            "bottom": 4036.40625,
+            "width": 287.890625,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement — published 18 February 2026",
+            "left": 142,
+            "right": 1320,
+            "top": 4052.40625,
+            "bottom": 4122.796875,
+            "width": 1178,
+            "height": 70.390625
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "left": 147,
+            "right": 575.15625,
+            "top": 4052.40625,
+            "bottom": 4096.40625,
+            "width": 428.15625,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway — publication date not shown; checked 7 Se",
+            "left": 142,
+            "right": 1320,
+            "top": 4138.796875,
+            "bottom": 4182.796875,
+            "width": 1178,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "left": 147,
+            "right": 451,
+            "top": 4138.796875,
+            "bottom": 4182.796875,
+            "width": 304,
+            "height": 44
+          },
+          {
+            "text": "Germany industry and destination context checked: 7 September 2026.",
+            "left": 120,
+            "right": 1320,
+            "top": 4198.796875,
+            "bottom": 4225.1875,
+            "width": 1200,
+            "height": 26.390625
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83
+          },
+          {
+            "text": "Markets",
+            "width": 56.109375,
+            "height": 83
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "Explore Products",
+            "width": 173.609375,
+            "height": 50.390625
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "width": 332.65625,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "width": 332.671875,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "width": 332.65625,
+            "height": 44
+          },
+          {
+            "text": "Product Hub",
+            "width": 96.4375,
+            "height": 44
+          },
+          {
+            "text": "Request Documents",
+            "width": 155.796875,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 69.578125,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "width": 137.125,
+            "height": 44
+          },
+          {
+            "text": "Request a Sample",
+            "width": 138.0625,
+            "height": 44
+          },
+          {
+            "text": "EU Procurement Overview",
+            "width": 202.875,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "width": 263.015625,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "width": 287.890625,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "width": 428.15625,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "width": 304,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "appColumns": 3,
+        "destinationColumns": 2,
+        "reducedMotion": "auto"
+      }
+    },
+    {
+      "name": "1440 all Buyer Copy blocks visibly bounded",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "1440 visible controls at least 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "1440 reduced motion applied",
+      "status": "PASS",
+      "detail": "auto"
+    },
+    {
+      "name": "1440 editorial structures",
+      "status": "PASS",
+      "detail": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 4771,
+        "footerBottom": 4771.46875,
+        "bodyMargin": "0px",
+        "fontLoaded": true,
+        "bodyFont": "Inter, Arial, sans-serif",
+        "visible": [
+          {
+            "text": "Home",
+            "left": 120,
+            "right": 164,
+            "top": 128,
+            "bottom": 172,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "left": 185.390625,
+            "right": 241.046875,
+            "top": 128,
+            "bottom": 172,
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "left": 262.4375,
+            "right": 370.640625,
+            "top": 128,
+            "bottom": 172,
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Titanium Dioxide Supplier for Germany",
+            "left": 120,
+            "right": 1000,
+            "top": 196,
+            "bottom": 343.1875,
+            "width": 880,
+            "height": 147.1875
+          },
+          {
+            "text": "Evaluate Malaysia-origin titanium dioxide for an industrial requirement with del",
+            "left": 120,
+            "right": 890,
+            "top": 367.1875,
+            "bottom": 461.21875,
+            "width": 770,
+            "height": 94.03125
+          },
+          {
+            "text": "Request a Quote\nExplore Products",
+            "left": 120,
+            "right": 1320,
+            "top": 489.21875,
+            "bottom": 539.609375,
+            "width": 1200,
+            "height": 50.390625
+          },
+          {
+            "text": "Request a Quote",
+            "left": 120,
+            "right": 289.28125,
+            "top": 489.21875,
+            "bottom": 539.609375,
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "Explore Products",
+            "left": 301.28125,
+            "right": 474.890625,
+            "top": 489.21875,
+            "bottom": 539.609375,
+            "width": 173.609375,
+            "height": 50.390625
+          },
+          {
+            "text": "Start with the German Industrial Use You Need to Serve",
+            "left": 120,
+            "right": 1080,
+            "top": 705.609375,
+            "bottom": 806.796875,
+            "width": 960,
+            "height": 101.1875
+          },
+          {
+            "text": "For a Germany sourcing brief, start with the industrial use rather than a countr",
+            "left": 120,
+            "right": 1080,
+            "top": 830.796875,
+            "bottom": 936.359375,
+            "width": 960,
+            "height": 105.5625
+          },
+          {
+            "text": "These industry references help frame the application information to bring into a",
+            "left": 120,
+            "right": 1080,
+            "top": 954.359375,
+            "bottom": 1007.140625,
+            "width": 960,
+            "height": 52.78125
+          },
+          {
+            "text": "Coatings",
+            "left": 147,
+            "right": 479.65625,
+            "top": 1069.140625,
+            "bottom": 1095.578125,
+            "width": 332.65625,
+            "height": 26.4375
+          },
+          {
+            "text": "For automotive OEM, vehicle-refinish, metal-product or another coating project, ",
+            "left": 147,
+            "right": 479.65625,
+            "top": 1109.578125,
+            "bottom": 1320.703125,
+            "width": 332.65625,
+            "height": 211.125
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 147,
+            "right": 479.65625,
+            "top": 1335.703125,
+            "bottom": 1383.703125,
+            "width": 332.65625,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 147,
+            "right": 479.65625,
+            "top": 1339.703125,
+            "bottom": 1383.703125,
+            "width": 332.65625,
+            "height": 44
+          },
+          {
+            "text": "Plastics",
+            "left": 553.65625,
+            "right": 886.328125,
+            "top": 1069.140625,
+            "bottom": 1095.578125,
+            "width": 332.671875,
+            "height": 26.4375
+          },
+          {
+            "text": "For packaging, construction products, technical parts or another plastics use, i",
+            "left": 553.65625,
+            "right": 886.328125,
+            "top": 1109.578125,
+            "bottom": 1267.921875,
+            "width": 332.671875,
+            "height": 158.34375
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 553.65625,
+            "right": 886.328125,
+            "top": 1282.921875,
+            "bottom": 1330.921875,
+            "width": 332.671875,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 553.65625,
+            "right": 886.328125,
+            "top": 1286.921875,
+            "bottom": 1330.921875,
+            "width": 332.671875,
+            "height": 44
+          },
+          {
+            "text": "Masterbatch",
+            "left": 960.328125,
+            "right": 1292.984375,
+            "top": 1069.140625,
+            "bottom": 1095.578125,
+            "width": 332.65625,
+            "height": 26.4375
+          },
+          {
+            "text": "If you are producing a titanium dioxide masterbatch, state the carrier polymer, ",
+            "left": 960.328125,
+            "right": 1292.984375,
+            "top": 1109.578125,
+            "bottom": 1267.921875,
+            "width": 332.65625,
+            "height": 158.34375
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 960.328125,
+            "right": 1292.984375,
+            "top": 1282.921875,
+            "bottom": 1330.921875,
+            "width": 332.65625,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 960.328125,
+            "right": 1292.984375,
+            "top": 1286.921875,
+            "bottom": 1330.921875,
+            "width": 332.65625,
+            "height": 44
+          },
+          {
+            "text": "Choose the Right Evaluation Path",
+            "left": 260,
+            "right": 1180,
+            "top": 1570.703125,
+            "bottom": 1621.296875,
+            "width": 920,
+            "height": 50.59375
+          },
+          {
+            "text": "A country, sector or end-use label does not select a Grade. Use the Product Hub ",
+            "left": 260,
+            "right": 1180,
+            "top": 1645.296875,
+            "bottom": 1742.078125,
+            "width": 920,
+            "height": 96.78125
+          },
+          {
+            "text": "Product Hub",
+            "left": 768.859375,
+            "right": 865.296875,
+            "top": 1645.296875,
+            "bottom": 1689.296875,
+            "width": 96.4375,
+            "height": 44
+          },
+          {
+            "text": "If you do not yet know the Product / Grade, you can still continue to the quotat",
+            "left": 260,
+            "right": 1180,
+            "top": 1760.078125,
+            "bottom": 1839.25,
+            "width": 920,
+            "height": 79.171875
+          },
+          {
+            "text": "Use Documents and Samples for the Review You Are Planning",
+            "left": 260,
+            "right": 1180,
+            "top": 1984.25,
+            "bottom": 2085.4375,
+            "width": 920,
+            "height": 101.1875
+          },
+          {
+            "text": "Use Request Documents when your team has a specific Grade and document request. ",
+            "left": 260,
+            "right": 1180,
+            "top": 2109.4375,
+            "bottom": 2206.21875,
+            "width": 920,
+            "height": 96.78125
+          },
+          {
+            "text": "Request Documents",
+            "left": 293.875,
+            "right": 449.671875,
+            "top": 2109.4375,
+            "bottom": 2153.4375,
+            "width": 155.796875,
+            "height": 44
+          },
+          {
+            "text": "If the Grade is not yet known, review Products or use Not sure / Need help in th",
+            "left": 260,
+            "right": 1180,
+            "top": 2224.21875,
+            "bottom": 2294.609375,
+            "width": 920,
+            "height": 70.390625
+          },
+          {
+            "text": "Products",
+            "left": 537.765625,
+            "right": 607.34375,
+            "top": 2224.21875,
+            "bottom": 2268.21875,
+            "width": 69.578125,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "left": 865.6875,
+            "right": 1002.8125,
+            "top": 2224.21875,
+            "bottom": 2268.21875,
+            "width": 137.125,
+            "height": 44
+          },
+          {
+            "text": "Use Request a Sample when you have an application and a technical evaluation pla",
+            "left": 260,
+            "right": 1180,
+            "top": 2312.609375,
+            "bottom": 2383,
+            "width": 920,
+            "height": 70.390625
+          },
+          {
+            "text": "Request a Sample",
+            "left": 293.875,
+            "right": 431.9375,
+            "top": 2312.609375,
+            "bottom": 2356.609375,
+            "width": 138.0625,
+            "height": 44
+          },
+          {
+            "text": "Describe the German Destination Beyond a Country Label",
+            "left": 120,
+            "right": 840,
+            "top": 2528,
+            "bottom": 2629.1875,
+            "width": 720,
+            "height": 101.1875
+          },
+          {
+            "text": "State Germany as the destination country. Add the final receiving city or site a",
+            "left": 120,
+            "right": 840,
+            "top": 2653.1875,
+            "bottom": 2732.359375,
+            "width": 720,
+            "height": 79.171875
+          },
+          {
+            "text": "If Hamburg is part of your proposed plan, say whether it is the port handover po",
+            "left": 120,
+            "right": 840,
+            "top": 2750.359375,
+            "bottom": 2882.3125,
+            "width": 720,
+            "height": 131.953125
+          },
+          {
+            "text": "Before requesting a quote, assemble the context you already have:",
+            "left": 917,
+            "right": 1291,
+            "top": 2557,
+            "bottom": 2611,
+            "width": 374,
+            "height": 54
+          },
+          {
+            "text": "application and Product / Grade, or state that the Grade is not yet known;",
+            "left": 939,
+            "right": 1291,
+            "top": 2629,
+            "bottom": 2681.78125,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "required or estimated quantity in metric tonnes;",
+            "left": 939,
+            "right": 1291,
+            "top": 2693.78125,
+            "bottom": 2746.5625,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "Germany destination, with final city/site and port or handover point if known;",
+            "left": 939,
+            "right": 1291,
+            "top": 2758.5625,
+            "bottom": 2811.34375,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "packaging, timing and document requirements, if known; and",
+            "left": 939,
+            "right": 1291,
+            "top": 2823.34375,
+            "bottom": 2876.125,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "company and business contact details for follow-up.",
+            "left": 939,
+            "right": 1291,
+            "top": 2888.125,
+            "bottom": 2940.90625,
+            "width": 352,
+            "height": 52.78125
+          },
+          {
+            "text": "Keep EU-Wide Checks with the EU Owners",
+            "left": 260,
+            "right": 1180,
+            "top": 3126.90625,
+            "bottom": 3177.5,
+            "width": 920,
+            "height": 50.59375
+          },
+          {
+            "text": "Germany is part of the European Union procurement context. Use the EU Procuremen",
+            "left": 260,
+            "right": 1180,
+            "top": 3201.5,
+            "bottom": 3315.890625,
+            "width": 920,
+            "height": 114.390625
+          },
+          {
+            "text": "EU Procurement Overview",
+            "left": 783.734375,
+            "right": 986.609375,
+            "top": 3201.5,
+            "bottom": 3245.5,
+            "width": 202.875,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "left": 260,
+            "right": 523.015625,
+            "top": 3271.890625,
+            "bottom": 3315.890625,
+            "width": 263.015625,
+            "height": 44
+          },
+          {
+            "text": "This Germany page focuses on application and destination preparation. It does no",
+            "left": 260,
+            "right": 1180,
+            "top": 3333.890625,
+            "bottom": 3386.671875,
+            "width": 920,
+            "height": 52.78125
+          },
+          {
+            "text": "Send a Germany Destination Request",
+            "left": 164,
+            "right": 1276,
+            "top": 3575.671875,
+            "bottom": 3626.265625,
+            "width": 1112,
+            "height": 50.59375
+          },
+          {
+            "text": "On the quotation form, select a Product / Grade or choose Not sure / Need help. ",
+            "left": 164,
+            "right": 1276,
+            "top": 3650.265625,
+            "bottom": 3703.046875,
+            "width": 1112,
+            "height": 52.78125
+          },
+          {
+            "text": "Request a Quote",
+            "left": 164,
+            "right": 1276,
+            "top": 3721.046875,
+            "bottom": 3771.4375,
+            "width": 1112,
+            "height": 50.390625
+          },
+          {
+            "text": "Request a Quote",
+            "left": 164,
+            "right": 333.28125,
+            "top": 3721.046875,
+            "bottom": 3771.4375,
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "After submission, our team reviews your requirements and details, then contacts ",
+            "left": 164,
+            "right": 1276,
+            "top": 3789.4375,
+            "bottom": 3842.21875,
+            "width": 1112,
+            "height": 52.78125
+          },
+          {
+            "text": "Germany industry and destination references",
+            "left": 120,
+            "right": 1320,
+            "top": 3942.21875,
+            "bottom": 3974.40625,
+            "width": 1200,
+            "height": 32.1875
+          },
+          {
+            "text": "VdL — German coatings market 2025 — published 11 February 2026; the source lists",
+            "left": 142,
+            "right": 1320,
+            "top": 3992.40625,
+            "bottom": 4036.40625,
+            "width": 1178,
+            "height": 44
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "left": 147,
+            "right": 434.890625,
+            "top": 3992.40625,
+            "bottom": 4036.40625,
+            "width": 287.890625,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement — published 18 February 2026",
+            "left": 142,
+            "right": 1320,
+            "top": 4052.40625,
+            "bottom": 4122.796875,
+            "width": 1178,
+            "height": 70.390625
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "left": 147,
+            "right": 575.15625,
+            "top": 4052.40625,
+            "bottom": 4096.40625,
+            "width": 428.15625,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway — publication date not shown; checked 7 Se",
+            "left": 142,
+            "right": 1320,
+            "top": 4138.796875,
+            "bottom": 4182.796875,
+            "width": 1178,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "left": 147,
+            "right": 451,
+            "top": 4138.796875,
+            "bottom": 4182.796875,
+            "width": 304,
+            "height": 44
+          },
+          {
+            "text": "Germany industry and destination context checked: 7 September 2026.",
+            "left": 120,
+            "right": 1320,
+            "top": 4198.796875,
+            "bottom": 4225.1875,
+            "width": 1200,
+            "height": 26.390625
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83
+          },
+          {
+            "text": "Markets",
+            "width": 56.109375,
+            "height": 83
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "Explore Products",
+            "width": 173.609375,
+            "height": 50.390625
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "width": 332.65625,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "width": 332.671875,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "width": 332.65625,
+            "height": 44
+          },
+          {
+            "text": "Product Hub",
+            "width": 96.4375,
+            "height": 44
+          },
+          {
+            "text": "Request Documents",
+            "width": 155.796875,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 69.578125,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "width": 137.125,
+            "height": 44
+          },
+          {
+            "text": "Request a Sample",
+            "width": 138.0625,
+            "height": 44
+          },
+          {
+            "text": "EU Procurement Overview",
+            "width": 202.875,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "width": 263.015625,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "width": 287.890625,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "width": 428.15625,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "width": 304,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "appColumns": 3,
+        "destinationColumns": 2,
+        "reducedMotion": "auto"
+      }
+    },
+    {
+      "name": "1440 Markets current navigation mapping",
+      "status": "PASS",
+      "detail": {
+        "desktopVisible": true,
+        "mobileVisible": false,
+        "desktopCurrent": "Markets",
+        "mobileCurrent": "Markets",
+        "activeSurfaces": 1
+      }
+    },
+    {
+      "name": "1440 Germany application relationships",
+      "status": "PASS",
+      "detail": {
+        "applicationHeadings": [
+          "Coatings",
+          "Plastics",
+          "Masterbatch"
+        ],
+        "applicationHrefs": [
+          "/applications/titanium-dioxide-for-coatings/",
+          "/applications/titanium-dioxide-for-plastics/",
+          "/applications/titanium-dioxide-for-masterbatch/"
+        ],
+        "checklistItems": 5,
+        "sourceHrefs": [
+          "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+          "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+          "https://www.hamburg-port-authority.de/en/port-railway"
+        ],
+        "tradeHref": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "forbidden": false
+      }
+    },
+    {
+      "name": "1440 Germany destination and sources",
+      "status": "PASS",
+      "detail": {
+        "applicationHeadings": [
+          "Coatings",
+          "Plastics",
+          "Masterbatch"
+        ],
+        "applicationHrefs": [
+          "/applications/titanium-dioxide-for-coatings/",
+          "/applications/titanium-dioxide-for-plastics/",
+          "/applications/titanium-dioxide-for-masterbatch/"
+        ],
+        "checklistItems": 5,
+        "sourceHrefs": [
+          "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+          "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+          "https://www.hamburg-port-authority.de/en/port-railway"
+        ],
+        "tradeHref": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "forbidden": false
+      }
+    },
+    {
+      "name": "1440 local action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 3",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/european-union/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 4",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "1440 local action 5",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 6",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-coatings/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 7",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-plastics/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 8",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-masterbatch/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 9",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 10",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-documents/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 11",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 12",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "1440 local action 13",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-sample/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 14",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/european-union/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 15",
+      "status": "PASS",
+      "detail": {
+        "href": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 16",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "1440 local action 17",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 18",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 local action 19",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.hamburg-port-authority.de/en/port-railway",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 Cookie entry focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1440 Cookie controls and functional teal",
+      "status": "PASS",
+      "detail": [
+        {
+          "width": 76.484375,
+          "height": 48,
+          "color": "rgb(0, 128, 120)",
+          "border": "rgb(0, 128, 120)"
+        },
+        {
+          "width": 167.390625,
+          "height": 48,
+          "color": "rgb(0, 128, 120)",
+          "border": "rgb(0, 128, 120)"
+        }
+      ]
+    },
+    {
+      "name": "1440 Cookie reverse focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1440 Cookie forward focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1440 Cookie close returns trigger focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 exact Buyer Copy text",
+      "status": "PASS",
+      "detail": {
+        "expectedLength": 5867,
+        "actualLength": 5867
+      }
+    },
+    {
+      "name": "768 exact Buyer Copy links",
+      "status": "PASS",
+      "detail": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Markets",
+          "href": "/markets/"
+        },
+        {
+          "text": "European Union",
+          "href": "/markets/european-union/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Explore Products",
+          "href": "/products/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Coatings",
+          "href": "/applications/titanium-dioxide-for-coatings/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Plastics",
+          "href": "/applications/titanium-dioxide-for-plastics/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Masterbatch",
+          "href": "/applications/titanium-dioxide-for-masterbatch/"
+        },
+        {
+          "text": "Product Hub",
+          "href": "/products/"
+        },
+        {
+          "text": "Request Documents",
+          "href": "/request-documents/"
+        },
+        {
+          "text": "Products",
+          "href": "/products/"
+        },
+        {
+          "text": "quotation request",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Request a Sample",
+          "href": "/request-sample/"
+        },
+        {
+          "text": "EU Procurement Overview",
+          "href": "/markets/european-union/"
+        },
+        {
+          "text": "EU Titanium Dioxide Trade Update",
+          "href": "/resources/eu-titanium-dioxide-anti-dumping-duty/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "VdL — German coatings market 2025",
+          "href": "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025"
+        },
+        {
+          "text": "GKV — German plastics-processing industry statement",
+          "href": "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html"
+        },
+        {
+          "text": "Hamburg Port Authority — Port Railway",
+          "href": "https://www.hamburg-port-authority.de/en/port-railway"
+        }
+      ]
+    },
+    {
+      "name": "768 approved structure only",
+      "status": "PASS",
+      "detail": {
+        "h1": 1,
+        "h2": 6,
+        "h3": 4,
+        "sections": 7,
+        "forms": 0,
+        "pageImages": 0,
+        "visibleCurrentWord": false
+      }
+    },
+    {
+      "name": "768 Footer closes page and no horizontal overflow",
+      "status": "PASS",
+      "detail": {
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 5628,
+        "footerBottom": 5627.75,
+        "bodyMargin": "0px",
+        "fontLoaded": true,
+        "bodyFont": "Inter, Arial, sans-serif",
+        "visible": [
+          {
+            "text": "Home",
+            "left": 24,
+            "right": 68,
+            "top": 100,
+            "bottom": 144,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "left": 89.390625,
+            "right": 145.046875,
+            "top": 100,
+            "bottom": 144,
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "left": 166.4375,
+            "right": 274.640625,
+            "top": 100,
+            "bottom": 144,
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Titanium Dioxide Supplier for Germany",
+            "left": 24,
+            "right": 744,
+            "top": 168,
+            "bottom": 269.1875,
+            "width": 720,
+            "height": 101.1875
+          },
+          {
+            "text": "Evaluate Malaysia-origin titanium dioxide for an industrial requirement with del",
+            "left": 24,
+            "right": 744,
+            "top": 293.1875,
+            "bottom": 418.5625,
+            "width": 720,
+            "height": 125.375
+          },
+          {
+            "text": "Request a Quote\nExplore Products",
+            "left": 24,
+            "right": 744,
+            "top": 446.5625,
+            "bottom": 496.953125,
+            "width": 720,
+            "height": 50.390625
+          },
+          {
+            "text": "Request a Quote",
+            "left": 24,
+            "right": 193.28125,
+            "top": 446.5625,
+            "bottom": 496.953125,
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "Explore Products",
+            "left": 205.28125,
+            "right": 378.890625,
+            "top": 446.5625,
+            "bottom": 496.953125,
+            "width": 173.609375,
+            "height": 50.390625
+          },
+          {
+            "text": "Start with the German Industrial Use You Need to Serve",
+            "left": 24,
+            "right": 744,
+            "top": 630.953125,
+            "bottom": 704.546875,
+            "width": 720,
+            "height": 73.59375
+          },
+          {
+            "text": "For a Germany sourcing brief, start with the industrial use rather than a countr",
+            "left": 24,
+            "right": 744,
+            "top": 728.546875,
+            "bottom": 886.890625,
+            "width": 720,
+            "height": 158.34375
+          },
+          {
+            "text": "These industry references help frame the application information to bring into a",
+            "left": 24,
+            "right": 744,
+            "top": 904.890625,
+            "bottom": 957.671875,
+            "width": 720,
+            "height": 52.78125
+          },
+          {
+            "text": "Coatings",
+            "left": 49,
+            "right": 719,
+            "top": 1017.671875,
+            "bottom": 1044.109375,
+            "width": 670,
+            "height": 26.4375
+          },
+          {
+            "text": "For automotive OEM, vehicle-refinish, metal-product or another coating project, ",
+            "left": 49,
+            "right": 719,
+            "top": 1058.109375,
+            "bottom": 1163.671875,
+            "width": 670,
+            "height": 105.5625
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 49,
+            "right": 719,
+            "top": 1178.671875,
+            "bottom": 1226.671875,
+            "width": 670,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 49,
+            "right": 719,
+            "top": 1182.671875,
+            "bottom": 1226.671875,
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Plastics",
+            "left": 49,
+            "right": 719,
+            "top": 1314.671875,
+            "bottom": 1341.109375,
+            "width": 670,
+            "height": 26.4375
+          },
+          {
+            "text": "For packaging, construction products, technical parts or another plastics use, i",
+            "left": 49,
+            "right": 719,
+            "top": 1355.109375,
+            "bottom": 1434.28125,
+            "width": 670,
+            "height": 79.171875
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 49,
+            "right": 719,
+            "top": 1449.28125,
+            "bottom": 1497.28125,
+            "width": 670,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 49,
+            "right": 719,
+            "top": 1453.28125,
+            "bottom": 1497.28125,
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Masterbatch",
+            "left": 49,
+            "right": 719,
+            "top": 1585.28125,
+            "bottom": 1611.71875,
+            "width": 670,
+            "height": 26.4375
+          },
+          {
+            "text": "If you are producing a titanium dioxide masterbatch, state the carrier polymer, ",
+            "left": 49,
+            "right": 719,
+            "top": 1625.71875,
+            "bottom": 1704.890625,
+            "width": 670,
+            "height": 79.171875
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 49,
+            "right": 719,
+            "top": 1719.890625,
+            "bottom": 1767.890625,
+            "width": 670,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 49,
+            "right": 719,
+            "top": 1723.890625,
+            "bottom": 1767.890625,
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Choose the Right Evaluation Path",
+            "left": 24,
+            "right": 744,
+            "top": 1920.890625,
+            "bottom": 1957.6875,
+            "width": 720,
+            "height": 36.796875
+          },
+          {
+            "text": "A country, sector or end-use label does not select a Grade. Use the Product Hub ",
+            "left": 24,
+            "right": 744,
+            "top": 1981.6875,
+            "bottom": 2104.859375,
+            "width": 720,
+            "height": 123.171875
+          },
+          {
+            "text": "Product Hub",
+            "left": 532.859375,
+            "right": 629.296875,
+            "top": 1981.6875,
+            "bottom": 2025.6875,
+            "width": 96.4375,
+            "height": 44
+          },
+          {
+            "text": "If you do not yet know the Product / Grade, you can still continue to the quotat",
+            "left": 24,
+            "right": 744,
+            "top": 2122.859375,
+            "bottom": 2202.03125,
+            "width": 720,
+            "height": 79.171875
+          },
+          {
+            "text": "Use Documents and Samples for the Review You Are Planning",
+            "left": 24,
+            "right": 744,
+            "top": 2315.03125,
+            "bottom": 2388.625,
+            "width": 720,
+            "height": 73.59375
+          },
+          {
+            "text": "Use Request Documents when your team has a specific Grade and document request. ",
+            "left": 24,
+            "right": 744,
+            "top": 2412.625,
+            "bottom": 2509.40625,
+            "width": 720,
+            "height": 96.78125
+          },
+          {
+            "text": "Request Documents",
+            "left": 57.875,
+            "right": 213.671875,
+            "top": 2412.625,
+            "bottom": 2456.625,
+            "width": 155.796875,
+            "height": 44
+          },
+          {
+            "text": "If the Grade is not yet known, review Products or use Not sure / Need help in th",
+            "left": 24,
+            "right": 744,
+            "top": 2527.40625,
+            "bottom": 2615.40625,
+            "width": 720,
+            "height": 88
+          },
+          {
+            "text": "Products",
+            "left": 301.765625,
+            "right": 371.34375,
+            "top": 2527.40625,
+            "bottom": 2571.40625,
+            "width": 69.578125,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "left": 24,
+            "right": 161.125,
+            "top": 2571.40625,
+            "bottom": 2615.40625,
+            "width": 137.125,
+            "height": 44
+          },
+          {
+            "text": "Use Request a Sample when you have an application and a technical evaluation pla",
+            "left": 24,
+            "right": 744,
+            "top": 2633.40625,
+            "bottom": 2730.1875,
+            "width": 720,
+            "height": 96.78125
+          },
+          {
+            "text": "Request a Sample",
+            "left": 57.875,
+            "right": 195.9375,
+            "top": 2633.40625,
+            "bottom": 2677.40625,
+            "width": 138.0625,
+            "height": 44
+          },
+          {
+            "text": "Describe the German Destination Beyond a Country Label",
+            "left": 24,
+            "right": 744,
+            "top": 2843.1875,
+            "bottom": 2916.78125,
+            "width": 720,
+            "height": 73.59375
+          },
+          {
+            "text": "State Germany as the destination country. Add the final receiving city or site a",
+            "left": 24,
+            "right": 744,
+            "top": 2940.78125,
+            "bottom": 3019.953125,
+            "width": 720,
+            "height": 79.171875
+          },
+          {
+            "text": "If Hamburg is part of your proposed plan, say whether it is the port handover po",
+            "left": 24,
+            "right": 744,
+            "top": 3037.953125,
+            "bottom": 3169.90625,
+            "width": 720,
+            "height": 131.953125
+          },
+          {
+            "text": "Before requesting a quote, assemble the context you already have:",
+            "left": 53,
+            "right": 715,
+            "top": 3228.90625,
+            "bottom": 3255.90625,
+            "width": 662,
+            "height": 27
+          },
+          {
+            "text": "application and Product / Grade, or state that the Grade is not yet known;",
+            "left": 75,
+            "right": 715,
+            "top": 3273.90625,
+            "bottom": 3300.296875,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "required or estimated quantity in metric tonnes;",
+            "left": 75,
+            "right": 715,
+            "top": 3312.296875,
+            "bottom": 3338.6875,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "Germany destination, with final city/site and port or handover point if known;",
+            "left": 75,
+            "right": 715,
+            "top": 3350.6875,
+            "bottom": 3377.078125,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "packaging, timing and document requirements, if known; and",
+            "left": 75,
+            "right": 715,
+            "top": 3389.078125,
+            "bottom": 3415.46875,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "company and business contact details for follow-up.",
+            "left": 75,
+            "right": 715,
+            "top": 3427.46875,
+            "bottom": 3453.859375,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "Keep EU-Wide Checks with the EU Owners",
+            "left": 24,
+            "right": 744,
+            "top": 3607.859375,
+            "bottom": 3644.65625,
+            "width": 720,
+            "height": 36.796875
+          },
+          {
+            "text": "Germany is part of the European Union procurement context. Use the EU Procuremen",
+            "left": 24,
+            "right": 744,
+            "top": 3668.65625,
+            "bottom": 3809.4375,
+            "width": 720,
+            "height": 140.78125
+          },
+          {
+            "text": "EU Procurement Overview",
+            "left": 24,
+            "right": 226.875,
+            "top": 3695.046875,
+            "bottom": 3739.046875,
+            "width": 202.875,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "left": 411.5625,
+            "right": 674.578125,
+            "top": 3739.046875,
+            "bottom": 3783.046875,
+            "width": 263.015625,
+            "height": 44
+          },
+          {
+            "text": "This Germany page focuses on application and destination preparation. It does no",
+            "left": 24,
+            "right": 744,
+            "top": 3827.4375,
+            "bottom": 3880.21875,
+            "width": 720,
+            "height": 52.78125
+          },
+          {
+            "text": "Send a Germany Destination Request",
+            "left": 68,
+            "right": 700,
+            "top": 4037.21875,
+            "bottom": 4074.015625,
+            "width": 632,
+            "height": 36.796875
+          },
+          {
+            "text": "On the quotation form, select a Product / Grade or choose Not sure / Need help. ",
+            "left": 68,
+            "right": 700,
+            "top": 4098.015625,
+            "bottom": 4177.1875,
+            "width": 632,
+            "height": 79.171875
+          },
+          {
+            "text": "Request a Quote",
+            "left": 68,
+            "right": 700,
+            "top": 4195.1875,
+            "bottom": 4245.578125,
+            "width": 632,
+            "height": 50.390625
+          },
+          {
+            "text": "Request a Quote",
+            "left": 68,
+            "right": 237.28125,
+            "top": 4195.1875,
+            "bottom": 4245.578125,
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "After submission, our team reviews your requirements and details, then contacts ",
+            "left": 68,
+            "right": 700,
+            "top": 4263.578125,
+            "bottom": 4342.75,
+            "width": 632,
+            "height": 79.171875
+          },
+          {
+            "text": "Germany industry and destination references",
+            "left": 24,
+            "right": 744,
+            "top": 4434.75,
+            "bottom": 4466.9375,
+            "width": 720,
+            "height": 32.1875
+          },
+          {
+            "text": "VdL — German coatings market 2025 — published 11 February 2026; the source lists",
+            "left": 46,
+            "right": 744,
+            "top": 4484.9375,
+            "bottom": 4555.328125,
+            "width": 698,
+            "height": 70.390625
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "left": 51,
+            "right": 338.890625,
+            "top": 4484.9375,
+            "bottom": 4528.9375,
+            "width": 287.890625,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement — published 18 February 2026",
+            "left": 46,
+            "right": 744,
+            "top": 4571.328125,
+            "bottom": 4641.71875,
+            "width": 698,
+            "height": 70.390625
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "left": 51,
+            "right": 479.15625,
+            "top": 4571.328125,
+            "bottom": 4615.328125,
+            "width": 428.15625,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway — publication date not shown; checked 7 Se",
+            "left": 46,
+            "right": 744,
+            "top": 4657.71875,
+            "bottom": 4728.109375,
+            "width": 698,
+            "height": 70.390625
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "left": 51,
+            "right": 355,
+            "top": 4657.71875,
+            "bottom": 4701.71875,
+            "width": 304,
+            "height": 44
+          },
+          {
+            "text": "Germany industry and destination context checked: 7 September 2026.",
+            "left": 24,
+            "right": 744,
+            "top": 4744.109375,
+            "bottom": 4770.5,
+            "width": 720,
+            "height": 26.390625
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "Explore Products",
+            "width": 173.609375,
+            "height": 50.390625
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Product Hub",
+            "width": 96.4375,
+            "height": 44
+          },
+          {
+            "text": "Request Documents",
+            "width": 155.796875,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 69.578125,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "width": 137.125,
+            "height": 44
+          },
+          {
+            "text": "Request a Sample",
+            "width": 138.0625,
+            "height": 44
+          },
+          {
+            "text": "EU Procurement Overview",
+            "width": 202.875,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "width": 263.015625,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "width": 287.890625,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "width": 428.15625,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "width": 304,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "appColumns": 1,
+        "destinationColumns": 1,
+        "reducedMotion": "auto"
+      }
+    },
+    {
+      "name": "768 all Buyer Copy blocks visibly bounded",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "768 visible controls at least 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "768 reduced motion applied",
+      "status": "PASS",
+      "detail": "auto"
+    },
+    {
+      "name": "768 narrow structures stack",
+      "status": "PASS",
+      "detail": {
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 5628,
+        "footerBottom": 5627.75,
+        "bodyMargin": "0px",
+        "fontLoaded": true,
+        "bodyFont": "Inter, Arial, sans-serif",
+        "visible": [
+          {
+            "text": "Home",
+            "left": 24,
+            "right": 68,
+            "top": 100,
+            "bottom": 144,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "left": 89.390625,
+            "right": 145.046875,
+            "top": 100,
+            "bottom": 144,
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "left": 166.4375,
+            "right": 274.640625,
+            "top": 100,
+            "bottom": 144,
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Titanium Dioxide Supplier for Germany",
+            "left": 24,
+            "right": 744,
+            "top": 168,
+            "bottom": 269.1875,
+            "width": 720,
+            "height": 101.1875
+          },
+          {
+            "text": "Evaluate Malaysia-origin titanium dioxide for an industrial requirement with del",
+            "left": 24,
+            "right": 744,
+            "top": 293.1875,
+            "bottom": 418.5625,
+            "width": 720,
+            "height": 125.375
+          },
+          {
+            "text": "Request a Quote\nExplore Products",
+            "left": 24,
+            "right": 744,
+            "top": 446.5625,
+            "bottom": 496.953125,
+            "width": 720,
+            "height": 50.390625
+          },
+          {
+            "text": "Request a Quote",
+            "left": 24,
+            "right": 193.28125,
+            "top": 446.5625,
+            "bottom": 496.953125,
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "Explore Products",
+            "left": 205.28125,
+            "right": 378.890625,
+            "top": 446.5625,
+            "bottom": 496.953125,
+            "width": 173.609375,
+            "height": 50.390625
+          },
+          {
+            "text": "Start with the German Industrial Use You Need to Serve",
+            "left": 24,
+            "right": 744,
+            "top": 630.953125,
+            "bottom": 704.546875,
+            "width": 720,
+            "height": 73.59375
+          },
+          {
+            "text": "For a Germany sourcing brief, start with the industrial use rather than a countr",
+            "left": 24,
+            "right": 744,
+            "top": 728.546875,
+            "bottom": 886.890625,
+            "width": 720,
+            "height": 158.34375
+          },
+          {
+            "text": "These industry references help frame the application information to bring into a",
+            "left": 24,
+            "right": 744,
+            "top": 904.890625,
+            "bottom": 957.671875,
+            "width": 720,
+            "height": 52.78125
+          },
+          {
+            "text": "Coatings",
+            "left": 49,
+            "right": 719,
+            "top": 1017.671875,
+            "bottom": 1044.109375,
+            "width": 670,
+            "height": 26.4375
+          },
+          {
+            "text": "For automotive OEM, vehicle-refinish, metal-product or another coating project, ",
+            "left": 49,
+            "right": 719,
+            "top": 1058.109375,
+            "bottom": 1163.671875,
+            "width": 670,
+            "height": 105.5625
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 49,
+            "right": 719,
+            "top": 1178.671875,
+            "bottom": 1226.671875,
+            "width": 670,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 49,
+            "right": 719,
+            "top": 1182.671875,
+            "bottom": 1226.671875,
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Plastics",
+            "left": 49,
+            "right": 719,
+            "top": 1314.671875,
+            "bottom": 1341.109375,
+            "width": 670,
+            "height": 26.4375
+          },
+          {
+            "text": "For packaging, construction products, technical parts or another plastics use, i",
+            "left": 49,
+            "right": 719,
+            "top": 1355.109375,
+            "bottom": 1434.28125,
+            "width": 670,
+            "height": 79.171875
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 49,
+            "right": 719,
+            "top": 1449.28125,
+            "bottom": 1497.28125,
+            "width": 670,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 49,
+            "right": 719,
+            "top": 1453.28125,
+            "bottom": 1497.28125,
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Masterbatch",
+            "left": 49,
+            "right": 719,
+            "top": 1585.28125,
+            "bottom": 1611.71875,
+            "width": 670,
+            "height": 26.4375
+          },
+          {
+            "text": "If you are producing a titanium dioxide masterbatch, state the carrier polymer, ",
+            "left": 49,
+            "right": 719,
+            "top": 1625.71875,
+            "bottom": 1704.890625,
+            "width": 670,
+            "height": 79.171875
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 49,
+            "right": 719,
+            "top": 1719.890625,
+            "bottom": 1767.890625,
+            "width": 670,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 49,
+            "right": 719,
+            "top": 1723.890625,
+            "bottom": 1767.890625,
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Choose the Right Evaluation Path",
+            "left": 24,
+            "right": 744,
+            "top": 1920.890625,
+            "bottom": 1957.6875,
+            "width": 720,
+            "height": 36.796875
+          },
+          {
+            "text": "A country, sector or end-use label does not select a Grade. Use the Product Hub ",
+            "left": 24,
+            "right": 744,
+            "top": 1981.6875,
+            "bottom": 2104.859375,
+            "width": 720,
+            "height": 123.171875
+          },
+          {
+            "text": "Product Hub",
+            "left": 532.859375,
+            "right": 629.296875,
+            "top": 1981.6875,
+            "bottom": 2025.6875,
+            "width": 96.4375,
+            "height": 44
+          },
+          {
+            "text": "If you do not yet know the Product / Grade, you can still continue to the quotat",
+            "left": 24,
+            "right": 744,
+            "top": 2122.859375,
+            "bottom": 2202.03125,
+            "width": 720,
+            "height": 79.171875
+          },
+          {
+            "text": "Use Documents and Samples for the Review You Are Planning",
+            "left": 24,
+            "right": 744,
+            "top": 2315.03125,
+            "bottom": 2388.625,
+            "width": 720,
+            "height": 73.59375
+          },
+          {
+            "text": "Use Request Documents when your team has a specific Grade and document request. ",
+            "left": 24,
+            "right": 744,
+            "top": 2412.625,
+            "bottom": 2509.40625,
+            "width": 720,
+            "height": 96.78125
+          },
+          {
+            "text": "Request Documents",
+            "left": 57.875,
+            "right": 213.671875,
+            "top": 2412.625,
+            "bottom": 2456.625,
+            "width": 155.796875,
+            "height": 44
+          },
+          {
+            "text": "If the Grade is not yet known, review Products or use Not sure / Need help in th",
+            "left": 24,
+            "right": 744,
+            "top": 2527.40625,
+            "bottom": 2615.40625,
+            "width": 720,
+            "height": 88
+          },
+          {
+            "text": "Products",
+            "left": 301.765625,
+            "right": 371.34375,
+            "top": 2527.40625,
+            "bottom": 2571.40625,
+            "width": 69.578125,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "left": 24,
+            "right": 161.125,
+            "top": 2571.40625,
+            "bottom": 2615.40625,
+            "width": 137.125,
+            "height": 44
+          },
+          {
+            "text": "Use Request a Sample when you have an application and a technical evaluation pla",
+            "left": 24,
+            "right": 744,
+            "top": 2633.40625,
+            "bottom": 2730.1875,
+            "width": 720,
+            "height": 96.78125
+          },
+          {
+            "text": "Request a Sample",
+            "left": 57.875,
+            "right": 195.9375,
+            "top": 2633.40625,
+            "bottom": 2677.40625,
+            "width": 138.0625,
+            "height": 44
+          },
+          {
+            "text": "Describe the German Destination Beyond a Country Label",
+            "left": 24,
+            "right": 744,
+            "top": 2843.1875,
+            "bottom": 2916.78125,
+            "width": 720,
+            "height": 73.59375
+          },
+          {
+            "text": "State Germany as the destination country. Add the final receiving city or site a",
+            "left": 24,
+            "right": 744,
+            "top": 2940.78125,
+            "bottom": 3019.953125,
+            "width": 720,
+            "height": 79.171875
+          },
+          {
+            "text": "If Hamburg is part of your proposed plan, say whether it is the port handover po",
+            "left": 24,
+            "right": 744,
+            "top": 3037.953125,
+            "bottom": 3169.90625,
+            "width": 720,
+            "height": 131.953125
+          },
+          {
+            "text": "Before requesting a quote, assemble the context you already have:",
+            "left": 53,
+            "right": 715,
+            "top": 3228.90625,
+            "bottom": 3255.90625,
+            "width": 662,
+            "height": 27
+          },
+          {
+            "text": "application and Product / Grade, or state that the Grade is not yet known;",
+            "left": 75,
+            "right": 715,
+            "top": 3273.90625,
+            "bottom": 3300.296875,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "required or estimated quantity in metric tonnes;",
+            "left": 75,
+            "right": 715,
+            "top": 3312.296875,
+            "bottom": 3338.6875,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "Germany destination, with final city/site and port or handover point if known;",
+            "left": 75,
+            "right": 715,
+            "top": 3350.6875,
+            "bottom": 3377.078125,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "packaging, timing and document requirements, if known; and",
+            "left": 75,
+            "right": 715,
+            "top": 3389.078125,
+            "bottom": 3415.46875,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "company and business contact details for follow-up.",
+            "left": 75,
+            "right": 715,
+            "top": 3427.46875,
+            "bottom": 3453.859375,
+            "width": 640,
+            "height": 26.390625
+          },
+          {
+            "text": "Keep EU-Wide Checks with the EU Owners",
+            "left": 24,
+            "right": 744,
+            "top": 3607.859375,
+            "bottom": 3644.65625,
+            "width": 720,
+            "height": 36.796875
+          },
+          {
+            "text": "Germany is part of the European Union procurement context. Use the EU Procuremen",
+            "left": 24,
+            "right": 744,
+            "top": 3668.65625,
+            "bottom": 3809.4375,
+            "width": 720,
+            "height": 140.78125
+          },
+          {
+            "text": "EU Procurement Overview",
+            "left": 24,
+            "right": 226.875,
+            "top": 3695.046875,
+            "bottom": 3739.046875,
+            "width": 202.875,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "left": 411.5625,
+            "right": 674.578125,
+            "top": 3739.046875,
+            "bottom": 3783.046875,
+            "width": 263.015625,
+            "height": 44
+          },
+          {
+            "text": "This Germany page focuses on application and destination preparation. It does no",
+            "left": 24,
+            "right": 744,
+            "top": 3827.4375,
+            "bottom": 3880.21875,
+            "width": 720,
+            "height": 52.78125
+          },
+          {
+            "text": "Send a Germany Destination Request",
+            "left": 68,
+            "right": 700,
+            "top": 4037.21875,
+            "bottom": 4074.015625,
+            "width": 632,
+            "height": 36.796875
+          },
+          {
+            "text": "On the quotation form, select a Product / Grade or choose Not sure / Need help. ",
+            "left": 68,
+            "right": 700,
+            "top": 4098.015625,
+            "bottom": 4177.1875,
+            "width": 632,
+            "height": 79.171875
+          },
+          {
+            "text": "Request a Quote",
+            "left": 68,
+            "right": 700,
+            "top": 4195.1875,
+            "bottom": 4245.578125,
+            "width": 632,
+            "height": 50.390625
+          },
+          {
+            "text": "Request a Quote",
+            "left": 68,
+            "right": 237.28125,
+            "top": 4195.1875,
+            "bottom": 4245.578125,
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "After submission, our team reviews your requirements and details, then contacts ",
+            "left": 68,
+            "right": 700,
+            "top": 4263.578125,
+            "bottom": 4342.75,
+            "width": 632,
+            "height": 79.171875
+          },
+          {
+            "text": "Germany industry and destination references",
+            "left": 24,
+            "right": 744,
+            "top": 4434.75,
+            "bottom": 4466.9375,
+            "width": 720,
+            "height": 32.1875
+          },
+          {
+            "text": "VdL — German coatings market 2025 — published 11 February 2026; the source lists",
+            "left": 46,
+            "right": 744,
+            "top": 4484.9375,
+            "bottom": 4555.328125,
+            "width": 698,
+            "height": 70.390625
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "left": 51,
+            "right": 338.890625,
+            "top": 4484.9375,
+            "bottom": 4528.9375,
+            "width": 287.890625,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement — published 18 February 2026",
+            "left": 46,
+            "right": 744,
+            "top": 4571.328125,
+            "bottom": 4641.71875,
+            "width": 698,
+            "height": 70.390625
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "left": 51,
+            "right": 479.15625,
+            "top": 4571.328125,
+            "bottom": 4615.328125,
+            "width": 428.15625,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway — publication date not shown; checked 7 Se",
+            "left": 46,
+            "right": 744,
+            "top": 4657.71875,
+            "bottom": 4728.109375,
+            "width": 698,
+            "height": 70.390625
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "left": 51,
+            "right": 355,
+            "top": 4657.71875,
+            "bottom": 4701.71875,
+            "width": 304,
+            "height": 44
+          },
+          {
+            "text": "Germany industry and destination context checked: 7 September 2026.",
+            "left": 24,
+            "right": 744,
+            "top": 4744.109375,
+            "bottom": 4770.5,
+            "width": 720,
+            "height": 26.390625
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "Explore Products",
+            "width": 173.609375,
+            "height": 50.390625
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "width": 670,
+            "height": 44
+          },
+          {
+            "text": "Product Hub",
+            "width": 96.4375,
+            "height": 44
+          },
+          {
+            "text": "Request Documents",
+            "width": 155.796875,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 69.578125,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "width": 137.125,
+            "height": 44
+          },
+          {
+            "text": "Request a Sample",
+            "width": 138.0625,
+            "height": 44
+          },
+          {
+            "text": "EU Procurement Overview",
+            "width": 202.875,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "width": 263.015625,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.28125,
+            "height": 50.390625
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "width": 287.890625,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "width": 428.15625,
+            "height": 44
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "width": 304,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "appColumns": 1,
+        "destinationColumns": 1,
+        "reducedMotion": "auto"
+      }
+    },
+    {
+      "name": "768 Markets current navigation mapping",
+      "status": "PASS",
+      "detail": {
+        "desktopVisible": false,
+        "mobileVisible": true,
+        "desktopCurrent": "Markets",
+        "mobileCurrent": "Markets",
+        "activeSurfaces": 0
+      }
+    },
+    {
+      "name": "768 Germany application relationships",
+      "status": "PASS",
+      "detail": {
+        "applicationHeadings": [
+          "Coatings",
+          "Plastics",
+          "Masterbatch"
+        ],
+        "applicationHrefs": [
+          "/applications/titanium-dioxide-for-coatings/",
+          "/applications/titanium-dioxide-for-plastics/",
+          "/applications/titanium-dioxide-for-masterbatch/"
+        ],
+        "checklistItems": 5,
+        "sourceHrefs": [
+          "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+          "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+          "https://www.hamburg-port-authority.de/en/port-railway"
+        ],
+        "tradeHref": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "forbidden": false
+      }
+    },
+    {
+      "name": "768 Germany destination and sources",
+      "status": "PASS",
+      "detail": {
+        "applicationHeadings": [
+          "Coatings",
+          "Plastics",
+          "Masterbatch"
+        ],
+        "applicationHrefs": [
+          "/applications/titanium-dioxide-for-coatings/",
+          "/applications/titanium-dioxide-for-plastics/",
+          "/applications/titanium-dioxide-for-masterbatch/"
+        ],
+        "checklistItems": 5,
+        "sourceHrefs": [
+          "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+          "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+          "https://www.hamburg-port-authority.de/en/port-railway"
+        ],
+        "tradeHref": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "forbidden": false
+      }
+    },
+    {
+      "name": "768 local action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 3",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/european-union/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 4",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "768 local action 5",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 6",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-coatings/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 7",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-plastics/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 8",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-masterbatch/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 9",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 10",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-documents/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 11",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 12",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "768 local action 13",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-sample/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 14",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/european-union/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 15",
+      "status": "PASS",
+      "detail": {
+        "href": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 16",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "768 local action 17",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 18",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 local action 19",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.hamburg-port-authority.de/en/port-railway",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 menu opens with first focus and background isolation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 menu forward focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 menu reverse focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 menu Escape restores focus and background",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 menu selection closes and restores",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 menu locks background scroll",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 menu closes across desktop breakpoint",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 Cookie entry focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 Cookie controls and functional teal",
+      "status": "PASS",
+      "detail": [
+        {
+          "width": 76.484375,
+          "height": 48,
+          "color": "rgb(0, 128, 120)",
+          "border": "rgb(0, 128, 120)"
+        },
+        {
+          "width": 167.390625,
+          "height": 48,
+          "color": "rgb(0, 128, 120)",
+          "border": "rgb(0, 128, 120)"
+        }
+      ]
+    },
+    {
+      "name": "768 Cookie reverse focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 Cookie forward focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 Cookie close returns trigger focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 exact Buyer Copy text",
+      "status": "PASS",
+      "detail": {
+        "expectedLength": 5867,
+        "actualLength": 5867
+      }
+    },
+    {
+      "name": "390 exact Buyer Copy links",
+      "status": "PASS",
+      "detail": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Markets",
+          "href": "/markets/"
+        },
+        {
+          "text": "European Union",
+          "href": "/markets/european-union/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Explore Products",
+          "href": "/products/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Coatings",
+          "href": "/applications/titanium-dioxide-for-coatings/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Plastics",
+          "href": "/applications/titanium-dioxide-for-plastics/"
+        },
+        {
+          "text": "Review Titanium Dioxide for Masterbatch",
+          "href": "/applications/titanium-dioxide-for-masterbatch/"
+        },
+        {
+          "text": "Product Hub",
+          "href": "/products/"
+        },
+        {
+          "text": "Request Documents",
+          "href": "/request-documents/"
+        },
+        {
+          "text": "Products",
+          "href": "/products/"
+        },
+        {
+          "text": "quotation request",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Request a Sample",
+          "href": "/request-sample/"
+        },
+        {
+          "text": "EU Procurement Overview",
+          "href": "/markets/european-union/"
+        },
+        {
+          "text": "EU Titanium Dioxide Trade Update",
+          "href": "/resources/eu-titanium-dioxide-anti-dumping-duty/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "VdL — German coatings market 2025",
+          "href": "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025"
+        },
+        {
+          "text": "GKV — German plastics-processing industry statement",
+          "href": "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html"
+        },
+        {
+          "text": "Hamburg Port Authority — Port Railway",
+          "href": "https://www.hamburg-port-authority.de/en/port-railway"
+        }
+      ]
+    },
+    {
+      "name": "390 approved structure only",
+      "status": "PASS",
+      "detail": {
+        "h1": 1,
+        "h2": 6,
+        "h3": 4,
+        "sections": 7,
+        "forms": 0,
+        "pageImages": 0,
+        "visibleCurrentWord": false
+      }
+    },
+    {
+      "name": "390 Footer closes page and no horizontal overflow",
+      "status": "PASS",
+      "detail": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 7233,
+        "footerBottom": 7232.515625,
+        "bodyMargin": "0px",
+        "fontLoaded": true,
+        "bodyFont": "Inter, Arial, sans-serif",
+        "visible": [
+          {
+            "text": "Home",
+            "left": 20,
+            "right": 64,
+            "top": 88,
+            "bottom": 132,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "left": 85.390625,
+            "right": 141.046875,
+            "top": 88,
+            "bottom": 132,
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "left": 162.4375,
+            "right": 270.640625,
+            "top": 88,
+            "bottom": 132,
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Titanium Dioxide Supplier for Germany",
+            "left": 20,
+            "right": 370,
+            "top": 150,
+            "bottom": 281.0625,
+            "width": 350,
+            "height": 131.0625
+          },
+          {
+            "text": "Evaluate Malaysia-origin titanium dioxide for an industrial requirement with del",
+            "left": 20,
+            "right": 370,
+            "top": 305.0625,
+            "bottom": 473.34375,
+            "width": 350,
+            "height": 168.28125
+          },
+          {
+            "text": "Request a Quote\nExplore Products",
+            "left": 20,
+            "right": 370,
+            "top": 501.34375,
+            "bottom": 610.84375,
+            "width": 350,
+            "height": 109.5
+          },
+          {
+            "text": "Request a Quote",
+            "left": 20,
+            "right": 370,
+            "top": 501.34375,
+            "bottom": 550.09375,
+            "width": 350,
+            "height": 48.75
+          },
+          {
+            "text": "Explore Products",
+            "left": 20,
+            "right": 370,
+            "top": 562.09375,
+            "bottom": 610.84375,
+            "width": 350,
+            "height": 48.75
+          },
+          {
+            "text": "Start with the German Industrial Use You Need to Serve",
+            "left": 20,
+            "right": 370,
+            "top": 716.84375,
+            "bottom": 820.34375,
+            "width": 350,
+            "height": 103.5
+          },
+          {
+            "text": "For a Germany sourcing brief, start with the industrial use rather than a countr",
+            "left": 20,
+            "right": 370,
+            "top": 844.34375,
+            "bottom": 1116.59375,
+            "width": 350,
+            "height": 272.25
+          },
+          {
+            "text": "These industry references help frame the application information to bring into a",
+            "left": 20,
+            "right": 370,
+            "top": 1134.59375,
+            "bottom": 1233.59375,
+            "width": 350,
+            "height": 99
+          },
+          {
+            "text": "Coatings",
+            "left": 42,
+            "right": 348,
+            "top": 1290.59375,
+            "bottom": 1314.734375,
+            "width": 306,
+            "height": 24.140625
+          },
+          {
+            "text": "For automotive OEM, vehicle-refinish, metal-product or another coating project, ",
+            "left": 42,
+            "right": 348,
+            "top": 1328.734375,
+            "bottom": 1526.734375,
+            "width": 306,
+            "height": 198
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 42,
+            "right": 348,
+            "top": 1541.734375,
+            "bottom": 1589.734375,
+            "width": 306,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 42,
+            "right": 348,
+            "top": 1545.734375,
+            "bottom": 1589.734375,
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Plastics",
+            "left": 42,
+            "right": 348,
+            "top": 1667.734375,
+            "bottom": 1691.875,
+            "width": 306,
+            "height": 24.140625
+          },
+          {
+            "text": "For packaging, construction products, technical parts or another plastics use, i",
+            "left": 42,
+            "right": 348,
+            "top": 1705.875,
+            "bottom": 1854.375,
+            "width": 306,
+            "height": 148.5
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 42,
+            "right": 348,
+            "top": 1869.375,
+            "bottom": 1917.375,
+            "width": 306,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 42,
+            "right": 348,
+            "top": 1873.375,
+            "bottom": 1917.375,
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Masterbatch",
+            "left": 42,
+            "right": 348,
+            "top": 1995.375,
+            "bottom": 2019.515625,
+            "width": 306,
+            "height": 24.140625
+          },
+          {
+            "text": "If you are producing a titanium dioxide masterbatch, state the carrier polymer, ",
+            "left": 42,
+            "right": 348,
+            "top": 2033.515625,
+            "bottom": 2182.015625,
+            "width": 306,
+            "height": 148.5
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 42,
+            "right": 348,
+            "top": 2197.015625,
+            "bottom": 2245.015625,
+            "width": 306,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 42,
+            "right": 348,
+            "top": 2201.015625,
+            "bottom": 2245.015625,
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Choose the Right Evaluation Path",
+            "left": 20,
+            "right": 370,
+            "top": 2371.015625,
+            "bottom": 2440.015625,
+            "width": 350,
+            "height": 69
+          },
+          {
+            "text": "A country, sector or end-use label does not select a Grade. Use the Product Hub ",
+            "left": 20,
+            "right": 370,
+            "top": 2464.015625,
+            "bottom": 2656.515625,
+            "width": 350,
+            "height": 192.5
+          },
+          {
+            "text": "Product Hub",
+            "left": 189.0625,
+            "right": 279.734375,
+            "top": 2488.765625,
+            "bottom": 2532.765625,
+            "width": 90.671875,
+            "height": 44
+          },
+          {
+            "text": "If you do not yet know the Product / Grade, you can still continue to the quotat",
+            "left": 20,
+            "right": 370,
+            "top": 2674.515625,
+            "bottom": 2823.015625,
+            "width": 350,
+            "height": 148.5
+          },
+          {
+            "text": "Use Documents and Samples for the Review You Are Planning",
+            "left": 20,
+            "right": 370,
+            "top": 2912.015625,
+            "bottom": 3015.515625,
+            "width": 350,
+            "height": 103.5
+          },
+          {
+            "text": "Use Request Documents when your team has a specific Grade and document request. ",
+            "left": 20,
+            "right": 370,
+            "top": 3039.515625,
+            "bottom": 3207.265625,
+            "width": 350,
+            "height": 167.75
+          },
+          {
+            "text": "Request Documents",
+            "left": 51.90625,
+            "right": 198.390625,
+            "top": 3039.515625,
+            "bottom": 3083.515625,
+            "width": 146.484375,
+            "height": 44
+          },
+          {
+            "text": "If the Grade is not yet known, review Products or use Not sure / Need help in th",
+            "left": 20,
+            "right": 370,
+            "top": 3225.265625,
+            "bottom": 3362.765625,
+            "width": 350,
+            "height": 137.5
+          },
+          {
+            "text": "Products",
+            "left": 281.734375,
+            "right": 347.15625,
+            "top": 3225.265625,
+            "bottom": 3269.265625,
+            "width": 65.421875,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "left": 240.59375,
+            "right": 369.546875,
+            "top": 3269.265625,
+            "bottom": 3313.265625,
+            "width": 128.953125,
+            "height": 44
+          },
+          {
+            "text": "Use Request a Sample when you have an application and a technical evaluation pla",
+            "left": 20,
+            "right": 370,
+            "top": 3380.765625,
+            "bottom": 3523.765625,
+            "width": 350,
+            "height": 143
+          },
+          {
+            "text": "Request a Sample",
+            "left": 51.90625,
+            "right": 181.71875,
+            "top": 3380.765625,
+            "bottom": 3424.765625,
+            "width": 129.8125,
+            "height": 44
+          },
+          {
+            "text": "Describe the German Destination Beyond a Country Label",
+            "left": 20,
+            "right": 370,
+            "top": 3612.765625,
+            "bottom": 3716.265625,
+            "width": 350,
+            "height": 103.5
+          },
+          {
+            "text": "State Germany as the destination country. Add the final receiving city or site a",
+            "left": 20,
+            "right": 370,
+            "top": 3740.265625,
+            "bottom": 3888.765625,
+            "width": 350,
+            "height": 148.5
+          },
+          {
+            "text": "If Hamburg is part of your proposed plan, say whether it is the port handover po",
+            "left": 20,
+            "right": 370,
+            "top": 3906.765625,
+            "bottom": 4129.515625,
+            "width": 350,
+            "height": 222.75
+          },
+          {
+            "text": "Before requesting a quote, assemble the context you already have:",
+            "left": 43,
+            "right": 347,
+            "top": 4182.515625,
+            "bottom": 4263.515625,
+            "width": 304,
+            "height": 81
+          },
+          {
+            "text": "application and Product / Grade, or state that the Grade is not yet known;",
+            "left": 65,
+            "right": 347,
+            "top": 4281.515625,
+            "bottom": 4331.015625,
+            "width": 282,
+            "height": 49.5
+          },
+          {
+            "text": "required or estimated quantity in metric tonnes;",
+            "left": 65,
+            "right": 347,
+            "top": 4343.015625,
+            "bottom": 4392.515625,
+            "width": 282,
+            "height": 49.5
+          },
+          {
+            "text": "Germany destination, with final city/site and port or handover point if known;",
+            "left": 65,
+            "right": 347,
+            "top": 4404.515625,
+            "bottom": 4478.765625,
+            "width": 282,
+            "height": 74.25
+          },
+          {
+            "text": "packaging, timing and document requirements, if known; and",
+            "left": 65,
+            "right": 347,
+            "top": 4490.765625,
+            "bottom": 4540.265625,
+            "width": 282,
+            "height": 49.5
+          },
+          {
+            "text": "company and business contact details for follow-up.",
+            "left": 65,
+            "right": 347,
+            "top": 4552.265625,
+            "bottom": 4601.765625,
+            "width": 282,
+            "height": 49.5
+          },
+          {
+            "text": "Keep EU-Wide Checks with the EU Owners",
+            "left": 20,
+            "right": 370,
+            "top": 4725.765625,
+            "bottom": 4794.765625,
+            "width": 350,
+            "height": 69
+          },
+          {
+            "text": "Germany is part of the European Union procurement context. Use the EU Procuremen",
+            "left": 20,
+            "right": 370,
+            "top": 4818.765625,
+            "bottom": 5055.265625,
+            "width": 350,
+            "height": 236.5
+          },
+          {
+            "text": "EU Procurement Overview",
+            "left": 20,
+            "right": 210.78125,
+            "top": 4868.265625,
+            "bottom": 4912.265625,
+            "width": 190.78125,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "left": 20,
+            "right": 267.390625,
+            "top": 4986.515625,
+            "bottom": 5030.515625,
+            "width": 247.390625,
+            "height": 44
+          },
+          {
+            "text": "This Germany page focuses on application and destination preparation. It does no",
+            "left": 20,
+            "right": 370,
+            "top": 5073.265625,
+            "bottom": 5172.265625,
+            "width": 350,
+            "height": 99
+          },
+          {
+            "text": "Send a Germany Destination Request",
+            "left": 42,
+            "right": 348,
+            "top": 5289.265625,
+            "bottom": 5358.265625,
+            "width": 306,
+            "height": 69
+          },
+          {
+            "text": "On the quotation form, select a Product / Grade or choose Not sure / Need help. ",
+            "left": 42,
+            "right": 348,
+            "top": 5382.265625,
+            "bottom": 5530.765625,
+            "width": 306,
+            "height": 148.5
+          },
+          {
+            "text": "Request a Quote",
+            "left": 42,
+            "right": 348,
+            "top": 5548.765625,
+            "bottom": 5597.515625,
+            "width": 306,
+            "height": 48.75
+          },
+          {
+            "text": "Request a Quote",
+            "left": 42,
+            "right": 348,
+            "top": 5548.765625,
+            "bottom": 5597.515625,
+            "width": 306,
+            "height": 48.75
+          },
+          {
+            "text": "After submission, our team reviews your requirements and details, then contacts ",
+            "left": 42,
+            "right": 348,
+            "top": 5615.515625,
+            "bottom": 5764.015625,
+            "width": 306,
+            "height": 148.5
+          },
+          {
+            "text": "Germany industry and destination references",
+            "left": 20,
+            "right": 370,
+            "top": 5832.015625,
+            "bottom": 5889.515625,
+            "width": 350,
+            "height": 57.5
+          },
+          {
+            "text": "VdL — German coatings market 2025 — published 11 February 2026; the source lists",
+            "left": 42,
+            "right": 370,
+            "top": 5907.515625,
+            "bottom": 6025.765625,
+            "width": 328,
+            "height": 118.25
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "left": 47,
+            "right": 370,
+            "top": 5907.515625,
+            "bottom": 5951.515625,
+            "width": 323,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement — published 18 February 2026",
+            "left": 42,
+            "right": 370,
+            "top": 6041.765625,
+            "bottom": 6175.515625,
+            "width": 328,
+            "height": 133.75
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "left": 47,
+            "right": 370,
+            "top": 6041.765625,
+            "bottom": 6101.265625,
+            "width": 323,
+            "height": 59.5
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway — publication date not shown; checked 7 Se",
+            "left": 42,
+            "right": 370,
+            "top": 6191.515625,
+            "bottom": 6309.765625,
+            "width": 328,
+            "height": 118.25
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "left": 47,
+            "right": 370,
+            "top": 6191.515625,
+            "bottom": 6235.515625,
+            "width": 323,
+            "height": 44
+          },
+          {
+            "text": "Germany industry and destination context checked: 7 September 2026.",
+            "left": 20,
+            "right": 370,
+            "top": 6325.765625,
+            "bottom": 6375.265625,
+            "width": 350,
+            "height": 49.5
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 350,
+            "height": 48.75
+          },
+          {
+            "text": "Explore Products",
+            "width": 350,
+            "height": 48.75
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Product Hub",
+            "width": 90.671875,
+            "height": 44
+          },
+          {
+            "text": "Request Documents",
+            "width": 146.484375,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 65.421875,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "width": 128.953125,
+            "height": 44
+          },
+          {
+            "text": "Request a Sample",
+            "width": 129.8125,
+            "height": 44
+          },
+          {
+            "text": "EU Procurement Overview",
+            "width": 190.78125,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "width": 247.390625,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 306,
+            "height": 48.75
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "width": 323,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "width": 323,
+            "height": 59.5
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "width": 323,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "appColumns": 1,
+        "destinationColumns": 1,
+        "reducedMotion": "auto"
+      }
+    },
+    {
+      "name": "390 all Buyer Copy blocks visibly bounded",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "390 visible controls at least 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "390 reduced motion applied",
+      "status": "PASS",
+      "detail": "auto"
+    },
+    {
+      "name": "390 narrow structures stack",
+      "status": "PASS",
+      "detail": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 7233,
+        "footerBottom": 7232.515625,
+        "bodyMargin": "0px",
+        "fontLoaded": true,
+        "bodyFont": "Inter, Arial, sans-serif",
+        "visible": [
+          {
+            "text": "Home",
+            "left": 20,
+            "right": 64,
+            "top": 88,
+            "bottom": 132,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "left": 85.390625,
+            "right": 141.046875,
+            "top": 88,
+            "bottom": 132,
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "left": 162.4375,
+            "right": 270.640625,
+            "top": 88,
+            "bottom": 132,
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Titanium Dioxide Supplier for Germany",
+            "left": 20,
+            "right": 370,
+            "top": 150,
+            "bottom": 281.0625,
+            "width": 350,
+            "height": 131.0625
+          },
+          {
+            "text": "Evaluate Malaysia-origin titanium dioxide for an industrial requirement with del",
+            "left": 20,
+            "right": 370,
+            "top": 305.0625,
+            "bottom": 473.34375,
+            "width": 350,
+            "height": 168.28125
+          },
+          {
+            "text": "Request a Quote\nExplore Products",
+            "left": 20,
+            "right": 370,
+            "top": 501.34375,
+            "bottom": 610.84375,
+            "width": 350,
+            "height": 109.5
+          },
+          {
+            "text": "Request a Quote",
+            "left": 20,
+            "right": 370,
+            "top": 501.34375,
+            "bottom": 550.09375,
+            "width": 350,
+            "height": 48.75
+          },
+          {
+            "text": "Explore Products",
+            "left": 20,
+            "right": 370,
+            "top": 562.09375,
+            "bottom": 610.84375,
+            "width": 350,
+            "height": 48.75
+          },
+          {
+            "text": "Start with the German Industrial Use You Need to Serve",
+            "left": 20,
+            "right": 370,
+            "top": 716.84375,
+            "bottom": 820.34375,
+            "width": 350,
+            "height": 103.5
+          },
+          {
+            "text": "For a Germany sourcing brief, start with the industrial use rather than a countr",
+            "left": 20,
+            "right": 370,
+            "top": 844.34375,
+            "bottom": 1116.59375,
+            "width": 350,
+            "height": 272.25
+          },
+          {
+            "text": "These industry references help frame the application information to bring into a",
+            "left": 20,
+            "right": 370,
+            "top": 1134.59375,
+            "bottom": 1233.59375,
+            "width": 350,
+            "height": 99
+          },
+          {
+            "text": "Coatings",
+            "left": 42,
+            "right": 348,
+            "top": 1290.59375,
+            "bottom": 1314.734375,
+            "width": 306,
+            "height": 24.140625
+          },
+          {
+            "text": "For automotive OEM, vehicle-refinish, metal-product or another coating project, ",
+            "left": 42,
+            "right": 348,
+            "top": 1328.734375,
+            "bottom": 1526.734375,
+            "width": 306,
+            "height": 198
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 42,
+            "right": 348,
+            "top": 1541.734375,
+            "bottom": 1589.734375,
+            "width": 306,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "left": 42,
+            "right": 348,
+            "top": 1545.734375,
+            "bottom": 1589.734375,
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Plastics",
+            "left": 42,
+            "right": 348,
+            "top": 1667.734375,
+            "bottom": 1691.875,
+            "width": 306,
+            "height": 24.140625
+          },
+          {
+            "text": "For packaging, construction products, technical parts or another plastics use, i",
+            "left": 42,
+            "right": 348,
+            "top": 1705.875,
+            "bottom": 1854.375,
+            "width": 306,
+            "height": 148.5
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 42,
+            "right": 348,
+            "top": 1869.375,
+            "bottom": 1917.375,
+            "width": 306,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "left": 42,
+            "right": 348,
+            "top": 1873.375,
+            "bottom": 1917.375,
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Masterbatch",
+            "left": 42,
+            "right": 348,
+            "top": 1995.375,
+            "bottom": 2019.515625,
+            "width": 306,
+            "height": 24.140625
+          },
+          {
+            "text": "If you are producing a titanium dioxide masterbatch, state the carrier polymer, ",
+            "left": 42,
+            "right": 348,
+            "top": 2033.515625,
+            "bottom": 2182.015625,
+            "width": 306,
+            "height": 148.5
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 42,
+            "right": 348,
+            "top": 2197.015625,
+            "bottom": 2245.015625,
+            "width": 306,
+            "height": 48
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "left": 42,
+            "right": 348,
+            "top": 2201.015625,
+            "bottom": 2245.015625,
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Choose the Right Evaluation Path",
+            "left": 20,
+            "right": 370,
+            "top": 2371.015625,
+            "bottom": 2440.015625,
+            "width": 350,
+            "height": 69
+          },
+          {
+            "text": "A country, sector or end-use label does not select a Grade. Use the Product Hub ",
+            "left": 20,
+            "right": 370,
+            "top": 2464.015625,
+            "bottom": 2656.515625,
+            "width": 350,
+            "height": 192.5
+          },
+          {
+            "text": "Product Hub",
+            "left": 189.0625,
+            "right": 279.734375,
+            "top": 2488.765625,
+            "bottom": 2532.765625,
+            "width": 90.671875,
+            "height": 44
+          },
+          {
+            "text": "If you do not yet know the Product / Grade, you can still continue to the quotat",
+            "left": 20,
+            "right": 370,
+            "top": 2674.515625,
+            "bottom": 2823.015625,
+            "width": 350,
+            "height": 148.5
+          },
+          {
+            "text": "Use Documents and Samples for the Review You Are Planning",
+            "left": 20,
+            "right": 370,
+            "top": 2912.015625,
+            "bottom": 3015.515625,
+            "width": 350,
+            "height": 103.5
+          },
+          {
+            "text": "Use Request Documents when your team has a specific Grade and document request. ",
+            "left": 20,
+            "right": 370,
+            "top": 3039.515625,
+            "bottom": 3207.265625,
+            "width": 350,
+            "height": 167.75
+          },
+          {
+            "text": "Request Documents",
+            "left": 51.90625,
+            "right": 198.390625,
+            "top": 3039.515625,
+            "bottom": 3083.515625,
+            "width": 146.484375,
+            "height": 44
+          },
+          {
+            "text": "If the Grade is not yet known, review Products or use Not sure / Need help in th",
+            "left": 20,
+            "right": 370,
+            "top": 3225.265625,
+            "bottom": 3362.765625,
+            "width": 350,
+            "height": 137.5
+          },
+          {
+            "text": "Products",
+            "left": 281.734375,
+            "right": 347.15625,
+            "top": 3225.265625,
+            "bottom": 3269.265625,
+            "width": 65.421875,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "left": 240.59375,
+            "right": 369.546875,
+            "top": 3269.265625,
+            "bottom": 3313.265625,
+            "width": 128.953125,
+            "height": 44
+          },
+          {
+            "text": "Use Request a Sample when you have an application and a technical evaluation pla",
+            "left": 20,
+            "right": 370,
+            "top": 3380.765625,
+            "bottom": 3523.765625,
+            "width": 350,
+            "height": 143
+          },
+          {
+            "text": "Request a Sample",
+            "left": 51.90625,
+            "right": 181.71875,
+            "top": 3380.765625,
+            "bottom": 3424.765625,
+            "width": 129.8125,
+            "height": 44
+          },
+          {
+            "text": "Describe the German Destination Beyond a Country Label",
+            "left": 20,
+            "right": 370,
+            "top": 3612.765625,
+            "bottom": 3716.265625,
+            "width": 350,
+            "height": 103.5
+          },
+          {
+            "text": "State Germany as the destination country. Add the final receiving city or site a",
+            "left": 20,
+            "right": 370,
+            "top": 3740.265625,
+            "bottom": 3888.765625,
+            "width": 350,
+            "height": 148.5
+          },
+          {
+            "text": "If Hamburg is part of your proposed plan, say whether it is the port handover po",
+            "left": 20,
+            "right": 370,
+            "top": 3906.765625,
+            "bottom": 4129.515625,
+            "width": 350,
+            "height": 222.75
+          },
+          {
+            "text": "Before requesting a quote, assemble the context you already have:",
+            "left": 43,
+            "right": 347,
+            "top": 4182.515625,
+            "bottom": 4263.515625,
+            "width": 304,
+            "height": 81
+          },
+          {
+            "text": "application and Product / Grade, or state that the Grade is not yet known;",
+            "left": 65,
+            "right": 347,
+            "top": 4281.515625,
+            "bottom": 4331.015625,
+            "width": 282,
+            "height": 49.5
+          },
+          {
+            "text": "required or estimated quantity in metric tonnes;",
+            "left": 65,
+            "right": 347,
+            "top": 4343.015625,
+            "bottom": 4392.515625,
+            "width": 282,
+            "height": 49.5
+          },
+          {
+            "text": "Germany destination, with final city/site and port or handover point if known;",
+            "left": 65,
+            "right": 347,
+            "top": 4404.515625,
+            "bottom": 4478.765625,
+            "width": 282,
+            "height": 74.25
+          },
+          {
+            "text": "packaging, timing and document requirements, if known; and",
+            "left": 65,
+            "right": 347,
+            "top": 4490.765625,
+            "bottom": 4540.265625,
+            "width": 282,
+            "height": 49.5
+          },
+          {
+            "text": "company and business contact details for follow-up.",
+            "left": 65,
+            "right": 347,
+            "top": 4552.265625,
+            "bottom": 4601.765625,
+            "width": 282,
+            "height": 49.5
+          },
+          {
+            "text": "Keep EU-Wide Checks with the EU Owners",
+            "left": 20,
+            "right": 370,
+            "top": 4725.765625,
+            "bottom": 4794.765625,
+            "width": 350,
+            "height": 69
+          },
+          {
+            "text": "Germany is part of the European Union procurement context. Use the EU Procuremen",
+            "left": 20,
+            "right": 370,
+            "top": 4818.765625,
+            "bottom": 5055.265625,
+            "width": 350,
+            "height": 236.5
+          },
+          {
+            "text": "EU Procurement Overview",
+            "left": 20,
+            "right": 210.78125,
+            "top": 4868.265625,
+            "bottom": 4912.265625,
+            "width": 190.78125,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "left": 20,
+            "right": 267.390625,
+            "top": 4986.515625,
+            "bottom": 5030.515625,
+            "width": 247.390625,
+            "height": 44
+          },
+          {
+            "text": "This Germany page focuses on application and destination preparation. It does no",
+            "left": 20,
+            "right": 370,
+            "top": 5073.265625,
+            "bottom": 5172.265625,
+            "width": 350,
+            "height": 99
+          },
+          {
+            "text": "Send a Germany Destination Request",
+            "left": 42,
+            "right": 348,
+            "top": 5289.265625,
+            "bottom": 5358.265625,
+            "width": 306,
+            "height": 69
+          },
+          {
+            "text": "On the quotation form, select a Product / Grade or choose Not sure / Need help. ",
+            "left": 42,
+            "right": 348,
+            "top": 5382.265625,
+            "bottom": 5530.765625,
+            "width": 306,
+            "height": 148.5
+          },
+          {
+            "text": "Request a Quote",
+            "left": 42,
+            "right": 348,
+            "top": 5548.765625,
+            "bottom": 5597.515625,
+            "width": 306,
+            "height": 48.75
+          },
+          {
+            "text": "Request a Quote",
+            "left": 42,
+            "right": 348,
+            "top": 5548.765625,
+            "bottom": 5597.515625,
+            "width": 306,
+            "height": 48.75
+          },
+          {
+            "text": "After submission, our team reviews your requirements and details, then contacts ",
+            "left": 42,
+            "right": 348,
+            "top": 5615.515625,
+            "bottom": 5764.015625,
+            "width": 306,
+            "height": 148.5
+          },
+          {
+            "text": "Germany industry and destination references",
+            "left": 20,
+            "right": 370,
+            "top": 5832.015625,
+            "bottom": 5889.515625,
+            "width": 350,
+            "height": 57.5
+          },
+          {
+            "text": "VdL — German coatings market 2025 — published 11 February 2026; the source lists",
+            "left": 42,
+            "right": 370,
+            "top": 5907.515625,
+            "bottom": 6025.765625,
+            "width": 328,
+            "height": 118.25
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "left": 47,
+            "right": 370,
+            "top": 5907.515625,
+            "bottom": 5951.515625,
+            "width": 323,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement — published 18 February 2026",
+            "left": 42,
+            "right": 370,
+            "top": 6041.765625,
+            "bottom": 6175.515625,
+            "width": 328,
+            "height": 133.75
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "left": 47,
+            "right": 370,
+            "top": 6041.765625,
+            "bottom": 6101.265625,
+            "width": 323,
+            "height": 59.5
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway — publication date not shown; checked 7 Se",
+            "left": 42,
+            "right": 370,
+            "top": 6191.515625,
+            "bottom": 6309.765625,
+            "width": 328,
+            "height": 118.25
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "left": 47,
+            "right": 370,
+            "top": 6191.515625,
+            "bottom": 6235.515625,
+            "width": 323,
+            "height": 44
+          },
+          {
+            "text": "Germany industry and destination context checked: 7 September 2026.",
+            "left": 20,
+            "right": 370,
+            "top": 6325.765625,
+            "bottom": 6375.265625,
+            "width": 350,
+            "height": 49.5
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 55.65625,
+            "height": 44
+          },
+          {
+            "text": "European Union",
+            "width": 108.203125,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 350,
+            "height": 48.75
+          },
+          {
+            "text": "Explore Products",
+            "width": 350,
+            "height": 48.75
+          },
+          {
+            "text": "Review Titanium Dioxide for Coatings",
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Plastics",
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Review Titanium Dioxide for Masterbatch",
+            "width": 306,
+            "height": 44
+          },
+          {
+            "text": "Product Hub",
+            "width": 90.671875,
+            "height": 44
+          },
+          {
+            "text": "Request Documents",
+            "width": 146.484375,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 65.421875,
+            "height": 44
+          },
+          {
+            "text": "quotation request",
+            "width": 128.953125,
+            "height": 44
+          },
+          {
+            "text": "Request a Sample",
+            "width": 129.8125,
+            "height": 44
+          },
+          {
+            "text": "EU Procurement Overview",
+            "width": 190.78125,
+            "height": 44
+          },
+          {
+            "text": "EU Titanium Dioxide Trade Update",
+            "width": 247.390625,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 306,
+            "height": 48.75
+          },
+          {
+            "text": "VdL — German coatings market 2025",
+            "width": 323,
+            "height": 44
+          },
+          {
+            "text": "GKV — German plastics-processing industry statement",
+            "width": 323,
+            "height": 59.5
+          },
+          {
+            "text": "Hamburg Port Authority — Port Railway",
+            "width": 323,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "appColumns": 1,
+        "destinationColumns": 1,
+        "reducedMotion": "auto"
+      }
+    },
+    {
+      "name": "390 Markets current navigation mapping",
+      "status": "PASS",
+      "detail": {
+        "desktopVisible": false,
+        "mobileVisible": true,
+        "desktopCurrent": "Markets",
+        "mobileCurrent": "Markets",
+        "activeSurfaces": 0
+      }
+    },
+    {
+      "name": "390 Germany application relationships",
+      "status": "PASS",
+      "detail": {
+        "applicationHeadings": [
+          "Coatings",
+          "Plastics",
+          "Masterbatch"
+        ],
+        "applicationHrefs": [
+          "/applications/titanium-dioxide-for-coatings/",
+          "/applications/titanium-dioxide-for-plastics/",
+          "/applications/titanium-dioxide-for-masterbatch/"
+        ],
+        "checklistItems": 5,
+        "sourceHrefs": [
+          "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+          "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+          "https://www.hamburg-port-authority.de/en/port-railway"
+        ],
+        "tradeHref": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "forbidden": false
+      }
+    },
+    {
+      "name": "390 Germany destination and sources",
+      "status": "PASS",
+      "detail": {
+        "applicationHeadings": [
+          "Coatings",
+          "Plastics",
+          "Masterbatch"
+        ],
+        "applicationHrefs": [
+          "/applications/titanium-dioxide-for-coatings/",
+          "/applications/titanium-dioxide-for-plastics/",
+          "/applications/titanium-dioxide-for-masterbatch/"
+        ],
+        "checklistItems": 5,
+        "sourceHrefs": [
+          "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+          "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+          "https://www.hamburg-port-authority.de/en/port-railway"
+        ],
+        "tradeHref": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "forbidden": false
+      }
+    },
+    {
+      "name": "390 local action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 3",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/european-union/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 4",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "390 local action 5",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 6",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-coatings/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 7",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-plastics/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 8",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/titanium-dioxide-for-masterbatch/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 9",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 10",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-documents/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 11",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 12",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "390 local action 13",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-sample/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 14",
+      "status": "PASS",
+      "detail": {
+        "href": "/markets/european-union/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 15",
+      "status": "PASS",
+      "detail": {
+        "href": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 16",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/",
+        "context": {
+          "destinationCountry": "Germany",
+          "sourcePage": "MARKET-EU-DE"
+        }
+      }
+    },
+    {
+      "name": "390 local action 17",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.wirsindfarbe.de/statistiken/deutscher-lackmarkt-2025",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 18",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.gkv.de/de/service/presse/kunststoffverarbeitung-erneut-im-minus.html",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 local action 19",
+      "status": "PASS",
+      "detail": {
+        "href": "https://www.hamburg-port-authority.de/en/port-railway",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 menu opens with first focus and background isolation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 menu forward focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 menu reverse focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 menu Escape restores focus and background",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 menu selection closes and restores",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 menu locks background scroll",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 Cookie entry focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 Cookie controls and functional teal",
+      "status": "PASS",
+      "detail": [
+        {
+          "width": 312,
+          "height": 48,
+          "color": "rgb(0, 128, 120)",
+          "border": "rgb(0, 128, 120)"
+        },
+        {
+          "width": 312,
+          "height": 48,
+          "color": "rgb(0, 128, 120)",
+          "border": "rgb(0, 128, 120)"
+        }
+      ]
+    },
+    {
+      "name": "390 Cookie reverse focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 Cookie forward focus loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 Cookie close returns trigger focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1440 desktop at 200 percent equivalent reflows without overflow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no network requests",
+      "status": "PASS",
+      "detail": []
+    }
+  ],
+  "assets": [
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-1440-full.png",
+      "bytes": 677549,
+      "sha256": "03d1f4ab31d647fe4124bca21fa298f22dfc594fe2434c474c458dfaebaa6d3b",
+      "width": 1440,
+      "state": "diagnostic-1440-full"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/1440-segment-00.png",
+      "bytes": 118751,
+      "sha256": "f9108ebfea4693908170ff33e332067328a5da661b4947bda835a2d8ff4fd3de",
+      "width": 1440,
+      "state": "readable-segment",
+      "y": 0
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/1440-segment-01.png",
+      "bytes": 147260,
+      "sha256": "21894bf02f65532d732e4b9d7f1a21de18b6d0ad199a36eb30ee31404024b533",
+      "width": 1440,
+      "state": "readable-segment",
+      "y": 760
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/1440-segment-02.png",
+      "bytes": 134358,
+      "sha256": "d0f147a1beb7c5eb8823bdc3dcfb13f15b114e85c0043e5f7dd8e9fbb50b5082",
+      "width": 1440,
+      "state": "readable-segment",
+      "y": 1520
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/1440-segment-03.png",
+      "bytes": 150227,
+      "sha256": "5a0a2452ad149809b1cb28098edff81403197fe1f47bc9ddcdc2ce3f92e5a39b",
+      "width": 1440,
+      "state": "readable-segment",
+      "y": 2280
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/1440-segment-04.png",
+      "bytes": 104473,
+      "sha256": "7d34806f0d05af18ed9401c7dbd453a5b08957fa98c9b318b81014d2b5f1d0f5",
+      "width": 1440,
+      "state": "readable-segment",
+      "y": 3040
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/1440-segment-05.png",
+      "bytes": 111142,
+      "sha256": "941ddffce01beb48aa9935b6d06361b7218086940a25fde4aa3e25dcf88e542a",
+      "width": 1440,
+      "state": "readable-segment",
+      "y": 3800
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/1440-segment-06.png",
+      "bytes": 100477,
+      "sha256": "c19db4b7f039524e50f8d80ff95d32952e7187e53cc08a5e39a010914c90f560",
+      "width": 1440,
+      "state": "readable-segment",
+      "y": 3871
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-768-full.png",
+      "bytes": 640173,
+      "sha256": "9777db3613f6c28c45792b8f3bb4799c2a243241a91d02119a69a17cb7659faf",
+      "width": 768,
+      "state": "diagnostic-768-full"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/768-segment-00.png",
+      "bytes": 111429,
+      "sha256": "8d7a465f97a6bd52c5706c3cdf4918fbd43381e29a51f14ceab0f8b8216a9c73",
+      "width": 768,
+      "state": "readable-segment",
+      "y": 0
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/768-segment-01.png",
+      "bytes": 118913,
+      "sha256": "8f2c313895444583b1372180df62e49f3dc184aeeb147490f1d822bd1e65b3dc",
+      "width": 768,
+      "state": "readable-segment",
+      "y": 760
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/768-segment-02.png",
+      "bytes": 96112,
+      "sha256": "b85bf8aada3f1f5f9470cf53f307fbf3ff9e9c28f2df3e1a6f67881c79138994",
+      "width": 768,
+      "state": "readable-segment",
+      "y": 1520
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/768-segment-03.png",
+      "bytes": 131631,
+      "sha256": "f3c7254f6aebe4ebb9786ca098c2a00e7cfba94d53a6c8c0dd4525bc716f1406",
+      "width": 768,
+      "state": "readable-segment",
+      "y": 2280
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/768-segment-04.png",
+      "bytes": 118847,
+      "sha256": "c0418862fb694dc2ebe68a9d95d0a69e81169130710568f269fb4117c2b8f5b2",
+      "width": 768,
+      "state": "readable-segment",
+      "y": 3040
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/768-segment-05.png",
+      "bytes": 113488,
+      "sha256": "84c18a896a70b7c9e7f55cb4fdc74a6cd756ede1e61f661390abc13738f45f26",
+      "width": 768,
+      "state": "readable-segment",
+      "y": 3800
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/768-segment-06.png",
+      "bytes": 68990,
+      "sha256": "b53f441fc2f03c757cf74e88787b52d8f61c53a36df1fb939cdc823e8859bea1",
+      "width": 768,
+      "state": "readable-segment",
+      "y": 4560
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/768-segment-07.png",
+      "bytes": 48451,
+      "sha256": "00b12b5fce561fdce489bc674bbb80e32d043bcb066fc09e8dd5135e096f407e",
+      "width": 768,
+      "state": "readable-segment",
+      "y": 4728
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-768-menu.png",
+      "bytes": 77514,
+      "sha256": "1b0f4588a009fb0a93706d712cf8deef565f731f3eb8128cbe7b2f5718322d69",
+      "width": 768,
+      "state": "diagnostic-768-menu"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-390-full.png",
+      "bytes": 566018,
+      "sha256": "83486c7af21f91a7d18b2929d44ea183541a7f1684ff1a97c64c2ab301c55a67",
+      "width": 390,
+      "state": "diagnostic-390-full"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-00.png",
+      "bytes": 62820,
+      "sha256": "35e52d59777f80d88be2878e88075d4e5c5a98ec670128ecc3181d03877de75c",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 0
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-01.png",
+      "bytes": 80900,
+      "sha256": "359020814e6ca0feb1d55241df73990b5802c572ee4f396087225f928716a2dc",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 760
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-02.png",
+      "bytes": 51015,
+      "sha256": "0e44ea03888d4f25aa1959b75e817eefd637a5a79aa0ae30deb3a87386619ca5",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 1520
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-03.png",
+      "bytes": 71762,
+      "sha256": "e9a54a318208053d99dd7faa31fbf3343f651b747dcb9b8727563de9b68916be",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 2280
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-04.png",
+      "bytes": 78962,
+      "sha256": "3c59030a97c0bc31e6ea0ca5feaabb483cb06d5e19bc9045ec73aef2ab089f8f",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 3040
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-05.png",
+      "bytes": 69109,
+      "sha256": "9562c53030e85e09ddc244b101464a1faafa908536689ac852b369b19dcb5b68",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 3800
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-06.png",
+      "bytes": 65971,
+      "sha256": "dba85fee2184005f853981f7f85f9db1d98af1828d7d957f3aff16181fce6426",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 4560
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-07.png",
+      "bytes": 73367,
+      "sha256": "7aceb35e483ca0e57cc7ed92d788f9b1cbbbdc35922df61445566a9bb1995d9e",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 5320
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-08.png",
+      "bytes": 53266,
+      "sha256": "18680b6e23be58d8ccb55085c86ca55d242e92c15febd53dab02e056114ce541",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 6080
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/390-segment-09.png",
+      "bytes": 37872,
+      "sha256": "475d9395f891a2e78fccbafb8a141df9ca03c7dad235ab70e456fb0d96b64f60",
+      "width": 390,
+      "state": "readable-segment",
+      "y": 6389
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-390-menu.png",
+      "bytes": 37973,
+      "sha256": "b93d366ca2268c64bbd2e72b4e2f545c1143182ed8da16ac57c3e0572b9cf8bd",
+      "width": 390,
+      "state": "diagnostic-390-menu"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/diagnostic_support/render/diagnostic-390-cookie.png",
+      "bytes": 48105,
+      "sha256": "f8400a37b41e7be8dfd515158a7e777ea594f3a66141e93fa1b9795b0770cb56",
+      "width": 390,
+      "state": "diagnostic-390-cookie"
+    }
+  ],
+  "blockedNetwork": [],
+  "endedAt": "2026-09-07T06:01:45.929Z"
+}

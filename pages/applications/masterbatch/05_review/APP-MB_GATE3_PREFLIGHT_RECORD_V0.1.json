@@ -1,0 +1,121 @@
+{
+  "recordId": "APP-MB-G3-PREFLIGHT-01",
+  "pageId": "APP-MB",
+  "date": "2026-09-07",
+  "executor": "masterbatch_gate3_v03",
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "candidate": {
+    "path": "D:/23MySec/pages/applications/masterbatch/04_planning/APP-MB_GATE3_WIREFRAME_EDITABLE_SOURCE_V0.1.html",
+    "bytes": 31200,
+    "sha256": "43a70d7c13a387c09a7d07138880f97340890c807a285217d090109b6a65f937"
+  },
+  "approvedInputs": [
+    {
+      "role": "A",
+      "path": "D:/23MySec/pages/applications/masterbatch/04_planning/APP-MB_GATE2_CONTENT_SKELETON_V0.2.md",
+      "sha256": "633a2165153d0f60711f9c170d84e658cb245d9f971afe81a4f2b079c60344dc"
+    },
+    {
+      "role": "B",
+      "path": "D:/23MySec/pages/applications/masterbatch/04_planning/APP-MB_GATE2_FULL_BUYER_CLEAN_COPY_V0.3.md",
+      "sha256": "06bdd245d1722223c415e0c4cecc7248f64d938cc37f936ae160b240faa9343f"
+    },
+    {
+      "role": "C",
+      "path": "D:/23MySec/pages/applications/masterbatch/04_planning/APP-MB_GATE2_CONTENT_CONTRACT_V0.3.md",
+      "sha256": "944fee912e10fa2ddf9a5700d2d925e584b07edb998af7b6b13194d8143ad168"
+    }
+  ],
+  "dependencies": [
+    {
+      "role": "editable_source_builder",
+      "path": "D:/23MySec/pages/applications/masterbatch/04_planning/APP-MB_GATE3_BUILD_WIREFRAME_V0.1.cjs",
+      "sha256": "dc48855243212aff5f91b6b0ee83e819f02715a61f6728b0e3457997417c85fd"
+    },
+    {
+      "role": "shared_package_manifest",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+    },
+    {
+      "role": "shared_package_machine_entry",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+    },
+    {
+      "role": "shared_renderer",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+    },
+    {
+      "role": "shared_chrome_data",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+    },
+    {
+      "role": "shared_consent_data",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+    },
+    {
+      "role": "font",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "role": "primary_logo",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "role": "reverse_logo",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "sharedConsumer": {
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002",
+    "version": "V0.2",
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+    "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb",
+    "currentPageId": "APP-000",
+    "navigationResult": "Applications current on each active navigation surface; buyer-visible CURRENT count 0",
+    "originalValidation": {
+      "path": "D:/23MySec/99_workspace/gate3-v02-validation/shared-consumer-v0.2/shared-consumer-validation.json",
+      "sha256": "373993fb476f86d454600c75d0a4b99ae4f9a9fa7547a6eb8ed099b05f477683",
+      "coverage": "Seven navigation parameters, 1440/768/390, 52 runtime/static assertions, 0 failures",
+      "inheritance": "Shared focus loop, hidden-background isolation, Escape and desktop-breakpoint behaviour are referenced from the original package validation. Current APP-MB assembly has no shared selector or behaviour override."
+    },
+    "pageActualRuntime": "At both 768 and 390, menu open moved focus to Home, set main/footer inert and locked scrolling; selecting Applications closed the menu, restored background and returned focus to Menu. At 390, Cookie Settings opened with focus on Close and returned focus to the Footer trigger on close."
+  },
+  "renderer": {
+    "engine": "Playwright Chromium 1223",
+    "logicalViewports": [1440, 768, 390],
+    "deviceScaleFactor": 1,
+    "diagnosticObservation": "D:/23MySec/pages/applications/masterbatch/05_review/diagnostic_support/APP-MB_GATE3_PREFLIGHT_OBSERVATIONS_V0.1.json"
+  },
+  "checks": {
+    "approvedInputsMatch": "PASS",
+    "durableDependencies": "PASS",
+    "sharedConsumerNeutral": "PASS",
+    "contentRelationshipsMatch": "PASS",
+    "threeViewportsVisible": "PASS",
+    "touchTargets44": "PASS",
+    "mobileMenuExit": "PASS",
+    "applicableStates": "PASS",
+    "pageSpecificRisks": "PASS"
+  },
+  "checkEvidence": {
+    "approvedInputsMatch": "A/B/C recalculated twice; all equal the user-locked identities.",
+    "contentRelationshipsMatch": "72/72 buyer-copy lines represented; 11 modules, one H1, ten H2, four tables with 4/4/4/7 rows; seven Grade order matches C.",
+    "threeViewportsVisible": "Diagnostic full-page images reach Footer; scrollWidth equals clientWidth at 1440, 768 and 390; overflow element count 0.",
+    "touchTargets44": "Visible target minimum checked in runtime; undersized count 0 at all three viewports.",
+    "applicableStates": "Shared Mobile Menu checked at two narrow viewports and Cookie Settings checked at 390. No APP-MB form or accordion exists in B/C.",
+    "pageSpecificRisks": "Four dense technical tables keep object/field/limit relations; at 390 each row becomes a labeled record. Seven neutral Grades remain ordered and equal; one, several and unknown-Grade copy and the Documents/Sample/RFQ paths remain adjacent and complete."
+  },
+  "formalExportsGenerated": false,
+  "findings": [],
+  "visualSuggestionsForGate4": [
+    "Gate 4 may refine table/card surface treatment and section rhythm without changing the four table relationships, module order or mobile labeled-record conversion."
+  ]
+}

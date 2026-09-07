@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>M-510 Gate 3 Responsive Wireframe V0.1</title>
+  <style>
+    *{box-sizing:border-box}html{font-family:Arial,sans-serif;color:#1b2633;background:#fff}body{margin:0}a{color:inherit}button{font:inherit}.wrap{width:min(1180px,calc(100% - 48px));margin:auto}.site-header{border-bottom:1px solid #aab3bc;background:#fff}.header-row{min-height:76px;display:flex;align-items:center;gap:28px}.logo{font-size:20px;font-weight:700;letter-spacing:.02em;white-space:nowrap}.desktop-nav{display:flex;gap:22px;align-items:center;margin-left:auto}.desktop-nav a{text-decoration:none;font-size:14px}.desktop-nav .active{font-weight:700;border-bottom:3px solid #5b6772;padding-bottom:8px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 20px;border:2px solid #263746;text-decoration:none;font-weight:700;background:#fff}.button.primary{background:#263746;color:#fff}.header-quote{margin-left:6px}.menu-button{display:none;margin-left:auto;min-width:46px;min-height:46px;border:1px solid #68737d;background:#fff;font-weight:700}.mobile-menu{display:none;border-top:1px solid #aab3bc;padding:12px 24px 20px;background:#fff}.mobile-menu.open{display:grid}.mobile-menu a{min-height:46px;display:flex;align-items:center;border-bottom:1px solid #d1d7dc;text-decoration:none}.mobile-menu .active{font-weight:700;border-left:4px solid #596774;padding-left:10px}.breadcrumb{font-size:13px;padding:18px 0;color:#52606c}.hero{border-top:1px solid #d1d7dc;border-bottom:1px solid #aab3bc;background:#f3f5f6}.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:54px;align-items:center;padding:66px 0}.eyebrow{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}.hero h1{font-size:50px;line-height:1.05;margin:14px 0 20px;max-width:760px}.lead{font-size:20px;line-height:1.5;max-width:760px}.support{font-size:16px;line-height:1.6;max-width:760px}.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.media-box{min-height:310px;border:2px dashed #89939c;display:grid;place-items:center;text-align:center;padding:30px;background:#fff;color:#56626d}.section{padding:64px 0;border-bottom:1px solid #c8d0d6}.section h2{font-size:32px;line-height:1.15;margin:0 0 18px}.section-intro{max-width:850px;font-size:17px;line-height:1.65;margin-bottom:28px}.facts{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.fact{border-top:4px solid #596774;background:#f3f5f6;padding:18px;min-height:112px;font-weight:700}.app-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.app{border:1px solid #9aa4ad;padding:22px;min-height:190px}.app h3,.eval h3{font-size:20px;margin:0 0 12px}.app p,.eval p{line-height:1.6;margin:0}.app.wide{grid-column:span 2}.eval-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.eval{border-left:5px solid #596774;background:#f3f5f6;padding:26px;min-height:190px}.note{margin-top:18px;padding:16px 18px;border:1px solid #8e99a3;background:#fff;line-height:1.55}.technical-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:34px;align-items:start}.table-wrap{overflow-x:auto}.tech-table{width:100%;border-collapse:collapse}.tech-table th,.tech-table td{text-align:left;padding:13px 10px;border-bottom:1px solid #aab3bc;vertical-align:top}.tech-table th{background:#eef1f3;font-size:14px}.tech-table td:last-child{font-weight:700}.side-action{border:2px solid #68737d;padding:22px;position:sticky;top:16px}.side-action h3{margin-top:0}.side-action p{line-height:1.55}.side-action .button{width:100%}.split{display:grid;grid-template-columns:1fr 1fr;gap:26px}.panel{border:1px solid #9aa4ad;padding:26px}.panel h2{font-size:28px}.market-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.market{border:1px solid #8e99a3;min-height:92px;padding:18px;display:flex;align-items:flex-end;font-weight:700}.sample{display:grid;grid-template-columns:1.2fr .8fr;gap:34px;align-items:center}.sample-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}.field{min-height:52px;border:1px solid #8e99a3;padding:14px;background:#f7f8f9}.site-footer{background:#263746;color:#fff;padding:44px 0}.footer-grid{display:grid;grid-template-columns:1.3fr repeat(3,1fr);gap:26px}.footer-col{display:grid;gap:10px;align-content:start}.footer-col strong{margin-bottom:6px}.footer-col a{font-size:14px}.wire-label{display:inline-block;font-size:11px;border:1px solid #7d8790;padding:4px 7px;margin-bottom:10px;text-transform:uppercase;letter-spacing:.07em;background:#fff;color:#34424f}
+    @media(max-width:900px){.wrap{width:min(100% - 36px,720px)}.desktop-nav,.header-quote{display:none}.menu-button{display:block}.header-row{min-height:68px}.hero-grid{grid-template-columns:1fr;gap:28px;padding:48px 0}.hero h1{font-size:42px}.media-box{min-height:220px}.facts{grid-template-columns:repeat(3,1fr)}.app-grid{grid-template-columns:1fr 1fr}.app.wide{grid-column:span 1}.technical-layout{grid-template-columns:1fr}.side-action{position:static}.market-grid{grid-template-columns:1fr 1fr}.sample{grid-template-columns:1fr}.footer-grid{grid-template-columns:1.4fr 1fr 1fr}.footer-grid .footer-col:last-child{grid-column:2/4}}
+    @media(max-width:520px){.wrap{width:calc(100% - 28px)}.header-row{min-height:62px}.logo{font-size:18px}.breadcrumb{padding:14px 0}.hero-grid{padding:34px 0}.hero h1{font-size:34px}.lead{font-size:18px}.media-box{min-height:180px}.cta-row{display:grid}.button{width:100%;min-height:48px}.section{padding:44px 0}.section h2{font-size:27px}.facts,.app-grid,.eval-grid,.split,.market-grid,.sample-fields,.footer-grid{grid-template-columns:1fr}.fact{min-height:auto}.app,.eval{min-height:auto}.technical-layout{gap:20px}.tech-table,.tech-table tbody,.tech-table tr,.tech-table td{display:block}.tech-table thead{display:none}.tech-table tr{padding:11px 0;border-bottom:1px solid #aab3bc}.tech-table td{border:0;padding:3px 0}.tech-table td:first-child{font-size:13px;color:#56626d}.side-action{padding:18px}.market{min-height:70px}.footer-grid .footer-col:last-child{grid-column:auto}.site-footer{padding:36px 0}.mobile-menu{padding-left:14px;padding-right:14px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div class="logo">TiO2 Malaysia</div>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#">Home</a><a href="#">Markets</a><a class="active" href="#">Products</a><a href="#">Applications</a><a href="#">Documents</a><a href="#">Resources</a><a href="#">About</a>
+        <a class="button primary header-quote" href="#">Request a Quote</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
+      <a href="#">Home</a><a href="#">Markets</a><a class="active" href="#">Products</a><a href="#">Applications</a><a href="#">Documents</a><a href="#">Resources</a><a href="#">About</a><a href="#">Request a Quote</a>
+    </nav>
+  </header>
+  <main>
+    <div class="wrap breadcrumb">Home &gt; Products &gt; M-510</div>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="wire-label">Product Hero</span>
+          <div class="eyebrow">M-510 · Chloride process</div>
+          <h1>M-510 Titanium Dioxide for Coating Evaluation</h1>
+          <p class="lead">A chloride-process, multi-application rutile titanium dioxide pigment with a bluish tone, high brightness and high durability.</p>
+          <p class="support">Architectural and automotive coating evaluation is the primary path. Plastics, masterbatch and printing-ink directions provide additional routes for product evaluation.</p>
+          <p class="support">Review the M-510 technical data below and confirm final suitability through testing in your own formulation and application conditions.</p>
+          <div class="cta-row"><a class="button primary" href="#">Request an M-510 Quote</a><a class="button" href="#">Request an M-510 Sample</a><a class="button" href="#">Request M-510 Documents</a></div>
+        </div>
+        <div class="media-box">Approved M-510 media<br>or evidence-safe generic material visual</div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <span class="wire-label">Positioning</span>
+        <h2>Where M-510 Fits in Product Evaluation</h2>
+        <p class="section-intro">M-510 is a specially surface-treated rutile titanium dioxide pigment produced by the chloride process. Its multi-application profile supports a coatings-first evaluation path, with additional directions in engineering plastics, masterbatch, profiles and printing inks.</p>
+        <div class="facts"><div class="fact">Chloride-process rutile pigment</div><div class="fact">Zirconia, alumina and organic treatment</div><div class="fact">Bluish tone and high brightness</div><div class="fact">High durability</div><div class="fact">Multifunctional profile</div></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <span class="wire-label">Applications</span>
+        <h2>Application Directions to Evaluate</h2>
+        <p class="section-intro">Coatings remain the primary page narrative. Plastics, masterbatch and printing inks are secondary evaluation paths.</p>
+        <div class="app-grid">
+          <article class="app"><h3>Architectural Coatings</h3><p>Interior and exterior architectural coating formulations where color direction, brightness and rutile pigment performance are relevant.</p></article>
+          <article class="app"><h3>Automotive Coatings</h3><p>Automotive OEM and refinishing paint systems, subject to complete formulation and application testing.</p></article>
+          <article class="app"><h3>Other Coating Systems</h3><p>Coil coatings, anticorrosion paints, decorating coatings and powder coatings.</p></article>
+          <article class="app"><h3>Engineering Plastics and Masterbatch</h3><p>Engineering plastics, masterbatch and profiles under the buyer's actual processing conditions.</p></article>
+          <article class="app wide"><h3>Printing Inks</h3><p>Letterpress, offset and intaglio printing inks, with final suitability determined in the buyer's formulation and printing process.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <span class="wire-label">Formulation Evaluation</span>
+        <h2>What to Evaluate in Your Formulation</h2>
+        <div class="eval-grid">
+          <article class="eval"><h3>Optical and Appearance Evaluation</h3><p>Review color direction, brightness, dispersion and finished appearance in the buyer's coating, plastic or ink system.</p></article>
+          <article class="eval"><h3>Durability and Versatility Evaluation</h3><p>Review durability, compatibility, processing behavior and final performance under relevant formulation and service conditions.</p></article>
+        </div>
+        <div class="note">These evaluation directions describe what to check during buyer testing. They do not guarantee a fixed result in every formulation or application.</div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap technical-layout">
+        <div>
+          <span class="wire-label">Technical Data</span>
+          <h2>Typical Technical Data</h2>
+          <div class="table-wrap"><table class="tech-table"><thead><tr><th>Property</th><th>Typical value</th></tr></thead><tbody>
+            <tr><td>TiO2 content, %</td><td>94.5</td></tr><tr><td>Surface treatment</td><td>Zirconia, alumina, organic</td></tr><tr><td>Identification</td><td>ISO 591: R2; ASTM D 476-84: II(IV)</td></tr><tr><td>Rutile content, %</td><td>99.9</td></tr><tr><td>L*</td><td>98.3</td></tr><tr><td>b*</td><td>1.65</td></tr><tr><td>Specific gravity, g/cm³</td><td>4.1</td></tr><tr><td>Tinting strength, %</td><td>118</td></tr><tr><td>pH</td><td>7.5</td></tr><tr><td>Oil absorption, g/100g</td><td>17.5</td></tr><tr><td>Mean particle size, μm</td><td>0.27</td></tr><tr><td>Carbon black undertone (CBU)</td><td>14.0</td></tr>
+          </tbody></table></div>
+          <p class="support">These values are typical properties and do not constitute a product specification. Confirm suitability in your own formulation and application conditions.</p>
+        </div>
+        <aside class="side-action"><h3>Need the source document?</h3><p>Request the M-510 TDS with Grade and source-page context prefilled.</p><a class="button primary" href="#">Request the M-510 TDS</a></aside>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap split">
+        <article class="panel"><span class="wire-label">Documents</span><h2>Request M-510 Documents</h2><p class="support">Request the M-510 Technical Data Sheet and tell us which other technical or export documents are needed for your destination and evaluation process.</p><a class="button" href="#">Request M-510 Documents</a></article>
+        <article class="panel"><span class="wire-label">Destination</span><h2>Plan Evaluation for Your Destination Market</h2><p class="support">Continue to the relevant destination page for market-specific procurement, document and inquiry guidance.</p></article>
+      </div>
+      <div class="wrap market-grid" style="margin-top:16px"><div class="market">European Union</div><div class="market">United Kingdom</div><div class="market">India</div><div class="market">Brazil</div></div>
+    </section>
+    <section class="section">
+      <div class="wrap sample">
+        <div><span class="wire-label">Sample Request</span><h2>Request M-510 for Your Own Evaluation</h2><p class="section-intro">Share your application, destination, evaluation objective and relevant technical requirements so the M-510 sample request can be reviewed in the correct context.</p><a class="button primary" href="#">Request an M-510 Sample</a></div>
+        <div class="sample-fields"><div class="field">Grade: M-510</div><div class="field">Destination</div><div class="field">Application</div><div class="field">Evaluation objective</div><div class="field" style="grid-column:1/-1">Technical requirements</div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-grid"><div class="footer-col"><div class="logo">TiO2 Malaysia</div><span>Procurement-focused titanium dioxide evaluation paths.</span></div><div class="footer-col"><strong>Explore</strong><a href="#">Markets</a><a href="#">Products</a><a href="#">Applications</a></div><div class="footer-col"><strong>Support</strong><a href="#">Documents</a><a href="#">Resources</a><a href="#">About</a></div><div class="footer-col"><strong>Procurement</strong><a href="#">Request a Quote</a><a href="#">Request a Sample</a><a href="#">Request Documents</a></div></div></footer>
+  <script>
+    const button=document.querySelector('.menu-button');
+    const menu=document.getElementById('mobile-menu');
+    button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!open));menu.classList.toggle('open',!open);});
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "source_id": "SERP-R01-PVC-CORE-20260907",
+  "source_type": "serp",
+  "source_name": "Web search raw response",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "titanium dioxide for PVC"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-09-07T08:13:40.4178272+08:00",
+  "data_date_shown_by_source": "2026-09-07",
+  "capture_method": "complete raw response returned by web search and serialized as JSON",
+  "files": [
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Provider result order is preserved; use as SERP-intent evidence, not search-volume evidence."
+  ],
+  "sha256": {
+    "raw_search_response.json": "f38ab2ccb310982cd5c6b03740687bcb50e616095efbd73797bd5532c8ba0008"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json": 36069
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "freezeId": "G5-LAB-01-CANDIDATE-A-F1",
+  "created": "2026-09-07T01:20:20.259Z",
+  "synthetic": true,
+  "sourceIdentity": [
+    {
+      "path": "source/index.html",
+      "bytes": 5325,
+      "sha256": "3ec171570aec364981e9d7c1309bdfbb29ef7e9022efc00db4e45966d2bc35b5"
+    },
+    {
+      "path": "source/styles.css",
+      "bytes": 8399,
+      "sha256": "021b843c0e63972e37e437970b9d4cb8433c38dcc0dee4a219761844a00d38df"
+    },
+    {
+      "path": "source/app.js",
+      "bytes": 6453,
+      "sha256": "2463cf517a9124572a8c12f4df258aa773270a584d7f63c58d6cf600f9cc3a6b"
+    },
+    {
+      "path": "source/assets/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    }
+  ],
+  "combinedSha256": "320230f713e39ed5b296c5cfe6e220ab45f6d414f689f44a6d83079d687c2c74",
+  "identityAlgorithm": "SHA-256 of UTF-8 JSON.stringify(sourceIdentity) with ordered path/bytes/sha256 records",
+  "inputIdentity": [
+    {
+      "path": "docs/superpowers/specs/evidence/2026-09-07-gate5-validation/input/brief.md",
+      "bytes": 9196,
+      "sha256": "279fef6eb3a230b569c39420d6afe2d0cdfda009e6eb054720b2b9ca26a61278"
+    },
+    {
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/input.md",
+      "bytes": 8570,
+      "sha256": "9d6b7c235785ec3bd299694121b9779d5f93829db1f9263241308215f738f3dd"
+    },
+    {
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/report.md",
+      "bytes": 12682,
+      "sha256": "992885e01f6f410a0b6679de82e9ccf62d2d51bd6331796deae5451f68030fb7"
+    },
+    {
+      "path": "agents/gate5-execution/agent.md",
+      "bytes": 12063,
+      "sha256": "2b699ac3246699eb8fcfcd7846b06a3cdb1fa666dd39c568e41ceb28cbdcdead"
+    },
+    {
+      "path": "skills/full-page-visual-composition/SKILL.md",
+      "bytes": 7868,
+      "sha256": "684ac4a1ebab836b34d23b54ca3947541fa802c217513114403ff8d1ea13cf1a"
+    },
+    {
+      "path": "skills/layout-interaction-verification/SKILL.md",
+      "bytes": 8371,
+      "sha256": "86d1b6cda29ca2213607e6b5be1f48f3a449105b1385659200584498fb541aa4"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-07-gate5-design-user-approval-v0.1.md",
+      "bytes": 1836,
+      "sha256": "e3f7d904a2587258de3e2b1e85a356bff8a604dc399dbd249a4b6fac8dac65a5"
+    }
+  ],
+  "precursorIdentity": [
+    {
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/index.html",
+      "bytes": 3352,
+      "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+    },
+    {
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/styles.css",
+      "bytes": 5952,
+      "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+    },
+    {
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/app.js",
+      "bytes": 4314,
+      "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+    },
+    {
+      "path": "90_archive/skills/2026-09-07/gate4-method-validation/design-v1/assets/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    }
+  ],
+  "preflight": [
+    {
+      "path": "preflight.md",
+      "bytes": 3913,
+      "sha256": "80baaf333502fa4606361452c7eda051218ae8e442e8534677ac45946ab1cf59"
+    },
+    {
+      "path": "diagnostic/preflight-06/runtime.json",
+      "bytes": 168295,
+      "sha256": "ce4f0e4394bfea0d0e5f40b3c0922e23b4f50ea52c2e5d2eea1d80a5f6a96dbf"
+    }
+  ],
+  "renderer": {
+    "path": "verify-render.cjs",
+    "bytes": 15647,
+    "sha256": "4c11d0f9943352ac799755959fe8492b0c0e48ec92c20a0039661d8029185061"
+  },
+  "render": {
+    "browser": "Chrome 152.0.7977.82",
+    "playwright": "1.62.1",
+    "node": "v24.16.0",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      {
+        "width": 768,
+        "height": 1000,
+        "dpr": 1
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "dpr": 2
+      }
+    ],
+    "scheme": "file",
+    "font": "relative source/assets/Inter-Variable.ttf",
+    "externalNetwork": false
+  },
+  "preflightStatus": "PASS_FOR_FORMAL_RENDER",
+  "pageApproval": "NOT_REQUESTED_SYNTHETIC_EXERCISE",
+  "actualGate6Authorization": "NOT_AUTHORIZED",
+  "exerciseAuthorization": "G5-DESIGN-APPROVAL-01 limited validation only"
+}

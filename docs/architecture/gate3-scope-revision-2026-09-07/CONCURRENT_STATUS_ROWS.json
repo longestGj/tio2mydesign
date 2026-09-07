@@ -1,0 +1,9 @@
+{
+  "reason": "Observed changes from parallel Gate4 consolidation and Gate2 progress; preserve without interpreting as this task execution",
+  "rows": {
+    "MARKET-EU-NL": "| MARKET-EU-NL | 旧Gate 1–4 `APPROVED / CLOSED`；新Gate 4待缺口映射 | 继承已批准方向与42张证据，不重做已有部分；是否满足4B完整关闭须按当前标准核对实际缺口，尚未授权继续执行。[当前Manifest V0.7](pages/markets/netherlands/MARKET-EU-NL_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md) |",
+    "MARKET-EU-BE": "| MARKET-EU-BE | Gate 1–3 `APPROVED / CLOSED`；旧Gate4执行暂停 | 45项上游身份核对结果保留；合并流程不自动恢复，也不把原方向授权扩展为完整视觉。恢复时须明确4A、完整制作、最终审查和关闭范围。[当前Manifest V0.6](pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md) |",
+    "APP-COAT": "| APP-COAT | 文章内容`APPROVED / CLOSED`；页面Gate 1 `APPROVED / CLOSED`；Gate 2 `PROJECT_CONTROL_REVIEW_PASS_PENDING_BATCH_USER_APPROVAL` | A V0.1 / B V0.2 / C V0.1完成执行、独立Buyer Review、三项Finding关闭及总控复核；Gate 2保持OPEN，等待七页批量用户审核；[当前Manifest V0.2](pages/applications/coatings/APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md) / [总控复核](pages/applications/coatings/05_review/APP-COAT_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md) |",
+    "APP-PLAS": "| APP-PLAS | D22完整流程`CLOSED / RELEASE CANDIDATE DESIGNATED / NOT PUBLISHED`；D23内容决定`APPROVED / CLOSED`；页面Gate 1 `APPROVED / CLOSED`；Gate 2 `USER_AUTHORIZED / STARTING` | 七页Gate 2串行队列第4页；Coatings达到总控PASS待批后解锁，当前开始Full Copy执行；[当前Gate 1 Manifest V0.1](pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md) / [七页串行控制](docs/architecture/GATE2_REMAINING_SEVEN_SERIAL_FULL_COPY_CONTROL_V1.0.md) |"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "pageId": "MARKET-EU-IT",
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "checkedAt": "2026-09-07T06:03:29.001Z",
+  "role": "EXECUTION_SELF_CHECK_NOT_INDEPENDENT_APPROVAL",
+  "candidate": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/MARKET-EU-IT_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 24182,
+    "sha256": "910d8199ca4094b4b56d854b5292c6eb115a6eabd29ff35d9515850d76a1b752"
+  },
+  "checks": {
+    "approvedInputsMatch": "PASS",
+    "durableDependencies": "PASS",
+    "sharedConsumerNeutral": "PASS",
+    "contentRelationshipsMatch": "PASS",
+    "threeViewportsVisible": "PASS",
+    "touchTargets44": "PASS",
+    "mobileMenuExit": "PASS",
+    "applicableStates": "PASS",
+    "pageSpecificRisks": "PASS"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    }
+  ],
+  "sharedConsumer": {
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "bytes": 2409,
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+    "version": "V0.2",
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002"
+  },
+  "approvedInputs": [
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/MARKET-EU-IT_GATE2_CONTENT_SKELETON_V0.1.md",
+      "bytes": 7481,
+      "sha256": "8e18340cdae14cbb36991fd56b8ba7b33bdcda0fee1fd0fd0ba3a8181e151751",
+      "role": "A"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/MARKET-EU-IT_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+      "bytes": 6869,
+      "sha256": "a7d047af04b5127cc54f97938e4d622b1e1b496691747516322924f6e0b44208",
+      "role": "B"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/MARKET-EU-IT_GATE2_CONTENT_CONTRACT_V0.2.md",
+      "bytes": 8710,
+      "sha256": "ac49b66055bf36b87583e3919005ccbf87919a9900d9a9103aaa7d39936a6e19",
+      "role": "C"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE2_REMAINING_SEVEN_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+      "bytes": 4632,
+      "sha256": "8ed9810a96d1bde005f1d7e756995d494b13932fa386a79bbf177062997c3372",
+      "role": "Gate2Approval"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/MARKET-EU-IT_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "bytes": 3980,
+      "sha256": "21693530696805ca5953e75553ff830232bd9ae6a82d12953cbbc28573c5734a",
+      "role": "Gate2Review"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "bytes": 9738,
+      "sha256": "07d231f822772c5e72ef8d7800feea63c64fefea6aeb5904bbd1bf2ba255fa0f",
+      "role": "CurrentManifest"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE3_GERMANY_ITALY_PARALLEL_CONTROL_V1.0.md",
+      "bytes": 1995,
+      "sha256": "e8b01492a8f04fe67d97080028c9d26b08b7e850c5696da4f572c806bd10289d",
+      "role": "Gate3Authorization"
+    }
+  ],
+  "inputBinding": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/input-binding.json",
+    "bytes": 10996,
+    "sha256": "ba3bf43e564df600b8eb512955418ab0ce69dff9c089e95d9d96828a9ad7c62a"
+  },
+  "runtimeEvidence": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/visual-preflight.json",
+    "bytes": 122811,
+    "sha256": "085ab294c39962c9aa2a9a355a5430d36eb152bf3bd72b1161ecb05221de59a5"
+  },
+  "visualReadback": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/visual-readback.json",
+    "bytes": 2530,
+    "sha256": "9617f45ccde9d95f8c9e1419b55d714243f158df8c7d794d9df0796b008338bb"
+  },
+  "sharedEvidenceInheritance": {
+    "component": "Global Header/Footer, Mobile Menu and Cookie Settings",
+    "ownerPackage": {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "bytes": 2409,
+      "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+      "version": "V0.2",
+      "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002"
+    },
+    "originalReport": {
+      "path": "D:/23MySec/99_workspace/gate3-v02-validation/shared-consumer-v0.2/shared-consumer-validation.json",
+      "bytes": 7778,
+      "sha256": "373993fb476f86d454600c75d0a4b99ae4f9a9fa7547a6eb8ed099b05f477683"
+    },
+    "inheritedCoverage": "Package source identity, seven navigation parameters, full shared focus/isolation/colour behaviours at 1440/768/390",
+    "currentPageNoImpactBasis": "Italy source embeds the package output without overriding shared selectors or behaviour; runtime found current Markets mapping and no external dependency.",
+    "currentPageActualTests": "Three-width Header/Footer assembly and Cookie entry/exit/focus return; 768 and 390 menu open, cycle, Escape, selection close, inert background and focus restoration.",
+    "gaps": "Production/runtime behaviour remains Gate 8/9; no shared component anomaly required expanded re-test."
+  },
+  "evidenceTypes": [
+    "SOURCE_INSPECTION",
+    "ACTUAL_RUNTIME",
+    "STATIC_VISUAL",
+    "LOCAL_NAVIGATION_SIMULATION"
+  ],
+  "formalExportsGenerated": false,
+  "limitations": [
+    "Navigation is a local intent simulation; receiver and route availability are not implementation claims.",
+    "External source freshness and production legal/consent behaviour remain later implementation/release checks."
+  ],
+  "unresolvedRequiredFindings": []
+}

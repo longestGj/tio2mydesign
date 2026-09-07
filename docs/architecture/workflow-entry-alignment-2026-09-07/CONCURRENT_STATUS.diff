@@ -1,0 +1,11 @@
+--- our-authored-status
++++ later-observed-status
+@@ -35,7 +35,7 @@
+ | MARKET-EU-PL | Gate1–5已关闭；Gate6 `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL` | 用户指定Poland执行Gate6；独立综合审查及新开发包独立复核完成，实质必修Finding 0。[当前Manifest V0.20](pages/markets/poland/MARKET-EU-PL_CURRENT_GATE_BASELINE_MANIFEST_V0.20.md) / [Gate6准确组合提交](pages/markets/poland/05_review/MARKET-EU-PL_GATE6_REVIEW_SUBMISSION_V0.1.md)。12条Gate9接受条件、6类后续依赖已整理；未获Gate6成果批准，未外发，Gate8–10及开发发布未授权。 |
+ | MARKET-EU-NL | 旧Gate 1–4 `APPROVED / CLOSED`；新Gate 4待缺口映射 | 继承已批准方向与42张证据，不重做已有部分；是否满足4B完整关闭须按当前标准核对实际缺口，尚未授权继续执行。[当前Manifest V0.7](pages/markets/netherlands/MARKET-EU-NL_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md) |
+ | MARKET-EU-BE | Gate 1–3 `APPROVED / CLOSED`；旧Gate4执行暂停 | 45项上游身份核对结果保留；合并流程不自动恢复，也不把原方向授权扩展为完整视觉。恢复时须明确4A、完整制作、最终审查和关闭范围。[当前Manifest V0.6](pages/markets/belgium/MARKET-EU-BE_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md) |
+-| MARKET-IN-001 | Gate 1–3 `APPROVED / CLOSED` | 子代理执行及总控独立审查完成，五模块与贸易边界通过，未解决页面Finding 0；[当前Manifest V0.7](pages/markets/india/MARKET-IN-001_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md)。V0.4模块计数及V0.5哈希转录错误仅为已纠正的治理记录 |
++| MARKET-IN-001 | Gate 1–3 `APPROVED / CLOSED`；合并Gate 4候选待独立审查 | 首个合并Gate 4实测已完成4A方向检查、4B完整制作、三端及Menu/Cookie正式证据，作者Finding 0；[当前Manifest V0.8](pages/markets/india/MARKET-IN-001_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md)。尚未独立审查、用户批准或关闭Gate 4；Gate 6–10未授权。V0.4模块计数及V0.5哈希转录错误仅为已纠正治理记录 |
+ | MARKET-BR-EN | Gate 1–3 `APPROVED / CLOSED` | 子代理执行及总控独立审查完成，五模块与贸易日期边界通过，未解决页面Finding 0；[当前Manifest V0.5](pages/markets/brazil/MARKET-BR-EN_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md) |
+ | MARKET-BR-PT | Gate 1–3 `APPROVED / CLOSED` | 子代理执行及总控独立审查完成，葡语/英文目标提示、贸易日期与规划路径边界通过，未解决页面Finding 0；[当前Manifest V0.5](pages/markets/brazil/MARKET-BR-PT_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md)。规划路径不等于路由已实现 |
+ | 其他Market子页 | 各自规划/Gate，未因Hub完成获得开发授权 | [Markets目录](pages/markets/)；Brazil PT-BR保持本地化审查边界 |

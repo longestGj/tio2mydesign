@@ -1,0 +1,38 @@
+{
+  "source_id": "SERP-REV-GRADE-KRONOS2310-TIO2-20260829",
+  "source_type": "serp",
+  "source_name": "Web search raw response (base64 JSON envelope)",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "KRONOS 2310 titanium dioxide alternative equivalent"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-08-29T00:00:00+08:00",
+  "data_date_shown_by_source": "2026-08-29",
+  "capture_method": "complete raw response returned by web search; JSON serialized and base64 encoded for byte-safe append-only storage; decoded JSON copy added for direct local analysis",
+  "files": [
+    "raw_search_response.json.b64",
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "analysis_eligible": "YES",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Use as SERP intent evidence; do not treat result counts as search volume.",
+    "No technical equivalence may be inferred from search results.",
+    "Stored file is base64 encoding of the complete serialized tool response."
+  ],
+  "sha256": {
+    "raw_search_response.json.b64": "ae6f862b06fa03d7c245c7dacfff0933f0520ecf727849632f76509d30f99596",
+    "raw_search_response.json": "f3d5783dc965b9af2b5e8f0579d2701ef846cce1bb9b7849dbe6bfc5f898d208"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json.b64": 35647,
+    "raw_search_response.json": 26514
+  },
+  "correction_to": "manifest.json",
+  "notes": "Append-only finalized manifest. Original PENDING_HASH manifest preserved; no prior raw evidence changed."
+}

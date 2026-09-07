@@ -1,0 +1,360 @@
+{
+  "status": "PASS",
+  "validation_kind": "DOCUMENT_MIGRATION_SELF_CHECK_NOT_INDEPENDENT_REVIEW",
+  "checks": [
+    {
+      "check": "backup: AGENTS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "backup: 01_PROJECT_INDEX.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "backup: PROJECT_CONTEXT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "backup: 02_DIRECTORY_GUIDE.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "backup: 00_PROJECT_STATUS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "backup: agents/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "backup: skills/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "backup: docs/product-pages/00_README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all original versioned sources preserved",
+      "passed": true,
+      "detail": [
+        {
+          "source": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.0.md",
+          "sha256": "e1f17155d7be8b1779357ae3e7f4af539894f2eab31b5a8450a664fffbadd717",
+          "unchanged": true
+        },
+        {
+          "source": "docs/architecture/PAGE_GATE_1_5_STANDARD_V1.1.md",
+          "sha256": "9ed489a406ab611984f46bebad121cccd4edecfcdebf67a85e009ec38cd15308",
+          "unchanged": true
+        },
+        {
+          "source": "docs/page-briefs/PAGE_BRIEF_TEMPLATE.md",
+          "sha256": "053ea2744e459db6ada6c26d5e6e4ff377b15842a8b748081bfe34fee5e36e37",
+          "unchanged": true
+        },
+        {
+          "source": "docs/product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.0.md",
+          "sha256": "89fd22afa560a09066e28db69b026203b1bc36501a94f13df8094ef5e37afe06",
+          "unchanged": true
+        },
+        {
+          "source": "docs/product-pages/04_Product_Detail_Single_Grade_Operational_Checklist_V1.0.md",
+          "sha256": "7dc944aaac7de05cc2f4778cb76a9a1e917f868f388b48f24ead64bc1130c49b",
+          "unchanged": true
+        },
+        {
+          "source": "docs/page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.1.md",
+          "sha256": "97517fe26bd488aeca0122470788695fb20e1e0ea37ba3fe4b8e8a165a119686",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "check": "mandatory workflow read in root",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "current sequence preserves 8/9/10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no independent Gate 7 approval row in new Brief",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "new SOP no independent Gate 7 operative heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "new SOP no GATE7 output naming",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "legacy permissions retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "historical hashes and paths retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "technical mapping owned by development",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "acceptance requirements supplied by Gate 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Gate 9 independent and evidence scoped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Gate 10 authorization separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Gate 6 delivery versus future runtime checks separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "legacy path mapping present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "this migration creates no role/Skill source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "updated/new entry local Markdown links resolve",
+      "passed": true,
+      "detail": {
+        "checked": 351,
+        "missing": []
+      }
+    },
+    {
+      "check": "no conflict markers",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no scanned historical archive/snapshot edited",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no role or Skill source edited",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no scanned files disappeared",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "scope": {
+    "updated_existing_entries": 8,
+    "new_versions_and_entries": 10
+  },
+  "protected_snapshot_comparison": {
+    "unchanged_files": 3239,
+    "other_changed_files": [
+      {
+        "path": "docs/architecture/GATE5_TWO_ELIGIBLE_PAGE_SERIAL_CONTROL_V1.0.md",
+        "before_sha256": "423fd65f292140a1ee2be8516d1739e445566c6eab7bf695dfeda6fa356199c8",
+        "observed_sha256": "f19c3349599bc6f8de0b4e3ab5baa7796fbfd552f6b94c2e9a34ff65c44dd5a6"
+      },
+      {
+        "path": "pages/markets/netherlands/04_planning/gate4-v0.1/diagnostic_support/freeze-source.cjs",
+        "before_sha256": "e08fc9863ef8d09f1cd39a2e2d1858ae4fcb06885fd12693e78e988ad8c9a00b",
+        "observed_sha256": "a96d865b30651c620476b20c9bb71cb02a5f257d8f4e8ba19b0cce2954e386ec"
+      },
+      {
+        "path": "pages/markets/spain/04_planning/gate5-v0.1/MARKET-EU-ES_GATE5_COMPLETE_VISUAL_AND_METHOD_REPORT_V0.1.md",
+        "before_sha256": "255d7852693db2a40764c2fc864fc020e641ea08229fbce8588b7d7dfa8a18b5",
+        "observed_sha256": "46a5317b5ccf31f9caebc6340c660162a29d2dfe976889f93ad31b6b0ecdc554"
+      },
+      {
+        "path": "pages/markets/spain/04_planning/gate5-v0.1/diagnostic_support/failure-and-repair-history.md",
+        "before_sha256": "d01bd029f7bb360edaf3939c91371ac798975743b99385da4894ff929d56f2e1",
+        "observed_sha256": "da861b01f6ad2855d8649539dd85a84d1d21d9ef35db46d66bdf4eb90201d313"
+      },
+      {
+        "path": "pages/markets/spain/05_review/MARKET-EU-ES_GATE5_EXECUTION_SELF_CHECK_V0.1.md",
+        "before_sha256": "e9c2e342bd2cb090d99295c70bef112e7378969dae74beffbc4289742a096fec",
+        "observed_sha256": "bf4b3f46e11564eac3ce9c80a156ad8f717252d4867a646d9cc7f3ed2aa4fd00"
+      },
+      {
+        "path": "pages/markets/spain/05_review/MARKET-EU-ES_GATE5_TO_GATE6_HANDOFF_DRAFT_V0.1.md",
+        "before_sha256": "07b57fbcd0ce0ade7fa61c7e279b35ee5faf5011bff111bb9f8f7c9da389e076",
+        "observed_sha256": "507eb97b7a66ae7c9e621f91f2515837f98f615e44f671b388fd2f64a634a387"
+      },
+      {
+        "path": "pages/markets/spain/MARKET-EU-ES_CURRENT_GATE_BASELINE_MANIFEST_V0.11.md",
+        "before_sha256": "e7f79353b0c0f3272a84c6c4883c9887d65338210bf9d605da008c6721c4ab06",
+        "observed_sha256": "3aa8632698c7c5092ccdafe2a2913b4a55693f21371abc8b6f339d44b01e6e6a"
+      }
+    ],
+    "missing_files": []
+  },
+  "local_links_checked": 351,
+  "current_entry_gate7_mentions": [
+    {
+      "path": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.1.md",
+      "line": 262,
+      "text": "### Gate 7：历史编号，职责已并入Gate 6"
+    },
+    {
+      "path": "docs/architecture/PAGE_GATE_1_5_STANDARD_V1.2.md",
+      "line": 12,
+      "text": "| Approval source | 2026-09-01统一标准、2026-09-05工具决定及2026-09-07 Gate 6/7合并决定；本版仅同步下游流程 |"
+    },
+    {
+      "path": "docs/product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.1.md",
+      "line": 515,
+      "text": "| 2026-09-02 | V2.0 | 基于 M-350/M-510 实际流程，加入双通道、完整 Gate 7、WordPress + Next.js 通用化、单型号预览、Gate 8 证据和 Gate 9 只读验收 |"
+    },
+    {
+      "path": "agents/README.md",
+      "line": 3,
+      "text": "> 阶段解释必须先读[Gate工作流V2.0](../docs/architecture/GATE_WORKFLOW_V2.0.md)。Gate 6负责策划总审与开发交付，Gate 7不再独立执行；已有角色/Skill/设计记录中的旧Gate 7表述仅按该规则兼容。Gate 5仍只交Gate 6输入，不承担交付包编制。源文件及其批准hash保持，本次不新建Gate 6/7 Agent或Skill、不改变页面权限。"
+    },
+    {
+      "path": "skills/README.md",
+      "line": 3,
+      "text": "> 阶段解释必须先读[Gate工作流V2.0](../docs/architecture/GATE_WORKFLOW_V2.0.md)。Gate 6负责策划总审与开发交付，Gate 7不再独立执行；已有角色/Skill/设计记录中的旧Gate 7表述仅按该规则兼容。Gate 5仍只交Gate 6输入，不承担交付包编制。源文件及其批准hash保持，本次不新建Gate 6/7 Agent或Skill、不改变页面权限。"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 21,
+      "text": "- Gate 7 PCR-01: `CONDITIONAL_RETURN / NOT_APPROVED`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 22,
+      "text": "- Gate 7 PCR-02: `PROJECT_CONTROL_REVIEW_PASS / APPROVED_FOR_HANDOFF`; `HANDED_OFF=NO`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 42,
+      "text": "   - Complete Gate 7 handoff, WordPress + Next.js generalization, Gate 8 evidence and Gate 9 read-only QA"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 58,
+      "text": "12. `pages/products/detail-template/06_handoff/PRODUCT-DETAIL-GATE7-HANDOFF-PACKAGE_V0.1.md`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 59,
+      "text": "   - Complete Gate 7 development-specification package"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 60,
+      "text": "13. `pages/products/detail-template/06_handoff/PRODUCT-DETAIL-GATE7-HANDOFF-MANIFEST_V0.1.md`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 62,
+      "text": "14. `pages/products/detail-template/06_handoff/PRODUCT-DETAIL-GATE7-PROJECT-CONTROL-REVIEW-SUBMISSION_V0.1.md`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 63,
+      "text": "   - Gate 7 project-control review entry point; not handed off"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 64,
+      "text": "15. `pages/products/detail-template/06_handoff/PRODUCT-DETAIL-GATE7-HANDOFF-PACKAGE_V0.2.md`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 66,
+      "text": "16. `pages/products/detail-template/06_handoff/PRODUCT-DETAIL-GATE7-HANDOFF-MANIFEST_V0.2.md`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 68,
+      "text": "17. `pages/products/detail-template/06_handoff/PRODUCT-DETAIL-GATE7-PROJECT-CONTROL-REVIEW-SUBMISSION_V0.2.md`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 70,
+      "text": "18. `pages/products/detail-template/06_handoff/PRODUCT-DETAIL-GATE7-PCR02-FRESH-VALIDATION_V0.2.md`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 72,
+      "text": "19. `pages/products/detail-template/05_review/PRODUCT-DETAIL-GATE7-PROJECT-CONTROL-CLOSURE_V0.2.md`"
+    },
+    {
+      "path": "docs/product-pages/00_README.md",
+      "line": 73,
+      "text": "   - Current Gate 7 authority, version history and `APPROVED_FOR_HANDOFF / HANDED_OFF=NO` record"
+    },
+    {
+      "path": "docs/page-playbooks/README.md",
+      "line": 8,
+      "text": "- Playbook内“Gate 6/7未授权”、旧关闭行、Review ID及历史Gate 7资产不是需要批量改写的当前工作指令；按工作流§6兼容，不扩大授权。"
+    },
+    {
+      "path": "docs/architecture/GATE_WORKFLOW_V2.0.md",
+      "line": 12,
+      "text": "| 批准对象 | Gate 7 的策划交付职责并入 Gate 6；技术承接归 Gate 8；全项目同步与历史兼容 |"
+    },
+    {
+      "path": "docs/architecture/GATE_WORKFLOW_V2.0.md",
+      "line": 99,
+      "text": "| 旧“Gate 6/7未授权”“止于Gate 5”等限制 | 保留其真实停止边界；合并不扩大授权。只有旧Gate 6审查授权而明确排除交付的，仍按原授权停止 |"
+    },
+    {
+      "path": "docs/architecture/GATE6_CONSOLIDATION_AUDIT_AND_CHANGE_RECORD_V1.0.md",
+      "line": 1,
+      "text": "# Gate 6/7合并：全库盘点与同步记录 V1.0"
+    },
+    {
+      "path": "docs/architecture/GATE6_CONSOLIDATION_AUDIT_AND_CHANGE_RECORD_V1.0.md",
+      "line": 10,
+      "text": "- Gate 7：历史编号，不再单独执行或设岗。"
+    },
+    {
+      "path": "docs/architecture/GATE6_CONSOLIDATION_AUDIT_AND_CHANGE_RECORD_V1.0.md",
+      "line": 20,
+      "text": "扫描时点结果：**3,253个文本文件、34,953个匹配行；其中1,208个文件有直接Gate 6/7匹配。** 这些是文本命中数量，不是需要修改的文件数量，也不代表每条命中都是现行指令。工作区仍有其他任务活动，数字只描述保存的扫描快照。"
+    }
+  ],
+  "dynamic_entries_with_later_preserved_updates": [
+    "01_PROJECT_INDEX.md",
+    "00_PROJECT_STATUS.md",
+    "agents/README.md",
+    "skills/README.md"
+  ],
+  "note": "Gate7残留含历史引用、兼容说明和原用户授权，不以零字符串命中作为成功标准。其他任务并发修改只记录，不恢复或认领。"
+}

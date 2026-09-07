@@ -1,0 +1,819 @@
+
+
+
+ 
+
+
+  
+  
+ 
+ 
+ 
+
+
+
+
+
+ 
+
+
+ 
+<script type="text/javascript" src="JS/jquery-3.6.0.js"></script> 
+<script type="text/javascript" src="table2CSV.js" ></script> 
+<script type="text/javascript" src="tableToExcel.js" ></script>  
+ 
+   
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Know your Import Duty Enquiry System</TITLE>
+    <META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link href="css/For_All.css" rel="stylesheet" type="text/css"/>
+
+<!--<script type="text/javascript" src="css/bootstrap.min.css" > </script> -->
+<!--<script type="text/javascript" src="js/boo> </script>--> 
+
+<SCRIPT TYPE="text/javascript">
+    function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, windowname, 'width=800,height=500,scrollbars=yes'); return false; } 
+    
+</SCRIPT>
+<script>
+$(document).ready(function () {
+blink("#fdbk", -1, 800); //blink the first element in an ordered list (infinite times) 
+});
+
+function blink(elem, times, speed) {
+    if (times > 0 || times < 0) {
+        if ($(elem).hasClass("blink")) 
+            $(elem).removeClass("blink");
+        else
+            $(elem).addClass("blink");
+    }
+
+    clearTimeout(function () {
+        blink(elem, times, speed);
+    });
+
+    if (times > 0 || times < 0) {
+        setTimeout(function () {
+            blink(elem, times, speed);
+        }, speed);
+        times -= .5;
+    }
+}  
+</script>
+<script type="text/javaScript">
+function closeMe()
+{
+var win =window.open("about:blank","_self");
+win.close();
+}
+</script> 
+<style type="text/css">
+.gaia.ops.gsl { font-family: arial, sans-serif; color:gray; font-weight: bold;font-size: large;}  
+</style>
+    
+<script>
+//function goBack() {
+//    window.history.back();
+//}
+</script>
+
+<style>
+.blink {
+    color: #FFF !important;
+    background:#FC79CE !important;
+    width:60px;
+} 
+</style>
+
+<script type="text/javascript">
+function validate()
+{
+var point_pressed = event.srcElement.value.indexOf('.') ? true : false;
+if((event.keyCode >=48 && event.keyCode <= 57))
+{
+}
+else event.keyCode = 0; //Block the key code.
+}
+<!--  CODE ADDED/CHANGED BY SI TO CLOSE SECURITY VULNARABILITY	--> 
+function allnumeric(f){
+!(/^[0-9]*$/i).test(f.value)?f.value = f.value.replace(/[^0-9/]/ig,''):null;
+}
+<!--  CODE ADDED/CHANGED BY SI TO CLOSE SECURITY VULNARABILITY	--> 
+function valid(f) {
+f.value=f.value.toUpperCase().replace(/([^A-Z ])/g,"");
+} 
+</script>
+
+<script>
+jQuery(function(){
+$('#mySelect').keyup(function () { 
+    var item= document.getElementById("mySelect").value;
+    // alert(item);
+ $("#mySelect").autocomplete("list.jsp?item="+item);   
+});
+});
+</script>
+                
+</HEAD>
+<body class="bg-fix">
+
+
+<CENTER >
+    <div class="header-own"  >
+        <table>
+            <tr>
+                <td style="width: 2.5%;"></td>
+                <td style="width: 5%; "><img name="a" alt="home" src="imgs/logo.png" /></td>
+                <td style="width: 30%; text-align: center;">
+                    <B><font size="4.25" color="#36a7df">CENTRAL BOARD OF INDIRECT TAXES & CUSTOMS</font></B><Br>
+                    <B><font size="2.75" color="#494949">Department of Revenue, Ministry of Finance, Government of India</font></B>
+                    <!--                           #36a7df    #494949     #87888a  -->
+                </td>
+                <td style="width: 32%;"></td>
+                <td style="width: 23%; text-align: center;">
+                    <B><font size="4.25" color="#36a7df">INDIAN CUSTOMS EDI SYSTEM </font></B><Br>
+                    <B><font size="2.75" color="#494949">I4C (Indian Customs Compendium on Codes & Compliance)</font></B>
+                </td>
+                <td style="width: 5%;"><img name="a" alt="home" src="imgs/india_logo.png" /></td>
+                <td style="width: 2.5%;"></td>
+            </tr>
+        </table>
+    </div>
+<!--<img name="a" alt="home" src="img/cbic-logo-new.jpg" />
+<br>
+<B><font size="4" color="darkblue">INDIAN CUSTOMS EDI SYSTEM </font></B><br>
+<B><font size="3" color="darkblue">Trade Guide on Imports</font></B>-->
+</CENTER>  
+
+<div style="background-color: lavender;color: darkblue;">
+     <marquee class="thmid" speed="20" direction="left" behaviour="alternate"><font face="Verdana, Arial, Helvetica, sans-serif" size="3"><B>Welcome to Trade Guide on Imports </B></font></marquee>
+</div>
+    <a href="home"><img name="a" alt="home" src="imgs/home.png" style="height:35px;width:35px;"/></a><a href="javascript:void(0);" onclick="closeMe();" style="margin-left: 95%;"><img name="a" alt="home" src="imgs/icons8-close-64.png" style="height:35px;width:35px;"/></a>
+
+<br>
+<CENTER>
+<form action="Tariff-head-details" method="post">
+<table style="border-radius: 10px;" cellpadding="2" bgcolor="#6c7ae0" cellspacing="0" border="0" width="1%" class="responsive-sm responsive-md"> 
+<tr>
+<td> 
+<table style="border-radius: 15px;" cellpadding="2" bgcolor="#FFFFFF" cellspacing="0" border="0" width="1%" > 
+<tr>
+<td> 
+<table cellpadding="10" bgcolor="#6c7ae0" cellspacing="0" border="0" width="100%">
+<tr style="height:1px;">
+<td bgcolor="#6c7ae0" align="center" valign="top"> 
+<font color="#000000" size="4"><B>
+Provide Tariff head and/or Description and/or Country of Origin</B></font>
+</td>
+</tr>
+<tr style="height:1px;">
+<td>
+<table cellpadding="20"  cellspacing="0" border="0" width="100%" bgColor="azure"> 
+<td width="10%" align="left" >
+<CENTER><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color=#000000><B> CTH </CENTER><br>
+</B>
+<center><input type="text" name="cth" size="15" minlength="2" maxlength="8" onkeyup="allnumeric(this)" onblur="allnumeric(this)" style="height: 30px;font-size: large;"/></CENTER>
+</font>
+</td>
+
+<td width="25%" >
+<CENTER><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color=#000000><B> Description </CENTER><br>
+<CENTER>
+    <input type="text" id="mySelect" name="item"  class="input_text" style="height: 30px;font-size: large;width:500px;" onkeyup="valid(this)"/>
+</B></CENTER>
+</font>
+</td>
+<tr>
+    
+<td width="20%" >
+<CENTER><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color=#000000><B> Country of Origin </B> </CENTER>
+</td>
+    
+<td width="20%" >
+   
+<SELECT name=cntrycd style="background-color:#a3c8e5; height: 30px;font-size: large;valign:bottom;"> 
+<OPTION value="" selected>Select Country of Origin (If any)</OPTION>
+
+                     
+<OPTION value="AF,AFGHANISTAN" ><b>AFGHANISTAN</b></OPTION>
+                     
+<OPTION value="AL,ALBANIA" ><b>ALBANIA</b></OPTION>
+                     
+<OPTION value="DZ,ALGERIA" ><b>ALGERIA</b></OPTION>
+                     
+<OPTION value="AS,AMERICAN SAMOA" ><b>AMERICAN SAMOA</b></OPTION>
+                     
+<OPTION value="AD,ANDORRA" ><b>ANDORRA</b></OPTION>
+                     
+<OPTION value="AO,ANGOLA" ><b>ANGOLA</b></OPTION>
+                     
+<OPTION value="AI,ANGUILLA" ><b>ANGUILLA</b></OPTION>
+                     
+<OPTION value="AQ,ANTARTICA" ><b>ANTARTICA</b></OPTION>
+                     
+<OPTION value="AG,ANTIGUA" ><b>ANTIGUA</b></OPTION>
+                     
+<OPTION value="AR,ARGENTINA" ><b>ARGENTINA</b></OPTION>
+                     
+<OPTION value="AM,ARMENIA" ><b>ARMENIA</b></OPTION>
+                     
+<OPTION value="AW,ARUBA" ><b>ARUBA</b></OPTION>
+                     
+<OPTION value="AU,AUSTRALIA" ><b>AUSTRALIA</b></OPTION>
+                     
+<OPTION value="AT,AUSTRIA" ><b>AUSTRIA</b></OPTION>
+                     
+<OPTION value="AZ,AZARBAIJAN" ><b>AZARBAIJAN</b></OPTION>
+                     
+<OPTION value="BS,BAHAMAS" ><b>BAHAMAS</b></OPTION>
+                     
+<OPTION value="BH,BAHRAIN" ><b>BAHRAIN</b></OPTION>
+                     
+<OPTION value="BD,BANGLADESH" ><b>BANGLADESH</b></OPTION>
+                     
+<OPTION value="BB,BARBADOS" ><b>BARBADOS</b></OPTION>
+                     
+<OPTION value="BY,BELARUS" ><b>BELARUS</b></OPTION>
+                     
+<OPTION value="BE,BELGIUM" ><b>BELGIUM</b></OPTION>
+                     
+<OPTION value="BZ,BELIZE" ><b>BELIZE</b></OPTION>
+                     
+<OPTION value="BJ,BENIN" ><b>BENIN</b></OPTION>
+                     
+<OPTION value="BM,BERMUDA" ><b>BERMUDA</b></OPTION>
+                     
+<OPTION value="BT,BHUTAN" ><b>BHUTAN</b></OPTION>
+                     
+<OPTION value="BO,BOLIVIA" ><b>BOLIVIA</b></OPTION>
+                     
+<OPTION value="BQ,BONAIRE" ><b>BONAIRE</b></OPTION>
+                     
+<OPTION value="BA,BOSNIA & HERZEGOVINA" ><b>BOSNIA & HERZEGOVINA</b></OPTION>
+                     
+<OPTION value="BW,BOTSWANA" ><b>BOTSWANA</b></OPTION>
+                     
+<OPTION value="BV,BOUVET ISLAND" ><b>BOUVET ISLAND</b></OPTION>
+                     
+<OPTION value="BR,BRAZIL" ><b>BRAZIL</b></OPTION>
+                     
+<OPTION value="IO,BRITISH INDIAN OCEAN TERRITORY" ><b>BRITISH INDIAN OCEAN TERRITORY</b></OPTION>
+                     
+<OPTION value="VG,BRITISH VIRGIN ISLANDS" ><b>BRITISH VIRGIN ISLANDS</b></OPTION>
+                     
+<OPTION value="BN,BRUNEI" ><b>BRUNEI</b></OPTION>
+                     
+<OPTION value="BG,BULGARIA" ><b>BULGARIA</b></OPTION>
+                     
+<OPTION value="BF,BURKINA FASO" ><b>BURKINA FASO</b></OPTION>
+                     
+<OPTION value="BI,BURUNDI" ><b>BURUNDI</b></OPTION>
+                     
+<OPTION value="KH,CAMBODIA" ><b>CAMBODIA</b></OPTION>
+                     
+<OPTION value="CM,CAMEROON" ><b>CAMEROON</b></OPTION>
+                     
+<OPTION value="CA,CANADA" ><b>CANADA</b></OPTION>
+                     
+<OPTION value="IC,CANARY ISLANDS" ><b>CANARY ISLANDS</b></OPTION>
+                     
+<OPTION value="CV,CAPE VERDE ISLANDS" ><b>CAPE VERDE ISLANDS</b></OPTION>
+                     
+<OPTION value="KY,CAYMAN ISLANDS" ><b>CAYMAN ISLANDS</b></OPTION>
+                     
+<OPTION value="CF,CENTRAL AFRICAN REPULIC" ><b>CENTRAL AFRICAN REPULIC</b></OPTION>
+                     
+<OPTION value="TD,CHAD" ><b>CHAD</b></OPTION>
+                     
+<OPTION value="CL,CHILE" ><b>CHILE</b></OPTION>
+                     
+<OPTION value="CN,CHINA" ><b>CHINA</b></OPTION>
+                     
+<OPTION value="CX,CHRISTMAS ISLANDS" ><b>CHRISTMAS ISLANDS</b></OPTION>
+                     
+<OPTION value="CC,COCOS (KEELING ISLANDS)" ><b>COCOS (KEELING ISLANDS)</b></OPTION>
+                     
+<OPTION value="CO,COLOMBIA" ><b>COLOMBIA</b></OPTION>
+                     
+<OPTION value="KM,COMOROS" ><b>COMOROS</b></OPTION>
+                     
+<OPTION value="CG,CONGO" ><b>CONGO</b></OPTION>
+                     
+<OPTION value="CD,CONGO, THE DEMOCRATIC REPUBLIC OF THE" ><b>CONGO, THE DEMOCRATIC REPUBLIC OF THE</b></OPTION>
+                     
+<OPTION value="CK,COOK ISLANDS" ><b>COOK ISLANDS</b></OPTION>
+                     
+<OPTION value="CR,COSTA RICA" ><b>COSTA RICA</b></OPTION>
+                     
+<OPTION value="CI,COTE D IVOIRE" ><b>COTE D IVOIRE</b></OPTION>
+                     
+<OPTION value="HR,CROATIA" ><b>CROATIA</b></OPTION>
+                     
+<OPTION value="CU,CUBA" ><b>CUBA</b></OPTION>
+                     
+<OPTION value="CW,CURACAO" ><b>CURACAO</b></OPTION>
+                     
+<OPTION value="CY,CYPRUS" ><b>CYPRUS</b></OPTION>
+                     
+<OPTION value="CZ,CZECH REPUBLIC" ><b>CZECH REPUBLIC</b></OPTION>
+                     
+<OPTION value="DK,DENMARK" ><b>DENMARK</b></OPTION>
+                     
+<OPTION value="DJ,DJIBOUTI" ><b>DJIBOUTI</b></OPTION>
+                     
+<OPTION value="DM,DOMINICA" ><b>DOMINICA</b></OPTION>
+                     
+<OPTION value="DO,DOMINICAN REPULIC" ><b>DOMINICAN REPULIC</b></OPTION>
+                     
+<OPTION value="EC,ECUADOR" ><b>ECUADOR</b></OPTION>
+                     
+<OPTION value="EG,EGYPT" ><b>EGYPT</b></OPTION>
+                     
+<OPTION value="SV,EL SALVADOR" ><b>EL SALVADOR</b></OPTION>
+                     
+<OPTION value="GQ,EQUATORIAL GUINEA" ><b>EQUATORIAL GUINEA</b></OPTION>
+                     
+<OPTION value="ER,ERITREA" ><b>ERITREA</b></OPTION>
+                     
+<OPTION value="EE,ESTONIA" ><b>ESTONIA</b></OPTION>
+                     
+<OPTION value="ET,ETHIOPIA" ><b>ETHIOPIA</b></OPTION>
+                     
+<OPTION value="FO,FAEROE ISLANDS" ><b>FAEROE ISLANDS</b></OPTION>
+                     
+<OPTION value="FK,FALKLANDS ISLANDS" ><b>FALKLANDS ISLANDS</b></OPTION>
+                     
+<OPTION value="FJ,FIJI" ><b>FIJI</b></OPTION>
+                     
+<OPTION value="FI,FINLAND" ><b>FINLAND</b></OPTION>
+                     
+<OPTION value="FR,FRANCE" ><b>FRANCE</b></OPTION>
+                     
+<OPTION value="GF,FRENCH GUYANA" ><b>FRENCH GUYANA</b></OPTION>
+                     
+<OPTION value="PF,FRENCH POLYNESIA" ><b>FRENCH POLYNESIA</b></OPTION>
+                     
+<OPTION value="TF,FRENCH SOUTH & ANTARTIC TERR" ><b>FRENCH SOUTH & ANTARTIC TERR</b></OPTION>
+                     
+<OPTION value="GA,GABON" ><b>GABON</b></OPTION>
+                     
+<OPTION value="GM,GAMBIA" ><b>GAMBIA</b></OPTION>
+                     
+<OPTION value="GT,GAUTEMALA" ><b>GAUTEMALA</b></OPTION>
+                     
+<OPTION value="GE,GEORGIA" ><b>GEORGIA</b></OPTION>
+                     
+<OPTION value="DE,GERMANY" ><b>GERMANY</b></OPTION>
+                     
+<OPTION value="GH,GHANA" ><b>GHANA</b></OPTION>
+                     
+<OPTION value="GI,GIBRALTAR" ><b>GIBRALTAR</b></OPTION>
+                     
+<OPTION value="GR,GREECE" ><b>GREECE</b></OPTION>
+                     
+<OPTION value="GL,GREENLAND" ><b>GREENLAND</b></OPTION>
+                     
+<OPTION value="GD,GRENADA" ><b>GRENADA</b></OPTION>
+                     
+<OPTION value="GP,GUADELOUPE" ><b>GUADELOUPE</b></OPTION>
+                     
+<OPTION value="GU,GUAM" ><b>GUAM</b></OPTION>
+                     
+<OPTION value="GG,GUERNSEY" ><b>GUERNSEY</b></OPTION>
+                     
+<OPTION value="GN,GUINEA" ><b>GUINEA</b></OPTION>
+                     
+<OPTION value="GW,GUINEA BISSAU" ><b>GUINEA BISSAU</b></OPTION>
+                     
+<OPTION value="GY,GUYANA" ><b>GUYANA</b></OPTION>
+                     
+<OPTION value="HT,HAITI" ><b>HAITI</b></OPTION>
+                     
+<OPTION value="HM,HEARD & MACDONALD ISLANDS" ><b>HEARD & MACDONALD ISLANDS</b></OPTION>
+                     
+<OPTION value="HN,HONDURAS" ><b>HONDURAS</b></OPTION>
+                     
+<OPTION value="HK,HONG KONG" ><b>HONG KONG</b></OPTION>
+                     
+<OPTION value="HU,HUNGARY" ><b>HUNGARY</b></OPTION>
+                     
+<OPTION value="IS,ICELAND" ><b>ICELAND</b></OPTION>
+                     
+<OPTION value="IN,INDIA" ><b>INDIA</b></OPTION>
+                     
+<OPTION value="ID,INDONESIA" ><b>INDONESIA</b></OPTION>
+                     
+<OPTION value="IR,IRAN" ><b>IRAN</b></OPTION>
+                     
+<OPTION value="IQ,IRAQ" ><b>IRAQ</b></OPTION>
+                     
+<OPTION value="IE,IRELAND" ><b>IRELAND</b></OPTION>
+                     
+<OPTION value="IM,ISLE OF MAN" ><b>ISLE OF MAN</b></OPTION>
+                     
+<OPTION value="IL,ISRAEL" ><b>ISRAEL</b></OPTION>
+                     
+<OPTION value="IT,ITALY" ><b>ITALY</b></OPTION>
+                     
+<OPTION value="JM,JAMAICA" ><b>JAMAICA</b></OPTION>
+                     
+<OPTION value="JP,JAPAN" ><b>JAPAN</b></OPTION>
+                     
+<OPTION value="JE,JERSEY" ><b>JERSEY</b></OPTION>
+                     
+<OPTION value="JO,JORDAN" ><b>JORDAN</b></OPTION>
+                     
+<OPTION value="KZ,KAZAKISTAN" ><b>KAZAKISTAN</b></OPTION>
+                     
+<OPTION value="KE,KENYA" ><b>KENYA</b></OPTION>
+                     
+<OPTION value="KI,KIRIBATI" ><b>KIRIBATI</b></OPTION>
+                     
+<OPTION value="KP,KOREA,DEMOCRATIC PEOPLE'S REPUBLIC OF" ><b>KOREA,DEMOCRATIC PEOPLE'S REPUBLIC OF</b></OPTION>
+                     
+<OPTION value="KR,KOREA,REPUBLIC OF" ><b>KOREA,REPUBLIC OF</b></OPTION>
+                     
+<OPTION value="XK,KOSOVO" ><b>KOSOVO</b></OPTION>
+                     
+<OPTION value="KW,KUWAIT" ><b>KUWAIT</b></OPTION>
+                     
+<OPTION value="KG,KYRGHYSTAN" ><b>KYRGHYSTAN</b></OPTION>
+                     
+<OPTION value="LA,LAO PEOPLE'S DEMOCRATIC REPUBLIC" ><b>LAO PEOPLE'S DEMOCRATIC REPUBLIC</b></OPTION>
+                     
+<OPTION value="LV,LATVIA" ><b>LATVIA</b></OPTION>
+                     
+<OPTION value="LB,LEBANON" ><b>LEBANON</b></OPTION>
+                     
+<OPTION value="LS,LESOTHO" ><b>LESOTHO</b></OPTION>
+                     
+<OPTION value="LR,LIBERIA" ><b>LIBERIA</b></OPTION>
+                     
+<OPTION value="LY,LIBYAN ARAB REPUBLIC" ><b>LIBYAN ARAB REPUBLIC</b></OPTION>
+                     
+<OPTION value="LI,LIECHTENSTEIN" ><b>LIECHTENSTEIN</b></OPTION>
+                     
+<OPTION value="LT,LITHUANIA" ><b>LITHUANIA</b></OPTION>
+                     
+<OPTION value="LU,LUXEMBOURG" ><b>LUXEMBOURG</b></OPTION>
+                     
+<OPTION value="MO,MACAO ISLANDS" ><b>MACAO ISLANDS</b></OPTION>
+                     
+<OPTION value="MK,MACEDONIA,THE FORMER YUGOSLAV REPUBLIC OF" ><b>MACEDONIA,THE FORMER YUGOSLAV REPUBLIC OF</b></OPTION>
+                     
+<OPTION value="MG,MADAGASCAR" ><b>MADAGASCAR</b></OPTION>
+                     
+<OPTION value="MW,MALAWI" ><b>MALAWI</b></OPTION>
+                     
+<OPTION value="MY,MALAYSIA" ><b>MALAYSIA</b></OPTION>
+                     
+<OPTION value="MV,MALDIVES" ><b>MALDIVES</b></OPTION>
+                     
+<OPTION value="ML,MALI" ><b>MALI</b></OPTION>
+                     
+<OPTION value="MT,MALTA" ><b>MALTA</b></OPTION>
+                     
+<OPTION value="MH,MARSHALL ISLANDS" ><b>MARSHALL ISLANDS</b></OPTION>
+                     
+<OPTION value="MQ,MARTINIQUE" ><b>MARTINIQUE</b></OPTION>
+                     
+<OPTION value="MR,MAURITANIA" ><b>MAURITANIA</b></OPTION>
+                     
+<OPTION value="MU,MAURITIUS" ><b>MAURITIUS</b></OPTION>
+                     
+<OPTION value="YT,MAYOTTE" ><b>MAYOTTE</b></OPTION>
+                     
+<OPTION value="MX,MEXICO" ><b>MEXICO</b></OPTION>
+                     
+<OPTION value="FM,MICRONESIA" ><b>MICRONESIA</b></OPTION>
+                     
+<OPTION value="MD,MOLDOVA,REPUBLIC OF" ><b>MOLDOVA,REPUBLIC OF</b></OPTION>
+                     
+<OPTION value="MC,MONACO" ><b>MONACO</b></OPTION>
+                     
+<OPTION value="MN,MONGOLIA" ><b>MONGOLIA</b></OPTION>
+                     
+<OPTION value="ME,MONTENEGRO" ><b>MONTENEGRO</b></OPTION>
+                     
+<OPTION value="MS,MONTSERRAT" ><b>MONTSERRAT</b></OPTION>
+                     
+<OPTION value="MA,MOROCCO" ><b>MOROCCO</b></OPTION>
+                     
+<OPTION value="MZ,MOZAMBIQUE" ><b>MOZAMBIQUE</b></OPTION>
+                     
+<OPTION value="MM,MYANMAR" ><b>MYANMAR</b></OPTION>
+                     
+<OPTION value="NA,NAMBIA" ><b>NAMBIA</b></OPTION>
+                     
+<OPTION value="NR,NAURU" ><b>NAURU</b></OPTION>
+                     
+<OPTION value="NP,NEPAL" ><b>NEPAL</b></OPTION>
+                     
+<OPTION value="NL,NETHERLANDS" ><b>NETHERLANDS</b></OPTION>
+                     
+<OPTION value="AN,NETHERLANDS ANTILLES" ><b>NETHERLANDS ANTILLES</b></OPTION>
+                     
+<OPTION value="NC,NEW CALEDONIA" ><b>NEW CALEDONIA</b></OPTION>
+                     
+<OPTION value="NZ,NEW ZEALAND" ><b>NEW ZEALAND</b></OPTION>
+                     
+<OPTION value="NI,NICARAGUA" ><b>NICARAGUA</b></OPTION>
+                     
+<OPTION value="NE,NIGER" ><b>NIGER</b></OPTION>
+                     
+<OPTION value="NG,NIGERIA" ><b>NIGERIA</b></OPTION>
+                     
+<OPTION value="NU,NIUE ISLAND" ><b>NIUE ISLAND</b></OPTION>
+                     
+<OPTION value="NF,NORFOLK ISLAND" ><b>NORFOLK ISLAND</b></OPTION>
+                     
+<OPTION value="MP,NORTHERN MARIANA ISLANDS" ><b>NORTHERN MARIANA ISLANDS</b></OPTION>
+                     
+<OPTION value="NO,NORWAY" ><b>NORWAY</b></OPTION>
+                     
+<OPTION value="OM,OMAN" ><b>OMAN</b></OPTION>
+                     
+<OPTION value="PK,PAKISTAN" ><b>PAKISTAN</b></OPTION>
+                     
+<OPTION value="PW,PALAU" ><b>PALAU</b></OPTION>
+                     
+<OPTION value="PS,PALESTINE STATE" ><b>PALESTINE STATE</b></OPTION>
+                     
+<OPTION value="PA,PANAMA" ><b>PANAMA</b></OPTION>
+                     
+<OPTION value="PG,PAPUA NEW GUINEA" ><b>PAPUA NEW GUINEA</b></OPTION>
+                     
+<OPTION value="PY,PARAGUAY" ><b>PARAGUAY</b></OPTION>
+                     
+<OPTION value="PE,PERU" ><b>PERU</b></OPTION>
+                     
+<OPTION value="PH,PHILIPPINES" ><b>PHILIPPINES</b></OPTION>
+                     
+<OPTION value="PN,PITCAIRN ISLANDS" ><b>PITCAIRN ISLANDS</b></OPTION>
+                     
+<OPTION value="PL,POLAND" ><b>POLAND</b></OPTION>
+                     
+<OPTION value="PT,PORTUGAL" ><b>PORTUGAL</b></OPTION>
+                     
+<OPTION value="PR,PUERTO RICO" ><b>PUERTO RICO</b></OPTION>
+                     
+<OPTION value="QA,QATAR" ><b>QATAR</b></OPTION>
+                     
+<OPTION value="RE,REUNION" ><b>REUNION</b></OPTION>
+                     
+<OPTION value="RO,ROMANIA" ><b>ROMANIA</b></OPTION>
+                     
+<OPTION value="RU,RUSSIA" ><b>RUSSIA</b></OPTION>
+                     
+<OPTION value="RW,RWANDA" ><b>RWANDA</b></OPTION>
+                     
+<OPTION value="WS,SAMOA" ><b>SAMOA</b></OPTION>
+                     
+<OPTION value="SM,SAN MARINO" ><b>SAN MARINO</b></OPTION>
+                     
+<OPTION value="ST,SAO TOME AND PRINCIPE" ><b>SAO TOME AND PRINCIPE</b></OPTION>
+                     
+<OPTION value="SA,SAUDI ARABIA" ><b>SAUDI ARABIA</b></OPTION>
+                     
+<OPTION value="SN,SENEGAL" ><b>SENEGAL</b></OPTION>
+                     
+<OPTION value="RS,SERBIA" ><b>SERBIA</b></OPTION>
+                     
+<OPTION value="SC,SEYCHELLES" ><b>SEYCHELLES</b></OPTION>
+                     
+<OPTION value="SL,SIERRA LEONA" ><b>SIERRA LEONA</b></OPTION>
+                     
+<OPTION value="SG,SINGAPORE" ><b>SINGAPORE</b></OPTION>
+                     
+<OPTION value="SX,SINT MAARTEN" ><b>SINT MAARTEN</b></OPTION>
+                     
+<OPTION value="SK,SLOVAK REPUBLIC" ><b>SLOVAK REPUBLIC</b></OPTION>
+                     
+<OPTION value="SI,SLOVENIA" ><b>SLOVENIA</b></OPTION>
+                     
+<OPTION value="SB,SOLOMON ISLANDS" ><b>SOLOMON ISLANDS</b></OPTION>
+                     
+<OPTION value="SO,SOMAALIA" ><b>SOMAALIA</b></OPTION>
+                     
+<OPTION value="ZA,SOUTH AFRICA" ><b>SOUTH AFRICA</b></OPTION>
+                     
+<OPTION value="SS,SOUTH SUDAN" ><b>SOUTH SUDAN</b></OPTION>
+                     
+<OPTION value="ES,SPAIN" ><b>SPAIN</b></OPTION>
+                     
+<OPTION value="LK,SRI LANKA" ><b>SRI LANKA</b></OPTION>
+                     
+<OPTION value="SH,ST HELENA & ASCENSION ISLAND" ><b>ST HELENA & ASCENSION ISLAND</b></OPTION>
+                     
+<OPTION value="KN,ST KITTS-NEVIS-ANGUILLA" ><b>ST KITTS-NEVIS-ANGUILLA</b></OPTION>
+                     
+<OPTION value="LC,ST LUCIA" ><b>ST LUCIA</b></OPTION>
+                     
+<OPTION value="PM,ST PIERRE & MIQUELON" ><b>ST PIERRE & MIQUELON</b></OPTION>
+                     
+<OPTION value="VC,ST VINCENT" ><b>ST VINCENT</b></OPTION>
+                     
+<OPTION value="BL,ST. BARTHELEMY" ><b>ST. BARTHELEMY</b></OPTION>
+                     
+<OPTION value="SD,SUDAN" ><b>SUDAN</b></OPTION>
+                     
+<OPTION value="SR,SURINAM" ><b>SURINAM</b></OPTION>
+                     
+<OPTION value="SJ,SVALBARD AND JAM MAYEN ISLANDS" ><b>SVALBARD AND JAM MAYEN ISLANDS</b></OPTION>
+                     
+<OPTION value="SZ,SWAZILAND" ><b>SWAZILAND</b></OPTION>
+                     
+<OPTION value="SE,SWEDEN" ><b>SWEDEN</b></OPTION>
+                     
+<OPTION value="CH,SWITZERLAND" ><b>SWITZERLAND</b></OPTION>
+                     
+<OPTION value="SY,SYRIA" ><b>SYRIA</b></OPTION>
+                     
+<OPTION value="TW,TAIWAN" ><b>TAIWAN</b></OPTION>
+                     
+<OPTION value="TJ,TAJIKISTAN" ><b>TAJIKISTAN</b></OPTION>
+                     
+<OPTION value="TZ,TANZANIA" ><b>TANZANIA</b></OPTION>
+                     
+<OPTION value="TL,TEMOR LESTE" ><b>TEMOR LESTE</b></OPTION>
+                     
+<OPTION value="TH,THAILAND" ><b>THAILAND</b></OPTION>
+                     
+<OPTION value="TG,TOGO" ><b>TOGO</b></OPTION>
+                     
+<OPTION value="TK,TOKELAU ISLAND" ><b>TOKELAU ISLAND</b></OPTION>
+                     
+<OPTION value="TO,TONGA" ><b>TONGA</b></OPTION>
+                     
+<OPTION value="TT,TRINIDAD & TOBAGO" ><b>TRINIDAD & TOBAGO</b></OPTION>
+                     
+<OPTION value="TN,TUNISIA" ><b>TUNISIA</b></OPTION>
+                     
+<OPTION value="TR,TURKEY" ><b>TURKEY</b></OPTION>
+                     
+<OPTION value="TM,TURKMENISTAN" ><b>TURKMENISTAN</b></OPTION>
+                     
+<OPTION value="TC,TURKS & CAICOS ISLANDS" ><b>TURKS & CAICOS ISLANDS</b></OPTION>
+                     
+<OPTION value="TV,TUVALU" ><b>TUVALU</b></OPTION>
+                     
+<OPTION value="UG,UGANDA" ><b>UGANDA</b></OPTION>
+                     
+<OPTION value="UA,UKRAINE" ><b>UKRAINE</b></OPTION>
+                     
+<OPTION value="AE,UNITED ARAB EMIRATES" ><b>UNITED ARAB EMIRATES</b></OPTION>
+                     
+<OPTION value="GB,UNITED KINGDOM" ><b>UNITED KINGDOM</b></OPTION>
+                     
+<OPTION value="US,UNITED STATES" ><b>UNITED STATES</b></OPTION>
+                     
+<OPTION value="UM,UNITED STATES MINOR OUTLAYING ISLANDS" ><b>UNITED STATES MINOR OUTLAYING ISLANDS</b></OPTION>
+                     
+<OPTION value="UY,URUGAY" ><b>URUGAY</b></OPTION>
+                     
+<OPTION value="VI,US VIRGIN ISLANDS" ><b>US VIRGIN ISLANDS</b></OPTION>
+                     
+<OPTION value="UZ,UZBEKISTAN" ><b>UZBEKISTAN</b></OPTION>
+                     
+<OPTION value="VU,VANUATU" ><b>VANUATU</b></OPTION>
+                     
+<OPTION value="VA,VATICAN CITY STATE(HOLY SEE)" ><b>VATICAN CITY STATE(HOLY SEE)</b></OPTION>
+                     
+<OPTION value="VE,VENEZUELA" ><b>VENEZUELA</b></OPTION>
+                     
+<OPTION value="VN,VIETNAM, DEMOCRATIC REP. OF" ><b>VIETNAM, DEMOCRATIC REP. OF</b></OPTION>
+                     
+<OPTION value="WF,WALLIS AND FUTUNA ISLANDS" ><b>WALLIS AND FUTUNA ISLANDS</b></OPTION>
+                     
+<OPTION value="EH,WESTERN SAHARA" ><b>WESTERN SAHARA</b></OPTION>
+                     
+<OPTION value="YE,YEMEN, DEMOCRATIC" ><b>YEMEN, DEMOCRATIC</b></OPTION>
+                     
+<OPTION value="ZM,ZAMBIA" ><b>ZAMBIA</b></OPTION>
+                     
+<OPTION value="ZW,ZIMBABWE" ><b>ZIMBABWE</b></OPTION>
+<font color=red ></font>
+
+</SELECT>
+</font>
+       
+</td>
+</tr>
+<tr style="height:1px;">
+<table cellpadding="2"  cellspacing="0" border="0" width="100%"> 
+<tr style="height:1px;">
+<td  align="center" valign="top"  bgColor="azure">
+<table cellpadding="1" cellspacing="1">
+<tr style="height:1px;">
+<td align="right">
+<input style="cursor: pointer;border-radius: 5px;font-weight: bold;background-color: #6c7ae0" onmouseover="this.style.backgroundColor='white';this.style.color='#000000;'" onmouseout="this.style.backgroundColor='#6c7ae0';this.style.color='#000000;';return true;"  type="SUBMIT" id="submitbutton" value="Search" name="submitbutton"/>															
+<td>
+<td align="left">
+<input style="cursor: pointer;border-radius: 5px;font-weight: bold;background-color: #6c7ae0" onmouseover="this.style.backgroundColor='white';this.style.color='#000000;'" onmouseout="this.style.backgroundColor='#6c7ae0';this.style.color='#000000;';return true;" type="button" value="Reset" onClick="this.form.reset()" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table> 
+
+</form>
+</CENTER>
+<br>
+
+<CENTER>      
+<table border="=1" style=" border-radius: 15px;border-color: deepskyblue; background: azure; ">
+<tr>           
+    <td width="800" style="border-radius: 15px;">
+<font  face="Verdana, Arial, Helvetica, sans-serif" size="2.5" color=#ff3300><B><br>You can enter... <ul><li>CTH only (Min 4 digit Max 8), Description only (Max 30 Character)</li><li>CTH and Description</li><li>Country of Origin is optional (for preferential duty or Antidumping duty) </li></ul></left></B><br></font>
+</td></tr>
+
+</table> 
+</CENTER>      
+
+<BR>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0 style="position: fixed;bottom: 1px; padding-left: 10px; padding-right: 15px;"> 
+                    <TBODY> 
+                    <BR>
+                    <TH bgColor="#ffffff" align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#990000"><B>
+                            Disclaimer:</B>null
+                            <!--%=disc%-->
+                        </font><a href="mailto:icegatehelpdesk@icegate.gov.in"><font face="Verdana" size="2" color=#000066>icegatehelpdesk@icegate.gov.in</font></a>       
+                    <TR> 
+                        <TD width="100%" bgColor=#000080><FONT face=Verdana color=#ffffff size=2>&nbsp;null</FONT>
+                            <!--%= appdev%-->
+                        </TD>
+                    </TR>
+                    <TR> 
+                        <TD width="100%" align=center><FONT face=Verdana size=1>This site is best viewed with Internet Explorer 5.0 and above with 1024 x 768 pixels resolution</FONT>
+                            <!--%= appdev%-->
+                        </TD>
+                    </TR> 
+                </TBODY>
+    </TABLE>
+<!--<CENTER>
+<TABLE cellSpacing=0 cellPadding=3 width="100%" border=0 style="position: fixed;bottom:5px;">  
+<TBODY> 
+<TH bgColor="#ffffff" align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#990000"><B>
+Disclaimer:The contents of this web site do not constitute legal or professional advice and carry no legal force. The purpose of the web site is to
+enhance public access to information on rates of duties and other compliance requirements for Customs clearance of goods. The web site is strictly meant for
+general guidance. 
+While all efforts are made to ensure correct, complete and current information on the web site, Central Board of Excise and Customs shall in no
+circumstances be liable for any errors or omissions in the content furnished on the web site.
+For web site related matters contact us at:-  </font></a>
+<a href="mailto:icegatehelpdesk@icegate.gov.in"><font face="Verdana" size="2" color=#000066>icegatehelpdesk@icegate.gov.in</font></a></b></B>
+<TR> 
+<TD width="100%" bgColor="darkslateblue"><FONT face=Verdana color=#ffffff size=2>&nbsp;</FONT><B><FONT face=Verdana color=#ffffff 
+size=1>Application developed by National Informatics Center (NIC) under supervision of Directorate General of Systems and Data Management (CBIC), New Delhi</FONT></B>
+<b id="fdbk" style="margin-left:400px "><a href="cdc_feedback.jsp" class="parent" onClick="return popup(this, 'notes')" >Feedback</b></TD></TR>
+        
+</TR> 
+</TBODY> 
+</TABLE>
+</CENTER>-->
+
+<style type="text/css"><!--
+.header { 
+          padding-right: 5px; 
+          padding-left: 5px; 
+	  padding-bottom: 5px; 
+          padding-top: 5px; 
+	  font-size: 83%;
+          background: darkseagreen;  
+          text-align: left;
+          font-family: arial,sans-serif;
+}
+.header1 {   
+          background: #3366cc; 
+          text-align: left;
+          font-family: arial,sans-serif;
+}
+.footer {  
+          width:100%;
+          padding-bottom: 5px; 
+          padding-top: 5px; 
+          font-size: 83%;
+          border-top: #ffffff 1px solid; 
+          border-bottom: #ffffff 1px solid; 
+          background:#3366cc; 
+          text-align: center;
+          font-family: arial,sans-serif;
+}
+--> </style>
+</BODY>
+</HTML>
+
+

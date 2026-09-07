@@ -1,0 +1,604 @@
+[
+  {
+    "width": 1440,
+    "sourceSha256": "2828406c99e52a3cd3990a06014284b18242f71ae7913d17925df474b9fe160a",
+    "checks": [
+      {
+        "name": "no initial cookie dialog",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "body link 1",
+        "actual": "/",
+        "expected": "/",
+        "pass": true
+      },
+      {
+        "name": "body link 2",
+        "actual": "/markets/",
+        "expected": "/markets/",
+        "pass": true
+      },
+      {
+        "name": "body link 3",
+        "actual": "/markets/european-union/",
+        "expected": "/markets/european-union/",
+        "pass": true
+      },
+      {
+        "name": "body link 4",
+        "actual": "/request-a-quote/",
+        "expected": "/request-a-quote/",
+        "pass": true
+      },
+      {
+        "name": "body link 5",
+        "actual": "/products/",
+        "expected": "/products/",
+        "pass": true
+      },
+      {
+        "name": "body link 6",
+        "actual": "/products/",
+        "expected": "/products/",
+        "pass": true
+      },
+      {
+        "name": "body link 7",
+        "actual": "/request-documents/",
+        "expected": "/request-documents/",
+        "pass": true
+      },
+      {
+        "name": "body link 8",
+        "actual": "/documents/",
+        "expected": "/documents/",
+        "pass": true
+      },
+      {
+        "name": "body link 9",
+        "actual": "/request-a-quote/",
+        "expected": "/request-a-quote/",
+        "pass": true
+      },
+      {
+        "name": "body link 10",
+        "actual": "/markets/european-union/",
+        "expected": "/markets/european-union/",
+        "pass": true
+      },
+      {
+        "name": "cookie opens",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "cookie initial focus",
+        "actual": "Close",
+        "expected": "Close",
+        "pass": true
+      },
+      {
+        "name": "cookie reverse loop",
+        "actual": "Read Cookie Policy",
+        "expected": "Read Cookie Policy",
+        "pass": true
+      },
+      {
+        "name": "cookie forward loop",
+        "actual": "Close",
+        "expected": "Close",
+        "pass": true
+      },
+      {
+        "name": "cookie exact text",
+        "actual": "No optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.",
+        "expected": "No optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.",
+        "pass": true
+      },
+      {
+        "name": "cookie escape closes",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "cookie escape returns focus",
+        "actual": "cookie-trigger",
+        "expected": "cookie-trigger",
+        "pass": true
+      },
+      {
+        "name": "cookie close returns focus",
+        "actual": "cookie-trigger",
+        "expected": "cookie-trigger",
+        "pass": true
+      },
+      {
+        "name": "no outbound requests",
+        "actual": [],
+        "expected": [],
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "sourceSha256": "2828406c99e52a3cd3990a06014284b18242f71ae7913d17925df474b9fe160a",
+    "checks": [
+      {
+        "name": "no initial cookie dialog",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "open label",
+        "actual": "Close",
+        "expected": "Close",
+        "pass": true
+      },
+      {
+        "name": "menu visible",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "navigation order",
+        "actual": [
+          "Home",
+          "Markets",
+          "Products",
+          "Applications",
+          "Documents",
+          "Resources",
+          "About",
+          "Request a Quote"
+        ],
+        "expected": [
+          "Home",
+          "Markets",
+          "Products",
+          "Applications",
+          "Documents",
+          "Resources",
+          "About",
+          "Request a Quote"
+        ],
+        "pass": true
+      },
+      {
+        "name": "current Markets",
+        "actual": [
+          "Markets"
+        ],
+        "expected": [
+          "Markets"
+        ],
+        "pass": true
+      },
+      {
+        "name": "initial menu focus",
+        "actual": "Home",
+        "expected": "Home",
+        "pass": true
+      },
+      {
+        "name": "background inert",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "background cannot take focus",
+        "actual": "Home",
+        "expected": "Home",
+        "pass": true
+      },
+      {
+        "name": "forward trap",
+        "actual": "menuButton",
+        "expected": "menuButton",
+        "pass": true
+      },
+      {
+        "name": "reverse trap",
+        "actual": "Request a Quote",
+        "expected": "Request a Quote",
+        "pass": true
+      },
+      {
+        "name": "menu targets >=44 both",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "Escape closes",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "focus returns",
+        "actual": "menuButton",
+        "expected": "menuButton",
+        "pass": true
+      },
+      {
+        "name": "selection closes",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "selection restores background",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "selection target",
+        "actual": "/products/",
+        "expected": "/products/",
+        "pass": true
+      },
+      {
+        "name": "body link 1",
+        "actual": "/",
+        "expected": "/",
+        "pass": true
+      },
+      {
+        "name": "body link 2",
+        "actual": "/markets/",
+        "expected": "/markets/",
+        "pass": true
+      },
+      {
+        "name": "body link 3",
+        "actual": "/markets/european-union/",
+        "expected": "/markets/european-union/",
+        "pass": true
+      },
+      {
+        "name": "body link 4",
+        "actual": "/request-a-quote/",
+        "expected": "/request-a-quote/",
+        "pass": true
+      },
+      {
+        "name": "body link 5",
+        "actual": "/products/",
+        "expected": "/products/",
+        "pass": true
+      },
+      {
+        "name": "body link 6",
+        "actual": "/products/",
+        "expected": "/products/",
+        "pass": true
+      },
+      {
+        "name": "body link 7",
+        "actual": "/request-documents/",
+        "expected": "/request-documents/",
+        "pass": true
+      },
+      {
+        "name": "body link 8",
+        "actual": "/documents/",
+        "expected": "/documents/",
+        "pass": true
+      },
+      {
+        "name": "body link 9",
+        "actual": "/request-a-quote/",
+        "expected": "/request-a-quote/",
+        "pass": true
+      },
+      {
+        "name": "body link 10",
+        "actual": "/markets/european-union/",
+        "expected": "/markets/european-union/",
+        "pass": true
+      },
+      {
+        "name": "cookie opens",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "cookie initial focus",
+        "actual": "Close",
+        "expected": "Close",
+        "pass": true
+      },
+      {
+        "name": "cookie reverse loop",
+        "actual": "Read Cookie Policy",
+        "expected": "Read Cookie Policy",
+        "pass": true
+      },
+      {
+        "name": "cookie forward loop",
+        "actual": "Close",
+        "expected": "Close",
+        "pass": true
+      },
+      {
+        "name": "cookie exact text",
+        "actual": "No optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.",
+        "expected": "No optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.",
+        "pass": true
+      },
+      {
+        "name": "cookie escape closes",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "cookie escape returns focus",
+        "actual": "cookie-trigger",
+        "expected": "cookie-trigger",
+        "pass": true
+      },
+      {
+        "name": "cookie close returns focus",
+        "actual": "cookie-trigger",
+        "expected": "cookie-trigger",
+        "pass": true
+      },
+      {
+        "name": "no outbound requests",
+        "actual": [],
+        "expected": [],
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "sourceSha256": "2828406c99e52a3cd3990a06014284b18242f71ae7913d17925df474b9fe160a",
+    "checks": [
+      {
+        "name": "no initial cookie dialog",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "open label",
+        "actual": "Close",
+        "expected": "Close",
+        "pass": true
+      },
+      {
+        "name": "menu visible",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "navigation order",
+        "actual": [
+          "Home",
+          "Markets",
+          "Products",
+          "Applications",
+          "Documents",
+          "Resources",
+          "About",
+          "Request a Quote"
+        ],
+        "expected": [
+          "Home",
+          "Markets",
+          "Products",
+          "Applications",
+          "Documents",
+          "Resources",
+          "About",
+          "Request a Quote"
+        ],
+        "pass": true
+      },
+      {
+        "name": "current Markets",
+        "actual": [
+          "Markets"
+        ],
+        "expected": [
+          "Markets"
+        ],
+        "pass": true
+      },
+      {
+        "name": "initial menu focus",
+        "actual": "Home",
+        "expected": "Home",
+        "pass": true
+      },
+      {
+        "name": "background inert",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "background cannot take focus",
+        "actual": "Home",
+        "expected": "Home",
+        "pass": true
+      },
+      {
+        "name": "forward trap",
+        "actual": "menuButton",
+        "expected": "menuButton",
+        "pass": true
+      },
+      {
+        "name": "reverse trap",
+        "actual": "Request a Quote",
+        "expected": "Request a Quote",
+        "pass": true
+      },
+      {
+        "name": "menu targets >=44 both",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "Escape closes",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "focus returns",
+        "actual": "menuButton",
+        "expected": "menuButton",
+        "pass": true
+      },
+      {
+        "name": "selection closes",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "selection restores background",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "selection target",
+        "actual": "/products/",
+        "expected": "/products/",
+        "pass": true
+      },
+      {
+        "name": "body link 1",
+        "actual": "/",
+        "expected": "/",
+        "pass": true
+      },
+      {
+        "name": "body link 2",
+        "actual": "/markets/",
+        "expected": "/markets/",
+        "pass": true
+      },
+      {
+        "name": "body link 3",
+        "actual": "/markets/european-union/",
+        "expected": "/markets/european-union/",
+        "pass": true
+      },
+      {
+        "name": "body link 4",
+        "actual": "/request-a-quote/",
+        "expected": "/request-a-quote/",
+        "pass": true
+      },
+      {
+        "name": "body link 5",
+        "actual": "/products/",
+        "expected": "/products/",
+        "pass": true
+      },
+      {
+        "name": "body link 6",
+        "actual": "/products/",
+        "expected": "/products/",
+        "pass": true
+      },
+      {
+        "name": "body link 7",
+        "actual": "/request-documents/",
+        "expected": "/request-documents/",
+        "pass": true
+      },
+      {
+        "name": "body link 8",
+        "actual": "/documents/",
+        "expected": "/documents/",
+        "pass": true
+      },
+      {
+        "name": "body link 9",
+        "actual": "/request-a-quote/",
+        "expected": "/request-a-quote/",
+        "pass": true
+      },
+      {
+        "name": "body link 10",
+        "actual": "/markets/european-union/",
+        "expected": "/markets/european-union/",
+        "pass": true
+      },
+      {
+        "name": "cookie opens",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "name": "cookie initial focus",
+        "actual": "Close",
+        "expected": "Close",
+        "pass": true
+      },
+      {
+        "name": "cookie reverse loop",
+        "actual": "Read Cookie Policy",
+        "expected": "Read Cookie Policy",
+        "pass": true
+      },
+      {
+        "name": "cookie forward loop",
+        "actual": "Close",
+        "expected": "Close",
+        "pass": true
+      },
+      {
+        "name": "cookie exact text",
+        "actual": "No optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.",
+        "expected": "No optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.",
+        "pass": true
+      },
+      {
+        "name": "cookie escape closes",
+        "actual": false,
+        "expected": false,
+        "pass": true
+      },
+      {
+        "name": "cookie escape returns focus",
+        "actual": "cookie-trigger",
+        "expected": "cookie-trigger",
+        "pass": true
+      },
+      {
+        "name": "cookie close returns focus",
+        "actual": "cookie-trigger",
+        "expected": "cookie-trigger",
+        "pass": true
+      },
+      {
+        "name": "no outbound requests",
+        "actual": [],
+        "expected": [],
+        "pass": true
+      }
+    ]
+  }
+]

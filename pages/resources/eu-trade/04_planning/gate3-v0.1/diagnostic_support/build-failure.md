@@ -1,0 +1,1 @@
+Initial helper execution failed before candidate creation: SyntaxError Identifier module has already been declared (CommonJS reserved wrapper variable). Saved original helper; changed local counter to moduleCount. No page candidate or formal asset existed at failure.

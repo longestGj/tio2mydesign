@@ -1,0 +1,746 @@
+{
+  "reviewRole": "Project controller independent review",
+  "reviewedAt": "2026-09-07T00:44:59.856Z",
+  "browser": "Chromium 151.0.7922.34",
+  "frozenSource": {
+    "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+    "bytes": 18831,
+    "sha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b"
+  },
+  "evidenceModel": "fixed core plus RES-CHEMOURS page-specific risks; counts are coverage only",
+  "visualReadback": {
+    "formalImagesOpenedByReviewer": 8,
+    "readable390SegmentsOpenedByReviewer": 6,
+    "note": "Reviewer visually inspected all formal full/state images and six original-resolution mobile segments; no executor PASS was inherited."
+  },
+  "checks": [
+    {
+      "id": "IDENTITY_SOURCE",
+      "pass": true,
+      "evidence": {
+        "actualBytes": 18831,
+        "actualSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+        "frozen": {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+          "bytes": 18831,
+          "sha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b"
+        }
+      }
+    },
+    {
+      "id": "SEQUENCE_FREEZE_BEFORE_EXPORT",
+      "pass": true,
+      "evidence": {
+        "frozenAt": "2026-09-07T00:40:10.788Z",
+        "exportStartedAt": "2026-09-07T00:40:11.054Z"
+      }
+    },
+    {
+      "id": "IDENTITY_FORMAL_EXPORTS",
+      "pass": true,
+      "evidence": [
+        {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_1440_FULL_V0.1.png",
+          "exists": true,
+          "bytes": 390166,
+          "sha256": "d9c47f86e5baa3d186cf33ca3033fde72c0164ee2e1dd6a0f757fab64e4c699b",
+          "dimensions": {
+            "width": 1440,
+            "height": 3082
+          },
+          "expected": {
+            "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_1440_FULL_V0.1.png",
+            "bytes": 390166,
+            "sha256": "d9c47f86e5baa3d186cf33ca3033fde72c0164ee2e1dd6a0f757fab64e4c699b",
+            "role": "approval_core",
+            "kind": "raster",
+            "state": "full",
+            "logicalViewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "physical": {
+              "width": 1440,
+              "height": 3082
+            },
+            "scale": 1,
+            "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+            "exportedAt": "2026-09-07T00:40:11.674Z"
+          }
+        },
+        {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_1440_COOKIE_V0.1.png",
+          "exists": true,
+          "bytes": 118499,
+          "sha256": "f8c13c9c8eeb5308ed18a56965f18efa450763f230496e4bf3976f2d6f1ccb2d",
+          "dimensions": {
+            "width": 1440,
+            "height": 1000
+          },
+          "expected": {
+            "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_1440_COOKIE_V0.1.png",
+            "bytes": 118499,
+            "sha256": "f8c13c9c8eeb5308ed18a56965f18efa450763f230496e4bf3976f2d6f1ccb2d",
+            "role": "approval_core",
+            "kind": "raster",
+            "state": "cookie",
+            "logicalViewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "physical": {
+              "width": 1440,
+              "height": 1000
+            },
+            "scale": 1,
+            "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+            "exportedAt": "2026-09-07T00:40:11.746Z"
+          }
+        },
+        {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_FULL_V0.1.png",
+          "exists": true,
+          "bytes": 383968,
+          "sha256": "89ad1a45fb60881f3b10f1ff7dc4a9f05b4127927c44792fef0b12079c7fbfef",
+          "dimensions": {
+            "width": 768,
+            "height": 3648
+          },
+          "expected": {
+            "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_FULL_V0.1.png",
+            "bytes": 383968,
+            "sha256": "89ad1a45fb60881f3b10f1ff7dc4a9f05b4127927c44792fef0b12079c7fbfef",
+            "role": "approval_core",
+            "kind": "raster",
+            "state": "full",
+            "logicalViewport": {
+              "width": 768,
+              "height": 1000
+            },
+            "physical": {
+              "width": 768,
+              "height": 3648
+            },
+            "scale": 1,
+            "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+            "exportedAt": "2026-09-07T00:40:12.120Z"
+          }
+        },
+        {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_MENU_V0.1.png",
+          "exists": true,
+          "bytes": 75587,
+          "sha256": "08ffdc0c22db54cccb4d69daab903b0609c4fecf24ff27e913f397f02610b037",
+          "dimensions": {
+            "width": 768,
+            "height": 1000
+          },
+          "expected": {
+            "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_MENU_V0.1.png",
+            "bytes": 75587,
+            "sha256": "08ffdc0c22db54cccb4d69daab903b0609c4fecf24ff27e913f397f02610b037",
+            "role": "approval_core",
+            "kind": "raster",
+            "state": "menu",
+            "logicalViewport": {
+              "width": 768,
+              "height": 1000
+            },
+            "physical": {
+              "width": 768,
+              "height": 1000
+            },
+            "scale": 1,
+            "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+            "exportedAt": "2026-09-07T00:40:12.177Z"
+          }
+        },
+        {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_COOKIE_V0.1.png",
+          "exists": true,
+          "bytes": 89073,
+          "sha256": "a6cb55f99a9e7c048a3a516b2537263e34e317b5bbaf612ec81d6d89740a820f",
+          "dimensions": {
+            "width": 768,
+            "height": 1000
+          },
+          "expected": {
+            "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_768_COOKIE_V0.1.png",
+            "bytes": 89073,
+            "sha256": "a6cb55f99a9e7c048a3a516b2537263e34e317b5bbaf612ec81d6d89740a820f",
+            "role": "approval_core",
+            "kind": "raster",
+            "state": "cookie",
+            "logicalViewport": {
+              "width": 768,
+              "height": 1000
+            },
+            "physical": {
+              "width": 768,
+              "height": 1000
+            },
+            "scale": 1,
+            "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+            "exportedAt": "2026-09-07T00:40:12.263Z"
+          }
+        },
+        {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_FULL_V0.1.png",
+          "exists": true,
+          "bytes": 338909,
+          "sha256": "2be9a88efa7fb0487e388a997c37f5b9f25a5c614618d73636000f3d03be7b2d",
+          "dimensions": {
+            "width": 390,
+            "height": 4464
+          },
+          "expected": {
+            "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_FULL_V0.1.png",
+            "bytes": 338909,
+            "sha256": "2be9a88efa7fb0487e388a997c37f5b9f25a5c614618d73636000f3d03be7b2d",
+            "role": "approval_core",
+            "kind": "raster",
+            "state": "full",
+            "logicalViewport": {
+              "width": 390,
+              "height": 844
+            },
+            "physical": {
+              "width": 390,
+              "height": 4464
+            },
+            "scale": 1,
+            "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+            "exportedAt": "2026-09-07T00:40:12.603Z"
+          }
+        },
+        {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_MENU_V0.1.png",
+          "exists": true,
+          "bytes": 46174,
+          "sha256": "27f7005f06650f7fc8979554ceee66f764897700c0109aab642fb0181fc836e5",
+          "dimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "expected": {
+            "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_MENU_V0.1.png",
+            "bytes": 46174,
+            "sha256": "27f7005f06650f7fc8979554ceee66f764897700c0109aab642fb0181fc836e5",
+            "role": "approval_core",
+            "kind": "raster",
+            "state": "menu",
+            "logicalViewport": {
+              "width": 390,
+              "height": 844
+            },
+            "physical": {
+              "width": 390,
+              "height": 844
+            },
+            "scale": 1,
+            "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+            "exportedAt": "2026-09-07T00:40:12.654Z"
+          }
+        },
+        {
+          "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_COOKIE_V0.1.png",
+          "exists": true,
+          "bytes": 50936,
+          "sha256": "d0790c2845b50b601b47271f215e1165adf2b0601c2cdeee8bb154a55bcd3c67",
+          "dimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "expected": {
+            "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_390_COOKIE_V0.1.png",
+            "bytes": 50936,
+            "sha256": "d0790c2845b50b601b47271f215e1165adf2b0601c2cdeee8bb154a55bcd3c67",
+            "role": "approval_core",
+            "kind": "raster",
+            "state": "cookie",
+            "logicalViewport": {
+              "width": 390,
+              "height": 844
+            },
+            "physical": {
+              "width": 390,
+              "height": 844
+            },
+            "scale": 1,
+            "sourceSha256": "e63db62904fbf72b0b7bcaa4be84e43617dfd82ad377dca3fbe0b4a2a209f74b",
+            "exportedAt": "2026-09-07T00:40:12.706Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DURABLE_SOURCE_DEPENDENCIES",
+      "pass": true,
+      "evidence": {
+        "temporaryOrBusinessPageDependencyMatches": []
+      }
+    },
+    {
+      "id": "SOURCE_SHARED_TEAL_RULES",
+      "pass": true,
+      "evidence": {
+        "expected": "#008078 for Cookie action text/border and Menu button border on light surfaces"
+      }
+    },
+    {
+      "id": "CONTENT_B_EXACT_VISIBLE_SEQUENCE",
+      "pass": false,
+      "evidence": {
+        "expectedText": "Home / Resources / Chemours Titanium Dioxide Alternatives Technical Evaluation Guide How to Evaluate a Chemours Titanium Dioxide Alternative If your current reference is a Chemours Ti-Pure grade, start with the exact grade, application and qualification requirements. A brand name alone is not enough to identify a suitable alternative. Explore Titanium Dioxide Products Why the Exact Ti-Pure Grade Matters Chemours organizes its Ti-Pure portfolio across applications including coatings, plastics and laminates, with product and application guidance for each area. When evaluating another source, the exact grade and the role it plays in your formulation or process matter. Record the full grade name you use, along with its application and end use. These details provide a more useful basis for reviewing another titanium dioxide grade than the brand name alone. Prepare Your Evaluation Brief Use these four inputs to organize your evaluation. Start with the information you have, then add details as you review relevant product pages. 1. Current reference and use. Note the exact Ti-Pure grade, application, formulation or system type, and end use. 2. Process and handling constraints. Describe the conditions that affect how the pigment is dispersed, processed or incorporated in your system. 3. Performance and acceptance criteria. List the properties your application depends on, together with the test methods, target values and pass/fail criteria you use. 4. Documents required for review. Identify the technical, safety, quality or origin documentation needed for your qualification process. Compare Documented Facts, Then Qualify the Grade 1. Build a shortlist Use the Product Hub to find IKHLAS grades listed for your application or production process. Treat those relationships as a shortlist for review, not as replacements for your current grade. 2. Compare product-specific information Open the relevant product pages and compare documented properties with the criteria in your evaluation brief. 3. Validate in your own system Run your normal formulation trials and acceptance tests before changing supply. Continue Your Evaluation Review IKHLAS Titanium Dioxide Grades Explore grades by application or production process, then open the relevant product pages for product-specific information. Explore Titanium Dioxide Products Request Documents for a Grade You Are Evaluating If you have selected an IKHLAS grade for review, request the TDS, SDS, COA or origin documentation you need. Request Product Documents Sources and Independence The Ti-Pure portfolio and application information referenced in this guide come from the Chemours/Ti-Pure pages linked above. Last reviewed: 6 September 2026 Chemours and Ti-Pure are referenced only to identify the buyer's starting point. This guide is published independently by IKHLAS TITANIUM (MALAYSIA) SDN. BHD. We are not affiliated with, authorized by or endorsed by Chemours.",
+        "actualByWidth": [
+          {
+            "width": 1440,
+            "actual": "Home / Resources / Chemours Titanium Dioxide Alternatives Technical Evaluation Guide How to Evaluate a Chemours Titanium Dioxide Alternative If your current reference is a Chemours Ti-Pure grade, start with the exact grade, application and qualification requirements. A brand name alone is not enough to identify a suitable alternative. Explore Titanium Dioxide Products Why the Exact Ti-Pure Grade Matters Chemours organizes its Ti-Pure portfolio across applications including coatings, plastics and laminates, with product and application guidance for each area. When evaluating another source, the exact grade and the role it plays in your formulation or process matter. Record the full grade name you use, along with its application and end use. These details provide a more useful basis for reviewing another titanium dioxide grade than the brand name alone. Prepare Your Evaluation Brief Use these four inputs to organize your evaluation. Start with the information you have, then add details as you review relevant product pages. Current reference and use. Note the exact Ti-Pure grade, application, formulation or system type, and end use. Process and handling constraints. Describe the conditions that affect how the pigment is dispersed, processed or incorporated in your system. Performance and acceptance criteria. List the properties your application depends on, together with the test methods, target values and pass/fail criteria you use. Documents required for review. Identify the technical, safety, quality or origin documentation needed for your qualification process. Compare Documented Facts, Then Qualify the Grade 1. Build a shortlist Use the Product Hub to find IKHLAS grades listed for your application or production process. Treat those relationships as a shortlist for review, not as replacements for your current grade. 2. Compare product-specific information Open the relevant product pages and compare documented properties with the criteria in your evaluation brief. 3. Validate in your own system Run your normal formulation trials and acceptance tests before changing supply. Continue Your Evaluation Review IKHLAS Titanium Dioxide Grades Explore grades by application or production process, then open the relevant product pages for product-specific information. Explore Titanium Dioxide Products Request Documents for a Grade You Are Evaluating If you have selected an IKHLAS grade for review, request the TDS, SDS, COA or origin documentation you need. Request Product Documents Sources and Independence The Ti-Pure portfolio and application information referenced in this guide come from the Chemours/Ti-Pure pages linked above. Last reviewed: 6 September 2026 Chemours and Ti-Pure are referenced only to identify the buyer's starting point. This guide is published independently by IKHLAS TITANIUM (MALAYSIA) SDN. BHD. We are not affiliated with, authorized by or endorsed by Chemours."
+          },
+          {
+            "width": 768,
+            "actual": "Home / Resources / Chemours Titanium Dioxide Alternatives Technical Evaluation Guide How to Evaluate a Chemours Titanium Dioxide Alternative If your current reference is a Chemours Ti-Pure grade, start with the exact grade, application and qualification requirements. A brand name alone is not enough to identify a suitable alternative. Explore Titanium Dioxide Products Why the Exact Ti-Pure Grade Matters Chemours organizes its Ti-Pure portfolio across applications including coatings, plastics and laminates, with product and application guidance for each area. When evaluating another source, the exact grade and the role it plays in your formulation or process matter. Record the full grade name you use, along with its application and end use. These details provide a more useful basis for reviewing another titanium dioxide grade than the brand name alone. Prepare Your Evaluation Brief Use these four inputs to organize your evaluation. Start with the information you have, then add details as you review relevant product pages. Current reference and use. Note the exact Ti-Pure grade, application, formulation or system type, and end use. Process and handling constraints. Describe the conditions that affect how the pigment is dispersed, processed or incorporated in your system. Performance and acceptance criteria. List the properties your application depends on, together with the test methods, target values and pass/fail criteria you use. Documents required for review. Identify the technical, safety, quality or origin documentation needed for your qualification process. Compare Documented Facts, Then Qualify the Grade 1. Build a shortlist Use the Product Hub to find IKHLAS grades listed for your application or production process. Treat those relationships as a shortlist for review, not as replacements for your current grade. 2. Compare product-specific information Open the relevant product pages and compare documented properties with the criteria in your evaluation brief. 3. Validate in your own system Run your normal formulation trials and acceptance tests before changing supply. Continue Your Evaluation Review IKHLAS Titanium Dioxide Grades Explore grades by application or production process, then open the relevant product pages for product-specific information. Explore Titanium Dioxide Products Request Documents for a Grade You Are Evaluating If you have selected an IKHLAS grade for review, request the TDS, SDS, COA or origin documentation you need. Request Product Documents Sources and Independence The Ti-Pure portfolio and application information referenced in this guide come from the Chemours/Ti-Pure pages linked above. Last reviewed: 6 September 2026 Chemours and Ti-Pure are referenced only to identify the buyer's starting point. This guide is published independently by IKHLAS TITANIUM (MALAYSIA) SDN. BHD. We are not affiliated with, authorized by or endorsed by Chemours."
+          },
+          {
+            "width": 390,
+            "actual": "Home / Resources / Chemours Titanium Dioxide Alternatives Technical Evaluation Guide How to Evaluate a Chemours Titanium Dioxide Alternative If your current reference is a Chemours Ti-Pure grade, start with the exact grade, application and qualification requirements. A brand name alone is not enough to identify a suitable alternative. Explore Titanium Dioxide Products Why the Exact Ti-Pure Grade Matters Chemours organizes its Ti-Pure portfolio across applications including coatings, plastics and laminates, with product and application guidance for each area. When evaluating another source, the exact grade and the role it plays in your formulation or process matter. Record the full grade name you use, along with its application and end use. These details provide a more useful basis for reviewing another titanium dioxide grade than the brand name alone. Prepare Your Evaluation Brief Use these four inputs to organize your evaluation. Start with the information you have, then add details as you review relevant product pages. Current reference and use. Note the exact Ti-Pure grade, application, formulation or system type, and end use. Process and handling constraints. Describe the conditions that affect how the pigment is dispersed, processed or incorporated in your system. Performance and acceptance criteria. List the properties your application depends on, together with the test methods, target values and pass/fail criteria you use. Documents required for review. Identify the technical, safety, quality or origin documentation needed for your qualification process. Compare Documented Facts, Then Qualify the Grade 1. Build a shortlist Use the Product Hub to find IKHLAS grades listed for your application or production process. Treat those relationships as a shortlist for review, not as replacements for your current grade. 2. Compare product-specific information Open the relevant product pages and compare documented properties with the criteria in your evaluation brief. 3. Validate in your own system Run your normal formulation trials and acceptance tests before changing supply. Continue Your Evaluation Review IKHLAS Titanium Dioxide Grades Explore grades by application or production process, then open the relevant product pages for product-specific information. Explore Titanium Dioxide Products Request Documents for a Grade You Are Evaluating If you have selected an IKHLAS grade for review, request the TDS, SDS, COA or origin documentation you need. Request Product Documents Sources and Independence The Ti-Pure portfolio and application information referenced in this guide come from the Chemours/Ti-Pure pages linked above. Last reviewed: 6 September 2026 Chemours and Ti-Pure are referenced only to identify the buyer's starting point. This guide is published independently by IKHLAS TITANIUM (MALAYSIA) SDN. BHD. We are not affiliated with, authorized by or endorsed by Chemours."
+          }
+        ]
+      }
+    },
+    {
+      "id": "CORE_RESPONSIVE_GEOMETRY",
+      "pass": true,
+      "evidence": [
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "undersizedControls": [],
+          "fontLoaded": true,
+          "logosLoaded": true
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "undersizedControls": [],
+          "fontLoaded": true,
+          "logosLoaded": true
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "undersizedControls": [],
+          "fontLoaded": true,
+          "logosLoaded": true
+        }
+      ]
+    },
+    {
+      "id": "CORE_STRUCTURE",
+      "pass": true,
+      "evidence": [
+        {
+          "width": 1440,
+          "h1": 1,
+          "h2": 5,
+          "h3": 5,
+          "briefItems": 4,
+          "productsHeadingIndex": 3,
+          "documentsHeadingIndex": 4
+        },
+        {
+          "width": 768,
+          "h1": 1,
+          "h2": 5,
+          "h3": 5,
+          "briefItems": 4,
+          "productsHeadingIndex": 3,
+          "documentsHeadingIndex": 4
+        },
+        {
+          "width": 390,
+          "h1": 1,
+          "h2": 5,
+          "h3": 5,
+          "briefItems": 4,
+          "productsHeadingIndex": 3,
+          "documentsHeadingIndex": 4
+        }
+      ]
+    },
+    {
+      "id": "CORE_MAIN_LINKS",
+      "pass": true,
+      "evidence": [
+        {
+          "width": 1440,
+          "links": [
+            {
+              "text": "Home",
+              "href": "/"
+            },
+            {
+              "text": "Resources",
+              "href": "/resources/"
+            },
+            {
+              "text": "Explore Titanium Dioxide Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Ti-Pure portfolio",
+              "href": "https://www.tipure.com/en/products"
+            },
+            {
+              "text": "application guidance",
+              "href": "https://www.tipure.com/en/products/coatings"
+            },
+            {
+              "text": "Explore Titanium Dioxide Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Request Product Documents",
+              "href": "/request-documents/"
+            }
+          ]
+        },
+        {
+          "width": 768,
+          "links": [
+            {
+              "text": "Home",
+              "href": "/"
+            },
+            {
+              "text": "Resources",
+              "href": "/resources/"
+            },
+            {
+              "text": "Explore Titanium Dioxide Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Ti-Pure portfolio",
+              "href": "https://www.tipure.com/en/products"
+            },
+            {
+              "text": "application guidance",
+              "href": "https://www.tipure.com/en/products/coatings"
+            },
+            {
+              "text": "Explore Titanium Dioxide Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Request Product Documents",
+              "href": "/request-documents/"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "links": [
+            {
+              "text": "Home",
+              "href": "/"
+            },
+            {
+              "text": "Resources",
+              "href": "/resources/"
+            },
+            {
+              "text": "Explore Titanium Dioxide Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Ti-Pure portfolio",
+              "href": "https://www.tipure.com/en/products"
+            },
+            {
+              "text": "application guidance",
+              "href": "https://www.tipure.com/en/products/coatings"
+            },
+            {
+              "text": "Explore Titanium Dioxide Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Request Product Documents",
+              "href": "/request-documents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CORE_CURRENT_NAV",
+      "pass": true,
+      "evidence": [
+        {
+          "width": 1440,
+          "closedCurrent": [
+            "Resources"
+          ]
+        },
+        {
+          "width": 768,
+          "closedCurrent": [],
+          "openCurrent": [
+            "Resources"
+          ]
+        },
+        {
+          "width": 390,
+          "closedCurrent": [],
+          "openCurrent": [
+            "Resources"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CORE_MENU_INTERACTION",
+      "pass": false,
+      "evidence": [
+        {
+          "width": 768,
+          "menu": {
+            "opened": {
+              "expanded": "true",
+              "activeText": "Home",
+              "currentVisible": [
+                "Resources"
+              ],
+              "mainInert": true,
+              "footerInert": true,
+              "bodyOverflow": "hidden",
+              "borderColor": "rgb(0, 128, 120)"
+            },
+            "tabTrace": [
+              "Home",
+              "Markets",
+              "Products",
+              "Applications",
+              "Documents",
+              "Resources",
+              "About",
+              "Request a Quote",
+              "Close"
+            ],
+            "closed": {
+              "hidden": true,
+              "expanded": "false",
+              "focusReturned": true,
+              "mainInert": false,
+              "bodyOverflow": ""
+            }
+          }
+        },
+        {
+          "width": 390,
+          "menu": {
+            "opened": {
+              "expanded": "true",
+              "activeText": "Home",
+              "currentVisible": [
+                "Resources"
+              ],
+              "mainInert": true,
+              "footerInert": true,
+              "bodyOverflow": "hidden",
+              "borderColor": "rgb(0, 128, 120)"
+            },
+            "tabTrace": [
+              "Home",
+              "Markets",
+              "Products",
+              "Applications",
+              "Documents",
+              "Resources",
+              "About",
+              "Request a Quote",
+              "Close"
+            ],
+            "closed": {
+              "hidden": true,
+              "expanded": "false",
+              "focusReturned": true,
+              "mainInert": false,
+              "bodyOverflow": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "CORE_COOKIE_INTERACTION",
+      "pass": true,
+      "evidence": [
+        {
+          "width": 1440,
+          "cookie": {
+            "opened": {
+              "open": true,
+              "activeText": "Close",
+              "styles": [
+                {
+                  "color": "rgb(0, 128, 120)",
+                  "border": "rgb(0, 128, 120)"
+                },
+                {
+                  "color": "rgb(0, 128, 120)",
+                  "border": "rgb(0, 128, 120)"
+                }
+              ],
+              "controls": [
+                {
+                  "text": "Close",
+                  "width": 76.484375,
+                  "height": 48
+                },
+                {
+                  "text": "Read Cookie Policy",
+                  "width": 167.390625,
+                  "height": 48
+                }
+              ]
+            },
+            "second": "Read Cookie Policy",
+            "wrapped": "Close",
+            "closedAndReturned": true
+          }
+        },
+        {
+          "width": 768,
+          "cookie": {
+            "opened": {
+              "open": true,
+              "activeText": "Close",
+              "styles": [
+                {
+                  "color": "rgb(0, 128, 120)",
+                  "border": "rgb(0, 128, 120)"
+                },
+                {
+                  "color": "rgb(0, 128, 120)",
+                  "border": "rgb(0, 128, 120)"
+                }
+              ],
+              "controls": [
+                {
+                  "text": "Close",
+                  "width": 76.484375,
+                  "height": 48
+                },
+                {
+                  "text": "Read Cookie Policy",
+                  "width": 167.390625,
+                  "height": 48
+                }
+              ]
+            },
+            "second": "Read Cookie Policy",
+            "wrapped": "Close",
+            "closedAndReturned": true
+          }
+        },
+        {
+          "width": 390,
+          "cookie": {
+            "opened": {
+              "open": true,
+              "activeText": "Close",
+              "styles": [
+                {
+                  "color": "rgb(0, 128, 120)",
+                  "border": "rgb(0, 128, 120)"
+                },
+                {
+                  "color": "rgb(0, 128, 120)",
+                  "border": "rgb(0, 128, 120)"
+                }
+              ],
+              "controls": [
+                {
+                  "text": "Close",
+                  "width": 310,
+                  "height": 48
+                },
+                {
+                  "text": "Read Cookie Policy",
+                  "width": 310,
+                  "height": 48
+                }
+              ]
+            },
+            "second": "Read Cookie Policy",
+            "wrapped": "Close",
+            "closedAndReturned": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "RISK_NO_UNAPPROVED_MAPPING_OR_RECOMMENDATION",
+      "pass": true,
+      "evidence": {
+        "scanned": "Home / Resources / Chemours Titanium Dioxide Alternatives Technical Evaluation Guide How to Evaluate a Chemours Titanium Dioxide Alternative If your current reference is a Chemours Ti-Pure grade, start with the exact grade, application and qualification requirements. A brand name alone is not enough to identify a suitable alternative. Explore Titanium Dioxide Products Why the Exact Ti-Pure Grade Matters Chemours organizes its Ti-Pure portfolio across applications including coatings, plastics and laminates, with product and application guidance for each area. When evaluating another source, the exact grade and the role it plays in your formulation or process matter. Record the full grade name you use, along with its application and end use. These details provide a more useful basis for reviewing another titanium dioxide grade than the brand name alone. Prepare Your Evaluation Brief Use these four inputs to organize your evaluation. Start with the information you have, then add details as you review relevant product pages. Current reference and use. Note the exact Ti-Pure grade, application, formulation or system type, and end use. Process and handling constraints. Describe the conditions that affect how the pigment is dispersed, processed or incorporated in your system. Performance and acceptance criteria. List the properties your application depends on, together with the test methods, target values and pass/fail criteria you use. Documents required for review. Identify the technical, safety, quality or origin documentation needed for your qualification process. Compare Documented Facts, Then Qualify the Grade 1. Build a shortlist Use the Product Hub to find IKHLAS grades listed for your application or production process. Treat those relationships as a shortlist for review, not as replacements for your current grade. 2. Compare product-specific information Open the relevant product pages and compare documented properties with the criteria in your evaluation brief. 3. Validate in your own system Run your normal formulation trials and acceptance tests before changing supply. Continue Your Evaluation Review IKHLAS Titanium Dioxide Grades Explore grades by application or production process, then open the relevant product pages for product-specific information. Explore Titanium Dioxide Products Request Documents for a Grade You Are Evaluating If you have selected an IKHLAS grade for review, request the TDS, SDS, COA or origin documentation you need. Request Product Documents Sources and Independence The Ti-Pure portfolio and application information referenced in this guide come from the Chemours/Ti-Pure pages linked above. Last reviewed: 6 September 2026 Chemours and Ti-Pure are referenced only to identify the buyer's starting point. This guide is published independently by IKHLAS TITANIUM (MALAYSIA) SDN. BHD. We are not affiliated with, authorized by or endorsed by Chemours."
+      }
+    },
+    {
+      "id": "RISK_SOURCES_DATE_INDEPENDENCE",
+      "pass": true,
+      "evidence": {
+        "width": 1440
+      }
+    },
+    {
+      "id": "LOCAL_NO_EXTERNAL_REQUESTS",
+      "pass": true,
+      "evidence": [
+        {
+          "width": 1440,
+          "requests": [
+            "file:///D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+            "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+            "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+            "file:///D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf"
+          ]
+        },
+        {
+          "width": 768,
+          "requests": [
+            "file:///D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+            "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+            "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+            "file:///D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf"
+          ]
+        },
+        {
+          "width": 390,
+          "requests": [
+            "file:///D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/RES-CHEMOURS_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+            "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+            "file:///D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+            "file:///D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf"
+          ]
+        }
+      ]
+    }
+  ],
+  "failures": [
+    "CONTENT_B_EXACT_VISIBLE_SEQUENCE",
+    "CORE_MENU_INTERACTION"
+  ],
+  "conclusion": "REVISION_REQUIRED",
+  "boundaries": [
+    "No production route or receiving-page validation",
+    "No external-link availability check",
+    "No other browser engine, physical device, screen reader or native 200% zoom",
+    "No Gate 4 authorization"
+  ]
+}

@@ -1,0 +1,3508 @@
+{
+  "browser": "152.0.7977.82",
+  "widths": [
+    {
+      "width": 1440,
+      "states": [
+        {
+          "state": "initial",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "bodyHeight": 2125,
+          "active": "",
+          "focusVisible": false,
+          "question": "",
+          "selected": "Choose a reference record",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 120,
+            "y": 209.328125,
+            "w": 780.375,
+            "h": 291.203125,
+            "sw": 780,
+            "cw": 780,
+            "sh": 291,
+            "ch": 291
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 120,
+                "y": 450.140625,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 405.296875,
+                "y": 450.140625,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 120,
+                "y": 1649.109375,
+                "w": 800,
+                "h": 58.390625,
+                "sw": 796,
+                "cw": 796,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 120,
+                "y": 1771.890625,
+                "w": 800,
+                "h": 144,
+                "sw": 796,
+                "cw": 796,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 120,
+                "y": 2010.671875,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 300.046875,
+                "y": 2010.671875,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "error",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "bodyHeight": 2216,
+          "active": "record",
+          "focusVisible": false,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Choose a reference record",
+          "error": true,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 120,
+            "y": 209.328125,
+            "w": 780.375,
+            "h": 291.203125,
+            "sw": 780,
+            "cw": 780,
+            "sh": 291,
+            "ch": 291
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 120,
+                "y": 450.140625,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 405.296875,
+                "y": 450.140625,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 120,
+                "y": 1649.109375,
+                "w": 800,
+                "h": 58.390625,
+                "sw": 796,
+                "cw": 796,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(140, 37, 50)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 120,
+                "y": 1862.671875,
+                "w": 800,
+                "h": 144,
+                "sw": 796,
+                "cw": 796,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 120,
+                "y": 2101.453125,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 300.046875,
+                "y": 2101.453125,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "beta",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "bodyHeight": 2125,
+          "active": "record",
+          "focusVisible": true,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 120,
+            "y": 209.328125,
+            "w": 780.375,
+            "h": 291.203125,
+            "sw": 780,
+            "cw": 780,
+            "sh": 291,
+            "ch": 291
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 120,
+                "y": 450.140625,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 405.296875,
+                "y": 450.140625,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 120,
+                "y": 1649.109375,
+                "w": 800,
+                "h": 58.390625,
+                "sw": 796,
+                "cw": 796,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(0, 128, 120) solid 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 120,
+                "y": 1771.890625,
+                "w": 800,
+                "h": 144,
+                "sw": 796,
+                "cw": 796,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 120,
+                "y": 2010.671875,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(6, 43, 91)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 300.046875,
+                "y": 2010.671875,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "success",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "bodyHeight": 2286,
+          "active": "",
+          "focusVisible": false,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": true,
+          "resultText": "Your request preview is ready. Nothing has been sent.\n\nSelected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+          "figure": true,
+          "orientation": {
+            "x": 120,
+            "y": 209.328125,
+            "w": 780.375,
+            "h": 291.203125,
+            "sw": 780,
+            "cw": 780,
+            "sh": 291,
+            "ch": 291
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 120,
+                "y": 450.140625,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 405.296875,
+                "y": 450.140625,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 120,
+                "y": 1649.109375,
+                "w": 800,
+                "h": 58.390625,
+                "sw": 796,
+                "cw": 796,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 120,
+                "y": 1771.890625,
+                "w": 800,
+                "h": 144,
+                "sw": 796,
+                "cw": 796,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 120,
+                "y": 2010.671875,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(6, 43, 91)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 300.046875,
+                "y": 2010.671875,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "options-focus",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "bodyHeight": 2286,
+          "active": "",
+          "focusVisible": true,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": true,
+          "resultText": "Your request preview is ready. Nothing has been sent.\n\nSelected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+          "figure": true,
+          "orientation": {
+            "x": 120,
+            "y": 209.328125,
+            "w": 780.375,
+            "h": 291.203125,
+            "sw": 780,
+            "cw": 780,
+            "sh": 291,
+            "ch": 291
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 120,
+                "y": 450.140625,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 405.296875,
+                "y": 450.140625,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 120,
+                "y": 1649.109375,
+                "w": 800,
+                "h": 58.390625,
+                "sw": 796,
+                "cw": 796,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Alpha — long-form technical reference",
+              "rect": {
+                "x": 128,
+                "y": 1723.5,
+                "w": 784,
+                "h": 50.390625,
+                "sw": 784,
+                "cw": 784,
+                "sh": 50,
+                "ch": 50
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 128,
+                "y": 1773.890625,
+                "w": 784,
+                "h": 50.390625,
+                "sw": 784,
+                "cw": 784,
+                "sh": 50,
+                "ch": 50
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(245, 248, 251)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(0, 128, 120) solid 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Gamma — assessment reference",
+              "rect": {
+                "x": 128,
+                "y": 1824.28125,
+                "w": 784,
+                "h": 50.390625,
+                "sw": 784,
+                "cw": 784,
+                "sh": 50,
+                "ch": 50
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 120,
+                "y": 1771.890625,
+                "w": 800,
+                "h": 144,
+                "sw": 796,
+                "cw": 796,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 120,
+                "y": 2010.671875,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(6, 43, 91)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 300.046875,
+                "y": 2010.671875,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "media-absent",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "bodyHeight": 2001,
+          "active": "",
+          "focusVisible": false,
+          "question": "",
+          "selected": "Choose a reference record",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": false,
+          "orientation": {
+            "x": 120,
+            "y": 147.390625,
+            "w": 1200,
+            "h": 291.203125,
+            "sw": 1200,
+            "cw": 1200,
+            "sh": 291,
+            "ch": 291
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 120,
+                "y": 388.203125,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 405.296875,
+                "y": 388.203125,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 120,
+                "y": 1525.21875,
+                "w": 800,
+                "h": 58.390625,
+                "sw": 796,
+                "cw": 796,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 120,
+                "y": 1648,
+                "w": 800,
+                "h": 144,
+                "sw": 796,
+                "cw": 796,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 120,
+                "y": 1886.78125,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 300.046875,
+                "y": 1886.78125,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        }
+      ],
+      "interactions": [
+        {
+          "action": "comparison anchor",
+          "hash": "#comparison"
+        },
+        {
+          "action": "request anchor",
+          "hash": "#request"
+        },
+        {
+          "action": "Escape closes and returns",
+          "expanded": "false",
+          "active": "record"
+        },
+        {
+          "action": "selection change clears success",
+          "selected": "Sample Gamma — assessment reference",
+          "successVisible": false,
+          "question": "How should I interpret the preparation condition?"
+        },
+        {
+          "action": "clear selection",
+          "selected": "Choose a reference record",
+          "errorVisible": false,
+          "successVisible": false,
+          "summary": "",
+          "question": "How should I interpret the preparation condition?"
+        },
+        {
+          "action": "Tab exits options",
+          "expanded": "false",
+          "active": "question"
+        },
+        {
+          "action": "blank question succeeds",
+          "successVisible": true
+        }
+      ],
+      "tabOrder": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Prepare an evaluation request",
+          "focusVisible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Read the comparison",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "record",
+          "text": "Choose a reference record",
+          "focusVisible": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "question",
+          "text": "",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Preview request",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "clear",
+          "text": "Clear selection",
+          "focusVisible": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "Reference Materials Desk\nCompare materials before requesting an evaluation packUse the technical comparison to identify the information you need. The example values describe different measurement conditions and must be read with their notes.Prepare an evaluation requestRead the comparisonReading a comparisonValueUnitConditionRead the value, unit and measurement condition together.\nCompare the measurement conditionsThese fictional records are for interface evaluation. They are not product specifications or recommendations.RecordMeasured valueMeasurement conditionNoteSample Alpha — long-form technical reference94.5 %Dry sample basis; measured after conditioning for 24 hours at 23 °C.A — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result.Sample Beta — extended evaluation reference with a deliberately long record name0.001 g/LDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.B — Preserve the unit and preparation condition when copying this result into an evaluation note.Sample Gamma — assessment reference12–18 µmObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.C — The endpoints describe the observed sample interval only.RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result.RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note.RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only.\nPrepare an evaluation requestChoose a reference record and describe the question you want to discuss. This offline example shows how a request could be prepared.Reference recordChoose a reference recordSample Alpha — long-form technical referenceSample Beta — extended evaluation reference with a deliberately long record nameSample Gamma — assessment referenceChoose a reference record before previewing your request. Your evaluation question has been kept so you can continue without typing it again.Evaluation questionDescribe the result or measurement condition you want to understand. You can leave this question blank for now.Preview requestClear selectionYour request preview is ready. Nothing has been sent.Selected reference: \n\n",
+          "focusVisible": false
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "states": [
+        {
+          "state": "initial",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "bodyHeight": 2469,
+          "active": "",
+          "focusVisible": false,
+          "question": "",
+          "selected": "Choose a reference record",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 32,
+            "y": 123.390625,
+            "w": 704,
+            "h": 293.984375,
+            "sw": 704,
+            "cw": 704,
+            "sh": 294,
+            "ch": 294
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 32,
+                "y": 366.984375,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 317.296875,
+                "y": 366.984375,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 32,
+                "y": 2008.71875,
+                "w": 704,
+                "h": 58.390625,
+                "sw": 700,
+                "cw": 700,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 32,
+                "y": 2131.5,
+                "w": 704,
+                "h": 144,
+                "sw": 700,
+                "cw": 700,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 32,
+                "y": 2370.28125,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 212.046875,
+                "y": 2370.28125,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "error",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "bodyHeight": 2559,
+          "active": "record",
+          "focusVisible": false,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Choose a reference record",
+          "error": true,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 32,
+            "y": 123.390625,
+            "w": 704,
+            "h": 293.984375,
+            "sw": 704,
+            "cw": 704,
+            "sh": 294,
+            "ch": 294
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 32,
+                "y": 366.984375,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 317.296875,
+                "y": 366.984375,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 32,
+                "y": 2008.71875,
+                "w": 704,
+                "h": 58.390625,
+                "sw": 700,
+                "cw": 700,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(140, 37, 50)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 32,
+                "y": 2222.28125,
+                "w": 704,
+                "h": 144,
+                "sw": 700,
+                "cw": 700,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 32,
+                "y": 2461.0625,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 212.046875,
+                "y": 2461.0625,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "beta",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "bodyHeight": 2469,
+          "active": "record",
+          "focusVisible": true,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 32,
+            "y": 123.390625,
+            "w": 704,
+            "h": 293.984375,
+            "sw": 704,
+            "cw": 704,
+            "sh": 294,
+            "ch": 294
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 32,
+                "y": 366.984375,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 317.296875,
+                "y": 366.984375,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 32,
+                "y": 2008.71875,
+                "w": 704,
+                "h": 58.390625,
+                "sw": 700,
+                "cw": 700,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(0, 128, 120) solid 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 32,
+                "y": 2131.5,
+                "w": 704,
+                "h": 144,
+                "sw": 700,
+                "cw": 700,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 32,
+                "y": 2370.28125,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(6, 43, 91)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 212.046875,
+                "y": 2370.28125,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "success",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "bodyHeight": 2630,
+          "active": "",
+          "focusVisible": false,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": true,
+          "resultText": "Your request preview is ready. Nothing has been sent.\n\nSelected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+          "figure": true,
+          "orientation": {
+            "x": 32,
+            "y": 123.390625,
+            "w": 704,
+            "h": 293.984375,
+            "sw": 704,
+            "cw": 704,
+            "sh": 294,
+            "ch": 294
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 32,
+                "y": 366.984375,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 317.296875,
+                "y": 366.984375,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 32,
+                "y": 2008.71875,
+                "w": 704,
+                "h": 58.390625,
+                "sw": 700,
+                "cw": 700,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 32,
+                "y": 2131.5,
+                "w": 704,
+                "h": 144,
+                "sw": 700,
+                "cw": 700,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 32,
+                "y": 2370.28125,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(6, 43, 91)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 212.046875,
+                "y": 2370.28125,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "options-focus",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "bodyHeight": 2630,
+          "active": "",
+          "focusVisible": true,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": true,
+          "resultText": "Your request preview is ready. Nothing has been sent.\n\nSelected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+          "figure": true,
+          "orientation": {
+            "x": 32,
+            "y": 123.390625,
+            "w": 704,
+            "h": 293.984375,
+            "sw": 704,
+            "cw": 704,
+            "sh": 294,
+            "ch": 294
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 32,
+                "y": 366.984375,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 317.296875,
+                "y": 366.984375,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 32,
+                "y": 2008.71875,
+                "w": 704,
+                "h": 58.390625,
+                "sw": 700,
+                "cw": 700,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Alpha — long-form technical reference",
+              "rect": {
+                "x": 40,
+                "y": 2083.109375,
+                "w": 688,
+                "h": 50.390625,
+                "sw": 688,
+                "cw": 688,
+                "sh": 50,
+                "ch": 50
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 40,
+                "y": 2133.5,
+                "w": 688,
+                "h": 50.390625,
+                "sw": 688,
+                "cw": 688,
+                "sh": 50,
+                "ch": 50
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(245, 248, 251)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(0, 128, 120) solid 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Gamma — assessment reference",
+              "rect": {
+                "x": 40,
+                "y": 2183.890625,
+                "w": 688,
+                "h": 50.390625,
+                "sw": 688,
+                "cw": 688,
+                "sh": 50,
+                "ch": 50
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 32,
+                "y": 2131.5,
+                "w": 704,
+                "h": 144,
+                "sw": 700,
+                "cw": 700,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 32,
+                "y": 2370.28125,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(6, 43, 91)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 212.046875,
+                "y": 2370.28125,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "media-absent",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "bodyHeight": 2017,
+          "active": "",
+          "focusVisible": false,
+          "question": "",
+          "selected": "Choose a reference record",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": false,
+          "orientation": {
+            "x": 32,
+            "y": 123.390625,
+            "w": 704,
+            "h": 293.984375,
+            "sw": 704,
+            "cw": 704,
+            "sh": 294,
+            "ch": 294
+          },
+          "cards": [
+            {
+              "visible": false,
+              "text": "RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": false,
+              "text": "RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": true,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 32,
+                "y": 366.984375,
+                "w": 273.296875,
+                "h": 50.390625,
+                "sw": 269,
+                "cw": 269,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 317.296875,
+                "y": 366.984375,
+                "w": 206.65625,
+                "h": 50.390625,
+                "sw": 203,
+                "cw": 203,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 32,
+                "y": 1556.75,
+                "w": 704,
+                "h": 58.390625,
+                "sw": 700,
+                "cw": 700,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 32,
+                "y": 1679.53125,
+                "w": 704,
+                "h": 144,
+                "sw": 700,
+                "cw": 700,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 32,
+                "y": 1918.3125,
+                "w": 168.046875,
+                "h": 50.390625,
+                "sw": 164,
+                "cw": 164,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 212.046875,
+                "y": 1918.3125,
+                "w": 158.90625,
+                "h": 50.390625,
+                "sw": 155,
+                "cw": 155,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        }
+      ],
+      "interactions": [
+        {
+          "action": "comparison anchor",
+          "hash": "#comparison"
+        },
+        {
+          "action": "request anchor",
+          "hash": "#request"
+        },
+        {
+          "action": "Escape closes and returns",
+          "expanded": "false",
+          "active": "record"
+        },
+        {
+          "action": "selection change clears success",
+          "selected": "Sample Gamma — assessment reference",
+          "successVisible": false,
+          "question": "How should I interpret the preparation condition?"
+        },
+        {
+          "action": "clear selection",
+          "selected": "Choose a reference record",
+          "errorVisible": false,
+          "successVisible": false,
+          "summary": "",
+          "question": "How should I interpret the preparation condition?"
+        },
+        {
+          "action": "Tab exits options",
+          "expanded": "false",
+          "active": "question"
+        },
+        {
+          "action": "blank question succeeds",
+          "successVisible": true
+        }
+      ],
+      "tabOrder": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Prepare an evaluation request",
+          "focusVisible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Read the comparison",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "record",
+          "text": "Choose a reference record",
+          "focusVisible": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "question",
+          "text": "",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Preview request",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "clear",
+          "text": "Clear selection",
+          "focusVisible": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "Reference Materials Desk\nCompare materials before requesting an evaluation packUse the technical comparison to identify the information you need. The example values describe different measurement conditions and must be read with their notes.Prepare an evaluation requestRead the comparisonReading a comparisonValueUnitConditionRead the value, unit and measurement condition together.\nCompare the measurement conditionsThese fictional records are for interface evaluation. They are not product specifications or recommendations.RecordMeasured valueMeasurement conditionNoteSample Alpha — long-form technical reference94.5 %Dry sample basis; measured after conditioning for 24 hours at 23 °C.A — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result.Sample Beta — extended evaluation reference with a deliberately long record name0.001 g/LDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.B — Preserve the unit and preparation condition when copying this result into an evaluation note.Sample Gamma — assessment reference12–18 µmObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.C — The endpoints describe the observed sample interval only.RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result.RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note.RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only.\nPrepare an evaluation requestChoose a reference record and describe the question you want to discuss. This offline example shows how a request could be prepared.Reference recordChoose a reference recordSample Alpha — long-form technical referenceSample Beta — extended evaluation reference with a deliberately long record nameSample Gamma — assessment referenceChoose a reference record before previewing your request. Your evaluation question has been kept so you can continue without typing it again.Evaluation questionDescribe the result or measurement condition you want to understand. You can leave this question blank for now.Preview requestClear selectionYour request preview is ready. Nothing has been sent.Selected reference: \n\n",
+          "focusVisible": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "states": [
+        {
+          "state": "initial",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "bodyHeight": 3700,
+          "active": "",
+          "focusVisible": false,
+          "question": "",
+          "selected": "Choose a reference record",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 20,
+            "y": 111.390625,
+            "w": 350,
+            "h": 386.515625,
+            "sw": 350,
+            "cw": 350,
+            "sh": 387,
+            "ch": 387
+          },
+          "cards": [
+            {
+              "visible": true,
+              "text": "Record\nSample Alpha — long-form technical reference\nMeasured value\n94.5 %\nMeasurement condition\nDry sample basis; measured after conditioning for 24 hours at 23 °C.\nNote\nA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Beta — extended evaluation reference with a deliberately long record name\nMeasured value\n0.001 g/L\nMeasurement condition\nDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.\nNote\nB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Gamma — assessment reference\nMeasured value\n12–18 µm\nMeasurement condition\nObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.\nNote\nC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": false,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 20,
+                "y": 385.125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 20,
+                "y": 447.515625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 20,
+                "y": 3167.40625,
+                "w": 350,
+                "h": 58.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 20,
+                "y": 3290.1875,
+                "w": 350,
+                "h": 144,
+                "sw": 346,
+                "cw": 346,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 20,
+                "y": 3547.359375,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 20,
+                "y": 3609.75,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "error",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "bodyHeight": 3844,
+          "active": "record",
+          "focusVisible": false,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Choose a reference record",
+          "error": true,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 20,
+            "y": 111.390625,
+            "w": 350,
+            "h": 386.515625,
+            "sw": 350,
+            "cw": 350,
+            "sh": 387,
+            "ch": 387
+          },
+          "cards": [
+            {
+              "visible": true,
+              "text": "Record\nSample Alpha — long-form technical reference\nMeasured value\n94.5 %\nMeasurement condition\nDry sample basis; measured after conditioning for 24 hours at 23 °C.\nNote\nA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Beta — extended evaluation reference with a deliberately long record name\nMeasured value\n0.001 g/L\nMeasurement condition\nDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.\nNote\nB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Gamma — assessment reference\nMeasured value\n12–18 µm\nMeasurement condition\nObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.\nNote\nC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": false,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 20,
+                "y": 385.125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 20,
+                "y": 447.515625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 20,
+                "y": 3167.40625,
+                "w": 350,
+                "h": 58.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(140, 37, 50)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 20,
+                "y": 3433.75,
+                "w": 350,
+                "h": 144,
+                "sw": 346,
+                "cw": 346,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 20,
+                "y": 3690.921875,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(6, 43, 91)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 20,
+                "y": 3753.3125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "beta",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "bodyHeight": 3753,
+          "active": "record",
+          "focusVisible": true,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": true,
+          "orientation": {
+            "x": 20,
+            "y": 111.390625,
+            "w": 350,
+            "h": 386.515625,
+            "sw": 350,
+            "cw": 350,
+            "sh": 387,
+            "ch": 387
+          },
+          "cards": [
+            {
+              "visible": true,
+              "text": "Record\nSample Alpha — long-form technical reference\nMeasured value\n94.5 %\nMeasurement condition\nDry sample basis; measured after conditioning for 24 hours at 23 °C.\nNote\nA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Beta — extended evaluation reference with a deliberately long record name\nMeasured value\n0.001 g/L\nMeasurement condition\nDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.\nNote\nB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Gamma — assessment reference\nMeasured value\n12–18 µm\nMeasurement condition\nObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.\nNote\nC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": false,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 20,
+                "y": 385.125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 20,
+                "y": 447.515625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 20,
+                "y": 3167.40625,
+                "w": 350,
+                "h": 111.171875,
+                "sw": 346,
+                "cw": 346,
+                "sh": 107,
+                "ch": 107
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(0, 128, 120) solid 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 20,
+                "y": 3342.96875,
+                "w": 350,
+                "h": 144,
+                "sw": 346,
+                "cw": 346,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 20,
+                "y": 3600.140625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(6, 43, 91)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 20,
+                "y": 3662.53125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "success",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "bodyHeight": 3963,
+          "active": "",
+          "focusVisible": false,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": true,
+          "resultText": "Your request preview is ready. Nothing has been sent.\n\nSelected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+          "figure": true,
+          "orientation": {
+            "x": 20,
+            "y": 111.390625,
+            "w": 350,
+            "h": 386.515625,
+            "sw": 350,
+            "cw": 350,
+            "sh": 387,
+            "ch": 387
+          },
+          "cards": [
+            {
+              "visible": true,
+              "text": "Record\nSample Alpha — long-form technical reference\nMeasured value\n94.5 %\nMeasurement condition\nDry sample basis; measured after conditioning for 24 hours at 23 °C.\nNote\nA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Beta — extended evaluation reference with a deliberately long record name\nMeasured value\n0.001 g/L\nMeasurement condition\nDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.\nNote\nB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Gamma — assessment reference\nMeasured value\n12–18 µm\nMeasurement condition\nObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.\nNote\nC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": false,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 20,
+                "y": 385.125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 20,
+                "y": 447.515625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 20,
+                "y": 3167.40625,
+                "w": 350,
+                "h": 111.171875,
+                "sw": 346,
+                "cw": 346,
+                "sh": 107,
+                "ch": 107
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 20,
+                "y": 3342.96875,
+                "w": 350,
+                "h": 144,
+                "sw": 346,
+                "cw": 346,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 20,
+                "y": 3600.140625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 20,
+                "y": 3662.53125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "options-focus",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "bodyHeight": 3963,
+          "active": "",
+          "focusVisible": true,
+          "question": "How should I interpret the preparation condition?",
+          "selected": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "error": false,
+          "result": true,
+          "resultText": "Your request preview is ready. Nothing has been sent.\n\nSelected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+          "figure": true,
+          "orientation": {
+            "x": 20,
+            "y": 111.390625,
+            "w": 350,
+            "h": 386.515625,
+            "sw": 350,
+            "cw": 350,
+            "sh": 387,
+            "ch": 387
+          },
+          "cards": [
+            {
+              "visible": true,
+              "text": "Record\nSample Alpha — long-form technical reference\nMeasured value\n94.5 %\nMeasurement condition\nDry sample basis; measured after conditioning for 24 hours at 23 °C.\nNote\nA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Beta — extended evaluation reference with a deliberately long record name\nMeasured value\n0.001 g/L\nMeasurement condition\nDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.\nNote\nB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Gamma — assessment reference\nMeasured value\n12–18 µm\nMeasurement condition\nObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.\nNote\nC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": false,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 20,
+                "y": 385.125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 20,
+                "y": 447.515625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 20,
+                "y": 3167.40625,
+                "w": 350,
+                "h": 111.171875,
+                "sw": 346,
+                "cw": 346,
+                "sh": 107,
+                "ch": 107
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Alpha — long-form technical reference",
+              "rect": {
+                "x": 28,
+                "y": 3294.578125,
+                "w": 334,
+                "h": 76.78125,
+                "sw": 334,
+                "cw": 334,
+                "sh": 77,
+                "ch": 77
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+              "rect": {
+                "x": 28,
+                "y": 3371.359375,
+                "w": 334,
+                "h": 103.171875,
+                "sw": 334,
+                "cw": 334,
+                "sh": 103,
+                "ch": 103
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(245, 248, 251)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(0, 128, 120) solid 3px"
+            },
+            {
+              "id": "",
+              "text": "Sample Gamma — assessment reference",
+              "rect": {
+                "x": 28,
+                "y": 3474.53125,
+                "w": 334,
+                "h": 50.390625,
+                "sw": 334,
+                "cw": 334,
+                "sh": 50,
+                "ch": 50
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(6, 43, 91)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 20,
+                "y": 3342.96875,
+                "w": 350,
+                "h": 144,
+                "sw": 346,
+                "cw": 346,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 20,
+                "y": 3600.140625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 20,
+                "y": 3662.53125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        },
+        {
+          "state": "media-absent",
+          "fontLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "bodyHeight": 3283,
+          "active": "",
+          "focusVisible": false,
+          "question": "",
+          "selected": "Choose a reference record",
+          "error": false,
+          "result": false,
+          "resultText": "Your request preview is ready. Nothing has been sent.Selected reference: ",
+          "figure": false,
+          "orientation": {
+            "x": 20,
+            "y": 111.390625,
+            "w": 350,
+            "h": 386.515625,
+            "sw": 350,
+            "cw": 350,
+            "sh": 387,
+            "ch": 387
+          },
+          "cards": [
+            {
+              "visible": true,
+              "text": "Record\nSample Alpha — long-form technical reference\nMeasured value\n94.5 %\nMeasurement condition\nDry sample basis; measured after conditioning for 24 hours at 23 °C.\nNote\nA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Beta — extended evaluation reference with a deliberately long record name\nMeasured value\n0.001 g/L\nMeasurement condition\nDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.\nNote\nB — Preserve the unit and preparation condition when copying this result into an evaluation note."
+            },
+            {
+              "visible": true,
+              "text": "Record\nSample Gamma — assessment reference\nMeasured value\n12–18 µm\nMeasurement condition\nObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.\nNote\nC — The endpoints describe the observed sample interval only."
+            }
+          ],
+          "tableVisible": false,
+          "controls": [
+            {
+              "id": "",
+              "text": "Prepare an evaluation request",
+              "rect": {
+                "x": 20,
+                "y": 385.125,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Read the comparison",
+              "rect": {
+                "x": 20,
+                "y": 447.515625,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "record",
+              "text": "Choose a reference record",
+              "rect": {
+                "x": 20,
+                "y": 2750.03125,
+                "w": 350,
+                "h": 58.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 54,
+                "ch": 54
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            },
+            {
+              "id": "question",
+              "text": "",
+              "rect": {
+                "x": 20,
+                "y": 2872.8125,
+                "w": 350,
+                "h": 144,
+                "sw": 346,
+                "cw": 346,
+                "sh": 140,
+                "ch": 140
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(51, 65, 85)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(51, 65, 85) none 3px"
+            },
+            {
+              "id": "",
+              "text": "Preview request",
+              "rect": {
+                "x": 20,
+                "y": 3129.984375,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(255, 255, 255)",
+              "bg": "rgb(0, 128, 120)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(255, 255, 255) none 3px"
+            },
+            {
+              "id": "clear",
+              "text": "Clear selection",
+              "rect": {
+                "x": 20,
+                "y": 3192.375,
+                "w": 350,
+                "h": 50.390625,
+                "sw": 346,
+                "cw": 346,
+                "sh": 46,
+                "ch": 46
+              },
+              "font": "Inter, Arial, sans-serif",
+              "size": "16px",
+              "color": "rgb(6, 43, 91)",
+              "bg": "rgb(255, 255, 255)",
+              "border": "rgb(0, 128, 120)",
+              "outline": "rgb(6, 43, 91) none 3px"
+            }
+          ],
+          "smallText": [],
+          "overflow": []
+        }
+      ],
+      "interactions": [
+        {
+          "action": "comparison anchor",
+          "hash": "#comparison"
+        },
+        {
+          "action": "request anchor",
+          "hash": "#request"
+        },
+        {
+          "action": "Escape closes and returns",
+          "expanded": "false",
+          "active": "record"
+        },
+        {
+          "action": "selection change clears success",
+          "selected": "Sample Gamma — assessment reference",
+          "successVisible": false,
+          "question": "How should I interpret the preparation condition?"
+        },
+        {
+          "action": "clear selection",
+          "selected": "Choose a reference record",
+          "errorVisible": false,
+          "successVisible": false,
+          "summary": "",
+          "question": "How should I interpret the preparation condition?"
+        },
+        {
+          "action": "Tab exits options",
+          "expanded": "false",
+          "active": "question"
+        },
+        {
+          "action": "blank question succeeds",
+          "successVisible": true
+        }
+      ],
+      "tabOrder": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Prepare an evaluation request",
+          "focusVisible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Read the comparison",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "record",
+          "text": "Choose a reference record",
+          "focusVisible": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "question",
+          "text": "",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Preview request",
+          "focusVisible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "clear",
+          "text": "Clear selection",
+          "focusVisible": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "Reference Materials Desk\nCompare materials before requesting an evaluation packUse the technical comparison to identify the information you need. The example values describe different measurement conditions and must be read with their notes.Prepare an evaluation requestRead the comparisonReading a comparisonValueUnitConditionRead the value, unit and measurement condition together.\nCompare the measurement conditionsThese fictional records are for interface evaluation. They are not product specifications or recommendations.RecordMeasured valueMeasurement conditionNoteSample Alpha — long-form technical reference94.5 %Dry sample basis; measured after conditioning for 24 hours at 23 °C.A — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result.Sample Beta — extended evaluation reference with a deliberately long record name0.001 g/LDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.B — Preserve the unit and preparation condition when copying this result into an evaluation note.Sample Gamma — assessment reference12–18 µmObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.C — The endpoints describe the observed sample interval only.RecordSample Alpha — long-form technical referenceMeasured value94.5 %Measurement conditionDry sample basis; measured after conditioning for 24 hours at 23 °C.NoteA — A percentage on a dry sample basis is not directly comparable with a liquid dispersion result.RecordSample Beta — extended evaluation reference with a deliberately long record nameMeasured value0.001 g/LMeasurement conditionDilute dispersion; measurement made after the stated preparation sequence, without converting to a dry sample percentage.NoteB — Preserve the unit and preparation condition when copying this result into an evaluation note.RecordSample Gamma — assessment referenceMeasured value12–18 µmMeasurement conditionObserved interval across the prepared sample; the interval is not a guaranteed production tolerance.NoteC — The endpoints describe the observed sample interval only.\nPrepare an evaluation requestChoose a reference record and describe the question you want to discuss. This offline example shows how a request could be prepared.Reference recordChoose a reference recordSample Alpha — long-form technical referenceSample Beta — extended evaluation reference with a deliberately long record nameSample Gamma — assessment referenceChoose a reference record before previewing your request. Your evaluation question has been kept so you can continue without typing it again.Evaluation questionDescribe the result or measurement condition you want to understand. You can leave this question blank for now.Preview requestClear selectionYour request preview is ready. Nothing has been sent.Selected reference: \n\n",
+          "focusVisible": false
+        }
+      ]
+    }
+  ],
+  "requests": [],
+  "errors": []
+}

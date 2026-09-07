@@ -1,0 +1,58 @@
+{
+  "page_id": "MARKET-EU-ES",
+  "observed_at": "2026-09-07T14:21:47.5863285+08:00",
+  "evidence_type": "SOURCE_INSPECTION",
+  "source_path": "D:/23MySec/pages/markets/spain/04_planning/gate5-v0.1/MARKET-EU-ES_GATE5_COMPLETE_VISUAL_V0.1.html",
+  "sha256": "26bbf086fddcacdb1b420ff65d5ed7a5ff3fb2699da1b358c33956d5519381ff",
+  "actual_jsonld": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://tio2malaysia.com/markets/spain/#webpage",
+        "url": "https://tio2malaysia.com/markets/spain/",
+        "name": "Titanium Dioxide Supplier for Spain | TiO2 Malaysia",
+        "description": "Explore Malaysia-origin titanium dioxide for your project in Spain. Review product grades and document needs, then request a quote for your requirements.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://tio2malaysia.com/markets/spain/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://tio2malaysia.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Markets",
+            "item": "https://tio2malaysia.com/markets/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "European Union",
+            "item": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "item": "https://tio2malaysia.com/markets/spain/"
+          }
+        ]
+      }
+    ]
+  },
+  "expected_name": "Titanium Dioxide Supplier for Spain",
+  "missing_fields": [
+    "isPartOf",
+    "publisher",
+    "breadcrumb"
+  ],
+  "finding": "ES-G6-F01",
+  "scope": "Planning source inspection, not production runtime"
+}

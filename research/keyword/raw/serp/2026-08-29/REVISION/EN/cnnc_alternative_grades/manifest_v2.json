@@ -1,0 +1,38 @@
+{
+  "source_id": "SERP-REV-BRAND-CNNC-20260829",
+  "source_type": "serp",
+  "source_name": "Web search raw response (base64 JSON envelope)",
+  "source_url": "Search engine query via web research tool",
+  "query_or_keyword_set": [
+    "CNNC titanium dioxide alternative equivalent grades"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-08-29T00:00:00+08:00",
+  "data_date_shown_by_source": "2026-08-29",
+  "capture_method": "complete raw response returned by web search; JSON serialized and base64 encoded for byte-safe append-only storage; decoded JSON copy added for direct local analysis",
+  "files": [
+    "raw_search_response.json.b64",
+    "raw_search_response.json"
+  ],
+  "completeness_status": "COMPLETE",
+  "analysis_eligible": "YES",
+  "limitations": [
+    "Exact Google data-center location and personalization are unavailable.",
+    "Use as SERP intent evidence; do not treat result counts as search volume.",
+    "No technical equivalence may be inferred from search results.",
+    "Stored file is base64 encoding of the complete serialized tool response."
+  ],
+  "sha256": {
+    "raw_search_response.json.b64": "1c6812535251833264c8f87163f8dda7f8db3f52be3b8d797393dafb1a88abe2",
+    "raw_search_response.json": "617001e69a35fd8335f67f5666d16f5ecf67f2417f9dea4fd3af7a3f5c1b5000"
+  },
+  "file_sizes_bytes": {
+    "raw_search_response.json.b64": 45972,
+    "raw_search_response.json": 34193
+  },
+  "correction_to": "manifest.json",
+  "notes": "Append-only finalized manifest. Original PENDING_HASH manifest preserved; no prior raw evidence changed."
+}

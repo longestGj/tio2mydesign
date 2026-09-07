@@ -1,0 +1,29 @@
+{
+  "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-001",
+  "version": "V0.1",
+  "siteScope": "tio2-my",
+  "status": "PROJECT_CONTROL_VALIDATED_PLANNING_CONSUMER",
+  "authority": {
+    "globalChrome": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+    "cta": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+    "logo": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+    "footerLegal": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+    "legal": "D:/23MySec/pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+    "consent": "D:/23MySec/pages/legal-privacy/05_review/SHARED-CONSENT_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md"
+  },
+  "files": [
+    {"role": "renderer", "path": "render-shared-chrome.cjs", "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"},
+    {"role": "chrome_data", "path": "shared-chrome-data.json", "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"},
+    {"role": "consent_data", "path": "shared-consent-data.json", "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"},
+    {"role": "style", "path": "shared-chrome.css", "sha256": "e08c4dec8f334f4fb26baf42449210e709bcb397483d5190091c502908408e58"},
+    {"role": "behavior", "path": "shared-chrome-behavior.js", "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"},
+    {"role": "font", "path": "Inter-Variable.ttf", "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"},
+    {"role": "font_license", "path": "Inter-OFL.txt", "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"},
+    {"role": "smoke_fixture", "path": "consumer-smoke-fixture.html", "sha256": "24a31aa9aa10ac2a18e3c75140e454c335d24ce8e9ed55e43ea2c437cd63a9f7"}
+  ],
+  "parameters": {
+    "required": ["currentPageId", "primaryLogoSrc", "reverseLogoSrc"],
+    "allowedCurrentPageIds": ["HOME-001", "MARKET-000", "PRODUCT-000", "APP-000", "DOC-000", "RES-000", "ABOUT-001"]
+  },
+  "note": "Planning consumer only. Authority remains with the listed owner contracts. Page builders may embed the returned markup, style and behavior; no business-page content is included."
+}

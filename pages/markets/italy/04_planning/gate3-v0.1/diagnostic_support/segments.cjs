@@ -1,0 +1,6 @@
+const fs=require('fs');
+const {pathToFileURL}=require('url');
+const {chromium}=require('C:/Users/longe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const source='D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/MARKET-EU-IT_GATE3_WIREFRAME_V0.1.html';
+const dest='D:/23MySec/pages/markets/italy/04_planning/gate3-v0.1/diagnostic_support/render';
+(async()=>{const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});try{for(const width of [768,390]){const height=width===390?844:900;const context=await browser.newContext({viewport:{width,height},deviceScaleFactor:1});const page=await context.newPage();await page.goto(pathToFileURL(source).href);await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode()))});const total=await page.evaluate(()=>document.documentElement.scrollHeight);let index=1;for(let y=0;y<total;y+=760,index++){await page.evaluate(pos=>scrollTo(0,pos),y);await page.waitForTimeout(50);await page.screenshot({path:`${dest}/${width}-segment-${String(index).padStart(2,'0')}.png`,animations:'disabled'});}await context.close();}}finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});

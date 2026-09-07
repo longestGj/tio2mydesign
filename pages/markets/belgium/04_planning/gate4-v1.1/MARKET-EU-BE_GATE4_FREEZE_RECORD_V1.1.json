@@ -1,0 +1,109 @@
+{
+  "page_id": "MARKET-EU-BE",
+  "workset_id": "BE-G4-COMPLETE-20260907-02",
+  "freeze_id": "BE-G4-FREEZE-20260907-02",
+  "finding_id": "BE-G4-IR-01",
+  "status": "COMPLETE_VISUAL_FROZEN / DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "frozen_at": "2026-09-07T06:45:18.689Z",
+  "source": {
+    "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_V1.1.html",
+    "bytes": 21728,
+    "sha256": "9e58374966ad2f13de0074ecfbf24f4c69644e55d340c070d7aa9b82debc9aa3"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_INPUT_INDEX_V1.1.json",
+    "bytes": 19000,
+    "sha256": "f368d7d9a959434bbbf3f291b92bed20a7493c99f018aee08fd2f36a54002f70"
+  },
+  "workset": {
+    "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_WORKSET_V1.1.json",
+    "bytes": 1552,
+    "sha256": "7377b70a2a141aaf65ea557f29d91272f6c8c3df7ed148c02a9dc96c71de0269"
+  },
+  "preflight": {
+    "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_PREFLIGHT_RECORD_V1.1.json",
+    "bytes": 2252,
+    "sha256": "440369ae3e13c289899a9d454b81de745c43c61918d2908653a4c123457bfb55"
+  },
+  "direction_carried_forward": {
+    "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_VISUAL_DIRECTION_CHECK_V1.0.md",
+    "bytes": 2083,
+    "sha256": "778a3763b480c0653c242204c306765bcff4df3422c37348f72797cf227ceecd"
+  },
+  "previous_rejected_combination": {
+    "source": {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_V1.0.html",
+      "bytes": 21689,
+      "sha256": "73aad15d48c3261b31e34e71288c95a73ec5ab2e869af611ecdbf270aead92dc"
+    },
+    "freeze": {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_FREEZE_RECORD_V1.0.json",
+      "bytes": 2668,
+      "sha256": "ad3376e1f6b72f804f5ebec6335b2f022c004f346c535d10d12b9c374cd3791b"
+    },
+    "evidence_index": {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_EVIDENCE_INDEX_V1.0.json",
+      "bytes": 19404,
+      "sha256": "883db5666eb1fa2f3c343fbbdd0f8f27456e6beb4070d30281ca504cfbd6ca67"
+    },
+    "independent_review": {
+      "path": "D:/23MySec/pages/markets/belgium/05_review/gate4-complete-independent-v1.0/REVIEW.md",
+      "bytes": 10776,
+      "sha256": "b8ba7cc0b69a85ffc1e9a8c5f0f43c21ac077de88b4e358186a72f95d63c2ce1"
+    }
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "renderer": {
+    "browser": "152.0.7977.82",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900,
+        "fullHeight": 3654
+      },
+      {
+        "width": 768,
+        "height": 900,
+        "fullHeight": 4170
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "fullHeight": 5369
+      }
+    ],
+    "dpr": 1,
+    "font": "Inter Variable local",
+    "network": "HTTP(S) blocked; local file rendering"
+  },
+  "correction": {
+    "selector": "main [data-module='BE-04'] p:not(.action) a",
+    "added": [
+      "padding-inline:6px",
+      "outline-offset:-3px"
+    ],
+    "normal_hover_focus_geometry_stable": true
+  },
+  "note": "Formal full pages and continuous segments were regenerated. Five unaffected Menu/Cookie assets remain under the immutable V1.0 path and were independently rerendered from V1.1 to byte-identical PNG hashes before carry-forward."
+}

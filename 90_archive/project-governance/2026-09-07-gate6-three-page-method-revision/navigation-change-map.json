@@ -1,0 +1,16 @@
+[
+  {
+    "path": "01_PROJECT_INDEX.md",
+    "before_sha256": "4d3c505d5269abf201692746c3bb217f834abe18aebff79d003c6be82766659c",
+    "after_sha256": "5f170bcdf342832265e708d144fc737367a58bedd5819b2a65ab3983a1d9feb9",
+    "old_line": "| Gate 6 Agent与方法设计 | [当前角色V0.3](agents/gate6-review-delivery/agent.md)引用有效Gate 4最终审查证据，只复核变化、缺口和合同冲突；继续负责整体策划一致性、问题闭环、唯一开发交付包及Gate 9接受条件。[历史设计V0.1](docs/superpowers/specs/2026-09-07-gate6-agent-skill-design-v0.1.md)及验证记录保留；角色源不授权具体页面、外发或开发。 |",
+    "new_line": "| Gate 6 Agent与方法设计 | [当前角色V0.4](agents/gate6-review-delivery/agent.md)＋[一致性核验V0.2](skills/page-contract-consistency-review/SKILL.md)＋[交付规格V0.2](skills/development-delivery-specification/SKILL.md)：继承有效上游、字段级差异、关闭对象、完整原型源/依赖及Gate8适配、稳定验收ID。[三页经验修订与有限验证](docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md)记录授权和身份；不新增页面、外发、开发或运行注册权限。 |"
+  },
+  {
+    "path": "agents/README.md",
+    "before_sha256": "26106ec7b3aa7bbe774cc4d8b2761f559c5915eff7484251e0d9d112cfd5d702",
+    "after_sha256": "c886ddb62931653b1c66b5eb35f727a4acc32d68125070551ee39a3c04cea6d7",
+    "old_line": "| Gate 6策划总审与开发交付 | [agent.md](gate6-review-delivery/agent.md) V0.3 | 引用有效Gate 4审查证据，只复核变化、缺口和合同冲突；继续负责整体一致性、唯一开发包和Gate 9接受条件 |",
+    "new_line": "| Gate 6策划总审与开发交付 | [agent.md](gate6-review-delivery/agent.md) V0.4 | 两项V0.2项目方法；继承有效上游，区分合同/原型/生产关闭对象，交付完整原型源及适配要求；[修订与验证](../docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md) |"
+  }
+]

@@ -1,0 +1,2467 @@
+{
+  "runtime": "151.0.7922.34",
+  "views": [
+    {
+      "width": 1440,
+      "initial": {
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "height": 3545,
+        "smallTargets": [],
+        "targets": [
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Overview",
+            "x": 777.65625,
+            "y": 26,
+            "w": 80.859375,
+            "h": 44,
+            "cw": 81,
+            "sw": 81,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Comparison",
+            "x": 870.515625,
+            "y": 26,
+            "w": 101.65625,
+            "h": 44,
+            "cw": 102,
+            "sw": 102,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Reading",
+            "x": 984.171875,
+            "y": 26,
+            "w": 73.328125,
+            "h": 44,
+            "cw": 73,
+            "sw": 73,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request",
+            "x": 1069.5,
+            "y": 26,
+            "w": 73.328125,
+            "h": 44,
+            "cw": 73,
+            "sw": 73,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 1166.828125,
+            "y": 23.40625,
+            "w": 153.171875,
+            "h": 49.1875,
+            "cw": 151,
+            "sw": 151,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 120,
+            "y": 412.78125,
+            "w": 153.171875,
+            "h": 49.1875,
+            "cw": 151,
+            "sw": 151,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Keep the unit attached to the number",
+            "x": 120,
+            "y": 1920.3125,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Read conditioning notes before drawing a comparison",
+            "x": 120,
+            "y": 1989.3125,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Record what is known and leave room for uncertainty",
+            "x": 120,
+            "y": 2058.3125,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Distinguish preparing a request from receiving an answer",
+            "x": 120,
+            "y": 2127.3125,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Return to the original context when revising the request",
+            "x": 120,
+            "y": 2196.3125,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "INPUT",
+            "id": "name",
+            "text": "",
+            "x": 120,
+            "y": 2530.1875,
+            "w": 398,
+            "h": 49.1875,
+            "cw": 396,
+            "sw": 396,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "email",
+            "text": "",
+            "x": 542,
+            "y": 2530.1875,
+            "w": 398,
+            "h": 49.1875,
+            "cw": 396,
+            "sw": 396,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "quantity",
+            "text": "",
+            "x": 120,
+            "y": 2638.5625,
+            "w": 820,
+            "h": 49.1875,
+            "cw": 818,
+            "sw": 818,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "SELECT",
+            "id": "record",
+            "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+            "x": 120,
+            "y": 2746.9375,
+            "w": 820,
+            "h": 48,
+            "cw": 818,
+            "sw": 818,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "TEXTAREA",
+            "id": "context",
+            "text": "",
+            "x": 120,
+            "y": 2854.125,
+            "w": 820,
+            "h": 144,
+            "cw": 818,
+            "sw": 818,
+            "ch": 142,
+            "sh": 142,
+            "overflow": "auto"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 766.96875,
+            "y": 3030.3125,
+            "w": 103.546875,
+            "h": 44,
+            "cw": 104,
+            "sw": 104,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Show local confirmation",
+            "x": 120,
+            "y": 3118.359375,
+            "w": 215.53125,
+            "h": 49.1875,
+            "cw": 214,
+            "sw": 214,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 1216.453125,
+            "y": 3477.421875,
+            "w": 103.546875,
+            "h": 44,
+            "cw": 104,
+            "sw": 104,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          }
+        ],
+        "clippingCandidates": [],
+        "records": [
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record AlphaMeasured response93.2 %Apparent density1.25 g/cm³Specific surface area18.4 m²/gMoisture ",
+            "x": 120,
+            "y": 636.46875,
+            "w": 386.65625,
+            "h": 802.34375,
+            "cw": 385,
+            "sw": 385,
+            "ch": 800,
+            "sh": 800,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record Beta with an intentionally long evaluation labelMeasured response91.7 %Apparent density1.31 g",
+            "x": 526.65625,
+            "y": 636.46875,
+            "w": 386.671875,
+            "h": 802.34375,
+            "cw": 385,
+            "sw": 385,
+            "ch": 800,
+            "sh": 800,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record GammaMeasured response94.1 %Apparent density1.19 g/cm³Specific surface area17.2 m²/gMoisture ",
+            "x": 933.328125,
+            "y": 636.46875,
+            "w": 386.65625,
+            "h": 802.34375,
+            "cw": 385,
+            "sw": 385,
+            "ch": 800,
+            "sh": 800,
+            "overflow": "visible"
+          }
+        ],
+        "requestY": 2322.3125,
+        "privacy": {
+          "tag": "P",
+          "id": "",
+          "text": "We use the information in this exercise only to demonstrate the form layout. Read our Privacy note b",
+          "x": 120,
+          "y": 3030.3125,
+          "w": 820,
+          "h": 72.046875,
+          "cw": 820,
+          "sw": 820,
+          "ch": 72,
+          "sh": 72,
+          "overflow": "visible"
+        },
+        "select": {
+          "tag": "SELECT",
+          "id": "record",
+          "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+          "x": 120,
+          "y": 2746.9375,
+          "w": 820,
+          "h": 48,
+          "cw": 818,
+          "sw": 818,
+          "ch": 46,
+          "sh": 46,
+          "overflow": "clip"
+        }
+      },
+      "expanded": {
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "height": 4766,
+        "smallTargets": [],
+        "targets": [
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Overview",
+            "x": 777.65625,
+            "y": 26,
+            "w": 80.859375,
+            "h": 44,
+            "cw": 81,
+            "sw": 81,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Comparison",
+            "x": 870.515625,
+            "y": 26,
+            "w": 101.65625,
+            "h": 44,
+            "cw": 102,
+            "sw": 102,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Reading",
+            "x": 984.171875,
+            "y": 26,
+            "w": 73.328125,
+            "h": 44,
+            "cw": 73,
+            "sw": 73,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request",
+            "x": 1069.5,
+            "y": 26,
+            "w": 73.328125,
+            "h": 44,
+            "cw": 73,
+            "sw": 73,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 1166.828125,
+            "y": 23.40625,
+            "w": 153.171875,
+            "h": 49.1875,
+            "cw": 151,
+            "sw": 151,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 120,
+            "y": 412.78125,
+            "w": 153.171875,
+            "h": 49.1875,
+            "cw": 151,
+            "sw": 151,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Keep the unit attached to the number",
+            "x": 120,
+            "y": 1920.3125,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Read conditioning notes before drawing a comparison",
+            "x": 120,
+            "y": 2221.5625,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Record what is known and leave room for uncertainty",
+            "x": 120,
+            "y": 2552.5625,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Distinguish preparing a request from receiving an answer",
+            "x": 120,
+            "y": 2853.8125,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Return to the original context when revising the request",
+            "x": 120,
+            "y": 3155.0625,
+            "w": 820,
+            "h": 68,
+            "cw": 820,
+            "sw": 820,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "INPUT",
+            "id": "name",
+            "text": "",
+            "x": 120,
+            "y": 3750.9375,
+            "w": 398,
+            "h": 49.1875,
+            "cw": 396,
+            "sw": 396,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "email",
+            "text": "",
+            "x": 542,
+            "y": 3750.9375,
+            "w": 398,
+            "h": 49.1875,
+            "cw": 396,
+            "sw": 396,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "quantity",
+            "text": "",
+            "x": 120,
+            "y": 3859.3125,
+            "w": 820,
+            "h": 49.1875,
+            "cw": 818,
+            "sw": 818,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "SELECT",
+            "id": "record",
+            "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+            "x": 120,
+            "y": 3967.6875,
+            "w": 820,
+            "h": 48,
+            "cw": 818,
+            "sw": 818,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "TEXTAREA",
+            "id": "context",
+            "text": "",
+            "x": 120,
+            "y": 4074.875,
+            "w": 820,
+            "h": 144,
+            "cw": 818,
+            "sw": 818,
+            "ch": 142,
+            "sh": 142,
+            "overflow": "auto"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 766.96875,
+            "y": 4251.0625,
+            "w": 103.546875,
+            "h": 44,
+            "cw": 104,
+            "sw": 104,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Show local confirmation",
+            "x": 120,
+            "y": 4339.109375,
+            "w": 215.53125,
+            "h": 49.1875,
+            "cw": 214,
+            "sw": 214,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 1216.453125,
+            "y": 4698.171875,
+            "w": 103.546875,
+            "h": 44,
+            "cw": 104,
+            "sw": 104,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          }
+        ],
+        "clippingCandidates": [],
+        "records": [
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record AlphaMeasured response93.2 %Apparent density1.25 g/cm³Specific surface area18.4 m²/gMoisture ",
+            "x": 120,
+            "y": 636.46875,
+            "w": 386.65625,
+            "h": 802.34375,
+            "cw": 385,
+            "sw": 385,
+            "ch": 800,
+            "sh": 800,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record Beta with an intentionally long evaluation labelMeasured response91.7 %Apparent density1.31 g",
+            "x": 526.65625,
+            "y": 636.46875,
+            "w": 386.671875,
+            "h": 802.34375,
+            "cw": 385,
+            "sw": 385,
+            "ch": 800,
+            "sh": 800,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record GammaMeasured response94.1 %Apparent density1.19 g/cm³Specific surface area17.2 m²/gMoisture ",
+            "x": 933.328125,
+            "y": 636.46875,
+            "w": 386.65625,
+            "h": 802.34375,
+            "cw": 385,
+            "sw": 385,
+            "ch": 800,
+            "sh": 800,
+            "overflow": "visible"
+          }
+        ],
+        "requestY": 3543.0625,
+        "privacy": {
+          "tag": "P",
+          "id": "",
+          "text": "We use the information in this exercise only to demonstrate the form layout. Read our Privacy note b",
+          "x": 120,
+          "y": 4251.0625,
+          "w": 820,
+          "h": 72.046875,
+          "cw": 820,
+          "sw": 820,
+          "ch": 72,
+          "sh": 72,
+          "overflow": "visible"
+        },
+        "select": {
+          "tag": "SELECT",
+          "id": "record",
+          "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+          "x": 120,
+          "y": 3967.6875,
+          "w": 820,
+          "h": 48,
+          "cw": 818,
+          "sw": 818,
+          "ch": 46,
+          "sh": 46,
+          "overflow": "clip"
+        }
+      },
+      "openCount": 5
+    },
+    {
+      "width": 768,
+      "initial": {
+        "viewport": 768,
+        "pageWidth": 768,
+        "height": 3984,
+        "smallTargets": [],
+        "targets": [
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 488.296875,
+            "y": 21.40625,
+            "w": 153.171875,
+            "h": 49.1875,
+            "cw": 151,
+            "sw": 151,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Menu",
+            "x": 657.46875,
+            "y": 21.40625,
+            "w": 78.53125,
+            "h": 49.1875,
+            "cw": 77,
+            "sw": 77,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 32,
+            "y": 390.375,
+            "w": 153.171875,
+            "h": 49.1875,
+            "cw": 151,
+            "sw": 151,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Keep the unit attached to the number",
+            "x": 32,
+            "y": 2418.828125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Read conditioning notes before drawing a comparison",
+            "x": 32,
+            "y": 2487.828125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Record what is known and leave room for uncertainty",
+            "x": 32,
+            "y": 2556.828125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Distinguish preparing a request from receiving an answer",
+            "x": 32,
+            "y": 2625.828125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Return to the original context when revising the request",
+            "x": 32,
+            "y": 2694.828125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "INPUT",
+            "id": "name",
+            "text": "",
+            "x": 32,
+            "y": 3004.703125,
+            "w": 340,
+            "h": 49.1875,
+            "cw": 338,
+            "sw": 338,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "email",
+            "text": "",
+            "x": 396,
+            "y": 3004.703125,
+            "w": 340,
+            "h": 49.1875,
+            "cw": 338,
+            "sw": 338,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "quantity",
+            "text": "",
+            "x": 32,
+            "y": 3113.078125,
+            "w": 704,
+            "h": 49.1875,
+            "cw": 702,
+            "sw": 702,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "SELECT",
+            "id": "record",
+            "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+            "x": 32,
+            "y": 3221.453125,
+            "w": 704,
+            "h": 48,
+            "cw": 702,
+            "sw": 702,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "TEXTAREA",
+            "id": "context",
+            "text": "",
+            "x": 32,
+            "y": 3328.640625,
+            "w": 704,
+            "h": 144,
+            "cw": 702,
+            "sw": 702,
+            "ch": 142,
+            "sh": 142,
+            "overflow": "auto"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 32,
+            "y": 3532.875,
+            "w": 103.546875,
+            "h": 44,
+            "cw": 104,
+            "sw": 104,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Show local confirmation",
+            "x": 32,
+            "y": 3592.875,
+            "w": 215.53125,
+            "h": 49.1875,
+            "cw": 214,
+            "sw": 214,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 632.453125,
+            "y": 3915.9375,
+            "w": 103.546875,
+            "h": 44,
+            "cw": 104,
+            "sw": 104,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          }
+        ],
+        "clippingCandidates": [],
+        "records": [
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record AlphaMeasured response93.2 %Apparent density1.25 g/cm³Specific surface area18.4 m²/gMoisture ",
+            "x": 32,
+            "y": 602.0625,
+            "w": 704,
+            "h": 427.171875,
+            "cw": 702,
+            "sw": 702,
+            "ch": 425,
+            "sh": 425,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record Beta with an intentionally long evaluation labelMeasured response91.7 %Apparent density1.31 g",
+            "x": 32,
+            "y": 1053.234375,
+            "w": 704,
+            "h": 427.171875,
+            "cw": 702,
+            "sw": 702,
+            "ch": 425,
+            "sh": 425,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record GammaMeasured response94.1 %Apparent density1.19 g/cm³Specific surface area17.2 m²/gMoisture ",
+            "x": 32,
+            "y": 1504.40625,
+            "w": 704,
+            "h": 427.171875,
+            "cw": 702,
+            "sw": 702,
+            "ch": 425,
+            "sh": 425,
+            "overflow": "visible"
+          }
+        ],
+        "requestY": 2808.828125,
+        "privacy": {
+          "tag": "P",
+          "id": "",
+          "text": "We use the information in this exercise only to demonstrate the form layout. Read our Privacy note b",
+          "x": 32,
+          "y": 3504.828125,
+          "w": 704,
+          "h": 72.046875,
+          "cw": 704,
+          "sw": 704,
+          "ch": 72,
+          "sh": 72,
+          "overflow": "visible"
+        },
+        "select": {
+          "tag": "SELECT",
+          "id": "record",
+          "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+          "x": 32,
+          "y": 3221.453125,
+          "w": 704,
+          "h": 48,
+          "cw": 702,
+          "sw": 702,
+          "ch": 46,
+          "sh": 46,
+          "overflow": "clip"
+        }
+      },
+      "expanded": {
+        "viewport": 768,
+        "pageWidth": 768,
+        "height": 5413,
+        "smallTargets": [],
+        "targets": [
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 488.296875,
+            "y": 21.40625,
+            "w": 153.171875,
+            "h": 49.1875,
+            "cw": 151,
+            "sw": 151,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Menu",
+            "x": 657.46875,
+            "y": 21.40625,
+            "w": 78.53125,
+            "h": 49.1875,
+            "cw": 77,
+            "sw": 77,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 32,
+            "y": 390.375,
+            "w": 153.171875,
+            "h": 49.1875,
+            "cw": 151,
+            "sw": 151,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Keep the unit attached to the number",
+            "x": 32,
+            "y": 2418.828125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Read conditioning notes before drawing a comparison",
+            "x": 32,
+            "y": 2779.578125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Record what is known and leave room for uncertainty",
+            "x": 32,
+            "y": 3140.328125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Distinguish preparing a request from receiving an answer",
+            "x": 32,
+            "y": 3501.078125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Return to the original context when revising the request",
+            "x": 32,
+            "y": 3832.078125,
+            "w": 704,
+            "h": 68,
+            "cw": 704,
+            "sw": 704,
+            "ch": 68,
+            "sh": 68,
+            "overflow": "visible"
+          },
+          {
+            "tag": "INPUT",
+            "id": "name",
+            "text": "",
+            "x": 32,
+            "y": 4433.703125,
+            "w": 340,
+            "h": 49.1875,
+            "cw": 338,
+            "sw": 338,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "email",
+            "text": "",
+            "x": 396,
+            "y": 4433.703125,
+            "w": 340,
+            "h": 49.1875,
+            "cw": 338,
+            "sw": 338,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "quantity",
+            "text": "",
+            "x": 32,
+            "y": 4542.078125,
+            "w": 704,
+            "h": 49.1875,
+            "cw": 702,
+            "sw": 702,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "clip"
+          },
+          {
+            "tag": "SELECT",
+            "id": "record",
+            "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+            "x": 32,
+            "y": 4650.453125,
+            "w": 704,
+            "h": 48,
+            "cw": 702,
+            "sw": 702,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "TEXTAREA",
+            "id": "context",
+            "text": "",
+            "x": 32,
+            "y": 4757.640625,
+            "w": 704,
+            "h": 144,
+            "cw": 702,
+            "sw": 702,
+            "ch": 142,
+            "sh": 142,
+            "overflow": "auto"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 32,
+            "y": 4961.875,
+            "w": 103.546875,
+            "h": 44,
+            "cw": 104,
+            "sw": 104,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Show local confirmation",
+            "x": 32,
+            "y": 5021.875,
+            "w": 215.53125,
+            "h": 49.1875,
+            "cw": 214,
+            "sw": 214,
+            "ch": 47,
+            "sh": 47,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 632.453125,
+            "y": 5344.9375,
+            "w": 103.546875,
+            "h": 44,
+            "cw": 104,
+            "sw": 104,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          }
+        ],
+        "clippingCandidates": [],
+        "records": [
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record AlphaMeasured response93.2 %Apparent density1.25 g/cm³Specific surface area18.4 m²/gMoisture ",
+            "x": 32,
+            "y": 602.0625,
+            "w": 704,
+            "h": 427.171875,
+            "cw": 702,
+            "sw": 702,
+            "ch": 425,
+            "sh": 425,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record Beta with an intentionally long evaluation labelMeasured response91.7 %Apparent density1.31 g",
+            "x": 32,
+            "y": 1053.234375,
+            "w": 704,
+            "h": 427.171875,
+            "cw": 702,
+            "sw": 702,
+            "ch": 425,
+            "sh": 425,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record GammaMeasured response94.1 %Apparent density1.19 g/cm³Specific surface area17.2 m²/gMoisture ",
+            "x": 32,
+            "y": 1504.40625,
+            "w": 704,
+            "h": 427.171875,
+            "cw": 702,
+            "sw": 702,
+            "ch": 425,
+            "sh": 425,
+            "overflow": "visible"
+          }
+        ],
+        "requestY": 4237.828125,
+        "privacy": {
+          "tag": "P",
+          "id": "",
+          "text": "We use the information in this exercise only to demonstrate the form layout. Read our Privacy note b",
+          "x": 32,
+          "y": 4933.828125,
+          "w": 704,
+          "h": 72.046875,
+          "cw": 704,
+          "sw": 704,
+          "ch": 72,
+          "sh": 72,
+          "overflow": "visible"
+        },
+        "select": {
+          "tag": "SELECT",
+          "id": "record",
+          "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+          "x": 32,
+          "y": 4650.453125,
+          "w": 704,
+          "h": 48,
+          "cw": 702,
+          "sw": 702,
+          "ch": 46,
+          "sh": 46,
+          "overflow": "clip"
+        }
+      },
+      "openCount": 5
+    },
+    {
+      "width": 390,
+      "initial": {
+        "viewport": 390,
+        "pageWidth": 390,
+        "height": 5725,
+        "smallTargets": [],
+        "targets": [
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 20,
+            "y": 53,
+            "w": 256,
+            "h": 48,
+            "cw": 254,
+            "sw": 254,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Menu",
+            "x": 288,
+            "y": 53,
+            "w": 82,
+            "h": 48,
+            "cw": 80,
+            "sw": 80,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 20,
+            "y": 510.421875,
+            "w": 146.28125,
+            "h": 48,
+            "cw": 144,
+            "sw": 144,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Keep the unit attached to the number",
+            "x": 20,
+            "y": 3850.453125,
+            "w": 350,
+            "h": 64,
+            "cw": 350,
+            "sw": 350,
+            "ch": 64,
+            "sh": 64,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Read conditioning notes before drawing a comparison",
+            "x": 20,
+            "y": 3915.453125,
+            "w": 350,
+            "h": 86.375,
+            "cw": 350,
+            "sw": 350,
+            "ch": 86,
+            "sh": 86,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Record what is known and leave room for uncertainty",
+            "x": 20,
+            "y": 4002.828125,
+            "w": 350,
+            "h": 86.375,
+            "cw": 350,
+            "sw": 350,
+            "ch": 86,
+            "sh": 86,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Distinguish preparing a request from receiving an answer",
+            "x": 20,
+            "y": 4090.203125,
+            "w": 350,
+            "h": 86.375,
+            "cw": 350,
+            "sw": 350,
+            "ch": 86,
+            "sh": 86,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Return to the original context when revising the request",
+            "x": 20,
+            "y": 4177.578125,
+            "w": 350,
+            "h": 86.375,
+            "cw": 350,
+            "sw": 350,
+            "ch": 86,
+            "sh": 86,
+            "overflow": "visible"
+          },
+          {
+            "tag": "INPUT",
+            "id": "name",
+            "text": "",
+            "x": 20,
+            "y": 4542.234375,
+            "w": 350,
+            "h": 48,
+            "cw": 348,
+            "sw": 348,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "email",
+            "text": "",
+            "x": 20,
+            "y": 4645.828125,
+            "w": 350,
+            "h": 48,
+            "cw": 348,
+            "sw": 348,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "quantity",
+            "text": "",
+            "x": 20,
+            "y": 4749.421875,
+            "w": 350,
+            "h": 48,
+            "cw": 348,
+            "sw": 348,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "SELECT",
+            "id": "record",
+            "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+            "x": 20,
+            "y": 4853.015625,
+            "w": 350,
+            "h": 80,
+            "cw": 348,
+            "sw": 348,
+            "ch": 78,
+            "sh": 78,
+            "overflow": "clip"
+          },
+          {
+            "tag": "TEXTAREA",
+            "id": "context",
+            "text": "",
+            "x": 20,
+            "y": 4988.609375,
+            "w": 350,
+            "h": 144,
+            "cw": 348,
+            "sw": 348,
+            "ch": 142,
+            "sh": 142,
+            "overflow": "auto"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 20,
+            "y": 5216.984375,
+            "w": 98.046875,
+            "h": 44,
+            "cw": 98,
+            "sw": 98,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Show local confirmation",
+            "x": 20,
+            "y": 5276.984375,
+            "w": 350,
+            "h": 48,
+            "cw": 348,
+            "sw": 348,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 20,
+            "y": 5656.703125,
+            "w": 98.046875,
+            "h": 44,
+            "cw": 98,
+            "sw": 98,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          }
+        ],
+        "clippingCandidates": [],
+        "records": [
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record AlphaMeasured response93.2 %Apparent density1.25 g/cm³Specific surface area18.4 m²/gMoisture ",
+            "x": 20,
+            "y": 726.921875,
+            "w": 350,
+            "h": 743.34375,
+            "cw": 348,
+            "sw": 348,
+            "ch": 741,
+            "sh": 741,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record Beta with an intentionally long evaluation labelMeasured response91.7 %Apparent density1.31 g",
+            "x": 20,
+            "y": 1494.265625,
+            "w": 350,
+            "h": 823.34375,
+            "cw": 348,
+            "sw": 348,
+            "ch": 821,
+            "sh": 821,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record GammaMeasured response94.1 %Apparent density1.19 g/cm³Specific surface area17.2 m²/gMoisture ",
+            "x": 20,
+            "y": 2341.609375,
+            "w": 350,
+            "h": 743.34375,
+            "cw": 348,
+            "sw": 348,
+            "ch": 741,
+            "sh": 741,
+            "overflow": "visible"
+          }
+        ],
+        "requestY": 4301.953125,
+        "privacy": {
+          "tag": "P",
+          "id": "",
+          "text": "We use the information in this exercise only to demonstrate the form layout. Read our Privacy note b",
+          "x": 20,
+          "y": 5164.203125,
+          "w": 350,
+          "h": 96.78125,
+          "cw": 350,
+          "sw": 350,
+          "ch": 97,
+          "sh": 97,
+          "overflow": "visible"
+        },
+        "select": {
+          "tag": "SELECT",
+          "id": "record",
+          "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+          "x": 20,
+          "y": 4853.015625,
+          "w": 350,
+          "h": 80,
+          "cw": 348,
+          "sw": 348,
+          "ch": 78,
+          "sh": 78,
+          "overflow": "clip"
+        }
+      },
+      "expanded": {
+        "viewport": 390,
+        "pageWidth": 390,
+        "height": 8141,
+        "smallTargets": [],
+        "targets": [
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 20,
+            "y": 53,
+            "w": 256,
+            "h": 48,
+            "cw": 254,
+            "sw": 254,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Menu",
+            "x": 288,
+            "y": 53,
+            "w": 82,
+            "h": 48,
+            "cw": 80,
+            "sw": 80,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Request review",
+            "x": 20,
+            "y": 510.421875,
+            "w": 146.28125,
+            "h": 48,
+            "cw": 144,
+            "sw": 144,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Keep the unit attached to the number",
+            "x": 20,
+            "y": 3850.453125,
+            "w": 350,
+            "h": 64,
+            "cw": 350,
+            "sw": 350,
+            "ch": 64,
+            "sh": 64,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Read conditioning notes before drawing a comparison",
+            "x": 20,
+            "y": 4387.453125,
+            "w": 350,
+            "h": 86.375,
+            "cw": 350,
+            "sw": 350,
+            "ch": 86,
+            "sh": 86,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Record what is known and leave room for uncertainty",
+            "x": 20,
+            "y": 4974.828125,
+            "w": 350,
+            "h": 86.375,
+            "cw": 350,
+            "sw": 350,
+            "ch": 86,
+            "sh": 86,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Distinguish preparing a request from receiving an answer",
+            "x": 20,
+            "y": 5534.203125,
+            "w": 350,
+            "h": 86.375,
+            "cw": 350,
+            "sw": 350,
+            "ch": 86,
+            "sh": 86,
+            "overflow": "visible"
+          },
+          {
+            "tag": "SUMMARY",
+            "id": "",
+            "text": "Return to the original context when revising the request",
+            "x": 20,
+            "y": 6093.578125,
+            "w": 350,
+            "h": 86.375,
+            "cw": 350,
+            "sw": 350,
+            "ch": 86,
+            "sh": 86,
+            "overflow": "visible"
+          },
+          {
+            "tag": "INPUT",
+            "id": "name",
+            "text": "",
+            "x": 20,
+            "y": 6958.234375,
+            "w": 350,
+            "h": 48,
+            "cw": 348,
+            "sw": 348,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "email",
+            "text": "",
+            "x": 20,
+            "y": 7061.828125,
+            "w": 350,
+            "h": 48,
+            "cw": 348,
+            "sw": 348,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "INPUT",
+            "id": "quantity",
+            "text": "",
+            "x": 20,
+            "y": 7165.421875,
+            "w": 350,
+            "h": 48,
+            "cw": 348,
+            "sw": 348,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "clip"
+          },
+          {
+            "tag": "SELECT",
+            "id": "record",
+            "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+            "x": 20,
+            "y": 7269.015625,
+            "w": 350,
+            "h": 80,
+            "cw": 348,
+            "sw": 348,
+            "ch": 78,
+            "sh": 78,
+            "overflow": "clip"
+          },
+          {
+            "tag": "TEXTAREA",
+            "id": "context",
+            "text": "",
+            "x": 20,
+            "y": 7404.609375,
+            "w": 350,
+            "h": 144,
+            "cw": 348,
+            "sw": 348,
+            "ch": 142,
+            "sh": 142,
+            "overflow": "auto"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 20,
+            "y": 7632.984375,
+            "w": 98.046875,
+            "h": 44,
+            "cw": 98,
+            "sw": 98,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Show local confirmation",
+            "x": 20,
+            "y": 7692.984375,
+            "w": 350,
+            "h": 48,
+            "cw": 348,
+            "sw": 348,
+            "ch": 46,
+            "sh": 46,
+            "overflow": "visible"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Privacy note",
+            "x": 20,
+            "y": 8072.703125,
+            "w": 98.046875,
+            "h": 44,
+            "cw": 98,
+            "sw": 98,
+            "ch": 44,
+            "sh": 44,
+            "overflow": "visible"
+          }
+        ],
+        "clippingCandidates": [],
+        "records": [
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record AlphaMeasured response93.2 %Apparent density1.25 g/cm³Specific surface area18.4 m²/gMoisture ",
+            "x": 20,
+            "y": 726.921875,
+            "w": 350,
+            "h": 743.34375,
+            "cw": 348,
+            "sw": 348,
+            "ch": 741,
+            "sh": 741,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record Beta with an intentionally long evaluation labelMeasured response91.7 %Apparent density1.31 g",
+            "x": 20,
+            "y": 1494.265625,
+            "w": 350,
+            "h": 823.34375,
+            "cw": 348,
+            "sw": 348,
+            "ch": 821,
+            "sh": 821,
+            "overflow": "visible"
+          },
+          {
+            "tag": "ARTICLE",
+            "id": "",
+            "text": "Record GammaMeasured response94.1 %Apparent density1.19 g/cm³Specific surface area17.2 m²/gMoisture ",
+            "x": 20,
+            "y": 2341.609375,
+            "w": 350,
+            "h": 743.34375,
+            "cw": 348,
+            "sw": 348,
+            "ch": 741,
+            "sh": 741,
+            "overflow": "visible"
+          }
+        ],
+        "requestY": 6717.953125,
+        "privacy": {
+          "tag": "P",
+          "id": "",
+          "text": "We use the information in this exercise only to demonstrate the form layout. Read our Privacy note b",
+          "x": 20,
+          "y": 7580.203125,
+          "w": 350,
+          "h": 96.78125,
+          "cw": 350,
+          "sw": 350,
+          "ch": 97,
+          "sh": 97,
+          "overflow": "visible"
+        },
+        "select": {
+          "tag": "SELECT",
+          "id": "record",
+          "text": "Not sure yetRecord AlphaRecord Beta with an intentionally long evaluation labelRecord Gamma",
+          "x": 20,
+          "y": 7269.015625,
+          "w": 350,
+          "h": 80,
+          "cw": 348,
+          "sw": 348,
+          "ch": 78,
+          "sh": 78,
+          "overflow": "clip"
+        }
+      },
+      "openCount": 5
+    }
+  ],
+  "actions": {
+    "disclosure": {
+      "afterEnter": false,
+      "afterSpace": true
+    },
+    "menu": {
+      "open": {
+        "modal": true,
+        "focus": "close-menu"
+      },
+      "tab": [
+        {
+          "text": "Overview",
+          "inside": true
+        },
+        {
+          "text": "Comparison",
+          "inside": true
+        },
+        {
+          "text": "Reading",
+          "inside": true
+        },
+        {
+          "text": "Request",
+          "inside": true
+        },
+        {
+          "text": "Request review",
+          "inside": true
+        },
+        {
+          "text": "Close",
+          "inside": true
+        },
+        {
+          "text": "Overview",
+          "inside": true
+        },
+        {
+          "text": "Comparison",
+          "inside": true
+        }
+      ],
+      "reverse": {
+        "text": "Request review",
+        "inside": true
+      },
+      "backgroundFocusAttempt": {
+        "id": "",
+        "inside": true
+      },
+      "escape": {
+        "open": false,
+        "focus": "menu-trigger"
+      },
+      "close": {
+        "open": false,
+        "focus": "menu-trigger"
+      },
+      "link": {
+        "hash": "#comparison",
+        "open": false,
+        "focus": ""
+      }
+    },
+    "empty": {
+      "focus": "name",
+      "summary": true,
+      "success": false,
+      "values": [
+        {
+          "id": "name",
+          "value": "",
+          "invalid": "true",
+          "description": "name-error"
+        },
+        {
+          "id": "email",
+          "value": "",
+          "invalid": "true",
+          "description": "email-error"
+        },
+        {
+          "id": "quantity",
+          "value": "",
+          "invalid": "true",
+          "description": "quantity-error"
+        },
+        {
+          "id": "record",
+          "value": "",
+          "invalid": null,
+          "description": null
+        },
+        {
+          "id": "context",
+          "value": "Invented multiline context.\nKeep this text when returning to a record.",
+          "invalid": null,
+          "description": null
+        }
+      ],
+      "errors": [
+        "Enter your name.",
+        "Enter a valid email address.",
+        "Enter a quantity greater than zero in kilograms."
+      ]
+    },
+    "whitespaceName": {
+      "focus": "name",
+      "summary": true,
+      "success": false,
+      "values": [
+        {
+          "id": "name",
+          "value": "   ",
+          "invalid": "true",
+          "description": "name-error"
+        },
+        {
+          "id": "email",
+          "value": "",
+          "invalid": "true",
+          "description": "email-error"
+        },
+        {
+          "id": "quantity",
+          "value": "",
+          "invalid": "true",
+          "description": "quantity-error"
+        },
+        {
+          "id": "record",
+          "value": "",
+          "invalid": null,
+          "description": null
+        },
+        {
+          "id": "context",
+          "value": "Invented multiline context.\nKeep this text when returning to a record.",
+          "invalid": null,
+          "description": null
+        }
+      ],
+      "errors": [
+        "Enter your name.",
+        "Enter a valid email address.",
+        "Enter a quantity greater than zero in kilograms."
+      ]
+    },
+    "badEmail": {
+      "focus": "email",
+      "summary": true,
+      "success": false,
+      "values": [
+        {
+          "id": "name",
+          "value": "Example Reader",
+          "invalid": "false",
+          "description": "name-error"
+        },
+        {
+          "id": "email",
+          "value": "wrong",
+          "invalid": "true",
+          "description": "email-error"
+        },
+        {
+          "id": "quantity",
+          "value": "",
+          "invalid": "true",
+          "description": "quantity-error"
+        },
+        {
+          "id": "record",
+          "value": "",
+          "invalid": null,
+          "description": null
+        },
+        {
+          "id": "context",
+          "value": "Invented multiline context.\nKeep this text when returning to a record.",
+          "invalid": null,
+          "description": null
+        }
+      ],
+      "errors": [
+        "Enter a valid email address.",
+        "Enter a quantity greater than zero in kilograms."
+      ]
+    },
+    "quantity": [
+      {
+        "value": "0",
+        "focus": "quantity",
+        "summary": true,
+        "success": false,
+        "values": [
+          {
+            "id": "name",
+            "value": "Example Reader",
+            "invalid": "false",
+            "description": "name-error"
+          },
+          {
+            "id": "email",
+            "value": "reader@example.invalid",
+            "invalid": "false",
+            "description": "email-error"
+          },
+          {
+            "id": "quantity",
+            "value": "0",
+            "invalid": "true",
+            "description": "quantity-error"
+          },
+          {
+            "id": "record",
+            "value": "",
+            "invalid": null,
+            "description": null
+          },
+          {
+            "id": "context",
+            "value": "Invented multiline context.\nKeep this text when returning to a record.",
+            "invalid": null,
+            "description": null
+          }
+        ],
+        "errors": [
+          "Enter a quantity greater than zero in kilograms."
+        ]
+      },
+      {
+        "value": "-2",
+        "focus": "quantity",
+        "summary": true,
+        "success": false,
+        "values": [
+          {
+            "id": "name",
+            "value": "Example Reader",
+            "invalid": "false",
+            "description": "name-error"
+          },
+          {
+            "id": "email",
+            "value": "reader@example.invalid",
+            "invalid": "false",
+            "description": "email-error"
+          },
+          {
+            "id": "quantity",
+            "value": "-2",
+            "invalid": "true",
+            "description": "quantity-error"
+          },
+          {
+            "id": "record",
+            "value": "",
+            "invalid": null,
+            "description": null
+          },
+          {
+            "id": "context",
+            "value": "Invented multiline context.\nKeep this text when returning to a record.",
+            "invalid": null,
+            "description": null
+          }
+        ],
+        "errors": [
+          "Enter a quantity greater than zero in kilograms."
+        ]
+      },
+      {
+        "value": "0.001",
+        "focus": "",
+        "summary": false,
+        "success": true,
+        "values": [
+          {
+            "id": "name",
+            "value": "Example Reader",
+            "invalid": "false",
+            "description": "name-error"
+          },
+          {
+            "id": "email",
+            "value": "reader@example.invalid",
+            "invalid": "false",
+            "description": "email-error"
+          },
+          {
+            "id": "quantity",
+            "value": "0.001",
+            "invalid": "false",
+            "description": "quantity-error"
+          },
+          {
+            "id": "record",
+            "value": "",
+            "invalid": null,
+            "description": null
+          },
+          {
+            "id": "context",
+            "value": "Invented multiline context.\nKeep this text when returning to a record.",
+            "invalid": null,
+            "description": null
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "success": {
+      "focus": "",
+      "summary": false,
+      "success": true,
+      "values": [
+        {
+          "id": "name",
+          "value": "Example Reader",
+          "invalid": "false",
+          "description": "name-error"
+        },
+        {
+          "id": "email",
+          "value": "reader@example.invalid",
+          "invalid": "false",
+          "description": "email-error"
+        },
+        {
+          "id": "quantity",
+          "value": "0.001",
+          "invalid": "false",
+          "description": "quantity-error"
+        },
+        {
+          "id": "record",
+          "value": "1",
+          "invalid": null,
+          "description": null
+        },
+        {
+          "id": "context",
+          "value": "Invented multiline context.\nKeep this text when returning to a record.",
+          "invalid": null,
+          "description": null
+        }
+      ],
+      "errors": []
+    },
+    "optionalReset": "",
+    "privacyAnchor": {
+      "hash": "#privacy",
+      "scrollY": 7360
+    },
+    "cta": {
+      "hash": "#request",
+      "scrollY": 6718,
+      "context": "Invented multiline context.\nKeep this text when returning to a record."
+    }
+  },
+  "network": [],
+  "copy": {
+    "results": [
+      {
+        "key": "hero",
+        "equal": true
+      },
+      {
+        "key": "comparisonTitle",
+        "equal": true
+      },
+      {
+        "key": "records",
+        "equal": true
+      },
+      {
+        "key": "metrics",
+        "equal": true
+      },
+      {
+        "key": "notes",
+        "equal": true
+      },
+      {
+        "key": "readingTitle",
+        "equal": true
+      },
+      {
+        "key": "sections",
+        "equal": true
+      },
+      {
+        "key": "privacy",
+        "equal": true
+      },
+      {
+        "key": "footer",
+        "equal": true
+      }
+    ],
+    "form": [
+      {
+        "key": "title",
+        "equal": true
+      },
+      {
+        "key": "intro",
+        "equal": true
+      },
+      {
+        "key": "name",
+        "equal": true
+      },
+      {
+        "key": "email",
+        "equal": true
+      },
+      {
+        "key": "quantity",
+        "equal": true
+      },
+      {
+        "key": "record",
+        "equal": true
+      },
+      {
+        "key": "unsure",
+        "equal": true
+      },
+      {
+        "key": "context",
+        "equal": true
+      },
+      {
+        "key": "submit",
+        "equal": true
+      },
+      {
+        "key": "errorSummary",
+        "equal": true
+      },
+      {
+        "key": "nameError",
+        "equal": true
+      },
+      {
+        "key": "emailError",
+        "equal": true
+      },
+      {
+        "key": "quantityError",
+        "equal": true
+      },
+      {
+        "key": "success",
+        "equal": true
+      }
+    ],
+    "privacyExact": true,
+    "nav": [
+      {
+        "text": "Overview",
+        "href": "#overview",
+        "targetExists": true
+      },
+      {
+        "text": "Comparison",
+        "href": "#comparison",
+        "targetExists": true
+      },
+      {
+        "text": "Reading",
+        "href": "#reading",
+        "targetExists": true
+      },
+      {
+        "text": "Request",
+        "href": "#request",
+        "targetExists": true
+      },
+      {
+        "text": "Request review",
+        "href": "#request",
+        "targetExists": true
+      },
+      {
+        "text": "Request review",
+        "href": "#request",
+        "targetExists": true
+      },
+      {
+        "text": "Privacy note",
+        "href": "#privacy",
+        "targetExists": true
+      },
+      {
+        "text": "Privacy note",
+        "href": "#privacy",
+        "targetExists": true
+      },
+      {
+        "text": "Overview",
+        "href": "#overview",
+        "targetExists": true
+      },
+      {
+        "text": "Comparison",
+        "href": "#comparison",
+        "targetExists": true
+      },
+      {
+        "text": "Reading",
+        "href": "#reading",
+        "targetExists": true
+      },
+      {
+        "text": "Request",
+        "href": "#request",
+        "targetExists": true
+      },
+      {
+        "text": "Request review",
+        "href": "#request",
+        "targetExists": true
+      }
+    ]
+  }
+}

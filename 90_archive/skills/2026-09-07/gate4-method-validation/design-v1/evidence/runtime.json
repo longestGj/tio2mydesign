@@ -1,0 +1,1388 @@
+{
+  "date": "2026-09-06T23:55:35.655Z",
+  "renderer": "152.0.7977.82",
+  "playwrightVersion": "1.62.1",
+  "node": "v24.16.0",
+  "sourceFiles": [
+    {
+      "path": "index.html",
+      "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+    },
+    {
+      "path": "app.js",
+      "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+    },
+    {
+      "path": "assets/Inter-Variable.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    }
+  ],
+  "networkRequests": [],
+  "observations": [
+    {
+      "width": 1440,
+      "initial": {
+        "fontCheck": true,
+        "fonts": [
+          {
+            "family": "Inter",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "Inter, Arial, sans-serif",
+        "scrollWidth": 1440,
+        "viewport": 1440,
+        "tableVisible": true,
+        "cardsVisible": false,
+        "controls": [
+          {
+            "name": "Prepare an evaluation request",
+            "width": 273.296875,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Read the comparison",
+            "width": 206.65625,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Choose a reference record",
+            "width": 800,
+            "height": 58.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "question",
+            "width": 800,
+            "height": 144,
+            "fontSize": "16px",
+            "color": "rgb(51, 65, 85)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Preview request",
+            "width": 168.046875,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Clear selection",
+            "width": 158.90625,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          }
+        ],
+        "bodySize": "16px"
+      },
+      "error": {
+        "visible": true,
+        "focus": "record",
+        "focusVisible": true,
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "errorText": "Choose a reference record before previewing your request. Your evaluation question has been kept so you can continue without typing it again."
+      },
+      "optionsGeometry": [
+        {
+          "text": "Sample Alpha — long-form technical reference",
+          "width": 784,
+          "height": 50.390625
+        },
+        {
+          "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "width": 784,
+          "height": 50.390625
+        },
+        {
+          "text": "Sample Gamma — assessment reference",
+          "width": 784,
+          "height": 50.390625
+        }
+      ],
+      "selected": {
+        "name": "Sample Beta — extended evaluation reference with a deliberately long record name",
+        "errorHidden": true,
+        "resultHidden": true,
+        "controlHeight": 58.390625,
+        "valueScrollWidth": 624,
+        "valueWidth": 624.03125
+      },
+      "success": {
+        "visible": true,
+        "text": "Your request preview is ready. Nothing has been sent.Selected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "name": "Sample Beta — extended evaluation reference with a deliberately long record name"
+      },
+      "clear": {
+        "name": "Choose a reference record",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "errorHidden": true,
+        "resultHidden": true,
+        "summary": ""
+      },
+      "optionalTextareaSuccess": true,
+      "selectionChangeClearsSuccess": true,
+      "absent": {
+        "illustrationVisible": false,
+        "copyWidth": 1200,
+        "sectionInnerWidth": 1200,
+        "actions": [
+          "Prepare an evaluation request",
+          "Read the comparison"
+        ],
+        "scrollWidth": 1440
+      },
+      "contrastResults": [
+        {
+          "pair": "body",
+          "foreground": "rgb(51, 65, 85)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 10.355,
+          "threshold": 4.5
+        },
+        {
+          "pair": "heading",
+          "foreground": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "primary",
+          "foreground": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "ratio": 4.818,
+          "threshold": 4.5
+        },
+        {
+          "pair": "secondary",
+          "foreground": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "controlBoundary",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 4.818,
+          "threshold": 3
+        },
+        {
+          "pair": "controlBoundarySoft",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 4.52,
+          "threshold": 3
+        },
+        {
+          "pair": "tableHeader",
+          "foreground": "rgb(255, 255, 255)",
+          "background": "rgb(6, 43, 91)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "bodySoft",
+          "foreground": "rgb(51, 65, 85)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 9.715,
+          "threshold": 4.5
+        },
+        {
+          "pair": "error",
+          "foreground": "rgb(140, 37, 50)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 8.657,
+          "threshold": 4.5
+        },
+        {
+          "pair": "focus",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 4.52,
+          "threshold": 3
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "initial": {
+        "fontCheck": true,
+        "fonts": [
+          {
+            "family": "Inter",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "Inter, Arial, sans-serif",
+        "scrollWidth": 768,
+        "viewport": 768,
+        "tableVisible": true,
+        "cardsVisible": false,
+        "controls": [
+          {
+            "name": "Prepare an evaluation request",
+            "width": 273.296875,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Read the comparison",
+            "width": 206.65625,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Choose a reference record",
+            "width": 704,
+            "height": 58.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "question",
+            "width": 704,
+            "height": 144,
+            "fontSize": "16px",
+            "color": "rgb(51, 65, 85)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Preview request",
+            "width": 168.046875,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Clear selection",
+            "width": 158.90625,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          }
+        ],
+        "bodySize": "16px"
+      },
+      "error": {
+        "visible": true,
+        "focus": "record",
+        "focusVisible": true,
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "errorText": "Choose a reference record before previewing your request. Your evaluation question has been kept so you can continue without typing it again."
+      },
+      "optionsGeometry": [
+        {
+          "text": "Sample Alpha — long-form technical reference",
+          "width": 688,
+          "height": 50.390625
+        },
+        {
+          "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "width": 688,
+          "height": 50.390625
+        },
+        {
+          "text": "Sample Gamma — assessment reference",
+          "width": 688,
+          "height": 50.390625
+        }
+      ],
+      "selected": {
+        "name": "Sample Beta — extended evaluation reference with a deliberately long record name",
+        "errorHidden": true,
+        "resultHidden": true,
+        "controlHeight": 58.390625,
+        "valueScrollWidth": 624,
+        "valueWidth": 624.03125
+      },
+      "success": {
+        "visible": true,
+        "text": "Your request preview is ready. Nothing has been sent.Selected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "name": "Sample Beta — extended evaluation reference with a deliberately long record name"
+      },
+      "clear": {
+        "name": "Choose a reference record",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "errorHidden": true,
+        "resultHidden": true,
+        "summary": ""
+      },
+      "optionalTextareaSuccess": true,
+      "selectionChangeClearsSuccess": true,
+      "absent": {
+        "illustrationVisible": false,
+        "copyWidth": 704,
+        "sectionInnerWidth": 704,
+        "actions": [
+          "Prepare an evaluation request",
+          "Read the comparison"
+        ],
+        "scrollWidth": 768
+      },
+      "contrastResults": [
+        {
+          "pair": "body",
+          "foreground": "rgb(51, 65, 85)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 10.355,
+          "threshold": 4.5
+        },
+        {
+          "pair": "heading",
+          "foreground": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "primary",
+          "foreground": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "ratio": 4.818,
+          "threshold": 4.5
+        },
+        {
+          "pair": "secondary",
+          "foreground": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "controlBoundary",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 4.818,
+          "threshold": 3
+        },
+        {
+          "pair": "controlBoundarySoft",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 4.52,
+          "threshold": 3
+        },
+        {
+          "pair": "tableHeader",
+          "foreground": "rgb(255, 255, 255)",
+          "background": "rgb(6, 43, 91)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "bodySoft",
+          "foreground": "rgb(51, 65, 85)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 9.715,
+          "threshold": 4.5
+        },
+        {
+          "pair": "error",
+          "foreground": "rgb(140, 37, 50)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 8.657,
+          "threshold": 4.5
+        },
+        {
+          "pair": "focus",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 4.52,
+          "threshold": 3
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "initial": {
+        "fontCheck": true,
+        "fonts": [
+          {
+            "family": "Inter",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "Inter, Arial, sans-serif",
+        "scrollWidth": 390,
+        "viewport": 390,
+        "tableVisible": false,
+        "cardsVisible": true,
+        "controls": [
+          {
+            "name": "Prepare an evaluation request",
+            "width": 350,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Read the comparison",
+            "width": 350,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Choose a reference record",
+            "width": 350,
+            "height": 58.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "question",
+            "width": 350,
+            "height": 144,
+            "fontSize": "16px",
+            "color": "rgb(51, 65, 85)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Preview request",
+            "width": 350,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)",
+            "border": "rgb(0, 128, 120)"
+          },
+          {
+            "name": "Clear selection",
+            "width": 350,
+            "height": 50.390625,
+            "fontSize": "16px",
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)",
+            "border": "rgb(0, 128, 120)"
+          }
+        ],
+        "bodySize": "16px"
+      },
+      "error": {
+        "visible": true,
+        "focus": "record",
+        "focusVisible": true,
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "errorText": "Choose a reference record before previewing your request. Your evaluation question has been kept so you can continue without typing it again."
+      },
+      "optionsGeometry": [
+        {
+          "text": "Sample Alpha — long-form technical reference",
+          "width": 334,
+          "height": 76.78125
+        },
+        {
+          "text": "Sample Beta — extended evaluation reference with a deliberately long record name",
+          "width": 334,
+          "height": 103.171875
+        },
+        {
+          "text": "Sample Gamma — assessment reference",
+          "width": 334,
+          "height": 50.390625
+        }
+      ],
+      "selected": {
+        "name": "Sample Beta — extended evaluation reference with a deliberately long record name",
+        "errorHidden": true,
+        "resultHidden": true,
+        "controlHeight": 111.171875,
+        "valueScrollWidth": 285,
+        "valueWidth": 285
+      },
+      "success": {
+        "visible": true,
+        "text": "Your request preview is ready. Nothing has been sent.Selected reference: Sample Beta — extended evaluation reference with a deliberately long record name",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "name": "Sample Beta — extended evaluation reference with a deliberately long record name"
+      },
+      "clear": {
+        "name": "Choose a reference record",
+        "question": "How should I interpret the measurement condition for this reference?",
+        "errorHidden": true,
+        "resultHidden": true,
+        "summary": ""
+      },
+      "optionalTextareaSuccess": true,
+      "selectionChangeClearsSuccess": true,
+      "absent": {
+        "illustrationVisible": false,
+        "copyWidth": 350,
+        "sectionInnerWidth": 350,
+        "actions": [
+          "Prepare an evaluation request",
+          "Read the comparison"
+        ],
+        "scrollWidth": 390
+      },
+      "contrastResults": [
+        {
+          "pair": "body",
+          "foreground": "rgb(51, 65, 85)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 10.355,
+          "threshold": 4.5
+        },
+        {
+          "pair": "heading",
+          "foreground": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "primary",
+          "foreground": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "ratio": 4.818,
+          "threshold": 4.5
+        },
+        {
+          "pair": "secondary",
+          "foreground": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "controlBoundary",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 4.818,
+          "threshold": 3
+        },
+        {
+          "pair": "controlBoundarySoft",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 4.52,
+          "threshold": 3
+        },
+        {
+          "pair": "tableHeader",
+          "foreground": "rgb(255, 255, 255)",
+          "background": "rgb(6, 43, 91)",
+          "ratio": 13.959,
+          "threshold": 4.5
+        },
+        {
+          "pair": "bodySoft",
+          "foreground": "rgb(51, 65, 85)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 9.715,
+          "threshold": 4.5
+        },
+        {
+          "pair": "error",
+          "foreground": "rgb(140, 37, 50)",
+          "background": "rgb(255, 255, 255)",
+          "ratio": 8.657,
+          "threshold": 4.5
+        },
+        {
+          "pair": "focus",
+          "foreground": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "ratio": 4.52,
+          "threshold": 3
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "exports": [
+    {
+      "path": "exports/1440-orientation-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalWidth": 1296,
+      "physicalHeight": 544,
+      "scale": 1,
+      "state": "initial",
+      "region": "orientation"
+    },
+    {
+      "path": "exports/1440-comparison-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalWidth": 1296,
+      "physicalHeight": 761,
+      "scale": 1,
+      "state": "initial",
+      "region": "comparison"
+    },
+    {
+      "path": "exports/1440-request-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalWidth": 1296,
+      "physicalHeight": 740,
+      "scale": 1,
+      "state": "initial",
+      "region": "request"
+    },
+    {
+      "path": "exports/1440-request-missing-record-focus.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalWidth": 1296,
+      "physicalHeight": 830,
+      "scale": 1,
+      "state": "missing-record-focus",
+      "region": "request"
+    },
+    {
+      "path": "exports/1440-request-list-open-beta-focus.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalWidth": 1296,
+      "physicalHeight": 830,
+      "scale": 1,
+      "state": "list-open-beta-focus",
+      "region": "request"
+    },
+    {
+      "path": "exports/1440-request-beta-selected.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalWidth": 1296,
+      "physicalHeight": 740,
+      "scale": 1,
+      "state": "beta-selected",
+      "region": "request"
+    },
+    {
+      "path": "exports/1440-request-beta-success.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalWidth": 1296,
+      "physicalHeight": 901,
+      "scale": 1,
+      "state": "beta-success",
+      "region": "request"
+    },
+    {
+      "path": "exports/1440-orientation-media-absent.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalWidth": 1296,
+      "physicalHeight": 420,
+      "scale": 1,
+      "state": "media-absent",
+      "region": "orientation"
+    },
+    {
+      "path": "exports/768-orientation-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physicalWidth": 768,
+      "physicalHeight": 843,
+      "scale": 1,
+      "state": "initial",
+      "region": "orientation"
+    },
+    {
+      "path": "exports/768-comparison-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physicalWidth": 768,
+      "physicalHeight": 851,
+      "scale": 1,
+      "state": "initial",
+      "region": "comparison"
+    },
+    {
+      "path": "exports/768-request-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physicalWidth": 768,
+      "physicalHeight": 702,
+      "scale": 1,
+      "state": "initial",
+      "region": "request"
+    },
+    {
+      "path": "exports/768-request-missing-record-focus.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physicalWidth": 768,
+      "physicalHeight": 793,
+      "scale": 1,
+      "state": "missing-record-focus",
+      "region": "request"
+    },
+    {
+      "path": "exports/768-request-list-open-beta-focus.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physicalWidth": 768,
+      "physicalHeight": 793,
+      "scale": 1,
+      "state": "list-open-beta-focus",
+      "region": "request"
+    },
+    {
+      "path": "exports/768-request-beta-selected.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physicalWidth": 768,
+      "physicalHeight": 702,
+      "scale": 1,
+      "state": "beta-selected",
+      "region": "request"
+    },
+    {
+      "path": "exports/768-request-beta-success.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physicalWidth": 768,
+      "physicalHeight": 863,
+      "scale": 1,
+      "state": "beta-success",
+      "region": "request"
+    },
+    {
+      "path": "exports/768-orientation-media-absent.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "physicalWidth": 768,
+      "physicalHeight": 391,
+      "scale": 1,
+      "state": "media-absent",
+      "region": "orientation"
+    },
+    {
+      "path": "exports/390-orientation-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "physicalWidth": 390,
+      "physicalHeight": 885,
+      "scale": 1,
+      "state": "initial",
+      "region": "orientation"
+    },
+    {
+      "path": "exports/390-comparison-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "physicalWidth": 390,
+      "physicalHeight": 1908,
+      "scale": 1,
+      "state": "initial",
+      "region": "comparison"
+    },
+    {
+      "path": "exports/390-request-initial.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "physicalWidth": 390,
+      "physicalHeight": 839,
+      "scale": 1,
+      "state": "initial",
+      "region": "request"
+    },
+    {
+      "path": "exports/390-request-missing-record-focus.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "physicalWidth": 390,
+      "physicalHeight": 982,
+      "scale": 1,
+      "state": "missing-record-focus",
+      "region": "request"
+    },
+    {
+      "path": "exports/390-request-list-open-beta-focus.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "physicalWidth": 390,
+      "physicalHeight": 982,
+      "scale": 1,
+      "state": "list-open-beta-focus",
+      "region": "request"
+    },
+    {
+      "path": "exports/390-request-beta-selected.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "physicalWidth": 390,
+      "physicalHeight": 891,
+      "scale": 1,
+      "state": "beta-selected",
+      "region": "request"
+    },
+    {
+      "path": "exports/390-request-beta-success.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "physicalWidth": 390,
+      "physicalHeight": 1101,
+      "scale": 1,
+      "state": "beta-success",
+      "region": "request"
+    },
+    {
+      "path": "exports/390-orientation-media-absent.png",
+      "role": "rendered visual evidence",
+      "sourceIdentity": [
+        {
+          "path": "index.html",
+          "sha256": "f62c4e4e7157f0fbd780f77350a98f16b71ef9ac02d5ad75b58c3fccd3716640"
+        },
+        {
+          "path": "styles.css",
+          "sha256": "ffdf0a105c938ada917a78bb7b27456ec0904a2f57bda4927c3eb8147a2ad83e"
+        },
+        {
+          "path": "app.js",
+          "sha256": "5345815539e498ae262da6a976db9f16d11ebd90e6cd4bbff3e94c6f5f9654ff"
+        },
+        {
+          "path": "assets/Inter-Variable.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        }
+      ],
+      "logicalViewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "physicalWidth": 390,
+      "physicalHeight": 467,
+      "scale": 1,
+      "state": "media-absent",
+      "region": "orientation"
+    }
+  ]
+}

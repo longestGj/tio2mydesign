@@ -1,0 +1,34 @@
+{
+  "status": "EXECUTOR_STATIC_VISUAL_CHECK_COMPLETE",
+  "at": "2026-09-07T01:44:46.905Z",
+  "source": {
+    "path": "D:/23MySec/pages/markets/spain/04_planning/gate3-v0.1/MARKET-EU-ES_GATE3_RESPONSIVE_WIREFRAME_V0.1.html",
+    "bytes": 17843,
+    "sha256": "d2fb26ae9ee230886d9cb31c401cc47d0deba3f030d578f16697c97a79a1ca64"
+  },
+  "coverage": "All 14 overlapping segments from Header through Footer; five menu/Cookie state images. r3 reuses 11 byte-identical viewed r2 segments; changed 390 segments 04–06 were opened again. Native-size 900px clips with 150px overlap.",
+  "findings": [
+    {
+      "id": "ES-G3-01",
+      "type": "ACTUAL_RUNTIME",
+      "issue": "Common Explore Products was accidentally nested in Plastics & Masterbatch",
+      "resolution": "Builder scopes closing wrappers to ES-02; relation verified all widths",
+      "status": "CLOSED_IN_CANDIDATE"
+    },
+    {
+      "id": "ES-G3-02",
+      "type": "STATIC_VISUAL",
+      "issue": "390 auxiliary-link separator stood on its own line",
+      "resolution": "Natural inline wrapping keeps separator with preceding link; affected tail/Footers reopened",
+      "status": "CLOSED_IN_CANDIDATE"
+    },
+    {
+      "id": "ES-TOOL-01",
+      "type": "TEST_METHOD",
+      "issue": "CSS zoom 2 was mislabeled browser native zoom and failed desktop/390 geometry",
+      "resolution": "Original failed check retained. It is not native browser zoom; replaced with explicitly simulated desktop equivalent viewport 720x450. Native browser zoom remains untested.",
+      "status": "CORRECTED_METHOD_LIMIT_RECORDED"
+    }
+  ],
+  "openFindings": []
+}

@@ -1,0 +1,274 @@
+{
+  "menus": [
+    {
+      "width": 390,
+      "entry": {
+        "tag": "BUTTON",
+        "id": "close-menu",
+        "text": "Close",
+        "documentHasFocus": true,
+        "inDialog": true,
+        "open": true
+      },
+      "backgroundAttempt": {
+        "id": "close-menu",
+        "tag": "BUTTON"
+      },
+      "cycle": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Overview",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Comparison",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Reading",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Request",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Request review",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "BODY",
+          "documentHasFocus": false,
+          "inDialog": false,
+          "open": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-menu",
+          "text": "Close",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Overview",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        }
+      ],
+      "escape": {
+        "tag": "BUTTON",
+        "id": "menu",
+        "text": "Menu",
+        "documentHasFocus": true,
+        "inDialog": false,
+        "open": false
+      },
+      "keyboardOpen": "",
+      "keyboardClosed": null
+    },
+    {
+      "width": 768,
+      "entry": {
+        "tag": "BUTTON",
+        "id": "close-menu",
+        "text": "Close",
+        "documentHasFocus": true,
+        "inDialog": true,
+        "open": true
+      },
+      "backgroundAttempt": {
+        "id": "close-menu",
+        "tag": "BUTTON"
+      },
+      "cycle": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Overview",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Comparison",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Reading",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Request",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Request review",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "text": "BODY",
+          "documentHasFocus": false,
+          "inDialog": false,
+          "open": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-menu",
+          "text": "Close",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Overview",
+          "documentHasFocus": true,
+          "inDialog": true,
+          "open": true
+        }
+      ],
+      "escape": {
+        "tag": "BUTTON",
+        "id": "menu",
+        "text": "Menu",
+        "documentHasFocus": true,
+        "inDialog": false,
+        "open": false
+      },
+      "keyboardOpen": "",
+      "keyboardClosed": null
+    }
+  ],
+  "states": [
+    {
+      "state": "expanded",
+      "sameSize": true,
+      "pixelIdentical": true
+    },
+    {
+      "state": "invalid",
+      "sameSize": true,
+      "pixelIdentical": true
+    },
+    {
+      "state": "success",
+      "sameSize": true,
+      "pixelIdentical": true
+    }
+  ],
+  "prefixPixels": {
+    "invalid": {
+      "height": 6650,
+      "identical": true
+    },
+    "success": {
+      "height": 6650,
+      "identical": true
+    }
+  },
+  "copyChecks": [
+    {
+      "key": "comparisonTitle",
+      "match": true
+    },
+    {
+      "key": "readingTitle",
+      "match": true
+    },
+    {
+      "key": "form.title",
+      "match": true
+    },
+    {
+      "key": "form.intro",
+      "match": true
+    },
+    {
+      "key": "form.submit",
+      "match": true
+    },
+    {
+      "key": "form.errorSummary",
+      "match": true
+    },
+    {
+      "key": "form.nameError",
+      "match": true
+    },
+    {
+      "key": "form.emailError",
+      "match": true
+    },
+    {
+      "key": "form.quantityError",
+      "match": true
+    },
+    {
+      "key": "form.success",
+      "match": true
+    },
+    {
+      "key": "privacy.title",
+      "match": true
+    },
+    {
+      "key": "privacy.text",
+      "match": true
+    }
+  ],
+  "finalGeometry": {
+    "scrollWidth": 390,
+    "width": 390,
+    "visibleClippingStyles": [
+      "INPUT#name",
+      "INPUT#email",
+      "INPUT#quantity",
+      "SELECT#record"
+    ],
+    "selectedLabel": "Not sure yet"
+  }
+}

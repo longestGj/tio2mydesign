@@ -1,0 +1,23 @@
+{
+  "evidenceType": "SOURCE_INSPECTION",
+  "originalGate3": {
+    "path": "D:/23MySec/pages/products/chloride-process/04_planning/gate3-v0.1/PRODUCT-PROC-CL_GATE3_RESPONSIVE_WIREFRAME_V0.1.html",
+    "relativePath": "../gate3-v0.1/PRODUCT-PROC-CL_GATE3_RESPONSIVE_WIREFRAME_V0.1.html",
+    "bytes": 22064,
+    "sha256": "2887150f659ceec3de26feb9a41fa961da22e0fcc705cb538f085d0615ae2f91"
+  },
+  "candidate": {
+    "path": "D:/23MySec/pages/products/chloride-process/04_planning/gate4-v0.1/PRODUCT-PROC-CL_GATE4_VISUAL_SAMPLES_V0.1.html",
+    "relativePath": "PRODUCT-PROC-CL_GATE4_VISUAL_SAMPLES_V0.1.html",
+    "bytes": 22131,
+    "sha256": "a7ecf071b1384f31378ba2f494ff138cd5d8d583e1245cc1a3369399e3049553"
+  },
+  "inverseAllowedTransformEqualsOriginal": true,
+  "allowedTransforms": [
+    "relative reference to own existing G3 shared CSS/font",
+    "relative reference to same production Logo payloads",
+    "append visual-rules.css stylesheet link"
+  ],
+  "noPolandSourceConsumed": true,
+  "css": "/* PRODUCT-PROC-CL Gate 4 V0.1. Derived from this page's approved Gate 3 source.\n   Preserve its browse-first Hero, eight equal Grade rows, typography and geometry. */\n:root{--cl-navy:#062B5B;--cl-teal:#008078;--cl-soft:#F5F8FB;--cl-line:#D9E2EC}\n/* Every light-surface action has an explicit actual hover surface. */\n.cl-action a:hover{background:var(--cl-soft)}\n#cl-01 .cl-action:first-child a:hover,#cl-05 .cl-action a:hover{background:var(--cl-navy);border-color:var(--cl-navy);color:#fff}\n/* Neutral continuous list; no row highlight, rank or recommendation treatment. */\n.cl-grades{border-top-color:var(--cl-line)}\n/* Current functional-color adapter for the inherited shared light controls. */\n.menuButton,.cookie-actions>*{border-color:var(--cl-teal)}\n.cookie-actions a,.cookie-actions a:visited{color:var(--cl-teal)}\n.cookie-actions>*:hover{background:var(--cl-soft)}\n"
+}

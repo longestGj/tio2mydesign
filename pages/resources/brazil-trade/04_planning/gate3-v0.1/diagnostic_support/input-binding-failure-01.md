@@ -1,0 +1,5 @@
+# RES-TRADE-BR pre-candidate input binding failure 01
+
+2026-09-07. Fresh build stopped before creating source or formal assets: approved B expected hash did not match actual file. `build.cjs` failed with `Error: B mismatch` at its approved-input guard. A matched. Candidate and input card not yet produced. Parent/current Manifest expected hash must be reconciled by project control; no upstream file changed by execution agent.
+
+Resolution — 2026-09-07: project control confirmed an administrative SHA transcription omission in the old Manifest/dispatch; approved B was unchanged. Current Manifest V0.5 and serial control V1.5 correct the expected SHA to bb83adeb1a2a21ee7b7c4d854d569d5b73ba6a9fc75421a387fe9eeded5b6c5f. Fresh build recomputed and matched A/B/C/Review, created the first candidate only after success, and actual runtime plus visual preflight passed. Original failed build preserved as build-input-failed.cjs. Input failure closed; no source repair or prior candidate PASS inherited.

@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TiO2 Malaysia Full Homepage Visual V0.1</title>
+  <style>
+    :root {
+      --navy: #062B5B;
+      --deep: #031B3A;
+      --teal: #00A99D;
+      --teal-2: #14B8A6;
+      --white: #FFFFFF;
+      --soft: #F5F8FB;
+      --border: #D9E2EC;
+      --body: #334155;
+      --muted: #64748B;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-width: 320px; background: #E5ECF3; color: var(--body); font-family: Inter, Arial, Helvetica, sans-serif; }
+    button, a { font: inherit; }
+    .review { padding: 28px 0 64px; }
+    .review-intro, .review-block { width: min(1340px, calc(100% - 36px)); margin: 0 auto; }
+    .review-intro { margin-bottom: 28px; padding: 24px 28px; background: var(--white); border: 1px solid var(--border); }
+    .review-intro strong { display: block; margin-bottom: 8px; color: var(--teal); font-size: 12px; letter-spacing: .12em; }
+    .review-intro h1 { margin: 0 0 8px; color: var(--deep); font-size: 28px; }
+    .review-intro p { margin: 0; line-height: 1.6; }
+    .review-block { margin-bottom: 34px; }
+    .review-block h2 { margin: 0 0 12px; color: var(--deep); font-size: 22px; }
+    .desktop-shell { width: 100%; height: 918px; overflow: hidden; background: #C9D5E0; border: 1px solid #B8C7D6; }
+    .desktop-scale { width: 1440px; height: 3557px; transform: scale(.915); transform-origin: top left; }
+    .mobile-shell { display: flex; justify-content: center; padding: 24px; background: #C9D5E0; border: 1px solid #B8C7D6; }
+    .preview-links { margin-top: 10px; }
+    .preview-links a { color: var(--navy); font-size: 12px; font-weight: 700; }
+
+    .page { position: relative; overflow: hidden; background: var(--white); }
+    .page.desktop { width: 1440px; height: 3557px; }
+    .page.mobile { width: 390px; height: 4745px; }
+    .status { display: flex; align-items: center; justify-content: center; background: var(--deep); color: var(--white); font-weight: 700; letter-spacing: .09em; }
+    .desktop .status { height: 30px; font-size: 11px; }
+    .mobile .status { height: 26px; font-size: 8px; letter-spacing: .045em; }
+    .logo { display: block; height: auto; object-fit: contain; }
+    .desktop .logo { width: 180px; }
+    .mobile .logo { width: 122px; }
+    .cta { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: 0 20px; border: 1px solid transparent; border-radius: 7px; background: var(--teal); color: var(--white); font-size: 13px; font-weight: 700; }
+    .cta.secondary { border-color: var(--navy); background: transparent; color: var(--navy); }
+    .cta.navy { background: var(--navy); }
+    .kicker { color: var(--teal); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    .copy-gate { display: inline-flex; padding: 5px 8px; border: 1px solid currentColor; border-radius: 4px; color: var(--navy); font-size: 9px; font-weight: 700; letter-spacing: .06em; }
+    .section-heading h2 { margin: 9px 0 10px; color: var(--deep); font-size: 32px; line-height: 1.1; }
+    .section-heading p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
+    .text-link { color: var(--navy); font-size: 12px; font-weight: 700; }
+
+    /* Desktop header and hero */
+    .d-header { height: 84px; background: var(--white); border-bottom: 1px solid var(--border); }
+    .d-header-inner { width: 1280px; height: 100%; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .d-nav { display: flex; align-items: center; gap: 24px; color: var(--navy); font-size: 14px; font-weight: 600; white-space: nowrap; }
+    .d-nav .cta { min-height: 44px; background: var(--navy); color: var(--white); }
+    .d-hero { position: relative; height: 620px; background: linear-gradient(90deg, var(--white) 0 60%, var(--soft) 60% 100%); }
+    .d-hero::before { content: ""; position: absolute; left: 0; top: 0; width: 9px; height: 100%; background: var(--teal); }
+    .d-hero-inner { width: 1280px; height: 100%; margin: 0 auto; display: grid; grid-template-columns: 60% 40%; align-items: center; }
+    .d-hero-copy { position: relative; z-index: 2; padding-right: 64px; }
+    .d-hero-copy h1 { margin: 18px 0 16px; color: var(--deep); font-size: 64px; line-height: 1.02; letter-spacing: -.035em; }
+    .d-hero-copy h1 span { color: var(--teal); }
+    .d-hero-copy p { max-width: 640px; margin: 17px 0 0; font-size: 16px; line-height: 1.6; }
+    .d-hero-actions { display: flex; gap: 12px; margin-top: 22px; }
+    .d-hero-art { position: relative; height: 488px; overflow: hidden; background: var(--deep); }
+    .d-hero-art::before { content: ""; position: absolute; right: -72px; bottom: -110px; width: 330px; height: 330px; border: 44px solid rgba(0,169,157,.16); border-radius: 50%; }
+    .d-hero-art::after { content: ""; position: absolute; inset: 0; background: linear-gradient(140deg, transparent 0 64%, rgba(20,184,166,.14) 64% 76%, transparent 76%); }
+    .d-hero-icon { position: absolute; right: 8px; top: 48px; width: 385px; opacity: .58; }
+    .d-hero-art-label { position: absolute; left: 28px; top: 28px; color: rgba(255,255,255,.68); font-size: 10px; font-weight: 700; letter-spacing: .14em; }
+    .d-hero-art-note { position: absolute; left: 28px; bottom: 26px; max-width: 290px; padding-left: 13px; border-left: 3px solid var(--teal); color: var(--white); font-size: 10px; line-height: 1.5; }
+    .d-quick { height: 110px; display: grid; grid-template-columns: 250px repeat(3, 1fr); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--white); }
+    .d-quick-title { display: flex; flex-direction: column; justify-content: center; padding-left: 80px; color: var(--navy); }
+    .d-quick-title small { margin-bottom: 5px; color: var(--teal); font-weight: 700; letter-spacing: .12em; }
+    .quick-item { display: flex; align-items: center; gap: 14px; padding: 0 30px; border-left: 1px solid var(--border); color: var(--navy); }
+    .quick-num { color: var(--teal); font-size: 10px; font-weight: 700; letter-spacing: .08em; }
+    .quick-item strong { display: block; margin-bottom: 4px; font-size: 17px; }
+    .quick-item span { color: var(--muted); font-size: 11px; }
+    .quick-arrow { margin-left: auto; color: var(--navy); font-size: 18px; }
+
+    /* Desktop Markets */
+    .d-markets { height: 390px; padding: 54px 80px 46px; background: var(--soft); }
+    .d-markets-top { display: flex; justify-content: space-between; align-items: end; margin-bottom: 26px; }
+    .d-market-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--white); }
+    .market-entry { position: relative; min-height: 190px; padding: 25px 24px 22px; border-right: 1px solid var(--border); }
+    .market-entry:last-child { border-right: 0; }
+    .market-code { color: var(--teal); font-family: Georgia, "Times New Roman", serif; font-size: 24px; }
+    .market-entry h3 { margin: 12px 0 8px; color: var(--navy); font-size: 18px; }
+    .market-entry p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+    .market-entry .text-link { position: absolute; left: 24px; bottom: 20px; }
+
+    /* Desktop products dossier */
+    .d-products { height: 680px; padding: 48px 80px; background: var(--white); }
+    .d-products-head { display: flex; align-items: end; justify-content: space-between; gap: 30px; margin-bottom: 26px; }
+    .portfolio-count { padding-left: 18px; border-left: 3px solid var(--teal); color: var(--navy); }
+    .portfolio-count strong { display: block; font-family: Georgia, "Times New Roman", serif; font-size: 33px; font-weight: 400; }
+    .portfolio-count span { font-size: 10px; letter-spacing: .08em; }
+    .d-grade-dossier { border-top: 4px solid var(--teal); border-bottom: 1px solid var(--border); background: var(--soft); }
+    .d-grade-meta { display: flex; justify-content: space-between; padding: 13px 20px; border-bottom: 1px solid var(--border); color: var(--navy); font-size: 9px; font-weight: 700; letter-spacing: .08em; }
+    .d-grade-groups { display: grid; grid-template-columns: 1.45fr 1.25fr 1fr .72fr; background: var(--white); }
+    .grade-group { min-height: 278px; padding: 24px 20px; border-right: 1px solid var(--border); }
+    .grade-group:last-child { border-right: 0; }
+    .grade-group small { color: var(--teal); font-family: Georgia, "Times New Roman", serif; font-size: 17px; }
+    .grade-group h3 { min-height: 44px; margin: 9px 0 14px; color: var(--navy); font-size: 16px; line-height: 1.35; }
+    .grade-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .grade-tag { display: inline-flex; min-height: 33px; align-items: center; padding: 0 10px; border: 1px solid var(--border); color: var(--navy); font-size: 11px; font-weight: 700; background: var(--soft); }
+    .grade-note { margin-top: 15px; color: var(--muted); font-size: 9px; line-height: 1.45; }
+    .d-product-actions { display: flex; align-items: center; justify-content: space-between; padding-top: 22px; }
+    .process-links { display: flex; gap: 26px; }
+
+    /* Desktop applications */
+    .d-applications { height: 360px; padding: 46px 80px; background: var(--soft); }
+    .d-apps-head { display: flex; align-items: end; justify-content: space-between; margin-bottom: 24px; }
+    .d-app-grid { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--white); }
+    .app-entry { min-height: 174px; padding: 22px 18px; border-right: 1px solid var(--border); }
+    .app-entry:last-child { border-right: 0; }
+    .app-mark { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--teal); color: var(--teal); font-family: Georgia, "Times New Roman", serif; font-size: 17px; }
+    .app-entry h3 { margin: 15px 0 7px; color: var(--navy); font-size: 15px; }
+    .app-entry p { margin: 0; color: var(--muted); font-size: 10px; line-height: 1.45; }
+    .page-id { display: block; margin-top: 12px; color: var(--teal); font-size: 8px; font-weight: 700; letter-spacing: .06em; }
+
+    /* Desktop About */
+    .d-about { height: 350px; display: grid; grid-template-columns: 1.05fr .95fr; background: var(--white); }
+    .d-about-copy { padding: 52px 72px 42px 80px; }
+    .d-about-copy p { max-width: 560px; margin: 16px 0 20px; font-size: 13px; line-height: 1.6; }
+    .d-evidence { display: flex; align-items: center; justify-content: center; padding: 44px 80px 44px 30px; background: var(--soft); }
+    .evidence-box { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; border: 1px solid var(--border); color: var(--navy); text-align: center; }
+    .evidence-box strong { margin-bottom: 8px; font-size: 12px; letter-spacing: .06em; }
+    .evidence-box span { max-width: 360px; color: var(--muted); font-size: 10px; line-height: 1.5; }
+
+    /* Desktop Documents */
+    .d-documents { height: 350px; padding: 44px 80px; background: var(--deep); color: var(--white); }
+    .d-doc-head { display: flex; justify-content: space-between; align-items: end; margin-bottom: 24px; }
+    .d-doc-head h2 { margin: 8px 0 0; color: var(--white); font-size: 30px; }
+    .doc-gate { color: rgba(255,255,255,.68); font-size: 9px; letter-spacing: .07em; }
+    .d-doc-grid { display: grid; grid-template-columns: 1fr 1fr; border-top: 3px solid var(--teal); background: var(--white); color: var(--body); }
+    .doc-path { min-height: 180px; padding: 24px 28px; border-right: 1px solid var(--border); }
+    .doc-path:last-child { border-right: 0; }
+    .doc-path small { color: var(--teal); font-size: 9px; font-weight: 700; letter-spacing: .08em; }
+    .doc-path h3 { margin: 10px 0 8px; color: var(--navy); font-family: Georgia, "Times New Roman", serif; font-size: 23px; font-weight: 400; }
+    .doc-path p { margin: 0 0 16px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+
+    /* Desktop Resources / GEO */
+    .d-resources { height: 300px; padding: 38px 80px; background: var(--soft); }
+    .d-res-layout { display: grid; grid-template-columns: .9fr 1.4fr; gap: 48px; }
+    .resource-list { margin-top: 18px; border-top: 1px solid var(--border); }
+    .resource-row { display: grid; grid-template-columns: 92px 1fr auto; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--border); font-size: 11px; }
+    .resource-row span:first-child { color: var(--teal); font-weight: 700; }
+    .resource-row strong { color: var(--navy); }
+    .qa-list { border-top: 3px solid var(--navy); background: var(--white); }
+    .qa-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 10px; padding: 14px 17px; border-bottom: 1px solid var(--border); font-size: 10px; }
+    .qa-row span:first-child { color: var(--teal); font-family: Georgia, "Times New Roman", serif; }
+    .qa-row strong { color: var(--navy); }
+    .qa-row em { color: var(--muted); font-size: 8px; font-style: normal; letter-spacing: .05em; }
+
+    /* Desktop RFQ and footer */
+    .d-rfq { height: 220px; display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 50px; padding: 34px 80px; background: var(--navy); color: var(--white); }
+    .d-rfq h2 { margin: 8px 0 8px; color: var(--white); font-size: 28px; }
+    .d-rfq p { margin: 0; color: rgba(255,255,255,.7); font-size: 11px; }
+    .rfq-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .field-chip { min-height: 37px; display: flex; align-items: center; padding: 0 12px; border: 1px solid rgba(255,255,255,.22); color: rgba(255,255,255,.78); font-size: 9px; }
+    .rfq-action { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; }
+    .rfq-action span { color: rgba(255,255,255,.56); font-size: 8px; }
+    .d-footer { height: 63px; display: flex; align-items: center; justify-content: space-between; padding: 0 80px; background: var(--deep); color: rgba(255,255,255,.72); font-size: 9px; }
+    .d-footer-nav { display: flex; gap: 18px; }
+
+    /* Mobile fixed-height full visual */
+    .m-header { height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 18px; background: var(--white); border-bottom: 1px solid var(--border); }
+    .m-actions { display: flex; align-items: center; gap: 7px; }
+    .m-menu-btn { min-height: 38px; padding: 0 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--white); color: var(--navy); font-weight: 700; }
+    .m-actions .cta { min-height: 38px; padding: 0 12px; background: var(--navy); font-size: 11px; }
+    .m-menu { height: 150px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(4, 1fr); border-bottom: 1px solid var(--border); background: var(--soft); }
+    .m-menu span { display: flex; align-items: center; padding: 0 20px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); color: var(--navy); font-size: 11px; font-weight: 700; }
+    .m-menu span:nth-child(even) { border-right: 0; }
+    .m-menu span:nth-last-child(-n+2) { border-bottom: 0; }
+    .m-hero { position: relative; height: 480px; overflow: hidden; padding: 42px 20px 0; background: var(--white); }
+    .m-hero::before { content: ""; position: absolute; right: -118px; top: 25px; width: 285px; height: 285px; border: 40px solid rgba(0,169,157,.055); border-radius: 50%; }
+    .m-hero-icon { position: absolute; right: -68px; top: 55px; width: 230px; opacity: .07; }
+    .m-hero-copy { position: relative; z-index: 2; }
+    .m-hero h1 { margin: 12px 0 12px; color: var(--deep); font-size: 38px; line-height: 1.02; letter-spacing: -.03em; }
+    .m-hero h1 span { color: var(--teal); }
+    .m-hero p { margin: 12px 0 0; font-size: 12px; line-height: 1.5; }
+    .m-hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 18px; }
+    .m-hero-actions .cta { min-height: 44px; padding: 0 8px; font-size: 11px; }
+    .m-asset-note { margin-top: 18px; padding-left: 11px; border-left: 3px solid var(--teal); color: var(--navy); font-size: 8px; line-height: 1.45; }
+    .m-quick { height: 120px; display: grid; grid-template-columns: repeat(3, 1fr); background: var(--soft); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .m-quick .quick-item { display: block; padding: 15px 11px 10px; border-left: 0; border-right: 1px solid var(--border); }
+    .m-quick .quick-item:last-child { border-right: 0; }
+    .m-quick .quick-num { font-size: 8px; }
+    .m-quick .quick-item strong { margin: 9px 0 3px; font-size: 12px; }
+    .m-quick .quick-item span { font-size: 8px; line-height: 1.3; }
+
+    .m-section { padding-left: 18px; padding-right: 18px; }
+    .m-section .section-heading h2 { font-size: 25px; }
+    .m-section .section-heading p { font-size: 11px; }
+    .m-markets { height: 480px; padding-top: 34px; background: var(--soft); }
+    .m-market-grid { display: grid; grid-template-columns: 1fr 1fr; margin-top: 22px; border-top: 1px solid var(--border); border-left: 1px solid var(--border); background: var(--white); }
+    .m-market-entry { min-height: 145px; padding: 16px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .m-market-entry small { color: var(--teal); font-family: Georgia, "Times New Roman", serif; font-size: 17px; }
+    .m-market-entry h3 { margin: 8px 0 6px; color: var(--navy); font-size: 13px; }
+    .m-market-entry p { margin: 0; color: var(--muted); font-size: 8px; line-height: 1.4; }
+    .m-market-entry .text-link { display: block; margin-top: 10px; font-size: 9px; }
+
+    .m-products { height: 660px; padding-top: 34px; background: var(--white); }
+    .m-products-top { display: flex; align-items: end; justify-content: space-between; gap: 14px; }
+    .m-products .portfolio-count { padding-left: 11px; }
+    .m-products .portfolio-count strong { font-size: 27px; }
+    .m-products .portfolio-count span { font-size: 7px; }
+    .m-grade-dossier { margin-top: 22px; border-top: 4px solid var(--teal); border-bottom: 1px solid var(--border); }
+    .m-grade-meta { padding: 10px 12px; color: var(--navy); background: var(--soft); font-size: 7px; font-weight: 700; letter-spacing: .06em; }
+    .m-grade-group { padding: 15px 12px; border-top: 1px solid var(--border); }
+    .m-grade-group:first-of-type { border-top: 0; }
+    .m-grade-title { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .m-grade-title strong { color: var(--navy); font-size: 11px; }
+    .m-grade-title span { color: var(--teal); font-size: 8px; font-weight: 700; }
+    .m-grade-group .grade-tags { margin-top: 10px; gap: 6px; }
+    .m-grade-group .grade-tag { min-height: 28px; padding: 0 8px; font-size: 9px; }
+    .m-grade-group .grade-note { margin-top: 9px; font-size: 8px; }
+    .m-process-links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 17px; }
+    .m-process-links span { min-height: 38px; display: flex; align-items: center; padding: 0 10px; border: 1px solid var(--border); color: var(--navy); font-size: 9px; font-weight: 700; }
+    .m-products .cta { width: 100%; margin-top: 15px; }
+
+    .m-applications { height: 520px; padding-top: 34px; background: var(--soft); }
+    .m-app-grid { display: grid; grid-template-columns: 1fr 1fr; margin-top: 22px; border-top: 1px solid var(--border); border-left: 1px solid var(--border); background: var(--white); }
+    .m-app-entry { min-height: 112px; padding: 14px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .m-app-entry:last-child { grid-column: 1 / -1; }
+    .m-app-entry strong { display: block; margin-bottom: 6px; color: var(--navy); font-size: 11px; }
+    .m-app-entry p { margin: 0; color: var(--muted); font-size: 8px; line-height: 1.4; }
+    .m-app-entry .page-id { margin-top: 8px; font-size: 7px; }
+
+    .m-about { height: 500px; padding-top: 34px; background: var(--white); }
+    .m-about p { margin: 14px 0 16px; font-size: 10px; line-height: 1.55; }
+    .m-about .copy-gate { font-size: 7px; }
+    .m-about .evidence-box { height: 190px; margin-top: 18px; padding: 20px; background: var(--soft); }
+    .m-about .evidence-box span { font-size: 8px; }
+
+    .m-documents { height: 480px; padding-top: 32px; background: var(--deep); color: var(--white); }
+    .m-documents .section-heading h2 { color: var(--white); }
+    .m-documents .section-heading p { color: rgba(255,255,255,.66); }
+    .m-doc-grid { margin-top: 20px; border-top: 3px solid var(--teal); background: var(--white); color: var(--body); }
+    .m-doc-path { padding: 18px; border-bottom: 1px solid var(--border); }
+    .m-doc-path:last-child { border-bottom: 0; }
+    .m-doc-path small { color: var(--teal); font-size: 7px; font-weight: 700; letter-spacing: .06em; }
+    .m-doc-path h3 { margin: 7px 0 6px; color: var(--navy); font-family: Georgia, "Times New Roman", serif; font-size: 18px; font-weight: 400; }
+    .m-doc-path p { margin: 0 0 10px; color: var(--muted); font-size: 8px; line-height: 1.4; }
+    .m-documents .doc-gate { display: block; margin-top: 14px; font-size: 7px; }
+
+    .m-resources { height: 560px; padding-top: 32px; background: var(--soft); }
+    .m-resource-list { margin-top: 18px; border-top: 1px solid var(--border); }
+    .m-resource-row { padding: 13px 0; border-bottom: 1px solid var(--border); }
+    .m-resource-row small { color: var(--teal); font-size: 7px; font-weight: 700; }
+    .m-resource-row strong { display: block; margin: 5px 0; color: var(--navy); font-size: 10px; }
+    .m-resource-row span { color: var(--muted); font-size: 7px; }
+    .m-qa-list { margin-top: 20px; border-top: 3px solid var(--navy); background: var(--white); }
+    .m-qa-row { display: grid; grid-template-columns: 20px 1fr; gap: 7px; padding: 12px; border-bottom: 1px solid var(--border); }
+    .m-qa-row span { color: var(--teal); font-family: Georgia, "Times New Roman", serif; font-size: 10px; }
+    .m-qa-row strong { display: block; color: var(--navy); font-size: 8px; line-height: 1.35; }
+    .m-qa-row em { display: block; margin-top: 4px; color: var(--muted); font-size: 7px; font-style: normal; }
+
+    .m-rfq { height: 480px; padding: 36px 18px; background: var(--navy); color: var(--white); }
+    .m-rfq h2 { margin: 9px 0 8px; color: var(--white); font-size: 26px; }
+    .m-rfq p { margin: 0; color: rgba(255,255,255,.68); font-size: 9px; line-height: 1.5; }
+    .m-rfq-summary { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 22px; }
+    .m-rfq .field-chip { min-height: 42px; font-size: 8px; }
+    .m-rfq .cta { width: 100%; margin-top: 16px; }
+    .m-rfq-note { margin-top: 12px; color: rgba(255,255,255,.55); font-size: 7px; line-height: 1.45; }
+
+    .m-footer { height: 225px; padding: 24px 18px; background: var(--deep); color: rgba(255,255,255,.7); }
+    .m-footer-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+    .m-footer .logo { width: 112px; filter: brightness(0) invert(1); opacity: .82; }
+    .m-footer-top span { font-size: 7px; }
+    .m-footer-nav { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid rgba(255,255,255,.14); border-bottom: 1px solid rgba(255,255,255,.14); }
+    .m-footer-nav span { padding: 8px 0; font-size: 8px; }
+    .m-footer-note { margin-top: 15px; font-size: 7px; line-height: 1.5; }
+
+    body.capture-mode { margin: 0; min-width: 0; overflow: hidden; background: var(--white); }
+    body.capture-mode .page { margin: 0; transform: none; }
+    @media (max-width: 900px) {
+      .review-intro, .review-block { width: calc(100% - 24px); }
+      .desktop-shell { overflow: auto; }
+      .mobile-shell { justify-content: flex-start; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main class="review" id="review">
+    <section class="review-intro">
+      <strong>FULL-PAGE VISUAL DESIGN / NOT PRODUCTION / COPY NOT FINAL</strong>
+      <h1>TiO₂ Malaysia Homepage — Approved A+B Combination V0.1</h1>
+      <p>Direction A establishes the complete visual system. Products, Documents and Resources selectively use Direction B's technical editorial / procurement dossier language. Current visual-direction assets remain atmosphere only and do not prove company facts.</p>
+    </section>
+
+    <section class="review-block">
+      <h2>PC / Desktop — 1440 × 3557</h2>
+      <div class="desktop-shell"><div class="desktop-scale">
+        <div class="page desktop" id="homepage-full-pc">
+          <div class="status">FULL-PAGE VISUAL DESIGN / NOT PRODUCTION / COPY NOT FINAL</div>
+          <header class="d-header"><div class="d-header-inner">
+            <img class="logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia current visual direction logo">
+            <nav class="d-nav" aria-label="Desktop navigation"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span class="cta">Request a Quote</span></nav>
+          </div></header>
+
+          <section class="d-hero"><div class="d-hero-inner">
+            <div class="d-hero-copy">
+              <div class="kicker">Malaysia-Origin Supply Platform · Working Position</div>
+              <h1>Malaysia Titanium Dioxide<br><span>for Industrial Procurement</span></h1>
+              <span class="copy-gate">COPY DRAFT / FACT COPY PENDING</span>
+              <p>Working copy: a focused entry point for international buyers evaluating destination markets, product paths and controlled document information.</p>
+              <div class="d-hero-actions"><span class="cta">Request a Quote</span><span class="cta secondary">View Products</span></div>
+            </div>
+            <div class="d-hero-art">
+              <div class="d-hero-art-label">INDUSTRIAL MATERIALS / EDITORIAL DIRECTION</div>
+              <img class="d-hero-icon" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (2).png" alt="Current visual direction symbol used as atmosphere only">
+              <div class="d-hero-art-note">CURRENT VISUAL DIRECTION ASSET<br>ATMOSPHERE ONLY / NOT PRODUCTION<br>NOT FACT EVIDENCE</div>
+            </div>
+          </div></section>
+
+          <section class="d-quick">
+            <div class="d-quick-title"><small>START HERE</small><strong>Procurement path</strong></div>
+            <div class="quick-item"><span class="quick-num">01</span><div><strong>Markets</strong><span>Choose destination</span></div><span class="quick-arrow">→</span></div>
+            <div class="quick-item"><span class="quick-num">02</span><div><strong>Products</strong><span>Review grade paths</span></div><span class="quick-arrow">→</span></div>
+            <div class="quick-item"><span class="quick-num">03</span><div><strong>Documents</strong><span>Understand request route</span></div><span class="quick-arrow">→</span></div>
+          </section>
+
+          <section class="d-markets">
+            <div class="d-markets-top"><div class="section-heading"><div class="kicker">03 / Markets first</div><h2>Begin with the destination market</h2><p>Four approved procurement paths; market facts remain subject to current-source review.</p></div><span class="text-link">View All Markets →</span></div>
+            <div class="d-market-grid">
+              <article class="market-entry"><span class="market-code">EU</span><h3>European Union</h3><p>EU-level procurement path with six country routes: DE · IT · ES · PL · NL · BE.</p><span class="text-link">Explore EU →</span></article>
+              <article class="market-entry"><span class="market-code">UK</span><h3>United Kingdom</h3><p>Destination-specific supplier and procurement information path.</p><span class="text-link">Explore UK →</span></article>
+              <article class="market-entry"><span class="market-code">IN</span><h3>India</h3><p>Destination path connecting market, application and RFQ evaluation.</p><span class="text-link">Explore India →</span></article>
+              <article class="market-entry"><span class="market-code">BR</span><h3>Brazil</h3><p>English procurement path; PT-BR localization remains under separate review.</p><span class="text-link">Explore Brazil →</span></article>
+            </div>
+          </section>
+
+          <section class="d-products">
+            <div class="d-products-head"><div class="section-heading"><div class="kicker">04 / Product selection dossier</div><h2>Four selection groups. All 14 grade IDs.</h2><p>Compact index only; technical differentiation remains evidence-gated.</p></div><div class="portfolio-count"><strong>14</strong><span>GRADE IDS / COMPLETE INDEX</span></div></div>
+            <div class="d-grade-dossier">
+              <div class="d-grade-meta"><span>PRODUCT-000 · PROCUREMENT INDEX</span><span>TECHNICAL COPY PENDING</span></div>
+              <div class="d-grade-groups">
+                <div class="grade-group"><small>01 / 06</small><h3>Coatings Grades</h3><div class="grade-tags"><span class="grade-tag">M-350</span><span class="grade-tag">M-510</span><span class="grade-tag">M-896</span><span class="grade-tag">M-996</span><span class="grade-tag">M-2196</span><span class="grade-tag">M-895</span></div><p class="grade-note">Group label supports selection only; performance claims require approved technical evidence.</p></div>
+                <div class="grade-group"><small>02 / 05</small><h3>Plastics &amp; Masterbatch Grades</h3><div class="grade-tags"><span class="grade-tag">M-200</span><span class="grade-tag">M-108</span><span class="grade-tag">M-210</span><span class="grade-tag">M-340</span><span class="grade-tag">M-886</span></div><p class="grade-note">Masterbatch means TiO₂ input selection, not finished masterbatch supply.</p></div>
+                <div class="grade-group"><small>03 / 02</small><h3>Inks &amp; Multi-Application</h3><div class="grade-tags"><span class="grade-tag">M-52</span><span class="grade-tag">M-2377</span></div><p class="grade-note">M-2377 process and primary application remain pending technical verification.</p></div>
+                <div class="grade-group"><small>04 / 01</small><h3>Specialty Grade</h3><div class="grade-tags"><span class="grade-tag">CR-901</span></div><p class="grade-note">Specialty positioning remains technical-copy gated.</p></div>
+              </div>
+            </div>
+            <div class="d-product-actions"><div class="process-links"><span class="text-link">Chloride Process →</span><span class="text-link">Sulfate / Sulphate Process →</span></div><span class="cta">View All 14 Grades</span></div>
+          </section>
+
+          <section class="d-applications">
+            <div class="d-apps-head"><div class="section-heading"><div class="kicker">05 / Application paths</div><h2>Evaluate by use case</h2></div><span class="copy-gate">PROVISIONAL URL — PAGE_ID ONLY</span></div>
+            <div class="d-app-grid">
+              <article class="app-entry"><div class="app-mark">C</div><h3>Coatings</h3><p>Use-case route; verified grade recommendations remain pending.</p><span class="page-id">APP-COAT</span></article>
+              <article class="app-entry"><div class="app-mark">P</div><h3>Plastics</h3><p>Technical evaluation path separated from exact grade ownership.</p><span class="page-id">APP-PLAS</span></article>
+              <article class="app-entry"><div class="app-mark">M</div><h3>Masterbatch</h3><p>TiO₂ input for masterbatch; not finished masterbatch.</p><span class="page-id">APP-MB</span></article>
+              <article class="app-entry"><div class="app-mark">I</div><h3>Printing Inks</h3><p>Application route; technical claims remain evidence-gated.</p><span class="page-id">APP-INK</span></article>
+              <article class="app-entry"><div class="app-mark">P</div><h3>Paper</h3><p>Lower-priority application route retained in the approved IA.</p><span class="page-id">APP-PAPER</span></article>
+            </div>
+          </section>
+
+          <section class="d-about">
+            <div class="d-about-copy"><div class="kicker">06 / About &amp; origin evidence</div><div class="section-heading"><h2>Platform identity and evidence route</h2></div><span class="copy-gate">FACT COPY PENDING</span><p>Working summary placeholder for the platform, operating entity and the route to origin, manufacturing and traceability evidence. No specific public claim is approved here.</p><span class="text-link">Learn About TiO₂ Malaysia →</span></div>
+            <div class="d-evidence"><div class="evidence-box"><strong>VERIFIED ASSET PENDING</strong><span>Reserved only for verified and authorized company evidence. Current direction artwork, stock images or AI concepts cannot occupy this proof position.</span></div></div>
+          </section>
+
+          <section class="d-documents">
+            <div class="d-doc-head"><div><div class="kicker">07 / Controlled document paths</div><h2>Understand information, then request</h2></div><span class="doc-gate">DOCUMENT AVAILABILITY NOT CLAIMED</span></div>
+            <div class="d-doc-grid">
+              <article class="doc-path"><small>DOC-000 / INFORMATION PATH</small><h3>Documents Hub</h3><p>Explain document categories, scope and request governance without implying that a specific file is public or available.</p><span class="text-link">View Document Information →</span></article>
+              <article class="doc-path"><small>CONV-DOC / CONTROLLED REQUEST</small><h3>Request Documents</h3><p>Buyer-submitted application path. File types, eligibility and release controls remain subject to business approval.</p><span class="text-link">Request Documents →</span></article>
+            </div>
+          </section>
+
+          <section class="d-resources">
+            <div class="d-res-layout">
+              <div><div class="kicker">08 / Resources</div><div class="section-heading"><h2>Buyer research paths</h2><p>Limited technical and sourcing guidance, governed by evidence and page status.</p></div><div class="resource-list"><div class="resource-row"><span>RES-ORIGIN</span><strong>Alternative-origin supply guide</strong><span>PLANNED PATH</span></div><div class="resource-row"><span>RES-PROC</span><strong>Chloride vs sulfate guide</strong><span>NOT LIVE</span></div></div></div>
+              <div><div class="kicker">Buyer answers / GEO-ready structure</div><div class="qa-list"><div class="qa-row"><span>01</span><strong>What should a buyer verify when evaluating Malaysia titanium dioxide?</strong><em>ANSWER PENDING</em></div><div class="qa-row"><span>02</span><strong>Which route supports coatings, plastics or TiO₂ input for masterbatch?</strong><em>ANSWER PENDING</em></div><div class="qa-row"><span>03</span><strong>How does a buyer request controlled document information?</strong><em>ANSWER PENDING</em></div></div></div>
+            </div>
+          </section>
+
+          <section class="d-rfq">
+            <div><div class="kicker">09 / Final RFQ</div><h2>Prepare a structured quotation request</h2><p>Field summary only. No response-time, sample or fulfillment commitment is shown.</p></div>
+            <div><div class="rfq-summary"><span class="field-chip">Destination Market</span><span class="field-chip">Application</span><span class="field-chip">Grade / Specification</span><span class="field-chip">Quantity</span><span class="field-chip">Packaging</span><span class="field-chip">Document Needs</span></div><div class="rfq-action"><span>FORM FLOW / PRIVACY / OWNERSHIP PENDING</span><span class="cta">Request a Quote</span></div></div>
+          </section>
+
+          <footer class="d-footer"><span>TiO₂ Malaysia · CONTACT FACTS PENDING</span><div class="d-footer-nav"><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span>Contact</span><span>Request a Quote</span></div><span>LEGAL COPY PENDING</span></footer>
+        </div>
+      </div></div>
+      <div class="preview-links"><a href="?capture=homepage-full-pc">Open exact PC artboard</a></div>
+    </section>
+
+    <section class="review-block">
+      <h2>Mobile — 390 × 4745</h2>
+      <div class="mobile-shell">
+        <div class="page mobile" id="homepage-full-mobile">
+          <div class="status">FULL-PAGE VISUAL DESIGN / NOT PRODUCTION / COPY NOT FINAL</div>
+          <header class="m-header"><img class="logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia current visual direction logo"><div class="m-actions"><button class="m-menu-btn" type="button">Menu</button><span class="cta">RFQ</span></div></header>
+          <nav class="m-menu" aria-label="Expanded mobile navigation review"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span>Request a Quote</span></nav>
+
+          <section class="m-hero"><img class="m-hero-icon" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (2).png" alt="Current visual direction symbol used as atmosphere only"><div class="m-hero-copy"><div class="kicker">Malaysia-Origin Supply Platform · Working Position</div><h1>Malaysia Titanium Dioxide<br><span>for Industrial Procurement</span></h1><span class="copy-gate">COPY DRAFT / FACT COPY PENDING</span><p>Working copy: market, product and controlled document paths for industrial buyers.</p><div class="m-hero-actions"><span class="cta">Request a Quote</span><span class="cta secondary">View Products</span></div><div class="m-asset-note">CURRENT VISUAL DIRECTION ASSET / ATMOSPHERE ONLY / NOT PRODUCTION / NOT FACT EVIDENCE</div></div></section>
+
+          <section class="m-quick"><div class="quick-item"><span class="quick-num">01</span><strong>Markets</strong><span>Destination path</span></div><div class="quick-item"><span class="quick-num">02</span><strong>Products</strong><span>Grade index</span></div><div class="quick-item"><span class="quick-num">03</span><strong>Documents</strong><span>Request route</span></div></section>
+
+          <section class="m-section m-markets"><div class="section-heading"><div class="kicker">03 / Markets first</div><h2>Choose the destination market</h2><p>Four approved market paths; no flags, tourism imagery or market-performance claims.</p></div><div class="m-market-grid"><article class="m-market-entry"><small>EU</small><h3>European Union</h3><p>DE · IT · ES · PL · NL · BE routes.</p><span class="text-link">Explore →</span></article><article class="m-market-entry"><small>UK</small><h3>United Kingdom</h3><p>Destination procurement path.</p><span class="text-link">Explore →</span></article><article class="m-market-entry"><small>IN</small><h3>India</h3><p>Market and application evaluation.</p><span class="text-link">Explore →</span></article><article class="m-market-entry"><small>BR</small><h3>Brazil</h3><p>English path; PT-BR under review.</p><span class="text-link">Explore →</span></article></div></section>
+
+          <section class="m-section m-products"><div class="m-products-top"><div class="section-heading"><div class="kicker">04 / Product dossier</div><h2>All 14 grade IDs</h2></div><div class="portfolio-count"><strong>14</strong><span>COMPLETE INDEX</span></div></div><p class="section-heading" style="margin:10px 0 0;color:var(--muted);font-size:10px;line-height:1.45">Compact grouped discovery; no 14-card stack.</p><div class="m-grade-dossier"><div class="m-grade-meta">PRODUCT-000 · TECHNICAL COPY PENDING</div><div class="m-grade-group"><div class="m-grade-title"><strong>Coatings Grades</strong><span>06 · EXPANDED ▴</span></div><div class="grade-tags"><span class="grade-tag">M-350</span><span class="grade-tag">M-510</span><span class="grade-tag">M-896</span><span class="grade-tag">M-996</span><span class="grade-tag">M-2196</span><span class="grade-tag">M-895</span></div></div><div class="m-grade-group"><div class="m-grade-title"><strong>Plastics &amp; Masterbatch</strong><span>05 · EXPANDED ▴</span></div><div class="grade-tags"><span class="grade-tag">M-200</span><span class="grade-tag">M-108</span><span class="grade-tag">M-210</span><span class="grade-tag">M-340</span><span class="grade-tag">M-886</span></div><p class="grade-note">TiO₂ input, not finished masterbatch.</p></div><div class="m-grade-group"><div class="m-grade-title"><strong>Inks &amp; Multi-Application</strong><span>02 · EXPANDED ▴</span></div><div class="grade-tags"><span class="grade-tag">M-52</span><span class="grade-tag">M-2377</span></div><p class="grade-note">M-2377 process / application pending.</p></div><div class="m-grade-group"><div class="m-grade-title"><strong>Specialty Grade</strong><span>01 · EXPANDED ▴</span></div><div class="grade-tags"><span class="grade-tag">CR-901</span></div></div></div><div class="m-process-links"><span>Chloride Process →</span><span>Sulfate / Sulphate →</span></div><span class="cta">View All 14 Grades</span></section>
+
+          <section class="m-section m-applications"><div class="section-heading"><div class="kicker">05 / Applications</div><h2>Evaluate by use case</h2><p>PROVISIONAL URL — PAGE_ID ONLY</p></div><div class="m-app-grid"><article class="m-app-entry"><strong>Coatings</strong><p>Use-case route.</p><span class="page-id">APP-COAT</span></article><article class="m-app-entry"><strong>Plastics</strong><p>Use-case route.</p><span class="page-id">APP-PLAS</span></article><article class="m-app-entry"><strong>Masterbatch</strong><p>TiO₂ input; not finished masterbatch.</p><span class="page-id">APP-MB</span></article><article class="m-app-entry"><strong>Printing Inks</strong><p>Use-case route.</p><span class="page-id">APP-INK</span></article><article class="m-app-entry"><strong>Paper</strong><p>Approved lower-priority application route.</p><span class="page-id">APP-PAPER</span></article></div></section>
+
+          <section class="m-section m-about"><div class="section-heading"><div class="kicker">06 / About &amp; origin evidence</div><h2>Platform identity and evidence route</h2></div><span class="copy-gate">FACT COPY PENDING</span><p>Working summary placeholder for platform, operating entity, origin, manufacturing and traceability evidence. No public claim is approved here.</p><span class="text-link">Learn About TiO₂ Malaysia →</span><div class="evidence-box"><strong>VERIFIED ASSET PENDING</strong><span>Only verified and authorized company evidence may occupy this position. Direction artwork is not proof.</span></div></section>
+
+          <section class="m-section m-documents"><div class="section-heading"><div class="kicker">07 / Controlled document paths</div><h2>Information and request</h2><p>Two paths only; no file availability claim.</p></div><div class="m-doc-grid"><article class="m-doc-path"><small>DOC-000</small><h3>Documents Hub</h3><p>Explain categories, scope and governance.</p><span class="text-link">View Information →</span></article><article class="m-doc-path"><small>CONV-DOC</small><h3>Request Documents</h3><p>Buyer-submitted controlled request path.</p><span class="text-link">Request Documents →</span></article></div><span class="doc-gate">DOCUMENT AVAILABILITY NOT CLAIMED</span></section>
+
+          <section class="m-section m-resources"><div class="section-heading"><div class="kicker">08 / Resources &amp; buyer answers</div><h2>Research paths with evidence gates</h2></div><div class="m-resource-list"><div class="m-resource-row"><small>RES-ORIGIN</small><strong>Alternative-origin supply guide</strong><span>PLANNED PATH</span></div><div class="m-resource-row"><small>RES-PROC</small><strong>Chloride vs sulfate guide</strong><span>NOT LIVE</span></div></div><div class="m-qa-list"><div class="m-qa-row"><span>01</span><div><strong>What should a buyer verify when evaluating Malaysia titanium dioxide?</strong><em>ANSWER PENDING</em></div></div><div class="m-qa-row"><span>02</span><div><strong>Which route supports coatings, plastics or TiO₂ input for masterbatch?</strong><em>ANSWER PENDING</em></div></div><div class="m-qa-row"><span>03</span><div><strong>How does a buyer request controlled document information?</strong><em>ANSWER PENDING</em></div></div></div></section>
+
+          <section class="m-rfq"><div class="kicker">09 / Final RFQ</div><h2>Prepare a structured quotation request</h2><p>Field summary only. No response-time, sample or fulfillment commitment.</p><div class="m-rfq-summary"><span class="field-chip">Destination Market</span><span class="field-chip">Application</span><span class="field-chip">Grade / Specification</span><span class="field-chip">Quantity</span><span class="field-chip">Packaging</span><span class="field-chip">Document Needs</span></div><span class="cta">Request a Quote</span><div class="m-rfq-note">FORM FLOW / PRIVACY / OWNERSHIP PENDING</div></section>
+
+          <footer class="m-footer"><div class="m-footer-top"><img class="logo" src="../../../01Visio/ChatGPT Image 2026年8月29日 09_37_10 (1).png" alt="TiO2 Malaysia current visual direction logo"><span>CONTACT FACTS PENDING</span></div><div class="m-footer-nav"><span>Home</span><span>Markets</span><span>Products</span><span>Applications</span><span>Documents</span><span>Resources</span><span>About</span><span>Request a Quote</span></div><div class="m-footer-note">CONTACT / ADDRESS / LEGAL COPY PENDING<br>FULL-PAGE VISUAL DESIGN ONLY / NOT PRODUCTION</div></footer>
+        </div>
+      </div>
+      <div class="preview-links"><a href="?capture=homepage-full-mobile">Open exact mobile artboard</a></div>
+    </section>
+  </main>
+
+  <script>
+    const captureId = new URLSearchParams(window.location.search).get('capture');
+    if (captureId) {
+      const target = document.getElementById(captureId);
+      if (target) {
+        document.body.className = 'capture-mode';
+        document.body.replaceChildren(target);
+      }
+    }
+  </script>
+</body>
+</html>

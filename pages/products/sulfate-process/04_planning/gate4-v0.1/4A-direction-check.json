@@ -1,0 +1,25 @@
+{
+  "workset_id": "SU-G4-COMPLETE-V01",
+  "status": "VISUAL_DIRECTION_CHECKED",
+  "at": "2026-09-07T06:21:15.906Z",
+  "source": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/PRODUCT-PROC-SU_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 19596,
+    "sha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c"
+  },
+  "css": {
+    "path": "D:/23MySec/pages/products/sulfate-process/04_planning/gate4-v0.1/visual-direction.css",
+    "bytes": 808,
+    "sha256": "c9c3cd702764928f528f6be9824857b958df363171c5a1fff77fae204a2cfd99"
+  },
+  "sampleEvidence": "diagnostic_support/4a-r2-checks.json",
+  "decision": "Retain editorial Grade rows and inherited responsive relationships; normalize page color/weight/radius; primary in-page exploration and final RFQ remain filled. FTC fragment-safe inline treatment preserves the exact B sentence and href. All nine FTC state images and three Grade samples opened at original scale; no unresolved direction issue.",
+  "finding": {
+    "id": "SU-G4-PF01",
+    "status": "RESOLVED_BEFORE_FREEZE",
+    "original": "4a-r1 390 FTC period visually detached despite rectangle probe passing",
+    "revision": "inline fragments, clone box decoration, 12px vertical/3px horizontal padding; 3.2 line height; inset focus. Each fragment contains continuous 44x44 hit area and adjacent punctuation is outside.",
+    "proof": "4a-r2 FTC images and runtime checks"
+  },
+  "remaining4B": "Complete page/state freeze and final independent review remain distinct."
+}

@@ -36,7 +36,7 @@ Gate1串行controller自2026-09-06起只负责Gate1，用户每确认一页再�
 
 | 页面 | 已登记阶段 | 下一步 / 当前记录 |
 |---|---|---|
-| SYS-404 | Gate 0登记完成；Gate 1四核心已提交，DRAFT_FOR_PROJECT_CONTROL_REVIEW，未关闭 | [当前Manifest V0.1](pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)；[执行提交V0.1](pages/system/404/05_review/SYS-404_GATE1_EXECUTION_SUBMISSION_V0.1.md)待不同身份独立审查及用户Gate 1确认；精确设计文案批准保持；Gate 2+、开发及发布未授权。 |
+| SYS-404 | Gate 0登记完成；Gate 1独立审查通过，PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL，未关闭 | [当前Manifest V0.1](pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)；[独立审查V0.1](pages/system/404/05_review/SYS-404_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md)必修0，待用户Gate 1确认；精确设计文案批准保持；确认关闭后才启动CONV-THANK Gate 1；Gate 2+、开发及发布未授权。 |
 | CONV-THANK | Gate 0登记完成；Gate 1待执行，未通过/关闭 | [当前Manifest V0.1](pages/conversion/thank-you/CONV-THANK_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)；须SYS-404 Gate 1独立审查及用户确认关闭后才启动本页Gate 1；Gate 2+、开发及发布未授权。 |
 | HOME-001 | Gate 9通过，保留release blockers | Tablet Start Here用户决定及全站运行依赖未在本次关闭；[Gate 9关闭记录](pages/home/07_qa/HOME-001_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md) |
 | MARKET-000 | Gate 9通过，Canonical/308自身P0关闭 | 子市场、APP、转化/Trade等依赖按发布合同复核；[当前Manifest](pages/markets/07_qa/MARKET-000_CURRENT_GATE9_BASELINE_MANIFEST_V0.1.md) |

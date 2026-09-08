@@ -693,10 +693,12 @@ git commit -m "test: align prerelease evidence with approved scope"
 
 Workflow authority: apply `D:/23MySec/docs/architecture/PRERELEASE_COMBINED_CANDIDATE_PREMERGE_ACCEPTANCE_RULING_V1.0.md`. Task 9 ends with a clean task-branch Gate 8 handoff; it does not move the branch directly to `main`.
 
+Evidence packaging authority: apply `D:/23MySec/docs/architecture/GATE8_EXTERNAL_MANIFEST_SELF_REFERENCE_RULING_V1.0.md`. Commit the declared evidence and human receipt first; generate the final Manifest outside the D16 Git worktree after the final clean evidence HEAD exists.
+
 **Files:**
 - Modify only if a preceding test finds a defect in an already-listed implementation file.
-- Create: `docs/verification/prerelease-public-paths/gate8_evidence_manifest.json`
 - Create: `docs/verification/prerelease-public-paths/gate8_handoff_receipt.md`
+- Generate outside Git: `D:/16Wordpress_nextjs/.tmp/gate8-manifests/TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1/gate8_evidence_manifest.json`
 - Evidence: D16 baseline, implementation/evidence commits, Build ID, runtime identity and clean-worktree output.
 
 **Interfaces:**
@@ -740,26 +742,37 @@ git rev-parse HEAD
 
 Expected before evidence packaging: branch `codex/prerelease-public-paths-forms` and no uncommitted implementation files.
 
-- [ ] **Step 5: Generate and validate the Gate 8 machine handoff**
+- [ ] **Step 5: Commit the evidence and human receipt**
+
+The receipt must contain one `EVIDENCE: repo-relative-path` line for every evidence file and no line for the external Manifest itself.
+
+```powershell
+git add docs/verification/prerelease-public-paths
+git commit -m "test: package prerelease public path evidence"
+git status --short
+$evidenceHead = git rev-parse HEAD
+```
+
+Expected: empty status and one immutable task-branch evidence HEAD.
+
+- [ ] **Step 6: Generate the post-commit external Gate 8 Manifest**
 
 The Manifest must conform to `D:/23MySec/docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json`, bind every evidence path and SHA-256, list all affected Page IDs and acceptance-condition IDs, and identify the four removed checks as not tested by user decision.
 
-```powershell
-python D:/23MySec/skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py docs/verification/prerelease-public-paths/gate8_evidence_manifest.json
+Write it to:
+
+```text
+D:/16Wordpress_nextjs/.tmp/gate8-manifests/TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1/gate8_evidence_manifest.json
 ```
 
-Expected: `PASS`.
-
-- [ ] **Step 6: Commit the machine handoff and confirm the final evidence identity**
-
 ```powershell
-git add docs/verification/prerelease-public-paths/gate8_evidence_manifest.json docs/verification/prerelease-public-paths/gate8_handoff_receipt.md
-git commit -m "test: package prerelease public path evidence"
-git status --short
-git rev-parse HEAD
+$manifestPath = 'D:/16Wordpress_nextjs/.tmp/gate8-manifests/TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1/gate8_evidence_manifest.json'
+python D:/23MySec/skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py $manifestPath
+python D:/23MySec/skills/runtime-implementation-verification/scripts/gate9_preflight.py $manifestPath --rounds 2
+Get-FileHash -Algorithm SHA256 $manifestPath
 ```
 
-Expected: empty status and one immutable task-branch evidence HEAD referenced by the handoff.
+Expected: validator and preflight `PASS`; worktree remains clean; the external Manifest binds `$evidenceHead` but is not part of it.
 
 ### Task 9A: Independent pre-merge acceptance and serial integration
 
@@ -773,15 +786,15 @@ Expected: empty status and one immutable task-branch evidence HEAD referenced by
 
 - [ ] **Step 1: Dispatch the exact handoff to the existing independent Reviewer**
 
-Project Control sends the Manifest path, implementation/evidence commits, Build ID and runtime URL to D23 task `00-Gate9-01my开发`, thread `01a07e7e-24ef-7390-beab-f50fcbf169e0`.
+Project Control copies the external Manifest byte-for-byte to `D:/23MySec/docs/verification/intake/TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1/gate8_evidence_manifest.json`, verifies source/copy SHA-256 equality, and sends both paths, the SHA, implementation/evidence commits, Build ID and runtime URL to D23 task `00-Gate9-01my开发`, thread `01a07e7e-24ef-7390-beab-f50fcbf169e0`.
 
 - [ ] **Step 2: Run independent preflight and read-only acceptance**
 
 The Reviewer runs:
 
 ```powershell
-python D:/23MySec/skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py D:/16Wordpress_nextjs/.worktrees/prerelease-public-paths-forms/docs/verification/prerelease-public-paths/gate8_evidence_manifest.json
-python D:/23MySec/skills/runtime-implementation-verification/scripts/gate9_preflight.py D:/16Wordpress_nextjs/.worktrees/prerelease-public-paths-forms/docs/verification/prerelease-public-paths/gate8_evidence_manifest.json --rounds 2
+python D:/23MySec/skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py D:/23MySec/docs/verification/intake/TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1/gate8_evidence_manifest.json
+python D:/23MySec/skills/runtime-implementation-verification/scripts/gate9_preflight.py D:/23MySec/docs/verification/intake/TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1/gate8_evidence_manifest.json --rounds 2
 ```
 
 It then independently inspects the exact diff, runtime buyer paths, form result boundaries, provisional Application behavior, grouped Resource parity and sanitized evidence. It writes all four statuses. PASS requires `INTEGRATION_STATUS=INTEGRATION_READY`; final page/batch Gate 9 remains not final.

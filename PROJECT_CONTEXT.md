@@ -58,7 +58,9 @@
 | Conversion | RFQ、Sample、Documents各自完成相应请求；具体字段/状态按页面批准合同 |
 | Legal / Privacy | Privacy EN/BM、Cookie Policy；Cookie Settings为共享功能，不是独立SEO页面；当前不设Terms页 |
 
-当前 [登记册V0.2](docs/architecture/PAGE_REGISTRY_V0.2.md) 为57页；“已登记”不等于所有页面已批准、已开发或已上线。Malaysia Origin不设独立一级栏目，相关职责分配到Home、About、Documents、Resources。
+当前 [登记册V0.2](docs/architecture/PAGE_REGISTRY_V0.2.md) 为59页；“已登记”不等于所有页面已批准、已开发或已上线。Malaysia Origin不设独立一级栏目，相关职责分配到Home、About、Documents、Resources。
+
+2026-09-08按[批准新增决定](docs/architecture/SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md)增加`SYS-404`（全站运行时fallback，无独立可索引`/404/`）和`CONV-THANK`（`/thank-you/`，Quote/Documents/Sample共享成功结果）。两页均为`NO_PRIMARY_KEYWORD`且不进sitemap；robots分别为`noindex, follow`和`noindex, nofollow`。该决定作为PRD V0.4页面清单的57→59批准增补；内容/行为设计批准与Gate 1、开发及发布授权分别记录。
 
 共享Header/Footer由Home/Global Chrome owner维护，页面消费，不各自开发；前台不展示“CURRENT”文字。WordPress/Next.js由独立开发项目实现，共享架构但严格隔离 `site_scope=tio2-my`。
 

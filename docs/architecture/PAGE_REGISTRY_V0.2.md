@@ -6,16 +6,16 @@
 |---|---|
 | 版本 | V0.2 |
 | 日期 | 2026-09-02 |
-| 页面总数 | 57 |
-| 数据基线 | `research/keyword/11_page_keyword_master.csv`（57 行） |
-| 架构基线 | `docs/prd/TiO2_Malaysia_Website_PRD_V0.4.md` + `LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md` |
+| 页面总数 | 59 |
+| 数据基线 | `research/keyword/11_page_keyword_master.csv`（59 行） |
+| 架构基线 | `docs/prd/TiO2_Malaysia_Website_PRD_V0.4.md` + `LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md` + [2026-09-08系统/成功页新增决定](SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md) |
 | 用途 | 总控审查、页面准入、页面任务卡创建、SEO 和开发交付 |
 
 V0.2 保留 V0.1 的 54 页身份，新增用户批准的 Privacy EN、Privacy BM 和 Cookie Policy 三页。阶段性批准的 `LEGAL-TERMS-EN` 与 `/terms-of-use/` 已由用户随后批准删除，从未进入本合并登记册。
 
 ## 1. 登记册职责
 
-本文件是 57 个具体页面的人类可读总控视图。CSV 主表继续保存完整的 secondary keywords、search intent、buyer stage、page role、excluded keywords、cannibalization boundary 和 notes；任何页面任务都必须同时读取本登记册和 CSV 对应记录。
+本文件是 59 个具体页面的人类可读总控视图。CSV 主表继续保存完整的 secondary keywords、search intent、buyer stage、page role、excluded keywords、cannibalization boundary 和 notes；任何页面任务都必须同时读取本登记册和 CSV 对应记录。
 
 如果本登记册、CSV 或最新批准 PRD 出现冲突：
 
@@ -60,12 +60,13 @@ V0.2 保留 V0.1 的 54 页身份，新增用户批准的 Privacy EN、Privacy B
 | `APPLICATION` | Applications | 6 | `docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md` |
 | `DOCUMENT` | Documents | 4 | `docs/page-playbooks/DOCUMENT_PLAYBOOK_V0.1.md` |
 | `RESOURCE` | Resources | 9 | `docs/page-playbooks/RESOURCE_PLAYBOOK_V0.1.md` |
-| `CONVERSION` | Conversion | 3 | `docs/page-playbooks/CONVERSION_PLAYBOOK_V0.1.md` |
+| `CONVERSION` | Conversion | 4 | `docs/page-playbooks/CONVERSION_PLAYBOOK_V0.1.md`；共享结果页另按[批准设计](../superpowers/specs/2026-09-08-404-thank-you-pages-design-v0.1.md)消费适用规则 |
 | `LEGAL_PRIVACY` | Legal / Privacy | 3 | `docs/page-playbooks/LEGAL_PRIVACY_PLAYBOOK_V0.1.md`（待建立） |
+| `SYSTEM` | System | 1 | 无专属通用Playbook；使用[批准设计](../superpowers/specs/2026-09-08-404-thank-you-pages-design-v0.1.md)及[新增决定](SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md)作为页面专属准入合同 |
 
 这些 Playbook 将在下一阶段逐类建立。在对应 Playbook 获得批准前，可以完成证据研究和页面任务卡草案，但不得把页面类型方案描述为最终批准。
 
-## 4. 57 页清单
+## 4. 59 页清单
 
 ### 4.1 Home — Playbook `HOME`
 
@@ -160,6 +161,7 @@ V0.2 保留 V0.1 的 54 页身份，新增用户批准的 Privacy EN、Privacy B
 | CONV-DOC | Request Documents | `/request-documents/` | Utility conversion page | `NO_PRIMARY_KEYWORD` | P0 | PLANNED_CONVERSION | NO_DIRECT_KEYWORD_TARGET |
 | CONV-RFQ | Request a Quote | `/request-a-quote/` | RFQ conversion page | `titanium dioxide quote supplier` | P0 | PLANNED_CONVERSION | QUALITATIVE_KEYWORD_EVIDENCE |
 | CONV-SAMPLE | Request a Sample | `/request-sample/` | Sample conversion page | `titanium dioxide sample supplier` | P1 | PLANNED_CONVERSION | QUALITATIVE_KEYWORD_EVIDENCE |
+| CONV-THANK | Thank You | `/thank-you/` | Shared form-result utility page | `NO_PRIMARY_KEYWORD` | P1 | APPROVED_USER_PAGE_ADDITION | NO_DIRECT_KEYWORD_TARGET |
 
 ### 4.9 Legal / Privacy — Playbook `LEGAL_PRIVACY`
 
@@ -170,6 +172,14 @@ V0.2 保留 V0.1 的 54 页身份，新增用户批准的 Privacy EN、Privacy B
 | LEGAL-COOKIE-EN | Cookie Policy | `/cookie-policy/` | Legal / cookie page | `NO_PRIMARY_KEYWORD` | P0 | APPROVED_LEGAL_ARCHITECTURE | FACT_EVIDENCE_REQUIRED |
 
 `Cookie Settings` 是 Footer 中重新打开 Consent Manager 的共享功能按钮，不是页面、URL 或关键词记录。`Terms of Use` 不属于当前批准架构。
+
+### 4.10 System — 页面专属批准设计
+
+| Page ID | 页面 | URL | 页面类型 | 主关键词 | 优先级 | Mapping Status | Verification Status |
+|---|---|---|---|---|---|---|---|
+| SYS-404 | Page Not Found | `RUNTIME_FALLBACK`（全站未知URL；无独立可索引`/404/`） | Global system recovery page | `NO_PRIMARY_KEYWORD` | P1 | APPROVED_USER_PAGE_ADDITION | NO_DIRECT_KEYWORD_TARGET |
+
+新增两页的内容/行为、robots及sitemap规则见[新增决定](SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md)。`APPROVED_USER_PAGE_ADDITION`表示用户批准页面身份/职责与设计输入，不表示Gate 1通过、开发或发布授权。
 
 ## 5. 页面准入规则
 
@@ -206,7 +216,7 @@ V0.2 保留 V0.1 的 54 页身份，新增用户批准的 Privacy EN、Privacy B
 
 ## 6. 新页面和变更处理
 
-任何不在 57 页清单内的新页面先作为变更提案，不直接创建目录或路由。提案至少包含：搜索意图、主关键词、现有页面为何不能承接、建议 URL、内耗检查、内链影响、内容证据、优先级和是否替代现有候选。
+任何不在 59 页清单内的新页面先作为变更提案，不直接创建目录或路由。提案至少包含：搜索意图、主关键词、现有页面为何不能承接、建议 URL、内耗检查、内链影响、内容证据、优先级和是否替代现有候选。
 
 获得批准后，依次更新：
 
@@ -217,3 +227,5 @@ V0.2 保留 V0.1 的 54 页身份，新增用户批准的 Privacy EN、Privacy B
 5. 页面任务卡和适用 Playbook。
 
 历史 V0.1 登记册保留，不覆盖。V0.2 的 Legal/Privacy 变更来源为用户于 2026-09-02 批准的 `LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md`。
+
+2026-09-08按用户批准设计及Gate 0–1执行计划在现行入口追加两页，57→59；批准增补、原57页保留及PRD组合关系见[新增决定](SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md)。本次不回写历史PRD或表单批准源。

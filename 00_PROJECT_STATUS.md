@@ -23,7 +23,7 @@
 
 ## 1. 总体状态
 
-- 全站架构、PRD、产品资料与研究已存在，见 [PROJECT_CONTEXT](PROJECT_CONTEXT.md)；当前登记册57页，产品14个型号。
+- 全站架构、PRD、产品资料与研究已存在，见 [PROJECT_CONTEXT](PROJECT_CONTEXT.md)；当前登记册59页，产品14个型号。
 - 项目仍是策划/交付/只读验收空间，外部开发由独立开发任务负责。
 - Gate 3范围控制定向修订已按用户“现在开始定向修订”完成，[当前基线Manifest V1.6](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.6.md)导航Agent/线框V0.3、共用布局核验V0.4及交接V0.2。校验与限制见[修订记录](docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md)；V0.3已在Germany与Italy两个新真实页面完成执行、总控独立审查和用户批准关闭，两页均无阻塞Finding。该试跑不新增其他页面或开发授权。
 - 已关闭Gate 9的页面仍可能有生产环境、跨页、表单、隐私或索引验收项；**不等于已上线**。本次没有Gate 10、部署、生产写入、发布、DNS或索引授权。
@@ -36,6 +36,8 @@ Gate1串行controller自2026-09-06起只负责Gate1，用户每确认一页再�
 
 | 页面 | 已登记阶段 | 下一步 / 当前记录 |
 |---|---|---|
+| SYS-404 | Gate 0登记完成；Gate 1待执行，未通过/关闭 | [当前Manifest V0.1](pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)；按[批准新增决定](docs/architecture/SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md)先执行本页Gate 1，独立审查后交用户确认；Gate 2+、开发及发布未授权。 |
+| CONV-THANK | Gate 0登记完成；Gate 1待执行，未通过/关闭 | [当前Manifest V0.1](pages/conversion/thank-you/CONV-THANK_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)；须SYS-404 Gate 1独立审查及用户确认关闭后才启动本页Gate 1；Gate 2+、开发及发布未授权。 |
 | HOME-001 | Gate 9通过，保留release blockers | Tablet Start Here用户决定及全站运行依赖未在本次关闭；[Gate 9关闭记录](pages/home/07_qa/HOME-001_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md) |
 | MARKET-000 | Gate 9通过，Canonical/308自身P0关闭 | 子市场、APP、转化/Trade等依赖按发布合同复核；[当前Manifest](pages/markets/07_qa/MARKET-000_CURRENT_GATE9_BASELINE_MANIFEST_V0.1.md) |
 | MARKET-EU-001 | HANDED_OFF；Gate 8外部进行中（原登记） | 等外部完成与后续授权；[当前授权Manifest V0.18](pages/markets/06_handoff/MARKET-EU-001_CURRENT_GATE8_AUTHORIZATION_MANIFEST_V0.18.md) |

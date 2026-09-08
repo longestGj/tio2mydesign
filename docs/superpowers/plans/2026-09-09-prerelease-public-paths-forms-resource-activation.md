@@ -691,13 +691,17 @@ git commit -m "test: align prerelease evidence with approved scope"
 
 ### Task 9: Verify the D16 candidate before prerelease execution
 
+Workflow authority: apply `D:/23MySec/docs/architecture/PRERELEASE_COMBINED_CANDIDATE_PREMERGE_ACCEPTANCE_RULING_V1.0.md`. Task 9 ends with a clean task-branch Gate 8 handoff; it does not move the branch directly to `main`.
+
 **Files:**
 - Modify only if a preceding test finds a defect in an already-listed implementation file.
-- Evidence: D16 commit hash and clean-worktree output.
+- Create: `docs/verification/prerelease-public-paths/gate8_evidence_manifest.json`
+- Create: `docs/verification/prerelease-public-paths/gate8_handoff_receipt.md`
+- Evidence: D16 baseline, implementation/evidence commits, Build ID, runtime identity and clean-worktree output.
 
 **Interfaces:**
 - Consumes: Tasks 2-8.
-- Produces: a clean `main` commit eligible for `scripts/prerelease.ps1 -Action Start`.
+- Produces: a clean task-branch Gate 8 handoff eligible for independent D23 pre-merge acceptance.
 
 - [ ] **Step 1: Scan active client code for retained endpoint calls**
 
@@ -734,7 +738,91 @@ git branch --show-current
 git rev-parse HEAD
 ```
 
-Expected: empty status, branch `main`, and one immutable candidate commit hash.
+Expected before evidence packaging: branch `codex/prerelease-public-paths-forms` and no uncommitted implementation files.
+
+- [ ] **Step 5: Generate and validate the Gate 8 machine handoff**
+
+The Manifest must conform to `D:/23MySec/docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json`, bind every evidence path and SHA-256, list all affected Page IDs and acceptance-condition IDs, and identify the four removed checks as not tested by user decision.
+
+```powershell
+python D:/23MySec/skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py docs/verification/prerelease-public-paths/gate8_evidence_manifest.json
+```
+
+Expected: `PASS`.
+
+- [ ] **Step 6: Commit the machine handoff and confirm the final evidence identity**
+
+```powershell
+git add docs/verification/prerelease-public-paths/gate8_evidence_manifest.json docs/verification/prerelease-public-paths/gate8_handoff_receipt.md
+git commit -m "test: package prerelease public path evidence"
+git status --short
+git rev-parse HEAD
+```
+
+Expected: empty status and one immutable task-branch evidence HEAD referenced by the handoff.
+
+### Task 9A: Independent pre-merge acceptance and serial integration
+
+**Files:**
+- D23 Reviewer output: `D:/23MySec/docs/verification/PRERELEASE_PUBLIC_PATHS_FORMS_RESOURCE_PREMERGE_ACCEPTANCE_V1.0.md`
+- D16 integration record: `docs/verification/prerelease-public-paths/local-integration-record.json`
+
+**Interfaces:**
+- Consumes: Task 9 machine handoff and held task runtime.
+- Produces: `INTEGRATION_READY` or an exact return Finding; after PASS, a verified clean local `main` candidate for Task 10.
+
+- [ ] **Step 1: Dispatch the exact handoff to the existing independent Reviewer**
+
+Project Control sends the Manifest path, implementation/evidence commits, Build ID and runtime URL to D23 task `00-Gate9-01my开发`, thread `01a07e7e-24ef-7390-beab-f50fcbf169e0`.
+
+- [ ] **Step 2: Run independent preflight and read-only acceptance**
+
+The Reviewer runs:
+
+```powershell
+python D:/23MySec/skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py D:/16Wordpress_nextjs/.worktrees/prerelease-public-paths-forms/docs/verification/prerelease-public-paths/gate8_evidence_manifest.json
+python D:/23MySec/skills/runtime-implementation-verification/scripts/gate9_preflight.py D:/16Wordpress_nextjs/.worktrees/prerelease-public-paths-forms/docs/verification/prerelease-public-paths/gate8_evidence_manifest.json --rounds 2
+```
+
+It then independently inspects the exact diff, runtime buyer paths, form result boundaries, provisional Application behavior, grouped Resource parity and sanitized evidence. It writes all four statuses. PASS requires `INTEGRATION_STATUS=INTEGRATION_READY`; final page/batch Gate 9 remains not final.
+
+- [ ] **Step 3: Merge accepted task commit into current develop**
+
+The D16 serial integrator verifies no other integration is active, records current target/source identities, merges the exact accepted commit, and does not resolve a semantic conflict without returning it.
+
+```powershell
+git switch develop
+git merge --no-ff codex/prerelease-public-paths-forms
+```
+
+- [ ] **Step 4: Run develop combination regression**
+
+```powershell
+npm run lint
+npm run typecheck
+npm test
+npm run build
+npx playwright test tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1
+npx vitest run tests/unit/forms tests/unit/rfq tests/unit/request-sample tests/unit/request-documents tests/unit/thank-you
+```
+
+Expected: all local checks PASS. Do not run the real-provider live-forms suite until Task 10.
+
+- [ ] **Step 5: Record and return develop integration identity**
+
+Write `local-integration-record.json` with source branch/commit, develop before/after commits, merge commit, conflicts, exact commands/results, Build ID and evidence hashes. Project Control verifies the accepted implementation is present and that the merge introduced no unreviewed semantic change.
+
+- [ ] **Step 6: Merge verified develop into local main**
+
+```powershell
+git switch main
+git merge --no-ff develop
+npm run typecheck
+npm run build
+git status --short
+```
+
+Expected: clean local `main`, the accepted implementation reachable from HEAD, and successful typecheck/build. Do not push or deploy.
 
 ### Task 10: Execute targeted prerelease and collect evidence
 

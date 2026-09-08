@@ -372,6 +372,8 @@ git commit -m "feat: use browser direct forms for Malaysia workflows"
 
 ### Task 5: Activate Home, Product and Applications paths
 
+Project-control interpretation: apply `D:/23MySec/docs/architecture/PRERELEASE_APPLICATION_FIVE_PROVISIONAL_METADATA_RULING_V1.0.md`. The five Application child routes become eligible relationship targets, while their child contracts remain `identity.provisional=true`; they continue to output no canonical, no `og:url`, no URL-bearing JSON-LD, `robots=noindex,nofollow`, and no release-sitemap entry.
+
 **Files:**
 - Modify: `wordpress/plugins/tio2-site-model/config/tio2-my-homepage.json`
 - Modify: `tests/unit/homepage/malaysia-template.test.tsx`
@@ -393,6 +395,16 @@ Assert Home contains six native anchors for the exact labels/targets and none of
 expect(screen.getByRole('link', {name: 'Coatings information →'})).toHaveAttribute('href', '/applications/titanium-dioxide-for-coatings/')
 expect(container.querySelectorAll('[aria-disabled="true"]')).toHaveLength(0)
 expect(container.querySelectorAll('a[data-grade-link]')).toHaveLength(30)
+```
+
+For every activated Application child target, also assert the resolved page remains provisional:
+
+```ts
+expect(pageMetadata.alternates?.canonical).toBeUndefined()
+expect(pageMetadata.openGraph?.url).toBeUndefined()
+expect(applicationJsonLd).toEqual([])
+expect(robots).toEqual({index: false, follow: false})
+expect(releaseSitemapPaths).not.toContain(applicationPath)
 ```
 
 - [ ] **Step 2: Run focused tests and verify failure**

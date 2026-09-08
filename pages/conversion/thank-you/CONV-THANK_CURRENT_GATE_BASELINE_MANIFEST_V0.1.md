@@ -8,8 +8,8 @@
 | Directory / type | `pages/conversion/thank-you/` / Shared form-result utility page |
 | Language / market | `EN` / `GLOBAL` |
 | Lifecycle | `BRIEF_IN_REVIEW`；`GATE0_REGISTERED`（准入完成） |
-| Gate 1 | `DRAFT_FOR_PROJECT_CONTROL_REVIEW / NOT_CLOSED`；执行草案完成，待独立审查及用户阶段确认 |
-| CONTENT_INTENT_CONFIRMED | `PENDING_GATE1_USER_CONFIRMATION`；四态设计原有正式对外内容授权保持，设计批准不等于本次研究/意图包或Gate 1关闭 |
+| Gate 1 | `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL / NOT_CLOSED`；独立审查通过，待用户阶段确认 |
+| CONTENT_INTENT_CONFIRMED | `PENDING_USER_GATE1_CONFIRMATION`；四态设计原有正式对外内容授权保持，设计批准不等于本次研究/意图包或Gate 1关闭 |
 | Mapping / keyword | `APPROVED_USER_PAGE_ADDITION` / `NO_PRIMARY_KEYWORD` |
 | Fact / runtime status | 四态精确文案与行为已获用户确认；实际接收、跳转和会话验证`NOT_TESTED` |
 | SEO | 实际工具路由HTTP `200`；`noindex, nofollow`；sitemap excluded；不建query-variant canonical或转化/订单/交付/批准Schema |
@@ -32,6 +32,7 @@
 | [Claim Register V0.1](01_research/CONV-THANK_GATE1_CLAIM_EVIDENCE_REGISTER_V0.1.csv) | `194f52ce320043ed7847183cbdfee09ec5f902ac982e0a43c1a4a632e3d61d44` |
 | [Three-form Impact Audit V0.1](02_analysis/CONV-THANK_THREE_FORM_SUCCESS_CONTRACT_IMPACT_AUDIT_V0.1.md) | `a51f5b39104f8635e384e31415c71eb67aa61ed7c7f3c99d4dd53a9a725cd976` |
 | [Execution Submission V0.1](05_review/CONV-THANK_GATE1_EXECUTION_SUBMISSION_V0.1.md) | `68e4ffbfc30afa6d1bd3a01c61d9f71e09e9ce1baadaae0f274e34fc297806cb` |
+| [Independent Project-control Review V0.1](05_review/CONV-THANK_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md) | `e388c00c34098794ec0b839447f793cfc292dda0974f2970ff3c7526df36d2e8` |
 
 四核心为Brief、Research、Claim Register、本Manifest；Impact Audit和Submission为所需支持件。搜索意图方法已评估为`NOT_APPLICABLE_POST_SUBMISSION_UTILITY_PAGE`，无搜索支持报告、SERP或metrics采集。
 
@@ -41,7 +42,9 @@
 
 ## 开放项与下一动作
 
-独立项目总控审查`NOT_PERFORMED`；本页Gate 1用户确认`PENDING`。下一允许动作是总控安排独立研究审查并向用户直接呈现研究/意图及影响；本执行者停止。Gate 2+与开发、外发、发布未由本任务授权。
+独立项目总控审查`CONVTHANK-G1-PC-20260908-01 = REVIEW_PASS`，Reviewer `/root/conv_thank_gate1_project_review`，2026-09-08；被审作者`/root/conv_thank_gate1_execute`，原组合commit `03b4cc3ae9adea6645cbf129ba1aec4db48a43ee`。P0=0、P1=0、其他Required Finding=0；本页Gate 1用户确认`PENDING_USER_GATE1_CONFIRMATION`，仍`NOT_CLOSED`。下一允许动作是总控向用户直接呈现审查§6的四态内容、意图及跨表单影响，收到明确确认后另行落档；本记录不替用户批准。Gate 2+与开发、外发、发布未由本任务授权。
+
+Task 4原Brief/Research/CSV/Audit/Submission保持提交时原文及hash，其历史草案控制字段由本Manifest与独立审查记录覆盖为当前待用户确认状态；原被审Manifest SHA `3369e7f6be4ebfafbe4b72455bdc4d52f05ad8b0773aced06633b8b7e13d2ea6`由上述commit保留。本次仅更新未批准V0.1的审查控制，不改变批准设计范围。
 
 THANK-DEP01–07的唯一明细在Impact Audit §6，均`OPEN / FUTURE_STAGE_VERIFICATION / NOT_TESTED`，含owner和接受条件：三表单Manifest增补、接收/失败/重试/重复、session四态、同意与无PII分析、robots/sitemap、共享Chrome/法律/七出口、三端可访问性及scope隔离。本页不拥有receiver，query alone不是成功证明；仅positive acknowledgement＋有效匹配session marker显示成功，同会话刷新保留，新会话或过期转direct/invalid。
 

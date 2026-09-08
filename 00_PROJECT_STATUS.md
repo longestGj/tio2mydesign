@@ -37,7 +37,7 @@ Gate1串行controller自2026-09-06起只负责Gate1，用户每确认一页再�
 | 页面 | 已登记阶段 | 下一步 / 当前记录 |
 |---|---|---|
 | SYS-404 | Gate 0登记完成；Gate 1 APPROVED / CLOSED；CONTENT_INTENT_CONFIRMED=YES | 用户2026-09-08对具体Gate 1决定包回复“确认。”；[批准与关闭V0.1](pages/system/404/05_review/SYS-404_GATE1_USER_APPROVAL_AND_CLOSURE_V0.1.md)；[当前Manifest V0.1](pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)，独立审查必修0；精确文案及DEP01–DEP07保持；下一允许CONV-THANK Gate 1；SYS-404 Gate 2+、开发及发布未授权。 |
-| CONV-THANK | Gate 0登记完成；Gate 1 PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL / NOT_CLOSED；CONTENT_INTENT_CONFIRMED=PENDING_USER_GATE1_CONFIRMATION | [当前Manifest V0.1](pages/conversion/thank-you/CONV-THANK_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)；[独立审查V0.1](pages/conversion/thank-you/05_review/CONV-THANK_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md)必修0，待用户确认本页Gate 1研究/意图包；原四态copy授权保持，三表单Manifest接入及THANK-DEP01–07仍OPEN/NOT_TESTED；Gate 2+、开发及发布未授权。 |
+| CONV-THANK | Gate 0登记完成；Gate 1 APPROVED / CLOSED；CONTENT_INTENT_CONFIRMED=YES | 用户2026-09-08明确授权“关闭CONV-THANK Gate 1”；[批准与关闭V0.1](pages/conversion/thank-you/05_review/CONV-THANK_GATE1_USER_APPROVAL_AND_CLOSURE_V0.1.md)，formal Review `CONVTHANK-G1-PC-20260908-01`必修0；`gate1_path=GAP_RESEARCH`已按V1.5/三路径合同映射。原四态copy授权保持，三表单Manifest接入及THANK-DEP01–07仍OPEN/NOT_TESTED；Gate 2+、开发及发布未授权。 |
 | HOME-001 | Gate 9通过，保留release blockers | Tablet Start Here用户决定及全站运行依赖未在本次关闭；[Gate 9关闭记录](pages/home/07_qa/HOME-001_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md) |
 | MARKET-000 | Gate 9通过，Canonical/308自身P0关闭 | 子市场、APP、转化/Trade等依赖按发布合同复核；[当前Manifest](pages/markets/07_qa/MARKET-000_CURRENT_GATE9_BASELINE_MANIFEST_V0.1.md) |
 | MARKET-EU-001 | HANDED_OFF；Gate 8外部进行中（原登记） | 等外部完成与后续授权；[当前授权Manifest V0.18](pages/markets/06_handoff/MARKET-EU-001_CURRENT_GATE8_AUTHORIZATION_MANIFEST_V0.18.md) |

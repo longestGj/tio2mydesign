@@ -49,7 +49,7 @@
 |---|---|
 | 网站需求 | [PRD V0.4](docs/prd/TiO2_Malaysia_Website_PRD_V0.4.md)与后续明确批准增补共同使用 |
 | 页面身份/URL | [登记册V0.2](docs/architecture/PAGE_REGISTRY_V0.2.md)，当前59页，不代表全部已上线 |
-| 404与共享Thank You准入 | [新增决定V1.0](docs/architecture/SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md) / [批准设计V0.1](docs/superpowers/specs/2026-09-08-404-thank-you-pages-design-v0.1.md)；`SYS-404`与`CONV-THANK`均Gate 0登记完成、Gate 1待执行；[404当前Manifest](pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md) / [Thank You当前Manifest](pages/conversion/thank-you/CONV-THANK_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)。按[执行计划](docs/superpowers/plans/2026-09-08-404-thank-you-gate0-gate1.md)逐页独立审查及用户确认，不跳Gate。 |
+| 404与共享Thank You准入 | [新增决定V1.0](docs/architecture/SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md) / [批准设计V0.1](docs/superpowers/specs/2026-09-08-404-thank-you-pages-design-v0.1.md)；`SYS-404`与`CONV-THANK`均Gate 0登记完成、Gate 1 `APPROVED / CLOSED`；[404当前Manifest](pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md) / [Thank You当前Manifest](pages/conversion/thank-you/CONV-THANK_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)。两页均按[执行计划](docs/superpowers/plans/2026-09-08-404-thank-you-gate0-gate1.md)完成逐页独立审查及用户确认；Gate 2+、开发及发布仍需各自授权。 |
 | 关键词归属/内耗 | [实施主表](research/keyword/11_page_keyword_master.csv)，不是历史研究建议表 |
 | 页面通用任务卡 | [Brief模板](docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.5.md) |
 | 页面类型规则/任务合同 | [Playbooks当前流程入口](docs/page-playbooks/README.md) / [Briefs](docs/page-briefs/)，按本页Manifest选择完整Brief与适用增补 |

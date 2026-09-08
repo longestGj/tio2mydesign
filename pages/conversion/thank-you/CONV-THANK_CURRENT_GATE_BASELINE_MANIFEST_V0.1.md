@@ -1,15 +1,16 @@
 # CONV-THANK Current Gate Baseline Manifest V0.1
 
-日期：2026-09-08。唯一当前权威入口；历史Manifest：无（首次准入）。本Manifest导航批准组合，不取代原决定或精确正文来源。
+日期：2026-09-08。唯一当前权威入口；V0.1完成首次Gate 1用户批准落档，批准内容范围未变。历史Manifest：无（首次准入）。本Manifest导航批准组合，不取代原决定或精确正文来源。
 
 | 字段 | 当前值 |
 |---|---|
 | Page / route / scope | `CONV-THANK` / `/thank-you/` / `tio2-my` |
 | Directory / type | `pages/conversion/thank-you/` / Shared form-result utility page |
 | Language / market | `EN` / `GLOBAL` |
-| Lifecycle | `BRIEF_IN_REVIEW`；`GATE0_REGISTERED`（准入完成） |
-| Gate 1 | `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL / NOT_CLOSED`；独立审查通过，待用户阶段确认 |
-| CONTENT_INTENT_CONFIRMED | `PENDING_USER_GATE1_CONFIRMATION`；四态设计原有正式对外内容授权保持，设计批准不等于本次研究/意图包或Gate 1关闭 |
+| Lifecycle | `APPROVED_FOR_DESIGN`（仅Gate 1研究/方向批准，无后续执行权）；`GATE0_REGISTERED`（准入完成） |
+| Gate 1 | `APPROVED / CLOSED`；2026-09-08独立审查通过、必修0后，用户明确授权“关闭CONV-THANK Gate 1” |
+| CONTENT_INTENT_CONFIRMED | `YES`；四态设计原有正式对外内容授权保持；本次研究/意图包及Gate 1已获明确用户确认 |
+| User approval | [批准与关闭V0.1](05_review/CONV-THANK_GATE1_USER_APPROVAL_AND_CLOSURE_V0.1.md)；`CONVTHANK-G1-USER-20260908-01`；`approval_basis=EXPLICIT_USER_CONFIRMATION`；2026-09-08，范围为本页研究综合、方向/职责及Gate 1关闭 |
 | Mapping / keyword | `APPROVED_USER_PAGE_ADDITION` / `NO_PRIMARY_KEYWORD` |
 | Fact / runtime status | 四态精确文案与行为已获用户确认；实际接收、跳转和会话验证`NOT_TESTED` |
 | SEO | 实际工具路由HTTP `200`；`noindex, nofollow`；sitemap excluded；不建query-variant canonical或转化/订单/交付/批准Schema |
@@ -18,6 +19,7 @@
 | Intake | [Gate 0 V0.1](00_intake/CONV-THANK_GATE0_INTAKE_V0.1.md) |
 | Registry / keyword ownership | [Registry V0.2](../../../docs/architecture/PAGE_REGISTRY_V0.2.md) / [关键词主表本页行](../../../research/keyword/11_page_keyword_master.csv) |
 | Full Brief / Gate 1 outputs | Task 4四核心完成并提交，精确组合见下表；作者`/root/conv_thank_gate1_execute` |
+| Gate 1 path / active mapping | `gate1_path=GAP_RESEARCH`；V1.5/[三路径合同V1.0](../../../docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md)映射确认：复用批准设计/内容，有限核对三表单的receiver、success、direct/invalid与session冲突；不需FULL_RESEARCH或重放Task 4 |
 | Workflow / Playbook | [Gate Workflow V3.2](../../../docs/architecture/GATE_WORKFLOW_V3.2.md) / [Conversion Playbook V0.1](../../../docs/page-playbooks/CONVERSION_PLAYBOOK_V0.1.md)适用共享规则；本页精确状态及覆盖关系以批准设计＋新增决定为准 |
 | Shared owner | Home / Global Chrome owner：Header、Footer、production Logo、fixed RFQ及法律共享区；页面仅消费 |
 | Execution authority | [Gate 0–1计划](../../../docs/superpowers/plans/2026-09-08-404-thank-you-gate0-gate1.md)，2026-09-08用户授权；plan SHA-256 `c28bbcd1cfb88328880ad6ea060c0ad01a32b2f24bd328df6edd16fc09c0744c` |
@@ -42,10 +44,10 @@
 
 ## 开放项与下一动作
 
-独立项目总控审查`CONVTHANK-G1-PC-20260908-01 = REVIEW_PASS`，Reviewer `/root/conv_thank_gate1_project_review`，2026-09-08；被审作者`/root/conv_thank_gate1_execute`，原组合commit `03b4cc3ae9adea6645cbf129ba1aec4db48a43ee`。P0=0、P1=0、其他Required Finding=0；本页Gate 1用户确认`PENDING_USER_GATE1_CONFIRMATION`，仍`NOT_CLOSED`。下一允许动作是总控向用户直接呈现审查§6的四态内容、意图及跨表单影响，收到明确确认后另行落档；本记录不替用户批准。Gate 2+与开发、外发、发布未由本任务授权。
+独立项目总控审查`CONVTHANK-G1-PC-20260908-01 = REVIEW_PASS`，Reviewer `/root/conv_thank_gate1_project_review`，2026-09-08；被审作者`/root/conv_thank_gate1_execute`，原组合commit `03b4cc3ae9adea6645cbf129ba1aec4db48a43ee`。P0=0、P1=0、其他Required Finding=0。用户于2026-09-08明确授权“关闭CONV-THANK Gate 1”，批准记录见[批准与关闭V0.1](05_review/CONV-THANK_GATE1_USER_APPROVAL_AND_CLOSURE_V0.1.md)；本页现为`APPROVED / CLOSED`及`CONTENT_INTENT_CONFIRMED=YES`。Gate 2+与开发、外发、发布仍未由本任务授权。
 
-Task 4原Brief/Research/CSV/Audit/Submission保持提交时原文及hash，其历史草案控制字段由本Manifest与独立审查记录覆盖为当前待用户确认状态；原被审Manifest SHA `3369e7f6be4ebfafbe4b72455bdc4d52f05ad8b0773aced06633b8b7e13d2ea6`由上述commit保留。本次仅更新未批准V0.1的审查控制，不改变批准设计范围。
+Task 4原Brief/Research/CSV/Audit/Submission保持提交时原文及hash，其历史草案控制字段由本Manifest、独立审查及批准记录覆盖为当前已关闭状态；原被审Manifest SHA `3369e7f6be4ebfafbe4b72455bdc4d52f05ad8b0773aced06633b8b7e13d2ea6`由上述commit保留。本次只同步批准控制与三路径映射，不改变批准设计范围。
 
 THANK-DEP01–07的唯一明细在Impact Audit §6，均`OPEN / FUTURE_STAGE_VERIFICATION / NOT_TESTED`，含owner和接受条件：三表单Manifest增补、接收/失败/重试/重复、session四态、同意与无PII分析、robots/sitemap、共享Chrome/法律/七出口、三端可访问性及scope隔离。本页不拥有receiver，query alone不是成功证明；仅positive acknowledgement＋有效匹配session marker显示成功，同会话刷新保留，新会话或过期转direct/invalid。
 
-Gate 6冻结交付、Gate 8实现、Gate 9验证设计§10，未完成不得发布，但不自动否决本次研究。旧Gate 0 Intake保持原时点；本Manifest准入旧状态由base commit `733a78afefb40c13c3d0287078fb58d74353a032`保留，原hash `1ba3a0a92ffb09ee691d2cc59453fb7983c14c91a76e37dde3352345647204db`。本次在尚未批准的V0.1入口登记Gate 1草案，不改变批准设计范围，不创建竞争Manifest，不记录自身哈希。
+Gate 6冻结交付、Gate 8实现、Gate 9验证设计§10，未完成不得发布，但不自动否决已关闭的Gate 1。旧Gate 0 Intake保持原时点；本Manifest准入旧状态由base commit `733a78afefb40c13c3d0287078fb58d74353a032`保留，原hash `1ba3a0a92ffb09ee691d2cc59453fb7983c14c91a76e37dde3352345647204db`。原Gate 1草案状态仅为历史审查时点；当前入口已记录为审查通过并获用户确认，不改变批准设计范围，不创建竞争Manifest，不记录自身哈希。

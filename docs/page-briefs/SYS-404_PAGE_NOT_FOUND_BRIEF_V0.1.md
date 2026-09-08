@@ -9,17 +9,18 @@
 | Route / type | `RUNTIME_FALLBACK`；仅`tio2-my`未知URL；无独立可索引`/404/` / Global system recovery page |
 | Market / language / priority | `GLOBAL` / `EN` / `P1` |
 | Planned domain / site_scope | `https://tio2malaysia.com` / `tio2-my` |
-| Lifecycle / Gate 1 | `BRIEF_IN_REVIEW` / `DRAFT_FOR_PROJECT_CONTROL_REVIEW` |
+| Lifecycle / Gate 1 | `APPROVED_FOR_DESIGN`（仅Gate 1研究/方向批准，无后续执行权） / `APPROVED / CLOSED` |
 | Mapping / verification | `APPROVED_USER_PAGE_ADDITION` / `NO_DIRECT_KEYWORD_TARGET` |
 | Fact / runtime | 精确文案和目标行为`USER_APPROVED_DESIGN`；运行履行`NOT_TESTED` |
-| Content intent checkpoint | 批准设计中的恢复任务、文案与CTA已确认；本轮完整研究综合的`CONTENT_INTENT_CONFIRMED=PENDING_USER_GATE1_CONFIRMATION`，不重复索取原文案授权 |
-| Controller / independent review | `/root`负责接收；不同身份独立审查`PENDING` |
+| Content intent checkpoint | `CONTENT_INTENT_CONFIRMED=YES`；用户于2026-09-08对已直接呈现的SYS-404 Gate 1具体决定包回复“确认。”；原设计精确文案授权保持 |
+| Controller / independent review | `/root`总控接收；`/root/sys404_gate1_project_review`独立审查`SYS404-G1-PC-20260908-01`通过，必修0 |
+| User approval / closure | `SYS404-G1-USER-20260908-01`；`approval_basis=EXPLICIT_USER_CONFIRMATION`；2026-09-08批准本轮研究综合、Page Intent Card、职责/CTA/机器语义边界及Gate 1关闭；[批准记录](../../pages/system/404/05_review/SYS-404_GATE1_USER_APPROVAL_AND_CLOSURE_V0.1.md) |
 | Next Gate / external | Gate 2+ `NOT_AUTHORIZED_BY_THIS_TASK`；`HANDED_OFF=NO`；本任务没有开发、部署或发布权限 |
-| Change | 首次Gate 1草案；保留2026-09-08设计全部精确内容；没有新文案、页面、关键词或功能 |
+| Change | 首次Gate 1批准落档；仅同步当前控制字段和决定记录，研究正文及2026-09-08设计全部精确内容不变；审查前草案保留于提交`a8d76b7e3d4e8fa086d8d804eacc646af37e63ac` |
 
 ## 1. 权威输入与消费顺序
 
-先按根AGENTS/现行工作流解释阶段，再按最新用户决定及精确对象范围消费事实；本Brief是研究草案，不能覆盖批准源。
+先按根AGENTS/现行工作流解释阶段，再按最新用户决定及精确对象范围消费事实；本Brief为用户确认的Gate 1研究/方向合同，精确copy权威仍是批准设计，不能扩大该源的事实或授权。
 
 | 来源 | 版本 / 用途 |
 |---|---|
@@ -150,8 +151,9 @@ Gate 2获独立授权后，消费§2读者任务、§3精确内容、§4问题�
 | 日期 / 对象 | 来源 / 范围 | 状态 |
 |---|---|---|
 | 2026-09-08 / 页面设计 | 设计§12及新增决定；身份、精确文案、动作与行为 | USER_APPROVED_DESIGN |
-| 2026-09-08 / 本轮Gate 1执行 | 执行计划Task 2；四核心与执行提交 | DRAFT_FOR_PROJECT_CONTROL_REVIEW |
-| 未发生 / 独立审查及Gate 1用户确认 | 总控Task 3；研究综合、阶段关闭分别留痕 | PENDING |
+| 2026-09-08 / 本轮Gate 1执行（历史） | 执行计划Task 2；四核心与执行提交，原提交状态保留 | DRAFT_FOR_PROJECT_CONTROL_REVIEW（历史时点） |
+| 2026-09-08 / 独立审查 | `SYS404-G1-PC-20260908-01`；不同身份审查通过，必修0，原报告保留当时待用户确认状态 | PROJECT_CONTROL_REVIEW_PASS |
+| 2026-09-08 / Gate 1用户确认及关闭 | 用户对具体决定包回复“确认。”；`SYS404-G1-USER-20260908-01`，仅本页研究/方向及阶段批准 | APPROVED / CLOSED；CONTENT_INTENT_CONFIRMED=YES |
 | 未发生 / Gate 2+及发布 | 本任务无对应授权 | NOT_AUTHORIZED_BY_THIS_TASK |
 
-执行验收以[提交](../../pages/system/404/05_review/SYS-404_GATE1_EXECUTION_SUBMISSION_V0.1.md)记录：方向、必要问题、精确证据、Gate 2可用性和可行动依赖逐项核对。没有本页新增待用户事实问卷；下一步是总控独立审查及用户Gate 1确认。唯一当前入口为[Manifest](../../pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)。
+执行验收以[提交](../../pages/system/404/05_review/SYS-404_GATE1_EXECUTION_SUBMISSION_V0.1.md)记录：方向、必要问题、精确证据、Gate 2可用性和可行动依赖逐项核对。独立审查及用户Gate 1确认现已完成；Research、Execution Submission和原独立审查中的草案/PENDING仅保留历史时点，不控制当前批准状态。按原串行计划，下一允许动作是总控启动CONV-THANK Gate 1，本次同步未启动；SYS-404 Gate 2+、开发及发布仍未授权。DEP01–DEP07继续NOT_TESTED。唯一当前入口为[Manifest](../../pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.1.md)。

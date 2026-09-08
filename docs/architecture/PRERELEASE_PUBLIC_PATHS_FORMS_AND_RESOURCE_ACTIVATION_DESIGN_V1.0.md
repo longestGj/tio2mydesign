@@ -2,10 +2,12 @@
 
 Date: 2026-09-09
 
-Status: `DRAFT_FOR_USER_SPEC_REVIEW / IMPLEMENTATION_NOT_STARTED`
+Status: `USER_APPROVED / IMPLEMENTATION_AUTHORIZED`
 
 Scope: `tio2-my` local prerelease candidate; D23 governance and D16 implementation handoff
 User direction: combine the form receiver repair, Home and Hub link activation, Documents guide discovery and Resources public inventory work; do not require native 200% zoom, physical-device, screen-reader/AT or forced-colors testing.
+
+Approval record: user confirmed this complete design on 2026-09-09. The approval covers the exact combined prerelease candidate and its reduced test scope; it does not authorize Gate 10, production deployment, indexing or release.
 
 ## 1. Purpose and decision
 

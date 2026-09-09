@@ -693,6 +693,8 @@ git commit -m "test: align prerelease evidence with approved scope"
 
 Workflow authority: apply `D:/23MySec/docs/architecture/PRERELEASE_COMBINED_CANDIDATE_PREMERGE_ACCEPTANCE_RULING_V1.0.md`. Task 9 ends with a clean task-branch Gate 8 handoff; it does not move the branch directly to `main`.
 
+APP-000 E2E applicability authority: apply `D:/23MySec/docs/architecture/APP000_E2E_BROWSER_DIRECT_CONTRACT_SUPERSESSION_RULING_V1.0.md`. Migrate the APP-specific suite to the active five-child/browser-direct contract with fail-closed provider interception; do not archive a still-executable current-looking suite, claim the old private receiver attribution for the active flow, or make a real provider request during this migration test.
+
 Evidence packaging authority: apply `D:/23MySec/docs/architecture/GATE8_EXTERNAL_MANIFEST_SELF_REFERENCE_RULING_V1.0.md`. Commit the declared evidence and human receipt first; generate the final Manifest outside the D16 Git worktree after the final clean evidence HEAD exists.
 
 **Files:**

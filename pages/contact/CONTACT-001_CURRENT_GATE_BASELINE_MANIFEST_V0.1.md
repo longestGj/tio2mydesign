@@ -12,10 +12,11 @@
 | Verification status | `CONTACT_DETAILS_REQUIRED` |
 | Lifecycle | `BRIEF_IN_REVIEW` |
 | Current Gate | Gate 1 |
-| Gate 1 execution status | `DRAFT_FOR_PROJECT_CONTROL_REVIEW` |
-| Content-intent checkpoint | `PENDING_PROJECT_CONTROL_AND_USER_APPROVAL` |
+| Gate 1 execution status | `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL / NOT_CLOSED` |
+| Content-intent checkpoint | `PENDING_USER_GATE1_CONFIRMATION` |
+| Gate 1 path | `GAP_RESEARCH` under Gate 1 Three-Path Contract V1.0; reusable project inputs plus finite Contact-surface decisions |
 | Gate 2 | `NOT_STARTED / NOT_AUTHORIZED` |
-| Manifest date | `2026-09-07` |
+| Manifest date | `2026-09-10` |
 
 This is the single current page-level Manifest for the CONTACT-001 Gate 1 package. It does not approve the direction, contact values, indexing, a later Gate or implementation.
 
@@ -48,6 +49,7 @@ The generic `ABOUT_CONTACT_PLAYBOOK_V0.1.md` remains absent. This package uses t
 | Search Intent Evidence Skill report | `D:\23MySec\pages\contact\01_research\CONTACT-001_SEARCH_INTENT_EVIDENCE_V0.1.md` | `06D299BB3958FAB7F944C8A75108932CAA981F6BB17C7ECDF07EAFABD2D826B1` |
 | Dated search/page-open observation | `D:\23MySec\pages\contact\01_research\evidence\CONTACT-001_SEARCH_OBSERVATION_2026-09-07.md` | `FF0E00F61468993FB415255BB774F71BF24BF1B424B9C8E74A353B11A9932543` |
 | Execution submission | `D:\23MySec\pages\contact\05_review\CONTACT-001_GATE1_EXECUTION_SUBMISSION_V0.1.md` | `86E42C9A92585B4122DECC200A920757F0B50F8D2DE96BAC0EACF3A6AF51BCB9` |
+| Independent project-control review | `D:\23MySec\pages\contact\05_review\CONTACT-001_GATE1_PROJECT_CONTROL_REVIEW_V0.1.md` | Current review record; not self-hashed here |
 
 ## 4. Current recommendation
 
@@ -63,7 +65,7 @@ The generic `ABOUT_CONTACT_PLAYBOOK_V0.1.md` remains absent. This package uses t
 
 | Decision | State |
 |---|---|
-| Page Intent Card and route-first general form | `PENDING_PROJECT_CONTROL_AND_USER_APPROVAL` |
+| Page Intent Card and route-first general form | `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL` |
 | `CONTACT-D01` Taiping address on Contact as Manufacturing Site / Business Correspondence | `PENDING_USER_FACT_CONFIRMATION` |
 | `CONTACT-D02` `info@tio2malaysia.com` expanded to General Inquiries | `PENDING_USER_FACT_CONFIRMATION` |
 | `CONTACT-D03` omit the four `@mytio2.com` role mailboxes from this baseline | `PENDING_USER_DECISION` |
@@ -88,7 +90,8 @@ These items are not automatic prohibitions. Project control must present the exa
 
 No historical file was overwritten or deleted.
 
+The Gate 1 package was prepared when the current Registry contained 57 pages. Registry V0.2 now contains 59 pages after approved additions. This count change does not alter CONTACT-001 identity, URL, keyword ownership or research direction; current Registry and Index control navigation.
+
 ## 8. Stop boundary
 
 No Gate 2 full copy/module order, Gate 3–5 visual, Gate 6–7 handoff, WordPress/Next.js code, development, QA, deployment, publication, DNS or indexing is authorised. No APP page was started. `D:\16Wordpress_nextjs` was not accessed.
-

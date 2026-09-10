@@ -1,0 +1,44 @@
+{
+  "recordId": "CONTACT-001-G3-ASSET-INVENTORY-V0.1",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "candidate": {"path": "CONTACT-001_GATE3_WIREFRAME_V0.1.html", "bytes": 31318, "sha256": "360BF45C2DDDD431603C3BA8102DD67D5F98AFEF37857C6B294DE322E5BEAF18", "role": "single editable frozen source"},
+  "dependencies": [
+    {"path": "dependencies/Inter-Variable.ttf", "bytes": 876576, "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031", "role": "local Inter variable font"},
+    {"path": "dependencies/Inter-OFL.txt", "bytes": 4377, "sha256": "5B9321A4298CFEB6B34354164A1C3AFC3DB114569984C502B9B35D988FD58C57", "role": "font license"},
+    {"path": "dependencies/tio2-malaysia-primary-horizontal-v0.1.svg", "bytes": 4342, "sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C", "role": "shared Header logo"},
+    {"path": "dependencies/tio2-malaysia-reverse-monochrome-v0.1.svg", "bytes": 2725, "sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E", "role": "shared Footer logo"}
+  ],
+  "approvalCore": [
+    {"path": "approval_core/CONTACT-001_G3_1440_FULL.png", "logicalViewport": "1440x900", "physicalPixels": "1440x3388", "scale": "1x", "state": "default full page", "bytes": 330470, "sha256": "8DC0D1C6459A26C23023AFC4801B74C88C390923F62821BD8B9388FFDAFFF9A4"},
+    {"path": "approval_core/CONTACT-001_G3_768_FULL.png", "logicalViewport": "768x900", "physicalPixels": "768x4008", "scale": "1x", "state": "default full page", "bytes": 320175, "sha256": "56CBBD17088A77F24E62C1C6933C16EE7C702AE49D163E6312E41CB67042246D"},
+    {"path": "approval_core/CONTACT-001_G3_390_FULL.png", "logicalViewport": "390x844", "physicalPixels": "390x4927", "scale": "1x", "state": "default full page", "bytes": 303583, "sha256": "ADBD0539924C581D00D7EEB375AF82D0F432CB5EB30076D4154F5EA6899C6AC3"},
+    {"path": "approval_core/CONTACT-001_G3_768_MENU_OPEN.png", "logicalViewport": "768x900", "physicalPixels": "768x900", "scale": "1x", "state": "Menu open; About active", "bytes": 60846, "sha256": "4D67965BBC2058F62092D0BF8BFD71872BF986A00DB19FD4EE744DD306233997"},
+    {"path": "approval_core/CONTACT-001_G3_390_MENU_OPEN.png", "logicalViewport": "390x844", "physicalPixels": "390x844", "scale": "1x", "state": "Menu open; About active", "bytes": 44178, "sha256": "93DF612D5E6E24A0EB34EFFF1D6526993849176EC0999FC1FC4D5402DA3C1C0A"},
+    {"path": "approval_core/CONTACT-001_G3_1440_FORM_FOCUS.png", "logicalViewport": "1440x900", "physicalPixels": "1440x900", "scale": "1x", "state": "Business Email keyboard focus", "bytes": 73810, "sha256": "0E586AD0081BE875535A3F8E4CC934DE7025797FF11CC9526D6FC4918B817939"},
+    {"path": "approval_core/CONTACT-001_G3_390_FORM_VALIDATION_LONG.png", "logicalViewport": "390x844", "physicalPixels": "390x844", "scale": "1x", "state": "validation summary plus long invalid values", "bytes": 59132, "sha256": "E91AF0EA01C5BED3D95C8B9F07242777B42FBA311FF67A5A4F7B5EE93C4792D1"},
+    {"path": "approval_core/CONTACT-001_G3_390_FORM_SUBMITTING.png", "logicalViewport": "390x844", "physicalPixels": "390x844", "scale": "1x", "state": "submitting; values retained", "bytes": 56474, "sha256": "E25BCF277B5CB2D5AC3621DF17A40CBE0F7D18588A7BCBEA38B9213DAEB9B981"},
+    {"path": "approval_core/CONTACT-001_G3_390_FORM_FAILURE_PRESERVED.png", "logicalViewport": "390x844", "physicalPixels": "390x844", "scale": "1x", "state": "service failure; values preserved; retry", "bytes": 54243, "sha256": "77B6B70BDB66ADE72B2428DCFE41EA43271F94566C7F10A6F029395232B43EDD"},
+    {"path": "approval_core/CONTACT-001_G3_390_FORM_SUCCESS.png", "logicalViewport": "390x844", "physicalPixels": "390x844", "scale": "1x", "state": "success; fields cleared", "bytes": 46065, "sha256": "3BD4C2576AADCDC20F9C02C3BEEC65FD59B1A94BF86BFED414D5E8DAC2611028"},
+    {"path": "approval_core/CONTACT-001_G3_390_RESTRICTED_CONTACT.png", "logicalViewport": "390x844", "physicalPixels": "390x844", "scale": "1x", "state": "Manufacturing Site source mismatch; affected sentence/card omitted", "bytes": 66452, "sha256": "CDF416631C41D0329F029635B1E0D26319C24EAE691847410869A35D1859CC06"}
+  ],
+  "records": [
+    {"path": "task-input-card.md", "bytes": 2471, "sha256": "D1D907F939BA0A8628B86F0C00E491337C399B9C7C97B9404E5F8EF9E5A0BF75"},
+    {"path": "input-binding.json", "bytes": 1973, "sha256": "5829520C78A142D534869C13F1483AD321A154E5D00F4612DDB9712C804E0295"},
+    {"path": "design-report.md", "bytes": 6207, "sha256": "EE0E67A514B2C36051D93CD204B647B9F2F288A01118E0F2689827A20E83157A"},
+    {"path": "preflight-record.json", "bytes": 13521, "sha256": "3EB40A24896398665B0E237A1D6F346E628F290A4A1C53A487383BBC97F77B64"},
+    {"path": "freeze-record.json", "bytes": 4412, "sha256": "817D4CBB97A517C783210139EBBE43AC9964C4ADE628D879675516F9FCBF0355"},
+    {"path": "../../05_review/CONTACT-001_GATE3_EXECUTION_EVIDENCE_V0.1/formal-runtime.json", "bytes": 9293, "sha256": "46A399DB36A4BB5B52E4137D0430FBD2A35C0FBD90A2500B4082092706828003"},
+    {"path": "../../05_review/CONTACT-001_GATE3_EXECUTION_EVIDENCE_V0.1/formal-visual-readback.json", "bytes": 1277, "sha256": "79652F34EFD49D36F9B71C28CFD8E87F6FE3CFDC32DB6C8ABDE0C38C237E7FF3"},
+    {"path": "../../05_review/CONTACT-001_GATE3_EXECUTION_EVIDENCE_V0.1/final-identity-check.json", "bytes": 1272, "sha256": "7959B3FAA3CCF266551D5C12D216F5D9C65D1FE2BD157D3F8C5FEB79124F2A19"},
+    {"path": "../../05_review/CONTACT-001_GATE3_EXECUTION_SELF_CHECK_V0.1.md", "bytes": 2812, "sha256": "39BD1839913A9FAF9C42A4579F0497E314788FB9608729CF77C2400A30CF5307"},
+    {"path": "../../05_review/CONTACT-001_GATE3_EXECUTION_SUBMISSION_V0.1.md", "bytes": 2603, "sha256": "06C95BAB31C64272EE1BB83AB60402948273D81FF4CE25ADF91FE7104D77061B"},
+    {"path": "../../05_review/CONTACT-001_GATE3_TO_GATE4_HANDOFF_CANDIDATE_V0.1.md", "bytes": 2886, "sha256": "CB9A8818CC452525D35E70B304AC38D9B4D40E11375436E62C8395B681FF25DC"}
+  ],
+  "diagnosticSupport": {
+    "role": "preflight runtime, readable segments, manual diagnostic readback, and preserved failed-attempt history; not an alternative approval candidate",
+    "formalAssetCount": 11,
+    "sourceOfTruth": "formal-runtime.json plus frozen candidate identity"
+  }
+}

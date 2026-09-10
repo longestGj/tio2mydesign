@@ -1,0 +1,32 @@
+CONTACT-001 Gate 9 independent command results
+Executed: 2026-09-10 Asia/Shanghai
+Repository: D:\16Wordpress_nextjs\.worktrees\contact-001-gate8
+Evidence HEAD: 767e6b76ceceb002b0def0ad7c9e878b043e87e2
+
+1. Official evidence Manifest validation
+Result: PASS
+Output: evidence-validation.json
+SHA-256: AD4BDAFF35959AD3D29C07ACFDB8B96255C36CD0D2486C8FBEEA294134C046FF
+
+2. Official two-round preflight
+Result: PASS; 6/6 HTTP checks passed
+Output: preflight.json
+SHA-256: 8F323F885A641CCAE59687FB6B164E39F5142A4B5E9B54F3E0E5329C5D25128C
+
+3. Independent targeted Vitest
+Command: npx vitest run tests/unit/contact tests/integration/contact tests/infrastructure/contact-integration-contract.test.tsx tests/infrastructure/tio2-my-contact-wordpress.test.ts
+Result: 12 test files passed; 32 tests passed
+
+4. Independent Playwright
+Command: npx playwright test --config=playwright.contact.config.ts
+Result: 10 tests passed; Chromium 5/5 and Firefox 5/5
+Note: the test regenerated two committed runtime JSON timestamps. Both files were restored byte-identically to evidence HEAD, and the D16 worktree was verified clean.
+
+5. Built-in browser
+URL: http://127.0.0.1:4491/contact/
+Result: direct page identity/title and accessibility tree observed; six labelled required fields observed; empty submit produced the six-field error summary and moved focus to the alert; a synthetic local valid payload produced the approved failure alert, preserved all six values and exposed manual retry. Source inspection and runtime evidence confirm the same-origin route returned fail-closed status and made no external request.
+
+6. Native 200% zoom
+Result: NOT_VERIFIED
+Reason: the in-app browser did not change its native zoom after the supported keyboard zoom attempts; viewport metrics remained unchanged. No PASS is claimed.
+

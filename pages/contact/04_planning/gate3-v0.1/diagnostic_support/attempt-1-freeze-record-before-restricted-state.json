@@ -1,0 +1,104 @@
+{
+  "freezeId": "CONTACT-001-G3-FREEZE-V0.1",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "version": "V0.1",
+  "frozenAt": "2026-09-10T08:04:29.806Z",
+  "lifecycle": "FROZEN_CANDIDATE_FOR_FORMAL_GATE3_EVIDENCE",
+  "candidate": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/CONTACT-001_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 30859,
+    "sha256": "CB8100E528DB74C8B16076E2F93FEADF5654246416368784069E6E00F2AEA50C"
+  },
+  "preflight": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/preflight-record.json",
+    "bytes": 13446,
+    "sha256": "7F6881008698945E6734A8005337359EB5C1F331622FFBC03AA0E3CB76CAD96C"
+  },
+  "approvedInputCombination": {
+    "manifest": {
+      "path": "D:/23MySec/pages/contact/CONTACT-001_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md",
+      "bytes": 4458,
+      "sha256": "1744401f0578b757f3b087f28ac97fdb4a8bb9e4abb0289b58c3c7bbe8a2dfd9"
+    },
+    "skeletonA": {
+      "path": "D:/23MySec/pages/contact/04_planning/CONTACT-001_GATE2_CONTENT_SKELETON_V0.1.md",
+      "bytes": 6095,
+      "sha256": "d1c1f11c8fb0c4933b2992226c863fb1464ea50c6d0b8f1b9d82cb3ddc9ed7a0"
+    },
+    "buyerCopyB": {
+      "path": "D:/23MySec/pages/contact/04_planning/CONTACT-001_GATE2_FULL_BUYER_CLEAN_COPY_V0.1.md",
+      "bytes": 4883,
+      "sha256": "bcab77db76fd17a2b6c87801a476ce39e285b43b4eb37af758e4f2b3fab3ea7e"
+    },
+    "contractC": {
+      "path": "D:/23MySec/pages/contact/04_planning/CONTACT-001_GATE2_CONTENT_CONTRACT_V0.1.md",
+      "bytes": 16265,
+      "sha256": "b88bcf12d41257bbd8ea370cbf0e383e3df5d6ef5c90e315e328375c1a2ffa67"
+    },
+    "authorization": {
+      "path": "D:/23MySec/pages/contact/00_governance/CONTACT-001_GATE2_USER_APPROVAL_AND_GATE3_AUTHORIZATION_2026-09-10.md",
+      "bytes": 1675,
+      "sha256": "e9a0d725c8f8a336e3b0bcd7d6c303a265a33843d37b11734e441365fa6ef79e"
+    }
+  },
+  "sharedConsumer": {
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002",
+    "version": "V0.2",
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+    "currentPageId": "ABOUT-001",
+    "currentMapping": "Contact → About",
+    "inheritedEvidence": {
+      "path": "D:/23MySec/99_workspace/gate3-v02-validation/shared-consumer-v0.2/shared-consumer-validation.json",
+      "bytes": 7778,
+      "sha256": "373993fb476f86d454600c75d0a4b99ae4f9a9fa7547a6eb8ed099b05f477683",
+      "scope": "52 shared package assertions at 1440/768/390, failure 0; cited as shared validation rather than current-page runtime"
+    }
+  },
+  "runtimeDependencies": [
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/dependencies/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/dependencies/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "formalRenderContract": {
+    "viewports": [
+      "1440×900 logical @1x",
+      "768×900 logical @1x",
+      "390×844 logical @1x"
+    ],
+    "fullPageStates": [
+      "default at 1440",
+      "default at 768",
+      "default at 390"
+    ],
+    "representativeStates": [
+      "768 menu open",
+      "390 menu open",
+      "1440 Business Email focus",
+      "390 validation",
+      "390 submitting",
+      "390 failure with preserved input",
+      "390 success"
+    ],
+    "evidenceBoundary": "Submitting, failure and success are LOCAL_SIMULATION; no external or production submission is permitted."
+  },
+  "invalidationRule": "Any byte change to the candidate or any bound approved input/shared/runtime dependency invalidates this freeze and all later formal exports."
+}

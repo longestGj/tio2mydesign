@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "contact-001-gate9-targeted-recheck-v1.1",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "checkedAt": "2026-09-10T19:43:41+08:00",
+  "reviewId": "CONTACT-001-G9-IR-20260910-R2",
+  "packageId": "CONTACT-001-G6-HANDOFF-20260910-02",
+  "scopeDecisionId": "CONTACT-G9-SCOPE-20260910-01",
+  "web3FormsDecisionId": "CONTACT-W3F-20260910-01",
+  "mailboxEvidenceId": "CONTACT-MAILBOX-RECEIPT-20260910-01",
+  "identity": {
+    "implementationCommit": "1f3fed832172da5646e504ed339e493ec6d2630f",
+    "evidenceHead": "344b1b51fb817f1629fc8588aec3d3c1705dcd32",
+    "buildId": "R4PFrSSFrfr6gvnXpPvxH",
+    "runtime": "http://127.0.0.1:4491"
+  },
+  "scopeOverrides": [
+    {"check":"physical/touch device","status":"NOT_TESTED_NO_LONGER_REQUIRED_BY_USER_DECISION"},
+    {"check":"screen-reader/assistive technology runtime","status":"NOT_TESTED_NO_LONGER_REQUIRED_BY_USER_DECISION"}
+  ],
+  "conditions": [
+    {"id":"CONTACT-G9-01","status":"PASS"},
+    {"id":"CONTACT-G9-02","status":"PASS"},
+    {"id":"CONTACT-G9-03","status":"PASS"},
+    {"id":"CONTACT-G9-04","status":"PASS"},
+    {"id":"CONTACT-G9-05","status":"PASS"},
+    {"id":"CONTACT-G9-06","status":"PARTIAL","reason":"Strict predicate passes; actual browser-success evidence lacks the complete sanitized provider transaction trace required by the contract."},
+    {"id":"CONTACT-G9-07","status":"PARTIAL","reason":"The user confirmed at least one matching mailbox receipt. Exact per-attempt correlation, account/config attestation and monitoring evidence remain incomplete."},
+    {"id":"CONTACT-G9-08","status":"PASS","reason":"User approved Request Documents-equivalent lightweight flow; pending guard and no-auto-retry pass, with no durable-idempotency claim."},
+    {"id":"CONTACT-G9-09","status":"PARTIAL","reason":"Current Privacy copy does not yet accurately enumerate the Contact Web3Forms flow and six-field data set."},
+    {"id":"CONTACT-G9-10","status":"PASS"},
+    {"id":"CONTACT-G9-11","status":"PASS_WITH_RELEASE_HOLD","reason":"Rendered metadata and robots pass; sitemap exclusion correctly preserves the release hold."},
+    {"id":"CONTACT-G9-12","status":"PASS"},
+    {"id":"CONTACT-G9-13","status":"PASS"},
+    {"id":"CONTACT-G9-14","status":"PASS"},
+    {"id":"CONTACT-G9-15","status":"NOT_VERIFIED","reason":"Keyboard/focus, reduced motion, Chromium/Firefox, semantics and Axe pass; native browser 200% remains unverified. Device/AT checks were removed by user decision."},
+    {"id":"CONTACT-G9-16","status":"PASS"}
+  ],
+  "counts": {"passOrPassWithHold":12,"partial":3,"notVerified":1,"fail":0},
+  "layers": {
+    "contentStatus":"PASS",
+    "pageGate9Status":"NOT_PASS",
+    "integrationStatus":"PARTIAL",
+    "releaseStatus":"NOT_READY"
+  },
+  "mailboxReceipt":"USER_CONFIRMED_AT_LEAST_ONE_MATCHING_MESSAGE_RECEIVED",
+  "gate8Disposition":"REPAIR_ACCEPTED_NO_NEW_CODE_REPAIR_REQUEST",
+  "notice":"GATE9_TARGETED_RECHECK_SUPPLEMENTED_BY_MAILBOX_CONFIRMATION"
+}
+

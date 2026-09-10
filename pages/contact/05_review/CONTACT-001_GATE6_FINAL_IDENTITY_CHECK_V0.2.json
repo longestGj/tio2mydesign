@@ -1,0 +1,103 @@
+{
+  "recordId": "CONTACT-001-G6-V02-FINAL-IDENTITY-CHECK-01",
+  "dispatchId": "CONTACT-001-G6-EXEC-20260910-02",
+  "reviewRequestId": "CONTACT-001-G6-IR-01",
+  "executedAt": "2026-09-10T17:47:09.0586099+08:00",
+  "candidate": {
+    "path": "D:\\23MySec\\pages\\contact\\06_handoff\\CONTACT-001_GATE6_HANDOFF_PACKAGE_V0.2.md",
+    "bytes": 49247,
+    "sha256": "5AEB5C1C9009A0F771C89C03F47526F8813893FD672041E7D28FBE5E3157757D"
+  },
+  "checks": [
+    {
+      "id": "formal-file-identities",
+      "status": "PASS",
+      "evidence": [
+        {
+          "path": "D:\\23MySec\\pages\\contact\\06_handoff\\CONTACT-001_GATE6_HANDOFF_PACKAGE_V0.2.md",
+          "bytes": 49247,
+          "expectedBytes": 49247,
+          "sha256": "5AEB5C1C9009A0F771C89C03F47526F8813893FD672041E7D28FBE5E3157757D",
+          "expectedSha256": "5AEB5C1C9009A0F771C89C03F47526F8813893FD672041E7D28FBE5E3157757D",
+          "match": true
+        },
+        {
+          "path": "D:\\23MySec\\pages\\contact\\05_review\\CONTACT-001_GATE6_EXECUTION_VALIDATION_V0.2.json",
+          "bytes": 9377,
+          "expectedBytes": 9377,
+          "sha256": "047E71C69299F30D761D3D601F80B96256070EF933B8F80E7D79A8CD59B37985",
+          "expectedSha256": "047E71C69299F30D761D3D601F80B96256070EF933B8F80E7D79A8CD59B37985",
+          "match": true
+        },
+        {
+          "path": "D:\\23MySec\\pages\\contact\\05_review\\CONTACT-001_GATE6_EXECUTION_SELF_CHECK_V0.2.md",
+          "bytes": 7102,
+          "expectedBytes": 7102,
+          "sha256": "ECE4113D42E79BCD1F519AD347379E9866553B9B125D02CE1FC22B84F293EF56",
+          "expectedSha256": "ECE4113D42E79BCD1F519AD347379E9866553B9B125D02CE1FC22B84F293EF56",
+          "match": true
+        },
+        {
+          "path": "D:\\23MySec\\pages\\contact\\05_review\\CONTACT-001_GATE6_EXECUTION_SUBMISSION_V0.2.md",
+          "bytes": 5746,
+          "expectedBytes": 5746,
+          "sha256": "277B183ADC7D21A3CDF8AF7A8D68311032D8A1B05AE8E38D3778A9113AA2A145",
+          "expectedSha256": "277B183ADC7D21A3CDF8AF7A8D68311032D8A1B05AE8E38D3778A9113AA2A145",
+          "match": true
+        }
+      ]
+    },
+    {
+      "id": "v0.1-preserved",
+      "status": "PASS",
+      "evidence": "3/3 V0.1 files match pre-V0.2 hashes"
+    },
+    {
+      "id": "execution-validation",
+      "status": "PASS",
+      "evidence": "pass=7/7; package=5AEB5C1C9009A0F771C89C03F47526F8813893FD672041E7D28FBE5E3157757D"
+    },
+    {
+      "id": "stable-id-coverage",
+      "status": "PASS",
+      "evidence": "G9=01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16; DEP=01,02,03,04,05,06,07,08,09,10,11,12"
+    },
+    {
+      "id": "scope-surface-coverage",
+      "status": "PASS",
+      "evidence": "all nine required scope surfaces plus fail-closed behavior"
+    },
+    {
+      "id": "critical-contract-coverage",
+      "status": "PASS",
+      "evidence": "six fields, plain email, strict success, failure/retry, no fallback, search, retained boundary, code identity and evidence manifest"
+    },
+    {
+      "id": "open-items-returned",
+      "status": "PASS",
+      "evidence": "all 12 dependencies and both Controller synchronization notes are returned"
+    },
+    {
+      "id": "review-separation",
+      "status": "PASS",
+      "evidence": "review ID present; different identity required; self-check not independent review"
+    },
+    {
+      "id": "lifecycle-stop",
+      "status": "PASS",
+      "evidence": "draft/not approved; Gate 8 not started; no Gate 6 closure claim"
+    }
+  ],
+  "summary": {
+    "total": 9,
+    "pass": 9,
+    "fail": 0
+  },
+  "errors": [],
+  "openDependencies": 12,
+  "controllerSyncNotes": 2,
+  "lifecycle": "DRAFT_FOR_PROJECT_CONTROL_REVIEW_NOT_APPROVED",
+  "gate6": "OPEN_PENDING_INDEPENDENT_REVIEW",
+  "gate8": "NOT_STARTED",
+  "d16Access": "NONE"
+}

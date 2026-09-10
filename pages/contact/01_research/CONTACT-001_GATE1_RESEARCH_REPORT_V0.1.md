@@ -7,8 +7,8 @@
 | Page ID | `CONTACT-001` |
 | URL | `/contact/` |
 | Date | `2026-09-07` |
-| Status | `DRAFT_FOR_PROJECT_CONTROL_REVIEW` |
-| Lifecycle | `BRIEF_IN_REVIEW` |
+| Status | `APPROVED_GATE1_RESEARCH_BASELINE / USER_DECISIONS_INTEGRATED_2026-09-10` |
+| Lifecycle | `APPROVED_FOR_DESIGN / GATE2_NOT_AUTHORIZED` |
 | Gate 2 | `NOT_STARTED / NOT_AUTHORIZED` |
 
 ## 1. Gate 1 question
@@ -67,21 +67,22 @@ Conclusion: the page remains viable as a necessary site utility and branded navi
 | Read company/origin proof | No deep narrative | ABOUT-001 and Documents/Resources owners |
 | Obtain a promised reply time | No | No approved SLA |
 
-## 5. Recommended page direction
+## 5. Current page direction
 
-`PROCEED_AS_ROUTE_FIRST_GENERAL_CONTACT_UTILITY / PENDING_USER_DECISION`
+`GENERAL_CONTACT_FIRST_WITH_SPECIALIST_ROUTING_SUPPORT / USER_APPROVED`
 
-The page should first help readers avoid the wrong form, then provide one compact general-inquiry action. This creates unique value without becoming another RFQ or a directory of unapproved channels.
+The site-wide entry audit found that the explicit body links come from ABOUT-001 twice and SYS-404 once, while the shared Footer and direct branded/contact visits provide the broader utility context. These readers expect an actual company contact channel first. The page therefore answers general contact intent before presenting the three specialist routes as supporting choices.
 
 Recommended interaction order for Gate 2 exploration:
 
 1. Identify Contact and the operating company.
-2. Offer three distinct specialist paths: quote, sample and documents.
-3. Present the minimal general-inquiry form for everything else.
-4. Present the approved general email/location facts if the user approves their Contact scope.
-5. Provide a short Privacy Policy link and reader-centred success/failure states.
+2. Present the approved visible general contact channel and `Send a General Inquiry` action.
+3. Explain three distinct supporting specialist paths: quote, documents and sample.
+4. Present the minimal general-inquiry form without specialist fields.
+5. Present the approved location facts if the user approves their Contact scope.
+6. Provide a short Privacy Policy link and reader-centred success/failure states.
 
-This is a direction, not final full copy or module order.
+This direction and priority were approved by the user on 2026-09-10. It is not final Gate 2 copy or a locked final module order.
 
 ## 6. CTA and form recommendation
 
@@ -109,9 +110,11 @@ The current Claim Register contains 22 exact claims/relations.
 - Privacy route and no-Terms architecture.
 - Shared Chrome current mapping and fixed RFQ.
 
-### Concrete user decisions required
+### Concrete user decisions
 
-- `CONTACT-D01`: use the Taiping address on Contact as `Manufacturing Site / Business Correspondence`, not as registered office or visitor address.
+All items in this historical question list were resolved by the user on 2026-09-10; the current results are recorded in the page Manifest and Gate 1 closure record.
+
+- `CONTACT-D01`: use the exact Taiping address on Contact with the public label `Manufacturing Site`; do not add registered-office, visitor, map, directions or opening-hours meaning.
 - `CONTACT-D02`: use `info@tio2malaysia.com` for `General Inquiries` on Contact.
 - `CONTACT-D03`: omit the four `@mytio2.com` role mailboxes from this site's baseline to avoid cross-domain confusion.
 - `CONTACT-D04`: omit a phone/WhatsApp card from this baseline unless a number and purpose are supplied; this is not a permanent rejection.
@@ -140,26 +143,25 @@ Do not generate hidden `ContactPoint`, telephone, department, opening hours, SLA
 
 - Direct-email users may find a form slower; approving `info@tio2malaysia.com` for general inquiries would provide a parallel channel.
 - Showing four related-domain department emails could appear useful, but it may confuse site identity and replicate functions already owned by dedicated forms.
-- A general form without route-first guidance would attract RFQ/sample/document submissions and duplicate data contracts.
+- A general form without nearby specialist-route guidance could attract RFQ/sample/document submissions and duplicate data contracts. The approved solution is concise supporting guidance, not placing the three specialist routes ahead of the general contact answer.
 - Excessive disclaimer text would harm the final reader experience. Governance/release limits stay in contracts; public copy should explain tasks and next steps.
 - A missing generic About/Contact Playbook is a process gap, not evidence that the page must stop. Governance §10.8 plus a user-approved page Brief can provide the page-specific contract.
 
 ## 10. Gate 2 input package
 
-If project control and the user approve the direction, Gate 2 receives:
+After the remaining Gate 1 decisions are resolved and Gate 1 is formally closed, Gate 2 receives:
 
-1. Route-first utility Page Intent Card.
+1. User-approved general-contact-first Page Intent Card and the site-wide entry/role audit.
 2. `NO_PRIMARY_KEYWORD` and hard cannibalisation boundary.
-3. Four specialist/general task paths and their owners.
+3. One primary general-contact task plus three supporting specialist paths and their owners.
 4. Six-field minimum general form for challenge/refinement.
 5. The four Contact-specific content decisions and exact approved values.
 6. Shared Chrome V0.5 and no-Terms legal architecture.
 7. Answer-ready/GEO concepts and visible/machine-readable parity rules.
 8. Later implementation dependencies for processor, receiver, privacy parity, rate/limit failure and route QA.
 
-Gate 2 is not authorised by this submission.
+Gate 1 is approved and closed. Gate 2 is not authorised by the Gate 1 closure.
 
 ## 11. Agent recommendation and stop
 
-Submit the Page Intent Card and `CONTACT-D01`–`D04` for independent project-control review, then present the concrete choices to the user. Do not ask the user to infer them from file names. No full copy, final module order, visual, Schema contract, development, deployment, publication or indexing has been produced or authorised.
-
+The Page Intent Card direction has passed project-control review and was approved by the user on 2026-09-10. Present `CONTACT-D01`–`D05` as concrete choices, then close Gate 1 only after those decisions and the final combination have been verified. Do not ask the user to infer them from file names. No full copy, final module order, visual, Schema contract, development, deployment, publication or indexing has been produced or authorised.

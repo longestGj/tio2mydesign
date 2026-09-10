@@ -5,15 +5,15 @@
 | Field | Value |
 |---|---|
 | Page | `CONV-RFQ` / `/request-a-quote/` |
-| Current version | Gate 7 V1.1 handed-off authority |
-| Current gate | Gate 8 external development |
+| Current version | Gate 9 current baseline Manifest V1.6; Gate 7 V1.1 authority inherited |
+| Current gate | Gate 9 read-only QA complete; 12/12 conditions pass; one live attempt was inconclusive and the external receiver root remains |
 | Skeleton decision | `USER_CONFIRMED_WITH_HERO_REVERT_TO_ORIGINAL` |
 | Hero rebase | `CONV-RFQ-G2-HERO-USER-REBASE-01 = PROJECT_CONTROL_REVIEW_PASS / CLOSED` |
 | Gate 2 | `FULL_COPY_AND_MODULE_ORDER_CONFIRMED / APPROVED / CLOSED` |
 | Approval source | `USER_APPROVAL_2026-09-01 + PROJECT_CONTROL_REVIEW_PASS` |
 | Current review | `CONV-RFQ-G7-PCR-02 = PROJECT_CONTROL_REVIEW_PASS / CLOSED` |
-| Status | `HANDED_OFF / EXTERNAL_DEVELOPMENT_IN_PROGRESS / RECEIVER_ENVIRONMENT_BLOCKER_OPEN` |
-| Current Manifest | [CONV-RFQ_GATE7_MANIFEST_V1.1.md](06_handoff/CONV-RFQ_GATE7_MANIFEST_V1.1.md) |
+| Status | `READ_ONLY_QA_COMPLETE / GATE9_NOT_PASS / ENVIRONMENT_BLOCKED` |
+| Current Manifest | [CONV-RFQ_CURRENT_GATE9_BASELINE_MANIFEST_V1.6.md](05_review/CONV-RFQ_CURRENT_GATE9_BASELINE_MANIFEST_V1.6.md) |
 | Gate 1 | `APPROVED / CLOSED`; `CONTENT_INTENT_CONFIRMED / CLOSED` |
 | Gate 3 | `USER_APPROVED / CLOSED` |
 | Gate 4–5 authority | Gate 4 and Gate 5 `USER_APPROVED / CLOSED` |
@@ -21,13 +21,21 @@
 | Gate 6 | `PROJECT_CONTROL_REVIEW_PASS / CLOSED` |
 | Gate 7 | `PROJECT_CONTROL_REVIEW_PASS / CLOSED` |
 | Handoff | `HANDED_OFF=YES` → `01My首页开发` / `01a05595-2a2c-7ef0-9be4-f55a42043bb6` |
-| Gate 8 / development | `AUTHORIZED / EXTERNAL_DEVELOPMENT_IN_PROGRESS` |
-| Receiver | `/request-a-quote/` reported HTTP 200 at commit `616193f`; receiver `UNAVAILABLE_IN_CURRENT_ENVIRONMENT` |
-| Gate 9 | `NOT_STARTED / WAITING_FOR_PRODUCTION_EQUIVALENT_RESULT` |
+| Gate 8 / development | `IMPLEMENTED / INTEGRATED_LOCAL_MAIN / E01_CLOSED / LIVE_ATTEMPT_EXECUTED_ONCE` |
+| Receiver | Approved recipient `mike.longestgj@gmail.com`; one authorized submission action received no completed provider response, inbox check is pending, and no retry is authorized |
+| Gate 9 | `READ_ONLY_QA_COMPLETE / NOT_PASS / ENVIRONMENT_BLOCKED / LIVE_ATTEMPT_INCONCLUSIVE`; 12 PASS / 0 FAIL / 0 NOT_VERIFIED |
 
 ## Review first
 
-- [Gate 8 receiver environment blocker record V1.0](05_review/CONV-RFQ_GATE8_RECEIVER_ENVIRONMENT_BLOCKER_RECORD_V1.0.md)
+- [Current Gate 9 baseline Manifest V1.6](05_review/CONV-RFQ_CURRENT_GATE9_BASELINE_MANIFEST_V1.6.md)
+- [Web3Forms live-attempt independent review V1.0](05_review/CONV-RFQ_GATE9_WEB3FORMS_LIVE_ATTEMPT_REVIEW_V1.0.md)
+- [Receiver mailbox user confirmation V1.0](05_review/CONV-RFQ_RECEIVER_MAILBOX_USER_CONFIRMATION_V1.0.md)
+- [Receiver environment blocker V1.3](05_review/CONV-RFQ_GATE8_RECEIVER_ENVIRONMENT_BLOCKER_RECORD_V1.3.md)
+- [Gate 9 E01 targeted recheck V1.0](05_review/CONV-RFQ_GATE9_E01_TARGETED_RECHECK_V1.0.md)
+- [Gate 9 E01 closure notice V1.0](05_review/CONV-RFQ_GATE9_E01_CLOSURE_NOTICE_V1.0.md)
+- [Gate 9 status refresh acceptance V1.0](05_review/CONV-RFQ_GATE9_STATUS_REFRESH_ACCEPTANCE_V1.0.md)
+- [Current receiver environment blocker record V1.1](05_review/CONV-RFQ_GATE8_RECEIVER_ENVIRONMENT_BLOCKER_RECORD_V1.1.md)
+- [Gate 9 environment-blocked return notice V1.0](05_review/CONV-RFQ_GATE9_ENVIRONMENT_BLOCKED_RETURN_NOTICE_V1.0.md)
 
 1. [Gate 8 user authorization and handoff record V1.0](05_review/CONV-RFQ_GATE8_USER_AUTHORIZATION_AND_HANDOFF_RECORD_V1.0.md)
 2. [Gate 7 Manifest V1.1 — current handed-off authority](06_handoff/CONV-RFQ_GATE7_MANIFEST_V1.1.md)
@@ -65,7 +73,7 @@ request-a-quote/
 
 ## Historical disposition
 
-Gate 1–6 are closed. `CONV-RFQ-G7-PCR-02 = PROJECT_CONTROL_REVIEW_PASS / CLOSED`; the V1.1 package is the current handed-off authority. The user authorized Gate 8 on 2026-09-01 and the package was sent to the existing `01My首页开发` task. Lifecycle is `HANDED_OFF`; Gate 8 is `AUTHORIZED / EXTERNAL_DEVELOPMENT_IN_PROGRESS`. A 2026-09-04 coordination probe at commit `616193f` reported `/request-a-quote/` HTTP 200 but receiver unavailable in the current environment. The receiver release blocker remains open; this is not CONV-RFQ Gate 8 completion or Gate 9 entry evidence. CONV-RFQ implements only its page/form/receiver/local outputs and consumes independently owned Legal/Privacy, Global Chrome/consent, CONV-SAMPLE and CONV-DOC dependencies. Gate 9 remains not started and waits for a production-equivalent result. The later V1.2 administrative candidate is non-authority and was not handed off.
+Gate 1–7 are closed. `CONV-RFQ-G7-PCR-02 = PROJECT_CONTROL_REVIEW_PASS / CLOSED`; V1.1 remains the inherited approved authority. Gate 8 implementation and targeted fixes are complete and integrated in local main. The 2026-09-08 independent Gate 9 checks verified the form contract and closed native Chromium 200% zoom, giving 12 PASS / 0 FAIL / 0 NOT_VERIFIED. The user confirmed `mike.longestgj@gmail.com` as the approved internal receiving mailbox and authorized one Web3Forms synthetic test. Gate 8 initiated exactly one submission action, but the browser received no completed provider response within 20 seconds; a credential-free GET diagnostic encountered a Cloudflare challenge. The outcome is `PROVIDER_ACCEPTANCE_NOT_PROVED / INBOX_CONFIRMATION_PENDING / NO_RETRY`. Overall Gate 9 remains `NOT_PASS / ENVIRONMENT_BLOCKED / LIVE_ATTEMPT_INCONCLUSIVE` because production account/key binding, accountable ownership, provider-positive acceptance, correlated inbox receipt and operational Privacy evidence remain open. CONV-RFQ implements only its page/form/receiver/local outputs and consumes independently owned Legal/Privacy, Global Chrome/consent, CONV-SAMPLE and CONV-DOC dependencies. The V1.2 administrative candidate remains non-authority.
 
 The five V1.2.1 Gate 1 control files are preserved as:
 

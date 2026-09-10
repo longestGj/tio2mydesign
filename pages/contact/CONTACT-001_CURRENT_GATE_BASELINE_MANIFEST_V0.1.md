@@ -1,4 +1,6 @@
-# CONTACT-001 Current Gate Baseline Manifest V0.1
+# CONTACT-001 Historical Gate Baseline Manifest V0.1
+
+> `HISTORICAL / SUPERSEDED_BY_CONTACT-001_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md`. This file preserves the truthful 2026-09-10 route-first review state and no longer controls the current Page Intent Card.
 
 ## 0. Control
 

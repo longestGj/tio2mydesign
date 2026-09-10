@@ -1,0 +1,2997 @@
+{
+  "status": "PASS",
+  "pageId": "CONV-THANK",
+  "evidenceType": [
+    "ACTUAL_RUNTIME",
+    "STATIC_VISUAL",
+    "SOURCE_INSPECTION",
+    "LOCAL_SIMULATION"
+  ],
+  "source": {
+    "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/CONV-THANK_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+    "bytes": 16507,
+    "sha256": "1c0b12a4b21f4eb3be2e2b9daed569c1d3f9e30752a5591127824569879a7b28"
+  },
+  "formal": true,
+  "browser": "Chrome / Playwright, DPR 1",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 768,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "states": [
+    "quote",
+    "documents",
+    "sample",
+    "direct"
+  ],
+  "checks": [
+    {
+      "name": "frozen source identity",
+      "status": "PASS",
+      "detail": {
+        "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/CONV-THANK_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+        "bytes": 16507,
+        "sha256": "1c0b12a4b21f4eb3be2e2b9daed569c1d3f9e30752a5591127824569879a7b28"
+      }
+    },
+    {
+      "name": "formal directory empty",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "quote 1440 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "quote",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your quotation request.",
+        "body": "Our team will review the details and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "Go to Homepage",
+            "/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "quote 1440 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage"
+      }
+    },
+    {
+      "name": "quote 1440 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "quote",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your quotation request.",
+        "body": "Our team will review the details and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "Go to Homepage",
+            "/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "quote 1440 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1150,
+        "footerBottom": 1150.265625,
+        "panelWidth": 860,
+        "targets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60,
+            "left": 120,
+            "right": 300
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83,
+            "left": 618.234375,
+            "right": 662.234375
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 83,
+            "left": 678.234375,
+            "right": 732.515625
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83,
+            "left": 748.515625,
+            "right": 808.4375
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83,
+            "left": 824.4375,
+            "right": 907.609375
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83,
+            "left": 923.609375,
+            "right": 999.9375
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83,
+            "left": 1015.9375,
+            "right": 1086.453125
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83,
+            "left": 1102.453125,
+            "right": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48,
+            "left": 1170.453125,
+            "right": 1320
+          },
+          {
+            "text": "Explore Products",
+            "width": 174.4375,
+            "height": 50.390625,
+            "left": 541.109375,
+            "right": 715.546875
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 171.328125,
+            "height": 50.390625,
+            "left": 727.546875,
+            "right": 898.875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 535.296875,
+            "right": 579.296875
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 535.296875,
+            "right": 589.578125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 595.21875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 618.46875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 812.859375,
+            "right": 889.1875
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 812.859375,
+            "right": 883.375
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 812.859375,
+            "right": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 1090.421875,
+            "right": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 120,
+            "right": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 231.8125,
+            "right": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 373.546875,
+            "right": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 482.3125,
+            "right": 587.71875
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "quote 1440 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "quote 1440 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "quote 1440 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/"
+      }
+    },
+    {
+      "name": "quote 768 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "quote",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your quotation request.",
+        "body": "Our team will review the details and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "Go to Homepage",
+            "/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "quote 768 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage"
+      }
+    },
+    {
+      "name": "quote 768 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "quote",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your quotation request.",
+        "body": "Our team will review the details and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "Go to Homepage",
+            "/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "quote 768 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 1344,
+        "footerBottom": 1343.546875,
+        "panelWidth": 720,
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 621.46875,
+            "right": 679.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 687.65625,
+            "right": 752
+          },
+          {
+            "text": "Explore Products",
+            "width": 174.4375,
+            "height": 50.390625,
+            "left": 205.109375,
+            "right": 379.546875
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 171.328125,
+            "height": 50.390625,
+            "left": 391.546875,
+            "right": 562.875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 32,
+            "right": 76
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 32,
+            "right": 86.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 32,
+            "right": 91.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 32,
+            "right": 115.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 400,
+            "right": 476.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 400,
+            "right": 470.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 400,
+            "right": 444
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 32,
+            "right": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 32,
+            "right": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 143.8125,
+            "right": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 285.546875,
+            "right": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 394.3125,
+            "right": 499.71875
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "quote 768 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "quote 768 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "quote 768 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/"
+      }
+    },
+    {
+      "name": "quote 390 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "quote",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your quotation request.",
+        "body": "Our team will review the details and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "Go to Homepage",
+            "/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "quote 390 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage"
+      }
+    },
+    {
+      "name": "quote 390 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "quote",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your quotation request.",
+        "body": "Our team will review the details and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "Go to Homepage",
+            "/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "quote 390 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 1435,
+        "footerBottom": 1435.234375,
+        "panelWidth": 350,
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 243.46875,
+            "right": 301.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 309.65625,
+            "right": 374
+          },
+          {
+            "text": "Explore Products",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 20,
+            "right": 64
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 20,
+            "right": 74.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 20,
+            "right": 79.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 20,
+            "right": 103.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 205,
+            "right": 281.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 205,
+            "right": 275.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 205,
+            "right": 249
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 20,
+            "right": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 20,
+            "right": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 131.8125,
+            "right": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 273.546875,
+            "right": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 20,
+            "right": 125.40625
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "quote 390 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "quote 390 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "quote 390 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/"
+      }
+    },
+    {
+      "name": "documents 1440 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "documents",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your document request.",
+        "body": "Our team will review the requested documents and contact you using the information provided.",
+        "actions": [
+          [
+            "Return to Documents",
+            "/documents/"
+          ],
+          [
+            "Explore Products",
+            "/products/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "documents 1440 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products"
+      }
+    },
+    {
+      "name": "documents 1440 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "documents",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your document request.",
+        "body": "Our team will review the requested documents and contact you using the information provided.",
+        "actions": [
+          [
+            "Return to Documents",
+            "/documents/"
+          ],
+          [
+            "Explore Products",
+            "/products/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "documents 1440 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1180,
+        "footerBottom": 1179.953125,
+        "panelWidth": 860,
+        "targets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60,
+            "left": 120,
+            "right": 300
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83,
+            "left": 618.234375,
+            "right": 662.234375
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 83,
+            "left": 678.234375,
+            "right": 732.515625
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83,
+            "left": 748.515625,
+            "right": 808.4375
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83,
+            "left": 824.4375,
+            "right": 907.609375
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83,
+            "left": 923.609375,
+            "right": 999.9375
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83,
+            "left": 1015.9375,
+            "right": 1086.453125
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83,
+            "left": 1102.453125,
+            "right": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48,
+            "left": 1170.453125,
+            "right": 1320
+          },
+          {
+            "text": "Return to Documents",
+            "width": 206.03125,
+            "height": 50.390625,
+            "left": 523.765625,
+            "right": 729.796875
+          },
+          {
+            "text": "Explore Products",
+            "width": 174.4375,
+            "height": 50.390625,
+            "left": 741.796875,
+            "right": 916.234375
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 535.296875,
+            "right": 579.296875
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 535.296875,
+            "right": 589.578125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 595.21875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 618.46875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 812.859375,
+            "right": 889.1875
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 812.859375,
+            "right": 883.375
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 812.859375,
+            "right": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 1090.421875,
+            "right": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 120,
+            "right": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 231.8125,
+            "right": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 373.546875,
+            "right": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 482.3125,
+            "right": 587.71875
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "documents 1440 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "documents 1440 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/documents/"
+      }
+    },
+    {
+      "name": "documents 1440 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "documents 768 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "documents",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your document request.",
+        "body": "Our team will review the requested documents and contact you using the information provided.",
+        "actions": [
+          [
+            "Return to Documents",
+            "/documents/"
+          ],
+          [
+            "Explore Products",
+            "/products/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "documents 768 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products"
+      }
+    },
+    {
+      "name": "documents 768 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "documents",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your document request.",
+        "body": "Our team will review the requested documents and contact you using the information provided.",
+        "actions": [
+          [
+            "Return to Documents",
+            "/documents/"
+          ],
+          [
+            "Explore Products",
+            "/products/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "documents 768 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 1344,
+        "footerBottom": 1343.546875,
+        "panelWidth": 720,
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 621.46875,
+            "right": 679.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 687.65625,
+            "right": 752
+          },
+          {
+            "text": "Return to Documents",
+            "width": 206.03125,
+            "height": 50.390625,
+            "left": 187.765625,
+            "right": 393.796875
+          },
+          {
+            "text": "Explore Products",
+            "width": 174.4375,
+            "height": 50.390625,
+            "left": 405.796875,
+            "right": 580.234375
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 32,
+            "right": 76
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 32,
+            "right": 86.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 32,
+            "right": 91.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 32,
+            "right": 115.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 400,
+            "right": 476.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 400,
+            "right": 470.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 400,
+            "right": 444
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 32,
+            "right": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 32,
+            "right": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 143.8125,
+            "right": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 285.546875,
+            "right": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 394.3125,
+            "right": 499.71875
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "documents 768 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "documents 768 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/documents/"
+      }
+    },
+    {
+      "name": "documents 768 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "documents 390 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "documents",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your document request.",
+        "body": "Our team will review the requested documents and contact you using the information provided.",
+        "actions": [
+          [
+            "Return to Documents",
+            "/documents/"
+          ],
+          [
+            "Explore Products",
+            "/products/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "documents 390 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products"
+      }
+    },
+    {
+      "name": "documents 390 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "documents",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your document request.",
+        "body": "Our team will review the requested documents and contact you using the information provided.",
+        "actions": [
+          [
+            "Return to Documents",
+            "/documents/"
+          ],
+          [
+            "Explore Products",
+            "/products/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your document request.\n\nOur team will review the requested documents and contact you using the information provided.\n\nReturn to Documents\nExplore Products",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "documents 390 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 1435,
+        "footerBottom": 1435.234375,
+        "panelWidth": 350,
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 243.46875,
+            "right": 301.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 309.65625,
+            "right": 374
+          },
+          {
+            "text": "Return to Documents",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "Explore Products",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 20,
+            "right": 64
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 20,
+            "right": 74.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 20,
+            "right": 79.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 20,
+            "right": 103.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 205,
+            "right": 281.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 205,
+            "right": 275.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 205,
+            "right": 249
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 20,
+            "right": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 20,
+            "right": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 131.8125,
+            "right": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 273.546875,
+            "right": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 20,
+            "right": 125.40625
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "documents 390 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "documents 390 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/documents/"
+      }
+    },
+    {
+      "name": "documents 390 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "sample 1440 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "sample",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your sample request.",
+        "body": "Our team will review your application and sample requirements and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "View Applications",
+            "/applications/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "sample 1440 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications"
+      }
+    },
+    {
+      "name": "sample 1440 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "sample",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your sample request.",
+        "body": "Our team will review your application and sample requirements and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "View Applications",
+            "/applications/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "sample 1440 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1180,
+        "footerBottom": 1179.953125,
+        "panelWidth": 860,
+        "targets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60,
+            "left": 120,
+            "right": 300
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83,
+            "left": 618.234375,
+            "right": 662.234375
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 83,
+            "left": 678.234375,
+            "right": 732.515625
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83,
+            "left": 748.515625,
+            "right": 808.4375
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83,
+            "left": 824.4375,
+            "right": 907.609375
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83,
+            "left": 923.609375,
+            "right": 999.9375
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83,
+            "left": 1015.9375,
+            "right": 1086.453125
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83,
+            "left": 1102.453125,
+            "right": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48,
+            "left": 1170.453125,
+            "right": 1320
+          },
+          {
+            "text": "Explore Products",
+            "width": 174.4375,
+            "height": 50.390625,
+            "left": 535.421875,
+            "right": 709.859375
+          },
+          {
+            "text": "View Applications",
+            "width": 182.703125,
+            "height": 50.390625,
+            "left": 721.859375,
+            "right": 904.5625
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 535.296875,
+            "right": 579.296875
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 535.296875,
+            "right": 589.578125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 595.21875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 618.46875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 812.859375,
+            "right": 889.1875
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 812.859375,
+            "right": 883.375
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 812.859375,
+            "right": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 1090.421875,
+            "right": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 120,
+            "right": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 231.8125,
+            "right": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 373.546875,
+            "right": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 482.3125,
+            "right": 587.71875
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "sample 1440 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "sample 1440 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "sample 1440 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/"
+      }
+    },
+    {
+      "name": "sample 768 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "sample",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your sample request.",
+        "body": "Our team will review your application and sample requirements and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "View Applications",
+            "/applications/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "sample 768 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications"
+      }
+    },
+    {
+      "name": "sample 768 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "sample",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your sample request.",
+        "body": "Our team will review your application and sample requirements and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "View Applications",
+            "/applications/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "sample 768 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 1344,
+        "footerBottom": 1343.546875,
+        "panelWidth": 720,
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 621.46875,
+            "right": 679.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 687.65625,
+            "right": 752
+          },
+          {
+            "text": "Explore Products",
+            "width": 174.4375,
+            "height": 50.390625,
+            "left": 199.421875,
+            "right": 373.859375
+          },
+          {
+            "text": "View Applications",
+            "width": 182.703125,
+            "height": 50.390625,
+            "left": 385.859375,
+            "right": 568.5625
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 32,
+            "right": 76
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 32,
+            "right": 86.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 32,
+            "right": 91.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 32,
+            "right": 115.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 400,
+            "right": 476.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 400,
+            "right": 470.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 400,
+            "right": 444
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 32,
+            "right": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 32,
+            "right": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 143.8125,
+            "right": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 285.546875,
+            "right": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 394.3125,
+            "right": 499.71875
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "sample 768 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "sample 768 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "sample 768 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/"
+      }
+    },
+    {
+      "name": "sample 390 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "sample",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your sample request.",
+        "body": "Our team will review your application and sample requirements and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "View Applications",
+            "/applications/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "sample 390 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 1,
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications"
+      }
+    },
+    {
+      "name": "sample 390 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "sample",
+        "visiblePanels": 1,
+        "eyebrow": "REQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your sample request.",
+        "body": "Our team will review your application and sample requirements and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "View Applications",
+            "/applications/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your sample request.\n\nOur team will review your application and sample requirements and contact you using the information provided.\n\nExplore Products\nView Applications",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "sample 390 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 1435,
+        "footerBottom": 1435.234375,
+        "panelWidth": 350,
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 243.46875,
+            "right": 301.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 309.65625,
+            "right": 374
+          },
+          {
+            "text": "Explore Products",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "View Applications",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 20,
+            "right": 64
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 20,
+            "right": 74.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 20,
+            "right": 79.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 20,
+            "right": 103.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 205,
+            "right": 281.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 205,
+            "right": 275.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 205,
+            "right": 249
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 20,
+            "right": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 20,
+            "right": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 131.8125,
+            "right": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 273.546875,
+            "right": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 20,
+            "right": 125.40625
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "sample 390 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "sample 390 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/products/"
+      }
+    },
+    {
+      "name": "sample 390 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/applications/"
+      }
+    },
+    {
+      "name": "direct 1440 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "direct",
+        "visiblePanels": 1,
+        "eyebrow": null,
+        "icon": 0,
+        "h1": "How can we help?",
+        "body": "Choose the request you’d like to make, and our team will guide you through the next step.",
+        "actions": [
+          [
+            "Request a Quote",
+            "/request-a-quote/"
+          ],
+          [
+            "Request Documents",
+            "/request-documents/"
+          ],
+          [
+            "Request a Sample",
+            "/request-sample/"
+          ]
+        ],
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "direct 1440 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 0,
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample"
+      }
+    },
+    {
+      "name": "direct 1440 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "direct",
+        "visiblePanels": 1,
+        "eyebrow": null,
+        "icon": 0,
+        "h1": "How can we help?",
+        "body": "Choose the request you’d like to make, and our team will guide you through the next step.",
+        "actions": [
+          [
+            "Request a Quote",
+            "/request-a-quote/"
+          ],
+          [
+            "Request Documents",
+            "/request-documents/"
+          ],
+          [
+            "Request a Sample",
+            "/request-sample/"
+          ]
+        ],
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "direct 1440 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1078,
+        "footerBottom": 1078.28125,
+        "panelWidth": 860,
+        "targets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60,
+            "left": 120,
+            "right": 300
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83,
+            "left": 618.234375,
+            "right": 662.234375
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 83,
+            "left": 678.234375,
+            "right": 732.515625
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83,
+            "left": 748.515625,
+            "right": 808.4375
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83,
+            "left": 824.4375,
+            "right": 907.609375
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83,
+            "left": 923.609375,
+            "right": 999.9375
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83,
+            "left": 1015.9375,
+            "right": 1086.453125
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83,
+            "left": 1102.453125,
+            "right": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48,
+            "left": 1170.453125,
+            "right": 1320
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.890625,
+            "height": 50.390625,
+            "left": 433.3125,
+            "right": 603.203125
+          },
+          {
+            "text": "Request Documents",
+            "width": 198.75,
+            "height": 50.390625,
+            "left": 615.203125,
+            "right": 813.953125
+          },
+          {
+            "text": "Request a Sample",
+            "width": 180.71875,
+            "height": 50.390625,
+            "left": 825.953125,
+            "right": 1006.671875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 535.296875,
+            "right": 579.296875
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 535.296875,
+            "right": 589.578125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 595.21875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 618.46875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 812.859375,
+            "right": 889.1875
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 812.859375,
+            "right": 883.375
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 812.859375,
+            "right": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 1090.421875,
+            "right": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 120,
+            "right": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 231.8125,
+            "right": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 373.546875,
+            "right": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 482.3125,
+            "right": 587.71875
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "direct 1440 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "direct 1440 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/"
+      }
+    },
+    {
+      "name": "direct 1440 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-documents/"
+      }
+    },
+    {
+      "name": "direct 1440 action 3",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-sample/"
+      }
+    },
+    {
+      "name": "1440 Cookie opens to Close",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1440 Cookie reverse loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1440 Cookie closes and returns focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "direct 768 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "direct",
+        "visiblePanels": 1,
+        "eyebrow": null,
+        "icon": 0,
+        "h1": "How can we help?",
+        "body": "Choose the request you’d like to make, and our team will guide you through the next step.",
+        "actions": [
+          [
+            "Request a Quote",
+            "/request-a-quote/"
+          ],
+          [
+            "Request Documents",
+            "/request-documents/"
+          ],
+          [
+            "Request a Sample",
+            "/request-sample/"
+          ]
+        ],
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "direct 768 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 0,
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample"
+      }
+    },
+    {
+      "name": "direct 768 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "direct",
+        "visiblePanels": 1,
+        "eyebrow": null,
+        "icon": 0,
+        "h1": "How can we help?",
+        "body": "Choose the request you’d like to make, and our team will guide you through the next step.",
+        "actions": [
+          [
+            "Request a Quote",
+            "/request-a-quote/"
+          ],
+          [
+            "Request Documents",
+            "/request-documents/"
+          ],
+          [
+            "Request a Sample",
+            "/request-sample/"
+          ]
+        ],
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "direct 768 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 1309,
+        "footerBottom": 1309.25,
+        "panelWidth": 720,
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 621.46875,
+            "right": 679.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 687.65625,
+            "right": 752
+          },
+          {
+            "text": "Request a Quote",
+            "width": 169.890625,
+            "height": 50.390625,
+            "left": 97.3125,
+            "right": 267.203125
+          },
+          {
+            "text": "Request Documents",
+            "width": 198.75,
+            "height": 50.390625,
+            "left": 279.203125,
+            "right": 477.953125
+          },
+          {
+            "text": "Request a Sample",
+            "width": 180.71875,
+            "height": 50.390625,
+            "left": 489.953125,
+            "right": 670.671875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 32,
+            "right": 76
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 32,
+            "right": 86.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 32,
+            "right": 91.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 32,
+            "right": 115.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 400,
+            "right": 476.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 400,
+            "right": 470.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 400,
+            "right": 444
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 32,
+            "right": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 32,
+            "right": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 143.8125,
+            "right": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 285.546875,
+            "right": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 394.3125,
+            "right": 499.71875
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "direct 768 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "direct 768 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/"
+      }
+    },
+    {
+      "name": "direct 768 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-documents/"
+      }
+    },
+    {
+      "name": "direct 768 action 3",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-sample/"
+      }
+    },
+    {
+      "name": "768 menu opens and isolates background",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 menu Escape restores",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 menu selection closes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 Cookie opens to Close",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 Cookie reverse loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "768 Cookie closes and returns focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "direct 390 exact state content",
+      "status": "PASS",
+      "detail": {
+        "state": "direct",
+        "visiblePanels": 1,
+        "eyebrow": null,
+        "icon": 0,
+        "h1": "How can we help?",
+        "body": "Choose the request you’d like to make, and our team will guide you through the next step.",
+        "actions": [
+          [
+            "Request a Quote",
+            "/request-a-quote/"
+          ],
+          [
+            "Request Documents",
+            "/request-documents/"
+          ],
+          [
+            "Request a Sample",
+            "/request-sample/"
+          ]
+        ],
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "direct 390 cue boundary",
+      "status": "PASS",
+      "detail": {
+        "icon": 0,
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample"
+      }
+    },
+    {
+      "name": "direct 390 zero PII and zero false current",
+      "status": "PASS",
+      "detail": {
+        "state": "direct",
+        "visiblePanels": 1,
+        "eyebrow": null,
+        "icon": 0,
+        "h1": "How can we help?",
+        "body": "Choose the request you’d like to make, and our team will guide you through the next step.",
+        "actions": [
+          [
+            "Request a Quote",
+            "/request-a-quote/"
+          ],
+          [
+            "Request Documents",
+            "/request-documents/"
+          ],
+          [
+            "Request a Sample",
+            "/request-sample/"
+          ]
+        ],
+        "text": "How can we help?\n\nChoose the request you’d like to make, and our team will guide you through the next step.\n\nRequest a Quote\nRequest Documents\nRequest a Sample",
+        "currentCount": 0
+      }
+    },
+    {
+      "name": "direct 390 complete to Footer and no overflow",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 1349,
+        "footerBottom": 1349.25,
+        "panelWidth": 350,
+        "targets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 243.46875,
+            "right": 301.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 309.65625,
+            "right": 374
+          },
+          {
+            "text": "Request a Quote",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "Request Documents",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "Request a Sample",
+            "width": 308,
+            "height": 50.390625,
+            "left": 41,
+            "right": 349
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 20,
+            "right": 64
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 20,
+            "right": 74.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 20,
+            "right": 79.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 20,
+            "right": 103.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 205,
+            "right": 281.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 205,
+            "right": 275.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 205,
+            "right": 249
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 20,
+            "right": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 20,
+            "right": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 131.8125,
+            "right": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 273.546875,
+            "right": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 20,
+            "right": 125.40625
+          }
+        ],
+        "font": true
+      }
+    },
+    {
+      "name": "direct 390 visible controls 44 by 44",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "direct 390 action 1",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-a-quote/"
+      }
+    },
+    {
+      "name": "direct 390 action 2",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-documents/"
+      }
+    },
+    {
+      "name": "direct 390 action 3",
+      "status": "PASS",
+      "detail": {
+        "href": "/request-sample/"
+      }
+    },
+    {
+      "name": "390 menu opens and isolates background",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 menu Escape restores",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 menu selection closes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 Cookie opens to Close",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 Cookie reverse loop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "390 Cookie closes and returns focus",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "missing request key resolves Direct without receipt cue",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "unsupported request value resolves Direct without receipt cue",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "markerless approved query resolves Direct without receipt cue",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "mismatched marker resolves Direct without receipt cue",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "stale marker resolves Direct without receipt cue",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "new-session marker mismatch resolves Direct without receipt cue",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "query alone is not proof resolves Direct without receipt cue",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "200 percent equivalent reflow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no network requests",
+      "status": "PASS",
+      "detail": []
+    }
+  ],
+  "assets": [
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_QUOTE_1440_FULL_V0.2.png",
+      "bytes": 99189,
+      "sha256": "4135e7f48b535be10c3d06faee854b40d731797501ff983303ffdd952778c550",
+      "state": "CONV-THANK_GATE3_QUOTE_1440_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_QUOTE_768_FULL_V0.2.png",
+      "bytes": 80546,
+      "sha256": "7407f092d18438a2a41da1a67549a2143fdfa3c309d765f84d8370f12237f1fe",
+      "state": "CONV-THANK_GATE3_QUOTE_768_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_QUOTE_390_FULL_V0.2.png",
+      "bytes": 74732,
+      "sha256": "abd72da145b4a9c8dbee67fea3200fba0c0efab34c06444fdc3977f2366f5a87",
+      "state": "CONV-THANK_GATE3_QUOTE_390_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DOCUMENTS_1440_FULL_V0.2.png",
+      "bytes": 101392,
+      "sha256": "5c722ce1856c8f82da284e537ce09d5bac3adc671d20e80a747fede702b376fe",
+      "state": "CONV-THANK_GATE3_DOCUMENTS_1440_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DOCUMENTS_768_FULL_V0.2.png",
+      "bytes": 83613,
+      "sha256": "1c715c7c1b54897e4c2a51f79213121e221ce5383a79a493b9d4d23184087b78",
+      "state": "CONV-THANK_GATE3_DOCUMENTS_768_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DOCUMENTS_390_FULL_V0.2.png",
+      "bytes": 75536,
+      "sha256": "35f2eb71c766505625a0655dc607429759381e98857af6e903c5326177cfec2f",
+      "state": "CONV-THANK_GATE3_DOCUMENTS_390_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_SAMPLE_1440_FULL_V0.2.png",
+      "bytes": 102678,
+      "sha256": "f7f2051c31ad9f1e891e97e138abc35c6c934f72afd5272058e3d9bcbd0eb612",
+      "state": "CONV-THANK_GATE3_SAMPLE_1440_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_SAMPLE_768_FULL_V0.2.png",
+      "bytes": 84688,
+      "sha256": "60e510173ec5a67e4b13c29b2b5a5cdad63439976cfd7ff367c8da48aa7ed93a",
+      "state": "CONV-THANK_GATE3_SAMPLE_768_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_SAMPLE_390_FULL_V0.2.png",
+      "bytes": 76720,
+      "sha256": "79fd7b9efd0682746ecf139b43188abfba7765231e54fb75b56a119c743b3c19",
+      "state": "CONV-THANK_GATE3_SAMPLE_390_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DIRECT_1440_FULL_V0.2.png",
+      "bytes": 86604,
+      "sha256": "0182491d7f73e608ed24992b5e4a1f7b217f4f50738c28f15bfa918259abe663",
+      "state": "CONV-THANK_GATE3_DIRECT_1440_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DIRECT_768_FULL_V0.2.png",
+      "bytes": 72591,
+      "sha256": "f49942aeb61e7d337c00d5320ca19fd5165a1943b861621afe91459f91ababd1",
+      "state": "CONV-THANK_GATE3_DIRECT_768_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DIRECT_768_MENU_V0.2.png",
+      "bytes": 41897,
+      "sha256": "239f81059996f7e6c93431da3871c955aa918d1ed20ec02d2400080ecad42008",
+      "state": "CONV-THANK_GATE3_DIRECT_768_MENU_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DIRECT_390_FULL_V0.2.png",
+      "bytes": 67756,
+      "sha256": "d6b86247736447c687de7f45a3540770b88d0939ad1849199efe9cc77a41fe5b",
+      "state": "CONV-THANK_GATE3_DIRECT_390_FULL_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DIRECT_390_MENU_V0.2.png",
+      "bytes": 37850,
+      "sha256": "f2ba9646f4bf1b81ce7c39a8b65869fbbe1ca3165cf4cc8ab5ae8c82aa6019c7",
+      "state": "CONV-THANK_GATE3_DIRECT_390_MENU_V0.2"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/approval_core/CONV-THANK_GATE3_DIRECT_390_COOKIE_V0.2.png",
+      "bytes": 48655,
+      "sha256": "351629d56a293ced51d666fc90efa6300c309fd8711a75d618a2552ea4cee9d5",
+      "state": "CONV-THANK_GATE3_DIRECT_390_COOKIE_V0.2"
+    }
+  ],
+  "blockedNetwork": [],
+  "endedAt": "2026-09-08T07:11:02.057Z"
+}

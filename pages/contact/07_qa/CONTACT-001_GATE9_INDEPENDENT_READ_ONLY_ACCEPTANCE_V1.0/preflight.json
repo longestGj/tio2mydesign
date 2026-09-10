@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "handoff_id": "CONTACT-001-G6-HANDOFF-20260910-02",
+  "gate8_task_id": "G8-CONTACT-001-20260910-01",
+  "site_scope": "tio2-my",
+  "identity": {
+    "implementation_commit": "619bd75afd2a4725d9efe9f2e0e0baa3bf3c515e",
+    "evidence_head": "767e6b76ceceb002b0def0ad7c9e878b043e87e2",
+    "build_id": "e9kK97wgApJrE2vMfUtPg"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:4491",
+    "rounds": 2,
+    "requests": 6,
+    "successful_requests": 6,
+    "observations": [
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4491/contact/",
+        "status": 200,
+        "bytes": 39819,
+        "final_url": "http://127.0.0.1:4491/contact",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4491/request-a-quote/",
+        "status": 200,
+        "bytes": 30467,
+        "final_url": "http://127.0.0.1:4491/request-a-quote",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4491/privacy-policy/",
+        "status": 200,
+        "bytes": 63368,
+        "final_url": "http://127.0.0.1:4491/privacy-policy",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4491/contact/",
+        "status": 200,
+        "bytes": 39819,
+        "final_url": "http://127.0.0.1:4491/contact",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4491/request-a-quote/",
+        "status": 200,
+        "bytes": 30467,
+        "final_url": "http://127.0.0.1:4491/request-a-quote",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4491/privacy-policy/",
+        "status": 200,
+        "bytes": 63368,
+        "final_url": "http://127.0.0.1:4491/privacy-policy",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "evidence_validation": {
+    "status": "PASS"
+  }
+}

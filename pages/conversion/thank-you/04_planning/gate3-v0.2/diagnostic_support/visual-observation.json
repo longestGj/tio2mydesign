@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "pageId": "CONV-THANK",
+  "evidenceType": "STATIC_VISUAL",
+  "source": {
+    "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/CONV-THANK_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+    "bytes": 16507,
+    "sha256": "1c0b12a4b21f4eb3be2e2b9daed569c1d3f9e30752a5591127824569879a7b28"
+  },
+  "inspected": [
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/diagnostic_support/render/diagnostic-quote-1440-full.png",
+      "bytes": 99189,
+      "sha256": "4135e7f48b535be10c3d06faee854b40d731797501ff983303ffdd952778c550"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/diagnostic_support/render/diagnostic-documents-768-full.png",
+      "bytes": 83613,
+      "sha256": "1c715c7c1b54897e4c2a51f79213121e221ce5383a79a493b9d4d23184087b78"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/diagnostic_support/render/diagnostic-sample-390-full.png",
+      "bytes": 76720,
+      "sha256": "79fd7b9efd0682746ecf139b43188abfba7765231e54fb75b56a119c743b3c19"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/diagnostic_support/render/diagnostic-direct-390-full.png",
+      "bytes": 67756,
+      "sha256": "d6b86247736447c687de7f45a3540770b88d0939ad1849199efe9cc77a41fe5b"
+    },
+    {
+      "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.2/diagnostic_support/render/diagnostic-direct-390-footer.png",
+      "bytes": 39619,
+      "sha256": "980f9e6358ef22cd5b73d9083a04f2fda16667ab7dbfb0eff5fd845266831594"
+    }
+  ],
+  "observations": [
+    "All four mutually exclusive states preserve their exact approved copy and action ownership.",
+    "Quote, Documents and Sample show the check icon together with REQUEST RECEIVED; Direct / invalid shows neither receipt cue.",
+    "1440, 768 and 390 render through the shared Footer without clipping, horizontal overflow, collision or abnormal fixed blank space.",
+    "At 390, two-action and three-action groups stack into full-width controls with readable natural wrapping.",
+    "No buyer-visible governance labels, submitted details, request reference, false current navigation or page-specific media appear."
+  ],
+  "unresolvedFindings": [],
+  "inspectedAt": "2026-09-08T07:10:53.326Z"
+}

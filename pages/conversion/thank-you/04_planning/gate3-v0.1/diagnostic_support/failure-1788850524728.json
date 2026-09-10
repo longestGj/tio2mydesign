@@ -1,0 +1,34 @@
+{
+  "status": "FAIL",
+  "formal": false,
+  "checks": [
+    {
+      "name": "quote 1440 exact state content",
+      "status": "FAIL",
+      "detail": {
+        "state": "quote",
+        "visiblePanels": 1,
+        "eyebrow": "✓\nREQUEST RECEIVED",
+        "icon": 1,
+        "h1": "Thank you. We’ve received your quotation request.",
+        "body": "Our team will review the details and contact you using the information provided.",
+        "actions": [
+          [
+            "Explore Products",
+            "/products/"
+          ],
+          [
+            "Go to Homepage",
+            "/"
+          ]
+        ],
+        "text": "✓\nREQUEST RECEIVED\nThank you. We’ve received your quotation request.\n\nOur team will review the details and contact you using the information provided.\n\nExplore Products\nGo to Homepage",
+        "currentCount": 0
+      }
+    }
+  ],
+  "assets": [],
+  "blockedNetwork": [],
+  "error": "Error: quote 1440 exact state content: {\"state\":\"quote\",\"visiblePanels\":1,\"eyebrow\":\"✓\\nREQUEST RECEIVED\",\"icon\":1,\"h1\":\"Thank you. We’ve received your quotation request.\",\"body\":\"Our team will review the details and contact you using the information provided.\",\"actions\":[[\"Explore Products\",\"/products/\"],[\"Go to Homepage\",\"/\"]],\"text\":\"✓\\nREQUEST RECEIVED\\nThank you. We’ve received your quotation request.\\n\\nOur team will review the details and contact you using the information provided.\\n\\nExplore Products\\nGo to Homepage\",\"currentCount\":0}\n    at check (file:///D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.1/diagnostic_support/check.mjs:20:99)\n    at file:///D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.1/diagnostic_support/check.mjs:33:3",
+  "endedAt": "2026-09-08T06:55:24.728Z"
+}

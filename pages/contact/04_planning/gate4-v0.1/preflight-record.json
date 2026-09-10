@@ -1,0 +1,22 @@
+{
+  "recordId": "CONTACT-001-G4-PREFLIGHT-01",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "worksetId": "CONTACT-001-G4-WORKSET-20260910-01",
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "candidate": {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/CONTACT-001_GATE4_COMPLETE_VISUAL_V0.1.html", "bytes": 35914, "sha256": "6D4F4AAF1300B75A384B18E011DEE21D43C5ED551596C6D9C524E689F3BFF78E"},
+  "runtime": {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/diagnostic_support/preflight-runtime.json", "bytes": 22035, "sha256": "A0B9E6937B7BC86487BD3B11B349F1461B11CEA4A9326E46614B56D4233BAE97", "assertions": {"total": 50, "pass": 50, "fail": 0}},
+  "visualAudit": {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/diagnostic_support/visual-audit-runtime.json", "bytes": 8754, "sha256": "32AEC9AB270A5791E6528DBFB76CAD270EE674CE201B3482AF467B94CB39FF88", "assertions": {"total": 24, "pass": 24, "fail": 0}},
+  "visualReadback": "diagnostic_support/preflight-visual-readback.json",
+  "coverage": {
+    "viewports": ["1440x900@1x", "768x900@1x", "390x844@1x"],
+    "states": ["default", "menu-open", "focus", "validation-long", "submitting", "failure-preserved", "success", "restricted-contact"],
+    "contentParity": "6 states x 3 viewports exact visible-text parity with approved Gate 3 source",
+    "sharedChrome": "Header/Footer/Dialog markup identical to approved Gate 3 shared assembly",
+    "contrast": "all sampled normal, hover, error, failure and success text states >= 4.5:1",
+    "touchTargets": "zero visible controls below 44x44 across required default viewports"
+  },
+  "openFindings": [],
+  "externalRequestsSent": 0,
+  "stopBoundary": "Formal Gate 4 evidence may be rendered only from this exact candidate and bound inputs; source changes invalidate this record."
+}

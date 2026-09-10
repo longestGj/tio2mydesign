@@ -1,0 +1,1260 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\23MySec\\docs\\verification\\intake\\CONTACT-001-G8-20260910-R2\\gate8_evidence_manifest.json",
+  "handoff_id": "CONTACT-001-G6-HANDOFF-20260910-02",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "CONTACT-001",
+          "acceptance_condition_ids": [
+            "CONTACT-G9-01",
+            "CONTACT-G9-02",
+            "CONTACT-G9-03",
+            "CONTACT-G9-04",
+            "CONTACT-G9-05",
+            "CONTACT-G9-06",
+            "CONTACT-G9-07",
+            "CONTACT-G9-08",
+            "CONTACT-G9-09",
+            "CONTACT-G9-10",
+            "CONTACT-G9-11",
+            "CONTACT-G9-12",
+            "CONTACT-G9-13",
+            "CONTACT-G9-14",
+            "CONTACT-G9-15",
+            "CONTACT-G9-16"
+          ],
+          "runtime_path": "/contact/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\contact-001-gate8"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/contact-001-gate8",
+        "actual": "codex/contact-001-gate8"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "57ca1102a163c48304b541ca30bcea932e7a3de8",
+        "actual": "57ca1102a163c48304b541ca30bcea932e7a3de8"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "9571dd2ab7e7f2c7c9cb373e008ca81b3c534822",
+        "descendant": "1f3fed832172da5646e504ed339e493ec6d2630f"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "1f3fed832172da5646e504ed339e493ec6d2630f",
+        "descendant": "57ca1102a163c48304b541ca30bcea932e7a3de8"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\contact-001-gate8\\.next-contact-gate8-r2"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "R4PFrSSFrfr6gvnXpPvxH",
+        "actual": "R4PFrSSFrfr6gvnXpPvxH"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "1f3fed832172da5646e504ed339e493ec6d2630f",
+        "git": "1f3fed832172da5646e504ed339e493ec6d2630f"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/build-id.txt"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-16"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "71727161b86c7d9c3e14994235bdf5b812a10b485836d5387bf1caa813c5f0b1",
+        "actual": "71727161b86c7d9c3e14994235bdf5b812a10b485836d5387bf1caa813c5f0b1"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/build-id.txt"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e2c162cb4edc3ca60f2460e2096f6b469c7ae3b7",
+        "blob_sha256": "ffa16d748deb7e7ba5e2f1b884bbac06a729ddf9e6bb3b51d4cd2059d51161fe",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/acceptance-summary.json"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-02",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-07",
+          "CONTACT-G9-08",
+          "CONTACT-G9-09",
+          "CONTACT-G9-10",
+          "CONTACT-G9-11",
+          "CONTACT-G9-12",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "64b14ffcd7fd8b652f115128ab8c29a7df2d29a6749aa3e8374131ef18520ca6",
+        "actual": "64b14ffcd7fd8b652f115128ab8c29a7df2d29a6749aa3e8374131ef18520ca6"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/acceptance-summary.json"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b92cf3171634ec884c8c465fcc3070dc3df631ee",
+        "blob_sha256": "64b14ffcd7fd8b652f115128ab8c29a7df2d29a6749aa3e8374131ef18520ca6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/dependency-ledger.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "CONTACT-G9-06",
+          "CONTACT-G9-07",
+          "CONTACT-G9-08",
+          "CONTACT-G9-09",
+          "CONTACT-G9-11",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b0cd5ee867ea2cc4a2e042896c745b83b343103856126f9427034ad8c1cf2aad",
+        "actual": "b0cd5ee867ea2cc4a2e042896c745b83b343103856126f9427034ad8c1cf2aad"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/dependency-ledger.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "37da8dc4b137f0c47091c85de3e94ceac5b604d7",
+        "blob_sha256": "b0cd5ee867ea2cc4a2e042896c745b83b343103856126f9427034ad8c1cf2aad",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/provider/project-control-browser-success.json"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-07",
+          "CONTACT-G9-08",
+          "CONTACT-G9-09",
+          "CONTACT-G9-16"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "616733469c26820489cce61c959ae3f1a0190f77011f72cc37f47c2cfd42fb7a",
+        "actual": "616733469c26820489cce61c959ae3f1a0190f77011f72cc37f47c2cfd42fb7a"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/provider/project-control-browser-success.json"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8ffbe846548c0f891be13078c64e083e65a1f5e3",
+        "blob_sha256": "616733469c26820489cce61c959ae3f1a0190f77011f72cc37f47c2cfd42fb7a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/provider/d16-unconfirmed-attempt.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-07",
+          "CONTACT-G9-08",
+          "CONTACT-G9-09",
+          "CONTACT-G9-16"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9515f4e75507943ede0098bfe756f5a66e031dcbd3c99a97b46994a8ac851d2c",
+        "actual": "9515f4e75507943ede0098bfe756f5a66e031dcbd3c99a97b46994a8ac851d2c"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/provider/d16-unconfirmed-attempt.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d65f14ef3038f331ce9715b17616bdf29cb48f19",
+        "blob_sha256": "d33b7d747d2460161f20d2f32b81a508adba5ebc2473828b563629d9c3cfe9d7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/provider/user-confirmed-mailbox-receipt.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "RECEIVER",
+        "proves": [
+          "CONTACT-G9-07",
+          "CONTACT-G9-16"
+        ],
+        "command": "User confirmation relayed by Project Control and committed as a bounded receiver record",
+        "environment": "Approved receiver mailbox; test identity AUTHORIZED SYNTHETIC CONTACT TEST / No business inquiry; user confirmed at least one message received on 2026-09-10; exact count unknown; separate 19:05 response-unconfirmed POST not attributed"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e55eafc031bf5926e44ad6cc09b157fd5213d4c77bb6d4f3e70114be2b9fbec6",
+        "actual": "e55eafc031bf5926e44ad6cc09b157fd5213d4c77bb6d4f3e70114be2b9fbec6"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/provider/user-confirmed-mailbox-receipt.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "be92b72ea6dcdc01bf273cbb6d632ad5c23cc463",
+        "blob_sha256": "e55eafc031bf5926e44ad6cc09b157fd5213d4c77bb6d4f3e70114be2b9fbec6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/native-browser-200-percent-status.json"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ba330875503687510b627771974bbb33ff40487d5bc84f864b0462f2a7db0f9c",
+        "actual": "ba330875503687510b627771974bbb33ff40487d5bc84f864b0462f2a7db0f9c"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/native-browser-200-percent-status.json"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "966f122ced669fa95dc3f64f56ff0e02f4950763",
+        "blob_sha256": "ba330875503687510b627771974bbb33ff40487d5bc84f864b0462f2a7db0f9c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/build-and-route.json"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-09",
+          "CONTACT-G9-13",
+          "CONTACT-G9-16"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3308ff6637323f4d5beaf13a3db3abbfd473d06757abda6067030643661dbadb",
+        "actual": "3308ff6637323f4d5beaf13a3db3abbfd473d06757abda6067030643661dbadb"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/build-and-route.json"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d46d4def046032797001c58c12594bd313f991c3",
+        "blob_sha256": "956f8eff6b96166db8980d368da11446a5c4fca6e961a5d0ce1cd1b03750dc84",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/form-state-chromium.json"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "2de044ddea58f4ef1f1988c6770e2b1b66f94f39d5db4398fac81973db0fb8c9",
+        "actual": "2de044ddea58f4ef1f1988c6770e2b1b66f94f39d5db4398fac81973db0fb8c9"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/form-state-chromium.json"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d85f7bdb9769ae7cd1c9cd4fce2f578d538a3f5e",
+        "blob_sha256": "2de044ddea58f4ef1f1988c6770e2b1b66f94f39d5db4398fac81973db0fb8c9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/form-state-firefox.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "40783c9caf8a0aafac45fe02766d952d9887db53ed0395898eab880f80fb6321",
+        "actual": "40783c9caf8a0aafac45fe02766d952d9887db53ed0395898eab880f80fb6321"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/form-state-firefox.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "13885ae25ddeb8192cb12c734ce28aec70e4a324",
+        "blob_sha256": "40783c9caf8a0aafac45fe02766d952d9887db53ed0395898eab880f80fb6321",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-desktop-1440.png"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-10",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d",
+        "actual": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-desktop-1440.png"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6b8962c641152ef52e4a2285405c5e5355c40269",
+        "blob_sha256": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-tablet-768.png"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-10",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "78390cc8023960175d818ed5ace8466d1c1a6db1f991af27240f45abfb2fc445",
+        "actual": "78390cc8023960175d818ed5ace8466d1c1a6db1f991af27240f45abfb2fc445"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-tablet-768.png"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5d6d9eba0a9c33848388ba84f8d839ac01f97ff0",
+        "blob_sha256": "78390cc8023960175d818ed5ace8466d1c1a6db1f991af27240f45abfb2fc445",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-mobile-390.png"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-10",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6",
+        "actual": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-mobile-390.png"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "71f67110b7964e5e773f384f8eb66ef8ee0dc6f5",
+        "blob_sha256": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-submitting-390.png"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "91c1a2828ce3b9e9bf05d24e3b6f18fdc73fc61e24754cb60f16e4af2e144fac",
+        "actual": "91c1a2828ce3b9e9bf05d24e3b6f18fdc73fc61e24754cb60f16e4af2e144fac"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-submitting-390.png"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "05d4492c7c9c18f4ee659b4e8add65bfa2f81558",
+        "blob_sha256": "91c1a2828ce3b9e9bf05d24e3b6f18fdc73fc61e24754cb60f16e4af2e144fac",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-success-390.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Committed CONTACT-001 targeted return evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "800cc25302d86b3ab99f698f73f31dbd82b97aeb95a545b1e2f4c7d58800b353",
+        "actual": "800cc25302d86b3ab99f698f73f31dbd82b97aeb95a545b1e2f4c7d58800b353"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-success-390.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9b8e930a39d45779480a15b001396e2952ba3f2a",
+        "blob_sha256": "800cc25302d86b3ab99f698f73f31dbd82b97aeb95a545b1e2f4c7d58800b353",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/vitest.log"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Current candidate verification command recorded in the log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c46fa598edabe6ef0ee3bfcc1b9ee9433675b55dd19f95659d3f32f39dd9e98b",
+        "actual": "c46fa598edabe6ef0ee3bfcc1b9ee9433675b55dd19f95659d3f32f39dd9e98b"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/vitest.log"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7f6264c1eb6cb3cae850bd9fcb9bda1f206e7f1a",
+        "blob_sha256": "e05f7351ac909d4d9ca66a28de840a93729ac08516fd073ba78dc3bee73511a7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/playwright-contact.log"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Current candidate verification command recorded in the log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ca42eaab54e56064abd4deda26479a7b3fc0f9b84c0af63357f2aeef49322159",
+        "actual": "ca42eaab54e56064abd4deda26479a7b3fc0f9b84c0af63357f2aeef49322159"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/playwright-contact.log"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2c8031defd71e88d0b1d806a1046e8624435192c",
+        "blob_sha256": "0a484c473d9ead990d483d3f736823b07ba2edcd86ba4f4c8e5b5db3d8e1da72",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/playwright-web3forms-guard.log"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Current candidate verification command recorded in the log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4de19e3edf6fa82f4150a17b6aa17f8244bc68b6975c8c9306a8f40594e1ea4f",
+        "actual": "4de19e3edf6fa82f4150a17b6aa17f8244bc68b6975c8c9306a8f40594e1ea4f"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/playwright-web3forms-guard.log"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d57bb787b4e32ae2493dfdb0952cf1018c319a9e",
+        "blob_sha256": "5ba8296f55672e444074f69ae1f21356707d8f712e7ba0d99e3cf958e3bcb51e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Current candidate verification command recorded in the log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+        "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/eslint.log"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Current candidate verification command recorded in the log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; provider acceptance observed by Project Control; user confirmed at least one matching mailbox receipt; exact delivery count and attribution of the separate 19:05 response-unconfirmed POST remain unknown; native browser 200% not verified"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6118edd3880b9b13e02312fc71c14519c225d102c3c07015d6138e34a6611cc5",
+        "actual": "6118edd3880b9b13e02312fc71c14519c225d102c3c07015d6138e34a6611cc5"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/logs/eslint.log"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bcde9d358e8927e09eb302ba52b5bf37c4136a41",
+        "blob_sha256": "1389aedd4a2aa278b30a69b0da51aedbe4f88e3a5cb0dc51a77132503a01d7e6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/GATE8_CONTACT_TARGETED_REPAIR_RECEIPT_2026-09-10.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/contact-001/gate8-return-r2/acceptance-summary.json",
+          "docs/verification/contact-001/gate8-return-r2/build-id.txt",
+          "docs/verification/contact-001/gate8-return-r2/dependency-ledger.json",
+          "docs/verification/contact-001/gate8-return-r2/logs/eslint.log",
+          "docs/verification/contact-001/gate8-return-r2/logs/playwright-contact.log",
+          "docs/verification/contact-001/gate8-return-r2/logs/playwright-web3forms-guard.log",
+          "docs/verification/contact-001/gate8-return-r2/logs/typecheck.log",
+          "docs/verification/contact-001/gate8-return-r2/logs/vitest.log",
+          "docs/verification/contact-001/gate8-return-r2/provider/d16-unconfirmed-attempt.json",
+          "docs/verification/contact-001/gate8-return-r2/provider/project-control-browser-success.json",
+          "docs/verification/contact-001/gate8-return-r2/provider/user-confirmed-mailbox-receipt.json",
+          "docs/verification/contact-001/gate8-return-r2/runtime/build-and-route.json",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-desktop-1440.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-mobile-390.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-submitting-390.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-success-390.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-tablet-768.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/form-state-chromium.json",
+          "docs/verification/contact-001/gate8-return-r2/runtime/form-state-firefox.json",
+          "docs/verification/contact-001/gate8-return-r2/runtime/native-browser-200-percent-status.json"
+        ],
+        "actual": [
+          "docs/verification/contact-001/gate8-return-r2/acceptance-summary.json",
+          "docs/verification/contact-001/gate8-return-r2/build-id.txt",
+          "docs/verification/contact-001/gate8-return-r2/dependency-ledger.json",
+          "docs/verification/contact-001/gate8-return-r2/logs/eslint.log",
+          "docs/verification/contact-001/gate8-return-r2/logs/playwright-contact.log",
+          "docs/verification/contact-001/gate8-return-r2/logs/playwright-web3forms-guard.log",
+          "docs/verification/contact-001/gate8-return-r2/logs/typecheck.log",
+          "docs/verification/contact-001/gate8-return-r2/logs/vitest.log",
+          "docs/verification/contact-001/gate8-return-r2/provider/d16-unconfirmed-attempt.json",
+          "docs/verification/contact-001/gate8-return-r2/provider/project-control-browser-success.json",
+          "docs/verification/contact-001/gate8-return-r2/provider/user-confirmed-mailbox-receipt.json",
+          "docs/verification/contact-001/gate8-return-r2/runtime/build-and-route.json",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-desktop-1440.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-mobile-390.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-submitting-390.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-success-390.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/contact-tablet-768.png",
+          "docs/verification/contact-001/gate8-return-r2/runtime/form-state-chromium.json",
+          "docs/verification/contact-001/gate8-return-r2/runtime/form-state-firefox.json",
+          "docs/verification/contact-001/gate8-return-r2/runtime/native-browser-200-percent-status.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8-return-r2/GATE8_CONTACT_TARGETED_REPAIR_RECEIPT_2026-09-10.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

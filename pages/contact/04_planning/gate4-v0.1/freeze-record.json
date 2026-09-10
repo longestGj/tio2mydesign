@@ -1,0 +1,28 @@
+{
+  "freezeId": "CONTACT-001-G4-FREEZE-V0.1",
+  "bundleId": "CONTACT-001-G4-BUNDLE-V0.1-6D4F4AAF",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "worksetId": "CONTACT-001-G4-WORKSET-20260910-01",
+  "lifecycle": "FROZEN_CANDIDATE_FOR_FORMAL_GATE4_EVIDENCE",
+  "candidate": {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/CONTACT-001_GATE4_COMPLETE_VISUAL_V0.1.html", "bytes": 35914, "sha256": "6D4F4AAF1300B75A384B18E011DEE21D43C5ED551596C6D9C524E689F3BFF78E"},
+  "preflight": {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/preflight-record.json", "bytes": 1806, "sha256": "23F1F6D5B57FE763CF6573DEB875379DF4F20DED2C9466E1D5CF4AD9269AA45E"},
+  "authorityManifest": {"path": "D:/23MySec/pages/contact/CONTACT-001_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md", "bytes": 5059, "sha256": "942A43C9BE1525A044E78D59954BCA695D1A59F769E7BFE26CACF4DF8A2AB268"},
+  "approvedUpstream": {
+    "gate2A": "D1C1F11C8FB0C4933B2992226C863FB1464EA50C6D0B8F1B9D82CB3DDC9ED7A0",
+    "gate2B": "BCAB77DB76FD17A2B6C87801A476CE39E285B43B4EB37AF758E4F2B3FAB3EA7E",
+    "gate2C": "B88BCF12D41257BBD8EA370CBF0E383E3DF5D6EF5C90E315E328375C1A2FFA67",
+    "gate3Source": "360BF45C2DDDD431603C3BA8102DD67D5F98AFEF37857C6B294DE322E5BEAF18",
+    "gate3Review": "DE0909DDEA030FA865F0C2328BBCF450DC81967B0B6567333CBF382C15F76466",
+    "gate3Closure": "E6AFDB9D2B29DCE46EBA11FF41309104DA1B1B5B20E3256365C41547D52EF47B"
+  },
+  "runtimeDependencies": [
+    {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/dependencies/Inter-Variable.ttf", "bytes": 876576, "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031"},
+    {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/dependencies/Inter-OFL.txt", "bytes": 4377, "sha256": "5B9321A4298CFEB6B34354164A1C3AFC3DB114569984C502B9B35D988FD58C57"},
+    {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/dependencies/tio2-malaysia-primary-horizontal-v0.1.svg", "bytes": 4342, "sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C"},
+    {"path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/dependencies/tio2-malaysia-reverse-monochrome-v0.1.svg", "bytes": 2725, "sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E"}
+  ],
+  "formalEvidence": {"viewports": ["1440x900@1x", "768x900@1x", "390x844@1x"], "states": ["menu-open-768", "menu-open-390", "focus-1440", "validation-long-390", "submitting-390", "failure-preserved-390", "success-390", "restricted-contact-390"]},
+  "evidenceBoundary": "Submitting/failure/success/restricted states are local simulations; no production receiver, delivery or implementation is proven.",
+  "invalidationRule": "Any byte change to candidate or bound input/dependency invalidates this freeze and all later formal assets."
+}

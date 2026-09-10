@@ -1,0 +1,31 @@
+{
+  "workset_id": "CONV-THANK-G4-WORKSET-20260908-02",
+  "status": "VISUAL_DIRECTION_CHECKED / TARGETED_REPAIR",
+  "source": {
+    "path": "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\CONV-THANK_GATE4_EDITABLE_SOURCE_V0.2.html",
+    "bytes": 18314,
+    "sha256": "5487a2d5bcc8528b8e01b18b10b9bc78bd67e2fa693833313f16ee0e94a7e8fd"
+  },
+  "derived_from": {
+    "path": "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.1\\CONV-THANK_GATE4_EDITABLE_SOURCE_V0.1.html",
+    "bytes": 18314,
+    "sha256": "1ea39b622d4b918c2e86d406dc4c384236253850fe309496cee950a24dbca3a5"
+  },
+  "finding": "CONVTHANK-G5-IR-F01",
+  "change": "Footer DOM sequence only: footerGrid → copyright → legalUtilities",
+  "direction": {
+    "inherited": "V0.1 restrained B2B result utility unchanged",
+    "locked": [
+      "exact copy",
+      "four mutually exclusive states",
+      "visual rules",
+      "approved request key",
+      "state eligibility",
+      "action labels and targets",
+      "shared behavior",
+      "navigation NONE"
+    ]
+  },
+  "media": "NO_MEDIA_INTENDED",
+  "decision": "TARGETED_REPAIR / CONTINUE_TO_PREFLIGHT"
+}

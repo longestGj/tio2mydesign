@@ -1,0 +1,2237 @@
+{
+  "recordId": "CONTACT-001-G4-V02-PREFLIGHT-AND-FORMAL-RUNTIME-01",
+  "reviewId": "CONTACT-001-G4-IR-01",
+  "findingId": "CONTACT-001-G4-IR-F01",
+  "executedAt": "2026-09-10T09:13:26.147Z",
+  "frozenCandidate": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/CONTACT-001_GATE4_COMPLETE_VISUAL_V0.2.html",
+    "bytes": 38039,
+    "sha256": "FC1A64B7EF3320FE3F6A17F2C7D119E8CBA65586C9F6D0FC9B8406E6EC8E0879"
+  },
+  "browser": {
+    "engine": "Chromium"
+  },
+  "checks": [
+    {
+      "id": "frozen-source-identity",
+      "status": "PASS",
+      "evidence": {
+        "bytes": 38039,
+        "sha256": "FC1A64B7EF3320FE3F6A17F2C7D119E8CBA65586C9F6D0FC9B8406E6EC8E0879"
+      }
+    },
+    {
+      "id": "parent-v0.1-identity",
+      "status": "PASS",
+      "evidence": {
+        "bytes": 35914,
+        "sha256": "6D4F4AAF1300B75A384B18E011DEE21D43C5ED551596C6D9C524E689F3BFF78E"
+      }
+    },
+    {
+      "id": "default-1440-copy-parity",
+      "status": "PASS",
+      "evidence": {
+        "equal": true
+      }
+    },
+    {
+      "id": "default-1440-geometry",
+      "status": "PASS",
+      "evidence": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "headerHeight": 84,
+        "footerBottom": 3650.71875,
+        "scrollHeight": 3651,
+        "tooSmall": [],
+        "contactHeaderLinks": 0,
+        "currentWord": 0,
+        "desktopCurrent": [
+          "About"
+        ],
+        "schema": [
+          {
+            "id": "full_name",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "company",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "business_email",
+            "tag": "INPUT",
+            "type": "email"
+          },
+          {
+            "id": "country_region",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "subject",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "message",
+            "tag": "TEXTAREA",
+            "type": "textarea"
+          }
+        ]
+      }
+    },
+    {
+      "id": "default-1440-chrome",
+      "status": "PASS",
+      "evidence": {
+        "chromeEqual": true,
+        "contactHeaderLinks": 0,
+        "currentWord": 0
+      }
+    },
+    {
+      "id": "default-1440-header-height",
+      "status": "PASS",
+      "evidence": {
+        "headerHeight": 84
+      }
+    },
+    {
+      "id": "default-1440-schema",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "full_name",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "company",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "business_email",
+          "tag": "INPUT",
+          "type": "email"
+        },
+        {
+          "id": "country_region",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "subject",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "message",
+          "tag": "TEXTAREA",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "default-768-copy-parity",
+      "status": "PASS",
+      "evidence": {
+        "equal": true
+      }
+    },
+    {
+      "id": "default-768-geometry",
+      "status": "PASS",
+      "evidence": {
+        "width": 768,
+        "scrollWidth": 768,
+        "headerHeight": 64,
+        "footerBottom": 4224.46875,
+        "scrollHeight": 4224,
+        "tooSmall": [],
+        "contactHeaderLinks": 0,
+        "currentWord": 0,
+        "desktopCurrent": [
+          "About"
+        ],
+        "schema": [
+          {
+            "id": "full_name",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "company",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "business_email",
+            "tag": "INPUT",
+            "type": "email"
+          },
+          {
+            "id": "country_region",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "subject",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "message",
+            "tag": "TEXTAREA",
+            "type": "textarea"
+          }
+        ]
+      }
+    },
+    {
+      "id": "default-768-chrome",
+      "status": "PASS",
+      "evidence": {
+        "chromeEqual": true,
+        "contactHeaderLinks": 0,
+        "currentWord": 0
+      }
+    },
+    {
+      "id": "default-768-header-height",
+      "status": "PASS",
+      "evidence": {
+        "headerHeight": 64
+      }
+    },
+    {
+      "id": "default-768-schema",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "full_name",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "company",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "business_email",
+          "tag": "INPUT",
+          "type": "email"
+        },
+        {
+          "id": "country_region",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "subject",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "message",
+          "tag": "TEXTAREA",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "default-390-copy-parity",
+      "status": "PASS",
+      "evidence": {
+        "equal": true
+      }
+    },
+    {
+      "id": "default-390-geometry",
+      "status": "PASS",
+      "evidence": {
+        "width": 390,
+        "scrollWidth": 390,
+        "headerHeight": 64,
+        "footerBottom": 5248.359375,
+        "scrollHeight": 5248,
+        "tooSmall": [],
+        "contactHeaderLinks": 0,
+        "currentWord": 0,
+        "desktopCurrent": [
+          "About"
+        ],
+        "schema": [
+          {
+            "id": "full_name",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "company",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "business_email",
+            "tag": "INPUT",
+            "type": "email"
+          },
+          {
+            "id": "country_region",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "subject",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "message",
+            "tag": "TEXTAREA",
+            "type": "textarea"
+          }
+        ]
+      }
+    },
+    {
+      "id": "default-390-chrome",
+      "status": "PASS",
+      "evidence": {
+        "chromeEqual": true,
+        "contactHeaderLinks": 0,
+        "currentWord": 0
+      }
+    },
+    {
+      "id": "default-390-header-height",
+      "status": "PASS",
+      "evidence": {
+        "headerHeight": 64
+      }
+    },
+    {
+      "id": "default-390-schema",
+      "status": "PASS",
+      "evidence": [
+        {
+          "id": "full_name",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "company",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "business_email",
+          "tag": "INPUT",
+          "type": "email"
+        },
+        {
+          "id": "country_region",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "subject",
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "id": "message",
+          "tag": "TEXTAREA",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "menu-768",
+      "status": "PASS",
+      "evidence": {
+        "expanded": "true",
+        "focus": "Home",
+        "mainInert": true,
+        "footerInert": true,
+        "active": [
+          "About"
+        ],
+        "currentWord": 0,
+        "rfq": [
+          "/request-a-quote/"
+        ]
+      }
+    },
+    {
+      "id": "menu-390",
+      "status": "PASS",
+      "evidence": {
+        "expanded": "true",
+        "focus": "Home",
+        "mainInert": true,
+        "footerInert": true,
+        "active": [
+          "About"
+        ],
+        "currentWord": 0,
+        "rfq": [
+          "/request-a-quote/"
+        ]
+      }
+    },
+    {
+      "id": "focus-regression",
+      "status": "PASS",
+      "evidence": {
+        "focus": "business_email",
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "reviewHidden": true
+      }
+    },
+    {
+      "id": "validation-regression",
+      "status": "PASS",
+      "evidence": {
+        "focus": "validation-summary",
+        "summary": true,
+        "errors": [
+          "Enter your full name.",
+          "Keep your company name to 160 characters or fewer.",
+          "Enter a valid email address, such as name@company.com.",
+          "Enter your country or region.",
+          "Keep the subject to 120 characters or fewer.",
+          "Enter your message."
+        ],
+        "reviewHidden": true,
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    {
+      "id": "submitting-390-review",
+      "status": "PASS",
+      "evidence": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 41,
+          "right": 349,
+          "top": 2962.984375,
+          "bottom": 3678.515625,
+          "clientWidth": 303,
+          "scrollWidth": 303,
+          "clientHeight": 714,
+          "scrollHeight": 714
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 63,
+            "right": 330,
+            "top": 3006.28125,
+            "bottom": 3029.53125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 63,
+            "right": 330,
+            "top": 3071.828125,
+            "bottom": 3141.578125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 70,
+            "scrollHeight": 70,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 63,
+            "right": 330,
+            "top": 3183.875,
+            "bottom": 3207.125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 63,
+            "right": 330,
+            "top": 3249.421875,
+            "bottom": 3272.671875,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 63,
+            "right": 330,
+            "top": 3314.96875,
+            "bottom": 3384.71875,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 70,
+            "scrollHeight": 70,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 63,
+            "right": 330,
+            "top": 3427.015625,
+            "bottom": 3659.515625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 233,
+            "scrollHeight": 233,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 390,
+        "viewportWidth": 390
+      }
+    },
+    {
+      "id": "submitting-390-behavior",
+      "status": "PASS",
+      "evidence": {
+        "allReadOnly": true,
+        "allEditable": false,
+        "ariaBusy": "true",
+        "ariaDisabled": "true",
+        "submitText": "Sending your inquiry…",
+        "failureVisible": false,
+        "retry": "Try again",
+        "reviewFocusables": 0
+      }
+    },
+    {
+      "id": "submitting-768-review",
+      "status": "PASS",
+      "evidence": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 61,
+          "right": 707,
+          "top": 2359.46875,
+          "bottom": 2742.65625,
+          "clientWidth": 641,
+          "scrollWidth": 641,
+          "clientHeight": 381,
+          "scrollHeight": 381
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 87,
+            "right": 373.5,
+            "top": 2406.765625,
+            "bottom": 2430.015625,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 397.5,
+            "right": 684,
+            "top": 2406.765625,
+            "bottom": 2453.265625,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 47,
+            "scrollHeight": 47,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 87,
+            "right": 373.5,
+            "top": 2495.5625,
+            "bottom": 2518.8125,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 397.5,
+            "right": 684,
+            "top": 2495.5625,
+            "bottom": 2518.8125,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 87,
+            "right": 684,
+            "top": 2561.109375,
+            "bottom": 2584.359375,
+            "clientWidth": 597,
+            "scrollWidth": 597,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 87,
+            "right": 684,
+            "top": 2626.65625,
+            "bottom": 2719.65625,
+            "clientWidth": 597,
+            "scrollWidth": 597,
+            "clientHeight": 93,
+            "scrollHeight": 93,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 768,
+        "viewportWidth": 768
+      }
+    },
+    {
+      "id": "submitting-768-behavior",
+      "status": "PASS",
+      "evidence": {
+        "allReadOnly": true,
+        "allEditable": false,
+        "ariaBusy": "true",
+        "ariaDisabled": "true",
+        "submitText": "Sending your inquiry…",
+        "failureVisible": false,
+        "retry": "Try again",
+        "reviewFocusables": 0
+      }
+    },
+    {
+      "id": "failure-390-review",
+      "status": "PASS",
+      "evidence": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 41,
+          "right": 349,
+          "top": 3266.359375,
+          "bottom": 3981.890625,
+          "clientWidth": 303,
+          "scrollWidth": 303,
+          "clientHeight": 714,
+          "scrollHeight": 714
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 63,
+            "right": 330,
+            "top": 3309.65625,
+            "bottom": 3332.90625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 63,
+            "right": 330,
+            "top": 3375.203125,
+            "bottom": 3444.953125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 70,
+            "scrollHeight": 70,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 63,
+            "right": 330,
+            "top": 3487.25,
+            "bottom": 3510.5,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 63,
+            "right": 330,
+            "top": 3552.796875,
+            "bottom": 3576.046875,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 63,
+            "right": 330,
+            "top": 3618.34375,
+            "bottom": 3688.09375,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 70,
+            "scrollHeight": 70,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 63,
+            "right": 330,
+            "top": 3730.390625,
+            "bottom": 3962.890625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 233,
+            "scrollHeight": 233,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 390,
+        "viewportWidth": 390
+      }
+    },
+    {
+      "id": "failure-390-behavior",
+      "status": "PASS",
+      "evidence": {
+        "allReadOnly": false,
+        "allEditable": true,
+        "ariaBusy": null,
+        "ariaDisabled": null,
+        "submitText": "Send a General Inquiry",
+        "failureVisible": true,
+        "retry": "Try again",
+        "reviewFocusables": 0
+      }
+    },
+    {
+      "id": "failure-768-review",
+      "status": "PASS",
+      "evidence": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 61,
+          "right": 707,
+          "top": 2599.90625,
+          "bottom": 2983.09375,
+          "clientWidth": 641,
+          "scrollWidth": 641,
+          "clientHeight": 381,
+          "scrollHeight": 381
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 87,
+            "right": 373.5,
+            "top": 2647.203125,
+            "bottom": 2670.453125,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 397.5,
+            "right": 684,
+            "top": 2647.203125,
+            "bottom": 2693.703125,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 47,
+            "scrollHeight": 47,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 87,
+            "right": 373.5,
+            "top": 2736,
+            "bottom": 2759.25,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 397.5,
+            "right": 684,
+            "top": 2736,
+            "bottom": 2759.25,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 87,
+            "right": 684,
+            "top": 2801.546875,
+            "bottom": 2824.796875,
+            "clientWidth": 597,
+            "scrollWidth": 597,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 87,
+            "right": 684,
+            "top": 2867.09375,
+            "bottom": 2960.09375,
+            "clientWidth": 597,
+            "scrollWidth": 597,
+            "clientHeight": 93,
+            "scrollHeight": 93,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 768,
+        "viewportWidth": 768
+      }
+    },
+    {
+      "id": "failure-768-behavior",
+      "status": "PASS",
+      "evidence": {
+        "allReadOnly": false,
+        "allEditable": true,
+        "ariaBusy": null,
+        "ariaDisabled": null,
+        "submitText": "Send a General Inquiry",
+        "failureVisible": true,
+        "retry": "Try again",
+        "reviewFocusables": 0
+      }
+    },
+    {
+      "id": "failure-390-boundary-160-120",
+      "status": "PASS",
+      "evidence": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 41,
+          "right": 349,
+          "top": 3266.359375,
+          "bottom": 4121.390625,
+          "clientWidth": 303,
+          "scrollWidth": 303,
+          "clientHeight": 853,
+          "scrollHeight": 853
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 63,
+            "right": 330,
+            "top": 3309.65625,
+            "bottom": 3332.90625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 63,
+            "right": 330,
+            "top": 3375.203125,
+            "bottom": 3537.953125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 163,
+            "scrollHeight": 163,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 63,
+            "right": 330,
+            "top": 3580.25,
+            "bottom": 3603.5,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 63,
+            "right": 330,
+            "top": 3645.796875,
+            "bottom": 3669.046875,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 63,
+            "right": 330,
+            "top": 3711.34375,
+            "bottom": 3827.59375,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 116,
+            "scrollHeight": 116,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 63,
+            "right": 330,
+            "top": 3869.890625,
+            "bottom": 4102.390625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 233,
+            "scrollHeight": 233,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 390,
+        "viewportWidth": 390
+      }
+    },
+    {
+      "id": "failure-retry-regression",
+      "status": "PASS",
+      "evidence": {
+        "focus": "submit-button",
+        "failureHidden": true,
+        "reviewHidden": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "editable": true
+      }
+    },
+    {
+      "id": "success-regression",
+      "status": "PASS",
+      "evidence": {
+        "focus": "success-panel",
+        "success": true,
+        "fieldsHidden": true,
+        "reviewHidden": true,
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    {
+      "id": "restricted-regression",
+      "status": "PASS",
+      "evidence": {
+        "manufacturingHidden": true,
+        "summaryHidden": true,
+        "cards": 2,
+        "phoneSlots": 0,
+        "reviewHidden": true,
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    {
+      "id": "submitting-buyer-copy-preserved",
+      "status": "PASS",
+      "evidence": {
+        "equalAfterRemovingReviewPresentation": true
+      }
+    },
+    {
+      "id": "failure-buyer-copy-preserved",
+      "status": "PASS",
+      "evidence": {
+        "equalAfterRemovingReviewPresentation": true
+      }
+    }
+  ],
+  "summary": {
+    "total": 35,
+    "pass": 35,
+    "fail": 0
+  },
+  "assets": [
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_1440_FULL.png",
+      "role": "approval_core_full_page",
+      "logicalViewport": "1440×900",
+      "physicalPixels": "1440×3651",
+      "scale": "1x",
+      "state": "V0.2 default full page; document height 3651px",
+      "evidenceType": "STATIC_VISUAL",
+      "bytes": 386540,
+      "sha256": "2E56AAA6792302741240352EFD677B4E6FFEC5274763F5172B215BDFE6B3BC30"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_768_FULL.png",
+      "role": "approval_core_full_page",
+      "logicalViewport": "768×900",
+      "physicalPixels": "768×4224",
+      "scale": "1x",
+      "state": "V0.2 default full page; document height 4224px",
+      "evidenceType": "STATIC_VISUAL",
+      "bytes": 367377,
+      "sha256": "C9C92FBDE60EA21DA4BDADB5ACD21771FD319C4988472C03A40DE4F4D7AAE7CE"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_FULL.png",
+      "role": "approval_core_full_page",
+      "logicalViewport": "390×844",
+      "physicalPixels": "390×5248",
+      "scale": "1x",
+      "state": "V0.2 default full page; document height 5248px",
+      "evidenceType": "STATIC_VISUAL",
+      "bytes": 354102,
+      "sha256": "35F771DC98BF3611EADF8A862C0796AA5DA66CB68FD2F1CD47D87B5DCDCBB1B2"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_768_MENU_OPEN.png",
+      "role": "approval_core_mobile_menu",
+      "logicalViewport": "768×900",
+      "physicalPixels": "768×900",
+      "scale": "1x",
+      "state": "menu open; About active; background inert; RFQ visible",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "bytes": 57001,
+      "sha256": "53E16F9B93F25AF85501E0F8A3E2D22CBB02B75E612C90C75D1D1E6C63FEAF3A"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_MENU_OPEN.png",
+      "role": "approval_core_mobile_menu",
+      "logicalViewport": "390×844",
+      "physicalPixels": "390×844",
+      "scale": "1x",
+      "state": "menu open; About active; background inert; RFQ visible",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "bytes": 41992,
+      "sha256": "12DD9BFBDC5AF889453CAFEA03E861EFB61C6D0DC74D7A33A924769F86B74B9B"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_1440_FORM_FOCUS.png",
+      "role": "approval_core_form_state",
+      "logicalViewport": "1440×900",
+      "physicalPixels": "1440×900",
+      "scale": "1x",
+      "state": "Business Email keyboard focus visible; retained review absent",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "bytes": 103623,
+      "sha256": "1BC711A612F243CA0093B09209B7BFC229CAD8EA7BC2E34A25483D803DCC4D8E"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_FORM_VALIDATION_LONG.png",
+      "role": "approval_core_form_state",
+      "logicalViewport": "390×844",
+      "physicalPixels": "390×844",
+      "scale": "1x",
+      "state": "validation summary plus long/invalid values; retained review absent",
+      "evidenceType": "ACTUAL_RUNTIME + LOCAL_STATE_INJECTION",
+      "bytes": 79366,
+      "sha256": "E99D78A8B70D8C6F49E4B5A39B8514F534EDF3BE0BFAAF4E6F27FF387777B320"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_FORM_SUBMITTING_CURRENT.png",
+      "role": "approval_core_form_state",
+      "logicalViewport": "390×844",
+      "physicalPixels": "390×844",
+      "scale": "1x",
+      "state": "submitting; current long fixtures retained",
+      "evidenceType": "LOCAL_SIMULATION",
+      "bytes": 60342,
+      "sha256": "583A3A9CC950A2447C0E7F35892215145610D8B62D0B8C229E73BF84D4A460D0"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_SUBMITTING_RETAINED_CURRENT.png",
+      "role": "approval_core_retained_values",
+      "logicalViewport": "390×844",
+      "physicalPixels": "308×717",
+      "scale": "1x",
+      "state": "submitting; complete wrapped readback of all six current fixtures",
+      "evidenceType": "ACTUAL_RENDERED_ELEMENT + LOCAL_SIMULATION",
+      "bytes": 51493,
+      "sha256": "981EB21E69D80C91426193FC0B5369104A1692E50C25F0831E20580D7F2EDFDF"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_FORM_FAILURE_CURRENT.png",
+      "role": "approval_core_form_state",
+      "logicalViewport": "390×844",
+      "physicalPixels": "390×844",
+      "scale": "1x",
+      "state": "failure; current long fixtures retained",
+      "evidenceType": "LOCAL_SIMULATION",
+      "bytes": 73849,
+      "sha256": "E076C5556FE08143F549D9489EB5783A63F835D36255BCCE21B79B1E0838DA1B"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_FAILURE_RETAINED_CURRENT.png",
+      "role": "approval_core_retained_values",
+      "logicalViewport": "390×844",
+      "physicalPixels": "308×716",
+      "scale": "1x",
+      "state": "failure; complete wrapped readback of all six current fixtures",
+      "evidenceType": "ACTUAL_RENDERED_ELEMENT + LOCAL_SIMULATION",
+      "bytes": 51487,
+      "sha256": "ED661528A3F6DBF85EDBFB22E846964D1919FB78B1FFEC902E1A2BF9E42C4DD8"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_FAILURE_RETAINED_BOUNDARY_160_120.png",
+      "role": "approval_core_retained_values_boundary",
+      "logicalViewport": "390×844",
+      "physicalPixels": "308×856",
+      "scale": "1x",
+      "state": "failure; six values retained; Company 160 and Subject 120 characters fully wrapped",
+      "evidenceType": "ACTUAL_RENDERED_ELEMENT + LOCAL_STATE_INJECTION",
+      "bytes": 45182,
+      "sha256": "706662C620952137A3265364DD83BF2192E18D67F146FD05D52F1A6A4BF8AE89"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_FORM_SUCCESS.png",
+      "role": "approval_core_form_state",
+      "logicalViewport": "390×844",
+      "physicalPixels": "390×844",
+      "scale": "1x",
+      "state": "success; fields cleared; bounded confirmation",
+      "evidenceType": "LOCAL_SIMULATION",
+      "bytes": 68172,
+      "sha256": "48DA57726426152ECDE8F6AB9F02764FC981FAC5C15ECE27BBCCA1FB3CCC5F9F"
+    },
+    {
+      "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/approval_core/CONTACT-001_G4_V02_390_RESTRICTED_CONTACT.png",
+      "role": "approval_core_restricted_state",
+      "logicalViewport": "390×844",
+      "physicalPixels": "390×844",
+      "scale": "1x",
+      "state": "Manufacturing Site omitted; no phone or empty slot",
+      "evidenceType": "LOCAL_SIMULATION",
+      "bytes": 46144,
+      "sha256": "687C4611887F70EC28EB8D02415E059A7BAF88A8E00D56365FDC5AFBEE609312"
+    }
+  ],
+  "operations": [
+    {
+      "state": "1440 default",
+      "result": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "headerHeight": 84,
+        "footerBottom": 3650.71875,
+        "scrollHeight": 3651,
+        "tooSmall": [],
+        "contactHeaderLinks": 0,
+        "currentWord": 0,
+        "desktopCurrent": [
+          "About"
+        ],
+        "schema": [
+          {
+            "id": "full_name",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "company",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "business_email",
+            "tag": "INPUT",
+            "type": "email"
+          },
+          {
+            "id": "country_region",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "subject",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "message",
+            "tag": "TEXTAREA",
+            "type": "textarea"
+          }
+        ]
+      }
+    },
+    {
+      "state": "768 default",
+      "result": {
+        "width": 768,
+        "scrollWidth": 768,
+        "headerHeight": 64,
+        "footerBottom": 4224.46875,
+        "scrollHeight": 4224,
+        "tooSmall": [],
+        "contactHeaderLinks": 0,
+        "currentWord": 0,
+        "desktopCurrent": [
+          "About"
+        ],
+        "schema": [
+          {
+            "id": "full_name",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "company",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "business_email",
+            "tag": "INPUT",
+            "type": "email"
+          },
+          {
+            "id": "country_region",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "subject",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "message",
+            "tag": "TEXTAREA",
+            "type": "textarea"
+          }
+        ]
+      }
+    },
+    {
+      "state": "390 default",
+      "result": {
+        "width": 390,
+        "scrollWidth": 390,
+        "headerHeight": 64,
+        "footerBottom": 5248.359375,
+        "scrollHeight": 5248,
+        "tooSmall": [],
+        "contactHeaderLinks": 0,
+        "currentWord": 0,
+        "desktopCurrent": [
+          "About"
+        ],
+        "schema": [
+          {
+            "id": "full_name",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "company",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "business_email",
+            "tag": "INPUT",
+            "type": "email"
+          },
+          {
+            "id": "country_region",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "subject",
+            "tag": "INPUT",
+            "type": "text"
+          },
+          {
+            "id": "message",
+            "tag": "TEXTAREA",
+            "type": "textarea"
+          }
+        ]
+      }
+    },
+    {
+      "state": "768 menu",
+      "result": {
+        "expanded": "true",
+        "focus": "Home",
+        "mainInert": true,
+        "footerInert": true,
+        "active": [
+          "About"
+        ],
+        "currentWord": 0,
+        "rfq": [
+          "/request-a-quote/"
+        ]
+      }
+    },
+    {
+      "state": "390 menu",
+      "result": {
+        "expanded": "true",
+        "focus": "Home",
+        "mainInert": true,
+        "footerInert": true,
+        "active": [
+          "About"
+        ],
+        "currentWord": 0,
+        "rfq": [
+          "/request-a-quote/"
+        ]
+      }
+    },
+    {
+      "state": "focus",
+      "result": {
+        "focus": "business_email",
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "reviewHidden": true
+      }
+    },
+    {
+      "state": "validation",
+      "result": {
+        "focus": "validation-summary",
+        "summary": true,
+        "errors": [
+          "Enter your full name.",
+          "Keep your company name to 160 characters or fewer.",
+          "Enter a valid email address, such as name@company.com.",
+          "Enter your country or region.",
+          "Keep the subject to 120 characters or fewer.",
+          "Enter your message."
+        ],
+        "reviewHidden": true,
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    {
+      "state": "390 submitting",
+      "measurement": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 41,
+          "right": 349,
+          "top": 2962.984375,
+          "bottom": 3678.515625,
+          "clientWidth": 303,
+          "scrollWidth": 303,
+          "clientHeight": 714,
+          "scrollHeight": 714
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 63,
+            "right": 330,
+            "top": 3006.28125,
+            "bottom": 3029.53125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 63,
+            "right": 330,
+            "top": 3071.828125,
+            "bottom": 3141.578125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 70,
+            "scrollHeight": 70,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 63,
+            "right": 330,
+            "top": 3183.875,
+            "bottom": 3207.125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 63,
+            "right": 330,
+            "top": 3249.421875,
+            "bottom": 3272.671875,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 63,
+            "right": 330,
+            "top": 3314.96875,
+            "bottom": 3384.71875,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 70,
+            "scrollHeight": 70,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 63,
+            "right": 330,
+            "top": 3427.015625,
+            "bottom": 3659.515625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 233,
+            "scrollHeight": 233,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 390,
+        "viewportWidth": 390
+      },
+      "behavior": {
+        "allReadOnly": true,
+        "allEditable": false,
+        "ariaBusy": "true",
+        "ariaDisabled": "true",
+        "submitText": "Sending your inquiry…",
+        "failureVisible": false,
+        "retry": "Try again",
+        "reviewFocusables": 0
+      }
+    },
+    {
+      "state": "768 submitting",
+      "measurement": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 61,
+          "right": 707,
+          "top": 2359.46875,
+          "bottom": 2742.65625,
+          "clientWidth": 641,
+          "scrollWidth": 641,
+          "clientHeight": 381,
+          "scrollHeight": 381
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 87,
+            "right": 373.5,
+            "top": 2406.765625,
+            "bottom": 2430.015625,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 397.5,
+            "right": 684,
+            "top": 2406.765625,
+            "bottom": 2453.265625,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 47,
+            "scrollHeight": 47,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 87,
+            "right": 373.5,
+            "top": 2495.5625,
+            "bottom": 2518.8125,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 397.5,
+            "right": 684,
+            "top": 2495.5625,
+            "bottom": 2518.8125,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 87,
+            "right": 684,
+            "top": 2561.109375,
+            "bottom": 2584.359375,
+            "clientWidth": 597,
+            "scrollWidth": 597,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 87,
+            "right": 684,
+            "top": 2626.65625,
+            "bottom": 2719.65625,
+            "clientWidth": 597,
+            "scrollWidth": 597,
+            "clientHeight": 93,
+            "scrollHeight": 93,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 768,
+        "viewportWidth": 768
+      },
+      "behavior": {
+        "allReadOnly": true,
+        "allEditable": false,
+        "ariaBusy": "true",
+        "ariaDisabled": "true",
+        "submitText": "Sending your inquiry…",
+        "failureVisible": false,
+        "retry": "Try again",
+        "reviewFocusables": 0
+      }
+    },
+    {
+      "state": "390 failure",
+      "measurement": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 41,
+          "right": 349,
+          "top": 3266.359375,
+          "bottom": 3981.890625,
+          "clientWidth": 303,
+          "scrollWidth": 303,
+          "clientHeight": 714,
+          "scrollHeight": 714
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 63,
+            "right": 330,
+            "top": 3309.65625,
+            "bottom": 3332.90625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 63,
+            "right": 330,
+            "top": 3375.203125,
+            "bottom": 3444.953125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 70,
+            "scrollHeight": 70,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 63,
+            "right": 330,
+            "top": 3487.25,
+            "bottom": 3510.5,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 63,
+            "right": 330,
+            "top": 3552.796875,
+            "bottom": 3576.046875,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 63,
+            "right": 330,
+            "top": 3618.34375,
+            "bottom": 3688.09375,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 70,
+            "scrollHeight": 70,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 63,
+            "right": 330,
+            "top": 3730.390625,
+            "bottom": 3962.890625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 233,
+            "scrollHeight": 233,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 390,
+        "viewportWidth": 390
+      },
+      "behavior": {
+        "allReadOnly": false,
+        "allEditable": true,
+        "ariaBusy": null,
+        "ariaDisabled": null,
+        "submitText": "Send a General Inquiry",
+        "failureVisible": true,
+        "retry": "Try again",
+        "reviewFocusables": 0
+      }
+    },
+    {
+      "state": "768 failure",
+      "measurement": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "Global Industrial Materials Procurement and Technical Evaluation Group",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "Partnership discussion for an international industrial materials programme",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 61,
+          "right": 707,
+          "top": 2599.90625,
+          "bottom": 2983.09375,
+          "clientWidth": 641,
+          "scrollWidth": 641,
+          "clientHeight": 381,
+          "scrollHeight": 381
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 87,
+            "right": 373.5,
+            "top": 2647.203125,
+            "bottom": 2670.453125,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 397.5,
+            "right": 684,
+            "top": 2647.203125,
+            "bottom": 2693.703125,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 47,
+            "scrollHeight": 47,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 87,
+            "right": 373.5,
+            "top": 2736,
+            "bottom": 2759.25,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 397.5,
+            "right": 684,
+            "top": 2736,
+            "bottom": 2759.25,
+            "clientWidth": 287,
+            "scrollWidth": 287,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 87,
+            "right": 684,
+            "top": 2801.546875,
+            "bottom": 2824.796875,
+            "clientWidth": 597,
+            "scrollWidth": 597,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 87,
+            "right": 684,
+            "top": 2867.09375,
+            "bottom": 2960.09375,
+            "clientWidth": 597,
+            "scrollWidth": 597,
+            "clientHeight": 93,
+            "scrollHeight": 93,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 768,
+        "viewportWidth": 768
+      },
+      "behavior": {
+        "allReadOnly": false,
+        "allEditable": true,
+        "ariaBusy": null,
+        "ariaDisabled": null,
+        "submitText": "Send a General Inquiry",
+        "failureVisible": true,
+        "retry": "Try again",
+        "reviewFocusables": 0
+      }
+    },
+    {
+      "state": "390 failure boundary and retry",
+      "before": {
+        "visible": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "readback": {
+          "full_name": "Amina Rahman",
+          "company": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "exact": true,
+        "review": {
+          "left": 41,
+          "right": 349,
+          "top": 3266.359375,
+          "bottom": 4121.390625,
+          "clientWidth": 303,
+          "scrollWidth": 303,
+          "clientHeight": 853,
+          "scrollHeight": 853
+        },
+        "items": [
+          {
+            "id": "full_name",
+            "left": 63,
+            "right": 330,
+            "top": 3309.65625,
+            "bottom": 3332.90625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "company",
+            "left": 63,
+            "right": 330,
+            "top": 3375.203125,
+            "bottom": 3537.953125,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 163,
+            "scrollHeight": 163,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "business_email",
+            "left": 63,
+            "right": 330,
+            "top": 3580.25,
+            "bottom": 3603.5,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "country_region",
+            "left": 63,
+            "right": 330,
+            "top": 3645.796875,
+            "bottom": 3669.046875,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 23,
+            "scrollHeight": 23,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "subject",
+            "left": 63,
+            "right": 330,
+            "top": 3711.34375,
+            "bottom": 3827.59375,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 116,
+            "scrollHeight": 116,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          },
+          {
+            "id": "message",
+            "left": 63,
+            "right": 330,
+            "top": 3869.890625,
+            "bottom": 4102.390625,
+            "clientWidth": 267,
+            "scrollWidth": 267,
+            "clientHeight": 233,
+            "scrollHeight": 233,
+            "whiteSpace": "pre-wrap",
+            "overflowWrap": "anywhere",
+            "wordBreak": "break-word"
+          }
+        ],
+        "allInside": true,
+        "noInternalOverflow": true,
+        "wraps": true,
+        "pageWidth": 390,
+        "viewportWidth": 390
+      },
+      "after": {
+        "focus": "submit-button",
+        "failureHidden": true,
+        "reviewHidden": true,
+        "values": {
+          "full_name": "Amina Rahman",
+          "company": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "business_email": "amina.rahman@example.com",
+          "country_region": "Malaysia",
+          "subject": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+          "message": "We are reviewing a long-term industrial materials programme involving procurement, technical evaluation and cross-border coordination. Please advise which team should review a general partnership discussion before any product-specific quotation, document or sample request is opened."
+        },
+        "editable": true
+      }
+    },
+    {
+      "state": "success",
+      "result": {
+        "focus": "success-panel",
+        "success": true,
+        "fieldsHidden": true,
+        "reviewHidden": true,
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    {
+      "state": "restricted",
+      "result": {
+        "manufacturingHidden": true,
+        "summaryHidden": true,
+        "cards": 2,
+        "phoneSlots": 0,
+        "reviewHidden": true,
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    }
+  ],
+  "externalRequestsSent": 0,
+  "lifecycle": "RESOLVED_IN_DRAFT_PENDING_TARGETED_RECHECK_NOT_APPROVED",
+  "gate6": "NOT_STARTED"
+}

@@ -1,0 +1,36 @@
+{
+  "recordId": "CONTACT-001-G4-V02-PREFLIGHT-01",
+  "reviewId": "CONTACT-001-G4-IR-01",
+  "findingId": "CONTACT-001-G4-IR-F01",
+  "candidate": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/CONTACT-001_GATE4_COMPLETE_VISUAL_V0.2.html",
+    "bytes": 38039,
+    "sha256": "FC1A64B7EF3320FE3F6A17F2C7D119E8CBA65586C9F6D0FC9B8406E6EC8E0879"
+  },
+  "targetedTdd": {
+    "v0.1Red": {"total": 11, "pass": 3, "fail": 8, "expectedFailure": "retained-values review missing"},
+    "v0.2Green": {"total": 11, "pass": 11, "fail": 0}
+  },
+  "runtime": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/diagnostic_support/preflight-runtime.json",
+    "bytes": 71667,
+    "sha256": "123A5C3D0F1A79EC7733ACB3D9A78893745638EAB9A9B8094824DE6A89DC34B9",
+    "assertions": {"total": 35, "pass": 35, "fail": 0},
+    "formalAssets": 14
+  },
+  "coverage": [
+    "1440/768/390 default full page and Footer closure",
+    "768/390 Mobile Menu and shared Chrome",
+    "1440 focus",
+    "390 validation, submitting, failure, success and restricted details",
+    "390 current long fixtures in submitting and failure",
+    "390 exact 160-character Company and 120-character Subject boundary values",
+    "768 submitting/failure adjacent behavior",
+    "six-field value equality, wrapping, no internal or page horizontal overflow",
+    "submitting read-only/dedup and failure editable/Try again",
+    "V0.1 default Buyer Copy and shared Header/Footer parity"
+  ],
+  "status": "PASS_FOR_TARGETED_INDEPENDENT_RECHECK",
+  "lifecycle": "RESOLVED_IN_DRAFT_PENDING_TARGETED_RECHECK_NOT_APPROVED",
+  "gate6": "NOT_STARTED"
+}

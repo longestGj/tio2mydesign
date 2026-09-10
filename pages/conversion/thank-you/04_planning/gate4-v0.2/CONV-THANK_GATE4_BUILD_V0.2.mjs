@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+const root='D:/23MySec',out=`${root}/pages/conversion/thank-you/04_planning/gate4-v0.2`;
+const prior=`${root}/pages/conversion/thank-you/04_planning/gate4-v0.1/CONV-THANK_GATE4_EDITABLE_SOURCE_V0.1.html`;
+const target=`${out}/CONV-THANK_GATE4_EDITABLE_SOURCE_V0.2.html`;
+fs.mkdirSync(`${out}/approval_core`,{recursive:true});fs.mkdirSync(`${out}/diagnostic_support`,{recursive:true});
+let html=fs.readFileSync(prior,'utf8');
+const legal=html.match(/<nav class="legalUtilities"[\s\S]*?<\/nav>/)?.[0];
+const copyright=html.match(/<p class="copyright">[\s\S]*?<\/p>/)?.[0];
+if(!legal||!copyright)throw new Error('Footer legal/copyright nodes missing');
+const sequence=`${legal}${copyright}`;if(!html.includes(sequence))throw new Error('V0.1 expected legal-first sequence missing');
+html=html.replace(sequence,`${copyright}${legal}`);
+if((html.match(/<p class="copyright">/g)||[]).length!==1||(html.match(/<nav class="legalUtilities"/g)||[]).length!==1)throw new Error('Footer nodes duplicated');
+fs.writeFileSync(target,html);
+console.log(JSON.stringify({target,bytes:fs.statSync(target).size,change:'footerGrid → copyright → legalUtilities only',derivedFrom:prior},null,2));

@@ -1,0 +1,23 @@
+{
+  "recordId": "CONTACT-001-G4-PREFLIGHT-VISUAL-READBACK-01",
+  "pageId": "CONTACT-001",
+  "candidateSha256": "6D4F4AAF1300B75A384B18E011DEE21D43C5ED551596C6D9C524E689F3BFF78E",
+  "mode": "INITIAL_SELF_CHECK",
+  "reviewed": {
+    "fullPages": ["diagnostic-1440-default.png", "diagnostic-768-default.png", "diagnostic-390-default.png"],
+    "originalSegments": {"index": "segments/segment-index.json", "count": 17, "viewports": ["1440", "768", "390"]},
+    "states": ["768 menu open", "390 menu open", "1440 focus", "390 validation-long", "390 submitting", "390 failure-preserved", "390 success", "390 restricted-contact"]
+  },
+  "checks": {
+    "headerToFooterContinuity": "PASS",
+    "hierarchyAndSectionRhythm": "PASS",
+    "approvedCopyCaseAndCompleteness": "PASS_AFTER_REMOVING_UNAUTHORIZED_TEXT_TRANSFORM",
+    "longCopyAndEntityAddressWrapping": "PASS",
+    "noHorizontalOverflowOrClipping": "PASS",
+    "menuFocusAndStateAppearance": "PASS",
+    "formFocusValidationFailureSuccessAppearance": "PASS",
+    "restrictedStateNaturalClosure": "PASS"
+  },
+  "findings": [],
+  "status": "PREFLIGHT_VISUAL_SELF_READBACK_PASS_NOT_INDEPENDENT_REVIEW"
+}

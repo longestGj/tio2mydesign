@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "workset_id": "CONV-THANK-G4-WORKSET-20260908-02",
+  "executor": "/root/conv_thank_gate4_execute",
+  "mode": "SELF_CHECK / TARGETED + CAPTURE_CHECK",
+  "frozenSource": {
+    "path": "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\CONV-THANK_GATE4_EDITABLE_SOURCE_V0.2.html",
+    "bytes": 18314,
+    "sha256": "5487a2d5bcc8528b8e01b18b10b9bc78bd67e2fa693833313f16ee0e94a7e8fd"
+  },
+  "inspectedFormalImages": [
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DIRECT_1440_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DIRECT_390_COOKIE_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DIRECT_390_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DIRECT_390_MENU_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DIRECT_768_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DIRECT_768_MENU_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DOCUMENTS_1440_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DOCUMENTS_390_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_DOCUMENTS_768_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_QUOTE_1440_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_QUOTE_390_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_QUOTE_768_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_SAMPLE_1440_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_SAMPLE_390_FULL_V0.2.png",
+    "D:\\23MySec\\pages\\conversion\\thank-you\\04_planning\\gate4-v0.2\\approval_core\\CONV-THANK_GATE4_SAMPLE_768_FULL_V0.2.png"
+  ],
+  "inspectionMethod": "All 15 original formal PNGs were opened after frozen capture, including all twelve full-page state/width combinations and all three overlay states.",
+  "observations": [
+    "All twelve full pages show copyright before legal utilities; responsive wrapping retains the approved legal control order.",
+    "Quote, Documents and Sample share a consistent success hierarchy while retaining distinct exact copy and action pairs.",
+    "Direct remains receipt-free and contains all three approved request actions.",
+    "Documents and Sample long copy wraps naturally at 768 and 390; no word, action or context is lost.",
+    "Both recaptured Menu images are pixel-identical to V0.1; Cookie 390 visibly retains its dialog and the corrected underlying Footer order.",
+    "No formal capture artifact, clipping, collision, horizontal overflow, abnormal blank area or false CURRENT label was observed."
+  ],
+  "findings": [],
+  "unverified": [
+    "production receiver and navigation",
+    "real session implementation",
+    "real devices and screen reader",
+    "Gate 8 CMS/SEO/Schema/scope integration"
+  ],
+  "recordedAt": "2026-09-08T07:51:42.082Z"
+}

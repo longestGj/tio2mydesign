@@ -1,0 +1,23 @@
+{
+  "recordId": "CONTACT-001-G3-INPUT-BINDING-V0.1",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "boundAt": "2026-09-10",
+  "inputs": {
+    "manifest": {"path": "D:/23MySec/pages/contact/CONTACT-001_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md", "sha256": "1744401f0578b757f3b087f28ac97fdb4a8bb9e4abb0289b58c3c7bbe8a2dfd9"},
+    "gate2A": {"path": "D:/23MySec/pages/contact/04_planning/CONTACT-001_GATE2_CONTENT_SKELETON_V0.1.md", "sha256": "d1c1f11c8fb0c4933b2992226c863fb1464ea50c6d0b8f1b9d82cb3ddc9ed7a0"},
+    "gate2B": {"path": "D:/23MySec/pages/contact/04_planning/CONTACT-001_GATE2_FULL_BUYER_CLEAN_COPY_V0.1.md", "sha256": "bcab77db76fd17a2b6c87801a476ce39e285b43b4eb37af758e4f2b3fab3ea7e"},
+    "gate2C": {"path": "D:/23MySec/pages/contact/04_planning/CONTACT-001_GATE2_CONTENT_CONTRACT_V0.1.md", "sha256": "b88bcf12d41257bbd8ea370cbf0e383e3df5d6ef5c90e315e328375c1a2ffa67"},
+    "authorization": {"path": "D:/23MySec/pages/contact/00_governance/CONTACT-001_GATE2_USER_APPROVAL_AND_GATE3_AUTHORIZATION_2026-09-10.md", "sha256": "e9a0d725c8f8a336e3b0bcd7d6c303a265a33843d37b11734e441365fa6ef79e"},
+    "sharedConsumer": {"path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json", "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002", "version": "V0.2", "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"}
+  },
+  "assembly": {
+    "sharedCurrentPageId": "ABOUT-001",
+    "mapping": "Contact → About",
+    "moduleOrder": ["breadcrumb", "hero", "general-contact-details", "dedicated-request-routes", "general-inquiry-form", "shared-footer"],
+    "factPolicy": "verified fields only; missing or conflicting fields omitted without an empty slot",
+    "submissionPolicy": "local state simulation only; external requests prohibited"
+  },
+  "scopeBoundary": "Gate 3 structure/wireframe evidence only; no Gate 4, development, deployment, publication, DNS or indexing"
+}

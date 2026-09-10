@@ -1,0 +1,23 @@
+{
+  "recordId": "CONTACT-001-G4-V02-FORMAL-VISUAL-READBACK-01",
+  "reviewId": "CONTACT-001-G4-IR-01",
+  "findingId": "CONTACT-001-G4-IR-F01",
+  "date": "2026-09-10",
+  "assetsReviewed": 14,
+  "reviewedGroups": {
+    "fullPages": ["1440", "768", "390"],
+    "mobileMenus": ["768", "390"],
+    "states": ["focus", "validation", "submitting-current", "failure-current", "success", "restricted-details"],
+    "retainedValueDetails": ["submitting-current", "failure-current", "failure-boundary-160-120"]
+  },
+  "observations": [
+    "All six current fixture values are visibly complete in both retained-value detail captures.",
+    "The 160-character Company and 120-character Subject boundary strings wrap completely, including unbroken runs, without clipping or horizontal scrolling.",
+    "The failure viewport keeps the original error panel and Try again action above the review; submitting keeps its original busy action and form context.",
+    "Default full pages remain pixel-identical to V0.1 at 1440, 768 and 390 because the targeted component is hidden outside submitting/failure.",
+    "No collision, footer gap, shared Chrome divergence or buyer-visible governance text was observed."
+  ],
+  "findings": [],
+  "status": "CAPTURE_CHECK_PASS_PENDING_TARGETED_INDEPENDENT_RECHECK_NOT_GATE_APPROVAL",
+  "lifecycle": "RESOLVED_IN_DRAFT_PENDING_TARGETED_RECHECK_NOT_APPROVED"
+}

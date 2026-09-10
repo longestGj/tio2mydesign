@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "contact-001-gate9-independent-audit-v1.0",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "checkedAt": "2026-09-10T18:34:40+08:00",
+  "packageId": "CONTACT-001-G6-HANDOFF-20260910-02",
+  "scopeDecisionId": "CONTACT-G9-SCOPE-20260910-01",
+  "identity": {
+    "implementationCommit": "619bd75afd2a4725d9efe9f2e0e0baa3bf3c515e",
+    "evidenceHead": "767e6b76ceceb002b0def0ad7c9e878b043e87e2",
+    "buildId": "e9kK97wgApJrE2vMfUtPg",
+    "runtime": "http://127.0.0.1:4491"
+  },
+  "scopeOverrides": [
+    {"check":"physical/touch device", "status":"NOT_TESTED_NO_LONGER_REQUIRED_BY_USER_DECISION"},
+    {"check":"screen-reader/assistive technology runtime", "status":"NOT_TESTED_NO_LONGER_REQUIRED_BY_USER_DECISION"}
+  ],
+  "conditions": [
+    {"id":"CONTACT-G9-01","status":"PASS"},
+    {"id":"CONTACT-G9-02","status":"PASS"},
+    {"id":"CONTACT-G9-03","status":"PASS"},
+    {"id":"CONTACT-G9-04","status":"PASS"},
+    {"id":"CONTACT-G9-05","status":"PASS"},
+    {"id":"CONTACT-G9-06","status":"PARTIAL","reason":"Negative false-success boundary passes; approved positive processor/receiver predicate is absent."},
+    {"id":"CONTACT-G9-07","status":"NOT_VERIFIED","reason":"No authorized provider request or correlated receiver receipt exists."},
+    {"id":"CONTACT-G9-08","status":"PARTIAL","reason":"Pending duplicate and manual retry behavior pass; production anti-spam and durable receiver dedup remain undefined."},
+    {"id":"CONTACT-G9-09","status":"NOT_VERIFIED","reason":"Final processor, recipient, transfer, anti-spam and retention Privacy parity is not approved or evidenced."},
+    {"id":"CONTACT-G9-10","status":"PASS"},
+    {"id":"CONTACT-G9-11","status":"PASS_WITH_RELEASE_HOLD","reason":"Rendered metadata and robots pass; sitemap exclusion correctly preserves the release hold."},
+    {"id":"CONTACT-G9-12","status":"PASS"},
+    {"id":"CONTACT-G9-13","status":"PASS"},
+    {"id":"CONTACT-G9-14","status":"PASS"},
+    {"id":"CONTACT-G9-15","status":"PARTIAL","reason":"Keyboard/focus, reduced motion, Chromium/Firefox, semantics and Axe pass. Native 200% remains NOT_VERIFIED. Device/AT checks were removed by user decision."},
+    {"id":"CONTACT-G9-16","status":"PASS"}
+  ],
+  "counts": {"passOrPassWithHold":11,"partial":3,"notVerified":2,"fail":0},
+  "layers": {
+    "contentStatus":"PASS",
+    "pageGate9Status":"NOT_PASS",
+    "integrationStatus":"NOT_READY",
+    "releaseStatus":"NOT_READY"
+  },
+  "notice":"GATE9_RETURN_NOTICE"
+}
+

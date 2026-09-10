@@ -1,0 +1,88 @@
+{
+  "recordId": "CONTACT-001-G4-V02-FINAL-IDENTITY-CHECK-01",
+  "reviewId": "CONTACT-001-G4-IR-01",
+  "findingId": "CONTACT-001-G4-IR-F01",
+  "executedAt": "2026-09-10T17:17:42.9835395+08:00",
+  "candidateSha256": "FC1A64B7EF3320FE3F6A17F2C7D119E8CBA65586C9F6D0FC9B8406E6EC8E0879",
+  "checks": [
+    {
+      "name": "V0.2 frozen source identity",
+      "pass": true,
+      "detail": "38039 bytes / FC1A64B7EF3320FE3F6A17F2C7D119E8CBA65586C9F6D0FC9B8406E6EC8E0879"
+    },
+    {
+      "name": "V0.1 remains byte-identical",
+      "pass": true,
+      "detail": "5/5 sentinel files match pre-repair SHA-256"
+    },
+    {
+      "name": "Authority inputs unchanged",
+      "pass": true,
+      "detail": "Manifest V0.4, Contract C and independent review match"
+    },
+    {
+      "name": "Fresh targeted behavior test",
+      "pass": true,
+      "detail": "exit=0; pass=11/11; fail=0"
+    },
+    {
+      "name": "Formal runtime assertions",
+      "pass": true,
+      "detail": "pass=35/35; candidate=FC1A64B7EF3320FE3F6A17F2C7D119E8CBA65586C9F6D0FC9B8406E6EC8E0879"
+    },
+    {
+      "name": "Formal scope and counts",
+      "pass": true,
+      "detail": "assets=14; retainedDetails=3; externalRequests=0"
+    },
+    {
+      "name": "Formal asset identities",
+      "pass": true,
+      "detail": "14/14 bytes and SHA-256 match formal runtime"
+    },
+    {
+      "name": "Unchanged full-page pixel identities",
+      "pass": true,
+      "detail": "2E56AAA6792302741240352EFD677B4E6FFEC5274763F5172B215BDFE6B3BC30, C9C92FBDE60EA21DA4BDADB5ACD21771FD319C4988472C03A40DE4F4D7AAE7CE, 35F771DC98BF3611EADF8A862C0796AA5DA66CB68FD2F1CD47D87B5DCDCBB1B2"
+    },
+    {
+      "name": "Inventory identity",
+      "pass": true,
+      "detail": "8EEDDA8C192F1F2B97C5EA338F1AA31DD8BAC08BF75D55B4241F76A3D4BCFF11"
+    },
+    {
+      "name": "Inventory item identities",
+      "pass": true,
+      "detail": "all source, parent, dependencies, assets and records match"
+    },
+    {
+      "name": "Inventory counts",
+      "pass": true,
+      "detail": "{\"formalAssets\":14,\"fullPages\":3,\"stateAssets\":11,\"retainedValueDetailAssets\":3}"
+    },
+    {
+      "name": "Lifecycle boundary",
+      "pass": true,
+      "detail": "targeted recheck pending, not approved, Gate 4 open, Gate 6 not started"
+    },
+    {
+      "name": "Self-check completeness",
+      "pass": true,
+      "detail": "four required self-check reflections present"
+    },
+    {
+      "name": "Forbidden buyer patterns absent",
+      "pass": true,
+      "detail": "no mailto, excluded mailbox or RFQ fallback/disabled language"
+    }
+  ],
+  "summary": {
+    "total": 14,
+    "pass": 14,
+    "fail": 0
+  },
+  "errors": [],
+  "lifecycle": "RESOLVED_IN_DRAFT_PENDING_TARGETED_RECHECK_NOT_APPROVED",
+  "gate4": "OPEN_PENDING_TARGETED_INDEPENDENT_RECHECK",
+  "gate6": "NOT_STARTED"
+}

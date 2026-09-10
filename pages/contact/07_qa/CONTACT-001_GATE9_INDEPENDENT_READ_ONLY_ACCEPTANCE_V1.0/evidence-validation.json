@@ -1,0 +1,1494 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\23MySec\\docs\\verification\\intake\\CONTACT-001-G8-20260910-01\\gate8_evidence_manifest.json",
+  "handoff_id": "CONTACT-001-G6-HANDOFF-20260910-02",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "CONTACT-001",
+          "acceptance_condition_ids": [
+            "CONTACT-G9-01",
+            "CONTACT-G9-02",
+            "CONTACT-G9-03",
+            "CONTACT-G9-04",
+            "CONTACT-G9-05",
+            "CONTACT-G9-06",
+            "CONTACT-G9-07",
+            "CONTACT-G9-08",
+            "CONTACT-G9-09",
+            "CONTACT-G9-10",
+            "CONTACT-G9-11",
+            "CONTACT-G9-12",
+            "CONTACT-G9-13",
+            "CONTACT-G9-14",
+            "CONTACT-G9-15",
+            "CONTACT-G9-16"
+          ],
+          "runtime_path": "/contact/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\contact-001-gate8"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/contact-001-gate8",
+        "actual": "codex/contact-001-gate8"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "767e6b76ceceb002b0def0ad7c9e878b043e87e2",
+        "actual": "767e6b76ceceb002b0def0ad7c9e878b043e87e2"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "9571dd2ab7e7f2c7c9cb373e008ca81b3c534822",
+        "descendant": "619bd75afd2a4725d9efe9f2e0e0baa3bf3c515e"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "619bd75afd2a4725d9efe9f2e0e0baa3bf3c515e",
+        "descendant": "767e6b76ceceb002b0def0ad7c9e878b043e87e2"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\contact-001-gate8\\.next-contact-gate8"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "e9kK97wgApJrE2vMfUtPg",
+        "actual": "e9kK97wgApJrE2vMfUtPg"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "619bd75afd2a4725d9efe9f2e0e0baa3bf3c515e",
+        "git": "619bd75afd2a4725d9efe9f2e0e0baa3bf3c515e"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/build-id.txt"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-16"
+        ],
+        "command": "Read from final .next-contact-gate8/BUILD_ID",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6a41f79a6886d3431d2056c7cf55eca9b1e07eb6b0b2b12288dd388b2f2e3554",
+        "actual": "6a41f79a6886d3431d2056c7cf55eca9b1e07eb6b0b2b12288dd388b2f2e3554"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/build-id.txt"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "458b7ad24b30f49cdc11a6ba3fb4439332efe4b4",
+        "blob_sha256": "6a41f79a6886d3431d2056c7cf55eca9b1e07eb6b0b2b12288dd388b2f2e3554",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/acceptance-summary.json"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-02",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-07",
+          "CONTACT-G9-08",
+          "CONTACT-G9-09",
+          "CONTACT-G9-10",
+          "CONTACT-G9-11",
+          "CONTACT-G9-12",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Generated from final committed Gate 8 verification outputs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "bbd5f02e310d60d0a436484ac805205ff2091156f97669e1754eb4fe623d93f8",
+        "actual": "bbd5f02e310d60d0a436484ac805205ff2091156f97669e1754eb4fe623d93f8"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/acceptance-summary.json"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7c3f70ec1e93d5ece780cf4c340db3820e6c1afa",
+        "blob_sha256": "bbd5f02e310d60d0a436484ac805205ff2091156f97669e1754eb4fe623d93f8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/dependency-ledger.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "CONTACT-G9-06",
+          "CONTACT-G9-07",
+          "CONTACT-G9-08",
+          "CONTACT-G9-09",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "Gate 6 dependency register mapped to actual Gate 8 states",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b8b0e958fc1de2440597290157d9589e02d6136bc169dda19e9da642b3a81250",
+        "actual": "b8b0e958fc1de2440597290157d9589e02d6136bc169dda19e9da642b3a81250"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/dependency-ledger.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bfaed511bced7a020fb2adc6aca00d1f1ad43432",
+        "blob_sha256": "b8b0e958fc1de2440597290157d9589e02d6136bc169dda19e9da642b3a81250",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/ROLLBACK_RECORD_2026-09-10.md"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "CONTACT-G9-16"
+        ],
+        "command": "Baseline, branch, CMS and runtime rollback inspection",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5d0302170590b6249f34461a2f94c02a32bab7680867921a3279f34fc22d0309",
+        "actual": "5d0302170590b6249f34461a2f94c02a32bab7680867921a3279f34fc22d0309"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/ROLLBACK_RECORD_2026-09-10.md"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "506ceb1e19eceb5c799fd4ebd5ec1eaf39456825",
+        "blob_sha256": "5d0302170590b6249f34461a2f94c02a32bab7680867921a3279f34fc22d0309",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/cms-source-chain.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-02",
+          "CONTACT-G9-10",
+          "CONTACT-G9-12"
+        ],
+        "command": "Local WordPress GraphQL readback after scoped singleton seed",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8fa52de47073c0a9acb1a7eb24e8988ac6410524ed5b1098093037ffdc6f2bf9",
+        "actual": "8fa52de47073c0a9acb1a7eb24e8988ac6410524ed5b1098093037ffdc6f2bf9"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/cms-source-chain.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "09dd4701af491ebb064fe54b5a246cea93d9bb3c",
+        "blob_sha256": "8fa52de47073c0a9acb1a7eb24e8988ac6410524ed5b1098093037ffdc6f2bf9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/runtime-contract.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-02",
+          "CONTACT-G9-11",
+          "CONTACT-G9-12",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14"
+        ],
+        "command": "node docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5c8a25e2dcd4a12cabde11fb5c28cca9ad9166a8de36d5e30ef9b1233b1c520e",
+        "actual": "5c8a25e2dcd4a12cabde11fb5c28cca9ad9166a8de36d5e30ef9b1233b1c520e"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/runtime-contract.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "505db348ad5dddd66c0f126d22322963a70e6ed9",
+        "blob_sha256": "5c8a25e2dcd4a12cabde11fb5c28cca9ad9166a8de36d5e30ef9b1233b1c520e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/route-and-sitemap-matrix.json"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-11",
+          "CONTACT-G9-13"
+        ],
+        "command": "Runtime route/status and held sitemap request matrix",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "723c220be84efdc33dabde6f35ef86ee3ce80008ec91d7f511176b0364e2d3ac",
+        "actual": "723c220be84efdc33dabde6f35ef86ee3ce80008ec91d7f511176b0364e2d3ac"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/route-and-sitemap-matrix.json"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9a9a05d05a9ff66e7e3d30a12fd558ef399b6801",
+        "blob_sha256": "723c220be84efdc33dabde6f35ef86ee3ce80008ec91d7f511176b0364e2d3ac",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/fail-closed-api.json"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "CONTACT-G9-03",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-07",
+          "CONTACT-G9-08",
+          "CONTACT-G9-09"
+        ],
+        "command": "Same-origin local production API validation and fail-closed classification; no external request",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "060b2aeaf421f8a2d8188ad3569cf306ad99d16b88cb3fabcc096c05c47334e7",
+        "actual": "060b2aeaf421f8a2d8188ad3569cf306ad99d16b88cb3fabcc096c05c47334e7"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/fail-closed-api.json"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bb9832200654b1a87cec4aca35971859fdc6b22d",
+        "blob_sha256": "060b2aeaf421f8a2d8188ad3569cf306ad99d16b88cb3fabcc096c05c47334e7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/form-state-chromium.json"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-10",
+          "CONTACT-G9-15"
+        ],
+        "command": "Playwright intercepted outcome classification; no external request",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "edb7fbc25b709aa290d305f85b0092ec589612d61dd99c9b381c94772b04b3da",
+        "actual": "edb7fbc25b709aa290d305f85b0092ec589612d61dd99c9b381c94772b04b3da"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/form-state-chromium.json"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "77aa3a8f4fe469d22e7b9b4abc727d04867d33ed",
+        "blob_sha256": "edb7fbc25b709aa290d305f85b0092ec589612d61dd99c9b381c94772b04b3da",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/form-state-firefox.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-08",
+          "CONTACT-G9-10",
+          "CONTACT-G9-15"
+        ],
+        "command": "Playwright intercepted outcome classification; no external request",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "35dd2b6096db1aa3b24fd8c6359729087eecfe0ad132573229850d5440e180b6",
+        "actual": "35dd2b6096db1aa3b24fd8c6359729087eecfe0ad132573229850d5440e180b6"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/form-state-firefox.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a1f32703c4caf75c7a78f900553a2669c7ffc932",
+        "blob_sha256": "35dd2b6096db1aa3b24fd8c6359729087eecfe0ad132573229850d5440e180b6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-desktop-1440.png"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-04",
+          "CONTACT-G9-10",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Playwright full-page screenshot; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d",
+        "actual": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-desktop-1440.png"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6b8962c641152ef52e4a2285405c5e5355c40269",
+        "blob_sha256": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-tablet-768.png"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-04",
+          "CONTACT-G9-10",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Playwright full-page screenshot; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "78390cc8023960175d818ed5ace8466d1c1a6db1f991af27240f45abfb2fc445",
+        "actual": "78390cc8023960175d818ed5ace8466d1c1a6db1f991af27240f45abfb2fc445"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-tablet-768.png"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5d6d9eba0a9c33848388ba84f8d839ac01f97ff0",
+        "blob_sha256": "78390cc8023960175d818ed5ace8466d1c1a6db1f991af27240f45abfb2fc445",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-mobile-390.png"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-04",
+          "CONTACT-G9-10",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Playwright full-page screenshot; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6",
+        "actual": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-mobile-390.png"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "71f67110b7964e5e773f384f8eb66ef8ee0dc6f5",
+        "blob_sha256": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-state-submitting-390.png"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-04",
+          "CONTACT-G9-10",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Playwright full-page screenshot; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "91c1a2828ce3b9e9bf05d24e3b6f18fdc73fc61e24754cb60f16e4af2e144fac",
+        "actual": "91c1a2828ce3b9e9bf05d24e3b6f18fdc73fc61e24754cb60f16e4af2e144fac"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-state-submitting-390.png"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "05d4492c7c9c18f4ee659b4e8add65bfa2f81558",
+        "blob_sha256": "91c1a2828ce3b9e9bf05d24e3b6f18fdc73fc61e24754cb60f16e4af2e144fac",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-state-failure-390.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-04",
+          "CONTACT-G9-10",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "Playwright full-page screenshot; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "01bc8d7ebaad1d2147fc6510f7534df9e3c0e7cc874273573063e6a8b234bd61",
+        "actual": "01bc8d7ebaad1d2147fc6510f7534df9e3c0e7cc874273573063e6a8b234bd61"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/runtime/contact-state-failure-390.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d83074c4e740b7a8ca7e5d93050eba7e7a57a534",
+        "blob_sha256": "01bc8d7ebaad1d2147fc6510f7534df9e3c0e7cc874273573063e6a8b234bd61",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/build.log"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-16"
+        ],
+        "command": "SITE_ID=tio2-my NEXT_DIST_DIR=.next-contact-gate8 npm run build",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d4ddeadec08bbcd92e1711e2db2f34d37d7831348ab29de7a0128c703bddb5be",
+        "actual": "d4ddeadec08bbcd92e1711e2db2f34d37d7831348ab29de7a0128c703bddb5be"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/build.log"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "63c3a5662b64c3e5a3b241ec1a954188049b72e2",
+        "blob_sha256": "0b7472f2e5984e032229db91923145e06e2ba21af85cccd554e307bb0eabb5f4",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/targeted-tests.log"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-02",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-08",
+          "CONTACT-G9-10",
+          "CONTACT-G9-11",
+          "CONTACT-G9-12",
+          "CONTACT-G9-13",
+          "CONTACT-G9-15",
+          "CONTACT-G9-16"
+        ],
+        "command": "npm test -- --run Contact unit, integration and infrastructure tests",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0949bf37e393d46bf05457f498e02acb4884e533da94652fd3a4cde8bea1874a",
+        "actual": "0949bf37e393d46bf05457f498e02acb4884e533da94652fd3a4cde8bea1874a"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/targeted-tests.log"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7a63a609ab95ae758c41648329dd4ce816e1de9f",
+        "blob_sha256": "1b348e3dad83a5c70f75cdc0e7c2797324bcbf8a0632c1b317056eaab810fcb6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-16"
+        ],
+        "command": "npm run typecheck",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+        "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/changed-lint.log"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-16"
+        ],
+        "command": "npx eslint changed CONTACT-001 files",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/changed-lint.log"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "blob_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/playwright.log"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-02",
+          "CONTACT-G9-03",
+          "CONTACT-G9-04",
+          "CONTACT-G9-05",
+          "CONTACT-G9-06",
+          "CONTACT-G9-10",
+          "CONTACT-G9-11",
+          "CONTACT-G9-12",
+          "CONTACT-G9-13",
+          "CONTACT-G9-14",
+          "CONTACT-G9-15"
+        ],
+        "command": "npx playwright test --config=playwright.contact.config.ts",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0871aedcacd5d1a0f00c7bee42199c5033cca369c3ae70bb22c75d63c598c5d8",
+        "actual": "0871aedcacd5d1a0f00c7bee42199c5033cca369c3ae70bb22c75d63c598c5d8"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/playwright.log"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "84e1995fd7196f2e109b469989dd431eff3e5be2",
+        "blob_sha256": "1b12a5866b66e2eafef4353f3570274551fe4059ddb733bf476836c9a5d8852d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/runtime-evidence.log"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-07",
+          "CONTACT-G9-11",
+          "CONTACT-G9-12",
+          "CONTACT-G9-16"
+        ],
+        "command": "node docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9156489787fda16ed8b1831e2dbcec08aebb4dc8df6ab81b9e78d7d021f35809",
+        "actual": "9156489787fda16ed8b1831e2dbcec08aebb4dc8df6ab81b9e78d7d021f35809"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/runtime-evidence.log"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "72d86c3896ce0c2bd28072f246c2e08d3f77407b",
+        "blob_sha256": "499c241d12e4c9d69ac2154496832779f1d2cbb7d5880f19a3bed293af7839d9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/wordpress-seed.log"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-02",
+          "CONTACT-G9-10"
+        ],
+        "command": "Local-only wp eval-file apply-tio2-my-contact-page.php",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "2f0ee35a7d334c22417e0b45d82e383ff960ceabe4591b5835c1785da6e7396f",
+        "actual": "2f0ee35a7d334c22417e0b45d82e383ff960ceabe4591b5835c1785da6e7396f"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/logs/wordpress-seed.log"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "dd1075402dd1e3139d373fe760ffa02c7d2998c2",
+        "blob_sha256": "8ba70ba6743477fe123b3c8bf4158024255dc623742ab2abf078cf2737747108",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/support/contact-cms-proxy.mjs"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-16"
+        ],
+        "command": "Source inspection of repeatable local Gate 8 support",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "23b3610697bf3328ec321d292d24a59ce23abdc0f5679798f1a36233d2df1790",
+        "actual": "23b3610697bf3328ec321d292d24a59ce23abdc0f5679798f1a36233d2df1790"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/support/contact-cms-proxy.mjs"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "740eb69082c47baf38d8d91f43389f8c1da06a49",
+        "blob_sha256": "23b3610697bf3328ec321d292d24a59ce23abdc0f5679798f1a36233d2df1790",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/support/start-contact-runtime.mjs"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-16"
+        ],
+        "command": "Source inspection of repeatable local Gate 8 support",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "47d2ea5b84a444488897af393bf71ab021a22e5bc4a38ae1c6b335d1b3415092",
+        "actual": "47d2ea5b84a444488897af393bf71ab021a22e5bc4a38ae1c6b335d1b3415092"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/support/start-contact-runtime.mjs"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "57f0f471abf251424b4dfa6176ab313aae5941f9",
+        "blob_sha256": "47d2ea5b84a444488897af393bf71ab021a22e5bc4a38ae1c6b335d1b3415092",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "CONTACT-G9-01",
+          "CONTACT-G9-16"
+        ],
+        "command": "Source inspection of repeatable local Gate 8 support",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5aa09980384b0f1d8ca298afce5dac02fe80ea3f54e81bb3fd9d0954d741e922",
+        "actual": "5aa09980384b0f1d8ca298afce5dac02fe80ea3f54e81bb3fd9d0954d741e922"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b53feda05575cdf48fa251c9a18cd9ea8eb94f37",
+        "blob_sha256": "5aa09980384b0f1d8ca298afce5dac02fe80ea3f54e81bb3fd9d0954d741e922",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/GATE8_IMPLEMENTATION_RECEIPT_2026-09-10.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/contact-001/gate8/ROLLBACK_RECORD_2026-09-10.md",
+          "docs/verification/contact-001/gate8/acceptance-summary.json",
+          "docs/verification/contact-001/gate8/build-id.txt",
+          "docs/verification/contact-001/gate8/dependency-ledger.json",
+          "docs/verification/contact-001/gate8/logs/build.log",
+          "docs/verification/contact-001/gate8/logs/changed-lint.log",
+          "docs/verification/contact-001/gate8/logs/playwright.log",
+          "docs/verification/contact-001/gate8/logs/runtime-evidence.log",
+          "docs/verification/contact-001/gate8/logs/targeted-tests.log",
+          "docs/verification/contact-001/gate8/logs/typecheck.log",
+          "docs/verification/contact-001/gate8/logs/wordpress-seed.log",
+          "docs/verification/contact-001/gate8/runtime/cms-source-chain.json",
+          "docs/verification/contact-001/gate8/runtime/contact-desktop-1440.png",
+          "docs/verification/contact-001/gate8/runtime/contact-mobile-390.png",
+          "docs/verification/contact-001/gate8/runtime/contact-state-failure-390.png",
+          "docs/verification/contact-001/gate8/runtime/contact-state-submitting-390.png",
+          "docs/verification/contact-001/gate8/runtime/contact-tablet-768.png",
+          "docs/verification/contact-001/gate8/runtime/fail-closed-api.json",
+          "docs/verification/contact-001/gate8/runtime/form-state-chromium.json",
+          "docs/verification/contact-001/gate8/runtime/form-state-firefox.json",
+          "docs/verification/contact-001/gate8/runtime/route-and-sitemap-matrix.json",
+          "docs/verification/contact-001/gate8/runtime/runtime-contract.json",
+          "docs/verification/contact-001/gate8/support/contact-cms-proxy.mjs",
+          "docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs",
+          "docs/verification/contact-001/gate8/support/start-contact-runtime.mjs"
+        ],
+        "actual": [
+          "docs/verification/contact-001/gate8/ROLLBACK_RECORD_2026-09-10.md",
+          "docs/verification/contact-001/gate8/acceptance-summary.json",
+          "docs/verification/contact-001/gate8/build-id.txt",
+          "docs/verification/contact-001/gate8/dependency-ledger.json",
+          "docs/verification/contact-001/gate8/logs/build.log",
+          "docs/verification/contact-001/gate8/logs/changed-lint.log",
+          "docs/verification/contact-001/gate8/logs/playwright.log",
+          "docs/verification/contact-001/gate8/logs/runtime-evidence.log",
+          "docs/verification/contact-001/gate8/logs/targeted-tests.log",
+          "docs/verification/contact-001/gate8/logs/typecheck.log",
+          "docs/verification/contact-001/gate8/logs/wordpress-seed.log",
+          "docs/verification/contact-001/gate8/runtime/cms-source-chain.json",
+          "docs/verification/contact-001/gate8/runtime/contact-desktop-1440.png",
+          "docs/verification/contact-001/gate8/runtime/contact-mobile-390.png",
+          "docs/verification/contact-001/gate8/runtime/contact-state-failure-390.png",
+          "docs/verification/contact-001/gate8/runtime/contact-state-submitting-390.png",
+          "docs/verification/contact-001/gate8/runtime/contact-tablet-768.png",
+          "docs/verification/contact-001/gate8/runtime/fail-closed-api.json",
+          "docs/verification/contact-001/gate8/runtime/form-state-chromium.json",
+          "docs/verification/contact-001/gate8/runtime/form-state-firefox.json",
+          "docs/verification/contact-001/gate8/runtime/route-and-sitemap-matrix.json",
+          "docs/verification/contact-001/gate8/runtime/runtime-contract.json",
+          "docs/verification/contact-001/gate8/support/contact-cms-proxy.mjs",
+          "docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs",
+          "docs/verification/contact-001/gate8/support/start-contact-runtime.mjs"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/contact-001/gate8/GATE8_IMPLEMENTATION_RECEIPT_2026-09-10.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

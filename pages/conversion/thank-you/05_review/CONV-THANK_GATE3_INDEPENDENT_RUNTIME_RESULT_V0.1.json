@@ -1,0 +1,474 @@
+{
+  "reviewId": "CONVTHANK-G3-IR-20260908-01",
+  "reviewer": "/root/conv_thank_gate3_review",
+  "source": {
+    "path": "D:/23MySec/pages/conversion/thank-you/04_planning/gate3-v0.1/CONV-THANK_GATE3_RESPONSIVE_WIREFRAME_V0.1.html",
+    "bytes": 16441,
+    "sha256": "be580fdcfddaf098241e9fcae0f49618129586d6783b85351cd29763e9d47b79"
+  },
+  "environment": "Chrome headless via Playwright; local file; network blocked; no screenshots exported",
+  "checks": [
+    {
+      "id": "approved-request-query-quote-1440",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-quote-1440",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "quote",
+        "h1": "Thank you. We’ve received your quotation request.",
+        "actions": [
+          "/products/",
+          "/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "footerDelta": 0.265625,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "approved-request-query-documents-1440",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-documents-1440",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "documents",
+        "h1": "Thank you. We’ve received your document request.",
+        "actions": [
+          "/documents/",
+          "/products/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "footerDelta": 0.046875,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "approved-request-query-sample-1440",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-sample-1440",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "sample",
+        "h1": "Thank you. We’ve received your sample request.",
+        "actions": [
+          "/products/",
+          "/applications/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "footerDelta": 0.046875,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "direct-core-1440",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "receiptCueCount": 0,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "footerDelta": 0.28125,
+        "undersized": []
+      }
+    },
+    {
+      "id": "cookie-open-1440",
+      "status": "PASS",
+      "actual": {
+        "open": true,
+        "active": "Close"
+      }
+    },
+    {
+      "id": "cookie-loop-1440",
+      "status": "PASS",
+      "actual": "Read Cookie Policy"
+    },
+    {
+      "id": "cookie-return-1440",
+      "status": "PASS",
+      "actual": {
+        "open": false,
+        "active": "Cookie Settings"
+      }
+    },
+    {
+      "id": "approved-request-query-quote-768",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-quote-768",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "quote",
+        "h1": "Thank you. We’ve received your quotation request.",
+        "actions": [
+          "/products/",
+          "/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "footerDelta": 0.453125,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "approved-request-query-documents-768",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-documents-768",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "documents",
+        "h1": "Thank you. We’ve received your document request.",
+        "actions": [
+          "/documents/",
+          "/products/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "footerDelta": 0.453125,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "approved-request-query-sample-768",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-sample-768",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "sample",
+        "h1": "Thank you. We’ve received your sample request.",
+        "actions": [
+          "/products/",
+          "/applications/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "footerDelta": 0.453125,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "direct-core-768",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "receiptCueCount": 0,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "footerDelta": 0.25,
+        "undersized": []
+      }
+    },
+    {
+      "id": "menu-open-768",
+      "status": "PASS",
+      "actual": {
+        "active": "Home",
+        "mainInert": true,
+        "footerInert": true,
+        "overflow": "hidden"
+      }
+    },
+    {
+      "id": "menu-escape-768",
+      "status": "PASS",
+      "actual": {
+        "active": "Menu",
+        "hidden": true,
+        "mainInert": false,
+        "footerInert": false,
+        "overflow": ""
+      }
+    },
+    {
+      "id": "cookie-open-768",
+      "status": "PASS",
+      "actual": {
+        "open": true,
+        "active": "Close"
+      }
+    },
+    {
+      "id": "cookie-loop-768",
+      "status": "PASS",
+      "actual": "Read Cookie Policy"
+    },
+    {
+      "id": "cookie-return-768",
+      "status": "PASS",
+      "actual": {
+        "open": false,
+        "active": "Cookie Settings"
+      }
+    },
+    {
+      "id": "approved-request-query-quote-390",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-quote-390",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "quote",
+        "h1": "Thank you. We’ve received your quotation request.",
+        "actions": [
+          "/products/",
+          "/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "footerDelta": 0.234375,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "approved-request-query-documents-390",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-documents-390",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "documents",
+        "h1": "Thank you. We’ve received your document request.",
+        "actions": [
+          "/documents/",
+          "/products/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "footerDelta": 0.234375,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "approved-request-query-sample-390",
+      "status": "FAIL",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "actions": [
+          "/request-a-quote/",
+          "/request-documents/",
+          "/request-sample/"
+        ],
+        "receiptCueCount": 0
+      }
+    },
+    {
+      "id": "implemented-type-query-sample-390",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "sample",
+        "h1": "Thank you. We’ve received your sample request.",
+        "actions": [
+          "/products/",
+          "/applications/"
+        ],
+        "receiptCueCount": 1,
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "footerDelta": 0.234375,
+        "undersizedCount": 0
+      }
+    },
+    {
+      "id": "direct-core-390",
+      "status": "PASS",
+      "actual": {
+        "resolvedState": "direct",
+        "h1": "How can we help?",
+        "currentCount": 0,
+        "visibleCurrentText": false,
+        "receiptCueCount": 0,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "footerDelta": 0.25,
+        "undersized": []
+      }
+    },
+    {
+      "id": "menu-open-390",
+      "status": "PASS",
+      "actual": {
+        "active": "Home",
+        "mainInert": true,
+        "footerInert": true,
+        "overflow": "hidden"
+      }
+    },
+    {
+      "id": "menu-escape-390",
+      "status": "PASS",
+      "actual": {
+        "active": "Menu",
+        "hidden": true,
+        "mainInert": false,
+        "footerInert": false,
+        "overflow": ""
+      }
+    },
+    {
+      "id": "cookie-open-390",
+      "status": "PASS",
+      "actual": {
+        "open": true,
+        "active": "Close"
+      }
+    },
+    {
+      "id": "cookie-loop-390",
+      "status": "PASS",
+      "actual": "Read Cookie Policy"
+    },
+    {
+      "id": "cookie-return-390",
+      "status": "PASS",
+      "actual": {
+        "open": false,
+        "active": "Cookie Settings"
+      }
+    },
+    {
+      "id": "200-percent-equivalent-reflow",
+      "status": "PASS",
+      "actual": {
+        "scrollWidth": 720,
+        "clientWidth": 720,
+        "h1": "How can we help?"
+      }
+    }
+  ],
+  "totals": {
+    "total": 35,
+    "pass": 26,
+    "fail": 9
+  },
+  "createdAt": "2026-09-08T07:06:56.521Z"
+}

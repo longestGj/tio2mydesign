@@ -1,0 +1,39 @@
+{
+  "worksetId": "CONTACT-001-G4-WORKSET-20260910-02",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "scope": "Gate 4 targeted repair only",
+  "reviewId": "CONTACT-001-G4-IR-01",
+  "findingId": "CONTACT-001-G4-IR-F01",
+  "lifecycle": "RESOLVED_IN_DRAFT_PENDING_TARGETED_RECHECK_NOT_APPROVED",
+  "source": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/CONTACT-001_GATE4_COMPLETE_VISUAL_V0.2.html",
+    "bytes": 38039,
+    "sha256": "FC1A64B7EF3320FE3F6A17F2C7D119E8CBA65586C9F6D0FC9B8406E6EC8E0879"
+  },
+  "parentFrozenSource": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/CONTACT-001_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 35914,
+    "sha256": "6D4F4AAF1300B75A384B18E011DEE21D43C5ED551596C6D9C524E689F3BFF78E"
+  },
+  "authorityManifest": {
+    "path": "D:/23MySec/pages/contact/CONTACT-001_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+    "sha256": "942A43C9BE1525A044E78D59954BCA695D1A59F769E7BFE26CACF4DF8A2AB268"
+  },
+  "independentReview": {
+    "path": "D:/23MySec/pages/contact/05_review/CONTACT-001_GATE4_INDEPENDENT_VISUAL_REVIEW_V0.1.md",
+    "sha256": "065F8A6FB409D410E532C7D59E8430738EB54C922B33FDA1B36CDA71372A76CE",
+    "result": "CHANGES_REQUIRED / TARGETED_REVISION_REQUIRED"
+  },
+  "scopeLocks": [
+    "single-line input semantics unchanged",
+    "six-field schema unchanged",
+    "approved Buyer Copy unchanged except repeated existing field labels in the retained-values review",
+    "submitting read-only and duplicate-block behavior unchanged",
+    "failure editable and Try again behavior unchanged",
+    "Gate 2 Contract C unchanged",
+    "shared Header/Footer and route ownership unchanged"
+  ],
+  "gate6": "NOT_STARTED",
+  "externalRequestsSent": 0
+}

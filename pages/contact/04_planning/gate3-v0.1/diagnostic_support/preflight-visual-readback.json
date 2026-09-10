@@ -1,0 +1,79 @@
+{
+  "recordId": "CONTACT-001-G3-PREFLIGHT-VISUAL-01",
+  "pageId": "CONTACT-001",
+  "candidateVersion": "V0.1",
+  "executedAt": "2026-09-10T16:01:48+08:00",
+  "evidenceType": "STATIC_VISUAL",
+  "inspectionMethod": "Opened all three diagnostic full-page images, then read 4 Desktop, 5 Tablet and 6 Mobile viewport segments at readable scale; separately opened focus, validation, submitting, failure-preserved-input, success, restricted-contact, 768 menu-open and 390 menu-open evidence.",
+  "inspected": {
+    "desktop1440": {
+      "full": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-1440-default.png",
+      "segments": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/segments/1440-default-segment-01.png through 04.png",
+      "focus": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-1440-focus.png"
+    },
+    "tablet768": {
+      "full": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-768-default.png",
+      "segments": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/segments/768-default-segment-01.png through 05.png",
+      "menuOpen": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-768-menu-open.png"
+    },
+    "mobile390": {
+      "full": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-390-default.png",
+      "segments": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/segments/390-default-segment-01.png through 06.png",
+      "menuOpen": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-390-menu-open.png",
+      "validation": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-390-validation-region.png",
+      "submitting": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-390-submitting-region.png",
+      "failure": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-390-failure-region.png",
+      "success": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-390-success-region.png",
+      "restrictedContact": "D:/23MySec/pages/contact/04_planning/gate3-v0.1/diagnostic_support/diagnostic-390-restricted-contact.png"
+    }
+  },
+  "observations": [
+    {
+      "id": "VIS-01",
+      "status": "PASS",
+      "scope": "1440/768/390 default full page",
+      "result": "Approved module order, all real body copy, all six fields, the three specialist routes, privacy/process copy and shared Footer are visible in continuous reading order."
+    },
+    {
+      "id": "VIS-02",
+      "status": "PASS",
+      "scope": "responsive reflow",
+      "result": "Desktop uses three-column details/routes and a two-column form; Tablet uses two-plus-one detail/route reflow and a two-column form; Mobile uses complete single-column reflow. Labels remain attached to their values and controls."
+    },
+    {
+      "id": "VIS-03",
+      "status": "PASS",
+      "scope": "long and restricted contact content",
+      "result": "Operating Company and Manufacturing Site wrap without clipping in the default state; no phone, WhatsApp, empty slot or alternate contact block appears. In the source-mismatch simulation, the Manufacturing Site card and its affected listing sentence are both omitted, leaving two naturally connected cards. Synthetic long form values and long validation copy remain inside the 390 form container."
+    },
+    {
+      "id": "VIS-04",
+      "status": "PASS",
+      "scope": "focus and validation",
+      "result": "Business Email focus is visibly outlined. The 390 validation summary, linked messages and field-level errors are legible and remain within the form."
+    },
+    {
+      "id": "VIS-05",
+      "status": "PASS",
+      "scope": "submitting, failure and success",
+      "result": "Submitting remains in the action area with retained values; failure appears before preserved fields with a full-width Try again action; success replaces the cleared form with one bounded confirmation panel."
+    },
+    {
+      "id": "VIS-06",
+      "status": "PASS",
+      "scope": "shared assembly",
+      "result": "Desktop Header shows About with its underline; 768/390 open menus show About with the left marker and no visible CURRENT text. Shared Logo, RFQ and Footer close the page without page-local variants."
+    },
+    {
+      "id": "VIS-07",
+      "status": "PASS",
+      "scope": "geometry",
+      "result": "No inspected view shows horizontal overflow, cropped text, overlapping controls, fixed obstruction, anomalous blank container or an unclosed Footer."
+    }
+  ],
+  "findings": [],
+  "visualOnlyNotesForGate4": [
+    "Gate 4 may refine surface hierarchy, spacing rhythm and field/card appearance without changing the locked order, reflow or action ownership."
+  ],
+  "status": "PASS_FOR_PREFLIGHT_VISUAL_READBACK_NOT_INDEPENDENT_REVIEW"
+}

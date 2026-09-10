@@ -1,0 +1,25 @@
+{
+  "freezeId": "CONTACT-001-G4-FREEZE-V0.2",
+  "bundleId": "CONTACT-001-G4-BUNDLE-V0.2-FC1A64B7",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "worksetId": "CONTACT-001-G4-WORKSET-20260910-02",
+  "reviewId": "CONTACT-001-G4-IR-01",
+  "findingId": "CONTACT-001-G4-IR-F01",
+  "lifecycle": "RESOLVED_IN_DRAFT_PENDING_TARGETED_RECHECK_NOT_APPROVED",
+  "candidate": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.2/CONTACT-001_GATE4_COMPLETE_VISUAL_V0.2.html",
+    "bytes": 38039,
+    "sha256": "FC1A64B7EF3320FE3F6A17F2C7D119E8CBA65586C9F6D0FC9B8406E6EC8E0879"
+  },
+  "parentCandidate": {
+    "path": "D:/23MySec/pages/contact/04_planning/gate4-v0.1/CONTACT-001_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 35914,
+    "sha256": "6D4F4AAF1300B75A384B18E011DEE21D43C5ED551596C6D9C524E689F3BFF78E"
+  },
+  "authorityManifestSha256": "942A43C9BE1525A044E78D59954BCA695D1A59F769E7BFE26CACF4DF8A2AB268",
+  "gate2ContractCSha256": "B88BCF12D41257BBD8EA370CBF0E383E3DF5D6EF5C90E315E328375C1A2FFA67",
+  "independentReviewSha256": "065F8A6FB409D410E532C7D59E8430738EB54C922B33FDA1B36CDA71372A76CE",
+  "formalEvidenceBoundary": "Local browser simulation only; no production receiver, delivery or implementation is proven.",
+  "invalidationRule": "Any byte change to the candidate or bound runtime dependency invalidates this freeze and later V0.2 formal assets."
+}

@@ -1,0 +1,2464 @@
+{
+  "dispatch_id": "G5-SYS404-REREVIEW-20260908-02",
+  "page_id": "SYS-404",
+  "mode": "TARGETED_RECHECK",
+  "reviewer": "/root/sys404_gate5_review",
+  "author": "/root/sys404_gate4_execute",
+  "original_report": "SYS-404_GATE5_INDEPENDENT_VISUAL_REVIEW_V0.1.md",
+  "finding": "SYS404-G5-IR-F01",
+  "bundle_id": "SYS-404-G4-BUNDLE-20260908-02",
+  "source_identity": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/SYS-404_GATE4_COMPLETE_VISUAL_V0.2.html",
+    "bytes": 16782,
+    "sha256": "fc42439402367d16fbcba6a82a30e42c403cd5c00fc480f5b296bb1e5d2f485a"
+  },
+  "regenerated_formal_assets_opened": [
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_1440-cookie.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_1440-full.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_390-cookie.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_390-full.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_768-cookie.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_768-full.png"
+  ],
+  "inherited_menu_assets_verified": [
+    {
+      "formal": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-menu.png",
+      "formalSha": "2be39893b5570d6121b15f7fb0c46948fbe8759b003b1f2854ae156a22e11ffc",
+      "preflight": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/diagnostic_support/render/diagnostic-768-menu.png",
+      "preflightSha": "2be39893b5570d6121b15f7fb0c46948fbe8759b003b1f2854ae156a22e11ffc",
+      "declared": "PIXEL_IDENTICAL"
+    },
+    {
+      "formal": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-menu.png",
+      "formalSha": "f59aafeb5833a53aab4de0808a83b74932365c53cfd9c0d7f2709f37d32f1a10",
+      "preflight": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/diagnostic_support/render/diagnostic-390-menu.png",
+      "preflightSha": "f59aafeb5833a53aab4de0808a83b74932365c53cfd9c0d7f2709f37d32f1a10",
+      "declared": "PIXEL_IDENTICAL"
+    }
+  ],
+  "new_persistent_screenshots": 0,
+  "screenshot_trigger": "NONE",
+  "checks": [
+    {
+      "name": "revised bundle identity",
+      "status": "PASS",
+      "detail": "SYS-404-G4-BUNDLE-20260908-02",
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "revised source identity",
+      "status": "PASS",
+      "detail": {
+        "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/SYS-404_GATE4_COMPLETE_VISUAL_V0.2.html",
+        "bytes": 16782,
+        "sha256": "fc42439402367d16fbcba6a82a30e42c403cd5c00fc480f5b296bb1e5d2f485a"
+      },
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "finding response bound",
+      "status": "PASS",
+      "detail": "SYS404-G5-IR-F01",
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "approval core paths bytes and hashes",
+      "status": "PASS",
+      "detail": [
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/revision-input-index.json",
+          "exists": true,
+          "bytes": 3688,
+          "expectedBytes": 3688,
+          "sha256": "31970b044eec1eecad1d1515570a7b27b738098a0baf032d34c3a59bf2e6e668",
+          "expectedSha256": "31970b044eec1eecad1d1515570a7b27b738098a0baf032d34c3a59bf2e6e668"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/SYS-404_GATE4_COMPLETE_VISUAL_V0.2.html",
+          "exists": true,
+          "bytes": 16782,
+          "expectedBytes": 16782,
+          "sha256": "fc42439402367d16fbcba6a82a30e42c403cd5c00fc480f5b296bb1e5d2f485a",
+          "expectedSha256": "fc42439402367d16fbcba6a82a30e42c403cd5c00fc480f5b296bb1e5d2f485a"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/revision-report.md",
+          "exists": true,
+          "bytes": 898,
+          "expectedBytes": 898,
+          "sha256": "4f131baefabd3673700cafa5f713ea2c969327070940f0b5d8d8ba322aadfdc3",
+          "expectedSha256": "4f131baefabd3673700cafa5f713ea2c969327070940f0b5d8d8ba322aadfdc3"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/preflight-record.json",
+          "exists": true,
+          "bytes": 1468,
+          "expectedBytes": 1468,
+          "sha256": "bb926bdb19236e2e80c1259e6362493daddf126c7bf87768565775017c1f932a",
+          "expectedSha256": "bb926bdb19236e2e80c1259e6362493daddf126c7bf87768565775017c1f932a"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/freeze-record.json",
+          "exists": true,
+          "bytes": 2350,
+          "expectedBytes": 2350,
+          "sha256": "800c3119b13e578d0cec9a8427db33ca16a5b3e839cacd1228369e315c8ca04a",
+          "expectedSha256": "800c3119b13e578d0cec9a8427db33ca16a5b3e839cacd1228369e315c8ca04a"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/runtime.json",
+          "exists": true,
+          "bytes": 41540,
+          "expectedBytes": 41540,
+          "sha256": "d8896f36a7042f111386cb21fa2ce059a013e2cb29ca681d52e06813f1496b15",
+          "expectedSha256": "d8896f36a7042f111386cb21fa2ce059a013e2cb29ca681d52e06813f1496b15"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_1440-cookie.png",
+          "exists": true,
+          "bytes": 113896,
+          "expectedBytes": 113896,
+          "sha256": "555e2e5f41ce69b7972b8c082d3c038fdadb03a24ba969280f85023a8b9616ca",
+          "expectedSha256": "555e2e5f41ce69b7972b8c082d3c038fdadb03a24ba969280f85023a8b9616ca"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_1440-full.png",
+          "exists": true,
+          "bytes": 153119,
+          "expectedBytes": 153119,
+          "sha256": "1b8727d269596fc0e38258310b266ab9a3e05c4a31d65e0372658dcf887928fd",
+          "expectedSha256": "1b8727d269596fc0e38258310b266ab9a3e05c4a31d65e0372658dcf887928fd"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_390-cookie.png",
+          "exists": true,
+          "bytes": 50796,
+          "expectedBytes": 50796,
+          "sha256": "ddb7923ee47659bbcab01610292d2c07542ea00dda01239b2fd9f68904112bd5",
+          "expectedSha256": "ddb7923ee47659bbcab01610292d2c07542ea00dda01239b2fd9f68904112bd5"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_390-full.png",
+          "exists": true,
+          "bytes": 103956,
+          "expectedBytes": 103956,
+          "sha256": "99c5359aadb01f0cae578bc0c411a6788df052b632f0238333ffe09af523fd4d",
+          "expectedSha256": "99c5359aadb01f0cae578bc0c411a6788df052b632f0238333ffe09af523fd4d"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_768-cookie.png",
+          "exists": true,
+          "bytes": 67766,
+          "expectedBytes": 67766,
+          "sha256": "a24d8fae1c555a72c8e59cf645953c88c058f9772544addb30babb8344b62799",
+          "expectedSha256": "a24d8fae1c555a72c8e59cf645953c88c058f9772544addb30babb8344b62799"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_768-full.png",
+          "exists": true,
+          "bytes": 121270,
+          "expectedBytes": 121270,
+          "sha256": "0fa26761f5669603761b9bb2142c9a2059e98c462d6e03e52b818307608e80d7",
+          "expectedSha256": "0fa26761f5669603761b9bb2142c9a2059e98c462d6e03e52b818307608e80d7"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/05_review/SYS-404_GATE4_FINDING_RESPONSE_V0.1.md",
+          "exists": true,
+          "bytes": 1575,
+          "expectedBytes": 1575,
+          "sha256": "0751a589731dd85c3f151d818b7dacee94bfbb5cef0b009cd75c0bbec8e237ee",
+          "expectedSha256": "0751a589731dd85c3f151d818b7dacee94bfbb5cef0b009cd75c0bbec8e237ee"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/05_review/SYS-404_GATE4_EXECUTION_EVIDENCE_V0.2/formal-visual-readback.json",
+          "exists": true,
+          "bytes": 1922,
+          "expectedBytes": 1922,
+          "sha256": "99be4a527b22daad695d6eaf6fc09040eb9088cb59d488158cf3c8533793c6ec",
+          "expectedSha256": "99be4a527b22daad695d6eaf6fc09040eb9088cb59d488158cf3c8533793c6ec"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/05_review/SYS-404_GATE4_EXECUTION_SELF_CHECK_V0.2.md",
+          "exists": true,
+          "bytes": 1427,
+          "expectedBytes": 1427,
+          "sha256": "56e2fed09bed8fc52e37c751435bf4e7795b7c0733a4a77495addfb531d94c55",
+          "expectedSha256": "56e2fed09bed8fc52e37c751435bf4e7795b7c0733a4a77495addfb531d94c55"
+        }
+      ],
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "eight formal assets and dimensions",
+      "status": "PASS",
+      "detail": [
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_1440-cookie.png",
+          "exists": true,
+          "bytes": 113896,
+          "expectedBytes": 113896,
+          "sha256": "555e2e5f41ce69b7972b8c082d3c038fdadb03a24ba969280f85023a8b9616ca",
+          "expectedSha256": "555e2e5f41ce69b7972b8c082d3c038fdadb03a24ba969280f85023a8b9616ca",
+          "width": 1440,
+          "height": 900,
+          "expected": [
+            1440,
+            900
+          ],
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_1440-full.png",
+          "exists": true,
+          "bytes": 153119,
+          "expectedBytes": 153119,
+          "sha256": "1b8727d269596fc0e38258310b266ab9a3e05c4a31d65e0372658dcf887928fd",
+          "expectedSha256": "1b8727d269596fc0e38258310b266ab9a3e05c4a31d65e0372658dcf887928fd",
+          "width": 1440,
+          "height": 1327,
+          "expected": [
+            1440,
+            1327
+          ],
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_390-cookie.png",
+          "exists": true,
+          "bytes": 50796,
+          "expectedBytes": 50796,
+          "sha256": "ddb7923ee47659bbcab01610292d2c07542ea00dda01239b2fd9f68904112bd5",
+          "expectedSha256": "ddb7923ee47659bbcab01610292d2c07542ea00dda01239b2fd9f68904112bd5",
+          "width": 390,
+          "height": 844,
+          "expected": [
+            390,
+            844
+          ],
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_390-full.png",
+          "exists": true,
+          "bytes": 103956,
+          "expectedBytes": 103956,
+          "sha256": "99c5359aadb01f0cae578bc0c411a6788df052b632f0238333ffe09af523fd4d",
+          "expectedSha256": "99c5359aadb01f0cae578bc0c411a6788df052b632f0238333ffe09af523fd4d",
+          "width": 390,
+          "height": 1603,
+          "expected": [
+            390,
+            1603
+          ],
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_768-cookie.png",
+          "exists": true,
+          "bytes": 67766,
+          "expectedBytes": 67766,
+          "sha256": "a24d8fae1c555a72c8e59cf645953c88c058f9772544addb30babb8344b62799",
+          "expectedSha256": "a24d8fae1c555a72c8e59cf645953c88c058f9772544addb30babb8344b62799",
+          "width": 768,
+          "height": 900,
+          "expected": [
+            768,
+            900
+          ],
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_768-full.png",
+          "exists": true,
+          "bytes": 121270,
+          "expectedBytes": 121270,
+          "sha256": "0fa26761f5669603761b9bb2142c9a2059e98c462d6e03e52b818307608e80d7",
+          "expectedSha256": "0fa26761f5669603761b9bb2142c9a2059e98c462d6e03e52b818307608e80d7",
+          "width": 768,
+          "height": 1509,
+          "expected": [
+            768,
+            1509
+          ],
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-menu.png",
+          "exists": true,
+          "bytes": 58719,
+          "expectedBytes": 58719,
+          "sha256": "2be39893b5570d6121b15f7fb0c46948fbe8759b003b1f2854ae156a22e11ffc",
+          "expectedSha256": "2be39893b5570d6121b15f7fb0c46948fbe8759b003b1f2854ae156a22e11ffc",
+          "width": 768,
+          "height": 900,
+          "expected": [
+            768,
+            900
+          ],
+          "revision": "INHERITED_FROM_SYS-404-G4-BUNDLE-20260908-01"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-menu.png",
+          "exists": true,
+          "bytes": 43116,
+          "expectedBytes": 43116,
+          "sha256": "f59aafeb5833a53aab4de0808a83b74932365c53cfd9c0d7f2709f37d32f1a10",
+          "expectedSha256": "f59aafeb5833a53aab4de0808a83b74932365c53cfd9c0d7f2709f37d32f1a10",
+          "width": 390,
+          "height": 844,
+          "expected": [
+            390,
+            844
+          ],
+          "revision": "INHERITED_FROM_SYS-404-G4-BUNDLE-20260908-01"
+        }
+      ],
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "six regenerated and two inherited",
+      "status": "PASS",
+      "detail": [
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_1440-cookie.png",
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_1440-full.png",
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_390-cookie.png",
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_390-full.png",
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_768-cookie.png",
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/approval_core/SYS-404_G4R2_768-full.png",
+          "revision": "V0.2_REGENERATED"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-menu.png",
+          "revision": "INHERITED_FROM_SYS-404-G4-BUNDLE-20260908-01"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-menu.png",
+          "revision": "INHERITED_FROM_SYS-404-G4-BUNDLE-20260908-01"
+        }
+      ],
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "inherited Menu assets are pixel-identical",
+      "status": "PASS",
+      "detail": [
+        {
+          "formal": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-menu.png",
+          "formalSha": "2be39893b5570d6121b15f7fb0c46948fbe8759b003b1f2854ae156a22e11ffc",
+          "preflight": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/diagnostic_support/render/diagnostic-768-menu.png",
+          "preflightSha": "2be39893b5570d6121b15f7fb0c46948fbe8759b003b1f2854ae156a22e11ffc",
+          "declared": "PIXEL_IDENTICAL"
+        },
+        {
+          "formal": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-menu.png",
+          "formalSha": "f59aafeb5833a53aab4de0808a83b74932365c53cfd9c0d7f2709f37d32f1a10",
+          "preflight": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/diagnostic_support/render/diagnostic-390-menu.png",
+          "preflightSha": "f59aafeb5833a53aab4de0808a83b74932365c53cfd9c0d7f2709f37d32f1a10",
+          "declared": "PIXEL_IDENTICAL"
+        }
+      ],
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "source delta is only approved Footer node move",
+      "status": "PASS",
+      "detail": {
+        "oldSha": "a09c3e730d3abad910481607b880c265355c6bf394717d01fd78ab036a0ec6c0",
+        "newSha": "fc42439402367d16fbcba6a82a30e42c403cd5c00fc480f5b296bb1e5d2f485a"
+      },
+      "evidenceType": "SOURCE_INSPECTION"
+    },
+    {
+      "name": "1440 F01 Footer DOM and visual order",
+      "status": "PASS",
+      "detail": {
+        "children": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "copyrightBeforeLegal": true
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 Footer exact content and controls",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 1440,
+        "cw": 1440,
+        "sh": 1327,
+        "fb": 1327.1875,
+        "targets": [
+          {
+            "text": "",
+            "w": 180,
+            "h": 60,
+            "l": 120,
+            "r": 300
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 83,
+            "l": 618.234375,
+            "r": 662.234375
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 83,
+            "l": 678.234375,
+            "r": 732.515625
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 83,
+            "l": 748.515625,
+            "r": 808.4375
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 83,
+            "l": 824.4375,
+            "r": 907.609375
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 83,
+            "l": 923.609375,
+            "r": 999.9375
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 83,
+            "l": 1015.9375,
+            "r": 1086.453125
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 83,
+            "l": 1102.453125,
+            "r": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 149.546875,
+            "h": 48,
+            "l": 1170.453125,
+            "r": 1320
+          },
+          {
+            "text": "Explore Products",
+            "w": 170.96875,
+            "h": 50,
+            "l": 543.375,
+            "r": 714.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 168.28125,
+            "h": 50,
+            "l": 728.34375,
+            "r": 896.625
+          },
+          {
+            "text": "Request Documents",
+            "w": 193.765625,
+            "h": 50,
+            "l": 436.265625,
+            "r": 630.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 178.875,
+            "h": 50,
+            "l": 644.03125,
+            "r": 822.90625
+          },
+          {
+            "text": "Request a Quote",
+            "w": 166.8125,
+            "h": 50,
+            "l": 836.90625,
+            "r": 1003.71875
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 535.296875,
+            "r": 579.296875
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 535.296875,
+            "r": 589.578125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 535.296875,
+            "r": 595.21875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 535.296875,
+            "r": 618.46875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 812.859375,
+            "r": 889.1875
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 812.859375,
+            "r": 883.375
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 812.859375,
+            "r": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 1090.421875,
+            "r": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 120,
+            "r": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 231.8125,
+            "r": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 373.546875,
+            "r": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 482.3125,
+            "r": 587.71875
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 adjacent copy structure and targets",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 1440,
+        "cw": 1440,
+        "sh": 1327,
+        "fb": 1327.1875,
+        "targets": [
+          {
+            "text": "",
+            "w": 180,
+            "h": 60,
+            "l": 120,
+            "r": 300
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 83,
+            "l": 618.234375,
+            "r": 662.234375
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 83,
+            "l": 678.234375,
+            "r": 732.515625
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 83,
+            "l": 748.515625,
+            "r": 808.4375
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 83,
+            "l": 824.4375,
+            "r": 907.609375
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 83,
+            "l": 923.609375,
+            "r": 999.9375
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 83,
+            "l": 1015.9375,
+            "r": 1086.453125
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 83,
+            "l": 1102.453125,
+            "r": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 149.546875,
+            "h": 48,
+            "l": 1170.453125,
+            "r": 1320
+          },
+          {
+            "text": "Explore Products",
+            "w": 170.96875,
+            "h": 50,
+            "l": 543.375,
+            "r": 714.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 168.28125,
+            "h": 50,
+            "l": 728.34375,
+            "r": 896.625
+          },
+          {
+            "text": "Request Documents",
+            "w": 193.765625,
+            "h": 50,
+            "l": 436.265625,
+            "r": 630.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 178.875,
+            "h": 50,
+            "l": 644.03125,
+            "r": 822.90625
+          },
+          {
+            "text": "Request a Quote",
+            "w": 166.8125,
+            "h": 50,
+            "l": 836.90625,
+            "r": 1003.71875
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 535.296875,
+            "r": 579.296875
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 535.296875,
+            "r": 589.578125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 535.296875,
+            "r": 595.21875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 535.296875,
+            "r": 618.46875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 812.859375,
+            "r": 889.1875
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 812.859375,
+            "r": 883.375
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 812.859375,
+            "r": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 1090.421875,
+            "r": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 120,
+            "r": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 231.8125,
+            "r": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 373.546875,
+            "r": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 482.3125,
+            "r": 587.71875
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 adjacent geometry accessibility exclusions",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 1440,
+        "cw": 1440,
+        "sh": 1327,
+        "fb": 1327.1875,
+        "targets": [
+          {
+            "text": "",
+            "w": 180,
+            "h": 60,
+            "l": 120,
+            "r": 300
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 83,
+            "l": 618.234375,
+            "r": 662.234375
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 83,
+            "l": 678.234375,
+            "r": 732.515625
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 83,
+            "l": 748.515625,
+            "r": 808.4375
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 83,
+            "l": 824.4375,
+            "r": 907.609375
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 83,
+            "l": 923.609375,
+            "r": 999.9375
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 83,
+            "l": 1015.9375,
+            "r": 1086.453125
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 83,
+            "l": 1102.453125,
+            "r": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 149.546875,
+            "h": 48,
+            "l": 1170.453125,
+            "r": 1320
+          },
+          {
+            "text": "Explore Products",
+            "w": 170.96875,
+            "h": 50,
+            "l": 543.375,
+            "r": 714.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 168.28125,
+            "h": 50,
+            "l": 728.34375,
+            "r": 896.625
+          },
+          {
+            "text": "Request Documents",
+            "w": 193.765625,
+            "h": 50,
+            "l": 436.265625,
+            "r": 630.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 178.875,
+            "h": 50,
+            "l": 644.03125,
+            "r": 822.90625
+          },
+          {
+            "text": "Request a Quote",
+            "w": 166.8125,
+            "h": 50,
+            "l": 836.90625,
+            "r": 1003.71875
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 535.296875,
+            "r": 579.296875
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 535.296875,
+            "r": 589.578125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 535.296875,
+            "r": 595.21875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 535.296875,
+            "r": 618.46875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 812.859375,
+            "r": 889.1875
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 812.859375,
+            "r": 883.375
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 812.859375,
+            "r": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 1090.421875,
+            "r": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 120,
+            "r": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 231.8125,
+            "r": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 373.546875,
+            "r": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 482.3125,
+            "r": 587.71875
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 Cookie opens first focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 Cookie reverse loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 Cookie forward loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 Cookie closes and returns focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 F01 Footer DOM and visual order",
+      "status": "PASS",
+      "detail": {
+        "children": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "copyrightBeforeLegal": true
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 Footer exact content and controls",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 768,
+        "cw": 768,
+        "sh": 1509,
+        "fb": 1508.875,
+        "targets": [
+          {
+            "text": "",
+            "w": 120,
+            "h": 44,
+            "l": 16,
+            "r": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 58.1875,
+            "h": 44,
+            "l": 621.46875,
+            "r": 679.65625
+          },
+          {
+            "text": "Menu",
+            "w": 64.34375,
+            "h": 44,
+            "l": 687.65625,
+            "r": 752
+          },
+          {
+            "text": "Explore Products",
+            "w": 170.96875,
+            "h": 50,
+            "l": 207.375,
+            "r": 378.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 168.28125,
+            "h": 50,
+            "l": 392.34375,
+            "r": 560.625
+          },
+          {
+            "text": "Request Documents",
+            "w": 193.765625,
+            "h": 50,
+            "l": 100.265625,
+            "r": 294.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 178.875,
+            "h": 50,
+            "l": 308.03125,
+            "r": 486.90625
+          },
+          {
+            "text": "Request a Quote",
+            "w": 166.8125,
+            "h": 50,
+            "l": 500.90625,
+            "r": 667.71875
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 32,
+            "r": 76
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 32,
+            "r": 86.28125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 32,
+            "r": 91.921875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 32,
+            "r": 115.171875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 400,
+            "r": 476.328125
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 400,
+            "r": 470.515625
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 400,
+            "r": 444
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 32,
+            "r": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 32,
+            "r": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 143.8125,
+            "r": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 285.546875,
+            "r": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 394.3125,
+            "r": 499.71875
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 adjacent copy structure and targets",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 768,
+        "cw": 768,
+        "sh": 1509,
+        "fb": 1508.875,
+        "targets": [
+          {
+            "text": "",
+            "w": 120,
+            "h": 44,
+            "l": 16,
+            "r": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 58.1875,
+            "h": 44,
+            "l": 621.46875,
+            "r": 679.65625
+          },
+          {
+            "text": "Menu",
+            "w": 64.34375,
+            "h": 44,
+            "l": 687.65625,
+            "r": 752
+          },
+          {
+            "text": "Explore Products",
+            "w": 170.96875,
+            "h": 50,
+            "l": 207.375,
+            "r": 378.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 168.28125,
+            "h": 50,
+            "l": 392.34375,
+            "r": 560.625
+          },
+          {
+            "text": "Request Documents",
+            "w": 193.765625,
+            "h": 50,
+            "l": 100.265625,
+            "r": 294.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 178.875,
+            "h": 50,
+            "l": 308.03125,
+            "r": 486.90625
+          },
+          {
+            "text": "Request a Quote",
+            "w": 166.8125,
+            "h": 50,
+            "l": 500.90625,
+            "r": 667.71875
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 32,
+            "r": 76
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 32,
+            "r": 86.28125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 32,
+            "r": 91.921875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 32,
+            "r": 115.171875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 400,
+            "r": 476.328125
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 400,
+            "r": 470.515625
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 400,
+            "r": 444
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 32,
+            "r": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 32,
+            "r": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 143.8125,
+            "r": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 285.546875,
+            "r": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 394.3125,
+            "r": 499.71875
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 adjacent geometry accessibility exclusions",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 768,
+        "cw": 768,
+        "sh": 1509,
+        "fb": 1508.875,
+        "targets": [
+          {
+            "text": "",
+            "w": 120,
+            "h": 44,
+            "l": 16,
+            "r": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 58.1875,
+            "h": 44,
+            "l": 621.46875,
+            "r": 679.65625
+          },
+          {
+            "text": "Menu",
+            "w": 64.34375,
+            "h": 44,
+            "l": 687.65625,
+            "r": 752
+          },
+          {
+            "text": "Explore Products",
+            "w": 170.96875,
+            "h": 50,
+            "l": 207.375,
+            "r": 378.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 168.28125,
+            "h": 50,
+            "l": 392.34375,
+            "r": 560.625
+          },
+          {
+            "text": "Request Documents",
+            "w": 193.765625,
+            "h": 50,
+            "l": 100.265625,
+            "r": 294.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 178.875,
+            "h": 50,
+            "l": 308.03125,
+            "r": 486.90625
+          },
+          {
+            "text": "Request a Quote",
+            "w": 166.8125,
+            "h": 50,
+            "l": 500.90625,
+            "r": 667.71875
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 32,
+            "r": 76
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 32,
+            "r": 86.28125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 32,
+            "r": 91.921875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 32,
+            "r": 115.171875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 400,
+            "r": 476.328125
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 400,
+            "r": 470.515625
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 400,
+            "r": 444
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 32,
+            "r": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 32,
+            "r": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 143.8125,
+            "r": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 285.546875,
+            "r": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 394.3125,
+            "r": 499.71875
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 Cookie opens first focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 Cookie reverse loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 Cookie forward loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 Cookie closes and returns focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 Menu adjacent behavior",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 Menu Escape adjacent behavior",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 F01 Footer DOM and visual order",
+      "status": "PASS",
+      "detail": {
+        "children": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "copyrightBeforeLegal": true
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 Footer exact content and controls",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 390,
+        "cw": 390,
+        "sh": 1603,
+        "fb": 1602.828125,
+        "targets": [
+          {
+            "text": "",
+            "w": 120,
+            "h": 44,
+            "l": 16,
+            "r": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 58.1875,
+            "h": 44,
+            "l": 243.46875,
+            "r": 301.65625
+          },
+          {
+            "text": "Menu",
+            "w": 64.34375,
+            "h": 44,
+            "l": 309.65625,
+            "r": 374
+          },
+          {
+            "text": "Explore Products",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Request Documents",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Request a Quote",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 20,
+            "r": 64
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 20,
+            "r": 74.28125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 20,
+            "r": 79.921875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 20,
+            "r": 103.171875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 205,
+            "r": 281.328125
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 205,
+            "r": 275.515625
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 205,
+            "r": 249
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 20,
+            "r": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 20,
+            "r": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 131.8125,
+            "r": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 273.546875,
+            "r": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 20,
+            "r": 125.40625
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 adjacent copy structure and targets",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 390,
+        "cw": 390,
+        "sh": 1603,
+        "fb": 1602.828125,
+        "targets": [
+          {
+            "text": "",
+            "w": 120,
+            "h": 44,
+            "l": 16,
+            "r": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 58.1875,
+            "h": 44,
+            "l": 243.46875,
+            "r": 301.65625
+          },
+          {
+            "text": "Menu",
+            "w": 64.34375,
+            "h": 44,
+            "l": 309.65625,
+            "r": 374
+          },
+          {
+            "text": "Explore Products",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Request Documents",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Request a Quote",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 20,
+            "r": 64
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 20,
+            "r": 74.28125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 20,
+            "r": 79.921875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 20,
+            "r": 103.171875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 205,
+            "r": 281.328125
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 205,
+            "r": 275.515625
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 205,
+            "r": 249
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 20,
+            "r": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 20,
+            "r": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 131.8125,
+            "r": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 273.546875,
+            "r": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 20,
+            "r": 125.40625
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 adjacent geometry accessibility exclusions",
+      "status": "PASS",
+      "detail": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "footerChildren": [
+          "footerGrid",
+          "copyright",
+          "legalUtilities"
+        ],
+        "legalLabels": [
+          "Privacy Policy",
+          "Dasar Privasi (BM)",
+          "Cookie Policy",
+          "Cookie Settings"
+        ],
+        "legalHrefs": [
+          "/privacy-policy/",
+          "/ms/privacy-policy/",
+          "/cookie-policy/",
+          null
+        ],
+        "cookieTag": "BUTTON",
+        "copyright": "© 2026 TiO2 Malaysia.",
+        "copyrightBeforeLegal": true,
+        "sw": 390,
+        "cw": 390,
+        "sh": 1603,
+        "fb": 1602.828125,
+        "targets": [
+          {
+            "text": "",
+            "w": 120,
+            "h": 44,
+            "l": 16,
+            "r": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "w": 58.1875,
+            "h": 44,
+            "l": 243.46875,
+            "r": 301.65625
+          },
+          {
+            "text": "Menu",
+            "w": 64.34375,
+            "h": 44,
+            "l": 309.65625,
+            "r": 374
+          },
+          {
+            "text": "Explore Products",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Go to Homepage",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Request Documents",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Contact Our Team",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Request a Quote",
+            "w": 300,
+            "h": 48,
+            "l": 45,
+            "r": 345
+          },
+          {
+            "text": "Home",
+            "w": 44,
+            "h": 44,
+            "l": 20,
+            "r": 64
+          },
+          {
+            "text": "Markets",
+            "w": 54.28125,
+            "h": 44,
+            "l": 20,
+            "r": 74.28125
+          },
+          {
+            "text": "Products",
+            "w": 59.921875,
+            "h": 44,
+            "l": 20,
+            "r": 79.921875
+          },
+          {
+            "text": "Applications",
+            "w": 83.171875,
+            "h": 44,
+            "l": 20,
+            "r": 103.171875
+          },
+          {
+            "text": "Documents",
+            "w": 76.328125,
+            "h": 44,
+            "l": 205,
+            "r": 281.328125
+          },
+          {
+            "text": "Resources",
+            "w": 70.515625,
+            "h": 44,
+            "l": 205,
+            "r": 275.515625
+          },
+          {
+            "text": "About",
+            "w": 44,
+            "h": 44,
+            "l": 205,
+            "r": 249
+          },
+          {
+            "text": "Request a Quote",
+            "w": 148.625,
+            "h": 44,
+            "l": 20,
+            "r": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "w": 93.8125,
+            "h": 44,
+            "l": 20,
+            "r": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "w": 123.734375,
+            "h": 44,
+            "l": 131.8125,
+            "r": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "w": 90.765625,
+            "h": 44,
+            "l": 273.546875,
+            "r": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "w": 105.40625,
+            "h": 44,
+            "l": 20,
+            "r": 125.40625
+          }
+        ],
+        "current": 0,
+        "forbidden": 0
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 Cookie opens first focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 Cookie reverse loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 Cookie forward loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 Cookie closes and returns focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 Menu adjacent behavior",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 Menu Escape adjacent behavior",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "200 percent equivalent adjacent reflow",
+      "status": "PASS",
+      "detail": {
+        "sw": 720,
+        "cw": 720,
+        "targets": true
+      },
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "no external network",
+      "status": "PASS",
+      "detail": [],
+      "evidenceType": "ACTUAL_RUNTIME"
+    }
+  ],
+  "failures": 0,
+  "finding_status": "CLOSED",
+  "required_findings": 0,
+  "result": "REVIEW_PASS",
+  "lifecycle_result": "PROJECT_CONTROL_REVIEW_PASS",
+  "finished_at": "2026-09-08T07:47:58.957Z"
+}

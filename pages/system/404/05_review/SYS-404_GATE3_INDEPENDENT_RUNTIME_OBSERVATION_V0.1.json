@@ -1,0 +1,1538 @@
+{
+  "reviewer": "/root/sys404_gate3_review",
+  "mode": "INDEPENDENT_REVIEW",
+  "candidate": "SYS-404-G3-CANDIDATE-01",
+  "source": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate3-v0.1/SYS-404_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 13505,
+    "sha256": "17f3445856f0666adb9898f303331ad35a656bbb2153b46b243cce48b81f125a"
+  },
+  "environment": {
+    "browser": "152.0.7977.82",
+    "dpr": 1
+  },
+  "results": [
+    {
+      "name": "1440 content/order/groups",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "groups": [
+          "Explore Products",
+          "Go to Homepage"
+        ],
+        "support": [
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "current": [
+          0,
+          0
+        ],
+        "scroll": {
+          "sw": 1440,
+          "cw": 1440,
+          "sh": 1078,
+          "footerBottom": 1078.28125
+        },
+        "targets": [
+          {
+            "text": "",
+            "x": 120,
+            "y": 11.5,
+            "w": 180,
+            "h": 60,
+            "right": 300,
+            "bottom": 71.5
+          },
+          {
+            "text": "Home",
+            "x": 618.234375,
+            "y": 0,
+            "w": 44,
+            "h": 83,
+            "right": 662.234375,
+            "bottom": 83
+          },
+          {
+            "text": "Markets",
+            "x": 678.234375,
+            "y": 0,
+            "w": 54.28125,
+            "h": 83,
+            "right": 732.515625,
+            "bottom": 83
+          },
+          {
+            "text": "Products",
+            "x": 748.515625,
+            "y": 0,
+            "w": 59.921875,
+            "h": 83,
+            "right": 808.4375,
+            "bottom": 83
+          },
+          {
+            "text": "Applications",
+            "x": 824.4375,
+            "y": 0,
+            "w": 83.171875,
+            "h": 83,
+            "right": 907.609375,
+            "bottom": 83
+          },
+          {
+            "text": "Documents",
+            "x": 923.609375,
+            "y": 0,
+            "w": 76.328125,
+            "h": 83,
+            "right": 999.9375,
+            "bottom": 83
+          },
+          {
+            "text": "Resources",
+            "x": 1015.9375,
+            "y": 0,
+            "w": 70.515625,
+            "h": 83,
+            "right": 1086.453125,
+            "bottom": 83
+          },
+          {
+            "text": "About",
+            "x": 1102.453125,
+            "y": 0,
+            "w": 44,
+            "h": 83,
+            "right": 1146.453125,
+            "bottom": 83
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "x": 1170.453125,
+            "y": 17.5,
+            "w": 149.546875,
+            "h": 48,
+            "right": 1320,
+            "bottom": 65.5
+          },
+          {
+            "text": "Explore Products",
+            "x": 540.734375,
+            "y": 397.90625,
+            "w": 173.609375,
+            "h": 48,
+            "right": 714.34375,
+            "bottom": 445.90625
+          },
+          {
+            "text": "Go to Homepage",
+            "x": 728.34375,
+            "y": 397.90625,
+            "w": 170.921875,
+            "h": 48,
+            "right": 899.265625,
+            "bottom": 445.90625
+          },
+          {
+            "text": "Request Documents",
+            "x": 431.453125,
+            "y": 463.90625,
+            "w": 197.796875,
+            "h": 48,
+            "right": 629.25,
+            "bottom": 511.90625
+          },
+          {
+            "text": "Contact Our Team",
+            "x": 643.25,
+            "y": 463.90625,
+            "w": 182.015625,
+            "h": 48,
+            "right": 825.265625,
+            "bottom": 511.90625
+          },
+          {
+            "text": "Request a Quote",
+            "x": 839.265625,
+            "y": 463.90625,
+            "w": 169.28125,
+            "h": 48,
+            "right": 1008.546875,
+            "bottom": 511.90625
+          },
+          {
+            "text": "Home",
+            "x": 535.296875,
+            "y": 695.59375,
+            "w": 44,
+            "h": 44,
+            "right": 579.296875,
+            "bottom": 739.59375
+          },
+          {
+            "text": "Markets",
+            "x": 535.296875,
+            "y": 751.59375,
+            "w": 54.28125,
+            "h": 44,
+            "right": 589.578125,
+            "bottom": 795.59375
+          },
+          {
+            "text": "Products",
+            "x": 535.296875,
+            "y": 807.59375,
+            "w": 59.921875,
+            "h": 44,
+            "right": 595.21875,
+            "bottom": 851.59375
+          },
+          {
+            "text": "Applications",
+            "x": 535.296875,
+            "y": 863.59375,
+            "w": 83.171875,
+            "h": 44,
+            "right": 618.46875,
+            "bottom": 907.59375
+          },
+          {
+            "text": "Documents",
+            "x": 812.859375,
+            "y": 695.59375,
+            "w": 76.328125,
+            "h": 44,
+            "right": 889.1875,
+            "bottom": 739.59375
+          },
+          {
+            "text": "Resources",
+            "x": 812.859375,
+            "y": 751.59375,
+            "w": 70.515625,
+            "h": 44,
+            "right": 883.375,
+            "bottom": 795.59375
+          },
+          {
+            "text": "About",
+            "x": 812.859375,
+            "y": 807.59375,
+            "w": 44,
+            "h": 44,
+            "right": 856.859375,
+            "bottom": 851.59375
+          },
+          {
+            "text": "Request a Quote",
+            "x": 1090.421875,
+            "y": 695.59375,
+            "w": 148.625,
+            "h": 44,
+            "right": 1239.046875,
+            "bottom": 739.59375
+          },
+          {
+            "text": "Privacy Policy",
+            "x": 120,
+            "y": 976.59375,
+            "w": 93.8125,
+            "h": 44,
+            "right": 213.8125,
+            "bottom": 1020.59375
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "x": 231.8125,
+            "y": 976.59375,
+            "w": 123.734375,
+            "h": 44,
+            "right": 355.546875,
+            "bottom": 1020.59375
+          },
+          {
+            "text": "Cookie Policy",
+            "x": 373.546875,
+            "y": 976.59375,
+            "w": 90.765625,
+            "h": 44,
+            "right": 464.3125,
+            "bottom": 1020.59375
+          },
+          {
+            "text": "Cookie Settings",
+            "x": 482.3125,
+            "y": 976.59375,
+            "w": 105.40625,
+            "h": 44,
+            "right": 587.71875,
+            "bottom": 1020.59375
+          }
+        ],
+        "recovery": [
+          {
+            "x": 540.734375,
+            "y": 397.90625,
+            "w": 173.609375,
+            "h": 48,
+            "right": 714.34375,
+            "bottom": 445.90625
+          },
+          {
+            "x": 728.34375,
+            "y": 397.90625,
+            "w": 170.921875,
+            "h": 48,
+            "right": 899.265625,
+            "bottom": 445.90625
+          },
+          {
+            "x": 431.453125,
+            "y": 463.90625,
+            "w": 197.796875,
+            "h": 48,
+            "right": 629.25,
+            "bottom": 511.90625
+          },
+          {
+            "x": 643.25,
+            "y": 463.90625,
+            "w": 182.015625,
+            "h": 48,
+            "right": 825.265625,
+            "bottom": 511.90625
+          },
+          {
+            "x": 839.265625,
+            "y": 463.90625,
+            "w": 169.28125,
+            "h": 48,
+            "right": 1008.546875,
+            "bottom": 511.90625
+          }
+        ],
+        "forbidden": 0,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 84,
+          "right": 1440,
+          "bottom": 84
+        },
+        "font": true
+      }
+    },
+    {
+      "name": "1440 geometry/footer/44px",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "scroll": {
+          "sw": 1440,
+          "cw": 1440,
+          "sh": 1078,
+          "footerBottom": 1078.28125
+        },
+        "minTarget": {
+          "w": 44,
+          "h": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 84,
+          "right": 1440,
+          "bottom": 84
+        },
+        "recovery": [
+          {
+            "x": 540.734375,
+            "y": 397.90625,
+            "w": 173.609375,
+            "h": 48,
+            "right": 714.34375,
+            "bottom": 445.90625
+          },
+          {
+            "x": 728.34375,
+            "y": 397.90625,
+            "w": 170.921875,
+            "h": 48,
+            "right": 899.265625,
+            "bottom": 445.90625
+          },
+          {
+            "x": 431.453125,
+            "y": 463.90625,
+            "w": 197.796875,
+            "h": 48,
+            "right": 629.25,
+            "bottom": 511.90625
+          },
+          {
+            "x": 643.25,
+            "y": 463.90625,
+            "w": 182.015625,
+            "h": 48,
+            "right": 825.265625,
+            "bottom": 511.90625
+          },
+          {
+            "x": 839.265625,
+            "y": 463.90625,
+            "w": 169.28125,
+            "h": 48,
+            "right": 1008.546875,
+            "bottom": 511.90625
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440 zero current/exclusions/font",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "current": [
+          0,
+          0
+        ],
+        "forbidden": 0,
+        "font": true
+      }
+    },
+    {
+      "name": "1440 recovery action 1",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/products/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 recovery action 2",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 recovery action 3",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/request-documents/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 recovery action 4",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/contact/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 recovery action 5",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/request-a-quote/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 page focus visible",
+      "status": "FAIL",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "name": "1440 cookie open/first focus",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "open": true,
+        "focus": "Close",
+        "modal": true,
+        "text": "Cookie settings\n\nNo optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.\n\nClose\nRead Cookie Policy"
+      }
+    },
+    {
+      "name": "1440 cookie focus loop",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverse": "Read Cookie Policy",
+        "forward": "Close"
+      }
+    },
+    {
+      "name": "1440 cookie close/focus return",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "open": false,
+        "focus": "Cookie Settings"
+      }
+    },
+    {
+      "name": "768 content/order/groups",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "groups": [
+          "Explore Products",
+          "Go to Homepage"
+        ],
+        "support": [
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "current": [
+          0,
+          0
+        ],
+        "scroll": {
+          "sw": 768,
+          "cw": 768,
+          "sh": 1309,
+          "footerBottom": 1309.25
+        },
+        "targets": [
+          {
+            "text": "",
+            "x": 16,
+            "y": 9.5,
+            "w": 120,
+            "h": 44,
+            "right": 136,
+            "bottom": 53.5
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "x": 621.46875,
+            "y": 9.5,
+            "w": 58.1875,
+            "h": 44,
+            "right": 679.65625,
+            "bottom": 53.5
+          },
+          {
+            "text": "Menu",
+            "x": 687.65625,
+            "y": 9.5,
+            "w": 64.34375,
+            "h": 44,
+            "right": 752,
+            "bottom": 53.5
+          },
+          {
+            "text": "Explore Products",
+            "x": 204.734375,
+            "y": 366.546875,
+            "w": 173.609375,
+            "h": 48,
+            "right": 378.34375,
+            "bottom": 414.546875
+          },
+          {
+            "text": "Go to Homepage",
+            "x": 392.34375,
+            "y": 366.546875,
+            "w": 170.921875,
+            "h": 48,
+            "right": 563.265625,
+            "bottom": 414.546875
+          },
+          {
+            "text": "Request Documents",
+            "x": 95.453125,
+            "y": 432.546875,
+            "w": 197.796875,
+            "h": 48,
+            "right": 293.25,
+            "bottom": 480.546875
+          },
+          {
+            "text": "Contact Our Team",
+            "x": 307.25,
+            "y": 432.546875,
+            "w": 182.015625,
+            "h": 48,
+            "right": 489.265625,
+            "bottom": 480.546875
+          },
+          {
+            "text": "Request a Quote",
+            "x": 503.265625,
+            "y": 432.546875,
+            "w": 169.28125,
+            "h": 48,
+            "right": 672.546875,
+            "bottom": 480.546875
+          },
+          {
+            "text": "Home",
+            "x": 32,
+            "y": 806.96875,
+            "w": 44,
+            "h": 44,
+            "right": 76,
+            "bottom": 850.96875
+          },
+          {
+            "text": "Markets",
+            "x": 32,
+            "y": 862.96875,
+            "w": 54.28125,
+            "h": 44,
+            "right": 86.28125,
+            "bottom": 906.96875
+          },
+          {
+            "text": "Products",
+            "x": 32,
+            "y": 918.96875,
+            "w": 59.921875,
+            "h": 44,
+            "right": 91.921875,
+            "bottom": 962.96875
+          },
+          {
+            "text": "Applications",
+            "x": 32,
+            "y": 974.96875,
+            "w": 83.171875,
+            "h": 44,
+            "right": 115.171875,
+            "bottom": 1018.96875
+          },
+          {
+            "text": "Documents",
+            "x": 400,
+            "y": 806.96875,
+            "w": 76.328125,
+            "h": 44,
+            "right": 476.328125,
+            "bottom": 850.96875
+          },
+          {
+            "text": "Resources",
+            "x": 400,
+            "y": 862.96875,
+            "w": 70.515625,
+            "h": 44,
+            "right": 470.515625,
+            "bottom": 906.96875
+          },
+          {
+            "text": "About",
+            "x": 400,
+            "y": 918.96875,
+            "w": 44,
+            "h": 44,
+            "right": 444,
+            "bottom": 962.96875
+          },
+          {
+            "text": "Request a Quote",
+            "x": 32,
+            "y": 1094.5625,
+            "w": 148.625,
+            "h": 44,
+            "right": 180.625,
+            "bottom": 1138.5625
+          },
+          {
+            "text": "Privacy Policy",
+            "x": 32,
+            "y": 1207.5625,
+            "w": 93.8125,
+            "h": 44,
+            "right": 125.8125,
+            "bottom": 1251.5625
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "x": 143.8125,
+            "y": 1207.5625,
+            "w": 123.734375,
+            "h": 44,
+            "right": 267.546875,
+            "bottom": 1251.5625
+          },
+          {
+            "text": "Cookie Policy",
+            "x": 285.546875,
+            "y": 1207.5625,
+            "w": 90.765625,
+            "h": 44,
+            "right": 376.3125,
+            "bottom": 1251.5625
+          },
+          {
+            "text": "Cookie Settings",
+            "x": 394.3125,
+            "y": 1207.5625,
+            "w": 105.40625,
+            "h": 44,
+            "right": 499.71875,
+            "bottom": 1251.5625
+          }
+        ],
+        "recovery": [
+          {
+            "x": 204.734375,
+            "y": 366.546875,
+            "w": 173.609375,
+            "h": 48,
+            "right": 378.34375,
+            "bottom": 414.546875
+          },
+          {
+            "x": 392.34375,
+            "y": 366.546875,
+            "w": 170.921875,
+            "h": 48,
+            "right": 563.265625,
+            "bottom": 414.546875
+          },
+          {
+            "x": 95.453125,
+            "y": 432.546875,
+            "w": 197.796875,
+            "h": 48,
+            "right": 293.25,
+            "bottom": 480.546875
+          },
+          {
+            "x": 307.25,
+            "y": 432.546875,
+            "w": 182.015625,
+            "h": 48,
+            "right": 489.265625,
+            "bottom": 480.546875
+          },
+          {
+            "x": 503.265625,
+            "y": 432.546875,
+            "w": 169.28125,
+            "h": 48,
+            "right": 672.546875,
+            "bottom": 480.546875
+          }
+        ],
+        "forbidden": 0,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 64,
+          "right": 768,
+          "bottom": 64
+        },
+        "font": true
+      }
+    },
+    {
+      "name": "768 geometry/footer/44px",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "scroll": {
+          "sw": 768,
+          "cw": 768,
+          "sh": 1309,
+          "footerBottom": 1309.25
+        },
+        "minTarget": {
+          "w": 44,
+          "h": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 64,
+          "right": 768,
+          "bottom": 64
+        },
+        "recovery": [
+          {
+            "x": 204.734375,
+            "y": 366.546875,
+            "w": 173.609375,
+            "h": 48,
+            "right": 378.34375,
+            "bottom": 414.546875
+          },
+          {
+            "x": 392.34375,
+            "y": 366.546875,
+            "w": 170.921875,
+            "h": 48,
+            "right": 563.265625,
+            "bottom": 414.546875
+          },
+          {
+            "x": 95.453125,
+            "y": 432.546875,
+            "w": 197.796875,
+            "h": 48,
+            "right": 293.25,
+            "bottom": 480.546875
+          },
+          {
+            "x": 307.25,
+            "y": 432.546875,
+            "w": 182.015625,
+            "h": 48,
+            "right": 489.265625,
+            "bottom": 480.546875
+          },
+          {
+            "x": 503.265625,
+            "y": 432.546875,
+            "w": 169.28125,
+            "h": 48,
+            "right": 672.546875,
+            "bottom": 480.546875
+          }
+        ]
+      }
+    },
+    {
+      "name": "768 zero current/exclusions/font",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "current": [
+          0,
+          0
+        ],
+        "forbidden": 0,
+        "font": true
+      }
+    },
+    {
+      "name": "768 recovery action 1",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/products/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 recovery action 2",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 recovery action 3",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/request-documents/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 recovery action 4",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/contact/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 recovery action 5",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/request-a-quote/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 page focus visible",
+      "status": "FAIL",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "name": "768 menu open/focus/inert",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "expanded": "true",
+        "hidden": false,
+        "focus": "Home",
+        "mainInert": true,
+        "footerInert": true,
+        "logoInert": true,
+        "rfqInert": true,
+        "overflow": "hidden",
+        "current": 0
+      }
+    },
+    {
+      "name": "768 menu focus loop",
+      "status": "FAIL",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverse": "Close",
+        "forward": "Home"
+      }
+    },
+    {
+      "name": "768 menu Escape restore",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "hidden": true,
+        "expanded": "false",
+        "focus": "Menu",
+        "mainInert": false,
+        "overflow": ""
+      }
+    },
+    {
+      "name": "768 menu selection closes/restores",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "hidden": true,
+        "focus": "Menu",
+        "intent": {
+          "href": "/products/",
+          "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+          "context": {}
+        }
+      }
+    },
+    {
+      "name": "768 cookie open/first focus",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "open": true,
+        "focus": "Close",
+        "modal": true,
+        "text": "Cookie settings\n\nNo optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.\n\nClose\nRead Cookie Policy"
+      }
+    },
+    {
+      "name": "768 cookie focus loop",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverse": "Read Cookie Policy",
+        "forward": "Close"
+      }
+    },
+    {
+      "name": "768 cookie close/focus return",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "open": false,
+        "focus": "Cookie Settings"
+      }
+    },
+    {
+      "name": "390 content/order/groups",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "groups": [
+          "Explore Products",
+          "Go to Homepage"
+        ],
+        "support": [
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "current": [
+          0,
+          0
+        ],
+        "scroll": {
+          "sw": 390,
+          "cw": 390,
+          "sh": 1527,
+          "footerBottom": 1526.578125
+        },
+        "targets": [
+          {
+            "text": "",
+            "x": 16,
+            "y": 9.5,
+            "w": 120,
+            "h": 44,
+            "right": 136,
+            "bottom": 53.5
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "x": 243.46875,
+            "y": 9.5,
+            "w": 58.1875,
+            "h": 44,
+            "right": 301.65625,
+            "bottom": 53.5
+          },
+          {
+            "text": "Menu",
+            "x": 309.65625,
+            "y": 9.5,
+            "w": 64.34375,
+            "h": 44,
+            "right": 374,
+            "bottom": 53.5
+          },
+          {
+            "text": "Explore Products",
+            "x": 20,
+            "y": 411.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 459.328125
+          },
+          {
+            "text": "Go to Homepage",
+            "x": 20,
+            "y": 471.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 519.328125
+          },
+          {
+            "text": "Request Documents",
+            "x": 20,
+            "y": 533.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 581.328125
+          },
+          {
+            "text": "Contact Our Team",
+            "x": 20,
+            "y": 593.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 641.328125
+          },
+          {
+            "text": "Request a Quote",
+            "x": 20,
+            "y": 653.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 701.328125
+          },
+          {
+            "text": "Home",
+            "x": 20,
+            "y": 984.296875,
+            "w": 44,
+            "h": 44,
+            "right": 64,
+            "bottom": 1028.296875
+          },
+          {
+            "text": "Markets",
+            "x": 20,
+            "y": 1040.296875,
+            "w": 54.28125,
+            "h": 44,
+            "right": 74.28125,
+            "bottom": 1084.296875
+          },
+          {
+            "text": "Products",
+            "x": 20,
+            "y": 1096.296875,
+            "w": 59.921875,
+            "h": 44,
+            "right": 79.921875,
+            "bottom": 1140.296875
+          },
+          {
+            "text": "Applications",
+            "x": 20,
+            "y": 1152.296875,
+            "w": 83.171875,
+            "h": 44,
+            "right": 103.171875,
+            "bottom": 1196.296875
+          },
+          {
+            "text": "Documents",
+            "x": 205,
+            "y": 984.296875,
+            "w": 76.328125,
+            "h": 44,
+            "right": 281.328125,
+            "bottom": 1028.296875
+          },
+          {
+            "text": "Resources",
+            "x": 205,
+            "y": 1040.296875,
+            "w": 70.515625,
+            "h": 44,
+            "right": 275.515625,
+            "bottom": 1084.296875
+          },
+          {
+            "text": "About",
+            "x": 205,
+            "y": 1096.296875,
+            "w": 44,
+            "h": 44,
+            "right": 249,
+            "bottom": 1140.296875
+          },
+          {
+            "text": "Request a Quote",
+            "x": 20,
+            "y": 1267.890625,
+            "w": 148.625,
+            "h": 44,
+            "right": 168.625,
+            "bottom": 1311.890625
+          },
+          {
+            "text": "Privacy Policy",
+            "x": 20,
+            "y": 1380.890625,
+            "w": 93.8125,
+            "h": 44,
+            "right": 113.8125,
+            "bottom": 1424.890625
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "x": 131.8125,
+            "y": 1380.890625,
+            "w": 123.734375,
+            "h": 44,
+            "right": 255.546875,
+            "bottom": 1424.890625
+          },
+          {
+            "text": "Cookie Policy",
+            "x": 273.546875,
+            "y": 1380.890625,
+            "w": 90.765625,
+            "h": 44,
+            "right": 364.3125,
+            "bottom": 1424.890625
+          },
+          {
+            "text": "Cookie Settings",
+            "x": 20,
+            "y": 1428.890625,
+            "w": 105.40625,
+            "h": 44,
+            "right": 125.40625,
+            "bottom": 1472.890625
+          }
+        ],
+        "recovery": [
+          {
+            "x": 20,
+            "y": 411.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 459.328125
+          },
+          {
+            "x": 20,
+            "y": 471.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 519.328125
+          },
+          {
+            "x": 20,
+            "y": 533.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 581.328125
+          },
+          {
+            "x": 20,
+            "y": 593.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 641.328125
+          },
+          {
+            "x": 20,
+            "y": 653.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 701.328125
+          }
+        ],
+        "forbidden": 0,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 64,
+          "right": 390,
+          "bottom": 64
+        },
+        "font": true
+      }
+    },
+    {
+      "name": "390 geometry/footer/44px",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "scroll": {
+          "sw": 390,
+          "cw": 390,
+          "sh": 1527,
+          "footerBottom": 1526.578125
+        },
+        "minTarget": {
+          "w": 44,
+          "h": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 64,
+          "right": 390,
+          "bottom": 64
+        },
+        "recovery": [
+          {
+            "x": 20,
+            "y": 411.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 459.328125
+          },
+          {
+            "x": 20,
+            "y": 471.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 519.328125
+          },
+          {
+            "x": 20,
+            "y": 533.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 581.328125
+          },
+          {
+            "x": 20,
+            "y": 593.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 641.328125
+          },
+          {
+            "x": 20,
+            "y": 653.328125,
+            "w": 350,
+            "h": 48,
+            "right": 370,
+            "bottom": 701.328125
+          }
+        ]
+      }
+    },
+    {
+      "name": "390 zero current/exclusions/font",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "current": [
+          0,
+          0
+        ],
+        "forbidden": 0,
+        "font": true
+      }
+    },
+    {
+      "name": "390 recovery action 1",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/products/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 recovery action 2",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 recovery action 3",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/request-documents/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 recovery action 4",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/contact/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 recovery action 5",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "href": "/request-a-quote/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 page focus visible",
+      "status": "FAIL",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "name": "390 menu open/focus/inert",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "expanded": "true",
+        "hidden": false,
+        "focus": "Home",
+        "mainInert": true,
+        "footerInert": true,
+        "logoInert": true,
+        "rfqInert": true,
+        "overflow": "hidden",
+        "current": 0
+      }
+    },
+    {
+      "name": "390 menu focus loop",
+      "status": "FAIL",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverse": "Close",
+        "forward": "Home"
+      }
+    },
+    {
+      "name": "390 menu Escape restore",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "hidden": true,
+        "expanded": "false",
+        "focus": "Menu",
+        "mainInert": false,
+        "overflow": ""
+      }
+    },
+    {
+      "name": "390 menu selection closes/restores",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "hidden": true,
+        "focus": "Menu",
+        "intent": {
+          "href": "/products/",
+          "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+          "context": {}
+        }
+      }
+    },
+    {
+      "name": "390 cookie open/first focus",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "open": true,
+        "focus": "Close",
+        "modal": true,
+        "text": "Cookie settings\n\nNo optional Analytics or advertising technology is currently active on this site. Necessary functions may use browser storage to operate the site and remember an available privacy setting.\n\nClose\nRead Cookie Policy"
+      }
+    },
+    {
+      "name": "390 cookie focus loop",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverse": "Read Cookie Policy",
+        "forward": "Close"
+      }
+    },
+    {
+      "name": "390 cookie close/focus return",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "open": false,
+        "focus": "Cookie Settings"
+      }
+    },
+    {
+      "name": "200% equivalent 1440→720 reflow",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "sw": 720,
+        "cw": 720,
+        "all44": true,
+        "footer": 1309.25,
+        "sh": 1309
+      }
+    },
+    {
+      "name": "local-only network",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": []
+    }
+  ],
+  "network": [],
+  "startedAt": "2026-09-08T07:00:38.628Z",
+  "status": "FAIL",
+  "finishedAt": "2026-09-08T07:00:40.477Z"
+}

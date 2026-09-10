@@ -1,0 +1,35 @@
+{
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "page_id": "SYS-404",
+  "workset_id": "SYS-404-G4-WORKSET-20260908-02",
+  "dispatch": "G4-SYS404-EXEC-20260908-01",
+  "actual_author": "/root/sys404_gate4_execute",
+  "mode": "TARGETED_REPAIR",
+  "finding_id": "SYS404-G5-IR-F01",
+  "design_source": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/SYS-404_GATE4_COMPLETE_VISUAL_V0.2.html",
+    "bytes": 16782,
+    "sha256": "fc42439402367d16fbcba6a82a30e42c403cd5c00fc480f5b296bb1e5d2f485a"
+  },
+  "revision_input_index": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/revision-input-index.json",
+    "bytes": 3688,
+    "sha256": "31970b044eec1eecad1d1515570a7b27b738098a0baf032d34c3a59bf2e6e668"
+  },
+  "preflight_evidence": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/diagnostic_support/render/runtime.json",
+    "bytes": 42035,
+    "sha256": "91c2e85cc0157bf6cde2c121cf4944958a4481332ac77c0e180b74db56a09561"
+  },
+  "coverage": "Full fixed-core and interaction regression at 1440/768/390 plus copyright-first Footer DOM/visible-order assertion; 768/390 Menu states captured for inheritance proof.",
+  "unresolved_required_findings_in_execution": [],
+  "runtime_exclusions": [
+    "real HTTP 404",
+    "valid-route non-interception",
+    "live destination availability",
+    "production robots and sitemap",
+    "analytics sanitization",
+    "site-scope isolation"
+  ],
+  "recorded_at": "2026-09-08T07:40:51.726Z"
+}

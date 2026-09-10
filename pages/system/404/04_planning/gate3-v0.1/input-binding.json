@@ -1,0 +1,132 @@
+{
+  "pageId": "SYS-404",
+  "dispatch": "G3-SYS404-EXEC-20260908-01",
+  "status": "IN_PROGRESS",
+  "route": "RUNTIME_FALLBACK",
+  "siteScope": "tio2-my",
+  "navigationMapping": "NONE",
+  "approvedInputs": [
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/SYS-404_GATE2_CONTENT_SKELETON_INHERITANCE_MAP_V0.1.md",
+      "bytes": 5090,
+      "sha256": "2b8ee940370fc871fd7965ad6d2950cb931956f929da85262a2ff9d4720eceec",
+      "role": "A"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/SYS-404_GATE2_FULL_BUYER_CLEAN_COPY_V0.1.md",
+      "bytes": 1850,
+      "sha256": "2d95185640f1855f5c98a104434db74fdfcef2e9c0a90b36181e3e5ee1a3fcfc",
+      "role": "B"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/SYS-404_GATE2_CONTENT_CONTRACT_V0.1.md",
+      "bytes": 7988,
+      "sha256": "542081efb4d298c5bafdd301b4d4e867f54c6fdc139ed351a47e910bd85ac254",
+      "role": "C"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/05_review/SYS-404_GATE2_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "bytes": 1705,
+      "sha256": "7d03d703bbb90e1548c26d0106fcadfe2b108fc071bab4e898b8b7dca9f4e413",
+      "role": "Gate2 closure"
+    },
+    {
+      "path": "D:/23MySec/docs/page-briefs/SYS-404_PAGE_NOT_FOUND_BRIEF_V0.1.md",
+      "bytes": 17151,
+      "sha256": "10e2243bc7d98b5f3b7631c68f4ceb7e4d23d8bccc6fc7c8db96e48d2898a4a1",
+      "role": "Brief"
+    },
+    {
+      "path": "D:/23MySec/docs/superpowers/specs/2026-09-08-404-thank-you-pages-design-v0.1.md",
+      "bytes": 13113,
+      "sha256": "04328e2379d679de7b9f9e4dcc365e42391034f051503635e1e42919b1e5b7a6",
+      "role": "Approved design"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "bytes": 7222,
+      "sha256": "f105ba5b41f748f3645b5047651e4c71fad1194ffa5b45b5ccc3b034c6b4084e",
+      "role": "Current manifest"
+    }
+  ],
+  "sharedConsumer": {
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "bytes": 2409,
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002",
+    "version": "V0.2"
+  },
+  "sharedFiles": [
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "bytes": 3889,
+      "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+      "role": "renderer"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "bytes": 1426,
+      "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+      "role": "chrome_data"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "bytes": 455,
+      "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+      "role": "consent_data"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "bytes": 5125,
+      "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+      "role": "style"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "bytes": 2369,
+      "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+      "role": "behavior"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "role": "font"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "role": "font_license"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "bytes": 11126,
+      "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a",
+      "role": "smoke_fixture"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    }
+  ],
+  "runtimeBoundary": "LOCAL_PLANNING_ONLY"
+}

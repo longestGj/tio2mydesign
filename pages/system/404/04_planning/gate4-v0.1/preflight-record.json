@@ -1,0 +1,39 @@
+{
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "page_id": "SYS-404",
+  "workset_id": "SYS-404-G4-WORKSET-20260908-01",
+  "dispatch": "G4-SYS404-EXEC-20260908-01",
+  "actual_author": "/root/sys404_gate4_execute",
+  "design_source": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/SYS-404_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 16782,
+    "sha256": "a09c3e730d3abad910481607b880c265355c6bf394717d01fd78ab036a0ec6c0"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/input-index.json",
+    "bytes": 6785,
+    "sha256": "d39688aa5cb60604dcb13f93a4ec02accc9c17ec206c0064939beac056feb9f2"
+  },
+  "visual_direction": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/visual-direction-check.json",
+    "bytes": 1581,
+    "sha256": "87e30776c2a4259a3b9e91dc738f088ca8277767b6891acc4a73255b3b160cc5"
+  },
+  "preflight_evidence": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/diagnostic_support/render/runtime.json",
+    "bytes": 39898,
+    "sha256": "7bece994c517792afef1b0c51fd1d6c45f7c524febfe0908f09b477458ef14ce"
+  },
+  "fixed_core": "exact BC-01–BC-08; Header→recovery→Footer; two Primary plus three Supporting; 1440/768/390; zero current navigation; fixed RFQ; shared Menu and Cookie Settings; 44x44; focus, contrast and overflow",
+  "page_risks": "short-page balance, action hierarchy, long body wrapping and 390 five-button stack",
+  "unresolved_required_findings": [],
+  "runtime_exclusions": [
+    "real HTTP 404",
+    "valid-route non-interception",
+    "live destination availability",
+    "production robots and sitemap",
+    "analytics sanitization",
+    "site-scope isolation"
+  ],
+  "recorded_at": "2026-09-08T07:28:58.877Z"
+}

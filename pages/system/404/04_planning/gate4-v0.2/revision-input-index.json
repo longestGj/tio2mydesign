@@ -1,0 +1,83 @@
+{
+  "page_id": "SYS-404",
+  "workset_id": "SYS-404-G4-WORKSET-20260908-02",
+  "dispatch": "G4-SYS404-EXEC-20260908-01",
+  "actual_author": "/root/sys404_gate4_execute",
+  "mode": "TARGETED_REPAIR",
+  "finding_id": "SYS404-G5-IR-F01",
+  "authority_manifest": {
+    "path": "D:/23MySec/pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md",
+    "bytes": 8425,
+    "sha256": "32f8ffc07534cfdf9fd8221d703fe486c5ea3bec70c990d69442deb8bceb6542"
+  },
+  "prior_bundle": {
+    "bundle_id": "SYS-404-G4-BUNDLE-20260908-01",
+    "source": {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/SYS-404_GATE4_COMPLETE_VISUAL_V0.1.html",
+      "bytes": 16782,
+      "sha256": "a09c3e730d3abad910481607b880c265355c6bf394717d01fd78ab036a0ec6c0"
+    },
+    "evidence_index": {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/evidence-index.json",
+      "bytes": 10535,
+      "sha256": "812f9cc2604987771d91f525884ae7e2b978bd49ae1194bd2cab511cfc0d4c1a"
+    },
+    "handoff": {
+      "path": "D:/23MySec/pages/system/404/05_review/SYS-404_GATE4_TO_GATE5_HANDOFF_ENTRY_V0.1.md",
+      "bytes": 6444,
+      "sha256": "c3203d67521255d101045d2e532a74cf072e95464562dfe88ad6becf2f0c6f7c"
+    }
+  },
+  "review_finding": {
+    "path": "D:/23MySec/pages/system/404/05_review/gate5-independent-v0.1/SYS-404_GATE5_INDEPENDENT_VISUAL_REVIEW_V0.1.md",
+    "bytes": 6768,
+    "sha256": "79df542e7a7daff087d0e5095fa34e7e82fe7e93c77f4082d75ccabbe852e515"
+  },
+  "inherited_input_index": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/input-index.json",
+    "bytes": 6785,
+    "sha256": "d39688aa5cb60604dcb13f93a4ec02accc9c17ec206c0064939beac056feb9f2"
+  },
+  "change_scope": [
+    "Move the existing copyright paragraph before the existing legalUtilities navigation in the Footer DOM."
+  ],
+  "explicitly_unchanged": [
+    "All page-owned copy, actions, targets and two-plus-three structure",
+    "Header, navigation NONE, fixed RFQ, Logo and Menu behavior",
+    "Footer text, legal link/button order, targets and Cookie Settings behavior",
+    "Gate 4 visual CSS, layout intent, responsive rules, fonts and dependencies"
+  ],
+  "design_source": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/SYS-404_GATE4_COMPLETE_VISUAL_V0.2.html",
+    "bytes": 16782,
+    "sha256": "fc42439402367d16fbcba6a82a30e42c403cd5c00fc480f5b296bb1e5d2f485a"
+  },
+  "durable_dependencies": [
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/dependencies/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/dependencies/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "allowed_write_scope": [
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.2",
+    "D:/23MySec/pages/system/404/05_review"
+  ],
+  "authorization_scope": "Targeted response to SYS404-G5-IR-F01 through new frozen bundle and review handoff only; no approval, Gate 6, development, deployment or publication",
+  "runtime_boundary": "LOCAL_PLANNING_ONLY"
+}

@@ -1,0 +1,241 @@
+{
+  "reviewer": "/root/sys404_gate3_review",
+  "mode": "INDEPENDENT_REVIEW",
+  "candidate": "SYS-404-G3-CANDIDATE-01",
+  "supersedes_test_logic": "V0.1 retained; its five failures were reviewer-script expectation errors, not candidate observations",
+  "source": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate3-v0.1/SYS-404_GATE3_WIREFRAME_V0.1.html",
+    "bytes": 13505,
+    "sha256": "17f3445856f0666adb9898f303331ad35a656bbb2153b46b243cce48b81f125a"
+  },
+  "results": [
+    {
+      "name": "1440 keyboard page focus visible",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "text": "Explore Products",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "1440 cookie open/focus",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Close",
+        "open": true,
+        "modal": true
+      }
+    },
+    {
+      "name": "1440 cookie focus loop",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverse": "Read Cookie Policy",
+        "forward": "Close"
+      }
+    },
+    {
+      "name": "1440 cookie close/focus return",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Cookie Settings",
+        "open": false
+      }
+    },
+    {
+      "name": "768 keyboard page focus visible",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "text": "Explore Products",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "768 menu open/focus/inert",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Home",
+        "hidden": false,
+        "expanded": "true",
+        "main": true,
+        "footer": true,
+        "logo": true,
+        "rfq": true,
+        "overflow": "hidden"
+      }
+    },
+    {
+      "name": "768 menu boundary focus loop",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverseFromClose": "Request a Quote",
+        "forwardFromLast": "Close"
+      }
+    },
+    {
+      "name": "768 menu Escape restore",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Menu",
+        "hidden": true,
+        "expanded": "false",
+        "main": false,
+        "overflow": ""
+      }
+    },
+    {
+      "name": "768 menu selection close/focus",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "focus": "Menu",
+        "hidden": true,
+        "intent": {
+          "href": "/products/",
+          "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+          "context": {}
+        }
+      }
+    },
+    {
+      "name": "768 cookie open/focus",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Close",
+        "open": true,
+        "modal": true
+      }
+    },
+    {
+      "name": "768 cookie focus loop",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverse": "Read Cookie Policy",
+        "forward": "Close"
+      }
+    },
+    {
+      "name": "768 cookie close/focus return",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Cookie Settings",
+        "open": false
+      }
+    },
+    {
+      "name": "390 keyboard page focus visible",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "text": "Explore Products",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "390 menu open/focus/inert",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Home",
+        "hidden": false,
+        "expanded": "true",
+        "main": true,
+        "footer": true,
+        "logo": true,
+        "rfq": true,
+        "overflow": "hidden"
+      }
+    },
+    {
+      "name": "390 menu boundary focus loop",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverseFromClose": "Request a Quote",
+        "forwardFromLast": "Close"
+      }
+    },
+    {
+      "name": "390 menu Escape restore",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Menu",
+        "hidden": true,
+        "expanded": "false",
+        "main": false,
+        "overflow": ""
+      }
+    },
+    {
+      "name": "390 menu selection close/focus",
+      "status": "PASS",
+      "evidence_type": "LOCAL_SIMULATION",
+      "evidence": {
+        "focus": "Menu",
+        "hidden": true,
+        "intent": {
+          "href": "/products/",
+          "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+          "context": {}
+        }
+      }
+    },
+    {
+      "name": "390 cookie open/focus",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Close",
+        "open": true,
+        "modal": true
+      }
+    },
+    {
+      "name": "390 cookie focus loop",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "reverse": "Read Cookie Policy",
+        "forward": "Close"
+      }
+    },
+    {
+      "name": "390 cookie close/focus return",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": {
+        "focus": "Cookie Settings",
+        "open": false
+      }
+    },
+    {
+      "name": "local-only network",
+      "status": "PASS",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "evidence": []
+    }
+  ],
+  "network": [],
+  "startedAt": "2026-09-08T07:01:17.851Z",
+  "browser": "152.0.7977.82",
+  "status": "PASS",
+  "finishedAt": "2026-09-08T07:01:19.230Z"
+}

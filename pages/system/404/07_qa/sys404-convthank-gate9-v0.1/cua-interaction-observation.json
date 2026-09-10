@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-09-08T21:00:00+08:00",
+  "reviewer": "/root/sys404_convthank_gate9_review",
+  "environment": "ACTUAL_RUNTIME / Codex in-app Chromium / http://127.0.0.1:4381",
+  "candidate": {"implementation_commit":"1571a67da57d5dd6f2b358ba20508ba46c76f581","build_id":"2z5DYuzAHx0An8WWlUsz2"},
+  "observations": [
+    {"viewport":"390x844","surface":"SYS-404 mobile menu","result":"PASS_PARTIAL","observed":"Open moved focus to Home; Shift+Tab reached Close primary navigation; Escape closed the menu and returned focus to Open primary navigation; closed menu was absent from the accessibility tree."},
+    {"viewport":"390x844","surface":"SYS-404 Cookie Settings","result":"PASS_INTERACTION_ONLY","observed":"Open moved focus to Close; Shift+Tab reached Read Cookie Policy; Escape closed and returned focus to Cookie Settings. Accessible tree exposed only Close and Read Cookie Policy, so accept/reject/withdraw/current-choice behavior was not present to test."},
+    {"viewport":"1440x900","surface":"native 200 percent zoom","result":"NOT_VERIFIED","observed":"The CUA key interface did not accept the required browser zoom keystroke names; no zoom result is claimed."},
+    {"surface":"physical touch device and named screen reader","result":"NOT_VERIFIED","observed":"No physical device or named assistive technology was available in this review environment."}
+  ]
+}

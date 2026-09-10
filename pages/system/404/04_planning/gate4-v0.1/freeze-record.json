@@ -1,0 +1,94 @@
+{
+  "status": "COMPLETE_VISUAL_FROZEN",
+  "candidate_id": "SYS-404-G4-CANDIDATE-01",
+  "bundle_id": "SYS-404-G4-BUNDLE-20260908-01",
+  "page_id": "SYS-404",
+  "workset_id": "SYS-404-G4-WORKSET-20260908-01",
+  "dispatch": "G4-SYS404-EXEC-20260908-01",
+  "actual_author": "/root/sys404_gate4_execute",
+  "design_source": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/SYS-404_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 16782,
+    "sha256": "a09c3e730d3abad910481607b880c265355c6bf394717d01fd78ab036a0ec6c0"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/input-index.json",
+    "bytes": 6785,
+    "sha256": "d39688aa5cb60604dcb13f93a4ec02accc9c17ec206c0064939beac056feb9f2"
+  },
+  "visual_direction": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/visual-direction-check.json",
+    "bytes": 1581,
+    "sha256": "87e30776c2a4259a3b9e91dc738f088ca8277767b6891acc4a73255b3b160cc5"
+  },
+  "preflight_record": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/preflight-record.json",
+    "bytes": 1734,
+    "sha256": "64119409acf527708031793af939cad3adb3b61b5f42296e318aea0fd9e64caa"
+  },
+  "durable_dependencies": [
+    {
+      "owner": {
+        "path": "D:/23MySec/pages/system/404/04_planning/gate3-v0.1/dependencies/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "frozen_copy": {
+        "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/dependencies/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      }
+    },
+    {
+      "owner": {
+        "path": "D:/23MySec/pages/system/404/04_planning/gate3-v0.1/dependencies/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "frozen_copy": {
+        "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/dependencies/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      }
+    },
+    {
+      "owner": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "frozen_copy": {
+        "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/dependencies/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      }
+    },
+    {
+      "owner": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "frozen_copy": {
+        "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/dependencies/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      }
+    }
+  ],
+  "render_conditions": {
+    "browser_family": "Chrome via Playwright",
+    "logical_viewports": [
+      1440,
+      768,
+      390
+    ],
+    "dpr": 1,
+    "color_scheme": "light",
+    "reduced_motion": "reduce",
+    "network": "blocked for http/https",
+    "font": "local frozen Inter variable"
+  },
+  "frozen_at": "2026-09-08T07:28:58.883Z",
+  "formal_assets_created_before_freeze": 0
+}

@@ -1,0 +1,62 @@
+{
+  "status": "COMPLETE_VISUAL_FROZEN",
+  "candidate_id": "SYS-404-G4-CANDIDATE-02",
+  "bundle_id": "SYS-404-G4-BUNDLE-20260908-02",
+  "page_id": "SYS-404",
+  "workset_id": "SYS-404-G4-WORKSET-20260908-02",
+  "dispatch": "G4-SYS404-EXEC-20260908-01",
+  "actual_author": "/root/sys404_gate4_execute",
+  "finding_response": "SYS404-G5-IR-F01",
+  "design_source": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/SYS-404_GATE4_COMPLETE_VISUAL_V0.2.html",
+    "bytes": 16782,
+    "sha256": "fc42439402367d16fbcba6a82a30e42c403cd5c00fc480f5b296bb1e5d2f485a"
+  },
+  "revision_input_index": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/revision-input-index.json",
+    "bytes": 3688,
+    "sha256": "31970b044eec1eecad1d1515570a7b27b738098a0baf032d34c3a59bf2e6e668"
+  },
+  "preflight_record": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/preflight-record.json",
+    "bytes": 1468,
+    "sha256": "bb926bdb19236e2e80c1259e6362493daddf126c7bf87768565775017c1f932a"
+  },
+  "durable_dependencies": [
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/dependencies/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.2/dependencies/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "render_conditions": {
+    "browser_family": "Chrome via Playwright",
+    "logical_viewports": [
+      1440,
+      768,
+      390
+    ],
+    "dpr": 1,
+    "color_scheme": "light",
+    "reduced_motion": "reduce",
+    "network": "blocked for http/https",
+    "font": "local frozen Inter variable"
+  },
+  "frozen_at": "2026-09-08T07:40:51.730Z",
+  "formal_assets_created_before_freeze": 0
+}

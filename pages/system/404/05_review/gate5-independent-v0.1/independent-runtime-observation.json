@@ -1,0 +1,3142 @@
+{
+  "dispatch_id": "G5-SYS404-REVIEW-20260908-01",
+  "page_id": "SYS-404",
+  "review_stage": "GATE5_INDEPENDENT_VISUAL_REVIEW",
+  "mode": "INDEPENDENT_REVIEW",
+  "reviewer": "/root/sys404_gate5_review",
+  "author": "/root/sys404_gate4_execute",
+  "independent": true,
+  "bundle_id": "SYS-404-G4-BUNDLE-20260908-01",
+  "source_identity": {
+    "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/SYS-404_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 16782,
+    "sha256": "a09c3e730d3abad910481607b880c265355c6bf394717d01fd78ab036a0ec6c0"
+  },
+  "browser": "Google Chrome 152.0.7977.82 via Playwright",
+  "formal_assets_opened_by_reviewer": [
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_1440-cookie.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_1440-full.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-cookie.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-full.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-menu.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-cookie.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-full.png",
+    "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-menu.png"
+  ],
+  "new_persistent_screenshots": 0,
+  "screenshot_trigger": "NONE",
+  "checks": [
+    {
+      "name": "source identity matches dispatch",
+      "status": "PASS",
+      "evidenceType": "SOURCE_INSPECTION",
+      "details": {
+        "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/SYS-404_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 16782,
+        "sha256": "a09c3e730d3abad910481607b880c265355c6bf394717d01fd78ab036a0ec6c0"
+      }
+    },
+    {
+      "name": "bundle identity matches dispatch",
+      "status": "PASS",
+      "evidenceType": "SOURCE_INSPECTION",
+      "details": "SYS-404-G4-BUNDLE-20260908-01"
+    },
+    {
+      "name": "approval core paths, bytes and hashes",
+      "status": "PASS",
+      "evidenceType": "SOURCE_INSPECTION",
+      "details": [
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/input-index.json",
+          "exists": true,
+          "bytes": 6785,
+          "expectedBytes": 6785,
+          "sha256": "d39688aa5cb60604dcb13f93a4ec02accc9c17ec206c0064939beac056feb9f2",
+          "expectedSha256": "d39688aa5cb60604dcb13f93a4ec02accc9c17ec206c0064939beac056feb9f2"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/visual-direction-check.json",
+          "exists": true,
+          "bytes": 1581,
+          "expectedBytes": 1581,
+          "sha256": "87e30776c2a4259a3b9e91dc738f088ca8277767b6891acc4a73255b3b160cc5",
+          "expectedSha256": "87e30776c2a4259a3b9e91dc738f088ca8277767b6891acc4a73255b3b160cc5"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/SYS-404_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "exists": true,
+          "bytes": 16782,
+          "expectedBytes": 16782,
+          "sha256": "a09c3e730d3abad910481607b880c265355c6bf394717d01fd78ab036a0ec6c0",
+          "expectedSha256": "a09c3e730d3abad910481607b880c265355c6bf394717d01fd78ab036a0ec6c0"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/design-report.md",
+          "exists": true,
+          "bytes": 1675,
+          "expectedBytes": 1675,
+          "sha256": "e9f4aead3c712227a701272de9c6cb42058f00945d1cd4eed0f5c6026cc9d4ee",
+          "expectedSha256": "e9f4aead3c712227a701272de9c6cb42058f00945d1cd4eed0f5c6026cc9d4ee"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/preflight-record.json",
+          "exists": true,
+          "bytes": 1734,
+          "expectedBytes": 1734,
+          "sha256": "64119409acf527708031793af939cad3adb3b61b5f42296e318aea0fd9e64caa",
+          "expectedSha256": "64119409acf527708031793af939cad3adb3b61b5f42296e318aea0fd9e64caa"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/freeze-record.json",
+          "exists": true,
+          "bytes": 3596,
+          "expectedBytes": 3596,
+          "sha256": "ffd16af33436142386c64bdd5edb31092d379a4ef649425bcad1361f0a10d12a",
+          "expectedSha256": "ffd16af33436142386c64bdd5edb31092d379a4ef649425bcad1361f0a10d12a"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/runtime.json",
+          "exists": true,
+          "bytes": 39939,
+          "expectedBytes": 39939,
+          "sha256": "846c183e3b3b214d8050402c595a2a74865f52f8fd8c73aa04e19c116b8a540f",
+          "expectedSha256": "846c183e3b3b214d8050402c595a2a74865f52f8fd8c73aa04e19c116b8a540f"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_1440-cookie.png",
+          "exists": true,
+          "bytes": 113896,
+          "expectedBytes": 113896,
+          "sha256": "8ca985690b9b243a1b053830a364c6833b93df48e67140ddd77809e61f00f124",
+          "expectedSha256": "8ca985690b9b243a1b053830a364c6833b93df48e67140ddd77809e61f00f124"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_1440-full.png",
+          "exists": true,
+          "bytes": 153119,
+          "expectedBytes": 153119,
+          "sha256": "b01d09820fa7218d1d96279a3e7b82796f4c4b8d629d2d4e89683d081c30a04e",
+          "expectedSha256": "b01d09820fa7218d1d96279a3e7b82796f4c4b8d629d2d4e89683d081c30a04e"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-cookie.png",
+          "exists": true,
+          "bytes": 50829,
+          "expectedBytes": 50829,
+          "sha256": "4c988ebf7be94cac72023d2c6ca7e4316cf5e8d5bc1ba6829c9bd930a33add42",
+          "expectedSha256": "4c988ebf7be94cac72023d2c6ca7e4316cf5e8d5bc1ba6829c9bd930a33add42"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-full.png",
+          "exists": true,
+          "bytes": 103981,
+          "expectedBytes": 103981,
+          "sha256": "89671acbc56ffd5f86c50c0ae2cbb43a90fdbab88a032d6f18e2690d606c6029",
+          "expectedSha256": "89671acbc56ffd5f86c50c0ae2cbb43a90fdbab88a032d6f18e2690d606c6029"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-menu.png",
+          "exists": true,
+          "bytes": 43116,
+          "expectedBytes": 43116,
+          "sha256": "f59aafeb5833a53aab4de0808a83b74932365c53cfd9c0d7f2709f37d32f1a10",
+          "expectedSha256": "f59aafeb5833a53aab4de0808a83b74932365c53cfd9c0d7f2709f37d32f1a10"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-cookie.png",
+          "exists": true,
+          "bytes": 67765,
+          "expectedBytes": 67765,
+          "sha256": "1bb81f8fe7a3d653dfff37a19a93b8b0ad56c9bd2a92c13102a563b12b7b37b8",
+          "expectedSha256": "1bb81f8fe7a3d653dfff37a19a93b8b0ad56c9bd2a92c13102a563b12b7b37b8"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-full.png",
+          "exists": true,
+          "bytes": 121274,
+          "expectedBytes": 121274,
+          "sha256": "8031a0b2c00c956e673da1f154ef2e24eec4fe2b250c49322b4b44b444c9074e",
+          "expectedSha256": "8031a0b2c00c956e673da1f154ef2e24eec4fe2b250c49322b4b44b444c9074e"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-menu.png",
+          "exists": true,
+          "bytes": 58719,
+          "expectedBytes": 58719,
+          "sha256": "2be39893b5570d6121b15f7fb0c46948fbe8759b003b1f2854ae156a22e11ffc",
+          "expectedSha256": "2be39893b5570d6121b15f7fb0c46948fbe8759b003b1f2854ae156a22e11ffc"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/05_review/SYS-404_GATE4_EXECUTION_EVIDENCE_V0.1/formal-visual-readback.json",
+          "exists": true,
+          "bytes": 2380,
+          "expectedBytes": 2380,
+          "sha256": "e417c9fc89be26fe4a9de033828b6b2dd81858817163e55d0d9bd8e859bae128",
+          "expectedSha256": "e417c9fc89be26fe4a9de033828b6b2dd81858817163e55d0d9bd8e859bae128"
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/05_review/SYS-404_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+          "exists": true,
+          "bytes": 3642,
+          "expectedBytes": 3642,
+          "sha256": "a72e1a684d960dff6a7bb137bd3b984d48c6e79e2e99cf1f6fb15d7437324416",
+          "expectedSha256": "a72e1a684d960dff6a7bb137bd3b984d48c6e79e2e99cf1f6fb15d7437324416"
+        }
+      ]
+    },
+    {
+      "name": "formal PNG physical dimensions",
+      "status": "PASS",
+      "evidenceType": "SOURCE_INSPECTION",
+      "details": [
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_1440-cookie.png",
+          "width": 1440,
+          "height": 900,
+          "expectedWidth": 1440,
+          "expectedHeight": 900
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_1440-full.png",
+          "width": 1440,
+          "height": 1327,
+          "expectedWidth": 1440,
+          "expectedHeight": 1327
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-cookie.png",
+          "width": 390,
+          "height": 844,
+          "expectedWidth": 390,
+          "expectedHeight": 844
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-full.png",
+          "width": 390,
+          "height": 1603,
+          "expectedWidth": 390,
+          "expectedHeight": 1603
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_390-menu.png",
+          "width": 390,
+          "height": 844,
+          "expectedWidth": 390,
+          "expectedHeight": 844
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-cookie.png",
+          "width": 768,
+          "height": 900,
+          "expectedWidth": 768,
+          "expectedHeight": 900
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-full.png",
+          "width": 768,
+          "height": 1509,
+          "expectedWidth": 768,
+          "expectedHeight": 1509
+        },
+        {
+          "path": "D:/23MySec/pages/system/404/04_planning/gate4-v0.1/approval_core/SYS-404_G4_768-menu.png",
+          "width": 768,
+          "height": 900,
+          "expectedWidth": 768,
+          "expectedHeight": 900
+        }
+      ]
+    },
+    {
+      "name": "1440 exact copy, labels and targets",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1327,
+        "footerBottom": 1327.1875,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60,
+            "left": 120,
+            "right": 300
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83,
+            "left": 618.234375,
+            "right": 662.234375
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 83,
+            "left": 678.234375,
+            "right": 732.515625
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83,
+            "left": 748.515625,
+            "right": 808.4375
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83,
+            "left": 824.4375,
+            "right": 907.609375
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83,
+            "left": 923.609375,
+            "right": 999.9375
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83,
+            "left": 1015.9375,
+            "right": 1086.453125
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83,
+            "left": 1102.453125,
+            "right": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48,
+            "left": 1170.453125,
+            "right": 1320
+          },
+          {
+            "text": "Explore Products",
+            "width": 170.96875,
+            "height": 50,
+            "left": 543.375,
+            "right": 714.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 168.28125,
+            "height": 50,
+            "left": 728.34375,
+            "right": 896.625
+          },
+          {
+            "text": "Request Documents",
+            "width": 193.765625,
+            "height": 50,
+            "left": 436.265625,
+            "right": 630.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 178.875,
+            "height": 50,
+            "left": 644.03125,
+            "right": 822.90625
+          },
+          {
+            "text": "Request a Quote",
+            "width": 166.8125,
+            "height": 50,
+            "left": 836.90625,
+            "right": 1003.71875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 535.296875,
+            "right": 579.296875
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 535.296875,
+            "right": 589.578125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 595.21875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 618.46875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 812.859375,
+            "right": 889.1875
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 812.859375,
+            "right": 883.375
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 812.859375,
+            "right": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 1090.421875,
+            "right": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 120,
+            "right": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 231.8125,
+            "right": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 373.546875,
+            "right": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 482.3125,
+            "right": 587.71875
+          }
+        ],
+        "mainRect": {
+          "top": 84,
+          "bottom": 852.90625,
+          "height": 768.90625
+        },
+        "recoveryRect": {
+          "top": 168,
+          "bottom": 756.90625,
+          "height": 588.90625,
+          "width": 920
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "1440 order, 2+3 hierarchy and exclusions",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1327,
+        "footerBottom": 1327.1875,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60,
+            "left": 120,
+            "right": 300
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83,
+            "left": 618.234375,
+            "right": 662.234375
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 83,
+            "left": 678.234375,
+            "right": 732.515625
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83,
+            "left": 748.515625,
+            "right": 808.4375
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83,
+            "left": 824.4375,
+            "right": 907.609375
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83,
+            "left": 923.609375,
+            "right": 999.9375
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83,
+            "left": 1015.9375,
+            "right": 1086.453125
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83,
+            "left": 1102.453125,
+            "right": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48,
+            "left": 1170.453125,
+            "right": 1320
+          },
+          {
+            "text": "Explore Products",
+            "width": 170.96875,
+            "height": 50,
+            "left": 543.375,
+            "right": 714.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 168.28125,
+            "height": 50,
+            "left": 728.34375,
+            "right": 896.625
+          },
+          {
+            "text": "Request Documents",
+            "width": 193.765625,
+            "height": 50,
+            "left": 436.265625,
+            "right": 630.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 178.875,
+            "height": 50,
+            "left": 644.03125,
+            "right": 822.90625
+          },
+          {
+            "text": "Request a Quote",
+            "width": 166.8125,
+            "height": 50,
+            "left": 836.90625,
+            "right": 1003.71875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 535.296875,
+            "right": 579.296875
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 535.296875,
+            "right": 589.578125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 595.21875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 618.46875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 812.859375,
+            "right": 889.1875
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 812.859375,
+            "right": 883.375
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 812.859375,
+            "right": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 1090.421875,
+            "right": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 120,
+            "right": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 231.8125,
+            "right": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 373.546875,
+            "right": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 482.3125,
+            "right": 587.71875
+          }
+        ],
+        "mainRect": {
+          "top": 84,
+          "bottom": 852.90625,
+          "height": 768.90625
+        },
+        "recoveryRect": {
+          "top": 168,
+          "bottom": 756.90625,
+          "height": 588.90625,
+          "width": 920
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "1440 complete geometry and no overflow",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1327,
+        "footerBottom": 1327.1875,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60,
+            "left": 120,
+            "right": 300
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83,
+            "left": 618.234375,
+            "right": 662.234375
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 83,
+            "left": 678.234375,
+            "right": 732.515625
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83,
+            "left": 748.515625,
+            "right": 808.4375
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83,
+            "left": 824.4375,
+            "right": 907.609375
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83,
+            "left": 923.609375,
+            "right": 999.9375
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83,
+            "left": 1015.9375,
+            "right": 1086.453125
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83,
+            "left": 1102.453125,
+            "right": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48,
+            "left": 1170.453125,
+            "right": 1320
+          },
+          {
+            "text": "Explore Products",
+            "width": 170.96875,
+            "height": 50,
+            "left": 543.375,
+            "right": 714.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 168.28125,
+            "height": 50,
+            "left": 728.34375,
+            "right": 896.625
+          },
+          {
+            "text": "Request Documents",
+            "width": 193.765625,
+            "height": 50,
+            "left": 436.265625,
+            "right": 630.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 178.875,
+            "height": 50,
+            "left": 644.03125,
+            "right": 822.90625
+          },
+          {
+            "text": "Request a Quote",
+            "width": 166.8125,
+            "height": 50,
+            "left": 836.90625,
+            "right": 1003.71875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 535.296875,
+            "right": 579.296875
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 535.296875,
+            "right": 589.578125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 595.21875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 618.46875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 812.859375,
+            "right": 889.1875
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 812.859375,
+            "right": 883.375
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 812.859375,
+            "right": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 1090.421875,
+            "right": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 120,
+            "right": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 231.8125,
+            "right": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 373.546875,
+            "right": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 482.3125,
+            "right": 587.71875
+          }
+        ],
+        "mainRect": {
+          "top": 84,
+          "bottom": 852.90625,
+          "height": 768.90625
+        },
+        "recoveryRect": {
+          "top": 168,
+          "bottom": 756.90625,
+          "height": 588.90625,
+          "width": 920
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "1440 primary/supporting visual hierarchy",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "primary": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supporting": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440 copyright-first legal utility order",
+      "status": "FAIL",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": [
+        "footerGrid",
+        "legalUtilities",
+        "copyright"
+      ]
+    },
+    {
+      "name": "1440 short-page vertical balance",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 1327,
+        "footerBottom": 1327.1875,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 180,
+            "height": 60,
+            "left": 120,
+            "right": 300
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 83,
+            "left": 618.234375,
+            "right": 662.234375
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 83,
+            "left": 678.234375,
+            "right": 732.515625
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 83,
+            "left": 748.515625,
+            "right": 808.4375
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 83,
+            "left": 824.4375,
+            "right": 907.609375
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 83,
+            "left": 923.609375,
+            "right": 999.9375
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 83,
+            "left": 1015.9375,
+            "right": 1086.453125
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 83,
+            "left": 1102.453125,
+            "right": 1146.453125
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 149.546875,
+            "height": 48,
+            "left": 1170.453125,
+            "right": 1320
+          },
+          {
+            "text": "Explore Products",
+            "width": 170.96875,
+            "height": 50,
+            "left": 543.375,
+            "right": 714.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 168.28125,
+            "height": 50,
+            "left": 728.34375,
+            "right": 896.625
+          },
+          {
+            "text": "Request Documents",
+            "width": 193.765625,
+            "height": 50,
+            "left": 436.265625,
+            "right": 630.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 178.875,
+            "height": 50,
+            "left": 644.03125,
+            "right": 822.90625
+          },
+          {
+            "text": "Request a Quote",
+            "width": 166.8125,
+            "height": 50,
+            "left": 836.90625,
+            "right": 1003.71875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 535.296875,
+            "right": 579.296875
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 535.296875,
+            "right": 589.578125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 595.21875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 535.296875,
+            "right": 618.46875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 812.859375,
+            "right": 889.1875
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 812.859375,
+            "right": 883.375
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 812.859375,
+            "right": 856.859375
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 1090.421875,
+            "right": 1239.046875
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 120,
+            "right": 213.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 231.8125,
+            "right": 355.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 373.546875,
+            "right": 464.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 482.3125,
+            "right": 587.71875
+          }
+        ],
+        "mainRect": {
+          "top": 84,
+          "bottom": 852.90625,
+          "height": 768.90625
+        },
+        "recoveryRect": {
+          "top": 168,
+          "bottom": 756.90625,
+          "height": 588.90625,
+          "width": 920
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "1440 visible recovery focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "style": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "1440 action 1 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/products/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 action 2 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 action 3 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/request-documents/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 action 4 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/contact/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 action 5 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/request-a-quote/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "1440 cookie opens with first focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 cookie reverse loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 cookie forward loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "1440 cookie Escape closes and restores focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 exact copy, labels and targets",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 1509,
+        "footerBottom": 1508.875,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 621.46875,
+            "right": 679.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 687.65625,
+            "right": 752
+          },
+          {
+            "text": "Explore Products",
+            "width": 170.96875,
+            "height": 50,
+            "left": 207.375,
+            "right": 378.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 168.28125,
+            "height": 50,
+            "left": 392.34375,
+            "right": 560.625
+          },
+          {
+            "text": "Request Documents",
+            "width": 193.765625,
+            "height": 50,
+            "left": 100.265625,
+            "right": 294.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 178.875,
+            "height": 50,
+            "left": 308.03125,
+            "right": 486.90625
+          },
+          {
+            "text": "Request a Quote",
+            "width": 166.8125,
+            "height": 50,
+            "left": 500.90625,
+            "right": 667.71875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 32,
+            "right": 76
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 32,
+            "right": 86.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 32,
+            "right": 91.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 32,
+            "right": 115.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 400,
+            "right": 476.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 400,
+            "right": 470.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 400,
+            "right": 444
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 32,
+            "right": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 32,
+            "right": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 143.8125,
+            "right": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 285.546875,
+            "right": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 394.3125,
+            "right": 499.71875
+          }
+        ],
+        "mainRect": {
+          "top": 64,
+          "bottom": 763.625,
+          "height": 699.625
+        },
+        "recoveryRect": {
+          "top": 132,
+          "bottom": 681.625,
+          "height": 549.625,
+          "width": 704
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "768 order, 2+3 hierarchy and exclusions",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 1509,
+        "footerBottom": 1508.875,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 621.46875,
+            "right": 679.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 687.65625,
+            "right": 752
+          },
+          {
+            "text": "Explore Products",
+            "width": 170.96875,
+            "height": 50,
+            "left": 207.375,
+            "right": 378.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 168.28125,
+            "height": 50,
+            "left": 392.34375,
+            "right": 560.625
+          },
+          {
+            "text": "Request Documents",
+            "width": 193.765625,
+            "height": 50,
+            "left": 100.265625,
+            "right": 294.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 178.875,
+            "height": 50,
+            "left": 308.03125,
+            "right": 486.90625
+          },
+          {
+            "text": "Request a Quote",
+            "width": 166.8125,
+            "height": 50,
+            "left": 500.90625,
+            "right": 667.71875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 32,
+            "right": 76
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 32,
+            "right": 86.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 32,
+            "right": 91.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 32,
+            "right": 115.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 400,
+            "right": 476.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 400,
+            "right": 470.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 400,
+            "right": 444
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 32,
+            "right": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 32,
+            "right": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 143.8125,
+            "right": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 285.546875,
+            "right": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 394.3125,
+            "right": 499.71875
+          }
+        ],
+        "mainRect": {
+          "top": 64,
+          "bottom": 763.625,
+          "height": 699.625
+        },
+        "recoveryRect": {
+          "top": 132,
+          "bottom": 681.625,
+          "height": 549.625,
+          "width": 704
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "768 complete geometry and no overflow",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 1509,
+        "footerBottom": 1508.875,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 621.46875,
+            "right": 679.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 687.65625,
+            "right": 752
+          },
+          {
+            "text": "Explore Products",
+            "width": 170.96875,
+            "height": 50,
+            "left": 207.375,
+            "right": 378.34375
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 168.28125,
+            "height": 50,
+            "left": 392.34375,
+            "right": 560.625
+          },
+          {
+            "text": "Request Documents",
+            "width": 193.765625,
+            "height": 50,
+            "left": 100.265625,
+            "right": 294.03125
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 178.875,
+            "height": 50,
+            "left": 308.03125,
+            "right": 486.90625
+          },
+          {
+            "text": "Request a Quote",
+            "width": 166.8125,
+            "height": 50,
+            "left": 500.90625,
+            "right": 667.71875
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 32,
+            "right": 76
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 32,
+            "right": 86.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 32,
+            "right": 91.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 32,
+            "right": 115.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 400,
+            "right": 476.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 400,
+            "right": 470.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 400,
+            "right": 444
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 32,
+            "right": 180.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 32,
+            "right": 125.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 143.8125,
+            "right": 267.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 285.546875,
+            "right": 376.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 394.3125,
+            "right": 499.71875
+          }
+        ],
+        "mainRect": {
+          "top": 64,
+          "bottom": 763.625,
+          "height": 699.625
+        },
+        "recoveryRect": {
+          "top": 132,
+          "bottom": 681.625,
+          "height": 549.625,
+          "width": 704
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "768 primary/supporting visual hierarchy",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "primary": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supporting": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "768 copyright-first legal utility order",
+      "status": "FAIL",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": [
+        "footerGrid",
+        "legalUtilities",
+        "copyright"
+      ]
+    },
+    {
+      "name": "768 visible recovery focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "style": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "768 action 1 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/products/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 action 2 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 action 3 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/request-documents/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 action 4 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/contact/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 action 5 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/request-a-quote/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "768 menu opens with focus and inert background",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 menu reverse focus loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 menu loop reaches last item",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 menu forward focus loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 menu Escape restores focus and state",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 cookie opens with first focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 cookie reverse loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 cookie forward loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "768 cookie Escape closes and restores focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 exact copy, labels and targets",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 1603,
+        "footerBottom": 1602.828125,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 243.46875,
+            "right": 301.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 309.65625,
+            "right": 374
+          },
+          {
+            "text": "Explore Products",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Request Documents",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Request a Quote",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 20,
+            "right": 64
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 20,
+            "right": 74.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 20,
+            "right": 79.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 20,
+            "right": 103.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 205,
+            "right": 281.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 205,
+            "right": 275.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 205,
+            "right": 249
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 20,
+            "right": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 20,
+            "right": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 131.8125,
+            "right": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 273.546875,
+            "right": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 20,
+            "right": 125.40625
+          }
+        ],
+        "mainRect": {
+          "top": 64,
+          "bottom": 837.578125,
+          "height": 773.578125
+        },
+        "recoveryRect": {
+          "top": 104,
+          "bottom": 781.578125,
+          "height": 677.578125,
+          "width": 350
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "390 order, 2+3 hierarchy and exclusions",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 1603,
+        "footerBottom": 1602.828125,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 243.46875,
+            "right": 301.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 309.65625,
+            "right": 374
+          },
+          {
+            "text": "Explore Products",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Request Documents",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Request a Quote",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 20,
+            "right": 64
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 20,
+            "right": 74.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 20,
+            "right": 79.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 20,
+            "right": 103.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 205,
+            "right": 281.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 205,
+            "right": 275.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 205,
+            "right": 249
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 20,
+            "right": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 20,
+            "right": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 131.8125,
+            "right": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 273.546875,
+            "right": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 20,
+            "right": 125.40625
+          }
+        ],
+        "mainRect": {
+          "top": 64,
+          "bottom": 837.578125,
+          "height": 773.578125
+        },
+        "recoveryRect": {
+          "top": 104,
+          "bottom": 781.578125,
+          "height": 677.578125,
+          "width": 350
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "390 complete geometry and no overflow",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "copy": [
+          "404 · PAGE NOT FOUND",
+          "Let’s help you find what you need.",
+          "The page you’re looking for may have moved or is no longer available. You can continue by exploring our titanium dioxide products, requesting technical documents, or contacting our team."
+        ],
+        "labels": [
+          "Explore Products",
+          "Go to Homepage",
+          "Request Documents",
+          "Contact Our Team",
+          "Request a Quote"
+        ],
+        "hrefs": [
+          "/products/",
+          "/",
+          "/request-documents/",
+          "/contact/",
+          "/request-a-quote/"
+        ],
+        "order": [
+          "eyebrow",
+          "H1",
+          "intro",
+          "primary-actions",
+          "supporting-actions"
+        ],
+        "primaryCount": 2,
+        "supportingCount": 3,
+        "ariaCurrent": 0,
+        "forbidden": 0,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 1603,
+        "footerBottom": 1602.828125,
+        "visibleTargets": [
+          {
+            "text": "",
+            "width": 120,
+            "height": 44,
+            "left": 16,
+            "right": 136
+          },
+          {
+            "text": "Request a QuoteRFQ",
+            "width": 58.1875,
+            "height": 44,
+            "left": 243.46875,
+            "right": 301.65625
+          },
+          {
+            "text": "Menu",
+            "width": 64.34375,
+            "height": 44,
+            "left": 309.65625,
+            "right": 374
+          },
+          {
+            "text": "Explore Products",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Go to Homepage",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Request Documents",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Contact Our Team",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Request a Quote",
+            "width": 300,
+            "height": 48,
+            "left": 45,
+            "right": 345
+          },
+          {
+            "text": "Home",
+            "width": 44,
+            "height": 44,
+            "left": 20,
+            "right": 64
+          },
+          {
+            "text": "Markets",
+            "width": 54.28125,
+            "height": 44,
+            "left": 20,
+            "right": 74.28125
+          },
+          {
+            "text": "Products",
+            "width": 59.921875,
+            "height": 44,
+            "left": 20,
+            "right": 79.921875
+          },
+          {
+            "text": "Applications",
+            "width": 83.171875,
+            "height": 44,
+            "left": 20,
+            "right": 103.171875
+          },
+          {
+            "text": "Documents",
+            "width": 76.328125,
+            "height": 44,
+            "left": 205,
+            "right": 281.328125
+          },
+          {
+            "text": "Resources",
+            "width": 70.515625,
+            "height": 44,
+            "left": 205,
+            "right": 275.515625
+          },
+          {
+            "text": "About",
+            "width": 44,
+            "height": 44,
+            "left": 205,
+            "right": 249
+          },
+          {
+            "text": "Request a Quote",
+            "width": 148.625,
+            "height": 44,
+            "left": 20,
+            "right": 168.625
+          },
+          {
+            "text": "Privacy Policy",
+            "width": 93.8125,
+            "height": 44,
+            "left": 20,
+            "right": 113.8125
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "width": 123.734375,
+            "height": 44,
+            "left": 131.8125,
+            "right": 255.546875
+          },
+          {
+            "text": "Cookie Policy",
+            "width": 90.765625,
+            "height": 44,
+            "left": 273.546875,
+            "right": 364.3125
+          },
+          {
+            "text": "Cookie Settings",
+            "width": 105.40625,
+            "height": 44,
+            "left": 20,
+            "right": 125.40625
+          }
+        ],
+        "mainRect": {
+          "top": 64,
+          "bottom": 837.578125,
+          "height": 773.578125
+        },
+        "recoveryRect": {
+          "top": 104,
+          "bottom": 781.578125,
+          "height": 677.578125,
+          "width": 350
+        },
+        "primaryColors": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supportingColors": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "footerLegalOrder": [
+          "footerGrid",
+          "legalUtilities",
+          "copyright"
+        ],
+        "fontReady": true
+      }
+    },
+    {
+      "name": "390 primary/supporting visual hierarchy",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "primary": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 128, 120)"
+          },
+          {
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(6, 43, 91)"
+          }
+        ],
+        "supporting": [
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          },
+          {
+            "color": "rgb(6, 43, 91)",
+            "background": "rgb(255, 255, 255)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "390 copyright-first legal utility order",
+      "status": "FAIL",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": [
+        "footerGrid",
+        "legalUtilities",
+        "copyright"
+      ]
+    },
+    {
+      "name": "390 five actions are an ordered full-width single column",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": [
+        {
+          "left": 45,
+          "right": 345,
+          "top": 444.578125,
+          "bottom": 492.578125,
+          "width": 300,
+          "height": 48
+        },
+        {
+          "left": 45,
+          "right": 345,
+          "top": 503.578125,
+          "bottom": 551.578125,
+          "width": 300,
+          "height": 48
+        },
+        {
+          "left": 45,
+          "right": 345,
+          "top": 584.578125,
+          "bottom": 632.578125,
+          "width": 300,
+          "height": 48
+        },
+        {
+          "left": 45,
+          "right": 345,
+          "top": 643.578125,
+          "bottom": 691.578125,
+          "width": 300,
+          "height": 48
+        },
+        {
+          "left": 45,
+          "right": 345,
+          "top": 702.578125,
+          "bottom": 750.578125,
+          "width": 300,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "name": "390 visible recovery focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "style": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "390 action 1 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/products/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 action 2 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 action 3 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/request-documents/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 action 4 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/contact/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 action 5 local intent",
+      "status": "PASS",
+      "evidenceType": "LOCAL_SIMULATION",
+      "details": {
+        "href": "/request-a-quote/",
+        "type": "LOCAL_NAVIGATION_INTENT_ONLY",
+        "context": {}
+      }
+    },
+    {
+      "name": "390 menu opens with focus and inert background",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 menu reverse focus loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 menu loop reaches last item",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 menu forward focus loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 menu Escape restores focus and state",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 cookie opens with first focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 cookie reverse loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 cookie forward loop",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "390 cookie Escape closes and restores focus",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME"
+    },
+    {
+      "name": "200 percent equivalent reflow at 1440 to 720 CSS pixels",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": {
+        "scrollWidth": 720,
+        "clientWidth": 720,
+        "targets": true
+      }
+    },
+    {
+      "name": "no external network",
+      "status": "PASS",
+      "evidenceType": "ACTUAL_RUNTIME",
+      "details": []
+    }
+  ],
+  "failures": 3,
+  "result": "CHANGES_REQUIRED",
+  "limits": [
+    "Real HTTP 404, valid-route interception, live destination availability, production robots/sitemap, analytics sanitization and site-scope isolation remain downstream runtime checks."
+  ],
+  "finished_at": "2026-09-08T07:36:06.141Z"
+}

@@ -1,0 +1,17 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const dir=path.resolve(__dirname,'..');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const actual=p=>({bytes:fs.statSync(p).size,sha256:sha(p)});
+const checkIdentity=f=>{const a=actual(f.path);if(a.bytes!==f.bytes||a.sha256!==f.sha256)throw Error('Identity mismatch '+f.path)};
+const freeze=read(path.join(dir,'freeze-record.json'));freeze.files.forEach(checkIdentity);checkIdentity(freeze.preflight);checkIdentity(freeze.validator);
+const evidence=read(path.join(dir,'evidence-index.json'));if(evidence.assets.length!==9)throw Error('Expected 9 formal assets');evidence.assets.forEach(a=>{checkIdentity(a);const b=fs.readFileSync(a.path);if(b.readUInt32BE(16)!==a.physical.width||b.readUInt32BE(20)!==a.physical.height)throw Error('PNG dimensions mismatch '+a.path)});
+const runtime=read(path.join(dir,'diagnostic_support/runtime-observations.json')),targeted=read(path.join(dir,'diagnostic_support/targeted-observations.json')),matrix=read(path.join(dir,'diagnostic_support/matrix-comparison.json')),capture=read(path.join(dir,'diagnostic_support/formal-capture-check.json')),readback=read(path.join(dir,'diagnostic_support/formal-visual-read-record.json'));
+if(runtime.failures.length||runtime.observations.length!==138||!runtime.observations.every(x=>x.pass))throw Error('Runtime record not clean');
+if(targeted.status!=='PASS'||targeted.checks.length!==7||!targeted.checks.every(x=>x.pass))throw Error('Targeted record not clean');
+if(matrix.status!=='PASS'||matrix.total!==30||JSON.stringify(matrix.counts)!=='[8,8,7,4,2,1]')throw Error('Relationship matrix mismatch');
+if(capture.status!=='PASS'||readback.status!=='PASS'||readback.assets.length!==9)throw Error('Formal capture/read not complete');
+const submission=read(path.join(dir,'submission-inventory.json'));[...submission.core,...submission.evidence,...submission.support,...submission.authorRecords].forEach(checkIdentity);
+if(submission.bundleId!=='APP-000-G4-BUNDLE-001'||submission.requiredFindings.length)throw Error('Submission status mismatch');
+const manifest='D:/23MySec/pages/applications/APP-000_CURRENT_GATE_BASELINE_MANIFEST_V1.2.md';if(sha(manifest)!=='4721d291c47a09c3c464ae925484841bcb93c61da0e5d52cb756961f7afd1ecd')throw Error('Current Manifest drift');
+console.log(JSON.stringify({status:'PASS',worksetId:submission.worksetId,bundleId:submission.bundleId,frozenIdentities:freeze.files.length,runtimeAssertions:runtime.observations.length,targetedChecks:targeted.checks.length,relationships:matrix.total,formalAssets:evidence.assets.length,formalAssetsRead:readback.assets.length,requiredFindings:submission.requiredFindings.length,submissionSha256:sha(path.join(dir,'submission-inventory.json'))},null,2));

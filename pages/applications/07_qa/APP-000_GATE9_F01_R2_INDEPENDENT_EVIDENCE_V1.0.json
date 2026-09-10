@@ -1,0 +1,167 @@
+{
+  "schema_version": "app000-gate9-f01-r2-independent-evidence-v1.0",
+  "review_id": "APP-000-G9-F01-R2-INDEPENDENT-01",
+  "reviewed_at": "2026-09-08T12:12:41.382Z",
+  "review_mode": "READ_ONLY",
+  "candidate": {
+    "worktree": "D:/16Wordpress_nextjs/.worktrees/app000-gate8",
+    "branch": "codex/app000-gate8",
+    "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+    "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+    "build_directory": ".next-app000-r2b",
+    "build_id": "maNqNFg3Urit7VkLTu5KM",
+    "runtime": "http://127.0.0.1:4391",
+    "git_clean": true
+  },
+  "admission": {
+    "status": "PASS",
+    "official_manifest_sha256": "1B0C77D138EE1CD744282E9F558F04309EA31D65C4540DF704060EDA065E91D9",
+    "official_validation_sha256": "789E468C60182994517A47820FC9DE22D91C481B0C45BCA304443215219C00BD",
+    "preflight_sha256": "6CC996831824730E09FB0B0B52D5DED1862DB423FF78E9215D4BA8222519B9D1",
+    "preflight_rounds": 2,
+    "preflight_successful_requests": 6,
+    "preflight_total_requests": 6
+  },
+  "methods": [
+    "independent raw HTTP and RSC retrieval",
+    "independent built-in browser DOM, head, Schema, accessibility-tree and responsive inspection",
+    "independent enumeration and retrieval of every script loaded by the browser",
+    "independent browser-facing context and submit API inspection",
+    "independent server-to-local-receiver attribution capture",
+    "independent shared-Chrome RFQ source-page matrix",
+    "read-only comparison with committed Gate 8 evidence"
+  ],
+  "internal_identity_pattern": "APP-000|APP000-EDGE-[A-Z0-9-]+|TIO2MY-[A-Z0-9-]+|(?:PRODUCT|MARKET|RES|CONV|GLOBAL|LEGAL)-[A-Z0-9][A-Z0-9-]*|data-(?:site-id|site-scope|source-page|page-id|grade-occurrence|grade-state|support-action|application-action|module)|[\\\"']?(?:currentPageId|sourcePageId|targetPageId|siteScope|edgeId|contractId|packageId|reviewId|auditId)[\\\"']?\\s*[:=]|(?:site_scope|page_id|source_page_id)\\s*[:=]|\\/api\\/tio2-my",
+  "f01_r2": {
+    "result": "PASS",
+    "public_boundary": {
+      "applications": {
+        "path": "/applications/",
+        "html_status": 200,
+        "html_sha256": "737660108af9aee3ec9bfb76e074a1cc2824b01180621706954730476f72a16c",
+        "rsc_status": 200,
+        "rsc_sha256": "3b84db0490bd9340eca1e452126d8a0dd349149dbd389083d044df4260e4c61d",
+        "dom_matches": 0,
+        "head_matches": 0,
+        "schema_matches": 0,
+        "accessibility_matches": 0,
+        "inline_payload_matches": 0,
+        "browser_state_matches": 0,
+        "loaded_client_scripts": 10,
+        "loaded_client_script_matches": 0
+      },
+      "request_a_quote": {
+        "path": "/request-a-quote/",
+        "html_status": 200,
+        "html_sha256": "a089fd4d58b54075cb5910dc6863e51798d3608473c424d5ac8a89959b7e0a19",
+        "rsc_status": 200,
+        "rsc_sha256": "5c5889ddcbc94c1688aaca8dfd42e93d6eac7baefe1d6b4f1a5b85a06cb8fef1",
+        "dom_matches": 0,
+        "head_matches": 0,
+        "schema_matches": 0,
+        "accessibility_matches": 0,
+        "inline_payload_matches": 0,
+        "browser_state_matches": 0,
+        "loaded_client_scripts": 10,
+        "loaded_client_script_matches": 0
+      },
+      "shared_script_sha256": [
+        "6f7927041946fafd1fabaaa08dc3bc1deab43dbcadc09584ba7f578ca097e745",
+        "9d2c0632a9ee5e6f5c874cb9789b8d92d03e9e3719f3dcbbf227089e04391872",
+        "96f61779130e1673cf55853ad877f53388f7713a117f1b0c71c145bc12c669e4",
+        "2c030ad3691b16aeef1ff6e9d50e35245ac6a187ea18c1aff096d5bb74c1f65d",
+        "34ed6abf4c6d0d1bb3dc56d3f133d2a5dbc3a3c89c791deab314e27143ac14ce",
+        "9363a8bb493e43cd54bf95e534893035b3157467fd3862a49597a06380a47756",
+        "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+        "c5dbb2bbb85c7f2e6b3bb31f4907ab1ac2e380fe20a6bbdd6474892d4e6f576c",
+        "1d36f2e3f57740f75eb021aaec1208d7e938130e36c106a9f28678e4a98559b0"
+      ],
+      "applications_page_script_sha256": "d0474a42ef7336998417de88a33d10c346101869aefe457186e8bd57e71dce2e",
+      "rfq_page_script_sha256": "7ced224bc56ec13a27eb510b8b45eedba28ed0952d44bb814eb3210d4b2d7e78"
+    },
+    "rfq_transition": {
+      "url": "http://127.0.0.1:4391/request-a-quote",
+      "search": "",
+      "hash": "",
+      "grade_value": "",
+      "application_value": "",
+      "grade_editable": true,
+      "application_editable": true,
+      "context_response_status": 204,
+      "context_response_bytes": 0,
+      "context_response_internal_identity_matches": 0,
+      "cookie_name": "rfq_context",
+      "cookie_http_only": true,
+      "cookie_same_site": "Strict",
+      "cookie_opaque": true,
+      "submit_response_status": 200,
+      "submit_response_body": {
+        "kind": "submission_unconfirmed"
+      },
+      "submit_response_internal_identity_matches": 0,
+      "external_receiver_called": false,
+      "local_receiver_payload_source_page_id": "APP-000",
+      "local_receiver_payload_site_scope": "tio2-my",
+      "local_receiver_payload_page_id": "CONV-RFQ",
+      "local_receiver_payload_access_key_present": false
+    },
+    "shared_chrome_matrix": [
+      {"source": "Home", "path": "/", "expected_source_page_id": "HOME-001", "shared_rfq_links": 3, "links_clean": true, "receiver_match": true},
+      {"source": "Markets", "path": "/markets/", "expected_source_page_id": "MARKET-000", "shared_rfq_links": 3, "links_clean": true, "receiver_match": true},
+      {"source": "Product", "path": "/products/m-350/", "expected_source_page_id": "GRADE-M350", "shared_rfq_links": 3, "links_clean": true, "receiver_match": true},
+      {"source": "Document", "path": "/documents/tds-sds-coa/", "expected_source_page_id": "DOC-TDS", "shared_rfq_links": 3, "links_clean": true, "receiver_match": true},
+      {"source": "Resource", "path": "/resources/", "expected_source_page_id": "RES-000", "shared_rfq_links": 3, "links_clean": true, "receiver_match": true},
+      {"source": "Chloride", "path": "/products/chloride-process-titanium-dioxide/", "expected_source_page_id": "PRODUCT-PROC-CL", "shared_rfq_links": 3, "links_clean": true, "receiver_match": true}
+    ],
+    "shared_matrix_common_results": {
+      "source_status": 200,
+      "shared_href": "/request-a-quote/",
+      "public_source_attributes": 0,
+      "context_status": 204,
+      "cookie_http_only": true,
+      "cookie_same_site_strict": true,
+      "cookie_opaque": true,
+      "submit_status": 200,
+      "public_api_internal_identity_matches": 0,
+      "rfq_target_status": 200,
+      "rfq_target_public_identity_matches": 0
+    }
+  },
+  "regression_findings": {
+    "F02": {
+      "result": "PASS_STAYS_CLOSED",
+      "grade_occurrences": 30,
+      "category_counts": [8, 8, 7, 4, 2, 1],
+      "last_edge_id": "APP000-EDGE-SPEC-01",
+      "target_statuses_200": 30
+    },
+    "F03": {
+      "result": "PASS_STAYS_CLOSED",
+      "mobile_390_default_open": [false, false, false, false, false, false],
+      "mobile_first_two_after_pointer_and_keyboard": [true, true, false, false, false, false],
+      "tablet_768_default_open": [true, true, true, true, true, true],
+      "desktop_1440_default_open": [true, true, true, true, true, true],
+      "horizontal_overflow": false
+    },
+    "F04": {
+      "result": "PASS_STAYS_CLOSED",
+      "category_accessible_names": ["Coatings", "Plastics", "Masterbatch", "Printing Inks", "Paper", "Specialty Materials"],
+      "support_accessible_names": ["Explore Products", "Review Documents", "Explore Markets"],
+      "decorative_arrow_count": 9,
+      "decorative_arrows_aria_hidden": true
+    }
+  },
+  "four_layer_result": {
+    "repair_scope_status": "PASS / F01_R2_CLOSED_AND_F02_F04_STAY_CLOSED",
+    "page_gate9_status": "NOT_PASS / APP-000-G9-NV01_NOT_VERIFIED",
+    "integration_status": "NOT_READY / NINE_CONSUMER_ROUTES_AND_SULFATE_OPEN",
+    "release_status": "NOT_AUTHORIZED"
+  },
+  "limitations": [
+    "No physical touch-device run was performed.",
+    "No native browser 200 percent zoom run was performed.",
+    "No named assistive-technology run was performed.",
+    "No external receiver request was sent.",
+    "No merge, push, deployment, publication, DNS, indexing or Gate 10 action was performed."
+  ]
+}

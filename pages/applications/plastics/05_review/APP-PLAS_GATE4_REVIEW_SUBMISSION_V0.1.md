@@ -1,0 +1,11 @@
+# APP-PLAS Gate 4 independent review submission V0.1
+
+Status: `DRAFT_FOR_PROJECT_CONTROL_REVIEW`. Review target: `APP-PLAS-G4-FREEZE-20260907-01`; workset: `APP-PLAS-G4-COMPLETE-20260907-01`.
+
+Start with [Manifest V0.7](../APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md), then verify the [freeze](../04_planning/gate4-v0.1/APP-PLAS_GATE4_FREEZE_RECORD_V0.1.json), [evidence index](../04_planning/gate4-v0.1/APP-PLAS_GATE4_EVIDENCE_INDEX_V0.1.json), [composition report](../04_planning/gate4-v0.1/APP-PLAS_GATE4_COMPLETE_VISUAL_COMPOSITION_REPORT_V0.1.md), [runtime record](../04_planning/gate4-v0.1/diagnostic_support/runtime-verification.json), [visual readback](../04_planning/gate4-v0.1/diagnostic_support/visual-readback.json) and [executor self-check](APP-PLAS_GATE4_EXECUTION_SELF_CHECK_V0.1.md).
+
+Independently recompute all 52 frozen input identities, source/freeze/evidence identities and all 92 image identities. Open the three full pages and all 51 readable segments at 1440/768/390. Operate and inspect Menu/Cookie at applicable widths. Inspect `Titanium Dioxide for Masterbatch`, `View M-2377` and `Request Documents` in normal, hover and actual keyboard focus at all three widths; verify 9/9 focus visibility, ≥44px targets, contrast, zero collision and stable geometry.
+
+Check exact Buyer Clean B V0.3 and link order, twelve modules, three tables, thirteen sources, shared Header/Footer, Applications current state without visible `CURRENT`, fixed RFQ, the exact eight-Grade list/order and neutral treatment. Check one/several/unknown Grade paths, APP-PLAS/APP-MB ownership, Documents/Sample/RFQ Grade-mode boundaries and `PROVISIONAL_URL` without canonical or Schema expansion. Confirm no form, FAQ, result or media branch is invented.
+
+Write the independent result only to [D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.1/REVIEW.md](D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.1/REVIEW.md). Required Finding format applies; a PASS must state required Finding count 0 and `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_APPROVAL`. The executor makes no independent decision and claims no user approval, closure, Gate 6 authorization, implementation or publication.

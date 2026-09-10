@@ -1,0 +1,137 @@
+- banner:
+  - link "TiO2 Malaysia home":
+    - /url: /
+    - img "TiO2 Malaysia"
+  - navigation "Primary navigation":
+    - link "Home":
+      - /url: /
+    - link "Markets":
+      - /url: /markets/
+    - link "Products":
+      - /url: /products/
+    - link "Applications":
+      - /url: /applications/
+    - link "Documents":
+      - /url: /documents/
+    - link "Resources":
+      - /url: /resources/
+    - link "About":
+      - /url: /about/
+  - link "Request a Quote":
+    - /url: /request-a-quote/
+- main:
+  - navigation "Breadcrumb":
+    - link "Home":
+      - /url: /
+    - text: Request a Quote
+  - region "Request a Titanium Dioxide Quote":
+    - paragraph: B2B QUOTATION REQUEST
+    - heading "Request a Titanium Dioxide Quote" [level=1]
+    - paragraph: Tell us the product, application, quantity and destination you are evaluating. Our team will review your requirements and prepare the appropriate commercial response.
+  - region "Quotation request details":
+    - heading "Quotation request details" [level=2]
+    - paragraph: Required fields are marked. Please use business information and avoid confidential formulations, account credentials, payment details or sensitive personal information.
+    - form "Quotation request details":
+      - group "YOUR REQUIREMENT":
+        - text: YOUR REQUIREMENT Product / Grade
+        - combobox "Product / Grade":
+          - option "Select a product or grade" [selected]
+          - option "M-350"
+          - option "M-510"
+          - option "M-896"
+          - option "M-996"
+          - option "M-2196"
+          - option "M-895"
+          - option "M-200"
+          - option "M-108"
+          - option "M-210"
+          - option "M-340"
+          - option "M-886"
+          - option "M-52"
+          - option "M-2377"
+          - option "CR-901"
+          - option "Not sure / Need help"
+        - text: Application
+        - combobox "Application":
+          - option "Select an application" [selected]
+          - option "Coatings"
+          - option "Plastics"
+          - option "Masterbatch"
+          - option "Printing Inks"
+          - option "Paper"
+          - option "Specialty Materials"
+          - option "Other / Not sure"
+        - text: Required Quantity
+        - spinbutton "Required Quantity"
+        - text: Metric tonnes (MT) Destination Country
+        - textbox "Destination Country":
+          - /placeholder: Enter the destination country
+        - text: Destination Port / City (optional)
+        - textbox "Destination Port / City (optional)"
+        - paragraph: Add this only if it is already known.
+      - group "COMPANY DETAILS":
+        - text: COMPANY DETAILS Company Name
+        - textbox "Company Name"
+        - text: Your Name
+        - textbox "Your Name"
+        - text: Business Email
+        - textbox "Business Email":
+          - /placeholder: name@company.com
+        - paragraph: Use the business email where we can respond to this request.
+        - text: Phone / WhatsApp (optional)
+        - textbox "Phone / WhatsApp (optional)"
+        - text: Website (optional)
+        - textbox "Website (optional)":
+          - /placeholder: https://company.com
+      - group "ADDITIONAL REQUIREMENTS":
+        - text: ADDITIONAL REQUIREMENTS Additional Requirements (optional)
+        - textbox "Additional Requirements (optional)"
+        - paragraph: Add any non-confidential specification, packaging, schedule, document or other context that may help us review the request.
+      - paragraph: We use the information you provide to review and respond to your quotation request.
+      - paragraph:
+        - text: Learn more in our
+        - link "Privacy Policy":
+          - /url: /privacy-policy/
+        - text: .
+      - button "REQUEST QUOTE"
+  - complementary "Other request types":
+    - heading "Other request types" [level=2]
+    - paragraph: Use the separate request form when you need a sample review or controlled document request instead of a quotation.
+    - link "Request a Sample":
+      - /url: /request-sample/
+    - link "Request Documents":
+      - /url: /request-documents/
+- contentinfo:
+  - img "TiO2 Malaysia"
+  - paragraph: A focused titanium dioxide purchasing platform for international industrial buyers.
+  - navigation "Footer explore navigation":
+    - heading "Explore" [level=2]
+    - link "Home":
+      - /url: /
+    - link "Markets":
+      - /url: /markets/
+    - link "Products":
+      - /url: /products/
+    - link "Applications":
+      - /url: /applications/
+  - navigation "Footer information navigation":
+    - heading "Information" [level=2]
+    - link "Documents":
+      - /url: /documents/
+    - link "Resources":
+      - /url: /resources/
+    - link "About":
+      - /url: /about/
+  - heading "Procurement" [level=2]
+  - link "Request a Quote":
+    - /url: /request-a-quote/
+  - navigation "Legal and privacy navigation":
+    - link "Privacy Policy":
+      - /url: /privacy-policy/
+    - link "Dasar Privasi (BM)":
+      - /url: /ms/privacy-policy/
+    - link "Cookie Policy":
+      - /url: /cookie-policy/
+    - button "Cookie Settings"
+  - paragraph: © 2026 TiO2 Malaysia.
+- alert

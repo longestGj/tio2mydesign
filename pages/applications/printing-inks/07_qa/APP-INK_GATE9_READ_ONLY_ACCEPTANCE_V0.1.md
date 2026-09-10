@@ -1,0 +1,21 @@
+# APP-INK Gate 9 Read-Only Acceptance V0.1
+
+日期：2026-09-08。结果：`NOT_PASS / CHANGES_AND_EVIDENCE_REQUIRED`。候选身份、共同证据与Finding见`docs/architecture/GATE9_TRADE4_APPLICATION5_INITIAL_ACCEPTANCE_AND_RETURN_V1.0.md`。
+
+## 稳定接受条件（13）
+
+- `PASS`（7）：`APP-INK-G9-AC01`、`AC02`、`AC03`、`AC05`、`AC07`、`AC11`、`AC13`。
+- `FAIL`（3）：`APP-INK-G9-AC04`（共享`/applications/`404，`G9-T4A5-F02`）；`AC08`、`AC12`（临时URL被输出为正式Canonical/social URL，`G9-T4A5-F01`）。
+- `NOT_VERIFIED`（3）：`APP-INK-G9-AC06`（receiver）、`AC09`（部分ISO来源受自动访问限制）、`AC10`（跨站scope/cache实际矩阵）。
+
+## 依赖（8）
+
+- `PASS`（3）：`APP-INK-G6-D04`、`D05`、`D08`。
+- `FAIL`（2）：`APP-INK-G6-D01`、`D03`。
+- `NOT_VERIFIED`（3）：`APP-INK-G6-D02`、`D06`、`D07`。
+
+## 证据判断
+
+十一模块、四个Grade、技术限定、Products/Grade实际路由、三端视觉、CMS链、Cookie/Legal和批准Schema边界通过。ISO目标的403按环境不可证保留，不写成确定死链。
+
+Gate 9不关闭；修复`G9-T4A5-F01/F02`并补证后复验。

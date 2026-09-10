@@ -1,0 +1,27 @@
+{
+  "observedAt": "2026-09-08T19:38:12.7449937+08:00",
+  "reviewer": "/root/app000_internal_link_planning",
+  "expectedEvidenceHead": "87f48dc6eb0489ab26822280918dd0248efe6e05",
+  "actualHead": "87f48dc6eb0489ab26822280918dd0248efe6e05",
+  "implementationCommit": "0144b303d0546dc5bb7012e4292df6339f851b78",
+  "implementationIsAncestor": true,
+  "initialReviewCheck": "CLEAN at expected HEAD before runtime collection",
+  "finalWorktreeClean": false,
+  "finalStatus": [
+    " M components/sites/tio2-my/consent/malaysia-cookie-settings.tsx",
+    " M components/sites/tio2-my/malaysia-global-chrome-client.tsx",
+    " M components/sites/tio2-my/malaysia-global-chrome.tsx",
+    " M components/sites/tio2-my/request-a-quote/malaysia-private-rfq-link.tsx"
+  ],
+  "modifiedPaths": [
+    "components/sites/tio2-my/consent/malaysia-cookie-settings.tsx",
+    "components/sites/tio2-my/malaysia-global-chrome-client.tsx",
+    "components/sites/tio2-my/malaysia-global-chrome.tsx",
+    "components/sites/tio2-my/request-a-quote/malaysia-private-rfq-link.tsx"
+  ],
+  "heldRuntime": "http://127.0.0.1:4391",
+  "expectedBuildId": "cD6FOWG8iVMbgeRxyIqIS",
+  "runtimeBuildManifestStatus": 200,
+  "buildReceiptText": "implementation_commit=0144b303d0546dc5bb7012e4292df6339f851b78\nbuild_directory=.next-app000-0144b30\nbuild_id=cD6FOWG8iVMbgeRxyIqIS\nruntime=http://127.0.0.1:4391\ncms_fixture=http://127.0.0.1:4390/graphql\nprivate_receiver_fixture=http://127.0.0.1:4392",
+  "interpretation": "Runtime evidence remains tied to the held Build. Uncommitted source drift observed after collection is not inherited or reviewed as part of this candidate."
+}

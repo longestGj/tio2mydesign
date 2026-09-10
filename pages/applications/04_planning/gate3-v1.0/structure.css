@@ -1,0 +1,60 @@
+/* Structural planning parameters. Shared Chrome is embedded unchanged from owner. */
+body{margin:0}
+*,*::before,*::after{box-sizing:border-box}
+.app-main{font-family:Inter,Arial,sans-serif;color:#334155;font-size:17px;line-height:1.6;background:#fff}
+.app-main *{box-sizing:border-box}
+.app-main :is(h1,h2,h3){color:#062b5b;line-height:1.2;margin:0;font-weight:700}
+.app-main h1{font-size:54px;max-width:780px;letter-spacing:-.025em}
+.app-main h2{font-size:34px;margin-bottom:24px}
+.app-main h3{font-size:24px}
+.app-main p{margin:16px 0 0}
+.app-main a{color:#008078;text-underline-offset:4px;text-decoration-thickness:1px}
+.app-main :is(a,summary):focus-visible{outline:3px solid #008078;outline-offset:3px}
+.app-main :is(a,summary):hover{text-decoration-thickness:2px}
+.app-wrap{width:min(1200px,calc(100% - 64px));margin:auto}
+.app-breadcrumb{display:flex;align-items:center;gap:12px;font-size:14px;padding-top:20px}
+.app-breadcrumb a{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
+.app-hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,1fr);gap:72px;padding:44px 0 56px}
+.app-hero p{max-width:750px}
+.app-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.app-action{min-width:44px;min-height:48px;padding:12px 20px;border:1px solid #008078;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px;font-weight:600;line-height:1.4}
+.app-main .app-primary{background:#008078;color:#fff}
+.app-local-nav{align-self:start;border-top:1px solid #d9e2ec;padding-top:4px}
+.app-local-nav p{font-weight:600;color:#062b5b;margin-top:12px}
+.app-local-nav ul{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;margin:12px 0 0;padding:0;list-style:none}
+.app-local-nav a{display:flex;align-items:center;min-width:44px;min-height:44px;font-size:16px}
+.app-section{padding:48px 0;border-top:1px solid #d9e2ec;scroll-margin-top:24px}
+.app-intro{max-width:930px;margin-top:0!important}
+.app-collections{margin-top:28px}
+.app-collection{display:grid;grid-template-columns:minmax(0,280px) minmax(0,1fr) 190px;gap:32px;align-items:start;padding:28px 0;border-top:1px solid #d9e2ec;scroll-margin-top:24px}
+.app-scope p{font-size:16px;margin-top:12px}
+.app-grades{min-width:0}
+.app-grades summary{min-width:44px;min-height:44px;padding:8px 0;cursor:pointer;color:#008078;font-size:16px;font-weight:600}
+.app-grades ul{display:flex;flex-wrap:wrap;list-style:none;gap:4px 20px;margin:8px 0 0;padding:0}
+.app-grades li{margin:0}
+.app-grade-link,.app-grade-plain{display:inline-flex;align-items:center;min-width:44px;min-height:44px;line-height:1.4;font-size:16px}
+.app-grade-plain{color:#334155}
+.app-text-link{display:inline-flex;align-items:center;min-width:44px;min-height:44px;line-height:1.5;font-size:16px;font-weight:600}
+.app-collection-action{padding-top:2px}
+.app-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin:0;padding-left:24px}
+.app-steps li{padding-left:4px}
+.app-steps strong{color:#062b5b}
+.app-steps p{margin-top:8px}
+.app-supports{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.app-supports article{min-width:0}
+.app-supports .app-text-link{margin-top:12px}
+.app-final p{max-width:900px}
+.app-final .app-action{margin-top:24px}
+@media(max-width:1100px){
+ .app-main h1{font-size:44px}.app-main h2{font-size:30px}.app-main h3{font-size:23px}
+ .app-hero{grid-template-columns:1fr;gap:32px;padding-top:32px}.app-local-nav ul{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .app-collection{grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:20px 28px}.app-collection-action{grid-column:2}
+ .app-steps{grid-template-columns:1fr;gap:24px}.app-supports{grid-template-columns:1fr;gap:28px}
+}
+@media(max-width:560px){
+ .app-wrap{width:calc(100% - 40px)}.app-main{font-size:16px}.app-main h1{font-size:36px}.app-main h2{font-size:28px}.app-main h3{font-size:23px}
+ .app-hero{padding:24px 0 36px;gap:28px}.app-actions{flex-direction:column}.app-action{width:100%}.app-local-nav ul{grid-template-columns:1fr;gap:0}
+ .app-section{padding:36px 0}.app-collection{grid-template-columns:1fr;gap:12px;padding:24px 0}.app-collection-action{grid-column:auto;padding-top:0}
+ .app-grades summary{border-top:1px solid #d9e2ec;padding:10px 0}.app-grades ul{gap:4px 24px;margin-top:10px}.app-steps{gap:24px}
+}
+@media(prefers-reduced-motion:reduce){.app-main *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

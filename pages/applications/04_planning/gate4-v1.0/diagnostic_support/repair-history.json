@@ -1,0 +1,58 @@
+{
+  "pageId": "APP-000",
+  "worksetId": "APP-000-G4-WS-001",
+  "author": "/root/app000_gate4_author",
+  "scope": "Pre-freeze Gate 4 author self-check repair history",
+  "attempts": [
+    {
+      "sequence": 1,
+      "result": "PREFLIGHT_REQUIRED_REPAIR",
+      "findings": [
+        {
+          "id": "APP000-G4-SC-01",
+          "affected": "All 15 scenario/viewport rendered-copy comparisons",
+          "cause": "CSS text-transform changed Choose an Application and Grade(s) to Review to uppercase in rendered innerText",
+          "action": "Removed text-transform and retained approved casing"
+        },
+        {
+          "id": "APP000-G4-SC-02",
+          "affected": "font-enlargement-200-390",
+          "cause": "Decorative visual overflow extended the 390px scroll canvas",
+          "action": "Reduced mobile decoration and added explicit wrapping/reflow safeguards"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "result": "PREFLIGHT_REQUIRED_REPAIR",
+      "findings": [
+        {
+          "id": "APP000-G4-SC-02",
+          "affected": "font-enlargement-200-390",
+          "cause": "Remaining mobile shadow visual overflow",
+          "action": "Removed the remaining mobile local-navigation shadow"
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "result": "PREFLIGHT_REQUIRED_REPAIR",
+      "findings": [
+        {
+          "id": "APP000-G4-SC-02",
+          "affected": "font-enlargement-200-390",
+          "cause": "Decorative paint overflow still contributed to document scroll width although the element-overflow list was empty",
+          "action": "Clipped page-owned decorative paint at the APP main surface and enabled breadcrumb wrapping"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "result": "RUNTIME_CHECKS_PASS_PENDING_VISUAL_READ",
+      "runtimeAssertions": 138,
+      "failures": 0,
+      "acceptance": "Both stable Finding IDs closed before preflight and freeze"
+    }
+  ],
+  "boundary": "This record preserves failure and repair facts. The authoritative final runtime observations remain runtime-observations.json."
+}

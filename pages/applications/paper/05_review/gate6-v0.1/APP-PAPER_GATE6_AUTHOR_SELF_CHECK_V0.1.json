@@ -1,0 +1,51 @@
+{
+  "page_id": "APP-PAPER",
+  "dispatch_id": "G6-APP5-20260908-01/PAPER",
+  "package_id": "APP-PAPER-G6-HANDOFF-01",
+  "executor": "/root/gate6_app_paper",
+  "mode": "EXECUTE",
+  "path": "FAST_PATH",
+  "result": "READY_FOR_REVIEW",
+  "package_path": "D:\\23MySec\\pages\\applications\\paper\\06_handoff\\APP-PAPER_GATE6_HANDOFF_PACKAGE_V0.1.md",
+  "package_bytes": 21245,
+  "package_sha256": "c50e1287cdd88a3ebac79cf0accd895be5292d43355b257a9974a9a2effcf1fa",
+  "input_manifest": {
+    "path": "D:\\23MySec\\pages\\applications\\paper\\APP-PAPER_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md",
+    "bytes": 3238,
+    "sha256": "f1d487ca661bf349cb49ed4ac28fc18268c82fd88153168512b6a65e6101cb3a"
+  },
+  "accepted_freeze": {
+    "id": "APP-PAPER-G4-BUNDLE-V0.1 / APP-PAPER-G4-FREEZE-V0.1",
+    "source_sha256": "e3d7907131d98b987328bf084ba80ed90476363e3caa9936252c5558784bac9f",
+    "freeze_record_sha256": "d651176789a166a5034301e1c1d399bd1b32fd2b7e807a335c9891842e8e748e",
+    "gate5_review_sha256": "62c40e7d42b6f2956134a6c4aaea941ca165bd31b3ca1adb173d2afa51b9470d",
+    "controller_closure_sha256": "6efd05da60df74e7aa9a93c386ac01f13dcac7d9f251d639320742c5389adfb7"
+  },
+  "checks": {
+    "six_item_gate5_to_gate6_intake": "PASS",
+    "approved_abc_hashes": "PASS",
+    "freeze_review_closure_identity": "PASS",
+    "wordpress_and_nextjs_mapping": "PASS",
+    "cta_receiver_and_context_boundary": "PASS",
+    "seo_geo_schema_social": "PASS",
+    "shared_chrome_logo_legal_consent": "PASS",
+    "seven_surface_site_scope_isolation": "PASS",
+    "acceptance_ids_unique_and_complete": "PASS",
+    "dependency_ids_unique_with_owner_acceptance_failure": "PASS",
+    "premature_gate6_close_handoff_gate8_or_release_state": "ABSENT",
+    "out_of_scope_file_changes": "ABSENT_AT_AUTHOR_CHECK"
+  },
+  "gate9_acceptance_count": 15,
+  "dependency_count": 8,
+  "required_findings": [],
+  "untested": [
+    "production WordPress/API and Next.js implementation",
+    "SSR, route, cache, metadata and Schema runtime output",
+    "actual Conversion receivers and receipt semantics",
+    "production Consent and deployment inventory",
+    "physical devices, browser zoom, other browsers and assistive technology",
+    "DNS, sitemap, indexing and publication",
+    "external-source freshness at release"
+  ],
+  "authorization_boundary": "Author self-check only; no independent PASS, Gate 6 closure, Manifest/Status/Index update, handoff, Gate 8 start, implementation or publication"
+}

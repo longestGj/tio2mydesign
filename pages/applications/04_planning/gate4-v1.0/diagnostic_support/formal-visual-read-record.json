@@ -1,0 +1,156 @@
+{
+  "pageId": "APP-000",
+  "worksetId": "APP-000-G4-WS-001",
+  "bundleId": "APP-000-G4-BUNDLE-001",
+  "author": "/root/app000_gate4_author",
+  "readAt": "2026-09-08T07:33:05.164Z",
+  "status": "PASS",
+  "viewer": "tools.view_image; every formal approval_core asset opened and read",
+  "evidenceType": "MANUAL_VISUAL_READ_OF_FROZEN_STATIC_VISUALS",
+  "assets": [
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_full_1440_default_V1.0.png",
+      "bytes": 632904,
+      "sha256": "72af47ce50125f96e358da29e92724568b30bfcb7c617a2ca76115d8c3a2ddd2",
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "physical": {
+        "width": 1440,
+        "height": 3774
+      },
+      "scenario": "full",
+      "state": "default"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_full_768_default_V1.0.png",
+      "bytes": 570665,
+      "sha256": "72b40857d4ac397b4832e1f71c3e4ae7c6f8e368a3deb6e3b0dddb807a6de558",
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "physical": {
+        "width": 768,
+        "height": 5298
+      },
+      "scenario": "full",
+      "state": "default"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_full_390_default_V1.0.png",
+      "bytes": 418237,
+      "sha256": "d8712db997a02730c71d71105c7e25c28db36554ea09f93b7e8fe754350b2f41",
+      "logicalViewport": {
+        "width": 390,
+        "height": 900
+      },
+      "physical": {
+        "width": 390,
+        "height": 5782
+      },
+      "scenario": "full",
+      "state": "default"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_constrained_1440_default_V1.0.png",
+      "bytes": 341120,
+      "sha256": "b29f40a2845a76077b67e8a16da4509a777285dcb7d1876c0d0e19e32a329d0d",
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "physical": {
+        "width": 1440,
+        "height": 2794
+      },
+      "scenario": "constrained",
+      "state": "default"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_constrained_768_default_V1.0.png",
+      "bytes": 319760,
+      "sha256": "eae77c66baa4eb35a5978806d26e084f1ea831cfef253a02ca727f68eb47bd3f",
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "physical": {
+        "width": 768,
+        "height": 3581
+      },
+      "scenario": "constrained",
+      "state": "default"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_constrained_390_default_V1.0.png",
+      "bytes": 224987,
+      "sha256": "f3d9eee6bfee860ee042c4a5a566b6bfc4045c700897453a7bfaae848c44a9e6",
+      "logicalViewport": {
+        "width": 390,
+        "height": 900
+      },
+      "physical": {
+        "width": 390,
+        "height": 3847
+      },
+      "scenario": "constrained",
+      "state": "default"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_full_390_expanded_V1.0.png",
+      "bytes": 469499,
+      "sha256": "7e9466d0cef57821d9e6213a74c0773d48a4991caada23015fb5a7f4e24e1f81",
+      "logicalViewport": {
+        "width": 390,
+        "height": 900
+      },
+      "physical": {
+        "width": 390,
+        "height": 6451
+      },
+      "scenario": "full",
+      "state": "expanded"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_mixed_390_expanded_V1.0.png",
+      "bytes": 314458,
+      "sha256": "5544d77f4bb294da85757b9b68a7a764c6efea50af0e1b16b3fb5d0d987da2e5",
+      "logicalViewport": {
+        "width": 390,
+        "height": 900
+      },
+      "physical": {
+        "width": 390,
+        "height": 5154
+      },
+      "scenario": "mixed",
+      "state": "expanded"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/approval_core/APP-000_G4_full_390_menu_V1.0.png",
+      "bytes": 47489,
+      "sha256": "5849af6cf6130304e69c228681c3a2cf577634ffa94317266a2f00da9d406924",
+      "logicalViewport": {
+        "width": 390,
+        "height": 900
+      },
+      "physical": {
+        "width": 390,
+        "height": 900
+      },
+      "scenario": "full",
+      "state": "menu"
+    }
+  ],
+  "observations": [
+    "All nine formal images correspond to the declared logical viewport, scenario and state and extend to the natural endpoint or complete menu viewport.",
+    "Full 1440, 768 and 390 retain all five page modules, 30 relationships, body RFQ and complete shared Footer.",
+    "Constrained 1440, 768 and 390 omit dependent actions and M4/M5 atomically and close naturally from M3 to shared Footer.",
+    "Full 390 expanded exposes all six exact relationship sets; mixed 390 expanded distinguishes available grade links from neutral plain labels and removes ineligible application actions.",
+    "The 390 menu image shows Logo, fixed RFQ, Close control, one current Applications state, all eight items and the inert page beneath.",
+    "No capture artifact, clipped text, collision, unexplained blank region, missing font/Logo or image fallback was observed."
+  ],
+  "requiredFindings": []
+}

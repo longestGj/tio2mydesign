@@ -1,0 +1,115 @@
+{
+  "freezeId": "APP-PAPER-G3-FREEZE-V0.4",
+  "pageId": "APP-PAPER",
+  "frozenAt": "2026-09-07T07:44:50.621Z",
+  "status": "CANDIDATE_FREEZE_IDENTITY_CORRECTED_FOR_REREVIEW",
+  "candidate": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/APP-PAPER_GATE3_RESPONSIVE_WIREFRAME_V0.3.html",
+    "bytes": 32131,
+    "sha256": "7c907deda83419da01f87b7a67c796a31e22e698f5f724d84972725848417973"
+  },
+  "generator": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/APP-PAPER_GATE3_BUILD_WIREFRAME_V0.3.mjs",
+    "sha256": "49ae36644f5df92cab7e044b053d47561624faed0cf743f53f6a63f02343057c"
+  },
+  "verifier": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/APP-PAPER_GATE3_RENDER_VERIFY_V0.3.mjs",
+    "sha256": "beb2aa6fb65dc4b9ad70ac616da8058675a135d130f38f2e5185912ac9ae012d"
+  },
+  "preflight": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/APP-PAPER_GATE3_PREFLIGHT_RECORD_V0.4.json",
+    "bytes": 7416,
+    "sha256": "0b35b1db4a33031bdcb1d27c532825195cbf36b536a68736e4170197edc8db24",
+    "result": "PASS_FOR_FORMAL_RENDER",
+    "executedAt": "2026-09-07T07:44:05.666Z"
+  },
+  "approvedCombination": {
+    "A": "e3caac198e21b20be7366d444201062bd6d3af17daabdf72984e37c8e5614c14",
+    "B": "14a77a04347e78b7ad080cd9d8b7f6251692450380216506e6e0745724012542",
+    "C": "12ac65fd35f9b48fd5aabfb7085f443f4e94a57b9aead4b1e8b951d2bf1ca244"
+  },
+  "sharedConsumer": {
+    "packageId": "TIO2MY-GATE3-SHARED-CONSUMER-002",
+    "version": "V0.2",
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+  },
+  "formalExportPlan": [
+    {
+      "viewport": 1440,
+      "state": "complete page",
+      "scale": 1
+    },
+    {
+      "viewport": 768,
+      "state": "complete page",
+      "scale": 1
+    },
+    {
+      "viewport": 390,
+      "state": "complete page",
+      "scale": 1
+    },
+    {
+      "viewport": 768,
+      "state": "mobile menu open",
+      "scale": 1
+    },
+    {
+      "viewport": 390,
+      "state": "mobile menu open",
+      "scale": 1
+    },
+    {
+      "viewport": 390,
+      "state": "optical method labelled records",
+      "scale": 1
+    },
+    {
+      "viewport": 390,
+      "state": "Grades to Review anchor target",
+      "scale": 1
+    },
+    {
+      "viewport": 390,
+      "state": "complete source notes",
+      "scale": 1
+    }
+  ],
+  "invalidationRule": "Any byte change to the candidate source, frozen dependency or retained formal PNG ends this corrected freeze identity and requires affected checks and exports to be repeated.",
+  "eventTimeBasis": "V0.3 freeze filesystem birthtime observed on the same workspace.",
+  "correctionGeneratedAt": "2026-09-07T08:04:46.707Z",
+  "correctionSemantics": "RETROSPECTIVE_CORRECTION_OF_ORIGINAL_FREEZE_EVENT",
+  "supersedesForChronology": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/APP-PAPER_GATE3_FREEZE_RECORD_V0.3.json",
+    "bytes": 2383,
+    "sha256": "1264d877f78c0387001caafacb33657b53ab768e8ec09bdc64af532412f532fa",
+    "createdUtc": "2026-09-07T07:44:50.621Z",
+    "writtenUtc": "2026-09-07T07:44:50.621Z"
+  },
+  "chronologyEvidence": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/APP-PAPER_GATE3_CHRONOLOGY_CORRECTION_OBSERVATIONS_V0.4.json",
+    "bytes": 3619,
+    "sha256": "bafddff637289a805af8d4ba879ee66d33db4cabd872250f1749b7469fc780c2",
+    "createdUtc": "2026-09-07T08:04:46.699Z",
+    "writtenUtc": "2026-09-07T08:04:46.699Z"
+  },
+  "retainedFormalEvidence": {
+    "observations": {
+      "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/approval_core/APP-PAPER_GATE3_FORMAL_OBSERVATIONS_V0.3.json",
+      "bytes": 20991,
+      "sha256": "c741f71ca8a95cc8c5cc2038249c48fcf2eb8b815b455ddc4c1b652606ae3a9b",
+      "createdUtc": "2026-09-07T07:45:01.585Z",
+      "writtenUtc": "2026-09-07T07:45:01.585Z"
+    },
+    "formalRunCreatedAt": "2026-09-07T07:44:58.841Z",
+    "formalFinalWriteAt": "2026-09-07T07:45:01.585Z",
+    "pass": true,
+    "pngCount": 8,
+    "pngBytesAndHashesUnchanged": true
+  },
+  "findingResponse": {
+    "findingId": "APP-PAPER-G3-PCR-F01",
+    "state": "REVISED_PENDING_INDEPENDENT_REREVIEW"
+  }
+}

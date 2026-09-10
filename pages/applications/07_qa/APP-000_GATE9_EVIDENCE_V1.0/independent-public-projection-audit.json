@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-09-08T10:49:11.086Z",
+  "candidate": {
+    "implementation": "f0285f288e256ce0c48205931dd8edf4b802b285",
+    "evidenceHead": "ce3f4c5c21033e56472ec53586173279fb78c415",
+    "buildId": "jf9b1VFzbgKGSQMVOMMbU"
+  },
+  "response": {
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:4391/applications",
+    "canonical": "https://tio2malaysia.com/applications/",
+    "robots": "noindex, nofollow",
+    "htmlLang": "en"
+  },
+  "alternateRequests": {
+    "query": {
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:4391/applications?source_page_id=SHOULD_NOT_SURFACE",
+      "canonical": "https://tio2malaysia.com/applications/",
+      "robots": "noindex, nofollow",
+      "injectedValueSurfaced": false
+    },
+    "fragment": {
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:4391/applications",
+      "canonical": "https://tio2malaysia.com/applications/",
+      "robots": "noindex, nofollow"
+    }
+  },
+  "internalPatterns": {
+    "dataSiteId": {
+      "count": 1,
+      "examples": [
+        "data-site-id=\"tio2-my\""
+      ]
+    },
+    "dataSiteScope": {
+      "count": 7,
+      "examples": [
+        "data-site-scope=\"tio2-my\""
+      ]
+    },
+    "dataSourcePage": {
+      "count": 6,
+      "examples": [
+        "data-source-page=\"APP-000\""
+      ]
+    },
+    "dataGradeOccurrence": {
+      "count": 30,
+      "examples": [
+        "data-grade-occurrence=\"APP000-EDGE-COAT-01\"",
+        "data-grade-occurrence=\"APP000-EDGE-COAT-02\"",
+        "data-grade-occurrence=\"APP000-EDGE-COAT-03\"",
+        "data-grade-occurrence=\"APP000-EDGE-COAT-04\"",
+        "data-grade-occurrence=\"APP000-EDGE-COAT-05\""
+      ]
+    },
+    "dataSupportAction": {
+      "count": 3,
+      "examples": [
+        "data-support-action=\"PRODUCT-000\"",
+        "data-support-action=\"DOC-000\"",
+        "data-support-action=\"MARKET-000\""
+      ]
+    },
+    "rscCurrentPageId": {
+      "count": 1,
+      "examples": [
+        "currentPageId"
+      ]
+    },
+    "rscSourcePageId": {
+      "count": 4,
+      "examples": [
+        "sourcePageId"
+      ]
+    },
+    "rscTargetPageId": {
+      "count": 8,
+      "examples": [
+        "targetPageId"
+      ]
+    },
+    "rscSiteScope": {
+      "count": 1,
+      "examples": [
+        "siteScope"
+      ]
+    },
+    "rscRouteReadiness": {
+      "count": 0,
+      "examples": []
+    }
+  },
+  "edgeIds": {
+    "count": 30,
+    "values": [
+      "APP000-EDGE-COAT-01",
+      "APP000-EDGE-COAT-02",
+      "APP000-EDGE-COAT-03",
+      "APP000-EDGE-COAT-04",
+      "APP000-EDGE-COAT-05",
+      "APP000-EDGE-COAT-06",
+      "APP000-EDGE-COAT-07",
+      "APP000-EDGE-COAT-08",
+      "APP000-EDGE-PLAS-01",
+      "APP000-EDGE-PLAS-02",
+      "APP000-EDGE-PLAS-03",
+      "APP000-EDGE-PLAS-04",
+      "APP000-EDGE-PLAS-05",
+      "APP000-EDGE-PLAS-06",
+      "APP000-EDGE-PLAS-07",
+      "APP000-EDGE-PLAS-08",
+      "APP000-EDGE-MB-01",
+      "APP000-EDGE-MB-02",
+      "APP000-EDGE-MB-03",
+      "APP000-EDGE-MB-04",
+      "APP000-EDGE-MB-05",
+      "APP000-EDGE-MB-06",
+      "APP000-EDGE-MB-07",
+      "APP000-EDGE-INK-01",
+      "APP000-EDGE-INK-02",
+      "APP000-EDGE-INK-03",
+      "APP000-EDGE-INK-04",
+      "APP000-EDGE-PAPER-01",
+      "APP000-EDGE-PAPER-02",
+      "APP000-EDGE-SPECIALTY-01"
+    ],
+    "approvedSpecialtyIdPresent": false,
+    "runtimeSpecialtyIdPresent": true
+  },
+  "prohibitedPublicQueryTokenCount": 0
+}

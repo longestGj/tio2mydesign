@@ -1,0 +1,291 @@
+{
+  "self_check_id": "APP-000-G6-AUTHOR-SELF-CHECK-02",
+  "date": "2026-09-08",
+  "author": "/root/app000_gate6_author",
+  "package_path": "pages/applications/06_handoff/APP-000_GATE6_HANDOFF_PACKAGE_V1.1.md",
+  "package_id": "APP-000-G6-HANDOFF-02",
+  "package_sha256": "679921DFF649EB19197364C998B9512B711C3A32EE00C64798AD70CE0C05E84C",
+  "review_mode": "TARGETED_REVISION_AUTHOR_SELF_CHECK",
+  "checks": [
+    {
+      "id": "SC11-01-HISTORY-IMMUTABLE",
+      "result": "PASS",
+      "evidence": {
+        "v1.0_package_sha256": "92FF34AF1111C921821889797543A2C41AC436A79A5BD4C3A92D4D068EA1E680",
+        "v1.0_self_check_sha256": "232FFB4C97D8FEEE82A14028EDCC1AF64A2E400D03227C0C28B31C90FCC5ECB6"
+      }
+    },
+    {
+      "id": "SC11-02-SOURCE-IDENTITY",
+      "result": "PASS",
+      "evidence": {
+        "manifest": {
+          "path": "pages/applications/APP-000_CURRENT_GATE_BASELINE_MANIFEST_V1.3.md",
+          "expected": "6EC2FD5D1D627A8BD230D8683E4DDA0BD5D51D8EF563B45E69209E6D3467D89C",
+          "actual": "6EC2FD5D1D627A8BD230D8683E4DDA0BD5D51D8EF563B45E69209E6D3467D89C",
+          "match": true
+        },
+        "B": {
+          "path": "pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+          "expected": "C57DB3F8E1AFB9B4D33A1498843CF8228B7FADDECCDAA79C7E6A6D76C1A234B1",
+          "actual": "C57DB3F8E1AFB9B4D33A1498843CF8228B7FADDECCDAA79C7E6A6D76C1A234B1",
+          "match": true
+        },
+        "C": {
+          "path": "pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+          "expected": "6F7EF60C6BC6CBE5398F9F1CF4E2E713FCFB48CE65BC28FE49D699CA61B26F6E",
+          "actual": "6F7EF60C6BC6CBE5398F9F1CF4E2E713FCFB48CE65BC28FE49D699CA61B26F6E",
+          "match": true
+        },
+        "gate4": {
+          "path": "pages/applications/04_planning/gate4-v1.0/index.html",
+          "expected": "EA8B5CB0AD39226C9C392103379A09DB5AD7D7A96E725336DC55348EA05230E4",
+          "actual": "EA8B5CB0AD39226C9C392103379A09DB5AD7D7A96E725336DC55348EA05230E4",
+          "match": true
+        },
+        "gate6_review": {
+          "path": "pages/applications/05_review/APP-000_GATE6_INDEPENDENT_REVIEW_V1.0.md",
+          "expected": "0E13743FC0531AF29712A3B822691A7ADB073EA0E571485F47B1E8C31CAD279A",
+          "actual": "0E13743FC0531AF29712A3B822691A7ADB073EA0E571485F47B1E8C31CAD279A",
+          "match": true
+        },
+        "link_review": {
+          "path": "pages/applications/05_review/APP-000_INTERNAL_LINK_PLANNING_REVIEW_V1.0.md",
+          "expected": "793E1DAFD88863BF3970E80A13AAF4CC771FF6CF3E3D6F1F8C05B4C19F867014",
+          "actual": "793E1DAFD88863BF3970E80A13AAF4CC771FF6CF3E3D6F1F8C05B4C19F867014",
+          "match": true
+        },
+        "schema": {
+          "path": "docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+          "expected": "CBD36D338412A5D311AE062A93982D9A5799E0CF3D459BCB72D41E4A155247AD",
+          "actual": "CBD36D338412A5D311AE062A93982D9A5799E0CF3D459BCB72D41E4A155247AD",
+          "match": true
+        },
+        "nine_page": {
+          "path": "docs/architecture/GATE9_TRADE4_APPLICATION5_TARGETED_RECHECK_V1.0.md",
+          "expected": "F0B299A4A7A49C37FDF5579E256A6CB069A886839B16CA18C047D805040542D7",
+          "actual": "F0B299A4A7A49C37FDF5579E256A6CB069A886839B16CA18C047D805040542D7",
+          "match": true
+        },
+        "chloride": {
+          "path": "pages/products/chloride-process/07_qa/PRODUCT-PROC-CL_GATE9_READ_ONLY_ACCEPTANCE_V0.1.md",
+          "expected": "E6FC412923B7F8B6E67D9B2DA25B5BEDDE647D2C931928D2A06952384B2E6F90",
+          "actual": "E6FC412923B7F8B6E67D9B2DA25B5BEDDE647D2C931928D2A06952384B2E6F90",
+          "match": true
+        },
+        "sulfate": {
+          "path": "pages/products/sulfate-process/06_handoff/PRODUCT-PROC-SU_GATE6_HANDOFF_PACKAGE_V0.1.md",
+          "expected": "343A220CB92D058A6C8914C4E30AF405D619076B14EC96EB06A2E59EF0B7F192",
+          "actual": "343A220CB92D058A6C8914C4E30AF405D619076B14EC96EB06A2E59EF0B7F192",
+          "match": true
+        }
+      }
+    },
+    {
+      "id": "SC11-03-PACKAGE-IDENTITY",
+      "result": "PASS",
+      "evidence": {
+        "package_id": "APP-000-G6-HANDOFF-02",
+        "status": "READY_FOR_TARGETED_RECHECK / NOT_APPROVED / NOT_SENT"
+      }
+    },
+    {
+      "id": "SC11-04-CODE-IDENTITY",
+      "result": "PASS",
+      "evidence": {
+        "classified_assets": 15,
+        "unique_assets": 15,
+        "all_hashes_match": true
+      }
+    },
+    {
+      "id": "SC11-05-THIRTY-EDGES",
+      "result": "PASS",
+      "evidence": {
+        "definitions": 30,
+        "unique": 30,
+        "required_mapping_markers": true
+      }
+    },
+    {
+      "id": "SC11-06-DEPENDENCIES",
+      "result": "PASS",
+      "evidence": {
+        "definitions": [
+          "APP000-G6-D01",
+          "APP000-G6-D02",
+          "APP000-G6-D03",
+          "APP000-G6-D04",
+          "APP000-G6-D05",
+          "APP000-G6-D06",
+          "APP000-G6-D07",
+          "APP000-G6-D08",
+          "APP000-G6-D09",
+          "APP000-G6-D10",
+          "APP000-G6-D11",
+          "APP000-G6-D12",
+          "APP000-G6-D13"
+        ]
+      }
+    },
+    {
+      "id": "SC11-07-AC-IDS",
+      "result": "PASS",
+      "evidence": {
+        "definitions": [
+          "APP000-G9-01",
+          "APP000-G9-02",
+          "APP000-G9-03",
+          "APP000-G9-04",
+          "APP000-G9-05",
+          "APP000-G9-06",
+          "APP000-G9-07",
+          "APP000-G9-08",
+          "APP000-G9-09",
+          "APP000-G9-10",
+          "APP000-G9-11",
+          "APP000-G9-12",
+          "APP000-G9-13",
+          "APP000-G9-14",
+          "APP000-G9-15",
+          "APP000-G9-16",
+          "APP000-G9-17"
+        ],
+        "unique_definitions": 17,
+        "references_without_definition": []
+      }
+    },
+    {
+      "id": "SC11-08-CONSUMER-DECOUPLING",
+      "result": "PASS",
+      "evidence": {
+        "nine_page_ids": [
+          "RES-TRADE-EU",
+          "RES-TRADE-UK",
+          "RES-TRADE-IN",
+          "RES-TRADE-BR",
+          "APP-COAT",
+          "APP-PLAS",
+          "APP-MB",
+          "APP-INK",
+          "APP-PAPER"
+        ],
+        "process_markers": [
+          "PRODUCT-PROC-CL",
+          "/products/chloride-process-titanium-dioxide/",
+          "CL-G9-F02",
+          "CL-G9-17",
+          "PRODUCT-PROC-SU",
+          "/products/sulfate-process-titanium-dioxide/",
+          "G9-FIVE-F01",
+          "SU-G9-09",
+          "SU-DEP-01"
+        ],
+        "separate_ac_ids": [
+          "APP000-G9-16",
+          "APP000-G9-17"
+        ]
+      }
+    },
+    {
+      "id": "SC11-09-SHARED-TARGETS",
+      "result": "PASS",
+      "evidence": {
+        "required_markers": [
+          "Logo/Home",
+          "HOME-001",
+          "MARKET-000",
+          "PRODUCT-000",
+          "APP-000",
+          "DOC-000",
+          "RES-000",
+          "ABOUT-001",
+          "CONV-RFQ",
+          "LEGAL-PRIV-EN",
+          "LEGAL-PRIV-MS",
+          "LEGAL-COOKIE-EN",
+          "Cookie Settings",
+          "Read Cookie Policy",
+          "Contact",
+          "Terms"
+        ],
+        "responsive_states": [
+          "Desktop Header",
+          "compact/mobile",
+          "Footer",
+          "dialog"
+        ]
+      }
+    },
+    {
+      "id": "SC11-10-PUBLIC-INTERNAL",
+      "result": "PASS",
+      "evidence": {
+        "public_api_exposes_page_id_scope": false,
+        "private_transport_allowed": true
+      }
+    },
+    {
+      "id": "SC11-11-CACHE-OBSERVABLE",
+      "result": "PASS",
+      "evidence": {
+        "invented_v1.0_sentence_absent": true,
+        "observable_states": [
+          "warm/hit",
+          "invalidation/revalidation",
+          "refresh failure",
+          "recovery",
+          "cross-scope warm"
+        ]
+      }
+    },
+    {
+      "id": "SC11-12-EXACT-COPY-BOUNDARY",
+      "result": "PASS",
+      "evidence": {
+        "body": "B lines 9-136 breadcrumb through M5",
+        "metadata": "separate exact values",
+        "shared": "current owners"
+      }
+    },
+    {
+      "id": "SC11-13-SCHEMA-ROLLBACK",
+      "result": "PASS",
+      "evidence": {
+        "schema_additional_properties": false,
+        "schema_has_rollback_target": false,
+        "schema_valid_mapping_markers": true
+      }
+    },
+    {
+      "id": "SC11-14-EVIDENCE-RUNTIME-STATUS",
+      "result": "PASS",
+      "evidence": {
+        "acceptance_count": 17,
+        "dependency_count": 13,
+        "runtime_hold": "GATE9_PASS_OR_RETURN_NOTICE",
+        "status_layers": 4
+      }
+    },
+    {
+      "id": "SC11-15-FINDING-CLOSURE-MAP",
+      "result": "PASS",
+      "evidence": {
+        "findings": [
+          "APP-000-G6-IR-F01",
+          "APP-000-G6-IR-F02",
+          "APP-000-G6-IR-F03",
+          "APP-000-G6-IR-F04",
+          "APP-000-G6-IR-F05",
+          "APP-000-IL-PLANNING-01-F01",
+          "APP-000-IL-PLANNING-01-F02",
+          "APP-000-IL-PLANNING-01-F03"
+        ],
+        "mapped": 8
+      }
+    }
+  ],
+  "overall_result": "PASS",
+  "author_disposition": "READY_FOR_TARGETED_RECHECK",
+  "limitations": "Machine checks do not replace independent semantic review, implementation evidence or Gate 9 runtime acceptance."
+}

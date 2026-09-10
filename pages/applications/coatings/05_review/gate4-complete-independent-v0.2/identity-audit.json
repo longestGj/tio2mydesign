@@ -1,0 +1,103 @@
+{
+  "audit": "APP-COAT Gate 4 V0.2 targeted independent identity audit",
+  "workset_id": "COAT-G4-COMPLETE-V02",
+  "freeze_id": "COAT-G4-COMPLETE-V02-F01",
+  "finding_id": "COAT-G4-IR-01",
+  "generated_at": "2026-09-07T08:48:45.081Z",
+  "identities": {
+    "source": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/APP-COAT_GATE4_COMPLETE_VISUAL_V0.1.html",
+      "bytes": 33997,
+      "sha256": "a1e8c4153831aa829698f62e0c30c1fc7a77ec5bbb1f23ce264dede5d61443d2"
+    },
+    "css": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/visual-direction.css",
+      "bytes": 6196,
+      "sha256": "f4c2e703345cb3eae1221937ff63b61b3742c6f2da6ccf9c1f3da730db67ca8c"
+    },
+    "input_index": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.2/input_index.json",
+      "bytes": 13843,
+      "sha256": "a12087e9469fd2f298eb08f8d32d3f9d74b04436d14dc29f0aca965dbf1cb28a"
+    },
+    "source_freeze": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.2/approval_core/source-freeze.json",
+      "bytes": 18186,
+      "sha256": "7f40b7202990a25b17448bd6d75480caebd813cb71a4905d9f8d4a7d1a551226"
+    },
+    "evidence_index": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.2/evidence_index.json",
+      "bytes": 36996,
+      "sha256": "aad86687d0c8ca055d18482f49f86737ca3c35db72a3d88be5a71c6fb9f404ed"
+    },
+    "finding_response": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.2/APP-COAT_GATE4_FINDING_RESPONSE_COAT-G4-IR-01_V0.2.md",
+      "bytes": 3688,
+      "sha256": "d296c3dc166ff12764d57b6c5fbe5121fd0ea49ea3f027580b10ab43e21d3317"
+    },
+    "rereview_submission": {
+      "path": "D:/23MySec/pages/applications/coatings/05_review/APP-COAT_GATE4_REREVIEW_SUBMISSION_V0.2.md",
+      "bytes": 2287,
+      "sha256": "d5c10aaac33675a6fa0362c203ce2f7bf0deb8254b2d0452cc6a9ccc862d21bb"
+    },
+    "targeted_runtime": {
+      "path": "D:/23MySec/pages/applications/coatings/05_review/gate4-complete-independent-v0.2/targeted-runtime.json",
+      "bytes": 22541,
+      "sha256": "be3f2f5e93e10041a6ede4859fe681c6f8ec8a540e424b180e7bfd33ef383a33"
+    }
+  },
+  "counts": {
+    "frozen_inputs_total": 61,
+    "frozen_inputs_exact_current_paths": 60,
+    "frozen_inputs_exact_at_review_start": 61,
+    "frozen_dependencies_exact": 6,
+    "frozen_bound_records_exact": 6,
+    "evidence_identity_pointers_exact": 8,
+    "inherited_formal_assets_exact": 48,
+    "new_regression_images_exact": 6,
+    "direct_hover_widths_passed": 3,
+    "independent_runtime_checks_passed": 15
+  },
+  "image_dimensions": {
+    "inherited_formal_assets_exact": 48,
+    "new_regression_images_exact": 6
+  },
+  "source_and_css_byte_identical_to_v01": true,
+  "corrected_primary_hover": {
+    "foreground": "#FFFFFF",
+    "background": "#007F77",
+    "contrast": 4.881302249384679,
+    "widths": [
+      1440,
+      768,
+      390
+    ],
+    "exact": true
+  },
+  "superseded_pairing_classification": {
+    "foreground": "#007F77",
+    "background": "#F5F8FB",
+    "contrast": 4.5796989189682495,
+    "applies_to": "non-primary link hover only",
+    "primary_cta_claim": false
+  },
+  "post_freeze_index_drift": {
+    "classification": "NON_BLOCKING_ROOT_NAVIGATION_DRIFT",
+    "expected": {
+      "path": "D:/23MySec/01_PROJECT_INDEX.md",
+      "bytes": 23151,
+      "sha256": "df4e133bd1b4f2ff955800690786ead00c42e1e0c195dfac93dee313b36e4e08"
+    },
+    "current_snapshot": {
+      "path": "D:/23MySec/pages/applications/coatings/05_review/gate4-complete-independent-v0.2/01_PROJECT_INDEX.finalization-snapshot.md",
+      "bytes": 23305,
+      "sha256": "95be420f973b877acb25af25ab5f3a6ed117135956abc9dc9352fbdfbb68e2c5"
+    },
+    "coatings_contract_impact": "NONE",
+    "observed_scope": [
+      "Poland Gate 9 navigation status",
+      "Applications R02 article-research navigation"
+    ],
+    "note": "All other 60 frozen inputs remain exact. The root Index is navigation and changed after the V0.2 audit began; candidate, CSS, Gate 4 method, Coatings approved content, shared contracts, frozen bound records and evidence did not change."
+  }
+}

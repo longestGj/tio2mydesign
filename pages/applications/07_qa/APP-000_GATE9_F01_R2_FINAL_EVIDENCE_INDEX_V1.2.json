@@ -1,0 +1,2383 @@
+{
+  "index_id": "APP-000-G9-F01-R2-FINAL-EVIDENCE-INDEX-01",
+  "page_id": "APP-000",
+  "gate": 9,
+  "review_mode": "INDEPENDENT_READ_ONLY_FINAL_TARGETED_RECHECK",
+  "candidate": {
+    "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+    "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+    "build_id": "maNqNFg3Urit7VkLTu5KM"
+  },
+  "marker_grammar": "Stored in independent-final-r2.json and collect-final-r2.cjs",
+  "private_boundary": "source_page_id=APP-000 appears only in server-local receiver capture after opaque Cookie validation; no external request",
+  "shared_scope_note": "Shared Header/Footer RFQ instances were checked separately from existing page-owned body links",
+  "non_claims": [
+    "native browser 200% zoom",
+    "physical touch device",
+    "named screen reader/AT",
+    "nine consumer 404 closure",
+    "Sulfate 404 closure"
+  ],
+  "artifacts": [
+    {
+      "id": "APP000-G9-R2F-EV-001",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/build-index.ps1",
+      "sha256": "15242C10FBAC7E174CCA30F57DA6BE7425203FC539D23DF5962E0B69F1E425C1",
+      "evidence_type": "SOURCE_INSPECTION",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-002",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/chromium-1440.png",
+      "sha256": "8903F53A9E499D478EB9252E96DDDDA8B3017CA68C4232DB7BF4007220DC6EDF",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-REPAIR-F03"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-003",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/chromium-390-default.png",
+      "sha256": "8D0C40A75A78DF48413BB73666BDF63456D4426C26C368882CF5CB5A43BA6B7A",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-REPAIR-F03"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-004",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/chromium-390-expanded.png",
+      "sha256": "61D9824EC82B23FD3219DA80B8268324697D29BED7E7E83CB502FB16977EF3F2",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-REPAIR-F03"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-005",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/chromium-768.png",
+      "sha256": "90D1C761D158B7A6E05AC35FD9C9F21A08A9C8314E52438B3E7A8E4284FC5AC5",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-REPAIR-F03"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-006",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/collect-final-r2.cjs",
+      "sha256": "D6ED3C9B1C55F2B887844EC39355D0ABF565284CA53D923DBF21445CA9A5BDCF",
+      "evidence_type": "SOURCE_INSPECTION",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-007",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/firefox-390-default.png",
+      "sha256": "13E281109B331D9CC1B030323712173D79D9AFA573021E7840A26709B3056D9B",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-REPAIR-F03"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-008",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/firefox-390-expanded.png",
+      "sha256": "9EA42940F0D9E1E30E23B28D052D4E5F825992746D079AF759B81F0713915D4D",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-REPAIR-F03"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-009",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/independent-final-r2.json",
+      "sha256": "22E130AA4E681A66DF07A0FDB31D3E1F2DA6711F12F0B4D1BA5888991753ED5A",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-010",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/manifest-validation.json",
+      "sha256": "789E468C60182994517A47820FC9DE22D91C481B0C45BCA304443215219C00BD",
+      "evidence_type": "TEST_RESULT",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": "RECHECK_SCOPE_STATUS"
+    },
+    {
+      "id": "APP000-G9-R2F-EV-011",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/preflight.json",
+      "sha256": "6CC996831824730E09FB0B0B52D5DED1862DB423FF78E9215D4BA8222519B9D1",
+      "evidence_type": "TEST_RESULT",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": "RECHECK_SCOPE_STATUS"
+    },
+    {
+      "id": "APP000-G9-R2F-EV-012",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-ax.txt",
+      "sha256": "CE61A59DBB50AF0AE4FD2470AE05C367ABAA2DDA0765B3550B9631713F584E60",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-013",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-body-text.txt",
+      "sha256": "88681C8477DD9C8FFAAFA639B0F3D76D3F13C11E725FCB4CD04ABF84EF17F3E9",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-014",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-browser-state.txt",
+      "sha256": "BD0659BD2F239ECECA53A3FE841AF4957A6E162E8CB8140924AB662B98FD1AA0",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-015",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-dom.txt",
+      "sha256": "498B96F47B0EA665BF02B70D789F840C3F725DD540AD653615DEA9185D84A1D6",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-016",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-head.txt",
+      "sha256": "27BC84A4653B8008452B1D43B7044B84000F2F4C715B5D406B1709A73886707C",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-017",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-html.txt",
+      "sha256": "737660108AF9AEE3EC9BFB76E074A1CC2824B01180621706954730476F72A16C",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-018",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-inline.txt",
+      "sha256": "153B4D7A1C62B65E61833276E2A4556FBA182AD7BCAFC9936B326C5CE8662F75",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-019",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-rsc.txt",
+      "sha256": "3B84DB0490BD9340ECA1E452126D8A0DD349149DBD389083D044DF4260E4C61D",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-020",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/applications-schema.txt",
+      "sha256": "F899CCAC4420681C6E612C32DC37BFED9FFBAC1487B3BF0F6AB69F0F80E72BA0",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-021",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-ax.txt",
+      "sha256": "4BBEC991C1D071E295805529CB5860A12B600B4592E57F909306148660CDBAB0",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-022",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-body-text.txt",
+      "sha256": "C7FE8E3CDC6F455D25EAA3CB6550E803F1DACCAD0AAB7AD05111404957467AF9",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-023",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-browser-state.txt",
+      "sha256": "E06B4E5B4B725C2B7CF1465B20623EA79B8A1664B7ED68D39FDFFEB7CF24374F",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-024",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-dom.txt",
+      "sha256": "589F9AA440D127935E31CC3F1901B5EB15FED60DEE8B58C0CCF18CE281B31011",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-025",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-head.txt",
+      "sha256": "EB3BD21BB49A51DCCD1815BD4BD56F7A46B58DB3044121166B4574DE348ABD2D",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-026",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-html.txt",
+      "sha256": "63E95CA417D271CB474BC209401403A93E74A68C6B0728F431B908D8830A35DD",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-027",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-inline.txt",
+      "sha256": "D7C1C67A061E730D109A26388662317DB375DCC5EAC5B2C2F2A1F0DE345CDF0C",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-028",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-rsc.txt",
+      "sha256": "7C0839AD886713ADC2E3578562FF6ACA73FF222833434CE790C18B33B0E66B5B",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-029",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/documents-schema.txt",
+      "sha256": "D9E943C05790459B05516253B90501B26667D66F95408B2E7007C6DED44DDD2B",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-030",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-ax.txt",
+      "sha256": "7924A7719E92DD755A4A10BCFDC132C782FA1D982154E56210193DB2C840C18B",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-031",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-body-text.txt",
+      "sha256": "ACF2961C3B1CB43D908F59B470BEAF875044C21FF36CF0338C236CB7469AB67F",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-032",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-browser-state.txt",
+      "sha256": "ACC727E5BB4168CAB6E43D692C0BCE141E6FF28E2037410F154405738C440463",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-033",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-dom.txt",
+      "sha256": "AD990516FBDE921302305F9D9D7A54A5A2E68DEDE9742622778F159B057B63F1",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-034",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-head.txt",
+      "sha256": "19C22E4A648DA45308444080ACFF4BC225C683B359BE7AE0E2DC1FD64E9D17B1",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-035",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-html.txt",
+      "sha256": "DBFAD0AC47F241BD08A79B2804135242E9D394C7D387320AC035759D0813A7FA",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-036",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-inline.txt",
+      "sha256": "5EC9DEEC3F57C0B2887F2C089DBB93F53F20F3D51799A319CFE41961BDE2F295",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-037",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-rsc.txt",
+      "sha256": "39D2CBE1AB2AE003E994426BEEB08B926A4DDB22E77F0C3A62A3C3523A0288F3",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-038",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/home-schema.txt",
+      "sha256": "CDFCAD3D5283E58A90D707CED0B0942B90E440A35BB642B218AA32D503AC95A3",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-039",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-ax.txt",
+      "sha256": "5428DEA85D4399D79EA8BB9FB69E88073E0A56D03F05EECFEC3116AE9D69763B",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-040",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-body-text.txt",
+      "sha256": "4FF14178C5109883FB4DC4C1C0C0809CDEDB9BB91B8F5E5DBBA8778122DAA7DC",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-041",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-browser-state.txt",
+      "sha256": "3DF112BEE3FF914E6206F4A7A17A9CC85FCB7BF5C85F896D8E0312CABB2E9E18",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-042",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-dom.txt",
+      "sha256": "78E277315A6EFBF83020914F68DDE144716EF8E1E3155953EA816602694F1FCD",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-043",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-head.txt",
+      "sha256": "3743C7BA83AD6E98E5653D0FED33D9CAA318218D05C28C2B37902AF1C47009FC",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-044",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-html.txt",
+      "sha256": "C0AAD1E6938D3530CB2AA51C93DEF0FA84BE7C681C4052925C365DC3BB192A1D",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-045",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-inline.txt",
+      "sha256": "79BF5C75645AB9C1EACB659F55F1C88916050518E15F280F9BB9AD4220954AEB",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-046",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-rsc.txt",
+      "sha256": "22BDA1EC5DF80D6923B85D71DBFB1C2A657619C5CD530B8D956B12277E39FC65",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-047",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/markets-schema.txt",
+      "sha256": "BD385799C18123349B4265BF4F479CCE42E11DBB18DE57EC73448529029BB808",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-048",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-ax.txt",
+      "sha256": "5CBF32E584E5F618A71F146F620E39FB91C3DCB035501CB35E7847A81DFFB2A8",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-049",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-body-text.txt",
+      "sha256": "CFEF868061887B3812D5B5EEDC383CE269A0F08116A4F05075FB2AD7F7BCE225",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-050",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-browser-state.txt",
+      "sha256": "F34F108767FAEB46779BEAC0FB90727C0C6FDAD51D291AB9A40C6D747AFC0AA0",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-051",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-ax.txt",
+      "sha256": "E456058DFDEF7C06691A070D1248176F0B379BC5433E0DFA396436D792A48BE8",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-052",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-body-text.txt",
+      "sha256": "004751B0871013A738BEB1635AF5F26C64D6E17BE87476DAB97A51C9C4D72C36",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-053",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-browser-state.txt",
+      "sha256": "AAA4CFB24A1E1241CB10B68F86AA0E0F8CD59018BEFDAD2BEABA367DF98B6BD9",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-054",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-dom.txt",
+      "sha256": "224A532DA5D12D41AD512BD5A20408AAB0EE7F04FA5A6DEBF5FEDAACE97C7B05",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-055",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-head.txt",
+      "sha256": "18E06459E978C56B814D018AE370E5ECA4BFED61DDD71A82950EC440613695B3",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-056",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-html.txt",
+      "sha256": "EF31E6BCAD64AE9AF914DAC526955731901C25E2F3E4FFCF5871A9E3E39B5888",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-057",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-inline.txt",
+      "sha256": "209007A9197A49420B0C589EAB4117310F27AC2809DC691067F809EC5FEA23D0",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-058",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-rsc.txt",
+      "sha256": "C8426A34C52B2DC9B9C76E09F9576D7C41949C1EA093546412F61A5C459E18E6",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-059",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-chloride-process-titanium-dioxide-schema.txt",
+      "sha256": "23FBF1E13E0F791048842836DF372001EBCD72DA4F4A1D79D8A92646EACF9370",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-060",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-dom.txt",
+      "sha256": "325D440F6ADE7AEA09E3CC9B68208FE12BA65FDC33672CE4DC777DC7FB0391D8",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-061",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-head.txt",
+      "sha256": "5CFB572D493354BD8821CEED589DA26C1C041942F0B3D2C3CFECE4BD98422D57",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-062",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-html.txt",
+      "sha256": "60A90DA973259F8AC0964C4AD9BAB52138C085FC275CDB80F96823DBA0EB8B72",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-063",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-inline.txt",
+      "sha256": "ED0453CAF3B08F25704B65D88E7BE1A101F95745E71D9AB8DAC52C4594CB94E4",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-064",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-rsc.txt",
+      "sha256": "B750A955091355BEBABBBFF1E69BBB556E10A2830EA73A5EE2988EE0ECF173B8",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-065",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/products-schema.txt",
+      "sha256": "CB1384ABEC45DA0B61C60AE9FFE90619BBF3C40B8ADB481853A2D9B8CA2AB6CB",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-066",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-ax.txt",
+      "sha256": "AB2325E5DD11883AABF2AA4E1BB1EEACA7A4054BE535AA4818752D6A6C2458A3",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-067",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-body-text.txt",
+      "sha256": "A831C39B82909F8BDED55B918AF6E0BEDC8A0F3D0F3D6EF91B623074EF711ED5",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-068",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-browser-state.txt",
+      "sha256": "5F4740C44FBBA08FBE715E986B160784C81D1BF094316175435B9EF89992A65A",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-069",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-dom.txt",
+      "sha256": "004DC60F9D048EED1100C5994BA1C463911A15891D9B3B93DF602DD0C51FB018",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-070",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-head.txt",
+      "sha256": "8AE02E09C4DCB4D0ACD4EC7E47FB1628D5289DD8D06D17BACEDC3AC87AE71D33",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-071",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-html.txt",
+      "sha256": "A089FD4D58B54075CB5910DC6863E51798D3608473C424D5AC8A89959B7E0A19",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-072",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-inline.txt",
+      "sha256": "8C09BBAA10EF1123460075DA4FB11BD82C01C338B37C9FAB5EDEE613522CD47D",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-073",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-rsc.txt",
+      "sha256": "5C5889DDCBC94C1688AACA8DFD42E93D6EAC7BAEFE1D6B4F1A5B85A06CB8FEF1",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-074",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/request-a-quote-schema.txt",
+      "sha256": "D17A7FFE854ECBB4EFE0C8FB63BEE2E1EE5AD7E01F8DCA5CC4AC25845CEFF1EE",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-075",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-ax.txt",
+      "sha256": "6BD5A3C378731083D3AC00D8D89D3F466C0AC57DD040305F3D0572ADEAB1EE5F",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-076",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-body-text.txt",
+      "sha256": "8425CC8CD2F963D4738958D4974D40428E650547878079138EA37ABD3F716DA6",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-077",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-browser-state.txt",
+      "sha256": "C87496E4C332B4F805A32217AFBCEDC2E8BDD4473251FA7DA1E51B169EA23650",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-078",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-dom.txt",
+      "sha256": "9EB0382468F1315E15784AAB8E355F15195AABB96CB7E1645347D01409BCB0A2",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-079",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-head.txt",
+      "sha256": "68E72CB516E42716D2BC4356D421E5E56FD4AB6349B8DCDF0F11B8DCAD5E07F8",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-080",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-html.txt",
+      "sha256": "9C6AC803EFF5CA5C72E231DF9F84FC9D7639D2F9F5F0BE939030528F060AC539",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-081",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-inline.txt",
+      "sha256": "F780DF9F0957A67C95A375AF3E744769DFC1F8EE5199E38F5C1F6983A54B92EC",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-082",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-rsc.txt",
+      "sha256": "E41656EB2BA6C6293BF6DD928E5A88CDBC50535CAB661C1969E0F598E497ED62",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-083",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/resources-schema.txt",
+      "sha256": "3ABB1F8952971524DF18B45D889817B05019249D7B38DFA3DDD8D94BA383B5F8",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-084",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-ax.txt",
+      "sha256": "AB2325E5DD11883AABF2AA4E1BB1EEACA7A4054BE535AA4818752D6A6C2458A3",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-085",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-body-text.txt",
+      "sha256": "A831C39B82909F8BDED55B918AF6E0BEDC8A0F3D0F3D6EF91B623074EF711ED5",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-086",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-browser-state.txt",
+      "sha256": "529B5FA3AE595A98A79817AE5C5F63F8E2267D718341484C197520FEFDF3D9CC",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-087",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-dom.txt",
+      "sha256": "004DC60F9D048EED1100C5994BA1C463911A15891D9B3B93DF602DD0C51FB018",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-088",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-head.txt",
+      "sha256": "8AE02E09C4DCB4D0ACD4EC7E47FB1628D5289DD8D06D17BACEDC3AC87AE71D33",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-089",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-html.txt",
+      "sha256": "A089FD4D58B54075CB5910DC6863E51798D3608473C424D5AC8A89959B7E0A19",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-090",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-inline.txt",
+      "sha256": "8C09BBAA10EF1123460075DA4FB11BD82C01C338B37C9FAB5EDEE613522CD47D",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-091",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-rsc.txt",
+      "sha256": "5C5889DDCBC94C1688AACA8DFD42E93D6EAC7BAEFE1D6B4F1A5B85A06CB8FEF1",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-092",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/rfq-after-app-private-context-schema.txt",
+      "sha256": "D17A7FFE854ECBB4EFE0C8FB63BEE2E1EE5AD7E01F8DCA5CC4AC25845CEFF1EE",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-093",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/0anpw_nhr265q.js",
+      "sha256": "F23A61AFE9AC94B30C7045F82DDE5BA530C28E59272CF2EB4F9B4EDD4546CB49",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-094",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/0cz1d0mv5g_q7.js",
+      "sha256": "0973C1D64C88ADC8E3C950410CB58B288F72118D5965B78049438DEB8F2F9683",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-095",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/11pxbv08d7b0-.js",
+      "sha256": "9D2C0632A9EE5E6F5C874CB9789B8D92D03E9E3719F3DCBBF227089E04391872",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-096",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/1yo3y5_nlad0j.js",
+      "sha256": "D0474A42EF7336998417DE88A33D10C346101869AEFE457186E8BD57E71DCE2E",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-097",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/25vn4zz26bb6p.js",
+      "sha256": "7C3480FC2735904FB39EFAC25360AF3DEE69BC5D8E93327E42D56CE939EB8ED4",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-098",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/2uny36id13rp1.js",
+      "sha256": "7CED224BC56EC13A27EB510B8B45EEDBA28ED0952D44BB814EB3210D4B2D7E78",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-099",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/3450qyhportkm.js",
+      "sha256": "6F7927041946FAFD1FABAAA08DC3BC1DEAB43DBCADC09584BA7F578CA097E745",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-100",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/34p0uuz05_g33.js",
+      "sha256": "EAFF194C91E6E4090C786246D41EEE3C6A5F4718B6BF528CD2054A9CEA143D8F",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-101",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/3f6cg486_5bxn.js",
+      "sha256": "C5DBB2BBB85C7F2E6B3BB31F4907AB1AC2E380FE20A6BBDD6474892D4E6F576C",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-102",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/3fntmmi971322.js",
+      "sha256": "34ED6ABF4C6D0D1BB3DC56D3F133D2A5DBC3A3C89C791DEAB314E27143AC14CE",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-103",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/3gygali4g42n6.js",
+      "sha256": "B5B767E40F5A158246186CA1E20D355E92676895FA0A0C3A76DE56E9E6EE25CB",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-104",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/3o6zmgcd3bghq.js",
+      "sha256": "96F61779130E1673CF55853AD877F53388F7713A117F1B0C71C145BC12C669E4",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-105",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/3s6nzrbk-8mnv.js",
+      "sha256": "1D36F2E3F57740F75EB021AAEC1208D7E938130E36C106A9F28678E4A98559B0",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-106",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/40677n1tfmwyc.js",
+      "sha256": "9363A8BB493E43CD54BF95E534893035B3157467FD3862A49597A06380A47756",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-107",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_EVIDENCE_V1.2/surfaces/scripts/turbopack-3768uzyq27zy0.js",
+      "sha256": "2C030AD3691B16AEEF1FF6E9D50E35245AC6A187EA18C1AFF096D5BB74C1F65D",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-07",
+        "APP000-G9-13",
+        "APP000-G9-REPAIR-F01-R2"
+      ]
+    },
+    {
+      "id": "APP000-G9-R2F-EV-108",
+      "path": "pages/applications/07_qa/APP-000_GATE9_F01_R2_FINAL_TARGETED_RECHECK_V1.2.md",
+      "sha256": "83AFE954E37EF1951AD1E68AFCCCF2DAB52D467E3AAC67FFBF2FB0445247A075",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+        "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+        "build_id": "maNqNFg3Urit7VkLTu5KM",
+        "runtime": "http://127.0.0.1:4391"
+      },
+      "environment_or_state": "exact held local R2 candidate; scoped CMS 4390 and server-local receiver 4392 where applicable",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ]
+    }
+  ]
+}

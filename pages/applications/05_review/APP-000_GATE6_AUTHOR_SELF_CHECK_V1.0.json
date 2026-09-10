@@ -1,0 +1,351 @@
+{
+  "self_check_id": "APP-000-G6-AUTHOR-SELF-CHECK-01",
+  "date": "2026-09-08",
+  "dispatch_id": "APP-000-G6-AUTHOR-DISPATCH-01",
+  "page_id": "APP-000",
+  "package_id": "APP-000-G6-HANDOFF-01",
+  "actual_author": "/root/app000_gate6_author",
+  "execution_path": "FAST_PATH",
+  "tool": "PowerShell Get-FileHash + structured regex/set checks",
+  "checks": {
+    "package_exists": true,
+    "package_sha256": "92ff34af1111c921821889797543a2c41ac436a79a5bd4c3a92d4d068ea1e680",
+    "source_identity_pass": true,
+    "source_checks": [
+      {
+        "path": "pages/applications/APP-000_CURRENT_GATE_BASELINE_MANIFEST_V1.3.md",
+        "exists": true,
+        "expected_sha256": "6ec2fd5d1d627a8bd230d8683e4dda0bd5d51d8ef563b45e69209e6d3467d89c",
+        "actual_sha256": "6ec2fd5d1d627a8bd230d8683e4dda0bd5d51d8ef563b45e69209e6d3467d89c",
+        "pass": true
+      },
+      {
+        "path": "pages/applications/05_review/APP-000_GATE4_TO_GATE6_ACCEPTED_VISUAL_INPUT_V1.0.md",
+        "exists": true,
+        "expected_sha256": "c6f081626b69b7bd613a58b7afc73aa95ba1790edbf2d0caec48f28087c0a283",
+        "actual_sha256": "c6f081626b69b7bd613a58b7afc73aa95ba1790edbf2d0caec48f28087c0a283",
+        "pass": true
+      },
+      {
+        "path": "pages/applications/05_review/APP-000_GATE4_DELEGATED_APPROVAL_AND_CLOSURE_V1.0.md",
+        "exists": true,
+        "expected_sha256": "7052e7a1324f5bcca2df9866194e4c68e1ca0f51b578d7f767ac87034629674a",
+        "actual_sha256": "7052e7a1324f5bcca2df9866194e4c68e1ca0f51b578d7f767ac87034629674a",
+        "pass": true
+      },
+      {
+        "path": "pages/applications/05_review/APP-000_GATE5_INDEPENDENT_VISUAL_REVIEW_V1.0.md",
+        "exists": true,
+        "expected_sha256": "ed508a2494f3295179eb6ad3db04f812cacf90b3e663d6953b886eb528932129",
+        "actual_sha256": "ed508a2494f3295179eb6ad3db04f812cacf90b3e663d6953b886eb528932129",
+        "pass": true
+      },
+      {
+        "path": "pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+        "exists": true,
+        "expected_sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1",
+        "actual_sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1",
+        "pass": true
+      },
+      {
+        "path": "pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+        "exists": true,
+        "expected_sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e",
+        "actual_sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e",
+        "pass": true
+      },
+      {
+        "path": "pages/applications/04_planning/gate4-v1.0/index.html",
+        "exists": true,
+        "expected_sha256": "ea8b5cb0ad39226c9c392103379a09db5ad7d7a96e725336dc55348ea05230e4",
+        "actual_sha256": "ea8b5cb0ad39226c9c392103379a09db5ad7d7a96e725336dc55348ea05230e4",
+        "pass": true
+      },
+      {
+        "path": "pages/applications/04_planning/gate4-v1.0/freeze-record.json",
+        "exists": true,
+        "expected_sha256": "bfcc957d0f425d4e864cd9b6da76698c70b19a175e555328237c7197a9fc09ba",
+        "actual_sha256": "bfcc957d0f425d4e864cd9b6da76698c70b19a175e555328237c7197a9fc09ba",
+        "pass": true
+      },
+      {
+        "path": "pages/applications/04_planning/gate4-v1.0/evidence-index.json",
+        "exists": true,
+        "expected_sha256": "36e00b8e8107d3b7692b244b3c7601218ef1320a72b7e962b36c3c2cad826011",
+        "actual_sha256": "36e00b8e8107d3b7692b244b3c7601218ef1320a72b7e962b36c3c2cad826011",
+        "pass": true
+      },
+      {
+        "path": "pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+        "exists": true,
+        "expected_sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406",
+        "actual_sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406",
+        "pass": true
+      },
+      {
+        "path": "pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+        "exists": true,
+        "expected_sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb",
+        "actual_sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb",
+        "pass": true
+      },
+      {
+        "path": "docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+        "exists": true,
+        "expected_sha256": "cbd36d338412a5d311ae062a93982d9a5799e0cf3d459bcb72d41e4a155247ad",
+        "actual_sha256": "cbd36d338412a5d311ae062a93982d9a5799e0cf3d459bcb72d41e4a155247ad",
+        "pass": true
+      }
+    ],
+    "code_assets_expected": 15,
+    "code_assets_found": 15,
+    "code_identity_coverage_pass": true,
+    "code_identity_coverage": [
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/build-visual.cjs",
+        "sha256": "9818bc031b71508df5690de14a591caabab3f550b2a961304724d60a9ec5d1a3",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/visual.css",
+        "sha256": "b208c16a5f906d18b4f56486c53a3804f5973992c08cb64ffdae7a6eb1aecc65",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/verify-visual.cjs",
+        "sha256": "96996090ac7dec1403e9be1d4e5a8381a15fcc6c41f458e606c2c86837a7d6e9",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/verify-targeted.cjs",
+        "sha256": "3a098360eb6ade9386ee8381df7d9aca979525024389de2763dc6c9768b43760",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/capture-direction.cjs",
+        "sha256": "1bc21dd7bbeb9be9befd7a511d4bf308ad4bcfe3fa695ec0f2bc9fad502366f5",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/freeze-candidate.cjs",
+        "sha256": "264af55a97cb86dc2042fbf94f0e97559aa463fb00fb28fc7ade682e13323e9a",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/index.html",
+        "sha256": "ea8b5cb0ad39226c9c392103379a09db5ad7d7a96e725336dc55348ea05230e4",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/mixed.html",
+        "sha256": "d1b1ab356158c13345bf01bef2ffeb5f6d77b8db8b8c80ecf1bf716fc89f396b",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/constrained.html",
+        "sha256": "590411e5f842f81588d4e4706e5f705193ca11e2a69b419920d7f87d8bbc04a7",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/grades-only.html",
+        "sha256": "0456cfe556cfcb671d6319cbaf1062999e74f578185699c9a6d2dbf21e668924",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/apps-only.html",
+        "sha256": "2876e6b745a01ae7e3e59e8592a95d4115cb18df95270cbac0bd1e5cb80abba9",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a",
+        "classification": "PROTOTYPE_ONLY",
+        "mentioned_in_package": true
+      }
+    ],
+    "gate9_id_definition_count": 16,
+    "gate9_id_definitions_unique": true,
+    "gate9_id_definitions": [
+      "APP000-G9-01",
+      "APP000-G9-02",
+      "APP000-G9-03",
+      "APP000-G9-04",
+      "APP000-G9-05",
+      "APP000-G9-06",
+      "APP000-G9-07",
+      "APP000-G9-08",
+      "APP000-G9-09",
+      "APP000-G9-10",
+      "APP000-G9-11",
+      "APP000-G9-12",
+      "APP000-G9-13",
+      "APP000-G9-14",
+      "APP000-G9-15",
+      "APP000-G9-16"
+    ],
+    "dependency_id_definition_count": 12,
+    "dependency_id_definitions_unique": true,
+    "dependency_id_definitions": [
+      "APP000-G6-D01",
+      "APP000-G6-D02",
+      "APP000-G6-D03",
+      "APP000-G6-D04",
+      "APP000-G6-D05",
+      "APP000-G6-D06",
+      "APP000-G6-D07",
+      "APP000-G6-D08",
+      "APP000-G6-D09",
+      "APP000-G6-D10",
+      "APP000-G6-D11",
+      "APP000-G6-D12"
+    ],
+    "relation_total": 30,
+    "relation_sets_pass": true,
+    "relation_checks": [
+      {
+        "application": "Coatings",
+        "expected": [
+          "GRADE-M350",
+          "GRADE-M510",
+          "GRADE-M896",
+          "GRADE-M996",
+          "GRADE-M2196",
+          "GRADE-M895",
+          "GRADE-M52",
+          "GRADE-M2377"
+        ],
+        "actual": [
+          "GRADE-M350",
+          "GRADE-M510",
+          "GRADE-M896",
+          "GRADE-M996",
+          "GRADE-M2196",
+          "GRADE-M895",
+          "GRADE-M52",
+          "GRADE-M2377"
+        ],
+        "pass": true
+      },
+      {
+        "application": "Plastics",
+        "expected": [
+          "GRADE-M350",
+          "GRADE-M510",
+          "GRADE-M200",
+          "GRADE-M108",
+          "GRADE-M210",
+          "GRADE-M340",
+          "GRADE-M886",
+          "GRADE-M2377"
+        ],
+        "actual": [
+          "GRADE-M350",
+          "GRADE-M510",
+          "GRADE-M200",
+          "GRADE-M108",
+          "GRADE-M210",
+          "GRADE-M340",
+          "GRADE-M886",
+          "GRADE-M2377"
+        ],
+        "pass": true
+      },
+      {
+        "application": "Masterbatch",
+        "expected": [
+          "GRADE-M510",
+          "GRADE-M200",
+          "GRADE-M108",
+          "GRADE-M210",
+          "GRADE-M340",
+          "GRADE-M886",
+          "GRADE-M2377"
+        ],
+        "actual": [
+          "GRADE-M510",
+          "GRADE-M200",
+          "GRADE-M108",
+          "GRADE-M210",
+          "GRADE-M340",
+          "GRADE-M886",
+          "GRADE-M2377"
+        ],
+        "pass": true
+      },
+      {
+        "application": "Printing Inks",
+        "expected": [
+          "GRADE-M350",
+          "GRADE-M510",
+          "GRADE-M52",
+          "GRADE-M2377"
+        ],
+        "actual": [
+          "GRADE-M350",
+          "GRADE-M510",
+          "GRADE-M52",
+          "GRADE-M2377"
+        ],
+        "pass": true
+      },
+      {
+        "application": "Paper",
+        "expected": [
+          "GRADE-M350",
+          "GRADE-M2377"
+        ],
+        "actual": [
+          "GRADE-M350",
+          "GRADE-M2377"
+        ],
+        "pass": true
+      },
+      {
+        "application": "Specialty Materials",
+        "expected": [
+          "GRADE-CR901"
+        ],
+        "actual": [
+          "GRADE-CR901"
+        ],
+        "pass": true
+      }
+    ],
+    "seven_plane_rows_pass": true,
+    "four_status_layers_pass": true,
+    "gate8_manifest_contract_pass": true,
+    "status_boundary_pass": true
+  },
+  "overall_pass": true,
+  "semantic_limit": "Machine checks prove file identity, declared code coverage, identifier structure and exact relation tuple transcription. They do not prove semantic correctness, implementation behavior, independent review, Gate 6 closure or Gate 9 acceptance.",
+  "result": "AUTHOR_SELF_CHECK_PASS / READY_FOR_REVIEW"
+}

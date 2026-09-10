@@ -1,0 +1,4522 @@
+{
+  "page_id": "APP-PLAS",
+  "workset_id": "APP-PLAS-G4-COMPLETE-20260907-02",
+  "freeze_id": "APP-PLAS-G4-FREEZE-20260907-02",
+  "reviewer_role": "INDEPENDENT_TARGETED_REREVIEW",
+  "frozen_objects": {
+    "freeze": {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_FREEZE_RECORD_V0.2.json",
+      "bytes": 4458,
+      "sha256": "945d56b58e3c0d12b9ece68701123d2a4ab840742f9477654487a09581120f1a"
+    },
+    "evidence": {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_EVIDENCE_INDEX_V0.2.json",
+      "bytes": 56567,
+      "sha256": "23a93eb3bd8ff72b1b022087feb3fc2f991167e11c279836e703060332a52cf5"
+    },
+    "input_index": {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_INPUT_INDEX_V0.2.json",
+      "bytes": 13209,
+      "sha256": "4239e0ebfa90089ae1da9b041ab45ecee408af14fac5b8ac0069fbe6e2a11d9a"
+    }
+  },
+  "counts": {
+    "inputs": 52,
+    "inputs_passed": 52,
+    "freeze_bindings": 9,
+    "freeze_bindings_passed": 9,
+    "images": 92,
+    "images_passed": 92,
+    "grade_context_images": 3,
+    "state_images": 27,
+    "state_images_complete": 27
+  },
+  "renderer_viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "fullHeight": 9299
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "fullHeight": 11310
+    },
+    {
+      "width": 390,
+      "height": 900,
+      "fullHeight": 16131
+    }
+  ],
+  "renderer_viewport_pass": true,
+  "grade_dimensions": {
+    "1440": [
+      1440,
+      727
+    ],
+    "768": [
+      768,
+      747
+    ],
+    "390": [
+      390,
+      269
+    ]
+  },
+  "grade_dimensions_pass": true,
+  "input_checks": [
+    {
+      "declared": {
+        "path": "D:/23MySec/AGENTS.md",
+        "bytes": 9874,
+        "sha256": "c11af47d1f3698bfeaa68e901d50475c076190b5852221c9da9a042582c4a82c"
+      },
+      "actual": {
+        "path": "D:/23MySec/AGENTS.md",
+        "bytes": 9874,
+        "sha256": "c11af47d1f3698bfeaa68e901d50475c076190b5852221c9da9a042582c4a82c"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/PROJECT_CONTEXT.md",
+        "bytes": 8503,
+        "sha256": "78c3b537e28dcb22a483d2c2351ade01c18416d11f801c2bd13d756541a09170"
+      },
+      "actual": {
+        "path": "D:/23MySec/PROJECT_CONTEXT.md",
+        "bytes": 8503,
+        "sha256": "78c3b537e28dcb22a483d2c2351ade01c18416d11f801c2bd13d756541a09170"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.2.md",
+        "bytes": 18692,
+        "sha256": "5476e9ef47c0e8632c741745233f8d0e8984360cb639d9de2b69e6e7c81ea3a0"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.2.md",
+        "bytes": 18692,
+        "sha256": "5476e9ef47c0e8632c741745233f8d0e8984360cb639d9de2b69e6e7c81ea3a0"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+        "bytes": 18702,
+        "sha256": "7b14c96e8515fdaeaeee12f23e9e7c8ffb815f8a00643d2bc0998f667efff64a"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+        "bytes": 18702,
+        "sha256": "7b14c96e8515fdaeaeee12f23e9e7c8ffb815f8a00643d2bc0998f667efff64a"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+        "bytes": 30319,
+        "sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+        "bytes": 30319,
+        "sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md",
+        "bytes": 4300,
+        "sha256": "37bd7dc9f046c7290877187f6606980bb99fa23594cf59da500f7a5e5fcd0967"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md",
+        "bytes": 4300,
+        "sha256": "37bd7dc9f046c7290877187f6606980bb99fa23594cf59da500f7a5e5fcd0967"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+        "bytes": 8412,
+        "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+      },
+      "actual": {
+        "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+        "bytes": 8412,
+        "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.1.md",
+        "bytes": 4261,
+        "sha256": "94b21e4581267880082e10c7dbe7c52941d71bd933cda74fb03d7e75d109ffde"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.1.md",
+        "bytes": 4261,
+        "sha256": "94b21e4581267880082e10c7dbe7c52941d71bd933cda74fb03d7e75d109ffde"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/skills/brand-applied-visual-design/SKILL.md",
+        "bytes": 7886,
+        "sha256": "477c280b8bdc5657632ee26635f4e94a642495482cb3a3ab6dcf0ea27e103bbd"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/brand-applied-visual-design/SKILL.md",
+        "bytes": 7886,
+        "sha256": "477c280b8bdc5657632ee26635f4e94a642495482cb3a3ab6dcf0ea27e103bbd"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/skills/full-page-visual-composition/SKILL.md",
+        "bytes": 8420,
+        "sha256": "708fec10a70ec15df62f0d3f8b94e7c7150fecefa6f891d43130a0f099740220"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/full-page-visual-composition/SKILL.md",
+        "bytes": 8420,
+        "sha256": "708fec10a70ec15df62f0d3f8b94e7c7150fecefa6f891d43130a0f099740220"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+        "bytes": 9971,
+        "sha256": "24b1a8500ce374fe759e26a51b08fd8b1d95a2590d561fb0bc41cfc538aa349e"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+        "bytes": 9971,
+        "sha256": "24b1a8500ce374fe759e26a51b08fd8b1d95a2590d561fb0bc41cfc538aa349e"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/references/core-risk-model.md",
+        "bytes": 2825,
+        "sha256": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/references/core-risk-model.md",
+        "bytes": 2825,
+        "sha256": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/snapshots/GATE4_THIRTEEN_PAGE_BATCH4_CONTROL_V1.0.frozen.md",
+        "bytes": 3181,
+        "sha256": "58426e59cbcb8af12be986bc9ddc5b187cbe90641520d92d793cfc9a76427ee8"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/snapshots/GATE4_THIRTEEN_PAGE_BATCH4_CONTROL_V1.0.frozen.md",
+        "bytes": 3181,
+        "sha256": "58426e59cbcb8af12be986bc9ddc5b187cbe90641520d92d793cfc9a76427ee8"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+        "bytes": 4510,
+        "sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+        "bytes": 4510,
+        "sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md",
+        "bytes": 17914,
+        "sha256": "f963bfd4722792bf9d7f1a1fa34fa03f0fa6e108dfc2cca48fb658c4d086731c"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md",
+        "bytes": 17914,
+        "sha256": "f963bfd4722792bf9d7f1a1fa34fa03f0fa6e108dfc2cca48fb658c4d086731c"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/research/keyword/11_page_keyword_master.csv",
+        "bytes": 42155,
+        "sha256": "cf189768fc3e8bc1e4108f0336cd45e40ae05f5a419885db1907a71e3dc6687f"
+      },
+      "actual": {
+        "path": "D:/23MySec/research/keyword/11_page_keyword_master.csv",
+        "bytes": 42155,
+        "sha256": "cf189768fc3e8bc1e4108f0336cd45e40ae05f5a419885db1907a71e3dc6687f"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+        "bytes": 36722,
+        "sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+        "bytes": 36722,
+        "sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/page-briefs/APP-PLAS_PLASTICS_BRIEF_V0.1.md",
+        "bytes": 17978,
+        "sha256": "44c8e1eb1ffbd035825c511c773b16937780b44bc1bc93027e85b43b38003d97"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/page-briefs/APP-PLAS_PLASTICS_BRIEF_V0.1.md",
+        "bytes": 17978,
+        "sha256": "44c8e1eb1ffbd035825c511c773b16937780b44bc1bc93027e85b43b38003d97"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+        "bytes": 12312,
+        "sha256": "0ea7e5d77ab243354577764bc4329fe4bb28d923ab4f66ea0b1073f5e24f9728"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+        "bytes": 12312,
+        "sha256": "0ea7e5d77ab243354577764bc4329fe4bb28d923ab4f66ea0b1073f5e24f9728"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/MALAYSIA_ORIGIN_SITE_WIDE_PUBLICATION_AUTHORITY_V1.0.md",
+        "bytes": 3724,
+        "sha256": "48ac05c99826315489686348bfa515ece7094142db21703d1cf28bce716023b2"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/MALAYSIA_ORIGIN_SITE_WIDE_PUBLICATION_AUTHORITY_V1.0.md",
+        "bytes": 3724,
+        "sha256": "48ac05c99826315489686348bfa515ece7094142db21703d1cf28bce716023b2"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+        "bytes": 61284,
+        "sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+        "bytes": 61284,
+        "sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+        "bytes": 4178,
+        "sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+        "bytes": 4178,
+        "sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md",
+        "bytes": 9544,
+        "sha256": "3c8757a83523df83a324ab652b7308948fe80375a9cb86ef02c698aed7938c62"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md",
+        "bytes": 9544,
+        "sha256": "3c8757a83523df83a324ab652b7308948fe80375a9cb86ef02c698aed7938c62"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_CONTENT_SKELETON_V0.2.md",
+        "bytes": 3010,
+        "sha256": "370cefbd64f9146aaa5146989fad25312f7eb6ec0051c4a445ece74650365128"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_CONTENT_SKELETON_V0.2.md",
+        "bytes": 3010,
+        "sha256": "370cefbd64f9146aaa5146989fad25312f7eb6ec0051c4a445ece74650365128"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_FULL_BUYER_CLEAN_COPY_V0.3.md",
+        "bytes": 12318,
+        "sha256": "8db6d6fa979831e1e5c5930bdfe3ec261bb74d252304658251a37932bbea4f92"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_FULL_BUYER_CLEAN_COPY_V0.3.md",
+        "bytes": 12318,
+        "sha256": "8db6d6fa979831e1e5c5930bdfe3ec261bb74d252304658251a37932bbea4f92"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_CONTENT_CONTRACT_V0.3.md",
+        "bytes": 7583,
+        "sha256": "646cc89f7c331d22c77d1d71abf2f605c44d1cd2eb4fd633f8a0f72ded5aa204"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/APP-PLAS_GATE2_CONTENT_CONTRACT_V0.3.md",
+        "bytes": 7583,
+        "sha256": "646cc89f7c331d22c77d1d71abf2f605c44d1cd2eb4fd633f8a0f72ded5aa204"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/GATE2_REMAINING_SEVEN_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+        "bytes": 4632,
+        "sha256": "8ed9810a96d1bde005f1d7e756995d494b13932fa386a79bbf177062997c3372"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE2_REMAINING_SEVEN_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+        "bytes": 4632,
+        "sha256": "8ed9810a96d1bde005f1d7e756995d494b13932fa386a79bbf177062997c3372"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/APP-PLAS_GATE3_WIREFRAME_V0.1.html",
+        "bytes": 36573,
+        "sha256": "252bc39147933465c91ad9d506dabd8b57e99e8f9122198c9af0da0c733ec55e"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/APP-PLAS_GATE3_WIREFRAME_V0.1.html",
+        "bytes": 36573,
+        "sha256": "252bc39147933465c91ad9d506dabd8b57e99e8f9122198c9af0da0c733ec55e"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/input-binding.json",
+        "bytes": 17587,
+        "sha256": "6a225a56d3b34659fff49f64a4dfece158389fb2b9a8bb8300d9392ffbc2060b"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/input-binding.json",
+        "bytes": 17587,
+        "sha256": "6a225a56d3b34659fff49f64a4dfece158389fb2b9a8bb8300d9392ffbc2060b"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/preflight-record.json",
+        "bytes": 5838,
+        "sha256": "135b6e4837ddcbf09a4dc064c27d244610f08df6a8535db584e2cbd172491b00"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/preflight-record.json",
+        "bytes": 5838,
+        "sha256": "135b6e4837ddcbf09a4dc064c27d244610f08df6a8535db584e2cbd172491b00"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/freeze-record.json",
+        "bytes": 2474,
+        "sha256": "b78ebcdef06038562f2f5d1e154ab7bba35a258533624576ace369561239116e"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/freeze-record.json",
+        "bytes": 2474,
+        "sha256": "b78ebcdef06038562f2f5d1e154ab7bba35a258533624576ace369561239116e"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/asset-inventory.json",
+        "bytes": 1906,
+        "sha256": "65f8b355f18887c5ed41185c8b62725aad65d9ef4195e487db1b859411da7d6d"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/asset-inventory.json",
+        "bytes": 1906,
+        "sha256": "65f8b355f18887c5ed41185c8b62725aad65d9ef4195e487db1b859411da7d6d"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/design-report.md",
+        "bytes": 4876,
+        "sha256": "b2f7759ead8ee15efd69712743b524e5096f3414546ba73ca5b3da40f86d8767"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate3-v0.1/design-report.md",
+        "bytes": 4876,
+        "sha256": "b2f7759ead8ee15efd69712743b524e5096f3414546ba73ca5b3da40f86d8767"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/APP-PLAS_GATE3_EXECUTION_SELF_CHECK_V0.1.md",
+        "bytes": 5689,
+        "sha256": "5f3660fe91770ac1c754c0fc0db86167b60324d632cb950cf1d460740db81519"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/APP-PLAS_GATE3_EXECUTION_SELF_CHECK_V0.1.md",
+        "bytes": 5689,
+        "sha256": "5f3660fe91770ac1c754c0fc0db86167b60324d632cb950cf1d460740db81519"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/APP-PLAS_GATE3_PROJECT_CONTROL_REVIEW_V0.1.md",
+        "bytes": 5165,
+        "sha256": "ec3997108b7f645389637e8196f02a2f1b8510511f2abf7e363951efa375eaf9"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/APP-PLAS_GATE3_PROJECT_CONTROL_REVIEW_V0.1.md",
+        "bytes": 5165,
+        "sha256": "ec3997108b7f645389637e8196f02a2f1b8510511f2abf7e363951efa375eaf9"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/APP-PLAS_GATE3_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+        "bytes": 1769,
+        "sha256": "b7275c79f7e2a8fe6130993e0daa564febb19442f12ab819b51e94fd8c35e7ad"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/APP-PLAS_GATE3_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+        "bytes": 1769,
+        "sha256": "b7275c79f7e2a8fe6130993e0daa564febb19442f12ab819b51e94fd8c35e7ad"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/APP-PLAS_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+        "bytes": 2147,
+        "sha256": "cacacb833f90433fe9bb83f8334b94cd77e024246bb0e16e3decde66b623d260"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/APP-PLAS_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+        "bytes": 2147,
+        "sha256": "cacacb833f90433fe9bb83f8334b94cd77e024246bb0e16e3decde66b623d260"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md",
+        "bytes": 5327,
+        "sha256": "9b01c3d086bcbed5cb3de2ed74ee997fc671fe21b055f458ac0b8301d99127d1"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md",
+        "bytes": 5327,
+        "sha256": "9b01c3d086bcbed5cb3de2ed74ee997fc671fe21b055f458ac0b8301d99127d1"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+        "bytes": 4266,
+        "sha256": "14364f8c3ef8010dbb6449f906d5c82fb317bbfbd3ec1926b42bed81c84f8f1c"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+        "bytes": 4266,
+        "sha256": "14364f8c3ef8010dbb6449f906d5c82fb317bbfbd3ec1926b42bed81c84f8f1c"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/SHARED-CONSENT_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md",
+        "bytes": 1051,
+        "sha256": "be03ef117b2f3f575aa59964d80c10b6b223fc5d1748a6bf7cedf08205bad659"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/SHARED-CONSENT_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md",
+        "bytes": 1051,
+        "sha256": "be03ef117b2f3f575aa59964d80c10b6b223fc5d1748a6bf7cedf08205bad659"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "pass": true
+    },
+    {
+      "declared": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "pass": true
+    }
+  ],
+  "binding_checks": [
+    {
+      "name": "source",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 43487,
+        "sha256": "fd61a0b74f81c094af4193dcd323cb6f4965321ff453039e0b7bd58c6891e6f9"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 43487,
+        "sha256": "fd61a0b74f81c094af4193dcd323cb6f4965321ff453039e0b7bd58c6891e6f9"
+      },
+      "pass": true
+    },
+    {
+      "name": "input_index",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_INPUT_INDEX_V0.2.json",
+        "bytes": 13209,
+        "sha256": "4239e0ebfa90089ae1da9b041ab45ecee408af14fac5b8ac0069fbe6e2a11d9a"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_INPUT_INDEX_V0.2.json",
+        "bytes": 13209,
+        "sha256": "4239e0ebfa90089ae1da9b041ab45ecee408af14fac5b8ac0069fbe6e2a11d9a"
+      },
+      "pass": true
+    },
+    {
+      "name": "workset",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_WORKSET_V0.2.json",
+        "bytes": 2227,
+        "sha256": "1f99aade07373e125854bc5545d6cbb76e2ec83180a08738713052fd8f6b057c"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_WORKSET_V0.2.json",
+        "bytes": 2227,
+        "sha256": "1f99aade07373e125854bc5545d6cbb76e2ec83180a08738713052fd8f6b057c"
+      },
+      "pass": true
+    },
+    {
+      "name": "preflight",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_PREFLIGHT_RECORD_V0.2.json",
+        "bytes": 1822,
+        "sha256": "68e5535a1644c44803b5517ba74807e26322f1acc72721d0b12328632ea6d4ec"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_PREFLIGHT_RECORD_V0.2.json",
+        "bytes": 1822,
+        "sha256": "68e5535a1644c44803b5517ba74807e26322f1acc72721d0b12328632ea6d4ec"
+      },
+      "pass": true
+    },
+    {
+      "name": "regression",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/diagnostic_support/three-viewport-regression.json",
+        "bytes": 83541,
+        "sha256": "b503fc1cd5effe84f7eb653ae359f5ae0076e6e0a885a3c699ee5ac8524eaab7"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/diagnostic_support/three-viewport-regression.json",
+        "bytes": 83541,
+        "sha256": "b503fc1cd5effe84f7eb653ae359f5ae0076e6e0a885a3c699ee5ac8524eaab7"
+      },
+      "pass": true
+    },
+    {
+      "name": "metadata_readback",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/diagnostic_support/image-metadata-readback.json",
+        "bytes": 44469,
+        "sha256": "fccc5ba32bcc52e9412ca521cc7a93ca8b706711bff6e442e8225e5cd5a5cc08"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/diagnostic_support/image-metadata-readback.json",
+        "bytes": 44469,
+        "sha256": "fccc5ba32bcc52e9412ca521cc7a93ca8b706711bff6e442e8225e5cd5a5cc08"
+      },
+      "pass": true
+    },
+    {
+      "name": "predecessor_freeze",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_FREEZE_RECORD_V0.1.json",
+        "bytes": 4603,
+        "sha256": "d685eaf70e4bf781924a19c11e28751e26b2c7c2805476eab9e195a2304faa89"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_FREEZE_RECORD_V0.1.json",
+        "bytes": 4603,
+        "sha256": "d685eaf70e4bf781924a19c11e28751e26b2c7c2805476eab9e195a2304faa89"
+      },
+      "pass": true
+    },
+    {
+      "name": "predecessor_evidence_index",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_EVIDENCE_INDEX_V0.1.json",
+        "bytes": 53704,
+        "sha256": "5239d64dcf6db4ece3b8647c7247ca209688eec8443037e330293db002746ecd"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_EVIDENCE_INDEX_V0.1.json",
+        "bytes": 53704,
+        "sha256": "5239d64dcf6db4ece3b8647c7247ca209688eec8443037e330293db002746ecd"
+      },
+      "pass": true
+    },
+    {
+      "name": "predecessor_failed_review",
+      "declared": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.1/REVIEW.md",
+        "bytes": 8522,
+        "sha256": "77462b8743744fbe1a1386192264638398bd6b6aa7715fdce78887176a6074ca"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.1/REVIEW.md",
+        "bytes": 8522,
+        "sha256": "77462b8743744fbe1a1386192264638398bd6b6aa7715fdce78887176a6074ca"
+      },
+      "pass": true
+    }
+  ],
+  "image_checks": [
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_1440_FULL_V0.1.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_1440_FULL_V0.1.png",
+          "bytes": 1523744,
+          "sha256": "bf670f9a25cd295f301e2f8e958e40068ac229fc87ef921f8324bb76cbc8af4a",
+          "classification": "STATIC_VISUAL",
+          "role": "approval_core",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 9299,
+          "dpr": 1,
+          "state": "FULL",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_1440_FULL_V0.1.png",
+          "bytes": 1523744,
+          "sha256": "bf670f9a25cd295f301e2f8e958e40068ac229fc87ef921f8324bb76cbc8af4a"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        9299
+      ],
+      "declared_dimensions": [
+        1440,
+        9299
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-01.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-01.png",
+          "bytes": 333191,
+          "sha256": "a272a9b8dc3922ffc0ee823950e9f92e9738d38dbc14d706e9aa21905dcda011",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-01.png",
+          "bytes": 333191,
+          "sha256": "a272a9b8dc3922ffc0ee823950e9f92e9738d38dbc14d706e9aa21905dcda011"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-02.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-02.png",
+          "bytes": 119389,
+          "sha256": "8ffe89ea48affa575ac932be03dfdf583f4a426c3953d5624c6c6e8460992c65",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 750,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-02.png",
+          "bytes": 119389,
+          "sha256": "8ffe89ea48affa575ac932be03dfdf583f4a426c3953d5624c6c6e8460992c65"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-03.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-03.png",
+          "bytes": 124454,
+          "sha256": "ecf2e5a8a1acaa557e41f8a5a697abe3eff416182732d988361433b5906549a2",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 1500,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-03.png",
+          "bytes": 124454,
+          "sha256": "ecf2e5a8a1acaa557e41f8a5a697abe3eff416182732d988361433b5906549a2"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-04.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-04.png",
+          "bytes": 113879,
+          "sha256": "241ddb8f2a144f1101dfc70c51d1eaa2d1394c541430ba4559395cee79acbf32",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 2250,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-04.png",
+          "bytes": 113879,
+          "sha256": "241ddb8f2a144f1101dfc70c51d1eaa2d1394c541430ba4559395cee79acbf32"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-05.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-05.png",
+          "bytes": 131518,
+          "sha256": "749dcc99bcf1d1519697deeeecd7adf41412a4d944a2a9485a054b994c35c288",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 3000,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-05.png",
+          "bytes": 131518,
+          "sha256": "749dcc99bcf1d1519697deeeecd7adf41412a4d944a2a9485a054b994c35c288"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-06.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-06.png",
+          "bytes": 101056,
+          "sha256": "4072d5db4f53a2fdfbe88be9843a6d7a3ebd3bebb36fdfd54bc4bb986a8a50fc",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 3750,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-06.png",
+          "bytes": 101056,
+          "sha256": "4072d5db4f53a2fdfbe88be9843a6d7a3ebd3bebb36fdfd54bc4bb986a8a50fc"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-07.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-07.png",
+          "bytes": 112225,
+          "sha256": "d45f555cbde546ef1c36a79aa495b886c4269d72635b2a65bf8b7ff6d71d5919",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 4500,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-07.png",
+          "bytes": 112225,
+          "sha256": "d45f555cbde546ef1c36a79aa495b886c4269d72635b2a65bf8b7ff6d71d5919"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-08.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-08.png",
+          "bytes": 110792,
+          "sha256": "555f9ad5c23de4c64bfb839c8735aa284edbf17bacf12529a699903bfa0f7c9b",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 5250,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-08.png",
+          "bytes": 110792,
+          "sha256": "555f9ad5c23de4c64bfb839c8735aa284edbf17bacf12529a699903bfa0f7c9b"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-09.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-09.png",
+          "bytes": 86423,
+          "sha256": "a8b370175f53e94e79a075bf74d1261c00310b21440d9ee01bd0aa4390ef13ac",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 6000,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-09.png",
+          "bytes": 86423,
+          "sha256": "a8b370175f53e94e79a075bf74d1261c00310b21440d9ee01bd0aa4390ef13ac"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-10.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-10.png",
+          "bytes": 117520,
+          "sha256": "5f16da892d3fb541114457c4b32a1b562a54db4de56b9b12c2e8eb84ee1820d1",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 6750,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-10.png",
+          "bytes": 117520,
+          "sha256": "5f16da892d3fb541114457c4b32a1b562a54db4de56b9b12c2e8eb84ee1820d1"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-11.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-11.png",
+          "bytes": 202911,
+          "sha256": "64a1c1f5340d70a99d4f51b14f52a5922de3de35b1803aa2a70c02e329f2759d",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 7500,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-11.png",
+          "bytes": 202911,
+          "sha256": "64a1c1f5340d70a99d4f51b14f52a5922de3de35b1803aa2a70c02e329f2759d"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-12.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-12.png",
+          "bytes": 154177,
+          "sha256": "253bd83b62740097dd61f2e6c6aed1098d43210dc310e893ec5b46bf7f3726a2",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 8250,
+            "width": 1440,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-12.png",
+          "bytes": 154177,
+          "sha256": "253bd83b62740097dd61f2e6c6aed1098d43210dc310e893ec5b46bf7f3726a2"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-13.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-13.png",
+          "bytes": 16454,
+          "sha256": "ea22a00be40a38341a8bb1021e17bab3dd76b568fd6922f52b3ecba8c5a19171",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 299,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 9000,
+            "width": 1440,
+            "height": 299
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/1440-segment-13.png",
+          "bytes": 16454,
+          "sha256": "ea22a00be40a38341a8bb1021e17bab3dd76b568fd6922f52b3ecba8c5a19171"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        299
+      ],
+      "declared_dimensions": [
+        1440,
+        299
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/1440-direction-risk.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/1440-direction-risk.png",
+          "bytes": 274307,
+          "sha256": "9c629144f6db9e223684bb8a663c7f384532681592cac8c7634b67af5778225b",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 520,
+          "dpr": 1,
+          "state": "DIRECTION_SAMPLE",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/1440-direction-risk.png",
+          "bytes": 274307,
+          "sha256": "9c629144f6db9e223684bb8a663c7f384532681592cac8c7634b67af5778225b"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        520
+      ],
+      "declared_dimensions": [
+        1440,
+        520
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/1440-grade-path-context.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/1440-grade-path-context.png",
+          "bytes": 74057,
+          "sha256": "4a2dfafc4a4db653b9bcee46c6cfe5bdfba4485ccdd7578b17660a819e768f3a",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 727,
+          "dpr": 1,
+          "state": "GRADE_PATH_CONTEXT",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/1440-grade-path-context.png",
+          "bytes": 74057,
+          "sha256": "4a2dfafc4a4db653b9bcee46c6cfe5bdfba4485ccdd7578b17660a819e768f3a"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        727
+      ],
+      "declared_dimensions": [
+        1440,
+        727
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-normal.png",
+          "bytes": 20033,
+          "sha256": "dedd749d5f9b3398102d67573b1a350a4122f3e49436f89fc43b2ccb45e4f4cf",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "NORMAL",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 1004,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-normal.png",
+          "bytes": 20033,
+          "sha256": "dedd749d5f9b3398102d67573b1a350a4122f3e49436f89fc43b2ccb45e4f4cf"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1004,
+        124
+      ],
+      "declared_dimensions": [
+        1004,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-hover.png",
+          "bytes": 20210,
+          "sha256": "0f9029c5d791751ad7883ea1a8969c540e89ffb5c0872f26baa303772d71d163",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "HOVER",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 1004,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-hover.png",
+          "bytes": 20210,
+          "sha256": "0f9029c5d791751ad7883ea1a8969c540e89ffb5c0872f26baa303772d71d163"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1004,
+        124
+      ],
+      "declared_dimensions": [
+        1004,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-focus.png",
+          "bytes": 20178,
+          "sha256": "9eb3f361e8f372bf1603ae5c4a2e56c3d49df5aad37fbed4f2aff33d92dad730",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "FOCUS",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 1004,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-masterbatch-owner-focus.png",
+          "bytes": 20178,
+          "sha256": "9eb3f361e8f372bf1603ae5c4a2e56c3d49df5aad37fbed4f2aff33d92dad730"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1004,
+        124
+      ],
+      "declared_dimensions": [
+        1004,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-normal.png",
+          "bytes": 4216,
+          "sha256": "dd5c76a5cee1a5c4dcf72248e310df14feb1b1bc83ba2c2472da4c44b0074f55",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "NORMAL",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 742,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-normal.png",
+          "bytes": 4216,
+          "sha256": "dd5c76a5cee1a5c4dcf72248e310df14feb1b1bc83ba2c2472da4c44b0074f55"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        742,
+        124
+      ],
+      "declared_dimensions": [
+        742,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-hover.png",
+          "bytes": 4226,
+          "sha256": "6908eb41b968dee1d116db1fb5615e18b1ccd7163758c8f8f4da5279b6a11543",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "HOVER",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 742,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-hover.png",
+          "bytes": 4226,
+          "sha256": "6908eb41b968dee1d116db1fb5615e18b1ccd7163758c8f8f4da5279b6a11543"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        742,
+        124
+      ],
+      "declared_dimensions": [
+        742,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-focus.png",
+          "bytes": 4146,
+          "sha256": "3af2fc0759b89de7e95ea3147e169853c0f28ddb078149af8cc96ef9c86b3e68",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "FOCUS",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 742,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-grade-m2377-focus.png",
+          "bytes": 4146,
+          "sha256": "3af2fc0759b89de7e95ea3147e169853c0f28ddb078149af8cc96ef9c86b3e68"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        742,
+        124
+      ],
+      "declared_dimensions": [
+        742,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-normal.png",
+          "bytes": 8847,
+          "sha256": "4d1486d2d9c2fd6571de8dc9df85746973344272a74a9bec85dd61575bef3cce",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "NORMAL",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 410,
+          "physical_height": 127,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-normal.png",
+          "bytes": 8847,
+          "sha256": "4d1486d2d9c2fd6571de8dc9df85746973344272a74a9bec85dd61575bef3cce"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        410,
+        127
+      ],
+      "declared_dimensions": [
+        410,
+        127
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-hover.png",
+          "bytes": 8861,
+          "sha256": "b3f8613f365ff71426691c9f45d6e23e195a4106c167c39f697ad51c548d95d2",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "HOVER",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 410,
+          "physical_height": 127,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-hover.png",
+          "bytes": 8861,
+          "sha256": "b3f8613f365ff71426691c9f45d6e23e195a4106c167c39f697ad51c548d95d2"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        410,
+        127
+      ],
+      "declared_dimensions": [
+        410,
+        127
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-focus.png",
+          "bytes": 8801,
+          "sha256": "fcc529343d4b73cc35213272f82aa6797577527eb343e6868fcaf605869bb82e",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "FOCUS",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 410,
+          "physical_height": 127,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-focus.png",
+          "bytes": 8801,
+          "sha256": "fcc529343d4b73cc35213272f82aa6797577527eb343e6868fcaf605869bb82e"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        410,
+        127
+      ],
+      "declared_dimensions": [
+        410,
+        127
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_1440_COOKIE_V0.1.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_1440_COOKIE_V0.1.png",
+          "bytes": 139642,
+          "sha256": "baaed9018e99c08b9344a62202a158d7c8d6fd779940f07cd33d9877997118ed",
+          "classification": "STATIC_VISUAL",
+          "role": "approval_core",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "COOKIE",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_1440_COOKIE_V0.1.png",
+          "bytes": 139642,
+          "sha256": "baaed9018e99c08b9344a62202a158d7c8d6fd779940f07cd33d9877997118ed"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        1440,
+        900
+      ],
+      "declared_dimensions": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_FULL_V0.1.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_FULL_V0.1.png",
+          "bytes": 1387486,
+          "sha256": "f8169ee7033a69c327a90808ba6c9b18e826046bd433fcbdc0a0d9dc819b4d5a",
+          "classification": "STATIC_VISUAL",
+          "role": "approval_core",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 11310,
+          "dpr": 1,
+          "state": "FULL",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_FULL_V0.1.png",
+          "bytes": 1387486,
+          "sha256": "f8169ee7033a69c327a90808ba6c9b18e826046bd433fcbdc0a0d9dc819b4d5a"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        11310
+      ],
+      "declared_dimensions": [
+        768,
+        11310
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-01.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-01.png",
+          "bytes": 237721,
+          "sha256": "9ec99fc29fe7b020bdb9cec37199f22f13436637e8af6605c58c4e32b8730015",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-01.png",
+          "bytes": 237721,
+          "sha256": "9ec99fc29fe7b020bdb9cec37199f22f13436637e8af6605c58c4e32b8730015"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-02.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-02.png",
+          "bytes": 104490,
+          "sha256": "d885b69283c4c11d6857d260c6b585804002af9c0ca12af93525b71d63c4e113",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 750,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-02.png",
+          "bytes": 104490,
+          "sha256": "d885b69283c4c11d6857d260c6b585804002af9c0ca12af93525b71d63c4e113"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-03.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-03.png",
+          "bytes": 104536,
+          "sha256": "6405e2e8145a88b20faab44a3c49a0169d10692986966b4c4ed7a489f7107b71",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 1500,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-03.png",
+          "bytes": 104536,
+          "sha256": "6405e2e8145a88b20faab44a3c49a0169d10692986966b4c4ed7a489f7107b71"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-04.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-04.png",
+          "bytes": 103108,
+          "sha256": "dff4d5de68914a85fb93e438fe9a0693c6c394fbcc8ad572e808d4ae45c041b3",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 2250,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-04.png",
+          "bytes": 103108,
+          "sha256": "dff4d5de68914a85fb93e438fe9a0693c6c394fbcc8ad572e808d4ae45c041b3"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-05.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-05.png",
+          "bytes": 123334,
+          "sha256": "30a0afb151e351e5d788387b154cd0645aa73ac2d81bb2511eb40ad20c1c0833",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 3000,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-05.png",
+          "bytes": 123334,
+          "sha256": "30a0afb151e351e5d788387b154cd0645aa73ac2d81bb2511eb40ad20c1c0833"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-06.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-06.png",
+          "bytes": 96752,
+          "sha256": "993e3b5afcd3a0ef6fb997bb63f28fdcdc05253eb0026174095dc341d2327e85",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 3750,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-06.png",
+          "bytes": 96752,
+          "sha256": "993e3b5afcd3a0ef6fb997bb63f28fdcdc05253eb0026174095dc341d2327e85"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-07.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-07.png",
+          "bytes": 95067,
+          "sha256": "113ae517241e5a224eaf78aebe333df540ed74ec8339a716e990b38ee4dcdab4",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 4500,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-07.png",
+          "bytes": 95067,
+          "sha256": "113ae517241e5a224eaf78aebe333df540ed74ec8339a716e990b38ee4dcdab4"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-08.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-08.png",
+          "bytes": 106194,
+          "sha256": "d2088cfb9fffb8121d511d930a6788e1bc1f8e22b05df3521d0e51c89ced5ed7",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 5250,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-08.png",
+          "bytes": 106194,
+          "sha256": "d2088cfb9fffb8121d511d930a6788e1bc1f8e22b05df3521d0e51c89ced5ed7"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-09.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-09.png",
+          "bytes": 89418,
+          "sha256": "5a62dc228ba6878241f575722a1edead850f90972bc01357f59838d0b23de611",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 6000,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-09.png",
+          "bytes": 89418,
+          "sha256": "5a62dc228ba6878241f575722a1edead850f90972bc01357f59838d0b23de611"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-10.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-10.png",
+          "bytes": 89069,
+          "sha256": "8e4a653f0790fd75b9d1ffa747c941d7ef8dc458eb91b932460e3aaf9954c881",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 6750,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-10.png",
+          "bytes": 89069,
+          "sha256": "8e4a653f0790fd75b9d1ffa747c941d7ef8dc458eb91b932460e3aaf9954c881"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-11.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-11.png",
+          "bytes": 97135,
+          "sha256": "c95b901616206c2168cd78547ac1ced98e60f5a21791c8333f202252ea13e1c8",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 7500,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-11.png",
+          "bytes": 97135,
+          "sha256": "c95b901616206c2168cd78547ac1ced98e60f5a21791c8333f202252ea13e1c8"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-12.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-12.png",
+          "bytes": 108613,
+          "sha256": "99139dd18f472814f02ab9de3d36d4252dcec91f38bcf5afbf3b5b2d4eaa23b1",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 8250,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-12.png",
+          "bytes": 108613,
+          "sha256": "99139dd18f472814f02ab9de3d36d4252dcec91f38bcf5afbf3b5b2d4eaa23b1"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-13.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-13.png",
+          "bytes": 148653,
+          "sha256": "339d73be3dd2c3754d68f880dd136c7a2e9b82038521272d230088c57c3c14d6",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 9000,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-13.png",
+          "bytes": 148653,
+          "sha256": "339d73be3dd2c3754d68f880dd136c7a2e9b82038521272d230088c57c3c14d6"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-14.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-14.png",
+          "bytes": 122192,
+          "sha256": "00ab3e681bacdbd1454ad20c0dbca1ce2176f846a96fd37b04d136e7c751420d",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 9750,
+            "width": 768,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-14.png",
+          "bytes": 122192,
+          "sha256": "00ab3e681bacdbd1454ad20c0dbca1ce2176f846a96fd37b04d136e7c751420d"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-15.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-15.png",
+          "bytes": 40429,
+          "sha256": "92ea48ca2fc8141df9c220f6424ee2c33c57435f961b6cdf953096e9d4dfc199",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 810,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 10500,
+            "width": 768,
+            "height": 810
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-15.png",
+          "bytes": 40429,
+          "sha256": "92ea48ca2fc8141df9c220f6424ee2c33c57435f961b6cdf953096e9d4dfc199"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        810
+      ],
+      "declared_dimensions": [
+        768,
+        810
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-16.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-16.png",
+          "bytes": 3441,
+          "sha256": "4ac5c9f035b0f3245fd54b7a38ea5e905d9bc62e26f45e678c3e6e722d6c9702",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 60,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 11250,
+            "width": 768,
+            "height": 60
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/768-segment-16.png",
+          "bytes": 3441,
+          "sha256": "4ac5c9f035b0f3245fd54b7a38ea5e905d9bc62e26f45e678c3e6e722d6c9702"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        60
+      ],
+      "declared_dimensions": [
+        768,
+        60
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/768-direction-risk.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/768-direction-risk.png",
+          "bytes": 102411,
+          "sha256": "ece9730defa9e54d41317cede5dc886ebb5b092d0e7af0decf4a809da486bd88",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "DIRECTION_SAMPLE",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/768-direction-risk.png",
+          "bytes": 102411,
+          "sha256": "ece9730defa9e54d41317cede5dc886ebb5b092d0e7af0decf4a809da486bd88"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/768-grade-path-context.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/768-grade-path-context.png",
+          "bytes": 68978,
+          "sha256": "5d07dd3e999e826fa4999b39b3fbd7ab8b2accef1ebcc8e6f3a0e61b4878c3d3",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 747,
+          "dpr": 1,
+          "state": "GRADE_PATH_CONTEXT",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/768-grade-path-context.png",
+          "bytes": 68978,
+          "sha256": "5d07dd3e999e826fa4999b39b3fbd7ab8b2accef1ebcc8e6f3a0e61b4878c3d3"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        747
+      ],
+      "declared_dimensions": [
+        768,
+        747
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-normal.png",
+          "bytes": 19511,
+          "sha256": "a2c152363cf90f8612062c5a15aad5453acb6558896daf7234edf486668aba93",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "NORMAL",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 649,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-normal.png",
+          "bytes": 19511,
+          "sha256": "a2c152363cf90f8612062c5a15aad5453acb6558896daf7234edf486668aba93"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        649,
+        124
+      ],
+      "declared_dimensions": [
+        649,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-hover.png",
+          "bytes": 19751,
+          "sha256": "3516eb1afabd28f7bcb78b58781e9e2d5a20e2625c187ba6fcaf95b8e87f28a9",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "HOVER",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 649,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-hover.png",
+          "bytes": 19751,
+          "sha256": "3516eb1afabd28f7bcb78b58781e9e2d5a20e2625c187ba6fcaf95b8e87f28a9"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        649,
+        124
+      ],
+      "declared_dimensions": [
+        649,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-focus.png",
+          "bytes": 19655,
+          "sha256": "9f4e15c52263a1868eb9a981bbab6e419f8e3311cd4d4166812fff08586ab13a",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "FOCUS",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 649,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-masterbatch-owner-focus.png",
+          "bytes": 19655,
+          "sha256": "9f4e15c52263a1868eb9a981bbab6e419f8e3311cd4d4166812fff08586ab13a"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        649,
+        124
+      ],
+      "declared_dimensions": [
+        649,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-normal.png",
+          "bytes": 3999,
+          "sha256": "749d0decfcad8b0e80766a6f1d7cdd5a11eb55cfb8f91181d267118f5eccd20f",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "NORMAL",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 445,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-normal.png",
+          "bytes": 3999,
+          "sha256": "749d0decfcad8b0e80766a6f1d7cdd5a11eb55cfb8f91181d267118f5eccd20f"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        445,
+        124
+      ],
+      "declared_dimensions": [
+        445,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-hover.png",
+          "bytes": 4010,
+          "sha256": "4cc1fcd269c14bd079a7159e504b17e82af7124e8bdfab64f1c0c1fdefdf2c87",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "HOVER",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 445,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-hover.png",
+          "bytes": 4010,
+          "sha256": "4cc1fcd269c14bd079a7159e504b17e82af7124e8bdfab64f1c0c1fdefdf2c87"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        445,
+        124
+      ],
+      "declared_dimensions": [
+        445,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-focus.png",
+          "bytes": 3971,
+          "sha256": "27dcaf5463e6d3c47497dd15c307905d8fc90071af3a0f9919a3f73d8bafc719",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "FOCUS",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 445,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-grade-m2377-focus.png",
+          "bytes": 3971,
+          "sha256": "27dcaf5463e6d3c47497dd15c307905d8fc90071af3a0f9919a3f73d8bafc719"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        445,
+        124
+      ],
+      "declared_dimensions": [
+        445,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-normal.png",
+          "bytes": 11218,
+          "sha256": "28dd50964f81f00146c472c28c66f3387c876ca7876a71878ccad62d4a565fe2",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "NORMAL",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 728,
+          "physical_height": 127,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-normal.png",
+          "bytes": 11218,
+          "sha256": "28dd50964f81f00146c472c28c66f3387c876ca7876a71878ccad62d4a565fe2"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        728,
+        127
+      ],
+      "declared_dimensions": [
+        728,
+        127
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-hover.png",
+          "bytes": 11231,
+          "sha256": "95350ae85921dbb8ab223176b9dda99104616cb78f34ee0dde59c97f7e06db6e",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "HOVER",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 728,
+          "physical_height": 127,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-hover.png",
+          "bytes": 11231,
+          "sha256": "95350ae85921dbb8ab223176b9dda99104616cb78f34ee0dde59c97f7e06db6e"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        728,
+        127
+      ],
+      "declared_dimensions": [
+        728,
+        127
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-focus.png",
+          "bytes": 11150,
+          "sha256": "c7f92b337d044a15c0a0ebcb799dca0ce51888ad2c366963997c571a88c8cf29",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "FOCUS",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 728,
+          "physical_height": 127,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-focus.png",
+          "bytes": 11150,
+          "sha256": "c7f92b337d044a15c0a0ebcb799dca0ce51888ad2c366963997c571a88c8cf29"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        728,
+        127
+      ],
+      "declared_dimensions": [
+        728,
+        127
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_MENU_V0.1.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_MENU_V0.1.png",
+          "bytes": 74555,
+          "sha256": "00a335456dcdad6d6265e431fa84bdefc26c53531a12c4649ef514126509b6f2",
+          "classification": "STATIC_VISUAL",
+          "role": "approval_core",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "MENU",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_MENU_V0.1.png",
+          "bytes": 74555,
+          "sha256": "00a335456dcdad6d6265e431fa84bdefc26c53531a12c4649ef514126509b6f2"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_COOKIE_V0.1.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_COOKIE_V0.1.png",
+          "bytes": 67771,
+          "sha256": "494a8b39e5a927a09bfdef7439c5032d41b797f68052e1674e73b57fd325fbd4",
+          "classification": "STATIC_VISUAL",
+          "role": "approval_core",
+          "logical_width": 768,
+          "physical_width": 768,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "COOKIE",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_768_COOKIE_V0.1.png",
+          "bytes": 67771,
+          "sha256": "494a8b39e5a927a09bfdef7439c5032d41b797f68052e1674e73b57fd325fbd4"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        768,
+        900
+      ],
+      "declared_dimensions": [
+        768,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_FULL_V0.1.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_FULL_V0.1.png",
+          "bytes": 1375224,
+          "sha256": "f574aa5b2b3067c49c4bc1c3a15087c753a49c4d883527fa03625e3a64c1946d",
+          "classification": "STATIC_VISUAL",
+          "role": "approval_core",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 16131,
+          "dpr": 1,
+          "state": "FULL",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_FULL_V0.1.png",
+          "bytes": 1375224,
+          "sha256": "f574aa5b2b3067c49c4bc1c3a15087c753a49c4d883527fa03625e3a64c1946d"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        16131
+      ],
+      "declared_dimensions": [
+        390,
+        16131
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-01.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-01.png",
+          "bytes": 177471,
+          "sha256": "9d3ca9f35a282ddcdd4b5e159760b1b52ea9bd4e7db574caf11f7a332e07e6ef",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-01.png",
+          "bytes": 177471,
+          "sha256": "9d3ca9f35a282ddcdd4b5e159760b1b52ea9bd4e7db574caf11f7a332e07e6ef"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-02.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-02.png",
+          "bytes": 84323,
+          "sha256": "8f38ecb0a68e85fe113f66ed91648fedb82e1d0259976e7dc0af0ca994cd8203",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 750,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-02.png",
+          "bytes": 84323,
+          "sha256": "8f38ecb0a68e85fe113f66ed91648fedb82e1d0259976e7dc0af0ca994cd8203"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-03.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-03.png",
+          "bytes": 74065,
+          "sha256": "44f1517fba24bd843380db3595c69ff572c780edbe15a32b40cfaed7c9a83fe1",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 1500,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-03.png",
+          "bytes": 74065,
+          "sha256": "44f1517fba24bd843380db3595c69ff572c780edbe15a32b40cfaed7c9a83fe1"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-04.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-04.png",
+          "bytes": 72007,
+          "sha256": "1a4f06f17bb8023b37492e343161a0c04100614357032ab9325c70460247368f",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 2250,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-04.png",
+          "bytes": 72007,
+          "sha256": "1a4f06f17bb8023b37492e343161a0c04100614357032ab9325c70460247368f"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-05.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-05.png",
+          "bytes": 70577,
+          "sha256": "012b383db112e112a804378ecfac7dc4f0b0d9c76148a4e88af02a7d55148c5d",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 3000,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-05.png",
+          "bytes": 70577,
+          "sha256": "012b383db112e112a804378ecfac7dc4f0b0d9c76148a4e88af02a7d55148c5d"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-06.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-06.png",
+          "bytes": 67286,
+          "sha256": "ad8a0bc2fcff5876c54bac1c049d924aa3014ae32572eaa2496aaeeb661b9ab9",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 3750,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-06.png",
+          "bytes": 67286,
+          "sha256": "ad8a0bc2fcff5876c54bac1c049d924aa3014ae32572eaa2496aaeeb661b9ab9"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-07.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-07.png",
+          "bytes": 79229,
+          "sha256": "06e15ef194b4d8f79fb9a54ed026f05ea775097328cc7029157ee1c3589d1883",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 4500,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-07.png",
+          "bytes": 79229,
+          "sha256": "06e15ef194b4d8f79fb9a54ed026f05ea775097328cc7029157ee1c3589d1883"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-08.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-08.png",
+          "bytes": 76055,
+          "sha256": "4a19a423462b49989f94c4e6e2ce4d8a7b4a0e59a9ae01f589dfb4da81c7e2fa",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 5250,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-08.png",
+          "bytes": 76055,
+          "sha256": "4a19a423462b49989f94c4e6e2ce4d8a7b4a0e59a9ae01f589dfb4da81c7e2fa"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-09.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-09.png",
+          "bytes": 69448,
+          "sha256": "8116081e712ecd615d65baad6e17b8b85a13530b3e809c36b93765670e07954c",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 6000,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-09.png",
+          "bytes": 69448,
+          "sha256": "8116081e712ecd615d65baad6e17b8b85a13530b3e809c36b93765670e07954c"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-10.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-10.png",
+          "bytes": 58276,
+          "sha256": "b372b49f600c88e3cef12b39b6996921a31c4de518d5612b28ee17ebe67a59e7",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 6750,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-10.png",
+          "bytes": 58276,
+          "sha256": "b372b49f600c88e3cef12b39b6996921a31c4de518d5612b28ee17ebe67a59e7"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-11.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-11.png",
+          "bytes": 61268,
+          "sha256": "272a4d030a54ac7b2eb4ea3db9f10f38df2d99f40bd088b920a85b12f381be4e",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 7500,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-11.png",
+          "bytes": 61268,
+          "sha256": "272a4d030a54ac7b2eb4ea3db9f10f38df2d99f40bd088b920a85b12f381be4e"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-12.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-12.png",
+          "bytes": 69926,
+          "sha256": "6df2b144b70cfe419482eda8a939fb4180191047e92b39c911200671276d61c6",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 8250,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-12.png",
+          "bytes": 69926,
+          "sha256": "6df2b144b70cfe419482eda8a939fb4180191047e92b39c911200671276d61c6"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-13.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-13.png",
+          "bytes": 58786,
+          "sha256": "962e2f3087efd17fb13f06f29a22e2710743e217c664b3c2ab72f2278440cf36",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 9000,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-13.png",
+          "bytes": 58786,
+          "sha256": "962e2f3087efd17fb13f06f29a22e2710743e217c664b3c2ab72f2278440cf36"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-14.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-14.png",
+          "bytes": 50468,
+          "sha256": "67fc5d60a0622d5553e85df90425261d331c75918bfbf08877d12ae7de31a216",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 9750,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-14.png",
+          "bytes": 50468,
+          "sha256": "67fc5d60a0622d5553e85df90425261d331c75918bfbf08877d12ae7de31a216"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-15.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-15.png",
+          "bytes": 73544,
+          "sha256": "98ba9b5315783668d857b0c913dd11b2a977c32e23642d10215779d9d823f75b",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 10500,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-15.png",
+          "bytes": 73544,
+          "sha256": "98ba9b5315783668d857b0c913dd11b2a977c32e23642d10215779d9d823f75b"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-16.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-16.png",
+          "bytes": 67631,
+          "sha256": "5627841570e20130a8e4de3a1eafe7d299d7024956f0294ff819aef19f809a69",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 11250,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-16.png",
+          "bytes": 67631,
+          "sha256": "5627841570e20130a8e4de3a1eafe7d299d7024956f0294ff819aef19f809a69"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-17.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-17.png",
+          "bytes": 65987,
+          "sha256": "9ece80d99b423eefcc4c04f72e46f79a2fdf32806cd9cacaf8bd8543ee0fb2e6",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 12000,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-17.png",
+          "bytes": 65987,
+          "sha256": "9ece80d99b423eefcc4c04f72e46f79a2fdf32806cd9cacaf8bd8543ee0fb2e6"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-18.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-18.png",
+          "bytes": 89676,
+          "sha256": "c7cbc988cb646a8218bcc5ab8738210f8679b1cf49727f88a8876073e59a5fca",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 12750,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-18.png",
+          "bytes": 89676,
+          "sha256": "c7cbc988cb646a8218bcc5ab8738210f8679b1cf49727f88a8876073e59a5fca"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-19.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-19.png",
+          "bytes": 93661,
+          "sha256": "53a4a54c68ee6d948f7ec614d066006b908e4f3a7a114c47a4f5de1f620365c8",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 13500,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-19.png",
+          "bytes": 93661,
+          "sha256": "53a4a54c68ee6d948f7ec614d066006b908e4f3a7a114c47a4f5de1f620365c8"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-20.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-20.png",
+          "bytes": 91203,
+          "sha256": "df0a8020da726761109176916484953c01a216dbb11808f79027e30859fa7db8",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 14250,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-20.png",
+          "bytes": 91203,
+          "sha256": "df0a8020da726761109176916484953c01a216dbb11808f79027e30859fa7db8"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-21.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-21.png",
+          "bytes": 55987,
+          "sha256": "3b12d82012e64ea4ca7d1b0d2b3856fe0e41f042c365df519a14b48450bb9b0d",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 15000,
+            "width": 390,
+            "height": 900
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-21.png",
+          "bytes": 55987,
+          "sha256": "3b12d82012e64ea4ca7d1b0d2b3856fe0e41f042c365df519a14b48450bb9b0d"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-22.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-22.png",
+          "bytes": 16799,
+          "sha256": "98f411e7aee2cc89aa2a4975b5a55501dbefd34eabf2d1d842b5376fe893e2f4",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 381,
+          "dpr": 1,
+          "state": "CONTINUOUS_SEGMENT",
+          "clip": {
+            "x": 0,
+            "y": 15750,
+            "width": 390,
+            "height": 381
+          },
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/segments/390-segment-22.png",
+          "bytes": 16799,
+          "sha256": "98f411e7aee2cc89aa2a4975b5a55501dbefd34eabf2d1d842b5376fe893e2f4"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        381
+      ],
+      "declared_dimensions": [
+        390,
+        381
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/390-direction-risk.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/390-direction-risk.png",
+          "bytes": 69603,
+          "sha256": "f9e117cf9c4b590a8dced74f9b82fca3a69a6af0932af4344f727dcdb17b5853",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "DIRECTION_SAMPLE",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/direction-samples/390-direction-risk.png",
+          "bytes": 69603,
+          "sha256": "f9e117cf9c4b590a8dced74f9b82fca3a69a6af0932af4344f727dcdb17b5853"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/390-grade-path-context.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/390-grade-path-context.png",
+          "bytes": 14466,
+          "sha256": "7d4d0bd7b5b631857810d4c1aa4efb92e31650ead17208a491d6c81a3a5fdd47",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 269,
+          "dpr": 1,
+          "state": "GRADE_PATH_CONTEXT",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/390-grade-path-context.png",
+          "bytes": 14466,
+          "sha256": "7d4d0bd7b5b631857810d4c1aa4efb92e31650ead17208a491d6c81a3a5fdd47"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        269
+      ],
+      "declared_dimensions": [
+        390,
+        269
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-normal.png",
+          "bytes": 11921,
+          "sha256": "90edb9ca22647eef1c4b4607b8f09e69b8f24ad3d3a5c10fb744395ba21a45fd",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "NORMAL",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 323,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-normal.png",
+          "bytes": 11921,
+          "sha256": "90edb9ca22647eef1c4b4607b8f09e69b8f24ad3d3a5c10fb744395ba21a45fd"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        323,
+        124
+      ],
+      "declared_dimensions": [
+        323,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-hover.png",
+          "bytes": 12067,
+          "sha256": "04386c400051d54c8ef4374ccfe8bc457dd5805b111df27176eb0a9dcd5a146e",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "HOVER",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 323,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-hover.png",
+          "bytes": 12067,
+          "sha256": "04386c400051d54c8ef4374ccfe8bc457dd5805b111df27176eb0a9dcd5a146e"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        323,
+        124
+      ],
+      "declared_dimensions": [
+        323,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-focus.png",
+          "bytes": 12104,
+          "sha256": "6f66d0ae233936e6a83546f34277ea869f30b4591e4be836e9df76977aa7d7fd",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "FOCUS",
+          "target": "Titanium Dioxide for Masterbatch",
+          "opened": true,
+          "physical_width": 323,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-masterbatch-owner-focus.png",
+          "bytes": 12104,
+          "sha256": "6f66d0ae233936e6a83546f34277ea869f30b4591e4be836e9df76977aa7d7fd"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        323,
+        124
+      ],
+      "declared_dimensions": [
+        323,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-normal.png",
+          "bytes": 7102,
+          "sha256": "074fbd0f6314a03f34c9adfbf072a5b7f10d9ddec816282294c050e3f5a3f2fc",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "NORMAL",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 370,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-normal.png",
+          "bytes": 7102,
+          "sha256": "074fbd0f6314a03f34c9adfbf072a5b7f10d9ddec816282294c050e3f5a3f2fc"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        370,
+        124
+      ],
+      "declared_dimensions": [
+        370,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-hover.png",
+          "bytes": 7044,
+          "sha256": "2b8b0e183025135be5ae54748a0fc5b649a54000c92cc1beccc955d20e3e748c",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "HOVER",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 370,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-hover.png",
+          "bytes": 7044,
+          "sha256": "2b8b0e183025135be5ae54748a0fc5b649a54000c92cc1beccc955d20e3e748c"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        370,
+        124
+      ],
+      "declared_dimensions": [
+        370,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-focus.png",
+          "bytes": 7041,
+          "sha256": "d679ed5b1c7ce269bc8bc28f8e792c5b8ec457c310e6ee6e0aa218786429f5f0",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "FOCUS",
+          "target": "View M-2377",
+          "opened": true,
+          "physical_width": 370,
+          "physical_height": 124,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-grade-m2377-focus.png",
+          "bytes": 7041,
+          "sha256": "d679ed5b1c7ce269bc8bc28f8e792c5b8ec457c310e6ee6e0aa218786429f5f0"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        370,
+        124
+      ],
+      "declared_dimensions": [
+        370,
+        124
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-normal.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-normal.png",
+          "bytes": 7964,
+          "sha256": "15fd2fdca771940c6f0635f376108a8914f096b4b4d2dbe03acfe5f115ff483a",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "NORMAL",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 374,
+          "physical_height": 125,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-normal.png",
+          "bytes": 7964,
+          "sha256": "15fd2fdca771940c6f0635f376108a8914f096b4b4d2dbe03acfe5f115ff483a"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        374,
+        125
+      ],
+      "declared_dimensions": [
+        374,
+        125
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-hover.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-hover.png",
+          "bytes": 8018,
+          "sha256": "27a7d0b2a75f097e74467304cc8ecf0b92e18a4da12c8672235bee379ae760c4",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "HOVER",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 374,
+          "physical_height": 125,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-hover.png",
+          "bytes": 8018,
+          "sha256": "27a7d0b2a75f097e74467304cc8ecf0b92e18a4da12c8672235bee379ae760c4"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        374,
+        125
+      ],
+      "declared_dimensions": [
+        374,
+        125
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-focus.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-focus.png",
+          "bytes": 7981,
+          "sha256": "9b2030fed94f3e9de631dbf0f6daaf90bdbbe08ceb081eb6592d86e77446346e",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "FOCUS",
+          "target": "Request Documents",
+          "opened": true,
+          "physical_width": 374,
+          "physical_height": 125,
+          "dpr": 1
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-focus.png",
+          "bytes": 7981,
+          "sha256": "9b2030fed94f3e9de631dbf0f6daaf90bdbbe08ceb081eb6592d86e77446346e"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        374,
+        125
+      ],
+      "declared_dimensions": [
+        374,
+        125
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_MENU_V0.1.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_MENU_V0.1.png",
+          "bytes": 75561,
+          "sha256": "6991ee0619f7552d389eb7cb9ce4c5adb83422ba6a9ff1e4eb20fce769f1ad24",
+          "classification": "STATIC_VISUAL",
+          "role": "approval_core",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "MENU",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_MENU_V0.1.png",
+          "bytes": 75561,
+          "sha256": "6991ee0619f7552d389eb7cb9ce4c5adb83422ba6a9ff1e4eb20fce769f1ad24"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_COOKIE_V0.1.png",
+      "file_identity": {
+        "declared": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_COOKIE_V0.1.png",
+          "bytes": 50261,
+          "sha256": "8ca426a9a5a58e4f61dffead9d6a44cf83044526382a6bfc5acb4f42bcc0941b",
+          "classification": "STATIC_VISUAL",
+          "role": "approval_core",
+          "logical_width": 390,
+          "physical_width": 390,
+          "physical_height": 900,
+          "dpr": 1,
+          "state": "COOKIE",
+          "opened": true
+        },
+        "actual": {
+          "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/approval_core/APP-PLAS_GATE4_390_COOKIE_V0.1.png",
+          "bytes": 50261,
+          "sha256": "8ca426a9a5a58e4f61dffead9d6a44cf83044526382a6bfc5acb4f42bcc0941b"
+        },
+        "pass": true
+      },
+      "decoded_dimensions": [
+        390,
+        900
+      ],
+      "declared_dimensions": [
+        390,
+        900
+      ],
+      "dpr": 1,
+      "fields_complete": true,
+      "decode_error": null,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "status": "PASS"
+}

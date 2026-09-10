@@ -1,0 +1,236 @@
+{
+  "copy_units": 118,
+  "copy_missing_after_inline_whitespace_normalization": [],
+  "normalization_resolution": "Initial six nonmatches came from BeautifulSoup inserting spaces between inline elements and punctuation; normalize those spaces only, retaining words, punctuation, values and link labels. Full visual reading separately completed.",
+  "keyboard_resolution": "Initial immediate 768 menu sample reported false after Escape from Cookie; isolated diagnostic, including condition-based wait and event trace, returned true in both immediate and settled runs. No persistent candidate defect reproduced. Do not treat initial sample as a page fix; original diagnostic retained.",
+  "keyboard_diagnostic": [
+    {
+      "mode": "immediate",
+      "menu_open": true,
+      "events": [
+        {
+          "event": "focus",
+          "target": "cookie-trigger",
+          "time": 83.39999997615814
+        },
+        {
+          "event": "Enter",
+          "target": "cookie-trigger",
+          "time": 89.69999998807907
+        },
+        {
+          "event": "focus",
+          "target": "",
+          "time": 92.5
+        },
+        {
+          "event": "Escape",
+          "target": "",
+          "time": 96.89999997615814
+        },
+        {
+          "event": "focus",
+          "target": "cookie-trigger",
+          "time": 97.69999998807907
+        },
+        {
+          "event": "dialog-close",
+          "time": 99.39999997615814
+        },
+        {
+          "event": "focus",
+          "target": "menuButton",
+          "time": 106.69999998807907
+        },
+        {
+          "event": "Enter",
+          "target": "menuButton",
+          "time": 109.89999997615814
+        },
+        {
+          "event": "focus",
+          "target": "",
+          "time": 112.79999995231628
+        }
+      ]
+    },
+    {
+      "mode": "wait_for_cookie_close_focus",
+      "menu_open": true,
+      "events": [
+        {
+          "event": "focus",
+          "target": "cookie-trigger",
+          "time": 68.89999997615814
+        },
+        {
+          "event": "Enter",
+          "target": "cookie-trigger",
+          "time": 72
+        },
+        {
+          "event": "focus",
+          "target": "",
+          "time": 74.60000002384186
+        },
+        {
+          "event": "Escape",
+          "target": "",
+          "time": 78.19999998807907
+        },
+        {
+          "event": "focus",
+          "target": "cookie-trigger",
+          "time": 79.10000002384186
+        },
+        {
+          "event": "dialog-close",
+          "time": 84.69999998807907
+        },
+        {
+          "event": "focus",
+          "target": "menuButton",
+          "time": 98.10000002384186
+        },
+        {
+          "event": "Enter",
+          "target": "menuButton",
+          "time": 101
+        },
+        {
+          "event": "focus",
+          "target": "",
+          "time": 104.39999997615814
+        }
+      ]
+    }
+  ],
+  "visual_read_complete": {
+    "1440": [
+      0,
+      8621
+    ],
+    "768": [
+      0,
+      9121
+    ],
+    "390": [
+      0,
+      14642
+    ]
+  },
+  "formal_state_images_read": [
+    "MENU_OPEN_768",
+    "MENU_OPEN_390",
+    "COOKIE_OPEN_390"
+  ],
+  "temporary_runtime_state_views_read": [
+    "Cookie 1440",
+    "Cookie 768"
+  ],
+  "new_persistent_png_count": 0,
+  "cleanup": [
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-1440-0.png",
+      "sha256": "95b8311c4bca3b2337a4426a88b5aad8d02496fbe8ffc53b0b05c3cfa9e82ed1",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-1440-1900.png",
+      "sha256": "925ecd78ee05a3ab87f40d81f2796c1cc19ff17accf637ec5215c3195411941c",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-1440-3800.png",
+      "sha256": "2fcaf7ec4c9ae20d9df73dd54a35ee383d03a5ef739b8753abdc3e2dec22d246",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-1440-5700.png",
+      "sha256": "e776d7e95cbdaa3e377ea7aa6c56863a68400db98808d90dc63b707996799ff2",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-1440-7600.png",
+      "sha256": "d8a91340549b56aef7d9e70d7c85cbc9ecdbd24f975389dd8117e0817dfc0801",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-768-0.png",
+      "sha256": "bd215fcab800b7fbb6e7616352a73c780f19ce5f6cee6bb16e92919406ec5d16",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-768-1900.png",
+      "sha256": "cd9f341c4f822345e64123a98c78bd0d32d503e42b8b30fb46d8e6546ae38417",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-768-3800.png",
+      "sha256": "24ce365ca0468643dee5fbd9c6dc655409c4ea121afb5dd5c907fb96dc026dd5",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-768-5700.png",
+      "sha256": "40ccef20af2a3e24ad16dc4aab99f025719c23031fa3d9728583f2865cf20360",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-768-7600.png",
+      "sha256": "731266136617b568b0e50de617c1e5af90ab209b3c42b43c8b787071221ff5e2",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-390-0.png",
+      "sha256": "30a9452cb9d417c2c6eb3fe5a1ad5c24d27ce227ad1eb9d7040ace9eb200f1cd",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-390-1900.png",
+      "sha256": "5641ea8385acae388193182365f18b0934a4e458a5372ff3f429bcec84813f49",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-390-3800.png",
+      "sha256": "758f9bbaa253e6815e83a8a5c14c2686012195a289feed7b53b823e378ff312d",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-390-5700.png",
+      "sha256": "836a69f21aa835bad08601b34270c1836ba295e80a1d80698f0fb27fb66c13f7",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-390-7600.png",
+      "sha256": "94d6fb09db8a11b4e6a26846782c9b819b13588e3f06037e6bb03070e889d688",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-390-9500.png",
+      "sha256": "adaccde8db2e315abddcb93bdfd4ccd4e898fd7ae4b3a3ed5c165f0e07161d37",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-390-11400.png",
+      "sha256": "62e600d6a1aa0cc128476a4001fa8d46b5d241a357833c2aae8c53b3793a0604",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-390-13300.png",
+      "sha256": "8302a0bf7b51fc92def10a971f076284df33917379f16574f53f40948dfc670f",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-cookie-1440.png",
+      "sha256": "8623fe98737c8c15ec06226cd92a4a49f37aa15db0cfaaff46dd80c3e39e1985",
+      "removed": true
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\masterbatch\\05_review\\gate5-independent-v0.1\\temp-cookie-768.png",
+      "sha256": "920bc23b6cd1c809fae583a43962ee8ba3b590ed233235cb9d3f1a37c1fbb40d",
+      "removed": true
+    }
+  ],
+  "source_sha256_after": "96ef54b24f4121dbd79ce4975f9e7c48ff0d6de0a270a82f93652f76525b9c1e",
+  "required_findings": []
+}

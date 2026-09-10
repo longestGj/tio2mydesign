@@ -1,0 +1,558 @@
+{
+  "reason": "Resolve initial 350 ms anchor observations taken before smooth-scroll completion; complete keyboard activation, active-state and shared-byte checks. No page change.",
+  "source_sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98",
+  "evidence_type": "ACTUAL_RUNTIME",
+  "viewports": [
+    {
+      "width": 1440,
+      "anchors": [
+        {
+          "selector": ".primaryAction",
+          "hash": "#define-the-ink-and-print-system",
+          "top": 21.984375
+        },
+        {
+          "selector": ".secondaryAction",
+          "hash": "#grades-to-review",
+          "top": 21.765625
+        }
+      ],
+      "desktopCurrent": "Applications",
+      "keyboardCookie": {
+        "active": "Close",
+        "focusVisible": true,
+        "targets": [
+          {
+            "text": "Close",
+            "width": 76.484375,
+            "height": 48
+          },
+          {
+            "text": "Read Cookie Policy",
+            "width": 167.390625,
+            "height": 48
+          }
+        ]
+      },
+      "heading": {
+        "box": {
+          "width": 940,
+          "height": 64.796875
+        },
+        "textRects": [
+          {
+            "width": 845.5,
+            "height": 72
+          }
+        ],
+        "overflow": "visible"
+      },
+      "defaultStyles": [
+        {
+          "selector": ".primaryAction",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "15px"
+        },
+        {
+          "selector": ".secondaryAction",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgb(255, 255, 255)",
+          "fontSize": "15px"
+        },
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px"
+        },
+        {
+          "selector": ".eyebrow",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "13px"
+        },
+        {
+          "selector": ".sources a",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "selector": ".documents-matrix td::before",
+          "color": "rgb(6, 43, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "selector": ".grades td::before",
+          "color": "rgb(6, 43, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px"
+        }
+      ],
+      "settledScroll": [
+        {
+          "top": 3,
+          "bottom": 1003
+        },
+        {
+          "top": 900,
+          "bottom": 1900
+        },
+        {
+          "top": 1800,
+          "bottom": 2800
+        },
+        {
+          "top": 2700,
+          "bottom": 3700
+        },
+        {
+          "top": 3600,
+          "bottom": 4600
+        },
+        {
+          "top": 4500,
+          "bottom": 5500
+        },
+        {
+          "top": 5400,
+          "bottom": 6400
+        },
+        {
+          "top": 6300,
+          "bottom": 7300
+        },
+        {
+          "top": 6636,
+          "bottom": 7636
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "anchors": [
+        {
+          "selector": ".primaryAction",
+          "hash": "#define-the-ink-and-print-system",
+          "top": 21.015625
+        },
+        {
+          "selector": ".secondaryAction",
+          "hash": "#grades-to-review",
+          "top": 21.65625
+        }
+      ],
+      "keyboardMenu": {
+        "active": "Home",
+        "focusVisible": true,
+        "current": [
+          "Applications"
+        ],
+        "targets": [
+          {
+            "text": "Home",
+            "width": 768,
+            "height": 52
+          },
+          {
+            "text": "Markets",
+            "width": 768,
+            "height": 52
+          },
+          {
+            "text": "Products",
+            "width": 768,
+            "height": 52
+          },
+          {
+            "text": "Applications",
+            "width": 768,
+            "height": 52
+          },
+          {
+            "text": "Documents",
+            "width": 768,
+            "height": 52
+          },
+          {
+            "text": "Resources",
+            "width": 768,
+            "height": 52
+          },
+          {
+            "text": "About",
+            "width": 768,
+            "height": 52
+          },
+          {
+            "text": "Request a Quote",
+            "width": 768,
+            "height": 52
+          }
+        ]
+      },
+      "menuClickExit": {
+        "hidden": true,
+        "focus": "menuButton",
+        "mainInert": false
+      },
+      "keyboardCookie": {
+        "active": "Close",
+        "focusVisible": true,
+        "targets": [
+          {
+            "text": "Close",
+            "width": 76.484375,
+            "height": 48
+          },
+          {
+            "text": "Read Cookie Policy",
+            "width": 167.390625,
+            "height": 48
+          }
+        ]
+      },
+      "heading": {
+        "box": {
+          "width": 720,
+          "height": 51.828125
+        },
+        "textRects": [
+          {
+            "width": 676.40625,
+            "height": 59
+          }
+        ],
+        "overflow": "visible"
+      },
+      "defaultStyles": [
+        {
+          "selector": ".primaryAction",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "15px"
+        },
+        {
+          "selector": ".secondaryAction",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgb(255, 255, 255)",
+          "fontSize": "15px"
+        },
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px"
+        },
+        {
+          "selector": ".eyebrow",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "13px"
+        },
+        {
+          "selector": ".sources a",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "selector": ".documents-matrix td::before",
+          "color": "rgb(93, 107, 125)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "12px"
+        },
+        {
+          "selector": ".grades td::before",
+          "color": "rgb(93, 107, 125)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "12px"
+        }
+      ],
+      "settledScroll": [
+        {
+          "top": 3,
+          "bottom": 1027
+        },
+        {
+          "top": 924,
+          "bottom": 1948
+        },
+        {
+          "top": 1848,
+          "bottom": 2872
+        },
+        {
+          "top": 2772,
+          "bottom": 3796
+        },
+        {
+          "top": 3696,
+          "bottom": 4720
+        },
+        {
+          "top": 4620,
+          "bottom": 5644
+        },
+        {
+          "top": 5544,
+          "bottom": 6568
+        },
+        {
+          "top": 6468,
+          "bottom": 7492
+        },
+        {
+          "top": 7392,
+          "bottom": 8416
+        },
+        {
+          "top": 7610,
+          "bottom": 8634
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "anchors": [
+        {
+          "selector": ".primaryAction",
+          "hash": "#define-the-ink-and-print-system",
+          "top": 21.9375
+        },
+        {
+          "selector": ".secondaryAction",
+          "hash": "#grades-to-review",
+          "top": 21.828125
+        }
+      ],
+      "keyboardMenu": {
+        "active": "Home",
+        "focusVisible": true,
+        "current": [
+          "Applications"
+        ],
+        "targets": [
+          {
+            "text": "Home",
+            "width": 390,
+            "height": 52
+          },
+          {
+            "text": "Markets",
+            "width": 390,
+            "height": 52
+          },
+          {
+            "text": "Products",
+            "width": 390,
+            "height": 52
+          },
+          {
+            "text": "Applications",
+            "width": 390,
+            "height": 52
+          },
+          {
+            "text": "Documents",
+            "width": 390,
+            "height": 52
+          },
+          {
+            "text": "Resources",
+            "width": 390,
+            "height": 52
+          },
+          {
+            "text": "About",
+            "width": 390,
+            "height": 52
+          },
+          {
+            "text": "Request a Quote",
+            "width": 390,
+            "height": 52
+          }
+        ]
+      },
+      "menuClickExit": {
+        "hidden": true,
+        "focus": "menuButton",
+        "mainInert": false
+      },
+      "keyboardCookie": {
+        "active": "Close",
+        "focusVisible": true,
+        "targets": [
+          {
+            "text": "Close",
+            "width": 310,
+            "height": 48
+          },
+          {
+            "text": "Read Cookie Policy",
+            "width": 310,
+            "height": 48
+          }
+        ]
+      },
+      "heading": {
+        "box": {
+          "width": 350,
+          "height": 85.09375
+        },
+        "textRects": [
+          {
+            "width": 326.984375,
+            "height": 46
+          },
+          {
+            "width": 201.6875,
+            "height": 46
+          }
+        ],
+        "overflow": "visible"
+      },
+      "defaultStyles": [
+        {
+          "selector": ".primaryAction",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "15px"
+        },
+        {
+          "selector": ".secondaryAction",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgb(255, 255, 255)",
+          "fontSize": "15px"
+        },
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px"
+        },
+        {
+          "selector": ".eyebrow",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "13px"
+        },
+        {
+          "selector": ".sources a",
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "15px"
+        },
+        {
+          "selector": ".documents-matrix td::before",
+          "color": "rgb(93, 107, 125)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "12px"
+        },
+        {
+          "selector": ".grades td::before",
+          "color": "rgb(93, 107, 125)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "12px"
+        }
+      ],
+      "settledScroll": [
+        {
+          "top": 4,
+          "bottom": 848
+        },
+        {
+          "top": 744,
+          "bottom": 1588
+        },
+        {
+          "top": 1488,
+          "bottom": 2332
+        },
+        {
+          "top": 2232,
+          "bottom": 3076
+        },
+        {
+          "top": 2976,
+          "bottom": 3820
+        },
+        {
+          "top": 3720,
+          "bottom": 4564
+        },
+        {
+          "top": 4464,
+          "bottom": 5308
+        },
+        {
+          "top": 5208,
+          "bottom": 6052
+        },
+        {
+          "top": 5952,
+          "bottom": 6796
+        },
+        {
+          "top": 6696,
+          "bottom": 7540
+        },
+        {
+          "top": 7440,
+          "bottom": 8284
+        },
+        {
+          "top": 8184,
+          "bottom": 9028
+        },
+        {
+          "top": 8928,
+          "bottom": 9772
+        },
+        {
+          "top": 9672,
+          "bottom": 10516
+        },
+        {
+          "top": 10416,
+          "bottom": 11260
+        },
+        {
+          "top": 11160,
+          "bottom": 12004
+        },
+        {
+          "top": 11802,
+          "bottom": 12646
+        }
+      ]
+    }
+  ],
+  "shared": {
+    "header": true,
+    "footer": true,
+    "behavior": true,
+    "sharedCSS": false
+  },
+  "contrast": [
+    {
+      "pair": "functional teal / white",
+      "value": 4.817749371824569
+    },
+    {
+      "pair": "functional teal / soft",
+      "value": 4.5200728131076575
+    },
+    {
+      "pair": "navy / white",
+      "value": 13.959419428188236
+    },
+    {
+      "pair": "record label muted / white",
+      "value": 5.433878495749253
+    }
+  ]
+}

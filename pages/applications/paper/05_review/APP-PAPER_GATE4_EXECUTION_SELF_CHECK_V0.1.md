@@ -1,0 +1,21 @@
+# APP-PAPER Gate 4 Execution Self-check V0.1
+
+Date: 2026-09-07. Actual author: `/root/gate4_paper_execute`. Mode: `SELF_CHECK`.
+
+Workset `APP-PAPER-G4-WORKSET-V0.1`; source `../04_planning/gate4-v0.1/APP-PAPER_GATE4_COMPLETE_VISUAL_V0.1.html`; SHA-256 `e3d7907131d98b987328bf084ba80ed90476363e3caa9936252c5558784bac9f`. This is not independent review or Gate closure.
+
+The common method/4A/composition report is `../04_planning/gate4-v0.1/APP-PAPER_GATE4_WORKSET_AND_VISUAL_RULES_V0.1.md`; inputs, observations, preflight and formal assets reside in the same workset. These exact references are bound in its final evidence index and freeze record.
+
+The approved11-module order, complete B text and15 body links match at1440/768/390. Both four-record optical/evidence tables retain all labels and limits. Desktop tables become two-column records at768 and single records at390. M-350 and M-2377 retain identical styles, original order and self-selected Grade navigation. Seven sources, three separate request owners and unchanged visible/metadata meaning remain intact. No canonical, Schema, process classification, performance, equivalence, selection, availability or supply claim was added.
+
+Initial execution produced90 assertions:86 valid PASS and four retained measurement-expectation errors. The targeted run corrected the three font scans and the no-JS15-link expectation, and filled actual hover/focus/overlay-target checks,15/15 PASS.105 assertions were executed;101 remain effective after replacing four superseded expectations. Required Findings:0. The source did not change for this correction.
+
+Actual current-page Menu tests cover opening, focus entry, forward/backward wrap, Escape, selection close, background isolation and breakpoint close. Cookie tests cover opening, focus entry, both wraps, background blocking, Escape, Close and trigger-focus restoration.44×44 target geometry is measured for the default page and actual overlays. Actual Hero hover/focus and both anchors are checked. No business submission occurred. Real-browser200% zoom and assistive technology remain untested;720px effective reflow is only a proxy and is recorded as such.
+
+All three full pages were read at usable scale through eight lossless diagnostic reading panels. No content truncation, table/record mismatch, visual Grade ranking, collision, abnormal fixed whitespace or broken Footer transition was observed. All two Menu and three Cookie diagnostic states were opened; keyboard focus is visible. The full-page diagnostic images were necessary for initial complete visual coverage of a newly styled technical long page; no repeated diagnostic capture or screenshot rounds were run. The reading panels are derivatives, not new screenshots or alternate designs.
+
+After preflight was recorded, the source and dependencies were locked and11 formal images were captured: three full pages, two narrow Menu states, three Cookie states and three390-specific Grade-anchor/optical/source states. All formal images were opened. The three full-page formal PNGs and the three390 content states match their inspected diagnostic PNGs byte-for-byte, so the existing readable coverage remains exact. Five overlay PNGs differ only because the initial run followed keyboard testing while formal captures open by pointer; the formal pointer states and initial visible keyboard focus states were both inspected. No source or geometry change follows.
+
+Native DPR1 full sizes:1440×8696,768×9651,390×14664. Status images retain their declared viewport dimensions. Capture checks confirm font/Logo load, source identity, complete Footer extent and correct state. Machine audit rereads PNG metadata, bytes and SHA-256, input/dependency identities and the final frozen bundle. No1x bitmap was enlarged and no390px image was labeled as768px.
+
+Production route eligibility, receiver processing, CMS/SEO/Schema implementation, site-scope isolation, real-device accessibility and release remain controlled owner dependencies under the approved C and Gate3 handoff. The URL remains `PROVISIONAL_URL`. No required current-stage visual issue remains; the candidate may be frozen and sent to a different actual author for the single Gate5 independent visual review. No Gate4/5 closure or Gate6 work is claimed.

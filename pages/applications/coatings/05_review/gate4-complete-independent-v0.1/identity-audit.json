@@ -1,0 +1,103 @@
+{
+  "auditAt": "2026-09-07T08:12:56.218705+00:00",
+  "role": "INDEPENDENT_GATE4_REVIEWER",
+  "worksetId": "COAT-G4-COMPLETE-V01",
+  "freezeId": "COAT-G4-COMPLETE-V01-F01",
+  "identities": {
+    "candidate": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/APP-COAT_GATE4_COMPLETE_VISUAL_V0.1.html",
+      "bytes": 33997,
+      "sha256": "a1e8c4153831aa829698f62e0c30c1fc7a77ec5bbb1f23ce264dede5d61443d2"
+    },
+    "visualLayer": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/visual-direction.css",
+      "bytes": 6196,
+      "sha256": "f4c2e703345cb3eae1221937ff63b61b3742c6f2da6ccf9c1f3da730db67ca8c"
+    },
+    "sourceFreeze": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/approval_core/source-freeze.json",
+      "bytes": 14253,
+      "sha256": "1dfaab4a9fcaea3747260269924a62bba9883889c55878aa692d801bf87a3323"
+    },
+    "evidenceIndex": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/evidence_index.json",
+      "bytes": 5084,
+      "sha256": "86eaa5336c34120631b84a037621575911cb9015100d8738b37edc2a669402a3"
+    },
+    "exportInventory": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/approval_core/export-inventory.json",
+      "bytes": 29059,
+      "sha256": "0d0119424d8d357a28fdf77ad3c838933eceda81e76ab5c0b3a7d0e88633854b"
+    },
+    "assetInventory": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/approval_core/asset-inventory.json",
+      "bytes": 13419,
+      "sha256": "4ebc73e620f902223164fe506cc5a019fb47f001d4b08f7adf8b44d2182b5b4e"
+    },
+    "formalRuntime": {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/diagnostic_support/formal-runtime-checks.json",
+      "bytes": 667153,
+      "sha256": "9a9c2fd6b03698fb55a0c851c3d61709010c55b2a3cd4dfd14495b665631596a"
+    },
+    "independentRuntime": {
+      "path": "D:/23MySec/pages/applications/coatings/05_review/gate4-complete-independent-v0.1/independent-runtime.json",
+      "bytes": 426585,
+      "sha256": "436f09b76cad3af131ad84477612ac7851120c7ba22e35849b6c7a4a1580518d"
+    }
+  },
+  "recomputation": {
+    "frozenInputs": {
+      "total": 52,
+      "matched": 51,
+      "mismatches": [
+        {
+          "path": "D:/23MySec/01_PROJECT_INDEX.md",
+          "expectedBytes": 21612,
+          "actualBytes": 21657,
+          "expectedSha256": "7c843a5c853d8899897efcbde013a7266eebc49a57b4e7d8e56f34a85596131e",
+          "actualSha256": "9f369cadfe0456fd0f1e9e829d0a748d6b28ee3312a7fe964a84617625bd1939",
+          "match": false,
+          "classification": "POST_FREEZE_UNRELATED_GOVERNANCE_NAVIGATION_DRIFT",
+          "impact": "No APP-COAT candidate, method, approved content, shared contract, dependency, bound record, or formal asset changed. The observed git diff updates the Poland task row and Applications article-navigation row after the Coatings freeze."
+        }
+      ]
+    },
+    "dependencies": {
+      "total": 6,
+      "matched": 6,
+      "mismatches": []
+    },
+    "boundRecords": {
+      "total": 5,
+      "matched": 5,
+      "mismatches": []
+    },
+    "evidenceIndexPointers": {
+      "total": 14,
+      "matched": 14,
+      "mismatches": []
+    },
+    "formalAssets": {
+      "total": 48,
+      "matched": 48,
+      "mismatches": []
+    },
+    "independentRerender": {
+      "total": 48,
+      "hashesMatchingFormalAssetMultiset": 42,
+      "checks": 471,
+      "passed": 468,
+      "failed": 3
+    }
+  },
+  "contextualObservation": {
+    "path": "D:/23MySec/01_PROJECT_INDEX.md",
+    "expectedBytes": 21612,
+    "actualBytes": 21657,
+    "expectedSha256": "7c843a5c853d8899897efcbde013a7266eebc49a57b4e7d8e56f34a85596131e",
+    "actualSha256": "9f369cadfe0456fd0f1e9e829d0a748d6b28ee3312a7fe964a84617625bd1939",
+    "match": false,
+    "classification": "POST_FREEZE_UNRELATED_GOVERNANCE_NAVIGATION_DRIFT",
+    "impact": "No APP-COAT candidate, method, approved content, shared contract, dependency, bound record, or formal asset changed. The observed git diff updates the Poland task row and Applications article-navigation row after the Coatings freeze."
+  }
+}

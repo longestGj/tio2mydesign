@@ -1,0 +1,38 @@
+{
+  "page_id": "APP-COAT",
+  "workset_id": "COAT-G4-COMPLETE-V02",
+  "finding": "COAT-G4-IR-01",
+  "status": "CORRECTED_IN_V0.2_WITH_V0.1_HISTORY_RETAINED",
+  "authoritative_measurement": {
+    "foreground": "#FFFFFF",
+    "background": "#007F77",
+    "contrast": 4.881302249384679,
+    "threshold": 4.5,
+    "result": "PASS",
+    "contract_interpretation": "The frozen primary CTA hover remains a white-label functional Teal state and satisfies the applicable contrast requirement."
+  },
+  "root_cause": "The 4.5796989189682495 ratio belongs to #007F77 text on the #F5F8FB light-neutral hover used by non-primary links. V0.1 records incorrectly attributed that foreground/background pair and ratio to the primary CTA hover even though the frozen CSS and runtime used white on #007F77.",
+  "superseded_claim_locations": [
+    {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/4A-direction-check.json",
+      "claim": "Primary CTA hover uses #F5F8FB and measures 4.5797:1.",
+      "replacement": "Primary CTA hover uses white on #007F77 and measures 4.8813:1."
+    },
+    {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/APP-COAT_GATE4_VISUAL_AND_EXECUTION_REPORT_V0.1.md",
+      "claim": "The primary CTA hover surface was changed to #F5F8FB and measures 4.5797:1.",
+      "replacement": "The frozen primary CTA hover is white on #007F77 and measures 4.8813:1."
+    },
+    {
+      "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/evidence_index.json",
+      "claim": "COAT-G4-PF01 closed from 4.3387:1 to 4.5797:1.",
+      "replacement": "The final frozen primary CTA hover passed as white on #007F77 at 4.8813:1; the 4.5797:1 diagnostic belongs to another link pairing."
+    },
+    {
+      "path": "D:/23MySec/pages/applications/coatings/05_review/APP-COAT_GATE4_INDEPENDENT_REVIEW_ENTRY_V0.1.md",
+      "claim": "Rereview must find exact #F5F8FB primary CTA hover.",
+      "replacement": "Rereview must reproduce white on #007F77 at 4.8813:1 and verify the unchanged candidate identity."
+    }
+  ],
+  "history_policy": "The V0.1 workset, freeze, reports and failed independent review remain byte-for-byte historical evidence and are not edited. V0.2 records supersede only their incorrect hover description."
+}

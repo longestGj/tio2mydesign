@@ -1,0 +1,25 @@
+{
+  "page_id": "APP-COAT",
+  "workset_id": "COAT-G4-COMPLETE-V02",
+  "status": "VISUAL_DIRECTION_RECORD_CORRECTED / SOURCE_UNCHANGED",
+  "finding_response": "COAT-G4-IR-01-R1",
+  "inherited_source": {
+    "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/APP-COAT_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 33997,
+    "sha256": "a1e8c4153831aa829698f62e0c30c1fc7a77ec5bbb1f23ce264dede5d61443d2"
+  },
+  "inherited_visual_layer": {
+    "path": "D:/23MySec/pages/applications/coatings/04_planning/gate4-v0.1/visual-direction.css",
+    "bytes": 6196,
+    "sha256": "f4c2e703345cb3eae1221937ff63b61b3742c6f2da6ccf9c1f3da730db67ca8c"
+  },
+  "direction": "Retain the approved ten-part editorial progression, Deep Navy technical Hero, Teal action and section markers, alternating neutral fields, full desktop tables, equal responsive Grade records and three peer request cards. No visual, content, URL, module or shared-contract change is made in this remediation.",
+  "corrected_pre_freeze_record": {
+    "id": "COAT-G4-PF01",
+    "original_diagnostic": "The earlier inherited soft-teal primary hover measured below 4.5:1.",
+    "actual_frozen_resolution": "The frozen primary CTA hover uses #FFFFFF text on #007F77. Independent WCAG relative-luminance calculation and actual runtime both measure 4.881302249384679:1, so the state passes the 4.5:1 threshold and conforms to the accepted functional hover contract.",
+    "record_error": "The V0.1 4A summary mistakenly used the #007F77-on-#F5F8FB non-primary-link pairing and its 4.5796989189682495:1 ratio as the primary CTA description.",
+    "visual_change_required": false
+  },
+  "remaining": "A separate independent rereviewer must verify the V0.2 freeze and evidence. This correction does not approve or close Gate 4 and does not start Gate 6."
+}

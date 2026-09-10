@@ -1,0 +1,4971 @@
+{
+  "page_id": "APP-INK",
+  "dispatch_id": "G5-9PAGE-REVIEW-20260907-01/APP-INK/INITIAL",
+  "author": "/root/gate4_printing_inks_execute",
+  "reviewer": "/root/g5_inks",
+  "mode": "INDEPENDENT_REVIEW",
+  "review_scope": "INITIAL",
+  "at": "2026-09-07T11:51:30.252Z",
+  "freeze_id": "APP-INK-G4-FREEZE-20260907-01-24ac2dec8f05",
+  "bundle_id": "APP-INK-G4-BUNDLE-24ac2dec8f055d8a",
+  "source": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 32689,
+    "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+  },
+  "identities": [
+    {
+      "origin": "freeze/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/authority_manifest",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+        "bytes": 4255,
+        "sha256": "7d40b7f92b43661cb4aa9c3bf52bfcdbaeb8c1daf372cd20a97169dde5d115e3"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+        "bytes": 4255,
+        "sha256": "7d40b7f92b43661cb4aa9c3bf52bfcdbaeb8c1daf372cd20a97169dde5d115e3"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/input_index",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_INPUT_INDEX_V0.1.json",
+        "bytes": 12798,
+        "sha256": "7286d90409c0b7fba9fedf6557a3ece4eac2ed485b2a5397d52e9f54b16915da"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_INPUT_INDEX_V0.1.json",
+        "bytes": 12798,
+        "sha256": "7286d90409c0b7fba9fedf6557a3ece4eac2ed485b2a5397d52e9f54b16915da"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/evidence_index",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_EVIDENCE_INDEX_V0.1.json",
+        "bytes": 18168,
+        "sha256": "ba4691657d8c51b08517713d547f23d40d581f75617e9dd4b40b33d806ac0676"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_EVIDENCE_INDEX_V0.1.json",
+        "bytes": 18168,
+        "sha256": "ba4691657d8c51b08517713d547f23d40d581f75617e9dd4b40b33d806ac0676"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/dependencies/0",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+        "role": "primary_logo"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/dependencies/1",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+        "role": "reverse_logo"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/dependencies/2",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "role": "font"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/dependencies/3",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+        "role": "font_license"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/preflight",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_PREFLIGHT_V0.1.json",
+        "bytes": 5031,
+        "sha256": "82d76703767e3de905995ae7b9617dd823f9809b98fe4337fe47fcd0a1439b53"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_PREFLIGHT_V0.1.json",
+        "bytes": 5031,
+        "sha256": "82d76703767e3de905995ae7b9617dd823f9809b98fe4337fe47fcd0a1439b53"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/capture_record",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_CAPTURE_RECORD_V0.1.json",
+        "bytes": 14254,
+        "sha256": "f5fe8a54940982b71f03d3d0c16ca77c7e7913ce8f98765e819bfb7d7a3fa4f1"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_CAPTURE_RECORD_V0.1.json",
+        "bytes": 14254,
+        "sha256": "f5fe8a54940982b71f03d3d0c16ca77c7e7913ce8f98765e819bfb7d7a3fa4f1"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/machine_audit",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_MACHINE_AUDIT_V0.1.json",
+        "bytes": 37376,
+        "sha256": "2e45791154f89c7dac6262324202ef6cd1031f3eea8e4115f218c4bf919ae3b6"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_MACHINE_AUDIT_V0.1.json",
+        "bytes": 37376,
+        "sha256": "2e45791154f89c7dac6262324202ef6cd1031f3eea8e4115f218c4bf919ae3b6"
+      },
+      "match": true
+    },
+    {
+      "origin": "freeze/self_check",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+        "bytes": 3299,
+        "sha256": "ea8f5608975b38cf470621c6d57a30fefb446b2b807450ecd0cbf68395c7e7f5"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+        "bytes": 3299,
+        "sha256": "ea8f5608975b38cf470621c6d57a30fefb446b2b807450ecd0cbf68395c7e7f5"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/0",
+      "expected": {
+        "path": "D:/23MySec/AGENTS.md",
+        "bytes": 11027,
+        "sha256": "aa4f6e020dae5898f4d2cd61eaea617bdb32ee03916891c51f0e02153869f2d5"
+      },
+      "actual": {
+        "path": "D:/23MySec/AGENTS.md",
+        "bytes": 11027,
+        "sha256": "aa4f6e020dae5898f4d2cd61eaea617bdb32ee03916891c51f0e02153869f2d5"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/1",
+      "expected": {
+        "path": "D:/23MySec/PROJECT_CONTEXT.md",
+        "bytes": 8503,
+        "sha256": "78c3b537e28dcb22a483d2c2351ade01c18416d11f801c2bd13d756541a09170"
+      },
+      "actual": {
+        "path": "D:/23MySec/PROJECT_CONTEXT.md",
+        "bytes": 8503,
+        "sha256": "78c3b537e28dcb22a483d2c2351ade01c18416d11f801c2bd13d756541a09170"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/2",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.8.md",
+        "bytes": 6604,
+        "sha256": "927badd8cbea2df224d10ae31a7f136f08798145cded1a1bf6fbbe5b0511e542"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.8.md",
+        "bytes": 6604,
+        "sha256": "927badd8cbea2df224d10ae31a7f136f08798145cded1a1bf6fbbe5b0511e542"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/3",
+      "expected": {
+        "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+        "bytes": 9983,
+        "sha256": "3dc109e0c6c5da6cade1f5265038b3b3b0de72ab8248c2693c8d45f227061709"
+      },
+      "actual": {
+        "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+        "bytes": 9983,
+        "sha256": "3dc109e0c6c5da6cade1f5265038b3b3b0de72ab8248c2693c8d45f227061709"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/4",
+      "expected": {
+        "path": "D:/23MySec/skills/brand-applied-visual-design/SKILL.md",
+        "bytes": 8990,
+        "sha256": "770ed434423de2fb1abfd4c7f9f8fe536f3ba1a3c78c75b27fb3e783b9751132"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/brand-applied-visual-design/SKILL.md",
+        "bytes": 8990,
+        "sha256": "770ed434423de2fb1abfd4c7f9f8fe536f3ba1a3c78c75b27fb3e783b9751132"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/5",
+      "expected": {
+        "path": "D:/23MySec/skills/full-page-visual-composition/SKILL.md",
+        "bytes": 10449,
+        "sha256": "6c0bbbb12eb3ac727f0f1a1e52e5106a18ece0987f980a36d0b28d38f5bbb29f"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/full-page-visual-composition/SKILL.md",
+        "bytes": 10449,
+        "sha256": "6c0bbbb12eb3ac727f0f1a1e52e5106a18ece0987f980a36d0b28d38f5bbb29f"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/6",
+      "expected": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+        "bytes": 12641,
+        "sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+        "bytes": 12641,
+        "sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/7",
+      "expected": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/references/gate4-self-check.md",
+        "bytes": 3712,
+        "sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/references/gate4-self-check.md",
+        "bytes": 3712,
+        "sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/8",
+      "expected": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/references/core-risk-model.md",
+        "bytes": 2825,
+        "sha256": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609"
+      },
+      "actual": {
+        "path": "D:/23MySec/skills/layout-interaction-verification/references/core-risk-model.md",
+        "bytes": 2825,
+        "sha256": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/9",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+        "bytes": 5488,
+        "sha256": "4339c7b3163a96f442860407f547dde3ad4638d8064b12bb4e0d0097eb9a1822"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+        "bytes": 5488,
+        "sha256": "4339c7b3163a96f442860407f547dde3ad4638d8064b12bb4e0d0097eb9a1822"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/10",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+        "bytes": 8078,
+        "sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+        "bytes": 8078,
+        "sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/11",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.2.md",
+        "bytes": 18692,
+        "sha256": "5476e9ef47c0e8632c741745233f8d0e8984360cb639d9de2b69e6e7c81ea3a0"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.2.md",
+        "bytes": 18692,
+        "sha256": "5476e9ef47c0e8632c741745233f8d0e8984360cb639d9de2b69e6e7c81ea3a0"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/12",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+        "bytes": 18702,
+        "sha256": "7b14c96e8515fdaeaeee12f23e9e7c8ffb815f8a00643d2bc0998f667efff64a"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+        "bytes": 18702,
+        "sha256": "7b14c96e8515fdaeaeee12f23e9e7c8ffb815f8a00643d2bc0998f667efff64a"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/13",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+        "bytes": 4510,
+        "sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+        "bytes": 4510,
+        "sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/14",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+        "bytes": 30319,
+        "sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+        "bytes": 30319,
+        "sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/15",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md",
+        "bytes": 17914,
+        "sha256": "f963bfd4722792bf9d7f1a1fa34fa03f0fa6e108dfc2cca48fb658c4d086731c"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md",
+        "bytes": 17914,
+        "sha256": "f963bfd4722792bf9d7f1a1fa34fa03f0fa6e108dfc2cca48fb658c4d086731c"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/16",
+      "expected": {
+        "path": "D:/23MySec/research/keyword/11_page_keyword_master.csv",
+        "bytes": 42155,
+        "sha256": "cf189768fc3e8bc1e4108f0336cd45e40ae05f5a419885db1907a71e3dc6687f"
+      },
+      "actual": {
+        "path": "D:/23MySec/research/keyword/11_page_keyword_master.csv",
+        "bytes": 42155,
+        "sha256": "cf189768fc3e8bc1e4108f0336cd45e40ae05f5a419885db1907a71e3dc6687f"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/17",
+      "expected": {
+        "path": "D:/23MySec/docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+        "bytes": 36722,
+        "sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+        "bytes": 36722,
+        "sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/18",
+      "expected": {
+        "path": "D:/23MySec/docs/page-briefs/APP-INK_PRINTING_INKS_BRIEF_V0.1.md",
+        "bytes": 19582,
+        "sha256": "8e07a744999fe8729006fa99d0045a0cdebf1a7ba003c565f44785e136fb70e1"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/page-briefs/APP-INK_PRINTING_INKS_BRIEF_V0.1.md",
+        "bytes": 19582,
+        "sha256": "8e07a744999fe8729006fa99d0045a0cdebf1a7ba003c565f44785e136fb70e1"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/19",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+        "bytes": 12312,
+        "sha256": "0ea7e5d77ab243354577764bc4329fe4bb28d923ab4f66ea0b1073f5e24f9728"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+        "bytes": 12312,
+        "sha256": "0ea7e5d77ab243354577764bc4329fe4bb28d923ab4f66ea0b1073f5e24f9728"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/20",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GATE2_REMAINING_SEVEN_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+        "bytes": 4632,
+        "sha256": "8ed9810a96d1bde005f1d7e756995d494b13932fa386a79bbf177062997c3372"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GATE2_REMAINING_SEVEN_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+        "bytes": 4632,
+        "sha256": "8ed9810a96d1bde005f1d7e756995d494b13932fa386a79bbf177062997c3372"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/21",
+      "expected": {
+        "path": "D:/23MySec/pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+        "bytes": 61284,
+        "sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+        "bytes": 61284,
+        "sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/22",
+      "expected": {
+        "path": "D:/23MySec/pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+        "bytes": 4178,
+        "sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+        "bytes": 4178,
+        "sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/23",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+        "bytes": 4255,
+        "sha256": "7d40b7f92b43661cb4aa9c3bf52bfcdbaeb8c1daf372cd20a97169dde5d115e3"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+        "bytes": 4255,
+        "sha256": "7d40b7f92b43661cb4aa9c3bf52bfcdbaeb8c1daf372cd20a97169dde5d115e3"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/24",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+        "bytes": 11933,
+        "sha256": "d30a28907ec6c7fb166a6389bae1bd506326f4d4ec753079ba6e649a74d24885"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+        "bytes": 11933,
+        "sha256": "d30a28907ec6c7fb166a6389bae1bd506326f4d4ec753079ba6e649a74d24885"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/25",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_CONTENT_SKELETON_V0.1.md",
+        "bytes": 5228,
+        "sha256": "bbb3a2bbd55d0140c4cfbef2c7e929e5f7f5c47478671b50aeff72f33e5554a6"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_CONTENT_SKELETON_V0.1.md",
+        "bytes": 5228,
+        "sha256": "bbb3a2bbd55d0140c4cfbef2c7e929e5f7f5c47478671b50aeff72f33e5554a6"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/26",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+        "bytes": 11781,
+        "sha256": "b5a92976f526fcfee74fdf088ec9ea3ef21456e5ba66965f79c50ec4dd5c938d"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+        "bytes": 11781,
+        "sha256": "b5a92976f526fcfee74fdf088ec9ea3ef21456e5ba66965f79c50ec4dd5c938d"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/27",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_CONTENT_CONTRACT_V0.2.md",
+        "bytes": 8927,
+        "sha256": "11883e118e017e7886d91a3a6400150fcc92e3972b56847aafecc9250e960dc3"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_CONTENT_CONTRACT_V0.2.md",
+        "bytes": 8927,
+        "sha256": "11883e118e017e7886d91a3a6400150fcc92e3972b56847aafecc9250e960dc3"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/28",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/APP-INK_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+        "bytes": 30161,
+        "sha256": "8e8353dad4aacf9ca20821ae2240a3398684b201a6e92fec5ef28d4fd61c1f63"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/APP-INK_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+        "bytes": 30161,
+        "sha256": "8e8353dad4aacf9ca20821ae2240a3398684b201a6e92fec5ef28d4fd61c1f63"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/29",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/30",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/31",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/32",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/33",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/34",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/35",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/36",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/37",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/38",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/39",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/40",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/41",
+      "expected": {
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/42",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/43",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/44",
+      "expected": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+        "bytes": 4266,
+        "sha256": "14364f8c3ef8010dbb6449f906d5c82fb317bbfbd3ec1926b42bed81c84f8f1c"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+        "bytes": 4266,
+        "sha256": "14364f8c3ef8010dbb6449f906d5c82fb317bbfbd3ec1926b42bed81c84f8f1c"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/45",
+      "expected": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/SHARED-CONSENT_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md",
+        "bytes": 1051,
+        "sha256": "be03ef117b2f3f575aa59964d80c10b6b223fc5d1748a6bf7cedf08205bad659"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/legal-privacy/05_review/SHARED-CONSENT_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md",
+        "bytes": 1051,
+        "sha256": "be03ef117b2f3f575aa59964d80c10b6b223fc5d1748a6bf7cedf08205bad659"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/46",
+      "expected": {
+        "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/inputs/47",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_AUTHORIZATION_BINDING_V0.1.json",
+        "bytes": 1349,
+        "sha256": "ddfe7d9ba3dfff2586df696004a9cb00009efa7be064cf5b50dd9809fa14efb9"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_AUTHORIZATION_BINDING_V0.1.json",
+        "bytes": 1349,
+        "sha256": "ddfe7d9ba3dfff2586df696004a9cb00009efa7be064cf5b50dd9809fa14efb9"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/dependencies/0",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+        "role": "primary_logo"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/dependencies/1",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+        "role": "reverse_logo"
+      },
+      "actual": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/dependencies/2",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "role": "font"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "match": true
+    },
+    {
+      "origin": "inputs/dependencies/3",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+        "role": "font_license"
+      },
+      "actual": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/input_index",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_INPUT_INDEX_V0.1.json",
+        "bytes": 12798,
+        "sha256": "7286d90409c0b7fba9fedf6557a3ece4eac2ed485b2a5397d52e9f54b16915da"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_INPUT_INDEX_V0.1.json",
+        "bytes": 12798,
+        "sha256": "7286d90409c0b7fba9fedf6557a3ece4eac2ed485b2a5397d52e9f54b16915da"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/0",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_FULL_V0.1.png",
+        "bytes": 1070005,
+        "sha256": "87c023b9139077b01594e57b9eb64adb1811d69b2a9702641efd73a658823fd4",
+        "state": "FULL",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "physical": {
+          "width": 1440,
+          "height": 7636
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 1440,
+          "height": 1000,
+          "scrollY": 0,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 7636,
+          "menuOpen": false,
+          "cookieOpen": false,
+          "active": {
+            "tag": "BODY",
+            "text": "HomeMarketsProductsApplicationsDocumentsResourcesAboutRequest a QuoteRFQMenuHomeMarketsProductsApplicationsDocumentsReso",
+            "focusVisible": false
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": true,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_FULL_V0.1.png",
+        "bytes": 1070005,
+        "sha256": "87c023b9139077b01594e57b9eb64adb1811d69b2a9702641efd73a658823fd4"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/0/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/1",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_COOKIE_V0.1.png",
+        "bytes": 133824,
+        "sha256": "00061dc9993372500f5236386a2099af272b765610419116389dab43d44e4295",
+        "state": "COOKIE",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "physical": {
+          "width": 1440,
+          "height": 1000
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 1440,
+          "height": 1000,
+          "scrollY": 6636,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 7636,
+          "menuOpen": false,
+          "cookieOpen": true,
+          "active": {
+            "tag": "BUTTON",
+            "text": "Close",
+            "focusVisible": true
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": null,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_COOKIE_V0.1.png",
+        "bytes": 133824,
+        "sha256": "00061dc9993372500f5236386a2099af272b765610419116389dab43d44e4295"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/1/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/2",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+        "bytes": 1030561,
+        "sha256": "678b587846e690e023570e26a0eb8d294961f2cda84c705f855188a4683f71ce",
+        "state": "FULL",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "physical": {
+          "width": 768,
+          "height": 8634
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 768,
+          "height": 1024,
+          "scrollY": 0,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 8634,
+          "menuOpen": false,
+          "cookieOpen": false,
+          "active": {
+            "tag": "BODY",
+            "text": "HomeMarketsProductsApplicationsDocumentsResourcesAboutRequest a QuoteRFQMenuHomeMarketsProductsApplicationsDocumentsReso",
+            "focusVisible": false
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": true,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+        "bytes": 1030561,
+        "sha256": "678b587846e690e023570e26a0eb8d294961f2cda84c705f855188a4683f71ce"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/2/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/3",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_MENU_V0.1.png",
+        "bytes": 67498,
+        "sha256": "a8631ca4ba4d027a243a99ad5598d97c12254157ffa9f5b426dd97cb94f6e401",
+        "state": "MENU",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "physical": {
+          "width": 768,
+          "height": 1024
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 768,
+          "height": 1024,
+          "scrollY": 0,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 8634,
+          "menuOpen": true,
+          "cookieOpen": false,
+          "active": {
+            "tag": "A",
+            "text": "Home",
+            "focusVisible": true
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": null,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_MENU_V0.1.png",
+        "bytes": 67498,
+        "sha256": "a8631ca4ba4d027a243a99ad5598d97c12254157ffa9f5b426dd97cb94f6e401"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/3/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/4",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_COOKIE_V0.1.png",
+        "bytes": 86350,
+        "sha256": "9d6126e80834d31c8a90e197d3aa5b289c1fe47853b99b163835cb4dfe24fc65",
+        "state": "COOKIE",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "physical": {
+          "width": 768,
+          "height": 1024
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 768,
+          "height": 1024,
+          "scrollY": 7610,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 8634,
+          "menuOpen": false,
+          "cookieOpen": true,
+          "active": {
+            "tag": "BUTTON",
+            "text": "Close",
+            "focusVisible": true
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": null,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_COOKIE_V0.1.png",
+        "bytes": 86350,
+        "sha256": "9d6126e80834d31c8a90e197d3aa5b289c1fe47853b99b163835cb4dfe24fc65"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/4/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/5",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+        "bytes": 968585,
+        "sha256": "46147c3333d065a188019cb7f0b230958582c5cf33bc2e52e577f6c979f9261d",
+        "state": "FULL",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "physical": {
+          "width": 390,
+          "height": 12646
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 12646,
+          "menuOpen": false,
+          "cookieOpen": false,
+          "active": {
+            "tag": "BODY",
+            "text": "HomeMarketsProductsApplicationsDocumentsResourcesAboutRequest a QuoteRFQMenuHomeMarketsProductsApplicationsDocumentsReso",
+            "focusVisible": false
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": true,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+        "bytes": 968585,
+        "sha256": "46147c3333d065a188019cb7f0b230958582c5cf33bc2e52e577f6c979f9261d"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/5/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/6",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_MENU_V0.1.png",
+        "bytes": 36931,
+        "sha256": "9349787dbcf0e3a733900e07480e158cc917c2f578b28f76cef8391b83b16212",
+        "state": "MENU",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "physical": {
+          "width": 390,
+          "height": 844
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 12646,
+          "menuOpen": true,
+          "cookieOpen": false,
+          "active": {
+            "tag": "A",
+            "text": "Home",
+            "focusVisible": true
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": null,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_MENU_V0.1.png",
+        "bytes": 36931,
+        "sha256": "9349787dbcf0e3a733900e07480e158cc917c2f578b28f76cef8391b83b16212"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/6/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/7",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_COOKIE_V0.1.png",
+        "bytes": 52674,
+        "sha256": "4c75a40c9a652832bf5ec46ba36beeaa88dc359add15294d590c65b743a80444",
+        "state": "COOKIE",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "physical": {
+          "width": 390,
+          "height": 844
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 390,
+          "height": 844,
+          "scrollY": 11802,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 12646,
+          "menuOpen": false,
+          "cookieOpen": true,
+          "active": {
+            "tag": "BUTTON",
+            "text": "Close",
+            "focusVisible": true
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": null,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_COOKIE_V0.1.png",
+        "bytes": 52674,
+        "sha256": "4c75a40c9a652832bf5ec46ba36beeaa88dc359add15294d590c65b743a80444"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/7/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/8",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_BODY_LINK_FOCUS_V0.1.png",
+        "bytes": 61677,
+        "sha256": "3d177fa19c99b7cec1f21757a02ef04db40cfb6cbe4ecc9438796505e452c14d",
+        "state": "BODY_LINK_FOCUS",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "physical": {
+          "width": 390,
+          "height": 844
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 12646,
+          "menuOpen": false,
+          "cookieOpen": false,
+          "active": {
+            "tag": "A",
+            "text": "Applications",
+            "focusVisible": true
+          },
+          "hash": ""
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": null,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_BODY_LINK_FOCUS_V0.1.png",
+        "bytes": 61677,
+        "sha256": "3d177fa19c99b7cec1f21757a02ef04db40cfb6cbe4ecc9438796505e452c14d"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/8/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/9",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_GRADES_ANCHOR_V0.1.png",
+        "bytes": 32175,
+        "sha256": "5a153e089692c35ac01665c873b7523ebc4a06c1b23019323902eabb7cfcd4f7",
+        "state": "GRADES_ANCHOR",
+        "role": "approval_core",
+        "logical_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "physical": {
+          "width": 390,
+          "height": 844
+        },
+        "dpr": 1,
+        "runtime": {
+          "dpr": 1,
+          "width": 390,
+          "height": 844,
+          "scrollY": 7513,
+          "font": [
+            {
+              "family": "Inter",
+              "status": "loaded"
+            }
+          ],
+          "bodyScrollHeight": 12646,
+          "menuOpen": false,
+          "cookieOpen": false,
+          "active": {
+            "tag": "BODY",
+            "text": "HomeMarketsProductsApplicationsDocumentsResourcesAboutRequest a QuoteRFQMenuHomeMarketsProductsApplicationsDocumentsReso",
+            "focusVisible": false
+          },
+          "hash": "#grades-to-review"
+        },
+        "source_identity": {
+          "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+          "bytes": 32689,
+          "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+        },
+        "initial_pixel_equivalent": null,
+        "evidence_type": "STATIC_VISUAL",
+        "proof": "Rendered local planning source; runtime state captured in capture record."
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_GRADES_ANCHOR_V0.1.png",
+        "bytes": 32175,
+        "sha256": "5a153e089692c35ac01665c873b7523ebc4a06c1b23019323902eabb7cfcd4f7"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/approval_core/9/source_identity",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "bytes": 32689,
+        "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/records/0",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_VISUAL_RULES_AND_4A_V0.1.md",
+        "bytes": 1713,
+        "sha256": "8b8942f422ea7d295e5656e6d591d66c1d6af897fda1119b902bacb06f02af97"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_VISUAL_RULES_AND_4A_V0.1.md",
+        "bytes": 1713,
+        "sha256": "8b8942f422ea7d295e5656e6d591d66c1d6af897fda1119b902bacb06f02af97"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/records/1",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_PREFLIGHT_V0.1.json",
+        "bytes": 5031,
+        "sha256": "82d76703767e3de905995ae7b9617dd823f9809b98fe4337fe47fcd0a1439b53"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_PREFLIGHT_V0.1.json",
+        "bytes": 5031,
+        "sha256": "82d76703767e3de905995ae7b9617dd823f9809b98fe4337fe47fcd0a1439b53"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/records/2",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_CAPTURE_RECORD_V0.1.json",
+        "bytes": 14254,
+        "sha256": "f5fe8a54940982b71f03d3d0c16ca77c7e7913ce8f98765e819bfb7d7a3fa4f1"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_CAPTURE_RECORD_V0.1.json",
+        "bytes": 14254,
+        "sha256": "f5fe8a54940982b71f03d3d0c16ca77c7e7913ce8f98765e819bfb7d7a3fa4f1"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/records/3",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_MACHINE_AUDIT_V0.1.json",
+        "bytes": 37376,
+        "sha256": "2e45791154f89c7dac6262324202ef6cd1031f3eea8e4115f218c4bf919ae3b6"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_MACHINE_AUDIT_V0.1.json",
+        "bytes": 37376,
+        "sha256": "2e45791154f89c7dac6262324202ef6cd1031f3eea8e4115f218c4bf919ae3b6"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/records/4",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+        "bytes": 3299,
+        "sha256": "ea8f5608975b38cf470621c6d57a30fefb446b2b807450ecd0cbf68395c7e7f5"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+        "bytes": 3299,
+        "sha256": "ea8f5608975b38cf470621c6d57a30fefb446b2b807450ecd0cbf68395c7e7f5"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/diagnostic_support/0",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_INITIAL_OBSERVATIONS_V0.1.json",
+        "bytes": 45620,
+        "sha256": "04c6cc3b72e883b4242fe1d70d3b1c701d1a7cecae12dd17b9386711f66faafa"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_INITIAL_OBSERVATIONS_V0.1.json",
+        "bytes": 45620,
+        "sha256": "04c6cc3b72e883b4242fe1d70d3b1c701d1a7cecae12dd17b9386711f66faafa"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/diagnostic_support/1",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_CONTENT_TARGETED_V0.1.json",
+        "bytes": 12509,
+        "sha256": "4b277f52a3ec1b1c4912f9e613458db741c4adb3509d6200a297322839da2a96"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_CONTENT_TARGETED_V0.1.json",
+        "bytes": 12509,
+        "sha256": "4b277f52a3ec1b1c4912f9e613458db741c4adb3509d6200a297322839da2a96"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/diagnostic_support/2",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_SUPPLEMENT_V0.1.json",
+        "bytes": 4666,
+        "sha256": "f46f9cb79c63e6b2c6f5ae0fe4e8b2e80083fa12e059ca42a212d389c7f6efe0"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_SUPPLEMENT_V0.1.json",
+        "bytes": 4666,
+        "sha256": "f46f9cb79c63e6b2c6f5ae0fe4e8b2e80083fa12e059ca42a212d389c7f6efe0"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/diagnostic_support/3",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_VISUAL_SCAN_V0.1.json",
+        "bytes": 4670,
+        "sha256": "167dc6556f397e6df0a9e17cd3efd90c8bfff5f7855bfe38abb86ac5c122c6cc"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_VISUAL_SCAN_V0.1.json",
+        "bytes": 4670,
+        "sha256": "167dc6556f397e6df0a9e17cd3efd90c8bfff5f7855bfe38abb86ac5c122c6cc"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/direction_samples/0",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/4A_1440.png",
+        "bytes": 55563,
+        "sha256": "395bc1af15c44ef63ae8fc57488c8f3c4fa9b6c8a4a556c29943b703469dce4a"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/4A_1440.png",
+        "bytes": 55563,
+        "sha256": "395bc1af15c44ef63ae8fc57488c8f3c4fa9b6c8a4a556c29943b703469dce4a"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/direction_samples/1",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/4A_768.png",
+        "bytes": 104885,
+        "sha256": "0c5d3121a843ceb1d70c0a380298ca78cc056bf7db8cd5cccf5601f7200dd80e"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/4A_768.png",
+        "bytes": 104885,
+        "sha256": "0c5d3121a843ceb1d70c0a380298ca78cc056bf7db8cd5cccf5601f7200dd80e"
+      },
+      "match": true
+    },
+    {
+      "origin": "evidence/direction_samples/2",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/4A_390.png",
+        "bytes": 99320,
+        "sha256": "6f82e2c491432850345ca4bc17fffb2f67c48df6cb0780195388ab7d3df873d1"
+      },
+      "actual": {
+        "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/4A_390.png",
+        "bytes": 99320,
+        "sha256": "6f82e2c491432850345ca4bc17fffb2f67c48df6cb0780195388ab7d3df873d1"
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_FULL_V0.1.png",
+      "expected": {
+        "width": 1440,
+        "height": 7636
+      },
+      "actual": {
+        "width": 1440,
+        "height": 7636
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_COOKIE_V0.1.png",
+      "expected": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actual": {
+        "width": 1440,
+        "height": 1000
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+      "expected": {
+        "width": 768,
+        "height": 8634
+      },
+      "actual": {
+        "width": 768,
+        "height": 8634
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_MENU_V0.1.png",
+      "expected": {
+        "width": 768,
+        "height": 1024
+      },
+      "actual": {
+        "width": 768,
+        "height": 1024
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_COOKIE_V0.1.png",
+      "expected": {
+        "width": 768,
+        "height": 1024
+      },
+      "actual": {
+        "width": 768,
+        "height": 1024
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "expected": {
+        "width": 390,
+        "height": 12646
+      },
+      "actual": {
+        "width": 390,
+        "height": 12646
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_MENU_V0.1.png",
+      "expected": {
+        "width": 390,
+        "height": 844
+      },
+      "actual": {
+        "width": 390,
+        "height": 844
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_COOKIE_V0.1.png",
+      "expected": {
+        "width": 390,
+        "height": 844
+      },
+      "actual": {
+        "width": 390,
+        "height": 844
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_BODY_LINK_FOCUS_V0.1.png",
+      "expected": {
+        "width": 390,
+        "height": 844
+      },
+      "actual": {
+        "width": 390,
+        "height": 844
+      },
+      "match": true
+    },
+    {
+      "origin": "PNG",
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_GRADES_ANCHOR_V0.1.png",
+      "expected": {
+        "width": 390,
+        "height": 844
+      },
+      "actual": {
+        "width": 390,
+        "height": 844
+      },
+      "match": true
+    }
+  ],
+  "runtime": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "errors": [],
+      "geometry": {
+        "dpr": 1,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 7636,
+        "font": [
+          {
+            "family": "Inter",
+            "status": "loaded"
+          }
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 84
+        },
+        "modules": [
+          {
+            "id": "INK-01",
+            "x": 0,
+            "y": 84,
+            "width": 1440,
+            "height": 489.984375
+          },
+          {
+            "id": "INK-02",
+            "x": 0,
+            "y": 573.984375,
+            "width": 1440,
+            "height": 538.546875
+          },
+          {
+            "id": "INK-03",
+            "x": 0,
+            "y": 1112.53125,
+            "width": 1440,
+            "height": 638.84375
+          },
+          {
+            "id": "INK-04",
+            "x": 0,
+            "y": 1751.375,
+            "width": 1440,
+            "height": 554.703125
+          },
+          {
+            "id": "INK-05",
+            "x": 0,
+            "y": 2306.078125,
+            "width": 1440,
+            "height": 420.515625
+          },
+          {
+            "id": "INK-06",
+            "x": 0,
+            "y": 2726.59375,
+            "width": 1440,
+            "height": 784.71875
+          },
+          {
+            "id": "INK-07",
+            "x": 0,
+            "y": 3511.3125,
+            "width": 1440,
+            "height": 657.984375
+          },
+          {
+            "id": "INK-08",
+            "x": 0,
+            "y": 4169.296875,
+            "width": 1440,
+            "height": 392.46875
+          },
+          {
+            "id": "INK-09",
+            "x": 0,
+            "y": 4561.765625,
+            "width": 1440,
+            "height": 850.0625
+          },
+          {
+            "id": "INK-10",
+            "x": 0,
+            "y": 5411.828125,
+            "width": 1440,
+            "height": 744.75
+          },
+          {
+            "id": "INK-11",
+            "x": 0,
+            "y": 6156.578125,
+            "width": 1440,
+            "height": 1004.875
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "x": 120,
+            "y": 11.5,
+            "width": 180,
+            "height": 60
+          },
+          {
+            "text": "Home",
+            "x": 615.140625,
+            "y": 0,
+            "width": 44,
+            "height": 83
+          },
+          {
+            "text": "Markets",
+            "x": 675.140625,
+            "y": 0,
+            "width": 54.28125,
+            "height": 83
+          },
+          {
+            "text": "Products",
+            "x": 745.421875,
+            "y": 0,
+            "width": 59.921875,
+            "height": 83
+          },
+          {
+            "text": "Applications",
+            "x": 821.34375,
+            "y": 0,
+            "width": 86.265625,
+            "height": 83
+          },
+          {
+            "text": "Documents",
+            "x": 923.609375,
+            "y": 0,
+            "width": 76.328125,
+            "height": 83
+          },
+          {
+            "text": "Resources",
+            "x": 1015.9375,
+            "y": 0,
+            "width": 70.515625,
+            "height": 83
+          },
+          {
+            "text": "About",
+            "x": 1102.453125,
+            "y": 0,
+            "width": 44,
+            "height": 83
+          },
+          {
+            "text": "Request a Quote",
+            "x": 1170.453125,
+            "y": 17.5,
+            "width": 149.546875,
+            "height": 48
+          },
+          {
+            "text": "Home",
+            "x": 120,
+            "y": 116,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "x": 187.046875,
+            "y": 116,
+            "width": 81.609375,
+            "height": 44
+          },
+          {
+            "text": "Build Your Print Comparison",
+            "x": 120,
+            "y": 459.234375,
+            "width": 241.96875,
+            "height": 50.75
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "x": 394.6875,
+            "y": 459.234375,
+            "width": 240.765625,
+            "height": 50.75
+          },
+          {
+            "text": "View M-350",
+            "x": 371.15625,
+            "y": 4791.546875,
+            "width": 92.046875,
+            "height": 44
+          },
+          {
+            "text": "View M-510",
+            "x": 371.15625,
+            "y": 4876.546875,
+            "width": 88.765625,
+            "height": 44
+          },
+          {
+            "text": "View M-52",
+            "x": 371.15625,
+            "y": 4961.546875,
+            "width": 81.984375,
+            "height": 44
+          },
+          {
+            "text": "View M-2377",
+            "x": 371.15625,
+            "y": 5046.546875,
+            "width": 100.078125,
+            "height": 44
+          },
+          {
+            "text": "Explore All Products",
+            "x": 120,
+            "y": 5303.78125,
+            "width": 159.21875,
+            "height": 44.046875
+          },
+          {
+            "text": "Request Technical Documents",
+            "x": 147,
+            "y": 5695.15625,
+            "width": 249.71875,
+            "height": 48
+          },
+          {
+            "text": "Request a Sample",
+            "x": 554.328125,
+            "y": 5695.15625,
+            "width": 147,
+            "height": 48
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "x": 961.65625,
+            "y": 5695.15625,
+            "width": 312.8125,
+            "height": 48
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "x": 152,
+            "y": 6321.15625,
+            "width": 675.203125,
+            "height": 44
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "x": 219.171875,
+            "y": 6458.9375,
+            "width": 680.703125,
+            "height": 44
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "x": 152,
+            "y": 6623.109375,
+            "width": 818.15625,
+            "height": 44
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "x": 500.328125,
+            "y": 6734.5,
+            "width": 402.78125,
+            "height": 44
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "x": 152,
+            "y": 6872.28125,
+            "width": 711.515625,
+            "height": 44
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "x": 152,
+            "y": 7010.0625,
+            "width": 671.796875,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "x": 535.296875,
+            "y": 7253.046875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "x": 535.296875,
+            "y": 7309.046875,
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "x": 535.296875,
+            "y": 7365.046875,
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "x": 535.296875,
+            "y": 7421.046875,
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "x": 812.859375,
+            "y": 7253.046875,
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "x": 812.859375,
+            "y": 7309.046875,
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "x": 812.859375,
+            "y": 7365.046875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "x": 1090.421875,
+            "y": 7253.046875,
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "x": 120,
+            "y": 7534.046875,
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "x": 231.8125,
+            "y": 7534.046875,
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "x": 373.546875,
+            "y": 7534.046875,
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "x": 482.3125,
+            "y": 7534.046875,
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "clipped": [
+          {
+            "tag": "H1",
+            "text": "Titanium Dioxide for Printing Inks",
+            "overflow": "visible",
+            "x": 120,
+            "y": 237.4375,
+            "width": 940,
+            "height": 64.796875
+          }
+        ],
+        "records": [
+          [
+            {
+              "label": "Record",
+              "text": "Current TDS"
+            },
+            {
+              "label": "What it can support",
+              "text": "Grade-level screening information"
+            },
+            {
+              "label": "What to check",
+              "text": "Product identity, revision, method, units and whether a value is typical or specified"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "SDS"
+            },
+            {
+              "label": "What it can support",
+              "text": "Safety communication"
+            },
+            {
+              "label": "What to check",
+              "text": "Correct product identity and revision; it is not an application-performance report or a compliance conclusion"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "Relevant lot CoA"
+            },
+            {
+              "label": "What it can support",
+              "text": "Results for an identified lot"
+            },
+            {
+              "label": "What to check",
+              "text": "Lot identity, method, units and scope; it does not establish finished-ink or print performance by itself"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "Application or trial data"
+            },
+            {
+              "label": "What it can support",
+              "text": "Evidence for a tested system"
+            },
+            {
+              "label": "What to check",
+              "text": "Vehicle, process, substrate, deposited film, drying or cure, reference, method and endpoint"
+            }
+          ]
+        ],
+        "grades": [
+          {
+            "text": "M-350\tView M-350",
+            "x": 120.5,
+            "y": 4771.046875,
+            "width": 959,
+            "height": 85
+          },
+          {
+            "text": "M-510\tView M-510",
+            "x": 120.5,
+            "y": 4856.046875,
+            "width": 959,
+            "height": 85
+          },
+          {
+            "text": "M-52\tView M-52",
+            "x": 120.5,
+            "y": 4941.046875,
+            "width": 959,
+            "height": 85
+          },
+          {
+            "text": "M-2377\tView M-2377",
+            "x": 120.5,
+            "y": 5026.046875,
+            "width": 959,
+            "height": 85
+          }
+        ],
+        "request": [
+          {
+            "text": "Request Technical Documents when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.",
+            "x": 120,
+            "y": 5668.15625,
+            "width": 385.328125,
+            "height": 298.328125
+          },
+          {
+            "text": "Request a Sample with a known Grade or an unknown-Grade selection, your Printing Inks application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.",
+            "x": 527.328125,
+            "y": 5668.15625,
+            "width": 385.328125,
+            "height": 298.328125
+          },
+          {
+            "text": "Discuss Your Printing Inks Application with a known lead Grade or Not sure / Need help. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in Additional Requirements.",
+            "x": 934.65625,
+            "y": 5668.15625,
+            "width": 385.34375,
+            "height": 298.328125
+          }
+        ],
+        "bodyLinks": [
+          {
+            "text": "Home",
+            "href": "/"
+          },
+          {
+            "text": "Applications",
+            "href": "/applications/"
+          },
+          {
+            "text": "Build Your Print Comparison",
+            "href": "#define-the-ink-and-print-system"
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "href": "#grades-to-review"
+          },
+          {
+            "text": "View M-350",
+            "href": "/products/m-350/"
+          },
+          {
+            "text": "View M-510",
+            "href": "/products/m-510/"
+          },
+          {
+            "text": "View M-52",
+            "href": "/products/m-52/"
+          },
+          {
+            "text": "View M-2377",
+            "href": "/products/m-2377/"
+          },
+          {
+            "text": "Explore All Products",
+            "href": "/products/"
+          },
+          {
+            "text": "Request Technical Documents",
+            "href": "/request-documents/"
+          },
+          {
+            "text": "Request a Sample",
+            "href": "/request-sample/"
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "href": "/request-a-quote/"
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "href": "https://www.mdpi.com/2076-3417/13/15/8575"
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/"
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "href": "https://www.iso.org/standard/82263.html"
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "href": "https://www.iso.org/standard/83546.html"
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "href": "https://www.iso.org/standard/65430.html"
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "href": "https://www.iso.org/standard/76040.html"
+          }
+        ],
+        "forms": 0,
+        "footer": {
+          "x": 0,
+          "y": 7161.453125,
+          "width": 1440,
+          "height": 474.28125
+        },
+        "headingCount": 1
+      },
+      "copy": {
+        "match": true,
+        "expectedCharacters": 8779,
+        "actualCharacters": 8779,
+        "links": [
+          {
+            "text": "Build Your Print Comparison",
+            "href": "#define-the-ink-and-print-system"
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "href": "#grades-to-review"
+          },
+          {
+            "text": "View M-350",
+            "href": "/products/m-350/"
+          },
+          {
+            "text": "View M-510",
+            "href": "/products/m-510/"
+          },
+          {
+            "text": "View M-52",
+            "href": "/products/m-52/"
+          },
+          {
+            "text": "View M-2377",
+            "href": "/products/m-2377/"
+          },
+          {
+            "text": "Explore All Products",
+            "href": "/products/"
+          },
+          {
+            "text": "Request Technical Documents",
+            "href": "/request-documents/"
+          },
+          {
+            "text": "Request a Sample",
+            "href": "/request-sample/"
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "href": "/request-a-quote/"
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "href": "https://www.mdpi.com/2076-3417/13/15/8575"
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/"
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "href": "https://www.iso.org/standard/82263.html"
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "href": "https://www.iso.org/standard/83546.html"
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "href": "https://www.iso.org/standard/65430.html"
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "href": "https://www.iso.org/standard/76040.html"
+          }
+        ]
+      },
+      "anchors": [
+        {
+          "selector": ".primaryAction",
+          "hash": "#define-the-ink-and-print-system",
+          "targetTop": 20.984375
+        },
+        {
+          "selector": ".secondaryAction",
+          "hash": "#grades-to-review",
+          "targetTop": 1738.765625
+        }
+      ],
+      "bodyFocus": [
+        {
+          "text": "Home",
+          "href": "/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Applications",
+          "href": "/applications/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Build Your Print Comparison",
+          "href": "#define-the-ink-and-print-system",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Review Printing Inks Grades",
+          "href": "#grades-to-review",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-350",
+          "href": "/products/m-350/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-510",
+          "href": "/products/m-510/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-52",
+          "href": "/products/m-52/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-2377",
+          "href": "/products/m-2377/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Explore All Products",
+          "href": "/products/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Request Technical Documents",
+          "href": "/request-documents/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Request a Sample",
+          "href": "/request-sample/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Discuss Your Printing Inks Application",
+          "href": "/request-a-quote/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+          "href": "https://www.mdpi.com/2076-3417/13/15/8575",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+          "href": "https://www.iso.org/standard/82263.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+          "href": "https://www.iso.org/standard/83546.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+          "href": "https://www.iso.org/standard/65430.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+          "href": "https://www.iso.org/standard/76040.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        }
+      ],
+      "cookie": {
+        "initial": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": false
+        },
+        "backwardWrap": {
+          "text": "Read Cookie Policy",
+          "tag": "A",
+          "focusVisible": true
+        },
+        "forwardWrap": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": true
+        },
+        "isolation": false,
+        "geometry": {
+          "x": 440,
+          "y": 364.71875,
+          "width": 560,
+          "height": 270.5625,
+          "scrollHeight": 269,
+          "clientHeight": 269
+        },
+        "escape": {
+          "open": false,
+          "focus": "cookie-trigger"
+        },
+        "click": {
+          "open": false,
+          "focus": "cookie-trigger"
+        }
+      },
+      "styles": {
+        ".primaryAction": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(6, 43, 91)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "24.75px"
+        },
+        ".secondaryAction": {
+          "color": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "outline": "rgb(0, 128, 120) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "24.75px"
+        },
+        ".sources a": {
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "outline": "rgb(0, 128, 120) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "26.4px"
+        },
+        ".headerRfq": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "24.08px"
+        },
+        ".footerRfq": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "24.08px"
+        }
+      },
+      "scroll": [
+        {
+          "y": 0,
+          "bottom": 1000,
+          "modules": [
+            "INK-01",
+            "INK-02"
+          ]
+        },
+        {
+          "y": 900,
+          "bottom": 1900,
+          "modules": [
+            "INK-02",
+            "INK-03",
+            "INK-04"
+          ]
+        },
+        {
+          "y": 1800,
+          "bottom": 2800,
+          "modules": [
+            "INK-04",
+            "INK-05",
+            "INK-06"
+          ]
+        },
+        {
+          "y": 2700,
+          "bottom": 3700,
+          "modules": [
+            "INK-05",
+            "INK-06",
+            "INK-07"
+          ]
+        },
+        {
+          "y": 3600,
+          "bottom": 4600,
+          "modules": [
+            "INK-07",
+            "INK-08",
+            "INK-09"
+          ]
+        },
+        {
+          "y": 4500,
+          "bottom": 5500,
+          "modules": [
+            "INK-08",
+            "INK-09",
+            "INK-10"
+          ]
+        },
+        {
+          "y": 5400,
+          "bottom": 6400,
+          "modules": [
+            "INK-09",
+            "INK-10",
+            "INK-11"
+          ]
+        },
+        {
+          "y": 6300,
+          "bottom": 7300,
+          "modules": [
+            "INK-11"
+          ]
+        },
+        {
+          "y": 6636,
+          "bottom": 7636,
+          "modules": [
+            "INK-11"
+          ]
+        }
+      ],
+      "reducedMotion": "auto"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "errors": [],
+      "geometry": {
+        "dpr": 1,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 8634,
+        "font": [
+          {
+            "family": "Inter",
+            "status": "loaded"
+          }
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 64
+        },
+        "modules": [
+          {
+            "id": "INK-01",
+            "x": 0,
+            "y": 64,
+            "width": 768,
+            "height": 488.015625
+          },
+          {
+            "id": "INK-02",
+            "x": 0,
+            "y": 552.015625,
+            "width": 768,
+            "height": 664.0625
+          },
+          {
+            "id": "INK-03",
+            "x": 0,
+            "y": 1216.078125,
+            "width": 768,
+            "height": 621.328125
+          },
+          {
+            "id": "INK-04",
+            "x": 0,
+            "y": 1837.40625,
+            "width": 768,
+            "height": 611.015625
+          },
+          {
+            "id": "INK-05",
+            "x": 0,
+            "y": 2448.421875,
+            "width": 768,
+            "height": 457.0625
+          },
+          {
+            "id": "INK-06",
+            "x": 0,
+            "y": 2905.484375,
+            "width": 768,
+            "height": 1000.5625
+          },
+          {
+            "id": "INK-07",
+            "x": 0,
+            "y": 3906.046875,
+            "width": 768,
+            "height": 637.40625
+          },
+          {
+            "id": "INK-08",
+            "x": 0,
+            "y": 4543.453125,
+            "width": 768,
+            "height": 388.203125
+          },
+          {
+            "id": "INK-09",
+            "x": 0,
+            "y": 4931.65625,
+            "width": 768,
+            "height": 878.5625
+          },
+          {
+            "id": "INK-10",
+            "x": 0,
+            "y": 5810.21875,
+            "width": 768,
+            "height": 940.15625
+          },
+          {
+            "id": "INK-11",
+            "x": 0,
+            "y": 6750.375,
+            "width": 768,
+            "height": 1138.28125
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "x": 16,
+            "y": 9.5,
+            "width": 120,
+            "height": 44
+          },
+          {
+            "text": "RFQ",
+            "x": 621.46875,
+            "y": 9.5,
+            "width": 58.1875,
+            "height": 44
+          },
+          {
+            "text": "Menu",
+            "x": 687.65625,
+            "y": 9.5,
+            "width": 64.34375,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "x": 24,
+            "y": 92,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "x": 91.046875,
+            "y": 92,
+            "width": 81.609375,
+            "height": 44
+          },
+          {
+            "text": "Build Your Print Comparison",
+            "x": 24,
+            "y": 445.265625,
+            "width": 241.96875,
+            "height": 50.75
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "x": 298.453125,
+            "y": 445.265625,
+            "width": 240.765625,
+            "height": 50.75
+          },
+          {
+            "text": "View M-350",
+            "x": 45,
+            "y": 5195.5,
+            "width": 92.046875,
+            "height": 44
+          },
+          {
+            "text": "View M-510",
+            "x": 413,
+            "y": 5195.5,
+            "width": 88.765625,
+            "height": 44
+          },
+          {
+            "text": "View M-52",
+            "x": 45,
+            "y": 5422.875,
+            "width": 81.984375,
+            "height": 44
+          },
+          {
+            "text": "View M-2377",
+            "x": 413,
+            "y": 5422.875,
+            "width": 100.078125,
+            "height": 44
+          },
+          {
+            "text": "Explore All Products",
+            "x": 24,
+            "y": 5710.21875,
+            "width": 150.5625,
+            "height": 44
+          },
+          {
+            "text": "Request Technical Documents",
+            "x": 49,
+            "y": 6073.859375,
+            "width": 235.765625,
+            "height": 48
+          },
+          {
+            "text": "Request a Sample",
+            "x": 49,
+            "y": 6246.640625,
+            "width": 138.71875,
+            "height": 48
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "x": 49,
+            "y": 6419.421875,
+            "width": 295.421875,
+            "height": 48
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "x": 56,
+            "y": 6902.234375,
+            "width": 675.203125,
+            "height": 44
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "x": 56,
+            "y": 7092.796875,
+            "width": 680.703125,
+            "height": 44
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "x": 56,
+            "y": 7283.359375,
+            "width": 688,
+            "height": 68.78125
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "x": 56,
+            "y": 7445.921875,
+            "width": 402.78125,
+            "height": 44
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "x": 56,
+            "y": 7583.703125,
+            "width": 688,
+            "height": 68.78125
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "x": 56,
+            "y": 7746.265625,
+            "width": 671.796875,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "x": 32,
+            "y": 8131.625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "x": 32,
+            "y": 8187.625,
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "x": 32,
+            "y": 8243.625,
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "x": 32,
+            "y": 8299.625,
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "x": 400,
+            "y": 8131.625,
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "x": 400,
+            "y": 8187.625,
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "x": 400,
+            "y": 8243.625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "x": 32,
+            "y": 8419.21875,
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "x": 32,
+            "y": 8532.21875,
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "x": 143.8125,
+            "y": 8532.21875,
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "x": 285.546875,
+            "y": 8532.21875,
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "x": 394.3125,
+            "y": 8532.21875,
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "clipped": [
+          {
+            "tag": "H1",
+            "text": "Titanium Dioxide for Printing Inks",
+            "overflow": "visible",
+            "x": 24,
+            "y": 203.4375,
+            "width": 720,
+            "height": 51.828125
+          }
+        ],
+        "records": [
+          [
+            {
+              "label": "Record",
+              "text": "Current TDS"
+            },
+            {
+              "label": "What it can support",
+              "text": "Grade-level screening information"
+            },
+            {
+              "label": "What to check",
+              "text": "Product identity, revision, method, units and whether a value is typical or specified"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "SDS"
+            },
+            {
+              "label": "What it can support",
+              "text": "Safety communication"
+            },
+            {
+              "label": "What to check",
+              "text": "Correct product identity and revision; it is not an application-performance report or a compliance conclusion"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "Relevant lot CoA"
+            },
+            {
+              "label": "What it can support",
+              "text": "Results for an identified lot"
+            },
+            {
+              "label": "What to check",
+              "text": "Lot identity, method, units and scope; it does not establish finished-ink or print performance by itself"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "Application or trial data"
+            },
+            {
+              "label": "What it can support",
+              "text": "Evidence for a tested system"
+            },
+            {
+              "label": "What to check",
+              "text": "Vehicle, process, substrate, deposited film, drying or cure, reference, method and endpoint"
+            }
+          ]
+        ],
+        "grades": [
+          {
+            "text": "M-350\nView M-350",
+            "x": 24,
+            "y": 5061.125,
+            "width": 352,
+            "height": 211.375
+          },
+          {
+            "text": "M-510\nView M-510",
+            "x": 392,
+            "y": 5061.125,
+            "width": 352,
+            "height": 211.375
+          },
+          {
+            "text": "M-52\nView M-52",
+            "x": 24,
+            "y": 5288.5,
+            "width": 352,
+            "height": 211.375
+          },
+          {
+            "text": "M-2377\nView M-2377",
+            "x": 392,
+            "y": 5288.5,
+            "width": 352,
+            "height": 211.375
+          }
+        ],
+        "request": [
+          {
+            "text": "Request Technical Documents when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.",
+            "x": 24,
+            "y": 6048.859375,
+            "width": 720,
+            "height": 150.78125
+          },
+          {
+            "text": "Request a Sample with a known Grade or an unknown-Grade selection, your Printing Inks application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.",
+            "x": 24,
+            "y": 6221.640625,
+            "width": 720,
+            "height": 150.78125
+          },
+          {
+            "text": "Discuss Your Printing Inks Application with a known lead Grade or Not sure / Need help. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in Additional Requirements.",
+            "x": 24,
+            "y": 6394.421875,
+            "width": 720,
+            "height": 177.171875
+          }
+        ],
+        "bodyLinks": [
+          {
+            "text": "Home",
+            "href": "/"
+          },
+          {
+            "text": "Applications",
+            "href": "/applications/"
+          },
+          {
+            "text": "Build Your Print Comparison",
+            "href": "#define-the-ink-and-print-system"
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "href": "#grades-to-review"
+          },
+          {
+            "text": "View M-350",
+            "href": "/products/m-350/"
+          },
+          {
+            "text": "View M-510",
+            "href": "/products/m-510/"
+          },
+          {
+            "text": "View M-52",
+            "href": "/products/m-52/"
+          },
+          {
+            "text": "View M-2377",
+            "href": "/products/m-2377/"
+          },
+          {
+            "text": "Explore All Products",
+            "href": "/products/"
+          },
+          {
+            "text": "Request Technical Documents",
+            "href": "/request-documents/"
+          },
+          {
+            "text": "Request a Sample",
+            "href": "/request-sample/"
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "href": "/request-a-quote/"
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "href": "https://www.mdpi.com/2076-3417/13/15/8575"
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/"
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "href": "https://www.iso.org/standard/82263.html"
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "href": "https://www.iso.org/standard/83546.html"
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "href": "https://www.iso.org/standard/65430.html"
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "href": "https://www.iso.org/standard/76040.html"
+          }
+        ],
+        "forms": 0,
+        "footer": {
+          "x": 0,
+          "y": 7888.65625,
+          "width": 768,
+          "height": 745.25
+        },
+        "headingCount": 1
+      },
+      "copy": {
+        "match": true,
+        "expectedCharacters": 8779,
+        "actualCharacters": 8779,
+        "links": [
+          {
+            "text": "Build Your Print Comparison",
+            "href": "#define-the-ink-and-print-system"
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "href": "#grades-to-review"
+          },
+          {
+            "text": "View M-350",
+            "href": "/products/m-350/"
+          },
+          {
+            "text": "View M-510",
+            "href": "/products/m-510/"
+          },
+          {
+            "text": "View M-52",
+            "href": "/products/m-52/"
+          },
+          {
+            "text": "View M-2377",
+            "href": "/products/m-2377/"
+          },
+          {
+            "text": "Explore All Products",
+            "href": "/products/"
+          },
+          {
+            "text": "Request Technical Documents",
+            "href": "/request-documents/"
+          },
+          {
+            "text": "Request a Sample",
+            "href": "/request-sample/"
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "href": "/request-a-quote/"
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "href": "https://www.mdpi.com/2076-3417/13/15/8575"
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/"
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "href": "https://www.iso.org/standard/82263.html"
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "href": "https://www.iso.org/standard/83546.html"
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "href": "https://www.iso.org/standard/65430.html"
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "href": "https://www.iso.org/standard/76040.html"
+          }
+        ]
+      },
+      "anchors": [
+        {
+          "selector": ".primaryAction",
+          "hash": "#define-the-ink-and-print-system",
+          "targetTop": 20.015625
+        },
+        {
+          "selector": ".secondaryAction",
+          "hash": "#grades-to-review",
+          "targetTop": 2022.65625
+        }
+      ],
+      "bodyFocus": [
+        {
+          "text": "Home",
+          "href": "/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Applications",
+          "href": "/applications/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Build Your Print Comparison",
+          "href": "#define-the-ink-and-print-system",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Review Printing Inks Grades",
+          "href": "#grades-to-review",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-350",
+          "href": "/products/m-350/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-510",
+          "href": "/products/m-510/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-52",
+          "href": "/products/m-52/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-2377",
+          "href": "/products/m-2377/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Explore All Products",
+          "href": "/products/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Request Technical Documents",
+          "href": "/request-documents/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Request a Sample",
+          "href": "/request-sample/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Discuss Your Printing Inks Application",
+          "href": "/request-a-quote/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+          "href": "https://www.mdpi.com/2076-3417/13/15/8575",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+          "href": "https://www.iso.org/standard/82263.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+          "href": "https://www.iso.org/standard/83546.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+          "href": "https://www.iso.org/standard/65430.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+          "href": "https://www.iso.org/standard/76040.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        }
+      ],
+      "menu": {
+        "initial": {
+          "text": "Home",
+          "tag": "A",
+          "focusVisible": false
+        },
+        "toToggle": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": true
+        },
+        "backwardWrap": {
+          "text": "Request a Quote",
+          "tag": "A",
+          "focusVisible": true
+        },
+        "forwardWrap": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": true
+        },
+        "isolation": {
+          "mainInert": true,
+          "footerInert": true,
+          "activeInBackground": false,
+          "overflow": "hidden"
+        },
+        "escape": {
+          "hidden": true,
+          "expanded": "false",
+          "focus": "menuButton",
+          "mainInert": false,
+          "overflow": ""
+        },
+        "selection": {
+          "hidden": true,
+          "focus": "menuButton"
+        },
+        "selection_evidence_type": "LOCAL_SIMULATION: navigation default prevented only; actual menu close handler ran",
+        "breakpoint": {
+          "hidden": true,
+          "mainInert": false,
+          "overflow": ""
+        }
+      },
+      "cookie": {
+        "initial": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": false
+        },
+        "backwardWrap": {
+          "text": "Read Cookie Policy",
+          "tag": "A",
+          "focusVisible": true
+        },
+        "forwardWrap": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": true
+        },
+        "isolation": false,
+        "geometry": {
+          "x": 104,
+          "y": 376.71875,
+          "width": 560,
+          "height": 270.5625,
+          "scrollHeight": 269,
+          "clientHeight": 269
+        },
+        "escape": {
+          "open": false,
+          "focus": "cookie-trigger"
+        },
+        "click": {
+          "open": false,
+          "focus": "cookie-trigger"
+        }
+      },
+      "styles": {
+        ".primaryAction": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(6, 43, 91)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "24.75px"
+        },
+        ".secondaryAction": {
+          "color": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "outline": "rgb(0, 128, 120) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "24.75px"
+        },
+        ".sources a": {
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "outline": "rgb(0, 128, 120) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "26.4px"
+        },
+        ".headerRfq": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "24.08px"
+        },
+        ".footerRfq": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "24.08px"
+        }
+      },
+      "scroll": [
+        {
+          "y": 0,
+          "bottom": 1024,
+          "modules": [
+            "INK-01",
+            "INK-02"
+          ]
+        },
+        {
+          "y": 924,
+          "bottom": 1948,
+          "modules": [
+            "INK-02",
+            "INK-03",
+            "INK-04"
+          ]
+        },
+        {
+          "y": 1848,
+          "bottom": 2872,
+          "modules": [
+            "INK-04",
+            "INK-05"
+          ]
+        },
+        {
+          "y": 2772,
+          "bottom": 3796,
+          "modules": [
+            "INK-05",
+            "INK-06"
+          ]
+        },
+        {
+          "y": 3696,
+          "bottom": 4720,
+          "modules": [
+            "INK-06",
+            "INK-07",
+            "INK-08"
+          ]
+        },
+        {
+          "y": 4620,
+          "bottom": 5644,
+          "modules": [
+            "INK-08",
+            "INK-09"
+          ]
+        },
+        {
+          "y": 5544,
+          "bottom": 6568,
+          "modules": [
+            "INK-09",
+            "INK-10"
+          ]
+        },
+        {
+          "y": 6468,
+          "bottom": 7492,
+          "modules": [
+            "INK-10",
+            "INK-11"
+          ]
+        },
+        {
+          "y": 7392,
+          "bottom": 8416,
+          "modules": [
+            "INK-11"
+          ]
+        },
+        {
+          "y": 7610,
+          "bottom": 8634,
+          "modules": [
+            "INK-11"
+          ]
+        }
+      ],
+      "reducedMotion": "auto"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "errors": [],
+      "geometry": {
+        "dpr": 1,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 12646,
+        "font": [
+          {
+            "family": "Inter",
+            "status": "loaded"
+          }
+        ],
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64
+        },
+        "modules": [
+          {
+            "id": "INK-01",
+            "x": 0,
+            "y": 64,
+            "width": 390,
+            "height": 683.9375
+          },
+          {
+            "id": "INK-02",
+            "x": 0,
+            "y": 747.9375,
+            "width": 390,
+            "height": 827.9375
+          },
+          {
+            "id": "INK-03",
+            "x": 0,
+            "y": 1575.875,
+            "width": 390,
+            "height": 1075.5
+          },
+          {
+            "id": "INK-04",
+            "x": 0,
+            "y": 2651.375,
+            "width": 390,
+            "height": 890.765625
+          },
+          {
+            "id": "INK-05",
+            "x": 0,
+            "y": 3542.140625,
+            "width": 390,
+            "height": 631.25
+          },
+          {
+            "id": "INK-06",
+            "x": 0,
+            "y": 4173.390625,
+            "width": 390,
+            "height": 1748.640625
+          },
+          {
+            "id": "INK-07",
+            "x": 0,
+            "y": 5922.03125,
+            "width": 390,
+            "height": 1032.328125
+          },
+          {
+            "id": "INK-08",
+            "x": 0,
+            "y": 6954.359375,
+            "width": 390,
+            "height": 578.46875
+          },
+          {
+            "id": "INK-09",
+            "x": 0,
+            "y": 7532.828125,
+            "width": 390,
+            "height": 1434.796875
+          },
+          {
+            "id": "INK-10",
+            "x": 0,
+            "y": 8967.625,
+            "width": 390,
+            "height": 1281.546875
+          },
+          {
+            "id": "INK-11",
+            "x": 0,
+            "y": 10249.171875,
+            "width": 390,
+            "height": 1631.25
+          }
+        ],
+        "targets": [
+          {
+            "text": "",
+            "x": 16,
+            "y": 9.5,
+            "width": 120,
+            "height": 44
+          },
+          {
+            "text": "RFQ",
+            "x": 243.46875,
+            "y": 9.5,
+            "width": 58.1875,
+            "height": 44
+          },
+          {
+            "text": "Menu",
+            "x": 309.65625,
+            "y": 9.5,
+            "width": 64.34375,
+            "height": 44
+          },
+          {
+            "text": "Home",
+            "x": 20,
+            "y": 86,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "x": 87.046875,
+            "y": 86,
+            "width": 81.609375,
+            "height": 44
+          },
+          {
+            "text": "Build Your Print Comparison",
+            "x": 20,
+            "y": 572.4375,
+            "width": 350,
+            "height": 50.75
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "x": 20,
+            "y": 653.1875,
+            "width": 350,
+            "height": 50.75
+          },
+          {
+            "text": "View M-350",
+            "x": 41,
+            "y": 7778.203125,
+            "width": 92.046875,
+            "height": 44
+          },
+          {
+            "text": "View M-510",
+            "x": 41,
+            "y": 8005.578125,
+            "width": 88.765625,
+            "height": 44
+          },
+          {
+            "text": "View M-52",
+            "x": 41,
+            "y": 8232.953125,
+            "width": 81.984375,
+            "height": 44
+          },
+          {
+            "text": "View M-2377",
+            "x": 41,
+            "y": 8460.328125,
+            "width": 100.078125,
+            "height": 44
+          },
+          {
+            "text": "Explore All Products",
+            "x": 20,
+            "y": 8879.625,
+            "width": 150.5625,
+            "height": 44
+          },
+          {
+            "text": "Request Technical Documents",
+            "x": 41,
+            "y": 9287.96875,
+            "width": 235.765625,
+            "height": 48
+          },
+          {
+            "text": "Request a Sample",
+            "x": 41,
+            "y": 9531.921875,
+            "width": 138.71875,
+            "height": 48
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "x": 41,
+            "y": 9775.875,
+            "width": 295.421875,
+            "height": 48
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "x": 50,
+            "y": 10405.671875,
+            "width": 320,
+            "height": 90.25
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "x": 50,
+            "y": 10685.421875,
+            "width": 320,
+            "height": 90.25
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "x": 50,
+            "y": 11014.671875,
+            "width": 320,
+            "height": 90.25
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "x": 50,
+            "y": 11244.921875,
+            "width": 320,
+            "height": 65.5
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "x": 50,
+            "y": 11450.421875,
+            "width": 320,
+            "height": 90.25
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "x": 50,
+            "y": 11680.671875,
+            "width": 320,
+            "height": 90.25
+          },
+          {
+            "text": "Home",
+            "x": 20,
+            "y": 12103.390625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Markets",
+            "x": 20,
+            "y": 12159.390625,
+            "width": 54.28125,
+            "height": 44
+          },
+          {
+            "text": "Products",
+            "x": 20,
+            "y": 12215.390625,
+            "width": 59.921875,
+            "height": 44
+          },
+          {
+            "text": "Applications",
+            "x": 20,
+            "y": 12271.390625,
+            "width": 83.171875,
+            "height": 44
+          },
+          {
+            "text": "Documents",
+            "x": 205,
+            "y": 12103.390625,
+            "width": 76.328125,
+            "height": 44
+          },
+          {
+            "text": "Resources",
+            "x": 205,
+            "y": 12159.390625,
+            "width": 70.515625,
+            "height": 44
+          },
+          {
+            "text": "About",
+            "x": 205,
+            "y": 12215.390625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "text": "Request a Quote",
+            "x": 20,
+            "y": 12386.984375,
+            "width": 148.625,
+            "height": 44
+          },
+          {
+            "text": "Privacy Policy",
+            "x": 20,
+            "y": 12499.984375,
+            "width": 93.8125,
+            "height": 44
+          },
+          {
+            "text": "Dasar Privasi (BM)",
+            "x": 131.8125,
+            "y": 12499.984375,
+            "width": 123.734375,
+            "height": 44
+          },
+          {
+            "text": "Cookie Policy",
+            "x": 273.546875,
+            "y": 12499.984375,
+            "width": 90.765625,
+            "height": 44
+          },
+          {
+            "text": "Cookie Settings",
+            "x": 20,
+            "y": 12547.984375,
+            "width": 105.40625,
+            "height": 44
+          }
+        ],
+        "clipped": [
+          {
+            "tag": "H1",
+            "text": "Titanium Dioxide for Printing Inks",
+            "overflow": "visible",
+            "x": 20,
+            "y": 221.53125,
+            "width": 350,
+            "height": 85.09375
+          }
+        ],
+        "records": [
+          [
+            {
+              "label": "Record",
+              "text": "Current TDS"
+            },
+            {
+              "label": "What it can support",
+              "text": "Grade-level screening information"
+            },
+            {
+              "label": "What to check",
+              "text": "Product identity, revision, method, units and whether a value is typical or specified"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "SDS"
+            },
+            {
+              "label": "What it can support",
+              "text": "Safety communication"
+            },
+            {
+              "label": "What to check",
+              "text": "Correct product identity and revision; it is not an application-performance report or a compliance conclusion"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "Relevant lot CoA"
+            },
+            {
+              "label": "What it can support",
+              "text": "Results for an identified lot"
+            },
+            {
+              "label": "What to check",
+              "text": "Lot identity, method, units and scope; it does not establish finished-ink or print performance by itself"
+            }
+          ],
+          [
+            {
+              "label": "Record",
+              "text": "Application or trial data"
+            },
+            {
+              "label": "What it can support",
+              "text": "Evidence for a tested system"
+            },
+            {
+              "label": "What to check",
+              "text": "Vehicle, process, substrate, deposited film, drying or cure, reference, method and endpoint"
+            }
+          ]
+        ],
+        "grades": [
+          {
+            "text": "M-350\nView M-350",
+            "x": 20,
+            "y": 7643.828125,
+            "width": 350,
+            "height": 211.375
+          },
+          {
+            "text": "M-510\nView M-510",
+            "x": 20,
+            "y": 7871.203125,
+            "width": 350,
+            "height": 211.375
+          },
+          {
+            "text": "M-52\nView M-52",
+            "x": 20,
+            "y": 8098.578125,
+            "width": 350,
+            "height": 211.375
+          },
+          {
+            "text": "M-2377\nView M-2377",
+            "x": 20,
+            "y": 8325.953125,
+            "width": 350,
+            "height": 211.375
+          }
+        ],
+        "request": [
+          {
+            "text": "Request Technical Documents when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.",
+            "x": 20,
+            "y": 9266.96875,
+            "width": 350,
+            "height": 221.953125
+          },
+          {
+            "text": "Request a Sample with a known Grade or an unknown-Grade selection, your Printing Inks application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.",
+            "x": 20,
+            "y": 9510.921875,
+            "width": 350,
+            "height": 221.953125
+          },
+          {
+            "text": "Discuss Your Printing Inks Application with a known lead Grade or Not sure / Need help. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in Additional Requirements.",
+            "x": 20,
+            "y": 9754.875,
+            "width": 350,
+            "height": 274.734375
+          }
+        ],
+        "bodyLinks": [
+          {
+            "text": "Home",
+            "href": "/"
+          },
+          {
+            "text": "Applications",
+            "href": "/applications/"
+          },
+          {
+            "text": "Build Your Print Comparison",
+            "href": "#define-the-ink-and-print-system"
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "href": "#grades-to-review"
+          },
+          {
+            "text": "View M-350",
+            "href": "/products/m-350/"
+          },
+          {
+            "text": "View M-510",
+            "href": "/products/m-510/"
+          },
+          {
+            "text": "View M-52",
+            "href": "/products/m-52/"
+          },
+          {
+            "text": "View M-2377",
+            "href": "/products/m-2377/"
+          },
+          {
+            "text": "Explore All Products",
+            "href": "/products/"
+          },
+          {
+            "text": "Request Technical Documents",
+            "href": "/request-documents/"
+          },
+          {
+            "text": "Request a Sample",
+            "href": "/request-sample/"
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "href": "/request-a-quote/"
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "href": "https://www.mdpi.com/2076-3417/13/15/8575"
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/"
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "href": "https://www.iso.org/standard/82263.html"
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "href": "https://www.iso.org/standard/83546.html"
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "href": "https://www.iso.org/standard/65430.html"
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "href": "https://www.iso.org/standard/76040.html"
+          }
+        ],
+        "forms": 0,
+        "footer": {
+          "x": 0,
+          "y": 11880.421875,
+          "width": 390,
+          "height": 765.25
+        },
+        "headingCount": 1
+      },
+      "copy": {
+        "match": true,
+        "expectedCharacters": 8779,
+        "actualCharacters": 8779,
+        "links": [
+          {
+            "text": "Build Your Print Comparison",
+            "href": "#define-the-ink-and-print-system"
+          },
+          {
+            "text": "Review Printing Inks Grades",
+            "href": "#grades-to-review"
+          },
+          {
+            "text": "View M-350",
+            "href": "/products/m-350/"
+          },
+          {
+            "text": "View M-510",
+            "href": "/products/m-510/"
+          },
+          {
+            "text": "View M-52",
+            "href": "/products/m-52/"
+          },
+          {
+            "text": "View M-2377",
+            "href": "/products/m-2377/"
+          },
+          {
+            "text": "Explore All Products",
+            "href": "/products/"
+          },
+          {
+            "text": "Request Technical Documents",
+            "href": "/request-documents/"
+          },
+          {
+            "text": "Request a Sample",
+            "href": "/request-sample/"
+          },
+          {
+            "text": "Discuss Your Printing Inks Application",
+            "href": "/request-a-quote/"
+          },
+          {
+            "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+            "href": "https://www.mdpi.com/2076-3417/13/15/8575"
+          },
+          {
+            "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/"
+          },
+          {
+            "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+            "href": "https://www.iso.org/standard/82263.html"
+          },
+          {
+            "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+            "href": "https://www.iso.org/standard/83546.html"
+          },
+          {
+            "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+            "href": "https://www.iso.org/standard/65430.html"
+          },
+          {
+            "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+            "href": "https://www.iso.org/standard/76040.html"
+          }
+        ]
+      },
+      "anchors": [
+        {
+          "selector": ".primaryAction",
+          "hash": "#define-the-ink-and-print-system",
+          "targetTop": 29.9375
+        },
+        {
+          "selector": ".secondaryAction",
+          "hash": "#grades-to-review",
+          "targetTop": 4081.828125
+        }
+      ],
+      "bodyFocus": [
+        {
+          "text": "Home",
+          "href": "/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Applications",
+          "href": "/applications/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Build Your Print Comparison",
+          "href": "#define-the-ink-and-print-system",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Review Printing Inks Grades",
+          "href": "#grades-to-review",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-350",
+          "href": "/products/m-350/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-510",
+          "href": "/products/m-510/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-52",
+          "href": "/products/m-52/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "View M-2377",
+          "href": "/products/m-2377/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Explore All Products",
+          "href": "/products/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Request Technical Documents",
+          "href": "/request-documents/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Request a Sample",
+          "href": "/request-sample/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Discuss Your Printing Inks Application",
+          "href": "/request-a-quote/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality",
+          "href": "https://www.mdpi.com/2076-3417/13/15/8575",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/40290988/",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks",
+          "href": "https://www.iso.org/standard/82263.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 23498:2022 — Visual opacity of printed white ink",
+          "href": "https://www.iso.org/standard/83546.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images",
+          "href": "https://www.iso.org/standard/65430.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        },
+        {
+          "text": "ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind",
+          "href": "https://www.iso.org/standard/76040.html",
+          "focusVisible": true,
+          "outline": "rgb(0, 128, 120) solid 3px"
+        }
+      ],
+      "menu": {
+        "initial": {
+          "text": "Home",
+          "tag": "A",
+          "focusVisible": false
+        },
+        "toToggle": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": true
+        },
+        "backwardWrap": {
+          "text": "Request a Quote",
+          "tag": "A",
+          "focusVisible": true
+        },
+        "forwardWrap": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": true
+        },
+        "isolation": {
+          "mainInert": true,
+          "footerInert": true,
+          "activeInBackground": false,
+          "overflow": "hidden"
+        },
+        "escape": {
+          "hidden": true,
+          "expanded": "false",
+          "focus": "menuButton",
+          "mainInert": false,
+          "overflow": ""
+        },
+        "selection": {
+          "hidden": true,
+          "focus": "menuButton"
+        },
+        "selection_evidence_type": "LOCAL_SIMULATION: navigation default prevented only; actual menu close handler ran",
+        "breakpoint": {
+          "hidden": true,
+          "mainInert": false,
+          "overflow": ""
+        }
+      },
+      "cookie": {
+        "initial": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": false
+        },
+        "backwardWrap": {
+          "text": "Read Cookie Policy",
+          "tag": "A",
+          "focusVisible": true
+        },
+        "forwardWrap": {
+          "text": "Close",
+          "tag": "BUTTON",
+          "focusVisible": true
+        },
+        "isolation": false,
+        "geometry": {
+          "x": 19,
+          "y": 238.6875,
+          "width": 352,
+          "height": 366.625,
+          "scrollHeight": 365,
+          "clientHeight": 365
+        },
+        "escape": {
+          "open": false,
+          "focus": "cookie-trigger"
+        },
+        "click": {
+          "open": false,
+          "focus": "cookie-trigger"
+        }
+      },
+      "styles": {
+        ".primaryAction": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(6, 43, 91)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "24.75px"
+        },
+        ".secondaryAction": {
+          "color": "rgb(0, 128, 120)",
+          "background": "rgb(245, 248, 251)",
+          "outline": "rgb(0, 128, 120) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "24.75px"
+        },
+        ".sources a": {
+          "color": "rgb(0, 128, 120)",
+          "background": "rgba(0, 0, 0, 0)",
+          "outline": "rgb(0, 128, 120) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "15px",
+          "lineHeight": "24.75px"
+        },
+        ".headerRfq": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "24.08px"
+        },
+        ".footerRfq": {
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "font": "Inter, Arial, sans-serif",
+          "fontSize": "14px",
+          "lineHeight": "24.08px"
+        }
+      },
+      "scroll": [
+        {
+          "y": 0,
+          "bottom": 844,
+          "modules": [
+            "INK-01",
+            "INK-02"
+          ]
+        },
+        {
+          "y": 744,
+          "bottom": 1588,
+          "modules": [
+            "INK-01",
+            "INK-02",
+            "INK-03"
+          ]
+        },
+        {
+          "y": 1488,
+          "bottom": 2332,
+          "modules": [
+            "INK-02",
+            "INK-03"
+          ]
+        },
+        {
+          "y": 2232,
+          "bottom": 3076,
+          "modules": [
+            "INK-03",
+            "INK-04"
+          ]
+        },
+        {
+          "y": 2976,
+          "bottom": 3820,
+          "modules": [
+            "INK-04",
+            "INK-05"
+          ]
+        },
+        {
+          "y": 3720,
+          "bottom": 4564,
+          "modules": [
+            "INK-05",
+            "INK-06"
+          ]
+        },
+        {
+          "y": 4464,
+          "bottom": 5308,
+          "modules": [
+            "INK-06"
+          ]
+        },
+        {
+          "y": 5208,
+          "bottom": 6052,
+          "modules": [
+            "INK-06",
+            "INK-07"
+          ]
+        },
+        {
+          "y": 5952,
+          "bottom": 6796,
+          "modules": [
+            "INK-07"
+          ]
+        },
+        {
+          "y": 6696,
+          "bottom": 7540,
+          "modules": [
+            "INK-07",
+            "INK-08",
+            "INK-09"
+          ]
+        },
+        {
+          "y": 7440,
+          "bottom": 8284,
+          "modules": [
+            "INK-08",
+            "INK-09"
+          ]
+        },
+        {
+          "y": 8184,
+          "bottom": 9028,
+          "modules": [
+            "INK-09",
+            "INK-10"
+          ]
+        },
+        {
+          "y": 8928,
+          "bottom": 9772,
+          "modules": [
+            "INK-09",
+            "INK-10"
+          ]
+        },
+        {
+          "y": 9672,
+          "bottom": 10516,
+          "modules": [
+            "INK-10",
+            "INK-11"
+          ]
+        },
+        {
+          "y": 10416,
+          "bottom": 11260,
+          "modules": [
+            "INK-11"
+          ]
+        },
+        {
+          "y": 11160,
+          "bottom": 12004,
+          "modules": [
+            "INK-11"
+          ]
+        },
+        {
+          "y": 11802,
+          "bottom": 12646,
+          "modules": [
+            "INK-11"
+          ]
+        }
+      ],
+      "reducedMotion": "auto"
+    }
+  ],
+  "temporary_crops": [
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/1440-0.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_FULL_V0.1.png",
+      "y": 0,
+      "height": 1670,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/1440-1550.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_FULL_V0.1.png",
+      "y": 1550,
+      "height": 1670,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/1440-3100.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_FULL_V0.1.png",
+      "y": 3100,
+      "height": 1670,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/1440-4650.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_FULL_V0.1.png",
+      "y": 4650,
+      "height": 1670,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/1440-6200.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_1440_FULL_V0.1.png",
+      "y": 6200,
+      "height": 1436,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/768-0.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+      "y": 0,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/768-1650.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+      "y": 1650,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/768-3300.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+      "y": 3300,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/768-4950.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+      "y": 4950,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/768-6600.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+      "y": 6600,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/768-8250.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_768_FULL_V0.1.png",
+      "y": 8250,
+      "height": 384,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/390-0.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "y": 0,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/390-1650.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "y": 1650,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/390-3300.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "y": 3300,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/390-4950.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "y": 4950,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/390-6600.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "y": 6600,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/390-8250.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "y": 8250,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/390-9900.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "y": 9900,
+      "height": 1770,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\applications\\printing-inks\\05_review\\gate5-independent-v0.1/read-cache/390-11550.png",
+      "original": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/approval_core/APP-INK_GATE4_390_FULL_V0.1.png",
+      "y": 11550,
+      "height": 1096,
+      "evidence_type": "STATIC_VISUAL",
+      "purpose": "Temporary native-scale reading crop, not new capture"
+    }
+  ],
+  "persistent_screenshots": 0,
+  "bundle_recomputed": "24ac2dec8f055d8a1c5272b0567d2038119ca6fe802404070cca4be20ca4bfe2",
+  "methods": [
+    {
+      "path": "D:/23MySec/agents/gate5-independent-visual-review/agent.md",
+      "bytes": 5820,
+      "sha256": "e7cb61d0663bb3fa2088ae115e7d611515db0ce54b517f145c947008e40ca2f9"
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+      "bytes": 12641,
+      "sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884"
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/references/independent-visual-review.md",
+      "bytes": 6125,
+      "sha256": "a5816b700851f19df9604a5eebc7c94917b50fc25678bfbed8c73740c1530208"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.9.md",
+      "bytes": 7051,
+      "sha256": "4db2a35af7c2deb92511d93989f304eff337bcf0440b50b0915b4b669de57f4a"
+    }
+  ],
+  "browser": "152.0.4191.66",
+  "nojs": {
+    "modules": 11,
+    "links": 18,
+    "textLength": 10399
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "collectedAt": "2026-09-08T18:40:54.3720924+08:00",
+  "collector": "/root/app000_internal_link_planning",
+  "evidenceType": "ACTUAL_RUNTIME / CUA_AX",
+  "browser": "Chrome extension",
+  "runtime": "http://127.0.0.1:4391",
+  "realExternalSubmission": false,
+  "observations": [
+    {
+      "id": "UI-01",
+      "source": "/applications/",
+      "action": "AX full-page read",
+      "result": "PASS_WITH_CONTRACT_ID_MISMATCH",
+      "actual": "30 visible Grade link instances in 8/8/7/4/2/1 order and exact accessible labels/hrefs; runtime Specialty internal edge marker is APP000-EDGE-SPECIALTY-01 instead of approved APP000-EDGE-SPEC-01"
+    },
+    {
+      "id": "UI-02",
+      "source": "/applications/",
+      "action": "pointer Explore Products then browser Back",
+      "result": "PASS",
+      "actual": "Reached /products with Products title; Back restored /applications/"
+    },
+    {
+      "id": "UI-03",
+      "source": "/applications/",
+      "action": "pointer Review Documents then browser Back",
+      "result": "PASS",
+      "actual": "Reached /documents with Documents title; Back restored /applications/"
+    },
+    {
+      "id": "UI-04",
+      "source": "/applications/",
+      "action": "pointer Explore Markets then browser Back",
+      "result": "PASS",
+      "actual": "Reached /markets/ with Markets title; Back restored /applications/"
+    },
+    {
+      "id": "UI-05",
+      "source": "/applications/",
+      "action": "pointer Hero Request a Quote then browser Back",
+      "result": "PASS",
+      "actual": "Reached clean /request-a-quote; Product/Grade and Application were visible, editable and unselected; Back restored /applications/; no form submit"
+    },
+    {
+      "id": "UI-06",
+      "source": "/applications/",
+      "action": "pointer breadcrumb Home",
+      "result": "PASS",
+      "actual": "Reached / with Malaysia Titanium Dioxide Supplier title"
+    },
+    {
+      "id": "UI-07",
+      "source": "/applications/",
+      "action": "pointer M-350 then browser Back",
+      "result": "PASS",
+      "actual": "Reached /products/m-350 with exact M-350 title; Back restored /applications/"
+    },
+    {
+      "id": "UI-08",
+      "source": "/applications/",
+      "action": "pointer CR-901",
+      "result": "PASS",
+      "actual": "Reached /products/cr-901 with exact CR-901 title"
+    },
+    {
+      "id": "UI-09",
+      "source": "/products/chloride-process-titanium-dioxide/",
+      "action": "pointer body Explore Applications, Back, keyboard Return on restored focus, Back",
+      "result": "PASS",
+      "actual": "Both pointer and keyboard reached /applications/; each Back restored Chloride URL/body and focus to Explore Applications"
+    },
+    {
+      "id": "UI-10",
+      "source": "/products/sulfate-process-titanium-dioxide/",
+      "action": "direct runtime observation",
+      "result": "FAIL_ROUTE_UNAVAILABLE",
+      "actual": "404 This page could not be found; no Applications action exists for pointer/keyboard/Back testing"
+    },
+    {
+      "id": "UI-11",
+      "source": "/applications/",
+      "action": "AX shared control read",
+      "result": "PASS",
+      "actual": "Header/footer navigation, breadcrumb Home, two body RFQ links, legal links and Cookie Settings semantic button present; Applications is current; Contact and Terms absent"
+    },
+    {
+      "id": "UI-12",
+      "source": "/applications/",
+      "action": "pointer main Explore Applications same-page action",
+      "result": "PASS",
+      "actual": "URL updated to /applications#application-selector and the application selector target was reached"
+    },
+    {
+      "id": "UI-13",
+      "source": "/applications/",
+      "action": "open Cookie Settings dialog and activate Read Cookie Policy",
+      "result": "PASS",
+      "actual": "Cookie Settings opened a named dialog, initial focus moved to Close, and Read Cookie Policy reached /cookie-policy"
+    },
+    {
+      "id": "UI-14",
+      "source": "/applications/",
+      "action": "reopen Cookie Settings dialog and activate Close",
+      "result": "PASS",
+      "actual": "Dialog closed and focus returned to the Cookie Settings button"
+    },
+    {
+      "id": "UI-15",
+      "source": "/applications/",
+      "action": "AX accessible-name comparison against approved labels",
+      "result": "FAIL_ACCESSIBLE_NAME_DRIFT",
+      "actual": "CSS-generated arrows entered the names of all six category anchors (for example, Coatings ↓) and all three support links (for example, Explore Products →), so the runtime names do not equal the approved labels"
+    }
+  ]
+}

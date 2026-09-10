@@ -1,0 +1,71 @@
+{
+  "observationId": "APP-PAPER-G3-CHRONOLOGY-CORRECTION-V0.4",
+  "findingId": "APP-PAPER-G3-PCR-F01",
+  "generatedAt": "2026-09-07T08:04:46.698Z",
+  "generatedBy": "APP-PAPER_GATE3_CORRECT_RECORD_CHAIN_V0.4.mjs",
+  "semantics": "RETROSPECTIVE_CORRECTION_FROM_FILESYSTEM_AND_EMBEDDED_RUNTIME_TIMES",
+  "correctionScope": "Record chronology and shared-evidence attribution only; candidate HTML and formal PNG bytes remain unchanged.",
+  "sourceRecords": {
+    "diagnostic": {
+      "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/diagnostic_support/APP-PAPER_GATE3_DIAGNOSTIC_OBSERVATIONS_V0.3.json",
+      "bytes": 20410,
+      "sha256": "27b610c92c2e0e75b3ed3010ef061f77d6eb5dfffa9ad2200071325467fe4bc0",
+      "createdUtc": "2026-09-07T07:38:13.601Z",
+      "writtenUtc": "2026-09-07T07:42:30.410Z"
+    },
+    "preflightV03": {
+      "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/APP-PAPER_GATE3_PREFLIGHT_RECORD_V0.3.json",
+      "bytes": 5386,
+      "sha256": "711733e4111882ac67421bfc7a2abdd2710b671a698c394f42e420c3cddf19c1",
+      "createdUtc": "2026-09-07T07:44:05.666Z",
+      "writtenUtc": "2026-09-07T07:44:05.667Z"
+    },
+    "freezeV03": {
+      "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/APP-PAPER_GATE3_FREEZE_RECORD_V0.3.json",
+      "bytes": 2383,
+      "sha256": "1264d877f78c0387001caafacb33657b53ab768e8ec09bdc64af532412f532fa",
+      "createdUtc": "2026-09-07T07:44:50.621Z",
+      "writtenUtc": "2026-09-07T07:44:50.621Z"
+    },
+    "formal": {
+      "path": "D:/23MySec/pages/applications/paper/04_planning/gate3-v0.3/approval_core/APP-PAPER_GATE3_FORMAL_OBSERVATIONS_V0.3.json",
+      "bytes": 20991,
+      "sha256": "c741f71ca8a95cc8c5cc2038249c48fcf2eb8b815b455ddc4c1b652606ae3a9b",
+      "createdUtc": "2026-09-07T07:45:01.585Z",
+      "writtenUtc": "2026-09-07T07:45:01.585Z"
+    },
+    "projectControlReview": {
+      "path": "D:/23MySec/pages/applications/paper/05_review/APP-PAPER_GATE3_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "bytes": 16157,
+      "sha256": "cb0d218c7ef1fc5611c06cec8e75a69b517593573e01df5f481f9b8feea2300a",
+      "createdUtc": "2026-09-07T08:01:54.149Z",
+      "writtenUtc": "2026-09-07T08:01:54.149Z"
+    },
+    "independentObservations": {
+      "path": "D:/23MySec/pages/applications/paper/05_review/APP-PAPER_GATE3_INDEPENDENT_OBSERVATIONS_V0.1.json",
+      "bytes": 30390,
+      "sha256": "469eda09179672f38fba6c613f9b7756e41fa6a42c0bdcf77b1a0fe58de2c0fd",
+      "createdUtc": "2026-09-07T07:57:38.717Z",
+      "writtenUtc": "2026-09-07T07:58:25.178Z"
+    }
+  },
+  "originalEvents": {
+    "diagnosticRunCreatedAt": "2026-09-07T07:42:03.363Z",
+    "diagnosticFinalWriteAt": "2026-09-07T07:42:30.410Z",
+    "preflightRecordCreatedAt": "2026-09-07T07:44:05.666Z",
+    "freezeRecordCreatedAt": "2026-09-07T07:44:50.621Z",
+    "formalRunCreatedAt": "2026-09-07T07:44:58.841Z",
+    "formalFinalWriteAt": "2026-09-07T07:45:01.585Z"
+  },
+  "sequenceChecks": {
+    "diagnosticCompletedBeforePreflight": true,
+    "preflightBeforeFreeze": true,
+    "freezeBeforeFormalStarted": true,
+    "formalStartedBeforeFinalWrite": true,
+    "candidateUnchanged": true,
+    "diagnosticUnchanged": true,
+    "formalPassUnchanged": true,
+    "formalAssetsUnchanged": true
+  },
+  "conclusion": "Filesystem and embedded runtime times establish diagnostic completion, then preflight record creation, then freeze record creation, then formal run and final write. V0.3 manually entered executedAt/frozenAt values are inaccurate and are superseded for chronology by the corrected V0.4 records; V0.3 files remain historical."
+}

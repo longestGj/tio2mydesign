@@ -1,0 +1,131 @@
+{
+  "page_id": "APP-PLAS",
+  "workset_id": "APP-PLAS-G4-COMPLETE-20260907-02",
+  "freeze_id": "APP-PLAS-G4-FREEZE-20260907-02",
+  "predecessor_freeze_id": "APP-PLAS-G4-FREEZE-20260907-01",
+  "finding_id": "APP-PLAS-G4-R01",
+  "status": "TARGETED_METADATA_REPAIR_FROZEN / DRAFT_FOR_PROJECT_CONTROL_REREVIEW",
+  "frozen_at": "2026-09-07T08:38:18.301Z",
+  "source": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 43487,
+    "sha256": "fd61a0b74f81c094af4193dcd323cb6f4965321ff453039e0b7bd58c6891e6f9"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_INPUT_INDEX_V0.2.json",
+    "bytes": 13209,
+    "sha256": "4239e0ebfa90089ae1da9b041ab45ecee408af14fac5b8ac0069fbe6e2a11d9a"
+  },
+  "workset": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_WORKSET_V0.2.json",
+    "bytes": 2227,
+    "sha256": "1f99aade07373e125854bc5545d6cbb76e2ec83180a08738713052fd8f6b057c"
+  },
+  "preflight": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_PREFLIGHT_RECORD_V0.2.json",
+    "bytes": 1822,
+    "sha256": "68e5535a1644c44803b5517ba74807e26322f1acc72721d0b12328632ea6d4ec"
+  },
+  "regression": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/diagnostic_support/three-viewport-regression.json",
+    "bytes": 83541,
+    "sha256": "b503fc1cd5effe84f7eb653ae359f5ae0076e6e0a885a3c699ee5ac8524eaab7"
+  },
+  "metadata_readback": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/diagnostic_support/image-metadata-readback.json",
+    "bytes": 44469,
+    "sha256": "fccc5ba32bcc52e9412ca521cc7a93ca8b706711bff6e442e8225e5cd5a5cc08"
+  },
+  "predecessor_freeze": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_FREEZE_RECORD_V0.1.json",
+    "bytes": 4603,
+    "sha256": "d685eaf70e4bf781924a19c11e28751e26b2c7c2805476eab9e195a2304faa89"
+  },
+  "predecessor_evidence_index": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_EVIDENCE_INDEX_V0.1.json",
+    "bytes": 53704,
+    "sha256": "5239d64dcf6db4ece3b8647c7247ca209688eec8443037e330293db002746ecd"
+  },
+  "predecessor_failed_review": {
+    "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.1/REVIEW.md",
+    "bytes": 8522,
+    "sha256": "77462b8743744fbe1a1386192264638398bd6b6aa7715fdce78887176a6074ca"
+  },
+  "renderer": {
+    "browser": "152.0.7977.82",
+    "node": "v24.16.0",
+    "headless": true,
+    "dpr": 1,
+    "network": "HTTP(S) blocked; local file rendering",
+    "font": "Inter Variable local",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900,
+        "fullHeight": 9299
+      },
+      {
+        "width": 768,
+        "height": 900,
+        "fullHeight": 11310
+      },
+      {
+        "width": 390,
+        "height": 900,
+        "fullHeight": 16131
+      }
+    ]
+  },
+  "scope_facts": {
+    "url": "/applications/titanium-dioxide-for-plastics/",
+    "url_state": "PROVISIONAL_URL",
+    "site_scope": "tio2-my",
+    "language": "EN",
+    "primary_keyword": "titanium dioxide for plastics",
+    "approved_modules": [
+      "PLAS-01",
+      "PLAS-02",
+      "PLAS-03",
+      "PLAS-04",
+      "PLAS-05",
+      "PLAS-06",
+      "PLAS-07",
+      "PLAS-08",
+      "PLAS-09",
+      "PLAS-10",
+      "PLAS-11",
+      "PLAS-12"
+    ],
+    "approved_visible_copy": "APP-PLAS Gate 2 Buyer Clean B V0.3 exact visible copy",
+    "grades": [
+      "M-350",
+      "M-510",
+      "M-200",
+      "M-108",
+      "M-210",
+      "M-340",
+      "M-886",
+      "M-2377"
+    ],
+    "document_context": {
+      "sourcePage": "APP-PLAS"
+    },
+    "sample_context": {
+      "application": "Plastics",
+      "gradeMode": "KNOWN_OR_UNKNOWN"
+    },
+    "rfq_context": {
+      "application": "Plastics",
+      "gradeMode": "KNOWN_LEAD_OR_NOT_SURE",
+      "additionalCandidates": "Additional Requirements"
+    }
+  },
+  "repair_result": {
+    "candidate_source_changed": false,
+    "evidence_image_bytes_changed": false,
+    "evidence_images": 92,
+    "physical_dimensions_and_dpr_complete": 92,
+    "finding_response": "APP-PLAS-G4-R01"
+  },
+  "boundary": "New metadata-only freeze for targeted independent re-review; no independent PASS, Gate closure, Gate 6, development, deployment or publication."
+}

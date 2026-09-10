@@ -1,0 +1,102 @@
+{
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "recorded_at": "2026-09-07T11:22:07.999Z",
+  "workset_id": "APP-PAPER-G4-WORKSET-V0.1",
+  "source_identity": {
+    "path": "D:\\23MySec\\pages\\applications\\paper\\04_planning\\gate4-v0.1\\APP-PAPER_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 35364,
+    "sha256": "e3d7907131d98b987328bf084ba80ed90476363e3caa9936252c5558784bac9f"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "bytes": 5125,
+      "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "bytes": 2369,
+      "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "bytes": 1426,
+      "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "bytes": 455,
+      "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "bytes": 3889,
+      "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "input_index": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate4-v0.1/APP-PAPER_GATE4_INPUT_INDEX_V0.1.json",
+    "bytes": 12494,
+    "sha256": "b7a09afaeacc4a193f4e4aa688ad9ebe04a181908410f651531616a49ea2e793"
+  },
+  "initial": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate4-v0.1/APP-PAPER_GATE4_INITIAL_OBSERVATIONS_V0.1.json",
+    "bytes": 53789,
+    "sha256": "c3f13dd9733ad72c22b10cf3b3af3b0501cf83877d3ab3595b51170e388a00df"
+  },
+  "targeted": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate4-v0.1/APP-PAPER_GATE4_TARGETED_OBSERVATIONS_V0.1.json",
+    "bytes": 1711,
+    "sha256": "374de518987c4ed2b494045eb4af5acac67e20be20584308e3dadeb830b861ba"
+  },
+  "direction_and_visual_check": {
+    "path": "D:/23MySec/pages/applications/paper/04_planning/gate4-v0.1/APP-PAPER_GATE4_WORKSET_AND_VISUAL_RULES_V0.1.md",
+    "bytes": 8286,
+    "sha256": "9f4b1b745fa63ff5d663dd2faaca16c45460729345fcba8b714aaddec7079a30"
+  },
+  "effective_assertions": 101,
+  "executed_assertions": 105,
+  "superseded_measurement_expectations": 4,
+  "required_findings": [],
+  "render_conditions": {
+    "browser": "152.0.4191.66",
+    "renderer": "Microsoft Edge via Playwright",
+    "font": "Inter-Variable.ttf",
+    "dpr": 1,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "reduced_motion": "reduce"
+  }
+}

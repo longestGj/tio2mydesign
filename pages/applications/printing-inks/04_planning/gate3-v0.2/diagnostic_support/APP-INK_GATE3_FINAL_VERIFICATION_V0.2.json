@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "verifiedAt": "2026-09-07T08:04:47.053Z",
+  "failures": [],
+  "inputResults": {
+    "A": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_CONTENT_SKELETON_V0.1.md",
+      "bytes": 5228,
+      "sha256": "bbb3a2bbd55d0140c4cfbef2c7e929e5f7f5c47478671b50aeff72f33e5554a6",
+      "expected": "bbb3a2bbd55d0140c4cfbef2c7e929e5f7f5c47478671b50aeff72f33e5554a6",
+      "match": true
+    },
+    "B": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+      "bytes": 11781,
+      "sha256": "b5a92976f526fcfee74fdf088ec9ea3ef21456e5ba66965f79c50ec4dd5c938d",
+      "expected": "b5a92976f526fcfee74fdf088ec9ea3ef21456e5ba66965f79c50ec4dd5c938d",
+      "match": true
+    },
+    "C": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/APP-INK_GATE2_CONTENT_CONTRACT_V0.2.md",
+      "bytes": 8927,
+      "sha256": "11883e118e017e7886d91a3a6400150fcc92e3972b56847aafecc9250e960dc3",
+      "expected": "11883e118e017e7886d91a3a6400150fcc92e3972b56847aafecc9250e960dc3",
+      "match": true
+    }
+  },
+  "historical": {
+    "source": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.1/APP-INK_GATE3_RESPONSIVE_WIREFRAME_V0.1.html",
+      "bytes": 30094,
+      "sha256": "8d67c9d3ec4b971c9ff5a91a320a6901df385d46ab4ab26812ad0880322492ef"
+    },
+    "freeze": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.1/APP-INK_GATE3_FREEZE_RECORD_V0.1.json",
+      "bytes": 7027,
+      "sha256": "0e5d504cfe28fc170efeb9958a72f7606ed7fedb695b35497361ba3308750c20"
+    },
+    "review": {
+      "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE3_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "bytes": 14908,
+      "sha256": "090c2f4cd13b6f3d18e3e971bdbfc4e93f8c5ae33a308ff469962b9789c243ee"
+    }
+  },
+  "successor": {
+    "source": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/APP-INK_GATE3_RESPONSIVE_WIREFRAME_V0.2.html",
+      "bytes": 30161,
+      "sha256": "8e8353dad4aacf9ca20821ae2240a3398684b201a6e92fec5ef28d4fd61c1f63"
+    },
+    "preflight": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/APP-INK_GATE3_PREFLIGHT_RECORD_V0.2.json",
+      "bytes": 9113,
+      "sha256": "fe7222e68a15e713b8dc5259f5274a4f034282d9e5a42b09461aecec9c53f25e"
+    },
+    "freeze": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/APP-INK_GATE3_FREEZE_RECORD_V0.2.json",
+      "bytes": 5485,
+      "sha256": "11e77aac976a3ec66e78e9bb4de328e331296c5886e20a148be8544cac092755"
+    },
+    "formalObservations": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/approval_core/APP-INK_GATE3_FORMAL_OBSERVATIONS_V0.2.json",
+      "bytes": 30326,
+      "sha256": "17a60bdfc4227552e71d9790e8404b2d126f929f7e1166dbc442622dbcc43ed5"
+    },
+    "inventory": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/APP-INK_GATE3_ASSET_INVENTORY_V0.2.json",
+      "bytes": 8650,
+      "sha256": "137f960491b7e1c731e164fe551f6aa17bc6110f7aa140c9c0fb15e9fb52f55f"
+    },
+    "candidateManifest": {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/APP-INK_GATE3_CANDIDATE_MANIFEST_V0.2.md",
+      "bytes": 4474,
+      "sha256": "b66c7ea3a4264a26375ce97ed510a0c58e60647267f73dc4a807dcf11aa7c724"
+    },
+    "handoff": {
+      "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE3_TO_GATE4_HANDOFF_DRAFT_V0.2.md",
+      "bytes": 10623,
+      "sha256": "a8ac94d4dd245cc3e046da77180c6ab04183ce1e226396be12883f5d5e525927"
+    }
+  },
+  "formalEvidence": [
+    {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/approval_core/APP-INK_GATE3_1440_FULL_V0.2.png",
+      "bytes": 1081372,
+      "sha256": "b7cf1408e33c6cc7dde2a2cff879401598684ac02e2415eeb1ac699ce2a2766b",
+      "logicalViewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "physicalPixels": {
+        "width": 1440,
+        "height": 7920
+      },
+      "dpr": 1,
+      "state": "full",
+      "role": "approval_core"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/approval_core/APP-INK_GATE3_390_BODY_LINK_FOCUS_V0.2.png",
+      "bytes": 75769,
+      "sha256": "01460de87a3868a232119b991c06a42424869cdb4bbf2c77cc5f8dde704a0ddf",
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "physicalPixels": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "state": "body_link_keyboard_focus",
+      "role": "approval_core"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/approval_core/APP-INK_GATE3_390_FULL_V0.2.png",
+      "bytes": 1040190,
+      "sha256": "77e47920c419c6fc2a5e0d65360b7be7635e3724f3e903d11a23af341c154043",
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "physicalPixels": {
+        "width": 390,
+        "height": 12803
+      },
+      "dpr": 1,
+      "state": "full",
+      "role": "approval_core"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/approval_core/APP-INK_GATE3_390_GRADES_ANCHOR_V0.2.png",
+      "bytes": 32998,
+      "sha256": "446401bdabd988ccf0e0a3157daacb0236ddc9ed771e8310baa4aba8e70f1d72",
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "physicalPixels": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "state": "grades_anchor",
+      "role": "approval_core"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/approval_core/APP-INK_GATE3_390_MENU_V0.2.png",
+      "bytes": 40098,
+      "sha256": "d34c3845837cfd1b97d7429a2e4b87f4f93ba4831280ebe40bb3ca15615df245",
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "physicalPixels": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "state": "menu_open",
+      "role": "approval_core"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/approval_core/APP-INK_GATE3_768_FULL_V0.2.png",
+      "bytes": 1009070,
+      "sha256": "c620cec20393d3c336975c9f5963444513a177b2501b19a8aa30ce2d7f781196",
+      "logicalViewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "physicalPixels": {
+        "width": 768,
+        "height": 8382
+      },
+      "dpr": 1,
+      "state": "full",
+      "role": "approval_core"
+    },
+    {
+      "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate3-v0.2/approval_core/APP-INK_GATE3_768_MENU_V0.2.png",
+      "bytes": 72097,
+      "sha256": "7d14c5fcbc683ae9fd3201efa1bfdb2af0824141f5a5e91bbfbf6ae38385b45e",
+      "logicalViewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "physicalPixels": {
+        "width": 768,
+        "height": 1024
+      },
+      "dpr": 1,
+      "state": "menu_open",
+      "role": "approval_core"
+    }
+  ],
+  "findingDisposition": [
+    {
+      "id": "APP-INK-G3-PCR-F01",
+      "status": "REVISED_PENDING_INDEPENDENT_REREVIEW"
+    },
+    {
+      "id": "APP-INK-G3-PCR-F02",
+      "status": "REVISED_PENDING_INDEPENDENT_REREVIEW"
+    },
+    {
+      "id": "APP-INK-G3-PCR-F03",
+      "status": "REVISED_PENDING_INDEPENDENT_REREVIEW"
+    }
+  ],
+  "nextState": "DRAFT_FOR_PROJECT_CONTROL_REREVIEW"
+}

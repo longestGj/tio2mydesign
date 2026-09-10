@@ -4,12 +4,12 @@
 
 | Field | Value |
 |---|---|
-| Date | 2026-09-07 |
+| Date | 2026-09-08 |
 | Owner | Application Article Topic Controller |
-| Status | `R01_REVISED_D22_COMPLETE / D23_PASS_PENDING_USER_ARTICLE_APPROVAL` |
+| Status | `R04_MERGED_DIRECTION_USER_APPROVED / D22_FULL_WORKFLOW_IN_PROGRESS` |
 | Purpose | Establish the complete current Application article candidate universe and a one-topic-at-a-time research sequence |
-| Article production status | `R01_REVISED_INTERNAL_RELEASE_CANDIDATE` |
-| D22 authorization | `R01 ONE GOVERNED ARTICLE / USER APPROVED / COMPLETED` |
+| Article production status | `R04 D22 FULL GOVERNED WORKFLOW IN PROGRESS` |
+| D22 authorization | `R04 ONE MERGED GOVERNED ARTICLE / DISPATCHED` |
 | Page / URL / Gate impact | None |
 | Detailed backlog | `APPLICATION_ARTICLE_TOPIC_BACKLOG_V0.1.csv` |
 
@@ -120,7 +120,7 @@ For a unit that receives `WRITE`:
 
 ## 8. Immediate next decision
 
-The user explicitly started `R01 — TiO2 for PVC and uPVC` and then approved the Controller's `WRITE` direction on 2026-09-07. After user review found the first candidate technically sound but too governance/SOP-dominant, D22 completed the targeted A05 reader-facing revision without A03 fallback and reran A06/RQR, independent A00 and Controller closure. D23 independently verified the revised exact chain and passed article SHA-256 `38dcfc987e40b2daaa36e994e2541e127bc02ac936feeaf746417495a978b19a` for user content review, subject to the recorded I-01 context control. The immediate decision is user approval, further targeted revision or rejection. R02 and all later units remain queued and inactive until R01 closes.
+R01's revised exact article remains pending separate user content approval, while R02 and R03 article content is approved and closed. The user approved merging PE and PP into one R04 article. The Controller froze `R04_D22_ARTICLE_BRIEF_V1.0.md` at SHA-256 `8f94e4f87efb5bba43d0d5f99549378c06755c0ad0b6286be34a31e09aa2cfbe` and dispatched one governed article to the existing D22 task `00-Con-masterbatch` through `D22-R04-PE-PP-MERGED-START-01`. R05 and later units remain inactive; Gate 1 and page work are not started.
 
 ## 9. Change record
 
@@ -131,3 +131,12 @@ The user explicitly started `R01 — TiO2 for PVC and uPVC` and then approved th
 | 2026-09-07 | D22 completed A01–A06/RQR, independent A00 and Controller closure; D23 verified all six exact hashes and passed the internal release candidate for user article-content approval | `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_ARTICLE_APPROVAL` |
 | 2026-09-07 | User review found the technical argument sound but the second half too governance/SOP-dominant; Controller issued a reader-facing stripping directive with A05-first routing and fresh downstream reviews required | `REVISE_FOR_READER_QUALITY` |
 | 2026-09-07 | D22 completed the reader-facing revision without A03 fallback; fresh RQR passed RQ1–RQ5, independent A00 accepted C0-I1-M0, and D23 verified all six hashes and closed the user's SOP blocker subject to I-01 context control | `PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_ARTICLE_APPROVAL` |
+| 2026-09-07 | User approved the R02 design; Controller completed raw-backed keyword/SERP/buyer/evidence/ownership research, decided one Plastic Film article with PVC/calendered film merged as a controlled branch, froze Brief SHA-256 `270fb8e4...7d1`, and dispatched D22 | `R02_D22_FULL_WORKFLOW_DISPATCHED` |
+| 2026-09-07 | D22 completed the R02 A01–A06/RQR, independent A00 and Controller closure; D23 read the final article, verified all six exact artifact identities and accepted the internal release candidate for direct user content review | `R02_PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_ARTICLE_APPROVAL` |
+| 2026-09-08 | User replied `我认可。` to the exact R02 final article; Controller bound the approval to article SHA-256 `8f236dbf...ba10` as formal public-facing content input | `R02_ARTICLE_CONTENT_USER_APPROVED / CLOSED` |
+| 2026-09-08 | User started the next topic; Controller completed raw-backed R03 keyword/SERP, buyer-decision, evidence-feasibility, ownership and claim-boundary research and recommended one powder-specific process-to-film article | `R03_WRITE_RECOMMENDED / PENDING_USER_APPROVAL` |
+| 2026-09-08 | User replied `批准`; Controller froze R03 Brief SHA-256 `b008b7a3...449c` and dispatched one complete governed article to existing D22 task `00-Con-masterbatch` | `R03_D22_FULL_WORKFLOW_DISPATCHED / IN_PROGRESS` |
+| 2026-09-08 | D22 returned the exact six-object R03 package; fresh hashes matched, A06 and independent A00 passed with non-blocking notes, and D23 accepted the unchanged article for direct user content review | `R03_PROJECT_CONTROL_REVIEW_PASS_PENDING_USER_ARTICLE_APPROVAL` |
+| 2026-09-08 | User replied `通过。` to the exact R03 final article; Controller bound the approval to article SHA-256 `494985c5...cf6` as formal public-facing content input | `R03_ARTICLE_CONTENT_USER_APPROVED / CLOSED` |
+| 2026-09-08 | User continued to R04; Controller completed separate PE, PP and polyolefin intent research, evidence and ownership analysis and recommended merging both candidates into one cross-resin evidence-transfer article | `R04_ONE_MERGED_ARTICLE_RECOMMENDED / PENDING_USER_APPROVAL` |
+| 2026-09-08 | User approved `PE和PP合并成一篇`; Controller froze Brief SHA-256 `8f94e4f8...cfbe` and dispatched one merged governed English article to existing D22 task `00-Con-masterbatch` | `R04_D22_FULL_WORKFLOW_DISPATCHED / IN_PROGRESS` |

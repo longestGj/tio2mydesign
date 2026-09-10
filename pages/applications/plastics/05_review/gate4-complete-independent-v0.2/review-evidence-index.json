@@ -1,0 +1,363 @@
+{
+  "page_id": "APP-PLAS",
+  "workset_id": "APP-PLAS-G4-COMPLETE-20260907-02",
+  "freeze_id": "APP-PLAS-G4-FREEZE-20260907-02",
+  "review_id": "APP-PLAS-G4-INDEPENDENT-REREVIEW-20260907-02",
+  "reviewer_role": "INDEPENDENT_TARGETED_REREVIEW",
+  "status": "PROJECT_CONTROL_REVIEW_PASS",
+  "required_findings": 0,
+  "finding_closed": "APP-PLAS-G4-R01",
+  "identity_audit": {
+    "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/identity-audit.json",
+    "bytes": 160026,
+    "sha256": "717e712fd6f2d7ee61b582304e28081a2ddee2270fb81ef76f310b1b369d689e",
+    "counts": {
+      "inputs": 52,
+      "inputs_passed": 52,
+      "freeze_bindings": 9,
+      "freeze_bindings_passed": 9,
+      "images": 92,
+      "images_passed": 92,
+      "grade_context_images": 3,
+      "state_images": 27,
+      "state_images_complete": 27
+    }
+  },
+  "independent_runtime": {
+    "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/independent-runtime.json",
+    "bytes": 54031,
+    "sha256": "7294428bf0a72926c0c853c53d0753813f3291c17cab10ec8c87bae2f36e0c74",
+    "counts": {
+      "checks": 39,
+      "passed": 39,
+      "failures": 0,
+      "errors": 0,
+      "images": 33,
+      "full": 3,
+      "grade_context": 3,
+      "target_states": 27
+    }
+  },
+  "counts": {
+    "frozen_inputs": 52,
+    "frozen_inputs_passed": 52,
+    "freeze_bindings": 9,
+    "freeze_bindings_passed": 9,
+    "candidate_images": 92,
+    "candidate_images_passed": 92,
+    "state_metadata_complete": 27,
+    "independent_rerenders": 33,
+    "full_pages": 3,
+    "grade_contexts": 3,
+    "target_states": 27,
+    "contact_sheets": 3,
+    "runtime_checks": 39,
+    "runtime_failures": 0,
+    "page_errors": 0
+  },
+  "acceptance": {
+    "renderer_390": "390x900 / PASS",
+    "grade_context_dimensions": "1440x727 / 768x747 / 390x269 / PASS",
+    "all_image_metadata": "92/92 complete and exact",
+    "target_state_metadata": "27/27 complete and exact",
+    "twelve_modules": "PASS",
+    "eight_grades": "PASS / equal neutral treatment",
+    "request_paths": "PASS",
+    "provisional_url": "PASS / canonical and JSON-LD absent",
+    "shared_contracts": "PASS / no drift",
+    "finding": "APP-PLAS-G4-R01 CLOSED"
+  },
+  "rerender_images": [
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/full/1440-full.png",
+      "bytes": 1523744,
+      "sha256": "bf670f9a25cd295f301e2f8e958e40068ac229fc87ef921f8324bb76cbc8af4a",
+      "physical_width": 1440,
+      "physical_height": 9299,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/full/390-full.png",
+      "bytes": 1375224,
+      "sha256": "f574aa5b2b3067c49c4bc1c3a15087c753a49c4d883527fa03625e3a64c1946d",
+      "physical_width": 390,
+      "physical_height": 16131,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/full/768-full.png",
+      "bytes": 1387486,
+      "sha256": "f8169ee7033a69c327a90808ba6c9b18e826046bd433fcbdc0a0d9dc819b4d5a",
+      "physical_width": 768,
+      "physical_height": 11310,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/grade/1440-grade-context.png",
+      "bytes": 74057,
+      "sha256": "4a2dfafc4a4db653b9bcee46c6cfe5bdfba4485ccdd7578b17660a819e768f3a",
+      "physical_width": 1440,
+      "physical_height": 727,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/grade/390-grade-context.png",
+      "bytes": 14466,
+      "sha256": "7d4d0bd7b5b631857810d4c1aa4efb92e31650ead17208a491d6c81a3a5fdd47",
+      "physical_width": 390,
+      "physical_height": 269,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/grade/768-grade-context.png",
+      "bytes": 68978,
+      "sha256": "5d07dd3e999e826fa4999b39b3fbd7ab8b2accef1ebcc8e6f3a0e61b4878c3d3",
+      "physical_width": 768,
+      "physical_height": 747,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-documents-focus.png",
+      "bytes": 2920,
+      "sha256": "b0d639b58cecc921d84edeef66259a50613bb4008fc9892a0bed2da2b18b0799",
+      "physical_width": 192,
+      "physical_height": 48,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-documents-hover.png",
+      "bytes": 2984,
+      "sha256": "bad956aa57e7e78e90c4245f65420175099872ce8784326c9569e1ed581263cd",
+      "physical_width": 192,
+      "physical_height": 48,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-documents-normal.png",
+      "bytes": 2942,
+      "sha256": "d583d4c1b4539a430d06a9b4b62a10017b8d5197c2f7d83b692541858b3c4554",
+      "physical_width": 192,
+      "physical_height": 48,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-m2377-focus.png",
+      "bytes": 1994,
+      "sha256": "5561da6e21e2fde94f417082c8d92ffb167e92a16eaa098837b9267cdfbe073d",
+      "physical_width": 128,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-m2377-hover.png",
+      "bytes": 2000,
+      "sha256": "ea67777abbaf4a84f15232c58c2ef23d66094de1e0770b0005a0acc61d94ab4c",
+      "physical_width": 128,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-m2377-normal.png",
+      "bytes": 2009,
+      "sha256": "881f28d39e96b631e60e7a4b80480219519fe02890c77acd36014466717dc5c2",
+      "physical_width": 128,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-masterbatch-focus.png",
+      "bytes": 4562,
+      "sha256": "5826adcc1fcafc52bbbf5d7b16852c1523972b936e2192db33f6448e771cd579",
+      "physical_width": 289,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-masterbatch-hover.png",
+      "bytes": 4549,
+      "sha256": "bcc71223134d7922f6ecde8563ff752657bc917886aba61d698816802e608371",
+      "physical_width": 289,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/1440-masterbatch-normal.png",
+      "bytes": 4373,
+      "sha256": "859adc2aa536782d6917640263a43218c306dda93b8db0a7090d12eceba33380",
+      "physical_width": 289,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-documents-focus.png",
+      "bytes": 2830,
+      "sha256": "6dc0f080742f652579bb1312a1a4d991c21227c22adc95640ab1c4959f8f69dd",
+      "physical_width": 182,
+      "physical_height": 46,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-documents-hover.png",
+      "bytes": 2913,
+      "sha256": "5c1bcbdb116b57359abf19bd1c150e4dde63d7d7ff04c246a54a2e389cab9c7d",
+      "physical_width": 182,
+      "physical_height": 46,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-documents-normal.png",
+      "bytes": 2843,
+      "sha256": "6e1fdbb51ef2cd1c4927a50a10f1f7ce2abcb7fddad58f27259ce192ee931fd2",
+      "physical_width": 182,
+      "physical_height": 46,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-m2377-focus.png",
+      "bytes": 2122,
+      "sha256": "46581992277691bfb445460a01468bd70666ab41c5e3ad615e06d6a52b61f6e6",
+      "physical_width": 218,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-m2377-hover.png",
+      "bytes": 2128,
+      "sha256": "33d50f47265e928a212f59f0f43728ea07cbc878ed522dca0408103362df0923",
+      "physical_width": 218,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-m2377-normal.png",
+      "bytes": 2132,
+      "sha256": "3959babe183ed20d47f91ba28e7871d1a14536a8227591aa556807001d74058b",
+      "physical_width": 218,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-masterbatch-focus.png",
+      "bytes": 4226,
+      "sha256": "367fc0a1cd6496a08c0df9f67e8802c9cfbfd7c714dbc37b71ceb0b41438b40a",
+      "physical_width": 273,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-masterbatch-hover.png",
+      "bytes": 4215,
+      "sha256": "c2df11a048841f6a836c4c9e5ac84f43b58116e9a5dbb6d0c6b8b263c3a55a28",
+      "physical_width": 273,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/390-masterbatch-normal.png",
+      "bytes": 4036,
+      "sha256": "8ba12cf5cbcb1b683592928ff9f7c8671358d0d27b806e95a6100fa8aca28df6",
+      "physical_width": 273,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-documents-focus.png",
+      "bytes": 2920,
+      "sha256": "b0d639b58cecc921d84edeef66259a50613bb4008fc9892a0bed2da2b18b0799",
+      "physical_width": 192,
+      "physical_height": 48,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-documents-hover.png",
+      "bytes": 2984,
+      "sha256": "bad956aa57e7e78e90c4245f65420175099872ce8784326c9569e1ed581263cd",
+      "physical_width": 192,
+      "physical_height": 48,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-documents-normal.png",
+      "bytes": 2942,
+      "sha256": "d583d4c1b4539a430d06a9b4b62a10017b8d5197c2f7d83b692541858b3c4554",
+      "physical_width": 192,
+      "physical_height": 48,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-m2377-focus.png",
+      "bytes": 2022,
+      "sha256": "7429701d20986e07442312e1c67e1c6836d3a650cb2a5906bcb2fcc0ea65876f",
+      "physical_width": 128,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-m2377-hover.png",
+      "bytes": 2026,
+      "sha256": "05d985031ae4ed25d0618159a30e82326285d550f555992f502ca94433438221",
+      "physical_width": 128,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-m2377-normal.png",
+      "bytes": 2029,
+      "sha256": "dbaa7a25ed2ac5756edfd03950119b697e0fffc52a0a72a59cfdd1fb65d5e4c2",
+      "physical_width": 128,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-masterbatch-focus.png",
+      "bytes": 4272,
+      "sha256": "a4d01a72fdf7153f835e11abb929444197b905e7e96e5fe6764bde8863340a8a",
+      "physical_width": 289,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-masterbatch-hover.png",
+      "bytes": 4318,
+      "sha256": "37774c5f40f8aeae3f8da3e45c2a99a89085a64e95bda1f1b9b57f792d776c9f",
+      "physical_width": 289,
+      "physical_height": 45,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/rerender/states/768-masterbatch-normal.png",
+      "bytes": 4138,
+      "sha256": "fa0de257090f2b72b608b875df724c911aa6c442ce0a82058792c30b13d8c212",
+      "physical_width": 289,
+      "physical_height": 45,
+      "dpr": 1
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/contact-sheets/full-pages.png",
+      "bytes": 96583,
+      "sha256": "cb44b3d2c3863297c1a14eaf034fe3f5ff3e8b70c617a65734c3d1e3f449b32c",
+      "physical_width": 1260,
+      "physical_height": 640,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/contact-sheets/grade-contexts.png",
+      "bytes": 75902,
+      "sha256": "b9aadfd9b9d043b3fa1d4a37a3a4f5486f1525cec61948f9ca49230946748c0c",
+      "physical_width": 1320,
+      "physical_height": 340,
+      "dpr": 1
+    },
+    {
+      "path": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/contact-sheets/target-states.png",
+      "bytes": 90113,
+      "sha256": "e85eda262a5f839be78916758309811907bbb3786dfe5027217c8b29269cba3d",
+      "physical_width": 1320,
+      "physical_height": 1980,
+      "dpr": 1
+    }
+  ],
+  "boundary": "Independent targeted rereview PASS only. This record does not close Gate 4 or start Gate 6."
+}

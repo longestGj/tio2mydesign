@@ -1,0 +1,224 @@
+{
+  "page_id": "APP-INK",
+  "workset_id": "APP-INK-G4-WS-20260907-01",
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "createdAt": "2026-09-07T11:14:20.213Z",
+  "source_identity": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 32689,
+    "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "role": "primary_logo"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "role": "reverse_logo"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "role": "font"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "role": "font_license"
+    }
+  ],
+  "checks": [
+    {
+      "name": "exactApprovedNarrative",
+      "pass": true
+    },
+    {
+      "name": "moduleAndHeadingCount",
+      "pass": true
+    },
+    {
+      "name": "documentRoleMatrix",
+      "pass": true
+    },
+    {
+      "name": "neutralGradeSet",
+      "pass": true
+    },
+    {
+      "name": "requestActions",
+      "pass": true
+    },
+    {
+      "name": "sixSources",
+      "pass": true
+    },
+    {
+      "name": "noHorizontalOverflow",
+      "pass": true
+    },
+    {
+      "name": "touchTargets",
+      "pass": true
+    },
+    {
+      "name": "noGovernanceLeak",
+      "pass": true
+    },
+    {
+      "name": "bodyFocusApprovedTeal",
+      "pass": true
+    },
+    {
+      "name": "fontsAndImages",
+      "pass": true
+    },
+    {
+      "name": "noClippedContent",
+      "pass": true
+    },
+    {
+      "name": "exactDocumentFieldLabels",
+      "pass": true
+    },
+    {
+      "name": "noExtraFunctions",
+      "pass": true
+    },
+    {
+      "name": "paragraphRelationships",
+      "pass": true
+    },
+    {
+      "name": "menuPass",
+      "pass": true
+    },
+    {
+      "name": "cookiePass",
+      "pass": true
+    },
+    {
+      "name": "anchorPass",
+      "pass": true
+    },
+    {
+      "name": "focusPass",
+      "pass": true
+    },
+    {
+      "id": "COOKIE-BACKGROUND-1440",
+      "pass": true
+    },
+    {
+      "id": "STATE-TARGETS-1440",
+      "pass": true
+    },
+    {
+      "id": "HOVER-1440",
+      "pass": true
+    },
+    {
+      "id": "COOKIE-BACKGROUND-768",
+      "pass": true
+    },
+    {
+      "id": "STATE-TARGETS-768",
+      "pass": true
+    },
+    {
+      "id": "HOVER-768",
+      "pass": true
+    },
+    {
+      "id": "COOKIE-BACKGROUND-390",
+      "pass": true
+    },
+    {
+      "id": "STATE-TARGETS-390",
+      "pass": true
+    },
+    {
+      "id": "HOVER-390",
+      "pass": true
+    },
+    {
+      "name": "contrast body",
+      "pass": true
+    },
+    {
+      "name": "contrast body soft",
+      "pass": true
+    },
+    {
+      "name": "contrast link white",
+      "pass": true
+    },
+    {
+      "name": "contrast link soft",
+      "pass": true
+    },
+    {
+      "name": "contrast button",
+      "pass": true
+    },
+    {
+      "name": "contrast hover",
+      "pass": true
+    },
+    {
+      "name": "contrast navy heading",
+      "pass": true
+    },
+    {
+      "name": "contrast record label",
+      "pass": true
+    },
+    {
+      "name": "contrast footer link",
+      "pass": true
+    },
+    {
+      "name": "contrast menu current marker",
+      "pass": true
+    },
+    {
+      "name": "contrast dark focus",
+      "pass": true
+    }
+  ],
+  "check_count": 39,
+  "failed": 0,
+  "upstream_markup_script_and_original_css_unchanged": true,
+  "visual_scan": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/diagnostic_support/APP-INK_GATE4_VISUAL_SCAN_V0.1.json",
+    "bytes": 4670,
+    "sha256": "167dc6556f397e6df0a9e17cd3efd90c8bfff5f7855bfe38abb86ac5c122c6cc"
+  },
+  "inheritance": "Same exact source. INITIAL 18 unaffected checks retained; erroneous historical-copy expectation superseded only by targeted B V0.2 comparison. Gap completion adds hover, overlay target and background-isolation checks plus color calculations. No full interaction rerun for capture.",
+  "render_conditions": {
+    "browser": "Microsoft Edge headless via Playwright",
+    "executable": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+    "font": "Inter shared Variable TTF",
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "deviceScaleFactor": 1
+  }
+}

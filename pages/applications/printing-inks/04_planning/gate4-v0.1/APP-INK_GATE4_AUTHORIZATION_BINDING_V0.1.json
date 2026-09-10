@@ -1,0 +1,19 @@
+{
+  "control_id": "G4-REMAINING-8-EXEC-01",
+  "source_path": "D:/23MySec/docs/architecture/GATE4_REMAINING_EIGHT_EXECUTION_CONTROL_V1.0.md",
+  "initial_observed_identity": {
+    "path": "D:/23MySec/docs/architecture/GATE4_REMAINING_EIGHT_EXECUTION_CONTROL_V1.0.md",
+    "bytes": 2135,
+    "sha256": "1b51c17c08bd318962482163bc84ec93d4a11e6ad4dfe664f7ba42e76e5ebced"
+  },
+  "latest_observed_identity": {
+    "path": "D:/23MySec/docs/architecture/GATE4_REMAINING_EIGHT_EXECUTION_CONTROL_V1.0.md",
+    "bytes": 2219,
+    "sha256": "704a6f64efa8c4922b0e6959a5d05d65b4f5aa3d5e4d768974d013507321cd2d"
+  },
+  "user_instruction": "接下来我们采用子代理，一次4个子代理，完成剩下的",
+  "scope": "APP-INK Gate 4 execution only; 4A, complete visual 1440/768/390, applicable states, SELF_CHECK, capture, machine identity and freeze.",
+  "stop": "GATE4_EXECUTION_COMPLETE_FROZEN / READY_FOR_GATE5_REVIEW",
+  "actual_dispatch": "/root → /root/gate4_printing_inks_execute",
+  "reconciliation": "Read back current control: RES-TRADE-BR progress changed to frozen and APP-PAPER to in progress. APP-INK scope, user instruction, authorizing Control ID and stop boundary are unchanged. Live batch progress is not frozen source content. This record binds the specific authorization without creating a dependency on future progress-table bytes."
+}

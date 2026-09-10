@@ -1,0 +1,42 @@
+{
+  "page_id": "APP-PLAS",
+  "workset_id": "APP-PLAS-G4-COMPLETE-20260907-02",
+  "freeze_id": "APP-PLAS-G4-FREEZE-20260907-02",
+  "finding_id": "APP-PLAS-G4-R01",
+  "status": "PASS_FOR_TARGETED_INDEPENDENT_REREVIEW",
+  "source": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 43487,
+    "sha256": "fd61a0b74f81c094af4193dcd323cb6f4965321ff453039e0b7bd58c6891e6f9"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_INPUT_INDEX_V0.2.json",
+    "bytes": 13209,
+    "sha256": "4239e0ebfa90089ae1da9b041ab45ecee408af14fac5b8ac0069fbe6e2a11d9a"
+  },
+  "workset": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_WORKSET_V0.2.json",
+    "bytes": 2227,
+    "sha256": "1f99aade07373e125854bc5545d6cbb76e2ec83180a08738713052fd8f6b057c"
+  },
+  "regression": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/diagnostic_support/three-viewport-regression.json",
+    "bytes": 83541,
+    "sha256": "b503fc1cd5effe84f7eb653ae359f5ae0076e6e0a885a3c699ee5ac8524eaab7"
+  },
+  "metadata_readback": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/diagnostic_support/image-metadata-readback.json",
+    "bytes": 44469,
+    "sha256": "fccc5ba32bcc52e9412ca521cc7a93ca8b706711bff6e442e8225e5cd5a5cc08"
+  },
+  "checks": {
+    "frozen_inputs": "52/52",
+    "evidence_images_identity_and_dimensions": "92/92",
+    "grade_paths": "3/3",
+    "target_states": "27/27",
+    "three_viewport_regression": "16/16",
+    "full_page_pixel_identity": "3/3"
+  },
+  "content_visual_url_module_contract_drift": "NONE",
+  "boundary": "Metadata-only executor preflight; separate independent re-review is required."
+}

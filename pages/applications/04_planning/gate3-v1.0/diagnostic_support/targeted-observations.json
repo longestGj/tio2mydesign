@@ -1,0 +1,73 @@
+{
+  "pageId": "APP-000",
+  "author": "/root/app000_gate3_author",
+  "createdAt": "2026-09-08T07:03:34.161Z",
+  "renderer": "151.0.7922.34",
+  "source": {
+    "path": "D:\\23MySec\\pages\\applications\\04_planning\\gate3-v1.0/index.html",
+    "sha256": "ec5136bdb812751e341f16f06d86dd14e1eae790062ffdf9e068373bb653fcb5"
+  },
+  "checks": [
+    {
+      "id": "closed-list-skipped-in-tab-order",
+      "pass": true,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "detail": {
+        "focus": "Explore Coatings",
+        "tag": "A"
+      }
+    },
+    {
+      "id": "opened-list-enters-first-grade",
+      "pass": true,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "detail": {
+        "focus": "M-350",
+        "href": "/products/m-350/"
+      }
+    },
+    {
+      "id": "multiple-collections-remain-open",
+      "pass": true,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "detail": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "disclosure-does-not-fetch",
+      "pass": true,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "detail": {
+        "requests": [],
+        "coverage": "Only native disclosure focus and toggles after initial fonts loaded"
+      }
+    },
+    {
+      "id": "disclosure-no-selection-or-prefill",
+      "pass": true,
+      "evidence_type": "SOURCE_INSPECTION",
+      "detail": {
+        "basis": "Candidate page source inspection; clean body RFQ href is separately tested in actual click interception"
+      }
+    },
+    {
+      "id": "all-scopes-and-definition-outside-disclosure",
+      "pass": true,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "detail": "Six category scopes, names, and neutral definition are outside native details"
+    },
+    {
+      "id": "summary-accessible-context",
+      "pass": true,
+      "evidence_type": "ACTUAL_RUNTIME",
+      "detail": "Summary labelled by exact B label followed by associated category heading"
+    }
+  ],
+  "status": "PASS"
+}

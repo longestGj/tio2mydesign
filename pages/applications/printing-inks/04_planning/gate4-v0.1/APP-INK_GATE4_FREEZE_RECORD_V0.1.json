@@ -1,0 +1,85 @@
+{
+  "page_id": "APP-INK",
+  "workset_id": "APP-INK-G4-WS-20260907-01",
+  "freeze_id": "APP-INK-G4-FREEZE-20260907-01-24ac2dec8f05",
+  "bundle_id": "APP-INK-G4-BUNDLE-24ac2dec8f055d8a",
+  "bundle_sha256": "24ac2dec8f055d8a1c5272b0567d2038119ca6fe802404070cca4be20ca4bfe2",
+  "source_identity": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 32689,
+    "sha256": "148baf534aae5beaf66f2b776f2741dccb5f5b2fe458761d2193fa83eb65ae98"
+  },
+  "createdAt": "2026-09-07T11:16:36.287Z",
+  "status": "GATE4_EXECUTION_COMPLETE_FROZEN / READY_FOR_GATE5_REVIEW",
+  "technical_status": "COMPLETE_VISUAL_FROZEN / READY_FOR_REVIEW",
+  "lifecycle_mapping": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "review_stage": "GATE5_INDEPENDENT_VISUAL_REVIEW",
+  "review_status": "NOT_PERFORMED",
+  "author": "/root/gate4_printing_inks_execute",
+  "dispatch_id": "G4-REMAINING-8-EXEC-01/APP-INK",
+  "authority_manifest": {
+    "path": "D:/23MySec/pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+    "bytes": 4255,
+    "sha256": "7d40b7f92b43661cb4aa9c3bf52bfcdbaeb8c1daf372cd20a97169dde5d115e3"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_INPUT_INDEX_V0.1.json",
+    "bytes": 12798,
+    "sha256": "7286d90409c0b7fba9fedf6557a3ece4eac2ed485b2a5397d52e9f54b16915da"
+  },
+  "evidence_index": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_EVIDENCE_INDEX_V0.1.json",
+    "bytes": 18168,
+    "sha256": "ba4691657d8c51b08517713d547f23d40d581f75617e9dd4b40b33d806ac0676"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "role": "primary_logo"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "role": "reverse_logo"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "role": "font"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "role": "font_license"
+    }
+  ],
+  "preflight": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_PREFLIGHT_V0.1.json",
+    "bytes": 5031,
+    "sha256": "82d76703767e3de905995ae7b9617dd823f9809b98fe4337fe47fcd0a1439b53"
+  },
+  "capture_record": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_CAPTURE_RECORD_V0.1.json",
+    "bytes": 14254,
+    "sha256": "f5fe8a54940982b71f03d3d0c16ca77c7e7913ce8f98765e819bfb7d7a3fa4f1"
+  },
+  "machine_audit": {
+    "path": "D:/23MySec/pages/applications/printing-inks/04_planning/gate4-v0.1/APP-INK_GATE4_MACHINE_AUDIT_V0.1.json",
+    "bytes": 37376,
+    "sha256": "2e45791154f89c7dac6262324202ef6cd1031f3eea8e4115f218c4bf919ae3b6"
+  },
+  "self_check": {
+    "path": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+    "bytes": 3299,
+    "sha256": "ea8f5608975b38cf470621c6d57a30fefb446b2b807450ecd0cbf68395c7e7f5"
+  },
+  "required_findings": [],
+  "production_dependencies_reference": "D:/23MySec/pages/applications/printing-inks/05_review/APP-INK_GATE3_TO_GATE4_HANDOFF_V0.1.md#F",
+  "stop": "No Gate 5, closure, Gate 6, development or publication. Current page Manifest is unchanged.",
+  "bundle_algorithm": "SHA256(source SHA | input-index SHA | evidence-index SHA | ordered dependency SHA values), UTF-8 pipe-separated."
+}

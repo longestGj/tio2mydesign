@@ -1,0 +1,120 @@
+{
+  "review_id": "APP-000-G9-REPAIR-REREVIEW-01",
+  "date": "2026-09-08",
+  "reviewer": "/root",
+  "mode": "independent-read-only",
+  "candidate": {
+    "worktree": "D:/16Wordpress_nextjs/.worktrees/app000-gate8",
+    "branch": "codex/app000-gate8",
+    "repair_baseline": "ce3f4c5c21033e56472ec53586173279fb78c415",
+    "implementation_commit": "0144b303d0546dc5bb7012e4292df6339f851b78",
+    "evidence_head": "87f48dc6eb0489ab26822280918dd0248efe6e05",
+    "build_directory": ".next-app000-0144b30",
+    "build_id": "cD6FOWG8iVMbgeRxyIqIS",
+    "runtime": "http://127.0.0.1:4391"
+  },
+  "admission": {
+    "worktree_clean": true,
+    "manifest_validation": "PASS",
+    "preflight": "PASS / 6 of 6 over two rounds",
+    "build_marker_match": true
+  },
+  "independent_runtime": {
+    "applications_html": {
+      "status": 200,
+      "sha256": "eab2f711953e4d3447a7cda384f2fbc9e442b523e684e2cd48f3f01037b0e9a0",
+      "targeted_internal_marker_matches": []
+    },
+    "applications_rsc": {
+      "status": 200,
+      "sha256": "5f18fdc724950660a59409b831f3e628618269ad2e4200d69ad5ec5f01b21750",
+      "targeted_internal_marker_matches": []
+    },
+    "loaded_client_scripts": {
+      "script_count": 9,
+      "matched_script": "/_next/static/chunks/3c5zdncxytccc.js",
+      "matched_script_sha256": "5dc61536b9a81149cc2bbb08ccc2b53991676b263c31b043b50131b4d0e59348",
+      "matched_script_bytes": 55419,
+      "confirmed_public_internal_values": [
+        "siteScope=tio2-my",
+        "GLOBAL-CHROME-005",
+        "TIO2MY-PRODUCTION-SVG-LOGO-MANIFEST-01",
+        "LEGAL-PRIVACY-G7-HANDOFF-01",
+        "data-site-scope",
+        "data-source-page",
+        "/api/tio2-my/rfq-attribution"
+      ]
+    },
+    "rfq_after_application_link": {
+      "url": "http://127.0.0.1:4391/request-a-quote",
+      "query": "",
+      "fragment": "",
+      "grade": "",
+      "application": "",
+      "attribution_post_status": 204,
+      "attribution_response_body_bytes": 0,
+      "attribution_cookie": "opaque HttpOnly SameSite=Strict",
+      "external_receiver_submission_performed": false
+    },
+    "rfq_public_projection": {
+      "html_sha256": "71ef1ea0b16190f12dd159a99c0a2b4029c83ef18016fb28f1ebb4adfb5d24ab",
+      "rsc_sha256": "d0f616ffe5b5ceb991da17b513ba5e6ba2e533fe7e7cd4f0f3f7933c2d26162c",
+      "html_internal_marker_matches": [
+        "APP-000",
+        "data-source-page",
+        "GLOBAL-CHROME-005",
+        "siteScope",
+        "targetPageId"
+      ],
+      "rsc_internal_marker_matches": [
+        "APP-000",
+        "GLOBAL-CHROME-005",
+        "siteScope",
+        "targetPageId"
+      ]
+    },
+    "edge_contract": {
+      "total": 30,
+      "group_counts": [8, 8, 7, 4, 2, 1],
+      "final_edge_id": "APP000-EDGE-SPEC-01",
+      "final_label": "CR-901",
+      "final_href": "/products/cr-901/",
+      "all_grade_targets_status_200": true
+    },
+    "responsive_and_accessibility": {
+      "mobile_390_default_open": [false, false, false, false, false, false],
+      "mobile_pointer_first_open": true,
+      "mobile_keyboard_second_open": true,
+      "tablet_768_default_open": [true, true, true, true, true, true],
+      "desktop_1440_default_open": [true, true, true, true, true, true],
+      "horizontal_overflow": false,
+      "category_accessible_names": [
+        "Coatings",
+        "Plastics",
+        "Masterbatch",
+        "Printing Inks",
+        "Paper",
+        "Specialty Materials"
+      ],
+      "support_accessible_names": [
+        "Explore Products",
+        "Review Documents",
+        "Explore Markets"
+      ],
+      "all_nine_decorative_arrows_aria_hidden": true,
+      "browser": "Codex in-app browser"
+    }
+  },
+  "repair_findings": {
+    "APP-000-G9-F01": "FAIL",
+    "APP-000-G9-F02": "PASS",
+    "APP-000-G9-F03": "PASS",
+    "APP-000-G9-F04": "PASS"
+  },
+  "retained_open_items": [
+    "APP-000-G9-NV01: physical touch, native 200 percent and named screen reader evidence",
+    "APP000-G9-16 / G9-T4A5-F02: nine consumer routes remain 404",
+    "APP000-G9-17: Sulfate route remains 404; Chloride receiver subcondition remains separately owned"
+  ],
+  "conclusion": "TARGETED_RECHECK_COMPLETE / NOT_PASS / F01_REPAIR_REQUIRED"
+}

@@ -1,0 +1,1537 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\23MySec\\docs\\architecture\\APP000_GATE8_EVIDENCE_MANIFEST_V1.0.json",
+  "handoff_id": "APP-000-G6-HANDOFF-02",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "APP-000",
+          "acceptance_condition_ids": [
+            "APP000-G9-01",
+            "APP000-G9-02",
+            "APP000-G9-03",
+            "APP000-G9-04",
+            "APP000-G9-05",
+            "APP000-G9-06",
+            "APP000-G9-07",
+            "APP000-G9-08",
+            "APP000-G9-09",
+            "APP000-G9-10",
+            "APP000-G9-11",
+            "APP000-G9-12",
+            "APP000-G9-13",
+            "APP000-G9-14",
+            "APP000-G9-15",
+            "APP000-G9-16",
+            "APP000-G9-17"
+          ],
+          "runtime_path": "/applications/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\app000-gate8"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/app000-gate8",
+        "actual": "codex/app000-gate8"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "actual": "ce3f4c5c21033e56472ec53586173279fb78c415"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "cfe9ef37ca3a8d9c6b05365ca6b09bcd22baf670",
+        "descendant": "f0285f288e256ce0c48205931dd8edf4b802b285"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "descendant": "ce3f4c5c21033e56472ec53586173279fb78c415"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\app000-gate8\\.next-app000-f0285f2"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "jf9b1VFzbgKGSQMVOMMbU",
+        "actual": "jf9b1VFzbgKGSQMVOMMbU"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "git": "f0285f288e256ce0c48205931dd8edf4b802b285"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/build-id.txt"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-09",
+          "APP000-G9-11",
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "Generated from final production build and held runtime identity",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "444fd449db4b379479cdfd4e1b49b723ab5da5260c873a917743d61a74ae9888",
+        "actual": "444fd449db4b379479cdfd4e1b49b723ab5da5260c873a917743d61a74ae9888"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/build-id.txt"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e1bcda2c1b6c52679fa92f2e58742b58340ae711",
+        "blob_sha256": "444fd449db4b379479cdfd4e1b49b723ab5da5260c873a917743d61a74ae9888",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/acceptance-summary.json"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-02",
+          "APP000-G9-03",
+          "APP000-G9-04",
+          "APP000-G9-05",
+          "APP000-G9-06",
+          "APP000-G9-07",
+          "APP000-G9-08",
+          "APP000-G9-09",
+          "APP000-G9-10",
+          "APP000-G9-11",
+          "APP000-G9-12",
+          "APP000-G9-13",
+          "APP000-G9-14",
+          "APP000-G9-15",
+          "APP000-G9-16",
+          "APP000-G9-17"
+        ],
+        "command": "Generated from final committed Gate 8 verification outputs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3e2d8414b1e72cfa584e29e9dfc0d4791edbd7b40cfdff6900d65bf8c911e1cf",
+        "actual": "3e2d8414b1e72cfa584e29e9dfc0d4791edbd7b40cfdff6900d65bf8c911e1cf"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/acceptance-summary.json"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9f8f155d870de48b44608b1aeeb808b5591910ac",
+        "blob_sha256": "3e2d8414b1e72cfa584e29e9dfc0d4791edbd7b40cfdff6900d65bf8c911e1cf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/full-unit-summary.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "npm test; exact failures classified against dispatched scope",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d70886b3fec9bb7a8daa2937e856979ba6ab6c0290756aef0c63af514886908f",
+        "actual": "d70886b3fec9bb7a8daa2937e856979ba6ab6c0290756aef0c63af514886908f"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/full-unit-summary.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2a3bcbf8815489ba8a27d911109ad3fabd731dc1",
+        "blob_sha256": "d70886b3fec9bb7a8daa2937e856979ba6ab6c0290756aef0c63af514886908f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/ROLLBACK_RECORD_2026-09-08.md"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "git cat-file -e cfe9ef37ca3a8d9c6b05365ca6b09bcd22baf670^{commit}; source/rollback procedure inspection",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "444075e6b25d8594d7f6beee33dfc72a9d7c63df64af86eb7bb747917aede701",
+        "actual": "444075e6b25d8594d7f6beee33dfc72a9d7c63df64af86eb7bb747917aede701"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/ROLLBACK_RECORD_2026-09-08.md"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5e80932b5ad9741323b485504906c6e2df508862",
+        "blob_sha256": "444075e6b25d8594d7f6beee33dfc72a9d7c63df64af86eb7bb747917aede701",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/runtime-contract.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-02",
+          "APP000-G9-03",
+          "APP000-G9-06",
+          "APP000-G9-08",
+          "APP000-G9-09",
+          "APP000-G9-11",
+          "APP000-G9-12",
+          "APP000-G9-13"
+        ],
+        "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c867800bea7a931e2b38d3e02194562e0435f94cef86f26e630dcd99c9eb2d58",
+        "actual": "c867800bea7a931e2b38d3e02194562e0435f94cef86f26e630dcd99c9eb2d58"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/runtime-contract.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d478d8486022fd427608b4cc5dfbb36b85fe6589",
+        "blob_sha256": "c867800bea7a931e2b38d3e02194562e0435f94cef86f26e630dcd99c9eb2d58",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/route-matrix.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-06",
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d65687380906cfa0859afb3fc9f0bbf7e21960c7f65010eac38054bf7a8e5e6e",
+        "actual": "d65687380906cfa0859afb3fc9f0bbf7e21960c7f65010eac38054bf7a8e5e6e"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/route-matrix.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f078827eb3424285e0572e59401c4e19a266151e",
+        "blob_sha256": "d65687380906cfa0859afb3fc9f0bbf7e21960c7f65010eac38054bf7a8e5e6e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/grade-edge-inventory.json"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-03",
+          "APP000-G9-06"
+        ],
+        "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4287a2f983c3b0c5c68d9bce5cf2ca5f93abe2ba5e0a20f74962b3fee3221f6b",
+        "actual": "4287a2f983c3b0c5c68d9bce5cf2ca5f93abe2ba5e0a20f74962b3fee3221f6b"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/grade-edge-inventory.json"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1cf7fa6d336a667553ffb1a627d61dec927b7f9f",
+        "blob_sha256": "4287a2f983c3b0c5c68d9bce5cf2ca5f93abe2ba5e0a20f74962b3fee3221f6b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/consumer-regression-matrix.json"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-16",
+          "APP000-G9-17"
+        ],
+        "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs; read-only consumers",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "dfaf53c9e51798cf7b7e7c93960f513852d6fcf28315ea0ceffa531b8d63cd6e",
+        "actual": "dfaf53c9e51798cf7b7e7c93960f513852d6fcf28315ea0ceffa531b8d63cd6e"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/consumer-regression-matrix.json"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e87f97f7e83b29e9405b603db821d8a4950389f4",
+        "blob_sha256": "dfaf53c9e51798cf7b7e7c93960f513852d6fcf28315ea0ceffa531b8d63cd6e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/shared-instance-map.json"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-08",
+          "APP000-G9-13"
+        ],
+        "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3c563232a2d5b97c1b153c73f724d9bd2eb59ea2365eb3acf77dc90eaab36bf3",
+        "actual": "3c563232a2d5b97c1b153c73f724d9bd2eb59ea2365eb3acf77dc90eaab36bf3"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/shared-instance-map.json"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2c5d1b3b40e0b32b67fdc6e5889f7614522e3227",
+        "blob_sha256": "3c563232a2d5b97c1b153c73f724d9bd2eb59ea2365eb3acf77dc90eaab36bf3",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/conditional-state-matrix.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP000-G9-04",
+          "APP000-G9-12",
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "npx vitest run targeted APP-000 renderer and SEO tests",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5a820cda8e38be7957009f5b148a9bcd86683a2ca4b76d5218cb1adfd1aea829",
+        "actual": "5a820cda8e38be7957009f5b148a9bcd86683a2ca4b76d5218cb1adfd1aea829"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/conditional-state-matrix.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e5a92049a950e550e63c7f8a4fd8c39781276589",
+        "blob_sha256": "5a820cda8e38be7957009f5b148a9bcd86683a2ca4b76d5218cb1adfd1aea829",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/rfq-private-handoff.json"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "RECEIVER",
+        "proves": [
+          "APP000-G9-07",
+          "APP000-G9-13"
+        ],
+        "command": "Playwright browser navigation with locally intercepted Web3Forms response; access key excluded",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "266f5acfc7261999f9fbc30315441eedec1abfac4c17282b85d303f57106b971",
+        "actual": "266f5acfc7261999f9fbc30315441eedec1abfac4c17282b85d303f57106b971"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/rfq-private-handoff.json"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "25207118d1635243cb3a13cfb00ca519ea65d972",
+        "blob_sha256": "266f5acfc7261999f9fbc30315441eedec1abfac4c17282b85d303f57106b971",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/app000-desktop-1440.png"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-02",
+          "APP000-G9-05",
+          "APP000-G9-08",
+          "APP000-G9-09"
+        ],
+        "command": "Playwright full-page screenshot at 1440x1000; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b91e661c7bf3a887e2edc636a8640dd33670e26d25fbe4c44ed47e53add831a5",
+        "actual": "b91e661c7bf3a887e2edc636a8640dd33670e26d25fbe4c44ed47e53add831a5"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/app000-desktop-1440.png"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "0e38739f2af0e43809bc904abff31beaac88efe7",
+        "blob_sha256": "b91e661c7bf3a887e2edc636a8640dd33670e26d25fbe4c44ed47e53add831a5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/app000-tablet-768.png"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-02",
+          "APP000-G9-05",
+          "APP000-G9-08",
+          "APP000-G9-09"
+        ],
+        "command": "Playwright full-page screenshot at 768x1024; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b917e0acc00a1777f46013c2c3cfd1ed600874a6c5bfc897f5415ba44e2598e5",
+        "actual": "b917e0acc00a1777f46013c2c3cfd1ed600874a6c5bfc897f5415ba44e2598e5"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/app000-tablet-768.png"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "45ccff5dc3eca0098c75773d04a0c067117ece06",
+        "blob_sha256": "b917e0acc00a1777f46013c2c3cfd1ed600874a6c5bfc897f5415ba44e2598e5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/app000-mobile-390.png"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-02",
+          "APP000-G9-05",
+          "APP000-G9-08",
+          "APP000-G9-09"
+        ],
+        "command": "Playwright full-page screenshot at 390x844; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "aa104956a8ec9ab13ab7ad260ba2714e11a4724b2e1b00b92880c01d366dc04f",
+        "actual": "aa104956a8ec9ab13ab7ad260ba2714e11a4724b2e1b00b92880c01d366dc04f"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/app000-mobile-390.png"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3fcb4b6770853c11b98a95ba162c39829c1bd3cf",
+        "blob_sha256": "aa104956a8ec9ab13ab7ad260ba2714e11a4724b2e1b00b92880c01d366dc04f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/app000-mobile-cookie-settings.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-05",
+          "APP000-G9-08",
+          "APP000-G9-10"
+        ],
+        "command": "Playwright mobile Cookie Settings interaction screenshot; visually inspected",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6d965414cda0c9ffffdfbda07940016ecca24b3526131c336a82f4941d97e814",
+        "actual": "6d965414cda0c9ffffdfbda07940016ecca24b3526131c336a82f4941d97e814"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/runtime/app000-mobile-cookie-settings.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "dc350eb2412993c57f6318ce4e4fb05644af9dad",
+        "blob_sha256": "6d965414cda0c9ffffdfbda07940016ecca24b3526131c336a82f4941d97e814",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/build.log"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-11",
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "NEXT_DIST_DIR=.next-app000-f0285f2 WORDPRESS_GRAPHQL_URL=http://127.0.0.1:4390/graphql npm run build",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "05cf68606c5ca6d3cd458820f3d4c686a964d33c75898d5e7d07878e8e1bfc55",
+        "actual": "05cf68606c5ca6d3cd458820f3d4c686a964d33c75898d5e7d07878e8e1bfc55"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/build.log"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a85eaca3be7a2b02a9b10fb26addf721df8e6610",
+        "blob_sha256": "dc73d3252728539f7de510298cc95892ef6c6c5ca3fb041cefb31363b228ddce",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/targeted-tests.log"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-02",
+          "APP000-G9-03",
+          "APP000-G9-04",
+          "APP000-G9-06",
+          "APP000-G9-11",
+          "APP000-G9-12",
+          "APP000-G9-13",
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "npx vitest run 13 APP-000/RFQ/infrastructure files",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "58cb43591fdce0f7c5d2b768742ade669cdc593c54bb8abc39b857d97211374a",
+        "actual": "58cb43591fdce0f7c5d2b768742ade669cdc593c54bb8abc39b857d97211374a"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/targeted-tests.log"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "14c25d835b17af60ad1d9a31dab647dac7aa89c1",
+        "blob_sha256": "88b6bdcbe68f9a1903b185dfc56f849f3bda6b72964c3745a52017d8a017a39b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "npm run typecheck",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+        "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/changed-lint.log"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-13",
+          "APP000-G9-15"
+        ],
+        "command": "npx eslint changed APP-000 and RFQ files",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/changed-lint.log"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "blob_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/playwright.log"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-03",
+          "APP000-G9-05",
+          "APP000-G9-07",
+          "APP000-G9-08",
+          "APP000-G9-09",
+          "APP000-G9-10",
+          "APP000-G9-11",
+          "APP000-G9-12",
+          "APP000-G9-13"
+        ],
+        "command": "npx playwright test --config=playwright.app000.config.ts",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "1308f3191f805afc4aed015440377f2be660f7556fb1b70dc6b59e24943744b2",
+        "actual": "1308f3191f805afc4aed015440377f2be660f7556fb1b70dc6b59e24943744b2"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/playwright.log"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f7c6f8acf5af84452424a568b3ccfc38fc4ad707",
+        "blob_sha256": "8b4e0f0ff11765a2a2008c88d9233e7131ded7476cd69c01d6ebd8aab666ff9a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/runtime-evidence.log"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-03",
+          "APP000-G9-06",
+          "APP000-G9-07",
+          "APP000-G9-08",
+          "APP000-G9-13",
+          "APP000-G9-16",
+          "APP000-G9-17"
+        ],
+        "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "914bcab0f2be3d3baa788bc075983297eaf0ed0d3e0b628666d8fc4934b6a61b",
+        "actual": "914bcab0f2be3d3baa788bc075983297eaf0ed0d3e0b628666d8fc4934b6a61b"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/runtime-evidence.log"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "697fda1a11a550453cf3bc26d81983999293b6d2",
+        "blob_sha256": "f06673e5ecb33f6e508591d7655cb948216b34a14c44791a6e8abc2a1855b102",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/runtime-preflight-two-round.log"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-06",
+          "APP000-G9-11",
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "Two rounds of APP-000, RFQ and Grade runtime status/content/build-marker checks",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a610ae56ede24660b476d74856806ae23fa98069a78656cfc12cd19710b1d7b1",
+        "actual": "a610ae56ede24660b476d74856806ae23fa98069a78656cfc12cd19710b1d7b1"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/runtime-preflight-two-round.log"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "0fd52607653a854661ed8088e2cb73f07804a419",
+        "blob_sha256": "da13abae441ffa59253ea86107a122a3fbdbf66ceedfbb617f283e28183489db",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/unit-full.log"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "npm test",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ac9f1d4db8e85ab65ec4ace0ecdc2996c2ee9e4342260c811b8a42e140b341cd",
+        "actual": "ac9f1d4db8e85ab65ec4ace0ecdc2996c2ee9e4342260c811b8a42e140b341cd"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/unit-full.log"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b04f4116dc1a86ef094fb83e48f487f3e37a01fa",
+        "blob_sha256": "688db27398a84c546cc1e16a1574f5b6d83face2bdf3cb4e695654df17914819",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/site-a-timeout-recheck.log"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "Isolated recheck of unrelated Site A five-second baseline timeout",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f7a23178d6651375c417ce1dc6ce4802b52f668bdd70a1dba8af2b626b83b426",
+        "actual": "f7a23178d6651375c417ce1dc6ce4802b52f668bdd70a1dba8af2b626b83b426"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/logs/site-a-timeout-recheck.log"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2efb07994a7d1b43f8e57fba801631a0d14fc3b8",
+        "blob_sha256": "3018580a8edb6a3bbb5967247957ba7d2cd707b8d4e74f79ef7b53788fd27f6e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/support/generate-runtime-evidence.mjs"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-03",
+          "APP000-G9-06",
+          "APP000-G9-07",
+          "APP000-G9-08",
+          "APP000-G9-13",
+          "APP000-G9-16",
+          "APP000-G9-17"
+        ],
+        "command": "Source inspection of repeatable runtime evidence generator",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ee60c658bc18ef55c9f04cdb56d2daba51b63a167ceb098738be168a1c979075",
+        "actual": "ee60c658bc18ef55c9f04cdb56d2daba51b63a167ceb098738be168a1c979075"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/support/generate-runtime-evidence.mjs"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7f9a769a9087a3dec4bfdaa6bb1260d38e3ab161",
+        "blob_sha256": "ee60c658bc18ef55c9f04cdb56d2daba51b63a167ceb098738be168a1c979075",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_25_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/support/scoped-cms-proxy.mjs"
+    },
+    {
+      "id": "evidence_25_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "APP000-G9-01",
+          "APP000-G9-06",
+          "APP000-G9-10",
+          "APP000-G9-14",
+          "APP000-G9-15"
+        ],
+        "command": "Source inspection of scope-bound local CMS fixture proxy",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+      }
+    },
+    {
+      "id": "evidence_25_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ef5038ccc9809f935fd09c4de481698cee694e06f3635836bfc3525cca743e4c",
+        "actual": "ef5038ccc9809f935fd09c4de481698cee694e06f3635836bfc3525cca743e4c"
+      }
+    },
+    {
+      "id": "evidence_25_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/support/scoped-cms-proxy.mjs"
+    },
+    {
+      "id": "evidence_25_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "025fa5d375ed396e36a6ba12a5b173e8f05da879",
+        "blob_sha256": "f3988fdb26670a9736f5fcfc20c607386de4e36b7aae2dfc64b27df124cf5ec6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_25_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/GATE8_IMPLEMENTATION_RECEIPT_2026-09-08.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/app000/gate8/ROLLBACK_RECORD_2026-09-08.md",
+          "docs/verification/app000/gate8/acceptance-summary.json",
+          "docs/verification/app000/gate8/build-id.txt",
+          "docs/verification/app000/gate8/full-unit-summary.json",
+          "docs/verification/app000/gate8/logs/build.log",
+          "docs/verification/app000/gate8/logs/changed-lint.log",
+          "docs/verification/app000/gate8/logs/playwright.log",
+          "docs/verification/app000/gate8/logs/runtime-evidence.log",
+          "docs/verification/app000/gate8/logs/runtime-preflight-two-round.log",
+          "docs/verification/app000/gate8/logs/site-a-timeout-recheck.log",
+          "docs/verification/app000/gate8/logs/targeted-tests.log",
+          "docs/verification/app000/gate8/logs/typecheck.log",
+          "docs/verification/app000/gate8/logs/unit-full.log",
+          "docs/verification/app000/gate8/runtime/app000-desktop-1440.png",
+          "docs/verification/app000/gate8/runtime/app000-mobile-390.png",
+          "docs/verification/app000/gate8/runtime/app000-mobile-cookie-settings.png",
+          "docs/verification/app000/gate8/runtime/app000-tablet-768.png",
+          "docs/verification/app000/gate8/runtime/conditional-state-matrix.json",
+          "docs/verification/app000/gate8/runtime/consumer-regression-matrix.json",
+          "docs/verification/app000/gate8/runtime/grade-edge-inventory.json",
+          "docs/verification/app000/gate8/runtime/rfq-private-handoff.json",
+          "docs/verification/app000/gate8/runtime/route-matrix.json",
+          "docs/verification/app000/gate8/runtime/runtime-contract.json",
+          "docs/verification/app000/gate8/runtime/shared-instance-map.json",
+          "docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+          "docs/verification/app000/gate8/support/scoped-cms-proxy.mjs"
+        ],
+        "actual": [
+          "docs/verification/app000/gate8/ROLLBACK_RECORD_2026-09-08.md",
+          "docs/verification/app000/gate8/acceptance-summary.json",
+          "docs/verification/app000/gate8/build-id.txt",
+          "docs/verification/app000/gate8/full-unit-summary.json",
+          "docs/verification/app000/gate8/logs/build.log",
+          "docs/verification/app000/gate8/logs/changed-lint.log",
+          "docs/verification/app000/gate8/logs/playwright.log",
+          "docs/verification/app000/gate8/logs/runtime-evidence.log",
+          "docs/verification/app000/gate8/logs/runtime-preflight-two-round.log",
+          "docs/verification/app000/gate8/logs/site-a-timeout-recheck.log",
+          "docs/verification/app000/gate8/logs/targeted-tests.log",
+          "docs/verification/app000/gate8/logs/typecheck.log",
+          "docs/verification/app000/gate8/logs/unit-full.log",
+          "docs/verification/app000/gate8/runtime/app000-desktop-1440.png",
+          "docs/verification/app000/gate8/runtime/app000-mobile-390.png",
+          "docs/verification/app000/gate8/runtime/app000-mobile-cookie-settings.png",
+          "docs/verification/app000/gate8/runtime/app000-tablet-768.png",
+          "docs/verification/app000/gate8/runtime/conditional-state-matrix.json",
+          "docs/verification/app000/gate8/runtime/consumer-regression-matrix.json",
+          "docs/verification/app000/gate8/runtime/grade-edge-inventory.json",
+          "docs/verification/app000/gate8/runtime/rfq-private-handoff.json",
+          "docs/verification/app000/gate8/runtime/route-matrix.json",
+          "docs/verification/app000/gate8/runtime/runtime-contract.json",
+          "docs/verification/app000/gate8/runtime/shared-instance-map.json",
+          "docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+          "docs/verification/app000/gate8/support/scoped-cms-proxy.mjs"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8/GATE8_IMPLEMENTATION_RECEIPT_2026-09-08.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

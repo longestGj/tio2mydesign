@@ -1,0 +1,1263 @@
+{
+  "reviewer": "/root/app000_gate3_review",
+  "createdAt": "2026-09-08T07:18:00.184Z",
+  "results": [
+    {
+      "id": "menu-terminal-loop-768",
+      "pass": true,
+      "data": {
+        "wrap": "Close",
+        "reverse": "Request a Quote",
+        "focusAfterAttempt": "Request a Quote"
+      }
+    },
+    {
+      "id": "cookie-background-isolation-768",
+      "pass": true,
+      "data": {
+        "dialogFocus": "Close"
+      }
+    },
+    {
+      "id": "page-errors-768",
+      "pass": true,
+      "data": {
+        "errors": []
+      }
+    },
+    {
+      "id": "closed-anchor-#application-coatings",
+      "pass": true,
+      "data": {
+        "top": 24.46875,
+        "heading": "Coatings",
+        "open": false
+      }
+    },
+    {
+      "id": "closed-anchor-#application-plastics",
+      "pass": true,
+      "data": {
+        "top": 24.25,
+        "heading": "Plastics",
+        "open": false
+      }
+    },
+    {
+      "id": "closed-anchor-#application-masterbatch",
+      "pass": true,
+      "data": {
+        "top": 23.625,
+        "heading": "Masterbatch",
+        "open": false
+      }
+    },
+    {
+      "id": "closed-anchor-#application-printing-inks",
+      "pass": true,
+      "data": {
+        "top": 24,
+        "heading": "Printing Inks",
+        "open": false
+      }
+    },
+    {
+      "id": "closed-anchor-#application-paper",
+      "pass": true,
+      "data": {
+        "top": 23.78125,
+        "heading": "Paper",
+        "open": false
+      }
+    },
+    {
+      "id": "closed-anchor-#application-specialty-materials",
+      "pass": true,
+      "data": {
+        "top": 23.5625,
+        "heading": "Specialty Materials",
+        "open": false
+      }
+    },
+    {
+      "id": "focus-visible",
+      "pass": true,
+      "data": {
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 128, 120)",
+        "name": "application-coatings-summary application-coatings-title"
+      }
+    },
+    {
+      "id": "disclosure-does-not-fetch",
+      "pass": true,
+      "data": {
+        "newRequests": 0
+      }
+    },
+    {
+      "id": "menu-terminal-loop-390",
+      "pass": true,
+      "data": {
+        "wrap": "Close",
+        "reverse": "Request a Quote",
+        "focusAfterAttempt": "Request a Quote"
+      }
+    },
+    {
+      "id": "cookie-background-isolation-390",
+      "pass": true,
+      "data": {
+        "dialogFocus": "Close"
+      }
+    },
+    {
+      "id": "page-errors-390",
+      "pass": true,
+      "data": {
+        "errors": []
+      }
+    },
+    {
+      "id": "matrix-index",
+      "pass": true,
+      "data": {
+        "actual": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ],
+        "expected": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ]
+      }
+    },
+    {
+      "id": "routes-index",
+      "pass": true,
+      "data": [
+        {
+          "owner": "CONV-RFQ",
+          "href": "/request-a-quote/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M510",
+          "href": "/products/m-510/"
+        },
+        {
+          "owner": "GRADE-M896",
+          "href": "/products/m-896/"
+        },
+        {
+          "owner": "GRADE-M996",
+          "href": "/products/m-996/"
+        },
+        {
+          "owner": "GRADE-M2196",
+          "href": "/products/m-2196/"
+        },
+        {
+          "owner": "GRADE-M895",
+          "href": "/products/m-895/"
+        },
+        {
+          "owner": "GRADE-M52",
+          "href": "/products/m-52/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "APP-COAT",
+          "href": "/applications/titanium-dioxide-for-coatings/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M510",
+          "href": "/products/m-510/"
+        },
+        {
+          "owner": "GRADE-M200",
+          "href": "/products/m-200/"
+        },
+        {
+          "owner": "GRADE-M108",
+          "href": "/products/m-108/"
+        },
+        {
+          "owner": "GRADE-M210",
+          "href": "/products/m-210/"
+        },
+        {
+          "owner": "GRADE-M340",
+          "href": "/products/m-340/"
+        },
+        {
+          "owner": "GRADE-M886",
+          "href": "/products/m-886/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "APP-PLAS",
+          "href": "/applications/titanium-dioxide-for-plastics/"
+        },
+        {
+          "owner": "GRADE-M510",
+          "href": "/products/m-510/"
+        },
+        {
+          "owner": "GRADE-M200",
+          "href": "/products/m-200/"
+        },
+        {
+          "owner": "GRADE-M108",
+          "href": "/products/m-108/"
+        },
+        {
+          "owner": "GRADE-M210",
+          "href": "/products/m-210/"
+        },
+        {
+          "owner": "GRADE-M340",
+          "href": "/products/m-340/"
+        },
+        {
+          "owner": "GRADE-M886",
+          "href": "/products/m-886/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "APP-MB",
+          "href": "/applications/titanium-dioxide-for-masterbatch/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M510",
+          "href": "/products/m-510/"
+        },
+        {
+          "owner": "GRADE-M52",
+          "href": "/products/m-52/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "APP-INK",
+          "href": "/applications/titanium-dioxide-for-printing-inks/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "APP-PAPER",
+          "href": "/applications/titanium-dioxide-for-paper/"
+        },
+        {
+          "owner": "GRADE-CR901",
+          "href": "/products/cr-901/"
+        },
+        {
+          "owner": "PRODUCT-000",
+          "href": "/products/"
+        },
+        {
+          "owner": "DOC-000",
+          "href": "/documents/"
+        },
+        {
+          "owner": "MARKET-000",
+          "href": "/markets/"
+        },
+        {
+          "owner": "CONV-RFQ",
+          "href": "/request-a-quote/"
+        }
+      ]
+    },
+    {
+      "id": "schema-parity-index",
+      "pass": true,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://tio2malaysia.com/applications/#webpage",
+            "url": "https://tio2malaysia.com/applications/",
+            "name": "Explore Titanium Dioxide by Application",
+            "description": "Explore titanium dioxide application paths for coatings, plastics, masterbatch, printing inks, paper and specialty materials.",
+            "inLanguage": "en",
+            "breadcrumb": {
+              "@id": "https://tio2malaysia.com/applications/#breadcrumb"
+            },
+            "mainEntity": {
+              "@id": "https://tio2malaysia.com/applications/#application-pages"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://tio2malaysia.com/applications/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://tio2malaysia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Applications",
+                "item": "https://tio2malaysia.com/applications/"
+              }
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://tio2malaysia.com/applications/#application-pages",
+            "name": "Choose by Application",
+            "numberOfItems": 5,
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Coatings",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-coatings/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Plastics",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-plastics/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Masterbatch",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-masterbatch/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Printing Inks",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-printing-inks/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Paper",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-paper/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "conditional-copy-index",
+      "pass": true,
+      "data": {
+        "intro": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "forms": 0,
+        "footerCurrent": 0
+      }
+    },
+    {
+      "id": "matrix-constrained",
+      "pass": true,
+      "data": {
+        "actual": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ],
+        "expected": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ]
+      }
+    },
+    {
+      "id": "routes-constrained",
+      "pass": true,
+      "data": []
+    },
+    {
+      "id": "schema-parity-constrained",
+      "pass": true,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://tio2malaysia.com/applications/#webpage",
+            "url": "https://tio2malaysia.com/applications/",
+            "name": "Explore Titanium Dioxide by Application",
+            "description": "Explore titanium dioxide application paths for coatings, plastics, masterbatch, printing inks, paper and specialty materials.",
+            "inLanguage": "en",
+            "breadcrumb": {
+              "@id": "https://tio2malaysia.com/applications/#breadcrumb"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://tio2malaysia.com/applications/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://tio2malaysia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Applications",
+                "item": "https://tio2malaysia.com/applications/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "conditional-copy-constrained",
+      "pass": true,
+      "data": {
+        "intro": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability.",
+        "forms": 0,
+        "footerCurrent": 0
+      }
+    },
+    {
+      "id": "matrix-mixed",
+      "pass": true,
+      "data": {
+        "actual": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ],
+        "expected": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ]
+      }
+    },
+    {
+      "id": "routes-mixed",
+      "pass": true,
+      "data": [
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "APP-COAT",
+          "href": "/applications/titanium-dioxide-for-coatings/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "APP-PAPER",
+          "href": "/applications/titanium-dioxide-for-paper/"
+        },
+        {
+          "owner": "GRADE-CR901",
+          "href": "/products/cr-901/"
+        },
+        {
+          "owner": "PRODUCT-000",
+          "href": "/products/"
+        }
+      ]
+    },
+    {
+      "id": "schema-parity-mixed",
+      "pass": true,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://tio2malaysia.com/applications/#webpage",
+            "url": "https://tio2malaysia.com/applications/",
+            "name": "Explore Titanium Dioxide by Application",
+            "description": "Explore titanium dioxide application paths for coatings, plastics, masterbatch, printing inks, paper and specialty materials.",
+            "inLanguage": "en",
+            "breadcrumb": {
+              "@id": "https://tio2malaysia.com/applications/#breadcrumb"
+            },
+            "mainEntity": {
+              "@id": "https://tio2malaysia.com/applications/#application-pages"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://tio2malaysia.com/applications/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://tio2malaysia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Applications",
+                "item": "https://tio2malaysia.com/applications/"
+              }
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://tio2malaysia.com/applications/#application-pages",
+            "name": "Choose by Application",
+            "numberOfItems": 2,
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Coatings",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-coatings/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Paper",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-paper/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "conditional-copy-mixed",
+      "pass": true,
+      "data": {
+        "intro": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "forms": 0,
+        "footerCurrent": 0
+      }
+    },
+    {
+      "id": "matrix-grades-only",
+      "pass": true,
+      "data": {
+        "actual": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ],
+        "expected": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ]
+      }
+    },
+    {
+      "id": "routes-grades-only",
+      "pass": true,
+      "data": [
+        {
+          "owner": "CONV-RFQ",
+          "href": "/request-a-quote/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M510",
+          "href": "/products/m-510/"
+        },
+        {
+          "owner": "GRADE-M896",
+          "href": "/products/m-896/"
+        },
+        {
+          "owner": "GRADE-M996",
+          "href": "/products/m-996/"
+        },
+        {
+          "owner": "GRADE-M2196",
+          "href": "/products/m-2196/"
+        },
+        {
+          "owner": "GRADE-M895",
+          "href": "/products/m-895/"
+        },
+        {
+          "owner": "GRADE-M52",
+          "href": "/products/m-52/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M510",
+          "href": "/products/m-510/"
+        },
+        {
+          "owner": "GRADE-M200",
+          "href": "/products/m-200/"
+        },
+        {
+          "owner": "GRADE-M108",
+          "href": "/products/m-108/"
+        },
+        {
+          "owner": "GRADE-M210",
+          "href": "/products/m-210/"
+        },
+        {
+          "owner": "GRADE-M340",
+          "href": "/products/m-340/"
+        },
+        {
+          "owner": "GRADE-M886",
+          "href": "/products/m-886/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "GRADE-M510",
+          "href": "/products/m-510/"
+        },
+        {
+          "owner": "GRADE-M200",
+          "href": "/products/m-200/"
+        },
+        {
+          "owner": "GRADE-M108",
+          "href": "/products/m-108/"
+        },
+        {
+          "owner": "GRADE-M210",
+          "href": "/products/m-210/"
+        },
+        {
+          "owner": "GRADE-M340",
+          "href": "/products/m-340/"
+        },
+        {
+          "owner": "GRADE-M886",
+          "href": "/products/m-886/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M510",
+          "href": "/products/m-510/"
+        },
+        {
+          "owner": "GRADE-M52",
+          "href": "/products/m-52/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "GRADE-M350",
+          "href": "/products/m-350/"
+        },
+        {
+          "owner": "GRADE-M2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "owner": "GRADE-CR901",
+          "href": "/products/cr-901/"
+        },
+        {
+          "owner": "PRODUCT-000",
+          "href": "/products/"
+        },
+        {
+          "owner": "DOC-000",
+          "href": "/documents/"
+        },
+        {
+          "owner": "MARKET-000",
+          "href": "/markets/"
+        },
+        {
+          "owner": "CONV-RFQ",
+          "href": "/request-a-quote/"
+        }
+      ]
+    },
+    {
+      "id": "schema-parity-grades-only",
+      "pass": true,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://tio2malaysia.com/applications/#webpage",
+            "url": "https://tio2malaysia.com/applications/",
+            "name": "Explore Titanium Dioxide by Application",
+            "description": "Explore titanium dioxide application paths for coatings, plastics, masterbatch, printing inks, paper and specialty materials.",
+            "inLanguage": "en",
+            "breadcrumb": {
+              "@id": "https://tio2malaysia.com/applications/#breadcrumb"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://tio2malaysia.com/applications/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://tio2malaysia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Applications",
+                "item": "https://tio2malaysia.com/applications/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "conditional-copy-grades-only",
+      "pass": true,
+      "data": {
+        "intro": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information.",
+        "forms": 0,
+        "footerCurrent": 0
+      }
+    },
+    {
+      "id": "matrix-apps-only",
+      "pass": true,
+      "data": {
+        "actual": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ],
+        "expected": [
+          "Coatings|M-2196",
+          "Coatings|M-2377",
+          "Coatings|M-350",
+          "Coatings|M-510",
+          "Coatings|M-52",
+          "Coatings|M-895",
+          "Coatings|M-896",
+          "Coatings|M-996",
+          "Masterbatch|M-108",
+          "Masterbatch|M-200",
+          "Masterbatch|M-210",
+          "Masterbatch|M-2377",
+          "Masterbatch|M-340",
+          "Masterbatch|M-510",
+          "Masterbatch|M-886",
+          "Paper|M-2377",
+          "Paper|M-350",
+          "Plastics|M-108",
+          "Plastics|M-200",
+          "Plastics|M-210",
+          "Plastics|M-2377",
+          "Plastics|M-340",
+          "Plastics|M-350",
+          "Plastics|M-510",
+          "Plastics|M-886",
+          "Printing Inks|M-2377",
+          "Printing Inks|M-350",
+          "Printing Inks|M-510",
+          "Printing Inks|M-52",
+          "Specialty Materials|CR-901"
+        ]
+      }
+    },
+    {
+      "id": "routes-apps-only",
+      "pass": true,
+      "data": [
+        {
+          "owner": "CONV-RFQ",
+          "href": "/request-a-quote/"
+        },
+        {
+          "owner": "APP-COAT",
+          "href": "/applications/titanium-dioxide-for-coatings/"
+        },
+        {
+          "owner": "APP-PLAS",
+          "href": "/applications/titanium-dioxide-for-plastics/"
+        },
+        {
+          "owner": "APP-MB",
+          "href": "/applications/titanium-dioxide-for-masterbatch/"
+        },
+        {
+          "owner": "APP-INK",
+          "href": "/applications/titanium-dioxide-for-printing-inks/"
+        },
+        {
+          "owner": "APP-PAPER",
+          "href": "/applications/titanium-dioxide-for-paper/"
+        },
+        {
+          "owner": "PRODUCT-000",
+          "href": "/products/"
+        },
+        {
+          "owner": "DOC-000",
+          "href": "/documents/"
+        },
+        {
+          "owner": "MARKET-000",
+          "href": "/markets/"
+        },
+        {
+          "owner": "CONV-RFQ",
+          "href": "/request-a-quote/"
+        }
+      ]
+    },
+    {
+      "id": "schema-parity-apps-only",
+      "pass": true,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://tio2malaysia.com/applications/#webpage",
+            "url": "https://tio2malaysia.com/applications/",
+            "name": "Explore Titanium Dioxide by Application",
+            "description": "Explore titanium dioxide application paths for coatings, plastics, masterbatch, printing inks, paper and specialty materials.",
+            "inLanguage": "en",
+            "breadcrumb": {
+              "@id": "https://tio2malaysia.com/applications/#breadcrumb"
+            },
+            "mainEntity": {
+              "@id": "https://tio2malaysia.com/applications/#application-pages"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://tio2malaysia.com/applications/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://tio2malaysia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Applications",
+                "item": "https://tio2malaysia.com/applications/"
+              }
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://tio2malaysia.com/applications/#application-pages",
+            "name": "Choose by Application",
+            "numberOfItems": 5,
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Coatings",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-coatings/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Plastics",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-plastics/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Masterbatch",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-masterbatch/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Printing Inks",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-printing-inks/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Paper",
+                "item": "https://tio2malaysia.com/applications/titanium-dioxide-for-paper/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "conditional-copy-apps-only",
+      "pass": true,
+      "data": {
+        "intro": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Explore an application for guidance on what to evaluate.",
+        "forms": 0,
+        "footerCurrent": 0
+      }
+    },
+    {
+      "id": "rfq-source-only-local-navigation",
+      "pass": true,
+      "data": {
+        "clicks": [
+          {
+            "href": "/request-a-quote/",
+            "owner": "CONV-RFQ",
+            "query": "",
+            "hash": ""
+          },
+          {
+            "href": "/request-a-quote/",
+            "owner": "CONV-RFQ",
+            "query": "",
+            "hash": ""
+          }
+        ],
+        "type": "LOCAL_SIMULATION",
+        "transport": "source_page_id=APP-000 remains receiver/Gate8 transport; no submission"
+      }
+    },
+    {
+      "id": "final-identities-unchanged",
+      "pass": true,
+      "data": {
+        "count": 62
+      }
+    }
+  ]
+}

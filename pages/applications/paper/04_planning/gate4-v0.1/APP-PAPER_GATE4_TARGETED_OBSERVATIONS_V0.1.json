@@ -1,0 +1,83 @@
+{
+  "mode": "TARGETED",
+  "author": "/root/gate4_paper_execute",
+  "started_at": "2026-09-07T11:21:11.978Z",
+  "source_sha256": "e3d7907131d98b987328bf084ba80ed90476363e3caa9936252c5558784bac9f",
+  "reason": "Correct two validation expectations, supplement overlay target geometry and actual page hover/focus coverage. No design source changes; initial 86 valid checks retained.",
+  "checks": [
+    {
+      "name": "1440_readable_font_corrected",
+      "pass": true,
+      "observed": 15
+    },
+    {
+      "name": "1440_hero_hover",
+      "pass": true
+    },
+    {
+      "name": "1440_hero_focus",
+      "pass": true
+    },
+    {
+      "name": "1440_cookie44",
+      "pass": true,
+      "observed": []
+    },
+    {
+      "name": "768_readable_font_corrected",
+      "pass": true,
+      "observed": 15
+    },
+    {
+      "name": "768_hero_hover",
+      "pass": true
+    },
+    {
+      "name": "768_hero_focus",
+      "pass": true
+    },
+    {
+      "name": "768_menu44",
+      "pass": true,
+      "observed": []
+    },
+    {
+      "name": "768_cookie44",
+      "pass": true,
+      "observed": []
+    },
+    {
+      "name": "390_readable_font_corrected",
+      "pass": true,
+      "observed": 15
+    },
+    {
+      "name": "390_hero_hover",
+      "pass": true
+    },
+    {
+      "name": "390_hero_focus",
+      "pass": true
+    },
+    {
+      "name": "390_menu44",
+      "pass": true,
+      "observed": []
+    },
+    {
+      "name": "390_cookie44",
+      "pass": true,
+      "observed": []
+    },
+    {
+      "name": "nojs_core_content_corrected",
+      "pass": true,
+      "observed": {
+        "modules": 11,
+        "links": 15
+      }
+    }
+  ],
+  "pass": true,
+  "completed_at": "2026-09-07T11:21:14.047Z"
+}

@@ -1,0 +1,44 @@
+{
+  "page_id": "APP-PLAS",
+  "workset_id": "APP-PLAS-G4-COMPLETE-20260907-02",
+  "predecessor_workset_id": "APP-PLAS-G4-COMPLETE-20260907-01",
+  "mode": "TARGETED_GATE4_EVIDENCE_AND_FREEZE_METADATA_REPAIR",
+  "finding_id": "APP-PLAS-G4-R01",
+  "source": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 43487,
+    "sha256": "fd61a0b74f81c094af4193dcd323cb6f4965321ff453039e0b7bd58c6891e6f9"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_INPUT_INDEX_V0.2.json",
+    "bytes": 13209,
+    "sha256": "4239e0ebfa90089ae1da9b041ab45ecee408af14fac5b8ac0069fbe6e2a11d9a"
+  },
+  "predecessor_freeze": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_FREEZE_RECORD_V0.1.json",
+    "bytes": 4603,
+    "sha256": "d685eaf70e4bf781924a19c11e28751e26b2c7c2805476eab9e195a2304faa89"
+  },
+  "predecessor_evidence_index": {
+    "path": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.1/APP-PLAS_GATE4_EVIDENCE_INDEX_V0.1.json",
+    "bytes": 53704,
+    "sha256": "5239d64dcf6db4ece3b8647c7247ca209688eec8443037e330293db002746ecd"
+  },
+  "evidence_index": "D:/23MySec/pages/applications/plastics/04_planning/gate4-v0.2/APP-PLAS_GATE4_EVIDENCE_INDEX_V0.2.json",
+  "allowed_write_scope": "D:/23MySec/pages/applications/plastics",
+  "immutable_visual_scope": {
+    "candidate_source_sha256": "fd61a0b74f81c094af4193dcd323cb6f4965321ff453039e0b7bd58c6891e6f9",
+    "evidence_image_count": 92,
+    "evidence_image_bytes_must_remain_exact": true
+  },
+  "correction_scope": [
+    "390 renderer viewport height",
+    "three Grade-path physical heights",
+    "physical_width/physical_height/dpr for 27 target-state images",
+    "dependent metadata identities"
+  ],
+  "freeze_id": "APP-PLAS-G4-FREEZE-20260907-02",
+  "independent_rereview_entry": "D:/23MySec/pages/applications/plastics/05_review/gate4-complete-independent-v0.2/REVIEW.md",
+  "status": "TARGETED_METADATA_REPAIR_FROZEN / DRAFT_FOR_PROJECT_CONTROL_REREVIEW",
+  "boundary": "Executor repair only; no independent review, Gate closure, Gate 6, development, deployment or publication."
+}

@@ -1,0 +1,109 @@
+{
+  "record_id": "APP-PLAS-G6-SELF-CHECK-01",
+  "date": "2026-09-08",
+  "dispatch_id": "G6-APP5-20260908-01/PLAS",
+  "page_id": "APP-PLAS",
+  "gate": 6,
+  "mode": "EXECUTE",
+  "actual_author": "/root/gate6_app_plastics",
+  "status": "AUTHOR_SELF_CHECK_COMPLETE_READY_FOR_INDEPENDENT_REVIEW",
+  "execution_path": "FAST_PATH",
+  "package": {
+    "path": "D:/23MySec/pages/applications/plastics/06_handoff/APP-PLAS_GATE6_HANDOFF_PACKAGE_V0.1.md",
+    "bytes": 27072,
+    "sha256": "30b1a564dd7cb4dc04e9f7feeb2a3d904403d4313bfa20319aee84ac514f9c0d"
+  },
+  "intake_identities": {
+    "current_manifest_v0_8": "f9c2a0121f202ee95eb654ab6a9b91ef2d5f285321401cc17140ec1e547fbc02",
+    "approved_A": "370cefbd64f9146aaa5146989fad25312f7eb6ec0051c4a445ece74650365128",
+    "approved_B": "8db6d6fa979831e1e5c5930bdfe3ec261bb74d252304658251a37932bbea4f92",
+    "approved_C": "646cc89f7c331d22c77d1d71abf2f605c44d1cd2eb4fd633f8a0f72ded5aa204",
+    "frozen_visual_source": "fd61a0b74f81c094af4193dcd323cb6f4965321ff453039e0b7bd58c6891e6f9",
+    "freeze_record": "945d56b58e3c0d12b9ece68701123d2a4ab840742f9477654487a09581120f1a",
+    "evidence_index": "23a93eb3bd8ff72b1b022087feb3fc2f991167e11c279836e703060332a52cf5",
+    "input_index": "4239e0ebfa90089ae1da9b041ab45ecee408af14fac5b8ac0069fbe6e2a11d9a",
+    "initial_independent_review": "77462b8743744fbe1a1386192264638398bd6b6aa7715fdce78887176a6074ca",
+    "targeted_independent_review": "88ff2c8d5a100060cb614e1ab8ea05821f44d7bb2bff92d924ecd9dd0c84b316",
+    "controller_closure": "55617cf17361e0b0cbe33f2de68914e6f882b00544aab2915e3d1a87c41d61d3"
+  },
+  "checks": [
+    {
+      "id": "SC-01",
+      "result": "PASS",
+      "observation": "All six Gate 5 to Gate 6 intake objects resolve to APP-PLAS-G4-FREEZE-20260907-02; the historical merged Gate 4 review and closure are accepted under the current equivalence rule."
+    },
+    {
+      "id": "SC-02",
+      "result": "PASS",
+      "observation": "Current Manifest, approved A/B/C, visual source, freeze/evidence/input indexes, both independent reports and Controller closure recompute to the recorded identities."
+    },
+    {
+      "id": "SC-03",
+      "result": "PASS",
+      "observation": "APP-PLAS-G4-R01 is closed; source and 92 evidence images were unchanged by the metadata repair; no post-closure content or key-dependency change or contradictory evidence was found, so FAST_PATH applies."
+    },
+    {
+      "id": "SC-04",
+      "result": "PASS",
+      "observation": "B V0.3 is the sole buyer-visible copy source, C V0.3 controls exact metadata, and all twelve modules PLAS-01 through PLAS-12 have explicit semantic mappings."
+    },
+    {
+      "id": "SC-05",
+      "result": "PASS",
+      "observation": "WordPress management meaning and Next.js observable results remain implementation-neutral; no post type, field, API, component, cache mechanism or HTTP behavior was invented."
+    },
+    {
+      "id": "SC-06",
+      "result": "PASS",
+      "observation": "All eight neutral Grade relationships remain exact and ordered; APP-PLAS versus APP-MB ownership, one/several/unknown paths, technical boundaries and thirteen sources are preserved."
+    },
+    {
+      "id": "SC-07",
+      "result": "PASS",
+      "observation": "CTA and owner routing cover in-page anchors, APP-MB, Products, eight Grade routes, Documents, Sample and RFQ with editable neutral context, receiver acknowledgement, failure and unavailable boundaries."
+    },
+    {
+      "id": "SC-08",
+      "result": "PASS",
+      "observation": "SEO, GEO, Schema, social and indexing rules preserve exact C V0.3 metadata, provisional canonical state, visible/machine parity, WebPage plus BreadcrumbList and prohibited relations."
+    },
+    {
+      "id": "SC-09",
+      "result": "PASS",
+      "observation": "Shared Chrome, CTA accessibility, production SVG Logo, Footer Legal, current Legal/Privacy and no_optional_analytics Consent authorities are consumed without page-local forks or false implementation claims."
+    },
+    {
+      "id": "SC-10",
+      "result": "PASS",
+      "observation": "The isolation table contains all seven required surfaces exactly once: query/data, route, cache, menu, SEO, form and media."
+    },
+    {
+      "id": "SC-11",
+      "result": "PASS",
+      "observation": "Eight dependency IDs APP-PLAS-G6-D01 through D08 are unique and each states current evidence, owner/acceptance, failure disposition and Gate 9 mapping."
+    },
+    {
+      "id": "SC-12",
+      "result": "PASS",
+      "observation": "Fourteen stable acceptance IDs APP-PLAS-G9-AC01 through AC14 are unique and each specifies inputs/results, actual evidence, explicit failure and owner."
+    },
+    {
+      "id": "SC-13",
+      "result": "PASS",
+      "observation": "The package stops at READY_FOR_REVIEW and does not modify the current Manifest, Status, Index, any other page or D16, nor claim independent PASS, closure, handoff, Gate 8 or release."
+    }
+  ],
+  "findings": [],
+  "unverified": [
+    "Any WordPress/CMS record, data retrieval or management UI",
+    "Any Next.js code, route, build or actual rendering",
+    "Actual internal and external route resolution",
+    "Documents, Sample and RFQ receiver behavior and real acknowledgement",
+    "Production SEO, GEO, Schema, social, robots, sitemap and indexing output",
+    "Production shared Chrome, Logo, Legal, Consent and analytics integration",
+    "Native 200 percent zoom, alternate browsers, screen readers and physical touch",
+    "All seven site-scope isolation surfaces against an actual implementation",
+    "External handoff, Gate 8, Gate 9, deployment, DNS, publication and indexing"
+  ],
+  "limitations": "Author self-check verifies file identities, structure and identifier coverage only. It does not establish independent semantic review, implementation behavior, Gate 6 closure, handoff or release readiness."
+}

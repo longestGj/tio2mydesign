@@ -1,0 +1,485 @@
+{
+  "index_id": "APP-000-G9-EVIDENCE-INDEX-01",
+  "page_id": "APP-000",
+  "gate": 9,
+  "review_mode": "INDEPENDENT_READ_ONLY",
+  "candidate": {
+    "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+    "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+    "build_id": "jf9b1VFzbgKGSQMVOMMbU"
+  },
+  "limitations": [
+    "Native browser 200% zoom not verified",
+    "Physical touch device not verified",
+    "Named screen reader/AT not verified",
+    "CMS evidence is the supplied local scoped simulation fixture, not production WordPress persistence"
+  ],
+  "artifacts": [
+    {
+      "id": "APP000-G9-EV-01",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/app000-runtime-response.html",
+      "sha256": "B82477A4F893CDB64E9EC07183065B6CEF3436BEBB751251F5CB6EF1E0451DA8",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-02",
+        "APP000-G9-03",
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-02",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/build-evidence-index.ps1",
+      "sha256": "CED27E402D2A021C034EA8FE6CB04998301E079C160B13A4A693C55B0A407DE6",
+      "evidence_type": "SOURCE_INSPECTION",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": "REPRODUCIBILITY"
+    },
+    {
+      "id": "APP000-G9-EV-03",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/collect-interactions.cjs",
+      "sha256": "6630FB6034A9C144F03FF51F82AA97F809A1B6D3E97E80237AF2E0A7E568F4C3",
+      "evidence_type": "SOURCE_INSPECTION",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-07",
+        "APP000-G9-08",
+        "APP000-G9-10"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-04",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/collect-projection-and-cms.cjs",
+      "sha256": "2192790FC8EEC23D2D2BA2FE9178FA9E94167A416796DC54E1AD7A87CFF79255",
+      "evidence_type": "LOCAL_SIMULATION",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "LOCAL_SIMULATION scoped CMS proxy",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-03",
+        "APP000-G9-07",
+        "APP000-G9-11",
+        "APP000-G9-13"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-05",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/collect-route-integration.cjs",
+      "sha256": "436D3580C3775A652933B677B474719477FA5BAB6BFD5457940BE123F42BD39F",
+      "evidence_type": "SOURCE_INSPECTION",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-03",
+        "APP000-G9-06",
+        "APP000-G9-08",
+        "APP000-G9-16",
+        "APP000-G9-17"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-06",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/collect-runtime-evidence.cjs",
+      "sha256": "52C6D8C061D3F76BA70E4A7158162E6AC3B5FE26A5D47EB6CDDB39E89F208094",
+      "evidence_type": "SOURCE_INSPECTION",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-02",
+        "APP000-G9-03",
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-07",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/desktop-1440.png",
+      "sha256": "B91E661C7BF3A887E2EDC636A8640DD33670E26D25FBE4C44ED47E53ADD831A5",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "1440px desktop emulation",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-08",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/independent-cms-observation.json",
+      "sha256": "655EA987D86EA43C1E63A84E80F29A17ED641ED76FB4FD95778A03DF9242A45E",
+      "evidence_type": "LOCAL_SIMULATION",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "LOCAL_SIMULATION scoped CMS proxy",
+      "proves": [
+        "APP000-G9-03",
+        "APP000-G9-04",
+        "APP000-G9-06",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-09",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/independent-interaction-observations.json",
+      "sha256": "CA46B755F8B7A74639B057BA76809C7ED3B17A47B27C42547A3E00DD1003E4B4",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-07",
+        "APP000-G9-08",
+        "APP000-G9-10"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-10",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/independent-public-projection-audit.json",
+      "sha256": "58578A7AD541B9F9364A2FBB66B12439CDA64A79BC739AB669C5911DC6D32D4D",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-03",
+        "APP000-G9-07",
+        "APP000-G9-11",
+        "APP000-G9-13"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-11",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/independent-route-integration.json",
+      "sha256": "2F6BEDA42C7D6AA9EEF9808EA78083E6CC1B83E3AAC4993F7C9E14A80A397ECE",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-03",
+        "APP000-G9-06",
+        "APP000-G9-08",
+        "APP000-G9-16",
+        "APP000-G9-17"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-12",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/independent-runtime-observations.json",
+      "sha256": "CDDF954496DA5A4EC2694E7FA3B58AD84C3280977214CC7AAA3736C270783079",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-02",
+        "APP000-G9-03",
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-13",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/manifest-validation.json",
+      "sha256": "BF9128888633B73DBD06FBEAFF89844A14DF34241C24D91B7FA5C8DE15363508",
+      "evidence_type": "TEST_RESULT",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-14",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/mobile-390-cookie.png",
+      "sha256": "E9BDBE90947165F0E37525C295705AF571719570FA6D9BA66FCC94CAA582CC35",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "390px mobile emulation",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-15",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/mobile-390-menu.png",
+      "sha256": "4513FABF12017CDF39B2983863998D66051570B0C5BC8CB9B904DA0336BD5682",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "390px mobile emulation",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-16",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/mobile-390.png",
+      "sha256": "AA104956A8EC9AB13AB7AD260BA2714E11A4724B2E1B00B92880C01D366DC04F",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "390px mobile emulation",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-17",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/preflight.json",
+      "sha256": "D79EC21BB583F3A5824349E1F17A232C24D8E921B3C76EA884D58E6452A16D3C",
+      "evidence_type": "TEST_RESULT",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-18",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/route-integration-error.txt",
+      "sha256": "4A7DB5048A103191E2AB6DE585C95AE20077CBA2F3CE452BF05296BB42C44E6B",
+      "evidence_type": "COLLECTION_DIAGNOSTIC",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": [
+        "APP000-G9-03",
+        "APP000-G9-06",
+        "APP000-G9-08",
+        "APP000-G9-16",
+        "APP000-G9-17"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-19",
+      "path": "pages/applications/07_qa/APP-000_GATE9_EVIDENCE_V1.0/tablet-768.png",
+      "sha256": "B917E0ACC00A1777F46013C2C3CFD1ED600874A6C5BFC897F5415BA44E2598E5",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "768px tablet emulation",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10"
+      ]
+    },
+    {
+      "id": "APP000-G9-EV-20",
+      "path": "pages/applications/07_qa/APP-000_GATE9_INDEPENDENT_READ_ONLY_ACCEPTANCE_V1.0.md",
+      "sha256": "2A5E32F45CC1B94370149B6CB6B9A6F59F076645160D36616C3EA4271F02CE33",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "collected_by": "/root/app000_gate9_review",
+      "collected_date": "2026-09-08",
+      "personally_collected_or_read": true,
+      "candidate": {
+        "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+        "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+        "runtime": "http://127.0.0.1:4391",
+        "cms_fixture": "http://127.0.0.1:4390/graphql"
+      },
+      "environment_or_state": "exact held local candidate",
+      "proves": "REPRODUCIBILITY"
+    }
+  ]
+}

@@ -1,0 +1,2059 @@
+{
+  "pageId": "APP-000",
+  "dispatchId": "APP-000-G5-INDEPENDENT-REVIEW-DISPATCH-01",
+  "reviewer": "/root/app000_gate5_review",
+  "mode": "INDEPENDENT_REVIEW",
+  "reviewScope": "INITIAL",
+  "createdAt": "2026-09-08T07:44:50.200Z",
+  "renderer": "151.0.7922.34",
+  "source": {
+    "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/index.html",
+    "sha256": "ea8b5cb0ad39226c9c392103379a09db5ad7d7a96e725336dc55348ea05230e4"
+  },
+  "checks": [
+    {
+      "id": "source-identity",
+      "pass": true,
+      "evidenceType": "SOURCE_INSPECTION",
+      "detail": {
+        "path": "D:/23MySec/pages/applications/04_planning/gate4-v1.0/index.html",
+        "sha256": "ea8b5cb0ad39226c9c392103379a09db5ad7d7a96e725336dc55348ea05230e4"
+      }
+    },
+    {
+      "id": "full-1440-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 1440,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "full-1440-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PLAS",
+            "href": "/applications/titanium-dioxide-for-plastics/",
+            "text": "Explore Plastics"
+          },
+          {
+            "owner": "APP-MB",
+            "href": "/applications/titanium-dioxide-for-masterbatch/",
+            "text": "Explore Masterbatch"
+          },
+          {
+            "owner": "APP-INK",
+            "href": "/applications/titanium-dioxide-for-printing-inks/",
+            "text": "Explore Printing Inks"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 30,
+        "plainGrades": 0,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "full-1440-responsive-presentation",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "detailsOpen": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "headingSizes": [
+          {
+            "tag": "H1",
+            "size": "61.2px",
+            "line": "62.424px"
+          },
+          {
+            "tag": "H2",
+            "size": "36px",
+            "line": "41.04px"
+          },
+          {
+            "tag": "H3",
+            "size": "23px",
+            "line": "26.22px"
+          }
+        ],
+        "finalFooter": {
+          "m5Bottom": 3236.0625,
+          "footerTop": 3300.0625,
+          "gap": 64
+        }
+      }
+    },
+    {
+      "id": "full-768-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 768,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "full-768-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PLAS",
+            "href": "/applications/titanium-dioxide-for-plastics/",
+            "text": "Explore Plastics"
+          },
+          {
+            "owner": "APP-MB",
+            "href": "/applications/titanium-dioxide-for-masterbatch/",
+            "text": "Explore Masterbatch"
+          },
+          {
+            "owner": "APP-INK",
+            "href": "/applications/titanium-dioxide-for-printing-inks/",
+            "text": "Explore Printing Inks"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 30,
+        "plainGrades": 0,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "full-768-responsive-presentation",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "detailsOpen": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "headingSizes": [
+          {
+            "tag": "H1",
+            "size": "48px",
+            "line": "48.96px"
+          },
+          {
+            "tag": "H2",
+            "size": "32px",
+            "line": "36.48px"
+          },
+          {
+            "tag": "H3",
+            "size": "22px",
+            "line": "25.08px"
+          }
+        ],
+        "finalFooter": {
+          "m5Bottom": 4488.265625,
+          "footerTop": 4552.265625,
+          "gap": 64
+        }
+      }
+    },
+    {
+      "id": "full-390-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 390,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "full-390-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PLAS",
+            "href": "/applications/titanium-dioxide-for-plastics/",
+            "text": "Explore Plastics"
+          },
+          {
+            "owner": "APP-MB",
+            "href": "/applications/titanium-dioxide-for-masterbatch/",
+            "text": "Explore Masterbatch"
+          },
+          {
+            "owner": "APP-INK",
+            "href": "/applications/titanium-dioxide-for-printing-inks/",
+            "text": "Explore Printing Inks"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 30,
+        "plainGrades": 0,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "full-390-responsive-presentation",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "detailsOpen": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "headingSizes": [
+          {
+            "tag": "H1",
+            "size": "38px",
+            "line": "38.76px"
+          },
+          {
+            "tag": "H2",
+            "size": "29px",
+            "line": "33.06px"
+          },
+          {
+            "tag": "H3",
+            "size": "22px",
+            "line": "25.08px"
+          }
+        ],
+        "finalFooter": {
+          "m5Bottom": 4971.03125,
+          "footerTop": 5017.03125,
+          "gap": 46
+        }
+      }
+    },
+    {
+      "id": "mixed-1440-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 1440,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "mixed-1440-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 10,
+        "plainGrades": 20,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          }
+        ],
+        "rfqs": [],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "mixed-1440-linked-plain-distinction",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "linked": {
+          "color": "rgb(0, 127, 119)",
+          "bg": "rgb(243, 251, 250)",
+          "dec": "underline",
+          "tag": "A"
+        },
+        "plain": {
+          "color": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "dec": "none",
+          "tag": "SPAN",
+          "tabindex": null,
+          "href": null
+        }
+      }
+    },
+    {
+      "id": "mixed-768-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 768,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "mixed-768-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 10,
+        "plainGrades": 20,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          }
+        ],
+        "rfqs": [],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "mixed-768-linked-plain-distinction",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "linked": {
+          "color": "rgb(0, 127, 119)",
+          "bg": "rgb(243, 251, 250)",
+          "dec": "underline",
+          "tag": "A"
+        },
+        "plain": {
+          "color": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "dec": "none",
+          "tag": "SPAN",
+          "tabindex": null,
+          "href": null
+        }
+      }
+    },
+    {
+      "id": "mixed-390-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 390,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "mixed-390-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 10,
+        "plainGrades": 20,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          }
+        ],
+        "rfqs": [],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "mixed-390-linked-plain-distinction",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "linked": {
+          "color": "rgb(0, 127, 119)",
+          "bg": "rgb(243, 251, 250)",
+          "dec": "underline",
+          "tag": "A"
+        },
+        "plain": {
+          "color": "rgb(51, 65, 85)",
+          "bg": "rgb(255, 255, 255)",
+          "dec": "none",
+          "tag": "SPAN",
+          "tabindex": null,
+          "href": null
+        }
+      }
+    },
+    {
+      "id": "constrained-1440-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 1440,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "constrained-1440-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [],
+        "gradeLinks": 0,
+        "plainGrades": 30,
+        "supports": [],
+        "rfqs": [],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "constrained-768-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 768,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "constrained-768-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [],
+        "gradeLinks": 0,
+        "plainGrades": 30,
+        "supports": [],
+        "rfqs": [],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "constrained-390-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 390,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "constrained-390-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [],
+        "gradeLinks": 0,
+        "plainGrades": 30,
+        "supports": [],
+        "rfqs": [],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "grades-only-1440-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 1440,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "grades-only-1440-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [],
+        "gradeLinks": 30,
+        "plainGrades": 0,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "grades-only-768-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 768,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "grades-only-768-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [],
+        "gradeLinks": 30,
+        "plainGrades": 0,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "grades-only-390-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 390,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "grades-only-390-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [],
+        "gradeLinks": 30,
+        "plainGrades": 0,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "apps-only-1440-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 1440,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "apps-only-1440-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PLAS",
+            "href": "/applications/titanium-dioxide-for-plastics/",
+            "text": "Explore Plastics"
+          },
+          {
+            "owner": "APP-MB",
+            "href": "/applications/titanium-dioxide-for-masterbatch/",
+            "text": "Explore Masterbatch"
+          },
+          {
+            "owner": "APP-INK",
+            "href": "/applications/titanium-dioxide-for-printing-inks/",
+            "text": "Explore Printing Inks"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 0,
+        "plainGrades": 30,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "apps-only-768-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 768,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "apps-only-768-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PLAS",
+            "href": "/applications/titanium-dioxide-for-plastics/",
+            "text": "Explore Plastics"
+          },
+          {
+            "owner": "APP-MB",
+            "href": "/applications/titanium-dioxide-for-masterbatch/",
+            "text": "Explore Masterbatch"
+          },
+          {
+            "owner": "APP-INK",
+            "href": "/applications/titanium-dioxide-for-printing-inks/",
+            "text": "Explore Printing Inks"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 0,
+        "plainGrades": 30,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "apps-only-390-complete-layout",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 390,
+        "overflow": [],
+        "clipped": [],
+        "smallControls": []
+      }
+    },
+    {
+      "id": "apps-only-390-content-and-conditional-state",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "h1": 1,
+        "groups": [
+          [
+            "Coatings",
+            8
+          ],
+          [
+            "Plastics",
+            8
+          ],
+          [
+            "Masterbatch",
+            7
+          ],
+          [
+            "Printing Inks",
+            4
+          ],
+          [
+            "Paper",
+            2
+          ],
+          [
+            "Specialty Materials",
+            1
+          ]
+        ],
+        "appCtas": [
+          {
+            "owner": "APP-COAT",
+            "href": "/applications/titanium-dioxide-for-coatings/",
+            "text": "Explore Coatings"
+          },
+          {
+            "owner": "APP-PLAS",
+            "href": "/applications/titanium-dioxide-for-plastics/",
+            "text": "Explore Plastics"
+          },
+          {
+            "owner": "APP-MB",
+            "href": "/applications/titanium-dioxide-for-masterbatch/",
+            "text": "Explore Masterbatch"
+          },
+          {
+            "owner": "APP-INK",
+            "href": "/applications/titanium-dioxide-for-printing-inks/",
+            "text": "Explore Printing Inks"
+          },
+          {
+            "owner": "APP-PAPER",
+            "href": "/applications/titanium-dioxide-for-paper/",
+            "text": "Explore Paper"
+          }
+        ],
+        "gradeLinks": 0,
+        "plainGrades": 30,
+        "supports": [
+          {
+            "owner": "PRODUCT-000",
+            "href": "/products/",
+            "text": "Explore Products"
+          },
+          {
+            "owner": "DOC-000",
+            "href": "/documents/",
+            "text": "Review Documents"
+          },
+          {
+            "owner": "MARKET-000",
+            "href": "/markets/",
+            "text": "Explore Markets"
+          }
+        ],
+        "rfqs": [
+          "/request-a-quote/",
+          "/request-a-quote/"
+        ],
+        "localAnchors": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "current": [
+          "Applications",
+          "Applications"
+        ],
+        "footerCurrent": 0,
+        "schemaPass": true,
+        "metadataPass": true,
+        "emptyShells": 0,
+        "internalLeak": false
+      }
+    },
+    {
+      "id": "anchor-1440-application-coatings",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-coatings",
+        "headingTop": 54,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-1440-application-plastics",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-plastics",
+        "headingTop": 55,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-1440-application-masterbatch",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-masterbatch",
+        "headingTop": 55,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-1440-application-printing-inks",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-printing-inks",
+        "headingTop": 54.96875,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-1440-application-paper",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-paper",
+        "headingTop": 54.96875,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-1440-application-specialty-materials",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-specialty-materials",
+        "headingTop": 54.96875,
+        "open": true
+      }
+    },
+    {
+      "id": "disclosure-keyboard-1440",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "initiallyOpen": true,
+        "open": false,
+        "focus": "Explore Coatings",
+        "tag": "A",
+        "aria": "application-coatings-summary application-coatings-title"
+      }
+    },
+    {
+      "id": "cookie-dialog-1440",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "cookieOpen": {
+          "open": true,
+          "focus": "Close"
+        },
+        "cookieLast": true,
+        "cookieLoop": true,
+        "cookieReturn": true
+      }
+    },
+    {
+      "id": "anchor-768-application-coatings",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-coatings",
+        "headingTop": 52.125,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-768-application-plastics",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-plastics",
+        "headingTop": 53.125,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-768-application-masterbatch",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-masterbatch",
+        "headingTop": 53.125,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-768-application-printing-inks",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-printing-inks",
+        "headingTop": 53.125,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-768-application-paper",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-paper",
+        "headingTop": 53.125,
+        "open": true
+      }
+    },
+    {
+      "id": "anchor-768-application-specialty-materials",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-specialty-materials",
+        "headingTop": 53.125,
+        "open": true
+      }
+    },
+    {
+      "id": "disclosure-keyboard-768",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "initiallyOpen": true,
+        "open": false,
+        "focus": "Explore Coatings",
+        "tag": "A",
+        "aria": "application-coatings-summary application-coatings-title"
+      }
+    },
+    {
+      "id": "mobile-menu-768",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "open": {
+          "focus": "Home",
+          "expanded": "true",
+          "hidden": false,
+          "mainInert": true,
+          "footerInert": true,
+          "bodyOverflow": "hidden"
+        },
+        "loopForward": true,
+        "loopBack": true,
+        "close": {
+          "expanded": "false",
+          "hidden": true,
+          "mainInert": false,
+          "footerInert": false,
+          "bodyOverflow": "",
+          "focus": "menuButton"
+        }
+      }
+    },
+    {
+      "id": "cookie-dialog-768",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "cookieOpen": {
+          "open": true,
+          "focus": "Close"
+        },
+        "cookieLast": true,
+        "cookieLoop": true,
+        "cookieReturn": true
+      }
+    },
+    {
+      "id": "anchor-390-application-coatings",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-coatings",
+        "headingTop": 48.21875,
+        "open": false
+      }
+    },
+    {
+      "id": "anchor-390-application-plastics",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-plastics",
+        "headingTop": 48.59375,
+        "open": false
+      }
+    },
+    {
+      "id": "anchor-390-application-masterbatch",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-masterbatch",
+        "headingTop": 49.21875,
+        "open": false
+      }
+    },
+    {
+      "id": "anchor-390-application-printing-inks",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-printing-inks",
+        "headingTop": 49.09375,
+        "open": false
+      }
+    },
+    {
+      "id": "anchor-390-application-paper",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-paper",
+        "headingTop": 49.46875,
+        "open": false
+      }
+    },
+    {
+      "id": "anchor-390-application-specialty-materials",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "hash": "#application-specialty-materials",
+        "headingTop": 48.84375,
+        "open": false
+      }
+    },
+    {
+      "id": "disclosure-keyboard-390",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "initiallyOpen": false,
+        "open": true,
+        "focus": "M-350",
+        "tag": "A",
+        "aria": "application-coatings-summary application-coatings-title"
+      }
+    },
+    {
+      "id": "mobile-menu-390",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "open": {
+          "focus": "Home",
+          "expanded": "true",
+          "hidden": false,
+          "mainInert": true,
+          "footerInert": true,
+          "bodyOverflow": "hidden"
+        },
+        "loopForward": true,
+        "loopBack": true,
+        "close": {
+          "expanded": "false",
+          "hidden": true,
+          "mainInert": false,
+          "footerInert": false,
+          "bodyOverflow": "",
+          "focus": "menuButton"
+        }
+      }
+    },
+    {
+      "id": "cookie-dialog-390",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "cookieOpen": {
+          "open": true,
+          "focus": "Close"
+        },
+        "cookieLast": true,
+        "cookieLoop": true,
+        "cookieReturn": true
+      }
+    },
+    {
+      "id": "no-js-1440",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "open": true,
+        "grades": 30,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "id": "no-js-768",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "open": true,
+        "grades": 30,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "id": "no-js-390",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "open": true,
+        "grades": 30,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "font-enlargement-200-1440",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 1440,
+        "overflow": []
+      }
+    },
+    {
+      "id": "font-enlargement-200-768",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 768,
+        "overflow": []
+      }
+    },
+    {
+      "id": "font-enlargement-200-390",
+      "pass": true,
+      "evidenceType": "ACTUAL_RUNTIME",
+      "detail": {
+        "scrollWidth": 390,
+        "overflow": []
+      }
+    },
+    {
+      "id": "declared-color-contrast",
+      "pass": true,
+      "evidenceType": "SOURCE_INSPECTION",
+      "detail": {
+        "tealOnWhite": 4.881302249384679,
+        "tealOnPale": 4.646589456924175,
+        "navyOnWhite": 13.959419428188236,
+        "whiteOnTeal": 4.817749371824569,
+        "darkOnBrightTeal": 5.8621601446375395,
+        "footerMutedOnDeep": 12.818823354682511
+      }
+    }
+  ],
+  "failures": [],
+  "status": "PASS",
+  "persistentScreenshotsAdded": 0,
+  "note": "Bounded independent runtime record. No business request was submitted and no production route was contacted."
+}

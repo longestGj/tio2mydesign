@@ -1,0 +1,96 @@
+{
+  "mode": "SELF_CHECK / CAPTURE_CHECK",
+  "executor": "/root/gate4_eu_trade_execute",
+  "checkedAt": "2026-09-07T10:56:15.410Z",
+  "source": {
+    "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/RES-TRADE-EU_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 23968,
+    "sha256": "c525751ddb4002493a4d5303fb1f5930ed69e0ff489f224e26765a7cced29bbf"
+  },
+  "allFormalAssetsActuallyOpened": [
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-EU_G4_1440-full.png",
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-EU_G4_1440-cookie.png",
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-EU_G4_768-full.png",
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-EU_G4_768-menu.png",
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-EU_G4_768-cookie.png",
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-EU_G4_390-full.png",
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-EU_G4_390-menu.png",
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-EU_G4_390-cookie.png"
+  ],
+  "fullPageReadableRanges": [
+    {
+      "width": 1440,
+      "ranges": [
+        [
+          0,
+          1800
+        ],
+        [
+          1600,
+          3405
+        ],
+        [
+          3300,
+          5103
+        ]
+      ]
+    },
+    {
+      "width": 768,
+      "ranges": [
+        [
+          0,
+          1900
+        ],
+        [
+          1800,
+          3700
+        ],
+        [
+          3600,
+          5500
+        ],
+        [
+          5200,
+          5916
+        ]
+      ]
+    },
+    {
+      "width": 390,
+      "ranges": [
+        [
+          0,
+          1500
+        ],
+        [
+          1400,
+          2900
+        ],
+        [
+          2850,
+          4350
+        ],
+        [
+          4250,
+          5750
+        ],
+        [
+          5650,
+          7150
+        ],
+        [
+          7050,
+          7707
+        ]
+      ]
+    }
+  ],
+  "method": "Saved formal PNGs decoded and opened at readable native-width regions in memory; no persisted crop assets. Five saved state PNGs opened directly.",
+  "result": "CAPTURE_CHECK_COMPLETE",
+  "observation": "Fonts, logos, viewport/DPR, table, all module connections and Footer match INITIAL. Menu and Cookie states are correctly open, viewport-sized and complete. No capture anomaly, unexpected hover or focus. No content/behavior/geometry rerun.",
+  "machineChecks": 62,
+  "identityMismatches": 0,
+  "dimensionMismatches": 0,
+  "findings": []
+}

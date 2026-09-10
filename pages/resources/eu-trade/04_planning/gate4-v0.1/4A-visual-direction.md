@@ -1,0 +1,13 @@
+# RES-TRADE-EU Gate 4A visual direction V0.1
+
+Workset `RES-TRADE-EU-G4-WS-01`. Executor `/root/gate4_eu_trade_execute`. Date 2026-09-07. `VISUAL_DIRECTION_CHECKED` — internal direction decision, not independent review or Gate closure.
+
+The reader needs to distinguish an existing measure from a pending procedure, read a producer / fixed duty / additional-code tuple without losing its legal conditions, then prepare information for the appropriate owner. Retain the six-section editorial column and semantic three-column table approved in Gate 3. No new media, data result, selector, calculator or field is needed.
+
+Brand mapping: Primary Navy `#062B5B` headings and table header; white header text; Body `#334155`; white page and `#F5F8FB` alternate rows / tax-list surfaces; `#D9E2EC` separators; functional `#008078` for links, buttons, light-surface borders and focus. Decorative `#00A99D` appears only as the thin Hero rule. Inter remains the sole font. Main outer width 1200 and editorial width 960; gutters 40/32/20. H1 56/44/34; H2 36/32/28; body 17/17/16; table 16/16/14. Line height 1.65 for prose and 1.55 for table. Buttons use 6px corners and natural height; no fixed text clipping.
+
+Shared Header / Footer / Menu / Cookie markup, styling and behavior are inherited byte-for-byte from the approved Gate 3 planning source consuming Shared Consumer V0.2. Resources is current and RFQ is permanent. Production SVGs retain the owner paths and bytes. This page's CSS is scoped to `main`, apart from its unchanged base font/box-sizing setup. No business-page template is used.
+
+Representative highest-risk sample: `diagnostic_support/4A-390-table-predicates.png`, 390 logical px @1x, captured from source SHA `c525751ddb4002493a4d5303fb1f5930ed69e0ff489f224e26765a7cced29bbf`. Actually opened at readable scale. All four fixed tuples, the specific-entity limitation, entity/code/invoice conjunction, further customs checks and Article 2/254 narrow scope are visible and adjacent. Natural wrapping retains the columns; no number is detached from its row. The sample includes the next section transition. Stored because this is the unique dense relationship risk requiring direction proof; it does not substitute for the complete three-width check.
+
+Judgment: the restrained technical editorial direction supports the approved buyer task and is ready to expand across all instances and states. No unresolved direction conflict. The full-page method receives this checked direction with the approved brand, B copy, Gate 3 structure and shared contracts. Later legal refresh remains a dependency, not a Gate 4 legal verification.

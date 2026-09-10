@@ -1,0 +1,109 @@
+{
+  "record_id": "RES-TRADE-EU-G6-SELF-CHECK-01",
+  "date": "2026-09-08",
+  "dispatch_id": "G6-TRADE4-20260908-01/EU",
+  "page_id": "RES-TRADE-EU",
+  "gate": 6,
+  "mode": "EXECUTE",
+  "actual_author": "/root/gate6_trade_eu",
+  "status": "AUTHOR_SELF_CHECK_COMPLETE_READY_FOR_INDEPENDENT_REVIEW",
+  "execution_path": "FAST_PATH",
+  "package": {
+    "path": "D:/23MySec/pages/resources/eu-trade/06_handoff/RES-TRADE-EU_GATE6_HANDOFF_PACKAGE_V0.1.md",
+    "bytes": 31782,
+    "sha256": "bb1b44d42fa32232965e62e3255cde05518f2570224b827a1cf68c7b4fd021ad"
+  },
+  "intake_identities": {
+    "current_manifest_v0_6": "0a10c64429db6fc66d736b7d846a2560d0e0bcaf2544b8fc8efc3d06eba8ea56",
+    "previous_manifest_v0_5": "cf52f4683718314455aa3be29263ba9018bdcdd8b3a350fbf658e9bcd5732d03",
+    "approved_A": "daebb10e9d26fcf622bcec6cb5fbad832279653d72dc0bc4c011ce9b0789dfa3",
+    "approved_B": "9e119c657d6eed9346ef132e0c2039a5c99327fb9087a273df689b8a2d8a8cb1",
+    "approved_C": "64e46520ab226c1ec3eb16fa49a60804b8c45df16b545a7400198a90da77e49f",
+    "frozen_visual_source": "c525751ddb4002493a4d5303fb1f5930ed69e0ff489f224e26765a7cced29bbf",
+    "freeze_record": "e76efc91f0ad85329f4d8c74f655eac6b183ef917847207dba5bc30fa6c9a8c8",
+    "evidence_index": "bec4f8c97244908c5ab2248692eeb45a7ae398f14ba0c8a16d637e7ab4a3855f",
+    "input_index": "1d2e30b91bb561cd3499a127a91a6ad640e4e11dafd2a0b5456b6fb85685f7eb",
+    "gate5_report": "fb10674c5d935a9009826dd44c98d907f23982982471c7118b55598cc3a7bfc8",
+    "controller_closure": "14fb2b51bf8c8dd0274a5bad872d1be2e35eac3f66725805effd5129da1370ed"
+  },
+  "checks": [
+    {
+      "id": "SC-01",
+      "result": "PASS",
+      "observation": "The six Gate 5 to Gate 6 intake objects resolve to the same accepted freeze; current dispatch supplies the previously absent Gate 6 start authority."
+    },
+    {
+      "id": "SC-02",
+      "result": "PASS",
+      "observation": "Approved A, B and C, frozen source, freeze/evidence/input indexes, Gate 5 report and Controller closure match their accepted SHA-256 identities."
+    },
+    {
+      "id": "SC-03",
+      "result": "PASS",
+      "observation": "No source, key dependency, unresolved upstream Finding or contradictory evidence trigger was found; FAST_PATH is applicable and no visual rerender or full interaction rerun was performed."
+    },
+    {
+      "id": "SC-04",
+      "result": "PASS",
+      "observation": "The package identifies B V0.2 as the sole editable body source and maps all six modules, the semantic duty table, seven assessment inputs, three tax categories, actions and source/date block."
+    },
+    {
+      "id": "SC-05",
+      "result": "PASS",
+      "observation": "WordPress management meaning and Next.js observable output are implementation-neutral; no post type, API field, component path, cache implementation or HTTP status was guessed."
+    },
+    {
+      "id": "SC-06",
+      "result": "PASS",
+      "observation": "SEO, GEO, Schema and social requirements preserve visible/machine parity, exact C title/meta/canonical direction, WebPage plus BreadcrumbList, prohibited machine claims and indexing boundary."
+    },
+    {
+      "id": "SC-07",
+      "result": "PASS",
+      "observation": "Legal freshness retains the 7 September 2026 public date, 7 October 2026 maximum scheduled recheck, two-business-day event rule and publication-window official check without claiming a new current conclusion."
+    },
+    {
+      "id": "SC-08",
+      "result": "PASS",
+      "observation": "Global Chrome, production Logo, Footer legal, no-Terms and current no-optional-analytics consent ownership are referenced without creating page-local forks or closing owner release controls."
+    },
+    {
+      "id": "SC-09",
+      "result": "PASS",
+      "observation": "All seven isolation surfaces are present exactly once in the isolation table: query/data, route, cache, menu, SEO, form and media."
+    },
+    {
+      "id": "SC-10",
+      "result": "PASS",
+      "observation": "Eight dependency IDs RES-TRADE-EU-G6-D01 through D08 are unique and each has an owner, current evidence, failure disposition and Gate 9 mapping."
+    },
+    {
+      "id": "SC-11",
+      "result": "PASS",
+      "observation": "Fourteen acceptance IDs RES-TRADE-EU-G9-AC01 through AC14 are unique as definitions; every condition states input/precondition, expected visible/machine result, actual evidence requirement, explicit failure and owner."
+    },
+    {
+      "id": "SC-12",
+      "result": "PASS",
+      "observation": "All project-relative file references resolve after this self-check file was saved; no references target D:/16Wordpress_nextjs."
+    },
+    {
+      "id": "SC-13",
+      "result": "PASS",
+      "observation": "The package declares READY_FOR_REVIEW and pending independent review; it does not create or edit a current Manifest, Status, Index, another page, an independent PASS, Gate 6 closure, external handoff or publication state."
+    }
+  ],
+  "findings": [],
+  "unverified": [
+    "Post-7-September official event status and publication-window legal freshness",
+    "Any WordPress or Next.js implementation and its exact CMS/data mapping",
+    "Public internal and official-link routing at the future implementation identity",
+    "RFQ receiver positive acknowledgement, failure/retry and real receipt",
+    "Production SEO, GEO, Schema, social, robots, sitemap and indexing output",
+    "Production shared Header/Footer/Logo/Legal/Consent integration and persistence",
+    "Native 200 percent zoom, alternate engines, screen readers and physical touch",
+    "All seven site-scope isolation surfaces against an actual implementation",
+    "Deployment, publication, DNS and indexing authorization or execution"
+  ],
+  "limitations": "This is an author self-check. File identity and identifier checks do not establish semantic correctness, current legal status, implementation behavior, independent review, Gate 6 closure or release readiness."
+}

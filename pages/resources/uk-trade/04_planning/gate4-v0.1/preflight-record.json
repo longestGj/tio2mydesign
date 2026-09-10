@@ -1,0 +1,90 @@
+{
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "workset_id": "RES-TRADE-UK-G4-WORKSET-01",
+  "source": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/RES-TRADE-UK_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 29548,
+    "sha256": "9ca15ee7ef19e0949b6bb383bfda20fb9ad2fce50e816ee508786f4958a457ee"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/input-index.json",
+    "bytes": 15007,
+    "sha256": "67b06a4c70ae4e7a61b8492daaf95ccc3f95d7cbfa8ff5201349e27c4d27ea07"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    }
+  ],
+  "runtime": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/diagnostic_support/runtime.json",
+    "bytes": 37327,
+    "sha256": "b52a511f62a3067949693f20829be281f0e57468af1f34733f112783d1e3c12e"
+  },
+  "design_report": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/design-report.md",
+    "bytes": 6260,
+    "sha256": "db2de63277c9ac0bc1d464e25eace733102b62158198cd1610a79f140f0665ba"
+  },
+  "visual_readback": {
+    "status": "COMPLETE",
+    "author": "/root/gate4_uk_trade_execute",
+    "readable_in_memory_windows": {
+      "390": 13,
+      "768": 9,
+      "1440": 8
+    },
+    "key_states": 5,
+    "findings": []
+  },
+  "render_conditions": {
+    "browser": "152.0.7977.82",
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        768,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "device_scale_factor": 1,
+    "fonts": "Inter loaded",
+    "default_state": "Menu and Cookie closed; no hover or focus",
+    "state_capture": "viewport only"
+  },
+  "time": "2026-09-07T11:01:55.000Z",
+  "record_only_sync": {
+    "historical_preflight": {
+      "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/diagnostic_support/preflight-before-handoff-sync.json",
+      "bytes": 2530,
+      "sha256": "7c8c52cbef20e9c2d68200a024a02874ae00821882a155378881685d6e5045cc"
+    },
+    "reason": "Concurrent approved governance change adds Gate4-to-Gate5 interface fields and existing lifecycle mapping; no visual or business requirement changed.",
+    "source_lock_time": "2026-09-07T11:01:55.000Z",
+    "source_unchanged": true,
+    "formal_pngs_unchanged": true
+  }
+}

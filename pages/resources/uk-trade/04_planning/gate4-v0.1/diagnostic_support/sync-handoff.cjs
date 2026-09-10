@@ -1,0 +1,15 @@
+const fs=require('fs'),c=require('crypto'),d='D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1';
+const id=p=>({path:p,bytes:fs.statSync(p).size,sha256:c.createHash('sha256').update(fs.readFileSync(p)).digest('hex')});
+const save=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+for(const n of ['input-index','preflight-record']) {const out=d+'/diagnostic_support/'+(n==='input-index'?'input-index':'preflight')+'-before-handoff-sync.json';if(fs.existsSync(out))throw Error('Preserved snapshot exists; do not repeat');fs.copyFileSync(d+'/'+n+'.json',out);}
+const input=JSON.parse(fs.readFileSync(d+'/input-index.json')),pre=JSON.parse(fs.readFileSync(d+'/preflight-record.json'));
+const changed=['D:/23MySec/AGENTS.md','D:/23MySec/agents/gate4-complete-visual/agent.md'];
+const before=input.authorities.filter(x=>changed.includes(x.path));
+input.authorities=input.authorities.map(x=>changed.includes(x.path)?id(x.path):x);
+for(const p of ['D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.8.md','D:/23MySec/docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md','D:/23MySec/docs/architecture/GATE4_REMAINING_EIGHT_EXECUTION_CONTROL_V1.0.md'])input.authorities.push(id(p));
+input.governance_sync={date:'2026-09-07',scope:'Record-only handoff interface alignment read in full before freeze',original_identities:before,original_baseline:'V1.7',current_baseline:'V1.8',current_agent:'V1.4',shared_handoff_contract:'V1.0',historical_input_index:id(d+'/diagnostic_support/input-index-before-handoff-sync.json'),historical_preflight:id(d+'/diagnostic_support/preflight-before-handoff-sync.json'),source_and_render_dependencies_changed:false,methods_changed:false,rerender_required:false,reason:'Concurrent approved governance change adds Gate4-to-Gate5 interface fields and existing lifecycle mapping; no visual or business requirement changed.'};
+save(d+'/input-index.json',input);
+fs.appendFileSync(d+'/design-report.md','\n## Pre-freeze handoff interface synchronization\n\nBefore final submission, the approved concurrent governance update was read in full: current root AGENTS, Gate4 Agent V1.4, baseline V1.8 and Gate4/Gate5 shared handoff contract V1.0. Only handoff metadata and input bindings changed. Original preflight/input identities remain preserved in diagnostic_support; source, runtime evidence, methods, dependencies and all PNGs are unchanged. The final handoff now supplies source/start/readback/ownership fields; the controller supplies independent review dispatch and reviewer identity. No new independent review or Gate closure occurred.\n');
+pre.record_only_sync={historical_preflight:id(d+'/diagnostic_support/preflight-before-handoff-sync.json'),reason:input.governance_sync.reason,source_lock_time:pre.time,source_unchanged:true,formal_pngs_unchanged:true};
+pre.input_index=id(d+'/input-index.json');pre.design_report=id(d+'/design-report.md');save(d+'/preflight-record.json',pre);
+console.log(JSON.stringify({input:id(d+'/input-index.json'),preflight:id(d+'/preflight-record.json'),source:pre.source},null,2));

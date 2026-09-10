@@ -1,0 +1,107 @@
+{
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "executor": "/root/gate4_eu_trade_execute",
+  "checkedAt": "2026-09-07T10:54:19.838Z",
+  "source": {
+    "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/RES-TRADE-EU_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 23968,
+    "sha256": "c525751ddb4002493a4d5303fb1f5930ed69e0ff489f224e26765a7cced29bbf"
+  },
+  "runtime": {
+    "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/diagnostic_support/initial-runtime.json",
+    "bytes": 34385,
+    "sha256": "66e4835b694d81a0bf4e5d0d841094f1a3ddbc7161eb0d8e30ac9359a87cb2fc"
+  },
+  "direction": {
+    "path": "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/4A-visual-direction.md",
+    "bytes": 2636,
+    "sha256": "2bbb4b61eef21ad8181365986a705c8c2726b07de8bd99930406d4da0f1ea17f"
+  },
+  "visualObservation": {
+    "method": "Transient native-width browser region viewing; no persistent segmented PNGs",
+    "coverage": [
+      {
+        "width": 1440,
+        "ranges": [
+          [
+            0,
+            1800
+          ],
+          [
+            1600,
+            3405
+          ],
+          [
+            3300,
+            5103
+          ]
+        ]
+      },
+      {
+        "width": 768,
+        "ranges": [
+          [
+            0,
+            1900
+          ],
+          [
+            1800,
+            3700
+          ],
+          [
+            3600,
+            5500
+          ],
+          [
+            5200,
+            5916
+          ]
+        ]
+      },
+      {
+        "width": 390,
+        "ranges": [
+          [
+            0,
+            1500
+          ],
+          [
+            1400,
+            2900
+          ],
+          [
+            2850,
+            4350
+          ],
+          [
+            4250,
+            5750
+          ],
+          [
+            5650,
+            7150
+          ],
+          [
+            7050,
+            7707
+          ]
+        ]
+      }
+    ],
+    "states": [
+      "768 Menu",
+      "390 Menu",
+      "1440 Cookie",
+      "768 Cookie",
+      "390 Cookie"
+    ],
+    "judgment": "All six modules, complete table and predicates, all seven assessment inputs, tax categories, sources/dates, owner actions and Footer actually viewed; no clipping, collision or anomalous gaps found. No media or new states invented."
+  },
+  "findings": [],
+  "unverified": [
+    "Native browser 200% zoom and physical touch",
+    "Other browser engines and screen readers",
+    "Live legal source refresh/TARIC and production links",
+    "Production consent storage, analytics and receiver behavior"
+  ]
+}

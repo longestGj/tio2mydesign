@@ -1,0 +1,62 @@
+{
+  "record_id": "RES-TRADE-BR-G6-AUTHOR-SELF-CHECK-01",
+  "date": "2026-09-08",
+  "dispatch_id": "G6-TRADE4-20260908-01/BR",
+  "page_id": "RES-TRADE-BR",
+  "actual_author": "/root/gate6_trade_br",
+  "mode": "EXECUTE",
+  "execution_path": "FAST_PATH",
+  "result": "PASS_FOR_AUTHOR_SELF_CHECK_READY_FOR_INDEPENDENT_REVIEW",
+  "independent_review": "NOT_PERFORMED",
+  "package": {
+    "path": "D:/23MySec/pages/resources/brazil-trade/06_handoff/RES-TRADE-BR_GATE6_HANDOFF_PACKAGE_V0.1.md",
+    "package_id": "RES-TRADE-BR-G6-HANDOFF-01",
+    "bytes": 38689,
+    "sha256": "3e2d65f8d00ce09d02ca6980a1e00eec7c6720f1a5f83d7e36fbc3f52c03a284"
+  },
+  "checks": {
+    "required_local_paths_checked": 20,
+    "missing_local_paths": [],
+    "frozen_source_and_key_dependency_identities_match": true,
+    "acceptance_id_count": 13,
+    "acceptance_ids_unique": true,
+    "dependency_id_count": 6,
+    "dependency_ids_unique": true,
+    "site_scope_surface_count": 7,
+    "status_is_ready_for_review_not_independently_approved_not_sent": true,
+    "contains_handed_off_yes": false,
+    "contains_package_review_pass_status": false,
+    "new_visual_render_or_screenshot": false,
+    "d16_access_or_implementation": false,
+    "external_message_or_real_form_submission": false,
+    "current_manifest_modified_or_created": false
+  },
+  "acceptance_ids": [
+    "BRTRADE-G9-01",
+    "BRTRADE-G9-02",
+    "BRTRADE-G9-03",
+    "BRTRADE-G9-04",
+    "BRTRADE-G9-05",
+    "BRTRADE-G9-06",
+    "BRTRADE-G9-07",
+    "BRTRADE-G9-08",
+    "BRTRADE-G9-09",
+    "BRTRADE-G9-10",
+    "BRTRADE-G9-11",
+    "BRTRADE-G9-12",
+    "BRTRADE-G9-13"
+  ],
+  "dependency_ids": [
+    "BRTRADE-DEP-01",
+    "BRTRADE-DEP-02",
+    "BRTRADE-DEP-03",
+    "BRTRADE-DEP-04",
+    "BRTRADE-DEP-05",
+    "BRTRADE-DEP-06"
+  ],
+  "limitations": [
+    "Identity and structural checks do not prove semantic correctness, legal currency, runtime behavior or independent approval.",
+    "The 2026-09-08 official-source check was bounded to named first-party entry points and did not determine a shipment outcome.",
+    "No WordPress, API, Next.js, receiver, production consent, device, assistive-technology, deployment or publication evidence was produced."
+  ]
+}

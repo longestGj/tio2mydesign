@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-09-07T10:39:49.813Z",
+  "scope": "Disk read-back and identity audit only; execution SELF_CHECK, not independent visual review",
+  "workset_id": "RES-R706-G4-WORKSET-01",
+  "freeze_id": "RES-R706-G4-FREEZE-01",
+  "source": {
+    "path": "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/RES-R706_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 23830,
+    "sha256": "decf85559122c536ee51b3b6da0a3f3165e9e8542a771b0c279382ec229e5041"
+  },
+  "freeze": {
+    "path": "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/freeze-record.json",
+    "bytes": 8358,
+    "sha256": "2a580fe303995524dc3ba56034af42aa9760056e7b652f6c444b014117868c03"
+  },
+  "evidenceIndex": {
+    "path": "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/evidence-index.json",
+    "bytes": 10286,
+    "sha256": "445e67b4f8bbd45a6a72a1e8180e8e8868dc5e5ed657a29d09611a138e01579d"
+  },
+  "selfCheck": {
+    "path": "D:/23MySec/pages/resources/r706-alternative/05_review/RES-R706_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+    "bytes": 3876,
+    "sha256": "e5b01dfb286657b1787e9b28bef6a0af09d8801394159b3499a2d275b9bee8de"
+  },
+  "handoff": {
+    "path": "D:/23MySec/pages/resources/r706-alternative/05_review/RES-R706_GATE4_TO_GATE5_HANDOFF_V0.1.md",
+    "bytes": 2330,
+    "sha256": "27a133dd771adcd0e7dd6419c5e34e6d6b8fe6607603d34a16248e9c676e3ac1"
+  },
+  "recordChecks": 80,
+  "uniqueFiles": 60,
+  "failed": [],
+  "formalPng": 7,
+  "classification": {
+    "formalFull": 3,
+    "formalSharedStates": 4,
+    "diagnosticPng": 2,
+    "approvalCoreRecords": 9,
+    "diagnosticRecords": 4
+  },
+  "stop": "GATE4_EXECUTION_COMPLETE_FROZEN / READY_FOR_GATE5_REVIEW",
+  "allowed_write_scope": [
+    "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1",
+    "D:/23MySec/pages/resources/r706-alternative/05_review/RES-R706_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+    "D:/23MySec/pages/resources/r706-alternative/05_review/RES-R706_GATE4_TO_GATE5_HANDOFF_V0.1.md"
+  ]
+}

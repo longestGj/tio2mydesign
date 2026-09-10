@@ -1,0 +1,66 @@
+{
+  "schema": "gate6-author-self-check-v0.1",
+  "page_id": "RES-TRADE-UK",
+  "dispatch_id": "G6-TRADE4-20260908-01/UK",
+  "author": "/root/gate6_trade_uk",
+  "checked_at_date": "2026-09-08",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "execution_path": "FAST_PATH",
+  "package": {
+    "path": "pages/resources/uk-trade/06_handoff/RES-TRADE-UK_GATE6_HANDOFF_PACKAGE_V0.1.md",
+    "bytes": 33810,
+    "sha256": "b20932999d838eebb3c42d3e07cf22af712776a5e6f36de43a1da378e3ff2c59"
+  },
+  "checks": {
+    "gate5_to_gate6_receipt_objects": 6,
+    "gate5_to_gate6_receipt_complete": true,
+    "approved_source_identity_match": true,
+    "post_closure_material_trigger_found": false,
+    "gate5_visual_review_inherited": true,
+    "visual_rerender_performed": false,
+    "new_screenshots_performed": false,
+    "full_visual_replay_performed": false,
+    "referenced_project_file_count": 28,
+    "missing_referenced_files": [],
+    "dependency_definition_ids": [
+      "UK-G6-D01",
+      "UK-G6-D02",
+      "UK-G6-D03",
+      "UK-G6-D04",
+      "UK-G6-D05"
+    ],
+    "acceptance_definition_ids": [
+      "UK-G6-AC01",
+      "UK-G6-AC02",
+      "UK-G6-AC03",
+      "UK-G6-AC04",
+      "UK-G6-AC05",
+      "UK-G6-AC06",
+      "UK-G6-AC07",
+      "UK-G6-AC08",
+      "UK-G6-AC09",
+      "UK-G6-AC10",
+      "UK-G6-AC11",
+      "UK-G6-AC12",
+      "UK-G6-AC13"
+    ],
+    "duplicate_dependency_definitions": [],
+    "missing_dependency_definitions": [],
+    "duplicate_acceptance_definitions": [],
+    "missing_acceptance_definitions": [],
+    "concrete_implementation_guess_hits": [],
+    "upstream_required_findings": 0,
+    "new_gate6_author_findings": 0
+  },
+  "freshness_check": {
+    "date": "2026-09-08",
+    "authority_class": "official_change_detection_only",
+    "material_trigger_observed": false,
+    "visible_copy_date_changed": false,
+    "publication_window_refresh_satisfied": false,
+    "dependency_id": "UK-G6-D01"
+  },
+  "runtime_or_external_checks_performed": false,
+  "independent_review_performed": false,
+  "gate6_closed": false
+}

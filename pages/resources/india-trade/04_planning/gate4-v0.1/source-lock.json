@@ -1,0 +1,94 @@
+{
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "source_identity": {
+    "path": "D:/23MySec/pages/resources/india-trade/04_planning/gate4-v0.1/RES-TRADE-IN_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 34192,
+    "sha256": "617d8371fa0e73dc14e571ce9b3c75c8d84390c638e19039487db4f432e5d833"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/resources/india-trade/04_planning/gate4-v0.1/input-index.json",
+    "bytes": 11916,
+    "sha256": "12d6eba27fff30581bf2dc0b8bf03e148226af92d0c324a43b23b1b6b1ed40bc"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "bytes": 2409,
+      "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "bytes": 3889,
+      "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "bytes": 1426,
+      "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "bytes": 455,
+      "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "bytes": 5125,
+      "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "bytes": 2369,
+      "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "bytes": 11126,
+      "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "preflight": {
+    "path": "D:/23MySec/pages/resources/india-trade/04_planning/gate4-v0.1/preflight-self-check.md",
+    "bytes": 5401,
+    "sha256": "6ea8d0dcf5fa6c1f527c494062b29b484ccc5124bec9dd569892f1bdfc360c23"
+  },
+  "locked_at": "2026-09-07T11:13:52.943Z",
+  "condition": {
+    "viewports": [
+      1440,
+      768,
+      390
+    ],
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "fresh_context_for_default": true,
+    "pointer": [
+      0,
+      0
+    ],
+    "font": "Inter",
+    "renderer": "Chrome via Playwright"
+  },
+  "formal_images_exist_at_lock": false,
+  "record_note": "Preflight snapshot has the original pre-render bytes/hash. Final self-check adds capture results; snapshot pointer clarified before bundle freeze without changing source/render conditions."
+}

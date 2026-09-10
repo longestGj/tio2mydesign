@@ -1,0 +1,48 @@
+{
+  "executor": "/root/gate4_r706_execute",
+  "mode": "SELF_CHECK_INITIAL",
+  "source": {
+    "path": "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/RES-R706_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 23830,
+    "sha256": "decf85559122c536ee51b3b6da0a3f3165e9e8542a771b0c279382ec229e5041"
+  },
+  "coverage": [
+    {
+      "w": 1440,
+      "ranges": "4A 0-1000 plus in-memory scroll windows requested y=700,2100,3500; actual bottom clamped; complete to Footer",
+      "h": 1500
+    },
+    {
+      "w": 768,
+      "ranges": "In-memory scroll windows y=0,1500,3000,4500; bottom clamped; complete to Footer",
+      "h": 1600
+    },
+    {
+      "w": 390,
+      "ranges": "4A 0-844 plus in-memory scroll windows y=700,2300,3900,5500,7100; bottom clamped; complete to Footer",
+      "h": 1700
+    }
+  ],
+  "observed": "All six modules and all connections scanned at readable scale. Attributed source/minimum/typical remain contiguous; TS-6706 paint-system and separately dry-pigment scope retained; no supplier pairing or recommended Grade. Full Products/Documents/conditional Sample text visible; independence and date precede Footer. No clipping/collision/abnormal blank or false status. Source/Chrome/state visual and real operation evidence are distinct.",
+  "sharedStateVisual": "Opened both menu viewports and 1440/390 Cookie in memory. Complete labels, current Resources marker, target sizing, backdrop and contextual location intact. 768 Cookie shares exact 560px layout with 1440 and is measured/operated.",
+  "sharedEquality": {
+    "header": true,
+    "footer": true,
+    "dialog": true,
+    "style": true,
+    "behavior": true,
+    "mainExact": true
+  },
+  "zoom": {
+    "method": "1440 physical at 200% effective viewport represented by 720 logical @2x; actual source responsive reflow proxy",
+    "result": {
+      "width": 720,
+      "scroll": 720,
+      "dpr": 2,
+      "header": 64
+    },
+    "pass": true,
+    "limitation": "Native browser zoom UI not verified. Earlier CSS zoom=2 probe retained in supplement: scroll 1679 results because CSS zoom does not change viewport media-query selection; unsuitable browser-zoom proxy, not evidence of 200% browser failure."
+  },
+  "findings": []
+}

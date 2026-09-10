@@ -1,0 +1,19 @@
+# RES-R706 Gate 4 execution self-check V0.1
+
+Executor: /root/gate4_r706_execute. Mode: SELF_CHECK (INITIAL + CAPTURE_CHECK). Date: 2026-09-07. Result: execution complete and frozen; READY_FOR_GATE5_REVIEW. This report is not an independent review or Gate approval.
+
+Workset RES-R706-G4-WORKSET-01; freeze RES-R706-G4-FREEZE-01. Source: D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/RES-R706_GATE4_COMPLETE_VISUAL_V0.1.html (23830 bytes; SHA-256 decf85559122c536ee51b3b6da0a3f3165e9e8542a771b0c279382ec229e5041). Evidence entry: D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/evidence-index.json.
+
+I read the approved B and inspected all six modules on each logical viewport, using readable overlapping in-memory scroll views to Footer. 48 ordered content blocks and 8 ordered hrefs match; a separate direct B-to-DOM comparison also passes. Minimum versus typical, named source/date labels, Chemours-only pair relationship, TS-6706 as evaluation subject, the separate dry-pigment tests and independence statement retain their full context. No visual equivalence/recommendation or new content appears.
+
+The 87 recorded runtime checks cover exact content/links, loaded Inter/SVG assets, full document and Footer geometry, all visible 44px targets, anchor click/Enter/next Tab, body navigation intent, menu focus entry/cycle/Escape, all eight menu exits at 768/390, cross-desktop restoration and Cookie entry/cycles/Close/Escape/return at all three widths. Targets and colored states have supplementary measurements. Solid functional contrast is 4.82 on white and 4.52 on the light source surface; primary hover Navy/white is 13.96. Scope and structural items with no local instance are not applicable.
+
+INITIAL evidence: D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/diagnostic_support/runtime-observations.json; supplement-observations.json and visual-observations.json in the same directory. One initial geometry predicate treated 2px uncut font ink outside the line box as clipping; the original failure is preserved in runtime-failure.json. Source did not change; completed 1440 coverage was retained, unfinished tablet/mobile coverage resumed with overflow-aware checking. No open design Finding resulted.
+
+200% reflow is checked by 720 logical @2x for a 1440 physical viewport: scrollWidth=720 and mobile header=64. Native browser zoom UI remains untested. A CSS zoom probe, preserved in the supplement, is not a native zoom proxy because its media queries remain on the unzoomed viewport; its overflow result is not reported as a browser zoom PASS or page defect.
+
+CAPTURE_CHECK opened all 7 formal PNGs, including readable original-detail full-page images, and confirmed source/conditions, font, Logo, full scope, state and Footer capture. 68 machine checks read actual PNG headers, width/height, bytes, SHA-256, DPR, capture order and all frozen inputs: 0 failures. No content/interaction rerun occurred after unchanged formal capture.
+
+Evidence distinction: STATIC_VISUAL=actual opened PNG/in-memory views; ACTUAL_RUNTIME=local measurements and keyboard/click behavior; SOURCE_INSPECTION=exact B/main/shared equality; LOCAL_SIMULATION=intercepted outgoing href intentions and effective zoom proxy. No real request or submission was sent.
+
+Required Finding: none. Remaining review: dedicated Gate 5 independent visual review, not started here. Unverified/later scope: native browser zoom UI, screen readers, real touch hardware and other engines; destination page receivers and context handling; source refresh before publication; route/mapping/canonical/indexing/Schema; production Cookie technology, analytics/storage, delivery or actual reception. These are not asserted as passed by this planning execution. No page-local form/FAQ/table/selector/media/submission state exists under the approved handoff.

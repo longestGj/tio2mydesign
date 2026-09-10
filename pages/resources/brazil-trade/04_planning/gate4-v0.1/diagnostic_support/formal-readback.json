@@ -1,0 +1,31 @@
+{
+  "mode": "CAPTURE_CHECK",
+  "actual_author": "/root/gate4_brazil_trade_execute",
+  "source": {
+    "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/RES-TRADE-BR_GATE4_FULL_VISUAL_V0.1.html",
+    "bytes": 32375,
+    "sha256": "bc7c17dee83596aa480bda6c6764d37931ccf830e0c7a2fe0c24e4c272f2ddeb"
+  },
+  "assets_opened": [
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_1440-full.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_1440-primary-hover.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_1440-primary-focus.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_1440-cookie.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_768-full.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_768-menu.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_768-cookie.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_390-full.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_390-menu.png",
+    "D:/23MySec/pages/resources/brazil-trade/04_planning/gate4-v0.1/approval_core/RES-TRADE-BR_G4_390-cookie.png"
+  ],
+  "checks": [
+    "All formal full-page and seven state PNGs opened.",
+    "Full-page source, pixels and dimensions identical to readable preflight views; existing full readable coverage inherited, not rerun.",
+    "Default no hover/focus, native font/logo, Footer extent correct.",
+    "Menu includes eight links with Resources marker and no CURRENT badge.",
+    "Cookie modal full text and both actions legible on all three widths.",
+    "Primary hover/focus visibly matches runtime measurement."
+  ],
+  "findings": [],
+  "limitations": "STATIC_VISUAL only; keyboard and operation results remain in preflight runtime."
+}

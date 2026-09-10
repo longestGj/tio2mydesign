@@ -1,0 +1,143 @@
+{
+  "record_id": "RES-TRADE-BR-G6-TARGETED-REVISION-SELF-CHECK-02",
+  "date": "2026-09-08",
+  "page_id": "RES-TRADE-BR",
+  "original_dispatch_id": "G6-TRADE4-20260908-01/BR",
+  "challenge_id": "RES-TRADE-BR-G6-RC-01",
+  "finding_id": "RES-TRADE-BR-G6-RC-F01",
+  "original_author": "/root/gate6_trade_br",
+  "challenge_reviewer": "/root",
+  "targeted_revision_executor": "/root/g6_res_trade_eu_uk",
+  "mode": "TARGETED_REPAIR_EXECUTE",
+  "execution_path": "ESCALATED_PATH_CONCRETE_REVIEW_CHALLENGE",
+  "result": "PASS_FOR_TARGETED_REVISION_READY_FOR_INDEPENDENT_TARGETED_RECHECK",
+  "finding_author_status": "ADDRESSED_IN_V0.2_PENDING_INDEPENDENT_TARGETED_RECHECK",
+  "independent_targeted_recheck": "NOT_PERFORMED",
+  "package": {
+    "path": "D:/23MySec/pages/resources/brazil-trade/06_handoff/RES-TRADE-BR_GATE6_HANDOFF_PACKAGE_V0.2.md",
+    "package_id": "RES-TRADE-BR-G6-HANDOFF-02",
+    "bytes": 40032,
+    "sha256": "9D0B24B5F49A7F275F6385E2DB34ADE3F12FFAB58AA52012B59CE284B1DAC592"
+  },
+  "revision_response": {
+    "path": "D:/23MySec/pages/resources/brazil-trade/05_review/RES-TRADE-BR_GATE6_TARGETED_REVISION_RESPONSE_V0.2.md",
+    "response_id": "RES-TRADE-BR-G6-RC-RESPONSE-02",
+    "bytes": 5351,
+    "sha256": "066CCE04DA92AE0EA9E5FA4865039AF0693BC7B33727428171AEEFCE54473540"
+  },
+  "source_inputs": [
+    {
+      "role": "challenge",
+      "path": "D:/23MySec/pages/resources/brazil-trade/05_review/RES-TRADE-BR_GATE6_REVIEW_CHALLENGE_V0.1.md",
+      "bytes": 4317,
+      "sha256": "686CBBCCE652B517EF5889C2EF75DEFE08D1A16E755A49DEA44B05FB6DCDB0BC"
+    },
+    {
+      "role": "v0.1_package",
+      "path": "D:/23MySec/pages/resources/brazil-trade/06_handoff/RES-TRADE-BR_GATE6_HANDOFF_PACKAGE_V0.1.md",
+      "bytes": 38689,
+      "sha256": "3E2D65F8D00CE09D02CA6980A1E00EEC7C6720F1A5F83D7E36FBC3F52C03A284"
+    },
+    {
+      "role": "approved_b_v0.2",
+      "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/RES-TRADE-BR_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+      "bytes": 12786,
+      "sha256": "BB83ADEB1A2A21EE7B7C4D854D569D5B73BA6A9FC75421A387FE9EEDED5B6C5F"
+    },
+    {
+      "role": "approved_c_v0.2",
+      "path": "D:/23MySec/pages/resources/brazil-trade/04_planning/RES-TRADE-BR_GATE2_CONTENT_CONTRACT_V0.2.md",
+      "bytes": 10579,
+      "sha256": "0A0E9E16A5BD8334DDFCF4B1C13A5B09DC87C050C5396695B25CE2BB20108C36"
+    },
+    {
+      "role": "v0.1_author_self_check",
+      "path": "D:/23MySec/pages/resources/brazil-trade/05_review/gate6-v0.1/RES-TRADE-BR_GATE6_AUTHOR_SELF_CHECK_V0.1.json",
+      "bytes": 2207,
+      "sha256": "BF79CDCA7138CF46BDE956BEF1AD3CF18A6818F82211DD1257520E20E5B3B34A"
+    },
+    {
+      "role": "gate6_execution_review_contract",
+      "path": "D:/23MySec/docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "bytes": 6627,
+      "sha256": "D2AAFFAADF6BA44F3472B4045A40C165B170AA4FDFDC4EE1D824FE66415E9F67"
+    }
+  ],
+  "checks": {
+    "all_source_inputs_exist_and_identity_match": true,
+    "approved_b_line_112_exact_pt_br_action_present": true,
+    "approved_c_section_5_line_74_exact_pt_br_target_present": true,
+    "g9_06_definition_count": 1,
+    "g9_06_requires_support_link_to_appear": true,
+    "g9_06_requires_exact_target_pt_br_markets_brazil": true,
+    "g9_06_requires_live_scope_correct_accepted_target_before_release": true,
+    "g9_06_blocks_affected_path_and_complete_site_release": true,
+    "g9_06_forbids_missing_hidden_disabled_relinked_or_fallback_behavior": true,
+    "g9_06_old_appears_only_when_phrase_absent": true,
+    "g9_01_row_equal_to_v0.1": true,
+    "g9_05_row_equal_to_v0.1": true,
+    "dep_02_row_equal_to_v0.1": true,
+    "acceptance_id_count": 13,
+    "acceptance_unique_count": 13,
+    "dependency_id_count": 6,
+    "dependency_unique_count": 6,
+    "package_local_reference_count": 34,
+    "missing_package_local_references": [],
+    "status_is_ready_for_targeted_recheck_not_independently_rechecked_not_sent": true,
+    "contains_handed_off_yes": false,
+    "contains_independent_approval_or_gate6_closure_claim": false,
+    "new_visual_render_or_screenshot": false,
+    "d16_access_or_implementation": false,
+    "external_message_or_real_form_submission": false,
+    "current_manifest_status_or_index_modified_or_created": false
+  },
+  "acceptance_ids": [
+    "BRTRADE-G9-01",
+    "BRTRADE-G9-02",
+    "BRTRADE-G9-03",
+    "BRTRADE-G9-04",
+    "BRTRADE-G9-05",
+    "BRTRADE-G9-06",
+    "BRTRADE-G9-07",
+    "BRTRADE-G9-08",
+    "BRTRADE-G9-09",
+    "BRTRADE-G9-10",
+    "BRTRADE-G9-11",
+    "BRTRADE-G9-12",
+    "BRTRADE-G9-13"
+  ],
+  "dependency_ids": [
+    "BRTRADE-DEP-01",
+    "BRTRADE-DEP-02",
+    "BRTRADE-DEP-03",
+    "BRTRADE-DEP-04",
+    "BRTRADE-DEP-05",
+    "BRTRADE-DEP-06"
+  ],
+  "machine_run": {
+    "tool": "local PowerShell",
+    "commands": [
+      "Get-Item -LiteralPath <each exact source/output path>; Get-FileHash -LiteralPath <each exact source/output path> -Algorithm SHA256",
+      "Get-Content -LiteralPath approved-B; compare array index 111 with the exact approved sentence and /pt-br/markets/brazil/ target",
+      "Get-Content -LiteralPath approved-C; compare array index 73 with the exact Supporting localized contract row",
+      "Get-Content -Raw V0.1/V0.2; extract exact BRTRADE-G9-01, BRTRADE-G9-05, BRTRADE-G9-06 and BRTRADE-DEP-02 definition rows with anchored regex",
+      "[regex]::Matches(V0.2, '(?m)^\\| `(BRTRADE-G9-\\d{2})` \\|') and '(?m)^\\| `(BRTRADE-DEP-\\d{2})` \\|'; compare total and Sort-Object -Unique counts",
+      "Extract every backtick-delimited .md/.html/.json/.csv/.svg/.png reference from V0.2; resolve against D:/23MySec, the page root and docs/architecture; Test-Path -LiteralPath each candidate",
+      "Scan V0.2 header/stop for exact READY_FOR_TARGETED_RECHECK boundary and for HANDED_OFF=YES, independent REVIEW_PASS, APPROVED or Gate 6 CLOSED claims; ConvertTo-Json -Depth 5"
+    ],
+    "pre_self_check_result": "13/13 AC definitions unique; 6/6 DEP definitions unique; B/C exact obligations present; G9-06 correction present; G9-01/G9-05/DEP-02 exact rows preserved; 34 references found with only this not-yet-created self-check path missing",
+    "verification_correction": "The first final command incorrectly indexed a singleton PowerShell string as [0], so six G9-06 assertions inspected the first character and falsely failed. The corrected command wrapped every extracted row in @(...). A later line-delta check found two trailing blank lines introduced during file creation; they were removed, package/response identities were rebound, and the full final check was rerun.",
+    "final_result_after_record_creation": "PASS; 34/34 package local references resolve; 13/13 AC and 6/6 DEP definitions are unique; B/C obligations and corrected G9-06 pass; G9-01/G9-05/DEP-02 rows remain exact; zero prohibited status claims"
+  },
+  "write_set": [
+    "D:/23MySec/pages/resources/brazil-trade/06_handoff/RES-TRADE-BR_GATE6_HANDOFF_PACKAGE_V0.2.md",
+    "D:/23MySec/pages/resources/brazil-trade/05_review/RES-TRADE-BR_GATE6_TARGETED_REVISION_RESPONSE_V0.2.md",
+    "D:/23MySec/pages/resources/brazil-trade/05_review/RES-TRADE-BR_GATE6_TARGETED_REVISION_SELF_CHECK_V0.2.json"
+  ],
+  "limitations": [
+    "File identity, row equality, reference resolution and structural checks do not prove semantic correctness, route liveness, scope behavior, runtime rendering, legal currency, implementation or release readiness.",
+    "No WordPress, API, Next.js, receiver, production consent, device, assistive-technology, deployment, publication or indexing evidence was produced.",
+    "No official-source freshness investigation was repeated because this targeted repair changes only the approved PT-BR support-link acceptance rule and does not change a trade fact.",
+    "A different identity must perform the targeted recheck and only the Controller may close Gate 6 or update the current Manifest."
+  ]
+}

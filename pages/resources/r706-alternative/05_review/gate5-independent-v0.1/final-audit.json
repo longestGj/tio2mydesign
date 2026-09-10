@@ -1,0 +1,107 @@
+{
+  "evidenceType": "SOURCE_INSPECTION",
+  "correction": "supplement.json first comparison stripped numerals after heading syntax and therefore incorrectly removed the three approved numbered H3 prefixes. Corrected parser removes ordered-list syntax before heading syntax; actual observed DOM is reused, no source or image changed.",
+  "corrected": [
+    {
+      "width": 1440,
+      "expectedBlocks": 48,
+      "actualBlocks": 48,
+      "exact": true
+    },
+    {
+      "width": 768,
+      "expectedBlocks": 48,
+      "actualBlocks": 48,
+      "exact": true
+    },
+    {
+      "width": 390,
+      "expectedBlocks": 48,
+      "actualBlocks": 48,
+      "exact": true
+    }
+  ],
+  "visualCoverage": {
+    "evidenceType": "STATIC_VISUAL",
+    "formalImagesOpened": 7,
+    "fullPages": [
+      {
+        "width": 1440,
+        "height": 4855,
+        "readableYStarts": [
+          0,
+          1000,
+          2000,
+          3000,
+          4000
+        ]
+      },
+      {
+        "width": 768,
+        "height": 5585,
+        "readableYStarts": [
+          0,
+          1000,
+          2000,
+          3000,
+          4000,
+          5000
+        ]
+      },
+      {
+        "width": 390,
+        "height": 7311,
+        "readableYStarts": [
+          0,
+          1000,
+          2000,
+          3000,
+          4000,
+          5000,
+          6000,
+          7000
+        ]
+      }
+    ],
+    "sliceHeight": 1100,
+    "method": "Original full images followed by overlapping in-memory crops, no new persistent PNG; all modules and Footer covered.",
+    "states": [
+      "1440-cookie",
+      "768-menu",
+      "390-menu",
+      "390-cookie"
+    ],
+    "runtimeVisual": "768 Cookie transient browser view matches 560px desktop treatment.",
+    "observations": "Approved H1, lead, six modules, source labels/date/minimum-versus-typical, four evaluation inputs, four test groups, Chemours-only TS-6706 scope, separate bulk-flow context, sequential Products/Documents/Sample, independence note, last-reviewed date and all Footer contents are fully visible. No clipping, collision, abandoned containers, unrelated commercial claims or material abnormal whitespace observed.",
+    "newPersistentScreenshots": 0
+  },
+  "roleDrift": {
+    "status": "RESOLVED_AS_NON_RENDERING_GOVERNANCE_CHANGE",
+    "originalHash": "7c90c3e62e4d341f9a61b8d4f8c8e02cd52dd23ae032cf713679ecaf959ca7e3",
+    "archive": "D:/23MySec/90_archive/project-governance/2026-09-07-gate4-gate5-handoff/agents/gate4-complete-visual/agent.md",
+    "currentHash": "3dc109e0c6c5da6cade1f5265038b3b3b0de72ab8248c2693c8d45f227061709",
+    "authority": "D:/23MySec/docs/architecture/GATE4_GATE5_HANDOFF_ALIGNMENT_CHANGE_V1.0.md"
+  },
+  "finalIdentity": [
+    {
+      "path": "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/RES-R706_GATE4_COMPLETE_VISUAL_V0.1.html",
+      "bytes": 23830,
+      "sha256": "decf85559122c536ee51b3b6da0a3f3165e9e8542a771b0c279382ec229e5041"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/freeze-record.json",
+      "bytes": 8358,
+      "sha256": "2a580fe303995524dc3ba56034af42aa9760056e7b652f6c444b014117868c03"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/evidence-index.json",
+      "bytes": 10286,
+      "sha256": "445e67b4f8bbd45a6a72a1e8180e8e8868dc5e5ed657a29d09611a138e01579d"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/r706-alternative/04_planning/gate4-v0.1/input-index.json",
+      "bytes": 8406,
+      "sha256": "9118ceddda5f363694c47c46618bfea6d2c0124959b36f02684c172b6b5016fe"
+    }
+  ]
+}

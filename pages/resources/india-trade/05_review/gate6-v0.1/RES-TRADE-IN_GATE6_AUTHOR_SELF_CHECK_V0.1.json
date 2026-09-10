@@ -1,0 +1,89 @@
+{
+  "record_id": "RES-TRADE-IN-G6-AUTHOR-SELF-CHECK-01",
+  "date": "2026-09-08",
+  "dispatch_id": "G6-TRADE4-20260908-01/IN",
+  "mode": "EXECUTE",
+  "actual_author": "/root/gate6_trade_in",
+  "result": "PASS_FOR_AUTHOR_SELF_CHECK",
+  "result_boundary": "Supports READY_FOR_REVIEW only; not an independent review, Gate 6 approval, closure, handoff, implementation or release result.",
+  "package": {
+    "path": "pages/resources/india-trade/06_handoff/RES-TRADE-IN_GATE6_HANDOFF_PACKAGE_V0.1.md",
+    "bytes": 34317,
+    "sha256": "5fa99b705b7e8a21ec2d68eb68e2f9235f295d1723bf31387a3f882b8186e0e9",
+    "status_readback": "READY_FOR_REVIEW / PENDING_INDEPENDENT_REVIEW"
+  },
+  "checks": {
+    "gate5_to_gate6_six_acceptance_objects": {
+      "checked": 6,
+      "passed": 6,
+      "path": "FAST_PATH",
+      "expanded_visual_review_trigger": false
+    },
+    "declared_dependency_ids": {
+      "count": 7,
+      "first": "RES-TRADE-IN-G6-D01",
+      "last": "RES-TRADE-IN-G6-D07",
+      "unique_declarations": true
+    },
+    "declared_acceptance_ids": {
+      "count": 12,
+      "first": "RES-TRADE-IN-G9-AC01",
+      "last": "RES-TRADE-IN-G9-AC12",
+      "unique_declarations": true,
+      "preexisting_collision_before_package": false
+    },
+    "referenced_local_paths": {
+      "checked": 22,
+      "missing": 0
+    },
+    "critical_hash_checks": [
+      {
+        "path": "pages/resources/india-trade/04_planning/RES-TRADE-IN_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+        "expected": "1234d6f2b0615aa5da488ef51dde282251e175315d9f34e140080e7e3a65252a",
+        "actual": "1234d6f2b0615aa5da488ef51dde282251e175315d9f34e140080e7e3a65252a",
+        "match": true
+      },
+      {
+        "path": "pages/resources/india-trade/04_planning/gate4-v0.1/RES-TRADE-IN_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "expected": "617d8371fa0e73dc14e571ce9b3c75c8d84390c638e19039487db4f432e5d833",
+        "actual": "617d8371fa0e73dc14e571ce9b3c75c8d84390c638e19039487db4f432e5d833",
+        "match": true
+      },
+      {
+        "path": "pages/resources/india-trade/05_review/RES-TRADE-IN_GATE5_CONTROLLER_ACCEPTANCE_AND_VISUAL_CLOSURE_V0.1.md",
+        "expected": "744081f2c04b8c4c589d37eeba2b6a39f438e0354128d9c0168dcc8b09d4d93a",
+        "actual": "744081f2c04b8c4c589d37eeba2b6a39f438e0354128d9c0168dcc8b09d4d93a",
+        "match": true
+      },
+      {
+        "path": "pages/resources/india-trade/RES-TRADE-IN_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md",
+        "expected": "06b9fa66eeb3bfc7f14df4ce87520bd4b585e075749963af9cc41f890a020c5c",
+        "actual": "06b9fa66eeb3bfc7f14df4ce87520bd4b585e075749963af9cc41f890a020c5c",
+        "match": true
+      }
+    ],
+    "coverage": {
+      "requirement_to_package": "checked",
+      "package_to_approved_source": "checked",
+      "cta_receiver_and_owner_boundaries": "checked",
+      "seo_geo_schema_social_parity": "checked",
+      "shared_chrome_logo_legal_consent": "checked",
+      "site_scope_seven_surfaces": "checked",
+      "freshness_and_stale_failure_behavior": "checked",
+      "premature_gate_or_handoff_state": "none found"
+    }
+  },
+  "findings": [],
+  "unverified": [
+    "No new official-source refresh was performed; the approved 2026-09-07 result remains a dated input and a new owner check is required before implementation and release.",
+    "No WordPress, API, Next.js, CMS, cache, route, SEO, Schema, social, form, media or cross-scope implementation was inspected.",
+    "No real RFQ submission, destination receipt, production consent/storage/network, physical-device, other-engine or screen-reader-speech test was performed.",
+    "No render, screenshot or full visual/interaction rerun was performed because FAST_PATH inherited the unchanged Gate 5 coverage."
+  ],
+  "commands_summary": [
+    "PowerShell Get-FileHash -Algorithm SHA256 for critical approved inputs and the package",
+    "PowerShell Test-Path over package local file references",
+    "Regex declaration scan for stable dependency and Gate 9 acceptance IDs",
+    "Package readback scan for premature approval/handoff claims"
+  ]
+}

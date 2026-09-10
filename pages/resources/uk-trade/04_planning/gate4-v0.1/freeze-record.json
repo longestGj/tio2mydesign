@@ -1,0 +1,91 @@
+{
+  "freeze_id": "RES-TRADE-UK-G4-FREEZE-01",
+  "workset_id": "RES-TRADE-UK-G4-WORKSET-01",
+  "status": "GATE4_EXECUTION_COMPLETE_FROZEN / READY_FOR_GATE5_REVIEW",
+  "actual_author": "/root/gate4_uk_trade_execute",
+  "time": "2026-09-07T11:06:16.489Z",
+  "source": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/RES-TRADE-UK_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 29548,
+    "sha256": "9ca15ee7ef19e0949b6bb383bfda20fb9ad2fce50e816ee508786f4958a457ee"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/input-index.json",
+    "bytes": 15007,
+    "sha256": "67b06a4c70ae4e7a61b8492daaf95ccc3f95d7cbfa8ff5201349e27c4d27ea07"
+  },
+  "evidence_index": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/evidence-index.json",
+    "bytes": 6706,
+    "sha256": "b2671225b2ff8f671538bba7626fc463eefe192d3427362d3048ebf5e4ad71d2"
+  },
+  "preflight": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/preflight-record.json",
+    "bytes": 3114,
+    "sha256": "714f46edf681e9c2f64a4834449a69a69f89b4fabd2ddbf535d96f0195209079"
+  },
+  "design_report": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/design-report.md",
+    "bytes": 6260,
+    "sha256": "db2de63277c9ac0bc1d464e25eace733102b62158198cd1610a79f140f0665ba"
+  },
+  "self_check": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/../../05_review/RES-TRADE-UK_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+    "bytes": 4063,
+    "sha256": "a94e06f89bd8c7ab1074562c8cde1873349c84a82c239c8ef14f928b31e663b8"
+  },
+  "handoff": {
+    "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/../../05_review/RES-TRADE-UK_GATE4_TO_GATE5_HANDOFF_V0.1.md",
+    "bytes": 5282,
+    "sha256": "a776b135f798a4943d35f300b646779a94dbfbfd70d2d6514a907a8d4b188201"
+  },
+  "dependencies": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/uk-trade/04_planning/gate4-v0.1/dependencies/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    }
+  ],
+  "render_conditions": {
+    "browser": "152.0.7977.82",
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        768,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "device_scale_factor": 1,
+    "fonts": "Inter loaded",
+    "default_state": "Menu and Cookie closed; no hover or focus",
+    "state_capture": "viewport only"
+  },
+  "approval_core_images": 8,
+  "diagnostic_images": 2,
+  "findings": [],
+  "independent_review": "NOT_PERFORMED",
+  "gate_closure": "NOT_PERFORMED",
+  "next": "Separate authorized Gate5 task"
+}

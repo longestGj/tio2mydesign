@@ -1,0 +1,142 @@
+{
+  "actual_author": "/root/gate4_chemours_execute",
+  "source": {
+    "path": "D:/23MySec/pages/resources/chemours-alternatives/04_planning/gate4-v0.1/RES-CHEMOURS_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 20463,
+    "sha256": "0bfcf6283310b7eb14699428e87e1b50aa4aeb8b8ff98bf9ced52fcd45e464d2"
+  },
+  "type": "STATIC_VISUAL_FROM_LOCAL_RUNTIME",
+  "status": "PASS",
+  "readable_scan": {
+    "390": [
+      0,
+      800,
+      1600,
+      2400,
+      3200,
+      4000
+    ],
+    "768": [
+      0,
+      800,
+      1600,
+      2400,
+      3200
+    ],
+    "1440": [
+      0,
+      800,
+      1600,
+      2400
+    ]
+  },
+  "viewport_height": 900,
+  "method": "Transient JPEG viewport renders emitted inline, actually reviewed at readable scale; final scroll clamped to footer. No persisted segment PNGs.",
+  "states_viewed": [
+    "1440 Cookie",
+    "768 Menu",
+    "768 Cookie",
+    "390 Menu",
+    "390 Cookie",
+    "390 main CTA keyboard focus"
+  ],
+  "observations": [
+    "All six sections and footer read at each width; no collision, clipping, abnormal empty panel or competing brand signal.",
+    "Four inputs remain 2x2 at tablet/desktop and ordered single column on mobile. No input field styling.",
+    "Three qualification steps keep vertical relationship and all non-equivalence qualifiers.",
+    "Two inline sources stay adjacent to the scoped Chemours proposition; no competitor mark or endorsement ornament.",
+    "Products primary then Documents outline action; full independence and review date remain readable.",
+    "Cookie no-optional-analytics state only; no invented settings or page features."
+  ],
+  "findings": [],
+  "contrast": [
+    {
+      "name": "body/white",
+      "foreground": "#334155",
+      "background": "#FFFFFF",
+      "ratio": 10.355,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "body/soft",
+      "foreground": "#334155",
+      "background": "#F5F8FB",
+      "ratio": 9.715,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "heading/white",
+      "foreground": "#062B5B",
+      "background": "#FFFFFF",
+      "ratio": 13.959,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "name": "heading/soft",
+      "foreground": "#062B5B",
+      "background": "#F5F8FB",
+      "ratio": 13.097,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "name": "primary and links",
+      "foreground": "#008078",
+      "background": "#FFFFFF",
+      "ratio": 4.818,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "list marker/soft",
+      "foreground": "#008078",
+      "background": "#F5F8FB",
+      "ratio": 4.52,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "hover primary",
+      "foreground": "#FFFFFF",
+      "background": "#062B5B",
+      "ratio": 13.959,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "menu/footer labels",
+      "foreground": "#FFFFFF",
+      "background": "#031B3A",
+      "ratio": 17.189,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "footer utility",
+      "foreground": "#D4E0EB",
+      "background": "#031B3A",
+      "ratio": 12.819,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "dark current accent",
+      "foreground": "#00A99D",
+      "background": "#031B3A",
+      "ratio": 5.862,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "name": "primary boundary on footer",
+      "foreground": "#008078",
+      "background": "#031B3A",
+      "ratio": 3.568,
+      "minimum": 3,
+      "pass": true
+    }
+  ]
+}

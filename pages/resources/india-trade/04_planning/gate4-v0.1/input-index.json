@@ -1,0 +1,282 @@
+{
+  "page_id": "RES-TRADE-IN",
+  "workset_id": "RES-TRADE-IN-G4-WS-20260907-01",
+  "actual_author": "/root/gate4_india_trade_execute",
+  "dispatch_id": "G4-REMAINING-8-EXEC-01/RES-TRADE-IN",
+  "authorization": {
+    "control_id": "G4-REMAINING-8-EXEC-01",
+    "source": "D:/23MySec/docs/architecture/GATE4_REMAINING_EIGHT_EXECUTION_CONTROL_V1.0.md",
+    "scope": "Gate 4 execution only; stop frozen ready for Gate 5; no review, closure, Gate 6 or development/publication",
+    "note": "Batch progress source is mutable; dispatch scope fixed by current explicit parent instruction."
+  },
+  "inputs": [
+    {
+      "path": "D:/23MySec/AGENTS.md",
+      "bytes": 11027,
+      "sha256": "aa4f6e020dae5898f4d2cd61eaea617bdb32ee03916891c51f0e02153869f2d5"
+    },
+    {
+      "path": "D:/23MySec/PROJECT_CONTEXT.md",
+      "bytes": 8503,
+      "sha256": "78c3b537e28dcb22a483d2c2351ade01c18416d11f801c2bd13d756541a09170"
+    },
+    {
+      "path": "D:/23MySec/02_DIRECTORY_GUIDE.md",
+      "bytes": 14571,
+      "sha256": "d1ca5ec19b634f22151a612498d16fe4b94feaccbd8dd04c84464445023eef84"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "bytes": 30319,
+      "sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "bytes": 18692,
+      "sha256": "5476e9ef47c0e8632c741745233f8d0e8984360cb639d9de2b69e6e7c81ea3a0"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "bytes": 18702,
+      "sha256": "7b14c96e8515fdaeaeee12f23e9e7c8ffb815f8a00643d2bc0998f667efff64a"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.8.md",
+      "bytes": 6604,
+      "sha256": "927badd8cbea2df224d10ae31a7f136f08798145cded1a1bf6fbbe5b0511e542"
+    },
+    {
+      "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+      "bytes": 9983,
+      "sha256": "3dc109e0c6c5da6cade1f5265038b3b3b0de72ab8248c2693c8d45f227061709"
+    },
+    {
+      "path": "D:/23MySec/skills/brand-applied-visual-design/SKILL.md",
+      "bytes": 8990,
+      "sha256": "770ed434423de2fb1abfd4c7f9f8fe536f3ba1a3c78c75b27fb3e783b9751132"
+    },
+    {
+      "path": "D:/23MySec/skills/full-page-visual-composition/SKILL.md",
+      "bytes": 10449,
+      "sha256": "6c0bbbb12eb3ac727f0f1a1e52e5106a18ece0987f980a36d0b28d38f5bbb29f"
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+      "bytes": 12641,
+      "sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884"
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/references/gate4-self-check.md",
+      "bytes": 3712,
+      "sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9"
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/references/core-risk-model.md",
+      "bytes": 2825,
+      "sha256": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "bytes": 5488,
+      "sha256": "4339c7b3163a96f442860407f547dde3ad4638d8064b12bb4e0d0097eb9a1822"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "bytes": 8078,
+      "sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "bytes": 4510,
+      "sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "bytes": 17914,
+      "sha256": "f963bfd4722792bf9d7f1a1fa34fa03f0fa6e108dfc2cca48fb658c4d086731c"
+    },
+    {
+      "path": "D:/23MySec/research/keyword/11_page_keyword_master.csv",
+      "bytes": 42155,
+      "sha256": "cf189768fc3e8bc1e4108f0336cd45e40ae05f5a419885db1907a71e3dc6687f"
+    },
+    {
+      "path": "D:/23MySec/docs/page-playbooks/RESOURCE_PLAYBOOK_V0.1.md",
+      "bytes": 46358,
+      "sha256": "03b5c8114ede14c5a02ee35504f68957e60b4017bd44b1d1ff38d46909a1822e"
+    },
+    {
+      "path": "D:/23MySec/docs/page-briefs/RES-TRADE-IN_INDIA_TITANIUM_DIOXIDE_TRADE_UPDATE_BRIEF_V0.1.md",
+      "bytes": 15426,
+      "sha256": "1cc0cea439ea295c6d3474785a69cd1dc13e98e66998d5f0e16cd037a5558492"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "bytes": 12312,
+      "sha256": "0ea7e5d77ab243354577764bc4329fe4bb28d923ab4f66ea0b1073f5e24f9728"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/MALAYSIA_ORIGIN_SITE_WIDE_PUBLICATION_AUTHORITY_V1.0.md",
+      "bytes": 3724,
+      "sha256": "48ac05c99826315489686348bfa515ece7094142db21703d1cf28bce716023b2"
+    },
+    {
+      "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "bytes": 11671,
+      "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+    },
+    {
+      "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "bytes": 1960,
+      "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "bytes": 8090,
+      "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "bytes": 7235,
+      "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "bytes": 2310,
+      "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md",
+      "bytes": 5327,
+      "sha256": "9b01c3d086bcbed5cb3de2ed74ee997fc671fe21b055f458ac0b8301d99127d1"
+    },
+    {
+      "path": "D:/23MySec/pages/legal-privacy/05_review/SHARED-CONSENT_CURRENT_GATE9_BASELINE_MANIFEST_V1.1.md",
+      "bytes": 1051,
+      "sha256": "be03ef117b2f3f575aa59964d80c10b6b223fc5d1748a6bf7cedf08205bad659"
+    },
+    {
+      "path": "D:/23MySec/pages/legal-privacy/05_review/LEGAL_PRIVACY_CONV_DOC_POST_GATE9_CURRENT_AUTHORITY_MANIFEST_V1.3.md",
+      "bytes": 4266,
+      "sha256": "14364f8c3ef8010dbb6449f906d5c82fb317bbfbd3ec1926b42bed81c84f8f1c"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/RES-TRADE-IN_CURRENT_GATE_BASELINE_MANIFEST_V0.5.md",
+      "bytes": 2149,
+      "sha256": "9a765438f04fafea48da023b65e1a642facbe4e4280e4e3d80b994c140e13c8b"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/04_planning/RES-TRADE-IN_GATE2_CONTENT_SKELETON_V0.1.md",
+      "bytes": 4416,
+      "sha256": "f02f2492fde9673264dbc707ad5e0fdeed2f0aa6ec3ffa4b6be4fb09d4456501"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/04_planning/RES-TRADE-IN_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+      "bytes": 12386,
+      "sha256": "1234d6f2b0615aa5da488ef51dde282251e175315d9f34e140080e7e3a65252a"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/04_planning/RES-TRADE-IN_GATE2_CONTENT_CONTRACT_V0.1.md",
+      "bytes": 9943,
+      "sha256": "5fe907038d4d08708f7c447aef65ee3c6c2caf5c926e273b824230dd7ee0354f"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/04_planning/gate3-v0.1/RES-TRADE-IN_GATE3_WIREFRAME_V0.1.html",
+      "bytes": 31510,
+      "sha256": "2d1ddbc9455977add8374022a5ba395c9e11fcb2cc462c9f5c37d2635af2e41c"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/04_planning/gate3-v0.1/freeze-record.json",
+      "bytes": 5318,
+      "sha256": "a5be2e2fde15f5d21f9e8018b40f582e0a821f52bcc038cee29ac9fbe6471bd2"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/04_planning/gate3-v0.1/design-report.md",
+      "bytes": 6440,
+      "sha256": "9bfe22c308b40e629103d7604407d468ebf1ad9cbf033d26ffa9eaefbc391ee5"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/05_review/RES-TRADE-IN_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+      "bytes": 1156,
+      "sha256": "91f7fb0687bafa674ac476c2d1ff04c2180c5640bdfcd0f63ff24400f57176ef"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/01_research/evidence/RES-TRADE-IN_GATE2_FRESH_OFFICIAL_RECHECK_2026-09-07.md",
+      "bytes": 6763,
+      "sha256": "d87c735d24e6c583151c7cdc7261c301c09dfc75f048bb8895fb73ec818cd212"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/05_review/RES-TRADE-IN_GATE2_FULL_COPY_PROJECT_CONTROL_REVIEW_V0.1.md",
+      "bytes": 3137,
+      "sha256": "c30b6b9cec4a75d3c945ed96d49059e0efb61519f7f74c854255367e06b818f8"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE2_FIVE_RESOURCE_PAGE_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+      "bytes": 6202,
+      "sha256": "e87043931fd985c86534c3845006ada99d0a79b05065a5d0bef9262370376f6c"
+    },
+    {
+      "path": "D:/23MySec/pages/resources/india-trade/05_review/RES-TRADE-IN_GATE3_PREAUTHORIZED_APPROVAL_AND_CLOSURE_V0.1.md",
+      "bytes": 736,
+      "sha256": "a527487734dd201d74560341623d50c74b2b57e626459904188ca20d75435e0e"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "bytes": 2409,
+      "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "bytes": 3889,
+      "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "bytes": 1426,
+      "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "bytes": 455,
+      "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "bytes": 5125,
+      "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "bytes": 2369,
+      "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "bytes": 11126,
+      "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+    }
+  ],
+  "design_source": "D:/23MySec/pages/resources/india-trade/04_planning/gate4-v0.1/RES-TRADE-IN_GATE4_COMPLETE_VISUAL_V0.1.html"
+}

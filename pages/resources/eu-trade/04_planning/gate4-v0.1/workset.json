@@ -1,0 +1,16 @@
+{
+  "workset_id": "RES-TRADE-EU-G4-WS-01",
+  "page_id": "RES-TRADE-EU",
+  "executor": "/root/gate4_eu_trade_execute",
+  "input_index": "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/input-index.json",
+  "design_source": "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/RES-TRADE-EU_GATE4_COMPLETE_VISUAL_V0.1.html",
+  "evidence_index": "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/evidence-index.json",
+  "authorization_scope": "User-authorized Gate4 production/self-check/freeze only; handoff to separately owned Gate5 independent visual review. No independent review, closure, Gate6 or implementation.",
+  "allowed_write_scope": [
+    "D:/23MySec/pages/resources/eu-trade/04_planning/gate4-v0.1/",
+    "D:/23MySec/pages/resources/eu-trade/05_review/RES-TRADE-EU_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+    "D:/23MySec/pages/resources/eu-trade/05_review/RES-TRADE-EU_GATE4_TO_GATE5_HANDOFF_V0.1.md"
+  ],
+  "direction": "VISUAL_DIRECTION_CHECKED",
+  "mode": "SELF_CHECK / INITIAL"
+}

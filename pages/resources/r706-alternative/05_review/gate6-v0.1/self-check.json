@@ -1,0 +1,66 @@
+{
+  "schema": "gate6-author-self-check-v1",
+  "page_id": "RES-R706",
+  "dispatch_id": "G6-RES-A-EXEC-01",
+  "author": "/root/g6_res_r706_chemours",
+  "date": "2026-09-08",
+  "status": "READY_FOR_REVIEW",
+  "execution_path": "FAST_PATH",
+  "escalation_trigger": null,
+  "visual_rerun_performed": false,
+  "gate5_to_gate6_acceptance": {
+    "approved_visual_combination": true,
+    "effective_independent_review_chain": true,
+    "controller_closure": true,
+    "gate6_start_authority": true,
+    "open_dependencies_inherited": true,
+    "post_closure_change_audit": true
+  },
+  "input_identity_audit": {
+    "freeze_record": { "matched": 17, "total": 17 },
+    "evidence_index": { "matched": 26, "total": 26 },
+    "input_index": {
+      "paths_present": 37,
+      "total": 37,
+      "identity_matches": 36,
+      "explained_dynamic_governance_mismatches": 1,
+      "page_payload_mismatches": 0
+    }
+  },
+  "artifacts": {
+    "execution_report": {
+      "path": "pages/resources/r706-alternative/05_review/RES-R706_GATE6_EXECUTION_REPORT_V0.1.md",
+      "bytes": 5529,
+      "sha256": "3d31010f7266c51d2a7061f5e9e6cc8aa64f32e0e7c666469757d843a85dd395"
+    },
+    "candidate_handoff": {
+      "path": "pages/resources/r706-alternative/06_handoff/RES-R706_GATE6_HANDOFF_PACKAGE_V0.1.md",
+      "bytes": 20040,
+      "sha256": "569cfee4a1bade62154747c32d5ffcf9904cc09cf17c36efbf1f91930d36cbff"
+    }
+  },
+  "machine_validation": {
+    "commands": [
+      "Get-FileHash -Algorithm SHA256 -LiteralPath <locked inputs and outputs>",
+      "PowerShell ConvertFrom-Json recursive path/hash/byte audit over freeze-record.json, evidence-index.json and input-index.json",
+      "PowerShell regex uniqueness count for RES-R706-G9-ACnn and RES-R706-G6-Dnn",
+      "PowerShell inline repository-path existence check over the candidate handoff"
+    ],
+    "stable_gate9_ids": { "first": "RES-R706-G9-AC01", "last": "RES-R706-G9-AC14", "unique_count": 14 },
+    "dependency_ids": { "first": "RES-R706-G6-D01", "last": "RES-R706-G6-D09", "unique_count": 9 },
+    "site_scope_surfaces": ["query/data", "route", "cache", "menu", "SEO", "form", "media"],
+    "candidate_referenced_repository_paths_missing_after_self_check_creation": 0,
+    "d16_path_references": 0,
+    "current_manifest_sha256": "8e582e6ce3195939de99b684f919fef847493e4c9a7ba688fc3e447c3f5dcfa0",
+    "protected_manifest_written": false,
+    "project_status_written": false,
+    "project_index_written": false
+  },
+  "findings": { "required": 0, "advisory": 0 },
+  "open_dependencies": 9,
+  "limits": [
+    "File identity and string/reference checks do not prove semantic correctness.",
+    "No production implementation, external-source currency, receiver delivery, browser, device, assistive-technology or publication behavior was tested.",
+    "This is author self-check evidence and is not an independent Gate 6 PASS or closure."
+  ]
+}

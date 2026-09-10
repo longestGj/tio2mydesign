@@ -1,0 +1,84 @@
+{
+  "schema": "gate6-targeted-revision-author-self-check-v1",
+  "page_id": "RES-CHEMOURS",
+  "dispatch_id": "G6-RES-A-EXEC-01",
+  "author": "/root/g6_res_r706_chemours",
+  "date": "2026-09-08",
+  "status": "READY_FOR_TARGETED_RECHECK",
+  "independent_recheck_status": "NOT_PERFORMED_BY_AUTHOR",
+  "finding": {
+    "id": "RES-CHEMOURS-G6-IR-F01",
+    "state": "ADDRESSED_IN_V0.2_PENDING_INDEPENDENT_TARGETED_RECHECK",
+    "obsolete_review_id_source": "V0.1 independent Finding RES-CHEMOURS-G6-IR-F01",
+    "authoritative_review_id": "G5-9PAGE-REVIEW-20260907-01/RES-CHEMOURS/INITIAL"
+  },
+  "authoritative_sources": {
+    "gate5_report": {
+      "path": "pages/resources/chemours-alternatives/05_review/gate5-independent-v0.1/report.md",
+      "bytes": 13593,
+      "sha256": "0d48b3f38aed22b77a4799225b186ac5537a9383169b9f985ba7944b4e56a23d"
+    },
+    "controller_closure": {
+      "path": "pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE5_CONTROLLER_ACCEPTANCE_AND_VISUAL_CLOSURE_V0.1.md",
+      "bytes": 7107,
+      "sha256": "91880e76d6d396138229d4fdecb28d1748f3eab418ae1be63467611d2a978635"
+    },
+    "gate6_independent_review": {
+      "path": "pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE6_INDEPENDENT_REVIEW_V0.1.md",
+      "bytes": 6958,
+      "sha256": "7e18fb242cb51825e10f84f08ab2f36acccb1b5dbebe9f4c3e0d054151e79a95"
+    }
+  },
+  "revised_artifacts": {
+    "execution_report": {
+      "path": "pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE6_EXECUTION_REPORT_V0.2.md",
+      "bytes": 5938,
+      "sha256": "ad78861e48740602ddf7b669c748e8e41766e55d34af727a674882a3bff87754"
+    },
+    "candidate_handoff": {
+      "path": "pages/resources/chemours-alternatives/06_handoff/RES-CHEMOURS_GATE6_HANDOFF_PACKAGE_V0.2.md",
+      "bytes": 20180,
+      "sha256": "708568bb8c03585856a66e48fc9f98ec53a359564d697f021d5c613c2105bd9c"
+    },
+    "revision_response": {
+      "path": "pages/resources/chemours-alternatives/05_review/RES-CHEMOURS_GATE6_TARGETED_REVISION_RESPONSE_V0.2.md",
+      "bytes": 3412,
+      "sha256": "943570c9a99184989051af83cb5dc75f87de51b969e9884629905c279462005e"
+    }
+  },
+  "verification": {
+    "obsolete_id_occurrences_in_v0_2_report_and_package": 0,
+    "authoritative_id_occurrences": {
+      "v0_2_execution_report": 1,
+      "v0_2_candidate_handoff": 1,
+      "gate5_report": 1,
+      "controller_closure": 1
+    },
+    "unchanged_contract_regions": {
+      "execution_report_section_2_byte_equal_to_v0_1": true,
+      "execution_report_section_3_diff_limited_to_self_check_pointer_version": true,
+      "candidate_handoff_sections_2_through_9_byte_equal_to_v0_1": true
+    },
+    "stable_gate9_ids": { "first": "RES-CHEMOURS-G9-AC01", "last": "RES-CHEMOURS-G9-AC13", "unique_count": 13, "contiguous": true },
+    "dependency_ids": { "first": "RES-CHEMOURS-G6-D01", "last": "RES-CHEMOURS-G6-D08", "unique_count": 8, "contiguous": true },
+    "execution_path": "FAST_PATH_UNCHANGED",
+    "visual_recapture": false,
+    "candidate_repository_path_references_missing_after_self_check_creation": 0,
+    "current_manifest_sha256": "6580b028637a5283b058393190c39daad4dbefde106c9c76596eb791d1750403",
+    "protected_manifest_written": false,
+    "project_status_written": false,
+    "project_index_written": false,
+    "d16_written_or_inspected": false
+  },
+  "commands": [
+    "Get-FileHash -Algorithm SHA256 -LiteralPath <V0.1, V0.2, upstream and protected inputs>",
+    "PowerShell regex count for obsolete and authoritative Gate 5 review IDs",
+    "PowerShell section extraction and ordinal byte comparison for unchanged contract regions",
+    "PowerShell regex set/contiguity validation for RES-CHEMOURS-G9-ACnn and RES-CHEMOURS-G6-Dnn",
+    "PowerShell inline repository-path existence check"
+  ],
+  "limits": [
+    "This self-check proves document identity and bounded structural preservation only.",
+    "It is not an independent targeted recheck, Finding closure, Gate 6 closure, implementation test or release approval."
+  ]
+}

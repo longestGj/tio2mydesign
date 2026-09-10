@@ -1,0 +1,268 @@
+{
+  "source": {
+    "path": "D:/23MySec/pages/resources/india-trade/04_planning/gate4-v0.1/RES-TRADE-IN_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "sha256": "617d8371fa0e73dc14e571ce9b3c75c8d84390c638e19039487db4f432e5d833"
+  },
+  "approved_B": {
+    "path": "D:/23MySec/pages/resources/india-trade/04_planning/RES-TRADE-IN_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+    "sha256": "1234d6f2b0615aa5da488ef51dde282251e175315d9f34e140080e7e3a65252a"
+  },
+  "reviewer": "/root/g5_trade_in",
+  "scope": "Resolve raw TH overflow diagnostic; independent B parse, shared assembly, state target and wheel checks, 200% effective reflow and contrast.",
+  "checks": [
+    {
+      "name": "shared owner header exact",
+      "pass": true
+    },
+    {
+      "name": "shared owner footer exact",
+      "pass": true
+    },
+    {
+      "name": "shared owner dialog exact",
+      "pass": true
+    },
+    {
+      "name": "shared owner style exact",
+      "pass": true
+    },
+    {
+      "name": "shared owner behavior exact",
+      "pass": true
+    },
+    {
+      "name": "1440 independent B complete exact",
+      "pass": true,
+      "detail": {
+        "blocks": 131,
+        "links": 11
+      }
+    },
+    {
+      "name": "1440 modal targets",
+      "pass": true
+    },
+    {
+      "name": "768 independent B complete exact",
+      "pass": true,
+      "detail": {
+        "blocks": 131,
+        "links": 11
+      }
+    },
+    {
+      "name": "768 keyboard menu entry visible focus",
+      "pass": true
+    },
+    {
+      "name": "768 menu targets",
+      "pass": true
+    },
+    {
+      "name": "768 menu wheel lock",
+      "pass": true
+    },
+    {
+      "name": "768 modal targets",
+      "pass": true
+    },
+    {
+      "name": "390 independent B complete exact",
+      "pass": true,
+      "detail": {
+        "blocks": 131,
+        "links": 11
+      }
+    },
+    {
+      "name": "390 raw TH overflow is intentional clipped accessibility header",
+      "pass": true
+    },
+    {
+      "name": "390 keyboard menu entry visible focus",
+      "pass": true
+    },
+    {
+      "name": "390 menu targets",
+      "pass": true
+    },
+    {
+      "name": "390 menu wheel lock",
+      "pass": true
+    },
+    {
+      "name": "390 modal targets",
+      "pass": true
+    },
+    {
+      "name": "200% effective reflow",
+      "pass": true
+    },
+    {
+      "name": "200% menu last item reachable",
+      "pass": true
+    },
+    {
+      "name": "200% dialog fits",
+      "pass": true
+    },
+    {
+      "name": "contrast 334155/FFFFFF",
+      "pass": true
+    },
+    {
+      "name": "contrast 334155/F5F8FB",
+      "pass": true
+    },
+    {
+      "name": "contrast 062B5B/FFFFFF",
+      "pass": true
+    },
+    {
+      "name": "contrast 062B5B/F5F8FB",
+      "pass": true
+    },
+    {
+      "name": "contrast 008078/FFFFFF",
+      "pass": true
+    },
+    {
+      "name": "contrast 008078/F5F8FB",
+      "pass": true
+    },
+    {
+      "name": "contrast FFFFFF/062B5B",
+      "pass": true
+    },
+    {
+      "name": "contrast FFFFFF/008078",
+      "pass": true
+    },
+    {
+      "name": "contrast D4E0EB/031B3A",
+      "pass": true
+    },
+    {
+      "name": "contrast FFFFFF/031B3A",
+      "pass": true
+    }
+  ],
+  "browser": "152.0.7977.82",
+  "expectedBlockCount": 131,
+  "cookie1440": {
+    "width": 560,
+    "height": 271,
+    "scrollHeight": 269,
+    "clientHeight": 269
+  },
+  "cookie768": {
+    "width": 560,
+    "height": 271,
+    "scrollHeight": 269,
+    "clientHeight": 269
+  },
+  "rawOverflowResolution": {
+    "clip": "inset(50%)",
+    "overflow": "clip",
+    "width": 1,
+    "height": 1,
+    "scrollWidth": 390,
+    "headers": [
+      {
+        "text": "DGTR row",
+        "x": 20.5,
+        "right": 93.421875
+      },
+      {
+        "text": "Country of origin",
+        "x": 93.421875,
+        "right": 184.8125
+      },
+      {
+        "text": "Country of export",
+        "x": 184.8125,
+        "right": 276.203125
+      },
+      {
+        "text": "Producer condition",
+        "x": 276.203125,
+        "right": 377.078125
+      },
+      {
+        "text": "Recommended amount",
+        "x": 377.078125,
+        "right": 521.671875
+      }
+    ]
+  },
+  "cookie390": {
+    "width": 352,
+    "height": 367,
+    "scrollHeight": 365,
+    "clientHeight": 365
+  },
+  "zoomEquivalent": {
+    "type": "ACTUAL_RUNTIME_EFFECTIVE_VIEWPORT",
+    "equivalence": "1440x900 at 200% = 720x450 CSS viewport, DPR2; browser UI zoom/physical device not claimed",
+    "geometry": {
+      "width": 720,
+      "height": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "clipped": 0
+    }
+  },
+  "contrast": [
+    {
+      "fg": "334155",
+      "bg": "FFFFFF",
+      "ratio": 10.35474573184942
+    },
+    {
+      "fg": "334155",
+      "bg": "F5F8FB",
+      "ratio": 9.714952160628796
+    },
+    {
+      "fg": "062B5B",
+      "bg": "FFFFFF",
+      "ratio": 13.959419428188236
+    },
+    {
+      "fg": "062B5B",
+      "bg": "F5F8FB",
+      "ratio": 13.09690217866694
+    },
+    {
+      "fg": "008078",
+      "bg": "FFFFFF",
+      "ratio": 4.817749371824569
+    },
+    {
+      "fg": "008078",
+      "bg": "F5F8FB",
+      "ratio": 4.5200728131076575
+    },
+    {
+      "fg": "FFFFFF",
+      "bg": "062B5B",
+      "ratio": 13.959419428188236
+    },
+    {
+      "fg": "FFFFFF",
+      "bg": "008078",
+      "ratio": 4.817749371824569
+    },
+    {
+      "fg": "D4E0EB",
+      "bg": "031B3A",
+      "ratio": 12.818823354682511
+    },
+    {
+      "fg": "FFFFFF",
+      "bg": "031B3A",
+      "ratio": 17.188562557698454
+    }
+  ],
+  "finished": "2026-09-07T11:47:07.526Z"
+}

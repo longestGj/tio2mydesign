@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-07",
+  "scope": "source format, links, archives, shared identity; six synthetic cases separately summarized in Markdown; no runtime QA",
+  "checks": [
+    {
+      "check": "archive exact agents/gate9-read-only-acceptance/agent.md",
+      "pass": true
+    },
+    {
+      "check": "archive exact skills/runtime-implementation-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "archive exact skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "pass": true
+    },
+    {
+      "check": "archive exact agents/README.md",
+      "pass": true
+    },
+    {
+      "check": "archive exact skills/README.md",
+      "pass": true
+    },
+    {
+      "check": "shared unchanged skills/layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "shared unchanged skills/page-contract-consistency-review/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../docs/superpowers/specs/2026-09-07-gate9-agent-design-v0.1.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../docs/superpowers/specs/2026-09-07-gate9-poland-improvements-v0.1.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../docs/superpowers/specs/2026-09-07-gate9-runtime-skill-validation-v0.1.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../90_archive/project-governance/2026-09-07-gate9-poland-improvements/agents/gate9-read-only-acceptance/agent.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../PROJECT_CONTEXT.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../skills/runtime-implementation-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "agents/gate9-read-only-acceptance/agent.md -> ../../skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "pass": true
+    },
+    {
+      "check": "skills/runtime-implementation-verification/SKILL.md -> references/gate9-method-integration.md",
+      "pass": true
+    },
+    {
+      "check": "skills/runtime-implementation-verification/references/gate9-method-integration.md -> ../../layout-interaction-verification/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "skills/runtime-implementation-verification/references/gate9-method-integration.md -> ../../page-contract-consistency-review/SKILL.md",
+      "pass": true
+    }
+  ],
+  "failures": 0,
+  "currentSources": [
+    {
+      "path": "agents/gate9-read-only-acceptance/agent.md",
+      "sha256": "800a99767c333801a83666cecd4ddd24ff100d9e6b7fd4fb3977919dde5d64b0"
+    },
+    {
+      "path": "skills/runtime-implementation-verification/SKILL.md",
+      "sha256": "96676dff31c4e4122c8361dde55f50ccef19cebfbd4dcd2bdfacf7542eed4e96"
+    },
+    {
+      "path": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "sha256": "47e41d376378e91257cddf2edddf9bc8e0bf64455279424eadde33f7ae17e78c"
+    }
+  ],
+  "indexArchiveSha256": "9f369cadfe0456fd0f1e9e829d0a748d6b28ee3312a7fe964a84617625bd1939",
+  "skillQuickValidate": "Skill is valid!",
+  "scenarioEvaluation": {
+    "evaluator": "gate9_revision_validation",
+    "freshContexts": 1,
+    "cases": 6,
+    "materialContradictions": 0,
+    "controlledComparison": false
+  }
+}

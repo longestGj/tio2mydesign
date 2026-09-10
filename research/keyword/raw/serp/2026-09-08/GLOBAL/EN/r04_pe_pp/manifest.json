@@ -1,0 +1,40 @@
+{
+  "source_id": "SERP-GLOBAL-R04-PE-PP-20260908",
+  "source_type": "serp",
+  "source_name": "Web search raw responses for R04 PE, PP and polyolefin intent",
+  "source_url": "Search engine queries via web research tool",
+  "query_or_keyword_set": [
+    "titanium dioxide for PE plastic",
+    "titanium dioxide for PP plastic",
+    "titanium dioxide for polyolefin plastics",
+    "titanium dioxide polyethylene vs polypropylene pigment comparison",
+    "TiO2 PE PP plastics comparison opacity dispersion processing",
+    "titanium dioxide polypropylene applications white pigment masterbatch technical guide",
+    "titanium dioxide polyethylene polypropylene pigment dispersion opacity processing study",
+    "TiO2 polyethylene polypropylene UV weathering degradation pigment study",
+    "titanium dioxide polyolefin masterbatch PE PP carrier compatibility"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "web search",
+  "device": "Unavailable",
+  "captured_at": "2026-09-08",
+  "data_date_shown_by_source": "Varies by result",
+  "capture_method": "Complete raw responses returned by web search serialized as JSON before analysis",
+  "files": {
+    "original_pe_query_web_search.json": {"bytes": 33643, "sha256": "90025adc3daa13da3cc6a743aacb71c3c3ee1f2c23e933aec2be608cc3a64ff0"},
+    "original_pp_query_web_search.json": {"bytes": 34656, "sha256": "7c41e0dc2edc113354ad1380fef7c4329e06154688b373349b39025bd82b92e3"},
+    "original_polyolefin_query_web_search.json": {"bytes": 35730, "sha256": "c9a82445b9c0d8ae8da1ba2ef6be49aef48daf9ea132ca4d841b5fcfe5942296"},
+    "expanded_queries_web_search.json": {"bytes": 35656, "sha256": "fc3f763bb0edc035dd7205b1c949293d4ee6a3821e97c40e14b890989d6cceb7"},
+    "comparison_queries_web_search.json": {"bytes": 34879, "sha256": "3b841d8d4f9d4cb5fb8c879c4d9335f3e901f69c3dc9bf715d31d36c4ad2149d"}
+  },
+  "completeness_status": "COMPLETE_WITH_LIMITATIONS",
+  "limitations": [
+    "These are general web results, not controlled local Google SERPs; location, personalization, ads and SERP features are unavailable.",
+    "PE and PP abbreviations are ambiguous and produce unrelated polyethylene products, polypropylene products, nanoparticle and academic-composite results.",
+    "No Semrush export or current Volume, KD, CPC or trend is available; all such metrics remain Unavailable.",
+    "Supplier and masterbatch claims are intent/vocabulary evidence only, not TiO2 Malaysia product evidence."
+  ],
+  "sha256_verified": true,
+  "eligible_for_analysis": true
+}

@@ -1,0 +1,40 @@
+{
+  "source_id": "TECH-GLOBAL-R03-POWDER-COATINGS-20260908",
+  "source_type": "official_and_primary_technical",
+  "source_name": "R03 Powder Coatings standards and primary technical evidence capture",
+  "source_url": "ASTM official pages and publisher article records",
+  "query_or_keyword_set": [
+    "ASTM D3451 powder coatings testing guide",
+    "ASTM D6441 hiding power powder coatings",
+    "ASTM D5382 optical properties powder coatings",
+    "ASTM D7378 coating powder thickness",
+    "titanium dioxide powder coating gloss pigment loading extrusion",
+    "powder-coating TiO2 dispersion block copolymer"
+  ],
+  "market": "GLOBAL",
+  "language": "EN",
+  "database": "official standards and publisher pages",
+  "device": "Unavailable",
+  "captured_at": "2026-09-08T07:16:50.2025321+08:00",
+  "data_date_shown_by_source": "ASTM pages current through 2024-2025; journal records 1999 and 2011",
+  "capture_method": "Complete raw search and open responses serialized as JSON before analysis",
+  "files": {
+    "technical_authority_search.json": {
+      "bytes": 34638,
+      "sha256": "9621bcf69b54e1a025f5eb99009d69eaad98f799c2735bf7eea92af967223405"
+    },
+    "technical_authority_pages.json": {
+      "bytes": 30667,
+      "sha256": "65db84eb21bffcf3cdec6878e909e5ba56c549f73cab2304ef657db2addf5646"
+    }
+  },
+  "completeness_status": "COMPLETE_WITH_LIMITATIONS",
+  "limitations": [
+    "ASTM public pages expose title, active version, scope and significance but not the paid full standard procedures.",
+    "The D5382 and D7378 opens returned only limited page representation in this capture.",
+    "Direct opens of two publisher records returned internal errors; their complete search-result records remain preserved in technical_authority_search.json.",
+    "Study-specific numerical conditions are not universal formulation targets or TiO2 Malaysia Grade evidence."
+  ],
+  "sha256_verified": true,
+  "eligible_for_analysis": true
+}

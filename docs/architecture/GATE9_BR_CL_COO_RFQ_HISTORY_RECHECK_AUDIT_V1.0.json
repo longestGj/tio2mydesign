@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "auditId": "G9-BR-CL-COO-RFQ-HISTORY-AUDIT-20260908-01",
+  "recheckId": "G9-BR-CL-COO-FOUR-TARGETED-RECHECK-20260908-01",
+  "repository": "D:\\16Wordpress_nextjs",
+  "branch": "codex/poland-development",
+  "implementationCommit": "c8b11ced84119578edb3f0ef8e27d25cf11e7eb5",
+  "evidenceHead": "86a2d00fe48b73cdb20b1b65e03e7720f1f46cc4",
+  "buildDirectory": ".next-g9-four-return",
+  "buildId": "2IMF284tCfKor6WTwWdXq",
+  "siteId": "tio2-my",
+  "runtime": "http://127.0.0.1:3024",
+  "d16StatusClean": true,
+  "d16Evidence": {
+    "vitest": { "files": 9, "suitesPassed": 17, "suitesTotal": 17, "testsPassed": 35, "testsTotal": 35 },
+    "playwright": { "expected": 4, "unexpected": 0, "flaky": 0, "skipped": 0 },
+    "continuity": { "rounds": 10, "responses200": 40, "requests": 40, "errors": 0 }
+  },
+  "independentChecks": [
+    {
+      "finding": "BR-EN-G9-F03",
+      "result": "PASS_CLOSED",
+      "fresh": "Brazil",
+      "editedAndRestored": "Chile",
+      "contactRestored": "",
+      "intentionalClearRestored": "",
+      "directRevisit": "Brazil",
+      "historyDraftKeys": ["destination_country"],
+      "sourcePageId": "MARKET-BR-EN",
+      "contactFieldsInHistory": false
+    },
+    {
+      "finding": "BR-PT-G9-F02",
+      "result": "PASS_CLOSED",
+      "fresh": "Brazil",
+      "editedAndRestored": "Argentina",
+      "contactRestored": "",
+      "intentionalClearRestored": "",
+      "directRevisit": "Brazil",
+      "historyDraftKeys": ["destination_country"],
+      "sourcePageId": "MARKET-BR-PT",
+      "contactFieldsInHistory": false
+    }
+  ],
+  "adjacentRouteObservation": {
+    "applicationPathsWithTrailingSlash": "HTTP_308_TO_NO_TRAILING_SLASH",
+    "masterbatchDestination": "HTTP_404_WITHOUT_TIMEOUT",
+    "effectOnRfQFindings": "NONE",
+    "existingRouteFindingsRemainOpen": ["BR-EN-G9-F02", "BR-PT-G9-F01"]
+  },
+  "realFormSubmissionPerformed": false,
+  "conclusion": "RFQ_HISTORY_FINDINGS_CLOSED_PAGE_GATE9_STILL_NOT_PASS"
+}

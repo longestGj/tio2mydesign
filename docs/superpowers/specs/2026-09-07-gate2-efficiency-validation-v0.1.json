@@ -1,0 +1,145 @@
+{
+  "scope": "author static verification; no page trial or measured speedup",
+  "changes": {
+    "docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.5.md": {
+      "after": "0c52d121ba2026bce24741ff79a3cf5babd0c2cb7d3fc5342732f90f673a75cc"
+    },
+    "agents/gate2-execution/agent.md": {
+      "before": "bcbc6840f3ed562f3195e6e03b9f5ec24bc2a76d150cc97cad1f84785bcf3c92",
+      "after": "5f6583f0cab2c551b19de9fd7f356bde89d9531fa6ced0cac17396d48a989eca"
+    },
+    "agents/gate2-review/agent.md": {
+      "before": "739d35e826a3cd0379ba571cfc8428aadc073e860484f0efe0dcc3f8adc0a1ad",
+      "after": "6e71a8c3c5f1249a250711390af310693ba203e54bd8136fb2aee8d258782258"
+    },
+    "01_PROJECT_INDEX.md": {
+      "before": "df4e133bd1b4f2ff955800690786ead00c42e1e0c195dfac93dee313b36e4e08",
+      "after": "95be420f973b877acb25af25ab5f3a6ed117135956abc9dc9352fbdfbb68e2c5"
+    },
+    "agents/README.md": {
+      "before": "b0c59c892fb9fd48c84957c4640fa4263d1b145e82a7fc80e1eb89744f3e2587",
+      "after": "8b898ce0baa28e205fcb1ba83ff42d5193c389cef2f93c9cb89f59b42133e1c9"
+    }
+  },
+  "checks": [
+    {
+      "check": "backup identity agents/gate2-execution/agent.md",
+      "pass": true
+    },
+    {
+      "check": "backup identity agents/gate2-review/agent.md",
+      "pass": true
+    },
+    {
+      "check": "backup identity 01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "check": "backup identity agents/README.md",
+      "pass": true
+    },
+    {
+      "check": "skeleton actual content",
+      "pass": true
+    },
+    {
+      "check": "full copy full scan",
+      "pass": true
+    },
+    {
+      "check": "controller reads full copy",
+      "pass": true
+    },
+    {
+      "check": "independent review retained",
+      "pass": true
+    },
+    {
+      "check": "user approval retained",
+      "pass": true
+    },
+    {
+      "check": "no preference blocker",
+      "pass": true
+    },
+    {
+      "check": "real minor closure",
+      "pass": true
+    },
+    {
+      "check": "targeted recheck",
+      "pass": true
+    },
+    {
+      "check": "semantic full reread",
+      "pass": true
+    },
+    {
+      "check": "no self approval",
+      "pass": true
+    },
+    {
+      "check": "batch scope preserved",
+      "pass": true
+    },
+    {
+      "check": "no new skill",
+      "pass": true
+    },
+    {
+      "check": "current navigation 01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "check": "current navigation agents/README.md",
+      "pass": true
+    },
+    {
+      "check": "local links",
+      "pass": true
+    }
+  ],
+  "missing_links": [],
+  "scenario_walkthrough": [
+    {
+      "case": "骨架核心CTA误导",
+      "expected": "本轮required修正，不以骨架轻量为由延期",
+      "basis": "V0.5 §9"
+    },
+    {
+      "case": "骨架两个同样清楚的候选措辞",
+      "expected": "SUGGESTION，不阻塞方向确认",
+      "basis": "V0.5 §10"
+    },
+    {
+      "case": "同轮发现三处语法问题",
+      "expected": "完整扫描后集中返修，逐Finding定向独立复核，不升级语义未变C",
+      "basis": "V0.5 §5、10、11"
+    },
+    {
+      "case": "总控发现来源谓词扩大",
+      "expected": "修订并重读完整交付及受影响合同，C按语义升版",
+      "basis": "V0.5 §5、9、10"
+    },
+    {
+      "case": "Reviewer PASS但总控发现覆盖缺口",
+      "expected": "补足实际范围，不能自动接受PASS",
+      "basis": "V0.5 §9"
+    },
+    {
+      "case": "新Reviewer接手旧输入摘要",
+      "expected": "首次读原始内容与依据，不能视为已读",
+      "basis": "V0.5 §10"
+    },
+    {
+      "case": "既有批次只在全文末统一用户确认",
+      "expected": "继承原授权，不新增骨架等待",
+      "basis": "V0.5 §9"
+    },
+    {
+      "case": "用户未批准Full Copy",
+      "expected": "保留待用户批准，不套用Gate346常设关闭",
+      "basis": "V0.5 §2"
+    }
+  ]
+}

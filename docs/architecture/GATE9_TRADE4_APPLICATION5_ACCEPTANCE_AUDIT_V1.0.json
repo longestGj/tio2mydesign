@@ -1,0 +1,429 @@
+{
+  "schemaVersion": "gate9-independent-acceptance-v0.1",
+  "controlId": "G9-TRADE4-APP5-20260908-01",
+  "reviewedAt": "2026-09-08",
+  "candidate": {
+    "authorization": "G8-TRADE4-APP5-20260908-01",
+    "implementationCommit": "4fa585bc125c7b8fa926ab66059f4fc6887877f4",
+    "evidenceCommit": "58af74dbe44b4ccaafe517d592ecae5d5ff37ef2",
+    "buildId": "1AwBNw0A1szLVVlTyLyQU",
+    "runtime": "http://127.0.0.1:3226",
+    "siteScope": "tio2-my"
+  },
+  "observations": {
+    "viewportsChecked": 27,
+    "cmsExactReadbacks": 9,
+    "internalBrokenTargets": [
+      {
+        "path": "/applications/",
+        "instances": 28,
+        "status": 404
+      },
+      {
+        "path": "/markets/brazil/",
+        "instances": 2,
+        "status": 404
+      },
+      {
+        "path": "/pt-br/markets/brazil/",
+        "instances": 1,
+        "status": 404
+      }
+    ],
+    "provisionalApplicationsWithProductionCanonical": [
+      "APP-COAT",
+      "APP-PLAS",
+      "APP-MB",
+      "APP-INK",
+      "APP-PAPER"
+    ],
+    "definiteExternal404": [
+      "https://www.gov.uk/guidance/trade-remedies"
+    ],
+    "realSubmissionsPerformed": 0,
+    "nonChromiumResult": "NOT_VERIFIED_BROWSER_BINARY_ABSENT"
+  },
+  "pages": {
+    "RES-TRADE-EU": {
+      "acceptance": {
+        "PASS": [
+          "RES-TRADE-EU-G9-AC01",
+          "RES-TRADE-EU-G9-AC02",
+          "RES-TRADE-EU-G9-AC03",
+          "RES-TRADE-EU-G9-AC05",
+          "RES-TRADE-EU-G9-AC06",
+          "RES-TRADE-EU-G9-AC08",
+          "RES-TRADE-EU-G9-AC09",
+          "RES-TRADE-EU-G9-AC10",
+          "RES-TRADE-EU-G9-AC12",
+          "RES-TRADE-EU-G9-AC13",
+          "RES-TRADE-EU-G9-AC14"
+        ],
+        "FAIL": [
+          "RES-TRADE-EU-G9-AC04"
+        ],
+        "NOT_VERIFIED": [
+          "RES-TRADE-EU-G9-AC07",
+          "RES-TRADE-EU-G9-AC11"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "RES-TRADE-EU-G6-D01",
+          "RES-TRADE-EU-G6-D02",
+          "RES-TRADE-EU-G6-D05",
+          "RES-TRADE-EU-G6-D06",
+          "RES-TRADE-EU-G6-D08"
+        ],
+        "FAIL": [
+          "RES-TRADE-EU-G6-D04"
+        ],
+        "NOT_VERIFIED": [
+          "RES-TRADE-EU-G6-D03",
+          "RES-TRADE-EU-G6-D07"
+        ],
+        "N/A": []
+      }
+    },
+    "RES-TRADE-UK": {
+      "acceptance": {
+        "PASS": [
+          "UK-G6-AC01",
+          "UK-G6-AC02",
+          "UK-G6-AC03",
+          "UK-G6-AC07",
+          "UK-G6-AC08",
+          "UK-G6-AC09",
+          "UK-G6-AC11",
+          "UK-G6-AC13"
+        ],
+        "FAIL": [
+          "UK-G6-AC04",
+          "UK-G6-AC05"
+        ],
+        "NOT_VERIFIED": [
+          "UK-G6-AC06",
+          "UK-G6-AC10",
+          "UK-G6-AC12"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "UK-G6-D01",
+          "UK-G6-D03",
+          "UK-G6-D04",
+          "UK-G6-D05"
+        ],
+        "FAIL": [
+          "UK-G6-D02"
+        ],
+        "NOT_VERIFIED": [],
+        "N/A": []
+      }
+    },
+    "RES-TRADE-IN": {
+      "acceptance": {
+        "PASS": [
+          "RES-TRADE-IN-G9-AC01",
+          "RES-TRADE-IN-G9-AC02",
+          "RES-TRADE-IN-G9-AC03",
+          "RES-TRADE-IN-G9-AC04",
+          "RES-TRADE-IN-G9-AC07",
+          "RES-TRADE-IN-G9-AC09",
+          "RES-TRADE-IN-G9-AC11",
+          "RES-TRADE-IN-G9-AC12"
+        ],
+        "FAIL": [
+          "RES-TRADE-IN-G9-AC08"
+        ],
+        "NOT_VERIFIED": [
+          "RES-TRADE-IN-G9-AC05",
+          "RES-TRADE-IN-G9-AC06",
+          "RES-TRADE-IN-G9-AC10"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "RES-TRADE-IN-G6-D01",
+          "RES-TRADE-IN-G6-D02",
+          "RES-TRADE-IN-G6-D05"
+        ],
+        "FAIL": [
+          "RES-TRADE-IN-G6-D04"
+        ],
+        "NOT_VERIFIED": [
+          "RES-TRADE-IN-G6-D03",
+          "RES-TRADE-IN-G6-D06",
+          "RES-TRADE-IN-G6-D07"
+        ],
+        "N/A": []
+      }
+    },
+    "RES-TRADE-BR": {
+      "acceptance": {
+        "PASS": [
+          "BRTRADE-G9-01",
+          "BRTRADE-G9-02",
+          "BRTRADE-G9-03",
+          "BRTRADE-G9-08",
+          "BRTRADE-G9-09",
+          "BRTRADE-G9-13"
+        ],
+        "FAIL": [
+          "BRTRADE-G9-05",
+          "BRTRADE-G9-06",
+          "BRTRADE-G9-11"
+        ],
+        "NOT_VERIFIED": [
+          "BRTRADE-G9-04",
+          "BRTRADE-G9-07",
+          "BRTRADE-G9-10",
+          "BRTRADE-G9-12"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "BRTRADE-DEP-01"
+        ],
+        "FAIL": [
+          "BRTRADE-DEP-02",
+          "BRTRADE-DEP-04"
+        ],
+        "NOT_VERIFIED": [
+          "BRTRADE-DEP-03",
+          "BRTRADE-DEP-05"
+        ],
+        "N/A": [
+          "BRTRADE-DEP-06"
+        ]
+      }
+    },
+    "APP-COAT": {
+      "acceptance": {
+        "PASS": [
+          "APP-COAT-G9-AC01",
+          "APP-COAT-G9-AC02",
+          "APP-COAT-G9-AC03",
+          "APP-COAT-G9-AC05",
+          "APP-COAT-G9-AC07",
+          "APP-COAT-G9-AC09",
+          "APP-COAT-G9-AC11",
+          "APP-COAT-G9-AC13"
+        ],
+        "FAIL": [
+          "APP-COAT-G9-AC04",
+          "APP-COAT-G9-AC08",
+          "APP-COAT-G9-AC12"
+        ],
+        "NOT_VERIFIED": [
+          "APP-COAT-G9-AC06",
+          "APP-COAT-G9-AC10"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "APP-COAT-G6-D01",
+          "APP-COAT-G6-D04",
+          "APP-COAT-G6-D05",
+          "APP-COAT-G6-D08"
+        ],
+        "FAIL": [
+          "APP-COAT-G6-D03"
+        ],
+        "NOT_VERIFIED": [
+          "APP-COAT-G6-D02",
+          "APP-COAT-G6-D06",
+          "APP-COAT-G6-D07"
+        ],
+        "N/A": []
+      }
+    },
+    "APP-PLAS": {
+      "acceptance": {
+        "PASS": [
+          "APP-PLAS-G9-AC01",
+          "APP-PLAS-G9-AC03",
+          "APP-PLAS-G9-AC05",
+          "APP-PLAS-G9-AC08",
+          "APP-PLAS-G9-AC10",
+          "APP-PLAS-G9-AC12",
+          "APP-PLAS-G9-AC14"
+        ],
+        "FAIL": [
+          "APP-PLAS-G9-AC02",
+          "APP-PLAS-G9-AC04",
+          "APP-PLAS-G9-AC09",
+          "APP-PLAS-G9-AC13"
+        ],
+        "NOT_VERIFIED": [
+          "APP-PLAS-G9-AC06",
+          "APP-PLAS-G9-AC07",
+          "APP-PLAS-G9-AC11"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "APP-PLAS-G6-D02",
+          "APP-PLAS-G6-D05",
+          "APP-PLAS-G6-D08"
+        ],
+        "FAIL": [
+          "APP-PLAS-G6-D01",
+          "APP-PLAS-G6-D04"
+        ],
+        "NOT_VERIFIED": [
+          "APP-PLAS-G6-D03",
+          "APP-PLAS-G6-D06",
+          "APP-PLAS-G6-D07"
+        ],
+        "N/A": []
+      }
+    },
+    "APP-MB": {
+      "acceptance": {
+        "PASS": [
+          "APP-MB-G9-AC01",
+          "APP-MB-G9-AC02",
+          "APP-MB-G9-AC03",
+          "APP-MB-G9-AC04",
+          "APP-MB-G9-AC05",
+          "APP-MB-G9-AC07",
+          "APP-MB-G9-AC08",
+          "APP-MB-G9-AC09",
+          "APP-MB-G9-AC10",
+          "APP-MB-G9-AC12"
+        ],
+        "FAIL": [
+          "APP-MB-G9-AC11",
+          "APP-MB-G9-AC13"
+        ],
+        "NOT_VERIFIED": [
+          "APP-MB-G9-AC06",
+          "APP-MB-G9-AC14"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "APP-MB-G6-D02",
+          "APP-MB-G6-D03",
+          "APP-MB-G6-D08"
+        ],
+        "FAIL": [
+          "APP-MB-G6-D01",
+          "APP-MB-G6-D05"
+        ],
+        "NOT_VERIFIED": [
+          "APP-MB-G6-D04",
+          "APP-MB-G6-D06",
+          "APP-MB-G6-D07"
+        ],
+        "N/A": []
+      }
+    },
+    "APP-INK": {
+      "acceptance": {
+        "PASS": [
+          "APP-INK-G9-AC01",
+          "APP-INK-G9-AC02",
+          "APP-INK-G9-AC03",
+          "APP-INK-G9-AC05",
+          "APP-INK-G9-AC07",
+          "APP-INK-G9-AC11",
+          "APP-INK-G9-AC13"
+        ],
+        "FAIL": [
+          "APP-INK-G9-AC04",
+          "APP-INK-G9-AC08",
+          "APP-INK-G9-AC12"
+        ],
+        "NOT_VERIFIED": [
+          "APP-INK-G9-AC06",
+          "APP-INK-G9-AC09",
+          "APP-INK-G9-AC10"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "APP-INK-G6-D04",
+          "APP-INK-G6-D05",
+          "APP-INK-G6-D08"
+        ],
+        "FAIL": [
+          "APP-INK-G6-D01",
+          "APP-INK-G6-D03"
+        ],
+        "NOT_VERIFIED": [
+          "APP-INK-G6-D02",
+          "APP-INK-G6-D06",
+          "APP-INK-G6-D07"
+        ],
+        "N/A": []
+      }
+    },
+    "APP-PAPER": {
+      "acceptance": {
+        "PASS": [
+          "APP-PAPER-G9-AC01",
+          "APP-PAPER-G9-AC02",
+          "APP-PAPER-G9-AC03",
+          "APP-PAPER-G9-AC04",
+          "APP-PAPER-G9-AC05",
+          "APP-PAPER-G9-AC06",
+          "APP-PAPER-G9-AC08",
+          "APP-PAPER-G9-AC09",
+          "APP-PAPER-G9-AC10",
+          "APP-PAPER-G9-AC11",
+          "APP-PAPER-G9-AC13"
+        ],
+        "FAIL": [
+          "APP-PAPER-G9-AC12",
+          "APP-PAPER-G9-AC14"
+        ],
+        "NOT_VERIFIED": [
+          "APP-PAPER-G9-AC07",
+          "APP-PAPER-G9-AC15"
+        ],
+        "N/A": []
+      },
+      "dependencies": {
+        "PASS": [
+          "APP-PAPER-G6-D02",
+          "APP-PAPER-G6-D08"
+        ],
+        "FAIL": [
+          "APP-PAPER-G6-D01",
+          "APP-PAPER-G6-D05"
+        ],
+        "NOT_VERIFIED": [
+          "APP-PAPER-G6-D03",
+          "APP-PAPER-G6-D04",
+          "APP-PAPER-G6-D06",
+          "APP-PAPER-G6-D07"
+        ],
+        "N/A": []
+      }
+    }
+  },
+  "totals": {
+    "acceptance": {
+      "PASS": 76,
+      "FAIL": 21,
+      "NOT_VERIFIED": 24,
+      "N/A": 0
+    },
+    "dependencies": {
+      "PASS": 28,
+      "FAIL": 14,
+      "NOT_VERIFIED": 23,
+      "N/A": 1
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.0",
+  "reviewId": "ILR-PRERELEASE-58-20260909-01",
+  "workType": "INTERNAL_LINK_REVIEW",
+  "mode": "RUNTIME_REVIEW",
+  "generatedAt": "2026-09-09T00:55:46+08:00",
+  "result": "CHANGES_REQUIRED",
+  "independence": {
+    "role": "internal-link-review Agent V0.2",
+    "method": "internal-link-verification Skill V0.2",
+    "independentFromImplementationAndRepairAuthor": true,
+    "d16Mutations": 0,
+    "d23LifecycleOrManifestMutations": 0,
+    "formSubmissions": 0,
+    "businessWrites": 0
+  },
+  "runtimeIdentity": {
+    "baseUrl": "http://127.0.0.1:3100",
+    "siteScope": "tio2-my",
+    "implementationCommit": "98c2c573dd090048352fa12415a9cc8eeefc485b",
+    "gitWorktreeState": "clean",
+    "runId": "20260908T162630Z-98c2c573dd09",
+    "buildId": "QmeAVzHgLILD56DVWgAww",
+    "cmsSha256": "b1d425d1bd2d291e816cc54581dce5ae02070d945f34f2f55c10bde5c17dd2bd",
+    "identityDrift": false
+  },
+  "coverage": {
+    "registeredObjects": 59,
+    "authorizedReviewObjects": 58,
+    "excludedObjects": ["CONTACT-001"],
+    "expected": 58,
+    "actuallyChecked": 58,
+    "skipped": 0,
+    "sourceGet200": 57,
+    "sourceExpected404": 1,
+    "desktopSharedNavigationChecked": 58,
+    "mobileMenusOpenedAndChecked": 58,
+    "ssrLinkRoleInstances": 2310,
+    "hydratedLinkRoleInstances": 2343,
+    "hydratedAnchors": 2337,
+    "hydratedDisabledLinkRoles": 6,
+    "hydratedKinds": {
+      "internal_page": 2100,
+      "internal_fragment": 122,
+      "external": 100,
+      "mailto": 15,
+      "disabled_link_role": 6
+    },
+    "mainInternalPageInstances": 425,
+    "mainInternalPage200": 422,
+    "mainInternalPage404": 3,
+    "uniqueInternalTargets": 83,
+    "uniqueInternalTargets200": 82,
+    "uniqueInternalTargets404": 1
+  },
+  "methodExecution": [
+    "Built the expected set from D16 scope.json and D23 Registry/Manifest bindings rather than homepage reachability.",
+    "Reused only the fixed run matching commit, Build and CMS identity.",
+    "Extracted SSR and Chromium hydrated link instances, including the opened mobile menu and SYS-404 client-rendered recovery actions.",
+    "Resolved internal targets with local GET, retained redirects, final identity, language and scope evidence, and did not follow unapproved external domains.",
+    "Compared actual instances with current Home, Product, Application, Document, Resource and Global Chrome contracts.",
+    "Calculated visible body inbound candidates and buyer paths, then separated existing required Findings, release dependencies, NOT_VERIFIED public-eligibility decisions and optional improvements.",
+    "Continued through all 58 objects after finding the first error."
+  ],
+  "findings": [
+    {
+      "id": "SCT-G9-F02-CONTACT-TARGET",
+      "newIdCreated": false,
+      "status": "FAIL",
+      "classification": "REQUIRED_FIX_RELEASE_BLOCKING",
+      "affectedInstances": 3,
+      "affectedPages": ["ABOUT-001", "SYS-404"],
+      "target": "/contact/",
+      "actual": "308 to /contact then 404",
+      "ownerRouting": "Controller coordinates CONTACT-001 owner and Gate 8 consumers",
+      "prereleaseException": "NON_BLOCKING_FOR_PRERELEASE_TEST_START_ONLY"
+    },
+    {
+      "id": "P0-03",
+      "sourceContext": "HOME-001 — Buyer-visible Home and Global Chrome links are not release-ready",
+      "newIdCreated": false,
+      "status": "FAIL_OPEN_NARROWED",
+      "classification": "REQUIRED_DECISION_AND_IMPLEMENTATION",
+      "affectedPages": ["HOME-001"],
+      "affectedInstances": 6,
+      "actual": "role=link aria-disabled=true, no href, arrow label retained",
+      "ownerRouting": "Controller resolves target public eligibility; Home/Gate 8 implements approved result"
+    }
+  ],
+  "openReleaseDependencies": [
+    {
+      "ids": ["PRODUCT-G6-B03"],
+      "status": "NOT_VERIFIED_FOR_58_OBJECT_PUBLIC_RELEASE",
+      "currentFailClosedState": "PASS",
+      "need": "Public eligibility plus Product Hub activation for 14 Grade links, Process pair and support cards"
+    },
+    {
+      "ids": ["APP000-G6-D03", "APP000-G6-D04", "APP000-G6-D05"],
+      "status": "NOT_VERIFIED_FOR_58_OBJECT_PUBLIC_RELEASE",
+      "currentFailClosedState": "PASS",
+      "need": "Public eligibility plus APP-000 activation for five child CTAs, all 30 Grade occurrences and three support cards"
+    },
+    {
+      "ids": ["RES-R002", "RES-R003", "RES-R004", "RES-R005"],
+      "status": "NOT_VERIFIED_FOR_58_OBJECT_PUBLIC_RELEASE",
+      "currentH0State": "PASS",
+      "need": "Per-resource content/claim/route/freshness/public eligibility and computed H2/H3 inventory"
+    }
+  ],
+  "bodyInboundZero": {
+    "all": ["GRADE-CR901", "DOC-REACH", "DOC-TDS", "DOC-COO", "RES-CHEMOURS", "RES-R706", "RES-TRADE-UK", "CONV-THANK", "SYS-404"],
+    "intentionalNoPublicEntry": ["CONV-THANK", "SYS-404"],
+    "coveredByExistingRequiredDependency": ["GRADE-CR901"],
+    "requiresCurrentPublicEligibilityDecision": ["RES-CHEMOURS", "RES-R706", "RES-TRADE-UK"],
+    "optimizationNeedsContractChange": ["DOC-REACH", "DOC-TDS", "DOC-COO"]
+  },
+  "recommendations": [
+    {
+      "id": "ILR58-O01",
+      "type": "OPTIONAL_ARCHITECTURE_REVIEW",
+      "pages": ["DOC-000", "DOC-TDS", "DOC-REACH", "DOC-COO"],
+      "summary": "Consider an approved compact Document guides route; current DOC-000 categories explicitly have no routes, so Gate 8 must not add it unilaterally."
+    },
+    {
+      "id": "ILR58-O02",
+      "type": "PUBLIC_INVENTORY_PRIORITY",
+      "pages": ["RES-000", "RES-CHEMOURS", "RES-R706", "RES-TRADE-UK"],
+      "summary": "After RES-R002–R005 close, prioritize the resource pages with zero body inbound in the computed Hub inventory."
+    },
+    {
+      "id": "ILR58-O03",
+      "type": "TARGETED_RECHECK",
+      "pages": ["HOME-001", "PRODUCT-000", "APP-000", "RES-000", "ABOUT-001", "SYS-404", "CONTACT-001"],
+      "summary": "Recheck changed hubs, original Findings and affected consumers; do not repeat a full-site scan unless shared resolver/navigation/data scope changes."
+    }
+  ],
+  "inputs": [
+    {"path":"D:/23MySec/AGENTS.md","sha256":"7b3f7e3f1d008f4a13a2bf084665a8071fa65e91c6be5fa0c0f75a04ae24530c"},
+    {"path":"D:/23MySec/PROJECT_CONTEXT.md","sha256":"951db480466eb931232a49655513b7d3943a6d82a37ddf7a2ff98b206716ded0"},
+    {"path":"D:/23MySec/01_PROJECT_INDEX.md","sha256":"c978387a8e62bfed9bdd88e4d9210c608bf4c1e38e2f30e91bb318be1602e2f9"},
+    {"path":"D:/23MySec/00_PROJECT_STATUS.md","sha256":"9a1adeb2265b0971484a3e32aa15414960c784e580129a0f65ead3df7ce34a36"},
+    {"path":"D:/23MySec/agents/internal-link-review/agent.md","sha256":"2bb392b1c1528ace216b323925ba7b09d7e5721bc8cadb328bbd22572ed609a3"},
+    {"path":"D:/23MySec/skills/internal-link-verification/SKILL.md","sha256":"f2e06f599ca0a9be00f67bdc7f0fbfce579408f302f157f6b56ddb8f67e9ba38"},
+    {"path":"D:/23MySec/docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md","sha256":"5888017477bec9347f2dc0592927b033791b4c3ae40fed2793e935bcac048228"},
+    {"path":"D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md","sha256":"3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552"},
+    {"path":"D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md","sha256":"cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"},
+    {"path":"D:/23MySec/docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md","sha256":"a74953971244d3b2bb43f6bc5d9b798f428d9590bab8bcb8664e1d4e9b4b31cb"},
+    {"path":"D:/23MySec/docs/architecture/SYS404_CONTACT_DEPENDENCY_PRERELEASE_EXCEPTION_V1.0.md","sha256":"2bf6e57ff096729bb4d66618f0b67974760fb1f5e30322db48fc81966117fdcc"},
+    {"path":"D:/23MySec/pages/home/07_qa/HOME-001_GATE9_READ_ONLY_QA_EVIDENCE_V0.1.md","sha256":"3225fd5e723a04a5397d0955ba43f66a858fe66b838bc2c805d0a4314eb1e78f"},
+    {"path":"D:/23MySec/pages/home/06_handoff/HOME-001_GATE7_ACCEPTANCE_AND_BLOCKERS_V0.1.md","sha256":"2b604e56ae1a6d104c94ee76f05ec1ccbb41c240561bad3e9e7d395b8e77bf23"},
+    {"path":"D:/23MySec/pages/products/06_handoff/PRODUCT-000_GATE7_ACCEPTANCE_AND_BLOCKERS_V0.3.md","sha256":"cc8097befe466c09e3c9c9b2daf08b51360f6b4f038c0f91ab5c882a9253dd81"},
+    {"path":"D:/23MySec/pages/products/06_handoff/PRODUCT-000_GATE7_CMS_API_COMPONENT_MAPPING_V0.3.md","sha256":"4b1c89d6a8f854903d6d64802a1edde2804d7b1a1c5d01ffc1f8acf9302ac8d7"},
+    {"path":"D:/23MySec/pages/products/05_review/PRODUCT-000_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md","sha256":"334046acc13668829b07c054d87fa085a36b336afe76f6a63474e70b30943cb6"},
+    {"path":"D:/23MySec/pages/applications/APP-000_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md","sha256":"3ddbcacc8fc5f1c1b1a040eb360c0eefe5f2cd0d3a14cb3b87db0fa7587254bc"},
+    {"path":"D:/23MySec/pages/applications/06_handoff/APP-000_GATE6_HANDOFF_PACKAGE_V1.1.md","sha256":"679921dff649eb19197364c998b9512b711c3a32ee00c64798ad70ce0c05e84c"},
+    {"path":"D:/23MySec/pages/resources/06_handoff/RES-000_GATE7_ACCEPTANCE_AND_BLOCKERS_V0.1.md","sha256":"86865c680d8dcf9dab499ac91dccf8f7f27ef4937df4b63e682fd4eaee466fd2"},
+    {"path":"D:/23MySec/pages/resources/05_review/RES-000_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md","sha256":"977d6b337ce8ad0cf8cb18c4a27be79d659ad3ad6b01f7959d38ec5972a20582"},
+    {"path":"D:/23MySec/pages/resources/06_handoff/RES-PROC_GATE7_ACCEPTANCE_AND_BLOCKERS_V0.1.md","sha256":"3a73cd768125f07a0449301e506b231415bcbbd31edecd488e35524768ff0d20"},
+    {"path":"D:/23MySec/pages/documents/06_handoff/DOC-000_GATE7_CMS_API_COMPONENT_MAPPING_V0.1.md","sha256":"c2f24b414c00082b336e329874091521cde3c4d861fe1509634c181db70924c4"},
+    {"path":"D:/23MySec/pages/documents/tds-sds-coa/06_handoff/DOC-TDS_GATE7_ROUTE_PREFILL_STATE_CONTRACT_V0.1.md","sha256":"b256156e833c1658ca1333243e82cb31a2d8713e857d28eebce767f09779513e"},
+    {"path":"D:/23MySec/pages/documents/reach/06_handoff/DOC-REACH_GATE7_ROUTE_PREFILL_STATE_CONTRACT_V0.1.md","sha256":"e17bffd0ca7f177c849d924b04c80b4b43f3a3ce277d956c0dbcfc0d8832912a"},
+    {"path":"D:/23MySec/docs/product-pages/29_Product_Detail_Development_SOP_V2_Autonomous_Serial_Manifest_V0.16.md","sha256":"2a23b5ee4f3b66c6632b3b3071172d3f4668b0021ae3ed3892f7a3e141c351d6"},
+    {"path":"D:/23MySec/docs/product-pages/30_Product_Detail_12_Grade_Serial_Completion_Summary_V0.1.md","sha256":"03a4b0b4fc5ff0d4ce5609f0cf42abbbd13bcafdaac891a86d9fc3cef0664a45"},
+    {"path":"D:/16Wordpress_nextjs/.local-evidence/prerelease-58/scope.json","sha256":"7d09c14f87f0b86f223c72d6e3865c0de01fa04b0ca8ded05b1c91fed00fdc60"},
+    {"path":"D:/16Wordpress_nextjs/.local-evidence/prerelease-58/20260908T162630Z-98c2c573dd09/pages.json","sha256":"395996079f691d3ad10b370dbaae1bd10a91305fb5b7be43be05e39758e055d5"},
+    {"path":"D:/16Wordpress_nextjs/.local-evidence/prerelease-58/20260908T162630Z-98c2c573dd09/links.json","sha256":"594cdfb5a126f8cc99e8ddbe5b5492677be56a882d12e9f7df5e0b74fb14399c"},
+    {"path":"D:/16Wordpress_nextjs/.local-evidence/prerelease-58/20260908T162630Z-98c2c573dd09/RESULT.md","sha256":"eb9eaf08568cb895bcb07f50a7e96b3798439eb8dc7314f671c2325fb0eb06b7"},
+    {"path":"D:/16Wordpress_nextjs/.local-evidence/prerelease-58/20260908T162630Z-98c2c573dd09/evidence-hashes.json","sha256":"57ac6324d8c10ef227f64799d39e65b25ffafe8c5678386cc175b6dfe6c7f164"}
+  ],
+  "artifacts": [
+    {
+      "path": "D:/23MySec/docs/architecture/internal-link-review/PRERELEASE_58_INTERNAL_LINK_RUNTIME_REVIEW_V1.0.md",
+      "role": "main_report"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/internal-link-review/PRERELEASE_58_INTERNAL_LINK_RELATION_INVENTORY_V1.0.json",
+      "role": "relation_inventory",
+      "sha256": "6f2b3aec2c750e41c322e9935493cb3a94e9924d44c1b0056c57844e64acd782"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/internal-link-review/PRERELEASE_58_INTERNAL_LINK_EVIDENCE_INDEX_V1.0.json",
+      "role": "evidence_index"
+    }
+  ],
+  "limitations": [
+    "Third-party links and mailto actions were identified but not followed or activated.",
+    "No form was submitted; receiver behavior is outside this internal-link review except for visible link-state relationships.",
+    "Canonical, Schema and sitemap evidence were used only for target identity and were not counted as visible internal links.",
+    "Current 200 routes do not prove LIVE_APPROVED or public eligibility; open eligibility decisions are NOT_VERIFIED rather than silently passed.",
+    "This specialist result does not replace Gate 9, Gate 10 or publication authorization."
+  ]
+}

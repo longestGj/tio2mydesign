@@ -1,0 +1,501 @@
+{
+  "schema_version": "gate8-evidence-manifest-v1.0",
+  "handoff_id": "CONTACT-001-G6-HANDOFF-20260910-02",
+  "gate8_task_id": "G8-CONTACT-001-20260910-01",
+  "site_scope": "tio2-my",
+  "receipt_path": "docs/verification/contact-001/gate8-return-r2/GATE8_CONTACT_TARGETED_REPAIR_RECEIPT_2026-09-10.md",
+  "pages": [
+    {
+      "page_id": "CONTACT-001",
+      "acceptance_condition_ids": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-02",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09",
+        "CONTACT-G9-10",
+        "CONTACT-G9-11",
+        "CONTACT-G9-12",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "runtime_path": "/contact/"
+    }
+  ],
+  "git": {
+    "repository": "D:\\16Wordpress_nextjs\\.worktrees\\contact-001-gate8",
+    "branch": "codex/contact-001-gate8",
+    "baseline_commit": "9571dd2ab7e7f2c7c9cb373e008ca81b3c534822",
+    "implementation_commit": "1f3fed832172da5646e504ed339e493ec6d2630f",
+    "evidence_head": "1ed83a235fd2d06939ed88f1dc3a89b31569853a",
+    "clean_checked_at": "2026-09-10T11:53:54.802066Z"
+  },
+  "build": {
+    "directory": ".next-contact-gate8-r2",
+    "build_id": "R4PFrSSFrfr6gvnXpPvxH",
+    "implementation_commit": "1f3fed832172da5646e504ed339e493ec6d2630f"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:4491",
+    "site_scope": "tio2-my",
+    "environment_type": "local-production",
+    "started_at": "2026-09-10T19:00:00+08:00",
+    "hold_until": "GATE9_PASS_OR_RETURN_NOTICE",
+    "require_build_marker": true,
+    "checks": [
+      {
+        "path": "/contact/",
+        "expected_status": 200,
+        "contains": [
+          "Contact TiO2 Malaysia",
+          "data-page-id=\"CONTACT-001\""
+        ]
+      },
+      {
+        "path": "/request-documents/",
+        "expected_status": 200,
+        "contains": [
+          "Request Documents"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "expected_status": 200,
+        "contains": [
+          "Privacy Policy"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/build-id.txt",
+      "sha256": "71727161b86c7d9c3e14994235bdf5b812a10b485836d5387bf1caa813c5f0b1",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-16"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/acceptance-summary.json",
+      "sha256": "73a3a210eaa3dff5f9e4432487240c308cd012752711cfd866126db1ef6caa68",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-02",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09",
+        "CONTACT-G9-10",
+        "CONTACT-G9-11",
+        "CONTACT-G9-12",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/dependency-ledger.json",
+      "sha256": "1e24bab0736dec8446ba041fb72a0b1e265b4549a1042b4e5ef2387502ba5a4d",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09",
+        "CONTACT-G9-11",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/provider/project-control-browser-success.json",
+      "sha256": "616733469c26820489cce61c959ae3f1a0190f77011f72cc37f47c2cfd42fb7a",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09",
+        "CONTACT-G9-16"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/provider/d16-unconfirmed-attempt.json",
+      "sha256": "9515f4e75507943ede0098bfe756f5a66e031dcbd3c99a97b46994a8ac851d2c",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09",
+        "CONTACT-G9-16"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/provider/user-confirmed-mailbox-receipt.json",
+      "sha256": "29b2aba459acefad599e868629cc5340fb992e5b1bd2eb6c5a06723ee46d3c74",
+      "evidence_type": "RECEIVER",
+      "proves": [
+        "CONTACT-G9-07",
+        "CONTACT-G9-16"
+      ],
+      "command": "User exact-count, mailbox display time and explicit browser-submission attribution committed as a bounded receiver record",
+      "environment": "Approved receiver mailbox; test identity AUTHORIZED SYNTHETIC CONTACT TEST / No business inquiry; exactly one message displayed at 2026-09-10 19:11 Asia/Shanghai; user explicitly attributes it to Project Control browser submission observed at 19:12:29; timestamp discrepancy retained; 19:05 diagnostic POST has no separate confirmed receipt"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/native-browser-200-percent-status.json",
+      "sha256": "ba330875503687510b627771974bbb33ff40487d5bc84f864b0462f2a7db0f9c",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/build-and-route.json",
+      "sha256": "3308ff6637323f4d5beaf13a3db3abbfd473d06757abda6067030643661dbadb",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-09",
+        "CONTACT-G9-13",
+        "CONTACT-G9-16"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/form-state-chromium.json",
+      "sha256": "2de044ddea58f4ef1f1988c6770e2b1b66f94f39d5db4398fac81973db0fb8c9",
+      "evidence_type": "LOCAL_SIMULATION",
+      "proves": [
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/form-state-firefox.json",
+      "sha256": "40783c9caf8a0aafac45fe02766d952d9887db53ed0395898eab880f80fb6321",
+      "evidence_type": "LOCAL_SIMULATION",
+      "proves": [
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/contact-desktop-1440.png",
+      "sha256": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-10",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/contact-tablet-768.png",
+      "sha256": "78390cc8023960175d818ed5ace8466d1c1a6db1f991af27240f45abfb2fc445",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-10",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/contact-mobile-390.png",
+      "sha256": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-10",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-submitting-390.png",
+      "sha256": "91c1a2828ce3b9e9bf05d24e3b6f18fdc73fc61e24754cb60f16e4af2e144fac",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-success-390.png",
+      "sha256": "800cc25302d86b3ab99f698f73f31dbd82b97aeb95a545b1e2f4c7d58800b353",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Committed CONTACT-001 targeted return evidence",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/logs/vitest.log",
+      "sha256": "c46fa598edabe6ef0ee3bfcc1b9ee9433675b55dd19f95659d3f32f39dd9e98b",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Current candidate verification command recorded in the log",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/logs/playwright-contact.log",
+      "sha256": "ca42eaab54e56064abd4deda26479a7b3fc0f9b84c0af63357f2aeef49322159",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Current candidate verification command recorded in the log",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/logs/playwright-web3forms-guard.log",
+      "sha256": "4de19e3edf6fa82f4150a17b6aa17f8244bc68b6975c8c9306a8f40594e1ea4f",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Current candidate verification command recorded in the log",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/logs/typecheck.log",
+      "sha256": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Current candidate verification command recorded in the log",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8-return-r2/logs/eslint.log",
+      "sha256": "6118edd3880b9b13e02312fc71c14519c225d102c3c07015d6138e34a6611cc5",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Current candidate verification command recorded in the log",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; scoped Contact CMS fixture at 4490; Web3Forms browser-direct; Project Control browser provider/UI positive at 19:12:29; user confirmed exactly one matching mailbox message displayed at 19:11 and explicitly attributed it to the browser submission; TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS; the separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED; native browser 200% remains open"
+    }
+  ],
+  "receipt_evidence_references": [
+    "docs/verification/contact-001/gate8-return-r2/build-id.txt",
+    "docs/verification/contact-001/gate8-return-r2/acceptance-summary.json",
+    "docs/verification/contact-001/gate8-return-r2/dependency-ledger.json",
+    "docs/verification/contact-001/gate8-return-r2/provider/project-control-browser-success.json",
+    "docs/verification/contact-001/gate8-return-r2/provider/d16-unconfirmed-attempt.json",
+    "docs/verification/contact-001/gate8-return-r2/provider/user-confirmed-mailbox-receipt.json",
+    "docs/verification/contact-001/gate8-return-r2/runtime/native-browser-200-percent-status.json",
+    "docs/verification/contact-001/gate8-return-r2/runtime/build-and-route.json",
+    "docs/verification/contact-001/gate8-return-r2/runtime/form-state-chromium.json",
+    "docs/verification/contact-001/gate8-return-r2/runtime/form-state-firefox.json",
+    "docs/verification/contact-001/gate8-return-r2/runtime/contact-desktop-1440.png",
+    "docs/verification/contact-001/gate8-return-r2/runtime/contact-tablet-768.png",
+    "docs/verification/contact-001/gate8-return-r2/runtime/contact-mobile-390.png",
+    "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-submitting-390.png",
+    "docs/verification/contact-001/gate8-return-r2/runtime/contact-state-success-390.png",
+    "docs/verification/contact-001/gate8-return-r2/logs/vitest.log",
+    "docs/verification/contact-001/gate8-return-r2/logs/playwright-contact.log",
+    "docs/verification/contact-001/gate8-return-r2/logs/playwright-web3forms-guard.log",
+    "docs/verification/contact-001/gate8-return-r2/logs/typecheck.log",
+    "docs/verification/contact-001/gate8-return-r2/logs/eslint.log"
+  ],
+  "known_open_items": [
+    {
+      "id": "CONTACT-DEP01",
+      "owner": "Platform owner / Gate 8",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Current build and route evidence ready.",
+      "closure_timing": "Independent Gate9 re-review"
+    },
+    {
+      "id": "CONTACT-DEP02",
+      "owner": "CONTACT-001 content owner / Gate 8",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Accepted CMS source chain remains bound.",
+      "closure_timing": "Independent Gate9 re-review"
+    },
+    {
+      "id": "CONTACT-DEP03",
+      "owner": "Project Control / Gate 8",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "User-approved shared Web3Forms browser-direct implementation complete.",
+      "closure_timing": "Independent Gate9 re-review"
+    },
+    {
+      "id": "CONTACT-DEP04",
+      "owner": "Project Control / Gate 8",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Strict positive predicate and browser success observation ready.",
+      "closure_timing": "Independent Gate9 re-review"
+    },
+    {
+      "id": "CONTACT-DEP05",
+      "owner": "Project Control / Gate 8",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "User-approved minimal duplicate/no-retry scope implemented.",
+      "closure_timing": "Independent Gate9 re-review"
+    },
+    {
+      "id": "CONTACT-DEP06",
+      "owner": "Privacy owner / Project Control",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "Existing approved Privacy route and shared data-flow expression reused.",
+      "closure_timing": "Independent Gate9 and release review"
+    },
+    {
+      "id": "CONTACT-DEP07",
+      "owner": "Global chrome owners",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Destination and shared chrome evidence ready.",
+      "closure_timing": "Independent Gate9 re-review"
+    },
+    {
+      "id": "CONTACT-DEP08",
+      "owner": "CONTACT-001 / Brand owners",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Current three-width and state captures ready.",
+      "closure_timing": "Independent Gate9 re-review"
+    },
+    {
+      "id": "CONTACT-DEP09",
+      "owner": "CONTACT-001 accessibility owner",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Native browser 200% remains tool-blocked; user action is recorded.",
+      "closure_timing": "Before CONTACT-G9-15 can close"
+    },
+    {
+      "id": "CONTACT-DEP10",
+      "owner": "IKHLAS mailbox owner",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "USER_CONFIRMED_BROWSER_SUBMISSION_MAILBOX_RECEIPT: exactly one matching message displayed at 2026-09-10 19:11 Asia/Shanghai and explicitly attributed by the user to Project Control browser submission. TIMESTAMP_DISCREPANCY / USER_EXPLICIT_ATTRIBUTION_CONTROLS. The separate 19:05 diagnostic POST remains SUBMISSION_NOT_CONFIRMED / NO_SEPARATE_MAILBOX_RECEIPT_CONFIRMED.",
+      "closure_timing": "Gate9 reviewer classification pending; no repeat send and no Gate10 or release authorization"
+    },
+    {
+      "id": "CONTACT-DEP11",
+      "owner": "SEO owner / Gate 8",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "SEO evidence ready; sitemap remains held.",
+      "closure_timing": "Release authorization"
+    },
+    {
+      "id": "CONTACT-DEP12",
+      "owner": "Gate 8 / Gate 9 controller",
+      "blocking_layer": "RECHECK_SCOPE",
+      "closure_evidence": "Post-commit Manifest validation and preflight required.",
+      "closure_timing": "Gate9 intake"
+    }
+  ]
+}

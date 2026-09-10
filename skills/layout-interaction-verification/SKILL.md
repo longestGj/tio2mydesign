@@ -3,7 +3,7 @@ name: layout-interaction-verification
 description: Verify responsive planning assets against authoritative content and interaction contracts. Use to inspect content visibility, comparison relationships, clipping, spacing, touch targets and state behavior across supplied viewports. Reports evidence and findings without editing the candidate; static images do not prove runtime behavior or Gate approval.
 ---
 
-# 布局与交互核验 V0.4
+# 布局与交互核验 V0.8
 
 对照权威输入与实际成果发现可读性、关系和操作问题。可用于执行自检或独立审查；使用同一方法不会使自检变成独立审查。只写核验报告和必要证据，不修改被审设计、内容、批准记录或他人审查结论。
 
@@ -11,9 +11,15 @@ description: Verify responsive planning assets against authoritative content and
 
 V0.4在并行Gate 4合并版V0.3上增加仅对Gate 3适用的范围配置；[修订前V0.3](history/SKILL-v0.3-before-gate3-scope.md)保留。Gate 4共同工作集、4A/4B和其他阶段完整核验能力保持。
 
+V0.5明确SELF_CHECK / INDEPENDENT_REVIEW：新Gate 5或Gate 4内部最终独立审查必须读取[独立视觉审查方法](references/independent-visual-review.md)，直接审正式成果、独立操作，不默认复制截图。Gate 3专属范围和Gate 9实际验收要求不变。
+
+V0.6补齐独立视觉审查的INITIAL/TARGETED范围、同一审查内行为等价覆盖和只读冻结索引规则。下文完整方法按本次范围适用：定向复审继承有效未变覆盖，不重新从头执行全部步骤。SELF_CHECK由执行方消费；独立模式的差异详见上述参考，不能将其等价复用规则自动扩展到Gate 3或Gate 9。
+
+V0.7增加[Gate 4自检方法](references/gate4-self-check.md)：仅Gate 4 SELF_CHECK必读，区分完整覆盖、正式捕获核对和变化补验。制作Skill和Agent共用结果，不默认各做一轮完整自检。Gate 5独立审查与其他阶段范围不变。
+
 ## 输入与范围
 
-接收完整内容与顺序、动作/状态及共享合同、候选源与导出资产、视口与导出比例，以及`report_path`和必要的`evidence_dir`绝对路径。Gate 4任务还接收`workset_id`、共同`input_index`、同一`design_source`与`evidence_index`，说明本次是4A范围明确的诊断、4B冻结组合的完整检查，还是Finding定向复验；复验提供原Finding、接受条件和变化版本。
+接收完整内容与顺序、动作/状态及共享合同、候选源与导出资产、视口与导出比例，以及`report_path`和必要的`evidence_dir`绝对路径。Gate 4任务还接收`workset_id`、共同`input_index`、同一`design_source`与`evidence_index`，说明本次是4A范围明确的诊断、4B执行方预检/正式捕获核对、冻结后的独立完整检查，还是Finding定向复验；复验提供原Finding、接受条件和变化版本。
 
 任务明确为Gate 3时，必须读取[Gate 3结构核验范围](references/gate3-structure-scope.md)，按其共享继承条件、图像范围和问题归属检查；没有明确阶段时按完整输入合同核验，不自行启用精简范围。
 
@@ -22,6 +28,19 @@ V0.4在并行Gate 4合并版V0.3上增加仅对Gate 3适用的范围配置；[�
 4A诊断只对指定样例和风险作结论，不得外推为三端整页通过。Gate 4最终独立审查须接收4B冻结记录；冻结前的协作意见属于预检观察。源、批准组合或正式核心资产在冻结后变化时停止审查并要求新冻结身份，不把旧证据挂到新候选。一个最终审查环节可以包含Finding、返修和多次定向复审。
 
 Gate 3正式独立审查同样必须接收预检通过后的冻结记录，从准确候选及证据开始；共享继承不取消冻结身份或独立审查要求。
+
+## 方法边界：允许与禁止
+
+| 对象 | 允许做 | 禁止做 |
+|---|---|---|
+| 被审成果 | 读取实际源、图片与依据，测量、操作并记录问题 | 修改被审设计/内容、他人报告或批准记录；为测试补造页面功能 |
+| 证据判断 | 依据准确组合和实际观察形成结论 | 仅采信执行方PASS、源码字符串或零横向滚动；用静态图证明键盘操作和生产接收 |
+| 覆盖与复验 | 明确适用范围、未测项，按实际变化复验 | 把局部检查写成整页通过、把必需未测写成PASS；用节约证据为由漏查 |
+| 去重 | 复用身份及证明对象一致的有效证据 | 无触发重制全套截图、生成逐项PASS长报告；将某阶段精简规则自动套到其他阶段 |
+| 模式与写权限 | SELF_CHECK按授权写执行记录；独立模式写自身报告引用原证据 | 把自检当独立审查；独立Reviewer回写冻结源或执行方索引 |
+| 运行边界 | 操作获准本地源，明确实际运行与模拟 | 真实提交、发送消息或生产操作；将核验结果登记为Gate批准 |
+
+具体覆盖、截图触发、行为等价和定向复验条件，按上文对应阶段/模式参考执行；这里是方法边界入口，不增加一轮核验。遇到输入不足、身份失配或工具失败，如实交回能支持的结果及缺口，不修改被审对象来制造通过。
 
 ## 方法
 
@@ -53,7 +72,7 @@ Gate 3正式独立审查同样必须接收预检通过后的冻结记录，从�
 
 ### 3. 查看实际图像并检查几何
 
-每个要求的完整视口先看整体结构，再按可读比例覆盖全页；长图分段且保留足够重叠，避免漏过连接处。重点看最长字段、密集比较、提交区、状态变化和 Footer，同时核对全部模块。
+每个要求的完整视口先看整体结构，再按可读比例覆盖全页；可用原图缩放、既有分段或浏览器滚动并保留连接上下文，不要求生成新分段文件。重点看最长字段、密集比较、提交区、状态变化和 Footer，同时核对全部模块。定向复审按实际变化与有效原覆盖确定范围。
 
 可取得设计源或浏览器几何时，测量页面滚动宽度、溢出元素、容器裁切、文字与控件碰撞、实际可点击区域宽高和大块空白。按任务合同判断阈值；本项目触控目标须核对至少 44px 的宽和高，不能仅测高度。
 
@@ -95,5 +114,4 @@ Gate 3正式独立审查同样必须接收预检通过后的冻结记录，从�
 
 输出是检查结论，不是设计修订、总控 PASS 或用户批准。写完从同一路径读回并核对证据文件存在、对应正确；失败时报告真实失败，不返回预计路径冒充已交付。
 
-Gate 4任务把观察、Finding和证据类别追加到共同`evidence_index`，不另建竞争索引。返回Agent：**报告绝对路径、共同工作集新增/改变项、主要发现摘要、未完成/未验证事项**。由Agent判断返修归属和交付就绪情况，独立审查者按其角色权限另行作出结论。
-
+Gate 4的SELF_CHECK任务在允许写入的执行工作集中追加观察、Finding和证据类别，不另建竞争索引。INDEPENDENT_REVIEW只读执行方及冻结索引，将观察和必要证据写入获准的独立报告/运行记录并引用原索引，不能自行回写冻结组合。返回Agent：**报告绝对路径、本次新增/改变项、主要发现摘要、未完成/未验证事项**。由Agent判断返修归属和交付就绪情况，独立审查者按其角色权限另行作出结论。

@@ -1,0 +1,4396 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\23MySec\\docs\\verification\\intake\\TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1\\gate8_evidence_manifest.json",
+  "handoff_id": "TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "HOME-001",
+          "runtime_path": "/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.2-HOME-SIX-LINKS"
+          ]
+        },
+        {
+          "page_id": "ABOUT-001",
+          "runtime_path": "/about/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-000",
+          "runtime_path": "/markets/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-EU-001",
+          "runtime_path": "/markets/european-union/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-EU-DE",
+          "runtime_path": "/markets/germany/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-EU-IT",
+          "runtime_path": "/markets/italy/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-EU-ES",
+          "runtime_path": "/markets/spain/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-EU-PL",
+          "runtime_path": "/markets/poland/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-EU-NL",
+          "runtime_path": "/markets/netherlands/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-EU-BE",
+          "runtime_path": "/markets/belgium/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-UK-001",
+          "runtime_path": "/markets/united-kingdom/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-IN-001",
+          "runtime_path": "/markets/india/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-BR-EN",
+          "runtime_path": "/markets/brazil/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "MARKET-BR-PT",
+          "runtime_path": "/pt-br/markets/brazil/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "PRODUCT-000",
+          "runtime_path": "/products/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.3-PRODUCT-14-2-3"
+          ]
+        },
+        {
+          "page_id": "PRODUCT-PROC-CL",
+          "runtime_path": "/products/chloride-process-titanium-dioxide/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "PRODUCT-PROC-SU",
+          "runtime_path": "/products/sulfate-process-titanium-dioxide/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M350",
+          "runtime_path": "/products/m-350/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M510",
+          "runtime_path": "/products/m-510/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M896",
+          "runtime_path": "/products/m-896/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M996",
+          "runtime_path": "/products/m-996/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M2196",
+          "runtime_path": "/products/m-2196/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M895",
+          "runtime_path": "/products/m-895/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M200",
+          "runtime_path": "/products/m-200/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M108",
+          "runtime_path": "/products/m-108/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M210",
+          "runtime_path": "/products/m-210/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M340",
+          "runtime_path": "/products/m-340/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M886",
+          "runtime_path": "/products/m-886/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M52",
+          "runtime_path": "/products/m-52/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-M2377",
+          "runtime_path": "/products/m-2377/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "GRADE-CR901",
+          "runtime_path": "/products/cr-901/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "APP-000",
+          "runtime_path": "/applications/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.4-APPLICATION-5-30-3",
+            "APP-RULING-3-1-EXACT-CHILDREN",
+            "APP-RULING-3-2-BEHAVIOR",
+            "APP-RULING-3-3-BUYER-CLEAN",
+            "APP-RULING-3-5-MOCKED-RFQ",
+            "APP-RULING-3-6-EVIDENCE-PRIVACY",
+            "APP-RULING-3-7-FAIL-CLOSED"
+          ]
+        },
+        {
+          "page_id": "APP-COAT",
+          "runtime_path": "/applications/titanium-dioxide-for-coatings/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "APP-PLAS",
+          "runtime_path": "/applications/titanium-dioxide-for-plastics/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "APP-MB",
+          "runtime_path": "/applications/titanium-dioxide-for-masterbatch/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "APP-INK",
+          "runtime_path": "/applications/titanium-dioxide-for-printing-inks/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "APP-PAPER",
+          "runtime_path": "/applications/titanium-dioxide-for-paper/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "DOC-000",
+          "runtime_path": "/documents/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.5-DOCUMENT-GUIDES-THREE"
+          ]
+        },
+        {
+          "page_id": "DOC-REACH",
+          "runtime_path": "/documents/reach/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "DOC-TDS",
+          "runtime_path": "/documents/tds-sds-coa/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "DOC-COO",
+          "runtime_path": "/documents/certificate-of-origin/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "RES-000",
+          "runtime_path": "/resources/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.6-RESOURCE-GROUPS-EIGHT"
+          ]
+        },
+        {
+          "page_id": "RES-ORIGIN",
+          "runtime_path": "/resources/non-china-titanium-dioxide/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "RES-PROC",
+          "runtime_path": "/resources/chloride-vs-sulfate-titanium-dioxide/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "RES-CHEMOURS",
+          "runtime_path": "/resources/chemours-titanium-dioxide-alternatives/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "RES-R706",
+          "runtime_path": "/resources/ti-pure-r-706-alternative/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "RES-TRADE-EU",
+          "runtime_path": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "RES-TRADE-UK",
+          "runtime_path": "/resources/uk-titanium-dioxide-anti-dumping-investigation/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "RES-TRADE-IN",
+          "runtime_path": "/resources/india-titanium-dioxide-anti-dumping-duty/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "RES-TRADE-BR",
+          "runtime_path": "/resources/brazil-titanium-dioxide-anti-dumping-duty/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "CONV-DOC",
+          "runtime_path": "/request-documents/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.1-BROWSER-TRANSPORT",
+            "PPF-7.2-LOCAL-VALIDATION"
+          ]
+        },
+        {
+          "page_id": "CONV-RFQ",
+          "runtime_path": "/request-a-quote/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.1-BROWSER-TRANSPORT",
+            "PPF-7.2-LOCAL-VALIDATION"
+          ]
+        },
+        {
+          "page_id": "CONV-SAMPLE",
+          "runtime_path": "/request-sample/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.1-BROWSER-TRANSPORT",
+            "PPF-7.2-LOCAL-VALIDATION"
+          ]
+        },
+        {
+          "page_id": "CONV-THANK",
+          "runtime_path": "/thank-you/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-4.1-THANK-STATE-BOUNDARY"
+          ]
+        },
+        {
+          "page_id": "LEGAL-PRIV-EN",
+          "runtime_path": "/privacy-policy/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "LEGAL-PRIV-MS",
+          "runtime_path": "/ms/privacy-policy/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "LEGAL-COOKIE-EN",
+          "runtime_path": "/cookie-policy/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58"
+          ]
+        },
+        {
+          "page_id": "SYS-404",
+          "runtime_path": "/404/",
+          "acceptance_condition_ids": [
+            "PPF-7.2-INTERNAL-LINKS-58",
+            "PPF-7.2-SYSTEM-404"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\prerelease-public-paths-forms"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/prerelease-public-paths-forms",
+        "actual": "codex/prerelease-public-paths-forms"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "b081001e93f7ad269dd25ff5c5b1a3177f8d63fa",
+        "actual": "b081001e93f7ad269dd25ff5c5b1a3177f8d63fa"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "149bbae23cf6b5376a037da528a1379d298bdfd4",
+        "descendant": "f81321c07d6026ef1e5119cfb7b58914225ff753"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "f81321c07d6026ef1e5119cfb7b58914225ff753",
+        "descendant": "b081001e93f7ad269dd25ff5c5b1a3177f8d63fa"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\prerelease-public-paths-forms\\.next-public-paths-candidate"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "qyjMXbbCPr3yW3ZlKuD97",
+        "actual": "qyjMXbbCPr3yW3ZlKuD97"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "f81321c07d6026ef1e5119cfb7b58914225ff753",
+        "git": "f81321c07d6026ef1e5119cfb7b58914225ff753"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/acceptance-coverage.json"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "Read actual runtime/test records and approved design; SHA256-bind declared files and image inheritance",
+        "environment": "Local evidence review; scope/limits stated in artifact; no independent acceptance claimed"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d4b9804921826e7a710fcb7fc5794918b49e0ee772b57a882f1a5c6002493763",
+        "actual": "d4b9804921826e7a710fcb7fc5794918b49e0ee772b57a882f1a5c6002493763"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/acceptance-coverage.json"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ff7120cf071475c5470210fd1d5e6f66058e20e7",
+        "blob_sha256": "d4b9804921826e7a710fcb7fc5794918b49e0ee772b57a882f1a5c6002493763",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app-supersession.json"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-6-EVIDENCE-PRIVACY",
+          "APP-RULING-3-7-FAIL-CLOSED"
+        ],
+        "command": "Controlled APP/Sample browser tests and private-input/live-harness fixture regressions",
+        "environment": "Local browser fixtures, default list/JSON/full step errors inspected; zero real external requests"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3f4aa5e4a4c94661ba591060c38546f62614ef9eb6e9e2f2b5a862500b0eb94a",
+        "actual": "3f4aa5e4a4c94661ba591060c38546f62614ef9eb6e9e2f2b5a862500b0eb94a"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app-supersession.json"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "538a5f5fbfa937d89c0c638a9c7f1a39817707d2",
+        "blob_sha256": "3f4aa5e4a4c94661ba591060c38546f62614ef9eb6e9e2f2b5a862500b0eb94a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-0075641f-8f7d-48f8-b575-dcb8b2024e8f.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9699946ad559cd589c91a2292cb607c813038fd46718cf0e206c71bc74b4516b",
+        "actual": "9699946ad559cd589c91a2292cb607c813038fd46718cf0e206c71bc74b4516b"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-0075641f-8f7d-48f8-b575-dcb8b2024e8f.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "86e404585f991ef2858d92e89a96820013daba27",
+        "blob_sha256": "9699946ad559cd589c91a2292cb607c813038fd46718cf0e206c71bc74b4516b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-1bd3a352-ab06-4bd3-adc8-a84db99b5904.json"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-3-BUYER-CLEAN"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b601b8f44d2ac5b53d3a7b289174f06171b6b4d14dfd4553e10bdb01c4c0a5d2",
+        "actual": "b601b8f44d2ac5b53d3a7b289174f06171b6b4d14dfd4553e10bdb01c4c0a5d2"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-1bd3a352-ab06-4bd3-adc8-a84db99b5904.json"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "01550f324bd8df0a1bb4c075d1783ce400f4defb",
+        "blob_sha256": "b601b8f44d2ac5b53d3a7b289174f06171b6b4d14dfd4553e10bdb01c4c0a5d2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-38bac450-edfa-4a69-bc73-3de60818a2fb.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ebfafe760f19721339e8c1d2fb4dcbb8942cac6bedbea5dc83c4314a7de815de",
+        "actual": "ebfafe760f19721339e8c1d2fb4dcbb8942cac6bedbea5dc83c4314a7de815de"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-38bac450-edfa-4a69-bc73-3de60818a2fb.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9658e9da658af2995a22032d2009105b227a155b",
+        "blob_sha256": "ebfafe760f19721339e8c1d2fb4dcbb8942cac6bedbea5dc83c4314a7de815de",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-6d80b7e3-e5ba-4b0a-8e52-1139d2cc9335.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-1-EXACT-CHILDREN",
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "1da802394ec3e9639487e3eb027eccbeda786855073e54a5c32e45b9346b6966",
+        "actual": "1da802394ec3e9639487e3eb027eccbeda786855073e54a5c32e45b9346b6966"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-6d80b7e3-e5ba-4b0a-8e52-1139d2cc9335.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "023667bbc542979287c0e693de4046fad34cce55",
+        "blob_sha256": "1da802394ec3e9639487e3eb027eccbeda786855073e54a5c32e45b9346b6966",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-76acfa76-2464-40a0-a71a-bfad58bc0e95.json"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-1-EXACT-CHILDREN",
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "12660b132b2c1f2faeb8551a280e4f3305dc1858de2ea7cd3442b9c66d053930",
+        "actual": "12660b132b2c1f2faeb8551a280e4f3305dc1858de2ea7cd3442b9c66d053930"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-76acfa76-2464-40a0-a71a-bfad58bc0e95.json"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "af889949df368ed4b51944528103c2e8d134cb31",
+        "blob_sha256": "12660b132b2c1f2faeb8551a280e4f3305dc1858de2ea7cd3442b9c66d053930",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-86eb232f-778d-4040-b7bd-62f34c578606.json"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b144ae7b1e83a38b61d86aed636fd5b6f380520b325f92c2e8f6c002ce7dc1e1",
+        "actual": "b144ae7b1e83a38b61d86aed636fd5b6f380520b325f92c2e8f6c002ce7dc1e1"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-86eb232f-778d-4040-b7bd-62f34c578606.json"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f884e4bcf3df3219f1c098a609dc1193c6b8b704",
+        "blob_sha256": "b144ae7b1e83a38b61d86aed636fd5b6f380520b325f92c2e8f6c002ce7dc1e1",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-c3f264f1-3f36-49ac-bbe8-4f797d0daeb2.json"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-3-BUYER-CLEAN"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "048218b61d5168b1fac488a51242c07651b3834796c786a483fe9338665d828c",
+        "actual": "048218b61d5168b1fac488a51242c07651b3834796c786a483fe9338665d828c"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-c3f264f1-3f36-49ac-bbe8-4f797d0daeb2.json"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "696e33686b9fdcb47df631da15956b074a8dc154",
+        "blob_sha256": "048218b61d5168b1fac488a51242c07651b3834796c786a483fe9338665d828c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-c756bc54-d255-4cdf-b794-225c630a4eeb.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-3-BUYER-CLEAN"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "40746ff61239150220ac7d6bde1183bb545b151b669ab494a43b04dea9e9d9ca",
+        "actual": "40746ff61239150220ac7d6bde1183bb545b151b669ab494a43b04dea9e9d9ca"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-c756bc54-d255-4cdf-b794-225c630a4eeb.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ab419ca971c0709cbedaec3c279a933577adbd2e",
+        "blob_sha256": "40746ff61239150220ac7d6bde1183bb545b151b669ab494a43b04dea9e9d9ca",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-desktop-1440.png"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "339bf2bcb3fd73cf10a208b3c570765bc85f942ac42b5adb934841daca79518c",
+        "actual": "339bf2bcb3fd73cf10a208b3c570765bc85f942ac42b5adb934841daca79518c"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-desktop-1440.png"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c4f721eb800b3361e88844835002911b0c84334a",
+        "blob_sha256": "339bf2bcb3fd73cf10a208b3c570765bc85f942ac42b5adb934841daca79518c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-efa2326c-39f5-492b-a5bd-4c4182a76290.json"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-5-MOCKED-RFQ",
+          "APP-RULING-3-6-EVIDENCE-PRIVACY"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5368fd24906c8845bacc0d9034d21479fad3fcfaac9c18abaf810ee3695e29b0",
+        "actual": "5368fd24906c8845bacc0d9034d21479fad3fcfaac9c18abaf810ee3695e29b0"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-efa2326c-39f5-492b-a5bd-4c4182a76290.json"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "50ee2101ac92ae42ab0f1d3d8871182f4a4e146d",
+        "blob_sha256": "5368fd24906c8845bacc0d9034d21479fad3fcfaac9c18abaf810ee3695e29b0",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-f3b4ea27-8236-4525-94e3-b80bd890f177.json"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "00b22ecbc919169f58a3d20cae99ee59cf28c8a54e4692af1c8c83987abfcca8",
+        "actual": "00b22ecbc919169f58a3d20cae99ee59cf28c8a54e4692af1c8c83987abfcca8"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-f3b4ea27-8236-4525-94e3-b80bd890f177.json"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "031704de88d2bd123a385382da6b1de4deb4291b",
+        "blob_sha256": "00b22ecbc919169f58a3d20cae99ee59cf28c8a54e4692af1c8c83987abfcca8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-f5ee729a-58fe-467a-b56d-f06690a2612f.json"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-1-EXACT-CHILDREN",
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ed8ece15e65e0518a40092c329b3eb46c8e134fa6647e93817b536d68201a1d6",
+        "actual": "ed8ece15e65e0518a40092c329b3eb46c8e134fa6647e93817b536d68201a1d6"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-f5ee729a-58fe-467a-b56d-f06690a2612f.json"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f5b446cc01537679ef807f79a891181e8ff1099d",
+        "blob_sha256": "ed8ece15e65e0518a40092c329b3eb46c8e134fa6647e93817b536d68201a1d6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-390-expanded.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d7c3065f845024a56e80941cec8020791a4d40c36323dac9b6fb0e027eb73b0c",
+        "actual": "d7c3065f845024a56e80941cec8020791a4d40c36323dac9b6fb0e027eb73b0c"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-390-expanded.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "76990580eab4a7b4e3d2a9ebb0ae81e0b150a2ad",
+        "blob_sha256": "d7c3065f845024a56e80941cec8020791a4d40c36323dac9b6fb0e027eb73b0c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-390.png"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "329a0994f896ff542f34bf66baf881b8a74222b83e21bbb515084f305e435c70",
+        "actual": "329a0994f896ff542f34bf66baf881b8a74222b83e21bbb515084f305e435c70"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-390.png"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "263167f6e3602cc6fbd5778bc48ad4f3d41d8f1f",
+        "blob_sha256": "329a0994f896ff542f34bf66baf881b8a74222b83e21bbb515084f305e435c70",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-cookie-settings.png"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e7766f52d2400b8662a28ea3289f6aa77455b08b6d337610fe369e6aab494fb4",
+        "actual": "e7766f52d2400b8662a28ea3289f6aa77455b08b6d337610fe369e6aab494fb4"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-cookie-settings.png"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7ebcbe8a0c2d018737bca846d839647079f5ace4",
+        "blob_sha256": "e7766f52d2400b8662a28ea3289f6aa77455b08b6d337610fe369e6aab494fb4",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-tablet-768.png"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP-RULING-3-2-BEHAVIOR"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Local production3183; public screenshot or named check only; provider/context responses fulfilled locally, zero actual external submission"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f587abbaf0833ff964597b9642921a1d83acb0c397c87705ad1a597de77ab802",
+        "actual": "f587abbaf0833ff964597b9642921a1d83acb0c397c87705ad1a597de77ab802"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-tablet-768.png"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6d8d583253f1ebbd8ecf1addab312b5d76563fef",
+        "blob_sha256": "f587abbaf0833ff964597b9642921a1d83acb0c397c87705ad1a597de77ab802",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/cms-identity.json"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "git identity, /api/prerelease-identity, validate-prerelease-site.php and collect-cms-identity.sh",
+        "environment": "Local task worktree; Next3183 and dedicated CMS8181"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "17f7292dd1cc229f88c91bd293c2bc6cea85a41cc291efe5751e8131abedec7e",
+        "actual": "17f7292dd1cc229f88c91bd293c2bc6cea85a41cc291efe5751e8131abedec7e"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/cms-identity.json"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5d7b1eab854e53613e18179d824326b4937eb1a1",
+        "blob_sha256": "17f7292dd1cc229f88c91bd293c2bc6cea85a41cc291efe5751e8131abedec7e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/cms-site-validation.json"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "git identity, /api/prerelease-identity, validate-prerelease-site.php and collect-cms-identity.sh",
+        "environment": "Local task worktree; Next3183 and dedicated CMS8181"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b39b4a35f396b5fe3d4cdd0b5b58a115ffa721704372e0b646936b823d061553",
+        "actual": "b39b4a35f396b5fe3d4cdd0b5b58a115ffa721704372e0b646936b823d061553"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/cms-site-validation.json"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "30880193cbc5ac4910113866decbcffd80b76a84",
+        "blob_sha256": "b39b4a35f396b5fe3d4cdd0b5b58a115ffa721704372e0b646936b823d061553",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/endpoint-scan.json"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "Read actual runtime/test records and approved design; SHA256-bind declared files and image inheritance",
+        "environment": "Local evidence review; scope/limits stated in artifact; no independent acceptance claimed"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "fea0c6fa9ceec4e04aa19a910f996d0319cc043ee2c61de3d65bf8930b809750",
+        "actual": "fea0c6fa9ceec4e04aa19a910f996d0319cc043ee2c61de3d65bf8930b809750"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/endpoint-scan.json"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7306f22d3c6a5580dc0693a7f5d060d0fee4700b",
+        "blob_sha256": "fea0c6fa9ceec4e04aa19a910f996d0319cc043ee2c61de3d65bf8930b809750",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/image-inheritance.json"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "Read actual runtime/test records and approved design; SHA256-bind declared files and image inheritance",
+        "environment": "Local evidence review; scope/limits stated in artifact; no independent acceptance claimed"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "673ad5f1a9effe89915524d58e5a22e9c2191e518d3e06b8272140ad91c58bbf",
+        "actual": "673ad5f1a9effe89915524d58e5a22e9c2191e518d3e06b8272140ad91c58bbf"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/image-inheritance.json"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7d90e199c2d8d77f411b8e3157e9bc6f9815bfd2",
+        "blob_sha256": "673ad5f1a9effe89915524d58e5a22e9c2191e518d3e06b8272140ad91c58bbf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/known-open-items.json"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "Read actual runtime/test records and approved design; SHA256-bind declared files and image inheritance",
+        "environment": "Local evidence review; scope/limits stated in artifact; no independent acceptance claimed"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "dc2c87a2fa81264d6c68d326d2d15dfacba3eb4b3fa717c472b78088e032c990",
+        "actual": "dc2c87a2fa81264d6c68d326d2d15dfacba3eb4b3fa717c472b78088e032c990"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/known-open-items.json"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "edb5ad75b5f87899ab85d246928cfe808223312d",
+        "blob_sha256": "dc2c87a2fa81264d6c68d326d2d15dfacba3eb4b3fa717c472b78088e032c990",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-final-fullsuite.txt"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npm test -- --maxWorkers=4 (40ef source, before test-input-only fix)",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "407da21d5ddbaf053838302a5ac65733c88abc6ed0993435920c594e9cc179ca",
+        "actual": "407da21d5ddbaf053838302a5ac65733c88abc6ed0993435920c594e9cc179ca"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-final-fullsuite.txt"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "afb7735e36334ceac328560425f2383c3e4b85b4",
+        "blob_sha256": "407da21d5ddbaf053838302a5ac65733c88abc6ed0993435920c594e9cc179ca",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-covering.txt"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npx vitest run tests/infrastructure/private-input-privacy.test.ts tests/infrastructure/prerelease-live-privacy.test.ts --maxWorkers=2",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "52e48def72ef1776b7fe764a85df5ee716a5e9173173fbcffe0167d7f02050af",
+        "actual": "52e48def72ef1776b7fe764a85df5ee716a5e9173173fbcffe0167d7f02050af"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-covering.txt"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "57391fa77c795fb862e00a34aa86048009a85f89",
+        "blob_sha256": "52e48def72ef1776b7fe764a85df5ee716a5e9173173fbcffe0167d7f02050af",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_25_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-lint.txt"
+    },
+    {
+      "id": "evidence_25_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npm run lint",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_25_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "eaf4eb5b56161cc2d9d3ca3805bf56368b22bf10efb5b1473763f3146c817dbd",
+        "actual": "eaf4eb5b56161cc2d9d3ca3805bf56368b22bf10efb5b1473763f3146c817dbd"
+      }
+    },
+    {
+      "id": "evidence_25_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-lint.txt"
+    },
+    {
+      "id": "evidence_25_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1688568826c5a5153e4ff3f7ef1ffb0ceb36ea04",
+        "blob_sha256": "eaf4eb5b56161cc2d9d3ca3805bf56368b22bf10efb5b1473763f3146c817dbd",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_25_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_26_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-red.txt"
+    },
+    {
+      "id": "evidence_26_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npx vitest run tests/infrastructure/private-input-privacy.test.ts --maxWorkers=1 (RED)",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_26_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d448fe4173ca2dd22b8caba7c6171259d644cecab164ef0dc3e927adf8c20be1",
+        "actual": "d448fe4173ca2dd22b8caba7c6171259d644cecab164ef0dc3e927adf8c20be1"
+      }
+    },
+    {
+      "id": "evidence_26_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-red.txt"
+    },
+    {
+      "id": "evidence_26_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f80b2db2c3e4bbfde4bd441a15cf015a2a82a5ba",
+        "blob_sha256": "d448fe4173ca2dd22b8caba7c6171259d644cecab164ef0dc3e927adf8c20be1",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_26_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_27_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-step-green.txt"
+    },
+    {
+      "id": "evidence_27_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npx vitest run tests/infrastructure/private-input-privacy.test.ts --maxWorkers=1 (GREEN full step errors)",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_27_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "158df247a8a51e0ab59a4558400b464652c4f3f2e2c0b09f894c095f1cd42905",
+        "actual": "158df247a8a51e0ab59a4558400b464652c4f3f2e2c0b09f894c095f1cd42905"
+      }
+    },
+    {
+      "id": "evidence_27_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-step-green.txt"
+    },
+    {
+      "id": "evidence_27_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1251400c2ae397133dbd9bf16e897612a5b0f7eb",
+        "blob_sha256": "158df247a8a51e0ab59a4558400b464652c4f3f2e2c0b09f894c095f1cd42905",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_27_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_28_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-typecheck.txt"
+    },
+    {
+      "id": "evidence_28_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "NEXT_DIST_DIR=.next-public-paths-candidate npm run typecheck",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_28_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3410668693f8886f3c9b00ede989c59d77f71b9d7c4b4aae12ca99fa494ee247",
+        "actual": "3410668693f8886f3c9b00ede989c59d77f71b9d7c4b4aae12ca99fa494ee247"
+      }
+    },
+    {
+      "id": "evidence_28_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-typecheck.txt"
+    },
+    {
+      "id": "evidence_28_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "87ba49b1cdad9df42254c3dd01acec00473c1505",
+        "blob_sha256": "3410668693f8886f3c9b00ede989c59d77f71b9d7c4b4aae12ca99fa494ee247",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_28_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_29_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-retained-rfq-green.txt"
+    },
+    {
+      "id": "evidence_29_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npx vitest run tests/unit/rfq/malaysia-rfq-server-receiver.test.ts tests/unit/rfq/malaysia-rfq-receiver.test.ts --maxWorkers=4",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_29_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "540f79e58c6f94dbb314d9c7fc1fad19d49f8f0151082f04fbd718c12dfc92c9",
+        "actual": "540f79e58c6f94dbb314d9c7fc1fad19d49f8f0151082f04fbd718c12dfc92c9"
+      }
+    },
+    {
+      "id": "evidence_29_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-retained-rfq-green.txt"
+    },
+    {
+      "id": "evidence_29_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a6a2c4ff8b76c8eb276b2de579a4001f4238da26",
+        "blob_sha256": "540f79e58c6f94dbb314d9c7fc1fad19d49f8f0151082f04fbd718c12dfc92c9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_29_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_30_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-retained-rfq-red.txt"
+    },
+    {
+      "id": "evidence_30_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npx vitest run tests/unit/rfq/malaysia-rfq-server-receiver.test.ts --maxWorkers=4 (RED)",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_30_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d3c79c9726934a8e7f15d7047f490b872802de66b817167a3ae31261c180ef8c",
+        "actual": "d3c79c9726934a8e7f15d7047f490b872802de66b817167a3ae31261c180ef8c"
+      }
+    },
+    {
+      "id": "evidence_30_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-retained-rfq-red.txt"
+    },
+    {
+      "id": "evidence_30_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b78f33fdb569184dce00a6446bb796d609a1ad35",
+        "blob_sha256": "d3c79c9726934a8e7f15d7047f490b872802de66b817167a3ae31261c180ef8c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_30_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_31_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-app-sample-e2e.txt"
+    },
+    {
+      "id": "evidence_31_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npx playwright test tests/e2e/app000-gate8.spec.ts tests/e2e/request-sample.spec.ts --project=chromium --workers=1 --grep 'APP|controlled browser-direct Sample responses' --output=.tmp/playwright-sealed-app-sample",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_31_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "1dacd439f166c136cadecc195e1dcec9aacf8544202f4f3b05bff389c2fff4d3",
+        "actual": "1dacd439f166c136cadecc195e1dcec9aacf8544202f4f3b05bff389c2fff4d3"
+      }
+    },
+    {
+      "id": "evidence_31_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-app-sample-e2e.txt"
+    },
+    {
+      "id": "evidence_31_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ca113f33c71a586edda432a95f00b81a4dd440b7",
+        "blob_sha256": "1dacd439f166c136cadecc195e1dcec9aacf8544202f4f3b05bff389c2fff4d3",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_31_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_32_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-build.txt"
+    },
+    {
+      "id": "evidence_32_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npm run build through task9-sealed-candidate.mjs",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_32_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "21a91fb2db60f36171f5751ffe54aa7a0ba8dd628818feb938fd64212e8fc4fd",
+        "actual": "21a91fb2db60f36171f5751ffe54aa7a0ba8dd628818feb938fd64212e8fc4fd"
+      }
+    },
+    {
+      "id": "evidence_32_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-build.txt"
+    },
+    {
+      "id": "evidence_32_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1556cad306ab39ef9ad19b94a5b026003d02e68d",
+        "blob_sha256": "21a91fb2db60f36171f5751ffe54aa7a0ba8dd628818feb938fd64212e8fc4fd",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_32_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_33_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-ordinary-e2e.txt"
+    },
+    {
+      "id": "evidence_33_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PPF-7.2-LOCAL-VALIDATION"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Windows isolated test runtime; raw transcript bytes preserved; RED explicitly labelled, no actual provider submission"
+      }
+    },
+    {
+      "id": "evidence_33_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a52184c549d5228119cd8d6fdfda2b9260d53e7f79d157aeb2bf1701f061673d",
+        "actual": "a52184c549d5228119cd8d6fdfda2b9260d53e7f79d157aeb2bf1701f061673d"
+      }
+    },
+    {
+      "id": "evidence_33_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-ordinary-e2e.txt"
+    },
+    {
+      "id": "evidence_33_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a868a0d20e65f2475189d41999865eec6f25b2a9",
+        "blob_sha256": "a52184c549d5228119cd8d6fdfda2b9260d53e7f79d157aeb2bf1701f061673d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_33_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_34_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-1440.png"
+    },
+    {
+      "id": "evidence_34_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of APP-000-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_34_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "339bf2bcb3fd73cf10a208b3c570765bc85f942ac42b5adb934841daca79518c",
+        "actual": "339bf2bcb3fd73cf10a208b3c570765bc85f942ac42b5adb934841daca79518c"
+      }
+    },
+    {
+      "id": "evidence_34_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-1440.png"
+    },
+    {
+      "id": "evidence_34_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c4f721eb800b3361e88844835002911b0c84334a",
+        "blob_sha256": "339bf2bcb3fd73cf10a208b3c570765bc85f942ac42b5adb934841daca79518c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_34_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_35_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-390.png"
+    },
+    {
+      "id": "evidence_35_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of APP-000-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_35_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "329a0994f896ff542f34bf66baf881b8a74222b83e21bbb515084f305e435c70",
+        "actual": "329a0994f896ff542f34bf66baf881b8a74222b83e21bbb515084f305e435c70"
+      }
+    },
+    {
+      "id": "evidence_35_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-390.png"
+    },
+    {
+      "id": "evidence_35_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "263167f6e3602cc6fbd5778bc48ad4f3d41d8f1f",
+        "blob_sha256": "329a0994f896ff542f34bf66baf881b8a74222b83e21bbb515084f305e435c70",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_35_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_36_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-768.png"
+    },
+    {
+      "id": "evidence_36_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of APP-000-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_36_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f587abbaf0833ff964597b9642921a1d83acb0c397c87705ad1a597de77ab802",
+        "actual": "f587abbaf0833ff964597b9642921a1d83acb0c397c87705ad1a597de77ab802"
+      }
+    },
+    {
+      "id": "evidence_36_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-768.png"
+    },
+    {
+      "id": "evidence_36_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6d8d583253f1ebbd8ecf1addab312b5d76563fef",
+        "blob_sha256": "f587abbaf0833ff964597b9642921a1d83acb0c397c87705ad1a597de77ab802",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_36_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_37_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-1440.png"
+    },
+    {
+      "id": "evidence_37_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of DOC-000-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_37_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "82abf6deaf330f62ebcf274306a3a9b876e0d29f2730e8a12392418c79dd0dba",
+        "actual": "82abf6deaf330f62ebcf274306a3a9b876e0d29f2730e8a12392418c79dd0dba"
+      }
+    },
+    {
+      "id": "evidence_37_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-1440.png"
+    },
+    {
+      "id": "evidence_37_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "55366689b5ac93eb4ff84ea2dea38f960a0b0fac",
+        "blob_sha256": "82abf6deaf330f62ebcf274306a3a9b876e0d29f2730e8a12392418c79dd0dba",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_37_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_38_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-390.png"
+    },
+    {
+      "id": "evidence_38_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of DOC-000-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_38_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "28390a5a67abb227630112df4c3c5b57eddf382ad4f7af874284393dab191f0d",
+        "actual": "28390a5a67abb227630112df4c3c5b57eddf382ad4f7af874284393dab191f0d"
+      }
+    },
+    {
+      "id": "evidence_38_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-390.png"
+    },
+    {
+      "id": "evidence_38_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7e988c11b33dca239ae59160f847b5d3285a94fb",
+        "blob_sha256": "28390a5a67abb227630112df4c3c5b57eddf382ad4f7af874284393dab191f0d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_38_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_39_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-768.png"
+    },
+    {
+      "id": "evidence_39_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of DOC-000-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_39_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b9dbc4c8dd763d8494cfc895e09a49298410fdd1efe479308639553d16c74752",
+        "actual": "b9dbc4c8dd763d8494cfc895e09a49298410fdd1efe479308639553d16c74752"
+      }
+    },
+    {
+      "id": "evidence_39_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-768.png"
+    },
+    {
+      "id": "evidence_39_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bb34b8cebdc3d8a67c1e934fd911098a080a6a9c",
+        "blob_sha256": "b9dbc4c8dd763d8494cfc895e09a49298410fdd1efe479308639553d16c74752",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_39_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_40_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-1440.png"
+    },
+    {
+      "id": "evidence_40_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of HOME-001-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_40_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b35a3a62e56a59dc6696d3635a38b28ffa75799c85ea1f32e0a5788045000a38",
+        "actual": "b35a3a62e56a59dc6696d3635a38b28ffa75799c85ea1f32e0a5788045000a38"
+      }
+    },
+    {
+      "id": "evidence_40_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-1440.png"
+    },
+    {
+      "id": "evidence_40_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cce88b1c72297930ad7aab8b85521b4f4c9e18e5",
+        "blob_sha256": "b35a3a62e56a59dc6696d3635a38b28ffa75799c85ea1f32e0a5788045000a38",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_40_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_41_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-390.png"
+    },
+    {
+      "id": "evidence_41_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of HOME-001-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_41_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e2ec59e6c21461d9daaab058faefc4af8e15e03fb84e3fb8b79f841b47a22564",
+        "actual": "e2ec59e6c21461d9daaab058faefc4af8e15e03fb84e3fb8b79f841b47a22564"
+      }
+    },
+    {
+      "id": "evidence_41_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-390.png"
+    },
+    {
+      "id": "evidence_41_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "037c0f186a016a57379dbceb119e73b4ce2030ce",
+        "blob_sha256": "e2ec59e6c21461d9daaab058faefc4af8e15e03fb84e3fb8b79f841b47a22564",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_41_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_42_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-768.png"
+    },
+    {
+      "id": "evidence_42_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of HOME-001-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_42_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b2fd0606af6e730864914d2e6dc37d86f0364eeec3744c8197eb0c6d6cfef687",
+        "actual": "b2fd0606af6e730864914d2e6dc37d86f0364eeec3744c8197eb0c6d6cfef687"
+      }
+    },
+    {
+      "id": "evidence_42_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-768.png"
+    },
+    {
+      "id": "evidence_42_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4365e8a2056da1373dfc0cbd92e5bd276b016013",
+        "blob_sha256": "b2fd0606af6e730864914d2e6dc37d86f0364eeec3744c8197eb0c6d6cfef687",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_42_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_43_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-1440.png"
+    },
+    {
+      "id": "evidence_43_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of PRODUCT-000-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_43_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "81d3e1cffe29f84a40481e998840ab018063ccf0d26050f64d6f101b226a8211",
+        "actual": "81d3e1cffe29f84a40481e998840ab018063ccf0d26050f64d6f101b226a8211"
+      }
+    },
+    {
+      "id": "evidence_43_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-1440.png"
+    },
+    {
+      "id": "evidence_43_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5e02e017e21804ba2f28a8f9c01afee8aba7bcc3",
+        "blob_sha256": "81d3e1cffe29f84a40481e998840ab018063ccf0d26050f64d6f101b226a8211",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_43_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_44_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-390.png"
+    },
+    {
+      "id": "evidence_44_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of PRODUCT-000-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_44_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6091f9c6bb19f87774d8a069d9f165aaffdbebc236e5f2e16b17ad8285b11b69",
+        "actual": "6091f9c6bb19f87774d8a069d9f165aaffdbebc236e5f2e16b17ad8285b11b69"
+      }
+    },
+    {
+      "id": "evidence_44_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-390.png"
+    },
+    {
+      "id": "evidence_44_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bee6176dfc969ca3caf28c5262022bb7a9924636",
+        "blob_sha256": "6091f9c6bb19f87774d8a069d9f165aaffdbebc236e5f2e16b17ad8285b11b69",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_44_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_45_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-768.png"
+    },
+    {
+      "id": "evidence_45_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of PRODUCT-000-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_45_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b06da1d1ccfcaab397ea76fdd94081fb174ee36043772a9db39da63b6c4c8e2b",
+        "actual": "b06da1d1ccfcaab397ea76fdd94081fb174ee36043772a9db39da63b6c4c8e2b"
+      }
+    },
+    {
+      "id": "evidence_45_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-768.png"
+    },
+    {
+      "id": "evidence_45_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ff71a6c3dc10cef0e8bd2149f6a7057e05830485",
+        "blob_sha256": "b06da1d1ccfcaab397ea76fdd94081fb174ee36043772a9db39da63b6c4c8e2b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_45_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_46_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-1440.png"
+    },
+    {
+      "id": "evidence_46_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of RES-000-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_46_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "cfcde95b06d943c6725ab00ee35be0d6aeca66d11e6f3f35568a4bbe5e44249b",
+        "actual": "cfcde95b06d943c6725ab00ee35be0d6aeca66d11e6f3f35568a4bbe5e44249b"
+      }
+    },
+    {
+      "id": "evidence_46_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-1440.png"
+    },
+    {
+      "id": "evidence_46_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ac64b0858cc46b766031105808b3c3e84ea2893f",
+        "blob_sha256": "cfcde95b06d943c6725ab00ee35be0d6aeca66d11e6f3f35568a4bbe5e44249b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_46_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_47_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-390.png"
+    },
+    {
+      "id": "evidence_47_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of RES-000-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_47_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "025a6dbe4870445c07366a56ee4de0d1ed70987252531f1e95ee911b5f17e31c",
+        "actual": "025a6dbe4870445c07366a56ee4de0d1ed70987252531f1e95ee911b5f17e31c"
+      }
+    },
+    {
+      "id": "evidence_47_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-390.png"
+    },
+    {
+      "id": "evidence_47_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "472a44f71ca73a75a65b3a7fe82f3a17c7deabf4",
+        "blob_sha256": "025a6dbe4870445c07366a56ee4de0d1ed70987252531f1e95ee911b5f17e31c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_47_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_48_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-768.png"
+    },
+    {
+      "id": "evidence_48_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of RES-000-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_48_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ad0444a8954514bc39667e56b8b6e281db80bca161ef4acb569b93a18a4d29a6",
+        "actual": "ad0444a8954514bc39667e56b8b6e281db80bca161ef4acb569b93a18a4d29a6"
+      }
+    },
+    {
+      "id": "evidence_48_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-768.png"
+    },
+    {
+      "id": "evidence_48_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e0616bc1d12fa7678bd7cc18a91af4950eb3e4ba",
+        "blob_sha256": "ad0444a8954514bc39667e56b8b6e281db80bca161ef4acb569b93a18a4d29a6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_48_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_49_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/desktop-1440.png"
+    },
+    {
+      "id": "evidence_49_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of desktop-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_49_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b35a3a62e56a59dc6696d3635a38b28ffa75799c85ea1f32e0a5788045000a38",
+        "actual": "b35a3a62e56a59dc6696d3635a38b28ffa75799c85ea1f32e0a5788045000a38"
+      }
+    },
+    {
+      "id": "evidence_49_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/desktop-1440.png"
+    },
+    {
+      "id": "evidence_49_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cce88b1c72297930ad7aab8b85521b4f4c9e18e5",
+        "blob_sha256": "b35a3a62e56a59dc6696d3635a38b28ffa75799c85ea1f32e0a5788045000a38",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_49_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_50_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/mobile-390.png"
+    },
+    {
+      "id": "evidence_50_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of mobile-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_50_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e2ec59e6c21461d9daaab058faefc4af8e15e03fb84e3fb8b79f841b47a22564",
+        "actual": "e2ec59e6c21461d9daaab058faefc4af8e15e03fb84e3fb8b79f841b47a22564"
+      }
+    },
+    {
+      "id": "evidence_50_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/mobile-390.png"
+    },
+    {
+      "id": "evidence_50_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "037c0f186a016a57379dbceb119e73b4ce2030ce",
+        "blob_sha256": "e2ec59e6c21461d9daaab058faefc4af8e15e03fb84e3fb8b79f841b47a22564",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_50_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_51_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-abd11022-a33c-483e-b663-0e10b3e2d8cc.json"
+    },
+    {
+      "id": "evidence_51_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: public-paths.width.768"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_51_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "45c57cc7ce7cef9496214a34662da6d08726a34667dd08fe6c837216f85bc349",
+        "actual": "45c57cc7ce7cef9496214a34662da6d08726a34667dd08fe6c837216f85bc349"
+      }
+    },
+    {
+      "id": "evidence_51_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-abd11022-a33c-483e-b663-0e10b3e2d8cc.json"
+    },
+    {
+      "id": "evidence_51_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8a3ba3f19e7e9ced26ef1775af95a2155435b80d",
+        "blob_sha256": "45c57cc7ce7cef9496214a34662da6d08726a34667dd08fe6c837216f85bc349",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_51_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_52_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-ac93fe39-aaaf-4bec-91fe-1104b2151d5e.json"
+    },
+    {
+      "id": "evidence_52_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: public-paths.width.1440"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_52_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "69dd9802bedbef8bf5a18cf444a24b133c3a4760bab874f4850e827b06acde28",
+        "actual": "69dd9802bedbef8bf5a18cf444a24b133c3a4760bab874f4850e827b06acde28"
+      }
+    },
+    {
+      "id": "evidence_52_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-ac93fe39-aaaf-4bec-91fe-1104b2151d5e.json"
+    },
+    {
+      "id": "evidence_52_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c5147dbe8816438de149566c4470a6710b1fd17d",
+        "blob_sha256": "69dd9802bedbef8bf5a18cf444a24b133c3a4760bab874f4850e827b06acde28",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_52_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_53_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-d4057961-3f9c-45d8-a5c7-e33908b0f221.json"
+    },
+    {
+      "id": "evidence_53_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_53_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b675c6d507e2fd544c1c674554546412ed14921cb50200f39cd57c4b89b233c4",
+        "actual": "b675c6d507e2fd544c1c674554546412ed14921cb50200f39cd57c4b89b233c4"
+      }
+    },
+    {
+      "id": "evidence_53_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-d4057961-3f9c-45d8-a5c7-e33908b0f221.json"
+    },
+    {
+      "id": "evidence_53_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "238306ec4fa1d1ed78c1ab80616c966723139201",
+        "blob_sha256": "b675c6d507e2fd544c1c674554546412ed14921cb50200f39cd57c4b89b233c4",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_53_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_54_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-e4487df5-d75d-4e73-bc2b-667004fee485.json"
+    },
+    {
+      "id": "evidence_54_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: public-paths.width.390"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_54_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ad21ce428db0c1674a7f3fd54525df289a9e9dd7f2c4d3e5636a8befb0a35dee",
+        "actual": "ad21ce428db0c1674a7f3fd54525df289a9e9dd7f2c4d3e5636a8befb0a35dee"
+      }
+    },
+    {
+      "id": "evidence_54_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-e4487df5-d75d-4e73-bc2b-667004fee485.json"
+    },
+    {
+      "id": "evidence_54_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5899a9fcb10060c537d2a1ecd372d4e8c7b7d1d4",
+        "blob_sha256": "ad21ce428db0c1674a7f3fd54525df289a9e9dd7f2c4d3e5636a8befb0a35dee",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_54_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_55_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-1440.png"
+    },
+    {
+      "id": "evidence_55_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-a-quote-empty-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_55_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "330c2e6b66f3fbd338f49ac5a15f0ae089c72083f4dfaa24a081e710b9901550",
+        "actual": "330c2e6b66f3fbd338f49ac5a15f0ae089c72083f4dfaa24a081e710b9901550"
+      }
+    },
+    {
+      "id": "evidence_55_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-1440.png"
+    },
+    {
+      "id": "evidence_55_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a33949adb06cd0f07900884c8e4cf7edc00e798b",
+        "blob_sha256": "330c2e6b66f3fbd338f49ac5a15f0ae089c72083f4dfaa24a081e710b9901550",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_55_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_56_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-390.png"
+    },
+    {
+      "id": "evidence_56_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-a-quote-empty-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_56_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "243e21df36017ead901ce7dfe043aa7abc08ffd149b232161ee0fb6d121ef8c1",
+        "actual": "243e21df36017ead901ce7dfe043aa7abc08ffd149b232161ee0fb6d121ef8c1"
+      }
+    },
+    {
+      "id": "evidence_56_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-390.png"
+    },
+    {
+      "id": "evidence_56_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "640bbaf17fc017d5eecbce1e24abb67586fb11b4",
+        "blob_sha256": "243e21df36017ead901ce7dfe043aa7abc08ffd149b232161ee0fb6d121ef8c1",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_56_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_57_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-768.png"
+    },
+    {
+      "id": "evidence_57_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-a-quote-empty-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_57_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "526a9005c74d66b6e6b99642906fd8127ddd35c54f05e6b674c948fed11682ee",
+        "actual": "526a9005c74d66b6e6b99642906fd8127ddd35c54f05e6b674c948fed11682ee"
+      }
+    },
+    {
+      "id": "evidence_57_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-768.png"
+    },
+    {
+      "id": "evidence_57_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5ab82b7e6d41f7ed43f6eaaa326b9e4519f8a25c",
+        "blob_sha256": "526a9005c74d66b6e6b99642906fd8127ddd35c54f05e6b674c948fed11682ee",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_57_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_58_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-1440.png"
+    },
+    {
+      "id": "evidence_58_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-documents-empty-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_58_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "266222e69edc6341d4f1dfa3736e9ec16a0906754ed915f6fc7de06eb65b060c",
+        "actual": "266222e69edc6341d4f1dfa3736e9ec16a0906754ed915f6fc7de06eb65b060c"
+      }
+    },
+    {
+      "id": "evidence_58_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-1440.png"
+    },
+    {
+      "id": "evidence_58_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c8a369cf6b7d1d60b0a6331d2df3c9b611fd1b68",
+        "blob_sha256": "266222e69edc6341d4f1dfa3736e9ec16a0906754ed915f6fc7de06eb65b060c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_58_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_59_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-390.png"
+    },
+    {
+      "id": "evidence_59_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-documents-empty-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_59_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "23b9f6d722938b19c061464e6a79973e02ebb0f0ae6dc25bfafd679d9cd82c9e",
+        "actual": "23b9f6d722938b19c061464e6a79973e02ebb0f0ae6dc25bfafd679d9cd82c9e"
+      }
+    },
+    {
+      "id": "evidence_59_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-390.png"
+    },
+    {
+      "id": "evidence_59_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cfd16a9f82eda6458808fffe6c90b0625edcc066",
+        "blob_sha256": "23b9f6d722938b19c061464e6a79973e02ebb0f0ae6dc25bfafd679d9cd82c9e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_59_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_60_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-768.png"
+    },
+    {
+      "id": "evidence_60_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-documents-empty-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_60_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "39284027eb377ff4eac6a7292d47d091250aa210a926ede30c33976b65e9555f",
+        "actual": "39284027eb377ff4eac6a7292d47d091250aa210a926ede30c33976b65e9555f"
+      }
+    },
+    {
+      "id": "evidence_60_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-768.png"
+    },
+    {
+      "id": "evidence_60_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a41bb804174e1fb419ffaf68ad5a45f976a97a84",
+        "blob_sha256": "39284027eb377ff4eac6a7292d47d091250aa210a926ede30c33976b65e9555f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_60_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_61_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-1440.png"
+    },
+    {
+      "id": "evidence_61_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-sample-empty-1440.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_61_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "1080cc85fb1a63e004202e3ba0ccbaffe77788374dbaba33578ef7ec8481d7dc",
+        "actual": "1080cc85fb1a63e004202e3ba0ccbaffe77788374dbaba33578ef7ec8481d7dc"
+      }
+    },
+    {
+      "id": "evidence_61_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-1440.png"
+    },
+    {
+      "id": "evidence_61_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4edfb94e5bb2ef96e24d9def4f7e841912849dfe",
+        "blob_sha256": "1080cc85fb1a63e004202e3ba0ccbaffe77788374dbaba33578ef7ec8481d7dc",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_61_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_62_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-390.png"
+    },
+    {
+      "id": "evidence_62_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-sample-empty-390.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_62_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6eb7f69e0a1a9d92884281def3e3134693d9489b0c21c10e4e3a736e0036e5e6",
+        "actual": "6eb7f69e0a1a9d92884281def3e3134693d9489b0c21c10e4e3a736e0036e5e6"
+      }
+    },
+    {
+      "id": "evidence_62_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-390.png"
+    },
+    {
+      "id": "evidence_62_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e65118450630f922d5b958cdfd9887d4a118eaf1",
+        "blob_sha256": "6eb7f69e0a1a9d92884281def3e3134693d9489b0c21c10e4e3a736e0036e5e6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_62_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_63_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-768.png"
+    },
+    {
+      "id": "evidence_63_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of request-sample-empty-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_63_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "766e5402e979743602703a641983955721fb167efb1a739e61cd1b62eea978d6",
+        "actual": "766e5402e979743602703a641983955721fb167efb1a739e61cd1b62eea978d6"
+      }
+    },
+    {
+      "id": "evidence_63_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-768.png"
+    },
+    {
+      "id": "evidence_63_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d741a9be51f44e38679d1ca74a5844d8ac25d9e5",
+        "blob_sha256": "766e5402e979743602703a641983955721fb167efb1a739e61cd1b62eea978d6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_63_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_64_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-275ecaf2-e4e5-475b-afe2-c0a07cd222c0.json"
+    },
+    {
+      "id": "evidence_64_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: smoke.representative"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_64_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "dbc8ef68e99c5e6fae5e4c7ffad68beb9c05490d2d53f0867a0c0eba53548fba",
+        "actual": "dbc8ef68e99c5e6fae5e4c7ffad68beb9c05490d2d53f0867a0c0eba53548fba"
+      }
+    },
+    {
+      "id": "evidence_64_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-275ecaf2-e4e5-475b-afe2-c0a07cd222c0.json"
+    },
+    {
+      "id": "evidence_64_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "43efe6e8df081d3f73562ff676563bcd441319a2",
+        "blob_sha256": "dbc8ef68e99c5e6fae5e4c7ffad68beb9c05490d2d53f0867a0c0eba53548fba",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_64_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_65_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-3577b223-d937-47e1-ae88-160a61e8f76b.json"
+    },
+    {
+      "id": "evidence_65_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: smoke.reflow.1440"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_65_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f843bd18648f02727e072583392c48d38457f91b9168d2674f0180492a3186da",
+        "actual": "f843bd18648f02727e072583392c48d38457f91b9168d2674f0180492a3186da"
+      }
+    },
+    {
+      "id": "evidence_65_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-3577b223-d937-47e1-ae88-160a61e8f76b.json"
+    },
+    {
+      "id": "evidence_65_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f01f2562e63570eb25f3246c98be545a7dfd0385",
+        "blob_sha256": "f843bd18648f02727e072583392c48d38457f91b9168d2674f0180492a3186da",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_65_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_66_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-3e080533-7a86-4248-8cc2-7e0e7f527a26.json"
+    },
+    {
+      "id": "evidence_66_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: smoke.reflow.768"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_66_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d675f298e814ed2b8ad15c95883cf0b3c131c0d6f710bedb64b38394e3df12ca",
+        "actual": "d675f298e814ed2b8ad15c95883cf0b3c131c0d6f710bedb64b38394e3df12ca"
+      }
+    },
+    {
+      "id": "evidence_66_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-3e080533-7a86-4248-8cc2-7e0e7f527a26.json"
+    },
+    {
+      "id": "evidence_66_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "73c285cbbf8b38d6d9861bcb07321943a7f43ee5",
+        "blob_sha256": "d675f298e814ed2b8ad15c95883cf0b3c131c0d6f710bedb64b38394e3df12ca",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_66_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_67_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-60d9cc91-c12d-4611-a4b2-6bf86d62edfb.json"
+    },
+    {
+      "id": "evidence_67_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: smoke.cookie-keyboard"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_67_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "40d006a43201aae45d352288802ad3fe376dbfde7adca31eb314a1cdc1f7711a",
+        "actual": "40d006a43201aae45d352288802ad3fe376dbfde7adca31eb314a1cdc1f7711a"
+      }
+    },
+    {
+      "id": "evidence_67_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-60d9cc91-c12d-4611-a4b2-6bf86d62edfb.json"
+    },
+    {
+      "id": "evidence_67_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "65a27eb5c7afcc2fb433861425fdacdc72532bb7",
+        "blob_sha256": "40d006a43201aae45d352288802ad3fe376dbfde7adca31eb314a1cdc1f7711a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_67_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_68_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-89c170dc-1b32-490b-97eb-09cb36aa3ad1.json"
+    },
+    {
+      "id": "evidence_68_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: smoke.reflow.390"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_68_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f8fb154d8dcf2083c542f968fe157c8d6787c58beacc15917056e24a18b4def5",
+        "actual": "f8fb154d8dcf2083c542f968fe157c8d6787c58beacc15917056e24a18b4def5"
+      }
+    },
+    {
+      "id": "evidence_68_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-89c170dc-1b32-490b-97eb-09cb36aa3ad1.json"
+    },
+    {
+      "id": "evidence_68_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bdbef3390b00c7d6f9e280a7519c74a44ee77ea6",
+        "blob_sha256": "f8fb154d8dcf2083c542f968fe157c8d6787c58beacc15917056e24a18b4def5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_68_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_69_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-ddf603cf-22c0-440c-8277-e26e2a27dfa7.json"
+    },
+    {
+      "id": "evidence_69_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "Named actual browser check: smoke.local-forms"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_69_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "188b9d5c0ef6c08dbed7a79e13ccbd0f4c962498e5b23baef79f4dc879db5e5c",
+        "actual": "188b9d5c0ef6c08dbed7a79e13ccbd0f4c962498e5b23baef79f4dc879db5e5c"
+      }
+    },
+    {
+      "id": "evidence_69_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-ddf603cf-22c0-440c-8277-e26e2a27dfa7.json"
+    },
+    {
+      "id": "evidence_69_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "0dc966f0a2b4c2c3050cd1e71ce46663f0a684e0",
+        "blob_sha256": "188b9d5c0ef6c08dbed7a79e13ccbd0f4c962498e5b23baef79f4dc879db5e5c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_69_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_70_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/tablet-768.png"
+    },
+    {
+      "id": "evidence_70_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "Visual overview of tablet-768.png; behavior/count assertions are in the accompanying named test result"
+        ],
+        "command": "npx playwright test tests/e2e/prerelease-smoke.spec.ts tests/e2e/prerelease-public-paths.spec.ts --project=chromium --workers=1",
+        "environment": "Local production3183; all non-read browser requests blocked"
+      }
+    },
+    {
+      "id": "evidence_70_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b2fd0606af6e730864914d2e6dc37d86f0364eeec3744c8197eb0c6d6cfef687",
+        "actual": "b2fd0606af6e730864914d2e6dc37d86f0364eeec3744c8197eb0c6d6cfef687"
+      }
+    },
+    {
+      "id": "evidence_70_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/tablet-768.png"
+    },
+    {
+      "id": "evidence_70_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4365e8a2056da1373dfc0cbd92e5bd276b016013",
+        "blob_sha256": "b2fd0606af6e730864914d2e6dc37d86f0364eeec3744c8197eb0c6d6cfef687",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_70_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_71_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/privacy-verification.json"
+    },
+    {
+      "id": "evidence_71_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "APP-RULING-3-6-EVIDENCE-PRIVACY",
+          "APP-RULING-3-7-FAIL-CLOSED"
+        ],
+        "command": "Controlled APP/Sample browser tests and private-input/live-harness fixture regressions",
+        "environment": "Local browser fixtures, default list/JSON/full step errors inspected; zero real external requests"
+      }
+    },
+    {
+      "id": "evidence_71_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4ec5da483e5dc413c9fa0f7830f37a96a74cdd50375ba19c7b8edddff748e7e6",
+        "actual": "4ec5da483e5dc413c9fa0f7830f37a96a74cdd50375ba19c7b8edddff748e7e6"
+      }
+    },
+    {
+      "id": "evidence_71_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/privacy-verification.json"
+    },
+    {
+      "id": "evidence_71_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "aadf1eadbcde532f65bb86764dcb2dc3fdf0aeb5",
+        "blob_sha256": "4ec5da483e5dc413c9fa0f7830f37a96a74cdd50375ba19c7b8edddff748e7e6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_71_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_72_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/runtime-identity.json"
+    },
+    {
+      "id": "evidence_72_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "git identity, /api/prerelease-identity, validate-prerelease-site.php and collect-cms-identity.sh",
+        "environment": "Local task worktree; Next3183 and dedicated CMS8181"
+      }
+    },
+    {
+      "id": "evidence_72_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "10de53dcb399915aaaa72ce13d3c1ccd6e1869ede569f4efcf62d69284a7cb68",
+        "actual": "10de53dcb399915aaaa72ce13d3c1ccd6e1869ede569f4efcf62d69284a7cb68"
+      }
+    },
+    {
+      "id": "evidence_72_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/runtime-identity.json"
+    },
+    {
+      "id": "evidence_72_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "75a38481ebe89533c62730c45e76966a4692eba8",
+        "blob_sha256": "10de53dcb399915aaaa72ce13d3c1ccd6e1869ede569f4efcf62d69284a7cb68",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_72_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_73_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/sample/conv-sample-success.png"
+    },
+    {
+      "id": "evidence_73_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "PPF-4.1-THANK-STATE-BOUNDARY"
+        ],
+        "command": "Controlled Sample response E2E then page.screenshot",
+        "environment": "Local production3183; simulated provider acknowledgement only"
+      }
+    },
+    {
+      "id": "evidence_73_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5538e238ac86bd690a29d824f96cc71d3ade271c89cce54f890b5684c771268d",
+        "actual": "5538e238ac86bd690a29d824f96cc71d3ade271c89cce54f890b5684c771268d"
+      }
+    },
+    {
+      "id": "evidence_73_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/sample/conv-sample-success.png"
+    },
+    {
+      "id": "evidence_73_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c4b8e9f4dd333ae2386fe0e8270597e08845008f",
+        "blob_sha256": "5538e238ac86bd690a29d824f96cc71d3ade271c89cce54f890b5684c771268d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_73_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_74_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/source-identity.json"
+    },
+    {
+      "id": "evidence_74_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "git identity, /api/prerelease-identity, validate-prerelease-site.php and collect-cms-identity.sh",
+        "environment": "Local task worktree; Next3183 and dedicated CMS8181"
+      }
+    },
+    {
+      "id": "evidence_74_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8a448a31f2c22a5554ee9bec7b9cc65e8209a63ebb4d9ac7628b188fccfc6610",
+        "actual": "8a448a31f2c22a5554ee9bec7b9cc65e8209a63ebb4d9ac7628b188fccfc6610"
+      }
+    },
+    {
+      "id": "evidence_74_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/source-identity.json"
+    },
+    {
+      "id": "evidence_74_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "34ce2e61a4f0cdb6091b3ff6ccf5a332dbf549fe",
+        "blob_sha256": "8a448a31f2c22a5554ee9bec7b9cc65e8209a63ebb4d9ac7628b188fccfc6610",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_74_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_75_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/verification-summary.json"
+    },
+    {
+      "id": "evidence_75_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "Read actual runtime/test records and approved design; SHA256-bind declared files and image inheritance",
+        "environment": "Local evidence review; scope/limits stated in artifact; no independent acceptance claimed"
+      }
+    },
+    {
+      "id": "evidence_75_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ebcf03374c67a42c996b7bbd209571f2ad68a1ef6308980be6f9b897257a3b60",
+        "actual": "ebcf03374c67a42c996b7bbd209571f2ad68a1ef6308980be6f9b897257a3b60"
+      }
+    },
+    {
+      "id": "evidence_75_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/verification-summary.json"
+    },
+    {
+      "id": "evidence_75_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d0efea2ec11fc67d92618fd19d2f81c0bcaab7f8",
+        "blob_sha256": "ebcf03374c67a42c996b7bbd209571f2ad68a1ef6308980be6f9b897257a3b60",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_75_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_76_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/visual-review.json"
+    },
+    {
+      "id": "evidence_76_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "Read actual runtime/test records and approved design; SHA256-bind declared files and image inheritance",
+        "environment": "Local evidence review; scope/limits stated in artifact; no independent acceptance claimed"
+      }
+    },
+    {
+      "id": "evidence_76_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6b4166433c3efc08563312bc406abf210fb82ea568e01bfe5d119b7acfd483b1",
+        "actual": "6b4166433c3efc08563312bc406abf210fb82ea568e01bfe5d119b7acfd483b1"
+      }
+    },
+    {
+      "id": "evidence_76_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/visual-review.json"
+    },
+    {
+      "id": "evidence_76_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "10bfd22395bf2e2b5cb71ed3cb7a87a5f0c90a46",
+        "blob_sha256": "6b4166433c3efc08563312bc406abf210fb82ea568e01bfe5d119b7acfd483b1",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_76_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_77_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/inherited-evidence.json"
+    },
+    {
+      "id": "evidence_77_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-7.2-INTERNAL-LINKS-58"
+        ],
+        "command": "Read actual runtime/test records and approved design; SHA256-bind declared files and image inheritance",
+        "environment": "Local evidence review; scope/limits stated in artifact; no independent acceptance claimed"
+      }
+    },
+    {
+      "id": "evidence_77_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "283c85f35f300d799a5cf0ffa9c566b77f6e0ba4e6bb838a2012e0ad6a8fde31",
+        "actual": "283c85f35f300d799a5cf0ffa9c566b77f6e0ba4e6bb838a2012e0ad6a8fde31"
+      }
+    },
+    {
+      "id": "evidence_77_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/inherited-evidence.json"
+    },
+    {
+      "id": "evidence_77_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9be276dc2f20b9ccf3c3f083c28d41ddc17cea57",
+        "blob_sha256": "283c85f35f300d799a5cf0ffa9c566b77f6e0ba4e6bb838a2012e0ad6a8fde31",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_77_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/gate8_handoff_receipt.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/acceptance-coverage.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app-supersession.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-0075641f-8f7d-48f8-b575-dcb8b2024e8f.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-1bd3a352-ab06-4bd3-adc8-a84db99b5904.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-38bac450-edfa-4a69-bc73-3de60818a2fb.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-6d80b7e3-e5ba-4b0a-8e52-1139d2cc9335.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-76acfa76-2464-40a0-a71a-bfad58bc0e95.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-86eb232f-778d-4040-b7bd-62f34c578606.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-c3f264f1-3f36-49ac-bbe8-4f797d0daeb2.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-c756bc54-d255-4cdf-b794-225c630a4eeb.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-desktop-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-efa2326c-39f5-492b-a5bd-4c4182a76290.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-f3b4ea27-8236-4525-94e3-b80bd890f177.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-f5ee729a-58fe-467a-b56d-f06690a2612f.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-390-expanded.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-cookie-settings.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-tablet-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/cms-identity.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/cms-site-validation.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/endpoint-scan.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/image-inheritance.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/known-open-items.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-final-fullsuite.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-covering.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-lint.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-red.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-step-green.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-typecheck.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-retained-rfq-green.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-retained-rfq-red.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-app-sample-e2e.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-build.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-ordinary-e2e.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/desktop-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/mobile-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-abd11022-a33c-483e-b663-0e10b3e2d8cc.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-ac93fe39-aaaf-4bec-91fe-1104b2151d5e.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-d4057961-3f9c-45d8-a5c7-e33908b0f221.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-e4487df5-d75d-4e73-bc2b-667004fee485.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-275ecaf2-e4e5-475b-afe2-c0a07cd222c0.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-3577b223-d937-47e1-ae88-160a61e8f76b.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-3e080533-7a86-4248-8cc2-7e0e7f527a26.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-60d9cc91-c12d-4611-a4b2-6bf86d62edfb.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-89c170dc-1b32-490b-97eb-09cb36aa3ad1.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-ddf603cf-22c0-440c-8277-e26e2a27dfa7.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/tablet-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/privacy-verification.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/runtime-identity.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/sample/conv-sample-success.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/source-identity.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/verification-summary.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/visual-review.json",
+          "docs/verification/prerelease-public-paths/inherited-evidence.json"
+        ],
+        "actual": [
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/acceptance-coverage.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app-supersession.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-0075641f-8f7d-48f8-b575-dcb8b2024e8f.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-1bd3a352-ab06-4bd3-adc8-a84db99b5904.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-38bac450-edfa-4a69-bc73-3de60818a2fb.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-6d80b7e3-e5ba-4b0a-8e52-1139d2cc9335.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-76acfa76-2464-40a0-a71a-bfad58bc0e95.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-86eb232f-778d-4040-b7bd-62f34c578606.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-c3f264f1-3f36-49ac-bbe8-4f797d0daeb2.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-c756bc54-d255-4cdf-b794-225c630a4eeb.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-desktop-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-efa2326c-39f5-492b-a5bd-4c4182a76290.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-f3b4ea27-8236-4525-94e3-b80bd890f177.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-f5ee729a-58fe-467a-b56d-f06690a2612f.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-390-expanded.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-mobile-cookie-settings.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/app000/app000-tablet-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/cms-identity.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/cms-site-validation.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/endpoint-scan.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/image-inheritance.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/known-open-items.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-final-fullsuite.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-covering.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-lint.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-red.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-step-green.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-input-privacy-typecheck.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-retained-rfq-green.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-retained-rfq-red.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-app-sample-e2e.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-build.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/logs/task9-sealed-ordinary-e2e.txt",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/APP-000-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/DOC-000-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/HOME-001-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/PRODUCT-000-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/RES-000-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/desktop-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/mobile-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-abd11022-a33c-483e-b663-0e10b3e2d8cc.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-ac93fe39-aaaf-4bec-91fe-1104b2151d5e.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-d4057961-3f9c-45d8-a5c7-e33908b0f221.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/public-paths-e4487df5-d75d-4e73-bc2b-667004fee485.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-a-quote-empty-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-documents-empty-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-1440.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-390.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/request-sample-empty-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-275ecaf2-e4e5-475b-afe2-c0a07cd222c0.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-3577b223-d937-47e1-ae88-160a61e8f76b.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-3e080533-7a86-4248-8cc2-7e0e7f527a26.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-60d9cc91-c12d-4611-a4b2-6bf86d62edfb.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-89c170dc-1b32-490b-97eb-09cb36aa3ad1.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/smoke-ddf603cf-22c0-440c-8277-e26e2a27dfa7.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/ordinary/tablet-768.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/privacy-verification.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/runtime-identity.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/sample/conv-sample-success.png",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/source-identity.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/verification-summary.json",
+          "docs/verification/prerelease-public-paths/final-qyjMXbbCPr3yW3ZlKuD97/visual-review.json",
+          "docs/verification/prerelease-public-paths/inherited-evidence.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-public-paths/gate8_handoff_receipt.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

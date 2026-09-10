@@ -1,0 +1,196 @@
+{
+  "schema_version": "prerelease-3100-internal-link-targeted-recheck-evidence-v1.0",
+  "review_id": "PRERELEASE-3100-IL-RR-20260910-01",
+  "recheck_run": "R1",
+  "mode": "RUNTIME_REVIEW_TARGETED_RECHECK",
+  "captured_at": "2026-09-10T21:09:17+08:00",
+  "reviewer_independence": "Independent internal-link reviewer; not the Gate 8 implementation or repair author",
+  "candidate": {
+    "site_scope": "tio2-my",
+    "allowed_origin": "http://127.0.0.1:4511",
+    "repository": "D:\\16Wordpress_nextjs\\.worktrees\\prerelease-3100-internal-links",
+    "branch": "codex/prerelease-3100-internal-links",
+    "implementation_commit": "c18abbc5f7216508e16163c0dfe25b0e0ecc64a6",
+    "evidence_head": "de8128e57a34877fc90366c8a61af084dd22b64c",
+    "build_id": "ATKoXHh9g15QA-Y6c8Y2H",
+    "runtime_source_commit": "c18abbc5f7216508e16163c0dfe25b0e0ecc64a6",
+    "develop_merge_head_integration_record_only": "891058bae3803360a5d2b75d55c46bcf9b5e82a3",
+    "develop_contains_evidence_head": true,
+    "runtime_hold": "GATE9_PASS_OR_RETURN_NOTICE"
+  },
+  "input_hashes_sha256": {
+    "gate8_evidence_manifest_json": "734ae37e7d8630477132046c069097d8119a8e4b8d71ae6660c56afc504d76ac",
+    "manifest_validation_json": "91195178ec26493430ae63a63fb5554a75503b86124abb8e572a95e334a01723",
+    "gate9_preflight_json": "dedf36f2750fe5dc892e0fc31b431a91d73bafbede64ce606c5b68d819b53257",
+    "original_runtime_review_md": "5014b68d0decdc717c7cc0de69fbcff9b8e9220fee059b3689c0011d593c0c26",
+    "original_machine_inventory_json": "b7f8c2a88fc276fc120e5cf6e76df24d2fbe7f5fd2efc4260f5c9b0e2e0de21b",
+    "repair_authorization_dispatch_md": "31f27cd659883efc90255a482d399cafe0826a7ca817ee5cee26d22c5d119f5a",
+    "independent_ephemeral_runner_source": "191cda3291b1a834861fa029e62dea7111ce7ef06fb536368a15bc2549df1f75"
+  },
+  "machine_handoff_recheck": {
+    "manifest_hash_recomputed": "PASS",
+    "official_validator_command": "python skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py <manifest>",
+    "official_validator_result": "PASS",
+    "official_preflight_command": "python skills/runtime-implementation-verification/scripts/gate9_preflight.py <manifest> --rounds 2",
+    "official_preflight_result": "PASS",
+    "preflight_rounds": 2,
+    "preflight_requests": 8,
+    "preflight_successful_requests": 8,
+    "git_head_exact": true,
+    "git_clean": true,
+    "implementation_is_ancestor_of_evidence_head": true,
+    "build_id_exact": true
+  },
+  "independent_runtime_method": {
+    "http": "GET only; redirect=manual for direct parity checks",
+    "browser": "Playwright Chromium headless; DOMContentLoaded plus hydration wait where required",
+    "network_allowlist": [
+      "http://127.0.0.1:4511"
+    ],
+    "external_requests": "BLOCKED",
+    "business_actions": "NOT_TRIGGERED",
+    "forms_mailto_cookie_external_domains": "NOT_TRIGGERED",
+    "coverage_set_hashes_sha256": {
+      "affected_29_page_id_path_pairs": "e392784f444e107755eb743cb31dd8622800e04de7c005db237f3847eb187b8d",
+      "query_aware_47_path_query_values": "f41acc4fdc0704a64de783f843af215db85a30db08b537cb4605d8cd114f8fb2",
+      "shared_58_page_id_runtime_path_pairs": "9e33af8c829bff438f3c69061125b06ad3109514f6e477ba266a14bd62071dff"
+    }
+  },
+  "results": {
+    "affected_pages": {
+      "expected": 29,
+      "http_direct_200_no_redirect": 29,
+      "browser_exact_trailing_slash_url": 29,
+      "canonical_exact": 29,
+      "hreflang_and_applicable_json_ld_url_violations": 0,
+      "status": "PASS"
+    },
+    "query_aware_targets": {
+      "expected": 47,
+      "http_direct_200_no_redirect": 47,
+      "browser_path_and_query_preserved": 47,
+      "queryless_canonical_exact": 47,
+      "status": "PASS"
+    },
+    "shared_consumers": {
+      "prerelease_objects_expected": 58,
+      "runtime_identity_and_language_pass": 58,
+      "header_footer_target_set_failures": 0,
+      "same_origin_internal_href_instances_checked": 2375,
+      "noncanonical_trailing_slash_href_violations": 0,
+      "fragment_instances_checked": 123,
+      "fragment_target_failures": 0,
+      "browser_final_url_failures": 0,
+      "metadata_failures": 0,
+      "status": "PASS"
+    },
+    "contact_dependency": {
+      "page_id": "CONTACT-001",
+      "counting_rule": "59th dependency object; excluded from the 58 prerelease completion objects",
+      "direct_url": "http://127.0.0.1:4511/contact/",
+      "direct_status": 200,
+      "final_url": "http://127.0.0.1:4511/contact/",
+      "h1": "Contact TiO2 Malaysia",
+      "canonical": "https://tio2malaysia.com/contact/",
+      "lang": "en",
+      "site_scope": "tio2-my",
+      "source_instances": [
+        {
+          "source_page_id": "ABOUT-001",
+          "accessible_name": "Contact Us",
+          "ordinal": 1,
+          "raw_href": "/contact/",
+          "resolved_url": "http://127.0.0.1:4511/contact/",
+          "clicked_final_url": "http://127.0.0.1:4511/contact/",
+          "status": "PASS"
+        },
+        {
+          "source_page_id": "ABOUT-001",
+          "accessible_name": "Contact Us",
+          "ordinal": 2,
+          "raw_href": "/contact/",
+          "resolved_url": "http://127.0.0.1:4511/contact/",
+          "clicked_final_url": "http://127.0.0.1:4511/contact/",
+          "status": "PASS"
+        },
+        {
+          "source_page_id": "SYS-404",
+          "source_probe": "/__internal-link-review-missing-route-20260910__/",
+          "accessible_name": "Contact Our Team",
+          "raw_href": "/contact/",
+          "resolved_url": "http://127.0.0.1:4511/contact/",
+          "clicked_final_url": "http://127.0.0.1:4511/contact/",
+          "status": "PASS"
+        }
+      ],
+      "about_adjacent_contexts": "PASS",
+      "sys404_adjacent_recovery_actions": [
+        {"name": "Explore Products", "href": "/products/"},
+        {"name": "Go to Homepage", "href": "/"},
+        {"name": "Request Documents", "href": "/request-documents/"},
+        {"name": "Contact Our Team", "href": "/contact/"},
+        {"name": "Request a Quote", "href": "/request-a-quote/"}
+      ],
+      "status": "PASS"
+    },
+    "private_indexing_boundary": {
+      "robots_status": 200,
+      "robots_disallow_all": true,
+      "page_robots": "57 regular objects plus Contact remain noindex,nofollow; SYS-404 remains noindex,follow",
+      "sitemap_status": 200,
+      "sitemap_locations": [
+        "https://tio2malaysia.com/"
+      ],
+      "public_sitemap_required_in_this_recheck": false,
+      "indexing_started": false,
+      "status": "PASS"
+    }
+  },
+  "gate8_full_repository_vitest_review": {
+    "files_passed": 361,
+    "files_failed": 9,
+    "files_skipped": 22,
+    "tests_passed": 3087,
+    "tests_failed": 25,
+    "tests_skipped": 52,
+    "claim_full_repository_pass": false,
+    "failure_classification": [
+      {
+        "tests": 21,
+        "classification": "MISSING_LOCAL_SITE_A_WORDPRESS_ENVIRONMENT",
+        "detail": "Seven Site A WordPress/editorial/product import or audit files fail because wordpress/.env is absent in the isolated worktree."
+      },
+      {
+        "tests": 1,
+        "classification": "OUT_OF_SCOPE_QUERY_TIMEOUT_TEST",
+        "detail": "The headers-first stalled response timeout test exceeded 5000 ms."
+      },
+      {
+        "tests": 3,
+        "classification": "OUT_OF_SCOPE_FIVE_CORE_EDITORIAL_ASSERTIONS",
+        "detail": "PRODUCT-PROC-SU, MARKET-EU-DE and MARKET-EU-IT source-only attribution assertions expected M-996 but observed undefined."
+      }
+    ],
+    "counterevidence_to_contact_finding": false,
+    "counterevidence_to_url_parity_finding": false,
+    "basis": "Failures do not exercise the three Contact link instances, the /contact/ runtime identity, the 29 URL parity pages, the 47 query-aware targets, shared Header/Footer href direction, fragments, or private indexing boundary; those were independently exercised against the exact candidate."
+  },
+  "finding_disposition": [
+    {
+      "finding_id": "SCT-G9-F02-CONTACT-TARGET",
+      "status": "CLOSED",
+      "closure_scope": "Exact candidate only"
+    },
+    {
+      "finding_id": "ILR3100-F01-CANONICAL-REDIRECT-PARITY",
+      "status": "CLOSED",
+      "closure_scope": "Exact candidate only"
+    }
+  ],
+  "recheck_scope_status": "PASS",
+  "internal_link_review": "PASS_FOR_EXACT_CANDIDATE",
+  "page_gate9_status": "NOT_DETERMINED_BY_THIS_SPECIALIST_RECHECK",
+  "integration_status": "EVIDENCE_REUSABLE_BY_GATE9_FOR_RECHECKED_SCOPE",
+  "release_status": "NOT_AUTHORIZED",
+  "failures": []
+}

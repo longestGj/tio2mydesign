@@ -1,0 +1,1574 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\23MySec\\docs\\architecture\\APP000_GATE8_REPAIR_EVIDENCE_MANIFEST_V1.0.json",
+  "handoff_id": "APP-000-G6-HANDOFF-02",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "APP-000",
+          "acceptance_condition_ids": [
+            "APP000-G9-01",
+            "APP000-G9-02",
+            "APP000-G9-03",
+            "APP000-G9-04",
+            "APP000-G9-05",
+            "APP000-G9-06",
+            "APP000-G9-07",
+            "APP000-G9-08",
+            "APP000-G9-09",
+            "APP000-G9-10",
+            "APP000-G9-11",
+            "APP000-G9-12",
+            "APP000-G9-13",
+            "APP000-G9-14",
+            "APP000-G9-15",
+            "APP000-G9-16",
+            "APP000-G9-17",
+            "APP000-G9-REPAIR-F01",
+            "APP000-G9-REPAIR-F02",
+            "APP000-G9-REPAIR-F03",
+            "APP000-G9-REPAIR-F04"
+          ],
+          "runtime_path": "/applications/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\app000-gate8"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/app000-gate8",
+        "actual": "codex/app000-gate8"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "87f48dc6eb0489ab26822280918dd0248efe6e05",
+        "actual": "87f48dc6eb0489ab26822280918dd0248efe6e05"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "ce3f4c5c21033e56472ec53586173279fb78c415",
+        "descendant": "0144b303d0546dc5bb7012e4292df6339f851b78"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "0144b303d0546dc5bb7012e4292df6339f851b78",
+        "descendant": "87f48dc6eb0489ab26822280918dd0248efe6e05"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\app000-gate8\\.next-app000-0144b30"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "cD6FOWG8iVMbgeRxyIqIS",
+        "actual": "cD6FOWG8iVMbgeRxyIqIS"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "0144b303d0546dc5bb7012e4292df6339f851b78",
+        "git": "0144b303d0546dc5bb7012e4292df6339f851b78"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/acceptance-summary.json"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "927f4f7c5293a055a54c45707aea1de9cba0378436c33599e6e6b563b13aef31",
+        "actual": "927f4f7c5293a055a54c45707aea1de9cba0378436c33599e6e6b563b13aef31"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/acceptance-summary.json"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d0525426a8860a3a34575e0c1a43c3717581b6d4",
+        "blob_sha256": "927f4f7c5293a055a54c45707aea1de9cba0378436c33599e6e6b563b13aef31",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/build-id.txt"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3f1b1211a66606722243515f02e9788a49f7d39f79915dd24ef62058343061e5",
+        "actual": "3f1b1211a66606722243515f02e9788a49f7d39f79915dd24ef62058343061e5"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/build-id.txt"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "76fa81eb97802691318be09153a1466943fa7535",
+        "blob_sha256": "3f1b1211a66606722243515f02e9788a49f7d39f79915dd24ef62058343061e5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/evidence-validation.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "851e2cff4b2e1e1904dbc74025b438979b04c392535c19119856b3cca4315782",
+        "actual": "851e2cff4b2e1e1904dbc74025b438979b04c392535c19119856b3cca4315782"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/evidence-validation.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b1bc41542bb47eec0b617e8d5f34518673e824a3",
+        "blob_sha256": "851e2cff4b2e1e1904dbc74025b438979b04c392535c19119856b3cca4315782",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/ROLLBACK_RECORD_2026-09-08.md"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c207cc279000295a82c4ef689bf2beb34da90cac6f0418ed4e1140a1251b0a1b",
+        "actual": "c207cc279000295a82c4ef689bf2beb34da90cac6f0418ed4e1140a1251b0a1b"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/ROLLBACK_RECORD_2026-09-08.md"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "447355a681909cdef4f6e0952698a4e38ddfabe0",
+        "blob_sha256": "c207cc279000295a82c4ef689bf2beb34da90cac6f0418ed4e1140a1251b0a1b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/build-runtime-binding.log"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c92051aa7e70f3c58fbafda6de6a3e2f546d23902fef99c2664166229e2cd301",
+        "actual": "c92051aa7e70f3c58fbafda6de6a3e2f546d23902fef99c2664166229e2cd301"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/build-runtime-binding.log"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "36d7ca7f80bac1c8016105cff9608f5ad4451a95",
+        "blob_sha256": "e74cdc0535efed52b56d97f5de4089ef8c921a1762c5da11c5120093790f859c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/evidence-validation.log"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "51686830637fae6a5be8c356d379696c7a30ab7b0bf166dac91d86e3de57d6e4",
+        "actual": "51686830637fae6a5be8c356d379696c7a30ab7b0bf166dac91d86e3de57d6e4"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/evidence-validation.log"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2f0922876469e2483880c9a04a1758b41c17a0cb",
+        "blob_sha256": "70e3290a1f958b5a3ee9b95bca5232d4733abb51bc703249e03c4fe6df576c99",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/full-unit.log"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "npm test",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c53756f9d49e67e99f88bd4db7cbbf378e52d60390c371771574b6054872b072",
+        "actual": "c53756f9d49e67e99f88bd4db7cbbf378e52d60390c371771574b6054872b072"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/full-unit.log"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "33ebc08c625a66e3b1255a1e301050dcfd7299a5",
+        "blob_sha256": "bb9068553668fdbb8682503fe1b5d9ff5dd038e83fdd3985a625e885bb9845c9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/lint.log"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "npm run lint",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "dc53a9d7f675d2450651a95567e77730c95d6e685200b3a145c6db24d96300a8",
+        "actual": "dc53a9d7f675d2450651a95567e77730c95d6e685200b3a145c6db24d96300a8"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/lint.log"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "05940f58d2b0f6d26e8b35518f5181df7ea8eb49",
+        "blob_sha256": "14d19af30a420b221a034bba91fd04f662c10f48b1ae9676ec6c853d0bbabf43",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/playwright.log"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "npx playwright test --config=playwright.app000.config.ts",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f56c47a97bb299fe72c80f46c3a4651e4dfc88f826d5a63beff39c78b70fb0d0",
+        "actual": "f56c47a97bb299fe72c80f46c3a4651e4dfc88f826d5a63beff39c78b70fb0d0"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/playwright.log"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4a2438fa0ddc5dfde604b31bbc67cc3f398a7bb6",
+        "blob_sha256": "f1235503f6ed7d6e7ca5e91523983d083f585883bb077625ca8cc7ed417177a1",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/runtime-evidence.log"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "415cf07db34518caf477ac99f23eea785f9d0b2817115786174b5afbe7a763ff",
+        "actual": "415cf07db34518caf477ac99f23eea785f9d0b2817115786174b5afbe7a763ff"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/runtime-evidence.log"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "91ca692c61ee40401e9bcc80317854ea293a66c4",
+        "blob_sha256": "d99fc7347f6806595d3a192c55c6f7ec219ae34de5258de385595b20aa2d47ee",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/targeted-tests.log"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "npm test -- --run seven APP-000/shared-Chrome/RFQ test files",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "87d14cf317072a9d4fa907dbf1eed6eb1a5d9a8350b65c15b4aea92fa55032a4",
+        "actual": "87d14cf317072a9d4fa907dbf1eed6eb1a5d9a8350b65c15b4aea92fa55032a4"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/targeted-tests.log"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "dc785e27c9c303f29de33b0fcde3ef6073b37f63",
+        "blob_sha256": "97d7a17749d7bc8084fa2bf0ed31d14dd8a2e5592e0539b700af9223bc64631b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "npm run typecheck",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+        "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-desktop-1440.png"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8903f53a9e499d478eb9252e96dddda8b3017ca68c4232db7bf4007220dc6edf",
+        "actual": "8903f53a9e499d478eb9252e96dddda8b3017ca68c4232db7bf4007220dc6edf"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-desktop-1440.png"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "91046b4f6419e54faaceffb9360c1257da2cd65f",
+        "blob_sha256": "8903f53a9e499d478eb9252e96dddda8b3017ca68c4232db7bf4007220dc6edf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-390-expanded.png"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8ff5055c0b14d08bed047127de799566cc28bddbc6a1c01728c8bbd80dfd1b3d",
+        "actual": "8ff5055c0b14d08bed047127de799566cc28bddbc6a1c01728c8bbd80dfd1b3d"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-390-expanded.png"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "dc5dc3b1c2c349bee62f3f46ac6cf9de9399916c",
+        "blob_sha256": "8ff5055c0b14d08bed047127de799566cc28bddbc6a1c01728c8bbd80dfd1b3d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-390.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8d0c40a75a78df48413bb73666bdf63456d4426c26c368882cf5cb5a43ba6b7a",
+        "actual": "8d0c40a75a78df48413bb73666bdf63456d4426c26c368882cf5cb5a43ba6b7a"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-390.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ed48dd8af07d397a6cba175312900214dd83dfb3",
+        "blob_sha256": "8d0c40a75a78df48413bb73666bdf63456d4426c26c368882cf5cb5a43ba6b7a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-cookie-settings.png"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "064847705ba73cd2ede7424f9d92af99ac50b8415db43eb4a85be09b6ab57102",
+        "actual": "064847705ba73cd2ede7424f9d92af99ac50b8415db43eb4a85be09b6ab57102"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-cookie-settings.png"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b1cbf8590f7bbe21d8492cf99f023a7065d5ed8f",
+        "blob_sha256": "064847705ba73cd2ede7424f9d92af99ac50b8415db43eb4a85be09b6ab57102",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-tablet-768.png"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "90d1c761d158b7a6e05ac35fd9c9f21a08a9c8314e52438b3e7a8e4284fc5ac5",
+        "actual": "90d1c761d158b7a6e05ac35fd9c9f21a08a9c8314e52438b3e7a8e4284fc5ac5"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/app000-tablet-768.png"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "63f1e96987d2cb9d75b42ea2fa61cac8bf9262d2",
+        "blob_sha256": "90d1c761d158b7a6e05ac35fd9c9f21a08a9c8314e52438b3e7a8e4284fc5ac5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/consumer-regression-matrix.json"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "98610dfafb88b72be310088db5dc1b8c13e97c6d6d1e6acc6d7250cd8b7d7e0f",
+        "actual": "98610dfafb88b72be310088db5dc1b8c13e97c6d6d1e6acc6d7250cd8b7d7e0f"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/consumer-regression-matrix.json"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4d469837951beb3c60823d4669a6d43391f9a66e",
+        "blob_sha256": "98610dfafb88b72be310088db5dc1b8c13e97c6d6d1e6acc6d7250cd8b7d7e0f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/grade-edge-inventory.json"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e1833f5a743906b9f93965e8c950dcf7b46a209c253acd026becd2fc26c84bec",
+        "actual": "e1833f5a743906b9f93965e8c950dcf7b46a209c253acd026becd2fc26c84bec"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/grade-edge-inventory.json"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "839f0eadd10e32a7547b60f985404a20197476fa",
+        "blob_sha256": "e1833f5a743906b9f93965e8c950dcf7b46a209c253acd026becd2fc26c84bec",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/responsive-state-matrix.json"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "471c7dbe90673f8e78146fc209579e23deaa07cead73b89694cc0f5929268bf0",
+        "actual": "471c7dbe90673f8e78146fc209579e23deaa07cead73b89694cc0f5929268bf0"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/responsive-state-matrix.json"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bd6d4c80ee53007007a6712cf2ebcd95f1123f17",
+        "blob_sha256": "471c7dbe90673f8e78146fc209579e23deaa07cead73b89694cc0f5929268bf0",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/rfq-private-handoff.json"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "RECEIVER",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "97b29291553b04f96bd9fa7da37055de3abee4719ffa2da9b3a71d829e253cae",
+        "actual": "97b29291553b04f96bd9fa7da37055de3abee4719ffa2da9b3a71d829e253cae"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/rfq-private-handoff.json"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4e2d29eeb88b8e7d56772ecf655615799b3d803d",
+        "blob_sha256": "97b29291553b04f96bd9fa7da37055de3abee4719ffa2da9b3a71d829e253cae",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/route-matrix.json"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5f6a971e0bb890d4bc5b88c5e3ead6cb781c390562f00364549b08248623b282",
+        "actual": "5f6a971e0bb890d4bc5b88c5e3ead6cb781c390562f00364549b08248623b282"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/route-matrix.json"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4dc05450bfda06e80827fb97aed385ed4d3c93a6",
+        "blob_sha256": "5f6a971e0bb890d4bc5b88c5e3ead6cb781c390562f00364549b08248623b282",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/runtime-contract.json"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "112c5d2da0efe722ac21f053768da253578d2fb5d9ed7d718f58ad0bc7ec0b81",
+        "actual": "112c5d2da0efe722ac21f053768da253578d2fb5d9ed7d718f58ad0bc7ec0b81"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/runtime-contract.json"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "af25be7d252d992cced6114d1b24a80409450623",
+        "blob_sha256": "112c5d2da0efe722ac21f053768da253578d2fb5d9ed7d718f58ad0bc7ec0b81",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/shared-instance-map.json"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "node docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c0e37c36d8a353fe7113f8ce2f549fc9e000bd2bcb14e769f4304b6c31bd783c",
+        "actual": "c0e37c36d8a353fe7113f8ce2f549fc9e000bd2bcb14e769f4304b6c31bd783c"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/runtime/shared-instance-map.json"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "623de57cf51f7bec67c1c0a8c8cb4380635aa4e8",
+        "blob_sha256": "c0e37c36d8a353fe7113f8ce2f549fc9e000bd2bcb14e769f4304b6c31bd783c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6d9b72b0d8d5739740e5d64dd928609a2623f833c8a7a94ea90e92c12f432717",
+        "actual": "6d9b72b0d8d5739740e5d64dd928609a2623f833c8a7a94ea90e92c12f432717"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "acb1c0548667e7592ecc86bfc10a7ab2846dc26b",
+        "blob_sha256": "6d9b72b0d8d5739740e5d64dd928609a2623f833c8a7a94ea90e92c12f432717",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_25_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/support/private-rfq-receiver.mjs"
+    },
+    {
+      "id": "evidence_25_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_25_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a4529eddde967707de0b43f1215bf9eb79d91c9a88bdbbd2729982168c1f68fa",
+        "actual": "a4529eddde967707de0b43f1215bf9eb79d91c9a88bdbbd2729982168c1f68fa"
+      }
+    },
+    {
+      "id": "evidence_25_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/support/private-rfq-receiver.mjs"
+    },
+    {
+      "id": "evidence_25_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1512c85479447a21473e78faea9562fa545b0d60",
+        "blob_sha256": "a4529eddde967707de0b43f1215bf9eb79d91c9a88bdbbd2729982168c1f68fa",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_25_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_26_missing",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/support/validate-evidence.mjs"
+    },
+    {
+      "id": "evidence_26_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "APP000-G9-REPAIR-F01",
+          "APP000-G9-REPAIR-F02",
+          "APP000-G9-REPAIR-F03",
+          "APP000-G9-REPAIR-F04"
+        ],
+        "command": "Committed APP-000 Gate 9 repair evidence inspection",
+        "environment": "Windows local-production tio2-my repair candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; server-local receiver fixture at 4392; no external receiver request"
+      }
+    },
+    {
+      "id": "evidence_26_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "eb98ebd294c8c656be4d8c47151aa65579fcac5fc3b2c351f11d0cd463b6d0fb",
+        "actual": "eb98ebd294c8c656be4d8c47151aa65579fcac5fc3b2c351f11d0cd463b6d0fb"
+      }
+    },
+    {
+      "id": "evidence_26_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/support/validate-evidence.mjs"
+    },
+    {
+      "id": "evidence_26_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7d1edb7dc8bc9371c466ceb6a70a1f9cc84747f2",
+        "blob_sha256": "eb98ebd294c8c656be4d8c47151aa65579fcac5fc3b2c351f11d0cd463b6d0fb",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_26_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/GATE9_REPAIR_RETURN_RECEIPT_2026-09-08.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/app000/gate8-repair-01/ROLLBACK_RECORD_2026-09-08.md",
+          "docs/verification/app000/gate8-repair-01/acceptance-summary.json",
+          "docs/verification/app000/gate8-repair-01/build-id.txt",
+          "docs/verification/app000/gate8-repair-01/evidence-validation.json",
+          "docs/verification/app000/gate8-repair-01/logs/build-runtime-binding.log",
+          "docs/verification/app000/gate8-repair-01/logs/evidence-validation.log",
+          "docs/verification/app000/gate8-repair-01/logs/full-unit.log",
+          "docs/verification/app000/gate8-repair-01/logs/lint.log",
+          "docs/verification/app000/gate8-repair-01/logs/playwright.log",
+          "docs/verification/app000/gate8-repair-01/logs/runtime-evidence.log",
+          "docs/verification/app000/gate8-repair-01/logs/targeted-tests.log",
+          "docs/verification/app000/gate8-repair-01/logs/typecheck.log",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-desktop-1440.png",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-390-expanded.png",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-390.png",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-cookie-settings.png",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-tablet-768.png",
+          "docs/verification/app000/gate8-repair-01/runtime/consumer-regression-matrix.json",
+          "docs/verification/app000/gate8-repair-01/runtime/grade-edge-inventory.json",
+          "docs/verification/app000/gate8-repair-01/runtime/responsive-state-matrix.json",
+          "docs/verification/app000/gate8-repair-01/runtime/rfq-private-handoff.json",
+          "docs/verification/app000/gate8-repair-01/runtime/route-matrix.json",
+          "docs/verification/app000/gate8-repair-01/runtime/runtime-contract.json",
+          "docs/verification/app000/gate8-repair-01/runtime/shared-instance-map.json",
+          "docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+          "docs/verification/app000/gate8-repair-01/support/private-rfq-receiver.mjs",
+          "docs/verification/app000/gate8-repair-01/support/validate-evidence.mjs"
+        ],
+        "actual": [
+          "docs/verification/app000/gate8-repair-01/ROLLBACK_RECORD_2026-09-08.md",
+          "docs/verification/app000/gate8-repair-01/acceptance-summary.json",
+          "docs/verification/app000/gate8-repair-01/build-id.txt",
+          "docs/verification/app000/gate8-repair-01/evidence-validation.json",
+          "docs/verification/app000/gate8-repair-01/logs/build-runtime-binding.log",
+          "docs/verification/app000/gate8-repair-01/logs/evidence-validation.log",
+          "docs/verification/app000/gate8-repair-01/logs/full-unit.log",
+          "docs/verification/app000/gate8-repair-01/logs/lint.log",
+          "docs/verification/app000/gate8-repair-01/logs/playwright.log",
+          "docs/verification/app000/gate8-repair-01/logs/runtime-evidence.log",
+          "docs/verification/app000/gate8-repair-01/logs/targeted-tests.log",
+          "docs/verification/app000/gate8-repair-01/logs/typecheck.log",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-desktop-1440.png",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-390-expanded.png",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-390.png",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-mobile-cookie-settings.png",
+          "docs/verification/app000/gate8-repair-01/runtime/app000-tablet-768.png",
+          "docs/verification/app000/gate8-repair-01/runtime/consumer-regression-matrix.json",
+          "docs/verification/app000/gate8-repair-01/runtime/grade-edge-inventory.json",
+          "docs/verification/app000/gate8-repair-01/runtime/responsive-state-matrix.json",
+          "docs/verification/app000/gate8-repair-01/runtime/rfq-private-handoff.json",
+          "docs/verification/app000/gate8-repair-01/runtime/route-matrix.json",
+          "docs/verification/app000/gate8-repair-01/runtime/runtime-contract.json",
+          "docs/verification/app000/gate8-repair-01/runtime/shared-instance-map.json",
+          "docs/verification/app000/gate8-repair-01/support/generate-runtime-evidence.mjs",
+          "docs/verification/app000/gate8-repair-01/support/private-rfq-receiver.mjs",
+          "docs/verification/app000/gate8-repair-01/support/validate-evidence.mjs"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/app000/gate8-repair-01/GATE9_REPAIR_RETURN_RECEIPT_2026-09-08.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "schema": "gate9-independent-evidence-index-v1.0",
+  "review_id": "G9-SYS404-CONVTHANK-INITIAL-20260908-01",
+  "generated_at": "2026-09-08T13:14:47.3105849Z",
+  "reviewer": "/root/sys404_convthank_gate9_review",
+  "implementation_commit": "1571a67da57d5dd6f2b358ba20508ba46c76f581",
+  "declared_evidence_head": "7fa0b1026c80c4b12bc1725fff1ad7ef1492a676",
+  "current_review_head": "35a99a12cf0c675c72a2d181e687a2076b0e2fab",
+  "build_id": "2z5DYuzAHx0An8WWlUsz2",
+  "runtime": "http://127.0.0.1:4381",
+  "items": [
+    {
+      "id": "D23-independent-a11y-audit.cjs",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-a11y-audit.cjs",
+      "sha256": "e1e015c8e2cce5e838b360992a1667041cde4e6ac5713c08e9532d5174cd930d",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Collection method source"
+    },
+    {
+      "id": "D23-preflight.json",
+      "type": "IDENTITY",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\preflight.json",
+      "sha256": "d8c1dae963c3b59194eb0efec25594bbccd849068343cbdd74269868f6ffb6f8",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Two-round Gate9 preflight result"
+    },
+    {
+      "id": "D23-independent-runtime-observation.json",
+      "type": "ACTUAL_RUNTIME",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-runtime-observation.json",
+      "sha256": "591572d1ec8c6fcd22ebda0a14d5cb94a19fb2f4a17ccb7427bc2a7eb4eb94af",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Two engines, three widths, four Thank You states, negative query and route matrices"
+    },
+    {
+      "id": "D23-independent-http-transcript.json",
+      "type": "ACTUAL_RUNTIME",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-http-transcript.json",
+      "sha256": "1b1672f1f7fc57773b24cf6a4802a904f16555123195300080babf57fc5dfa87",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent HTTP/head/status transcript"
+    },
+    {
+      "id": "D23-independent-a11y-observation.json",
+      "type": "ACTUAL_RUNTIME",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-a11y-observation.json",
+      "sha256": "c785542073eacec79b0d20d20f4c46be0ad87d5ecc255ad21d3308912018db3a",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Axe scan on 12 browser/viewport/state combinations"
+    },
+    {
+      "id": "D23-independent-runtime-audit.cjs",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-runtime-audit.cjs",
+      "sha256": "b7b165dab88b4c03a8c73b016c32b6f3352dbb807bead72e09fae437e0800117",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Collection method source"
+    },
+    {
+      "id": "D23-cua-interaction-observation.json",
+      "type": "ACTUAL_RUNTIME",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\cua-interaction-observation.json",
+      "sha256": "7092be96178376704178e8a0fc22a7e7d12844aed7cb73da56d4898d3fa33cd7",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Manual mobile Menu/Cookie keyboard observation and unavailable device/zoom record"
+    },
+    {
+      "id": "D23-evidence-validation.json",
+      "type": "IDENTITY",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\evidence-validation.json",
+      "sha256": "112c641d716b3d499b69357307a7fc5a025dd2e399cfed927d4c2e2d67741907",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Manifest identity and evidence inventory"
+    },
+    {
+      "id": "D23-independent-sys404-desktop-1440.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-sys404-desktop-1440.png",
+      "sha256": "25a2937b14b8a2e83cfc49c5cbb2f0377294f86d6f8ca0e2ea0a1312795eba63",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-sys404-mobile-390.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-sys404-mobile-390.png",
+      "sha256": "c5a165ac74faeb90d6714f82b1f236513b580f6052f017674900b0171a8e3a4c",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-sys404-tablet-768.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-sys404-tablet-768.png",
+      "sha256": "d806a645fb1bc85078cb977a5c987be68fd71af88f059dfc0f17ffd2502a52a9",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-direct-desktop-1440.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-direct-desktop-1440.png",
+      "sha256": "7d1017eb601c13199f7d71240aff5e0d3973516770b6b496b136b387585b4efa",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-direct-mobile-390.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-direct-mobile-390.png",
+      "sha256": "c1c7ce7dcd82c05f37ba346d3e89d1aa0b66120ce8c8274c24c0ab2256b42e8d",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-direct-tablet-768.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-direct-tablet-768.png",
+      "sha256": "b8da18ed73b39d37c0b11eadb304bbd91e6cb7f0a833250e52942256c07e0545",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-documents-desktop-1440.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-documents-desktop-1440.png",
+      "sha256": "be3bb3e9c660b517fcbacc9dc5b7110a1dafd3b9e8797e1a26fde49c321035aa",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-documents-mobile-390.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-documents-mobile-390.png",
+      "sha256": "377025bd827e8270a20fd8685a65f8833369da94f1f6cfc1688fe8559bd812b4",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-documents-tablet-768.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-documents-tablet-768.png",
+      "sha256": "b396b009af3e71f32378ac4e0a8fcec851548dd2dfb7b2a32b3fa4123a2359a6",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-quote-desktop-1440.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-quote-desktop-1440.png",
+      "sha256": "0a367961236f57326b842648505499496447ad600ec3039abe3b09235b49dd44",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-quote-mobile-390.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-quote-mobile-390.png",
+      "sha256": "b379447888df1bf8d4160b986ff3cff8951dacc5f8d981bbc2f35d30034e08a7",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-quote-tablet-768.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-quote-tablet-768.png",
+      "sha256": "90fd38a562e0c71c703c72535bb02f78059f846c34e7a3cde9ef8ea4c6105e42",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-sample-desktop-1440.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-sample-desktop-1440.png",
+      "sha256": "3a8920cdf4540bcee2300746726a032b79065b7558d032cc4e1c2a11280dce72",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-sample-mobile-390.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-sample-mobile-390.png",
+      "sha256": "8ff1162515d7c3be1e75612d16fd2b7e5d2bc63262d6400e4071d562df4cbf36",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D23-independent-thank-sample-tablet-768.png",
+      "type": "STATIC_VISUAL",
+      "path": "D:\\23MySec\\pages\\system\\404\\07_qa\\sys404-convthank-gate9-v0.1\\independent-thank-sample-tablet-768.png",
+      "sha256": "7f3cd08eab44f1e7acf7df27015799486a80ef4a0c1797edbb6b0134006cf7bc",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation 1571a67; build 2z5DYuzAHx0An8WWlUsz2; runtime 127.0.0.1:4381",
+      "scope": "Independent full-page visual at filename viewport/state"
+    },
+    {
+      "id": "D16-docs-verification-sys404-convthank-gate8-gate8_evidence_manifest.json",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\docs\\verification\\sys404-convthank\\gate8\\gate8_evidence_manifest.json",
+      "sha256": "1462b98d79c00d4c86a741f35ac23a68c4249c6ae1cb84ed5c935e7fad0e647b",
+      "collector": "Gate8 artifact read in full by independent reviewer",
+      "candidate": "D16 branch head 35a99a1",
+      "scope": "Gate8 declared handoff artifact"
+    },
+    {
+      "id": "D16-docs-verification-sys404-convthank-gate8-GATE8_IMPLEMENTATION_RECEIPT_2026-09-08.md",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\docs\\verification\\sys404-convthank\\gate8\\GATE8_IMPLEMENTATION_RECEIPT_2026-09-08.md",
+      "sha256": "802bbd905f9cf8d3db8528e73afa0eb56c3fc1dbf1aa9f299323d2769ea49dd7",
+      "collector": "Gate8 artifact read in full by independent reviewer",
+      "candidate": "D16 branch head 35a99a1",
+      "scope": "Gate8 declared handoff artifact"
+    },
+    {
+      "id": "D16-docs-verification-sys404-convthank-gate8-web3forms-live-LIVE_TEST_ADDENDUM_2026-09-08.md",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\docs\\verification\\sys404-convthank\\gate8\\web3forms-live\\LIVE_TEST_ADDENDUM_2026-09-08.md",
+      "sha256": "2bead980479dce1808e203644ea57e6bfa963fa385f1ecd8ea5269846f09f733",
+      "collector": "Gate8 artifact read in full by independent reviewer",
+      "candidate": "D16 branch head 35a99a1",
+      "scope": "Supplemental live rejection evidence; outside declared Manifest; contains personal data and is not republished"
+    },
+    {
+      "id": "D16-docs-verification-sys404-convthank-gate8-web3forms-live-provider-submission.json",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\docs\\verification\\sys404-convthank\\gate8\\web3forms-live\\provider-submission.json",
+      "sha256": "da8c98316d7bea3e551f75181f8c10fd807be7daa486a22827e7554084739c4d",
+      "collector": "Gate8 artifact read in full by independent reviewer",
+      "candidate": "D16 branch head 35a99a1",
+      "scope": "Supplemental live rejection evidence; outside declared Manifest; contains personal data and is not republished"
+    },
+    {
+      "id": "D16-docs-verification-sys404-convthank-gate8-web3forms-live-browser-and-inbox-result.json",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\docs\\verification\\sys404-convthank\\gate8\\web3forms-live\\browser-and-inbox-result.json",
+      "sha256": "15fcb594a8be23a017c8c32ff1ed2117862eb1373580b539f8410f0c7c200b2b",
+      "collector": "Gate8 artifact read in full by independent reviewer",
+      "candidate": "D16 branch head 35a99a1",
+      "scope": "Supplemental live rejection evidence; outside declared Manifest; contains personal data and is not republished"
+    },
+    {
+      "id": "GIT-lib-thank-you-malaysia-thank-you-session.ts",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\lib\\thank-you\\malaysia-thank-you-session.ts",
+      "sha256": null,
+      "git_blob": "5c9e783a45b1ac51152c2e4be3ef8c59dad2ace1",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation commit 1571a67",
+      "scope": "Exact committed implementation logic"
+    },
+    {
+      "id": "GIT-lib-request-sample-malaysia-request-sample-receiver.ts",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\lib\\request-sample\\malaysia-request-sample-receiver.ts",
+      "sha256": null,
+      "git_blob": "e5d212004a0aea0ddaadfb098aff019c5fc2db38",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation commit 1571a67",
+      "scope": "Exact committed implementation logic"
+    },
+    {
+      "id": "GIT-lib-rfq-malaysia-rfq-analytics.ts",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\lib\\rfq\\malaysia-rfq-analytics.ts",
+      "sha256": null,
+      "git_blob": "0eec2560fad90a7707a54d7df492b3b5746ea7ea",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation commit 1571a67",
+      "scope": "Exact committed implementation logic"
+    },
+    {
+      "id": "GIT-components-sites-tio2-my-consent-malaysia-cookie-settings.tsx",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\components\\sites\\tio2-my\\consent\\malaysia-cookie-settings.tsx",
+      "sha256": null,
+      "git_blob": "f2337f7ed7cc1ab31e9619a121ade64ffd6190b8",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation commit 1571a67",
+      "scope": "Exact committed implementation logic"
+    },
+    {
+      "id": "GIT-app-(en)-[...path]-not-found.tsx",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\app\\(en)\\[...path]\\not-found.tsx",
+      "sha256": null,
+      "git_blob": "8f15228abe597cf7a997bd17d159c04ff6abc8f1",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation commit 1571a67",
+      "scope": "Exact committed implementation logic"
+    },
+    {
+      "id": "GIT-app-(en)-thank-you-page.tsx",
+      "type": "SOURCE_INSPECTION",
+      "path": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\app\\(en)\\thank-you\\page.tsx",
+      "sha256": null,
+      "git_blob": "33013de5c63a6785f61da6a2a9c704109279b7d8",
+      "collector": "/root/sys404_convthank_gate9_review",
+      "candidate": "implementation commit 1571a67",
+      "scope": "Exact committed implementation logic"
+    }
+  ]
+}

@@ -1,0 +1,1123 @@
+{
+  "schema_version": "gate9-independent-runtime-probe/1.0",
+  "manifest_path": "D:\\23MySec\\docs\\verification\\intake\\TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1\\gate8_evidence_manifest.json",
+  "manifest_sha256": "4c90f90a934b9eb102d1446a661b1fb6e68964e62ed50ba90670b9bfaf3fc257",
+  "runtime": "http://127.0.0.1:3183",
+  "summary": {
+    "manifest_page_count": 58,
+    "manifest_page_non_200": 0,
+    "unique_internal_paths": 78,
+    "unexpected_internal_link_statuses": 0,
+    "script_count": 26,
+    "endpoint_counts": {
+      "web3forms": 3,
+      "old_rfq_submit": 0,
+      "old_private_rfq_submit": 0,
+      "old_sample_submit": 0
+    },
+    "status": "PASS"
+  },
+  "allowed_non_200": {
+    "/contact/": 404,
+    "/contact": 404
+  },
+  "expected_page_status": {
+    "SYS-404": 404
+  },
+  "unexpected_manifest_pages": [],
+  "unexpected_internal_links": [],
+  "pages": [
+    {
+      "page_id": "HOME-001",
+      "path": "/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/",
+      "body_sha256": "1b341b06407798766f4c07f9b12437d79049b8bf606a0608d56af318702f08f6",
+      "href_count": 56
+    },
+    {
+      "page_id": "ABOUT-001",
+      "path": "/about/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/about",
+      "body_sha256": "d7d53d77d9738de39c2f357409abad19099f1319578089f82f429e1372790e4a",
+      "href_count": 59
+    },
+    {
+      "page_id": "MARKET-000",
+      "path": "/markets/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/",
+      "body_sha256": "75abac48b83bf187802b0d1e5e2d8514cb96bcb21b07b934656344133be38e76",
+      "href_count": 45
+    },
+    {
+      "page_id": "MARKET-EU-001",
+      "path": "/markets/european-union/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/european-union/",
+      "body_sha256": "2b14db9a8ed45c3de02fdc59badc69fec9969e8bc8108f6f0075e246da6a3b5a",
+      "href_count": 51
+    },
+    {
+      "page_id": "MARKET-EU-DE",
+      "path": "/markets/germany/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/germany/",
+      "body_sha256": "a5874c841a17687262ffa0c5e70b1eee94f20dad4dde3eb9a95aa8b8700ae07c",
+      "href_count": 47
+    },
+    {
+      "page_id": "MARKET-EU-IT",
+      "path": "/markets/italy/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/italy/",
+      "body_sha256": "4fd02534c1bdf8b1181add569b8794624ca551f9f981a4d350b6c95bbfe67b69",
+      "href_count": 47
+    },
+    {
+      "page_id": "MARKET-EU-ES",
+      "path": "/markets/spain/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/spain/",
+      "body_sha256": "9824b3dccd91b3833d30fa8916f18e93a97760ada38c3de11e1b40a3c6b4a661",
+      "href_count": 43
+    },
+    {
+      "page_id": "MARKET-EU-PL",
+      "path": "/markets/poland/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/poland/",
+      "body_sha256": "368ee6e1a761d4f0531682daffa57edd5dacc53e1c7dd48378c96b0be46c6dc4",
+      "href_count": 39
+    },
+    {
+      "page_id": "MARKET-EU-NL",
+      "path": "/markets/netherlands/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/netherlands/",
+      "body_sha256": "2e8e035eb32d3e7302cea32fde3fe665ac1ca0d87c75f5b6028f30f77a97782b",
+      "href_count": 41
+    },
+    {
+      "page_id": "MARKET-EU-BE",
+      "path": "/markets/belgium/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/belgium/",
+      "body_sha256": "8733627c4f9437b6f62b1fe682b83ad9ffb94cc1b5322945a5f87752a241a14c",
+      "href_count": 41
+    },
+    {
+      "page_id": "MARKET-UK-001",
+      "path": "/markets/united-kingdom/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/united-kingdom/",
+      "body_sha256": "8266a9fbe840394a7d0031534187fe9b10039a78c236b7274a08d2c9de279a83",
+      "href_count": 64
+    },
+    {
+      "page_id": "MARKET-IN-001",
+      "path": "/markets/india/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/india/",
+      "body_sha256": "a8f04ad97a2a08eaa0cfbfb035fcea746239e6baeb72957ba252cfec215b4d99",
+      "href_count": 40
+    },
+    {
+      "page_id": "MARKET-BR-EN",
+      "path": "/markets/brazil/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/brazil/",
+      "body_sha256": "9d81ce0b98016f7beb7286bc8da5a97c041a0b06773406adebce083fc99dd55a",
+      "href_count": 43
+    },
+    {
+      "page_id": "MARKET-BR-PT",
+      "path": "/pt-br/markets/brazil/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/pt-br/markets/brazil/",
+      "body_sha256": "1f0bcceefb526956e8a23bb57e83a57fddb8ffd2e29ebfd34c185ca61c654eb6",
+      "href_count": 43
+    },
+    {
+      "page_id": "PRODUCT-000",
+      "path": "/products/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products",
+      "body_sha256": "5fafcb6f0c82af56f0279e77bb056fccbddc96777ec5797579a8d8fdeedf7897",
+      "href_count": 62
+    },
+    {
+      "page_id": "PRODUCT-PROC-CL",
+      "path": "/products/chloride-process-titanium-dioxide/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/chloride-process-titanium-dioxide/",
+      "body_sha256": "9bcf1d25018a1232337ece55370320076a6f407bd3dbe162a2141297bbd368ee",
+      "href_count": 45
+    },
+    {
+      "page_id": "PRODUCT-PROC-SU",
+      "path": "/products/sulfate-process-titanium-dioxide/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/sulfate-process-titanium-dioxide/",
+      "body_sha256": "65026092a15550eeb1beb3772aea5796e4bdebd198a0a7fb3edc39960247c0fe",
+      "href_count": 42
+    },
+    {
+      "page_id": "GRADE-M350",
+      "path": "/products/m-350/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-350",
+      "body_sha256": "642d71499e4e6b70031d054da45d176b5e9a2863b8f9890e6ece220b7b0cef17",
+      "href_count": 40
+    },
+    {
+      "page_id": "GRADE-M510",
+      "path": "/products/m-510/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-510",
+      "body_sha256": "e6d670fe3f67e564c73a7973f8f420e5c70812577c46a91743c5b2e8acff955b",
+      "href_count": 42
+    },
+    {
+      "page_id": "GRADE-M896",
+      "path": "/products/m-896/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-896",
+      "body_sha256": "6e1a6f4ce1931da31c3d9a86ed2d14e3009a6dbfd2aa2a20f24387b1dbf7d0a5",
+      "href_count": 42
+    },
+    {
+      "page_id": "GRADE-M996",
+      "path": "/products/m-996/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-996",
+      "body_sha256": "6a5e75c1a762c8a1e97de1507fbf35afd79cc421e32a644703401e0120189628",
+      "href_count": 39
+    },
+    {
+      "page_id": "GRADE-M2196",
+      "path": "/products/m-2196/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-2196",
+      "body_sha256": "6b9c458fcb1afc2af0a96f3c69baac9f656fd17c7adf900418c5cc84a5615dd6",
+      "href_count": 38
+    },
+    {
+      "page_id": "GRADE-M895",
+      "path": "/products/m-895/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-895",
+      "body_sha256": "368e830804845a175564af02554781bda34c1464769707c317962c3e7b61f500",
+      "href_count": 39
+    },
+    {
+      "page_id": "GRADE-M200",
+      "path": "/products/m-200/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-200",
+      "body_sha256": "442408bb94b22c9e35e76476fe1d0222b954bd808be4f87596431391c0071756",
+      "href_count": 39
+    },
+    {
+      "page_id": "GRADE-M108",
+      "path": "/products/m-108/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-108",
+      "body_sha256": "e83ae53e0161ed5f19418897bf59f6d9ebf99dbee7707274891fd9622e82b857",
+      "href_count": 39
+    },
+    {
+      "page_id": "GRADE-M210",
+      "path": "/products/m-210/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-210",
+      "body_sha256": "e749adbad751ea58993feba525d3b8f57e5fd41a1c83bb1374b13fe813a2af07",
+      "href_count": 39
+    },
+    {
+      "page_id": "GRADE-M340",
+      "path": "/products/m-340/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-340",
+      "body_sha256": "366f1e2e723e7093b904154555fb444a7ff93981188dc3004dbf1aa0933a805a",
+      "href_count": 41
+    },
+    {
+      "page_id": "GRADE-M886",
+      "path": "/products/m-886/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-886",
+      "body_sha256": "f80681e39aad6700db86c4b6f583812a029eecf542ec8c0747c65052fa56d4f4",
+      "href_count": 39
+    },
+    {
+      "page_id": "GRADE-M52",
+      "path": "/products/m-52/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-52",
+      "body_sha256": "56d049372ecb11ffc6c62df37f13b78186c69a803f178ed793cfcdb19bc7730f",
+      "href_count": 39
+    },
+    {
+      "page_id": "GRADE-M2377",
+      "path": "/products/m-2377/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-2377",
+      "body_sha256": "b37f01da95826e2bc8424bb8c6ba853d8b7f7b8845f00bc812c59993ceeadf5d",
+      "href_count": 41
+    },
+    {
+      "page_id": "GRADE-CR901",
+      "path": "/products/cr-901/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/cr-901",
+      "body_sha256": "4de7bab10ca3b32f58f684a43cd0233f7f74f6105b7a44882808c9e8608cc00d",
+      "href_count": 35
+    },
+    {
+      "page_id": "APP-000",
+      "path": "/applications/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications",
+      "body_sha256": "1c1daa759dceba4c86c09ceb73a981af4e10a1b257b0a2e740b8a367529427cc",
+      "href_count": 75
+    },
+    {
+      "page_id": "APP-COAT",
+      "path": "/applications/titanium-dioxide-for-coatings/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-coatings/",
+      "body_sha256": "5bd9c0b595706d1157a160be13cd2d3bcc72ecb4b66aaeb7f845d5447cdb1af7",
+      "href_count": 58
+    },
+    {
+      "page_id": "APP-PLAS",
+      "path": "/applications/titanium-dioxide-for-plastics/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-plastics/",
+      "body_sha256": "67b031233a4a58b46e87dc48b4bc48fa458ddb97f2ba82e9c50ea63d38f7340c",
+      "href_count": 57
+    },
+    {
+      "page_id": "APP-MB",
+      "path": "/applications/titanium-dioxide-for-masterbatch/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-masterbatch/",
+      "body_sha256": "e5accfc4737c201a6cc2e48ad593e56fd41445812f4b3cde4bba7fb807ff3a30",
+      "href_count": 47
+    },
+    {
+      "page_id": "APP-INK",
+      "path": "/applications/titanium-dioxide-for-printing-inks/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-printing-inks/",
+      "body_sha256": "a5694694c9dfcb053125ac0d385675c3ca9d3e58c8b9c636bb1d46f8f5554894",
+      "href_count": 46
+    },
+    {
+      "page_id": "APP-PAPER",
+      "path": "/applications/titanium-dioxide-for-paper/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-paper/",
+      "body_sha256": "31b09320ec2713449fdbcedda45e00c5e7d9001a4ccfd5592b49c2c94d1e03d0",
+      "href_count": 44
+    },
+    {
+      "page_id": "DOC-000",
+      "path": "/documents/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/documents",
+      "body_sha256": "a201c825a4834e33707bbf0c1044daab66a430a5e5321f857354065872a2847f",
+      "href_count": 35
+    },
+    {
+      "page_id": "DOC-REACH",
+      "path": "/documents/reach/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/documents/reach",
+      "body_sha256": "870eedfdb589371921b436662f93c6db400b10d6e9b3c32bb12b53cf744642fd",
+      "href_count": 38
+    },
+    {
+      "page_id": "DOC-TDS",
+      "path": "/documents/tds-sds-coa/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/documents/tds-sds-coa",
+      "body_sha256": "a6b19a15fb442d792edfcb01807f16b4137720b5b0687f5d1ab45db2d7cbaf5f",
+      "href_count": 36
+    },
+    {
+      "page_id": "DOC-COO",
+      "path": "/documents/certificate-of-origin/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/documents/certificate-of-origin/",
+      "body_sha256": "1d8a50d1044ab21882d82bdea2e4f642f6b0b05aa9a7fe61ebf96be7467c95ef",
+      "href_count": 37
+    },
+    {
+      "page_id": "RES-000",
+      "path": "/resources/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources",
+      "body_sha256": "0a2c2f0a6a7510ea76520e283ef028abd5efc5808c2cc5c68183fea3a6b62769",
+      "href_count": 43
+    },
+    {
+      "page_id": "RES-ORIGIN",
+      "path": "/resources/non-china-titanium-dioxide/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/non-china-titanium-dioxide",
+      "body_sha256": "6fd98116a472dd1836cb62aa2fc491d282158dec4c6a32fb92e719e440148205",
+      "href_count": 37
+    },
+    {
+      "page_id": "RES-PROC",
+      "path": "/resources/chloride-vs-sulfate-titanium-dioxide/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/chloride-vs-sulfate-titanium-dioxide",
+      "body_sha256": "ce157ac07b7e7a00c5693425e8da0f7e73c9295ddf202815200de93421d453e4",
+      "href_count": 48
+    },
+    {
+      "page_id": "RES-CHEMOURS",
+      "path": "/resources/chemours-titanium-dioxide-alternatives/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/chemours-titanium-dioxide-alternatives/",
+      "body_sha256": "fbe46e9695cca9f5a53b85da9c4d02b5ce27bdc5a553c2d835b59e5b148617d6",
+      "href_count": 35
+    },
+    {
+      "page_id": "RES-R706",
+      "path": "/resources/ti-pure-r-706-alternative/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/ti-pure-r-706-alternative/",
+      "body_sha256": "08fdd7198408334772c6a177104cb7d8baef4c1881dce9d20387e7f7f82aa4eb",
+      "href_count": 36
+    },
+    {
+      "page_id": "RES-TRADE-EU",
+      "path": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/eu-titanium-dioxide-anti-dumping-duty/",
+      "body_sha256": "1cb05e60df4cd672a3e2e9bc5485c87844a0ed062b46c25fcc3939796f2cb42e",
+      "href_count": 40
+    },
+    {
+      "page_id": "RES-TRADE-UK",
+      "path": "/resources/uk-titanium-dioxide-anti-dumping-investigation/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/uk-titanium-dioxide-anti-dumping-investigation/",
+      "body_sha256": "6a0905999914f0ca9dffb7faf2e2f446caedbd894c1a44b3011bba061106fb15",
+      "href_count": 40
+    },
+    {
+      "page_id": "RES-TRADE-IN",
+      "path": "/resources/india-titanium-dioxide-anti-dumping-duty/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/india-titanium-dioxide-anti-dumping-duty/",
+      "body_sha256": "47ab39ac0a4a9ee2bbce5201757851737722ee3f26f5d29e6c0089b9f26388bb",
+      "href_count": 40
+    },
+    {
+      "page_id": "RES-TRADE-BR",
+      "path": "/resources/brazil-titanium-dioxide-anti-dumping-duty/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/brazil-titanium-dioxide-anti-dumping-duty/",
+      "body_sha256": "a4ddc81153741f1ba96f807224def33770441973c93c6d60008c03eab363ed4d",
+      "href_count": 42
+    },
+    {
+      "page_id": "CONV-DOC",
+      "path": "/request-documents/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/request-documents/",
+      "body_sha256": "167d86ae4875dd75fe2c6ae694b1b268a408f42af1496e08b9115c78bc2f0f05",
+      "href_count": 31
+    },
+    {
+      "page_id": "CONV-RFQ",
+      "path": "/request-a-quote/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/request-a-quote",
+      "body_sha256": "ad6b341b7148fa62e6ef1155a89e206aaaf8eb221ca9fd86b903539b25fd1dec",
+      "href_count": 33
+    },
+    {
+      "page_id": "CONV-SAMPLE",
+      "path": "/request-sample/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/request-sample",
+      "body_sha256": "febe5b9e0a0f2b3fc4f9f37fcb8e1b35167c235d243327d4b906eff4515f7806",
+      "href_count": 31
+    },
+    {
+      "page_id": "CONV-THANK",
+      "path": "/thank-you/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/thank-you",
+      "body_sha256": "6f341e05097950f529f8d37445bafe76cf56385ae510b3876839a807cf9b3f7e",
+      "href_count": 31
+    },
+    {
+      "page_id": "LEGAL-PRIV-EN",
+      "path": "/privacy-policy/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/privacy-policy",
+      "body_sha256": "7cec0d041ae8e0c59e43bf7e7d512b254624c231abae71a8be7e33a5f3ba708f",
+      "href_count": 50
+    },
+    {
+      "page_id": "LEGAL-PRIV-MS",
+      "path": "/ms/privacy-policy/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/ms/privacy-policy",
+      "body_sha256": "d7760351cffc411a6610b1da70a204ccfae659c1db8d73a18140704101780444",
+      "href_count": 50
+    },
+    {
+      "page_id": "LEGAL-COOKIE-EN",
+      "path": "/cookie-policy/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/cookie-policy",
+      "body_sha256": "916c4139212b99f4098f11a773bc4664d3dd43c15be8f72434d449a10ec84bb8",
+      "href_count": 41
+    },
+    {
+      "page_id": "SYS-404",
+      "path": "/404/",
+      "status": 404,
+      "final_url": "http://127.0.0.1:3183/__tio2-recovery-404",
+      "body_sha256": "88270938e0cbf00d5bff129444519d46aed6396371876536c0332385245f40cf",
+      "href_count": 0
+    }
+  ],
+  "internal_links": [
+    {
+      "path": "/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/",
+      "body_sha256": "1b341b06407798766f4c07f9b12437d79049b8bf606a0608d56af318702f08f6"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/about",
+      "body_sha256": "d7d53d77d9738de39c2f357409abad19099f1319578089f82f429e1372790e4a"
+    },
+    {
+      "path": "/applications",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications",
+      "body_sha256": "1c1daa759dceba4c86c09ceb73a981af4e10a1b257b0a2e740b8a367529427cc"
+    },
+    {
+      "path": "/applications/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications",
+      "body_sha256": "1c1daa759dceba4c86c09ceb73a981af4e10a1b257b0a2e740b8a367529427cc"
+    },
+    {
+      "path": "/applications/titanium-dioxide-for-coatings/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-coatings/",
+      "body_sha256": "5bd9c0b595706d1157a160be13cd2d3bcc72ecb4b66aaeb7f845d5447cdb1af7"
+    },
+    {
+      "path": "/applications/titanium-dioxide-for-masterbatch/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-masterbatch/",
+      "body_sha256": "e5accfc4737c201a6cc2e48ad593e56fd41445812f4b3cde4bba7fb807ff3a30"
+    },
+    {
+      "path": "/applications/titanium-dioxide-for-paper/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-paper/",
+      "body_sha256": "31b09320ec2713449fdbcedda45e00c5e7d9001a4ccfd5592b49c2c94d1e03d0"
+    },
+    {
+      "path": "/applications/titanium-dioxide-for-plastics/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-plastics/",
+      "body_sha256": "67b031233a4a58b46e87dc48b4bc48fa458ddb97f2ba82e9c50ea63d38f7340c"
+    },
+    {
+      "path": "/applications/titanium-dioxide-for-printing-inks/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/applications/titanium-dioxide-for-printing-inks/",
+      "body_sha256": "a5694694c9dfcb053125ac0d385675c3ca9d3e58c8b9c636bb1d46f8f5554894"
+    },
+    {
+      "path": "/contact/",
+      "status": 404,
+      "final_url": "http://127.0.0.1:3183/contact",
+      "body_sha256": "0cc3e1c18aef217803be4cb1f8ac9c22bd0931c22e78ccb5e56726c020a12d0c"
+    },
+    {
+      "path": "/cookie-policy",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/cookie-policy",
+      "body_sha256": "916c4139212b99f4098f11a773bc4664d3dd43c15be8f72434d449a10ec84bb8"
+    },
+    {
+      "path": "/cookie-policy/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/cookie-policy",
+      "body_sha256": "916c4139212b99f4098f11a773bc4664d3dd43c15be8f72434d449a10ec84bb8"
+    },
+    {
+      "path": "/documents/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/documents",
+      "body_sha256": "a201c825a4834e33707bbf0c1044daab66a430a5e5321f857354065872a2847f"
+    },
+    {
+      "path": "/documents/certificate-of-origin/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/documents/certificate-of-origin/",
+      "body_sha256": "1d8a50d1044ab21882d82bdea2e4f642f6b0b05aa9a7fe61ebf96be7467c95ef"
+    },
+    {
+      "path": "/documents/reach/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/documents/reach",
+      "body_sha256": "870eedfdb589371921b436662f93c6db400b10d6e9b3c32bb12b53cf744642fd"
+    },
+    {
+      "path": "/documents/tds-sds-coa/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/documents/tds-sds-coa",
+      "body_sha256": "a6b19a15fb442d792edfcb01807f16b4137720b5b0687f5d1ab45db2d7cbaf5f"
+    },
+    {
+      "path": "/markets/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/",
+      "body_sha256": "75abac48b83bf187802b0d1e5e2d8514cb96bcb21b07b934656344133be38e76"
+    },
+    {
+      "path": "/markets/belgium/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/belgium/",
+      "body_sha256": "8733627c4f9437b6f62b1fe682b83ad9ffb94cc1b5322945a5f87752a241a14c"
+    },
+    {
+      "path": "/markets/brazil/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/brazil/",
+      "body_sha256": "9d81ce0b98016f7beb7286bc8da5a97c041a0b06773406adebce083fc99dd55a"
+    },
+    {
+      "path": "/markets/european-union/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/european-union/",
+      "body_sha256": "2b14db9a8ed45c3de02fdc59badc69fec9969e8bc8108f6f0075e246da6a3b5a"
+    },
+    {
+      "path": "/markets/germany/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/germany/",
+      "body_sha256": "a5874c841a17687262ffa0c5e70b1eee94f20dad4dde3eb9a95aa8b8700ae07c"
+    },
+    {
+      "path": "/markets/india/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/india/",
+      "body_sha256": "a8f04ad97a2a08eaa0cfbfb035fcea746239e6baeb72957ba252cfec215b4d99"
+    },
+    {
+      "path": "/markets/italy/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/italy/",
+      "body_sha256": "4fd02534c1bdf8b1181add569b8794624ca551f9f981a4d350b6c95bbfe67b69"
+    },
+    {
+      "path": "/markets/netherlands/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/netherlands/",
+      "body_sha256": "2e8e035eb32d3e7302cea32fde3fe665ac1ca0d87c75f5b6028f30f77a97782b"
+    },
+    {
+      "path": "/markets/poland/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/poland/",
+      "body_sha256": "368ee6e1a761d4f0531682daffa57edd5dacc53e1c7dd48378c96b0be46c6dc4"
+    },
+    {
+      "path": "/markets/spain/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/spain/",
+      "body_sha256": "9824b3dccd91b3833d30fa8916f18e93a97760ada38c3de11e1b40a3c6b4a661"
+    },
+    {
+      "path": "/markets/united-kingdom/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/markets/united-kingdom/",
+      "body_sha256": "8266a9fbe840394a7d0031534187fe9b10039a78c236b7274a08d2c9de279a83"
+    },
+    {
+      "path": "/ms/privacy-policy",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/ms/privacy-policy",
+      "body_sha256": "d7760351cffc411a6610b1da70a204ccfae659c1db8d73a18140704101780444"
+    },
+    {
+      "path": "/ms/privacy-policy/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/ms/privacy-policy",
+      "body_sha256": "d7760351cffc411a6610b1da70a204ccfae659c1db8d73a18140704101780444"
+    },
+    {
+      "path": "/privacy-policy",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/privacy-policy",
+      "body_sha256": "7cec0d041ae8e0c59e43bf7e7d512b254624c231abae71a8be7e33a5f3ba708f"
+    },
+    {
+      "path": "/privacy-policy/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/privacy-policy",
+      "body_sha256": "7cec0d041ae8e0c59e43bf7e7d512b254624c231abae71a8be7e33a5f3ba708f"
+    },
+    {
+      "path": "/products",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products",
+      "body_sha256": "5fafcb6f0c82af56f0279e77bb056fccbddc96777ec5797579a8d8fdeedf7897"
+    },
+    {
+      "path": "/products/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products",
+      "body_sha256": "5fafcb6f0c82af56f0279e77bb056fccbddc96777ec5797579a8d8fdeedf7897"
+    },
+    {
+      "path": "/products/chloride-process-titanium-dioxide/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/chloride-process-titanium-dioxide/",
+      "body_sha256": "9bcf1d25018a1232337ece55370320076a6f407bd3dbe162a2141297bbd368ee"
+    },
+    {
+      "path": "/products/cr-901",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/cr-901",
+      "body_sha256": "4de7bab10ca3b32f58f684a43cd0233f7f74f6105b7a44882808c9e8608cc00d"
+    },
+    {
+      "path": "/products/cr-901/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/cr-901",
+      "body_sha256": "4de7bab10ca3b32f58f684a43cd0233f7f74f6105b7a44882808c9e8608cc00d"
+    },
+    {
+      "path": "/products/m-108",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-108",
+      "body_sha256": "e83ae53e0161ed5f19418897bf59f6d9ebf99dbee7707274891fd9622e82b857"
+    },
+    {
+      "path": "/products/m-108/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-108",
+      "body_sha256": "e83ae53e0161ed5f19418897bf59f6d9ebf99dbee7707274891fd9622e82b857"
+    },
+    {
+      "path": "/products/m-200",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-200",
+      "body_sha256": "442408bb94b22c9e35e76476fe1d0222b954bd808be4f87596431391c0071756"
+    },
+    {
+      "path": "/products/m-200/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-200",
+      "body_sha256": "442408bb94b22c9e35e76476fe1d0222b954bd808be4f87596431391c0071756"
+    },
+    {
+      "path": "/products/m-210",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-210",
+      "body_sha256": "e749adbad751ea58993feba525d3b8f57e5fd41a1c83bb1374b13fe813a2af07"
+    },
+    {
+      "path": "/products/m-210/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-210",
+      "body_sha256": "e749adbad751ea58993feba525d3b8f57e5fd41a1c83bb1374b13fe813a2af07"
+    },
+    {
+      "path": "/products/m-2196",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-2196",
+      "body_sha256": "6b9c458fcb1afc2af0a96f3c69baac9f656fd17c7adf900418c5cc84a5615dd6"
+    },
+    {
+      "path": "/products/m-2196/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-2196",
+      "body_sha256": "6b9c458fcb1afc2af0a96f3c69baac9f656fd17c7adf900418c5cc84a5615dd6"
+    },
+    {
+      "path": "/products/m-2377",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-2377",
+      "body_sha256": "b37f01da95826e2bc8424bb8c6ba853d8b7f7b8845f00bc812c59993ceeadf5d"
+    },
+    {
+      "path": "/products/m-2377/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-2377",
+      "body_sha256": "b37f01da95826e2bc8424bb8c6ba853d8b7f7b8845f00bc812c59993ceeadf5d"
+    },
+    {
+      "path": "/products/m-340",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-340",
+      "body_sha256": "366f1e2e723e7093b904154555fb444a7ff93981188dc3004dbf1aa0933a805a"
+    },
+    {
+      "path": "/products/m-340/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-340",
+      "body_sha256": "366f1e2e723e7093b904154555fb444a7ff93981188dc3004dbf1aa0933a805a"
+    },
+    {
+      "path": "/products/m-350",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-350",
+      "body_sha256": "642d71499e4e6b70031d054da45d176b5e9a2863b8f9890e6ece220b7b0cef17"
+    },
+    {
+      "path": "/products/m-350/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-350",
+      "body_sha256": "642d71499e4e6b70031d054da45d176b5e9a2863b8f9890e6ece220b7b0cef17"
+    },
+    {
+      "path": "/products/m-510",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-510",
+      "body_sha256": "e6d670fe3f67e564c73a7973f8f420e5c70812577c46a91743c5b2e8acff955b"
+    },
+    {
+      "path": "/products/m-510/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-510",
+      "body_sha256": "e6d670fe3f67e564c73a7973f8f420e5c70812577c46a91743c5b2e8acff955b"
+    },
+    {
+      "path": "/products/m-52",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-52",
+      "body_sha256": "56d049372ecb11ffc6c62df37f13b78186c69a803f178ed793cfcdb19bc7730f"
+    },
+    {
+      "path": "/products/m-52/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-52",
+      "body_sha256": "56d049372ecb11ffc6c62df37f13b78186c69a803f178ed793cfcdb19bc7730f"
+    },
+    {
+      "path": "/products/m-886",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-886",
+      "body_sha256": "f80681e39aad6700db86c4b6f583812a029eecf542ec8c0747c65052fa56d4f4"
+    },
+    {
+      "path": "/products/m-886/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-886",
+      "body_sha256": "f80681e39aad6700db86c4b6f583812a029eecf542ec8c0747c65052fa56d4f4"
+    },
+    {
+      "path": "/products/m-895",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-895",
+      "body_sha256": "368e830804845a175564af02554781bda34c1464769707c317962c3e7b61f500"
+    },
+    {
+      "path": "/products/m-895/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-895",
+      "body_sha256": "368e830804845a175564af02554781bda34c1464769707c317962c3e7b61f500"
+    },
+    {
+      "path": "/products/m-896",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-896",
+      "body_sha256": "6e1a6f4ce1931da31c3d9a86ed2d14e3009a6dbfd2aa2a20f24387b1dbf7d0a5"
+    },
+    {
+      "path": "/products/m-896/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-896",
+      "body_sha256": "6e1a6f4ce1931da31c3d9a86ed2d14e3009a6dbfd2aa2a20f24387b1dbf7d0a5"
+    },
+    {
+      "path": "/products/m-996",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-996",
+      "body_sha256": "6a5e75c1a762c8a1e97de1507fbf35afd79cc421e32a644703401e0120189628"
+    },
+    {
+      "path": "/products/m-996/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/m-996",
+      "body_sha256": "6a5e75c1a762c8a1e97de1507fbf35afd79cc421e32a644703401e0120189628"
+    },
+    {
+      "path": "/products/sulfate-process-titanium-dioxide/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/products/sulfate-process-titanium-dioxide/",
+      "body_sha256": "65026092a15550eeb1beb3772aea5796e4bdebd198a0a7fb3edc39960247c0fe"
+    },
+    {
+      "path": "/pt-br/markets/brazil/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/pt-br/markets/brazil/",
+      "body_sha256": "1f0bcceefb526956e8a23bb57e83a57fddb8ffd2e29ebfd34c185ca61c654eb6"
+    },
+    {
+      "path": "/request-a-quote/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/request-a-quote",
+      "body_sha256": "ad6b341b7148fa62e6ef1155a89e206aaaf8eb221ca9fd86b903539b25fd1dec"
+    },
+    {
+      "path": "/request-documents/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/request-documents/",
+      "body_sha256": "167d86ae4875dd75fe2c6ae694b1b268a408f42af1496e08b9115c78bc2f0f05"
+    },
+    {
+      "path": "/request-sample/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/request-sample",
+      "body_sha256": "febe5b9e0a0f2b3fc4f9f37fcb8e1b35167c235d243327d4b906eff4515f7806"
+    },
+    {
+      "path": "/resources",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources",
+      "body_sha256": "0a2c2f0a6a7510ea76520e283ef028abd5efc5808c2cc5c68183fea3a6b62769"
+    },
+    {
+      "path": "/resources/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources",
+      "body_sha256": "0a2c2f0a6a7510ea76520e283ef028abd5efc5808c2cc5c68183fea3a6b62769"
+    },
+    {
+      "path": "/resources/brazil-titanium-dioxide-anti-dumping-duty/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/brazil-titanium-dioxide-anti-dumping-duty/",
+      "body_sha256": "a4ddc81153741f1ba96f807224def33770441973c93c6d60008c03eab363ed4d"
+    },
+    {
+      "path": "/resources/chemours-titanium-dioxide-alternatives/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/chemours-titanium-dioxide-alternatives/",
+      "body_sha256": "fbe46e9695cca9f5a53b85da9c4d02b5ce27bdc5a553c2d835b59e5b148617d6"
+    },
+    {
+      "path": "/resources/chloride-vs-sulfate-titanium-dioxide",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/chloride-vs-sulfate-titanium-dioxide",
+      "body_sha256": "ce157ac07b7e7a00c5693425e8da0f7e73c9295ddf202815200de93421d453e4"
+    },
+    {
+      "path": "/resources/chloride-vs-sulfate-titanium-dioxide/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/chloride-vs-sulfate-titanium-dioxide",
+      "body_sha256": "ce157ac07b7e7a00c5693425e8da0f7e73c9295ddf202815200de93421d453e4"
+    },
+    {
+      "path": "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/eu-titanium-dioxide-anti-dumping-duty/",
+      "body_sha256": "1cb05e60df4cd672a3e2e9bc5485c87844a0ed062b46c25fcc3939796f2cb42e"
+    },
+    {
+      "path": "/resources/india-titanium-dioxide-anti-dumping-duty/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/india-titanium-dioxide-anti-dumping-duty/",
+      "body_sha256": "47ab39ac0a4a9ee2bbce5201757851737722ee3f26f5d29e6c0089b9f26388bb"
+    },
+    {
+      "path": "/resources/non-china-titanium-dioxide/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/non-china-titanium-dioxide",
+      "body_sha256": "6fd98116a472dd1836cb62aa2fc491d282158dec4c6a32fb92e719e440148205"
+    },
+    {
+      "path": "/resources/ti-pure-r-706-alternative/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/ti-pure-r-706-alternative/",
+      "body_sha256": "08fdd7198408334772c6a177104cb7d8baef4c1881dce9d20387e7f7f82aa4eb"
+    },
+    {
+      "path": "/resources/uk-titanium-dioxide-anti-dumping-investigation/",
+      "status": 200,
+      "final_url": "http://127.0.0.1:3183/resources/uk-titanium-dioxide-anti-dumping-investigation/",
+      "body_sha256": "6a0905999914f0ca9dffb7faf2e2f446caedbd894c1a44b3011bba061106fb15"
+    }
+  ],
+  "scripts": [
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/0-yk0o45laip4.js",
+      "status": 200,
+      "sha256": "dfe4ba310bc5fe3591cbc1d6e271e4432b807d6ef6433ec855038192a5ba5277",
+      "bytes": 37734
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "status": 200,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "bytes": 112594
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/0dgn-bhb954g0.js",
+      "status": 200,
+      "sha256": "8922b9ac97ca5d567f50df8598b4800954fdb97d135d277cf07810312624d3af",
+      "bytes": 14996
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/0seamdynkprvk.js",
+      "status": 200,
+      "sha256": "4b735581f1e83389f8de569d93eb89e34e8f60183b91330372bfb7a58489585b",
+      "bytes": 6189
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/0vowlthnnn6hg.js",
+      "status": 200,
+      "sha256": "c53e5e3a489986088616d1b3fbcae75add7d5a02277ad02c2967e5f31220aef8",
+      "bytes": 27341
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/0zj4rhj84rp4e.js",
+      "status": 200,
+      "sha256": "a404bf6dcf34f15ebfd5759139511cd6edf257f59919b51509126da89e60001a",
+      "bytes": 409
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/11pxbv08d7b0-.js",
+      "status": 200,
+      "sha256": "9d2c0632a9ee5e6f5c874cb9789b8d92d03e9e3719f3dcbbf227089e04391872",
+      "bytes": 228922
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/1419es7o_zpdn.js",
+      "status": 200,
+      "sha256": "204e7a68998f334915b4bb922ae50205fff3b6c7d6b8df5f353af2bf66d9fc81",
+      "bytes": 10325
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/1876f595j_cp6.js",
+      "status": 200,
+      "sha256": "2169b46e9272522a07520a30c0d19ddca7a08d8d681da0452023b45a8c1dfa76",
+      "bytes": 35331
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/1dt5j18kehvt2.js",
+      "status": 200,
+      "sha256": "eadde86408589b7dd3d4a1d1d8467e290d9602e171f404bddb89208c05651d01",
+      "bytes": 4277
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/1q9s3egncqso2.js",
+      "status": 200,
+      "sha256": "d2f39aaa9ec925c04cbd3773cbfe5f87b620f5420463c63a22233ede28c50cc7",
+      "bytes": 897
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/1yo3y5_nlad0j.js",
+      "status": 200,
+      "sha256": "d0474a42ef7336998417de88a33d10c346101869aefe457186e8bd57e71dce2e",
+      "bytes": 530
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/21iazeihe-apq.js",
+      "status": 200,
+      "sha256": "1822f6ef9949c0a23a56e3206b133813b40d0c676cbff898aa93e109a7e13607",
+      "bytes": 5508
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/2es6v4ighmq2s.js",
+      "status": 200,
+      "sha256": "90a39c36e3333fa2fdfae7f6c3a24f557bba8f1609a668ccae00ac9268d25c1c",
+      "bytes": 2905
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/2i1lfzsfaebew.js",
+      "status": 200,
+      "sha256": "b391fb9fb3c431b17e0bbb152c36dfc5b1fb9ed2deea8158292b5e69566db09c",
+      "bytes": 34718
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3450qyhportkm.js",
+      "status": 200,
+      "sha256": "6f7927041946fafd1fabaaa08dc3bc1deab43dbcadc09584ba7f578ca097e745",
+      "bytes": 34015
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/34p0uuz05_g33.js",
+      "status": 200,
+      "sha256": "eaff194c91e6e4090c786246d41eee3c6a5f4718b6bf528cd2054a9cea143d8f",
+      "bytes": 10594
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3f6cg486_5bxn.js",
+      "status": 200,
+      "sha256": "c5dbb2bbb85c7f2e6b3bb31f4907ab1ac2e380fe20a6bbdd6474892d4e6f576c",
+      "bytes": 16293
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3fntmmi971322.js",
+      "status": 200,
+      "sha256": "34ed6abf4c6d0d1bb3dc56d3f133d2a5dbc3a3c89c791deab314e27143ac14ce",
+      "bytes": 14377
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3gygali4g42n6.js",
+      "status": 200,
+      "sha256": "b5b767e40f5a158246186ca1e20d355e92676895fa0a0c3a76de56e9e6ee25cb",
+      "bytes": 617
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3n85a7i66donx.js",
+      "status": 200,
+      "sha256": "3c286c564ca2cc93a9518a72d5473818f8b0c63645321f62681c66b9f30d5df2",
+      "bytes": 2056
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3o6zmgcd3bghq.js",
+      "status": 200,
+      "sha256": "96f61779130e1673cf55853ad877f53388f7713a117f1b0c71c145bc12c669e4",
+      "bytes": 160518
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3ryv-_eakhe4z.js",
+      "status": 200,
+      "sha256": "de7d56a741f49516002db50c9c7ce7f5b81e2cda319680dc10a4b49756fb3afa",
+      "bytes": 7890
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3s6nzrbk-8mnv.js",
+      "status": 200,
+      "sha256": "1d36f2e3f57740f75eb021aaec1208d7e938130e36c106a9f28678e4a98559b0",
+      "bytes": 5598
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/3ta9kr4bdxs9g.js",
+      "status": 200,
+      "sha256": "fbd4c75f615ce7599dd1f8392814355e56d9cb8ebc378c0a74325b48556bb14f",
+      "bytes": 4032
+    },
+    {
+      "url": "http://127.0.0.1:3183/_next/static/chunks/turbopack-3768uzyq27zy0.js",
+      "status": 200,
+      "sha256": "2c030ad3691b16aeef1ff6e9d50e35245ac6a187ea18c1aff096d5bb74c1f65d",
+      "bytes": 9721
+    }
+  ]
+}

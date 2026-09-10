@@ -1,0 +1,545 @@
+{
+  "schema_version": "gate8-evidence-manifest-v1.0",
+  "handoff_id": "CONTACT-001-G6-HANDOFF-20260910-02",
+  "gate8_task_id": "G8-CONTACT-001-20260910-01",
+  "site_scope": "tio2-my",
+  "receipt_path": "docs/verification/contact-001/gate8/GATE8_IMPLEMENTATION_RECEIPT_2026-09-10.md",
+  "pages": [
+    {
+      "page_id": "CONTACT-001",
+      "acceptance_condition_ids": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-02",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09",
+        "CONTACT-G9-10",
+        "CONTACT-G9-11",
+        "CONTACT-G9-12",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "runtime_path": "/contact/"
+    }
+  ],
+  "git": {
+    "repository": "D:\\16Wordpress_nextjs\\.worktrees\\contact-001-gate8",
+    "branch": "codex/contact-001-gate8",
+    "baseline_commit": "9571dd2ab7e7f2c7c9cb373e008ca81b3c534822",
+    "implementation_commit": "619bd75afd2a4725d9efe9f2e0e0baa3bf3c515e",
+    "evidence_head": "767e6b76ceceb002b0def0ad7c9e878b043e87e2",
+    "clean_checked_at": "2026-09-10T10:23:53.177Z"
+  },
+  "build": {
+    "directory": ".next-contact-gate8",
+    "build_id": "e9kK97wgApJrE2vMfUtPg",
+    "implementation_commit": "619bd75afd2a4725d9efe9f2e0e0baa3bf3c515e"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:4491",
+    "site_scope": "tio2-my",
+    "environment_type": "local-production",
+    "started_at": "2026-09-10T18:18:00+08:00",
+    "hold_until": "GATE9_PASS_OR_RETURN_NOTICE",
+    "require_build_marker": true,
+    "checks": [
+      {
+        "path": "/contact/",
+        "expected_status": 200,
+        "contains": [
+          "Contact TiO2 Malaysia",
+          "data-page-id=\"CONTACT-001\""
+        ]
+      },
+      {
+        "path": "/request-a-quote/",
+        "expected_status": 200,
+        "contains": [
+          "Request a Titanium Dioxide Quote"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "expected_status": 200,
+        "contains": [
+          "Privacy Policy"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "docs/verification/contact-001/gate8/build-id.txt",
+      "sha256": "6a41f79a6886d3431d2056c7cf55eca9b1e07eb6b0b2b12288dd388b2f2e3554",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-16"
+      ],
+      "command": "Read from final .next-contact-gate8/BUILD_ID",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/acceptance-summary.json",
+      "sha256": "bbd5f02e310d60d0a436484ac805205ff2091156f97669e1754eb4fe623d93f8",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-02",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09",
+        "CONTACT-G9-10",
+        "CONTACT-G9-11",
+        "CONTACT-G9-12",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Generated from final committed Gate 8 verification outputs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/dependency-ledger.json",
+      "sha256": "b8b0e958fc1de2440597290157d9589e02d6136bc169dda19e9da642b3a81250",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "Gate 6 dependency register mapped to actual Gate 8 states",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/ROLLBACK_RECORD_2026-09-10.md",
+      "sha256": "5d0302170590b6249f34461a2f94c02a32bab7680867921a3279f34fc22d0309",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "CONTACT-G9-16"
+      ],
+      "command": "Baseline, branch, CMS and runtime rollback inspection",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/cms-source-chain.json",
+      "sha256": "8fa52de47073c0a9acb1a7eb24e8988ac6410524ed5b1098093037ffdc6f2bf9",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-02",
+        "CONTACT-G9-10",
+        "CONTACT-G9-12"
+      ],
+      "command": "Local WordPress GraphQL readback after scoped singleton seed",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/runtime-contract.json",
+      "sha256": "5c8a25e2dcd4a12cabde11fb5c28cca9ad9166a8de36d5e30ef9b1233b1c520e",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-02",
+        "CONTACT-G9-11",
+        "CONTACT-G9-12",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14"
+      ],
+      "command": "node docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/route-and-sitemap-matrix.json",
+      "sha256": "723c220be84efdc33dabde6f35ef86ee3ce80008ec91d7f511176b0364e2d3ac",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-11",
+        "CONTACT-G9-13"
+      ],
+      "command": "Runtime route/status and held sitemap request matrix",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/fail-closed-api.json",
+      "sha256": "060b2aeaf421f8a2d8188ad3569cf306ad99d16b88cb3fabcc096c05c47334e7",
+      "evidence_type": "LOCAL_SIMULATION",
+      "proves": [
+        "CONTACT-G9-03",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-07",
+        "CONTACT-G9-08",
+        "CONTACT-G9-09"
+      ],
+      "command": "Same-origin local production API validation and fail-closed classification; no external request",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/form-state-chromium.json",
+      "sha256": "edb7fbc25b709aa290d305f85b0092ec589612d61dd99c9b381c94772b04b3da",
+      "evidence_type": "LOCAL_SIMULATION",
+      "proves": [
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-10",
+        "CONTACT-G9-15"
+      ],
+      "command": "Playwright intercepted outcome classification; no external request",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/form-state-firefox.json",
+      "sha256": "35dd2b6096db1aa3b24fd8c6359729087eecfe0ad132573229850d5440e180b6",
+      "evidence_type": "LOCAL_SIMULATION",
+      "proves": [
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-08",
+        "CONTACT-G9-10",
+        "CONTACT-G9-15"
+      ],
+      "command": "Playwright intercepted outcome classification; no external request",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/contact-desktop-1440.png",
+      "sha256": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-04",
+        "CONTACT-G9-10",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Playwright full-page screenshot; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/contact-tablet-768.png",
+      "sha256": "78390cc8023960175d818ed5ace8466d1c1a6db1f991af27240f45abfb2fc445",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-04",
+        "CONTACT-G9-10",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Playwright full-page screenshot; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/contact-mobile-390.png",
+      "sha256": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-04",
+        "CONTACT-G9-10",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Playwright full-page screenshot; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/contact-state-submitting-390.png",
+      "sha256": "91c1a2828ce3b9e9bf05d24e3b6f18fdc73fc61e24754cb60f16e4af2e144fac",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-04",
+        "CONTACT-G9-10",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Playwright full-page screenshot; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/runtime/contact-state-failure-390.png",
+      "sha256": "01bc8d7ebaad1d2147fc6510f7534df9e3c0e7cc874273573063e6a8b234bd61",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-04",
+        "CONTACT-G9-10",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "Playwright full-page screenshot; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/logs/build.log",
+      "sha256": "d4ddeadec08bbcd92e1711e2db2f34d37d7831348ab29de7a0128c703bddb5be",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-16"
+      ],
+      "command": "SITE_ID=tio2-my NEXT_DIST_DIR=.next-contact-gate8 npm run build",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/logs/targeted-tests.log",
+      "sha256": "0949bf37e393d46bf05457f498e02acb4884e533da94652fd3a4cde8bea1874a",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-02",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-08",
+        "CONTACT-G9-10",
+        "CONTACT-G9-11",
+        "CONTACT-G9-12",
+        "CONTACT-G9-13",
+        "CONTACT-G9-15",
+        "CONTACT-G9-16"
+      ],
+      "command": "npm test -- --run Contact unit, integration and infrastructure tests",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/logs/typecheck.log",
+      "sha256": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-16"
+      ],
+      "command": "npm run typecheck",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/logs/changed-lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-16"
+      ],
+      "command": "npx eslint changed CONTACT-001 files",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/logs/playwright.log",
+      "sha256": "0871aedcacd5d1a0f00c7bee42199c5033cca369c3ae70bb22c75d63c598c5d8",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-02",
+        "CONTACT-G9-03",
+        "CONTACT-G9-04",
+        "CONTACT-G9-05",
+        "CONTACT-G9-06",
+        "CONTACT-G9-10",
+        "CONTACT-G9-11",
+        "CONTACT-G9-12",
+        "CONTACT-G9-13",
+        "CONTACT-G9-14",
+        "CONTACT-G9-15"
+      ],
+      "command": "npx playwright test --config=playwright.contact.config.ts",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/logs/runtime-evidence.log",
+      "sha256": "9156489787fda16ed8b1831e2dbcec08aebb4dc8df6ab81b9e78d7d021f35809",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-07",
+        "CONTACT-G9-11",
+        "CONTACT-G9-12",
+        "CONTACT-G9-16"
+      ],
+      "command": "node docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/logs/wordpress-seed.log",
+      "sha256": "2f0ee35a7d334c22417e0b45d82e383ff960ceabe4591b5835c1785da6e7396f",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-02",
+        "CONTACT-G9-10"
+      ],
+      "command": "Local-only wp eval-file apply-tio2-my-contact-page.php",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/support/contact-cms-proxy.mjs",
+      "sha256": "23b3610697bf3328ec321d292d24a59ce23abdc0f5679798f1a36233d2df1790",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-16"
+      ],
+      "command": "Source inspection of repeatable local Gate 8 support",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/support/start-contact-runtime.mjs",
+      "sha256": "47d2ea5b84a444488897af393bf71ab021a22e5bc4a38ae1c6b335d1b3415092",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-16"
+      ],
+      "command": "Source inspection of repeatable local Gate 8 support",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    },
+    {
+      "path": "docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs",
+      "sha256": "5aa09980384b0f1d8ca298afce5dac02fe80ea3f54e81bb3fd9d0954d741e922",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "CONTACT-G9-01",
+        "CONTACT-G9-16"
+      ],
+      "command": "Source inspection of repeatable local Gate 8 support",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4491; Contact CMS fixture at 4490; local WordPress readback at 8080; no external receiver request"
+    }
+  ],
+  "receipt_evidence_references": [
+    "docs/verification/contact-001/gate8/build-id.txt",
+    "docs/verification/contact-001/gate8/acceptance-summary.json",
+    "docs/verification/contact-001/gate8/dependency-ledger.json",
+    "docs/verification/contact-001/gate8/ROLLBACK_RECORD_2026-09-10.md",
+    "docs/verification/contact-001/gate8/runtime/cms-source-chain.json",
+    "docs/verification/contact-001/gate8/runtime/runtime-contract.json",
+    "docs/verification/contact-001/gate8/runtime/route-and-sitemap-matrix.json",
+    "docs/verification/contact-001/gate8/runtime/fail-closed-api.json",
+    "docs/verification/contact-001/gate8/runtime/form-state-chromium.json",
+    "docs/verification/contact-001/gate8/runtime/form-state-firefox.json",
+    "docs/verification/contact-001/gate8/runtime/contact-desktop-1440.png",
+    "docs/verification/contact-001/gate8/runtime/contact-tablet-768.png",
+    "docs/verification/contact-001/gate8/runtime/contact-mobile-390.png",
+    "docs/verification/contact-001/gate8/runtime/contact-state-submitting-390.png",
+    "docs/verification/contact-001/gate8/runtime/contact-state-failure-390.png",
+    "docs/verification/contact-001/gate8/logs/build.log",
+    "docs/verification/contact-001/gate8/logs/targeted-tests.log",
+    "docs/verification/contact-001/gate8/logs/typecheck.log",
+    "docs/verification/contact-001/gate8/logs/changed-lint.log",
+    "docs/verification/contact-001/gate8/logs/playwright.log",
+    "docs/verification/contact-001/gate8/logs/runtime-evidence.log",
+    "docs/verification/contact-001/gate8/logs/wordpress-seed.log",
+    "docs/verification/contact-001/gate8/support/contact-cms-proxy.mjs",
+    "docs/verification/contact-001/gate8/support/start-contact-runtime.mjs",
+    "docs/verification/contact-001/gate8/support/generate-contact-runtime-evidence.mjs"
+  ],
+  "known_open_items": [
+    {
+      "id": "CONTACT-DEP01",
+      "owner": "Platform owner / Gate 8",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Local production build exposes CONTACT-001 at /contact with 200 and scoped identity.",
+      "closure_timing": "During independent Gate 9 intake and review"
+    },
+    {
+      "id": "CONTACT-DEP02",
+      "owner": "CONTACT-001 content owner / Gate 8",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Local WordPress singleton, GraphQL record, DTO and rendered source chain are captured.",
+      "closure_timing": "During independent Gate 9 intake and review"
+    },
+    {
+      "id": "CONTACT-DEP03",
+      "owner": "IKHLAS operational owner + Project Control",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "Contact-specific processor and operational receiver decision required.",
+      "closure_timing": "Before Gate 9 close or release, as assigned by Gate 6"
+    },
+    {
+      "id": "CONTACT-DEP04",
+      "owner": "Operational owner / Gate 8 after decision",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "Authenticated positive predicate and provider/receiver correlation required.",
+      "closure_timing": "Before Gate 9 close or release, as assigned by Gate 6"
+    },
+    {
+      "id": "CONTACT-DEP05",
+      "owner": "Security/processor owner / Gate 8",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Pending duplicate and retry controls pass; anti-spam and durable idempotency await processor selection.",
+      "closure_timing": "During independent Gate 9 intake and review"
+    },
+    {
+      "id": "CONTACT-DEP06",
+      "owner": "Privacy/Legal + IKHLAS operations",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "Contact processor, recipient, transfer, anti-spam and retention parity approval required.",
+      "closure_timing": "Before Gate 9 close or release, as assigned by Gate 6"
+    },
+    {
+      "id": "CONTACT-DEP07",
+      "owner": "Destination + Global Chrome/Legal/Consent owners",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Quote/Documents/Sample/Privacy return 200; shared Menu and Cookie Settings keyboard checks pass.",
+      "closure_timing": "During independent Gate 9 intake and review"
+    },
+    {
+      "id": "CONTACT-DEP08",
+      "owner": "CONTACT-001 + Global Chrome/Brand owners",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Integrated 1440/768/390 default and form-state captures inspected.",
+      "closure_timing": "During independent Gate 9 intake and review"
+    },
+    {
+      "id": "CONTACT-DEP09",
+      "owner": "CONTACT-001 + shared accessibility owners",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Physical device, named screen reader/AT and native 200% verification required.",
+      "closure_timing": "Before Gate 9 close or release, as assigned by Gate 6"
+    },
+    {
+      "id": "CONTACT-DEP10",
+      "owner": "IKHLAS operational owner authorizes; Gate 8 executes",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "No external Contact request was authorized or made; provider acceptance and receiver receipt remain unproven.",
+      "closure_timing": "Before Gate 9 close or release, as assigned by Gate 6"
+    },
+    {
+      "id": "CONTACT-DEP11",
+      "owner": "SEO/Schema + Gate 8",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "Head and JSON-LD parity are captured; sitemap remains held until release blockers close.",
+      "closure_timing": "During independent Gate 9 intake and review"
+    },
+    {
+      "id": "CONTACT-DEP12",
+      "owner": "Gate 8 developer / Controller reception",
+      "blocking_layer": "RECHECK_SCOPE",
+      "closure_evidence": "External manifest validation and two-round held-runtime preflight complete after evidence commit.",
+      "closure_timing": "During independent Gate 9 intake and review"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "handoff_id": "PRERELEASE-3100-IL-G8-REPAIR-20260910-01",
+  "gate8_task_id": "01a07e6a-546d-7532-aa06-02d2bffd5eed",
+  "site_scope": "tio2-my",
+  "identity": {
+    "implementation_commit": "c18abbc5f7216508e16163c0dfe25b0e0ecc64a6",
+    "evidence_head": "de8128e57a34877fc90366c8a61af084dd22b64c",
+    "build_id": "ATKoXHh9g15QA-Y6c8Y2H"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:4511",
+    "rounds": 2,
+    "requests": 8,
+    "successful_requests": 8,
+    "observations": [
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4511/contact/",
+        "status": 200,
+        "bytes": 39827,
+        "final_url": "http://127.0.0.1:4511/contact/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4511/about/",
+        "status": 200,
+        "bytes": 64037,
+        "final_url": "http://127.0.0.1:4511/about/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4511/products/",
+        "status": 200,
+        "bytes": 80004,
+        "final_url": "http://127.0.0.1:4511/products/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4511/404/",
+        "status": 404,
+        "bytes": 14051,
+        "final_url": "http://127.0.0.1:4511/404/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4511/contact/",
+        "status": 200,
+        "bytes": 39827,
+        "final_url": "http://127.0.0.1:4511/contact/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4511/about/",
+        "status": 200,
+        "bytes": 64037,
+        "final_url": "http://127.0.0.1:4511/about/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4511/products/",
+        "status": 200,
+        "bytes": 80004,
+        "final_url": "http://127.0.0.1:4511/products/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4511/404/",
+        "status": 404,
+        "bytes": 14051,
+        "final_url": "http://127.0.0.1:4511/404/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "evidence_validation": {
+    "status": "PASS"
+  }
+}

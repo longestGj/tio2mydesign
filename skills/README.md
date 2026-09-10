@@ -9,11 +9,11 @@
 
 ## Gate 9运行方法建设（2026-09-07）
 
-[运行实现核验 V0.1](runtime-implementation-verification/SKILL.md)绑定接受条件、实际版本、CMS/API/页面、接收和scope证据；通过[配合参考](runtime-implementation-verification/references/gate9-method-integration.md)复用布局核验V0.4及合同核验V0.2的适用能力，两项共享源保持原样。范围、精确身份及有限验证见[本轮记录](../docs/superpowers/specs/2026-09-07-gate9-runtime-skill-validation-v0.1.md)。源已创建不等于真实运行验证或页面批准，未安装注册。下方Gate 6 V0.1章节为旧建设截面，Gate 9本轮实际消费V0.2源及其修订记录，不沿用旧状态判断。
+[运行实现核验 V0.5](runtime-implementation-verification/SKILL.md)绑定接受条件、实际版本、CMS/API/页面、分层接收与scope证据，并用`validate_evidence_manifest.py`和`gate9_preflight.py`先做只读机器预检；预检兼容旧式Next静态路径和Next.js 16 RSC Build marker。[配合参考V0.2](runtime-implementation-verification/references/gate9-method-integration.md)补齐逐控件覆盖及图像/缩放有效性。方法生成四层状态和Gate8通知字段，消息发送与阶段决定仍由Agent负责；已有局部真实页面实践，外部接收与完整阶段关闭尚未充分验证，未安装注册。
 
 ## Gate 4完整视觉当前方法组合（2026-09-07）
 
-[当前基线Manifest](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)统一指向一个执行Agent和三项能力方法：[品牌应用与视觉样例](brand-applied-visual-design/SKILL.md) V0.2、[完整页面视觉制作](full-page-visual-composition/SKILL.md) V0.2、[布局与交互核验](layout-interaction-verification/SKILL.md) V0.4。三者按[共同工作合同](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.1.md)共用`workset_id`、输入清单、设计源和证据索引，只追加各自结果。4A是内部方向检查；4B冻结后进入唯一最终独立审查环节，该环节允许Finding、返修和复审。
+[当前基线Manifest](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.7.md)统一指向一个执行Agent和三项能力方法：[品牌应用与视觉样例](brand-applied-visual-design/SKILL.md) V0.2、[完整页面视觉制作](full-page-visual-composition/SKILL.md) V0.2、[布局与交互核验](layout-interaction-verification/SKILL.md) V0.8。三者按[共同工作合同](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.1.md)共用`workset_id`、输入清单、设计源和证据索引，只追加各自结果。4A是内部方向检查；4B冻结后进入唯一最终独立审查环节，该环节允许Finding、返修和复审。
 
 旧“Gate 4方法候选”和“Gate 5方法设计”章节保留为历史说明；其阶段接口由当前工作流覆盖。各Skill旧源保存在自身`history/`，不回写。
 
@@ -63,9 +63,25 @@ Agent负责选择方法、综合结果、四项核心交付与阶段管理；Ski
 
 | 方法 | 当前源与用途 |
 |---|---|
-| 响应式线框设计 | [SKILL.md](responsive-wireframe-design/SKILL.md) V0.3：完整内容三端结构、风险对应的状态图、共享继承与本页预检、冻结；[V0.2快照](responsive-wireframe-design/history/SKILL-v0.2-scope-control-baseline.md) |
-| 布局与交互核验 | [SKILL.md](layout-interaction-verification/SKILL.md) V0.4：仅Gate 3使用[结构核验范围](layout-interaction-verification/references/gate3-structure-scope.md)，其他阶段继续按完整合同；[合并版V0.3快照](layout-interaction-verification/history/SKILL-v0.3-before-gate3-scope.md) |
+| 响应式线框设计 | [SKILL.md](responsive-wireframe-design/SKILL.md) V0.4：制作上限、缺陷驱动调整、结构通过即停止；完整内容三端结构、风险对应的状态图、共享继承与本页预检、冻结；[V0.2快照](responsive-wireframe-design/history/SKILL-v0.2-scope-control-baseline.md) |
+| 布局与交互核验 | [SKILL.md](layout-interaction-verification/SKILL.md) V0.8：仅Gate 3使用[结构核验范围](layout-interaction-verification/references/gate3-structure-scope.md)，其他阶段继续按完整合同；[合并版V0.3快照](layout-interaction-verification/history/SKILL-v0.3-before-gate3-scope.md) |
 
 使用现有[预检规则](responsive-wireframe-design/references/preflight-freeze-evidence.md)、[检查器](responsive-wireframe-design/scripts/check-preflight-record.mjs)和[风险模型](layout-interaction-verification/references/core-risk-model.md)。检查器不自动判断共享继承资格，执行者与独立审查者须检查原始证据和本页实际结果。共享消费仍为既有V0.2，本次未更新共享组件。
 
 [V1.2当前组合历史](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.2.md)保留此前Poland、Chloride和Chemours实测依据。变更映射、归档与本轮自检见[修订记录](../docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md)。未安装、注册或自动启动；页面批准及开发权限不变。
+
+新Gate 5独立视觉审查角色：[agent.md](../agents/gate5-independent-visual-review/agent.md)。角色与核验方法已按用户要求明确禁止默认重复截图；全流程编号切换及页面授权仍按联合方案另行落地。总控派发必须传入新增截图触发、原始证据和实际作者身份，不能用“完整重验”默许重新生产整套图。
+
+Gate 5审查合同补全：Agent V0.2、核验Skill V0.6及独立审查参考V0.2，见[修订与Gate 4对比](../docs/architecture/GATE5_REVIEW_CONTRACT_COMPLETION_V1.0.md)。新Gate 5正式编号路由尚未切换；现有获授权最终视觉审查可使用此角色，不能再追加同范围审查。
+
+Gate 4自检当前规则：Agent V1.3、制作Skill V0.3、核验Skill V0.7及共同合同V1.2，见[自检效率修订](../docs/architecture/GATE4_SELF_CHECK_EFFICIENCY_CHANGE_V1.0.md)。同一实际覆盖只检查一次，正式捕获与变化补验按范围执行；不减免独立审查。
+
+三个视觉Skill当前方法边界：品牌应用V0.4、完整页面制作V0.4、核验V0.8，均集中列出允许与禁止做法，见[整理记录](../docs/architecture/VISUAL_SKILL_METHOD_BOUNDARIES_CHANGE_V1.0.md)。
+
+Gate 6当前执行与总控路由增补：[执行与复核合同V1.0](../docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.0.md)，[修订记录](../docs/architecture/GATE6_EFFICIENCY_CHANGE_V1.0.md)。启用FAST_PATH/ESCALATED_PATH规则；总控初版“尚未启用”仅为历史说明。共享一致性Skill当前V0.3，Gate 9不套用Gate 6精简路径；未实现统一validator或更改页面授权。
+
+Gate 5→6当前接收：[共用合同V1.0](../docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md)及[同步记录](../docs/architecture/GATE5_GATE6_CONTROLLER_ALIGNMENT_CHANGE_V1.0.md)。Gate 5 V0.4、Gate 6 V0.7、Controller V0.2和路由V0.2直接引用当前交接定义。
+
+内链核验：[internal-link-verification V0.2](internal-link-verification/SKILL.md)，用于批准关系与实际链接/落点/买家路径的核对；由内链审查Agent消费。项目源未注册、未全站实测；[生效记录](../docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md)。
+
+Gate 1当前执行：[三路径合同V1.0](../docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md)；Agent V0.2，搜索意图Skill V0.2，REUSE_CONFIRMATION / GAP_RESEARCH / FULL_RESEARCH。四类信息可引用映射、按缺口调用方法；旧四文件建设记录保留历史。本轮只改规则，未做页面回放。

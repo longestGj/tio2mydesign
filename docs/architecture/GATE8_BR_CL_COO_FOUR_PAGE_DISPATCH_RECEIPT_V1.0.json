@@ -1,0 +1,81 @@
+{
+  "dispatch_id": "G8-BR-CL-COO-FOUR-20260908-01",
+  "date_local": "2026-09-08",
+  "authority": {
+    "path": "docs/architecture/GATE8_BR_CL_COO_FOUR_PAGE_AUTHORIZATION_AND_DISPATCH_V1.0.md",
+    "sha256": "0ff5eb41e05a6c75d61f04d3300939fe319ced463bc526152331d9d4c7ee5c45"
+  },
+  "recipient": {
+    "title": "00Con",
+    "thread_id": "01a07a66-3c4a-75a2-9df4-648942742f9e",
+    "host_id": "local",
+    "cwd": "D:/16Wordpress_nextjs"
+  },
+  "transport_status": "DELIVERED",
+  "handed_off": true,
+  "gate8_authorization": "USER_AUTHORIZED",
+  "successful_turn_id": "01a07e43-a788-7840-8dee-56c63d96a2e4",
+  "successful_turn_model": "gpt-5.5",
+  "developer_acknowledgement": "已接收四页Gate 8。接收方确认顺序为BR-EN-G6-HANDOFF-02 → BR-PT-G6-HANDOFF-02 → CL-G6-HANDOFF-03 → COO-G6-HANDOFF-04；先读取D16规则、授权入口和四个唯一批准包并核对实际工作区、分支、HEAD和已有实现，然后串行开发；明确排除Gate 9、Gate 10、部署、生产写入和真实对外表单发送。",
+  "technical_intake_status": "RECEIPT_CONFIRMED_BASELINE_AUDIT_IN_PROGRESS",
+  "implementation_status": "IN_PROGRESS_NOT_YET_REPORTED",
+  "prompt": {
+    "workspace_copy": "99_workspace/gate8-br-cl-coo-dispatch/prompt.txt",
+    "sha256": "84d8867f100603a6734783a00d96f1116ff3db7c383cab8b935d6d27ae85650f"
+  },
+  "transport_history": [
+    {
+      "turn_id": "01a07e42-1fd6-7563-9029-7c9fd0416e3c",
+      "status": "FAILED_BEFORE_AGENT_EXECUTION",
+      "reason": "00Con旧配置gpt-5.6-sol要求更新版本的Codex；未形成开发接收或实现。"
+    },
+    {
+      "turn_id": "01a07e43-a788-7840-8dee-56c63d96a2e4",
+      "status": "DELIVERED_AND_ACKNOWLEDGED",
+      "model_override": "gpt-5.5",
+      "reason": "本机app-server模型清单中的默认可用模型；同一00Con线程继续执行。"
+    }
+  ],
+  "packages": [
+    {
+      "page_id": "MARKET-BR-EN",
+      "package_id": "BR-EN-G6-HANDOFF-02",
+      "path": "pages/markets/brazil/06_handoff/MARKET-BR-EN_GATE6_HANDOFF_PACKAGE_V0.2.md",
+      "sha256": "d8b7c2e759d9952d7b94a09bc397a2837dbf6f80c0b3d968c2b0324a3ad6b18a",
+      "current_manifest": "pages/markets/brazil/MARKET-BR-EN_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md",
+      "acceptance_ids": "BR-EN-G9-01…12",
+      "open_dependencies": "BR-EN-DEP-01…06"
+    },
+    {
+      "page_id": "MARKET-BR-PT",
+      "package_id": "BR-PT-G6-HANDOFF-02",
+      "path": "pages/markets/brazil/06_handoff/MARKET-BR-PT_GATE6_HANDOFF_PACKAGE_V0.2.md",
+      "sha256": "f1be33c0cef8df85b6e8c8d32a62a7c95c2e210d81169061ba7b1fec2ba41b15",
+      "current_manifest": "pages/markets/brazil/MARKET-BR-PT_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md",
+      "acceptance_ids": "BR-PT-G9-01…12",
+      "open_dependencies": "BR-PT-DEP-01…06; PROVISIONAL_ROUTE; conditional alternate"
+    },
+    {
+      "page_id": "PRODUCT-PROC-CL",
+      "package_id": "CL-G6-HANDOFF-03",
+      "path": "pages/products/chloride-process/06_handoff/PRODUCT-PROC-CL_GATE6_HANDOFF_PACKAGE_V0.3.md",
+      "sha256": "f8962402e3d243bd9bdcf452a843ad1b0977a562d53ac474549be974b494061a",
+      "current_manifest": "pages/products/chloride-process/PRODUCT-PROC-CL_CURRENT_GATE_BASELINE_MANIFEST_V0.26.md",
+      "acceptance_ids": "CL-G9-01…18",
+      "open_dependencies": "package 13 dependency groups plus four accessibility dependencies"
+    },
+    {
+      "page_id": "DOC-COO",
+      "package_id": "COO-G6-HANDOFF-04",
+      "path": "pages/documents/certificate-of-origin/06_handoff/DOC-COO_GATE6_HANDOFF_PACKAGE_V0.4.md",
+      "sha256": "41a8f87d32b4c27c45192eb35e17049a24a30ad60d0565f23fdeaaa6f1eb9788",
+      "current_manifest": "pages/documents/certificate-of-origin/04_planning/DOC-COO_CURRENT_GATE_BASELINE_MANIFEST_V0.16.md",
+      "acceptance_ids": "COO-G9-01…15",
+      "open_dependencies": "COO-G6-D01…09; PROVISIONAL_URL; FACT_EVIDENCE_REQUIRED; RED/GREEN and complete development identity hard contract"
+    }
+  ],
+  "limitations": [
+    "接收确认不表示开发完成或Gate 9通过。",
+    "本次未授权Gate 9关闭、Gate 10、合并发布分支、部署、发布、生产写入、DNS、索引或真实对外表单发送。"
+  ]
+}

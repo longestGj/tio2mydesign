@@ -1,0 +1,367 @@
+{
+  "schema_version": "gate8-evidence-manifest-v1.0",
+  "handoff_id": "TIO2-MY-PRERELEASE-WEB3FORMS-GUARDS-2026-09-09-V2",
+  "gate8_task_id": "Task10-F02-F04",
+  "site_scope": "tio2-my",
+  "receipt_path": "docs/verification/web3forms-guards/gate8_handoff_receipt.md",
+  "pages": [
+    {
+      "page_id": "CONV-RFQ",
+      "runtime_path": "/request-a-quote/",
+      "acceptance_condition_ids": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ]
+    },
+    {
+      "page_id": "CONV-SAMPLE",
+      "runtime_path": "/request-sample/",
+      "acceptance_condition_ids": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ]
+    },
+    {
+      "page_id": "CONV-DOC",
+      "runtime_path": "/request-documents/",
+      "acceptance_condition_ids": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ]
+    },
+    {
+      "page_id": "CONV-THANK",
+      "runtime_path": "/thank-you/",
+      "acceptance_condition_ids": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ]
+    }
+  ],
+  "git": {
+    "repository": "D:/16Wordpress_nextjs/.worktrees/prerelease-web3forms-guards",
+    "branch": "codex/prerelease-web3forms-guards",
+    "baseline_commit": "ba37af03bec4cf9f44f56415afc243be1c297847",
+    "implementation_commit": "525ee53c157dbd24cd17dff97463738a390b6676",
+    "evidence_head": "c70dc2997ae83db12c4b261ccde9c6dd2d620038",
+    "clean_checked_at": "2026-09-09T02:40:35.522Z"
+  },
+  "build": {
+    "directory": ".next-web3forms-valid",
+    "build_id": "8fDGe425umf-_pofkBw5o",
+    "implementation_commit": "525ee53c157dbd24cd17dff97463738a390b6676"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:3186",
+    "site_scope": "tio2-my",
+    "environment_type": "local-production",
+    "started_at": "2026-09-09T02:31:20.341Z",
+    "hold_until": "GATE9_PASS_OR_RETURN_NOTICE",
+    "require_build_marker": true,
+    "checks": [
+      {
+        "path": "/request-a-quote/",
+        "expected_status": 200,
+        "contains": [
+          "TiO2 Malaysia"
+        ]
+      },
+      {
+        "path": "/request-sample/",
+        "expected_status": 200,
+        "contains": [
+          "TiO2 Malaysia"
+        ]
+      },
+      {
+        "path": "/request-documents/",
+        "expected_status": 200,
+        "contains": [
+          "TiO2 Malaysia"
+        ]
+      },
+      {
+        "path": "/thank-you/",
+        "expected_status": 200,
+        "contains": [
+          "TiO2 Malaysia"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "docs/verification/web3forms-guards/task-1-report.md",
+      "sha256": "1e5437bb85ffceab3c541ee457929540d6259030a337da205676614b4b1838be",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/task-1-review.md",
+      "sha256": "b2465468bd918c37e7745193aa0fdc60e62d20adc978fe209a567f27b5571b27",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/correction-report.md",
+      "sha256": "a6da4693bb474af007cbd4ccf185c16cfd8ef7422c72d3d34b0bad6c1dc7a25d",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/task-1-rereview.md",
+      "sha256": "d73cc58ea093299898a42888ebc59eff2f309b27d41ef78d19257da009e2632a",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/final-review.md",
+      "sha256": "e2d168febea4c3dff90f5aea9cc32dd24b8d147f7ca103d79428812a4b663f6d",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/task-1-affected.log",
+      "sha256": "34bea477c3ae36aecc6916bc44595d3402293b613cc4ad138f40208d47f4cb7a",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/task-1-privacy-green.log",
+      "sha256": "88b556f78806f174a13511378b796dbc8124631343cb697962d7ff2c2d6d706b",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/task-1-typecheck-final.log",
+      "sha256": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/task-1-lint.log",
+      "sha256": "1a8f82456dc67527df7eacb998f3602e962b20663ea893f4ceca6a061b26175f",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/valid-build.json",
+      "sha256": "52c2c28553d0e7a4f248cd321b22cc02f51e0d4b4ba8b1f928ed6c0550f870aa",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/malformed-build.json",
+      "sha256": "69be7294055801babe293808ab00459f1d969558f1a5a901c620dd97cd798b44",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/correction-valid-green.log",
+      "sha256": "49086ba89144beaceebbee0011a2b3bd3800d9bb825d3ea37e7a3d8f1393e267",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/correction-malformed-green.log",
+      "sha256": "3de70302501883e722d926dfe8ba051dc755ba952884870e2f2e9b58b9950d94",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/rfq-unavailable-1440.png",
+      "sha256": "030abd0bd537df037277bbe434ad728991c8edddbf71cc8ed3bab45eae651a8a",
+      "evidence_type": "VISUAL",
+      "proves": [
+        "PPF-T10-F02"
+      ],
+      "command": "Controlled browser public-state capture and direct controller visual inspection",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/sample-unavailable-1440.png",
+      "sha256": "7f1a7269bb98fe89f8a047a7c3e049eb0095a5d899546cd85ee12f6b4712754f",
+      "evidence_type": "VISUAL",
+      "proves": [
+        "PPF-T10-F02"
+      ],
+      "command": "Controlled browser public-state capture and direct controller visual inspection",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/rfq-accepted-1440.png",
+      "sha256": "4e7f491e1c528b98a522d49485f73078f051c1758339d7fbd568dc0c48f66b7a",
+      "evidence_type": "VISUAL",
+      "proves": [
+        "PPF-T10-F02"
+      ],
+      "command": "Controlled browser public-state capture and direct controller visual inspection",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/sample-accepted-1440.png",
+      "sha256": "0331550e9474ebe5fc2edac580e1b36c7640a0687e99a95bf4796f48aac6f736",
+      "evidence_type": "VISUAL",
+      "proves": [
+        "PPF-T10-F02"
+      ],
+      "command": "Controlled browser public-state capture and direct controller visual inspection",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/documents-accepted-1440-ready.png",
+      "sha256": "9014050969a98f987fb6e044586ac45a7148dfaf5a7d209676c6a2c42aeb9011",
+      "evidence_type": "VISUAL",
+      "proves": [
+        "PPF-T10-F02"
+      ],
+      "command": "Controlled browser public-state capture and direct controller visual inspection",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    },
+    {
+      "path": "docs/verification/web3forms-guards/candidate-record.json",
+      "sha256": "34889e4400f6a19550c22b8daea8d9ede443fc0cbc6a18ba8d3db406a46df580",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "PPF-T10-F02",
+        "PPF-T10-F03",
+        "PPF-T10-F04"
+      ],
+      "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+      "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+    }
+  ],
+  "receipt_evidence_references": [
+    "docs/verification/web3forms-guards/task-1-report.md",
+    "docs/verification/web3forms-guards/task-1-review.md",
+    "docs/verification/web3forms-guards/correction-report.md",
+    "docs/verification/web3forms-guards/task-1-rereview.md",
+    "docs/verification/web3forms-guards/final-review.md",
+    "docs/verification/web3forms-guards/task-1-affected.log",
+    "docs/verification/web3forms-guards/task-1-privacy-green.log",
+    "docs/verification/web3forms-guards/task-1-typecheck-final.log",
+    "docs/verification/web3forms-guards/task-1-lint.log",
+    "docs/verification/web3forms-guards/valid-build.json",
+    "docs/verification/web3forms-guards/malformed-build.json",
+    "docs/verification/web3forms-guards/correction-valid-green.log",
+    "docs/verification/web3forms-guards/correction-malformed-green.log",
+    "docs/verification/web3forms-guards/rfq-unavailable-1440.png",
+    "docs/verification/web3forms-guards/sample-unavailable-1440.png",
+    "docs/verification/web3forms-guards/rfq-accepted-1440.png",
+    "docs/verification/web3forms-guards/sample-accepted-1440.png",
+    "docs/verification/web3forms-guards/documents-accepted-1440-ready.png",
+    "docs/verification/web3forms-guards/candidate-record.json"
+  ],
+  "known_open_items": [
+    {
+      "id": "PPF-T10-F01",
+      "owner": "User / configuration owner",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Actual provider-issued UUID configuration for the intended inbox, validated privately",
+      "closure_timing": "Before newly authorized real retest"
+    },
+    {
+      "id": "D23-REPAIR-IDENTITY",
+      "owner": "D23 project control",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Current repair and develop combination identity check",
+      "closure_timing": "Before main promotion"
+    },
+    {
+      "id": "NEW-REAL-FORMS-AND-INBOX",
+      "owner": "User / D16 / independent acceptance",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "New explicit authorization, provider-positive outcomes and separately verified inbox correlation",
+      "closure_timing": "After F01 configuration and accepted clean-main candidate"
+    },
+    {
+      "id": "RELEASE-AUTHORITY",
+      "owner": "User",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "Applicable final acceptance and explicit release authorization",
+      "closure_timing": "Before deployment/release"
+    }
+  ]
+}

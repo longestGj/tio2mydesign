@@ -3,13 +3,15 @@ name: responsive-wireframe-design
 description: Create or revise responsive wireframes from confirmed full copy, module order and interaction contracts. Use for content-heavy layouts, technical comparisons, forms and their responsive states; deliver editable planning sources and rendered evidence. Not for rewriting copy, deciding page strategy, final visual styling or implementing a production site.
 ---
 
-# 响应式线框设计 V0.3
+# 响应式线框设计 V0.4
 
 把完整内容转成可检验的响应式结构。方法提出并制作布局候选，Agent 对方案取舍、整合和阶段提交负责。
 
 2026-09-07定向修订：在两个真实页面试跑后增加正式渲染前硬预检、候选冻结、核心/诊断证据分层及页面中立共享消费。V0.1保存在[历史快照](history/SKILL-v0.1.md)。
 
 V0.3定向收敛Gate 3制作范围、共享验证继承和状态证据；[修订前V0.2](history/SKILL-v0.2-scope-control-baseline.md)保留。
+
+V0.4按用户批准的[Gate 3制作上限](../../docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md)细化执行边界；本项目Gate 3使用前必读，其他项目按其实际合同。
 
 ## 输入与交付位置
 
@@ -30,6 +32,12 @@ V0.3定向收敛Gate 3制作范围、共享验证继承和状态证据；[修订
 按批准阅读顺序列出模块，沿用已有模块标识或章节位置，标明它解决的判断、必须保留的内容关系及适用状态。映射只记录位置与关系，不再抄一份完整正文。
 
 从中选出最可能失效的布局：密集比较、长字段、长按钮或链接、多个选择、状态展开。先识别结构风险，不先套固定网格、页长或卡片数量。在现有说明列出“结构问题—预期—位置/视口/状态”；新增状态图及返修对应具体问题。沿用有效基础样式，不制作视觉风格变体；满足内容、关系、重排与操作要求后交回，不继续做纯视觉打磨。合同冲突和实际可读性/操作障碍仍需解决。
+
+### 1.1 限定制作深度
+
+先沿用有效基础样式和共享源，建立一个结构候选；只有实际结构缺陷需要时才调整。不得制作风格备选、视觉资产或装饰方案；媒体仅用已批准素材验证位置与空间/响应关系，不搜图、生成图片或打磨裁切。必要素材缺口交视觉/内容owner，不以未批准占位冒充完整批准内容。保留批准交互，验证位置/状态关系和实际操作，不打磨动画或非必要微交互。
+
+每次新增返修说明具体结构、内容关系、阅读、操作或合同缺陷及接受条件；混合问题只修到该条件满足。全部结构条件满足后交回冻结候选，不为更精致继续改字号/间距/页高。纯视觉建议写入既有交接，不能成为本关返修或额外图片的理由。
 
 ### 2. 保留语义地分组和重排
 

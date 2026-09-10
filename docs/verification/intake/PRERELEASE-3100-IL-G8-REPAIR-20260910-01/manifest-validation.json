@@ -1,0 +1,1295 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\23MySec\\docs\\verification\\intake\\PRERELEASE-3100-IL-G8-REPAIR-20260910-01\\gate8_evidence_manifest.json",
+  "handoff_id": "PRERELEASE-3100-IL-G8-REPAIR-20260910-01",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "HOME-001",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/"
+        },
+        {
+          "page_id": "ABOUT-001",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/about/"
+        },
+        {
+          "page_id": "MARKET-000",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/"
+        },
+        {
+          "page_id": "MARKET-EU-001",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/european-union/"
+        },
+        {
+          "page_id": "MARKET-EU-DE",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/germany/"
+        },
+        {
+          "page_id": "MARKET-EU-IT",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/italy/"
+        },
+        {
+          "page_id": "MARKET-EU-ES",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/spain/"
+        },
+        {
+          "page_id": "MARKET-EU-PL",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/poland/"
+        },
+        {
+          "page_id": "MARKET-EU-NL",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/netherlands/"
+        },
+        {
+          "page_id": "MARKET-EU-BE",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/belgium/"
+        },
+        {
+          "page_id": "MARKET-UK-001",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/united-kingdom/"
+        },
+        {
+          "page_id": "MARKET-IN-001",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/india/"
+        },
+        {
+          "page_id": "MARKET-BR-EN",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/markets/brazil/"
+        },
+        {
+          "page_id": "MARKET-BR-PT",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/pt-br/markets/brazil/"
+        },
+        {
+          "page_id": "PRODUCT-000",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/"
+        },
+        {
+          "page_id": "PRODUCT-PROC-CL",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/chloride-process-titanium-dioxide/"
+        },
+        {
+          "page_id": "PRODUCT-PROC-SU",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/sulfate-process-titanium-dioxide/"
+        },
+        {
+          "page_id": "GRADE-M350",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-350/"
+        },
+        {
+          "page_id": "GRADE-M510",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-510/"
+        },
+        {
+          "page_id": "GRADE-M896",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-896/"
+        },
+        {
+          "page_id": "GRADE-M996",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-996/"
+        },
+        {
+          "page_id": "GRADE-M2196",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-2196/"
+        },
+        {
+          "page_id": "GRADE-M895",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-895/"
+        },
+        {
+          "page_id": "GRADE-M200",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-200/"
+        },
+        {
+          "page_id": "GRADE-M108",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-108/"
+        },
+        {
+          "page_id": "GRADE-M210",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-210/"
+        },
+        {
+          "page_id": "GRADE-M340",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-340/"
+        },
+        {
+          "page_id": "GRADE-M886",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-886/"
+        },
+        {
+          "page_id": "GRADE-M52",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-52/"
+        },
+        {
+          "page_id": "GRADE-M2377",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/m-2377/"
+        },
+        {
+          "page_id": "GRADE-CR901",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/products/cr-901/"
+        },
+        {
+          "page_id": "APP-000",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/applications/"
+        },
+        {
+          "page_id": "APP-COAT",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/applications/titanium-dioxide-for-coatings/"
+        },
+        {
+          "page_id": "APP-PLAS",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/applications/titanium-dioxide-for-plastics/"
+        },
+        {
+          "page_id": "APP-MB",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/applications/titanium-dioxide-for-masterbatch/"
+        },
+        {
+          "page_id": "APP-INK",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/applications/titanium-dioxide-for-printing-inks/"
+        },
+        {
+          "page_id": "APP-PAPER",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/applications/titanium-dioxide-for-paper/"
+        },
+        {
+          "page_id": "DOC-000",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/documents/"
+        },
+        {
+          "page_id": "DOC-REACH",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/documents/reach/"
+        },
+        {
+          "page_id": "DOC-TDS",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/documents/tds-sds-coa/"
+        },
+        {
+          "page_id": "DOC-COO",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/documents/certificate-of-origin/"
+        },
+        {
+          "page_id": "RES-000",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/"
+        },
+        {
+          "page_id": "RES-ORIGIN",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/non-china-titanium-dioxide/"
+        },
+        {
+          "page_id": "RES-PROC",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/chloride-vs-sulfate-titanium-dioxide/"
+        },
+        {
+          "page_id": "RES-CHEMOURS",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/chemours-titanium-dioxide-alternatives/"
+        },
+        {
+          "page_id": "RES-R706",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/ti-pure-r-706-alternative/"
+        },
+        {
+          "page_id": "RES-TRADE-EU",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/eu-titanium-dioxide-anti-dumping-duty/"
+        },
+        {
+          "page_id": "RES-TRADE-UK",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/uk-titanium-dioxide-anti-dumping-investigation/"
+        },
+        {
+          "page_id": "RES-TRADE-IN",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/india-titanium-dioxide-anti-dumping-duty/"
+        },
+        {
+          "page_id": "RES-TRADE-BR",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/resources/brazil-titanium-dioxide-anti-dumping-duty/"
+        },
+        {
+          "page_id": "CONV-DOC",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/request-documents/"
+        },
+        {
+          "page_id": "CONV-RFQ",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/request-a-quote/"
+        },
+        {
+          "page_id": "CONV-SAMPLE",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/request-sample/"
+        },
+        {
+          "page_id": "CONV-THANK",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/thank-you/"
+        },
+        {
+          "page_id": "LEGAL-PRIV-EN",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/privacy-policy/"
+        },
+        {
+          "page_id": "LEGAL-PRIV-MS",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/ms/privacy-policy/"
+        },
+        {
+          "page_id": "LEGAL-COOKIE-EN",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/cookie-policy/"
+        },
+        {
+          "page_id": "SYS-404",
+          "acceptance_condition_ids": [
+            "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+          ],
+          "runtime_path": "/404/"
+        },
+        {
+          "page_id": "CONTACT-001",
+          "acceptance_condition_ids": [
+            "SCT-G9-F02-CONTACT-TARGET"
+          ],
+          "runtime_path": "/contact/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\prerelease-3100-internal-links"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/prerelease-3100-internal-links",
+        "actual": "codex/prerelease-3100-internal-links"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "de8128e57a34877fc90366c8a61af084dd22b64c",
+        "actual": "de8128e57a34877fc90366c8a61af084dd22b64c"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "ac78405f4e65be741b4bf20a2d366b0bb0ad0f7c",
+        "descendant": "c18abbc5f7216508e16163c0dfe25b0e0ecc64a6"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "c18abbc5f7216508e16163c0dfe25b0e0ecc64a6",
+        "descendant": "de8128e57a34877fc90366c8a61af084dd22b64c"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\prerelease-3100-internal-links\\.next-prerelease-3100-g8"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "ATKoXHh9g15QA-Y6c8Y2H",
+        "actual": "ATKoXHh9g15QA-Y6c8Y2H"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "c18abbc5f7216508e16163c0dfe25b0e0ecc64a6",
+        "git": "c18abbc5f7216508e16163c0dfe25b0e0ecc64a6"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/build-id.txt"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "73fc10bfab8283092f811a13dcf2daec473c0ce482eb291a0a7eb2d58757c94a",
+        "actual": "73fc10bfab8283092f811a13dcf2daec473c0ce482eb291a0a7eb2d58757c94a"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/build-id.txt"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "55154e0fa47fabeae02a1681769f5d81f6d97d61",
+        "blob_sha256": "73fc10bfab8283092f811a13dcf2daec473c0ce482eb291a0a7eb2d58757c94a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/verification-summary.json"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ae44abec31a34f72bd82fee8b0d1b346e483f280e7ad251c678d8667e51a3de4",
+        "actual": "ae44abec31a34f72bd82fee8b0d1b346e483f280e7ad251c678d8667e51a3de4"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/verification-summary.json"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "98a6027b8908b3eb1366bac88ccee1d48939a486",
+        "blob_sha256": "ae44abec31a34f72bd82fee8b0d1b346e483f280e7ad251c678d8667e51a3de4",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/runtime-identity.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e9d5f8ed079295ace96da4465d31b602ff2c9414833e562312856df013c9cda8",
+        "actual": "e9d5f8ed079295ace96da4465d31b602ff2c9414833e562312856df013c9cda8"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/runtime-identity.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cf432721a1be211a6a7e62bc3aeb0b3cbcc90785",
+        "blob_sha256": "e9d5f8ed079295ace96da4465d31b602ff2c9414833e562312856df013c9cda8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact-three-instances.json"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "SCT-G9-F02-CONTACT-TARGET",
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f9469c3a444f2f216fd8418daf1405da3e46b5aae05c3103db8b7c41daf90ce2",
+        "actual": "f9469c3a444f2f216fd8418daf1405da3e46b5aae05c3103db8b7c41daf90ce2"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact-three-instances.json"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2c818892c8f91e4d464382f709123b9cb70c65ba",
+        "blob_sha256": "f9469c3a444f2f216fd8418daf1405da3e46b5aae05c3103db8b7c41daf90ce2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/route-canonical-parity.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "54e91c038e847a4ae6bcb1a376e643ccd92364beb31feaecf6bd9d8fabcd7b4f",
+        "actual": "54e91c038e847a4ae6bcb1a376e643ccd92364beb31feaecf6bd9d8fabcd7b4f"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/route-canonical-parity.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8edc09b2fd37f9c7cea9ddd270f9a89464d408b4",
+        "blob_sha256": "54e91c038e847a4ae6bcb1a376e643ccd92364beb31feaecf6bd9d8fabcd7b4f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/shared-consumer-and-indexing-boundary.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7daa553f8495a84d8aa21dc75dd08906c6e64f6f11e99d888bacabad6b91f151",
+        "actual": "7daa553f8495a84d8aa21dc75dd08906c6e64f6f11e99d888bacabad6b91f151"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/shared-consumer-and-indexing-boundary.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b55cd0a6abae990129bd1598c387bd4e52b80c91",
+        "blob_sha256": "7daa553f8495a84d8aa21dc75dd08906c6e64f6f11e99d888bacabad6b91f151",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact/contact-desktop-1440.png"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "SCT-G9-F02-CONTACT-TARGET",
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d",
+        "actual": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact/contact-desktop-1440.png"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6b8962c641152ef52e4a2285405c5e5355c40269",
+        "blob_sha256": "542856ebea4eed056e65ff55a60655c6ab1f62ee0a0f80de13474fe8bef84b4d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact/contact-mobile-390.png"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "SCT-G9-F02-CONTACT-TARGET",
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6",
+        "actual": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact/contact-mobile-390.png"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "71f67110b7964e5e773f384f8eb66ef8ee0dc6f5",
+        "blob_sha256": "d23f13776db2161a6b30b11b6db9677b3ec7c0bb0abda9f3da78e3ce6710cfa6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/targeted-vitest.log"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Current candidate verification command recorded in this log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6c5860c0fa917ea7eb6d05e540ac923ef109d1b8c046e59098c59aee3205645c",
+        "actual": "6c5860c0fa917ea7eb6d05e540ac923ef109d1b8c046e59098c59aee3205645c"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/targeted-vitest.log"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "61d96e6a3d91d1a850f8941bca6a9b6dee4267c0",
+        "blob_sha256": "7d4bd34d5a3118f7e9c8b2176ee7773afa87f913f003b00a1526e4d67f081223",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Current candidate verification command recorded in this log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/typecheck.log"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+        "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/changed-eslint.log"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Current candidate verification command recorded in this log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a35341223317ca926eaa26ed8417c5a83c8468deeb0a07a050bd3c38840444be",
+        "actual": "a35341223317ca926eaa26ed8417c5a83c8468deeb0a07a050bd3c38840444be"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/changed-eslint.log"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e235f0a76dbfe1eef6e44329d19d84601bdfcfbe",
+        "blob_sha256": "fcf8bbcd83ce770c826da350bebe6b3d75c28972a7ce3afa260dbd11f9c08cec",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/internal-link-playwright.log"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Current candidate verification command recorded in this log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c0259ba8938c32964ee4d2704a34b042042b11dd78a8c8efe59171f7896a67a0",
+        "actual": "c0259ba8938c32964ee4d2704a34b042042b11dd78a8c8efe59171f7896a67a0"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/internal-link-playwright.log"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c2a85b4644a6a822b32c0d1ca339d70e178e7fc3",
+        "blob_sha256": "93daee2f12c12cfd9aae9e5758812644090c1492bade7b7692da51f0def2c2bd",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/contact-playwright.log"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "SCT-G9-F02-CONTACT-TARGET",
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Current candidate verification command recorded in this log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "40ed3193ebaaaba8da911845a0cd808e374ba02b8a0bcb37d56e51d5afe39d6d",
+        "actual": "40ed3193ebaaaba8da911845a0cd808e374ba02b8a0bcb37d56e51d5afe39d6d"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/contact-playwright.log"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "71cb88d96931aacb86185cb90ad514fe7f928b08",
+        "blob_sha256": "c5d0a5c0c15a5e9fa14a7a98a4a74daf3fb7c47cdc52f99eec1f753bc1e62920",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/vitest.log"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Current candidate verification command recorded in this log",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "25d40dd8c519a411c9b8429b93167196b8bbc61a621d7294181c779ef2a43587",
+        "actual": "25d40dd8c519a411c9b8429b93167196b8bbc61a621d7294181c779ef2a43587"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/logs/vitest.log"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9ac973f3a8013a864820e74167a79d25ae2bb11d",
+        "blob_sha256": "7e60a8ab73def9c0c7459889d3deedb0c02c4bc5afd6a469955d14813354081b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/support/composite-cms-proxy.mjs"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+        ],
+        "command": "Committed Gate 8 repair evidence",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4511; composite local CMS at 4510 forwarding private prerelease CMS 8180; no remote write, real form, deploy, sitemap publication, or indexing"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0fdc802bf643c9a9dad77d593fa431afc0cafaac8c1301434922c6968b116de2",
+        "actual": "0fdc802bf643c9a9dad77d593fa431afc0cafaac8c1301434922c6968b116de2"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/support/composite-cms-proxy.mjs"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "82752d619b6b5f43f5146213ad78172a8107a20c",
+        "blob_sha256": "0fdc802bf643c9a9dad77d593fa431afc0cafaac8c1301434922c6968b116de2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/GATE8_REPAIR_RECEIPT_2026-09-10.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/prerelease-3100-internal-links/gate8/build-id.txt",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/changed-eslint.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/contact-playwright.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/internal-link-playwright.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/targeted-vitest.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/typecheck.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/vitest.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact-three-instances.json",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact/contact-desktop-1440.png",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact/contact-mobile-390.png",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/route-canonical-parity.json",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/runtime-identity.json",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/shared-consumer-and-indexing-boundary.json",
+          "docs/verification/prerelease-3100-internal-links/gate8/support/composite-cms-proxy.mjs",
+          "docs/verification/prerelease-3100-internal-links/gate8/verification-summary.json"
+        ],
+        "actual": [
+          "docs/verification/prerelease-3100-internal-links/gate8/build-id.txt",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/changed-eslint.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/contact-playwright.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/internal-link-playwright.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/targeted-vitest.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/typecheck.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/logs/vitest.log",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact-three-instances.json",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact/contact-desktop-1440.png",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/contact/contact-mobile-390.png",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/route-canonical-parity.json",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/runtime-identity.json",
+          "docs/verification/prerelease-3100-internal-links/gate8/runtime/shared-consumer-and-indexing-boundary.json",
+          "docs/verification/prerelease-3100-internal-links/gate8/support/composite-cms-proxy.mjs",
+          "docs/verification/prerelease-3100-internal-links/gate8/verification-summary.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/prerelease-3100-internal-links/gate8/GATE8_REPAIR_RECEIPT_2026-09-10.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

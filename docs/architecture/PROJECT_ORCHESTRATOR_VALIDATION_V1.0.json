@@ -1,0 +1,106 @@
+{
+  "type": "author static validation; no behavioral rollout",
+  "files": {
+    "agents/project-orchestrator/agent.md": "dba8fda597af3fcc4da594ca651a0753dcfac2e8ed2655c7bd2942fcd478113d",
+    "agents/project-orchestrator/references/orchestration-sop.md": "0fd3cdd577443109a78095e4960646ccdc176fbf371c435dd0d25a15c2459bd0",
+    "agents/project-orchestrator/references/handoff-contract.md": "81f16e56055e0e0a20eefed5e2bab884f15615cd2c6c98fee08ffe68454d1ad9",
+    "agents/project-orchestrator/references/gate-routing.md": "b296dfd3765670cf8876173c3fd5c4dc589c591bf37f20dcf17db38ee6fe022d"
+  },
+  "changes": {
+    "AGENTS.md": {
+      "before": "c11af47d1f3698bfeaa68e901d50475c076190b5852221c9da9a042582c4a82c",
+      "after": "b565d4d2561e8394f7e3a9fa9eaf52dec29c4bb0e01413380238cf0c385f3550"
+    },
+    "01_PROJECT_INDEX.md": {
+      "before": "56ede28cd380b339862246590c6b11f869ca2fef980498488b1979eac4cb844d",
+      "after": "cded1a702d8215a78565ad91760b1790db50992ca2f3e38ae6df88f02cb23c55"
+    },
+    "agents/README.md": {
+      "before": "e3fd0a33971843ddf31c37542306acac4d6c6b17d2d7168554b9292a972dd754",
+      "after": "1b9eb7450ab9fd44c495c7b35bfa77da2a96cbdb994f593585f853bf53030229"
+    }
+  },
+  "checks": [
+    {
+      "check": "backup AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "backup 01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "check": "backup agents/README.md",
+      "pass": true
+    },
+    {
+      "check": "identity agents/project-orchestrator/agent.md",
+      "pass": true
+    },
+    {
+      "check": "identity agents/project-orchestrator/references/orchestration-sop.md",
+      "pass": true
+    },
+    {
+      "check": "identity agents/project-orchestrator/references/handoff-contract.md",
+      "pass": true
+    },
+    {
+      "check": "identity agents/project-orchestrator/references/gate-routing.md",
+      "pass": true
+    },
+    {
+      "check": "links",
+      "pass": true
+    },
+    {
+      "check": "modes",
+      "pass": true
+    },
+    {
+      "check": "resume",
+      "pass": true
+    },
+    {
+      "check": "independent",
+      "pass": true
+    },
+    {
+      "check": "user gate2",
+      "pass": true
+    },
+    {
+      "check": "standing authority",
+      "pass": true
+    },
+    {
+      "check": "next scope",
+      "pass": true
+    },
+    {
+      "check": "no premature send",
+      "pass": true
+    },
+    {
+      "check": "challenge",
+      "pass": true
+    },
+    {
+      "check": "navigation drift",
+      "pass": true
+    },
+    {
+      "check": "single owner",
+      "pass": true
+    },
+    {
+      "check": "failure recovery",
+      "pass": true
+    },
+    {
+      "check": "no proposed activation",
+      "pass": true
+    }
+  ],
+  "missing_links": []
+}

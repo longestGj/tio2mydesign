@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "dispatch_id": "G8-TRADE4-APP5-20260908-01",
+  "date": "2026-09-08",
+  "user_authorization": "现在把这些交给gate8的00My开发2对话，进行开发。",
+  "recipient": {
+    "title": "00My开发2",
+    "thread_id": "01a07e6a-546d-7532-aa06-02d2bffd5eed",
+    "host_id": "local",
+    "project_directory": "D:\\16Wordpress_nextjs"
+  },
+  "delivery": {
+    "initial_message": "DELIVERED",
+    "recipient_state": "ACTIVE",
+    "intake_check": "CONFIRMED_BY_BASELINE_CHALLENGE",
+    "development_state": "IN_PROGRESS",
+    "latest_cursor": "c532dffb-0e2a-4edd-af5e-612df8e8ce14:9"
+  },
+  "pages": [
+    {"page_id":"RES-TRADE-EU","package_id":"RES-TRADE-EU-G6-HANDOFF-01","sha256":"bb1b44d42fa32232965e62e3255cde05518f2570224b827a1cf68c7b4fd021ad"},
+    {"page_id":"RES-TRADE-UK","package_id":"RES-TRADE-UK-G6-HANDOFF-01","sha256":"b20932999d838eebb3c42d3e07cf22af712776a5e6f36de43a1da378e3ff2c59"},
+    {"page_id":"RES-TRADE-IN","package_id":"RES-TRADE-IN-G6-HANDOFF-01","sha256":"5fa99b705b7e8a21ec2d68eb68e2f9235f295d1723bf31387a3f882b8186e0e9"},
+    {"page_id":"RES-TRADE-BR","package_id":"RES-TRADE-BR-G6-HANDOFF-02","sha256":"9d0b24b5f49a7f275f6385e2db34ade3f12ffab58aa52012b59ce284b1dac592","correction":"Initial message cited historical V0.1. Recipient challenged it; controller corrected the authority to current Manifest V0.9 and package V0.2. V0.1 must not be implemented."},
+    {"page_id":"APP-COAT","package_id":"APP-COAT-G6-HANDOFF-01","sha256":"0ed6c22408f96e4282917b935dd551d0d0ed4b74becbd78a6eefac967460f915"},
+    {"page_id":"APP-PLAS","package_id":"APP-PLAS-G6-HANDOFF-01","sha256":"30b1a564dd7cb4dc04e9f7feeb2a3d904403d4313bfa20319aee84ac514f9c0d"},
+    {"page_id":"APP-MB","package_id":"APP-MB-G6-HANDOFF-01","sha256":"fc8f25356db20de25fbbbbfee086335563f5e017fdb4097726d058d045e64c7c"},
+    {"page_id":"APP-INK","package_id":"APP-INK-G6-HANDOFF-01","sha256":"fe8769f96f1450638d1b5f46650be69ca73daeb8efdb1e7d5c99acb2421d014c"},
+    {"page_id":"APP-PAPER","package_id":"APP-PAPER-G6-HANDOFF-01","sha256":"c50e1287cdd88a3ebac79cf0accd895be5292d43355b257a9974a9a2effcf1fa"}
+  ],
+  "authorization_boundary": {
+    "gate8_development": "AUTHORIZED",
+    "gate9_closure": "NOT_AUTHORIZED",
+    "merge_release_or_main": "NOT_AUTHORIZED",
+    "deployment_publication_dns_indexing_production_write": "NOT_AUTHORIZED",
+    "real_external_form_or_email": "NOT_AUTHORIZED"
+  }
+}

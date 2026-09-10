@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "handoff_id": "APP-000-G6-HANDOFF-02",
+  "gate8_task_id": "APP-000-G8-DISPATCH-01",
+  "site_scope": "tio2-my",
+  "identity": {
+    "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+    "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+    "build_id": "jf9b1VFzbgKGSQMVOMMbU"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:4391",
+    "rounds": 2,
+    "requests": 6,
+    "successful_requests": 6,
+    "observations": [
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4391/applications",
+        "status": 200,
+        "bytes": 50270,
+        "final_url": "http://127.0.0.1:4391/applications",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4391/request-a-quote",
+        "status": 200,
+        "bytes": 35030,
+        "final_url": "http://127.0.0.1:4391/request-a-quote",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:4391/products/m-350",
+        "status": 200,
+        "bytes": 53934,
+        "final_url": "http://127.0.0.1:4391/products/m-350",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4391/applications",
+        "status": 200,
+        "bytes": 50270,
+        "final_url": "http://127.0.0.1:4391/applications",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4391/request-a-quote",
+        "status": 200,
+        "bytes": 35030,
+        "final_url": "http://127.0.0.1:4391/request-a-quote",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:4391/products/m-350",
+        "status": 200,
+        "bytes": 53934,
+        "final_url": "http://127.0.0.1:4391/products/m-350",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "evidence_validation": {
+    "status": "PASS"
+  }
+}

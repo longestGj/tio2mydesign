@@ -1,0 +1,39 @@
+{
+  "schema_version": "gate9-v11-artifact-privacy-scan/1.0",
+  "candidate": "TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1",
+  "manifest_path": "D:\\23MySec\\docs\\verification\\intake\\TIO2-MY-PRERELEASE-PUBLIC-PATHS-2026-09-09-V1\\gate8_evidence_manifest.json",
+  "manifest_sha256": "4c90f90a934b9eb102d1446a661b1fb6e68964e62ed50ba90670b9bfaf3fc257",
+  "worktree": "D:\\16Wordpress_nextjs\\.worktrees\\prerelease-public-paths-forms",
+  "artifact_count": 78,
+  "text_artifact_count": 45,
+  "image_artifact_count": 33,
+  "suffix_counts": {
+    ".json": 34,
+    ".png": 33,
+    ".txt": 11
+  },
+  "missing_count": 0,
+  "hash_mismatch_count": 0,
+  "prohibited_capture_path_count": 0,
+  "prohibited_value_hit_counts": {
+    "email_value": 0,
+    "known_receiver": 0,
+    "synthetic_reply_or_buyer_sentinel": 0,
+    "access_key_value": 0,
+    "serialized_payload_or_raw_body": 0,
+    "cookie_or_session_value": 0
+  },
+  "status": "PASS",
+  "missing_paths": [],
+  "hash_mismatch_paths": [],
+  "prohibited_capture_paths": [],
+  "prohibited_value_hit_paths": {
+    "email_value": [],
+    "known_receiver": [],
+    "synthetic_reply_or_buyer_sentinel": [],
+    "access_key_value": [],
+    "serialized_payload_or_raw_body": [],
+    "cookie_or_session_value": []
+  },
+  "scope_note": "Text artifacts were scanned without emitting matched values. Declared screenshots are empty-form, public-page, cookie-settings, or Thank You state captures and were covered by the independent visual review; no filled-form trace, video, HAR, DOM snapshot, HTML capture, or archive is declared."
+}

@@ -1,0 +1,42 @@
+{
+  "recordId": "G8-CONTACT-001-20260910-01-RECEIPT",
+  "pageId": "CONTACT-001",
+  "route": "/contact/",
+  "date": "2026-09-10",
+  "target": {
+    "title": "00My开发2",
+    "threadId": "01a07e6a-546d-7532-aa06-02d2bffd5eed",
+    "hostId": "local",
+    "workspace": "D:\\16Wordpress_nextjs"
+  },
+  "dispatchId": "G8-CONTACT-001-20260910-01",
+  "package": {
+    "id": "CONTACT-001-G6-HANDOFF-20260910-02",
+    "path": "D:\\23MySec\\pages\\contact\\06_handoff\\CONTACT-001_GATE6_HANDOFF_PACKAGE_V0.2.md",
+    "sha256": "5AEB5C1C9009A0F771C89C03F47526F8813893FD672041E7D28FBE5E3157757D"
+  },
+  "review": {
+    "id": "CONTACT-001-G6-IR-01",
+    "path": "D:\\23MySec\\pages\\contact\\05_review\\CONTACT-001_GATE6_INDEPENDENT_REVIEW_V0.1.md",
+    "sha256": "A845C058D9FB99F6BA66199521E9F20514807762A5F7C3C3D14CF160DEDF44B8",
+    "requiredFindings": 0
+  },
+  "closure": {
+    "path": "D:\\23MySec\\pages\\contact\\00_governance\\CONTACT-001_GATE6_PROJECT_CONTROL_CLOSURE_2026-09-10.md",
+    "sha256": "5B81E2C0127346E6B94D6367BA8A1C96C9BAEBB391B9FCD432412B51FE0FC645"
+  },
+  "sendResult": "THREAD_MESSAGE_ACCEPTED_AND_RECEIVER_ACKNOWLEDGED",
+  "receiverSnapshot": "ACTIVE",
+  "receiverAcknowledgement": {
+    "entryHashes": "4_OF_4_MATCH",
+    "selectedPackage": "CONTACT-001-G6-HANDOFF-20260910-02_ONLY",
+    "v0.1Mixing": "REJECTED",
+    "intendedBranch": "codex/contact-001-gate8",
+    "intendedWorktree": "D:\\16Wordpress_nextjs\\.worktrees\\contact-001-gate8",
+    "base": "local main",
+    "formBoundary": "FAIL_CLOSED_UNTIL_CONTACT_PROCESSOR_RECEIVER_PRIVACY_DECISION"
+  },
+  "gate8": "HANDED_OFF / RECEIVER_ACCEPTED / DEVELOPMENT_STARTING",
+  "gate9": "NOT_STARTED",
+  "deploymentPublication": "NOT_AUTHORIZED"
+}

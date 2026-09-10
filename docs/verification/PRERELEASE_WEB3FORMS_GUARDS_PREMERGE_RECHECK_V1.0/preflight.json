@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "handoff_id": "TIO2-MY-PRERELEASE-WEB3FORMS-GUARDS-2026-09-09-V2",
+  "gate8_task_id": "Task10-F02-F04",
+  "site_scope": "tio2-my",
+  "identity": {
+    "implementation_commit": "525ee53c157dbd24cd17dff97463738a390b6676",
+    "evidence_head": "c70dc2997ae83db12c4b261ccde9c6dd2d620038",
+    "build_id": "8fDGe425umf-_pofkBw5o"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:3186",
+    "rounds": 2,
+    "requests": 8,
+    "successful_requests": 8,
+    "observations": [
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:3186/request-a-quote/",
+        "status": 200,
+        "bytes": 36082,
+        "final_url": "http://127.0.0.1:3186/request-a-quote",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:3186/request-sample/",
+        "status": 200,
+        "bytes": 42855,
+        "final_url": "http://127.0.0.1:3186/request-sample",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:3186/request-documents/",
+        "status": 200,
+        "bytes": 34829,
+        "final_url": "http://127.0.0.1:3186/request-documents/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:3186/thank-you/",
+        "status": 200,
+        "bytes": 13825,
+        "final_url": "http://127.0.0.1:3186/thank-you",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:3186/request-a-quote/",
+        "status": 200,
+        "bytes": 36082,
+        "final_url": "http://127.0.0.1:3186/request-a-quote",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:3186/request-sample/",
+        "status": 200,
+        "bytes": 42855,
+        "final_url": "http://127.0.0.1:3186/request-sample",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:3186/request-documents/",
+        "status": 200,
+        "bytes": 34829,
+        "final_url": "http://127.0.0.1:3186/request-documents/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:3186/thank-you/",
+        "status": 200,
+        "bytes": 13825,
+        "final_url": "http://127.0.0.1:3186/thank-you",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "evidence_validation": {
+    "status": "PASS"
+  }
+}

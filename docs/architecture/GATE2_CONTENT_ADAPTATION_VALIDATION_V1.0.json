@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "link_count": 289,
+  "broken_links": [],
+  "baseline_hash_count": 8,
+  "baseline_hashes_pass": true,
+  "snapshot_count": 8,
+  "snapshots_pass": true,
+  "rule_checks": {
+    "APPROVED_CONTENT_ADAPTATION": true,
+    "TARGETED_COMPLETION": true,
+    "FULL_COMPOSITION": true,
+    "REVIEW_CHALLENGE": true,
+    "Gate 1研究路径不能自动映射": true,
+    "首次Buyer Review仍冷读整页": true,
+    "正文批准、页面骨架批准": true,
+    "不新增Gate 2 Skill": true
+  },
+  "scope": "Static checks and author scenario review only; no independent behavioral/page replay or timing claim.",
+  "final_file_hashes": {
+    "agents/gate2-execution/agent.md": "e8e567e3e9dfeb4d39aed26ca4d5a815e82b06d5894abdf64f661f9416887343",
+    "agents/gate2-review/agent.md": "f9a6fad21458e299fe4e3a299d43617259ed3548d057a5f603ab569515ac22b4",
+    "agents/project-orchestrator/agent.md": "ef996886558ef77f8404c2a89b5212f44c576d8ab94b750b3e581507e7cc54e1",
+    "agents/project-orchestrator/references/gate-routing.md": "bc5d01e5da1ab88e53304fea72b18e5c598a84be9935e806d4e020ca91bc7a63",
+    "agents/project-orchestrator/references/handoff-contract.md": "6e3265a67aa1903c4e2e143ed91f472f315a15c7a9f4fdf26d2dd90c0e01c16e",
+    "AGENTS.md": "7b3f7e3f1d008f4a13a2bf084665a8071fa65e91c6be5fa0c0f75a04ae24530c",
+    "01_PROJECT_INDEX.md": "662fa179b453c548e1a735e922947decf9fdbba954851956505ce68912d71d97",
+    "agents/README.md": "1caf48d5fc5f96673daea5f7b3d93e49d497eacffff062efb4ed433aa3d679e4",
+    "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md": "6434341362530b3da5cdb23c4cc202bd15c0a41ed0e88f166f6e18deefa0d636",
+    "docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.6.md": "e5d68884fdc0fc6d7dd973b0f43eb0bde507928bd15c6d7858e4888877e880ea",
+    "docs/architecture/GATE2_CONTENT_ADAPTATION_CHANGE_V1.0.md": "0a9a51c44980441c6f3e5a8e1dcd5ffbc510d65b0c48485c5a39971a4523c8af"
+  }
+}

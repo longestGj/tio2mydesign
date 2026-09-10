@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "control_id": "G8G9-ACTIVE17-READINESS-20260908-01",
+  "date": "2026-09-08",
+  "status": "USER_AUTHORIZED_PREPARE_AND_ACCEPT_WHEN_GATE8_SUBMITS",
+  "site_scope": "tio2-my",
+  "page_count": 17,
+  "gate9_closure": "REQUIRES_ORIGINAL_USER_APPROVAL_FLOW",
+  "gate10_and_release": "NOT_AUTHORIZED",
+  "groups": [
+    {
+      "group_id": "MARKET_FOUR_TARGETED_RECHECK",
+      "recipient": "01my开发",
+      "mode": "TARGETED_RECHECK_PENDING_GATE8_RETURN",
+      "pages": [
+        {"page_id":"MARKET-EU-ES","package_id":"ES-G6-HANDOFF-01","acceptance_ids":"ES-G9-01..12","findings":"ES-G9-F01..F04"},
+        {"page_id":"MARKET-IN-001","package_id":"IN-G6-PACKAGE-01","acceptance_ids":"IN-G6-AC01..12","findings":"IN-G9-F01..F04"},
+        {"page_id":"MARKET-EU-NL","package_id":"NL-G6-HANDOFF-01","acceptance_ids":"NL-G9-AC-01..12","findings":"NL-G9-F01"},
+        {"page_id":"MARKET-EU-BE","package_id":"BE-G6-HANDOFF-01","acceptance_ids":"BE-G9-AC01..12","findings":"BE-G9-F01..F03"}
+      ]
+    },
+    {
+      "group_id": "BR_CL_COO_FOUR_FIRST_ACCEPTANCE",
+      "dispatch_id": "G8-BR-CL-COO-FOUR-20260908-01",
+      "recipient": "00Con",
+      "mode": "FIRST_ACCEPTANCE_PENDING_GATE8_RETURN",
+      "pages": [
+        {"page_id":"MARKET-BR-EN","package_id":"BR-EN-G6-HANDOFF-02","sha256":"d8b7c2e759d9952d7b94a09bc397a2837dbf6f80c0b3d968c2b0324a3ad6b18a","acceptance_ids":"BR-EN-G9-01..12"},
+        {"page_id":"MARKET-BR-PT","package_id":"BR-PT-G6-HANDOFF-02","sha256":"f1be33c0cef8df85b6e8c8d32a62a7c95c2e210d81169061ba7b1fec2ba41b15","acceptance_ids":"BR-PT-G9-01..12"},
+        {"page_id":"PRODUCT-PROC-CL","package_id":"CL-G6-HANDOFF-03","sha256":"f8962402e3d243bd9bdcf452a843ad1b0977a562d53ac474549be974b494061a","acceptance_ids":"CL-G9-01..18"},
+        {"page_id":"DOC-COO","package_id":"COO-G6-HANDOFF-04","sha256":"41a8f87d32b4c27c45192eb35e17049a24a30ad60d0565f23fdeaaa6f1eb9788","acceptance_ids":"COO-G9-01..15"}
+      ]
+    },
+    {
+      "group_id": "TRADE4_APPLICATION5_FIRST_ACCEPTANCE",
+      "dispatch_id": "G8-TRADE4-APP5-20260908-01",
+      "recipient": "00My开发2",
+      "mode": "FIRST_ACCEPTANCE_PENDING_GATE8_RETURN",
+      "pages": [
+        {"page_id":"RES-TRADE-EU","package_id":"RES-TRADE-EU-G6-HANDOFF-01","sha256":"bb1b44d42fa32232965e62e3255cde05518f2570224b827a1cf68c7b4fd021ad","acceptance_ids":"RES-TRADE-EU-G9-AC01..AC14"},
+        {"page_id":"RES-TRADE-UK","package_id":"RES-TRADE-UK-G6-HANDOFF-01","sha256":"b20932999d838eebb3c42d3e07cf22af712776a5e6f36de43a1da378e3ff2c59","acceptance_ids":"UK-G6-AC01..AC13"},
+        {"page_id":"RES-TRADE-IN","package_id":"RES-TRADE-IN-G6-HANDOFF-01","sha256":"5fa99b705b7e8a21ec2d68eb68e2f9235f295d1723bf31387a3f882b8186e0e9","acceptance_ids":"RES-TRADE-IN-G9-AC01..AC12"},
+        {"page_id":"RES-TRADE-BR","package_id":"RES-TRADE-BR-G6-HANDOFF-02","sha256":"9d0b24b5f49a7f275f6385e2db34ade3f12ffab58aa52012b59ce284b1dac592","acceptance_ids":"BRTRADE-G9-01..13"},
+        {"page_id":"APP-COAT","package_id":"APP-COAT-G6-HANDOFF-01","sha256":"0ed6c22408f96e4282917b935dd551d0d0ed4b74becbd78a6eefac967460f915","acceptance_ids":"APP-COAT-G9-AC01..AC13"},
+        {"page_id":"APP-PLAS","package_id":"APP-PLAS-G6-HANDOFF-01","sha256":"30b1a564dd7cb4dc04e9f7feeb2a3d904403d4313bfa20319aee84ac514f9c0d","acceptance_ids":"APP-PLAS-G9-AC01..AC14"},
+        {"page_id":"APP-MB","package_id":"APP-MB-G6-HANDOFF-01","sha256":"fc8f25356db20de25fbbbbfee086335563f5e017fdb4097726d058d045e64c7c","acceptance_ids":"APP-MB-G9-AC01..AC14"},
+        {"page_id":"APP-INK","package_id":"APP-INK-G6-HANDOFF-01","sha256":"fe8769f96f1450638d1b5f46650be69ca73daeb8efdb1e7d5c99acb2421d014c","acceptance_ids":"APP-INK-G9-AC01..AC13"},
+        {"page_id":"APP-PAPER","package_id":"APP-PAPER-G6-HANDOFF-01","sha256":"c50e1287cdd88a3ebac79cf0accd895be5292d43355b257a9974a9a2effcf1fa","acceptance_ids":"APP-PAPER-G9-AC01..AC15"}
+      ]
+    }
+  ],
+  "intake_required": [
+    "original dispatch and approved package identity",
+    "repository/worktree/branch/base and final commit/dirty state",
+    "accessible runtime URL/build/commit/data binding",
+    "CMS-to-API-to-Next implementation mapping",
+    "changed files/shared consumers/regression disposition",
+    "acceptance-ID result and durable evidence mapping",
+    "1440/768/390 and applicable interaction states",
+    "site_scope isolation for query/route/cache/menu/SEO/form/media",
+    "open findings/evidence gaps/dependencies/release conditions/rollback"
+  ]
+}

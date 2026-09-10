@@ -1,0 +1,1138 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\23MySec\\docs\\verification\\intake\\TIO2-MY-PRERELEASE-WEB3FORMS-GUARDS-2026-09-09-V2\\gate8_evidence_manifest.json",
+  "handoff_id": "TIO2-MY-PRERELEASE-WEB3FORMS-GUARDS-2026-09-09-V2",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "CONV-RFQ",
+          "runtime_path": "/request-a-quote/",
+          "acceptance_condition_ids": [
+            "PPF-T10-F02",
+            "PPF-T10-F03",
+            "PPF-T10-F04"
+          ]
+        },
+        {
+          "page_id": "CONV-SAMPLE",
+          "runtime_path": "/request-sample/",
+          "acceptance_condition_ids": [
+            "PPF-T10-F02",
+            "PPF-T10-F03",
+            "PPF-T10-F04"
+          ]
+        },
+        {
+          "page_id": "CONV-DOC",
+          "runtime_path": "/request-documents/",
+          "acceptance_condition_ids": [
+            "PPF-T10-F02",
+            "PPF-T10-F03",
+            "PPF-T10-F04"
+          ]
+        },
+        {
+          "page_id": "CONV-THANK",
+          "runtime_path": "/thank-you/",
+          "acceptance_condition_ids": [
+            "PPF-T10-F02",
+            "PPF-T10-F03",
+            "PPF-T10-F04"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\prerelease-web3forms-guards"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/prerelease-web3forms-guards",
+        "actual": "codex/prerelease-web3forms-guards"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "c70dc2997ae83db12c4b261ccde9c6dd2d620038",
+        "actual": "c70dc2997ae83db12c4b261ccde9c6dd2d620038"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "ba37af03bec4cf9f44f56415afc243be1c297847",
+        "descendant": "525ee53c157dbd24cd17dff97463738a390b6676"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "525ee53c157dbd24cd17dff97463738a390b6676",
+        "descendant": "c70dc2997ae83db12c4b261ccde9c6dd2d620038"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\prerelease-web3forms-guards\\.next-web3forms-valid"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "8fDGe425umf-_pofkBw5o",
+        "actual": "8fDGe425umf-_pofkBw5o"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "525ee53c157dbd24cd17dff97463738a390b6676",
+        "git": "525ee53c157dbd24cd17dff97463738a390b6676"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-report.md"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "1e5437bb85ffceab3c541ee457929540d6259030a337da205676614b4b1838be",
+        "actual": "1e5437bb85ffceab3c541ee457929540d6259030a337da205676614b4b1838be"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-report.md"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b827859d141ddcb5cbf93a8c25822a87b3a03653",
+        "blob_sha256": "34f8af996a076dd7e15b52d8cbb00ce5dddac7bec8945ce1719d69f1968dbd4c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-review.md"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b2465468bd918c37e7745193aa0fdc60e62d20adc978fe209a567f27b5571b27",
+        "actual": "b2465468bd918c37e7745193aa0fdc60e62d20adc978fe209a567f27b5571b27"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-review.md"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "12748c99edf12a8bbc0f7e93abcee6a61d9d9288",
+        "blob_sha256": "5054bf5608538cd501c1b286f1bcaf56d110291daf78eb6959d83043017b1cc5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/correction-report.md"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a6da4693bb474af007cbd4ccf185c16cfd8ef7422c72d3d34b0bad6c1dc7a25d",
+        "actual": "a6da4693bb474af007cbd4ccf185c16cfd8ef7422c72d3d34b0bad6c1dc7a25d"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/correction-report.md"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "44ac7a7119e7153ac969dda77701f846ca1fc7e0",
+        "blob_sha256": "23eb27af39bf2bf79e9f19bea40eef5e3e59e41ef01046fdbf676f9017a05ad8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-rereview.md"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d73cc58ea093299898a42888ebc59eff2f309b27d41ef78d19257da009e2632a",
+        "actual": "d73cc58ea093299898a42888ebc59eff2f309b27d41ef78d19257da009e2632a"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-rereview.md"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "02c95bb4659c270b706ac1c069e80ba16586455e",
+        "blob_sha256": "d080d45e0d2b7520afc98de621a34d32679de2b31d0ccfa0c1919087f8846d37",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/final-review.md"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e2d168febea4c3dff90f5aea9cc32dd24b8d147f7ca103d79428812a4b663f6d",
+        "actual": "e2d168febea4c3dff90f5aea9cc32dd24b8d147f7ca103d79428812a4b663f6d"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/final-review.md"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f5cc85ffc227a227942166716dd3c9d476f100d8",
+        "blob_sha256": "e2d168febea4c3dff90f5aea9cc32dd24b8d147f7ca103d79428812a4b663f6d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-affected.log"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "34bea477c3ae36aecc6916bc44595d3402293b613cc4ad138f40208d47f4cb7a",
+        "actual": "34bea477c3ae36aecc6916bc44595d3402293b613cc4ad138f40208d47f4cb7a"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-affected.log"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "dc134a60aab4f844e8a058e44ceed1c55a375f52",
+        "blob_sha256": "9ec0efc0a4f2422bcaee9e120e19e47b8a11cfa81dfc37e3331fbafef60adcaf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-privacy-green.log"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "88b556f78806f174a13511378b796dbc8124631343cb697962d7ff2c2d6d706b",
+        "actual": "88b556f78806f174a13511378b796dbc8124631343cb697962d7ff2c2d6d706b"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-privacy-green.log"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f386b8ef9b4604f94bde5b768ace4f072e4cab17",
+        "blob_sha256": "4872c89b5822c05c6c0452f88856cd733c17aac4c5b72a4add0e27c59425b646",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-typecheck-final.log"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-typecheck-final.log"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+        "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-lint.log"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "1a8f82456dc67527df7eacb998f3602e962b20663ea893f4ceca6a061b26175f",
+        "actual": "1a8f82456dc67527df7eacb998f3602e962b20663ea893f4ceca6a061b26175f"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/task-1-lint.log"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4c2a4b5ebf40088c52ea8cfdc77193b9a7440808",
+        "blob_sha256": "c0f237845145f07e2aee17a9efdb02c422fc66305f8aeb8eb71e787066829d52",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/valid-build.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "52c2c28553d0e7a4f248cd321b22cc02f51e0d4b4ba8b1f928ed6c0550f870aa",
+        "actual": "52c2c28553d0e7a4f248cd321b22cc02f51e0d4b4ba8b1f928ed6c0550f870aa"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/valid-build.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3011a50688d726525720263ac6d10b82a52a4834",
+        "blob_sha256": "52c2c28553d0e7a4f248cd321b22cc02f51e0d4b4ba8b1f928ed6c0550f870aa",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/malformed-build.json"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "69be7294055801babe293808ab00459f1d969558f1a5a901c620dd97cd798b44",
+        "actual": "69be7294055801babe293808ab00459f1d969558f1a5a901c620dd97cd798b44"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/malformed-build.json"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3135c6d8907783f47ac3c649a1faf03e27c3fffe",
+        "blob_sha256": "69be7294055801babe293808ab00459f1d969558f1a5a901c620dd97cd798b44",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/correction-valid-green.log"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "49086ba89144beaceebbee0011a2b3bd3800d9bb825d3ea37e7a3d8f1393e267",
+        "actual": "49086ba89144beaceebbee0011a2b3bd3800d9bb825d3ea37e7a3d8f1393e267"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/correction-valid-green.log"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f59f4c900ead3311c8358309e0c745ef960f69f1",
+        "blob_sha256": "28c2ecb3b4d9f472aee8405b0549aed1716e673b73e7f9a70b7acc659247408c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/correction-malformed-green.log"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3de70302501883e722d926dfe8ba051dc755ba952884870e2f2e9b58b9950d94",
+        "actual": "3de70302501883e722d926dfe8ba051dc755ba952884870e2f2e9b58b9950d94"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/correction-malformed-green.log"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "38476e4f4557e5df528562c03f02ad945de19763",
+        "blob_sha256": "9535d589820827dd04490613107aa5bb804731f9080a6c7f587aa15f192c9afb",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/rfq-unavailable-1440.png"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "VISUAL",
+        "proves": [
+          "PPF-T10-F02"
+        ],
+        "command": "Controlled browser public-state capture and direct controller visual inspection",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "030abd0bd537df037277bbe434ad728991c8edddbf71cc8ed3bab45eae651a8a",
+        "actual": "030abd0bd537df037277bbe434ad728991c8edddbf71cc8ed3bab45eae651a8a"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/rfq-unavailable-1440.png"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f84a7efdd2404f8906d3c83c81b15cc1a771f2b9",
+        "blob_sha256": "030abd0bd537df037277bbe434ad728991c8edddbf71cc8ed3bab45eae651a8a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/sample-unavailable-1440.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "VISUAL",
+        "proves": [
+          "PPF-T10-F02"
+        ],
+        "command": "Controlled browser public-state capture and direct controller visual inspection",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7f1a7269bb98fe89f8a047a7c3e049eb0095a5d899546cd85ee12f6b4712754f",
+        "actual": "7f1a7269bb98fe89f8a047a7c3e049eb0095a5d899546cd85ee12f6b4712754f"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/sample-unavailable-1440.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "37b58e61890cc7887bc804c43b2e9573919088f8",
+        "blob_sha256": "7f1a7269bb98fe89f8a047a7c3e049eb0095a5d899546cd85ee12f6b4712754f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/rfq-accepted-1440.png"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "VISUAL",
+        "proves": [
+          "PPF-T10-F02"
+        ],
+        "command": "Controlled browser public-state capture and direct controller visual inspection",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4e7f491e1c528b98a522d49485f73078f051c1758339d7fbd568dc0c48f66b7a",
+        "actual": "4e7f491e1c528b98a522d49485f73078f051c1758339d7fbd568dc0c48f66b7a"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/rfq-accepted-1440.png"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6d282c7212ea00a23d5b438a06157070dea4ec1c",
+        "blob_sha256": "4e7f491e1c528b98a522d49485f73078f051c1758339d7fbd568dc0c48f66b7a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/sample-accepted-1440.png"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "VISUAL",
+        "proves": [
+          "PPF-T10-F02"
+        ],
+        "command": "Controlled browser public-state capture and direct controller visual inspection",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0331550e9474ebe5fc2edac580e1b36c7640a0687e99a95bf4796f48aac6f736",
+        "actual": "0331550e9474ebe5fc2edac580e1b36c7640a0687e99a95bf4796f48aac6f736"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/sample-accepted-1440.png"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7c06c1cc0d9d3bf352b6d4b5f21c8d53be4e81c9",
+        "blob_sha256": "0331550e9474ebe5fc2edac580e1b36c7640a0687e99a95bf4796f48aac6f736",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/documents-accepted-1440-ready.png"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "VISUAL",
+        "proves": [
+          "PPF-T10-F02"
+        ],
+        "command": "Controlled browser public-state capture and direct controller visual inspection",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9014050969a98f987fb6e044586ac45a7148dfaf5a7d209676c6a2c42aeb9011",
+        "actual": "9014050969a98f987fb6e044586ac45a7148dfaf5a7d209676c6a2c42aeb9011"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/documents-accepted-1440-ready.png"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "084108b998dab546bbc8cb19159e0523f21d1409",
+        "blob_sha256": "9014050969a98f987fb6e044586ac45a7148dfaf5a7d209676c6a2c42aeb9011",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/candidate-record.json"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PPF-T10-F02",
+          "PPF-T10-F03",
+          "PPF-T10-F04"
+        ],
+        "command": "Read bound implementation, independent reviews, GREEN results and candidate identities; see candidate-record.json for exact commands and limits",
+        "environment": "Isolated task candidate; synthetic provider responses only; actual configuration and healthy main prerelease untouched"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "34889e4400f6a19550c22b8daea8d9ede443fc0cbc6a18ba8d3db406a46df580",
+        "actual": "34889e4400f6a19550c22b8daea8d9ede443fc0cbc6a18ba8d3db406a46df580"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/candidate-record.json"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9594fdf2f397070c3757dbd724f93c0b217a1da0",
+        "blob_sha256": "34889e4400f6a19550c22b8daea8d9ede443fc0cbc6a18ba8d3db406a46df580",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/gate8_handoff_receipt.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/web3forms-guards/candidate-record.json",
+          "docs/verification/web3forms-guards/correction-malformed-green.log",
+          "docs/verification/web3forms-guards/correction-report.md",
+          "docs/verification/web3forms-guards/correction-valid-green.log",
+          "docs/verification/web3forms-guards/documents-accepted-1440-ready.png",
+          "docs/verification/web3forms-guards/final-review.md",
+          "docs/verification/web3forms-guards/malformed-build.json",
+          "docs/verification/web3forms-guards/rfq-accepted-1440.png",
+          "docs/verification/web3forms-guards/rfq-unavailable-1440.png",
+          "docs/verification/web3forms-guards/sample-accepted-1440.png",
+          "docs/verification/web3forms-guards/sample-unavailable-1440.png",
+          "docs/verification/web3forms-guards/task-1-affected.log",
+          "docs/verification/web3forms-guards/task-1-lint.log",
+          "docs/verification/web3forms-guards/task-1-privacy-green.log",
+          "docs/verification/web3forms-guards/task-1-report.md",
+          "docs/verification/web3forms-guards/task-1-rereview.md",
+          "docs/verification/web3forms-guards/task-1-review.md",
+          "docs/verification/web3forms-guards/task-1-typecheck-final.log",
+          "docs/verification/web3forms-guards/valid-build.json"
+        ],
+        "actual": [
+          "docs/verification/web3forms-guards/candidate-record.json",
+          "docs/verification/web3forms-guards/correction-malformed-green.log",
+          "docs/verification/web3forms-guards/correction-report.md",
+          "docs/verification/web3forms-guards/correction-valid-green.log",
+          "docs/verification/web3forms-guards/documents-accepted-1440-ready.png",
+          "docs/verification/web3forms-guards/final-review.md",
+          "docs/verification/web3forms-guards/malformed-build.json",
+          "docs/verification/web3forms-guards/rfq-accepted-1440.png",
+          "docs/verification/web3forms-guards/rfq-unavailable-1440.png",
+          "docs/verification/web3forms-guards/sample-accepted-1440.png",
+          "docs/verification/web3forms-guards/sample-unavailable-1440.png",
+          "docs/verification/web3forms-guards/task-1-affected.log",
+          "docs/verification/web3forms-guards/task-1-lint.log",
+          "docs/verification/web3forms-guards/task-1-privacy-green.log",
+          "docs/verification/web3forms-guards/task-1-report.md",
+          "docs/verification/web3forms-guards/task-1-rereview.md",
+          "docs/verification/web3forms-guards/task-1-review.md",
+          "docs/verification/web3forms-guards/task-1-typecheck-final.log",
+          "docs/verification/web3forms-guards/valid-build.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/web3forms-guards/gate8_handoff_receipt.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

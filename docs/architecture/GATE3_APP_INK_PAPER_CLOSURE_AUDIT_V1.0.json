@@ -1,0 +1,211 @@
+{
+  "audit": "GATE3_APP_INK_PAPER_CLOSURE_AUDIT_V1.0",
+  "generatedAt": "2026-09-07T16:25:08.6870021+08:00",
+  "pages": [
+    "APP-INK",
+    "APP-PAPER"
+  ],
+  "status": "PASS_APPROVED_CLOSED",
+  "checks": 33,
+  "failures": 0,
+  "results": [
+    {
+      "id": "standing_authority.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "standing_authority.sha256",
+      "pass": true,
+      "actual": "47A7D3403645ECCCAF1178B312A014891DEC32A15DDAB4BCA407DA9A8521ABF1",
+      "expected": "47A7D3403645ECCCAF1178B312A014891DEC32A15DDAB4BCA407DA9A8521ABF1"
+    },
+    {
+      "id": "ink_source.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "ink_source.sha256",
+      "pass": true,
+      "actual": "8E8353DAD4AACF9CA20821AE2240A3398684B201A6E92FEC5EF28D4FD61C1F63",
+      "expected": "8E8353DAD4AACF9CA20821AE2240A3398684B201A6E92FEC5EF28D4FD61C1F63"
+    },
+    {
+      "id": "ink_freeze.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "ink_freeze.sha256",
+      "pass": true,
+      "actual": "11E77AAC976A3EC66E78E9BB4DE328E331296C5886E20A148BE8544CAC092755",
+      "expected": "11E77AAC976A3EC66E78E9BB4DE328E331296C5886E20A148BE8544CAC092755"
+    },
+    {
+      "id": "ink_rereview.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "ink_rereview.sha256",
+      "pass": true,
+      "actual": "07AF434B6FFC7B50EF4DA960AAD2F330BDDC2620E2E38D784F31A2B549D1BFFB",
+      "expected": "07AF434B6FFC7B50EF4DA960AAD2F330BDDC2620E2E38D784F31A2B549D1BFFB"
+    },
+    {
+      "id": "ink_closure.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "ink_closure.sha256",
+      "pass": true,
+      "actual": "51AF51DF852791B4C1BA76A86EE8315A1688218B61290B6F87B8A8A7A314B147",
+      "expected": "51AF51DF852791B4C1BA76A86EE8315A1688218B61290B6F87B8A8A7A314B147"
+    },
+    {
+      "id": "ink_handoff.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "ink_handoff.sha256",
+      "pass": true,
+      "actual": "D30A28907EC6C7FB166A6389BAE1BD506326F4D4EC753079BA6E649A74D24885",
+      "expected": "D30A28907EC6C7FB166A6389BAE1BD506326F4D4EC753079BA6E649A74D24885"
+    },
+    {
+      "id": "ink_manifest.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "ink_manifest.sha256",
+      "pass": true,
+      "actual": "7D40B7F92B43661CB4AA9C3BF52BFCDBAEB8C1DAF372CD20A97169DDE5D115E3",
+      "expected": "7D40B7F92B43661CB4AA9C3BF52BFCDBAEB8C1DAF372CD20A97169DDE5D115E3"
+    },
+    {
+      "id": "paper_source.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "paper_source.sha256",
+      "pass": true,
+      "actual": "7C907DEDA83419DA01F87B7A67C796A31E22E698F5F724D84972725848417973",
+      "expected": "7C907DEDA83419DA01F87B7A67C796A31E22E698F5F724D84972725848417973"
+    },
+    {
+      "id": "paper_freeze.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "paper_freeze.sha256",
+      "pass": true,
+      "actual": "CC7EE3E3F830D9F598B381B7CB71FD3695BAE16FA76C564DECB77FFA782B5298",
+      "expected": "CC7EE3E3F830D9F598B381B7CB71FD3695BAE16FA76C564DECB77FFA782B5298"
+    },
+    {
+      "id": "paper_rereview.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "paper_rereview.sha256",
+      "pass": true,
+      "actual": "6AE5C0E351CA6FF524A078F7F97D8823973E63680DD01E6C58B9E23A94195C4F",
+      "expected": "6AE5C0E351CA6FF524A078F7F97D8823973E63680DD01E6C58B9E23A94195C4F"
+    },
+    {
+      "id": "paper_closure.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "paper_closure.sha256",
+      "pass": true,
+      "actual": "5C629A65D7AB5EBDECC12A4816969B14A8FF97292766CE7800D2120945EE07C9",
+      "expected": "5C629A65D7AB5EBDECC12A4816969B14A8FF97292766CE7800D2120945EE07C9"
+    },
+    {
+      "id": "paper_handoff.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "paper_handoff.sha256",
+      "pass": true,
+      "actual": "837F577086FBC5B80C9B13F3677F3E710DD830263C38EC2D8F4F55165BCA173D",
+      "expected": "837F577086FBC5B80C9B13F3677F3E710DD830263C38EC2D8F4F55165BCA173D"
+    },
+    {
+      "id": "paper_manifest.exists",
+      "pass": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "paper_manifest.sha256",
+      "pass": true,
+      "actual": "A0719B1B5AEF518FAC2A8EF5147128280EB7AEBD449FE95FD16EA9E86AADE237",
+      "expected": "A0719B1B5AEF518FAC2A8EF5147128280EB7AEBD449FE95FD16EA9E86AADE237"
+    },
+    {
+      "id": "ink_manifest.closed",
+      "pass": true,
+      "actual": "| Gate 3 | `APPROVED / CLOSED` |",
+      "expected": "| Gate 3 | `APPROVED / CLOSED` |"
+    },
+    {
+      "id": "ink_manifest.handoff",
+      "pass": true,
+      "actual": "`READY_FOR_GATE4_WHEN_AUTHORIZED`",
+      "expected": "`READY_FOR_GATE4_WHEN_AUTHORIZED`"
+    },
+    {
+      "id": "paper_manifest.closed",
+      "pass": true,
+      "actual": "| Gate 3 | `APPROVED / CLOSED` |",
+      "expected": "| Gate 3 | `APPROVED / CLOSED` |"
+    },
+    {
+      "id": "paper_manifest.handoff",
+      "pass": true,
+      "actual": "`READY_FOR_GATE4_WHEN_AUTHORIZED`",
+      "expected": "`READY_FOR_GATE4_WHEN_AUTHORIZED`"
+    },
+    {
+      "id": "status.ink",
+      "pass": true,
+      "actual": "[当前Manifest V0.4](pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md)",
+      "expected": "[当前Manifest V0.4](pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md)"
+    },
+    {
+      "id": "status.paper",
+      "pass": true,
+      "actual": "[当前Manifest V0.6](pages/applications/paper/APP-PAPER_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md)",
+      "expected": "[当前Manifest V0.6](pages/applications/paper/APP-PAPER_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md)"
+    },
+    {
+      "id": "index.batch",
+      "pass": true,
+      "actual": "| Gate 3 Application P2两页并行任务 |",
+      "expected": "| Gate 3 Application P2两页并行任务 |"
+    }
+  ]
+}

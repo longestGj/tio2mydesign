@@ -1,0 +1,31 @@
+{
+  "schema_version": "app000-gate8-dispatch-receipt-v1.0",
+  "date": "2026-09-08T16:23:26.6197442+08:00",
+  "dispatch_id": "APP-000-G8-DISPATCH-01",
+  "page_id": "APP-000",
+  "site_scope": "tio2-my",
+  "target": {
+    "title": "00My开发2",
+    "thread_id": "01a07e6a-546d-7532-aa06-02d2bffd5eed",
+    "host_id": "local"
+  },
+  "authorization": {
+    "path": "docs/architecture/APP000_GATE8_AUTHORIZATION_AND_DISPATCH_V1.0.md",
+    "sha256": "c1484d16ccef6cf29b90bc71bd24ed93602ab6d7109586373bedbb95862e4a67"
+  },
+  "package": {
+    "path": "pages/applications/06_handoff/APP-000_GATE6_HANDOFF_PACKAGE_V1.1.md",
+    "package_id": "APP-000-G6-HANDOFF-02",
+    "sha256": "679921dff649eb19197364c998b9512b711c3a32ee00c64798ad70ce0c05e84c"
+  },
+  "closure": {
+    "path": "pages/applications/05_review/APP-000_GATE6_DELEGATED_APPROVAL_AND_CLOSURE_V1.0.md",
+    "sha256": "acffb4355ce28d4b0953a332249aa9df471aebb78cacf27bb0d6974147f10bc1"
+  },
+  "send_result": {
+    "success": true,
+    "returned_thread_id": "01a07e6a-546d-7532-aa06-02d2bffd5eed"
+  },
+  "status": "SENT / GATE8_TASK_TRIGGERED",
+  "boundary": "No merge, push, deployment, production write, publication, DNS, indexing or Gate 10 authorized."
+}

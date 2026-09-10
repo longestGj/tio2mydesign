@@ -1,0 +1,558 @@
+{
+  "schema_version": "gate8-evidence-manifest-v1.0",
+  "handoff_id": "APP-000-G6-HANDOFF-02",
+  "gate8_task_id": "APP-000-G8-DISPATCH-01",
+  "site_scope": "tio2-my",
+  "receipt_path": "docs/verification/app000/gate8/GATE8_IMPLEMENTATION_RECEIPT_2026-09-08.md",
+  "pages": [
+    {
+      "page_id": "APP-000",
+      "acceptance_condition_ids": [
+        "APP000-G9-01",
+        "APP000-G9-02",
+        "APP000-G9-03",
+        "APP000-G9-04",
+        "APP000-G9-05",
+        "APP000-G9-06",
+        "APP000-G9-07",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13",
+        "APP000-G9-14",
+        "APP000-G9-15",
+        "APP000-G9-16",
+        "APP000-G9-17"
+      ],
+      "runtime_path": "/applications/"
+    }
+  ],
+  "git": {
+    "repository": "D:\\16Wordpress_nextjs\\.worktrees\\app000-gate8",
+    "branch": "codex/app000-gate8",
+    "baseline_commit": "cfe9ef37ca3a8d9c6b05365ca6b09bcd22baf670",
+    "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285",
+    "evidence_head": "ce3f4c5c21033e56472ec53586173279fb78c415",
+    "clean_checked_at": "2026-09-08T10:30:32.318Z"
+  },
+  "build": {
+    "directory": ".next-app000-f0285f2",
+    "build_id": "jf9b1VFzbgKGSQMVOMMbU",
+    "implementation_commit": "f0285f288e256ce0c48205931dd8edf4b802b285"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:4391",
+    "site_scope": "tio2-my",
+    "environment_type": "local-production",
+    "started_at": "2026-09-08T18:17:30+08:00",
+    "hold_until": "GATE9_PASS_OR_RETURN_NOTICE",
+    "require_build_marker": true,
+    "checks": [
+      {
+        "path": "/applications",
+        "expected_status": 200,
+        "contains": [
+          "Explore Titanium Dioxide by Application",
+          "href=\"/request-a-quote/\""
+        ]
+      },
+      {
+        "path": "/request-a-quote",
+        "expected_status": 200,
+        "contains": [
+          "Request a Titanium Dioxide Quote",
+          "Select a product or grade"
+        ]
+      },
+      {
+        "path": "/products/m-350",
+        "expected_status": 200,
+        "contains": [
+          "M-350"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "docs/verification/app000/gate8/build-id.txt",
+      "sha256": "444fd449db4b379479cdfd4e1b49b723ab5da5260c873a917743d61a74ae9888",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-09",
+        "APP000-G9-11",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "Generated from final production build and held runtime identity",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/acceptance-summary.json",
+      "sha256": "3e2d8414b1e72cfa584e29e9dfc0d4791edbd7b40cfdff6900d65bf8c911e1cf",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-02",
+        "APP000-G9-03",
+        "APP000-G9-04",
+        "APP000-G9-05",
+        "APP000-G9-06",
+        "APP000-G9-07",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13",
+        "APP000-G9-14",
+        "APP000-G9-15",
+        "APP000-G9-16",
+        "APP000-G9-17"
+      ],
+      "command": "Generated from final committed Gate 8 verification outputs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/full-unit-summary.json",
+      "sha256": "d70886b3fec9bb7a8daa2937e856979ba6ab6c0290756aef0c63af514886908f",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "npm test; exact failures classified against dispatched scope",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/ROLLBACK_RECORD_2026-09-08.md",
+      "sha256": "444075e6b25d8594d7f6beee33dfc72a9d7c63df64af86eb7bb747917aede701",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "git cat-file -e cfe9ef37ca3a8d9c6b05365ca6b09bcd22baf670^{commit}; source/rollback procedure inspection",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/runtime-contract.json",
+      "sha256": "c867800bea7a931e2b38d3e02194562e0435f94cef86f26e630dcd99c9eb2d58",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-02",
+        "APP000-G9-03",
+        "APP000-G9-06",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13"
+      ],
+      "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/route-matrix.json",
+      "sha256": "d65687380906cfa0859afb3fc9f0bbf7e21960c7f65010eac38054bf7a8e5e6e",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-06",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/grade-edge-inventory.json",
+      "sha256": "4287a2f983c3b0c5c68d9bce5cf2ca5f93abe2ba5e0a20f74962b3fee3221f6b",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-03",
+        "APP000-G9-06"
+      ],
+      "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/consumer-regression-matrix.json",
+      "sha256": "dfaf53c9e51798cf7b7e7c93960f513852d6fcf28315ea0ceffa531b8d63cd6e",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-16",
+        "APP000-G9-17"
+      ],
+      "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs; read-only consumers",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/shared-instance-map.json",
+      "sha256": "3c563232a2d5b97c1b153c73f724d9bd2eb59ea2365eb3acf77dc90eaab36bf3",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-08",
+        "APP000-G9-13"
+      ],
+      "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/conditional-state-matrix.json",
+      "sha256": "5a820cda8e38be7957009f5b148a9bcd86683a2ca4b76d5218cb1adfd1aea829",
+      "evidence_type": "LOCAL_SIMULATION",
+      "proves": [
+        "APP000-G9-04",
+        "APP000-G9-12",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "npx vitest run targeted APP-000 renderer and SEO tests",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/rfq-private-handoff.json",
+      "sha256": "266f5acfc7261999f9fbc30315441eedec1abfac4c17282b85d303f57106b971",
+      "evidence_type": "RECEIVER",
+      "proves": [
+        "APP000-G9-07",
+        "APP000-G9-13"
+      ],
+      "command": "Playwright browser navigation with locally intercepted Web3Forms response; access key excluded",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/app000-desktop-1440.png",
+      "sha256": "b91e661c7bf3a887e2edc636a8640dd33670e26d25fbe4c44ed47e53add831a5",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-05",
+        "APP000-G9-08",
+        "APP000-G9-09"
+      ],
+      "command": "Playwright full-page screenshot at 1440x1000; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/app000-tablet-768.png",
+      "sha256": "b917e0acc00a1777f46013c2c3cfd1ed600874a6c5bfc897f5415ba44e2598e5",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-05",
+        "APP000-G9-08",
+        "APP000-G9-09"
+      ],
+      "command": "Playwright full-page screenshot at 768x1024; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/app000-mobile-390.png",
+      "sha256": "aa104956a8ec9ab13ab7ad260ba2714e11a4724b2e1b00b92880c01d366dc04f",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-05",
+        "APP000-G9-08",
+        "APP000-G9-09"
+      ],
+      "command": "Playwright full-page screenshot at 390x844; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/runtime/app000-mobile-cookie-settings.png",
+      "sha256": "6d965414cda0c9ffffdfbda07940016ecca24b3526131c336a82f4941d97e814",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-05",
+        "APP000-G9-08",
+        "APP000-G9-10"
+      ],
+      "command": "Playwright mobile Cookie Settings interaction screenshot; visually inspected",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/build.log",
+      "sha256": "05cf68606c5ca6d3cd458820f3d4c686a964d33c75898d5e7d07878e8e1bfc55",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-11",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "NEXT_DIST_DIR=.next-app000-f0285f2 WORDPRESS_GRAPHQL_URL=http://127.0.0.1:4390/graphql npm run build",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/targeted-tests.log",
+      "sha256": "58cb43591fdce0f7c5d2b768742ade669cdc593c54bb8abc39b857d97211374a",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-02",
+        "APP000-G9-03",
+        "APP000-G9-04",
+        "APP000-G9-06",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "npx vitest run 13 APP-000/RFQ/infrastructure files",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/typecheck.log",
+      "sha256": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "npm run typecheck",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/changed-lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-13",
+        "APP000-G9-15"
+      ],
+      "command": "npx eslint changed APP-000 and RFQ files",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/playwright.log",
+      "sha256": "1308f3191f805afc4aed015440377f2be660f7556fb1b70dc6b59e24943744b2",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-03",
+        "APP000-G9-05",
+        "APP000-G9-07",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13"
+      ],
+      "command": "npx playwright test --config=playwright.app000.config.ts",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/runtime-evidence.log",
+      "sha256": "914bcab0f2be3d3baa788bc075983297eaf0ed0d3e0b628666d8fc4934b6a61b",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-03",
+        "APP000-G9-06",
+        "APP000-G9-07",
+        "APP000-G9-08",
+        "APP000-G9-13",
+        "APP000-G9-16",
+        "APP000-G9-17"
+      ],
+      "command": "node docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/runtime-preflight-two-round.log",
+      "sha256": "a610ae56ede24660b476d74856806ae23fa98069a78656cfc12cd19710b1d7b1",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-06",
+        "APP000-G9-11",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "Two rounds of APP-000, RFQ and Grade runtime status/content/build-marker checks",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/unit-full.log",
+      "sha256": "ac9f1d4db8e85ab65ec4ace0ecdc2996c2ee9e4342260c811b8a42e140b341cd",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "npm test",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/logs/site-a-timeout-recheck.log",
+      "sha256": "f7a23178d6651375c417ce1dc6ce4802b52f668bdd70a1dba8af2b626b83b426",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "Isolated recheck of unrelated Site A five-second baseline timeout",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+      "sha256": "ee60c658bc18ef55c9f04cdb56d2daba51b63a167ceb098738be168a1c979075",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-03",
+        "APP000-G9-06",
+        "APP000-G9-07",
+        "APP000-G9-08",
+        "APP000-G9-13",
+        "APP000-G9-16",
+        "APP000-G9-17"
+      ],
+      "command": "Source inspection of repeatable runtime evidence generator",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    },
+    {
+      "path": "docs/verification/app000/gate8/support/scoped-cms-proxy.mjs",
+      "sha256": "ef5038ccc9809f935fd09c4de481698cee694e06f3635836bfc3525cca743e4c",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "APP000-G9-01",
+        "APP000-G9-06",
+        "APP000-G9-10",
+        "APP000-G9-14",
+        "APP000-G9-15"
+      ],
+      "command": "Source inspection of scope-bound local CMS fixture proxy",
+      "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4391; scoped CMS fixture at 4390; external receiver intercepted"
+    }
+  ],
+  "receipt_evidence_references": [
+    "docs/verification/app000/gate8/build-id.txt",
+    "docs/verification/app000/gate8/acceptance-summary.json",
+    "docs/verification/app000/gate8/full-unit-summary.json",
+    "docs/verification/app000/gate8/ROLLBACK_RECORD_2026-09-08.md",
+    "docs/verification/app000/gate8/runtime/runtime-contract.json",
+    "docs/verification/app000/gate8/runtime/route-matrix.json",
+    "docs/verification/app000/gate8/runtime/grade-edge-inventory.json",
+    "docs/verification/app000/gate8/runtime/consumer-regression-matrix.json",
+    "docs/verification/app000/gate8/runtime/shared-instance-map.json",
+    "docs/verification/app000/gate8/runtime/conditional-state-matrix.json",
+    "docs/verification/app000/gate8/runtime/rfq-private-handoff.json",
+    "docs/verification/app000/gate8/runtime/app000-desktop-1440.png",
+    "docs/verification/app000/gate8/runtime/app000-tablet-768.png",
+    "docs/verification/app000/gate8/runtime/app000-mobile-390.png",
+    "docs/verification/app000/gate8/runtime/app000-mobile-cookie-settings.png",
+    "docs/verification/app000/gate8/logs/build.log",
+    "docs/verification/app000/gate8/logs/targeted-tests.log",
+    "docs/verification/app000/gate8/logs/typecheck.log",
+    "docs/verification/app000/gate8/logs/changed-lint.log",
+    "docs/verification/app000/gate8/logs/playwright.log",
+    "docs/verification/app000/gate8/logs/runtime-evidence.log",
+    "docs/verification/app000/gate8/logs/runtime-preflight-two-round.log",
+    "docs/verification/app000/gate8/logs/unit-full.log",
+    "docs/verification/app000/gate8/logs/site-a-timeout-recheck.log",
+    "docs/verification/app000/gate8/support/generate-runtime-evidence.mjs",
+    "docs/verification/app000/gate8/support/scoped-cms-proxy.mjs"
+  ],
+  "known_open_items": [
+    {
+      "id": "APP000-G6-D01",
+      "owner": "APP-000 page and platform owners",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Independent runtime identity, clean canonical and private scope trace review.",
+      "closure_timing": "During APP000-G9-01"
+    },
+    {
+      "id": "APP000-G6-D02",
+      "owner": "Controller and User",
+      "blocking_layer": "RELEASE",
+      "closure_evidence": "Separate Gate 10 publication and indexing authorization.",
+      "closure_timing": "After Gate 9; no release authority exists"
+    },
+    {
+      "id": "APP000-G6-D03",
+      "owner": "Five child Application owners and Gate 8",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Same-scope child endpoints become eligible or the current exact atomic omission is independently accepted.",
+      "closure_timing": "During APP000-G9-06 integration review"
+    },
+    {
+      "id": "APP000-G6-D04",
+      "owner": "Fourteen Grade owners and Gate 8",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Independent review of all 30 source-edge records and final 200 destinations.",
+      "closure_timing": "During APP000-G9-03 and APP000-G9-06"
+    },
+    {
+      "id": "APP000-G6-D05",
+      "owner": "Products, Documents and Markets owners with Gate 8",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Independent target identity and response checks for all three support cards.",
+      "closure_timing": "During APP000-G9-06"
+    },
+    {
+      "id": "APP000-G6-D06",
+      "owner": "CONV-RFQ owner and Gate 8",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Independent clean-URL/private-source/neutral-field receiver review; external provider acceptance remains outside this simulated result.",
+      "closure_timing": "During APP000-G9-07"
+    },
+    {
+      "id": "APP000-G6-D07",
+      "owner": "Shared Chrome, legal, consent and Gate 8 owners",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Independent per-instance shared control and target review.",
+      "closure_timing": "During APP000-G9-08"
+    },
+    {
+      "id": "APP000-G6-D08",
+      "owner": "APP-000 and platform owners",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Independent CMS-to-public projection, SSR, condition, error and rollback evidence review.",
+      "closure_timing": "During APP000-G9-01 through APP000-G9-15"
+    },
+    {
+      "id": "APP000-G6-D09",
+      "owner": "Gate 9 device and accessibility owner",
+      "blocking_layer": "PAGE_GATE9",
+      "closure_evidence": "Physical touch, named screen reader and native 200 percent zoom evidence.",
+      "closure_timing": "During APP000-G9-10"
+    },
+    {
+      "id": "APP000-G6-D10",
+      "owner": "Platform, page, shared and receiver owners",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Independent seven-plane positive/negative/failure/recovery isolation review.",
+      "closure_timing": "During APP000-G9-14 and APP000-G9-15"
+    },
+    {
+      "id": "APP000-G6-D11",
+      "owner": "RES-TRADE-EU/UK/IN/BR and APP-COAT/PLAS/MB/INK/PAPER owners",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "All nine consumer routes must be live and independently pass /applications/ pointer, keyboard and Back/Return checks; currently all return 404.",
+      "closure_timing": "During APP000-G9-16"
+    },
+    {
+      "id": "APP000-G6-D12",
+      "owner": "Gate 8 and Gate 9 owners",
+      "blocking_layer": "RECHECK_SCOPE",
+      "closure_evidence": "Schema-valid manifest, committed receipt/evidence, exact held commit/build/runtime identity and four-layer return.",
+      "closure_timing": "At Gate 9 intake and return"
+    },
+    {
+      "id": "APP000-G6-D13",
+      "owner": "PRODUCT-PROC-CL and PRODUCT-PROC-SU owners",
+      "blocking_layer": "INTEGRATION",
+      "closure_evidence": "Both Process routes must pass independent /applications/ pointer, keyboard and Back/Return checks; Chloride is live and Sulfate returns 404.",
+      "closure_timing": "During APP000-G9-17"
+    }
+  ]
+}

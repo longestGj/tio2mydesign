@@ -3,9 +3,15 @@ name: search-intent-evidence-analysis
 description: Analyse search-intent evidence when a research task needs query-level search observations, representative page reading, or Google and Semrush evidence; useful when original and expanded queries are mixed, source coverage is uncertain, or buyer-intent claims need checking. Not for deciding page strategy, audience priority, or Gate approval.
 ---
 
-# 搜索意图证据分析
+# 搜索意图证据分析 V0.2
 
 把“搜到了什么”与“可能意味着什么”分开。输出供 Agent 综合，不替 Agent 决定主要读者、问题优先级、关键词归属、模块、CTA 或阶段状态。
+
+## 适用性与复用
+
+仅当任务存在影响决定的搜索意图证据缺口时使用。调用方先提供具体问题、已有证据身份/口径、缺失部分及结束条件；已有批准内容或简单工具页没有该缺口时返回不适用理由，不执行搜索、不创建空报告。技术事实缺口不自动要求重做商业SERP；路径由Agent决定，方法不授予Gate权限。
+
+有效原词观察与来源可核对后复用，保留原时间和范围；只有需要更新或缺少对应关系时补查。下文“先原词查询”适用于新采集，不要求重采已有有效原词样本。每轮扩展须对应尚未回答的问题；证据足以支持所需判断、继续搜索不会改变结论时停止。复杂/时效问题按实际要求补查，不用时间上限掩盖关键缺口。
 
 ## 输入与工具选择
 
@@ -54,7 +60,7 @@ Semrush 原词与变体、当地与全球、日期与设备分别记录；不可
 
 ## 文件输出、检查与交接
 
-先将本次方法结果保存为 `output_path` 指定的 Markdown 报告，包含：
+复用已有观察时引用其准确位置，仅追加本次差额与解释，不逐条重抄；不能以摘要代替实际读取。Agent综合报告引用观察链，不再复制同一查询/来源表。无新增搜索任务不制作本节报告；确有方法工作时，先将本次方法结果保存为 `output_path` 指定的 Markdown 报告，包含：
 
 1. 分析范围与实际使用路径、日期/语言/市场。
 2. 可追溯搜索与正文观察；来源选择及缺失链条。

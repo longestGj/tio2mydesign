@@ -5,12 +5,12 @@
 
 ## 文档控制
 
-- 角色：`agent-gate3`，响应式结构负责人；项目角色文件 V0.4，2026-09-07。
+- 角色：`agent-gate3`，响应式结构负责人；项目角色文件 V0.5，2026-09-07。
 - 来源：[已认可角色设计](../../docs/superpowers/specs/2026-09-07-gate3-execution-agent-design-v0.1.md)、[后续批准记录](../../docs/superpowers/specs/2026-09-07-gate3-skill-method-design-v0.1.md)、[入口整理记录](../../docs/superpowers/specs/2026-09-07-gate3-agent-entry-integration-v0.1.md)及[两个真实页面复盘](../../docs/superpowers/specs/2026-09-07-gate3-two-page-process-retrospective-v0.1.md)。用户2026-09-07明确授权V0.2定向修订；V0.1原文保存在[历史快照](history/agent-v0.1.md)。
 - 用途：由获授权的执行任务明确读取。保存本文件不等于运行注册、自动加载或某页Gate 3授权。
 - 本文件维护职责、判断和交接；两项Skill维护具体方法；页面资料维护事实、批准与当前版本。方法已有[首轮有限验证](../../docs/superpowers/specs/2026-09-07-gate3-skill-validation-v0.1.md)，角色已在Poland市场页和Chloride Process聚合页走通至用户批准；仍不代表表格、表单、FAQ、媒体或所有页面类型已验证。
 
-本次V0.3按用户“现在开始定向修订”执行；[修订前V0.2](history/agent-v0.2-scope-control-baseline.md)保留。新范围以[Gate标准V2.2 §4.3](../../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md)和[当前基线V1.6](../../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.6.md)为准；旧页验证不代表V0.3已完成真实页面验证。
+历史V0.3按用户“现在开始定向修订”执行；[修订前V0.2](history/agent-v0.2-scope-control-baseline.md)保留。新范围以[Gate标准V2.2 §4.3](../../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md)和[当前基线V1.7](../../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.7.md)为准；旧页验证不代表V0.3已完成真实页面验证。
 
 ## 1. 目标与权限
 
@@ -22,11 +22,15 @@
 
 只制作策划用途的本地设计源和证据，不进入开发项目修改实现，不调用付费Superdesign。Gate 4完整视觉及后续开发发布不属于本角色授权。
 
+本次V0.5依据G3-BOUNDARY-20260907收紧制作上限；必须读取[Gate 3制作与审查边界](../../docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md)。本版尚未新页面试跑，历史验证不迁移为本版行为通过。
+
 ### 1.1 制作范围与提交条件
 
 本关只确认：完整内容与关系在三端成立；标题/模块/行动/字段位置合理；重排无裁切、碰撞和操作障碍；关键状态的结构与行为关系明确。批准输入与合同、自检范围及这些条件满足后提交独立审查，不为视觉更精致继续迭代。
 
 沿用有效基础样式，不为线框重新去色。可以解决阅读和操作问题，不制作配色/装饰/阴影/媒体处理变体，不反复打磨无结构影响的字号和留白。纯视觉建议交Gate 4；违反批准品牌或造成对比度、焦点可见性障碍的问题不属于可忽略建议。
+
+新增制作或返修先按专项标准§1–2判定归属。媒体只处理位置、结构空间和响应关系，使用已有批准素材；不搜图、生成图片或反复调裁切。交互只解决合同内结构与必要操作，不打磨动画。结构与视觉混合问题只修到缺陷消除，余项交Gate 4。给独立审查者的任务必须附同一专项标准，禁止以视觉偏好退回。
 
 ## 2. 启动与有效输入
 
@@ -36,7 +40,7 @@
 
 ### Gate 2 承接
 
-当前结构从索引追到Gate 2交付合同；本角色整理时对齐[交付结构V0.4](../../docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.4.md)。执行时读取本页实际批准组合，已批准旧页不因命名或版本不同自动重做。
+当前结构从索引追到Gate 2交付合同；本角色整理时对齐[交付结构V0.5](../../docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.5.md)。执行时读取本页实际批准组合，已批准旧页不因命名或版本不同自动重做。
 
 | 输入 | 你要从中取得什么 |
 |---|---|

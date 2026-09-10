@@ -1,0 +1,2196 @@
+{
+  "status": "EVIDENCE_INCOMPLETE",
+  "evidence_validation": {
+    "status": "EVIDENCE_INCOMPLETE",
+    "manifest": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\docs\\verification\\sys404-convthank\\gate8\\gate8_evidence_manifest.json",
+    "handoff_id": "SYS404-G6-HANDOFF-01 + CONVTHANK-G6-HANDOFF-01",
+    "checks": [
+      {
+        "id": "manifest_required_fields",
+        "result": "PASS",
+        "detail": {
+          "missing": []
+        }
+      },
+      {
+        "id": "schema_version",
+        "result": "PASS",
+        "detail": "gate8-evidence-manifest-v1.0"
+      },
+      {
+        "id": "identity_fields",
+        "result": "PASS",
+        "detail": null
+      },
+      {
+        "id": "page_scope",
+        "result": "PASS",
+        "detail": [
+          {
+            "page_id": "SYS-404",
+            "acceptance_condition_ids": [
+              "SYS404-G9-AC01",
+              "SYS404-G9-AC02",
+              "SYS404-G9-AC03",
+              "SYS404-G9-AC04",
+              "SYS404-G9-AC05",
+              "SYS404-G9-AC06",
+              "SYS404-G9-AC07",
+              "SYS404-G9-AC08",
+              "SYS404-G9-AC09",
+              "SYS404-G9-AC10",
+              "SYS404-G9-AC11"
+            ],
+            "runtime_path": "/gate8-unmatched-root"
+          },
+          {
+            "page_id": "CONV-THANK",
+            "acceptance_condition_ids": [
+              "CT-G9-01",
+              "CT-G9-02",
+              "CT-G9-03",
+              "CT-G9-04",
+              "CT-G9-05",
+              "CT-G9-06",
+              "CT-G9-07",
+              "CT-G9-08",
+              "CT-G9-09",
+              "CT-G9-10",
+              "CT-G9-11",
+              "CT-G9-12",
+              "CT-G9-13",
+              "CT-G9-14",
+              "CT-G9-15",
+              "CT-G9-16"
+            ],
+            "runtime_path": "/thank-you"
+          }
+        ]
+      },
+      {
+        "id": "repository_exists",
+        "result": "PASS",
+        "detail": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8"
+      },
+      {
+        "id": "git_fields",
+        "result": "PASS",
+        "detail": [
+          "branch",
+          "baseline_commit",
+          "implementation_commit",
+          "evidence_head",
+          "clean_checked_at"
+        ]
+      },
+      {
+        "id": "git_branch",
+        "result": "PASS",
+        "detail": {
+          "expected": "codex/sys404-convthank-gate8",
+          "actual": "codex/sys404-convthank-gate8"
+        }
+      },
+      {
+        "id": "git_head",
+        "result": "FAIL",
+        "detail": {
+          "expected": "7fa0b1026c80c4b12bc1725fff1ad7ef1492a676",
+          "actual": "46985d8689b1d4e90beafe7638ce9f967e0e6da0"
+        }
+      },
+      {
+        "id": "baseline_to_implementation",
+        "result": "PASS",
+        "detail": {
+          "ancestor": "cfe9ef37ca3a8d9c6b05365ca6b09bcd22baf670",
+          "descendant": "1571a67da57d5dd6f2b358ba20508ba46c76f581"
+        }
+      },
+      {
+        "id": "implementation_to_evidence",
+        "result": "PASS",
+        "detail": {
+          "ancestor": "1571a67da57d5dd6f2b358ba20508ba46c76f581",
+          "descendant": "7fa0b1026c80c4b12bc1725fff1ad7ef1492a676"
+        }
+      },
+      {
+        "id": "git_clean",
+        "result": "PASS",
+        "detail": {
+          "porcelain": ""
+        }
+      },
+      {
+        "id": "build_directory",
+        "result": "PASS",
+        "detail": "D:\\16Wordpress_nextjs\\.worktrees\\sys404-convthank-gate8\\.next-sys404-convthank-final"
+      },
+      {
+        "id": "build_id",
+        "result": "PASS",
+        "detail": {
+          "expected": "2z5DYuzAHx0An8WWlUsz2",
+          "actual": "2z5DYuzAHx0An8WWlUsz2"
+        }
+      },
+      {
+        "id": "build_implementation_binding",
+        "result": "PASS",
+        "detail": {
+          "build": "1571a67da57d5dd6f2b358ba20508ba46c76f581",
+          "git": "1571a67da57d5dd6f2b358ba20508ba46c76f581"
+        }
+      },
+      {
+        "id": "evidence_0_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/build-id.txt"
+      },
+      {
+        "id": "evidence_0_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "IDENTITY",
+          "proves": [
+            "SYS404-G9-AC10",
+            "SYS404-G9-AC11",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "Generated from committed Gate 8 verification outputs",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_0_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "0d0fca794c9f0c1075069e8bc5d03a4cd0b6f53fbb8e0e2e4caad93186a72356",
+          "actual": "0d0fca794c9f0c1075069e8bc5d03a4cd0b6f53fbb8e0e2e4caad93186a72356"
+        }
+      },
+      {
+        "id": "evidence_0_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/build-id.txt"
+      },
+      {
+        "id": "evidence_0_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "3d7b489c00a700fa4abaaa9ca8f712b6ce662267",
+          "blob_sha256": "8ce9866ae2f49f48dc1d647f10440b43ad0f3498b162f50f68ad8db12a7e26cd",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_0_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_1_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/acceptance-summary.json"
+      },
+      {
+        "id": "evidence_1_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "SOURCE_INSPECTION",
+          "proves": [
+            "SYS404-G9-AC08",
+            "SYS404-G9-AC09",
+            "CT-G9-10",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "Generated from committed Gate 8 verification outputs",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_1_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "44666660a83e2f85544f236f877ba7a39fff62889be97d0a3cf48bf9bc3de3f1",
+          "actual": "44666660a83e2f85544f236f877ba7a39fff62889be97d0a3cf48bf9bc3de3f1"
+        }
+      },
+      {
+        "id": "evidence_1_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/acceptance-summary.json"
+      },
+      {
+        "id": "evidence_1_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "a85be694cefe18391104d75b61cd313ae68ec906",
+          "blob_sha256": "44666660a83e2f85544f236f877ba7a39fff62889be97d0a3cf48bf9bc3de3f1",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_1_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_2_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/runtime-contract.json"
+      },
+      {
+        "id": "evidence_2_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "SYS404-G9-AC01",
+            "SYS404-G9-AC03",
+            "SYS404-G9-AC04",
+            "CT-G9-01",
+            "CT-G9-02",
+            "CT-G9-12"
+          ],
+          "command": "node docs/verification/sys404-convthank/gate8/support/capture-runtime.mjs",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_2_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "9942e01aacccedfe380daa83c79338340d5479e79ab0ebf4423b9ddc07578419",
+          "actual": "9942e01aacccedfe380daa83c79338340d5479e79ab0ebf4423b9ddc07578419"
+        }
+      },
+      {
+        "id": "evidence_2_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/runtime-contract.json"
+      },
+      {
+        "id": "evidence_2_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "5e9c261c1ec68ab09c534e6a3ff07e323787cc07",
+          "blob_sha256": "9942e01aacccedfe380daa83c79338340d5479e79ab0ebf4423b9ddc07578419",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_2_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_3_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/thank-you-negative-state-matrix.json"
+      },
+      {
+        "id": "evidence_3_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Generated from committed Gate 8 verification outputs",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_3_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "cc1c2449753099585cbd5764727f5ebabf04fb2dea705fd5023028d74e051d56",
+          "actual": "cc1c2449753099585cbd5764727f5ebabf04fb2dea705fd5023028d74e051d56"
+        }
+      },
+      {
+        "id": "evidence_3_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/thank-you-negative-state-matrix.json"
+      },
+      {
+        "id": "evidence_3_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "713744b426bbde20c819ddea3117a8cbab7e372e",
+          "blob_sha256": "cc1c2449753099585cbd5764727f5ebabf04fb2dea705fd5023028d74e051d56",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_3_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_4_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/visual-contact-sheet.jpg"
+      },
+      {
+        "id": "evidence_4_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "SYS404-G9-AC08",
+            "SYS404-G9-AC09",
+            "CT-G9-10",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_4_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "d82e51fc7fdcacc0374185bf5565cdc575b1260a3922a29f4ce5f4c331fbe9c8",
+          "actual": "d82e51fc7fdcacc0374185bf5565cdc575b1260a3922a29f4ce5f4c331fbe9c8"
+        }
+      },
+      {
+        "id": "evidence_4_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/visual-contact-sheet.jpg"
+      },
+      {
+        "id": "evidence_4_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "0de06df2f0ace3285384b2b1fbb11c74497da405",
+          "blob_sha256": "d82e51fc7fdcacc0374185bf5565cdc575b1260a3922a29f4ce5f4c331fbe9c8",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_4_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_5_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-desktop-1440.png"
+      },
+      {
+        "id": "evidence_5_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_5_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "5c5a3d799cbfbd7cfcec76bb0a1fcd183ea5c9c9962a33a97bb2c042f03b0509",
+          "actual": "5c5a3d799cbfbd7cfcec76bb0a1fcd183ea5c9c9962a33a97bb2c042f03b0509"
+        }
+      },
+      {
+        "id": "evidence_5_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-desktop-1440.png"
+      },
+      {
+        "id": "evidence_5_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "ab7cfe03bf6c9801e01eb54783f83a32bc1fc295",
+          "blob_sha256": "5c5a3d799cbfbd7cfcec76bb0a1fcd183ea5c9c9962a33a97bb2c042f03b0509",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_5_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_6_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-mobile-390.png"
+      },
+      {
+        "id": "evidence_6_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_6_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "ab984559da5f9693d4706d5038703e3fc5889800e46a600df621e5eae6404f34",
+          "actual": "ab984559da5f9693d4706d5038703e3fc5889800e46a600df621e5eae6404f34"
+        }
+      },
+      {
+        "id": "evidence_6_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-mobile-390.png"
+      },
+      {
+        "id": "evidence_6_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "a8ed92600004e67a2b143700f955ab341b8179aa",
+          "blob_sha256": "ab984559da5f9693d4706d5038703e3fc5889800e46a600df621e5eae6404f34",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_6_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_7_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-tablet-768.png"
+      },
+      {
+        "id": "evidence_7_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_7_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "4527067a75ae12abd2b442f41726b0008cbb8d6f28585d859cc9b13a23466c8b",
+          "actual": "4527067a75ae12abd2b442f41726b0008cbb8d6f28585d859cc9b13a23466c8b"
+        }
+      },
+      {
+        "id": "evidence_7_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-tablet-768.png"
+      },
+      {
+        "id": "evidence_7_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "172fb3ba41bc26302c822b12032a2dff3a20fcb5",
+          "blob_sha256": "4527067a75ae12abd2b442f41726b0008cbb8d6f28585d859cc9b13a23466c8b",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_7_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_8_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-desktop-1440.png"
+      },
+      {
+        "id": "evidence_8_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_8_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "ec3c3383dbb67af84823b7181c088879052fef1dee7970e9814dedb676718ec3",
+          "actual": "ec3c3383dbb67af84823b7181c088879052fef1dee7970e9814dedb676718ec3"
+        }
+      },
+      {
+        "id": "evidence_8_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-desktop-1440.png"
+      },
+      {
+        "id": "evidence_8_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "b2bb9022767c692ffbd0505032e7f4f40a6e53d0",
+          "blob_sha256": "ec3c3383dbb67af84823b7181c088879052fef1dee7970e9814dedb676718ec3",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_8_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_9_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-mobile-390.png"
+      },
+      {
+        "id": "evidence_9_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_9_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "6ffc961896c147679a9da0f53a0151c201fb0d0b82f50185d35545fbb0fdbddd",
+          "actual": "6ffc961896c147679a9da0f53a0151c201fb0d0b82f50185d35545fbb0fdbddd"
+        }
+      },
+      {
+        "id": "evidence_9_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-mobile-390.png"
+      },
+      {
+        "id": "evidence_9_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "4687d9aafb38c2ba627d38fd41e2b215b2d96b24",
+          "blob_sha256": "6ffc961896c147679a9da0f53a0151c201fb0d0b82f50185d35545fbb0fdbddd",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_9_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_10_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-tablet-768.png"
+      },
+      {
+        "id": "evidence_10_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_10_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "c7c7aec14a0492cb5c764133cc3094420b38acb70e76fb920c7e7268700e71c2",
+          "actual": "c7c7aec14a0492cb5c764133cc3094420b38acb70e76fb920c7e7268700e71c2"
+        }
+      },
+      {
+        "id": "evidence_10_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-tablet-768.png"
+      },
+      {
+        "id": "evidence_10_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "8211f327ff5b1689ea6295155fbb3877dce481b3",
+          "blob_sha256": "c7c7aec14a0492cb5c764133cc3094420b38acb70e76fb920c7e7268700e71c2",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_10_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_11_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-desktop-1440.png"
+      },
+      {
+        "id": "evidence_11_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_11_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "a74878027df2d283e706d47cef8086f81b80e76c279476256b0c0ec7d2763d59",
+          "actual": "a74878027df2d283e706d47cef8086f81b80e76c279476256b0c0ec7d2763d59"
+        }
+      },
+      {
+        "id": "evidence_11_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-desktop-1440.png"
+      },
+      {
+        "id": "evidence_11_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "206c1610dd94c90af2ab28243ed42f85739e854c",
+          "blob_sha256": "a74878027df2d283e706d47cef8086f81b80e76c279476256b0c0ec7d2763d59",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_11_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_12_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-mobile-390.png"
+      },
+      {
+        "id": "evidence_12_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_12_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "35e66adf5f07f2b2e437ab581cb701fff414b69584705b20fd73e8d4ac3d0967",
+          "actual": "35e66adf5f07f2b2e437ab581cb701fff414b69584705b20fd73e8d4ac3d0967"
+        }
+      },
+      {
+        "id": "evidence_12_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-mobile-390.png"
+      },
+      {
+        "id": "evidence_12_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "0422accdcda2b0e60a8ca8b015831ec57813440a",
+          "blob_sha256": "35e66adf5f07f2b2e437ab581cb701fff414b69584705b20fd73e8d4ac3d0967",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_12_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_13_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-tablet-768.png"
+      },
+      {
+        "id": "evidence_13_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_13_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "16514008cd8a64cb4bbaf62775eec97773f058d2dc5ed596a79dd9d9d4a32065",
+          "actual": "16514008cd8a64cb4bbaf62775eec97773f058d2dc5ed596a79dd9d9d4a32065"
+        }
+      },
+      {
+        "id": "evidence_13_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-tablet-768.png"
+      },
+      {
+        "id": "evidence_13_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "36a247edf3fab5b36e5a1c5972784d2f0ede93c7",
+          "blob_sha256": "16514008cd8a64cb4bbaf62775eec97773f058d2dc5ed596a79dd9d9d4a32065",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_13_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_14_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-desktop-1440.png"
+      },
+      {
+        "id": "evidence_14_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_14_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "9c8cf627ff299351c8f22325896ca825dc1f206d5f54f68e4718271481aa9f7b",
+          "actual": "9c8cf627ff299351c8f22325896ca825dc1f206d5f54f68e4718271481aa9f7b"
+        }
+      },
+      {
+        "id": "evidence_14_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-desktop-1440.png"
+      },
+      {
+        "id": "evidence_14_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "afb8a9e94efc78054b61d42b1a7ee91b961a2088",
+          "blob_sha256": "9c8cf627ff299351c8f22325896ca825dc1f206d5f54f68e4718271481aa9f7b",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_14_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_15_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-mobile-390.png"
+      },
+      {
+        "id": "evidence_15_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_15_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "477dd4ffb5df0408fc8e12bf365a264a9b0ce9eb7858f5fb780f7af84d59ab4b",
+          "actual": "477dd4ffb5df0408fc8e12bf365a264a9b0ce9eb7858f5fb780f7af84d59ab4b"
+        }
+      },
+      {
+        "id": "evidence_15_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-mobile-390.png"
+      },
+      {
+        "id": "evidence_15_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "19d5d4c588bb09fb2a98fad747d773478211fc83",
+          "blob_sha256": "477dd4ffb5df0408fc8e12bf365a264a9b0ce9eb7858f5fb780f7af84d59ab4b",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_15_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_16_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-tablet-768.png"
+      },
+      {
+        "id": "evidence_16_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-03",
+            "CT-G9-04",
+            "CT-G9-09",
+            "CT-G9-13",
+            "CT-G9-14"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_16_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "af00551c4966b68a91c1065141e896ac5d45c560bd4bb004feb0fce2d883a3ed",
+          "actual": "af00551c4966b68a91c1065141e896ac5d45c560bd4bb004feb0fce2d883a3ed"
+        }
+      },
+      {
+        "id": "evidence_16_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-tablet-768.png"
+      },
+      {
+        "id": "evidence_16_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "41b558f848171cbaf4ad57a315383e97cc7731ff",
+          "blob_sha256": "af00551c4966b68a91c1065141e896ac5d45c560bd4bb004feb0fce2d883a3ed",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_16_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_17_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/sys-404-desktop-1440.png"
+      },
+      {
+        "id": "evidence_17_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "SYS404-G9-AC02",
+            "SYS404-G9-AC05",
+            "SYS404-G9-AC06",
+            "SYS404-G9-AC07"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_17_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "5b2df7ede78364b5ca5733977b66788e194b7adf87a3c6c26b9ca4c8b2cc180d",
+          "actual": "5b2df7ede78364b5ca5733977b66788e194b7adf87a3c6c26b9ca4c8b2cc180d"
+        }
+      },
+      {
+        "id": "evidence_17_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/sys-404-desktop-1440.png"
+      },
+      {
+        "id": "evidence_17_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "272fec3de9c4491980480b8f06d414dec1803ff2",
+          "blob_sha256": "5b2df7ede78364b5ca5733977b66788e194b7adf87a3c6c26b9ca4c8b2cc180d",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_17_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_18_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/sys-404-mobile-390.png"
+      },
+      {
+        "id": "evidence_18_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "SYS404-G9-AC02",
+            "SYS404-G9-AC05",
+            "SYS404-G9-AC06",
+            "SYS404-G9-AC07"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_18_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "72fa990c9d6f16647af0e5224a663300e8b8168a0df3a8db07735b2f12aed202",
+          "actual": "72fa990c9d6f16647af0e5224a663300e8b8168a0df3a8db07735b2f12aed202"
+        }
+      },
+      {
+        "id": "evidence_18_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/sys-404-mobile-390.png"
+      },
+      {
+        "id": "evidence_18_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "0a4f20d685b62e662f1cb5636adf1af64e95a0eb",
+          "blob_sha256": "72fa990c9d6f16647af0e5224a663300e8b8168a0df3a8db07735b2f12aed202",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_18_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_19_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/sys-404-tablet-768.png"
+      },
+      {
+        "id": "evidence_19_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "SYS404-G9-AC02",
+            "SYS404-G9-AC05",
+            "SYS404-G9-AC06",
+            "SYS404-G9-AC07"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_19_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "51a8357b214f834be6437f86c19cc7d38084c45d61dc185a6388942e7e995f17",
+          "actual": "51a8357b214f834be6437f86c19cc7d38084c45d61dc185a6388942e7e995f17"
+        }
+      },
+      {
+        "id": "evidence_19_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/runtime/sys-404-tablet-768.png"
+      },
+      {
+        "id": "evidence_19_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "0bfa0f8a30901a0b90dab387a0f0672e30edac2d",
+          "blob_sha256": "51a8357b214f834be6437f86c19cc7d38084c45d61dc185a6388942e7e995f17",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_19_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_20_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-failure.png"
+      },
+      {
+        "id": "evidence_20_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_20_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "ec954f26871ccedcb38b352e3a5d36d3c8725e954a8837298b9ea826a9868ec7",
+          "actual": "ec954f26871ccedcb38b352e3a5d36d3c8725e954a8837298b9ea826a9868ec7"
+        }
+      },
+      {
+        "id": "evidence_20_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-failure.png"
+      },
+      {
+        "id": "evidence_20_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "567d625e2228602c95aeebc952bc616544bb7b51",
+          "blob_sha256": "ec954f26871ccedcb38b352e3a5d36d3c8725e954a8837298b9ea826a9868ec7",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_20_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_21_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-submitting.png"
+      },
+      {
+        "id": "evidence_21_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_21_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "e5db06ec8ef3bc14d8ef2489b5de96696a3dfb1b1c233f3e90fd84513784abb9",
+          "actual": "e5db06ec8ef3bc14d8ef2489b5de96696a3dfb1b1c233f3e90fd84513784abb9"
+        }
+      },
+      {
+        "id": "evidence_21_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-submitting.png"
+      },
+      {
+        "id": "evidence_21_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "ee978e52fb6d33b267ddb19d20c872f1cbe7a496",
+          "blob_sha256": "e5db06ec8ef3bc14d8ef2489b5de96696a3dfb1b1c233f3e90fd84513784abb9",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_21_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_22_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-success.png"
+      },
+      {
+        "id": "evidence_22_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_22_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "71647f9dd5a743ae298114bae507bd7bd6a3fa9a587372cf296b37dc81b80207",
+          "actual": "71647f9dd5a743ae298114bae507bd7bd6a3fa9a587372cf296b37dc81b80207"
+        }
+      },
+      {
+        "id": "evidence_22_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-success.png"
+      },
+      {
+        "id": "evidence_22_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "e8685c8f1370eb8753af0e80b6232f6005397177",
+          "blob_sha256": "71647f9dd5a743ae298114bae507bd7bd6a3fa9a587372cf296b37dc81b80207",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_22_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_23_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-validation.png"
+      },
+      {
+        "id": "evidence_23_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_23_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "5236ae768ec030dc26a5f21420b6f837afbb681226bfc276eaf16fab740616d8",
+          "actual": "5236ae768ec030dc26a5f21420b6f837afbb681226bfc276eaf16fab740616d8"
+        }
+      },
+      {
+        "id": "evidence_23_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-validation.png"
+      },
+      {
+        "id": "evidence_23_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "8ca5107ebf914f28fc6752eeb056454cae23792e",
+          "blob_sha256": "5236ae768ec030dc26a5f21420b6f837afbb681226bfc276eaf16fab740616d8",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_23_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_24_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-sample-failure.png"
+      },
+      {
+        "id": "evidence_24_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_24_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "37e8fd9b9637a85230425372d4c2dce4ab570fb14666590032fc74c6cd9f79de",
+          "actual": "37e8fd9b9637a85230425372d4c2dce4ab570fb14666590032fc74c6cd9f79de"
+        }
+      },
+      {
+        "id": "evidence_24_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-sample-failure.png"
+      },
+      {
+        "id": "evidence_24_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "fb44fbcce5d732c05de4f78f7249f9e31552a4ef",
+          "blob_sha256": "37e8fd9b9637a85230425372d4c2dce4ab570fb14666590032fc74c6cd9f79de",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_24_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_25_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-sample-success.png"
+      },
+      {
+        "id": "evidence_25_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_25_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "91b05757f8f00bcfcdc6c3ed76f0435b678dfafb05d20d8dcdefcbdf5ad87075",
+          "actual": "91b05757f8f00bcfcdc6c3ed76f0435b678dfafb05d20d8dcdefcbdf5ad87075"
+        }
+      },
+      {
+        "id": "evidence_25_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/conv-sample-success.png"
+      },
+      {
+        "id": "evidence_25_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "d10666a1fb12ec0ae6962f01e6a75a1ff5e0112c",
+          "blob_sha256": "91b05757f8f00bcfcdc6c3ed76f0435b678dfafb05d20d8dcdefcbdf5ad87075",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_25_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_26_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/doc-simulated-receiver.json"
+      },
+      {
+        "id": "evidence_26_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "RECEIVER",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Generated from committed Gate 8 verification outputs",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_26_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "389164f584386c7ae2612a26dddc35c3935ed04d72c7e7fab984df6569811343",
+          "actual": "389164f584386c7ae2612a26dddc35c3935ed04d72c7e7fab984df6569811343"
+        }
+      },
+      {
+        "id": "evidence_26_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/doc-simulated-receiver.json"
+      },
+      {
+        "id": "evidence_26_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "9fbd76dd5da25a38c0fca80e239eda9170a284f5",
+          "blob_sha256": "389164f584386c7ae2612a26dddc35c3935ed04d72c7e7fab984df6569811343",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_26_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_27_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/rfq-simulated-receiver.json"
+      },
+      {
+        "id": "evidence_27_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "RECEIVER",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Generated from committed Gate 8 verification outputs",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_27_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "7cf8979c2724ffb3328be6503336159e5fb0f3b7354202e425683fb60d479af0",
+          "actual": "7cf8979c2724ffb3328be6503336159e5fb0f3b7354202e425683fb60d479af0"
+        }
+      },
+      {
+        "id": "evidence_27_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/rfq-simulated-receiver.json"
+      },
+      {
+        "id": "evidence_27_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "4b9daa2d7761356d3f97be030e6efefef8035075",
+          "blob_sha256": "7cf8979c2724ffb3328be6503336159e5fb0f3b7354202e425683fb60d479af0",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_27_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_28_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/rfq-simulated-success.png"
+      },
+      {
+        "id": "evidence_28_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "Playwright full-page screenshot; visually inspected contact sheet",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_28_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "7a8e93057a09edb169f5204df8cc8a4def7b203ef983bc03deea53b18f8285fc",
+          "actual": "7a8e93057a09edb169f5204df8cc8a4def7b203ef983bc03deea53b18f8285fc"
+        }
+      },
+      {
+        "id": "evidence_28_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/form-transition/rfq-simulated-success.png"
+      },
+      {
+        "id": "evidence_28_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "2c1151ebf1d482bf45bc7d868501cff83a27343d",
+          "blob_sha256": "7a8e93057a09edb169f5204df8cc8a4def7b203ef983bc03deea53b18f8285fc",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_28_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_29_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/build.log"
+      },
+      {
+        "id": "evidence_29_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "SYS404-G9-AC10",
+            "SYS404-G9-AC11",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "NEXT_DIST_DIR=.next-sys404-convthank-final npm run build",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_29_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "162f1668fe696d93db7ff048439343dd835c70b079a82e67824a7e082e9f1cc4",
+          "actual": "162f1668fe696d93db7ff048439343dd835c70b079a82e67824a7e082e9f1cc4"
+        }
+      },
+      {
+        "id": "evidence_29_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/build.log"
+      },
+      {
+        "id": "evidence_29_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "d228724bfc87b96e51e725a3ac7fea2ed925bb9f",
+          "blob_sha256": "3dc8575bc1bb5c08e4f1d1b5d9a4bfb2203a72f8a890e21958ee9c2c0d854ef5",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_29_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_30_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/targeted-vitest.log"
+      },
+      {
+        "id": "evidence_30_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "SYS404-G9-AC08",
+            "SYS404-G9-AC09",
+            "CT-G9-10",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "npx vitest run <nine SYS-404/CONV-THANK suites>",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_30_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "f7a3b2d5286db945ee5cb1fc0eb2156f7ac53b234755ab115b4616f7015cb563",
+          "actual": "f7a3b2d5286db945ee5cb1fc0eb2156f7ac53b234755ab115b4616f7015cb563"
+        }
+      },
+      {
+        "id": "evidence_30_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/targeted-vitest.log"
+      },
+      {
+        "id": "evidence_30_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "b180cf914eb2ba15affee789bc28cd0ac8ba9ea0",
+          "blob_sha256": "0157793ead99dc71aee9ecea62dff5480ea6c912681be90782c3d85de1241d0b",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_30_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_31_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/playwright-final.log"
+      },
+      {
+        "id": "evidence_31_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "SYS404-G9-AC08",
+            "SYS404-G9-AC09",
+            "CT-G9-10",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "npx playwright test --config=playwright.sys404-convthank.config.ts",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_31_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "387ebe16921fa37fadcca59e61b422e3bea4158e449682e59fa2e98073e702a2",
+          "actual": "387ebe16921fa37fadcca59e61b422e3bea4158e449682e59fa2e98073e702a2"
+        }
+      },
+      {
+        "id": "evidence_31_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/playwright-final.log"
+      },
+      {
+        "id": "evidence_31_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "1b9457d038711bc427fc43d0909083bbca18ec70",
+          "blob_sha256": "53117ec86c372d7af51bdd51fd51c9f3cde835ef7647c0c1005a58b6df694924",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_31_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_32_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/form-transition-final.log"
+      },
+      {
+        "id": "evidence_32_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "npx playwright test <three source-form specs> -g positive-receipt",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_32_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "76bfd513ca2542271990874ebfb8b37a190f3841873b005b26d26cb4e34cf284",
+          "actual": "76bfd513ca2542271990874ebfb8b37a190f3841873b005b26d26cb4e34cf284"
+        }
+      },
+      {
+        "id": "evidence_32_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/form-transition-final.log"
+      },
+      {
+        "id": "evidence_32_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "4a3eba8f50f19af8e8bb82e480c7f7bb03d3bff2",
+          "blob_sha256": "703062ab6e9dd8f3f543ea209a99bc39166d4d929e6213051cc0adc2f126ba6d",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_32_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_33_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/sample-transition-final.log"
+      },
+      {
+        "id": "evidence_33_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "CT-G9-05",
+            "CT-G9-06",
+            "CT-G9-07",
+            "CT-G9-08",
+            "CT-G9-10"
+          ],
+          "command": "npx playwright test tests/e2e/request-sample.spec.ts -g explicit-receipt",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_33_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "c8f884eb29982a084abf7fd5bbc8d0727778e4ddf29b3faf0842c50284f9498e",
+          "actual": "c8f884eb29982a084abf7fd5bbc8d0727778e4ddf29b3faf0842c50284f9498e"
+        }
+      },
+      {
+        "id": "evidence_33_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/sample-transition-final.log"
+      },
+      {
+        "id": "evidence_33_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "b4ffc5359131eecfe3bf22a2f872e2a134ab584a",
+          "blob_sha256": "c1b1908ff49f40c32278537c4b3f3c90817e8c27d7ab8a4e3c5f6b6733a6904f",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_33_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_34_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/typecheck.log"
+      },
+      {
+        "id": "evidence_34_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "SYS404-G9-AC08",
+            "SYS404-G9-AC09",
+            "CT-G9-10",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "npm run typecheck",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_34_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+          "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+        }
+      },
+      {
+        "id": "evidence_34_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/typecheck.log"
+      },
+      {
+        "id": "evidence_34_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+          "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_34_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_35_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/unit-full.log"
+      },
+      {
+        "id": "evidence_35_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "SYS404-G9-AC08",
+            "SYS404-G9-AC09",
+            "CT-G9-10",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "npm test",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_35_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "894832125f2baa01fc7aef8a29601fd4ebf3723c44c47ee5cd8d3184d4e7df4e",
+          "actual": "894832125f2baa01fc7aef8a29601fd4ebf3723c44c47ee5cd8d3184d4e7df4e"
+        }
+      },
+      {
+        "id": "evidence_35_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/unit-full.log"
+      },
+      {
+        "id": "evidence_35_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "f9d942d97a378eb45ed109c7a415d85d76f37ac2",
+          "blob_sha256": "156f4d745e8108c24e78cda0c8c0f7f4ec230b9fa8471cb6b74f1bb93172cd3b",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_35_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_36_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/lint-full.log"
+      },
+      {
+        "id": "evidence_36_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "SYS404-G9-AC08",
+            "SYS404-G9-AC09",
+            "CT-G9-10",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "npm run lint",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_36_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "668e39102b9b8da0973e734dc512cd43987a2f7a775d84ff4d5f9736181a68b2",
+          "actual": "668e39102b9b8da0973e734dc512cd43987a2f7a775d84ff4d5f9736181a68b2"
+        }
+      },
+      {
+        "id": "evidence_36_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/lint-full.log"
+      },
+      {
+        "id": "evidence_36_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "02d3161cb228dfdeaff5bd2b83b9e5ea007b09b5",
+          "blob_sha256": "a6269b94f0c3ce08820b1fb182b9c3ced9e6060cc812dd8265e07cf7ce344282",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_36_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_37_missing",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/baseline-five-core-review.log"
+      },
+      {
+        "id": "evidence_37_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "SYS404-G9-AC08",
+            "SYS404-G9-AC09",
+            "CT-G9-10",
+            "CT-G9-15",
+            "CT-G9-16"
+          ],
+          "command": "npx vitest run tests/unit/editorial/five-core-review.test.ts (main comparison)",
+          "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:4381; no external submission"
+        }
+      },
+      {
+        "id": "evidence_37_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "3017ba48bab7b36d58446803cbb8f8a6c4226acadc088ab747d1334668785146",
+          "actual": "3017ba48bab7b36d58446803cbb8f8a6c4226acadc088ab747d1334668785146"
+        }
+      },
+      {
+        "id": "evidence_37_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/logs/baseline-five-core-review.log"
+      },
+      {
+        "id": "evidence_37_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "9fa001f90593102cf3bb280119db4d89e23b8a5f",
+          "blob_sha256": "b656f504e234718e1e46e442b74d10310351c74b263d9a7493fbec1c891143f3",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_37_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "receipt_references_declared",
+        "result": "PASS",
+        "detail": {
+          "undeclared": []
+        }
+      },
+      {
+        "id": "receipt_exists",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/GATE8_IMPLEMENTATION_RECEIPT_2026-09-08.md"
+      },
+      {
+        "id": "receipt_actual_references",
+        "result": "PASS",
+        "detail": {
+          "declared": [
+            "docs/verification/sys404-convthank/gate8/acceptance-summary.json",
+            "docs/verification/sys404-convthank/gate8/build-id.txt",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-failure.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-submitting.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-success.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-validation.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-sample-failure.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-sample-success.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/doc-simulated-receiver.json",
+            "docs/verification/sys404-convthank/gate8/form-transition/rfq-simulated-receiver.json",
+            "docs/verification/sys404-convthank/gate8/form-transition/rfq-simulated-success.png",
+            "docs/verification/sys404-convthank/gate8/logs/baseline-five-core-review.log",
+            "docs/verification/sys404-convthank/gate8/logs/build.log",
+            "docs/verification/sys404-convthank/gate8/logs/form-transition-final.log",
+            "docs/verification/sys404-convthank/gate8/logs/lint-full.log",
+            "docs/verification/sys404-convthank/gate8/logs/playwright-final.log",
+            "docs/verification/sys404-convthank/gate8/logs/sample-transition-final.log",
+            "docs/verification/sys404-convthank/gate8/logs/targeted-vitest.log",
+            "docs/verification/sys404-convthank/gate8/logs/typecheck.log",
+            "docs/verification/sys404-convthank/gate8/logs/unit-full.log",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/runtime-contract.json",
+            "docs/verification/sys404-convthank/gate8/runtime/sys-404-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/sys-404-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/sys-404-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/thank-you-negative-state-matrix.json",
+            "docs/verification/sys404-convthank/gate8/runtime/visual-contact-sheet.jpg"
+          ],
+          "actual": [
+            "docs/verification/sys404-convthank/gate8/acceptance-summary.json",
+            "docs/verification/sys404-convthank/gate8/build-id.txt",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-failure.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-submitting.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-success.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-doc-state-validation.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-sample-failure.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/conv-sample-success.png",
+            "docs/verification/sys404-convthank/gate8/form-transition/doc-simulated-receiver.json",
+            "docs/verification/sys404-convthank/gate8/form-transition/rfq-simulated-receiver.json",
+            "docs/verification/sys404-convthank/gate8/form-transition/rfq-simulated-success.png",
+            "docs/verification/sys404-convthank/gate8/logs/baseline-five-core-review.log",
+            "docs/verification/sys404-convthank/gate8/logs/build.log",
+            "docs/verification/sys404-convthank/gate8/logs/form-transition-final.log",
+            "docs/verification/sys404-convthank/gate8/logs/lint-full.log",
+            "docs/verification/sys404-convthank/gate8/logs/playwright-final.log",
+            "docs/verification/sys404-convthank/gate8/logs/sample-transition-final.log",
+            "docs/verification/sys404-convthank/gate8/logs/targeted-vitest.log",
+            "docs/verification/sys404-convthank/gate8/logs/typecheck.log",
+            "docs/verification/sys404-convthank/gate8/logs/unit-full.log",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-direct-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-documents-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-quote-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/conv-thank-sample-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/runtime-contract.json",
+            "docs/verification/sys404-convthank/gate8/runtime/sys-404-desktop-1440.png",
+            "docs/verification/sys404-convthank/gate8/runtime/sys-404-mobile-390.png",
+            "docs/verification/sys404-convthank/gate8/runtime/sys-404-tablet-768.png",
+            "docs/verification/sys404-convthank/gate8/runtime/thank-you-negative-state-matrix.json",
+            "docs/verification/sys404-convthank/gate8/runtime/visual-contact-sheet.jpg"
+          ],
+          "undeclared_in_receipt": [],
+          "missing_from_receipt": []
+        }
+      },
+      {
+        "id": "receipt_committed",
+        "result": "PASS",
+        "detail": "docs/verification/sys404-convthank/gate8/GATE8_IMPLEMENTATION_RECEIPT_2026-09-08.md"
+      },
+      {
+        "id": "receipt_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      }
+    ]
+  },
+  "runtime": null
+}

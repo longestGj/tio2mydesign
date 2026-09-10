@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "dispatch_id": "PRERELEASE-3100-IL-G8-REPAIR-20260910-01",
+  "review_id": "PRERELEASE-3100-IL-RR-20260910-01",
+  "authorized_by": "USER_EXPLICIT_START_2026-09-10",
+  "package": {
+    "path": "D:/23MySec/docs/architecture/internal-link-review/prerelease-3100-2026-09-10/PRERELEASE_3100_GATE8_REPAIR_AUTHORIZATION_AND_DISPATCH_V1.0.md",
+    "sha256_at_dispatch": "4eb06c16caa7e93e54d06ad60727cacc595356c5dcff9ab2cb3c23a3f1b26db7"
+  },
+  "recipient": {
+    "title": "01My开发2",
+    "user_context_alias": "00MY开发2",
+    "thread_id": "01a07e6a-546d-7532-aa06-02d2bffd5eed",
+    "host_id": "local",
+    "workspace": "D:/16Wordpress_nextjs"
+  },
+  "delivered_at": "2026-09-10T20:27:00+08:00",
+  "delivery_result": "DELIVERED",
+  "recipient_state_after_delivery": "ACTIVE",
+  "scope": [
+    "SCT-G9-F02-CONTACT-TARGET",
+    "ILR3100-F01-CANONICAL-REDIRECT-PARITY"
+  ],
+  "current_state": "REPAIR_COMPLETE_TARGETED_RECHECK_PASS",
+  "next_event": "GATE9_READABLE_INTAKE_ACKNOWLEDGEMENT",
+  "gate8_return": {
+    "implementation_commit": "c18abbc5f7216508e16163c0dfe25b0e0ecc64a6",
+    "evidence_head": "de8128e57a34877fc90366c8a61af084dd22b64c",
+    "build_id": "ATKoXHh9g15QA-Y6c8Y2H",
+    "runtime": "http://127.0.0.1:4511",
+    "manifest_sha256": "734ae37e7d8630477132046c069097d8119a8e4b8d71ae6660c56afc504d76ac"
+  },
+  "independent_recheck": {
+    "status": "PASS_FOR_EXACT_CANDIDATE",
+    "report": "D:/23MySec/docs/architecture/internal-link-review/prerelease-3100-2026-09-10/PRERELEASE_3100_INTERNAL_LINK_TARGETED_RECHECK_V1.0.md",
+    "report_sha256": "ae8b29321b0bb1fa1e71bf29dc0f96ea8bcfdd4b2d134abc10ac57e467b4a332",
+    "evidence": "D:/23MySec/docs/architecture/internal-link-review/prerelease-3100-2026-09-10/PRERELEASE_3100_INTERNAL_LINK_TARGETED_RECHECK_EVIDENCE_V1.0.json",
+    "evidence_sha256": "24d98e73aff225469fc9323266ee2d6bb2e758417029f84e9124555972bf7b9b",
+    "findings": [
+      {
+        "id": "SCT-G9-F02-CONTACT-TARGET",
+        "status": "CLOSED_FOR_EXACT_CANDIDATE"
+      },
+      {
+        "id": "ILR3100-F01-CANONICAL-REDIRECT-PARITY",
+        "status": "CLOSED_FOR_EXACT_CANDIDATE"
+      }
+    ],
+    "page_gate9": "NOT_DETERMINED_BY_SPECIALIST_RECHECK",
+    "release": "NOT_AUTHORIZED"
+  },
+  "notifications": {
+    "gate8": "PASS_NOTICE_ACKNOWLEDGED_REPAIR_STOPPED_RUNTIME_HELD_FOR_GATE9",
+    "gate9": "DELIVERED_NO_READABLE_ACK_OR_REGISTRATION_FILE_YET",
+    "runtime_4511": "KEEP_UNTIL_GATE9_ACKNOWLEDGES_INTAKE"
+  }
+}

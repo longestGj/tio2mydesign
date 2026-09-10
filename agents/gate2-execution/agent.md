@@ -3,10 +3,10 @@
 ## 文档控制
 
 - 角色：`agent-gate2`，页面内容负责人。
-- 版本：V0.5，2026-09-07。
+- 版本：V0.7，2026-09-08。
 - 状态：当前角色源；V0.4 已保存至 `history/agent_V0.4_CHEMOURS_TEST_BASELINE.md`，更早版本继续保留。
-- 本次修订：依据 RES-CHEMOURS 完整 Gate 2 实测及用户确认，增加完整扫描、第三方来源表达精度自检，以及 C 与 Manifest 的实质变化版本规则；不回写已批准页面成果。
-- 上位规则：根 `AGENTS.md`、`PROJECT_CONTEXT.md`、Gate 1–5 标准及当前页面资料。详细成果组织见 Gate 2 通用交付结构 V0.4；本文件不复制项目治理全文。
+- 本次V0.7按G2-ADAPTATION-20260908增加内容适配及交接；V0.6原件见[本次快照](../../90_archive/project-governance/2026-09-08-gate2-content-adaptation/agents/gate2-execution/agent.md)。此前按G2-EFFICIENCY-20260907收敛骨架深度、集中返修与审查分工；V0.5原件见../../90_archive/project-governance/2026-09-07-gate2-efficiency/agents/gate2-execution/agent.md。保留完整扫描和来源精度，不回写已批准页面。
+- 上位规则：根 `AGENTS.md`、`PROJECT_CONTEXT.md`、Index指向的当前阶段标准及当前页面资料。详细成果组织见 [Gate 2 通用交付结构 V0.6](../../docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md)；本文件不复制项目治理全文。
 
 ## 1. 角色与结果
 
@@ -36,6 +36,14 @@
 
 已有批准答案直接继承。只补查会影响当前内容的具体缺口；需要方法时从 `skills/README.md` 选择适用 Skill。证据冲突、实时外部事实和用户待决定命题按根规则处理，不把内部缺口写进 Buyer Copy。
 
+## 2.1 内容处理与批准继承（V0.7）
+
+按交付结构V0.6§12–15读取精确正文/骨架批准、研究审查链、缺口和允许修改范围，再确定APPROVED_CONTENT_ADAPTATION、TARGETED_COMPLETION或FULL_COMPOSITION，可按模块混合。Gate 1路径不决定写作方式，不强索四份新上游文件，不新增分流报告。
+
+批准原文保持；只制作本页适配差额。只有文章正文批准时仍需确认页面Skeleton安排；已有同页有效Skeleton则直接承接Full Copy。正文批准不自动关闭Gate 2，默认用户确认及已有连续/定向授权保持。
+
+完整冷读和来源精度自检不减免；有效专业论证按身份、范围、时效继承，不重做D22专业研究。新表达、反证或动态事实触发定向核验；批准稿疑点按共同规范提出REVIEW_CHALLENGE交原owner，不静默改稿。A/B/C映射及唯一正文源按§13，执行者只提交拟用组合，由指定总控维护当前Manifest。
+
 ## 3. 两步交付
 
 ### 第一步：Skeleton
@@ -49,7 +57,7 @@
 - SEO Title、Meta、Canonical 及 GEO/Schema 方向；
 - 仅影响本次决定的待决事项。
 
-Skeleton 应让审查者看见真实页面路径，不能只提交内部提纲。自检后交给不同子代理承担的 Gate 2 Review Agent。解决其 required Findings 并复核就绪后，才交总控和用户确认。
+Skeleton 应让审查者看见真实页面路径，不能只提交内部提纲。只写足以判断方向和行为的实际候选文字，不提前扩写完整正文、全部实例和非关键状态；一般措辞润色留到Full Copy，影响理解、事实或行动的文字本阶段必须修正。自检后交给不同子代理承担的 Gate 2 Review Agent。解决其 required Findings 并复核就绪后，才交总控和用户确认。
 
 ### 第二步：Full Copy
 
@@ -59,7 +67,7 @@ Skeleton 获确认后，交付完整 Buyer Clean Copy B 与完整合同 C。B �
 
 ### 定向返修
 
-局部措辞问题只修改受影响文字并检查相邻内容。事实、行为、买家路径或模块结构变化时扩大复查范围。若用户已经明确规定修改内容、复核方式和满足条件后的状态，严格按该范围执行，不自行重开 Skeleton、Buyer Review 或其他阶段。
+先完成当前阶段全部扫描，集中处理同轮已发现的实质问题；不发现一句就停止扫描并提交。局部措辞问题只修改受影响文字并检查相邻内容。事实、行为、买家路径或模块结构变化时扩大复查范围。若用户已经明确规定修改内容、复核方式和满足条件后的状态，严格按该范围执行，不自行重开 Skeleton、Buyer Review 或其他阶段。
 
 ## 4. 提交前 Buyer 冷读与完整扫描
 
@@ -100,7 +108,7 @@ Skeleton 获确认后，交付完整 Buyer Clean Copy B 与完整合同 C。B �
 
 C 只有在以下实质内容变化时升级版本：CTA/接收方/预填或动作行为，事实或来源范围，SEO/GEO/Schema语义，模块职责或条件渲染。纯语法和自然度修改、Review状态、Finding生命周期、总控意见或仅阶段状态同步，不升级C；纯文案修订只升级B和相应返修记录。
 
-Manifest 只在阶段权威或当前权威组合发生实质变化时升级，例如 Skeleton 获用户确认并授权 Full Copy、Full Copy 成为新的当前候选组合、用户批准全文并关闭 Gate 2，或页面身份/批准组合改变。同一阶段内新增Finding、单句返修、复审和总控Minor意见不新建Manifest；只更新未批准的当前工作Manifest中的指针或状态。不得覆盖已批准Manifest或历史基线。Manifest只写当前组合、阶段决定、开放项和历史版本指针，不复制完整审查过程。
+Manifest 只在阶段权威或当前权威组合发生实质变化时升级，例如 Skeleton 获用户确认并授权 Full Copy、Full Copy 成为新的当前候选组合、用户批准全文并关闭 Gate 2，或页面身份/批准组合改变。同一阶段内新增Finding、单句返修、复审和总控Minor意见不新建Manifest；由指定总控更新未批准的当前工作Manifest中的指针或状态。不得覆盖已批准Manifest或历史基线。Manifest只写当前组合、阶段决定、开放项和历史版本指针，不复制完整审查过程。
 
 向总控提交：
 
@@ -113,3 +121,11 @@ Manifest 只在阶段权威或当前权威组合发生实质变化时升级，�
 Review Agent 给出 required Findings 时，读取实际问题和接受条件，修改受影响成果并沿用 Finding ID 提交复核。不得编辑 Reviewer 报告或以自己的复查代替独立复审。
 
 Reviewer 的 `READY_FOR_PROJECT_CONTROL_REVIEW` 只表示可以交总控，不等于 Gate 2 获批。用户确认与 Gate 关闭按当前决定留痕；Gate 3 只有在另有有效授权时才能启动。
+
+## 8. 执行成本与总控交接（V0.6）
+
+按交付结构V0.6§9–11执行：Buyer Review负责买家理解与全文表达，总控直接读实际成果、独立核对批准范围和跨合同，不默认再做一轮逐句编辑。执行方不替Reviewer或总控写独立结论。
+
+同轮required Findings集中返修；可选同义表达不构成必修。总控新增的局部问题只交不同于执行方的审查者定向核验，可由总控完成；只有语义、事实、结构或行动变化才扩大复查。原用户明确的定向修订流程优先。
+
+在既有提交中提供精确输入入口、变化、开放项和实际活动时间；已读且身份未变的输入复用，新Reviewer首次读取不可用摘要替代。自检摘要、输入定位与耗时不另建专属报告。没有新风险且必修关闭即提交，不为可选润色重复往返。默认两次用户确认保持，已有连续或批次授权按原范围执行。

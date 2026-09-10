@@ -1,0 +1,1379 @@
+{
+  "schema_version": "1.0",
+  "review_id": "PRERELEASE-3100-IL-RR-20260910-01",
+  "mode": "RUNTIME_REVIEW",
+  "site_scope": "tio2-my",
+  "allowed_origin": "http://127.0.0.1:3100",
+  "method": {
+    "navigation": "GET only; sequential registry route capture; unique same-origin target GET; no forms/actions/external requests",
+    "concurrency": 1,
+    "max_redirect_hops": 8,
+    "request_timeout_seconds": 15,
+    "runtime_dom": "Hydrated DOM independently inspected through in-app Chromium; 58 concrete-route hydrated count matched server HTML exactly; SYS-404 is recorded from its hydrated DOM because raw 404 HTML is an RSC shell"
+  },
+  "started_at_utc": "2026-09-10T11:19:35.777178+00:00",
+  "completed_at_utc": "2026-09-10T11:19:51.543703+00:00",
+  "request_errors": [],
+  "registry_redirect_chains": {
+    "/": [
+      {
+        "url": "http://127.0.0.1:3100/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 43.0
+      }
+    ],
+    "/about/": [
+      {
+        "url": "http://127.0.0.1:3100/about/",
+        "status": 308,
+        "location": "/about",
+        "elapsed_ms": 23.8
+      },
+      {
+        "url": "http://127.0.0.1:3100/about",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 25.2
+      }
+    ],
+    "/markets/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 23.5
+      }
+    ],
+    "/markets/european-union/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/european-union/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 26.5
+      }
+    ],
+    "/markets/germany/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/germany/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 844.5
+      }
+    ],
+    "/markets/italy/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/italy/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 392.4
+      }
+    ],
+    "/markets/spain/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/spain/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 21.0
+      }
+    ],
+    "/markets/poland/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/poland/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 15.1
+      }
+    ],
+    "/markets/netherlands/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/netherlands/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 16.4
+      }
+    ],
+    "/markets/belgium/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/belgium/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 25.4
+      }
+    ],
+    "/markets/united-kingdom/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/united-kingdom/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 18.5
+      }
+    ],
+    "/markets/india/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/india/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 15.3
+      }
+    ],
+    "/markets/brazil/": [
+      {
+        "url": "http://127.0.0.1:3100/markets/brazil/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 18.5
+      }
+    ],
+    "/pt-br/markets/brazil/": [
+      {
+        "url": "http://127.0.0.1:3100/pt-br/markets/brazil/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 18.7
+      }
+    ],
+    "/products/": [
+      {
+        "url": "http://127.0.0.1:3100/products/",
+        "status": 308,
+        "location": "/products",
+        "elapsed_ms": 16.9
+      },
+      {
+        "url": "http://127.0.0.1:3100/products",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 20.6
+      }
+    ],
+    "/products/chloride-process-titanium-dioxide/": [
+      {
+        "url": "http://127.0.0.1:3100/products/chloride-process-titanium-dioxide/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 18.6
+      }
+    ],
+    "/products/sulfate-process-titanium-dioxide/": [
+      {
+        "url": "http://127.0.0.1:3100/products/sulfate-process-titanium-dioxide/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 765.5
+      }
+    ],
+    "/products/m-350/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-350/",
+        "status": 308,
+        "location": "/products/m-350",
+        "elapsed_ms": 16.6
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-350",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 19.4
+      }
+    ],
+    "/products/m-510/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-510/",
+        "status": 308,
+        "location": "/products/m-510",
+        "elapsed_ms": 23.1
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-510",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 17.4
+      }
+    ],
+    "/products/m-896/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-896/",
+        "status": 308,
+        "location": "/products/m-896",
+        "elapsed_ms": 11.2
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-896",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 13.0
+      }
+    ],
+    "/products/m-996/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-996/",
+        "status": 308,
+        "location": "/products/m-996",
+        "elapsed_ms": 40.6
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-996",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 28.4
+      }
+    ],
+    "/products/m-2196/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-2196/",
+        "status": 308,
+        "location": "/products/m-2196",
+        "elapsed_ms": 22.3
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-2196",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 19.7
+      }
+    ],
+    "/products/m-895/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-895/",
+        "status": 308,
+        "location": "/products/m-895",
+        "elapsed_ms": 21.1
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-895",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 20.9
+      }
+    ],
+    "/products/m-200/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-200/",
+        "status": 308,
+        "location": "/products/m-200",
+        "elapsed_ms": 17.1
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-200",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 21.0
+      }
+    ],
+    "/products/m-108/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-108/",
+        "status": 308,
+        "location": "/products/m-108",
+        "elapsed_ms": 13.0
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-108",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 23.5
+      }
+    ],
+    "/products/m-210/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-210/",
+        "status": 308,
+        "location": "/products/m-210",
+        "elapsed_ms": 22.5
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-210",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 14.0
+      }
+    ],
+    "/products/m-340/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-340/",
+        "status": 308,
+        "location": "/products/m-340",
+        "elapsed_ms": 20.9
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-340",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 13.3
+      }
+    ],
+    "/products/m-886/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-886/",
+        "status": 308,
+        "location": "/products/m-886",
+        "elapsed_ms": 20.4
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-886",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 15.2
+      }
+    ],
+    "/products/m-52/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-52/",
+        "status": 308,
+        "location": "/products/m-52",
+        "elapsed_ms": 12.4
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-52",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 21.5
+      }
+    ],
+    "/products/m-2377/": [
+      {
+        "url": "http://127.0.0.1:3100/products/m-2377/",
+        "status": 308,
+        "location": "/products/m-2377",
+        "elapsed_ms": 13.1
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/m-2377",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 19.2
+      }
+    ],
+    "/products/cr-901/": [
+      {
+        "url": "http://127.0.0.1:3100/products/cr-901/",
+        "status": 308,
+        "location": "/products/cr-901",
+        "elapsed_ms": 14.0
+      },
+      {
+        "url": "http://127.0.0.1:3100/products/cr-901",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 14.3
+      }
+    ],
+    "/applications/": [
+      {
+        "url": "http://127.0.0.1:3100/applications/",
+        "status": 308,
+        "location": "/applications",
+        "elapsed_ms": 13.9
+      },
+      {
+        "url": "http://127.0.0.1:3100/applications",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 15.1
+      }
+    ],
+    "/applications/titanium-dioxide-for-coatings/": [
+      {
+        "url": "http://127.0.0.1:3100/applications/titanium-dioxide-for-coatings/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 564.7
+      }
+    ],
+    "/applications/titanium-dioxide-for-plastics/": [
+      {
+        "url": "http://127.0.0.1:3100/applications/titanium-dioxide-for-plastics/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 804.5
+      }
+    ],
+    "/applications/titanium-dioxide-for-masterbatch/": [
+      {
+        "url": "http://127.0.0.1:3100/applications/titanium-dioxide-for-masterbatch/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 632.8
+      }
+    ],
+    "/applications/titanium-dioxide-for-printing-inks/": [
+      {
+        "url": "http://127.0.0.1:3100/applications/titanium-dioxide-for-printing-inks/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 372.2
+      }
+    ],
+    "/applications/titanium-dioxide-for-paper/": [
+      {
+        "url": "http://127.0.0.1:3100/applications/titanium-dioxide-for-paper/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 285.9
+      }
+    ],
+    "/documents/": [
+      {
+        "url": "http://127.0.0.1:3100/documents/",
+        "status": 308,
+        "location": "/documents",
+        "elapsed_ms": 23.4
+      },
+      {
+        "url": "http://127.0.0.1:3100/documents",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 12.0
+      }
+    ],
+    "/documents/reach/": [
+      {
+        "url": "http://127.0.0.1:3100/documents/reach/",
+        "status": 308,
+        "location": "/documents/reach",
+        "elapsed_ms": 10.9
+      },
+      {
+        "url": "http://127.0.0.1:3100/documents/reach",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 12.8
+      }
+    ],
+    "/documents/tds-sds-coa/": [
+      {
+        "url": "http://127.0.0.1:3100/documents/tds-sds-coa/",
+        "status": 308,
+        "location": "/documents/tds-sds-coa",
+        "elapsed_ms": 12.5
+      },
+      {
+        "url": "http://127.0.0.1:3100/documents/tds-sds-coa",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 26.7
+      }
+    ],
+    "/documents/certificate-of-origin/": [
+      {
+        "url": "http://127.0.0.1:3100/documents/certificate-of-origin/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 38.0
+      }
+    ],
+    "/request-documents/": [
+      {
+        "url": "http://127.0.0.1:3100/request-documents/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 13.6
+      }
+    ],
+    "/resources/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/",
+        "status": 308,
+        "location": "/resources",
+        "elapsed_ms": 11.5
+      },
+      {
+        "url": "http://127.0.0.1:3100/resources",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 211.7
+      }
+    ],
+    "/resources/non-china-titanium-dioxide/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/non-china-titanium-dioxide/",
+        "status": 308,
+        "location": "/resources/non-china-titanium-dioxide",
+        "elapsed_ms": 12.4
+      },
+      {
+        "url": "http://127.0.0.1:3100/resources/non-china-titanium-dioxide",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 12.9
+      }
+    ],
+    "/resources/chloride-vs-sulfate-titanium-dioxide/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/chloride-vs-sulfate-titanium-dioxide/",
+        "status": 308,
+        "location": "/resources/chloride-vs-sulfate-titanium-dioxide",
+        "elapsed_ms": 12.6
+      },
+      {
+        "url": "http://127.0.0.1:3100/resources/chloride-vs-sulfate-titanium-dioxide",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 34.5
+      }
+    ],
+    "/resources/chemours-titanium-dioxide-alternatives/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/chemours-titanium-dioxide-alternatives/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 170.7
+      }
+    ],
+    "/resources/ti-pure-r-706-alternative/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/ti-pure-r-706-alternative/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 134.1
+      }
+    ],
+    "/resources/eu-titanium-dioxide-anti-dumping-duty/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/eu-titanium-dioxide-anti-dumping-duty/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 123.2
+      }
+    ],
+    "/resources/uk-titanium-dioxide-anti-dumping-investigation/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/uk-titanium-dioxide-anti-dumping-investigation/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 141.5
+      }
+    ],
+    "/resources/india-titanium-dioxide-anti-dumping-duty/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/india-titanium-dioxide-anti-dumping-duty/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 194.2
+      }
+    ],
+    "/resources/brazil-titanium-dioxide-anti-dumping-duty/": [
+      {
+        "url": "http://127.0.0.1:3100/resources/brazil-titanium-dioxide-anti-dumping-duty/",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 147.8
+      }
+    ],
+    "/request-a-quote/": [
+      {
+        "url": "http://127.0.0.1:3100/request-a-quote/",
+        "status": 308,
+        "location": "/request-a-quote",
+        "elapsed_ms": 12.8
+      },
+      {
+        "url": "http://127.0.0.1:3100/request-a-quote",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 12.5
+      }
+    ],
+    "/request-sample/": [
+      {
+        "url": "http://127.0.0.1:3100/request-sample/",
+        "status": 308,
+        "location": "/request-sample",
+        "elapsed_ms": 34.1
+      },
+      {
+        "url": "http://127.0.0.1:3100/request-sample",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 18.7
+      }
+    ],
+    "/contact/": [
+      {
+        "url": "http://127.0.0.1:3100/contact/",
+        "status": 308,
+        "location": "/contact",
+        "elapsed_ms": 13.3
+      },
+      {
+        "url": "http://127.0.0.1:3100/contact",
+        "status": 404,
+        "location": null,
+        "elapsed_ms": 19.3
+      }
+    ],
+    "/privacy-policy/": [
+      {
+        "url": "http://127.0.0.1:3100/privacy-policy/",
+        "status": 308,
+        "location": "/privacy-policy",
+        "elapsed_ms": 13.0
+      },
+      {
+        "url": "http://127.0.0.1:3100/privacy-policy",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 14.3
+      }
+    ],
+    "/ms/privacy-policy/": [
+      {
+        "url": "http://127.0.0.1:3100/ms/privacy-policy/",
+        "status": 308,
+        "location": "/ms/privacy-policy",
+        "elapsed_ms": 11.9
+      },
+      {
+        "url": "http://127.0.0.1:3100/ms/privacy-policy",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 13.4
+      }
+    ],
+    "/cookie-policy/": [
+      {
+        "url": "http://127.0.0.1:3100/cookie-policy/",
+        "status": 308,
+        "location": "/cookie-policy",
+        "elapsed_ms": 12.3
+      },
+      {
+        "url": "http://127.0.0.1:3100/cookie-policy",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 13.2
+      }
+    ],
+    "/thank-you/": [
+      {
+        "url": "http://127.0.0.1:3100/thank-you/",
+        "status": 308,
+        "location": "/thank-you",
+        "elapsed_ms": 12.5
+      },
+      {
+        "url": "http://127.0.0.1:3100/thank-you",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 15.8
+      }
+    ]
+  },
+  "unknown_route_check": {
+    "path": "/__internal-link-review-missing-route-20260910__/",
+    "chain": [
+      {
+        "url": "http://127.0.0.1:3100/__internal-link-review-missing-route-20260910__/",
+        "status": 308,
+        "location": "/__internal-link-review-missing-route-20260910__",
+        "elapsed_ms": 35.9
+      },
+      {
+        "url": "http://127.0.0.1:3100/__internal-link-review-missing-route-20260910__",
+        "status": 404,
+        "location": null,
+        "elapsed_ms": 18.0
+      }
+    ],
+    "error": null,
+    "page": {
+      "requested_path": "/__internal-link-review-missing-route-20260910__/",
+      "final_url": "http://127.0.0.1:3100/__internal-link-review-missing-route-20260910__",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "etag": null,
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "html_sha256": "a0bcf19d31bfca362564d3bf77de168b281a5aec5bdfe55d44fcd4ae64623932",
+      "html_bytes": 14090,
+      "site_scope_marker_count": 7,
+      "next_static_asset_count": 14,
+      "next_static_asset_fingerprint_sha256": "24dbf4a4c1ef26aa22908628029cdef77ab93c4df97dd66c387afbdd09d027a1",
+      "language": null,
+      "title": "Page Not Found | TiO2 Malaysia",
+      "h1": [],
+      "canonical": null,
+      "robots": [
+        "noindex",
+        "noindex, follow"
+      ],
+      "ids": [
+        "_R_",
+        "__next_error__"
+      ],
+      "body_excerpt": "Page Not Found | TiO2 Malaysia",
+      "links": [],
+      "pseudo_links": []
+    }
+  },
+  "robots": {
+    "chain": [
+      {
+        "url": "http://127.0.0.1:3100/robots.txt",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 14.4
+      }
+    ],
+    "error": null,
+    "content": "User-Agent: *\nDisallow: /\n\nHost: https://tio2malaysia.com\nSitemap: https://tio2malaysia.com/sitemap.xml\n",
+    "sha256": "83f285be1dc093ad848b3b902e1a983d91473ae316e7a762e337ee015d2d85df"
+  },
+  "sitemap": {
+    "chain": [
+      {
+        "url": "http://127.0.0.1:3100/sitemap.xml",
+        "status": 200,
+        "location": null,
+        "elapsed_ms": 29.7
+      }
+    ],
+    "error": null,
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://tio2malaysia.com/</loc>\n<lastmod>2026-09-09T02:01:46.000Z</lastmod>\n</url>\n</urlset>\n",
+    "locs": [
+      "https://tio2malaysia.com/"
+    ],
+    "sha256": "ab811b39b1b4e5cfc8ebe55d84845ce3a5dbd4730a8597939eb9402b228b0941"
+  },
+  "runtime_identity": {
+    "observable_only": true,
+    "root_etag": "\"12ltylxvzct1b2n\"",
+    "root_html_sha256": "8c66a0eaae2c07e988e046991a7349253859fe9df8aa5d222541f5be2d84f00e",
+    "nextjs_header_observed": true,
+    "exact_commit_run_build_not_proven": true,
+    "route_html_fingerprint_sha256": "d42691c36fa52a5f54b47f7333dd5c00b72eb1587f6a2d79cee3edbb2204ad38",
+    "root_site_scope_marker_count": 36,
+    "root_next_static_asset_count": 26,
+    "root_next_static_asset_fingerprint_sha256": "8ca244f85a8958f148c61bd1c02770f3de093970170c79946fc4fe7caee20c02"
+  },
+  "browser_hydrated_evidence": {
+    "registered_concrete_routes": 58,
+    "hydrated_routes_completed": 58,
+    "hydrated_route_errors": 0,
+    "hydrated_link_instances_before_sys404": 2461,
+    "hydrated_pseudo_link_instances": 0,
+    "sys404_hydrated_link_instances": 33,
+    "sys404_hydrated_h1": "Let’s help you find what you need.",
+    "sys404_contact_action_result": "GET /contact/ -> 308 /contact -> 404",
+    "mobile_menu_home_390x844": {
+      "opened": true,
+      "visible": true,
+      "link_order": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About",
+        "Request a Quote"
+      ],
+      "href_order": [
+        "/",
+        "/markets/",
+        "/products/",
+        "/applications/",
+        "/documents/",
+        "/resources/",
+        "/about/",
+        "/request-a-quote/"
+      ],
+      "aria_current": [
+        "Home"
+      ],
+      "desktop_primary_nav_display": "none"
+    }
+  },
+  "counts": {
+    "source_routes_requested": 58,
+    "source_routes_captured": 58,
+    "runtime_objects_reviewed_including_sys404": 59,
+    "current_prerelease_expected_objects": 58,
+    "current_prerelease_expected_concrete_routes": 57,
+    "dependency_probe_routes": 1,
+    "source_request_errors": 0,
+    "link_instances": 2494,
+    "pseudo_link_instances": 0,
+    "link_classification_counts": {
+      "same_origin_page": 2252,
+      "same_page_fragment": 123,
+      "external": 104,
+      "mailto": 15
+    },
+    "link_result_counts": {
+      "PASS": 776,
+      "REDIRECT_CANONICAL_MISMATCH": 1596,
+      "BROKEN_OR_NON_200": 3,
+      "NOT_REQUESTED_OUTSIDE_ALLOWED_NAVIGATION": 119
+    },
+    "unique_same_origin_targets": 109,
+    "discoverable_route_count_from_home": 56,
+    "discoverable_routes_from_home": [
+      "/",
+      "/about/",
+      "/applications/",
+      "/applications/titanium-dioxide-for-coatings/",
+      "/applications/titanium-dioxide-for-masterbatch/",
+      "/applications/titanium-dioxide-for-paper/",
+      "/applications/titanium-dioxide-for-plastics/",
+      "/applications/titanium-dioxide-for-printing-inks/",
+      "/cookie-policy/",
+      "/documents/",
+      "/documents/certificate-of-origin/",
+      "/documents/reach/",
+      "/documents/tds-sds-coa/",
+      "/markets/",
+      "/markets/belgium/",
+      "/markets/brazil/",
+      "/markets/european-union/",
+      "/markets/germany/",
+      "/markets/india/",
+      "/markets/italy/",
+      "/markets/netherlands/",
+      "/markets/poland/",
+      "/markets/spain/",
+      "/markets/united-kingdom/",
+      "/ms/privacy-policy/",
+      "/privacy-policy/",
+      "/products/",
+      "/products/chloride-process-titanium-dioxide/",
+      "/products/cr-901/",
+      "/products/m-108/",
+      "/products/m-200/",
+      "/products/m-210/",
+      "/products/m-2196/",
+      "/products/m-2377/",
+      "/products/m-340/",
+      "/products/m-350/",
+      "/products/m-510/",
+      "/products/m-52/",
+      "/products/m-886/",
+      "/products/m-895/",
+      "/products/m-896/",
+      "/products/m-996/",
+      "/products/sulfate-process-titanium-dioxide/",
+      "/pt-br/markets/brazil/",
+      "/request-a-quote/",
+      "/request-documents/",
+      "/request-sample/",
+      "/resources/",
+      "/resources/brazil-titanium-dioxide-anti-dumping-duty/",
+      "/resources/chemours-titanium-dioxide-alternatives/",
+      "/resources/chloride-vs-sulfate-titanium-dioxide/",
+      "/resources/eu-titanium-dioxide-anti-dumping-duty/",
+      "/resources/india-titanium-dioxide-anti-dumping-duty/",
+      "/resources/non-china-titanium-dioxide/",
+      "/resources/ti-pure-r-706-alternative/",
+      "/resources/uk-titanium-dioxide-anti-dumping-investigation/"
+    ],
+    "registered_routes_not_discoverable_from_home": [
+      "/contact/",
+      "/thank-you/"
+    ],
+    "zero_body_inlink_registered_routes": [
+      "/thank-you/"
+    ],
+    "zero_any_inlink_registered_routes": [
+      "/thank-you/"
+    ],
+    "sitemap_loc_count": 1,
+    "sitemap_locs": [
+      "https://tio2malaysia.com/"
+    ],
+    "redirected_link_instances": 1599,
+    "redirected_success_link_instances": 1596,
+    "redirected_broken_link_instances": 3,
+    "unique_redirected_targets": 48,
+    "unique_successful_redirected_targets": 47,
+    "canonical_path_mismatch_page_count": 29,
+    "canonical_path_mismatches": [
+      {
+        "page_id": "ABOUT-001",
+        "requested_path": "/about/",
+        "final_path": "/about",
+        "canonical_path": "/about/"
+      },
+      {
+        "page_id": "PRODUCT-000",
+        "requested_path": "/products/",
+        "final_path": "/products",
+        "canonical_path": "/products/"
+      },
+      {
+        "page_id": "GRADE-M350",
+        "requested_path": "/products/m-350/",
+        "final_path": "/products/m-350",
+        "canonical_path": "/products/m-350/"
+      },
+      {
+        "page_id": "GRADE-M510",
+        "requested_path": "/products/m-510/",
+        "final_path": "/products/m-510",
+        "canonical_path": "/products/m-510/"
+      },
+      {
+        "page_id": "GRADE-M896",
+        "requested_path": "/products/m-896/",
+        "final_path": "/products/m-896",
+        "canonical_path": "/products/m-896/"
+      },
+      {
+        "page_id": "GRADE-M996",
+        "requested_path": "/products/m-996/",
+        "final_path": "/products/m-996",
+        "canonical_path": "/products/m-996/"
+      },
+      {
+        "page_id": "GRADE-M2196",
+        "requested_path": "/products/m-2196/",
+        "final_path": "/products/m-2196",
+        "canonical_path": "/products/m-2196/"
+      },
+      {
+        "page_id": "GRADE-M895",
+        "requested_path": "/products/m-895/",
+        "final_path": "/products/m-895",
+        "canonical_path": "/products/m-895/"
+      },
+      {
+        "page_id": "GRADE-M200",
+        "requested_path": "/products/m-200/",
+        "final_path": "/products/m-200",
+        "canonical_path": "/products/m-200/"
+      },
+      {
+        "page_id": "GRADE-M108",
+        "requested_path": "/products/m-108/",
+        "final_path": "/products/m-108",
+        "canonical_path": "/products/m-108/"
+      },
+      {
+        "page_id": "GRADE-M210",
+        "requested_path": "/products/m-210/",
+        "final_path": "/products/m-210",
+        "canonical_path": "/products/m-210/"
+      },
+      {
+        "page_id": "GRADE-M340",
+        "requested_path": "/products/m-340/",
+        "final_path": "/products/m-340",
+        "canonical_path": "/products/m-340/"
+      },
+      {
+        "page_id": "GRADE-M886",
+        "requested_path": "/products/m-886/",
+        "final_path": "/products/m-886",
+        "canonical_path": "/products/m-886/"
+      },
+      {
+        "page_id": "GRADE-M52",
+        "requested_path": "/products/m-52/",
+        "final_path": "/products/m-52",
+        "canonical_path": "/products/m-52/"
+      },
+      {
+        "page_id": "GRADE-M2377",
+        "requested_path": "/products/m-2377/",
+        "final_path": "/products/m-2377",
+        "canonical_path": "/products/m-2377/"
+      },
+      {
+        "page_id": "GRADE-CR901",
+        "requested_path": "/products/cr-901/",
+        "final_path": "/products/cr-901",
+        "canonical_path": "/products/cr-901/"
+      },
+      {
+        "page_id": "APP-000",
+        "requested_path": "/applications/",
+        "final_path": "/applications",
+        "canonical_path": "/applications/"
+      },
+      {
+        "page_id": "DOC-000",
+        "requested_path": "/documents/",
+        "final_path": "/documents",
+        "canonical_path": "/documents/"
+      },
+      {
+        "page_id": "DOC-REACH",
+        "requested_path": "/documents/reach/",
+        "final_path": "/documents/reach",
+        "canonical_path": "/documents/reach/"
+      },
+      {
+        "page_id": "DOC-TDS",
+        "requested_path": "/documents/tds-sds-coa/",
+        "final_path": "/documents/tds-sds-coa",
+        "canonical_path": "/documents/tds-sds-coa/"
+      },
+      {
+        "page_id": "RES-000",
+        "requested_path": "/resources/",
+        "final_path": "/resources",
+        "canonical_path": "/resources/"
+      },
+      {
+        "page_id": "RES-ORIGIN",
+        "requested_path": "/resources/non-china-titanium-dioxide/",
+        "final_path": "/resources/non-china-titanium-dioxide",
+        "canonical_path": "/resources/non-china-titanium-dioxide/"
+      },
+      {
+        "page_id": "RES-PROC",
+        "requested_path": "/resources/chloride-vs-sulfate-titanium-dioxide/",
+        "final_path": "/resources/chloride-vs-sulfate-titanium-dioxide",
+        "canonical_path": "/resources/chloride-vs-sulfate-titanium-dioxide/"
+      },
+      {
+        "page_id": "CONV-RFQ",
+        "requested_path": "/request-a-quote/",
+        "final_path": "/request-a-quote",
+        "canonical_path": "/request-a-quote/"
+      },
+      {
+        "page_id": "CONV-SAMPLE",
+        "requested_path": "/request-sample/",
+        "final_path": "/request-sample",
+        "canonical_path": "/request-sample/"
+      },
+      {
+        "page_id": "LEGAL-PRIV-EN",
+        "requested_path": "/privacy-policy/",
+        "final_path": "/privacy-policy",
+        "canonical_path": "/privacy-policy/"
+      },
+      {
+        "page_id": "LEGAL-PRIV-MS",
+        "requested_path": "/ms/privacy-policy/",
+        "final_path": "/ms/privacy-policy",
+        "canonical_path": "/ms/privacy-policy/"
+      },
+      {
+        "page_id": "LEGAL-COOKIE-EN",
+        "requested_path": "/cookie-policy/",
+        "final_path": "/cookie-policy",
+        "canonical_path": "/cookie-policy/"
+      },
+      {
+        "page_id": "CONV-THANK",
+        "requested_path": "/thank-you/",
+        "final_path": "/thank-you",
+        "canonical_path": "/thank-you/"
+      }
+    ]
+  },
+  "derived_checks": {
+    "expected_set": {
+      "registered_objects": 59,
+      "authorized_prerelease_objects": 58,
+      "authorized_prerelease_concrete_routes": 57,
+      "authorized_runtime_fallback_objects": 1,
+      "excluded_dependency_probe": {
+        "page_id": "CONTACT-001",
+        "path": "/contact/"
+      }
+    },
+    "route_status": {
+      "expected_concrete_200": 57,
+      "expected_runtime_fallback_404": 1,
+      "contact_dependency_probe_404": 1
+    },
+    "shared_chrome": {
+      "objects_checked": 58,
+      "unique_header_footer_sequences": 1,
+      "mapped_objects_with_one_current_per_surface": 50,
+      "unmapped_objects_with_zero_current_per_surface": 8,
+      "expected_desktop_order": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "expected_mobile_order": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About",
+        "Request a Quote"
+      ],
+      "expected_legal_order": [
+        "Privacy Policy",
+        "Dasar Privasi (BM)",
+        "Cookie Policy"
+      ]
+    },
+    "relationship_matrix": {
+      "source": "D:\\23MySec\\pages\\products\\01_research\\PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+      "checks": [
+        {
+          "page_id": "APP-COAT",
+          "relation": "Coatings",
+          "expected_count": 8,
+          "actual_count": 8,
+          "missing": [],
+          "unexpected": [],
+          "result": "PASS"
+        },
+        {
+          "page_id": "APP-PLAS",
+          "relation": "Plastics",
+          "expected_count": 8,
+          "actual_count": 8,
+          "missing": [],
+          "unexpected": [],
+          "result": "PASS"
+        },
+        {
+          "page_id": "APP-MB",
+          "relation": "Masterbatch",
+          "expected_count": 7,
+          "actual_count": 7,
+          "missing": [],
+          "unexpected": [],
+          "result": "PASS"
+        },
+        {
+          "page_id": "APP-INK",
+          "relation": "Printing Inks",
+          "expected_count": 4,
+          "actual_count": 4,
+          "missing": [],
+          "unexpected": [],
+          "result": "PASS"
+        },
+        {
+          "page_id": "APP-PAPER",
+          "relation": "Paper",
+          "expected_count": 2,
+          "actual_count": 2,
+          "missing": [],
+          "unexpected": [],
+          "result": "PASS"
+        },
+        {
+          "page_id": "PRODUCT-PROC-CL",
+          "relation": "Chloride",
+          "expected_count": 8,
+          "actual_count": 8,
+          "missing": [],
+          "unexpected": [],
+          "result": "PASS"
+        },
+        {
+          "page_id": "PRODUCT-PROC-SU",
+          "relation": "Sulfate",
+          "expected_count": 5,
+          "actual_count": 5,
+          "missing": [],
+          "unexpected": [],
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    },
+    "hub_activation_observed": {
+      "APP-000_grade_occurrences": 30,
+      "APP-000_unique_grade_targets": 14,
+      "APP-000_child_application_targets": 5,
+      "APP-000_support_hub_targets": 3,
+      "PRODUCT-000_grade_link_instances": 23,
+      "PRODUCT-000_unique_grade_targets": 14,
+      "PRODUCT-000_process_targets": 2,
+      "PRODUCT-000_support_hub_targets": 3,
+      "RES-000_unique_resource_targets": 8
+    },
+    "fragments": {
+      "instances": 123,
+      "missing": 0
+    },
+    "redirect_and_canonical": {
+      "redirected_link_instances": 1599,
+      "successful_308_to_200_instances": 1596,
+      "contact_308_to_404_instances": 3,
+      "unique_redirected_target_variants": 48,
+      "canonical_path_mismatches": [
+        {
+          "page_id": "ABOUT-001",
+          "requested_path": "/about/",
+          "final_path": "/about",
+          "canonical_path": "/about/"
+        },
+        {
+          "page_id": "PRODUCT-000",
+          "requested_path": "/products/",
+          "final_path": "/products",
+          "canonical_path": "/products/"
+        },
+        {
+          "page_id": "GRADE-M350",
+          "requested_path": "/products/m-350/",
+          "final_path": "/products/m-350",
+          "canonical_path": "/products/m-350/"
+        },
+        {
+          "page_id": "GRADE-M510",
+          "requested_path": "/products/m-510/",
+          "final_path": "/products/m-510",
+          "canonical_path": "/products/m-510/"
+        },
+        {
+          "page_id": "GRADE-M896",
+          "requested_path": "/products/m-896/",
+          "final_path": "/products/m-896",
+          "canonical_path": "/products/m-896/"
+        },
+        {
+          "page_id": "GRADE-M996",
+          "requested_path": "/products/m-996/",
+          "final_path": "/products/m-996",
+          "canonical_path": "/products/m-996/"
+        },
+        {
+          "page_id": "GRADE-M2196",
+          "requested_path": "/products/m-2196/",
+          "final_path": "/products/m-2196",
+          "canonical_path": "/products/m-2196/"
+        },
+        {
+          "page_id": "GRADE-M895",
+          "requested_path": "/products/m-895/",
+          "final_path": "/products/m-895",
+          "canonical_path": "/products/m-895/"
+        },
+        {
+          "page_id": "GRADE-M200",
+          "requested_path": "/products/m-200/",
+          "final_path": "/products/m-200",
+          "canonical_path": "/products/m-200/"
+        },
+        {
+          "page_id": "GRADE-M108",
+          "requested_path": "/products/m-108/",
+          "final_path": "/products/m-108",
+          "canonical_path": "/products/m-108/"
+        },
+        {
+          "page_id": "GRADE-M210",
+          "requested_path": "/products/m-210/",
+          "final_path": "/products/m-210",
+          "canonical_path": "/products/m-210/"
+        },
+        {
+          "page_id": "GRADE-M340",
+          "requested_path": "/products/m-340/",
+          "final_path": "/products/m-340",
+          "canonical_path": "/products/m-340/"
+        },
+        {
+          "page_id": "GRADE-M886",
+          "requested_path": "/products/m-886/",
+          "final_path": "/products/m-886",
+          "canonical_path": "/products/m-886/"
+        },
+        {
+          "page_id": "GRADE-M52",
+          "requested_path": "/products/m-52/",
+          "final_path": "/products/m-52",
+          "canonical_path": "/products/m-52/"
+        },
+        {
+          "page_id": "GRADE-M2377",
+          "requested_path": "/products/m-2377/",
+          "final_path": "/products/m-2377",
+          "canonical_path": "/products/m-2377/"
+        },
+        {
+          "page_id": "GRADE-CR901",
+          "requested_path": "/products/cr-901/",
+          "final_path": "/products/cr-901",
+          "canonical_path": "/products/cr-901/"
+        },
+        {
+          "page_id": "APP-000",
+          "requested_path": "/applications/",
+          "final_path": "/applications",
+          "canonical_path": "/applications/"
+        },
+        {
+          "page_id": "DOC-000",
+          "requested_path": "/documents/",
+          "final_path": "/documents",
+          "canonical_path": "/documents/"
+        },
+        {
+          "page_id": "DOC-REACH",
+          "requested_path": "/documents/reach/",
+          "final_path": "/documents/reach",
+          "canonical_path": "/documents/reach/"
+        },
+        {
+          "page_id": "DOC-TDS",
+          "requested_path": "/documents/tds-sds-coa/",
+          "final_path": "/documents/tds-sds-coa",
+          "canonical_path": "/documents/tds-sds-coa/"
+        },
+        {
+          "page_id": "RES-000",
+          "requested_path": "/resources/",
+          "final_path": "/resources",
+          "canonical_path": "/resources/"
+        },
+        {
+          "page_id": "RES-ORIGIN",
+          "requested_path": "/resources/non-china-titanium-dioxide/",
+          "final_path": "/resources/non-china-titanium-dioxide",
+          "canonical_path": "/resources/non-china-titanium-dioxide/"
+        },
+        {
+          "page_id": "RES-PROC",
+          "requested_path": "/resources/chloride-vs-sulfate-titanium-dioxide/",
+          "final_path": "/resources/chloride-vs-sulfate-titanium-dioxide",
+          "canonical_path": "/resources/chloride-vs-sulfate-titanium-dioxide/"
+        },
+        {
+          "page_id": "CONV-RFQ",
+          "requested_path": "/request-a-quote/",
+          "final_path": "/request-a-quote",
+          "canonical_path": "/request-a-quote/"
+        },
+        {
+          "page_id": "CONV-SAMPLE",
+          "requested_path": "/request-sample/",
+          "final_path": "/request-sample",
+          "canonical_path": "/request-sample/"
+        },
+        {
+          "page_id": "LEGAL-PRIV-EN",
+          "requested_path": "/privacy-policy/",
+          "final_path": "/privacy-policy",
+          "canonical_path": "/privacy-policy/"
+        },
+        {
+          "page_id": "LEGAL-PRIV-MS",
+          "requested_path": "/ms/privacy-policy/",
+          "final_path": "/ms/privacy-policy",
+          "canonical_path": "/ms/privacy-policy/"
+        },
+        {
+          "page_id": "LEGAL-COOKIE-EN",
+          "requested_path": "/cookie-policy/",
+          "final_path": "/cookie-policy",
+          "canonical_path": "/cookie-policy/"
+        },
+        {
+          "page_id": "CONV-THANK",
+          "requested_path": "/thank-you/",
+          "final_path": "/thank-you",
+          "canonical_path": "/thank-you/"
+        }
+      ]
+    }
+  }
+}

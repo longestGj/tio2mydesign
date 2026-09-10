@@ -1,0 +1,504 @@
+{
+  "schema_version": "gate8-evidence-manifest-v1.0",
+  "handoff_id": "APP-000-G6-HANDOFF-02",
+  "gate8_task_id": "APP-000-G9-F01-R2-RETURN-01",
+  "site_scope": "tio2-my",
+  "receipt_path": "docs/verification/app000/gate8-repair-02/GATE9_F01_R2_RETURN_RECEIPT_2026-09-08.md",
+  "pages": [
+    {
+      "page_id": "APP-000",
+      "acceptance_condition_ids": [
+        "APP000-G9-01",
+        "APP000-G9-02",
+        "APP000-G9-03",
+        "APP000-G9-04",
+        "APP000-G9-05",
+        "APP000-G9-06",
+        "APP000-G9-07",
+        "APP000-G9-08",
+        "APP000-G9-09",
+        "APP000-G9-10",
+        "APP000-G9-11",
+        "APP000-G9-12",
+        "APP000-G9-13",
+        "APP000-G9-14",
+        "APP000-G9-15",
+        "APP000-G9-16",
+        "APP000-G9-17",
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "runtime_path": "/applications/"
+    }
+  ],
+  "git": {
+    "repository": "D:\\16Wordpress_nextjs\\.worktrees\\app000-gate8",
+    "branch": "codex/app000-gate8",
+    "baseline_commit": "ce3f4c5c21033e56472ec53586173279fb78c415",
+    "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef",
+    "evidence_head": "f6ca423acee1282b8abe71acc5a77f159578926b",
+    "clean_checked_at": "2026-09-08T12:08:06.551270Z"
+  },
+  "build": {
+    "directory": ".next-app000-r2b",
+    "build_id": "maNqNFg3Urit7VkLTu5KM",
+    "implementation_commit": "6ece488cf88f060457890ad7f37da0db752564ef"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:4391",
+    "site_scope": "tio2-my",
+    "environment_type": "local-production",
+    "hold_until": "GATE9_PASS_OR_RETURN_NOTICE",
+    "require_build_marker": true,
+    "checks": [
+      {
+        "path": "/applications",
+        "expected_status": 200,
+        "contains": [
+          "Explore Titanium Dioxide by Application",
+          "Choose by Application"
+        ]
+      },
+      {
+        "path": "/request-a-quote",
+        "expected_status": 200,
+        "contains": [
+          "Request a Titanium Dioxide Quote",
+          "Select a product or grade"
+        ]
+      },
+      {
+        "path": "/products/m-350",
+        "expected_status": 200,
+        "contains": [
+          "M-350"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "docs/verification/app000/gate8-repair-02/acceptance-summary.json",
+      "sha256": "92c8e72b239a23b59197f9a096390bbea270fd5d28b9d43bcd7263e94cecab33",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/build-id.txt",
+      "sha256": "1c4991798a6eafcbdb8f967b4f901f2970c2ac20091068d8155378dcd4967fe0",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/GATE9_F01_R2_RETURN_RECEIPT_2026-09-08.md",
+      "sha256": "9c4a26bcf0ec5a32d887c4d3223dea81570c0d3dd09fecf6bc69865f4cf728ed",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/logs/build-runtime-binding.log",
+      "sha256": "c0e145fb4706d8ec45fa70a17ddb6c5e2782874c92443220f66ae06a3e902081",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Recorded verification command in the named log",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/logs/evidence-validation.log",
+      "sha256": "338dc4a0ad1b8fa3a2e99dbef9415d3d994e5738154500454720093df12e3611",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Recorded verification command in the named log",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/logs/full-unit.log",
+      "sha256": "ded1f0bc0627819c9480b8fa6b86718d68db5d77b819e71e02e35f791c37f72b",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Recorded verification command in the named log",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/logs/lint.log",
+      "sha256": "dc53a9d7f675d2450651a95567e77730c95d6e685200b3a145c6db24d96300a8",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Recorded verification command in the named log",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/logs/playwright.log",
+      "sha256": "dd75d13ee27f4bcca52bf7b99f4858156ddbae4fcbaa7d950e93fc0b94cbddca",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Recorded verification command in the named log",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/logs/runtime-evidence.log",
+      "sha256": "4f32391016f062f7ddeacd8914ec6bf0fb59934e8e6b1169691507dbb01278b5",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Recorded verification command in the named log",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/logs/targeted-tests.log",
+      "sha256": "0215cf9254a608d21681357a77ecd0aee2c9f329f7050507e9a10e8759c2d001",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Recorded verification command in the named log",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/logs/typecheck.log",
+      "sha256": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+      "evidence_type": "TEST_RESULT",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Recorded verification command in the named log",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/ROLLBACK_RECORD_2026-09-08.md",
+      "sha256": "5f4739c501c1e431cb4a05b37bbc91d6bd23d518f08bdfa4f57b915bdab765d7",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/app000-desktop-1440.png",
+      "sha256": "8903f53a9e499d478eb9252e96dddda8b3017ca68c4232db7bf4007220dc6edf",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/app000-mobile-390-expanded.png",
+      "sha256": "8ff5055c0b14d08bed047127de799566cc28bddbc6a1c01728c8bbd80dfd1b3d",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/app000-mobile-390.png",
+      "sha256": "8d0c40a75a78df48413bb73666bdf63456d4426c26c368882cf5cb5a43ba6b7a",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/app000-mobile-cookie-settings.png",
+      "sha256": "064847705ba73cd2ede7424f9d92af99ac50b8415db43eb4a85be09b6ab57102",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/app000-tablet-768.png",
+      "sha256": "90d1c761d158b7a6e05ac35fd9c9f21a08a9c8314e52438b3e7a8e4284fc5ac5",
+      "evidence_type": "STATIC_VISUAL",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/consumer-regression-matrix.json",
+      "sha256": "828050934b8a107ba66b2861b7b2e1294b920fd37d706026a1531364a08cf72d",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/grade-edge-inventory.json",
+      "sha256": "8f14ff398a092179fec9414edb314e7935ad73999a5c5ba4d3ae0884e2354d59",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/public-boundary-scan.json",
+      "sha256": "29b0c6ba5814d61f29bc1e4794ceb6603b68c9f333f0ddc9812a9a7b240f730a",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/responsive-state-matrix.json",
+      "sha256": "020d417162631a1d3c144dc95961b9d287bfc94d2b2bac0b4ae3d821c67452e4",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/rfq-private-handoff.json",
+      "sha256": "ac4b63b5a559212418ae39ecf81b0b0b3ba799217ffa8baf1d431bcd26412315",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/route-matrix.json",
+      "sha256": "5ea8cb2210044c3f6cb10ca0a43bf08ba5009bd20119286a3515078ea10827b7",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/runtime-contract.json",
+      "sha256": "9c3bf2b66e68c19c9840d92b3e638260407927fac5413c2e35c00f208827b8d3",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/runtime/shared-instance-map.json",
+      "sha256": "a8258ef6ee0d36b392c0d4afafa9fc36ead921bf321f7ca8baea0ca96b8800e5",
+      "evidence_type": "ACTUAL_RUNTIME",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+      "sha256": "2717836860805cbc44930befd5b51dc179a52447ddff787d3b4e73f6aeec3d6a",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/support/private-rfq-receiver.mjs",
+      "sha256": "a4529eddde967707de0b43f1215bf9eb79d91c9a88bdbbd2729982168c1f68fa",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/support/validate-evidence.mjs",
+      "sha256": "9aa5e56798fa0e342759e18308a0cbe69ef7dc615d1f9fe8dcef994df3592974",
+      "evidence_type": "SOURCE_INSPECTION",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "Committed evidence inspection",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    },
+    {
+      "path": "docs/verification/app000/gate8-repair-02/evidence-validation.json",
+      "sha256": "4893b6f5d5816e23dd9d30759a1a8a6684fa2ec48f2e27e4c3117c69f5449c39",
+      "evidence_type": "IDENTITY",
+      "proves": [
+        "APP000-G9-REPAIR-F01-R2",
+        "APP000-G9-REPAIR-F02",
+        "APP000-G9-REPAIR-F03",
+        "APP000-G9-REPAIR-F04"
+      ],
+      "command": "node docs/verification/app000/gate8-repair-02/support/validate-evidence.mjs",
+      "environment": "Windows local-production tio2-my R2 candidate at http://127.0.0.1:4391; scoped CMS fixture 4390; server-local receiver fixture 4392; no external receiver request"
+    }
+  ],
+  "receipt_evidence_references": [
+    "docs/verification/app000/gate8-repair-02/acceptance-summary.json",
+    "docs/verification/app000/gate8-repair-02/build-id.txt",
+    "docs/verification/app000/gate8-repair-02/evidence-validation.json",
+    "docs/verification/app000/gate8-repair-02/ROLLBACK_RECORD_2026-09-08.md",
+    "docs/verification/app000/gate8-repair-02/logs/build-runtime-binding.log",
+    "docs/verification/app000/gate8-repair-02/logs/evidence-validation.log",
+    "docs/verification/app000/gate8-repair-02/logs/full-unit.log",
+    "docs/verification/app000/gate8-repair-02/logs/lint.log",
+    "docs/verification/app000/gate8-repair-02/logs/playwright.log",
+    "docs/verification/app000/gate8-repair-02/logs/runtime-evidence.log",
+    "docs/verification/app000/gate8-repair-02/logs/targeted-tests.log",
+    "docs/verification/app000/gate8-repair-02/logs/typecheck.log",
+    "docs/verification/app000/gate8-repair-02/runtime/public-boundary-scan.json",
+    "docs/verification/app000/gate8-repair-02/runtime/rfq-private-handoff.json",
+    "docs/verification/app000/gate8-repair-02/runtime/grade-edge-inventory.json",
+    "docs/verification/app000/gate8-repair-02/runtime/responsive-state-matrix.json",
+    "docs/verification/app000/gate8-repair-02/runtime/consumer-regression-matrix.json",
+    "docs/verification/app000/gate8-repair-02/runtime/app000-desktop-1440.png",
+    "docs/verification/app000/gate8-repair-02/runtime/app000-mobile-390-expanded.png",
+    "docs/verification/app000/gate8-repair-02/runtime/app000-mobile-390.png",
+    "docs/verification/app000/gate8-repair-02/runtime/app000-mobile-cookie-settings.png",
+    "docs/verification/app000/gate8-repair-02/runtime/app000-tablet-768.png",
+    "docs/verification/app000/gate8-repair-02/runtime/route-matrix.json",
+    "docs/verification/app000/gate8-repair-02/runtime/runtime-contract.json",
+    "docs/verification/app000/gate8-repair-02/runtime/shared-instance-map.json",
+    "docs/verification/app000/gate8-repair-02/support/generate-runtime-evidence.mjs",
+    "docs/verification/app000/gate8-repair-02/support/private-rfq-receiver.mjs",
+    "docs/verification/app000/gate8-repair-02/support/validate-evidence.mjs"
+  ],
+  "known_open_items": [
+    {
+      "scope": "unrelated baseline",
+      "detail": "Full Vitest has one pre-existing evidence artifact SHA mismatch at tests/unit/editorial/five-core-review.test.ts:60; 2768 passed and 50 skipped."
+    },
+    {
+      "scope": "explicit non-claims",
+      "detail": "Physical touch, native 200 percent browser zoom and named assistive technology were not tested or claimed."
+    },
+    {
+      "scope": "authority",
+      "detail": "Gate 9 and Gate 10 decisions remain with D23 independent review; no merge, push, deploy, publish or release is claimed."
+    }
+  ]
+}

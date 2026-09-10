@@ -1,0 +1,20 @@
+{
+  "schema_version": "gate8-dispatch-receipt-v1.0",
+  "date": "2026-09-08",
+  "control_id": "G8-DE-IT-SU-R706-CHEMOURS-20260908-01",
+  "target_task": "00my开发2",
+  "thread_id": "01a07e6a-546d-7532-aa06-02d2bffd5eed",
+  "status": "RECEIVED_AND_GATE8_STARTED",
+  "receiver_branch": "codex/de-it-su-r706-chemours-gate8",
+  "receiver_base_commit": "84db14ee35fe118415bff8327f202ee712e7599c",
+  "identity_check": "PASS",
+  "packages": [
+    {"page_id":"MARKET-EU-DE","package_id":"MARKET-EU-DE-G6-HANDOFF-02","sha256":"75e184dfe89d9acbbb28da100dc8271c7c1a84f89c85f71d11b5ca1bc4d885c2","received":true},
+    {"page_id":"MARKET-EU-IT","package_id":"MARKET-EU-IT-G6-HANDOFF-01","sha256":"2a21d8bea4c9647ec58a64a085c973ac8f42b159f603c9faa3439b00bae3c6af","received":true},
+    {"page_id":"PRODUCT-PROC-SU","package_id":"PRODUCT-PROC-SU-G6-HANDOFF-01","sha256":"343a220cb92d058a6c8914c4e30af405d619076b14ec96eb06a2e59ef0b7f192","received":true},
+    {"page_id":"RES-R706","package_id":"RES-R706-G6-HANDOFF-02","sha256":"6b94e44cd514edee1adb6ab09bd2d45950509cffd3c6282e79ca3cb05ebd110c","received":true},
+    {"page_id":"RES-CHEMOURS","package_id":"RES-CHEMOURS-G6-HANDOFF-02","sha256":"708568bb8c03585856a66e48fc9f98ec53a359564d697f021d5c613c2105bd9c","received":true}
+  ],
+  "receiver_message": "Five package paths, Package IDs, SHA-256 values and current Manifest bindings verified; Gate 8 development started.",
+  "authorization_boundary": "Gate 8 implementation and return evidence only; Gate 9, Gate 10, merge, deployment, production write, publication, DNS and indexing remain unauthorized."
+}

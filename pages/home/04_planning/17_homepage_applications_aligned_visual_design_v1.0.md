@@ -30,6 +30,7 @@ The author read these sources directly. SHA-256 values identify the inputs used 
 | Applications visual token source | `D:/16Wordpress_nextjs/components/sites/tio2-my/applications/malaysia-application-hub.module.css` | `A8C9BA94316FF0B4EB89FC4E464F673F21E91F15B3D8609AB4097A73D9A3D6C1` |
 | Home visible content/data source | `D:/16Wordpress_nextjs/wordpress/plugins/tio2-site-model/config/tio2-my-homepage.json` | `C89CC1E7029B96C67C7183B4081E1526905A4F1875DA9A9F9F6B290E2CD8554C` |
 | Existing Home renderer reference | `D:/16Wordpress_nextjs/components/sites/tio2-my/homepage/malaysia-homepage.tsx` | `912FF8C08B76B108252023B5F84CA3B65606CED46DA275451A5A32ACAC3DFB2F` |
+| Frozen Inter variable-font dependency | `pages/home/04_planning/visual-designs/home-applications-aligned-v1.0/dependencies/Inter-Variable.ttf` | `29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031` |
 | Existing approved Home powder image | `pages/home/04_planning/visual-designs/assets/homepage-hero-tio2-material-v0.6.png` | recorded in `freeze-record.json` from the actual file |
 | Shared Chrome contract | `docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md` | recorded in `freeze-record.json` from the actual file |
 | Production Logo authority | `brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md` | recorded in `freeze-record.json` from the actual file |

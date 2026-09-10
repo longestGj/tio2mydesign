@@ -8,6 +8,7 @@ $contractPath = Join-Path $ProjectRoot 'pages\home\04_planning\17_homepage_appli
 $sourcePath = Join-Path $visualDir 'homepage-applications-aligned-preview-v1.0.html'
 $freezePath = Join-Path $visualDir 'freeze-record.json'
 $resultPath = Join-Path $PSScriptRoot 'verification_home_visual_bundle_v1.json'
+$runtimePath = Join-Path $PSScriptRoot 'runtime_observations_home_visual_bundle_v1.json'
 
 $expected = @(
     @{ name = 'home-001-applications-aligned-1440-v1.0.png'; width = 1440; state = 'default' },
@@ -36,9 +37,10 @@ function Get-PngSize([string]$Path) {
 Add-Check 'contract.exists' (Test-Path -LiteralPath $contractPath) $contractPath
 Add-Check 'source.exists' (Test-Path -LiteralPath $sourcePath) $sourcePath
 Add-Check 'freeze.exists' (Test-Path -LiteralPath $freezePath) $freezePath
+Add-Check 'runtime.exists' (Test-Path -LiteralPath $runtimePath) $runtimePath
 
-$sourceText = if (Test-Path -LiteralPath $sourcePath) { Get-Content -LiteralPath $sourcePath -Raw } else { '' }
-$contractText = if (Test-Path -LiteralPath $contractPath) { Get-Content -LiteralPath $contractPath -Raw } else { '' }
+$sourceText = if (Test-Path -LiteralPath $sourcePath) { [System.IO.File]::ReadAllText($sourcePath, [System.Text.Encoding]::UTF8) } else { '' }
+$contractText = if (Test-Path -LiteralPath $contractPath) { [System.IO.File]::ReadAllText($contractPath, [System.Text.Encoding]::UTF8) } else { '' }
 $freeze = $null
 if (Test-Path -LiteralPath $freezePath) {
     try { $freeze = Get-Content -LiteralPath $freezePath -Raw | ConvertFrom-Json } catch { Add-Check 'freeze.json' $false $_.Exception.Message }
@@ -61,8 +63,24 @@ foreach ($token in $tokens) {
 Add-Check 'shell.1200' ($compactSource -match '1200px') 'source uses 1200px centered shell'
 Add-Check 'tablet.start-here' (($sourceText -match 'data-module=["'']start-here["'']') -and ($sourceText -match 'data-tablet-visible=["'']true["'']')) 'Start Here is explicitly present on Tablet'
 Add-Check 'rfq.desktop-tablet' (($sourceText -match 'data-module=["'']page-rfq["'']') -and ($sourceText -match 'data-visible-min=["'']768["'']')) 'page RFQ visible from 768px'
-Add-Check 'rfq.mobile-hidden' ($compactSource -match '@media\(max-width:560px\).*\.pageRfq\{display:none') 'page RFQ hidden at mobile breakpoint'
+Add-Check 'rfq.mobile-hidden' ($compactSource -match '@media\(max-width:560px\).*\.page-rfq\{display:none') 'page RFQ hidden at mobile breakpoint'
+Add-Check 'font.inter-bundled' (($sourceText -match '@font-face') -and ($sourceText -match 'dependencies/Inter-Variable\.ttf')) 'static source binds the local Inter variable-font dependency'
 Add-Check 'buyer.current.zero' (-not ($sourceText -match '>\s*CURRENT\s*<')) 'no buyer-visible CURRENT label'
+Add-Check 'shared.chrome.owner' (([regex]::Matches($sourceText, 'data-shared-owner=["'']HOME_GLOBAL_CHROME["'']')).Count -eq 2) 'Header and Footer both declare the shared owner assembly'
+$gradeIds = @('M-350','M-510','M-896','M-996','M-2196','M-895','M-200','M-108','M-210','M-340','M-886','M-52','M-2377','CR-901')
+foreach ($gradeId in $gradeIds) {
+    Add-Check "grade.$gradeId" (($sourceText -match ('>\s*' + [regex]::Escape($gradeId) + '\s*<'))) "source contains $gradeId"
+}
+
+$runtime = $null
+if (Test-Path -LiteralPath $runtimePath) {
+    try { $runtime = [System.IO.File]::ReadAllText($runtimePath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json } catch { Add-Check 'runtime.json' $false $_.Exception.Message }
+}
+if ($null -ne $runtime) {
+    Add-Check 'runtime.json' $true 'runtime observations parsed'
+    Add-Check 'runtime.pass' ($runtime.passed -eq $true) "passed=$($runtime.passed), failed=$($runtime.checks_failed)"
+    Add-Check 'runtime.count' (($runtime.checks_total -eq 59) -and ($runtime.checks_passed -eq 59) -and ($runtime.checks_failed -eq 0)) "total=$($runtime.checks_total), passed=$($runtime.checks_passed), failed=$($runtime.checks_failed)"
+}
 
 $freezeAssets = @{}
 if ($null -ne $freeze -and $null -ne $freeze.assets) {
@@ -90,6 +108,9 @@ foreach ($item in $expected) {
         Add-Check "asset.$($item.name).hash" ($recorded.sha256.ToUpperInvariant() -eq $hash) "recorded=$($recorded.sha256), actual=$hash"
         Add-Check "asset.$($item.name).state" ($recorded.state -eq $item.state) "expected=$($item.state), actual=$($recorded.state)"
         Add-Check "asset.$($item.name).bytes-recorded" ([int64]$recorded.bytes -eq $file.Length) "recorded=$($recorded.bytes), actual=$($file.Length)"
+        Add-Check "asset.$($item.name).width-recorded" ([int]$recorded.width -eq $size.width) "recorded=$($recorded.width), actual=$($size.width)"
+        Add-Check "asset.$($item.name).height-recorded" ([int]$recorded.height -eq $size.height) "recorded=$($recorded.height), actual=$($size.height)"
+        Add-Check "asset.$($item.name).viewport-recorded" ([int]$recorded.viewport_width -eq $item.width) "recorded=$($recorded.viewport_width), expected=$($item.width)"
     }
 }
 
@@ -98,13 +119,28 @@ if ($null -ne $freeze) {
     Add-Check 'freeze.workset' ($freeze.workset_id -eq 'HOME-001-G4-APP-ALIGN-V1-20260911') "workset_id=$($freeze.workset_id)"
     Add-Check 'freeze.bundle' ($freeze.bundle_id -eq 'HOME-001-G4-APP-ALIGN-BUNDLE-V1.0') "bundle_id=$($freeze.bundle_id)"
     Add-Check 'freeze.source-hash' ($freeze.source.sha256.ToUpperInvariant() -eq $sourceHash) "recorded=$($freeze.source.sha256), actual=$sourceHash"
+    Add-Check 'freeze.source-bytes' ([int64]$freeze.source.bytes -eq (Get-Item -LiteralPath $sourcePath).Length) "recorded=$($freeze.source.bytes), actual=$((Get-Item -LiteralPath $sourcePath).Length)"
     Add-Check 'freeze.asset-count' (@($freeze.assets).Count -eq 7) "asset_count=$(@($freeze.assets).Count)"
+    Add-Check 'freeze.status' ($freeze.status -eq 'COMPLETE_VISUAL_FROZEN / READY_FOR_REVIEW') "status=$($freeze.status)"
+    Add-Check 'freeze.lifecycle' ($freeze.lifecycle -eq 'DRAFT_FOR_PROJECT_CONTROL_REVIEW') "lifecycle=$($freeze.lifecycle)"
+    foreach ($dependency in $freeze.dependencies) {
+        $dependencyPath = if ([System.IO.Path]::IsPathRooted($dependency.path)) { $dependency.path } else { Join-Path $ProjectRoot $dependency.path }
+        $dependencyExists = Test-Path -LiteralPath $dependencyPath
+        Add-Check "dependency.$($dependency.role).exists" $dependencyExists $dependency.path
+        if ($dependencyExists) {
+            $dependencyFile = Get-Item -LiteralPath $dependencyPath
+            $dependencyHash = (Get-FileHash -LiteralPath $dependencyPath -Algorithm SHA256).Hash.ToUpperInvariant()
+            Add-Check "dependency.$($dependency.role).bytes" ([int64]$dependency.bytes -eq $dependencyFile.Length) "recorded=$($dependency.bytes), actual=$($dependencyFile.Length)"
+            Add-Check "dependency.$($dependency.role).hash" ($dependency.sha256.ToUpperInvariant() -eq $dependencyHash) "recorded=$($dependency.sha256), actual=$dependencyHash"
+        }
+    }
 }
 
 $failed = @($checks | Where-Object { -not $_.pass })
 $result = [ordered]@{
     verifier = 'HOME-001-APPLICATIONS-ALIGNED-VISUAL-BUNDLE-V1'
-    generated_at_utc = [DateTime]::UtcNow.ToString('o')
+    capture_date = '2026-09-11'
+    reproducibility = 'No wall-clock timestamp is encoded; identical inputs produce byte-stable JSON.'
     project_root = $ProjectRoot
     workset_id = 'HOME-001-G4-APP-ALIGN-V1-20260911'
     bundle_id = 'HOME-001-G4-APP-ALIGN-BUNDLE-V1.0'
@@ -114,7 +150,9 @@ $result = [ordered]@{
     checks_failed = $failed.Count
     checks = $checks
 }
-$result | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $resultPath -Encoding utf8
+$resultJson = (($result | ConvertTo-Json -Depth 8) -replace "`r`n", "`n") + "`n"
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+[System.IO.File]::WriteAllText($resultPath, $resultJson, $utf8NoBom)
 
 foreach ($check in $checks) {
     $label = if ($check.pass) { 'PASS' } else { 'FAIL' }

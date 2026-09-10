@@ -1,0 +1,4060 @@
+{
+  "verifier": "HOME-001-APPLICATIONS-ALIGNED-RUNTIME-V1",
+  "capture_date": "2026-09-11",
+  "reproducibility": "No wall-clock timestamp is encoded; identical inputs produce byte-stable JSON.",
+  "source": "pages/home/04_planning/visual-designs/home-applications-aligned-v1.0/homepage-applications-aligned-preview-v1.0.html",
+  "renderer": {
+    "browser": "Chromium (Playwright)",
+    "deviceScaleFactor": 1,
+    "colorScheme": "light",
+    "reducedMotion": "reduce"
+  },
+  "passed": true,
+  "checks_total": 59,
+  "checks_passed": 59,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "id": "viewport.1440.identity",
+      "pass": true,
+      "detail": "{\"width\":1440,\"height\":900,\"dpr\":1}"
+    },
+    {
+      "id": "viewport.1440.overflow",
+      "pass": true,
+      "detail": "{\"documentWidth\":1440,\"bodyWidth\":1440,\"documentHeight\":6471}"
+    },
+    {
+      "id": "viewport.1440.inter",
+      "pass": true,
+      "detail": "{\"bodyFamily\":\"Inter, Arial, sans-serif\",\"interReady\":true}"
+    },
+    {
+      "id": "viewport.1440.hero-image",
+      "pass": true,
+      "detail": "{\"visible\":true,\"complete\":true,\"naturalWidth\":1122,\"naturalHeight\":1402,\"rect\":{\"x\":849.59375,\"y\":174,\"width\":416.40625,\"height\":520.3125,\"top\":174,\"bottom\":694.3125,\"right\":1266}}"
+    },
+    {
+      "id": "viewport.1440.start-here",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.1440.footer",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.1440.rfq",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.1440.current-label",
+      "pass": true,
+      "detail": "count=0"
+    },
+    {
+      "id": "viewport.1440.module-count",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"visible\":true},{\"name\":\"start-here\",\"visible\":true},{\"name\":\"markets\",\"visible\":true},{\"name\":\"products\",\"visible\":true},{\"name\":\"applications\",\"visible\":true},{\"name\":\"company\",\"visible\":true},{\"name\":\"documents\",\"visible\":true},{\"name\":\"resources\",\"visible\":true},{\"name\":\"page-rfq\",\"visible\":true}]"
+    },
+    {
+      "id": "viewport.1440.module-order",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"top\":84,\"bottom\":776.3125},{\"name\":\"start-here\",\"top\":776.3125,\"bottom\":1051.28125},{\"name\":\"markets\",\"top\":1051.28125,\"bottom\":1792.625},{\"name\":\"products\",\"top\":1792.625,\"bottom\":2538.46875},{\"name\":\"applications\",\"top\":2538.46875,\"bottom\":3448.40625},{\"name\":\"company\",\"top\":3448.40625,\"bottom\":4104.390625},{\"name\":\"documents\",\"top\":4104.390625,\"bottom\":4759.625},{\"name\":\"resources\",\"top\":4759.625,\"bottom\":5664.53125},{\"name\":\"page-rfq\",\"top\":5736.53125,\"bottom\":6067.828125}]"
+    },
+    {
+      "id": "content.copy-parity",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "content.href-parity",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "viewport.1024.identity",
+      "pass": true,
+      "detail": "{\"width\":1024,\"height\":900,\"dpr\":1}"
+    },
+    {
+      "id": "viewport.1024.overflow",
+      "pass": true,
+      "detail": "{\"documentWidth\":1024,\"bodyWidth\":1024,\"documentHeight\":7127}"
+    },
+    {
+      "id": "viewport.1024.inter",
+      "pass": true,
+      "detail": "{\"bodyFamily\":\"Inter, Arial, sans-serif\",\"interReady\":true}"
+    },
+    {
+      "id": "viewport.1024.hero-image",
+      "pass": true,
+      "detail": "{\"visible\":true,\"complete\":true,\"naturalWidth\":1122,\"naturalHeight\":1402,\"rect\":{\"x\":563.4375,\"y\":164,\"width\":382.5625,\"height\":478.03125,\"top\":164,\"bottom\":642.03125,\"right\":946}}"
+    },
+    {
+      "id": "viewport.1024.start-here",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.1024.footer",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.1024.rfq",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.1024.current-label",
+      "pass": true,
+      "detail": "count=0"
+    },
+    {
+      "id": "viewport.1024.module-count",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"visible\":true},{\"name\":\"start-here\",\"visible\":true},{\"name\":\"markets\",\"visible\":true},{\"name\":\"products\",\"visible\":true},{\"name\":\"applications\",\"visible\":true},{\"name\":\"company\",\"visible\":true},{\"name\":\"documents\",\"visible\":true},{\"name\":\"resources\",\"visible\":true},{\"name\":\"page-rfq\",\"visible\":true}]"
+    },
+    {
+      "id": "viewport.1024.module-order",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"top\":84,\"bottom\":714.03125},{\"name\":\"start-here\",\"top\":714.03125,\"bottom\":989},{\"name\":\"markets\",\"top\":989,\"bottom\":1757.875},{\"name\":\"products\",\"top\":1757.875,\"bottom\":2676.40625},{\"name\":\"applications\",\"top\":2676.40625,\"bottom\":3822.421875},{\"name\":\"company\",\"top\":3822.421875,\"bottom\":4501.078125},{\"name\":\"documents\",\"top\":4501.078125,\"bottom\":5156.3125},{\"name\":\"resources\",\"top\":5156.3125,\"bottom\":6320.921875},{\"name\":\"page-rfq\",\"top\":6392.921875,\"bottom\":6724.21875}]"
+    },
+    {
+      "id": "viewport.768.identity",
+      "pass": true,
+      "detail": "{\"width\":768,\"height\":900,\"dpr\":1}"
+    },
+    {
+      "id": "viewport.768.overflow",
+      "pass": true,
+      "detail": "{\"documentWidth\":768,\"bodyWidth\":768,\"documentHeight\":8135}"
+    },
+    {
+      "id": "viewport.768.inter",
+      "pass": true,
+      "detail": "{\"bodyFamily\":\"Inter, Arial, sans-serif\",\"interReady\":true}"
+    },
+    {
+      "id": "viewport.768.hero-image",
+      "pass": true,
+      "detail": "{\"visible\":true,\"complete\":true,\"naturalWidth\":1122,\"naturalHeight\":1402,\"rect\":{\"x\":426,\"y\":138,\"width\":274,\"height\":565.28125,\"top\":138,\"bottom\":703.28125,\"right\":700}}"
+    },
+    {
+      "id": "viewport.768.start-here",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.768.footer",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.768.rfq",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.768.current-label",
+      "pass": true,
+      "detail": "count=0"
+    },
+    {
+      "id": "viewport.768.module-count",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"visible\":true},{\"name\":\"start-here\",\"visible\":true},{\"name\":\"markets\",\"visible\":true},{\"name\":\"products\",\"visible\":true},{\"name\":\"applications\",\"visible\":true},{\"name\":\"company\",\"visible\":true},{\"name\":\"documents\",\"visible\":true},{\"name\":\"resources\",\"visible\":true},{\"name\":\"page-rfq\",\"visible\":true}]"
+    },
+    {
+      "id": "viewport.768.module-order",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"top\":64,\"bottom\":769.28125},{\"name\":\"start-here\",\"top\":769.28125,\"bottom\":1058.25},{\"name\":\"markets\",\"top\":1058.25,\"bottom\":1983.71875},{\"name\":\"products\",\"top\":1983.71875,\"bottom\":2943.28125},{\"name\":\"applications\",\"top\":2943.28125,\"bottom\":4165.421875},{\"name\":\"company\",\"top\":4165.421875,\"bottom\":5057.640625},{\"name\":\"documents\",\"top\":5057.640625,\"bottom\":5737.171875},{\"name\":\"resources\",\"top\":5737.171875,\"bottom\":6959.421875},{\"name\":\"page-rfq\",\"top\":7031.421875,\"bottom\":7477.328125}]"
+    },
+    {
+      "id": "viewport.390.identity",
+      "pass": true,
+      "detail": "{\"width\":390,\"height\":844,\"dpr\":1}"
+    },
+    {
+      "id": "viewport.390.overflow",
+      "pass": true,
+      "detail": "{\"documentWidth\":390,\"bodyWidth\":390,\"documentHeight\":10142}"
+    },
+    {
+      "id": "viewport.390.inter",
+      "pass": true,
+      "detail": "{\"bodyFamily\":\"Inter, Arial, sans-serif\",\"interReady\":true}"
+    },
+    {
+      "id": "viewport.390.hero-image",
+      "pass": true,
+      "detail": "{\"visible\":true,\"complete\":true,\"naturalWidth\":1122,\"naturalHeight\":1402,\"rect\":{\"x\":44,\"y\":610.1875,\"width\":302,\"height\":228,\"top\":610.1875,\"bottom\":838.1875,\"right\":346}}"
+    },
+    {
+      "id": "viewport.390.start-here",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.390.footer",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.390.rfq",
+      "pass": true,
+      "detail": "visible=false"
+    },
+    {
+      "id": "viewport.390.current-label",
+      "pass": true,
+      "detail": "count=0"
+    },
+    {
+      "id": "viewport.390.module-count",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"visible\":true},{\"name\":\"start-here\",\"visible\":true},{\"name\":\"markets\",\"visible\":true},{\"name\":\"products\",\"visible\":true},{\"name\":\"applications\",\"visible\":true},{\"name\":\"company\",\"visible\":true},{\"name\":\"documents\",\"visible\":true},{\"name\":\"resources\",\"visible\":true},{\"name\":\"page-rfq\",\"visible\":false}]"
+    },
+    {
+      "id": "viewport.390.module-order",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"top\":64,\"bottom\":882.1875},{\"name\":\"start-here\",\"top\":882.1875,\"bottom\":1391.4375},{\"name\":\"markets\",\"top\":1391.4375,\"bottom\":2921.703125},{\"name\":\"products\",\"top\":2921.703125,\"bottom\":3871.015625},{\"name\":\"applications\",\"top\":3871.015625,\"bottom\":5664.359375},{\"name\":\"company\",\"top\":5664.359375,\"bottom\":6639.015625},{\"name\":\"documents\",\"top\":6639.015625,\"bottom\":7606.578125},{\"name\":\"resources\",\"top\":7606.578125,\"bottom\":9358.953125}]"
+    },
+    {
+      "id": "viewport.390.controls-44",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "viewport.320.identity",
+      "pass": true,
+      "detail": "{\"width\":320,\"height\":844,\"dpr\":1}"
+    },
+    {
+      "id": "viewport.320.overflow",
+      "pass": true,
+      "detail": "{\"documentWidth\":320,\"bodyWidth\":320,\"documentHeight\":10818}"
+    },
+    {
+      "id": "viewport.320.inter",
+      "pass": true,
+      "detail": "{\"bodyFamily\":\"Inter, Arial, sans-serif\",\"interReady\":true}"
+    },
+    {
+      "id": "viewport.320.hero-image",
+      "pass": true,
+      "detail": "{\"visible\":true,\"complete\":true,\"naturalWidth\":1122,\"naturalHeight\":1402,\"rect\":{\"x\":36,\"y\":738.25,\"width\":248,\"height\":228,\"top\":738.25,\"bottom\":966.25,\"right\":284}}"
+    },
+    {
+      "id": "viewport.320.start-here",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.320.footer",
+      "pass": true,
+      "detail": "visible=true"
+    },
+    {
+      "id": "viewport.320.rfq",
+      "pass": true,
+      "detail": "visible=false"
+    },
+    {
+      "id": "viewport.320.current-label",
+      "pass": true,
+      "detail": "count=0"
+    },
+    {
+      "id": "viewport.320.module-count",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"visible\":true},{\"name\":\"start-here\",\"visible\":true},{\"name\":\"markets\",\"visible\":true},{\"name\":\"products\",\"visible\":true},{\"name\":\"applications\",\"visible\":true},{\"name\":\"company\",\"visible\":true},{\"name\":\"documents\",\"visible\":true},{\"name\":\"resources\",\"visible\":true},{\"name\":\"page-rfq\",\"visible\":false}]"
+    },
+    {
+      "id": "viewport.320.module-order",
+      "pass": true,
+      "detail": "[{\"name\":\"hero\",\"top\":64,\"bottom\":1014.25},{\"name\":\"start-here\",\"top\":1014.25,\"bottom\":1549.40625},{\"name\":\"markets\",\"top\":1549.40625,\"bottom\":3103.96875},{\"name\":\"products\",\"top\":3103.96875,\"bottom\":4105.09375},{\"name\":\"applications\",\"top\":4105.09375,\"bottom\":5971.328125},{\"name\":\"company\",\"top\":5971.328125,\"bottom\":7070.796875},{\"name\":\"documents\",\"top\":7070.796875,\"bottom\":8088.5625},{\"name\":\"resources\",\"top\":8088.5625,\"bottom\":10012.265625}]"
+    },
+    {
+      "id": "viewport.320.controls-44",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "state.menu.visible",
+      "pass": true,
+      "detail": "{\"visible\":true,\"links\":8,\"expanded\":\"true\",\"bodyLocked\":true,\"rect\":{\"width\":390,\"height\":443}}"
+    },
+    {
+      "id": "state.menu.links",
+      "pass": true,
+      "detail": "links=8"
+    },
+    {
+      "id": "state.menu.expanded",
+      "pass": true,
+      "detail": "{\"visible\":true,\"links\":8,\"expanded\":\"true\",\"bodyLocked\":true,\"rect\":{\"width\":390,\"height\":443}}"
+    },
+    {
+      "id": "state.products.groups",
+      "pass": true,
+      "detail": "openGroups=4"
+    },
+    {
+      "id": "state.products.grades",
+      "pass": true,
+      "detail": "[\"M-350\",\"M-510\",\"M-896\",\"M-996\",\"M-2196\",\"M-895\",\"M-200\",\"M-108\",\"M-210\",\"M-340\",\"M-886\",\"M-52\",\"M-2377\",\"CR-901\"]"
+    }
+  ],
+  "observations": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "dpr": 1
+      },
+      "scroll": {
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "documentHeight": 6471
+      },
+      "font": {
+        "bodyFamily": "Inter, Arial, sans-serif",
+        "interReady": true
+      },
+      "moduleRects": [
+        {
+          "name": "hero",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 84,
+            "width": 1440,
+            "height": 692.3125,
+            "top": 84,
+            "bottom": 776.3125,
+            "right": 1440
+          }
+        },
+        {
+          "name": "start-here",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 776.3125,
+            "width": 1440,
+            "height": 274.96875,
+            "top": 776.3125,
+            "bottom": 1051.28125,
+            "right": 1440
+          }
+        },
+        {
+          "name": "markets",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 1051.28125,
+            "width": 1440,
+            "height": 741.34375,
+            "top": 1051.28125,
+            "bottom": 1792.625,
+            "right": 1440
+          }
+        },
+        {
+          "name": "products",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 1792.625,
+            "width": 1440,
+            "height": 745.84375,
+            "top": 1792.625,
+            "bottom": 2538.46875,
+            "right": 1440
+          }
+        },
+        {
+          "name": "applications",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 2538.46875,
+            "width": 1440,
+            "height": 909.9375,
+            "top": 2538.46875,
+            "bottom": 3448.40625,
+            "right": 1440
+          }
+        },
+        {
+          "name": "company",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 3448.40625,
+            "width": 1440,
+            "height": 655.984375,
+            "top": 3448.40625,
+            "bottom": 4104.390625,
+            "right": 1440
+          }
+        },
+        {
+          "name": "documents",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 4104.390625,
+            "width": 1440,
+            "height": 655.234375,
+            "top": 4104.390625,
+            "bottom": 4759.625,
+            "right": 1440
+          }
+        },
+        {
+          "name": "resources",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 4759.625,
+            "width": 1440,
+            "height": 904.90625,
+            "top": 4759.625,
+            "bottom": 5664.53125,
+            "right": 1440
+          }
+        },
+        {
+          "name": "page-rfq",
+          "visible": true,
+          "rect": {
+            "x": 120,
+            "y": 5736.53125,
+            "width": 1200,
+            "height": 331.296875,
+            "top": 5736.53125,
+            "bottom": 6067.828125,
+            "right": 1320
+          }
+        }
+      ],
+      "heroImage": {
+        "visible": true,
+        "complete": true,
+        "naturalWidth": 1122,
+        "naturalHeight": 1402,
+        "rect": {
+          "x": 849.59375,
+          "y": 174,
+          "width": 416.40625,
+          "height": 520.3125,
+          "top": 174,
+          "bottom": 694.3125,
+          "right": 1266
+        }
+      },
+      "pageRfqVisible": true,
+      "startHereVisible": true,
+      "footerVisible": true,
+      "visibleControls": [
+        {
+          "label": "TiO2 Malaysia home",
+          "tag": "a",
+          "rect": {
+            "x": 120,
+            "y": 11.5,
+            "width": 180,
+            "height": 60,
+            "top": 11.5,
+            "bottom": 71.5,
+            "right": 300
+          }
+        },
+        {
+          "label": "Home",
+          "tag": "a",
+          "rect": {
+            "x": 580.40625,
+            "y": 0,
+            "width": 40.546875,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 620.953125
+          }
+        },
+        {
+          "label": "Markets",
+          "tag": "a",
+          "rect": {
+            "x": 642.953125,
+            "y": 0,
+            "width": 55.65625,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 698.609375
+          }
+        },
+        {
+          "label": "Products",
+          "tag": "a",
+          "rect": {
+            "x": 720.609375,
+            "y": 0,
+            "width": 61.234375,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 781.84375
+          }
+        },
+        {
+          "label": "Applications",
+          "tag": "a",
+          "rect": {
+            "x": 803.84375,
+            "y": 0,
+            "width": 85.484375,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 889.328125
+          }
+        },
+        {
+          "label": "Documents",
+          "tag": "a",
+          "rect": {
+            "x": 911.328125,
+            "y": 0,
+            "width": 77.84375,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 989.171875
+          }
+        },
+        {
+          "label": "Resources",
+          "tag": "a",
+          "rect": {
+            "x": 1011.171875,
+            "y": 0,
+            "width": 71.859375,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 1083.03125
+          }
+        },
+        {
+          "label": "About",
+          "tag": "a",
+          "rect": {
+            "x": 1105.03125,
+            "y": 0,
+            "width": 41.34375,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 1146.375
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 1174.375,
+            "y": 18.5,
+            "width": 145.625,
+            "height": 46,
+            "top": 18.5,
+            "bottom": 64.5,
+            "right": 1320
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 173,
+            "y": 586.125,
+            "width": 167.484375,
+            "height": 48.25,
+            "top": 586.125,
+            "bottom": 634.375,
+            "right": 340.484375
+          }
+        },
+        {
+          "label": "View Products",
+          "tag": "a",
+          "rect": {
+            "x": 352.484375,
+            "y": 586.125,
+            "width": 153.84375,
+            "height": 48.25,
+            "top": 586.125,
+            "bottom": 634.375,
+            "right": 506.328125
+          }
+        },
+        {
+          "label": "01MarketsDestination markets→",
+          "tag": "a",
+          "rect": {
+            "x": 120,
+            "y": 863.28125,
+            "width": 388,
+            "height": 126,
+            "top": 863.28125,
+            "bottom": 989.28125,
+            "right": 508
+          }
+        },
+        {
+          "label": "02ProductsFourteen grades→",
+          "tag": "a",
+          "rect": {
+            "x": 526,
+            "y": 863.28125,
+            "width": 388,
+            "height": 126,
+            "top": 863.28125,
+            "bottom": 989.28125,
+            "right": 914
+          }
+        },
+        {
+          "label": "03DocumentsGuidance and requests→",
+          "tag": "a",
+          "rect": {
+            "x": 932,
+            "y": 863.28125,
+            "width": 388,
+            "height": 126,
+            "top": 863.28125,
+            "bottom": 989.28125,
+            "right": 1320
+          }
+        },
+        {
+          "label": "View All Markets →",
+          "tag": "a",
+          "rect": {
+            "x": 1177.28125,
+            "y": 1213.28125,
+            "width": 142.71875,
+            "height": 44,
+            "top": 1213.28125,
+            "bottom": 1257.28125,
+            "right": 1320
+          }
+        },
+        {
+          "label": "European Union market →",
+          "tag": "a",
+          "rect": {
+            "x": 203,
+            "y": 1422.953125,
+            "width": 190.71875,
+            "height": 44,
+            "top": 1422.953125,
+            "bottom": 1466.953125,
+            "right": 393.71875
+          }
+        },
+        {
+          "label": "United Kingdom market →",
+          "tag": "a",
+          "rect": {
+            "x": 813,
+            "y": 1422.953125,
+            "width": 192.390625,
+            "height": 44,
+            "top": 1422.953125,
+            "bottom": 1466.953125,
+            "right": 1005.390625
+          }
+        },
+        {
+          "label": "India market →",
+          "tag": "a",
+          "rect": {
+            "x": 203,
+            "y": 1647.625,
+            "width": 109.640625,
+            "height": 44,
+            "top": 1647.625,
+            "bottom": 1691.625,
+            "right": 312.640625
+          }
+        },
+        {
+          "label": "Brazil market →",
+          "tag": "a",
+          "rect": {
+            "x": 813,
+            "y": 1647.625,
+            "width": 115.1875,
+            "height": 44,
+            "top": 1647.625,
+            "bottom": 1691.625,
+            "right": 928.1875
+          }
+        },
+        {
+          "label": "Coatings Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 121,
+            "y": 2061.15625,
+            "width": 284.5,
+            "height": 67.53125,
+            "top": 2061.15625,
+            "bottom": 2128.6875,
+            "right": 405.5
+          }
+        },
+        {
+          "label": "Plastics & Masterbatch Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 425.5,
+            "y": 2061.15625,
+            "width": 284.5,
+            "height": 95.0625,
+            "top": 2061.15625,
+            "bottom": 2156.21875,
+            "right": 710
+          }
+        },
+        {
+          "label": "Inks & Multi-Application +",
+          "tag": "summary",
+          "rect": {
+            "x": 730,
+            "y": 2061.15625,
+            "width": 284.5,
+            "height": 67.53125,
+            "top": 2061.15625,
+            "bottom": 2128.6875,
+            "right": 1014.5
+          }
+        },
+        {
+          "label": "Specialty Grade +",
+          "tag": "summary",
+          "rect": {
+            "x": 1034.5,
+            "y": 2061.15625,
+            "width": 284.5,
+            "height": 67.53125,
+            "top": 2061.15625,
+            "bottom": 2128.6875,
+            "right": 1319
+          }
+        },
+        {
+          "label": "Chloride Process →",
+          "tag": "a",
+          "rect": {
+            "x": 120,
+            "y": 2420.34375,
+            "width": 144,
+            "height": 44,
+            "top": 2420.34375,
+            "bottom": 2464.34375,
+            "right": 264
+          }
+        },
+        {
+          "label": "Sulfate Process →",
+          "tag": "a",
+          "rect": {
+            "x": 280,
+            "y": 2420.34375,
+            "width": 133.640625,
+            "height": 44,
+            "top": 2420.34375,
+            "bottom": 2464.34375,
+            "right": 413.640625
+          }
+        },
+        {
+          "label": "View All 14 Grades",
+          "tag": "a",
+          "rect": {
+            "x": 1136.65625,
+            "y": 2418.21875,
+            "width": 183.34375,
+            "height": 48.25,
+            "top": 2418.21875,
+            "bottom": 2466.46875,
+            "right": 1320
+          }
+        },
+        {
+          "label": "Coatings information →",
+          "tag": "a",
+          "rect": {
+            "x": 149,
+            "y": 2970.140625,
+            "width": 174.40625,
+            "height": 44,
+            "top": 2970.140625,
+            "bottom": 3014.140625,
+            "right": 323.40625
+          }
+        },
+        {
+          "label": "Plastics information →",
+          "tag": "a",
+          "rect": {
+            "x": 555.65625,
+            "y": 2994.4375,
+            "width": 166.28125,
+            "height": 44,
+            "top": 2994.4375,
+            "bottom": 3038.4375,
+            "right": 721.9375
+          }
+        },
+        {
+          "label": "Masterbatch information →",
+          "tag": "a",
+          "rect": {
+            "x": 962.328125,
+            "y": 3018.734375,
+            "width": 202.546875,
+            "height": 44,
+            "top": 3018.734375,
+            "bottom": 3062.734375,
+            "right": 1164.875
+          }
+        },
+        {
+          "label": "Printing inks information →",
+          "tag": "a",
+          "rect": {
+            "x": 352.328125,
+            "y": 3303.40625,
+            "width": 200.734375,
+            "height": 44,
+            "top": 3303.40625,
+            "bottom": 3347.40625,
+            "right": 553.0625
+          }
+        },
+        {
+          "label": "Paper information →",
+          "tag": "a",
+          "rect": {
+            "x": 758.984375,
+            "y": 3303.40625,
+            "width": 150.5625,
+            "height": 44,
+            "top": 3303.40625,
+            "bottom": 3347.40625,
+            "right": 909.546875
+          }
+        },
+        {
+          "label": "About TiO₂ Malaysia →",
+          "tag": "a",
+          "rect": {
+            "x": 165,
+            "y": 3754.46875,
+            "width": 168.46875,
+            "height": 44,
+            "top": 3754.46875,
+            "bottom": 3798.46875,
+            "right": 333.46875
+          }
+        },
+        {
+          "label": "View Document Information →",
+          "tag": "a",
+          "rect": {
+            "x": 153,
+            "y": 4586.328125,
+            "width": 224.859375,
+            "height": 44,
+            "top": 4586.328125,
+            "bottom": 4630.328125,
+            "right": 377.859375
+          }
+        },
+        {
+          "label": "Request Documents →",
+          "tag": "a",
+          "rect": {
+            "x": 763,
+            "y": 4610.625,
+            "width": 167.015625,
+            "height": 44,
+            "top": 4610.625,
+            "bottom": 4654.625,
+            "right": 930.015625
+          }
+        },
+        {
+          "label": "Read sourcing considerations →",
+          "tag": "a",
+          "rect": {
+            "x": 149,
+            "y": 5199.859375,
+            "width": 237.859375,
+            "height": 44,
+            "top": 5199.859375,
+            "bottom": 5243.859375,
+            "right": 386.859375
+          }
+        },
+        {
+          "label": "Read process overview →",
+          "tag": "a",
+          "rect": {
+            "x": 758.984375,
+            "y": 5199.859375,
+            "width": 189.640625,
+            "height": 44,
+            "top": 5199.859375,
+            "bottom": 5243.859375,
+            "right": 948.625
+          }
+        },
+        {
+          "label": "Market information →",
+          "tag": "a",
+          "rect": {
+            "x": 149,
+            "y": 5494.453125,
+            "width": 160.140625,
+            "height": 44,
+            "top": 5494.453125,
+            "bottom": 5538.453125,
+            "right": 309.140625
+          }
+        },
+        {
+          "label": "View all 14 grades →",
+          "tag": "a",
+          "rect": {
+            "x": 555.65625,
+            "y": 5519.53125,
+            "width": 150.484375,
+            "height": 44,
+            "top": 5519.53125,
+            "bottom": 5563.53125,
+            "right": 706.140625
+          }
+        },
+        {
+          "label": "Request a Quote →",
+          "tag": "a",
+          "rect": {
+            "x": 962.328125,
+            "y": 5495.234375,
+            "width": 139.046875,
+            "height": 44,
+            "top": 5495.234375,
+            "bottom": 5539.234375,
+            "right": 1101.375
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 168,
+            "y": 5975.578125,
+            "width": 167.484375,
+            "height": 48.25,
+            "top": 5975.578125,
+            "bottom": 6023.828125,
+            "right": 335.484375
+          }
+        },
+        {
+          "label": "Home",
+          "tag": "a",
+          "rect": {
+            "x": 503.71875,
+            "y": 6214.921875,
+            "width": 244.09375,
+            "height": 36,
+            "top": 6214.921875,
+            "bottom": 6250.921875,
+            "right": 747.8125
+          }
+        },
+        {
+          "label": "Markets",
+          "tag": "a",
+          "rect": {
+            "x": 503.71875,
+            "y": 6250.921875,
+            "width": 244.09375,
+            "height": 36,
+            "top": 6250.921875,
+            "bottom": 6286.921875,
+            "right": 747.8125
+          }
+        },
+        {
+          "label": "Products",
+          "tag": "a",
+          "rect": {
+            "x": 503.71875,
+            "y": 6286.921875,
+            "width": 244.09375,
+            "height": 36,
+            "top": 6286.921875,
+            "bottom": 6322.921875,
+            "right": 747.8125
+          }
+        },
+        {
+          "label": "Applications",
+          "tag": "a",
+          "rect": {
+            "x": 503.71875,
+            "y": 6322.921875,
+            "width": 244.09375,
+            "height": 36,
+            "top": 6322.921875,
+            "bottom": 6358.921875,
+            "right": 747.8125
+          }
+        },
+        {
+          "label": "Documents",
+          "tag": "a",
+          "rect": {
+            "x": 789.8125,
+            "y": 6214.921875,
+            "width": 244.09375,
+            "height": 36,
+            "top": 6214.921875,
+            "bottom": 6250.921875,
+            "right": 1033.90625
+          }
+        },
+        {
+          "label": "Resources",
+          "tag": "a",
+          "rect": {
+            "x": 789.8125,
+            "y": 6250.921875,
+            "width": 244.09375,
+            "height": 36,
+            "top": 6250.921875,
+            "bottom": 6286.921875,
+            "right": 1033.90625
+          }
+        },
+        {
+          "label": "About",
+          "tag": "a",
+          "rect": {
+            "x": 789.8125,
+            "y": 6286.921875,
+            "width": 244.09375,
+            "height": 36,
+            "top": 6286.921875,
+            "bottom": 6322.921875,
+            "right": 1033.90625
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 1075.90625,
+            "y": 6222.921875,
+            "width": 141.625,
+            "height": 46,
+            "top": 6222.921875,
+            "bottom": 6268.921875,
+            "right": 1217.53125
+          }
+        }
+      ],
+      "visibleCurrentLabels": 0,
+      "parity": {
+        "missingCopy": [],
+        "missingHrefs": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 900,
+        "dpr": 1
+      },
+      "scroll": {
+        "documentWidth": 1024,
+        "bodyWidth": 1024,
+        "documentHeight": 7127
+      },
+      "font": {
+        "bodyFamily": "Inter, Arial, sans-serif",
+        "interReady": true
+      },
+      "moduleRects": [
+        {
+          "name": "hero",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 84,
+            "width": 1024,
+            "height": 630.03125,
+            "top": 84,
+            "bottom": 714.03125,
+            "right": 1024
+          }
+        },
+        {
+          "name": "start-here",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 714.03125,
+            "width": 1024,
+            "height": 274.96875,
+            "top": 714.03125,
+            "bottom": 989,
+            "right": 1024
+          }
+        },
+        {
+          "name": "markets",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 989,
+            "width": 1024,
+            "height": 768.875,
+            "top": 989,
+            "bottom": 1757.875,
+            "right": 1024
+          }
+        },
+        {
+          "name": "products",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 1757.875,
+            "width": 1024,
+            "height": 918.53125,
+            "top": 1757.875,
+            "bottom": 2676.40625,
+            "right": 1024
+          }
+        },
+        {
+          "name": "applications",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 2676.40625,
+            "width": 1024,
+            "height": 1146.015625,
+            "top": 2676.40625,
+            "bottom": 3822.421875,
+            "right": 1024
+          }
+        },
+        {
+          "name": "company",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 3822.421875,
+            "width": 1024,
+            "height": 678.65625,
+            "top": 3822.421875,
+            "bottom": 4501.078125,
+            "right": 1024
+          }
+        },
+        {
+          "name": "documents",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 4501.078125,
+            "width": 1024,
+            "height": 655.234375,
+            "top": 4501.078125,
+            "bottom": 5156.3125,
+            "right": 1024
+          }
+        },
+        {
+          "name": "resources",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 5156.3125,
+            "width": 1024,
+            "height": 1164.609375,
+            "top": 5156.3125,
+            "bottom": 6320.921875,
+            "right": 1024
+          }
+        },
+        {
+          "name": "page-rfq",
+          "visible": true,
+          "rect": {
+            "x": 32,
+            "y": 6392.921875,
+            "width": 960,
+            "height": 331.296875,
+            "top": 6392.921875,
+            "bottom": 6724.21875,
+            "right": 992
+          }
+        }
+      ],
+      "heroImage": {
+        "visible": true,
+        "complete": true,
+        "naturalWidth": 1122,
+        "naturalHeight": 1402,
+        "rect": {
+          "x": 563.4375,
+          "y": 164,
+          "width": 382.5625,
+          "height": 478.03125,
+          "top": 164,
+          "bottom": 642.03125,
+          "right": 946
+        }
+      },
+      "pageRfqVisible": true,
+      "startHereVisible": true,
+      "footerVisible": true,
+      "visibleControls": [
+        {
+          "label": "TiO2 Malaysia home",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 11.5,
+            "width": 180,
+            "height": 60,
+            "top": 11.5,
+            "bottom": 71.5,
+            "right": 212
+          }
+        },
+        {
+          "label": "Home",
+          "tag": "a",
+          "rect": {
+            "x": 370.390625,
+            "y": 0,
+            "width": 34.75,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 405.140625
+          }
+        },
+        {
+          "label": "Markets",
+          "tag": "a",
+          "rect": {
+            "x": 419.140625,
+            "y": 0,
+            "width": 47.703125,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 466.84375
+          }
+        },
+        {
+          "label": "Products",
+          "tag": "a",
+          "rect": {
+            "x": 480.84375,
+            "y": 0,
+            "width": 52.5,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 533.34375
+          }
+        },
+        {
+          "label": "Applications",
+          "tag": "a",
+          "rect": {
+            "x": 547.34375,
+            "y": 0,
+            "width": 73.265625,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 620.609375
+          }
+        },
+        {
+          "label": "Documents",
+          "tag": "a",
+          "rect": {
+            "x": 634.609375,
+            "y": 0,
+            "width": 66.734375,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 701.34375
+          }
+        },
+        {
+          "label": "Resources",
+          "tag": "a",
+          "rect": {
+            "x": 715.34375,
+            "y": 0,
+            "width": 61.59375,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 776.9375
+          }
+        },
+        {
+          "label": "About",
+          "tag": "a",
+          "rect": {
+            "x": 790.9375,
+            "y": 0,
+            "width": 35.4375,
+            "height": 83,
+            "top": 0,
+            "bottom": 83,
+            "right": 826.375
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 854.375,
+            "y": 18.5,
+            "width": 137.625,
+            "height": 46,
+            "top": 18.5,
+            "bottom": 64.5,
+            "right": 992
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 77,
+            "y": 556.515625,
+            "width": 167.484375,
+            "height": 48.25,
+            "top": 556.515625,
+            "bottom": 604.765625,
+            "right": 244.484375
+          }
+        },
+        {
+          "label": "View Products",
+          "tag": "a",
+          "rect": {
+            "x": 256.484375,
+            "y": 556.515625,
+            "width": 153.84375,
+            "height": 48.25,
+            "top": 556.515625,
+            "bottom": 604.765625,
+            "right": 410.328125
+          }
+        },
+        {
+          "label": "01MarketsDestination markets→",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 801,
+            "width": 308,
+            "height": 126,
+            "top": 801,
+            "bottom": 927,
+            "right": 340
+          }
+        },
+        {
+          "label": "02ProductsFourteen grades→",
+          "tag": "a",
+          "rect": {
+            "x": 358,
+            "y": 801,
+            "width": 308,
+            "height": 126,
+            "top": 801,
+            "bottom": 927,
+            "right": 666
+          }
+        },
+        {
+          "label": "03DocumentsGuidance and requests→",
+          "tag": "a",
+          "rect": {
+            "x": 684,
+            "y": 801,
+            "width": 308,
+            "height": 126,
+            "top": 801,
+            "bottom": 927,
+            "right": 992
+          }
+        },
+        {
+          "label": "View All Markets →",
+          "tag": "a",
+          "rect": {
+            "x": 853.21875,
+            "y": 1173.9375,
+            "width": 138.78125,
+            "height": 48.59375,
+            "top": 1173.9375,
+            "bottom": 1222.53125,
+            "right": 992
+          }
+        },
+        {
+          "label": "European Union market →",
+          "tag": "a",
+          "rect": {
+            "x": 115,
+            "y": 1388.203125,
+            "width": 190.71875,
+            "height": 44,
+            "top": 1388.203125,
+            "bottom": 1432.203125,
+            "right": 305.71875
+          }
+        },
+        {
+          "label": "United Kingdom market →",
+          "tag": "a",
+          "rect": {
+            "x": 605,
+            "y": 1388.203125,
+            "width": 192.390625,
+            "height": 44,
+            "top": 1388.203125,
+            "bottom": 1432.203125,
+            "right": 797.390625
+          }
+        },
+        {
+          "label": "India market →",
+          "tag": "a",
+          "rect": {
+            "x": 115,
+            "y": 1612.875,
+            "width": 109.640625,
+            "height": 44,
+            "top": 1612.875,
+            "bottom": 1656.875,
+            "right": 224.640625
+          }
+        },
+        {
+          "label": "Brazil market →",
+          "tag": "a",
+          "rect": {
+            "x": 605,
+            "y": 1612.875,
+            "width": 115.1875,
+            "height": 44,
+            "top": 1612.875,
+            "bottom": 1656.875,
+            "right": 720.1875
+          }
+        },
+        {
+          "label": "Coatings Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 33,
+            "y": 2026.40625,
+            "width": 469,
+            "height": 67.53125,
+            "top": 2026.40625,
+            "bottom": 2093.9375,
+            "right": 502
+          }
+        },
+        {
+          "label": "Plastics & Masterbatch Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 522,
+            "y": 2026.40625,
+            "width": 469,
+            "height": 67.53125,
+            "top": 2026.40625,
+            "bottom": 2093.9375,
+            "right": 991
+          }
+        },
+        {
+          "label": "Inks & Multi-Application +",
+          "tag": "summary",
+          "rect": {
+            "x": 33,
+            "y": 2299.28125,
+            "width": 469,
+            "height": 67.53125,
+            "top": 2299.28125,
+            "bottom": 2366.8125,
+            "right": 502
+          }
+        },
+        {
+          "label": "Specialty Grade +",
+          "tag": "summary",
+          "rect": {
+            "x": 522,
+            "y": 2299.28125,
+            "width": 469,
+            "height": 67.53125,
+            "top": 2299.28125,
+            "bottom": 2366.8125,
+            "right": 991
+          }
+        },
+        {
+          "label": "Chloride Process →",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 2558.28125,
+            "width": 144,
+            "height": 44,
+            "top": 2558.28125,
+            "bottom": 2602.28125,
+            "right": 176
+          }
+        },
+        {
+          "label": "Sulfate Process →",
+          "tag": "a",
+          "rect": {
+            "x": 192,
+            "y": 2558.28125,
+            "width": 133.640625,
+            "height": 44,
+            "top": 2558.28125,
+            "bottom": 2602.28125,
+            "right": 325.640625
+          }
+        },
+        {
+          "label": "View All 14 Grades",
+          "tag": "a",
+          "rect": {
+            "x": 808.65625,
+            "y": 2556.15625,
+            "width": 183.34375,
+            "height": 48.25,
+            "top": 2556.15625,
+            "bottom": 2604.40625,
+            "right": 992
+          }
+        },
+        {
+          "label": "Coatings information →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 3108.078125,
+            "width": 174.40625,
+            "height": 44,
+            "top": 3108.078125,
+            "bottom": 3152.078125,
+            "right": 235.40625
+          }
+        },
+        {
+          "label": "Plastics information →",
+          "tag": "a",
+          "rect": {
+            "x": 551,
+            "y": 3108.078125,
+            "width": 166.28125,
+            "height": 44,
+            "top": 3108.078125,
+            "bottom": 3152.078125,
+            "right": 717.28125
+          }
+        },
+        {
+          "label": "Masterbatch information →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 3417.046875,
+            "width": 202.546875,
+            "height": 44,
+            "top": 3417.046875,
+            "bottom": 3461.046875,
+            "right": 263.546875
+          }
+        },
+        {
+          "label": "Printing inks information →",
+          "tag": "a",
+          "rect": {
+            "x": 551,
+            "y": 3392.75,
+            "width": 200.734375,
+            "height": 44,
+            "top": 3392.75,
+            "bottom": 3436.75,
+            "right": 751.734375
+          }
+        },
+        {
+          "label": "Paper information →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 3677.421875,
+            "width": 150.5625,
+            "height": 44,
+            "top": 3677.421875,
+            "bottom": 3721.421875,
+            "right": 211.5625
+          }
+        },
+        {
+          "label": "About TiO₂ Malaysia →",
+          "tag": "a",
+          "rect": {
+            "x": 77,
+            "y": 4197.046875,
+            "width": 168.46875,
+            "height": 44,
+            "top": 4197.046875,
+            "bottom": 4241.046875,
+            "right": 245.46875
+          }
+        },
+        {
+          "label": "View Document Information →",
+          "tag": "a",
+          "rect": {
+            "x": 65,
+            "y": 5007.3125,
+            "width": 224.859375,
+            "height": 44,
+            "top": 5007.3125,
+            "bottom": 5051.3125,
+            "right": 289.859375
+          }
+        },
+        {
+          "label": "Request Documents →",
+          "tag": "a",
+          "rect": {
+            "x": 555,
+            "y": 5007.3125,
+            "width": 167.015625,
+            "height": 44,
+            "top": 5007.3125,
+            "bottom": 5051.3125,
+            "right": 722.015625
+          }
+        },
+        {
+          "label": "Read sourcing considerations →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 5645.921875,
+            "width": 237.859375,
+            "height": 44,
+            "top": 5645.921875,
+            "bottom": 5689.921875,
+            "right": 298.859375
+          }
+        },
+        {
+          "label": "Read process overview →",
+          "tag": "a",
+          "rect": {
+            "x": 551,
+            "y": 5596.546875,
+            "width": 189.640625,
+            "height": 44,
+            "top": 5596.546875,
+            "bottom": 5640.546875,
+            "right": 740.640625
+          }
+        },
+        {
+          "label": "Market information →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 5894.890625,
+            "width": 160.140625,
+            "height": 44,
+            "top": 5894.890625,
+            "bottom": 5938.890625,
+            "right": 221.140625
+          }
+        },
+        {
+          "label": "View all 14 grades →",
+          "tag": "a",
+          "rect": {
+            "x": 551,
+            "y": 5894.890625,
+            "width": 150.484375,
+            "height": 44,
+            "top": 5894.890625,
+            "bottom": 5938.890625,
+            "right": 701.484375
+          }
+        },
+        {
+          "label": "Request a Quote →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 6135.59375,
+            "width": 139.046875,
+            "height": 44,
+            "top": 6135.59375,
+            "bottom": 6179.59375,
+            "right": 200.046875
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 80,
+            "y": 6631.96875,
+            "width": 167.484375,
+            "height": 48.25,
+            "top": 6631.96875,
+            "bottom": 6680.21875,
+            "right": 247.484375
+          }
+        },
+        {
+          "label": "Home",
+          "tag": "a",
+          "rect": {
+            "x": 310.28125,
+            "y": 6871.3125,
+            "width": 208.5625,
+            "height": 36,
+            "top": 6871.3125,
+            "bottom": 6907.3125,
+            "right": 518.84375
+          }
+        },
+        {
+          "label": "Markets",
+          "tag": "a",
+          "rect": {
+            "x": 310.28125,
+            "y": 6907.3125,
+            "width": 208.5625,
+            "height": 36,
+            "top": 6907.3125,
+            "bottom": 6943.3125,
+            "right": 518.84375
+          }
+        },
+        {
+          "label": "Products",
+          "tag": "a",
+          "rect": {
+            "x": 310.28125,
+            "y": 6943.3125,
+            "width": 208.5625,
+            "height": 36,
+            "top": 6943.3125,
+            "bottom": 6979.3125,
+            "right": 518.84375
+          }
+        },
+        {
+          "label": "Applications",
+          "tag": "a",
+          "rect": {
+            "x": 310.28125,
+            "y": 6979.3125,
+            "width": 208.5625,
+            "height": 36,
+            "top": 6979.3125,
+            "bottom": 7015.3125,
+            "right": 518.84375
+          }
+        },
+        {
+          "label": "Documents",
+          "tag": "a",
+          "rect": {
+            "x": 546.84375,
+            "y": 6871.3125,
+            "width": 208.578125,
+            "height": 36,
+            "top": 6871.3125,
+            "bottom": 6907.3125,
+            "right": 755.421875
+          }
+        },
+        {
+          "label": "Resources",
+          "tag": "a",
+          "rect": {
+            "x": 546.84375,
+            "y": 6907.3125,
+            "width": 208.578125,
+            "height": 36,
+            "top": 6907.3125,
+            "bottom": 6943.3125,
+            "right": 755.421875
+          }
+        },
+        {
+          "label": "About",
+          "tag": "a",
+          "rect": {
+            "x": 546.84375,
+            "y": 6943.3125,
+            "width": 208.578125,
+            "height": 36,
+            "top": 6943.3125,
+            "bottom": 6979.3125,
+            "right": 755.421875
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 783.421875,
+            "y": 6879.3125,
+            "width": 141.625,
+            "height": 46,
+            "top": 6879.3125,
+            "bottom": 6925.3125,
+            "right": 925.046875
+          }
+        }
+      ],
+      "visibleCurrentLabels": 0,
+      "parity": {
+        "missingCopy": [],
+        "missingHrefs": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 900,
+        "dpr": 1
+      },
+      "scroll": {
+        "documentWidth": 768,
+        "bodyWidth": 768,
+        "documentHeight": 8135
+      },
+      "font": {
+        "bodyFamily": "Inter, Arial, sans-serif",
+        "interReady": true
+      },
+      "moduleRects": [
+        {
+          "name": "hero",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 64,
+            "width": 768,
+            "height": 705.28125,
+            "top": 64,
+            "bottom": 769.28125,
+            "right": 768
+          }
+        },
+        {
+          "name": "start-here",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 769.28125,
+            "width": 768,
+            "height": 288.96875,
+            "top": 769.28125,
+            "bottom": 1058.25,
+            "right": 768
+          }
+        },
+        {
+          "name": "markets",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 1058.25,
+            "width": 768,
+            "height": 925.46875,
+            "top": 1058.25,
+            "bottom": 1983.71875,
+            "right": 768
+          }
+        },
+        {
+          "name": "products",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 1983.71875,
+            "width": 768,
+            "height": 959.5625,
+            "top": 1983.71875,
+            "bottom": 2943.28125,
+            "right": 768
+          }
+        },
+        {
+          "name": "applications",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 2943.28125,
+            "width": 768,
+            "height": 1222.140625,
+            "top": 2943.28125,
+            "bottom": 4165.421875,
+            "right": 768
+          }
+        },
+        {
+          "name": "company",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 4165.421875,
+            "width": 768,
+            "height": 892.21875,
+            "top": 4165.421875,
+            "bottom": 5057.640625,
+            "right": 768
+          }
+        },
+        {
+          "name": "documents",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 5057.640625,
+            "width": 768,
+            "height": 679.53125,
+            "top": 5057.640625,
+            "bottom": 5737.171875,
+            "right": 768
+          }
+        },
+        {
+          "name": "resources",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 5737.171875,
+            "width": 768,
+            "height": 1222.25,
+            "top": 5737.171875,
+            "bottom": 6959.421875,
+            "right": 768
+          }
+        },
+        {
+          "name": "page-rfq",
+          "visible": true,
+          "rect": {
+            "x": 32,
+            "y": 7031.421875,
+            "width": 704,
+            "height": 445.90625,
+            "top": 7031.421875,
+            "bottom": 7477.328125,
+            "right": 736
+          }
+        }
+      ],
+      "heroImage": {
+        "visible": true,
+        "complete": true,
+        "naturalWidth": 1122,
+        "naturalHeight": 1402,
+        "rect": {
+          "x": 426,
+          "y": 138,
+          "width": 274,
+          "height": 565.28125,
+          "top": 138,
+          "bottom": 703.28125,
+          "right": 700
+        }
+      },
+      "pageRfqVisible": true,
+      "startHereVisible": true,
+      "footerVisible": true,
+      "visibleControls": [
+        {
+          "label": "TiO2 Malaysia home",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 9.5,
+            "width": 120,
+            "height": 44,
+            "top": 9.5,
+            "bottom": 53.5,
+            "right": 152
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 560.609375,
+            "y": 9.5,
+            "width": 121.390625,
+            "height": 44,
+            "top": 9.5,
+            "bottom": 53.5,
+            "right": 682
+          }
+        },
+        {
+          "label": "☰",
+          "tag": "button",
+          "rect": {
+            "x": 692,
+            "y": 9.5,
+            "width": 44,
+            "height": 44,
+            "top": 9.5,
+            "bottom": 53.5,
+            "right": 736
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 67,
+            "y": 595.78125,
+            "width": 167.484375,
+            "height": 48.25,
+            "top": 595.78125,
+            "bottom": 644.03125,
+            "right": 234.484375
+          }
+        },
+        {
+          "label": "View Products",
+          "tag": "a",
+          "rect": {
+            "x": 67,
+            "y": 656.03125,
+            "width": 153.84375,
+            "height": 48.25,
+            "top": 656.03125,
+            "bottom": 704.28125,
+            "right": 220.84375
+          }
+        },
+        {
+          "label": "01MarketsDestination markets→",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 856.25,
+            "width": 226.65625,
+            "height": 140,
+            "top": 856.25,
+            "bottom": 996.25,
+            "right": 258.65625
+          }
+        },
+        {
+          "label": "02ProductsFourteen grades→",
+          "tag": "a",
+          "rect": {
+            "x": 270.65625,
+            "y": 856.25,
+            "width": 226.671875,
+            "height": 140,
+            "top": 856.25,
+            "bottom": 996.25,
+            "right": 497.328125
+          }
+        },
+        {
+          "label": "03DocumentsGuidance and requests→",
+          "tag": "a",
+          "rect": {
+            "x": 509.328125,
+            "y": 856.25,
+            "width": 226.671875,
+            "height": 140,
+            "top": 856.25,
+            "bottom": 996.25,
+            "right": 736
+          }
+        },
+        {
+          "label": "View All Markets →",
+          "tag": "a",
+          "rect": {
+            "x": 635.421875,
+            "y": 1243.1875,
+            "width": 100.578125,
+            "height": 48.59375,
+            "top": 1243.1875,
+            "bottom": 1291.78125,
+            "right": 736
+          }
+        },
+        {
+          "label": "European Union market →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 1535.75,
+            "width": 190.71875,
+            "height": 44,
+            "top": 1535.75,
+            "bottom": 1579.75,
+            "right": 251.71875
+          }
+        },
+        {
+          "label": "United Kingdom market →",
+          "tag": "a",
+          "rect": {
+            "x": 423,
+            "y": 1535.75,
+            "width": 192.390625,
+            "height": 44,
+            "top": 1535.75,
+            "bottom": 1579.75,
+            "right": 615.390625
+          }
+        },
+        {
+          "label": "India market →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 1814.421875,
+            "width": 109.640625,
+            "height": 44,
+            "top": 1814.421875,
+            "bottom": 1858.421875,
+            "right": 170.640625
+          }
+        },
+        {
+          "label": "Brazil market →",
+          "tag": "a",
+          "rect": {
+            "x": 423,
+            "y": 1838.71875,
+            "width": 115.1875,
+            "height": 44,
+            "top": 1838.71875,
+            "bottom": 1882.71875,
+            "right": 538.1875
+          }
+        },
+        {
+          "label": "Coatings Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 33,
+            "y": 2293.28125,
+            "width": 341,
+            "height": 67.53125,
+            "top": 2293.28125,
+            "bottom": 2360.8125,
+            "right": 374
+          }
+        },
+        {
+          "label": "Plastics & Masterbatch Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 394,
+            "y": 2293.28125,
+            "width": 341,
+            "height": 67.53125,
+            "top": 2293.28125,
+            "bottom": 2360.8125,
+            "right": 735
+          }
+        },
+        {
+          "label": "Inks & Multi-Application +",
+          "tag": "summary",
+          "rect": {
+            "x": 33,
+            "y": 2566.15625,
+            "width": 341,
+            "height": 67.53125,
+            "top": 2566.15625,
+            "bottom": 2633.6875,
+            "right": 374
+          }
+        },
+        {
+          "label": "Specialty Grade +",
+          "tag": "summary",
+          "rect": {
+            "x": 394,
+            "y": 2566.15625,
+            "width": 341,
+            "height": 67.53125,
+            "top": 2566.15625,
+            "bottom": 2633.6875,
+            "right": 735
+          }
+        },
+        {
+          "label": "Chloride Process →",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 2825.15625,
+            "width": 144,
+            "height": 44,
+            "top": 2825.15625,
+            "bottom": 2869.15625,
+            "right": 176
+          }
+        },
+        {
+          "label": "Sulfate Process →",
+          "tag": "a",
+          "rect": {
+            "x": 192,
+            "y": 2825.15625,
+            "width": 133.640625,
+            "height": 44,
+            "top": 2825.15625,
+            "bottom": 2869.15625,
+            "right": 325.640625
+          }
+        },
+        {
+          "label": "View All 14 Grades",
+          "tag": "a",
+          "rect": {
+            "x": 552.65625,
+            "y": 2823.03125,
+            "width": 183.34375,
+            "height": 48.25,
+            "top": 2823.03125,
+            "bottom": 2871.28125,
+            "right": 736
+          }
+        },
+        {
+          "label": "Coatings information →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 3426.78125,
+            "width": 174.40625,
+            "height": 44,
+            "top": 3426.78125,
+            "bottom": 3470.78125,
+            "right": 235.40625
+          }
+        },
+        {
+          "label": "Plastics information →",
+          "tag": "a",
+          "rect": {
+            "x": 423,
+            "y": 3426.78125,
+            "width": 166.28125,
+            "height": 44,
+            "top": 3426.78125,
+            "bottom": 3470.78125,
+            "right": 589.28125
+          }
+        },
+        {
+          "label": "Masterbatch information →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 3760.046875,
+            "width": 202.546875,
+            "height": 44,
+            "top": 3760.046875,
+            "bottom": 3804.046875,
+            "right": 263.546875
+          }
+        },
+        {
+          "label": "Printing inks information →",
+          "tag": "a",
+          "rect": {
+            "x": 423,
+            "y": 3735.75,
+            "width": 200.734375,
+            "height": 44,
+            "top": 3735.75,
+            "bottom": 3779.75,
+            "right": 623.734375
+          }
+        },
+        {
+          "label": "Paper information →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 4020.421875,
+            "width": 150.5625,
+            "height": 44,
+            "top": 4020.421875,
+            "bottom": 4064.421875,
+            "right": 211.5625
+          }
+        },
+        {
+          "label": "About TiO₂ Malaysia →",
+          "tag": "a",
+          "rect": {
+            "x": 77,
+            "y": 4512.515625,
+            "width": 168.46875,
+            "height": 44,
+            "top": 4512.515625,
+            "bottom": 4556.515625,
+            "right": 245.46875
+          }
+        },
+        {
+          "label": "View Document Information →",
+          "tag": "a",
+          "rect": {
+            "x": 65,
+            "y": 5563.875,
+            "width": 224.859375,
+            "height": 44,
+            "top": 5563.875,
+            "bottom": 5607.875,
+            "right": 289.859375
+          }
+        },
+        {
+          "label": "Request Documents →",
+          "tag": "a",
+          "rect": {
+            "x": 427,
+            "y": 5588.171875,
+            "width": 167.015625,
+            "height": 44,
+            "top": 5588.171875,
+            "bottom": 5632.171875,
+            "right": 594.015625
+          }
+        },
+        {
+          "label": "Read sourcing considerations →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 6251.078125,
+            "width": 237.859375,
+            "height": 44,
+            "top": 6251.078125,
+            "bottom": 6295.078125,
+            "right": 298.859375
+          }
+        },
+        {
+          "label": "Read process overview →",
+          "tag": "a",
+          "rect": {
+            "x": 423,
+            "y": 6226.78125,
+            "width": 189.640625,
+            "height": 44,
+            "top": 6226.78125,
+            "bottom": 6270.78125,
+            "right": 612.640625
+          }
+        },
+        {
+          "label": "Market information →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 6524.34375,
+            "width": 160.140625,
+            "height": 44,
+            "top": 6524.34375,
+            "bottom": 6568.34375,
+            "right": 221.140625
+          }
+        },
+        {
+          "label": "View all 14 grades →",
+          "tag": "a",
+          "rect": {
+            "x": 423,
+            "y": 6549.421875,
+            "width": 150.484375,
+            "height": 44,
+            "top": 6549.421875,
+            "bottom": 6593.421875,
+            "right": 573.484375
+          }
+        },
+        {
+          "label": "Request a Quote →",
+          "tag": "a",
+          "rect": {
+            "x": 61,
+            "y": 6774.09375,
+            "width": 139.046875,
+            "height": 44,
+            "top": 6774.09375,
+            "bottom": 6818.09375,
+            "right": 200.046875
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 80,
+            "y": 7385.078125,
+            "width": 167.484375,
+            "height": 48.25,
+            "top": 7385.078125,
+            "bottom": 7433.328125,
+            "right": 247.484375
+          }
+        },
+        {
+          "label": "Home",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 7780.296875,
+            "width": 338,
+            "height": 36,
+            "top": 7780.296875,
+            "bottom": 7816.296875,
+            "right": 370
+          }
+        },
+        {
+          "label": "Markets",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 7816.296875,
+            "width": 338,
+            "height": 36,
+            "top": 7816.296875,
+            "bottom": 7852.296875,
+            "right": 370
+          }
+        },
+        {
+          "label": "Products",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 7852.296875,
+            "width": 338,
+            "height": 36,
+            "top": 7852.296875,
+            "bottom": 7888.296875,
+            "right": 370
+          }
+        },
+        {
+          "label": "Applications",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 7888.296875,
+            "width": 338,
+            "height": 36,
+            "top": 7888.296875,
+            "bottom": 7924.296875,
+            "right": 370
+          }
+        },
+        {
+          "label": "Documents",
+          "tag": "a",
+          "rect": {
+            "x": 398,
+            "y": 7780.296875,
+            "width": 338,
+            "height": 36,
+            "top": 7780.296875,
+            "bottom": 7816.296875,
+            "right": 736
+          }
+        },
+        {
+          "label": "Resources",
+          "tag": "a",
+          "rect": {
+            "x": 398,
+            "y": 7816.296875,
+            "width": 338,
+            "height": 36,
+            "top": 7816.296875,
+            "bottom": 7852.296875,
+            "right": 736
+          }
+        },
+        {
+          "label": "About",
+          "tag": "a",
+          "rect": {
+            "x": 398,
+            "y": 7852.296875,
+            "width": 338,
+            "height": 36,
+            "top": 7852.296875,
+            "bottom": 7888.296875,
+            "right": 736
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 32,
+            "y": 7977.390625,
+            "width": 141.625,
+            "height": 46,
+            "top": 7977.390625,
+            "bottom": 8023.390625,
+            "right": 173.625
+          }
+        }
+      ],
+      "visibleCurrentLabels": 0,
+      "parity": {
+        "missingCopy": [],
+        "missingHrefs": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "scroll": {
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "documentHeight": 10142
+      },
+      "font": {
+        "bodyFamily": "Inter, Arial, sans-serif",
+        "interReady": true
+      },
+      "moduleRects": [
+        {
+          "name": "hero",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 64,
+            "width": 390,
+            "height": 818.1875,
+            "top": 64,
+            "bottom": 882.1875,
+            "right": 390
+          }
+        },
+        {
+          "name": "start-here",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 882.1875,
+            "width": 390,
+            "height": 509.25,
+            "top": 882.1875,
+            "bottom": 1391.4375,
+            "right": 390
+          }
+        },
+        {
+          "name": "markets",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 1391.4375,
+            "width": 390,
+            "height": 1530.265625,
+            "top": 1391.4375,
+            "bottom": 2921.703125,
+            "right": 390
+          }
+        },
+        {
+          "name": "products",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 2921.703125,
+            "width": 390,
+            "height": 949.3125,
+            "top": 2921.703125,
+            "bottom": 3871.015625,
+            "right": 390
+          }
+        },
+        {
+          "name": "applications",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 3871.015625,
+            "width": 390,
+            "height": 1793.34375,
+            "top": 3871.015625,
+            "bottom": 5664.359375,
+            "right": 390
+          }
+        },
+        {
+          "name": "company",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 5664.359375,
+            "width": 390,
+            "height": 974.65625,
+            "top": 5664.359375,
+            "bottom": 6639.015625,
+            "right": 390
+          }
+        },
+        {
+          "name": "documents",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 6639.015625,
+            "width": 390,
+            "height": 967.5625,
+            "top": 6639.015625,
+            "bottom": 7606.578125,
+            "right": 390
+          }
+        },
+        {
+          "name": "resources",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 7606.578125,
+            "width": 390,
+            "height": 1752.375,
+            "top": 7606.578125,
+            "bottom": 9358.953125,
+            "right": 390
+          }
+        },
+        {
+          "name": "page-rfq",
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      ],
+      "heroImage": {
+        "visible": true,
+        "complete": true,
+        "naturalWidth": 1122,
+        "naturalHeight": 1402,
+        "rect": {
+          "x": 44,
+          "y": 610.1875,
+          "width": 302,
+          "height": 228,
+          "top": 610.1875,
+          "bottom": 838.1875,
+          "right": 346
+        }
+      },
+      "pageRfqVisible": false,
+      "startHereVisible": true,
+      "footerVisible": true,
+      "visibleControls": [
+        {
+          "label": "TiO2 Malaysia home",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9.5,
+            "width": 120,
+            "height": 44,
+            "top": 9.5,
+            "bottom": 53.5,
+            "right": 140
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 194.609375,
+            "y": 9.5,
+            "width": 121.390625,
+            "height": 44,
+            "top": 9.5,
+            "bottom": 53.5,
+            "right": 316
+          }
+        },
+        {
+          "label": "☰",
+          "tag": "button",
+          "rect": {
+            "x": 326,
+            "y": 9.5,
+            "width": 44,
+            "height": 44,
+            "top": 9.5,
+            "bottom": 53.5,
+            "right": 370
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 476.6875,
+            "width": 304,
+            "height": 48.25,
+            "top": 476.6875,
+            "bottom": 524.9375,
+            "right": 347
+          }
+        },
+        {
+          "label": "View Products",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 536.9375,
+            "width": 304,
+            "height": 48.25,
+            "top": 536.9375,
+            "bottom": 585.1875,
+            "right": 347
+          }
+        },
+        {
+          "label": "01MarketsDestination markets→",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 985.4375,
+            "width": 350,
+            "height": 112,
+            "top": 985.4375,
+            "bottom": 1097.4375,
+            "right": 370
+          }
+        },
+        {
+          "label": "02ProductsFourteen grades→",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 1109.4375,
+            "width": 350,
+            "height": 112,
+            "top": 1109.4375,
+            "bottom": 1221.4375,
+            "right": 370
+          }
+        },
+        {
+          "label": "03DocumentsGuidance and requests→",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 1233.4375,
+            "width": 350,
+            "height": 112,
+            "top": 1233.4375,
+            "bottom": 1345.4375,
+            "right": 370
+          }
+        },
+        {
+          "label": "View All Markets →",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 1668.6875,
+            "width": 142.71875,
+            "height": 44,
+            "top": 1668.6875,
+            "bottom": 1712.6875,
+            "right": 162.71875
+          }
+        },
+        {
+          "label": "European Union market →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 1949.515625,
+            "width": 190.71875,
+            "height": 44,
+            "top": 1949.515625,
+            "bottom": 1993.515625,
+            "right": 233.71875
+          }
+        },
+        {
+          "label": "United Kingdom market →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 2241.34375,
+            "width": 192.390625,
+            "height": 44,
+            "top": 2241.34375,
+            "bottom": 2285.34375,
+            "right": 235.390625
+          }
+        },
+        {
+          "label": "India market →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 2508.875,
+            "width": 109.640625,
+            "height": 44,
+            "top": 2508.875,
+            "bottom": 2552.875,
+            "right": 152.640625
+          }
+        },
+        {
+          "label": "Brazil market →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 2800.703125,
+            "width": 115.1875,
+            "height": 44,
+            "top": 2800.703125,
+            "bottom": 2844.703125,
+            "right": 158.1875
+          }
+        },
+        {
+          "label": "Coatings Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 21,
+            "y": 3283.140625,
+            "width": 348,
+            "height": 65.90625,
+            "top": 3283.140625,
+            "bottom": 3349.046875,
+            "right": 369
+          }
+        },
+        {
+          "label": "Plastics & Masterbatch Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 21,
+            "y": 3369.046875,
+            "width": 348,
+            "height": 65.90625,
+            "top": 3369.046875,
+            "bottom": 3434.953125,
+            "right": 369
+          }
+        },
+        {
+          "label": "Inks & Multi-Application +",
+          "tag": "summary",
+          "rect": {
+            "x": 21,
+            "y": 3454.953125,
+            "width": 348,
+            "height": 65.90625,
+            "top": 3454.953125,
+            "bottom": 3520.859375,
+            "right": 369
+          }
+        },
+        {
+          "label": "Specialty Grade +",
+          "tag": "summary",
+          "rect": {
+            "x": 21,
+            "y": 3540.859375,
+            "width": 348,
+            "height": 65.90625,
+            "top": 3540.859375,
+            "bottom": 3606.765625,
+            "right": 369
+          }
+        },
+        {
+          "label": "Chloride Process →",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 3656.765625,
+            "width": 183.34375,
+            "height": 44,
+            "top": 3656.765625,
+            "bottom": 3700.765625,
+            "right": 203.34375
+          }
+        },
+        {
+          "label": "Sulfate Process →",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 3702.765625,
+            "width": 183.34375,
+            "height": 44,
+            "top": 3702.765625,
+            "bottom": 3746.765625,
+            "right": 203.34375
+          }
+        },
+        {
+          "label": "View All 14 Grades",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 3770.765625,
+            "width": 183.34375,
+            "height": 48.25,
+            "top": 3770.765625,
+            "bottom": 3819.015625,
+            "right": 203.34375
+          }
+        },
+        {
+          "label": "Coatings information →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 4344.046875,
+            "width": 174.40625,
+            "height": 44,
+            "top": 4344.046875,
+            "bottom": 4388.046875,
+            "right": 217.40625
+          }
+        },
+        {
+          "label": "Plastics information →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 4643.875,
+            "width": 166.28125,
+            "height": 44,
+            "top": 4643.875,
+            "bottom": 4687.875,
+            "right": 209.28125
+          }
+        },
+        {
+          "label": "Masterbatch information →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 4968,
+            "width": 202.546875,
+            "height": 44,
+            "top": 4968,
+            "bottom": 5012,
+            "right": 245.546875
+          }
+        },
+        {
+          "label": "Printing inks information →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 5243.53125,
+            "width": 200.734375,
+            "height": 44,
+            "top": 5243.53125,
+            "bottom": 5287.53125,
+            "right": 243.734375
+          }
+        },
+        {
+          "label": "Paper information →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 5543.359375,
+            "width": 150.5625,
+            "height": 44,
+            "top": 5543.359375,
+            "bottom": 5587.359375,
+            "right": 193.5625
+          }
+        },
+        {
+          "label": "About TiO₂ Malaysia →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 6058.234375,
+            "width": 168.46875,
+            "height": 44,
+            "top": 6058.234375,
+            "bottom": 6102.234375,
+            "right": 211.46875
+          }
+        },
+        {
+          "label": "View Document Information →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 7181.75,
+            "width": 224.859375,
+            "height": 44,
+            "top": 7181.75,
+            "bottom": 7225.75,
+            "right": 267.859375
+          }
+        },
+        {
+          "label": "Request Documents →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 7485.578125,
+            "width": 167.015625,
+            "height": 44,
+            "top": 7485.578125,
+            "bottom": 7529.578125,
+            "right": 210.015625
+          }
+        },
+        {
+          "label": "Read sourcing considerations →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 8133.9375,
+            "width": 237.859375,
+            "height": 44,
+            "top": 8133.9375,
+            "bottom": 8177.9375,
+            "right": 280.859375
+          }
+        },
+        {
+          "label": "Read process overview →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 8397.703125,
+            "width": 189.640625,
+            "height": 44,
+            "top": 8397.703125,
+            "bottom": 8441.703125,
+            "right": 232.640625
+          }
+        },
+        {
+          "label": "Market information →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 8661.828125,
+            "width": 160.140625,
+            "height": 44,
+            "top": 8661.828125,
+            "bottom": 8705.828125,
+            "right": 203.140625
+          }
+        },
+        {
+          "label": "View all 14 grades →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 8949.890625,
+            "width": 150.484375,
+            "height": 44,
+            "top": 8949.890625,
+            "bottom": 8993.890625,
+            "right": 193.484375
+          }
+        },
+        {
+          "label": "Request a Quote →",
+          "tag": "a",
+          "rect": {
+            "x": 43,
+            "y": 9237.953125,
+            "width": 139.046875,
+            "height": 44,
+            "top": 9237.953125,
+            "bottom": 9281.953125,
+            "right": 182.046875
+          }
+        },
+        {
+          "label": "Home",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9577.296875,
+            "width": 350,
+            "height": 44,
+            "top": 9577.296875,
+            "bottom": 9621.296875,
+            "right": 370
+          }
+        },
+        {
+          "label": "Markets",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9621.296875,
+            "width": 350,
+            "height": 44,
+            "top": 9621.296875,
+            "bottom": 9665.296875,
+            "right": 370
+          }
+        },
+        {
+          "label": "Products",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9665.296875,
+            "width": 350,
+            "height": 44,
+            "top": 9665.296875,
+            "bottom": 9709.296875,
+            "right": 370
+          }
+        },
+        {
+          "label": "Applications",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9709.296875,
+            "width": 350,
+            "height": 44,
+            "top": 9709.296875,
+            "bottom": 9753.296875,
+            "right": 370
+          }
+        },
+        {
+          "label": "Documents",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9798.390625,
+            "width": 350,
+            "height": 44,
+            "top": 9798.390625,
+            "bottom": 9842.390625,
+            "right": 370
+          }
+        },
+        {
+          "label": "Resources",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9842.390625,
+            "width": 350,
+            "height": 44,
+            "top": 9842.390625,
+            "bottom": 9886.390625,
+            "right": 370
+          }
+        },
+        {
+          "label": "About",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9886.390625,
+            "width": 350,
+            "height": 44,
+            "top": 9886.390625,
+            "bottom": 9930.390625,
+            "right": 370
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 20,
+            "y": 9983.484375,
+            "width": 141.625,
+            "height": 46,
+            "top": 9983.484375,
+            "bottom": 10029.484375,
+            "right": 161.625
+          }
+        }
+      ],
+      "visibleCurrentLabels": 0,
+      "parity": {
+        "missingCopy": [
+          "Grades grouped for coatings applications and product selection.",
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "Grades for plastics processing and masterbatch applications.",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "Grades for printing inks and selected multi-application uses.",
+          "M-52",
+          "M-2377",
+          "A specialty grade for selected product and application requirements.",
+          "CR-901",
+          "REQUEST A QUOTE",
+          "Prepare a structured quotation request",
+          "Provide the key purchasing details needed to structure your quotation request.",
+          "Destination Market",
+          "Grade / Product",
+          "Quantity",
+          "Packaging",
+          "Document Needs"
+        ],
+        "missingHrefs": []
+      }
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 844,
+        "dpr": 1
+      },
+      "scroll": {
+        "documentWidth": 320,
+        "bodyWidth": 320,
+        "documentHeight": 10818
+      },
+      "font": {
+        "bodyFamily": "Inter, Arial, sans-serif",
+        "interReady": true
+      },
+      "moduleRects": [
+        {
+          "name": "hero",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 64,
+            "width": 320,
+            "height": 950.25,
+            "top": 64,
+            "bottom": 1014.25,
+            "right": 320
+          }
+        },
+        {
+          "name": "start-here",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 1014.25,
+            "width": 320,
+            "height": 535.15625,
+            "top": 1014.25,
+            "bottom": 1549.40625,
+            "right": 320
+          }
+        },
+        {
+          "name": "markets",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 1549.40625,
+            "width": 320,
+            "height": 1554.5625,
+            "top": 1549.40625,
+            "bottom": 3103.96875,
+            "right": 320
+          }
+        },
+        {
+          "name": "products",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 3103.96875,
+            "width": 320,
+            "height": 1001.125,
+            "top": 3103.96875,
+            "bottom": 4105.09375,
+            "right": 320
+          }
+        },
+        {
+          "name": "applications",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 4105.09375,
+            "width": 320,
+            "height": 1866.234375,
+            "top": 4105.09375,
+            "bottom": 5971.328125,
+            "right": 320
+          }
+        },
+        {
+          "name": "company",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 5971.328125,
+            "width": 320,
+            "height": 1099.46875,
+            "top": 5971.328125,
+            "bottom": 7070.796875,
+            "right": 320
+          }
+        },
+        {
+          "name": "documents",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 7070.796875,
+            "width": 320,
+            "height": 1017.765625,
+            "top": 7070.796875,
+            "bottom": 8088.5625,
+            "right": 320
+          }
+        },
+        {
+          "name": "resources",
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 8088.5625,
+            "width": 320,
+            "height": 1923.703125,
+            "top": 8088.5625,
+            "bottom": 10012.265625,
+            "right": 320
+          }
+        },
+        {
+          "name": "page-rfq",
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      ],
+      "heroImage": {
+        "visible": true,
+        "complete": true,
+        "naturalWidth": 1122,
+        "naturalHeight": 1402,
+        "rect": {
+          "x": 36,
+          "y": 738.25,
+          "width": 248,
+          "height": 228,
+          "top": 738.25,
+          "bottom": 966.25,
+          "right": 284
+        }
+      },
+      "pageRfqVisible": false,
+      "startHereVisible": true,
+      "footerVisible": true,
+      "visibleControls": [
+        {
+          "label": "TiO2 Malaysia home",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 9.5,
+            "width": 120,
+            "height": 44,
+            "top": 9.5,
+            "bottom": 53.5,
+            "right": 136
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 146,
+            "y": 5.6875,
+            "width": 104,
+            "height": 51.625,
+            "top": 5.6875,
+            "bottom": 57.3125,
+            "right": 250
+          }
+        },
+        {
+          "label": "☰",
+          "tag": "button",
+          "rect": {
+            "x": 260,
+            "y": 9.5,
+            "width": 44,
+            "height": 44,
+            "top": 9.5,
+            "bottom": 53.5,
+            "right": 304
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 35,
+            "y": 604.75,
+            "width": 250,
+            "height": 48.25,
+            "top": 604.75,
+            "bottom": 653,
+            "right": 285
+          }
+        },
+        {
+          "label": "View Products",
+          "tag": "a",
+          "rect": {
+            "x": 35,
+            "y": 665,
+            "width": 250,
+            "height": 48.25,
+            "top": 665,
+            "bottom": 713.25,
+            "right": 285
+          }
+        },
+        {
+          "label": "01MarketsDestination markets→",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 1143.40625,
+            "width": 288,
+            "height": 112,
+            "top": 1143.40625,
+            "bottom": 1255.40625,
+            "right": 304
+          }
+        },
+        {
+          "label": "02ProductsFourteen grades→",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 1267.40625,
+            "width": 288,
+            "height": 112,
+            "top": 1267.40625,
+            "bottom": 1379.40625,
+            "right": 304
+          }
+        },
+        {
+          "label": "03DocumentsGuidance and requests→",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 1391.40625,
+            "width": 288,
+            "height": 112,
+            "top": 1391.40625,
+            "bottom": 1503.40625,
+            "right": 304
+          }
+        },
+        {
+          "label": "View All Markets →",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 1826.65625,
+            "width": 142.71875,
+            "height": 44,
+            "top": 1826.65625,
+            "bottom": 1870.65625,
+            "right": 158.71875
+          }
+        },
+        {
+          "label": "European Union market →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 2107.484375,
+            "width": 190.71875,
+            "height": 44,
+            "top": 2107.484375,
+            "bottom": 2151.484375,
+            "right": 227.71875
+          }
+        },
+        {
+          "label": "United Kingdom market →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 2399.3125,
+            "width": 192.390625,
+            "height": 44,
+            "top": 2399.3125,
+            "bottom": 2443.3125,
+            "right": 229.390625
+          }
+        },
+        {
+          "label": "India market →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 2691.140625,
+            "width": 109.640625,
+            "height": 44,
+            "top": 2691.140625,
+            "bottom": 2735.140625,
+            "right": 146.640625
+          }
+        },
+        {
+          "label": "Brazil market →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 2982.96875,
+            "width": 115.1875,
+            "height": 44,
+            "top": 2982.96875,
+            "bottom": 3026.96875,
+            "right": 152.1875
+          }
+        },
+        {
+          "label": "Coatings Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 17,
+            "y": 3491.3125,
+            "width": 286,
+            "height": 65.90625,
+            "top": 3491.3125,
+            "bottom": 3557.21875,
+            "right": 303
+          }
+        },
+        {
+          "label": "Plastics & Masterbatch Grades +",
+          "tag": "summary",
+          "rect": {
+            "x": 17,
+            "y": 3577.21875,
+            "width": 286,
+            "height": 91.8125,
+            "top": 3577.21875,
+            "bottom": 3669.03125,
+            "right": 303
+          }
+        },
+        {
+          "label": "Inks & Multi-Application +",
+          "tag": "summary",
+          "rect": {
+            "x": 17,
+            "y": 3689.03125,
+            "width": 286,
+            "height": 65.90625,
+            "top": 3689.03125,
+            "bottom": 3754.9375,
+            "right": 303
+          }
+        },
+        {
+          "label": "Specialty Grade +",
+          "tag": "summary",
+          "rect": {
+            "x": 17,
+            "y": 3774.9375,
+            "width": 286,
+            "height": 65.90625,
+            "top": 3774.9375,
+            "bottom": 3840.84375,
+            "right": 303
+          }
+        },
+        {
+          "label": "Chloride Process →",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 3890.84375,
+            "width": 183.34375,
+            "height": 44,
+            "top": 3890.84375,
+            "bottom": 3934.84375,
+            "right": 199.34375
+          }
+        },
+        {
+          "label": "Sulfate Process →",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 3936.84375,
+            "width": 183.34375,
+            "height": 44,
+            "top": 3936.84375,
+            "bottom": 3980.84375,
+            "right": 199.34375
+          }
+        },
+        {
+          "label": "View All 14 Grades",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 4004.84375,
+            "width": 183.34375,
+            "height": 48.25,
+            "top": 4004.84375,
+            "bottom": 4053.09375,
+            "right": 199.34375
+          }
+        },
+        {
+          "label": "Coatings information →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 4578.125,
+            "width": 174.40625,
+            "height": 44,
+            "top": 4578.125,
+            "bottom": 4622.125,
+            "right": 211.40625
+          }
+        },
+        {
+          "label": "Plastics information →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 4902.25,
+            "width": 166.28125,
+            "height": 44,
+            "top": 4902.25,
+            "bottom": 4946.25,
+            "right": 203.28125
+          }
+        },
+        {
+          "label": "Masterbatch information →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 5250.671875,
+            "width": 202.546875,
+            "height": 44,
+            "top": 5250.671875,
+            "bottom": 5294.671875,
+            "right": 239.546875
+          }
+        },
+        {
+          "label": "Printing inks information →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 5550.5,
+            "width": 200.734375,
+            "height": 44,
+            "top": 5550.5,
+            "bottom": 5594.5,
+            "right": 237.734375
+          }
+        },
+        {
+          "label": "Paper information →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 5850.328125,
+            "width": 150.5625,
+            "height": 44,
+            "top": 5850.328125,
+            "bottom": 5894.328125,
+            "right": 187.5625
+          }
+        },
+        {
+          "label": "About TiO₂ Malaysia →",
+          "tag": "a",
+          "rect": {
+            "x": 39,
+            "y": 6424.15625,
+            "width": 168.46875,
+            "height": 44,
+            "top": 6424.15625,
+            "bottom": 6468.15625,
+            "right": 207.46875
+          }
+        },
+        {
+          "label": "View Document Information →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 7663.734375,
+            "width": 224.859375,
+            "height": 44,
+            "top": 7663.734375,
+            "bottom": 7707.734375,
+            "right": 261.859375
+          }
+        },
+        {
+          "label": "Request Documents →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 7967.5625,
+            "width": 167.015625,
+            "height": 44,
+            "top": 7967.5625,
+            "bottom": 8011.5625,
+            "right": 204.015625
+          }
+        },
+        {
+          "label": "Read sourcing considerations →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 8666.125,
+            "width": 237.859375,
+            "height": 44,
+            "top": 8666.125,
+            "bottom": 8710.125,
+            "right": 274.859375
+          }
+        },
+        {
+          "label": "Read process overview →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 8954.1875,
+            "width": 189.640625,
+            "height": 44,
+            "top": 8954.1875,
+            "bottom": 8998.1875,
+            "right": 226.640625
+          }
+        },
+        {
+          "label": "Market information →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 9266.546875,
+            "width": 160.140625,
+            "height": 44,
+            "top": 9266.546875,
+            "bottom": 9310.546875,
+            "right": 197.140625
+          }
+        },
+        {
+          "label": "View all 14 grades →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 9578.90625,
+            "width": 150.484375,
+            "height": 44,
+            "top": 9578.90625,
+            "bottom": 9622.90625,
+            "right": 187.484375
+          }
+        },
+        {
+          "label": "Request a Quote →",
+          "tag": "a",
+          "rect": {
+            "x": 37,
+            "y": 9891.265625,
+            "width": 139.046875,
+            "height": 44,
+            "top": 9891.265625,
+            "bottom": 9935.265625,
+            "right": 176.046875
+          }
+        },
+        {
+          "label": "Home",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 10253.28125,
+            "width": 288,
+            "height": 44,
+            "top": 10253.28125,
+            "bottom": 10297.28125,
+            "right": 304
+          }
+        },
+        {
+          "label": "Markets",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 10297.28125,
+            "width": 288,
+            "height": 44,
+            "top": 10297.28125,
+            "bottom": 10341.28125,
+            "right": 304
+          }
+        },
+        {
+          "label": "Products",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 10341.28125,
+            "width": 288,
+            "height": 44,
+            "top": 10341.28125,
+            "bottom": 10385.28125,
+            "right": 304
+          }
+        },
+        {
+          "label": "Applications",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 10385.28125,
+            "width": 288,
+            "height": 44,
+            "top": 10385.28125,
+            "bottom": 10429.28125,
+            "right": 304
+          }
+        },
+        {
+          "label": "Documents",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 10474.375,
+            "width": 288,
+            "height": 44,
+            "top": 10474.375,
+            "bottom": 10518.375,
+            "right": 304
+          }
+        },
+        {
+          "label": "Resources",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 10518.375,
+            "width": 288,
+            "height": 44,
+            "top": 10518.375,
+            "bottom": 10562.375,
+            "right": 304
+          }
+        },
+        {
+          "label": "About",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 10562.375,
+            "width": 288,
+            "height": 44,
+            "top": 10562.375,
+            "bottom": 10606.375,
+            "right": 304
+          }
+        },
+        {
+          "label": "Request a Quote",
+          "tag": "a",
+          "rect": {
+            "x": 16,
+            "y": 10659.46875,
+            "width": 141.625,
+            "height": 46,
+            "top": 10659.46875,
+            "bottom": 10705.46875,
+            "right": 157.625
+          }
+        }
+      ],
+      "visibleCurrentLabels": 0,
+      "parity": {
+        "missingCopy": [
+          "Grades grouped for coatings applications and product selection.",
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "Grades for plastics processing and masterbatch applications.",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "Grades for printing inks and selected multi-application uses.",
+          "M-52",
+          "M-2377",
+          "A specialty grade for selected product and application requirements.",
+          "CR-901",
+          "REQUEST A QUOTE",
+          "Prepare a structured quotation request",
+          "Provide the key purchasing details needed to structure your quotation request.",
+          "Destination Market",
+          "Grade / Product",
+          "Quantity",
+          "Packaging",
+          "Document Needs"
+        ],
+        "missingHrefs": []
+      }
+    },
+    {
+      "state": "menu",
+      "visible": true,
+      "links": 8,
+      "expanded": "true",
+      "bodyLocked": true,
+      "rect": {
+        "width": 390,
+        "height": 443
+      }
+    },
+    {
+      "state": "products",
+      "openGroups": 4,
+      "visibleGradeIds": [
+        "M-350",
+        "M-510",
+        "M-896",
+        "M-996",
+        "M-2196",
+        "M-895",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "M-52",
+        "M-2377",
+        "CR-901"
+      ]
+    }
+  ]
+}

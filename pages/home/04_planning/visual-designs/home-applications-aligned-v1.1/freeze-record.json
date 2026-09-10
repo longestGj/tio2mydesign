@@ -1,0 +1,242 @@
+{
+  "workset_id": "HOME-001-G4-APP-ALIGN-V1-20260911",
+  "bundle_id": "HOME-001-G4-APP-ALIGN-BUNDLE-V1.1",
+  "capture_date": "2026-09-11",
+  "finding": "HOME-G5-VR-01",
+  "status": "RESOLVED_IN_DRAFT_PENDING_GATE5_TARGETED_RECHECK",
+  "lifecycle": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "review_stage": "GATE5_TARGETED_RECHECK_PENDING",
+  "gate_6": "NOT_STARTED",
+  "gate_8": "NOT_AUTHORIZED",
+  "scope": "Targeted Gate 4 repair of static shared Global Chrome rendering only; Home body remains raw-identical to V1.0",
+  "source": {
+    "path": "pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/homepage-applications-aligned-preview-v1.1.html",
+    "bytes": 32550,
+    "sha256": "FADA718489C6558EE1025B70FB1DFD9F2303DF7226EADBE20C3A22C4177708DF"
+  },
+  "body_preservation": {
+    "segment": "<main>...</main> exact UTF-8 bytes",
+    "previous_source": "pages/home/04_planning/visual-designs/home-applications-aligned-v1.0/homepage-applications-aligned-preview-v1.0.html",
+    "previous_sha256": "A9CC17BA5C40D943949D56820F336CFFB384A61900B11791A31549E0866DC138",
+    "current_sha256": "A9CC17BA5C40D943949D56820F336CFFB384A61900B11791A31549E0866DC138",
+    "match": true
+  },
+  "previous_bundle_immutability": {
+    "bundle_id": "HOME-001-G4-APP-ALIGN-BUNDLE-V1.0",
+    "freeze_record_sha256": "3DEE97587280DA8CAB14DD5650BB205D88126AABBB42A89AFD9AAE6DD6BAF15B",
+    "source_sha256": "87D02E746D2D43AF5EF981CF41D3880BF392F11AA10B173611BF91DBA421CEA5",
+    "font_dependency": {
+      "file": "dependencies/Inter-Variable.ttf",
+      "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031"
+    },
+    "assets": [
+      {
+        "file": "home-001-applications-aligned-1440-v1.0.png",
+        "sha256": "E3F9BA16E78E5A866B71ECB6F344121BAE82D0D4E3EB2D9256444F2474C14687"
+      },
+      {
+        "file": "home-001-applications-aligned-1024-v1.0.png",
+        "sha256": "5DA4C974EA9989B1B29048B257BFD2E340240779134462268C4CA0DC48A6DB08"
+      },
+      {
+        "file": "home-001-applications-aligned-768-v1.0.png",
+        "sha256": "D6C2E1EADFCD14B7AA500EFB80232A7671EB5E83BB8413E404E30F4BF9EE79A1"
+      },
+      {
+        "file": "home-001-applications-aligned-390-v1.0.png",
+        "sha256": "D2CED76C455A0A81C0697CBFB726B3E2C404D77A33388A99146A2A94FDABA8CD"
+      },
+      {
+        "file": "home-001-applications-aligned-320-v1.0.png",
+        "sha256": "0C32E31E766D83303A6B9EAF276B72D81E13AFA148C5FF2A2C6E0592F23C4305"
+      },
+      {
+        "file": "home-001-mobile-menu-390-v1.0.png",
+        "sha256": "6ACAEF2AE32241459CD1F2711FAA5F02953119E7718467F689F05BB40BF607BB"
+      },
+      {
+        "file": "home-001-products-expanded-390-v1.0.png",
+        "sha256": "340367FD4D28C354D83CB84414050C196744DC153618C1054E2F0772990BC060"
+      }
+    ]
+  },
+  "renderer": {
+    "browser": "Chromium via Playwright",
+    "device_scale_factor": 1,
+    "color_scheme": "light",
+    "reduced_motion": "reduce",
+    "font_family": "Inter",
+    "font_dependency": "pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/dependencies/Inter-Variable.ttf",
+    "font_dependency_sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+    "media_load": "Existing Home powder PNG and approved production SVG Logo files loaded from pinned local paths"
+  },
+  "dependencies": [
+    {
+      "role": "Inter variable font",
+      "path": "pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031"
+    },
+    {
+      "role": "Existing approved Home powder image",
+      "path": "pages/home/04_planning/visual-designs/assets/homepage-hero-tio2-material-v0.6.png",
+      "bytes": 1915067,
+      "sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5"
+    },
+    {
+      "role": "Shared Chrome contract",
+      "path": "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "bytes": 7235,
+      "sha256": "CC236F47018A68771856FDBAF5553517F63959774E0E8819130E66E2B1049F18"
+    },
+    {
+      "role": "Footer legal utility addendum",
+      "path": "docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "bytes": 2310,
+      "sha256": "C1F0011408ED1D87CFF6D36C11F7E9812CC9A803431A3F7030C771FAF41BF633"
+    },
+    {
+      "role": "Production SVG Logo authority",
+      "path": "brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "bytes": 8090,
+      "sha256": "81B73A5262269F618E8FB0667C9345279449A1BCB71647422B6A1D3F8EBFE894"
+    },
+    {
+      "role": "Header Logo SVG",
+      "path": "brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C"
+    },
+    {
+      "role": "Footer reverse Logo SVG",
+      "path": "brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E"
+    },
+    {
+      "role": "Brand visual standard",
+      "path": "brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "bytes": 11671,
+      "sha256": "75CF7BBD306A4B2BF2662414DFB28813B094B8552AF8A7FE54231F3837E524EC"
+    },
+    {
+      "role": "Primary CTA accessibility override",
+      "path": "brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "bytes": 1960,
+      "sha256": "1F6CB1F9913BD78AED3CAB30AF56CE1EEABB0C46CB354F09F05E2D00A3897E9A"
+    },
+    {
+      "role": "Shared Chrome React assembly",
+      "path": "D:/16Wordpress_nextjs/components/sites/tio2-my/malaysia-global-chrome.tsx",
+      "bytes": 1349,
+      "sha256": "910F720791E8AB5FD836932D6DDC3C70C126FB502CCF17C8635B736CCA683453"
+    },
+    {
+      "role": "Shared Chrome client behavior",
+      "path": "D:/16Wordpress_nextjs/components/sites/tio2-my/malaysia-global-chrome-client.tsx",
+      "bytes": 10830,
+      "sha256": "AEB738D4058DACD0ED09EF3163ACA965FBBF247196008DB16A395CC9BCBF26C5"
+    },
+    {
+      "role": "Shared Chrome CSS",
+      "path": "D:/16Wordpress_nextjs/components/sites/tio2-my/malaysia-global-chrome.module.css",
+      "bytes": 9896,
+      "sha256": "909C8D03048CB41944A95D2A0E821B068645875CFD1811D9E960B6F6E7D3B6CB"
+    },
+    {
+      "role": "Applications visual token source",
+      "path": "D:/16Wordpress_nextjs/components/sites/tio2-my/applications/malaysia-application-hub.module.css",
+      "bytes": 8914,
+      "sha256": "A8C9BA94316FF0B4EB89FC4E464F673F21E91F15B3D8609AB4097A73D9A3D6C1"
+    },
+    {
+      "role": "Home visible content and href source",
+      "path": "D:/16Wordpress_nextjs/wordpress/plugins/tio2-site-model/config/tio2-my-homepage.json",
+      "bytes": 15619,
+      "sha256": "C89CC1E7029B96C67C7183B4081E1526905A4F1875DA9A9F9F6B290E2CD8554C"
+    },
+    {
+      "role": "Existing Home renderer reference",
+      "path": "D:/16Wordpress_nextjs/components/sites/tio2-my/homepage/malaysia-homepage.tsx",
+      "bytes": 10017,
+      "sha256": "912FF8C08B76B108252023B5F84CA3B65606CED46DA275451A5A32ACAC3DFB2F"
+    }
+  ],
+  "assets": [
+    {
+      "file": "home-001-applications-aligned-1440-v1.1.png",
+      "viewport_width": 1440,
+      "viewport_height": 900,
+      "width": 1440,
+      "height": 6614,
+      "state": "default",
+      "bytes": 1127184,
+      "sha256": "64243AEE18C29624B3720E7ED7205275F41E22F205B07C6352A03B6F22B2F1F4"
+    },
+    {
+      "file": "home-001-applications-aligned-1024-v1.1.png",
+      "viewport_width": 1024,
+      "viewport_height": 900,
+      "width": 1024,
+      "height": 7525,
+      "state": "default",
+      "bytes": 1041386,
+      "sha256": "918A9B32C1BD06D35791BBA6FC2A610F6CFEDCC0D0F7F7CF6F0F0084057A0C6D"
+    },
+    {
+      "file": "home-001-applications-aligned-768-v1.1.png",
+      "viewport_width": 768,
+      "viewport_height": 900,
+      "width": 768,
+      "height": 8299,
+      "state": "default",
+      "bytes": 1005555,
+      "sha256": "86E47B22E9C96D63FB72D307A55436BB09B6A7DAD30F2940B97EAD68D4A44A31"
+    },
+    {
+      "file": "home-001-applications-aligned-390-v1.1.png",
+      "viewport_width": 390,
+      "viewport_height": 844,
+      "width": 390,
+      "height": 10356,
+      "state": "default",
+      "bytes": 659314,
+      "sha256": "91BC39DABE371F689F9C36A6837EFBD5C5FED75BC184E3DF71475C7068AA566D"
+    },
+    {
+      "file": "home-001-applications-aligned-320-v1.1.png",
+      "viewport_width": 320,
+      "viewport_height": 760,
+      "width": 320,
+      "height": 11031,
+      "state": "default",
+      "bytes": 639366,
+      "sha256": "6C0655D73DCB575A36E72CC0D03DFF09A46376A91AC3C5E30FA8F4039C6A33FE"
+    },
+    {
+      "file": "home-001-mobile-menu-390-v1.1.png",
+      "viewport_width": 390,
+      "viewport_height": 844,
+      "width": 390,
+      "height": 844,
+      "state": "mobile-menu-open",
+      "bytes": 95453,
+      "sha256": "E1C1C7EA289F8DC14AF3528FAB2B6EE9060C1139336068E41EABAB1BF360C308"
+    },
+    {
+      "file": "home-001-products-expanded-390-v1.1.png",
+      "viewport_width": 390,
+      "viewport_height": 844,
+      "width": 390,
+      "height": 11041,
+      "state": "products-expanded",
+      "bytes": 701079,
+      "sha256": "B8447D73AFB5006373E0A5CBC280057E1E6D11A5B2ED6F4DCB9B7DE74B1D1F4F"
+    }
+  ],
+  "formal_assets_opened_and_inspected": 7,
+  "author_required_findings_open": 0,
+  "independent_review_claimed": false,
+  "approval_claimed": false,
+  "implementation_claimed": false
+}

@@ -1,0 +1,999 @@
+{
+  "verifier": "HOME-001-APPLICATIONS-ALIGNED-VISUAL-BUNDLE-V1.1",
+  "capture_date": "2026-09-11",
+  "reproducibility": "No wall-clock timestamp is encoded; identical inputs produce byte-stable JSON.",
+  "project_root": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec",
+  "workset_id": "HOME-001-G4-APP-ALIGN-V1-20260911",
+  "bundle_id": "HOME-001-G4-APP-ALIGN-BUNDLE-V1.1",
+  "passed": true,
+  "checks_total": 197,
+  "checks_passed": 197,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "id": "contract.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\18_homepage_applications_aligned_visual_design_v1.1.md"
+    },
+    {
+      "id": "repair.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\05_review\\HOME-001_APPLICATIONS_ALIGNED_GATE4_TARGETED_REPAIR_V1.1.md"
+    },
+    {
+      "id": "source.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\homepage-applications-aligned-preview-v1.1.html"
+    },
+    {
+      "id": "freeze.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\freeze-record.json"
+    },
+    {
+      "id": "runtime.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\99_workspace\\HOME-001_applications_aligned_v1_1\\runtime_observations_home_visual_bundle_v1_1.json"
+    },
+    {
+      "id": "freeze.json",
+      "pass": true,
+      "detail": "freeze-record.json parsed"
+    },
+    {
+      "id": "module.hero",
+      "pass": true,
+      "detail": "source contains data-module=hero"
+    },
+    {
+      "id": "module.start-here",
+      "pass": true,
+      "detail": "source contains data-module=start-here"
+    },
+    {
+      "id": "module.markets",
+      "pass": true,
+      "detail": "source contains data-module=markets"
+    },
+    {
+      "id": "module.products",
+      "pass": true,
+      "detail": "source contains data-module=products"
+    },
+    {
+      "id": "module.applications",
+      "pass": true,
+      "detail": "source contains data-module=applications"
+    },
+    {
+      "id": "module.company",
+      "pass": true,
+      "detail": "source contains data-module=company"
+    },
+    {
+      "id": "module.documents",
+      "pass": true,
+      "detail": "source contains data-module=documents"
+    },
+    {
+      "id": "module.resources",
+      "pass": true,
+      "detail": "source contains data-module=resources"
+    },
+    {
+      "id": "module.page-rfq",
+      "pass": true,
+      "detail": "source contains data-module=page-rfq"
+    },
+    {
+      "id": "token.--navy:#062b5b",
+      "pass": true,
+      "detail": "source contains --navy:#062b5b"
+    },
+    {
+      "id": "token.--deep:#031b3a",
+      "pass": true,
+      "detail": "source contains --deep:#031b3a"
+    },
+    {
+      "id": "token.--teal:#007f77",
+      "pass": true,
+      "detail": "source contains --teal:#007f77"
+    },
+    {
+      "id": "token.--bright:#00a99d",
+      "pass": true,
+      "detail": "source contains --bright:#00a99d"
+    },
+    {
+      "id": "token.--ink:#334155",
+      "pass": true,
+      "detail": "source contains --ink:#334155"
+    },
+    {
+      "id": "token.--muted:#64748b",
+      "pass": true,
+      "detail": "source contains --muted:#64748b"
+    },
+    {
+      "id": "token.--soft:#f5f8fb",
+      "pass": true,
+      "detail": "source contains --soft:#f5f8fb"
+    },
+    {
+      "id": "token.--line:#d9e2ec",
+      "pass": true,
+      "detail": "source contains --line:#d9e2ec"
+    },
+    {
+      "id": "token.--white:#fff",
+      "pass": true,
+      "detail": "source contains --white:#fff"
+    },
+    {
+      "id": "shell.1200",
+      "pass": true,
+      "detail": "source uses 1200px centered shell"
+    },
+    {
+      "id": "tablet.start-here",
+      "pass": true,
+      "detail": "Start Here is explicitly present on Tablet"
+    },
+    {
+      "id": "rfq.desktop-tablet",
+      "pass": true,
+      "detail": "page RFQ visible from 768px"
+    },
+    {
+      "id": "rfq.mobile-hidden",
+      "pass": true,
+      "detail": "page RFQ hidden at mobile breakpoint"
+    },
+    {
+      "id": "font.inter-bundled",
+      "pass": true,
+      "detail": "static source binds the local Inter variable-font dependency"
+    },
+    {
+      "id": "buyer.current.zero",
+      "pass": true,
+      "detail": "no buyer-visible CURRENT label"
+    },
+    {
+      "id": "shared.chrome.owner",
+      "pass": true,
+      "detail": "Header and Footer both declare the shared owner assembly"
+    },
+    {
+      "id": "chrome.desktop-84",
+      "pass": true,
+      "detail": "Desktop Header is 84px"
+    },
+    {
+      "id": "chrome.mobile-64",
+      "pass": true,
+      "detail": "Mobile Header is 64px below shared breakpoint"
+    },
+    {
+      "id": "chrome.mobile-compact-rfq",
+      "pass": true,
+      "detail": "Mobile Header provides compact RFQ label"
+    },
+    {
+      "id": "chrome.menu-deep-navy",
+      "pass": true,
+      "detail": "Mobile Menu uses Deep Navy shared treatment"
+    },
+    {
+      "id": "chrome.menu-current-marker",
+      "pass": true,
+      "detail": "Mobile Home current marker is 4px Teal"
+    },
+    {
+      "id": "chrome.footer-legal-order",
+      "pass": true,
+      "detail": "Footer legal utilities have exact order, routes and button semantics"
+    },
+    {
+      "id": "chrome.footer-targets",
+      "pass": true,
+      "detail": "Footer navigation and RFQ target minima are 44px and 48px"
+    },
+    {
+      "id": "grade.M-350",
+      "pass": true,
+      "detail": "source contains M-350"
+    },
+    {
+      "id": "grade.M-510",
+      "pass": true,
+      "detail": "source contains M-510"
+    },
+    {
+      "id": "grade.M-896",
+      "pass": true,
+      "detail": "source contains M-896"
+    },
+    {
+      "id": "grade.M-996",
+      "pass": true,
+      "detail": "source contains M-996"
+    },
+    {
+      "id": "grade.M-2196",
+      "pass": true,
+      "detail": "source contains M-2196"
+    },
+    {
+      "id": "grade.M-895",
+      "pass": true,
+      "detail": "source contains M-895"
+    },
+    {
+      "id": "grade.M-200",
+      "pass": true,
+      "detail": "source contains M-200"
+    },
+    {
+      "id": "grade.M-108",
+      "pass": true,
+      "detail": "source contains M-108"
+    },
+    {
+      "id": "grade.M-210",
+      "pass": true,
+      "detail": "source contains M-210"
+    },
+    {
+      "id": "grade.M-340",
+      "pass": true,
+      "detail": "source contains M-340"
+    },
+    {
+      "id": "grade.M-886",
+      "pass": true,
+      "detail": "source contains M-886"
+    },
+    {
+      "id": "grade.M-52",
+      "pass": true,
+      "detail": "source contains M-52"
+    },
+    {
+      "id": "grade.M-2377",
+      "pass": true,
+      "detail": "source contains M-2377"
+    },
+    {
+      "id": "grade.CR-901",
+      "pass": true,
+      "detail": "source contains CR-901"
+    },
+    {
+      "id": "runtime.json",
+      "pass": true,
+      "detail": "runtime observations parsed"
+    },
+    {
+      "id": "runtime.pass",
+      "pass": true,
+      "detail": "passed=True, failed=0"
+    },
+    {
+      "id": "runtime.count",
+      "pass": true,
+      "detail": "total=88, passed=88, failed=0"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\home-001-applications-aligned-1440-v1.1.png"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.bytes",
+      "pass": true,
+      "detail": "bytes=1127184"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.width",
+      "pass": true,
+      "detail": "expected=1440, actual=1440"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.height",
+      "pass": true,
+      "detail": "height=6614"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.recorded",
+      "pass": true,
+      "detail": "asset recorded in freeze-record.json"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.hash",
+      "pass": true,
+      "detail": "recorded=64243AEE18C29624B3720E7ED7205275F41E22F205B07C6352A03B6F22B2F1F4, actual=64243AEE18C29624B3720E7ED7205275F41E22F205B07C6352A03B6F22B2F1F4"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.state",
+      "pass": true,
+      "detail": "expected=default, actual=default"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.bytes-recorded",
+      "pass": true,
+      "detail": "recorded=1127184, actual=1127184"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.width-recorded",
+      "pass": true,
+      "detail": "recorded=1440, actual=1440"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.height-recorded",
+      "pass": true,
+      "detail": "recorded=6614, actual=6614"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1440-v1.1.png.viewport-recorded",
+      "pass": true,
+      "detail": "recorded=1440, expected=1440"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\home-001-applications-aligned-1024-v1.1.png"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.bytes",
+      "pass": true,
+      "detail": "bytes=1041386"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.width",
+      "pass": true,
+      "detail": "expected=1024, actual=1024"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.height",
+      "pass": true,
+      "detail": "height=7525"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.recorded",
+      "pass": true,
+      "detail": "asset recorded in freeze-record.json"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.hash",
+      "pass": true,
+      "detail": "recorded=918A9B32C1BD06D35791BBA6FC2A610F6CFEDCC0D0F7F7CF6F0F0084057A0C6D, actual=918A9B32C1BD06D35791BBA6FC2A610F6CFEDCC0D0F7F7CF6F0F0084057A0C6D"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.state",
+      "pass": true,
+      "detail": "expected=default, actual=default"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.bytes-recorded",
+      "pass": true,
+      "detail": "recorded=1041386, actual=1041386"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.width-recorded",
+      "pass": true,
+      "detail": "recorded=1024, actual=1024"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.height-recorded",
+      "pass": true,
+      "detail": "recorded=7525, actual=7525"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-1024-v1.1.png.viewport-recorded",
+      "pass": true,
+      "detail": "recorded=1024, expected=1024"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\home-001-applications-aligned-768-v1.1.png"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.bytes",
+      "pass": true,
+      "detail": "bytes=1005555"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.width",
+      "pass": true,
+      "detail": "expected=768, actual=768"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.height",
+      "pass": true,
+      "detail": "height=8299"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.recorded",
+      "pass": true,
+      "detail": "asset recorded in freeze-record.json"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.hash",
+      "pass": true,
+      "detail": "recorded=86E47B22E9C96D63FB72D307A55436BB09B6A7DAD30F2940B97EAD68D4A44A31, actual=86E47B22E9C96D63FB72D307A55436BB09B6A7DAD30F2940B97EAD68D4A44A31"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.state",
+      "pass": true,
+      "detail": "expected=default, actual=default"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.bytes-recorded",
+      "pass": true,
+      "detail": "recorded=1005555, actual=1005555"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.width-recorded",
+      "pass": true,
+      "detail": "recorded=768, actual=768"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.height-recorded",
+      "pass": true,
+      "detail": "recorded=8299, actual=8299"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-768-v1.1.png.viewport-recorded",
+      "pass": true,
+      "detail": "recorded=768, expected=768"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\home-001-applications-aligned-390-v1.1.png"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.bytes",
+      "pass": true,
+      "detail": "bytes=659314"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.width",
+      "pass": true,
+      "detail": "expected=390, actual=390"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.height",
+      "pass": true,
+      "detail": "height=10356"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.recorded",
+      "pass": true,
+      "detail": "asset recorded in freeze-record.json"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.hash",
+      "pass": true,
+      "detail": "recorded=91BC39DABE371F689F9C36A6837EFBD5C5FED75BC184E3DF71475C7068AA566D, actual=91BC39DABE371F689F9C36A6837EFBD5C5FED75BC184E3DF71475C7068AA566D"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.state",
+      "pass": true,
+      "detail": "expected=default, actual=default"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.bytes-recorded",
+      "pass": true,
+      "detail": "recorded=659314, actual=659314"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.width-recorded",
+      "pass": true,
+      "detail": "recorded=390, actual=390"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.height-recorded",
+      "pass": true,
+      "detail": "recorded=10356, actual=10356"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-390-v1.1.png.viewport-recorded",
+      "pass": true,
+      "detail": "recorded=390, expected=390"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\home-001-applications-aligned-320-v1.1.png"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.bytes",
+      "pass": true,
+      "detail": "bytes=639366"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.width",
+      "pass": true,
+      "detail": "expected=320, actual=320"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.height",
+      "pass": true,
+      "detail": "height=11031"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.recorded",
+      "pass": true,
+      "detail": "asset recorded in freeze-record.json"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.hash",
+      "pass": true,
+      "detail": "recorded=6C0655D73DCB575A36E72CC0D03DFF09A46376A91AC3C5E30FA8F4039C6A33FE, actual=6C0655D73DCB575A36E72CC0D03DFF09A46376A91AC3C5E30FA8F4039C6A33FE"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.state",
+      "pass": true,
+      "detail": "expected=default, actual=default"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.bytes-recorded",
+      "pass": true,
+      "detail": "recorded=639366, actual=639366"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.width-recorded",
+      "pass": true,
+      "detail": "recorded=320, actual=320"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.height-recorded",
+      "pass": true,
+      "detail": "recorded=11031, actual=11031"
+    },
+    {
+      "id": "asset.home-001-applications-aligned-320-v1.1.png.viewport-recorded",
+      "pass": true,
+      "detail": "recorded=320, expected=320"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\home-001-mobile-menu-390-v1.1.png"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.bytes",
+      "pass": true,
+      "detail": "bytes=95453"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.width",
+      "pass": true,
+      "detail": "expected=390, actual=390"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.height",
+      "pass": true,
+      "detail": "height=844"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.recorded",
+      "pass": true,
+      "detail": "asset recorded in freeze-record.json"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.hash",
+      "pass": true,
+      "detail": "recorded=E1C1C7EA289F8DC14AF3528FAB2B6EE9060C1139336068E41EABAB1BF360C308, actual=E1C1C7EA289F8DC14AF3528FAB2B6EE9060C1139336068E41EABAB1BF360C308"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.state",
+      "pass": true,
+      "detail": "expected=mobile-menu-open, actual=mobile-menu-open"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.bytes-recorded",
+      "pass": true,
+      "detail": "recorded=95453, actual=95453"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.width-recorded",
+      "pass": true,
+      "detail": "recorded=390, actual=390"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.height-recorded",
+      "pass": true,
+      "detail": "recorded=844, actual=844"
+    },
+    {
+      "id": "asset.home-001-mobile-menu-390-v1.1.png.viewport-recorded",
+      "pass": true,
+      "detail": "recorded=390, expected=390"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.exists",
+      "pass": true,
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\home-vu-20260911\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-applications-aligned-v1.1\\home-001-products-expanded-390-v1.1.png"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.bytes",
+      "pass": true,
+      "detail": "bytes=701079"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.width",
+      "pass": true,
+      "detail": "expected=390, actual=390"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.height",
+      "pass": true,
+      "detail": "height=11041"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.recorded",
+      "pass": true,
+      "detail": "asset recorded in freeze-record.json"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.hash",
+      "pass": true,
+      "detail": "recorded=B8447D73AFB5006373E0A5CBC280057E1E6D11A5B2ED6F4DCB9B7DE74B1D1F4F, actual=B8447D73AFB5006373E0A5CBC280057E1E6D11A5B2ED6F4DCB9B7DE74B1D1F4F"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.state",
+      "pass": true,
+      "detail": "expected=products-expanded, actual=products-expanded"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.bytes-recorded",
+      "pass": true,
+      "detail": "recorded=701079, actual=701079"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.width-recorded",
+      "pass": true,
+      "detail": "recorded=390, actual=390"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.height-recorded",
+      "pass": true,
+      "detail": "recorded=11041, actual=11041"
+    },
+    {
+      "id": "asset.home-001-products-expanded-390-v1.1.png.viewport-recorded",
+      "pass": true,
+      "detail": "recorded=390, expected=390"
+    },
+    {
+      "id": "freeze.workset",
+      "pass": true,
+      "detail": "workset_id=HOME-001-G4-APP-ALIGN-V1-20260911"
+    },
+    {
+      "id": "freeze.bundle",
+      "pass": true,
+      "detail": "bundle_id=HOME-001-G4-APP-ALIGN-BUNDLE-V1.1"
+    },
+    {
+      "id": "freeze.source-hash",
+      "pass": true,
+      "detail": "recorded=FADA718489C6558EE1025B70FB1DFD9F2303DF7226EADBE20C3A22C4177708DF, actual=FADA718489C6558EE1025B70FB1DFD9F2303DF7226EADBE20C3A22C4177708DF"
+    },
+    {
+      "id": "freeze.source-bytes",
+      "pass": true,
+      "detail": "recorded=32550, actual=32550"
+    },
+    {
+      "id": "freeze.asset-count",
+      "pass": true,
+      "detail": "asset_count=7"
+    },
+    {
+      "id": "freeze.status",
+      "pass": true,
+      "detail": "status=RESOLVED_IN_DRAFT_PENDING_GATE5_TARGETED_RECHECK"
+    },
+    {
+      "id": "freeze.lifecycle",
+      "pass": true,
+      "detail": "lifecycle=DRAFT_FOR_PROJECT_CONTROL_REVIEW"
+    },
+    {
+      "id": "freeze.finding",
+      "pass": true,
+      "detail": "finding=HOME-G5-VR-01"
+    },
+    {
+      "id": "freeze.inspection",
+      "pass": true,
+      "detail": "opened=7"
+    },
+    {
+      "id": "body.preserved",
+      "pass": true,
+      "detail": "previous=A9CC17BA5C40D943949D56820F336CFFB384A61900B11791A31549E0866DC138, current=A9CC17BA5C40D943949D56820F336CFFB384A61900B11791A31549E0866DC138"
+    },
+    {
+      "id": "previous.freeze-hash",
+      "pass": true,
+      "detail": "V1.0 freeze record remains byte-identical"
+    },
+    {
+      "id": "previous.source-hash",
+      "pass": true,
+      "detail": "V1.0 source remains byte-identical"
+    },
+    {
+      "id": "previous.font-hash",
+      "pass": true,
+      "detail": "V1.0 bundled font remains byte-identical"
+    },
+    {
+      "id": "previous.asset.home-001-applications-aligned-1440-v1.0.png",
+      "pass": true,
+      "detail": "recorded=E3F9BA16E78E5A866B71ECB6F344121BAE82D0D4E3EB2D9256444F2474C14687, actual=E3F9BA16E78E5A866B71ECB6F344121BAE82D0D4E3EB2D9256444F2474C14687"
+    },
+    {
+      "id": "previous.asset.home-001-applications-aligned-1024-v1.0.png",
+      "pass": true,
+      "detail": "recorded=5DA4C974EA9989B1B29048B257BFD2E340240779134462268C4CA0DC48A6DB08, actual=5DA4C974EA9989B1B29048B257BFD2E340240779134462268C4CA0DC48A6DB08"
+    },
+    {
+      "id": "previous.asset.home-001-applications-aligned-768-v1.0.png",
+      "pass": true,
+      "detail": "recorded=D6C2E1EADFCD14B7AA500EFB80232A7671EB5E83BB8413E404E30F4BF9EE79A1, actual=D6C2E1EADFCD14B7AA500EFB80232A7671EB5E83BB8413E404E30F4BF9EE79A1"
+    },
+    {
+      "id": "previous.asset.home-001-applications-aligned-390-v1.0.png",
+      "pass": true,
+      "detail": "recorded=D2CED76C455A0A81C0697CBFB726B3E2C404D77A33388A99146A2A94FDABA8CD, actual=D2CED76C455A0A81C0697CBFB726B3E2C404D77A33388A99146A2A94FDABA8CD"
+    },
+    {
+      "id": "previous.asset.home-001-applications-aligned-320-v1.0.png",
+      "pass": true,
+      "detail": "recorded=0C32E31E766D83303A6B9EAF276B72D81E13AFA148C5FF2A2C6E0592F23C4305, actual=0C32E31E766D83303A6B9EAF276B72D81E13AFA148C5FF2A2C6E0592F23C4305"
+    },
+    {
+      "id": "previous.asset.home-001-mobile-menu-390-v1.0.png",
+      "pass": true,
+      "detail": "recorded=6ACAEF2AE32241459CD1F2711FAA5F02953119E7718467F689F05BB40BF607BB, actual=6ACAEF2AE32241459CD1F2711FAA5F02953119E7718467F689F05BB40BF607BB"
+    },
+    {
+      "id": "previous.asset.home-001-products-expanded-390-v1.0.png",
+      "pass": true,
+      "detail": "recorded=340367FD4D28C354D83CB84414050C196744DC153618C1054E2F0772990BC060, actual=340367FD4D28C354D83CB84414050C196744DC153618C1054E2F0772990BC060"
+    },
+    {
+      "id": "dependency.Inter variable font.exists",
+      "pass": true,
+      "detail": "pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/dependencies/Inter-Variable.ttf"
+    },
+    {
+      "id": "dependency.Inter variable font.bytes",
+      "pass": true,
+      "detail": "recorded=876576, actual=876576"
+    },
+    {
+      "id": "dependency.Inter variable font.hash",
+      "pass": true,
+      "detail": "recorded=29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031, actual=29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031"
+    },
+    {
+      "id": "dependency.Existing approved Home powder image.exists",
+      "pass": true,
+      "detail": "pages/home/04_planning/visual-designs/assets/homepage-hero-tio2-material-v0.6.png"
+    },
+    {
+      "id": "dependency.Existing approved Home powder image.bytes",
+      "pass": true,
+      "detail": "recorded=1915067, actual=1915067"
+    },
+    {
+      "id": "dependency.Existing approved Home powder image.hash",
+      "pass": true,
+      "detail": "recorded=7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5, actual=7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5"
+    },
+    {
+      "id": "dependency.Shared Chrome contract.exists",
+      "pass": true,
+      "detail": "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md"
+    },
+    {
+      "id": "dependency.Shared Chrome contract.bytes",
+      "pass": true,
+      "detail": "recorded=7235, actual=7235"
+    },
+    {
+      "id": "dependency.Shared Chrome contract.hash",
+      "pass": true,
+      "detail": "recorded=CC236F47018A68771856FDBAF5553517F63959774E0E8819130E66E2B1049F18, actual=CC236F47018A68771856FDBAF5553517F63959774E0E8819130E66E2B1049F18"
+    },
+    {
+      "id": "dependency.Footer legal utility addendum.exists",
+      "pass": true,
+      "detail": "docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md"
+    },
+    {
+      "id": "dependency.Footer legal utility addendum.bytes",
+      "pass": true,
+      "detail": "recorded=2310, actual=2310"
+    },
+    {
+      "id": "dependency.Footer legal utility addendum.hash",
+      "pass": true,
+      "detail": "recorded=C1F0011408ED1D87CFF6D36C11F7E9812CC9A803431A3F7030C771FAF41BF633, actual=C1F0011408ED1D87CFF6D36C11F7E9812CC9A803431A3F7030C771FAF41BF633"
+    },
+    {
+      "id": "dependency.Production SVG Logo authority.exists",
+      "pass": true,
+      "detail": "brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md"
+    },
+    {
+      "id": "dependency.Production SVG Logo authority.bytes",
+      "pass": true,
+      "detail": "recorded=8090, actual=8090"
+    },
+    {
+      "id": "dependency.Production SVG Logo authority.hash",
+      "pass": true,
+      "detail": "recorded=81B73A5262269F618E8FB0667C9345279449A1BCB71647422B6A1D3F8EBFE894, actual=81B73A5262269F618E8FB0667C9345279449A1BCB71647422B6A1D3F8EBFE894"
+    },
+    {
+      "id": "dependency.Header Logo SVG.exists",
+      "pass": true,
+      "detail": "brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg"
+    },
+    {
+      "id": "dependency.Header Logo SVG.bytes",
+      "pass": true,
+      "detail": "recorded=4342, actual=4342"
+    },
+    {
+      "id": "dependency.Header Logo SVG.hash",
+      "pass": true,
+      "detail": "recorded=EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C, actual=EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C"
+    },
+    {
+      "id": "dependency.Footer reverse Logo SVG.exists",
+      "pass": true,
+      "detail": "brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg"
+    },
+    {
+      "id": "dependency.Footer reverse Logo SVG.bytes",
+      "pass": true,
+      "detail": "recorded=2725, actual=2725"
+    },
+    {
+      "id": "dependency.Footer reverse Logo SVG.hash",
+      "pass": true,
+      "detail": "recorded=7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E, actual=7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E"
+    },
+    {
+      "id": "dependency.Brand visual standard.exists",
+      "pass": true,
+      "detail": "brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md"
+    },
+    {
+      "id": "dependency.Brand visual standard.bytes",
+      "pass": true,
+      "detail": "recorded=11671, actual=11671"
+    },
+    {
+      "id": "dependency.Brand visual standard.hash",
+      "pass": true,
+      "detail": "recorded=75CF7BBD306A4B2BF2662414DFB28813B094B8552AF8A7FE54231F3837E524EC, actual=75CF7BBD306A4B2BF2662414DFB28813B094B8552AF8A7FE54231F3837E524EC"
+    },
+    {
+      "id": "dependency.Primary CTA accessibility override.exists",
+      "pass": true,
+      "detail": "brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md"
+    },
+    {
+      "id": "dependency.Primary CTA accessibility override.bytes",
+      "pass": true,
+      "detail": "recorded=1960, actual=1960"
+    },
+    {
+      "id": "dependency.Primary CTA accessibility override.hash",
+      "pass": true,
+      "detail": "recorded=1F6CB1F9913BD78AED3CAB30AF56CE1EEABB0C46CB354F09F05E2D00A3897E9A, actual=1F6CB1F9913BD78AED3CAB30AF56CE1EEABB0C46CB354F09F05E2D00A3897E9A"
+    },
+    {
+      "id": "dependency.Shared Chrome React assembly.exists",
+      "pass": true,
+      "detail": "D:/16Wordpress_nextjs/components/sites/tio2-my/malaysia-global-chrome.tsx"
+    },
+    {
+      "id": "dependency.Shared Chrome React assembly.bytes",
+      "pass": true,
+      "detail": "recorded=1349, actual=1349"
+    },
+    {
+      "id": "dependency.Shared Chrome React assembly.hash",
+      "pass": true,
+      "detail": "recorded=910F720791E8AB5FD836932D6DDC3C70C126FB502CCF17C8635B736CCA683453, actual=910F720791E8AB5FD836932D6DDC3C70C126FB502CCF17C8635B736CCA683453"
+    },
+    {
+      "id": "dependency.Shared Chrome client behavior.exists",
+      "pass": true,
+      "detail": "D:/16Wordpress_nextjs/components/sites/tio2-my/malaysia-global-chrome-client.tsx"
+    },
+    {
+      "id": "dependency.Shared Chrome client behavior.bytes",
+      "pass": true,
+      "detail": "recorded=10830, actual=10830"
+    },
+    {
+      "id": "dependency.Shared Chrome client behavior.hash",
+      "pass": true,
+      "detail": "recorded=AEB738D4058DACD0ED09EF3163ACA965FBBF247196008DB16A395CC9BCBF26C5, actual=AEB738D4058DACD0ED09EF3163ACA965FBBF247196008DB16A395CC9BCBF26C5"
+    },
+    {
+      "id": "dependency.Shared Chrome CSS.exists",
+      "pass": true,
+      "detail": "D:/16Wordpress_nextjs/components/sites/tio2-my/malaysia-global-chrome.module.css"
+    },
+    {
+      "id": "dependency.Shared Chrome CSS.bytes",
+      "pass": true,
+      "detail": "recorded=9896, actual=9896"
+    },
+    {
+      "id": "dependency.Shared Chrome CSS.hash",
+      "pass": true,
+      "detail": "recorded=909C8D03048CB41944A95D2A0E821B068645875CFD1811D9E960B6F6E7D3B6CB, actual=909C8D03048CB41944A95D2A0E821B068645875CFD1811D9E960B6F6E7D3B6CB"
+    },
+    {
+      "id": "dependency.Applications visual token source.exists",
+      "pass": true,
+      "detail": "D:/16Wordpress_nextjs/components/sites/tio2-my/applications/malaysia-application-hub.module.css"
+    },
+    {
+      "id": "dependency.Applications visual token source.bytes",
+      "pass": true,
+      "detail": "recorded=8914, actual=8914"
+    },
+    {
+      "id": "dependency.Applications visual token source.hash",
+      "pass": true,
+      "detail": "recorded=A8C9BA94316FF0B4EB89FC4E464F673F21E91F15B3D8609AB4097A73D9A3D6C1, actual=A8C9BA94316FF0B4EB89FC4E464F673F21E91F15B3D8609AB4097A73D9A3D6C1"
+    },
+    {
+      "id": "dependency.Home visible content and href source.exists",
+      "pass": true,
+      "detail": "D:/16Wordpress_nextjs/wordpress/plugins/tio2-site-model/config/tio2-my-homepage.json"
+    },
+    {
+      "id": "dependency.Home visible content and href source.bytes",
+      "pass": true,
+      "detail": "recorded=15619, actual=15619"
+    },
+    {
+      "id": "dependency.Home visible content and href source.hash",
+      "pass": true,
+      "detail": "recorded=C89CC1E7029B96C67C7183B4081E1526905A4F1875DA9A9F9F6B290E2CD8554C, actual=C89CC1E7029B96C67C7183B4081E1526905A4F1875DA9A9F9F6B290E2CD8554C"
+    },
+    {
+      "id": "dependency.Existing Home renderer reference.exists",
+      "pass": true,
+      "detail": "D:/16Wordpress_nextjs/components/sites/tio2-my/homepage/malaysia-homepage.tsx"
+    },
+    {
+      "id": "dependency.Existing Home renderer reference.bytes",
+      "pass": true,
+      "detail": "recorded=10017, actual=10017"
+    },
+    {
+      "id": "dependency.Existing Home renderer reference.hash",
+      "pass": true,
+      "detail": "recorded=912FF8C08B76B108252023B5F84CA3B65606CED46DA275451A5A32ACAC3DFB2F, actual=912FF8C08B76B108252023B5F84CA3B65606CED46DA275451A5A32ACAC3DFB2F"
+    }
+  ]
+}

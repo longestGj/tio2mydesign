@@ -1,0 +1,20 @@
+{
+  "evidence_id": "NL-G9-EV-VISUAL-01",
+  "evidence_type": "STATIC_VISUAL",
+  "reviewer_opened_original_files": true,
+  "candidate_commit": "2c97fe19b56f14e12c6e27daa7fd3c9a49207570",
+  "screenshots": [
+    {"name":"netherlands-1440.png","bytes":453761,"dimensions":"1440x3576","sha256":"7a253850da032c1afe7a224b61984dc3b4629b901b07c595f76033847e0a2a86","observation":"Header-to-Footer complete; five modules and actions visible; no observed crop, anomalous blank band or overlay obstruction."},
+    {"name":"netherlands-768.png","bytes":451288,"dimensions":"768x4184","sha256":"58ab813c88d5bf1a03fa88333ad1046a0197b9dde61d0e9bc450851da865c08c","observation":"Compact Header and labelled application rows visible; complete page and Footer; no observed horizontal crop."},
+    {"name":"netherlands-390.png","bytes":453393,"dimensions":"390x5544","sha256":"9cb7fd363acfc5e84d8dbf3a9f5bf04f9efe2e2f73128fdcc772dda4d65e1ccd","observation":"Single-column page, stacked actions and complete Footer visible; no observed text clipping or fixed-action obstruction."},
+    {"name":"netherlands-390-menu-open.png","bytes":47856,"dimensions":"390x844","sha256":"64d735f939eb3038bb52aa9458b9cd81c36133aa9f55d4dad74fcbc3746a31c1","observation":"Menu-open appearance, Markets current marker, RFQ and Close are visible. Static image does not prove focus order, containment or return."}
+  ],
+  "comparison": "The three full-page images materially follow the frozen Netherlands 1440/768/390 composition and preserve the approved content hierarchy. Developer matrix hashes match the three full-page originals.",
+  "not_proven": [
+    "current running instance",
+    "keyboard focus visibility on each control",
+    "768 menu behavior",
+    "Cookie Settings behavior",
+    "native 200% zoom, forced colors, non-Chromium, physical device or assistive technology"
+  ]
+}

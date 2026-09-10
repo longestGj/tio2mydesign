@@ -1,0 +1,67 @@
+{
+  "evidenceIndexId": "MARKET-EU-ES-G9-V01",
+  "date": "2026-09-08",
+  "reviewer": "gate9_spain_acceptance",
+  "reviewMode": "INDEPENDENT_READ_ONLY_STATIC_SOURCE_AND_SUPPLIED_RUNTIME_EVIDENCE",
+  "candidate": {
+    "worktree": "C:/Users/longe/.codex/worktrees/bfe8/16Wordpress_nextjs",
+    "branch": "codex/market-four-gate8",
+    "commit": "2c97fe19b56f14e12c6e27daa7fd3c9a49207570",
+    "baseCommit": "c2764e6138aa0dc37d1f6cab04bc1ae39f45aecb",
+    "worktreeStatus": "CLEAN_AT_REVIEW",
+    "existingBuildId": "XBEHSP2PDZYbuwb3U-kf3",
+    "existingBuildIdSha256": "11b0856125e74fc6ad95bb11ad0b50a86865c085918c84f456b4b71830a34468"
+  },
+  "authority": {
+    "manifest": "D:/23MySec/pages/markets/spain/MARKET-EU-ES_CURRENT_GATE_BASELINE_MANIFEST_V0.16.md",
+    "gate6Package": {
+      "path": "D:/23MySec/pages/markets/spain/06_handoff/MARKET-EU-ES_GATE6_HANDOFF_PACKAGE_V0.1.md",
+      "sha256": "5957e5a18ee0df9ed00c4f4a1cb33ee32e1dcbb0af759fa36818aca28d9e70ed"
+    },
+    "buyerCopy": {
+      "path": "D:/23MySec/pages/markets/spain/04_planning/MARKET-EU-ES_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+      "sha256": "6cf3a3c91e24c4f36c189dcd37feb4d4487944f05513c8916ce61068db9738ed"
+    },
+    "contentContract": {
+      "path": "D:/23MySec/pages/markets/spain/04_planning/MARKET-EU-ES_GATE2_CONTENT_CONTRACT_V0.4.md",
+      "sha256": "1f82bfa4b394399a4bf04449390c149c7f0a569addb1c7e2f46453c5e56f7ced"
+    }
+  },
+  "developerEvidence": {
+    "receipt": {
+      "path": "C:/Users/longe/.codex/worktrees/bfe8/16Wordpress_nextjs/docs/verification/tio2-my/market-four-20260908/GATE8_LOCAL_VERIFICATION_2026-09-08.md",
+      "sha256": "223b468327c7ffb89625064651d4445ef13294e56789c99ec6b5b7b29bc40c63"
+    },
+    "runtimeMatrix": {
+      "path": "C:/Users/longe/.codex/worktrees/bfe8/16Wordpress_nextjs/docs/verification/tio2-my/market-four-20260908/runtime-matrix.json",
+      "sha256": "a26ee241c51836b245f7e8557d1ce2405c3cc7603e1cba50f9774b98963e5f5a"
+    },
+    "existingBuiltHtml": {
+      "path": "C:/Users/longe/.codex/worktrees/bfe8/16Wordpress_nextjs/.next/server/app/markets/spain.html",
+      "bytes": 38609,
+      "sha256": "936cefaf1a4c7b423969711969ffe25b98634471a4deca7853d3ffae75568761",
+      "lastWriteTimeUtc": "2026-09-08T00:19:45Z"
+    }
+  },
+  "screenshotsOpenedAtOriginalResolution": [
+    {"file": "spain-1440.png", "width": 1440, "height": 2741, "sha256": "fe0f4e51d1f43b64de3bec8e6df4483ce5c067de2c320786c27eadc4e8375b36", "matrixMatch": true},
+    {"file": "spain-768.png", "width": 768, "height": 3001, "sha256": "217a79e8a9a1da0bb85397fa5bb10493ddac99cb7ef19e53287328a3e7d80250", "matrixMatch": true},
+    {"file": "spain-390.png", "width": 390, "height": 4069, "sha256": "c1c26ba20b1a4bc8af58934864b0e495601e7e9f21e124b9641a977736d6c5b7", "matrixMatch": true},
+    {"file": "spain-390-menu-open.png", "width": 390, "height": 844, "sha256": "6bdd0b3775734d9e4812fbb94be118600cc0d618f659b6493b192b887b21824d", "matrixMatch": null}
+  ],
+  "approvedVisualsOpenedAtOriginalResolution": [
+    "1440-full-page.png",
+    "768-full-page.png",
+    "390-full-page@2x.png",
+    "390-menu-open-focus@2x.png",
+    "390-cookie-focus@2x.png",
+    "390-document-hub-focus@2x.png"
+  ],
+  "limitations": [
+    "No listening instance for this batch was identified by the controller; the four country routes returned 404 across the five probed ports.",
+    "The four Spain application/EU trade destination local-404 observations come from line 80 of the Gate 8 developer verification report, not from the controller port survey and not from this reviewer's live probe.",
+    "No development test, build or service was run by this reviewer.",
+    "No real RFQ or Documents request was submitted.",
+    "CMS readback IDs and payload hashes are available only in the developer receipt, without a raw resolver response artifact for independent replay."
+  ]
+}

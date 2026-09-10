@@ -1,0 +1,131 @@
+{
+  "review_id": "BE-G9-ROA-20260908-01",
+  "page_id": "MARKET-EU-BE",
+  "url": "/markets/belgium/",
+  "site_scope": "tio2-my",
+  "captured_at": "2026-09-08T08:35:01+08:00",
+  "reviewer": "/root/gate9_belgium_acceptance",
+  "mode": "INDEPENDENT_READ_ONLY",
+  "candidate": {
+    "worktree": "C:/Users/longe/.codex/worktrees/bfe8/16Wordpress_nextjs",
+    "branch": "codex/market-four-gate8",
+    "commit": "2c97fe19b56f14e12c6e27daa7fd3c9a49207570",
+    "base": "c2764e6138aa0dc37d1f6cab04bc1ae39f45aecb",
+    "tree": "f067a48b9883c03c8b035b26692b46b9b942ea3a",
+    "head_matches_candidate": true,
+    "worktree_clean": true
+  },
+  "approved_input_identity": {
+    "gate6_package_sha256": "d63382757c6fc12eb2f1a423371050e32ddd1605f4f59700245633b569e2d55c",
+    "gate4_v1_1_source_sha256": "9e58374966ad2f13de0074ecfbf24f4c69644e55d340c070d7aa9b82debc9aa3",
+    "gate4_1440_sha256": "738b188a90b866779d01212afee9e9b443ba76c113a4e443d84104d180c1262b",
+    "gate4_768_sha256": "257fbe5aa099f505dd3add52e6c6dbb4fed720b1ebd67b4c34b701f35757f506",
+    "gate4_390_sha256": "658edd418635171258577f0efaa363f84f107a7b1f63a9d00a723e1f8a5126a4"
+  },
+  "candidate_source_readback": {
+    "belgium_contract_path": "wordpress/plugins/tio2-site-model/config/tio2-my-market-eu-be.json",
+    "belgium_contract_sha256": "be02916d90924e5f3e08c8d0ed5b22c2fde30ca36aab1dcd62fb01bd7d6df29d",
+    "identity": {
+      "page_id": "MARKET-EU-BE",
+      "scope": "tio2-my",
+      "locale": "en",
+      "path": "/markets/belgium/"
+    },
+    "module_order": [
+      "hero",
+      "product-origin",
+      "applications",
+      "documents",
+      "quote"
+    ],
+    "h1": "Titanium Dioxide Supplier for Belgium",
+    "rendered_main_anchor_count_from_template_and_contract": 12,
+    "observations": [
+      "The exact Belgium contract, metadata values, five modules, approved copy and action parameters are present at the candidate commit.",
+      "The DTO rejects non-publish, wrong Page ID/path/scope and payload drift instead of using a cross-scope fallback.",
+      "The country page consumes the shared Malaysia Global Chrome and shared RFQ/Documents routes."
+    ]
+  },
+  "developer_evidence": {
+    "receipt_sha256": "223b468327c7ffb89625064651d4445ef13294e56789c99ec6b5b7b29bc40c63",
+    "runtime_matrix_sha256": "a26ee241c51836b245f7e8557d1ce2405c3cc7603e1cba50f9774b98963e5f5a",
+    "screenshots": [
+      {
+        "file": "belgium-1440.png",
+        "width": 1440,
+        "height": 3730,
+        "sha256": "d98e9983ee0820e6b8cef2342c547aee08e27674fb4ed9e772c5de3634da7688",
+        "opened_by_gate9": true
+      },
+      {
+        "file": "belgium-768.png",
+        "width": 768,
+        "height": 4200,
+        "sha256": "662eb64e3e3c53cf00352413aad90cc23d36f128864605491556e66b66e7656e",
+        "opened_by_gate9": true
+      },
+      {
+        "file": "belgium-390.png",
+        "width": 390,
+        "height": 5565,
+        "sha256": "1c0c7a3101d1cde22342862cd8e9ed4a90c8f49d91fe5911cabf3832370ff1ba",
+        "opened_by_gate9": true
+      },
+      {
+        "file": "belgium-390-menu-open.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "abf86b793761cdcce9fc8fca37721fbafecf6167a7b75c57110e81d21542f6cc",
+        "opened_by_gate9": true
+      }
+    ],
+    "visual_readback": [
+      "The three full pages preserve the approved content order, no-image branch, responsive stacking, action hierarchy and general V1.1 visual direction.",
+      "All four images contain a visible Next development indicator; at 390px it overlaps the beginning of the next section heading, so these images are not clean production-equivalent buyer-view evidence.",
+      "No Gate 8 image shows keyboard focus on the BE-04 Product Hub or quotation request inline links."
+    ]
+  },
+  "focus_repair_readback": {
+    "approved_v1_1_behavior_source": "main [data-module='BE-04'] p:not(.action) a uses inline-block, baseline alignment, 44px line-height, 6px inline padding and -3px inset outline; punctuation is kept with the quotation link.",
+    "candidate_source": ".main a uses inline-flex and .main a:focus-visible uses a 3px #008078 outline with +4px offset; no Belgium-specific inline focus geometry or punctuation wrapper is present.",
+    "developer_runtime_focus_coverage": "The E2E file checks action target dimensions and the compact menu Close/Escape focus path. It does not focus the two repaired BE-04 inline links or measure their outline collision/clipping at 1440/768/390.",
+    "conclusion": "NOT_VERIFIED"
+  },
+  "read_only_runtime_probe": [
+    {"port": 3015, "status": 404, "usable_candidate": false},
+    {"port": 3017, "status": 404, "usable_candidate": false},
+    {"port": 3018, "status": 404, "usable_candidate": false},
+    {"port": 3021, "status": 502, "usable_candidate": false},
+    {"port": 3022, "status": 502, "usable_candidate": false}
+  ],
+  "acceptance_summary": {
+    "PASS": [],
+    "FAIL": ["BE-G9-AC12"],
+    "NOT_VERIFIED": [
+      "BE-G9-AC01",
+      "BE-G9-AC02",
+      "BE-G9-AC03",
+      "BE-G9-AC04",
+      "BE-G9-AC05",
+      "BE-G9-AC06",
+      "BE-G9-AC07",
+      "BE-G9-AC08",
+      "BE-G9-AC09",
+      "BE-G9-AC10",
+      "BE-G9-AC11"
+    ],
+    "NOT_APPLICABLE": []
+  },
+  "project_control_reconciliation": {
+    "finding_id": "BE-G9-F03",
+    "acceptance_ids": ["BE-G9-AC12"],
+    "conclusion": "FAIL",
+    "reason": "The exact candidate materially changes shared Global Chrome, Consent and EN/BM layout behavior, while the Gate 8 return records reuse but does not provide the original shared-owner decision, exact deviation ledger or affected-consumer regression disposition.",
+    "closure": "Obtain shared-owner acceptance and affected-consumer regression evidence bound to the exact commit, or remove/split the unapproved shared changes and return a new exact commit."
+  },
+  "limitations": [
+    "No development tests, builds or services were executed by Gate 9.",
+    "No real RFQ or Documents submission was made.",
+    "Developer self-check evidence was inspected as input and was not relabeled as independent runtime evidence."
+  ]
+}

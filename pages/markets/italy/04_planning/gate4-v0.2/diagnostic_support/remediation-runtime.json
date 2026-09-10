@@ -1,0 +1,500 @@
+{
+  "page_id": "MARKET-EU-IT",
+  "workset_id": "IT-G4-COMPLETE-20260907-02",
+  "freeze_id": "IT-G4-FREEZE-20260907-02",
+  "finding_response_id": "IT-G4-PC-R01-R1",
+  "status": "PASS / SOURCE_AND_VISUAL_UNCHANGED / THREE_WIDTH_FULL_PAGE_REGRESSION",
+  "generated_at": "2026-09-07T08:35:54.722Z",
+  "source_before": {
+    "bytes": 28199,
+    "sha256": "ed7d54648e058fee6ee4d6ff7ca76d3fe3f440eda0e5d0d7b8871b6da0f15615"
+  },
+  "source_after": {
+    "bytes": 28199,
+    "sha256": "ed7d54648e058fee6ee4d6ff7ca76d3fe3f440eda0e5d0d7b8871b6da0f15615"
+  },
+  "renderer": {
+    "browser": "151.0.7922.34",
+    "node": "v24.16.0",
+    "dpr": 1,
+    "network": "HTTP(S) blocked"
+  },
+  "widths": {
+    "390": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "height": 7698,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      },
+      "image": {
+        "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.2/diagnostic_support/full-page-regression/390-full.png",
+        "bytes": 729387,
+        "sha256": "e15721ecab83fcd698d35eb3de827df0c101a3ecac1bfe1ea0cb29c53ca47efb"
+      }
+    },
+    "768": {
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": {
+        "height": 6114,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      },
+      "image": {
+        "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.2/diagnostic_support/full-page-regression/768-full.png",
+        "bytes": 850952,
+        "sha256": "7ccf8f00f95912ff3c47835793f1a4d86f29c9f36dc9437a5b1cce624dd0f318"
+      }
+    },
+    "1440": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "height": 5050,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      },
+      "image": {
+        "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.2/diagnostic_support/full-page-regression/1440-full.png",
+        "bytes": 929094,
+        "sha256": "11d8b808ed6f647b932dfa0e7587e10618c71479b010fd95db13fe1997a5e4d7"
+      }
+    }
+  },
+  "errors": [],
+  "summary": {
+    "checks": 20,
+    "passed": 20,
+    "failed": 0,
+    "failed_ids": [],
+    "new_images": 3
+  },
+  "checks": [
+    {
+      "id": "IT-R2-SOURCE-BEFORE",
+      "pass": true,
+      "detail": {
+        "bytes": 28199,
+        "sha256": "ed7d54648e058fee6ee4d6ff7ca76d3fe3f440eda0e5d0d7b8871b6da0f15615"
+      }
+    },
+    {
+      "id": "IT-R2-1440-EXTENT",
+      "pass": true,
+      "detail": {
+        "height": 5050,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-1440-STRUCTURE",
+      "pass": true,
+      "detail": {
+        "height": 5050,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-1440-CONTROLS",
+      "pass": true,
+      "detail": {
+        "height": 5050,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-1440-COO",
+      "pass": true,
+      "detail": {
+        "height": 5050,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-1440-CHROME",
+      "pass": true,
+      "detail": {
+        "height": 5050,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-1440-ERRORS",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "IT-R2-768-EXTENT",
+      "pass": true,
+      "detail": {
+        "height": 6114,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-768-STRUCTURE",
+      "pass": true,
+      "detail": {
+        "height": 6114,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-768-CONTROLS",
+      "pass": true,
+      "detail": {
+        "height": 6114,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-768-COO",
+      "pass": true,
+      "detail": {
+        "height": 6114,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-768-CHROME",
+      "pass": true,
+      "detail": {
+        "height": 6114,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-768-ERRORS",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "IT-R2-390-EXTENT",
+      "pass": true,
+      "detail": {
+        "height": 7698,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-390-STRUCTURE",
+      "pass": true,
+      "detail": {
+        "height": 7698,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-390-CONTROLS",
+      "pass": true,
+      "detail": {
+        "height": 7698,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-390-COO",
+      "pass": true,
+      "detail": {
+        "height": 7698,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-390-CHROME",
+      "pass": true,
+      "detail": {
+        "height": 7698,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "modules": [
+          "IT-01",
+          "IT-02",
+          "IT-03",
+          "IT-04",
+          "IT-05",
+          "IT-06",
+          "IT-07"
+        ],
+        "h1": 1,
+        "bodyLinks": 19,
+        "below44": 0,
+        "cooAdjacent": true,
+        "currentVisible": false
+      }
+    },
+    {
+      "id": "IT-R2-390-ERRORS",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "IT-R2-SOURCE-AFTER",
+      "pass": true,
+      "detail": {
+        "bytes": 28199,
+        "sha256": "ed7d54648e058fee6ee4d6ff7ca76d3fe3f440eda0e5d0d7b8871b6da0f15615"
+      }
+    }
+  ]
+}

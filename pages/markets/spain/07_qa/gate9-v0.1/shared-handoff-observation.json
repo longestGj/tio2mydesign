@@ -1,0 +1,33 @@
+{
+  "observationId": "MARKET-FOUR-G9-SHARED-HANDOFF-01",
+  "date": "2026-09-08",
+  "findingId": "ES-G9-F04",
+  "scope": "BATCH_COMMON_ROOT_CAUSE",
+  "baseCommit": "c2764e6138aa0dc37d1f6cab04bc1ae39f45aecb",
+  "candidateCommit": "2c97fe19b56f14e12c6e27daa7fd3c9a49207570",
+  "changedSharedFiles": [
+    "app/(en)/layout.tsx",
+    "app/(ms)/ms/layout.tsx",
+    "components/sites/tio2-my/consent/malaysia-cookie-settings.module.css",
+    "components/sites/tio2-my/consent/malaysia-cookie-settings.tsx",
+    "components/sites/tio2-my/malaysia-global-chrome.module.css",
+    "components/sites/tio2-my/malaysia-global-chrome.tsx"
+  ],
+  "materialChangeExamples": [
+    "EN and BM root layouts attach the shared Malaysia font variable to body.",
+    "Global Chrome changes desktop/mobile breakpoint, geometry, colours, mobile navigation and menu-topbar structure.",
+    "Cookie Settings changes to a native dialog flow and revises dialog/action styling."
+  ],
+  "gate8ReceiptObservation": {
+    "path": "C:/Users/longe/.codex/worktrees/bfe8/16Wordpress_nextjs/docs/verification/tio2-my/market-four-20260908/GATE8_LOCAL_VERIFICATION_2026-09-08.md",
+    "line26": "No alternative Global Chrome implementation was added.",
+    "line30": "Reused the accepted shared Header, Mobile Menu, Footer, logo, consent and font mechanisms.",
+    "missingFromHandoff": [
+      "shared owner decision source",
+      "accurate approved-baseline-to-candidate difference statement",
+      "affected consumer inventory",
+      "cross-consumer EN/BM regression evidence"
+    ]
+  },
+  "closure": "Gate 8 and the shared owners must provide the decision, exact difference, affected consumers and representative EN/BM regressions, or revert the unapproved shared changes. Spain-only screenshots are insufficient."
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "gate6-targeted-revision-self-check/v1",
+  "date": "2026-09-08",
+  "page_id": "MARKET-EU-DE",
+  "finding_id": "MARKET-EU-DE-G6-PC-F01",
+  "package_id": "MARKET-EU-DE-G6-HANDOFF-02",
+  "package_path": "pages/markets/germany/06_handoff/MARKET-EU-DE_GATE6_HANDOFF_PACKAGE_V0.2.md",
+  "package_bytes": 28197,
+  "package_sha256": "75e184dfe89d9acbbb28da100dc8271c7c1a84f89c85f71d11b5ca1bc4d885c2",
+  "execution_report_path": "pages/markets/germany/05_review/MARKET-EU-DE_GATE6_EXECUTION_REPORT_V0.2.md",
+  "execution_report_sha256": "f5e42e6c450c8333176794f82c13e890c2ccffa2e6ba537155ff7e1581935b6e",
+  "source_identities": [
+    {
+      "path": "pages/resources/eu-trade/RES-TRADE-EU_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md",
+      "expected_sha256": "1c087ab2a1e126d1fce71a338ec260225ab286a390fa3a4b92ded3dc87932019",
+      "actual_sha256": "1c087ab2a1e126d1fce71a338ec260225ab286a390fa3a4b92ded3dc87932019",
+      "pass": true
+    },
+    {
+      "path": "docs/architecture/GATE8_TRADE4_APPLICATION5_AUTHORIZATION_AND_DISPATCH_V1.0.md",
+      "expected_sha256": "1b51a129efd9dcc092c3a06d6cd192c7ab432da27d442833d729455fdc469438",
+      "actual_sha256": "1b51a129efd9dcc092c3a06d6cd192c7ab432da27d442833d729455fdc469438",
+      "pass": true
+    },
+    {
+      "path": "docs/architecture/GATE8_TRADE4_APPLICATION5_DISPATCH_RECEIPT_V1.0.json",
+      "expected_sha256": "62afc533645827e1cbfe38904aa45f9cd5b7b1bdb2fb3f65efecd82c4565f933",
+      "actual_sha256": "62afc533645827e1cbfe38904aa45f9cd5b7b1bdb2fb3f65efecd82c4565f933",
+      "pass": true
+    }
+  ],
+  "acceptance_ids": [
+    "DE-G9-AC01",
+    "DE-G9-AC02",
+    "DE-G9-AC03",
+    "DE-G9-AC04",
+    "DE-G9-AC05",
+    "DE-G9-AC06",
+    "DE-G9-AC07",
+    "DE-G9-AC08",
+    "DE-G9-AC09",
+    "DE-G9-AC10",
+    "DE-G9-AC11",
+    "DE-G9-AC12",
+    "DE-G9-AC13",
+    "DE-G9-AC14"
+  ],
+  "dependency_ids": [
+    "DE-G6-D01",
+    "DE-G6-D02",
+    "DE-G6-D03",
+    "DE-G6-D04",
+    "DE-G6-D05",
+    "DE-G6-D06",
+    "DE-G6-D07",
+    "DE-G6-D08"
+  ],
+  "changed_line_numbers": [
+    1,
+    3,
+    15,
+    103,
+    121,
+    134
+  ],
+  "checks": {
+    "package_identity": true,
+    "source_identities": true,
+    "package_id_unique": true,
+    "stale_assertion_absent": true,
+    "current_state_present": true,
+    "d06_and_ac09_present": true,
+    "acceptance_ids_stable": true,
+    "dependency_ids_stable": true,
+    "allowed_change_lines_only": true,
+    "line_count_preserved": true,
+    "eu_targets_preserved": true,
+    "seven_scope_surfaces_preserved": true,
+    "targeted_stop_boundary": true
+  },
+  "required_finding_count_at_executor_response": 0,
+  "result": "PASS / READY_FOR_TARGETED_RECHECK",
+  "limitations": [
+    "Machine checks do not prove semantic correctness.",
+    "No EU Trade implementation, freshness, Gate 9 or release state was tested.",
+    "A different identity must close or reopen the Finding."
+  ]
+}

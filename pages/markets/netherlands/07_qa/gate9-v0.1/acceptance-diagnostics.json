@@ -1,0 +1,23 @@
+{
+  "evidence_id": "NL-G9-EV-MATRIX-01",
+  "candidate_commit": "2c97fe19b56f14e12c6e27daa7fd3c9a49207570",
+  "runtime_availability": "NOT_IDENTIFIED; controller's prior read-only probes of 3015/3017/3018/3021/3022 ended at 404 for the target route and are not represented as this reviewer's runtime test",
+  "source_observations": {
+    "page_identity": "MARKET-EU-NL / tio2-my / en / /markets/netherlands/",
+    "payload_parity_guard": "DTO rejects non-publish, wrong page ID, wrong public path, non-single tio2-my scope and any payload JSON differing from the approved repository contract",
+    "metadata": "Exact title/meta/canonical; noindex,nofollow; WebPage + BreadcrumbList only",
+    "actions": "RFQ carries destination_country=Netherlands and source_page_id=MARKET-EU-NL; Documents carries source_page_id and market_id only",
+    "route_sources_present": ["/", "/markets/", "/markets/european-union/", "/products/", "/applications/", "/documents/", "/resources/", "/about/", "/request-a-quote/", "/request-documents/", "/privacy-policy/", "/ms/privacy-policy/", "/cookie-policy/"],
+    "source_only_warning": "Route source presence and developer tests do not establish current Gate 9 runtime response."
+  },
+  "developer_evidence_readback": {
+    "tests_reported": "10 files / 190 tests PASS; Playwright 17/17; build 43/43; no tests were rerun by Gate 9",
+    "cms_record_reported": "local post 18521, payload SHA-256 1e26f2795de6880c07f72c73285832de72014920311fd65d9b278d375e01fb8d",
+    "interaction_coverage_observed_in_test_source": "390 menu open/initial focus/Escape/return; RFQ and Documents navigation and initial prefill; no actual external submit",
+    "missing_from_test_source": "per-control visible-focus readback; last filled mobile RFQ focus; 768 menu operation; Cookie Settings operation; native 200% zoom; forced colors; non-Chromium; physical device; assistive technology; production receiver result"
+  },
+  "scope_change_observation": {
+    "result": "FAIL_ACCEPTANCE_PROVENANCE",
+    "details": "The one commit changes shared Global Chrome, Cookie Settings and EN/BM shared font/layout behavior. The dispatch required page consumption of original shared owners and coordination of shared defects. The return describes these as reused but provides no shared-owner decision, exact deviation ledger or adequate affected-consumer regression evidence."
+  }
+}

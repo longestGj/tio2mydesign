@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-09-08T10:18:40+08:00",
+  "mode": "INDEPENDENT_READ_ONLY_TARGETED_RECHECK",
+  "d16_worktree": "D:/16Wordpress_nextjs/.worktrees/trade4-app5-gate8",
+  "branch": "codex/country-editorial-integration",
+  "evidence_commit": "58af74dbe44b4ccaafe517d592ecae5d5ff37ef2",
+  "gate8_receipt_commit_after_recheck": "84db14ee35fe118415bff8327f202ee712e7599c",
+  "runtime_code_commit": "4fa585bc125c7b8fa926ab66059f4fc6887877f4",
+  "worktree_clean_before_and_after": true,
+  "runtime": {
+    "origin": "http://127.0.0.1:3226",
+    "build_id": "1AwBNw0A1szLVVlTyLyQU",
+    "process_id": 21792,
+    "command": "next start --hostname 127.0.0.1 --port 3226"
+  },
+  "developer_evidence_sha256": {
+    "RETURN.md": "C5A2F8560305C469620A50E731DED7CC9909C9F0E12138A3810050FED5846734",
+    "results.json": "B9D4965FE5B25038E2871BD3927A1D72D965300A9DBD3993EC94154A82F97A48",
+    "runtime-identity.json": "193518BA3161DFB37A224AAEC9B6C35947F7B442395BCCD68652DA7E327CBB4F"
+  },
+  "independent_vitest": {
+    "files_passed": 5,
+    "files_failed": 0,
+    "tests_passed": 78,
+    "tests_failed": 0,
+    "duration_seconds": 1.67,
+    "targets": [
+      "tests/integration/editorial/editorial-route-scope.test.tsx",
+      "tests/integration/editorial/editorial-queries.test.ts",
+      "tests/integration/editorial/editorial-revalidation.test.ts",
+      "tests/unit/editorial/application-payloads.test.ts",
+      "tests/unit/editorial/trade-payloads.test.ts"
+    ]
+  }
+}

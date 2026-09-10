@@ -1,0 +1,41 @@
+{
+  "audit": "MARKET-EU-DE Gate 4 independent visual observation",
+  "frozen_evidence": {
+    "opened": 51,
+    "total": 51,
+    "identity_and_dimensions_exact": 51,
+    "groups": {
+      "formal_approval_core": 42,
+      "gate4a_direction_samples": 6,
+      "preflight_full_pages": 3,
+      "full_pages": 6,
+      "continuous_readable_segments": 25,
+      "menu_states": 2,
+      "cookie_states": 3,
+      "focus_states": 6,
+      "hover_states": 3
+    }
+  },
+  "independent_rerender": {
+    "generated": 42,
+    "full_pages": 3,
+    "continuous_segments": 25,
+    "state_images": 14,
+    "state_images_opened": 14,
+    "formal_full_page_pixel_comparison": {
+      "1440": "BIT_EXACT",
+      "768": "BIT_EXACT",
+      "390": "BIT_EXACT"
+    }
+  },
+  "observations": {
+    "full_page": "PASS: complete page, all seven modules and shared header/footer are readable at 1440, 768 and 390; no clipping, truncation or unintended horizontal overflow.",
+    "continuous_segments": "PASS: 7 + 8 + 10 segments cover the full 1440/768/390 documents from y=0 through maximum scroll, with overlap at every join and no missing interval.",
+    "responsive_layout": "PASS: three application objects remain equal peers; desktop uses three columns and 768/390 stack them. Destination content uses two columns at 1440 and stacks at 768/390.",
+    "states": "PASS: Menu and Cookie states fit all applicable viewports; keyboard focus and hover are visible; action controls are at least 44px; Menu/Cookie focus loops, inert isolation, Escape close and focus restoration passed.",
+    "content": "PASS: rendered main text is an exact normalized match to approved B, with one H1, six H2 module headings and 19 exact main links; Germany keeps grade selection neutral and delegates EU-wide checks to their owners.",
+    "shared": "PASS: GLOBAL-CHROME-005 header/footer, production logos, fixed RFQ, Markets current state, approved legal order and Cookie Settings are present; no visible CURRENT label or Terms link.",
+    "collector_failures": "NON-FINDING: retained early failures report Playwright clip rectangles outside the resulting image and a click intercepted while a modal overlay was still active. Final formal assets and the independent run complete the same captures; the continuous evidence has no gap."
+  },
+  "required_findings": 0
+}

@@ -1,0 +1,33 @@
+{
+  "audit": "MARKET-EU-DE post-freeze root Index drift impact",
+  "frozen_snapshot": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/snapshots/01_PROJECT_INDEX.frozen.md",
+    "bytes": 21658,
+    "sha256": "fde0c59fabeda7f3688eaf4c41af59f8104c80462ef5f752212e3f53486d40cf"
+  },
+  "live_index_at_review": {
+    "path": "D:/23MySec/01_PROJECT_INDEX.md",
+    "bytes": 21657,
+    "sha256": "9f369cadfe0456fd0f1e9e829d0a748d6b28ee3312a7fe964a84617625bd1939"
+  },
+  "diff_hunks": 2,
+  "changed_rows": [
+    {
+      "row": "Poland current page task",
+      "change": "Gate 9 routing/status advanced from Manifest V0.22 / PL-G9-REVIEW-01 to Manifest V0.25 / PL-G9-RECHECK-04."
+    },
+    {
+      "row": "Applications directory navigation",
+      "change": "Application-article research navigation added the separately approved R02 Plastic Film research and frozen Brief pointers; the existing R01 status was condensed."
+    }
+  ],
+  "unchanged_relevant_pointers": [
+    "MARKET-EU-DE current page task",
+    "Gate workflow V3.2",
+    "Unified Gate 1-4 standard V2.2",
+    "Gate 4 Agent and three current methods",
+    "brand, CTA, Global Chrome, production Logo and shared legal contracts"
+  ],
+  "impact": "NO_IMPACT_ON_MARKET-EU-DE_GATE4_FREEZE_OR_REVIEW",
+  "basis": "The exact frozen Index bytes remain preserved and hash-exact. The live diffs are the unrelated Poland Gate 9 row and Application-article research navigation for R02; no Germany authority, linked application-page contract, Gate 4 method, content, brand, chrome, legal or review criterion changed."
+}

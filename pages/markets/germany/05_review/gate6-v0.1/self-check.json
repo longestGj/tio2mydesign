@@ -1,0 +1,63 @@
+{
+  "schema": "gate6-execution-self-check/v1",
+  "generated_at": "2026-09-08",
+  "dispatch_id": "G6-DE-EXEC-20260908-01",
+  "page_id": "MARKET-EU-DE",
+  "package_id": "MARKET-EU-DE-G6-HANDOFF-01",
+  "package_path": "pages/markets/germany/06_handoff/MARKET-EU-DE_GATE6_HANDOFF_PACKAGE_V0.1.md",
+  "package_bytes": 26922,
+  "package_sha256": "c03e230c681eafd2fcb17727ff02338ed96717ed1ca92668bf3efdbfc8dfa597",
+  "execution_report_path": "pages/markets/germany/05_review/MARKET-EU-DE_GATE6_EXECUTION_REPORT_V0.1.md",
+  "execution_report_sha256": "7a5ee3f4ca97fff797480259d448409a6a5a4b8d37d882bf11f577505ffe4848",
+  "path": "FAST_PATH",
+  "acceptance_ids": [
+    "DE-G9-AC01",
+    "DE-G9-AC02",
+    "DE-G9-AC03",
+    "DE-G9-AC04",
+    "DE-G9-AC05",
+    "DE-G9-AC06",
+    "DE-G9-AC07",
+    "DE-G9-AC08",
+    "DE-G9-AC09",
+    "DE-G9-AC10",
+    "DE-G9-AC11",
+    "DE-G9-AC12",
+    "DE-G9-AC13",
+    "DE-G9-AC14"
+  ],
+  "dependency_ids": [
+    "DE-G6-D01",
+    "DE-G6-D02",
+    "DE-G6-D03",
+    "DE-G6-D04",
+    "DE-G6-D05",
+    "DE-G6-D06",
+    "DE-G6-D07",
+    "DE-G6-D08"
+  ],
+  "required_finding_count": 0,
+  "advisory_finding_count": 0,
+  "checks": {
+    "package_sha256_matches_report": true,
+    "package_id_unique": true,
+    "acceptance_ids_unique_contiguous": true,
+    "dependency_ids_unique_contiguous": true,
+    "approved_targets_covered": true,
+    "seven_scope_surfaces_covered": true,
+    "required_contract_tokens_present": true,
+    "local_markdown_links_resolve": true
+  },
+  "missing": {
+    "local_links": [],
+    "scope_surfaces": [],
+    "approved_targets": [],
+    "required_tokens": []
+  },
+  "result": "PASS / READY_FOR_INDEPENDENT_REVIEW",
+  "limitations": [
+    "Machine checks do not prove semantic correctness.",
+    "No production implementation, receiver, freshness, visual or accessibility behavior was tested.",
+    "Independent review and project-control closure remain separate."
+  ]
+}

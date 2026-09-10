@@ -1,0 +1,1459 @@
+{
+  "review_id": "BE-G6-FRESH-G4-READBACK-20260907",
+  "page_id": "MARKET-EU-BE",
+  "workset_id": "BE-G4-COMPLETE-20260907-02",
+  "freeze_id": "BE-G4-FREEZE-20260907-02",
+  "role": "INDEPENDENT_PROJECT_CONTROL_FOCUSED_REREVIEW",
+  "generated_at": "2026-09-07T08:31:14.373Z",
+  "fixed_inputs": [
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_INPUT_INDEX_V1.1.json",
+      "bytes": 19000,
+      "sha256": "f368d7d9a959434bbbf3f291b92bed20a7493c99f018aee08fd2f36a54002f70"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_WORKSET_V1.1.json",
+      "bytes": 1552,
+      "sha256": "7377b70a2a141aaf65ea557f29d91272f6c8c3df7ed148c02a9dc96c71de0269"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_PREFLIGHT_RECORD_V1.1.json",
+      "bytes": 2252,
+      "sha256": "440369ae3e13c289899a9d454b81de745c43c61918d2908653a4c123457bfb55"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_FREEZE_RECORD_V1.1.json",
+      "bytes": 4287,
+      "sha256": "43410a43435de2e41b0d32372bb5db18c19e12592bb1505a50af35a70c84a23b"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_EVIDENCE_INDEX_V1.1.json",
+      "bytes": 30141,
+      "sha256": "24a8b43f5663707d91c13c9d0fb614012d43e39d785f1e851ece928e11a3ac54"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/diagnostic_support/revision-admission-and-diff.json",
+      "bytes": 15830,
+      "sha256": "ac609cbc9afd1c742a053319328cc5a6860b5bb3cb0a450d79221b3a03b2193a"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/diagnostic_support/render-r1/runtime-checks.json",
+      "bytes": 79320,
+      "sha256": "8af283b4e4680ad9a58d9d7a31376221ce6d6df844b4810d1a0d490869862cff"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/diagnostic_support/focus-repair-runtime.json",
+      "bytes": 45112,
+      "sha256": "d78a5892ac7a664ba2d0ed097988a2647c2f428b0d0074adc5abd241d67e092d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/diagnostic_support/final-delivery-readback.json",
+      "bytes": 6911,
+      "sha256": "e205f0e534dea26b5d5b99493db3c81681734cecb4328aa95114300f8a286569"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/diagnostic_support/visual-readback-and-identity.json",
+      "bytes": 2016,
+      "sha256": "5269da720a67b8574686022dbb97ce2a3589ef65e0c9be7fc73037cc0124280d"
+    }
+  ],
+  "identity_audit": {
+    "claimOccurrences": 255,
+    "uniquePaths": 125,
+    "failures": [
+      {
+        "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+        "pointer": "$.current_methods_and_contracts[3]",
+        "documentPath": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_INPUT_INDEX_V1.1.json",
+        "claimed": {
+          "sha256": "b0a0c682cab300131090c484ae4ae0c9e931d7e1648c643f06a4d68948b8d9ab",
+          "bytes": 7953
+        },
+        "actual": {
+          "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+          "bytes": 8412,
+          "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+        }
+      },
+      {
+        "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+        "pointer": "$.checks[49]",
+        "documentPath": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/diagnostic_support/revision-admission-and-diff.json",
+        "claimed": {
+          "sha256": "b0a0c682cab300131090c484ae4ae0c9e931d7e1648c643f06a4d68948b8d9ab",
+          "bytes": 7953
+        },
+        "actual": {
+          "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+          "bytes": 8412,
+          "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+        }
+      }
+    ],
+    "conflictingClaims": []
+  },
+  "inventory": {
+    "input": {
+      "upstream": 45,
+      "methodsAndContracts": 11,
+      "previousAndFinding": 5
+    },
+    "evidenceStates": {
+      "COOKIE": 3,
+      "MENU": 2,
+      "FULL": 3,
+      "FOCUS": 6,
+      "HOVER": 6,
+      "NORMAL": 6,
+      "CONTINUOUS_SEGMENT": 19
+    },
+    "segmentCoverage": {
+      "390": {
+        "count": 8,
+        "noGap": true,
+        "coveredThrough": 5369,
+        "fullHeight": 5369,
+        "reachesEnd": true
+      },
+      "768": {
+        "count": 6,
+        "noGap": true,
+        "coveredThrough": 4170,
+        "fullHeight": 4170,
+        "reachesEnd": true
+      },
+      "1440": {
+        "count": 5,
+        "noGap": true,
+        "coveredThrough": 3654,
+        "fullHeight": 3654,
+        "reachesEnd": true
+      }
+    }
+  },
+  "browser": {
+    "widths": [
+      {
+        "width": 1440,
+        "geometry": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "height": 3654,
+          "clipped": 0,
+          "overflow": 0
+        },
+        "signature": {
+          "lang": "en",
+          "title": "Titanium Dioxide Supplier Belgium | TiO2 Malaysia",
+          "canonical": null,
+          "modules": [
+            "BE-01",
+            "BE-02",
+            "BE-03",
+            "BE-04",
+            "BE-05"
+          ],
+          "links": [
+            {
+              "text": "Home",
+              "href": "/"
+            },
+            {
+              "text": "Markets",
+              "href": "/markets/"
+            },
+            {
+              "text": "European Union",
+              "href": "/markets/european-union/"
+            },
+            {
+              "text": "Request a Quote",
+              "href": "/request-a-quote/"
+            },
+            {
+              "text": "Explore Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Explore Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Product Hub",
+              "href": "/products/"
+            },
+            {
+              "text": "quotation request",
+              "href": "/request-a-quote/"
+            },
+            {
+              "text": "Request Documents",
+              "href": "/request-documents/"
+            },
+            {
+              "text": "View Document Hub",
+              "href": "/documents/"
+            },
+            {
+              "text": "European Union Procurement Overview",
+              "href": "/markets/european-union/"
+            },
+            {
+              "text": "Request a Quote",
+              "href": "/request-a-quote/"
+            }
+          ]
+        }
+      },
+      {
+        "width": 768,
+        "geometry": {
+          "scrollWidth": 768,
+          "clientWidth": 768,
+          "height": 4170,
+          "clipped": 0,
+          "overflow": 0
+        },
+        "signature": {
+          "lang": "en",
+          "title": "Titanium Dioxide Supplier Belgium | TiO2 Malaysia",
+          "canonical": null,
+          "modules": [
+            "BE-01",
+            "BE-02",
+            "BE-03",
+            "BE-04",
+            "BE-05"
+          ],
+          "links": [
+            {
+              "text": "Home",
+              "href": "/"
+            },
+            {
+              "text": "Markets",
+              "href": "/markets/"
+            },
+            {
+              "text": "European Union",
+              "href": "/markets/european-union/"
+            },
+            {
+              "text": "Request a Quote",
+              "href": "/request-a-quote/"
+            },
+            {
+              "text": "Explore Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Explore Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Product Hub",
+              "href": "/products/"
+            },
+            {
+              "text": "quotation request",
+              "href": "/request-a-quote/"
+            },
+            {
+              "text": "Request Documents",
+              "href": "/request-documents/"
+            },
+            {
+              "text": "View Document Hub",
+              "href": "/documents/"
+            },
+            {
+              "text": "European Union Procurement Overview",
+              "href": "/markets/european-union/"
+            },
+            {
+              "text": "Request a Quote",
+              "href": "/request-a-quote/"
+            }
+          ]
+        }
+      },
+      {
+        "width": 390,
+        "geometry": {
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "height": 5369,
+          "clipped": 0,
+          "overflow": 0
+        },
+        "signature": {
+          "lang": "en",
+          "title": "Titanium Dioxide Supplier Belgium | TiO2 Malaysia",
+          "canonical": null,
+          "modules": [
+            "BE-01",
+            "BE-02",
+            "BE-03",
+            "BE-04",
+            "BE-05"
+          ],
+          "links": [
+            {
+              "text": "Home",
+              "href": "/"
+            },
+            {
+              "text": "Markets",
+              "href": "/markets/"
+            },
+            {
+              "text": "European Union",
+              "href": "/markets/european-union/"
+            },
+            {
+              "text": "Request a Quote",
+              "href": "/request-a-quote/"
+            },
+            {
+              "text": "Explore Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Explore Products",
+              "href": "/products/"
+            },
+            {
+              "text": "Product Hub",
+              "href": "/products/"
+            },
+            {
+              "text": "quotation request",
+              "href": "/request-a-quote/"
+            },
+            {
+              "text": "Request Documents",
+              "href": "/request-documents/"
+            },
+            {
+              "text": "View Document Hub",
+              "href": "/documents/"
+            },
+            {
+              "text": "European Union Procurement Overview",
+              "href": "/markets/european-union/"
+            },
+            {
+              "text": "Request a Quote",
+              "href": "/request-a-quote/"
+            }
+          ]
+        }
+      }
+    ],
+    "focusCases": [
+      {
+        "width": 1440,
+        "label": "Product Hub",
+        "tabs": 16,
+        "normalRect": {
+          "x": 651.21875,
+          "y": 2120.046875,
+          "width": 116.9375,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 651.21875,
+          "y": 2120.046875,
+          "width": 116.9375,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 651.21875,
+          "y": 2120.046875,
+          "width": 116.9375,
+          "height": 44
+        },
+        "focused": {
+          "focused": true,
+          "rect": {
+            "x": 651.21875,
+            "y": 2120.046875,
+            "width": 116.9375,
+            "height": 44
+          },
+          "viewportRect": {
+            "x": 651.21875,
+            "y": 428.046875,
+            "width": 116.9375,
+            "height": 44
+          },
+          "computed": {
+            "outlineColor": "rgb(0, 128, 120)",
+            "outlineStyle": "solid",
+            "outlineWidth": 3,
+            "outlineOffset": -3,
+            "paddingInlineStart": 6,
+            "paddingInlineEnd": 6
+          },
+          "selfHits": [],
+          "neighborHits": []
+        },
+        "contrastAgainstWhite": 4.817749371824569,
+        "geometryStable": true
+      },
+      {
+        "width": 1440,
+        "label": "quotation request",
+        "tabs": 1,
+        "normalRect": {
+          "x": 177.546875,
+          "y": 2164.046875,
+          "width": 159.1875,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 177.546875,
+          "y": 2164.046875,
+          "width": 159.1875,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 177.546875,
+          "y": 2164.046875,
+          "width": 159.1875,
+          "height": 44
+        },
+        "focused": {
+          "focused": true,
+          "rect": {
+            "x": 177.546875,
+            "y": 2164.046875,
+            "width": 159.1875,
+            "height": 44
+          },
+          "viewportRect": {
+            "x": 177.546875,
+            "y": 428.046875,
+            "width": 159.1875,
+            "height": 44
+          },
+          "computed": {
+            "outlineColor": "rgb(0, 128, 120)",
+            "outlineStyle": "solid",
+            "outlineWidth": 3,
+            "outlineOffset": -3,
+            "paddingInlineStart": 6,
+            "paddingInlineEnd": 6
+          },
+          "selfHits": [],
+          "neighborHits": []
+        },
+        "contrastAgainstWhite": 4.817749371824569,
+        "geometryStable": true
+      },
+      {
+        "width": 768,
+        "label": "Product Hub",
+        "tabs": 10,
+        "normalRect": {
+          "x": 32,
+          "y": 2404.59375,
+          "width": 116.9375,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 32,
+          "y": 2404.59375,
+          "width": 116.9375,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 32,
+          "y": 2404.59375,
+          "width": 116.9375,
+          "height": 44
+        },
+        "focused": {
+          "focused": true,
+          "rect": {
+            "x": 32,
+            "y": 2404.59375,
+            "width": 116.9375,
+            "height": 44
+          },
+          "viewportRect": {
+            "x": 32,
+            "y": 427.59375,
+            "width": 116.9375,
+            "height": 44
+          },
+          "computed": {
+            "outlineColor": "rgb(0, 128, 120)",
+            "outlineStyle": "solid",
+            "outlineWidth": 3,
+            "outlineOffset": -3,
+            "paddingInlineStart": 6,
+            "paddingInlineEnd": 6
+          },
+          "selfHits": [],
+          "neighborHits": []
+        },
+        "contrastAgainstWhite": 4.817749371824569,
+        "geometryStable": true
+      },
+      {
+        "width": 768,
+        "label": "quotation request",
+        "tabs": 1,
+        "normalRect": {
+          "x": 461.015625,
+          "y": 2404.59375,
+          "width": 159.1875,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 461.015625,
+          "y": 2404.59375,
+          "width": 159.1875,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 461.015625,
+          "y": 2404.59375,
+          "width": 159.1875,
+          "height": 44
+        },
+        "focused": {
+          "focused": true,
+          "rect": {
+            "x": 461.015625,
+            "y": 2404.59375,
+            "width": 159.1875,
+            "height": 44
+          },
+          "viewportRect": {
+            "x": 461.015625,
+            "y": 427.59375,
+            "width": 159.1875,
+            "height": 44
+          },
+          "computed": {
+            "outlineColor": "rgb(0, 128, 120)",
+            "outlineStyle": "solid",
+            "outlineWidth": 3,
+            "outlineOffset": -3,
+            "paddingInlineStart": 6,
+            "paddingInlineEnd": 6
+          },
+          "selfHits": [],
+          "neighborHits": []
+        },
+        "contrastAgainstWhite": 4.817749371824569,
+        "geometryStable": true
+      },
+      {
+        "width": 390,
+        "label": "Product Hub",
+        "tabs": 10,
+        "normalRect": {
+          "x": 20,
+          "y": 3245.21875,
+          "width": 111.515625,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 20,
+          "y": 3245.21875,
+          "width": 111.515625,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 20,
+          "y": 3245.21875,
+          "width": 111.515625,
+          "height": 44
+        },
+        "focused": {
+          "focused": true,
+          "rect": {
+            "x": 20,
+            "y": 3245.21875,
+            "width": 111.515625,
+            "height": 44
+          },
+          "viewportRect": {
+            "x": 20,
+            "y": 400.21875,
+            "width": 111.515625,
+            "height": 44
+          },
+          "computed": {
+            "outlineColor": "rgb(0, 128, 120)",
+            "outlineStyle": "solid",
+            "outlineWidth": 3,
+            "outlineOffset": -3,
+            "paddingInlineStart": 6,
+            "paddingInlineEnd": 6
+          },
+          "selfHits": [],
+          "neighborHits": []
+        },
+        "contrastAgainstWhite": 4.817749371824569,
+        "geometryStable": true
+      },
+      {
+        "width": 390,
+        "label": "quotation request",
+        "tabs": 1,
+        "normalRect": {
+          "x": 74.578125,
+          "y": 3289.21875,
+          "width": 151.609375,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 74.578125,
+          "y": 3289.21875,
+          "width": 151.609375,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 74.578125,
+          "y": 3289.21875,
+          "width": 151.609375,
+          "height": 44
+        },
+        "focused": {
+          "focused": true,
+          "rect": {
+            "x": 74.578125,
+            "y": 3289.21875,
+            "width": 151.609375,
+            "height": 44
+          },
+          "viewportRect": {
+            "x": 74.578125,
+            "y": 400.21875,
+            "width": 151.609375,
+            "height": 44
+          },
+          "computed": {
+            "outlineColor": "rgb(0, 128, 120)",
+            "outlineStyle": "solid",
+            "outlineWidth": 3,
+            "outlineOffset": -3,
+            "paddingInlineStart": 6,
+            "paddingInlineEnd": 6
+          },
+          "selfHits": [],
+          "neighborHits": []
+        },
+        "contrastAgainstWhite": 4.817749371824569,
+        "geometryStable": true
+      }
+    ],
+    "retainedStates": [
+      {
+        "width": 1440,
+        "state": "COOKIE",
+        "rerenderedSha256": "267a4bf4a6db387fc320322335cbb7a3e63b815acdacca70b90afce4071ad33f",
+        "retainedSha256": "267a4bf4a6db387fc320322335cbb7a3e63b815acdacca70b90afce4071ad33f",
+        "pixelIdentical": true
+      },
+      {
+        "width": 768,
+        "state": "MENU",
+        "rerenderedSha256": "93751d40b8945a7c7bd40ba1ef4afc66c36e5058c4b97612be439c880153a54c",
+        "retainedSha256": "93751d40b8945a7c7bd40ba1ef4afc66c36e5058c4b97612be439c880153a54c",
+        "pixelIdentical": true
+      },
+      {
+        "width": 768,
+        "state": "COOKIE",
+        "rerenderedSha256": "786af6d1ae9167dedbbbcf86ba2f7b94380de7899fd3c63567b930229cddee85",
+        "retainedSha256": "786af6d1ae9167dedbbbcf86ba2f7b94380de7899fd3c63567b930229cddee85",
+        "pixelIdentical": true
+      },
+      {
+        "width": 390,
+        "state": "MENU",
+        "rerenderedSha256": "66a21f2aaa32c0f8c77ceec35c4d8f0c48fcddca46fe7574aaa4fe21a0e68ba0",
+        "retainedSha256": "66a21f2aaa32c0f8c77ceec35c4d8f0c48fcddca46fe7574aaa4fe21a0e68ba0",
+        "pixelIdentical": true
+      },
+      {
+        "width": 390,
+        "state": "COOKIE",
+        "rerenderedSha256": "41962d0bb49b9175fb6ef94476b02475252ec08e02d56e121f55c7974f1e8a41",
+        "retainedSha256": "41962d0bb49b9175fb6ef94476b02475252ec08e02d56e121f55c7974f1e8a41",
+        "pixelIdentical": true
+      }
+    ],
+    "fullPageRerenders": [
+      {
+        "width": 1440,
+        "sha256": "738b188a90b866779d01212afee9e9b443ba76c113a4e443d84104d180c1262b",
+        "indexedSha256": "738b188a90b866779d01212afee9e9b443ba76c113a4e443d84104d180c1262b",
+        "pixelIdentical": true
+      },
+      {
+        "width": 768,
+        "sha256": "257fbe5aa099f505dd3add52e6c6dbb4fed720b1ebd67b4c34b701f35757f506",
+        "indexedSha256": "257fbe5aa099f505dd3add52e6c6dbb4fed720b1ebd67b4c34b701f35757f506",
+        "pixelIdentical": true
+      },
+      {
+        "width": 390,
+        "sha256": "658edd418635171258577f0efaa363f84f107a7b1f63a9d00a723e1f8a5126a4",
+        "indexedSha256": "658edd418635171258577f0efaa363f84f107a7b1f63a9d00a723e1f8a5126a4",
+        "pixelIdentical": true
+      }
+    ],
+    "drift": [
+      {
+        "width": 1440,
+        "noDrift": true,
+        "modules": [
+          "BE-01",
+          "BE-02",
+          "BE-03",
+          "BE-04",
+          "BE-05"
+        ],
+        "linkCount": 12
+      },
+      {
+        "width": 768,
+        "noDrift": true,
+        "modules": [
+          "BE-01",
+          "BE-02",
+          "BE-03",
+          "BE-04",
+          "BE-05"
+        ],
+        "linkCount": 12
+      },
+      {
+        "width": 390,
+        "noDrift": true,
+        "modules": [
+          "BE-01",
+          "BE-02",
+          "BE-03",
+          "BE-04",
+          "BE-05"
+        ],
+        "linkCount": 12
+      }
+    ]
+  },
+  "checks": [
+    {
+      "key": "all recursively indexed identities resolve",
+      "status": "FAIL",
+      "detail": {
+        "claimOccurrences": 255,
+        "uniquePaths": 125,
+        "failures": [
+          {
+            "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+            "pointer": "$.current_methods_and_contracts[3]",
+            "documentPath": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_INPUT_INDEX_V1.1.json",
+            "claimed": {
+              "sha256": "b0a0c682cab300131090c484ae4ae0c9e931d7e1648c643f06a4d68948b8d9ab",
+              "bytes": 7953
+            },
+            "actual": {
+              "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+              "bytes": 8412,
+              "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+            }
+          },
+          {
+            "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+            "pointer": "$.checks[49]",
+            "documentPath": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/diagnostic_support/revision-admission-and-diff.json",
+            "claimed": {
+              "sha256": "b0a0c682cab300131090c484ae4ae0c9e931d7e1648c643f06a4d68948b8d9ab",
+              "bytes": 7953
+            },
+            "actual": {
+              "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+              "bytes": 8412,
+              "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "no conflicting indexed identities",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "key": "workset and freeze identifiers are exact",
+      "status": "PASS",
+      "detail": {
+        "workset": "BE-G4-COMPLETE-20260907-02",
+        "freeze": "BE-G4-FREEZE-20260907-02"
+      }
+    },
+    {
+      "key": "input inventory cardinality",
+      "status": "PASS",
+      "detail": {
+        "upstream": 45,
+        "methodsAndContracts": 11,
+        "previousAndFinding": 5
+      }
+    },
+    {
+      "key": "evidence inventory cardinality",
+      "status": "PASS",
+      "detail": {
+        "images": 45,
+        "declared": {
+          "total_unique_images": 45,
+          "new_full_pages": 3,
+          "retained_menu_cookie_states": 5,
+          "regenerated_continuous_segments": 19,
+          "new_focus_state_images": 18,
+          "opened_new_images": 40
+        }
+      }
+    },
+    {
+      "key": "evidence state distribution",
+      "status": "PASS",
+      "detail": {
+        "COOKIE": 3,
+        "MENU": 2,
+        "FULL": 3,
+        "FOCUS": 6,
+        "HOVER": 6,
+        "NORMAL": 6,
+        "CONTINUOUS_SEGMENT": 19
+      }
+    },
+    {
+      "key": "all evidence PNG dimensions agree",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "key": "continuous segment coverage has no gap and reaches each full-page end",
+      "status": "PASS",
+      "detail": {
+        "390": {
+          "count": 8,
+          "noGap": true,
+          "coveredThrough": 5369,
+          "fullHeight": 5369,
+          "reachesEnd": true
+        },
+        "768": {
+          "count": 6,
+          "noGap": true,
+          "coveredThrough": 4170,
+          "fullHeight": 4170,
+          "reachesEnd": true
+        },
+        "1440": {
+          "count": 5,
+          "noGap": true,
+          "coveredThrough": 3654,
+          "fullHeight": 3654,
+          "reachesEnd": true
+        }
+      }
+    },
+    {
+      "key": "source diff is one scoped BE-04 rule replacement",
+      "status": "PASS",
+      "detail": {
+        "oldSource": {
+          "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.0/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_V1.0.html",
+          "bytes": 21689,
+          "sha256": "73aad15d48c3261b31e34e71288c95a73ec5ab2e869af611ecdbf270aead92dc"
+        },
+        "newSource": {
+          "path": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_COMPLETE_VISUAL_V1.1.html",
+          "bytes": 21728,
+          "sha256": "9e58374966ad2f13de0074ecfbf24f4c69644e55d340c070d7aa9b82debc9aa3"
+        }
+      }
+    },
+    {
+      "key": "1440/full page geometry",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "height": 3654,
+        "clipped": 0,
+        "overflow": 0
+      }
+    },
+    {
+      "key": "1440/approved copy URL modules and shared DOM unchanged from reviewed V1.0",
+      "status": "PASS",
+      "detail": {
+        "modules": [
+          "BE-01",
+          "BE-02",
+          "BE-03",
+          "BE-04",
+          "BE-05"
+        ],
+        "linkCount": 12
+      }
+    },
+    {
+      "key": "1440/full-page rerender matches indexed evidence",
+      "status": "PASS",
+      "detail": {
+        "rerendered": "738b188a90b866779d01212afee9e9b443ba76c113a4e443d84104d180c1262b",
+        "indexed": "738b188a90b866779d01212afee9e9b443ba76c113a4e443d84104d180c1262b"
+      }
+    },
+    {
+      "key": "1440/Product Hub/keyboard focus visible",
+      "status": "PASS",
+      "detail": {
+        "tabs": 16,
+        "computed": {
+          "outlineColor": "rgb(0, 128, 120)",
+          "outlineStyle": "solid",
+          "outlineWidth": 3,
+          "outlineOffset": -3,
+          "paddingInlineStart": 6,
+          "paddingInlineEnd": 6
+        }
+      }
+    },
+    {
+      "key": "1440/Product Hub/zero focus collision",
+      "status": "PASS",
+      "detail": {
+        "selfHits": [],
+        "neighborHits": []
+      }
+    },
+    {
+      "key": "1440/Product Hub/44px target",
+      "status": "PASS",
+      "detail": {
+        "x": 651.21875,
+        "y": 2120.046875,
+        "width": 116.9375,
+        "height": 44
+      }
+    },
+    {
+      "key": "1440/Product Hub/focus contrast",
+      "status": "PASS",
+      "detail": 4.817749371824569
+    },
+    {
+      "key": "1440/Product Hub/geometry stable",
+      "status": "PASS",
+      "detail": {
+        "normalRect": {
+          "x": 651.21875,
+          "y": 2120.046875,
+          "width": 116.9375,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 651.21875,
+          "y": 2120.046875,
+          "width": 116.9375,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 651.21875,
+          "y": 2120.046875,
+          "width": 116.9375,
+          "height": 44
+        }
+      }
+    },
+    {
+      "key": "1440/quotation request/keyboard focus visible",
+      "status": "PASS",
+      "detail": {
+        "tabs": 1,
+        "computed": {
+          "outlineColor": "rgb(0, 128, 120)",
+          "outlineStyle": "solid",
+          "outlineWidth": 3,
+          "outlineOffset": -3,
+          "paddingInlineStart": 6,
+          "paddingInlineEnd": 6
+        }
+      }
+    },
+    {
+      "key": "1440/quotation request/zero focus collision",
+      "status": "PASS",
+      "detail": {
+        "selfHits": [],
+        "neighborHits": []
+      }
+    },
+    {
+      "key": "1440/quotation request/44px target",
+      "status": "PASS",
+      "detail": {
+        "x": 177.546875,
+        "y": 2164.046875,
+        "width": 159.1875,
+        "height": 44
+      }
+    },
+    {
+      "key": "1440/quotation request/focus contrast",
+      "status": "PASS",
+      "detail": 4.817749371824569
+    },
+    {
+      "key": "1440/quotation request/geometry stable",
+      "status": "PASS",
+      "detail": {
+        "normalRect": {
+          "x": 177.546875,
+          "y": 2164.046875,
+          "width": 159.1875,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 177.546875,
+          "y": 2164.046875,
+          "width": 159.1875,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 177.546875,
+          "y": 2164.046875,
+          "width": 159.1875,
+          "height": 44
+        }
+      }
+    },
+    {
+      "key": "1440/Cookie retained evidence is pixel-identical",
+      "status": "PASS",
+      "detail": {
+        "current": "267a4bf4a6db387fc320322335cbb7a3e63b815acdacca70b90afce4071ad33f",
+        "retained": "267a4bf4a6db387fc320322335cbb7a3e63b815acdacca70b90afce4071ad33f"
+      }
+    },
+    {
+      "key": "1440/Menu Cookie close restores normal footer",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "key": "768/full page geometry",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "height": 4170,
+        "clipped": 0,
+        "overflow": 0
+      }
+    },
+    {
+      "key": "768/approved copy URL modules and shared DOM unchanged from reviewed V1.0",
+      "status": "PASS",
+      "detail": {
+        "modules": [
+          "BE-01",
+          "BE-02",
+          "BE-03",
+          "BE-04",
+          "BE-05"
+        ],
+        "linkCount": 12
+      }
+    },
+    {
+      "key": "768/full-page rerender matches indexed evidence",
+      "status": "PASS",
+      "detail": {
+        "rerendered": "257fbe5aa099f505dd3add52e6c6dbb4fed720b1ebd67b4c34b701f35757f506",
+        "indexed": "257fbe5aa099f505dd3add52e6c6dbb4fed720b1ebd67b4c34b701f35757f506"
+      }
+    },
+    {
+      "key": "768/Product Hub/keyboard focus visible",
+      "status": "PASS",
+      "detail": {
+        "tabs": 10,
+        "computed": {
+          "outlineColor": "rgb(0, 128, 120)",
+          "outlineStyle": "solid",
+          "outlineWidth": 3,
+          "outlineOffset": -3,
+          "paddingInlineStart": 6,
+          "paddingInlineEnd": 6
+        }
+      }
+    },
+    {
+      "key": "768/Product Hub/zero focus collision",
+      "status": "PASS",
+      "detail": {
+        "selfHits": [],
+        "neighborHits": []
+      }
+    },
+    {
+      "key": "768/Product Hub/44px target",
+      "status": "PASS",
+      "detail": {
+        "x": 32,
+        "y": 2404.59375,
+        "width": 116.9375,
+        "height": 44
+      }
+    },
+    {
+      "key": "768/Product Hub/focus contrast",
+      "status": "PASS",
+      "detail": 4.817749371824569
+    },
+    {
+      "key": "768/Product Hub/geometry stable",
+      "status": "PASS",
+      "detail": {
+        "normalRect": {
+          "x": 32,
+          "y": 2404.59375,
+          "width": 116.9375,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 32,
+          "y": 2404.59375,
+          "width": 116.9375,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 32,
+          "y": 2404.59375,
+          "width": 116.9375,
+          "height": 44
+        }
+      }
+    },
+    {
+      "key": "768/quotation request/keyboard focus visible",
+      "status": "PASS",
+      "detail": {
+        "tabs": 1,
+        "computed": {
+          "outlineColor": "rgb(0, 128, 120)",
+          "outlineStyle": "solid",
+          "outlineWidth": 3,
+          "outlineOffset": -3,
+          "paddingInlineStart": 6,
+          "paddingInlineEnd": 6
+        }
+      }
+    },
+    {
+      "key": "768/quotation request/zero focus collision",
+      "status": "PASS",
+      "detail": {
+        "selfHits": [],
+        "neighborHits": []
+      }
+    },
+    {
+      "key": "768/quotation request/44px target",
+      "status": "PASS",
+      "detail": {
+        "x": 461.015625,
+        "y": 2404.59375,
+        "width": 159.1875,
+        "height": 44
+      }
+    },
+    {
+      "key": "768/quotation request/focus contrast",
+      "status": "PASS",
+      "detail": 4.817749371824569
+    },
+    {
+      "key": "768/quotation request/geometry stable",
+      "status": "PASS",
+      "detail": {
+        "normalRect": {
+          "x": 461.015625,
+          "y": 2404.59375,
+          "width": 159.1875,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 461.015625,
+          "y": 2404.59375,
+          "width": 159.1875,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 461.015625,
+          "y": 2404.59375,
+          "width": 159.1875,
+          "height": 44
+        }
+      }
+    },
+    {
+      "key": "768/Menu retained evidence is pixel-identical",
+      "status": "PASS",
+      "detail": {
+        "current": "93751d40b8945a7c7bd40ba1ef4afc66c36e5058c4b97612be439c880153a54c",
+        "retained": "93751d40b8945a7c7bd40ba1ef4afc66c36e5058c4b97612be439c880153a54c"
+      }
+    },
+    {
+      "key": "768/Cookie retained evidence is pixel-identical",
+      "status": "PASS",
+      "detail": {
+        "current": "786af6d1ae9167dedbbbcf86ba2f7b94380de7899fd3c63567b930229cddee85",
+        "retained": "786af6d1ae9167dedbbbcf86ba2f7b94380de7899fd3c63567b930229cddee85"
+      }
+    },
+    {
+      "key": "768/Menu Cookie close restores normal footer",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "key": "390/full page geometry",
+      "status": "PASS",
+      "detail": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "height": 5369,
+        "clipped": 0,
+        "overflow": 0
+      }
+    },
+    {
+      "key": "390/approved copy URL modules and shared DOM unchanged from reviewed V1.0",
+      "status": "PASS",
+      "detail": {
+        "modules": [
+          "BE-01",
+          "BE-02",
+          "BE-03",
+          "BE-04",
+          "BE-05"
+        ],
+        "linkCount": 12
+      }
+    },
+    {
+      "key": "390/full-page rerender matches indexed evidence",
+      "status": "PASS",
+      "detail": {
+        "rerendered": "658edd418635171258577f0efaa363f84f107a7b1f63a9d00a723e1f8a5126a4",
+        "indexed": "658edd418635171258577f0efaa363f84f107a7b1f63a9d00a723e1f8a5126a4"
+      }
+    },
+    {
+      "key": "390/Product Hub/keyboard focus visible",
+      "status": "PASS",
+      "detail": {
+        "tabs": 10,
+        "computed": {
+          "outlineColor": "rgb(0, 128, 120)",
+          "outlineStyle": "solid",
+          "outlineWidth": 3,
+          "outlineOffset": -3,
+          "paddingInlineStart": 6,
+          "paddingInlineEnd": 6
+        }
+      }
+    },
+    {
+      "key": "390/Product Hub/zero focus collision",
+      "status": "PASS",
+      "detail": {
+        "selfHits": [],
+        "neighborHits": []
+      }
+    },
+    {
+      "key": "390/Product Hub/44px target",
+      "status": "PASS",
+      "detail": {
+        "x": 20,
+        "y": 3245.21875,
+        "width": 111.515625,
+        "height": 44
+      }
+    },
+    {
+      "key": "390/Product Hub/focus contrast",
+      "status": "PASS",
+      "detail": 4.817749371824569
+    },
+    {
+      "key": "390/Product Hub/geometry stable",
+      "status": "PASS",
+      "detail": {
+        "normalRect": {
+          "x": 20,
+          "y": 3245.21875,
+          "width": 111.515625,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 20,
+          "y": 3245.21875,
+          "width": 111.515625,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 20,
+          "y": 3245.21875,
+          "width": 111.515625,
+          "height": 44
+        }
+      }
+    },
+    {
+      "key": "390/quotation request/keyboard focus visible",
+      "status": "PASS",
+      "detail": {
+        "tabs": 1,
+        "computed": {
+          "outlineColor": "rgb(0, 128, 120)",
+          "outlineStyle": "solid",
+          "outlineWidth": 3,
+          "outlineOffset": -3,
+          "paddingInlineStart": 6,
+          "paddingInlineEnd": 6
+        }
+      }
+    },
+    {
+      "key": "390/quotation request/zero focus collision",
+      "status": "PASS",
+      "detail": {
+        "selfHits": [],
+        "neighborHits": []
+      }
+    },
+    {
+      "key": "390/quotation request/44px target",
+      "status": "PASS",
+      "detail": {
+        "x": 74.578125,
+        "y": 3289.21875,
+        "width": 151.609375,
+        "height": 44
+      }
+    },
+    {
+      "key": "390/quotation request/focus contrast",
+      "status": "PASS",
+      "detail": 4.817749371824569
+    },
+    {
+      "key": "390/quotation request/geometry stable",
+      "status": "PASS",
+      "detail": {
+        "normalRect": {
+          "x": 74.578125,
+          "y": 3289.21875,
+          "width": 151.609375,
+          "height": 44
+        },
+        "hoverRect": {
+          "x": 74.578125,
+          "y": 3289.21875,
+          "width": 151.609375,
+          "height": 44
+        },
+        "focusRect": {
+          "x": 74.578125,
+          "y": 3289.21875,
+          "width": 151.609375,
+          "height": 44
+        }
+      }
+    },
+    {
+      "key": "390/Menu retained evidence is pixel-identical",
+      "status": "PASS",
+      "detail": {
+        "current": "66a21f2aaa32c0f8c77ceec35c4d8f0c48fcddca46fe7574aaa4fe21a0e68ba0",
+        "retained": "66a21f2aaa32c0f8c77ceec35c4d8f0c48fcddca46fe7574aaa4fe21a0e68ba0"
+      }
+    },
+    {
+      "key": "390/Cookie retained evidence is pixel-identical",
+      "status": "PASS",
+      "detail": {
+        "current": "41962d0bb49b9175fb6ef94476b02475252ec08e02d56e121f55c7974f1e8a41",
+        "retained": "41962d0bb49b9175fb6ef94476b02475252ec08e02d56e121f55c7974f1e8a41"
+      }
+    },
+    {
+      "key": "390/Menu Cookie close restores normal footer",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "failed": [
+    {
+      "key": "all recursively indexed identities resolve",
+      "status": "FAIL",
+      "detail": {
+        "claimOccurrences": 255,
+        "uniquePaths": 125,
+        "failures": [
+          {
+            "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+            "pointer": "$.current_methods_and_contracts[3]",
+            "documentPath": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/MARKET-EU-BE_GATE4_INPUT_INDEX_V1.1.json",
+            "claimed": {
+              "sha256": "b0a0c682cab300131090c484ae4ae0c9e931d7e1648c643f06a4d68948b8d9ab",
+              "bytes": 7953
+            },
+            "actual": {
+              "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+              "bytes": 8412,
+              "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+            }
+          },
+          {
+            "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+            "pointer": "$.checks[49]",
+            "documentPath": "D:/23MySec/pages/markets/belgium/04_planning/gate4-v1.1/diagnostic_support/revision-admission-and-diff.json",
+            "claimed": {
+              "sha256": "b0a0c682cab300131090c484ae4ae0c9e931d7e1648c643f06a4d68948b8d9ab",
+              "bytes": 7953
+            },
+            "actual": {
+              "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+              "bytes": 8412,
+              "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "required_finding_count": 1,
+  "status": "CHANGES_REQUIRED",
+  "boundary": "Independent focused Gate 4 review only. This is not user approval, Gate 4 closure, Gate 6 authorization, implementation, deployment, or publication."
+}

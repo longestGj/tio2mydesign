@@ -1,0 +1,986 @@
+{
+  "page_id": "MARKET-EU-DE",
+  "workset_id": "DE-G4-COMPLETE-20260907-01",
+  "freeze_id": "DE-G4-COMPLETE-20260907-01-F01",
+  "status": "COMPLETE_VISUAL_FROZEN / DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "source": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/MARKET-EU-DE_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 23813,
+    "sha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc"
+  },
+  "css": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/visual-direction.css",
+    "bytes": 3977,
+    "sha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+  },
+  "input_index": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/input_index.json",
+    "bytes": 12117,
+    "sha256": "5b281f9359d15e9ba71a1b95a3a80a58b1b797c3bb940acbf4b0a0da82848825"
+  },
+  "source_freeze": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/source-freeze.json",
+    "bytes": 16224,
+    "sha256": "46c4f2dbc289861f9910b2cf27dc8ea5dc2ff8c6305a6ccfaf2512211fa4370c"
+  },
+  "direction_check": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/4A-direction-check.json",
+    "bytes": 5857,
+    "sha256": "c3133e8b1ca0a3330a70ab4c765f13ce2b4bbec010068b938a8f9d3bddc48b3f"
+  },
+  "direction_runtime": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/direction-r1-checks.json",
+    "bytes": 192615,
+    "sha256": "2eb78d80633f45e3f5d781e87f160df374322d3f5f576b44285de73a274c6f6f"
+  },
+  "preflight_runtime": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1-checks.json",
+    "bytes": 190397,
+    "sha256": "e75cca9492b9d4920acb5d2834899cc2cc093a16a37a63db9f77a25b57c6cf2c"
+  },
+  "formal_runtime": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/formal-r1-checks.json",
+    "bytes": 216406,
+    "sha256": "4bd8bf564b612b08f9edeb2633c8b60b54b8bcbf828629ef43c834a44cbc30b5"
+  },
+  "workset": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/workset.json",
+    "bytes": 2353,
+    "sha256": "2987fc9d0f08cbb3007ae91d048883d8dbb11581c4b1206b755122cf345e0914"
+  },
+  "counts": {
+    "total_unique_images": 51,
+    "opened_images": 51,
+    "approval_core_images": 42,
+    "diagnostic_images": 9,
+    "full_pages": 6,
+    "continuous_segments": 25,
+    "direction_samples": 6,
+    "menu_states": 2,
+    "cookie_states": 3,
+    "keyboard_focus_states": 6,
+    "hover_states": 3
+  },
+  "approval_core": [
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-application-hover.png",
+      "bytes": 37930,
+      "sha256": "cc0da89ab12e98ca1b5ea07d7bcd0048f47c659001bc4f13108f5ac429a4a842",
+      "pixelWidth": 384,
+      "pixelHeight": 409,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "ACTUAL_HOVER",
+      "region": "Coatings application object",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-cookie.png",
+      "bytes": 112315,
+      "sha256": "07dbf7cf11840584dace83259fe867103567291179edc0893542e75bc6db0f71",
+      "pixelWidth": 1440,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "COOKIE_MODAL_OPEN",
+      "region": "shared Cookie Settings",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-full.png",
+      "bytes": 705350,
+      "sha256": "43614b7e949eac8a452c8e851b92300c0bc99a10f7352327241f2ee8a70c2bd9",
+      "pixelWidth": 1440,
+      "pixelHeight": 5228,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "FULL_PAGE",
+      "region": "full page",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-hero-primary-focus.png",
+      "bytes": 59126,
+      "sha256": "00c45061a4f61da32c85eb72db9960b70bcecfcb497f7eb3569469b1ce1f562c",
+      "pixelWidth": 1440,
+      "pixelHeight": 579,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "KEYBOARD_FOCUS",
+      "region": "Hero and primary action",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-reference-focus.png",
+      "bytes": 68402,
+      "sha256": "2c5524f313da63dda2725353998d78d5eb36788e13998a6f7d87b241f0963486",
+      "pixelWidth": 1200,
+      "pixelHeight": 441,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "KEYBOARD_FOCUS",
+      "region": "Germany source list and adjacent predicates",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-application-hover.png",
+      "bytes": 29857,
+      "sha256": "fb7e665f5327ed569c9967c1c1d06dbde2a6e37a9b1fa40677d183998c4ad4b1",
+      "pixelWidth": 350,
+      "pixelHeight": 382,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "ACTUAL_HOVER",
+      "region": "Coatings application object",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-cookie.png",
+      "bytes": 48645,
+      "sha256": "a6bdd5189e48f10d6d8a709e867004a80bf82bb4a15264afac0879ad0b377461",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "COOKIE_MODAL_OPEN",
+      "region": "shared Cookie Settings",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-full.png",
+      "bytes": 623412,
+      "sha256": "70e06006edc8d8713b7bd2fa1b7bc433084bfb4e69a6b103e7c17ce2ae710138",
+      "pixelWidth": 390,
+      "pixelHeight": 7996,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "FULL_PAGE",
+      "region": "full page",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-hero-primary-focus.png",
+      "bytes": 46696,
+      "sha256": "76f398d68cdcda97f7c759a68d1c28adf79f54376cbe2e7dcf67ca6bd42cc046",
+      "pixelWidth": 390,
+      "pixelHeight": 624,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "KEYBOARD_FOCUS",
+      "region": "Hero and primary action",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-menu.png",
+      "bytes": 37736,
+      "sha256": "486609f9ec56cc347b4129441209bc707014764f32460db68f17bf0618489324",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "MENU_OPEN",
+      "region": "shared Mobile Menu",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-reference-focus.png",
+      "bytes": 59253,
+      "sha256": "19fa759be1da9b6ffb37641c2d96ebf5cea4ae3286d96c093ebabcc0873a0529",
+      "pixelWidth": 350,
+      "pixelHeight": 724,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "KEYBOARD_FOCUS",
+      "region": "Germany source list and adjacent predicates",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-application-hover.png",
+      "bytes": 33468,
+      "sha256": "642ba55624693b88795fd279e546012136ab138e33d799b5153654c104aa6997",
+      "pixelWidth": 720,
+      "pixelHeight": 289,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "ACTUAL_HOVER",
+      "region": "Coatings application object",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-cookie.png",
+      "bytes": 67641,
+      "sha256": "eabf811c5f07b1b2b1cf5481ba588097174c277dc26661be6948b005f3408c36",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "COOKIE_MODAL_OPEN",
+      "region": "shared Cookie Settings",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-full.png",
+      "bytes": 676123,
+      "sha256": "6c07039a5e41428b4237144ae25440e67d4c8ffe676c88a6da25a185c20334a0",
+      "pixelWidth": 768,
+      "pixelHeight": 6181,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "FULL_PAGE",
+      "region": "full page",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-hero-primary-focus.png",
+      "bytes": 50734,
+      "sha256": "8ff142bce663c5a1e1ce2eb7aec40d5823af4d5c6fa0561b483c87dfd7619f8e",
+      "pixelWidth": 768,
+      "pixelHeight": 555,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "KEYBOARD_FOCUS",
+      "region": "Hero and primary action",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-menu.png",
+      "bytes": 66947,
+      "sha256": "1d9f4962415a0cee34e869ba32a0e931b829ff47dff5ded621b051546eb81ee5",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "MENU_OPEN",
+      "region": "shared Mobile Menu",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-reference-focus.png",
+      "bytes": 64789,
+      "sha256": "b31e4c72ef60534ab9619449de527d004cc60b7c2642c40aad5faf1a4e31b91b",
+      "pixelWidth": 720,
+      "pixelHeight": 503,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "KEYBOARD_FOCUS",
+      "region": "Germany source list and adjacent predicates",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-01.png",
+      "bytes": 98852,
+      "sha256": "2ceedc10c8d95fe0ae6a027b4e88b7e4999cce6b7bfdd1790e5587c3fd6193f2",
+      "pixelWidth": 1440,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=0; actual-y=0",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-02.png",
+      "bytes": 143743,
+      "sha256": "f1c0bacbcbf23b64577a24765bc705ae96ce7fe34ffb0834220faa30d61b0630",
+      "pixelWidth": 1440,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=800; actual-y=800",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-03.png",
+      "bytes": 114870,
+      "sha256": "dd8f15cc27a2b59a60f2cb90e72671694393f13e733c0ad4511b79035b63a1e4",
+      "pixelWidth": 1440,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=1600; actual-y=1600",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-04.png",
+      "bytes": 150562,
+      "sha256": "60b3b8cfc68fc7127240e8b60a9820233ac5b0e633c8c471d671e9e2cb583274",
+      "pixelWidth": 1440,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=2400; actual-y=2400",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-05.png",
+      "bytes": 96228,
+      "sha256": "a167ddd6c12068a473b7659b15632fcd2767d73964cd82246c25f38e0cc72c76",
+      "pixelWidth": 1440,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=3200; actual-y=3200",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-06.png",
+      "bytes": 117373,
+      "sha256": "2c8cb62e7b7c963665e5c6f916961d13ca6762a35377dc918b73d38324e260ee",
+      "pixelWidth": 1440,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=4000; actual-y=4000",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-07.png",
+      "bytes": 95798,
+      "sha256": "18a1d05e540509368e9deeec68dd4567b2931ca54486fc7a123b240569e6c5c3",
+      "pixelWidth": 1440,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=4328; actual-y=4328",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-01.png",
+      "bytes": 64712,
+      "sha256": "733f99212cd87ee07e9ff0f0716d06e73af72a811b1ebc5370aa61c793ad1fc6",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=0; actual-y=0",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-02.png",
+      "bytes": 82268,
+      "sha256": "01657c68167791a83878f0d0a8b2f8f97c6fd259a185affe57176445a0a332d1",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=800; actual-y=800",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-03.png",
+      "bytes": 63743,
+      "sha256": "0a91f3e8dbcb84275304e7ecc7d6dd0c56a90fdde40228d9de961f8ec3dbf7ac",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=1600; actual-y=1600",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-04.png",
+      "bytes": 62778,
+      "sha256": "fc3fb3496df5b6782bf99a96aa62231f7d52870e8be9dfce89f49f7123a851d7",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=2400; actual-y=2400",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-05.png",
+      "bytes": 74682,
+      "sha256": "10c1fbbf1cfbb301120f1d7af232382301534f82d43f62bc14f37ad4c976334f",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=3200; actual-y=3200",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-06.png",
+      "bytes": 75657,
+      "sha256": "b70a28a036853c310541ae0c90adf086be39dd22228762832bdc954eae4deb65",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=4000; actual-y=4000",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-07.png",
+      "bytes": 62363,
+      "sha256": "941375551fb6a5c9ae1d90e9dd96a885d2e8b4db34b0063c43889174a21b8772",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=4800; actual-y=4800",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-08.png",
+      "bytes": 63358,
+      "sha256": "3d6d70e96e988416a05766fc2b0b801cb7da48e44b5e2d8841671569a59f2e12",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=5600; actual-y=5600",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-09.png",
+      "bytes": 63840,
+      "sha256": "71d1622d198422b4792a4bcc098e65daa05f8fda0dab4d91113e171ff542eac3",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=6400; actual-y=6400",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-10.png",
+      "bytes": 40392,
+      "sha256": "ee5fcdb632e1e6c003020c14e365d6a62ab1c37d421d544186fc8358535140ed",
+      "pixelWidth": 390,
+      "pixelHeight": 844,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=7096; actual-y=7096",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-01.png",
+      "bytes": 98416,
+      "sha256": "918b86eefd1b0281b4ff8c35b0423d9b7cb8558ebf105809843dc9e98a89f2a4",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=0; actual-y=0",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-02.png",
+      "bytes": 122069,
+      "sha256": "22db5cff40c23840050fa68906047a18b013f275d27baf156cad6616ee881db4",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=800; actual-y=800",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-03.png",
+      "bytes": 93364,
+      "sha256": "fbd4669c5428e11cbc0680531370a3e030606194f81aff0a751e4d998849154e",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=1600; actual-y=1600",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-04.png",
+      "bytes": 106779,
+      "sha256": "30ad839aaf0a83c8cd0e8703249d6ca0ab8c9c7475193d69d07fa7e97e26bcf0",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=2400; actual-y=2400",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-05.png",
+      "bytes": 116877,
+      "sha256": "bb82495fd596d463e49cc0bfe732d204f69680dde0ab12ae5465e16f865c857f",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=3200; actual-y=3200",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-06.png",
+      "bytes": 101247,
+      "sha256": "3f8d81b7633acfa179da5737241af7018f91e6e3647ad03efa046689f8bb5c54",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=4000; actual-y=4000",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-07.png",
+      "bytes": 91379,
+      "sha256": "ead1d8814367e07f080fcb8c88f9e4c9af96e3fbf6e1b19949375cae73732428",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=4800; actual-y=4800",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-08.png",
+      "bytes": 48262,
+      "sha256": "6fa094fac5bf4d5df6d956fe32647963c144aaf7c73cdc5bdfb6c6460b4b7bcc",
+      "pixelWidth": 768,
+      "pixelHeight": 900,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "CONTINUOUS_READABLE_SEGMENT",
+      "region": "continuous readable viewport requested-y=5281; actual-y=5281",
+      "bucket": "approval_core",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    }
+  ],
+  "diagnostic_support": [
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-application-direction.png",
+      "bytes": 156525,
+      "sha256": "75cb0567dd80fce5c84ff0033735402fd731306117498cb105b09915137c4033",
+      "pixelWidth": 1440,
+      "pixelHeight": 962,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "DIRECTION_SAMPLE",
+      "region": "German industrial context and three application objects",
+      "bucket": "diagnostic_direction",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-destination-direction.png",
+      "bytes": 116137,
+      "sha256": "f2d4df045e5e5cc96f939b73c4ea61480773aa644ffeaff07549294a5635aaef",
+      "pixelWidth": 1440,
+      "pixelHeight": 621,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "DIRECTION_SAMPLE",
+      "region": "destination prose and five-item checklist relationship",
+      "bucket": "diagnostic_direction",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-application-direction.png",
+      "bytes": 153195,
+      "sha256": "668aadfe38a21c3850db29b9069bfb8ab0b5efc97f2b436495576a6ca8505b7e",
+      "pixelWidth": 390,
+      "pixelHeight": 1868,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "DIRECTION_SAMPLE",
+      "region": "German industrial context and three application objects",
+      "bucket": "diagnostic_direction",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-destination-direction.png",
+      "bytes": 97959,
+      "sha256": "f6ecc7f881529978606832496ec03e26bfc5b7b2d293db8b3b8906fe78039753",
+      "pixelWidth": 390,
+      "pixelHeight": 1237,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "DIRECTION_SAMPLE",
+      "region": "destination prose and five-item checklist relationship",
+      "bucket": "diagnostic_direction",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-application-direction.png",
+      "bytes": 165262,
+      "sha256": "777cd837fe5ddfa6c1a9d1ab8612703492eb7015ce1745093eb958b10f3e3cba",
+      "pixelWidth": 768,
+      "pixelHeight": 1392,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "DIRECTION_SAMPLE",
+      "region": "German industrial context and three application objects",
+      "bucket": "diagnostic_direction",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-destination-direction.png",
+      "bytes": 106155,
+      "sha256": "a5d424cf1a5b2484e88a8e053c62b40843d5afe5b8080ce58581c7258b83e3c1",
+      "pixelWidth": 768,
+      "pixelHeight": 858,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "DIRECTION_SAMPLE",
+      "region": "destination prose and five-item checklist relationship",
+      "bucket": "diagnostic_direction",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/1440-full.png",
+      "bytes": 705386,
+      "sha256": "e0233065b1e48b552cfd94ab6e3a0a48eb6197739066e8c45d9760eae697c31f",
+      "pixelWidth": 1440,
+      "pixelHeight": 5228,
+      "logicalViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "FULL_PAGE",
+      "region": "diagnostic full page",
+      "bucket": "diagnostic_preflight",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/390-full.png",
+      "bytes": 623363,
+      "sha256": "321eab7f08b56ba457e36914a04497df6c950741b6506fca40b8fc5ccff51672",
+      "pixelWidth": 390,
+      "pixelHeight": 7996,
+      "logicalViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "FULL_PAGE",
+      "region": "diagnostic full page",
+      "bucket": "diagnostic_preflight",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/768-full.png",
+      "bytes": 676133,
+      "sha256": "335444b47002a598f82cee67a5a5275a62991a46e8661142a0e60f1b165248f4",
+      "pixelWidth": 768,
+      "pixelHeight": 6181,
+      "logicalViewport": {
+        "width": 768,
+        "height": 900
+      },
+      "state": "FULL_PAGE",
+      "region": "diagnostic full page",
+      "bucket": "diagnostic_preflight",
+      "classification": "STATIC_VISUAL",
+      "opened": true,
+      "sourceSha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc",
+      "cssSha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    }
+  ]
+}

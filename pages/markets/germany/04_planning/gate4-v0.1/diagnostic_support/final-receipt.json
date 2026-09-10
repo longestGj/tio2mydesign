@@ -1,0 +1,59 @@
+{
+  "page_id": "MARKET-EU-DE",
+  "workset_id": "DE-G4-COMPLETE-20260907-01",
+  "freeze_id": "DE-G4-COMPLETE-20260907-01-F01",
+  "status": "FINAL_EXECUTOR_VERIFICATION_PASS / READY_FOR_INDEPENDENT_REVIEW",
+  "summary": {
+    "checks": 267,
+    "passed": 267,
+    "failed": 0,
+    "images": 51,
+    "formal_runtime_checks": 237,
+    "executor_required_findings": 0
+  },
+  "identities": {
+    "candidate": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/MARKET-EU-DE_GATE4_COMPLETE_VISUAL_V0.1.html",
+      "bytes": 23813,
+      "sha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc"
+    },
+    "css": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/visual-direction.css",
+      "bytes": 3977,
+      "sha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    "freeze": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/source-freeze.json",
+      "bytes": 16224,
+      "sha256": "46c4f2dbc289861f9910b2cf27dc8ea5dc2ff8c6305a6ccfaf2512211fa4370c"
+    },
+    "evidence_index": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/evidence_index.json",
+      "bytes": 45754,
+      "sha256": "dfffa0bb0e295837a27ec8405fcfdf3294e51b90bafae2bd18c8b7b37b5583c3"
+    },
+    "manifest_candidate": {
+      "path": "D:/23MySec/pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.9_DRAFT.md",
+      "bytes": 8321,
+      "sha256": "7493d9ffd250647a35da2841236970a75d3ee345f2f315b23315f5fb13ee0d6b"
+    },
+    "composition_report": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/MARKET-EU-DE_GATE4_VISUAL_AND_EXECUTION_REPORT_V0.1.md",
+      "bytes": 5754,
+      "sha256": "0978992f2651ea8557d456688113704b6ea10af29b290151e952dd4ebb24d053"
+    },
+    "executor_self_check": {
+      "path": "D:/23MySec/pages/markets/germany/05_review/MARKET-EU-DE_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+      "bytes": 2958,
+      "sha256": "b5357eb0ee3e0724489135dff2d8f07c1dd71f6d5f26d5157984a6408c8bc674"
+    },
+    "review_submission": {
+      "path": "D:/23MySec/pages/markets/germany/05_review/MARKET-EU-DE_GATE4_REVIEW_SUBMISSION_V0.1.md",
+      "bytes": 1967,
+      "sha256": "4cddbe841266194c0b825ce8346408adaebe469a625f711bbd2056cf60d96a91"
+    }
+  },
+  "independent_review_entry": "D:/23MySec/pages/markets/germany/05_review/gate4-complete-independent-v0.1/REVIEW.md",
+  "stop": "Executor verification only. No independent PASS, project-control PASS, Gate 4 closure, Gate 6, development, deployment or publication.",
+  "verified_at": "2026-09-07T07:53:22.251Z"
+}

@@ -1,0 +1,24 @@
+{
+  "page_id": "MARKET-EU-IT",
+  "workset_id": "IT-G4-COMPLETE-20260907-02",
+  "freeze_id": "IT-G4-FREEZE-20260907-02",
+  "finding_response_id": "IT-G4-PC-R01-R1",
+  "status": "DIRECTED_EVIDENCE_METADATA_REMEDIATION / DRAFT_FOR_INDEPENDENT_REREVIEW",
+  "allowed_write_scope": "D:/23MySec/pages/markets/italy",
+  "source_policy": "INHERIT_BYTE_IDENTICAL_V0.1_SOURCE_AND_56_IMAGES",
+  "repair_scope": [
+    "Correct 1440 direction sample physical_height from CSS pre-rounding value 436.625 to decoded PNG height 436",
+    "Add physical_width, physical_height and dpr to all 18 Request Documents and Federchimica normal/hover/focus records",
+    "Regenerate dependent evidence and freeze identities"
+  ],
+  "excluded": [
+    "page source",
+    "approved copy",
+    "URL",
+    "module structure",
+    "visual design",
+    "shared contracts",
+    "Gate 4 approval or closure",
+    "Gate 6"
+  ]
+}

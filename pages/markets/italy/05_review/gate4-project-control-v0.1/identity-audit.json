@@ -1,0 +1,623 @@
+{
+  "page_id": "MARKET-EU-IT",
+  "workset_id": "IT-G4-COMPLETE-20260907-01",
+  "freeze_id": "IT-G4-FREEZE-20260907-01",
+  "audited_at": "2026-09-07T08:29:23.192Z",
+  "records": {
+    "input": {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_INPUT_INDEX_V0.1.json",
+      "bytes": 11197,
+      "sha256": "91b5500232b45cd275548ed00b59544240999fcac15432c5cd18c74d8ea75eb9"
+    },
+    "workset": {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_WORKSET_V0.1.json",
+      "bytes": 1750,
+      "sha256": "ffbd469edbab464eecfd4857b0b95713fd5100007bc9f873fa1a4c1e159e91e9"
+    },
+    "freeze": {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_FREEZE_RECORD_V0.1.json",
+      "bytes": 4106,
+      "sha256": "46f9177205856a282c58288754e3a893495971432b7ca96a1c25942bd2d14a64"
+    },
+    "evidence": {
+      "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_EVIDENCE_INDEX_V0.1.json",
+      "bytes": 33541,
+      "sha256": "133b34f47946b0061ae0977854e1b1ec479c2e1dad4a5c09ae9f44f8bed86b82"
+    },
+    "independent": {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/REVIEW.md",
+      "bytes": 7234,
+      "sha256": "09115c3897c1d5aa83907c0de7ba86bf769620ccb134697e29ec0f8dc9478cad"
+    },
+    "reviewIndex": {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/review-evidence-index.json",
+      "bytes": 25717,
+      "sha256": "9908e6ce8b3c20d88f78f74e5885fc3c447314c40eabb90cb6d7d25ef512c4ab"
+    }
+  },
+  "status_checks": {
+    "workset_status": "COMPLETE_VISUAL_FROZEN / DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+    "executor_evidence_status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+    "independent_review_status": "PROJECT_CONTROL_REVIEW_PASS",
+    "required_findings": 0
+  },
+  "frozen_inputs": {
+    "exact": 51,
+    "total": 51,
+    "mismatches": []
+  },
+  "freeze_components": {
+    "exact": 11,
+    "total": 11,
+    "mismatches": []
+  },
+  "evidence_top_pointers": {
+    "exact": 3,
+    "total": 3,
+    "mismatches": []
+  },
+  "executor_images": {
+    "identity_exact": 56,
+    "total": 56,
+    "identity_mismatches": [],
+    "dimensions_declared": 38,
+    "dimensions_exact": 37,
+    "dimension_mismatches": [
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/direction-samples/1440-direction-risk.png",
+          "bytes": 115288,
+          "sha256": "84a276b462c4279f2650cde9660491e5ba9b5ccef64fdf5d581afe422fd00236",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "physical_width": 1440,
+          "physical_height": 436.625,
+          "dpr": 1,
+          "state": "DIRECTION_SAMPLE",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/direction-samples/1440-direction-risk.png",
+          "bytes": 115288,
+          "sha256": "84a276b462c4279f2650cde9660491e5ba9b5ccef64fdf5d581afe422fd00236"
+        },
+        "exact": true,
+        "state": "DIRECTION_SAMPLE",
+        "logical_width": 1440,
+        "declaredDimensions": [
+          1440,
+          436.625,
+          1
+        ],
+        "actualDimensions": [
+          1440,
+          436
+        ],
+        "dimensionStatus": "MISMATCH"
+      }
+    ],
+    "dimensions_not_declared": [
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-normal.png",
+          "bytes": 19830,
+          "sha256": "a6ff81b92d210618bba090931876e84507421023edb32e59bcde780cd0f61f7a",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "NORMAL",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-normal.png",
+          "bytes": 19830,
+          "sha256": "a6ff81b92d210618bba090931876e84507421023edb32e59bcde780cd0f61f7a"
+        },
+        "exact": true,
+        "state": "NORMAL",
+        "logical_width": 1440,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          980,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-hover.png",
+          "bytes": 19838,
+          "sha256": "b6b1b779a21a49e90d0ea40cc0e61d260f08596c7f5d93cda3e63b58484fd817",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "HOVER",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-hover.png",
+          "bytes": 19838,
+          "sha256": "b6b1b779a21a49e90d0ea40cc0e61d260f08596c7f5d93cda3e63b58484fd817"
+        },
+        "exact": true,
+        "state": "HOVER",
+        "logical_width": 1440,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          980,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-focus.png",
+          "bytes": 20040,
+          "sha256": "88826b528c44203277c087d7cd5979400d0ab479bd22b4af66311a069dc047ef",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "FOCUS",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-request-documents-focus.png",
+          "bytes": 20040,
+          "sha256": "88826b528c44203277c087d7cd5979400d0ab479bd22b4af66311a069dc047ef"
+        },
+        "exact": true,
+        "state": "FOCUS",
+        "logical_width": 1440,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          980,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-federchimica-source-normal.png",
+          "bytes": 22262,
+          "sha256": "6247e3df2ed3fecd3a822fe9d6051e37989a10cd45fed4c74fffc5d704c728bc",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "NORMAL",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-federchimica-source-normal.png",
+          "bytes": 22262,
+          "sha256": "6247e3df2ed3fecd3a822fe9d6051e37989a10cd45fed4c74fffc5d704c728bc"
+        },
+        "exact": true,
+        "state": "NORMAL",
+        "logical_width": 1440,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          1156,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-federchimica-source-hover.png",
+          "bytes": 22372,
+          "sha256": "7a33f43e783efcf21d5b10fc382c681feb3d4e256a1cd232e2cbad13b253b06e",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "HOVER",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-federchimica-source-hover.png",
+          "bytes": 22372,
+          "sha256": "7a33f43e783efcf21d5b10fc382c681feb3d4e256a1cd232e2cbad13b253b06e"
+        },
+        "exact": true,
+        "state": "HOVER",
+        "logical_width": 1440,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          1156,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-federchimica-source-focus.png",
+          "bytes": 22406,
+          "sha256": "4fd1f8e4c7056ce789823736398a597395aaea188e7a2226f7909bff40690ec8",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 1440,
+          "state": "FOCUS",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/1440-federchimica-source-focus.png",
+          "bytes": 22406,
+          "sha256": "4fd1f8e4c7056ce789823736398a597395aaea188e7a2226f7909bff40690ec8"
+        },
+        "exact": true,
+        "state": "FOCUS",
+        "logical_width": 1440,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          1156,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-normal.png",
+          "bytes": 16796,
+          "sha256": "cb12b65ecacc66d1098a1a6854a066b47efefde1bf4e8e2f220965f31c224470",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "NORMAL",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-normal.png",
+          "bytes": 16796,
+          "sha256": "cb12b65ecacc66d1098a1a6854a066b47efefde1bf4e8e2f220965f31c224470"
+        },
+        "exact": true,
+        "state": "NORMAL",
+        "logical_width": 768,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          724,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-hover.png",
+          "bytes": 16846,
+          "sha256": "aadd6691c01afab664f07bd072944e19cb0b26d76545628517f37f07fe418659",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "HOVER",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-hover.png",
+          "bytes": 16846,
+          "sha256": "aadd6691c01afab664f07bd072944e19cb0b26d76545628517f37f07fe418659"
+        },
+        "exact": true,
+        "state": "HOVER",
+        "logical_width": 768,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          724,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-focus.png",
+          "bytes": 16899,
+          "sha256": "834459fc9e668975689d469d6d574031213d686e26a797a5e837d4795bb26652",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "FOCUS",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-request-documents-focus.png",
+          "bytes": 16899,
+          "sha256": "834459fc9e668975689d469d6d574031213d686e26a797a5e837d4795bb26652"
+        },
+        "exact": true,
+        "state": "FOCUS",
+        "logical_width": 768,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          724,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-federchimica-source-normal.png",
+          "bytes": 19798,
+          "sha256": "9360a185e3fc1088eb134cf1977c636f9c642f7f0e9d6f03a523fb9d9ce2a882",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "NORMAL",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-federchimica-source-normal.png",
+          "bytes": 19798,
+          "sha256": "9360a185e3fc1088eb134cf1977c636f9c642f7f0e9d6f03a523fb9d9ce2a882"
+        },
+        "exact": true,
+        "state": "NORMAL",
+        "logical_width": 768,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          700,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-federchimica-source-hover.png",
+          "bytes": 19898,
+          "sha256": "5f34ab69f6dfe752cf4d961a543c7765150c20fd1cfa4fbb0a3d1afe0df88780",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "HOVER",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-federchimica-source-hover.png",
+          "bytes": 19898,
+          "sha256": "5f34ab69f6dfe752cf4d961a543c7765150c20fd1cfa4fbb0a3d1afe0df88780"
+        },
+        "exact": true,
+        "state": "HOVER",
+        "logical_width": 768,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          700,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-federchimica-source-focus.png",
+          "bytes": 20087,
+          "sha256": "155ebda08f322cf58777e80768a2dbdc45e764ce9dbdd7357227879ba5a201e5",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 768,
+          "state": "FOCUS",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/768-federchimica-source-focus.png",
+          "bytes": 20087,
+          "sha256": "155ebda08f322cf58777e80768a2dbdc45e764ce9dbdd7357227879ba5a201e5"
+        },
+        "exact": true,
+        "state": "FOCUS",
+        "logical_width": 768,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          700,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-normal.png",
+          "bytes": 10764,
+          "sha256": "70e0b3d323baac1038ad83cb04688127cfca7727b3fbce48acbb8421626451ed",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "NORMAL",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-normal.png",
+          "bytes": 10764,
+          "sha256": "70e0b3d323baac1038ad83cb04688127cfca7727b3fbce48acbb8421626451ed"
+        },
+        "exact": true,
+        "state": "NORMAL",
+        "logical_width": 390,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          370,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-hover.png",
+          "bytes": 10767,
+          "sha256": "da7b345d26887b7f4e4a7d0c9aa3df7f01e02d0814aee263f62c842b3455b29f",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "HOVER",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-hover.png",
+          "bytes": 10767,
+          "sha256": "da7b345d26887b7f4e4a7d0c9aa3df7f01e02d0814aee263f62c842b3455b29f"
+        },
+        "exact": true,
+        "state": "HOVER",
+        "logical_width": 390,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          370,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-focus.png",
+          "bytes": 10841,
+          "sha256": "e9530ffdf2e41abf0e5e29ace21d1b4daad12c084f1d77bc0a7ff29e2b84bc96",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "FOCUS",
+          "target": "Request Documents",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-request-documents-focus.png",
+          "bytes": 10841,
+          "sha256": "e9530ffdf2e41abf0e5e29ace21d1b4daad12c084f1d77bc0a7ff29e2b84bc96"
+        },
+        "exact": true,
+        "state": "FOCUS",
+        "logical_width": 390,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          370,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-federchimica-source-normal.png",
+          "bytes": 13245,
+          "sha256": "5c41a8387e28e9ded2f7128ce2621221343dfc86a44f16b377e36d7c55b92480",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "NORMAL",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-federchimica-source-normal.png",
+          "bytes": 13245,
+          "sha256": "5c41a8387e28e9ded2f7128ce2621221343dfc86a44f16b377e36d7c55b92480"
+        },
+        "exact": true,
+        "state": "NORMAL",
+        "logical_width": 390,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          346,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-federchimica-source-hover.png",
+          "bytes": 13329,
+          "sha256": "fe4fdf1878e055660c3705be19075e44a39708c8f32dc6ce1a195deafe041079",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "HOVER",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-federchimica-source-hover.png",
+          "bytes": 13329,
+          "sha256": "fe4fdf1878e055660c3705be19075e44a39708c8f32dc6ce1a195deafe041079"
+        },
+        "exact": true,
+        "state": "HOVER",
+        "logical_width": 390,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          346,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      },
+      {
+        "declared": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-federchimica-source-focus.png",
+          "bytes": 13452,
+          "sha256": "4ee130bf3ec53c0f92d098b892216e4899a742935422a03814cc865b2b8a53c8",
+          "classification": "STATIC_VISUAL",
+          "role": "diagnostic_support",
+          "logical_width": 390,
+          "state": "FOCUS",
+          "target": "Federchimica AVISA — association sectors",
+          "opened": true
+        },
+        "exists": true,
+        "actual": {
+          "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/diagnostic_support/focus-states/390-federchimica-source-focus.png",
+          "bytes": 13452,
+          "sha256": "4ee130bf3ec53c0f92d098b892216e4899a742935422a03814cc865b2b8a53c8"
+        },
+        "exact": true,
+        "state": "FOCUS",
+        "logical_width": 390,
+        "declaredDimensions": null,
+        "actualDimensions": [
+          346,
+          120
+        ],
+        "dimensionStatus": "NOT_DECLARED"
+      }
+    ]
+  },
+  "independent_records": {
+    "exact": 8,
+    "total": 8,
+    "mismatches": []
+  },
+  "independent_images": {
+    "exact": 52,
+    "total": 52,
+    "mismatches": []
+  },
+  "contact_sheets": {
+    "exact": 27,
+    "total": 27,
+    "mismatches": []
+  }
+}

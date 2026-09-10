@@ -1,0 +1,22 @@
+{
+  "observationId": "MARKET-EU-ES-G9-VISUAL-SOURCE-01",
+  "date": "2026-09-08",
+  "evidenceType": ["SOURCE_INSPECTION", "STATIC_VISUAL"],
+  "approvedSource": "D:/23MySec/pages/markets/spain/04_planning/gate4-v0.1/MARKET-EU-ES_GATE4_VISUAL_DIRECTION_AND_METHOD_REPORT_V0.1.md",
+  "candidateSource": "C:/Users/longe/.codex/worktrees/bfe8/16Wordpress_nextjs/components/sites/tio2-my/markets/malaysia-country-market-page.module.css",
+  "differences": [
+    {
+      "findingId": "ES-G9-F01",
+      "approved": "Non-primary main hover keeps #008078 on #F5F8FB with a 2px underline; primary hover remains white on #008078 with a 2px underline; main focus outline offset is 3px.",
+      "candidate": "The generic action hover changes actions to white on #062b5b; text hover changes to #062b5b on transparent; main focus outline offset is 4px.",
+      "candidateLines": [10, 31, 32]
+    },
+    {
+      "findingId": "ES-G9-F02",
+      "approved": "Spain H1/H2 weight 650; mobile body/list 16px; action padding 13px 24px and min-height 50px.",
+      "candidate": "No H1/H2 weight is declared in the country Market stylesheet; Spain mobile remains 17px; actions use 11px 20px and min-height 48px.",
+      "candidateLines": [14, 27, 51, 70, 76, 77, 179, 182, 183],
+      "visibleObservation": "The supplied 1440 candidate screenshot wraps the H1 before Spain while the approved 1440 full-page visual keeps that heading on one line; the candidate headings are visibly heavier."
+    }
+  ]
+}

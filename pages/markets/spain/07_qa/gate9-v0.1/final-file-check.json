@@ -1,0 +1,52 @@
+{
+  "checkId": "MARKET-EU-ES-G9-V01-FINAL-FILE-CHECK",
+  "date": "2026-09-08",
+  "reportReadback": {
+    "path": "D:/23MySec/pages/markets/spain/07_qa/MARKET-EU-ES_GATE9_READ_ONLY_ACCEPTANCE_V0.1.md",
+    "bytes": 14210,
+    "sha256": "3d35f22bef8cd605c1033d9ced2470267f666b1a88ee098d82fb4cc4934e2d87",
+    "twelveConditionRows": 12,
+    "resultCounts": {
+      "PASS": 1,
+      "FAIL": 4,
+      "NOT_VERIFIED": 7,
+      "NOT_APPLICABLE": 0
+    }
+  },
+  "diagnosticJsonReadback": [
+    {
+      "file": "evidence-index.json",
+      "jsonValid": true,
+      "sha256": "f4462afe73675201bcc0c2983a775eade3565aae01d1da15ae8bf1c5bc28e184"
+    },
+    {
+      "file": "static-contract-observation.json",
+      "jsonValid": true,
+      "sha256": "702a77ab4004c2ea818869d51af4802eedfa1ba3e5647508781a4d1fc06d30eb"
+    },
+    {
+      "file": "visual-source-observation.json",
+      "jsonValid": true,
+      "sha256": "c1ebd7d9dc1d8d5b6177f89f8163e2c795c0f330ed1c1940ec1aec90d92397d4"
+    },
+    {
+      "file": "shared-handoff-observation.json",
+      "jsonValid": true,
+      "sha256": "62760f220ea97b4fb144cac06bf23fe3fcfab13d4b9288034201c78d314c4e53"
+    }
+  ],
+  "pathChecks": {
+    "allReportRelativeLinksExist": true,
+    "allEvidenceIndexPathsExist": true
+  },
+  "candidateReconfirmation": {
+    "head": "2c97fe19b56f14e12c6e27daa7fd3c9a49207570",
+    "worktreeClean": true
+  },
+  "scope": {
+    "d16ReadOnly": true,
+    "developmentTestsBuildsOrServicesRun": false,
+    "realSubmissionsMade": false,
+    "manifestStatusOrIndexEdited": false
+  }
+}

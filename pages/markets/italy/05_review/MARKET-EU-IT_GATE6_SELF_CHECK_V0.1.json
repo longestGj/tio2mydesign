@@ -1,0 +1,165 @@
+{
+  "audit_id": "MARKET-EU-IT-G6-SELF-CHECK-01",
+  "generated_date": "2026-09-08",
+  "dispatch_id": "G6-IT-EXEC-20260908-01",
+  "package_id": "MARKET-EU-IT-G6-HANDOFF-01",
+  "package_path": "pages/markets/italy/06_handoff/MARKET-EU-IT_GATE6_HANDOFF_PACKAGE_V0.1.md",
+  "package_sha256": "2a21d8bea4c9647ec58a64a085c973ac8f42b159f603c9faa3439b00bae3c6af",
+  "method": "PowerShell Get-FileHash SHA256 plus exact-regex identity/cardinality checks; semantic correctness still requires independent review",
+  "checks": [
+    {
+      "check": "input_identity",
+      "path": "docs/page-briefs/MARKET-EU-IT_ITALY_BRIEF_V0.2.md",
+      "expected_sha256": "dd5389343eb4adc884e5ef250ce08f831c710ad7607495121ab4dc7a7b981677",
+      "actual_sha256": "dd5389343eb4adc884e5ef250ce08f831c710ad7607495121ab4dc7a7b981677",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.10.md",
+      "expected_sha256": "6d8854733464d70295d2fa48173508bf36220cc6755ff5da6a2d88c9bd5127a6",
+      "actual_sha256": "6d8854733464d70295d2fa48173508bf36220cc6755ff5da6a2d88c9bd5127a6",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/04_planning/MARKET-EU-IT_GATE2_CONTENT_SKELETON_V0.1.md",
+      "expected_sha256": "8e18340cdae14cbb36991fd56b8ba7b33bdcda0fee1fd0fd0ba3a8181e151751",
+      "actual_sha256": "8e18340cdae14cbb36991fd56b8ba7b33bdcda0fee1fd0fd0ba3a8181e151751",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/04_planning/MARKET-EU-IT_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+      "expected_sha256": "a7d047af04b5127cc54f97938e4d622b1e1b496691747516322924f6e0b44208",
+      "actual_sha256": "a7d047af04b5127cc54f97938e4d622b1e1b496691747516322924f6e0b44208",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/04_planning/MARKET-EU-IT_GATE2_CONTENT_CONTRACT_V0.2.md",
+      "expected_sha256": "ac49b66055bf36b87583e3919005ccbf87919a9900d9a9103aaa7d39936a6e19",
+      "actual_sha256": "ac49b66055bf36b87583e3919005ccbf87919a9900d9a9103aaa7d39936a6e19",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_COMPLETE_VISUAL_V0.1.html",
+      "expected_sha256": "ed7d54648e058fee6ee4d6ff7ca76d3fe3f440eda0e5d0d7b8871b6da0f15615",
+      "actual_sha256": "ed7d54648e058fee6ee4d6ff7ca76d3fe3f440eda0e5d0d7b8871b6da0f15615",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/04_planning/gate4-v0.2/MARKET-EU-IT_GATE4_FREEZE_RECORD_V0.2.json",
+      "expected_sha256": "a5b0e25d7d294f5b486594a70b19fe7407b195180940daf7258f01f6aee90410",
+      "actual_sha256": "a5b0e25d7d294f5b486594a70b19fe7407b195180940daf7258f01f6aee90410",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/04_planning/gate4-v0.2/MARKET-EU-IT_GATE4_EVIDENCE_INDEX_V0.2.json",
+      "expected_sha256": "deba8a2d8c1e10970dfc2d867fc7d694c7c08475e8960e37bd6b7b4fcb0fd116",
+      "actual_sha256": "deba8a2d8c1e10970dfc2d867fc7d694c7c08475e8960e37bd6b7b4fcb0fd116",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/05_review/gate4-directed-rereview-v0.2/REVIEW.md",
+      "expected_sha256": "2123e9ae7b3e35a8677e8f27644830b79ffd882c3593b092cf13e16e2dc0f22b",
+      "actual_sha256": "2123e9ae7b3e35a8677e8f27644830b79ffd882c3593b092cf13e16e2dc0f22b",
+      "pass": true
+    },
+    {
+      "check": "input_identity",
+      "path": "pages/markets/italy/05_review/MARKET-EU-IT_GATE4_FINAL_PROJECT_CONTROL_AND_CLOSURE_V0.2.md",
+      "expected_sha256": "ff12f6f50953579b6d2ad1180583b0dc05130ba0eb08ccde799bf59e8c4bb83b",
+      "actual_sha256": "ff12f6f50953579b6d2ad1180583b0dc05130ba0eb08ccde799bf59e8c4bb83b",
+      "pass": true
+    },
+    {
+      "check": "acceptance_id_set",
+      "expected": 12,
+      "actual": 12,
+      "unique_ids": [
+        "MARKET-EU-IT-G9-AC01",
+        "MARKET-EU-IT-G9-AC02",
+        "MARKET-EU-IT-G9-AC03",
+        "MARKET-EU-IT-G9-AC04",
+        "MARKET-EU-IT-G9-AC05",
+        "MARKET-EU-IT-G9-AC06",
+        "MARKET-EU-IT-G9-AC07",
+        "MARKET-EU-IT-G9-AC08",
+        "MARKET-EU-IT-G9-AC09",
+        "MARKET-EU-IT-G9-AC10",
+        "MARKET-EU-IT-G9-AC11",
+        "MARKET-EU-IT-G9-AC12"
+      ],
+      "pass": true
+    },
+    {
+      "check": "dependency_id_set",
+      "expected": 7,
+      "actual": 7,
+      "unique_ids": [
+        "MARKET-EU-IT-G6-D01",
+        "MARKET-EU-IT-G6-D02",
+        "MARKET-EU-IT-G6-D03",
+        "MARKET-EU-IT-G6-D04",
+        "MARKET-EU-IT-G6-D05",
+        "MARKET-EU-IT-G6-D06",
+        "MARKET-EU-IT-G6-D07"
+      ],
+      "pass": true
+    },
+    {
+      "check": "candidate_status",
+      "pass": true
+    },
+    {
+      "check": "site_scope_seven_surfaces",
+      "expected": [
+        "Query",
+        "Route",
+        "Cache",
+        "Menu",
+        "SEO",
+        "Form",
+        "Media"
+      ],
+      "actual": [
+        "Query",
+        "Route",
+        "Cache",
+        "Menu",
+        "SEO",
+        "Form",
+        "Media"
+      ],
+      "pass": true
+    },
+    {
+      "check": "approved_link_occurrence_contract",
+      "expected": 19,
+      "pass": true
+    },
+    {
+      "check": "required_reference_paths",
+      "expected": 15,
+      "actual": 15,
+      "missing": [],
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 16,
+    "passed": 16,
+    "failed": 0,
+    "result": "PASS"
+  },
+  "limitations": [
+    "Does not prove semantic correctness",
+    "Does not rerun Gate 4 browser or visual evidence",
+    "Does not test development, receivers, production, deployment or publication"
+  ]
+}

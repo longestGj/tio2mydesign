@@ -1,0 +1,47 @@
+{
+  "evidence_id": "NL-G9-EV-IDENTITY-01",
+  "captured_at_local": "2026-09-08",
+  "reviewer": "independent Gate 9 read-only reviewer",
+  "candidate": {
+    "worktree": "C:/Users/longe/.codex/worktrees/bfe8/16Wordpress_nextjs",
+    "branch": "codex/market-four-gate8",
+    "commit": "2c97fe19b56f14e12c6e27daa7fd3c9a49207570",
+    "parent": "c2764e6138aa0dc37d1f6cab04bc1ae39f45aecb",
+    "worktree_porcelain": "",
+    "identity_scope": "SOURCE_INSPECTION; no Gate 9 runtime instance was identified"
+  },
+  "approved_inputs": {
+    "gate6_package": {
+      "path": "D:/23MySec/pages/markets/netherlands/06_handoff/MARKET-EU-NL_GATE6_HANDOFF_PACKAGE_V0.1.md",
+      "sha256": "e34fdadaf693f25812a013625000dfa2efc17623c68bbc54b867b2a8be9ce113"
+    },
+    "buyer_clean_b": {
+      "path": "D:/23MySec/pages/markets/netherlands/04_planning/MARKET-EU-NL_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+      "sha256": "05945e5609fb12ffb04e791d4f4e2c2778b25158bb81f57d05e6d518503bff72"
+    },
+    "contract_c": {
+      "path": "D:/23MySec/pages/markets/netherlands/04_planning/MARKET-EU-NL_GATE2_CONTENT_CONTRACT_V0.1.md",
+      "sha256": "dcd67673cbb0142f5a1ed8d8eadd2a372d43ef5828472f986072cba18347c351"
+    }
+  },
+  "candidate_files": [
+    {"path":"wordpress/plugins/tio2-site-model/config/tio2-my-market-eu-nl.json","bytes":6420,"sha256":"1e26f2795de6880c07f72c73285832de72014920311fd65d9b278d375e01fb8d"},
+    {"path":"lib/markets/malaysia-country-market-contracts.ts","bytes":3080,"sha256":"f667f025c6b529313282b3b1c00635591acd0fceb5e9d45bfd2058f0ef1a10d4"},
+    {"path":"components/sites/tio2-my/markets/malaysia-country-market-page.tsx","bytes":5093,"sha256":"b091658eea4da98f4f8a98b935eac4dde68192bd6bf2a3fd9a4c3bbf0f052177"},
+    {"path":"components/sites/tio2-my/markets/malaysia-country-market-page.module.css","bytes":17859,"sha256":"e556a4fce5aa1e45a71022562cea653bf0385e5e4fd759360a76b081bd69ebba"},
+    {"path":"lib/markets/malaysia-country-market-route.tsx","bytes":1373,"sha256":"9cc28c482bbd53eb156759518619c91ee02c6f194b704acc2804a5d57dcee32d"},
+    {"path":"lib/seo/market-country-metadata.ts","bytes":2146,"sha256":"0a603a3835903d3410ffdaceb171806dbf8424b632e39887c3afa3fd627d7f9b"},
+    {"path":"lib/wordpress/market-country-v01-dto.ts","bytes":2453,"sha256":"7b17c85bb314ef81cda373ff99b3e2793fda917d352957e511d6396bde06e60c"},
+    {"path":"lib/wordpress/market-country-v01-queries.ts","bytes":1325,"sha256":"42aff4f588b1ab6d64e294510fca1e58596f114f5af73b4df714b68f758d645e"},
+    {"path":"components/sites/tio2-my/malaysia-global-chrome.tsx","bytes":7589,"sha256":"d373e191ca5481a61dbc69b99634e75d1dde7a1bfeda04b4d62660d33b7ff2dc"},
+    {"path":"components/sites/tio2-my/malaysia-global-chrome.module.css","bytes":5692,"sha256":"ec994bdf389ada46d61b46f535b3d213ff5112dae3b7711d2c867695428d4ffe"},
+    {"path":"components/sites/tio2-my/consent/malaysia-cookie-settings.tsx","bytes":4280,"sha256":"c6d779495af3726d7ae274921628e97b6d0b1d1be738dc692b6523962caafa89"},
+    {"path":"components/sites/tio2-my/consent/malaysia-cookie-settings.module.css","bytes":1606,"sha256":"4d40c71c790c33b267341f64c7e37cc04de66e36fc8aefc55cb483739c026da0"},
+    {"path":"tests/e2e/country-markets.spec.ts","bytes":14682,"sha256":"c9dae988ed0b135e23054d9f19333bcc48906a64e1adfb5c25df3aa498f9e24f"},
+    {"path":"docs/verification/tio2-my/market-four-20260908/runtime-matrix.json","bytes":4399,"sha256":"a26ee241c51836b245f7e8557d1ce2405c3cc7603e1cba50f9774b98963e5f5a"}
+  ],
+  "limitations": [
+    "No development test, build, service, CMS mutation or external form submission was executed by Gate 9.",
+    "The candidate source is exact and clean, but source identity alone does not prove a currently running instance."
+  ]
+}

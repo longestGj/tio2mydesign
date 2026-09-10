@@ -1,0 +1,525 @@
+{
+  "page_id": "MARKET-EU-IT",
+  "review_id": "IT-G4-INDEPENDENT-REVIEW-20260907-01",
+  "workset_id": "IT-G4-COMPLETE-20260907-01",
+  "freeze_id": "IT-G4-FREEZE-20260907-01",
+  "status": "PROJECT_CONTROL_REVIEW_PASS",
+  "required_findings": 0,
+  "generated_at": "2026-09-07T08:12:03.346Z",
+  "reviewed_candidate": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_COMPLETE_VISUAL_V0.1.html",
+    "bytes": 28199,
+    "sha256": "ed7d54648e058fee6ee4d6ff7ca76d3fe3f440eda0e5d0d7b8871b6da0f15615"
+  },
+  "reviewed_freeze": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_FREEZE_RECORD_V0.1.json",
+    "bytes": 4106,
+    "sha256": "46f9177205856a282c58288754e3a893495971432b7ca96a1c25942bd2d14a64"
+  },
+  "reviewed_input_index": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_INPUT_INDEX_V0.1.json",
+    "bytes": 11197,
+    "sha256": "91b5500232b45cd275548ed00b59544240999fcac15432c5cd18c74d8ea75eb9"
+  },
+  "reviewed_executor_evidence_index": {
+    "path": "D:/23MySec/pages/markets/italy/04_planning/gate4-v0.1/MARKET-EU-IT_GATE4_EVIDENCE_INDEX_V0.1.json",
+    "bytes": 33541,
+    "sha256": "133b34f47946b0061ae0977854e1b1ec479c2e1dad4a5c09ae9f44f8bed86b82"
+  },
+  "identity_recomputation": {
+    "frozen_inputs": {
+      "matched": 51,
+      "total": 51
+    },
+    "executor_images": {
+      "matched": 56,
+      "total": 56
+    },
+    "executor_observations": {
+      "matched": 5,
+      "total": 5
+    },
+    "freeze_components": {
+      "matched": 11,
+      "total": 11
+    },
+    "top_pointers": {
+      "matched": 3,
+      "total": 3
+    }
+  },
+  "counts": {
+    "executor_images_indexed": 56,
+    "executor_images_opened_and_inspected": 56,
+    "independent_images": 52,
+    "independent_images_opened_and_inspected": 52,
+    "independent_full_pages": 3,
+    "independent_continuous_segments": 26,
+    "independent_normal_hover_focus_states": 18,
+    "independent_menu_states": 2,
+    "independent_cookie_states": 3,
+    "independent_runtime_checks": 35,
+    "independent_runtime_failures": 0,
+    "page_errors": 0,
+    "console_errors": 0,
+    "unexpected_external_requests": 0,
+    "contact_sheets": 27
+  },
+  "records": [
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/REVIEW.md",
+      "bytes": 7234,
+      "sha256": "09115c3897c1d5aa83907c0de7ba86bf769620ccb134697e29ec0f8dc9478cad"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/independent-runtime.json",
+      "bytes": 204884,
+      "sha256": "2295fcfaffc45a9bc28e4977ca006e0746f9538b5a621a20dd6a6dbaaec4dd89"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/visual-observation.json",
+      "bytes": 38889,
+      "sha256": "420bcc192b1fb79d202b9d1d4a81c466e8658911aca868efb673562863ceda1c"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/contact-sheet-index.json",
+      "bytes": 3122,
+      "sha256": "2dfd1ab789c3687f9232ef3f2d7799ada245387a4d3c4fe108cfac2dd00da492"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-contact-sheet-index.json",
+      "bytes": 2941,
+      "sha256": "73efa50622a6d1d7500e340205b3f9b0808c60d742c69376e25fee979537570b"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/independent-review.cjs",
+      "bytes": 25991,
+      "sha256": "cfd1248223e9cf67064fd5bcfcaa50daebed37a137fbe09f8a46745d823b0391"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/make-contact-sheets.py",
+      "bytes": 6009,
+      "sha256": "13d32964ce11980781d5966a8ae0d805daae6ab162bbab0661e4d87641f645de"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/build-review-evidence-index.cjs",
+      "bytes": 5018,
+      "sha256": "14ede9f792d240b013c00e0d0fa996bc179139ba4224e0772c48fb4734a3373a"
+    }
+  ],
+  "independent_images": [
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/approval_core/independent-1440-cookie.png",
+      "bytes": 106959,
+      "sha256": "84b5dc0b0061d21eef6a5f286b346bc641d3746eddd66868d33b4f986ba606b6"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/approval_core/independent-1440-full.png",
+      "bytes": 929094,
+      "sha256": "11d8b808ed6f647b932dfa0e7587e10618c71479b010fd95db13fe1997a5e4d7"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/approval_core/independent-390-cookie.png",
+      "bytes": 49905,
+      "sha256": "015ea874dcba49382588be0350db003460cd4928e7694d5a241e4535e23f0076"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/approval_core/independent-390-full.png",
+      "bytes": 729387,
+      "sha256": "e15721ecab83fcd698d35eb3de827df0c101a3ecac1bfe1ea0cb29c53ca47efb"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/approval_core/independent-390-menu.png",
+      "bytes": 53568,
+      "sha256": "491a868d7b8663a795b190a8ad041ea6673f486f5480eedbf1ca4fb0ca4aa01e"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/approval_core/independent-768-cookie.png",
+      "bytes": 71815,
+      "sha256": "9f3d263cd68427ae93d9e6f54152697705f3663c910e71fc5a0f0b01c57ba612"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/approval_core/independent-768-full.png",
+      "bytes": 850952,
+      "sha256": "7ccf8f00f95912ff3c47835793f1a4d86f29c9f36dc9437a5b1cce624dd0f318"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/approval_core/independent-768-menu.png",
+      "bytes": 86107,
+      "sha256": "5fa61909f1736cda66785a55b5377fdbad4aad5f5d5624b432bd6d0e9bb4275f"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/1440-segment-01.png",
+      "bytes": 208353,
+      "sha256": "d867c1aac89dc741604cb23908618dc96c81746f04f4d7495bc12afca7789732"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/1440-segment-02.png",
+      "bytes": 151489,
+      "sha256": "5bce77f7bbc73f789846054346a6689628bb42fc9f68eeefc1945b3b92ded0b7"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/1440-segment-03.png",
+      "bytes": 138989,
+      "sha256": "d3f8004302e11ff8e551e0b693a09eca7afe151e8f3a703cce980fad50304fef"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/1440-segment-04.png",
+      "bytes": 126022,
+      "sha256": "16a85bd3a4fc41ef0d7771b6ad30b64af317b4db5424459649ae909c9ea32d1e"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/1440-segment-05.png",
+      "bytes": 173804,
+      "sha256": "009384852a97c285640502670b6bf1b48698c29a22bd1fd972eaf77aaaaed5c7"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/1440-segment-06.png",
+      "bytes": 296886,
+      "sha256": "e2dbf96ca6fea3749e4ca9f4a1a0cffa57fbeabbc3f8de38344b308226a5a0d6"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/1440-segment-07.png",
+      "bytes": 92705,
+      "sha256": "228134f782b39b1c674e0343f1eda7120551e8266f03d22d44a1aecc31ff4802"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-01.png",
+      "bytes": 93823,
+      "sha256": "61f370937de1f4205df9a42ef3f5ef2610dace1d8a2823fd96a47e62c5d88f64"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-02.png",
+      "bytes": 70515,
+      "sha256": "90a5aa4fecaab6b21ef4545c9da9540b58e77ce67dbe09d31d1854df45ee5278"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-03.png",
+      "bytes": 65296,
+      "sha256": "7c913e06dcb43bb09a86471ab49a1a2a24220127bd96328263bc762c77ab9d2a"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-04.png",
+      "bytes": 60679,
+      "sha256": "ccc84f1b9e51090515d8a20805992e8d7c20c3264969279dc40c13152d7406b3"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-05.png",
+      "bytes": 84503,
+      "sha256": "72cd680ccd63611587bf7b77f1a1b4541bb8f6c00331fff321802c41757210e1"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-06.png",
+      "bytes": 71162,
+      "sha256": "3d293dc08483b49d9aefb4f23dc720dc2e870112d5858dcbb1d580a75437a3a7"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-07.png",
+      "bytes": 66410,
+      "sha256": "d46ed771c341f5bac690537112ed5fec4825c6a4f6a88f17411bae1056712e65"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-08.png",
+      "bytes": 122518,
+      "sha256": "87daf64c7374aeb1521aa1cfb1e92eb33fba1906b73915ddf5d948c6edee093f"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-09.png",
+      "bytes": 135994,
+      "sha256": "3ed008698ac63711c8b4eb0051e4a08f6eda6f84189e99f9ad32d240be75cc2a"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-10.png",
+      "bytes": 43709,
+      "sha256": "471ec7b434392d7ec5ec1f39efd4bfa8f64e1596d4cfff2288c7a1e63f4f6562"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/390-segment-11.png",
+      "bytes": 39088,
+      "sha256": "9c15f0539ab6ff7570dccd70f96048b7a289c06b0c07093a888482a0dc5f9333"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/768-segment-01.png",
+      "bytes": 166961,
+      "sha256": "f6ade38ca32beac125d30b8a80c09a385a39cfe4823c355a547dcf621944e744"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/768-segment-02.png",
+      "bytes": 128317,
+      "sha256": "ba806c7e62733915629cd20a86a9ebc0040fa42a19792c6287bf6f317ec4ae95"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/768-segment-03.png",
+      "bytes": 90630,
+      "sha256": "cf0bc6ffda33b803111ba718fda0999bbe148ca84aae21bed4d851ad3590be93"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/768-segment-04.png",
+      "bytes": 96432,
+      "sha256": "72fe60d4f7b06f9146002a32ca7e125eddd50936206ec14a4577a4184ac73e8d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/768-segment-05.png",
+      "bytes": 94088,
+      "sha256": "e328bc10ad2e48920a44f63f7f4a3f60130a6c552e1d504422109189f693d36c"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/768-segment-06.png",
+      "bytes": 147333,
+      "sha256": "3c7ef4dd4abd7ca9df2c2bb8ea2236f595cdbbe6b2dcc8f01529de838e21db5d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/768-segment-07.png",
+      "bytes": 239180,
+      "sha256": "92177b6202d47b1ecc614c4fe0263c82522127db7a8ff566bb82cb001e3f4244"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/segments/768-segment-08.png",
+      "bytes": 52989,
+      "sha256": "e970db3f3d627b07b790994d8c7a838f58cda6cf63bff999f3fd436074b4fcae"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/1440-federchimica-source-focus.png",
+      "bytes": 18683,
+      "sha256": "f78bf3b5bf64b7c7381644c5d39be3ccea3608596e97c764f08adcb69978746d"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/1440-federchimica-source-hover.png",
+      "bytes": 18513,
+      "sha256": "a8f91ce99cbe66b31c96b2853d349c0525df08be05fe260ab7a56697111ad9b6"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/1440-federchimica-source-normal.png",
+      "bytes": 18536,
+      "sha256": "7a7b989d20cf4661a25eb47e00de04a9760785ddefe217cd9810ecc797ba487c"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/1440-request-documents-focus.png",
+      "bytes": 23255,
+      "sha256": "24f7354125aae8b10e16ff7c2a41ae67600e3f9afc567d2bafb252126e0a1920"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/1440-request-documents-hover.png",
+      "bytes": 23210,
+      "sha256": "b0e303a753358f6fc03daafea709147b903c2d93a0482a977a7fb316b80f1875"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/1440-request-documents-normal.png",
+      "bytes": 23216,
+      "sha256": "485ed5afa5c1a8b833bb275d796104269e3e1889a32b3acf228f6c821df1c877"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/390-federchimica-source-focus.png",
+      "bytes": 18435,
+      "sha256": "414aca2c3a5fe3a22b43f8b89558a87bae6af2d19bd537da4ae3ad21b5ecc631"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/390-federchimica-source-hover.png",
+      "bytes": 18212,
+      "sha256": "a0f9774c4d54a66b7f944471b75217ea22ec2851587f9101e152dc343518690f"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/390-federchimica-source-normal.png",
+      "bytes": 18184,
+      "sha256": "4b9bd766a673a21d51d8cd2f17475f959e7ee530c171c6163d349092b8107951"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/390-request-documents-focus.png",
+      "bytes": 22632,
+      "sha256": "aca540d2857083835be9184552af1305309360518b9b9916cb777d544e362e9c"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/390-request-documents-hover.png",
+      "bytes": 22559,
+      "sha256": "77545d90eba8a780a6213f6a3bb847c23a76299f6754be0119863bd5f65b615b"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/390-request-documents-normal.png",
+      "bytes": 22572,
+      "sha256": "f7d297717009bfba62a3f6ac82804fa0008aeb5f57288fd14285c26bc1dcb9b3"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/768-federchimica-source-focus.png",
+      "bytes": 19994,
+      "sha256": "4988af07c3eee48d05de2eae8c67116af5c7c1688932fbea3e08f1a154bce2bd"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/768-federchimica-source-hover.png",
+      "bytes": 19695,
+      "sha256": "ecacdfcb38bfb6cd3856994c6500872468050f61231e099e135ac0d65f08b8fa"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/768-federchimica-source-normal.png",
+      "bytes": 19724,
+      "sha256": "7f407756b739826f847f2ea08dbb575f529b19b753042fb13caab02a0790fc0a"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/768-request-documents-focus.png",
+      "bytes": 25143,
+      "sha256": "7c6108a1f2640b1998ff6daeab99496eb24d158700680d17bac8eb9f5ef0250f"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/768-request-documents-hover.png",
+      "bytes": 25043,
+      "sha256": "f144cd701bff80cfee01dd593419d8ba5e280c6f13f6729fe49bb6f0d441ba1b"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/states/768-request-documents-normal.png",
+      "bytes": 24979,
+      "sha256": "1c0ccb9c54e5def9ffae7cab0e9e06467db2d4d89901052918709cbdb70f755e"
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-01-04.png",
+      "bytes": 453293,
+      "sha256": "eef4eddb40b815b91ee16107eb05bd43cff854198d7b601be1ccb80a1ddf6ba6"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-05-08.png",
+      "bytes": 403997,
+      "sha256": "6d0ec91f8a7abe0abc9e8c70cf515715a7cb22c7ef7bdac88d711c2126bf07f3"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-09-12.png",
+      "bytes": 160749,
+      "sha256": "68de8d88f111882f82c10ac6cc37d86d95fc303a50dc09eeda8569ce1777f554"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-13-16.png",
+      "bytes": 149840,
+      "sha256": "1f34b16d955d09b1676b1e125183d3395f751562f1ab2e96d2797a5bd3e00e66"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-17-20.png",
+      "bytes": 371876,
+      "sha256": "e7742bca09713e57d66c93991c574f3217786d4d7d3958319e0c5e9c986b23a2"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-21-24.png",
+      "bytes": 422128,
+      "sha256": "8fb2255f325de9e9008dc9abcfe5cf68e6da6ed21e7722a8e190eb7d6fa776d9"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-25-28.png",
+      "bytes": 231346,
+      "sha256": "6a732cb16df0f04787e227e720370a0e344158933fe511ed9a812b643e569bb3"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-29-32.png",
+      "bytes": 121652,
+      "sha256": "d76974c6f3afc7cd461ce734b78a9c975952a28a8226bef6005c5b5f5eb87f05"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-33-36.png",
+      "bytes": 205709,
+      "sha256": "935ae0e9b749ce2e0c13d20d78edcc5fb46c39343184fa70b81dadf93cd5225b"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-37-40.png",
+      "bytes": 293890,
+      "sha256": "e2c1d5178c576288aa537cda2cde743777994c724f1db5d05b041ed4b06e7f2c"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-41-44.png",
+      "bytes": 320793,
+      "sha256": "5c4e5e63f511e15adb233622211f29985eeba460135fcf920e6392f7591d61c8"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-45-48.png",
+      "bytes": 240948,
+      "sha256": "47e4f0d21607074448d6fb45e48772d372b008160a7687d883eb8c50b2cd94f5"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-49-52.png",
+      "bytes": 64636,
+      "sha256": "09324268e1b66ed8d37cb97991f9c6251e09d90e87db4ecbdff8df142cafd94c"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/executor-evidence-53-56.png",
+      "bytes": 124152,
+      "sha256": "9379418b61fb40292d00ffb014d155b7079b10383502b668e3a241d832a7dfa8"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-01-04.png",
+      "bytes": 452298,
+      "sha256": "424f51a01ecf605800fc2551fe5adb780ede8382de8cd2e9e3e054e1f0f2ed21"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-05-08.png",
+      "bytes": 443080,
+      "sha256": "5008047d0f8b74460f571833c8a41db80583bdec2ff687ada72b2bd9068008f4"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-09-12.png",
+      "bytes": 128759,
+      "sha256": "b8b87f80e26640260595dcff8cebd0c09569e0e37ff005511be6c122f6866686"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-13-16.png",
+      "bytes": 146854,
+      "sha256": "d2f5649e43981079769ad0ee2ef5d7ec13db0527b9f9b317249ca5c811c4372c"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-17-20.png",
+      "bytes": 426010,
+      "sha256": "aac69ded1fd13f91ff6a45ffd5db256e007ede6a59f9f3739b47b2d340c4c74f"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-21-24.png",
+      "bytes": 369908,
+      "sha256": "d103d5064ea1e2fe3df9e5aedcff1f6b244b0bd898f644830691f884d121a44e"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-25-28.png",
+      "bytes": 197209,
+      "sha256": "9259a1b14da44da64d45f59256ab089f14131b0cfab3ccebdc001bae308fe0bc"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-29-32.png",
+      "bytes": 193142,
+      "sha256": "120647687d6ac1b01e2ed62e2ba120091a162e03e44283e664d765ed7752a53b"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-33-36.png",
+      "bytes": 258027,
+      "sha256": "533e06ce65a4898d3caa965839b29dc69650b7e7b142f26572c334ff0e0e672f"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-37-40.png",
+      "bytes": 312369,
+      "sha256": "89c139dcf433b81343ba4c54572402025de5e08e45698e40a101532a65f8becc"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-41-44.png",
+      "bytes": 272246,
+      "sha256": "ed5b04547cd7b238f09a1fd9ffbe3e4100276ab604db3eb66e1602e09d5f0aaa"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-45-48.png",
+      "bytes": 107563,
+      "sha256": "d46fb98956dc0a4362386f34c5e77b1fdb29539e006a5028d9da4df901267d0e"
+    },
+    {
+      "path": "D:/23MySec/pages/markets/italy/05_review/gate4-complete-independent-v0.1/diagnostic_support/contact-sheets/independent-rerender-49-52.png",
+      "bytes": 127557,
+      "sha256": "bccd9b2260224d7720571376e237d7a69cf4cb8d5ef188398acdfa6dfc6c91d9"
+    }
+  ],
+  "finding_register": [],
+  "acceptance": {
+    "frozen_identity": "PASS",
+    "approved_B_and_gate3_parity": "PASS",
+    "seven_modules": "PASS",
+    "coo_limitation_adjacency": "PASS",
+    "grade_neutrality": "PASS",
+    "italy_destination": "PASS",
+    "documents_sample_rfq": "PASS",
+    "eu_owner_boundary": "PASS",
+    "menu_cookie": "PASS",
+    "focus_hover_44px": "PASS",
+    "overflow_clipping_links": "PASS",
+    "visual_readback": "PASS"
+  },
+  "boundary": "Independent Gate 4 review evidence only. This record does not close Gate 4, update the current Manifest, start Gate 6, or authorize implementation or publication."
+}

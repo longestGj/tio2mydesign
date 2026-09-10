@@ -1,0 +1,178 @@
+{
+  "audit": "MARKET-EU-DE Gate 4 project-control closure audit",
+  "decision_id": "DE-G4-CLOSURE-20260907-01",
+  "audit_at": "2026-09-07T08:24:08.549981+00:00",
+  "page_id": "MARKET-EU-DE",
+  "url": "/markets/germany/",
+  "site_scope": "tio2-my",
+  "workset_id": "DE-G4-COMPLETE-20260907-01",
+  "freeze_id": "DE-G4-COMPLETE-20260907-01-F01",
+  "core_identities": {
+    "current_manifest_v0_8": {
+      "path": "D:/23MySec/pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md",
+      "bytes": 13426,
+      "sha256": "4f7bbbd0630dc7887cec21b7a5f269f8db09cd5a953ad4e726e23af954f964bd"
+    },
+    "candidate_manifest_v0_9_draft": {
+      "path": "D:/23MySec/pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.9_DRAFT.md",
+      "bytes": 8321,
+      "sha256": "7493d9ffd250647a35da2841236970a75d3ee345f2f315b23315f5fb13ee0d6b"
+    },
+    "candidate_html": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/MARKET-EU-DE_GATE4_COMPLETE_VISUAL_V0.1.html",
+      "bytes": 23813,
+      "sha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc"
+    },
+    "visual_css": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/visual-direction.css",
+      "bytes": 3977,
+      "sha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+    },
+    "source_freeze": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/source-freeze.json",
+      "bytes": 16224,
+      "sha256": "46c4f2dbc289861f9910b2cf27dc8ea5dc2ff8c6305a6ccfaf2512211fa4370c"
+    },
+    "evidence_index": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/evidence_index.json",
+      "bytes": 45754,
+      "sha256": "dfffa0bb0e295837a27ec8405fcfdf3294e51b90bafae2bd18c8b7b37b5583c3"
+    },
+    "independent_review": {
+      "path": "D:/23MySec/pages/markets/germany/05_review/gate4-complete-independent-v0.1/MARKET-EU-DE_GATE4_INDEPENDENT_REVIEW_V0.1.md",
+      "bytes": 5528,
+      "sha256": "22aa8598d9e246fcc57b5e63fcb4ae0c636063aeffe8838217cfc5b82cdd4975"
+    }
+  },
+  "recomputation": {
+    "frozen_paths": {
+      "total": 68,
+      "exact": 67,
+      "mismatches": [
+        {
+          "path": "D:/23MySec/01_PROJECT_INDEX.md",
+          "expectedBytes": 21658,
+          "actualBytes": 21657,
+          "expectedSha256": "fde0c59fabeda7f3688eaf4c41af59f8104c80462ef5f752212e3f53486d40cf",
+          "actualSha256": "9f369cadfe0456fd0f1e9e829d0a748d6b28ee3312a7fe964a84617625bd1939",
+          "exact": false,
+          "controllerSnapshot": {
+            "path": "D:/23MySec/pages/markets/germany/05_review/gate4-project-control-v0.1/01_PROJECT_INDEX.controller-snapshot.md",
+            "bytes": 22311,
+            "sha256": "211d327518da32709dde51101d34f73193218c4c324c97eb7ee5d371f33b3cc2"
+          }
+        }
+      ]
+    },
+    "evidence_bindings": {
+      "total": 22,
+      "exact": 22,
+      "mismatches": []
+    },
+    "evidence_images": {
+      "total": 51,
+      "exact_identity_and_dimensions": 51,
+      "mismatches": []
+    },
+    "formal_runtime": {
+      "checks": 237,
+      "passed": 237,
+      "failed": 0,
+      "assets": 42
+    },
+    "independent_runtime": {
+      "checks": 154,
+      "passed": 154,
+      "failed": 0,
+      "rendered_files": 42,
+      "full_pages": 3,
+      "continuous_segments": 25,
+      "state_images": 14
+    },
+    "independent_bundle": {
+      "files": 6,
+      "identities": [
+        {
+          "path": "D:/23MySec/pages/markets/germany/05_review/gate4-complete-independent-v0.1/MARKET-EU-DE_GATE4_INDEPENDENT_REVIEW_V0.1.md",
+          "bytes": 5528,
+          "sha256": "22aa8598d9e246fcc57b5e63fcb4ae0c636063aeffe8838217cfc5b82cdd4975"
+        },
+        {
+          "path": "D:/23MySec/pages/markets/germany/05_review/gate4-complete-independent-v0.1/identity-audit.json",
+          "bytes": 76348,
+          "sha256": "7bd82c08b3a55f9ba3562ffa747acbbe67673763f0eb1519bfb08a9e21be3382"
+        },
+        {
+          "path": "D:/23MySec/pages/markets/germany/05_review/gate4-complete-independent-v0.1/index-drift-audit.json",
+          "bytes": 1600,
+          "sha256": "bc3b7a3571f907ef68d2166a0008b6aba507739e8473119148c257248a1e062d"
+        },
+        {
+          "path": "D:/23MySec/pages/markets/germany/05_review/gate4-complete-independent-v0.1/visual-observation.json",
+          "bytes": 2324,
+          "sha256": "109878d904c3ae081a08f2372aa40e96c37ec848feec66286bf94f74a976a775"
+        },
+        {
+          "path": "D:/23MySec/pages/markets/germany/05_review/gate4-complete-independent-v0.1/independent-runtime.json",
+          "bytes": 74681,
+          "sha256": "8d68db1655227064ddca410548c934c1fe240146274fd0f757a64df7ceba744b"
+        },
+        {
+          "path": "D:/23MySec/pages/markets/germany/05_review/gate4-complete-independent-v0.1/findings.json",
+          "bytes": 257,
+          "sha256": "6e0cfcdd202cacd03825ca31da9be594b33d35e6d85ca162fbf5a0897168fb62"
+        }
+      ],
+      "rerender_pngs": 42,
+      "valid_pngs": 42
+    }
+  },
+  "finding_state": {
+    "independent_review_status": "PROJECT_CONTROL_REVIEW_PASS",
+    "required": 0,
+    "advisory": 0
+  },
+  "index_drift": {
+    "frozen_snapshot": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/snapshots/01_PROJECT_INDEX.frozen.md",
+      "bytes": 21658,
+      "sha256": "fde0c59fabeda7f3688eaf4c41af59f8104c80462ef5f752212e3f53486d40cf"
+    },
+    "project_control_live_snapshot": {
+      "path": "D:/23MySec/pages/markets/germany/05_review/gate4-project-control-v0.1/01_PROJECT_INDEX.controller-snapshot.md",
+      "bytes": 22311,
+      "sha256": "211d327518da32709dde51101d34f73193218c4c324c97eb7ee5d371f33b3cc2"
+    },
+    "classification": "NON_BLOCKING_POST_FREEZE_NAVIGATION_DRIFT",
+    "changed_scope": [
+      "Poland Gate 9 navigation/status row",
+      "Applications article research navigation row",
+      "Gate 9 Agent and method navigation row"
+    ],
+    "germany_contract_impact": "NONE",
+    "note": "The page-local controller snapshot preserves the live Index bytes observed for this closure audit; later root navigation maintenance does not rewrite this audit."
+  },
+  "role_separation": {
+    "executor": "Separate Gate 4 execution task; submission identifies Gate 4 executor and forbids self-review/closure.",
+    "independent_reviewer": "Separate independent review task; report and rerender are post-freeze and produce PROJECT_CONTROL_REVIEW_PASS.",
+    "project_controller": "/root/gate4_nl_control; did not produce or independently review the Germany Gate 4 candidate.",
+    "separated": true
+  },
+  "open_items": {
+    "gate4_required_findings": 0,
+    "non_blocking_later_stage": [
+      "EU Trade Update production route/content/freshness",
+      "production RFQ/Documents/Sample receivers and persistence",
+      "CMS/Schema and site_scope=tio2-my implementation",
+      "real devices, native zoom, other engines and assistive technology",
+      "Gate 6 contract/handoff review when authorized"
+    ],
+    "gate6_authorized": false,
+    "development_or_release_authorized": false
+  },
+  "decision_check": {
+    "all_gate4_closure_conditions_met": true,
+    "approval_basis": "USER_STANDING_AUTHORITY",
+    "standing_authority_decision": "G346-DELEGATED-CLOSURE-20260907"
+  }
+}

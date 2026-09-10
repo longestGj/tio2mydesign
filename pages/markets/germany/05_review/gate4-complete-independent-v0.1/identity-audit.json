@@ -1,0 +1,2378 @@
+{
+  "audit": "MARKET-EU-DE Gate 4 independent identity audit",
+  "workset_id": "DE-G4-COMPLETE-20260907-01",
+  "freeze_id": "DE-G4-COMPLETE-20260907-01-F01",
+  "audited_at": "2026-09-07T08:10:21.809Z",
+  "freeze_record": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/source-freeze.json",
+    "bytes": 16224,
+    "sha256": "46c4f2dbc289861f9910b2cf27dc8ea5dc2ff8c6305a6ccfaf2512211fa4370c"
+  },
+  "evidence_index": {
+    "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/evidence_index.json",
+    "bytes": 45754,
+    "sha256": "dfffa0bb0e295837a27ec8405fcfdf3294e51b90bafae2bd18c8b7b37b5583c3"
+  },
+  "frozen_files": {
+    "expected": 68,
+    "exact": 67,
+    "mismatches": [
+      {
+        "path": "D:/23MySec/01_PROJECT_INDEX.md",
+        "expected": {
+          "bytes": 21658,
+          "sha256": "fde0c59fabeda7f3688eaf4c41af59f8104c80462ef5f752212e3f53486d40cf"
+        },
+        "actual": {
+          "bytes": 21657,
+          "sha256": "9f369cadfe0456fd0f1e9e829d0a748d6b28ee3312a7fe964a84617625bd1939"
+        },
+        "exists": true,
+        "exact": false
+      }
+    ],
+    "checks": [
+      {
+        "path": "D:/23MySec/pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md",
+        "expected": {
+          "bytes": 13426,
+          "sha256": "4f7bbbd0630dc7887cec21b7a5f269f8db09cd5a953ad4e726e23af954f964bd"
+        },
+        "actual": {
+          "bytes": 13426,
+          "sha256": "4f7bbbd0630dc7887cec21b7a5f269f8db09cd5a953ad4e726e23af954f964bd"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/AGENTS.md",
+        "expected": {
+          "bytes": 9874,
+          "sha256": "c11af47d1f3698bfeaa68e901d50475c076190b5852221c9da9a042582c4a82c"
+        },
+        "actual": {
+          "bytes": 9874,
+          "sha256": "c11af47d1f3698bfeaa68e901d50475c076190b5852221c9da9a042582c4a82c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/PROJECT_CONTEXT.md",
+        "expected": {
+          "bytes": 8503,
+          "sha256": "78c3b537e28dcb22a483d2c2351ade01c18416d11f801c2bd13d756541a09170"
+        },
+        "actual": {
+          "bytes": 8503,
+          "sha256": "78c3b537e28dcb22a483d2c2351ade01c18416d11f801c2bd13d756541a09170"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/01_PROJECT_INDEX.md",
+        "expected": {
+          "bytes": 21658,
+          "sha256": "fde0c59fabeda7f3688eaf4c41af59f8104c80462ef5f752212e3f53486d40cf"
+        },
+        "actual": {
+          "bytes": 21657,
+          "sha256": "9f369cadfe0456fd0f1e9e829d0a748d6b28ee3312a7fe964a84617625bd1939"
+        },
+        "exists": true,
+        "exact": false
+      },
+      {
+        "path": "D:/23MySec/02_DIRECTORY_GUIDE.md",
+        "expected": {
+          "bytes": 14571,
+          "sha256": "d1ca5ec19b634f22151a612498d16fe4b94feaccbd8dd04c84464445023eef84"
+        },
+        "actual": {
+          "bytes": 14571,
+          "sha256": "d1ca5ec19b634f22151a612498d16fe4b94feaccbd8dd04c84464445023eef84"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.2.md",
+        "expected": {
+          "bytes": 18692,
+          "sha256": "5476e9ef47c0e8632c741745233f8d0e8984360cb639d9de2b69e6e7c81ea3a0"
+        },
+        "actual": {
+          "bytes": 18692,
+          "sha256": "5476e9ef47c0e8632c741745233f8d0e8984360cb639d9de2b69e6e7c81ea3a0"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+        "expected": {
+          "bytes": 18702,
+          "sha256": "7b14c96e8515fdaeaeee12f23e9e7c8ffb815f8a00643d2bc0998f667efff64a"
+        },
+        "actual": {
+          "bytes": 18702,
+          "sha256": "7b14c96e8515fdaeaeee12f23e9e7c8ffb815f8a00643d2bc0998f667efff64a"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+        "expected": {
+          "bytes": 30319,
+          "sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140"
+        },
+        "actual": {
+          "bytes": 30319,
+          "sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+        "expected": {
+          "bytes": 4510,
+          "sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1"
+        },
+        "actual": {
+          "bytes": 4510,
+          "sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_IMPLEMENTATION_V1.0.md",
+        "expected": {
+          "bytes": 3103,
+          "sha256": "fb8e747f8f9624bf4364c7759922699ca73640e5a1d37b50c8f2c6a3158c193c"
+        },
+        "actual": {
+          "bytes": 3103,
+          "sha256": "fb8e747f8f9624bf4364c7759922699ca73640e5a1d37b50c8f2c6a3158c193c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md",
+        "expected": {
+          "bytes": 4300,
+          "sha256": "37bd7dc9f046c7290877187f6606980bb99fa23594cf59da500f7a5e5fcd0967"
+        },
+        "actual": {
+          "bytes": 4300,
+          "sha256": "37bd7dc9f046c7290877187f6606980bb99fa23594cf59da500f7a5e5fcd0967"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+        "expected": {
+          "bytes": 8412,
+          "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+        },
+        "actual": {
+          "bytes": 8412,
+          "sha256": "87d42c73f5da6a65505b31edd7fbf6382155ea55e144577006763194925ae674"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.1.md",
+        "expected": {
+          "bytes": 4261,
+          "sha256": "94b21e4581267880082e10c7dbe7c52941d71bd933cda74fb03d7e75d109ffde"
+        },
+        "actual": {
+          "bytes": 4261,
+          "sha256": "94b21e4581267880082e10c7dbe7c52941d71bd933cda74fb03d7e75d109ffde"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/skills/brand-applied-visual-design/SKILL.md",
+        "expected": {
+          "bytes": 7886,
+          "sha256": "477c280b8bdc5657632ee26635f4e94a642495482cb3a3ab6dcf0ea27e103bbd"
+        },
+        "actual": {
+          "bytes": 7886,
+          "sha256": "477c280b8bdc5657632ee26635f4e94a642495482cb3a3ab6dcf0ea27e103bbd"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/skills/full-page-visual-composition/SKILL.md",
+        "expected": {
+          "bytes": 8420,
+          "sha256": "708fec10a70ec15df62f0d3f8b94e7c7150fecefa6f891d43130a0f099740220"
+        },
+        "actual": {
+          "bytes": 8420,
+          "sha256": "708fec10a70ec15df62f0d3f8b94e7c7150fecefa6f891d43130a0f099740220"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+        "expected": {
+          "bytes": 9971,
+          "sha256": "24b1a8500ce374fe759e26a51b08fd8b1d95a2590d561fb0bc41cfc538aa349e"
+        },
+        "actual": {
+          "bytes": 9971,
+          "sha256": "24b1a8500ce374fe759e26a51b08fd8b1d95a2590d561fb0bc41cfc538aa349e"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/skills/layout-interaction-verification/references/core-risk-model.md",
+        "expected": {
+          "bytes": 2825,
+          "sha256": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609"
+        },
+        "actual": {
+          "bytes": 2825,
+          "sha256": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+        "expected": {
+          "bytes": 11671,
+          "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+        },
+        "actual": {
+          "bytes": 11671,
+          "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "expected": {
+          "bytes": 1960,
+          "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+        },
+        "actual": {
+          "bytes": 1960,
+          "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "expected": {
+          "bytes": 7235,
+          "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+        },
+        "actual": {
+          "bytes": 7235,
+          "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "expected": {
+          "bytes": 8090,
+          "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+        },
+        "actual": {
+          "bytes": 8090,
+          "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "expected": {
+          "bytes": 2310,
+          "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+        },
+        "actual": {
+          "bytes": 2310,
+          "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md",
+        "expected": {
+          "bytes": 5327,
+          "sha256": "9b01c3d086bcbed5cb3de2ed74ee997fc671fe21b055f458ac0b8301d99127d1"
+        },
+        "actual": {
+          "bytes": 5327,
+          "sha256": "9b01c3d086bcbed5cb3de2ed74ee997fc671fe21b055f458ac0b8301d99127d1"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+        "expected": {
+          "bytes": 12312,
+          "sha256": "0ea7e5d77ab243354577764bc4329fe4bb28d923ab4f66ea0b1073f5e24f9728"
+        },
+        "actual": {
+          "bytes": 12312,
+          "sha256": "0ea7e5d77ab243354577764bc4329fe4bb28d923ab4f66ea0b1073f5e24f9728"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md",
+        "expected": {
+          "bytes": 17914,
+          "sha256": "f963bfd4722792bf9d7f1a1fa34fa03f0fa6e108dfc2cca48fb658c4d086731c"
+        },
+        "actual": {
+          "bytes": 17914,
+          "sha256": "f963bfd4722792bf9d7f1a1fa34fa03f0fa6e108dfc2cca48fb658c4d086731c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/research/keyword/11_page_keyword_master.csv",
+        "expected": {
+          "bytes": 42155,
+          "sha256": "cf189768fc3e8bc1e4108f0336cd45e40ae05f5a419885db1907a71e3dc6687f"
+        },
+        "actual": {
+          "bytes": 42155,
+          "sha256": "cf189768fc3e8bc1e4108f0336cd45e40ae05f5a419885db1907a71e3dc6687f"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/page-playbooks/MARKET_PLAYBOOK_V0.1.md",
+        "expected": {
+          "bytes": 34352,
+          "sha256": "846d54b98259b5650c95251edbbea124c42e6df7dcfd213379ab1f4e639f9386"
+        },
+        "actual": {
+          "bytes": 34352,
+          "sha256": "846d54b98259b5650c95251edbbea124c42e6df7dcfd213379ab1f4e639f9386"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/page-briefs/MARKET-EU-DE_GERMANY_BRIEF_V0.1.md",
+        "expected": {
+          "bytes": 7916,
+          "sha256": "151eab4a1b57167ca5acc35c2478eb67d198260094ae13b61654e1387c0fd9cf"
+        },
+        "actual": {
+          "bytes": 7916,
+          "sha256": "151eab4a1b57167ca5acc35c2478eb67d198260094ae13b61654e1387c0fd9cf"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/MARKET-EU-DE_GATE2_CONTENT_SKELETON_V0.1.md",
+        "expected": {
+          "bytes": 6382,
+          "sha256": "f42dc446fbe95be7728d55580fc4e5bc4b7e2c6a19e915ae81b32631e33579d0"
+        },
+        "actual": {
+          "bytes": 6382,
+          "sha256": "f42dc446fbe95be7728d55580fc4e5bc4b7e2c6a19e915ae81b32631e33579d0"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/MARKET-EU-DE_GATE2_FULL_BUYER_CLEAN_COPY_V0.2.md",
+        "expected": {
+          "bytes": 7086,
+          "sha256": "f95f338b4b966d48e0a10c0ad81b6fd7ffd21e552cee780bc9597d2e67b6c4d8"
+        },
+        "actual": {
+          "bytes": 7086,
+          "sha256": "f95f338b4b966d48e0a10c0ad81b6fd7ffd21e552cee780bc9597d2e67b6c4d8"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/MARKET-EU-DE_GATE2_CONTENT_CONTRACT_V0.2.md",
+        "expected": {
+          "bytes": 8592,
+          "sha256": "a2a5d629258e1d24aff03d6a3b3a24f194d89c5c6c1f5e6b68bb8eaef5faa187"
+        },
+        "actual": {
+          "bytes": 8592,
+          "sha256": "a2a5d629258e1d24aff03d6a3b3a24f194d89c5c6c1f5e6b68bb8eaef5faa187"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/GATE2_REMAINING_SEVEN_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+        "expected": {
+          "bytes": 4632,
+          "sha256": "8ed9810a96d1bde005f1d7e756995d494b13932fa386a79bbf177062997c3372"
+        },
+        "actual": {
+          "bytes": 4632,
+          "sha256": "8ed9810a96d1bde005f1d7e756995d494b13932fa386a79bbf177062997c3372"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/05_review/MARKET-EU-DE_GATE3_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+        "expected": {
+          "bytes": 2237,
+          "sha256": "0c6ec45e0ecd399ba8254a150a9061b4730dd269a7f28147890c37b4a5e7012f"
+        },
+        "actual": {
+          "bytes": 2237,
+          "sha256": "0c6ec45e0ecd399ba8254a150a9061b4730dd269a7f28147890c37b4a5e7012f"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/05_review/MARKET-EU-DE_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+        "expected": {
+          "bytes": 4212,
+          "sha256": "debc00c8cfa96c146229292aaa4e2672e12b9a62d1c342402a797427faf3d58e"
+        },
+        "actual": {
+          "bytes": 4212,
+          "sha256": "debc00c8cfa96c146229292aaa4e2672e12b9a62d1c342402a797427faf3d58e"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/MARKET-EU-DE_GATE3_WIREFRAME_V0.1.html",
+        "expected": {
+          "bytes": 23892,
+          "sha256": "355efe81188bc486825a2c97532fc63abb5912b089eab9671f930135449ab380"
+        },
+        "actual": {
+          "bytes": 23892,
+          "sha256": "355efe81188bc486825a2c97532fc63abb5912b089eab9671f930135449ab380"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/input-binding.json",
+        "expected": {
+          "bytes": 10953,
+          "sha256": "703be575e77f18570f678c55b212b9e9f7f9abea437515778da656e333192ae3"
+        },
+        "actual": {
+          "bytes": 10953,
+          "sha256": "703be575e77f18570f678c55b212b9e9f7f9abea437515778da656e333192ae3"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/preflight-record.json",
+        "expected": {
+          "bytes": 15836,
+          "sha256": "08727d6de805857d564e5be30dcf99c0f8c6972a95b99aa1881abcf5bedb9dff"
+        },
+        "actual": {
+          "bytes": 15836,
+          "sha256": "08727d6de805857d564e5be30dcf99c0f8c6972a95b99aa1881abcf5bedb9dff"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/freeze-record.json",
+        "expected": {
+          "bytes": 5500,
+          "sha256": "277970960a8b00feefdc3f2083e2e652c872a77e3aef2522dc6f5d5d06d16e6b"
+        },
+        "actual": {
+          "bytes": 5500,
+          "sha256": "277970960a8b00feefdc3f2083e2e652c872a77e3aef2522dc6f5d5d06d16e6b"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate3-v0.1/asset-inventory.json",
+        "expected": {
+          "bytes": 6897,
+          "sha256": "951051ad3aa021725ce9a6b51db5384269dc925dafdf63cf9eedd185a1af33a0"
+        },
+        "actual": {
+          "bytes": 6897,
+          "sha256": "951051ad3aa021725ce9a6b51db5384269dc925dafdf63cf9eedd185a1af33a0"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/EXECUTION_AUTHORIZATION_AND_SCOPE_V0.1.md",
+        "expected": {
+          "bytes": 1217,
+          "sha256": "a5e1d79e09aac05fb0bc1b3f3b97bd1128a34582fe3e636b5c91e8a3489090fb"
+        },
+        "actual": {
+          "bytes": 1217,
+          "sha256": "a5e1d79e09aac05fb0bc1b3f3b97bd1128a34582fe3e636b5c91e8a3489090fb"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+        "expected": {
+          "bytes": 5668,
+          "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+        },
+        "actual": {
+          "bytes": 5668,
+          "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "expected": {
+          "bytes": 2409,
+          "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+        },
+        "actual": {
+          "bytes": 2409,
+          "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "expected": {
+          "bytes": 3889,
+          "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+        },
+        "actual": {
+          "bytes": 3889,
+          "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "expected": {
+          "bytes": 1426,
+          "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+        },
+        "actual": {
+          "bytes": 1426,
+          "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "expected": {
+          "bytes": 455,
+          "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+        },
+        "actual": {
+          "bytes": 455,
+          "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "expected": {
+          "bytes": 5125,
+          "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+        },
+        "actual": {
+          "bytes": 5125,
+          "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "expected": {
+          "bytes": 2369,
+          "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+        },
+        "actual": {
+          "bytes": 2369,
+          "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "expected": {
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        },
+        "actual": {
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "expected": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "actual": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/MARKET-EU-DE_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "expected": {
+          "bytes": 23813,
+          "sha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc"
+        },
+        "actual": {
+          "bytes": 23813,
+          "sha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/dependencies/Inter-Variable.ttf",
+        "expected": {
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        },
+        "actual": {
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/dependencies/Inter-OFL.txt",
+        "expected": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "actual": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/dependencies/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "expected": {
+          "bytes": 4342,
+          "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+        },
+        "actual": {
+          "bytes": 4342,
+          "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/dependencies/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "expected": {
+          "bytes": 2725,
+          "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+        },
+        "actual": {
+          "bytes": 2725,
+          "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/visual-direction.css",
+        "expected": {
+          "bytes": 3977,
+          "sha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+        },
+        "actual": {
+          "bytes": 3977,
+          "sha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/input_index.json",
+        "expected": {
+          "bytes": 12117,
+          "sha256": "5b281f9359d15e9ba71a1b95a3a80a58b1b797c3bb940acbf4b0a0da82848825"
+        },
+        "actual": {
+          "bytes": 12117,
+          "sha256": "5b281f9359d15e9ba71a1b95a3a80a58b1b797c3bb940acbf4b0a0da82848825"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/4A-direction-check.json",
+        "expected": {
+          "bytes": 5857,
+          "sha256": "c3133e8b1ca0a3330a70ab4c765f13ce2b4bbec010068b938a8f9d3bddc48b3f"
+        },
+        "actual": {
+          "bytes": 5857,
+          "sha256": "c3133e8b1ca0a3330a70ab4c765f13ce2b4bbec010068b938a8f9d3bddc48b3f"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/direction-r1-checks.json",
+        "expected": {
+          "bytes": 192615,
+          "sha256": "2eb78d80633f45e3f5d781e87f160df374322d3f5f576b44285de73a274c6f6f"
+        },
+        "actual": {
+          "bytes": 192615,
+          "sha256": "2eb78d80633f45e3f5d781e87f160df374322d3f5f576b44285de73a274c6f6f"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1-checks.json",
+        "expected": {
+          "bytes": 190397,
+          "sha256": "e75cca9492b9d4920acb5d2834899cc2cc093a16a37a63db9f77a25b57c6cf2c"
+        },
+        "actual": {
+          "bytes": 190397,
+          "sha256": "e75cca9492b9d4920acb5d2834899cc2cc093a16a37a63db9f77a25b57c6cf2c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-application-direction.png",
+        "expected": {
+          "bytes": 156525,
+          "sha256": "75cb0567dd80fce5c84ff0033735402fd731306117498cb105b09915137c4033"
+        },
+        "actual": {
+          "bytes": 156525,
+          "sha256": "75cb0567dd80fce5c84ff0033735402fd731306117498cb105b09915137c4033"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-destination-direction.png",
+        "expected": {
+          "bytes": 116137,
+          "sha256": "f2d4df045e5e5cc96f939b73c4ea61480773aa644ffeaff07549294a5635aaef"
+        },
+        "actual": {
+          "bytes": 116137,
+          "sha256": "f2d4df045e5e5cc96f939b73c4ea61480773aa644ffeaff07549294a5635aaef"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-application-direction.png",
+        "expected": {
+          "bytes": 165262,
+          "sha256": "777cd837fe5ddfa6c1a9d1ab8612703492eb7015ce1745093eb958b10f3e3cba"
+        },
+        "actual": {
+          "bytes": 165262,
+          "sha256": "777cd837fe5ddfa6c1a9d1ab8612703492eb7015ce1745093eb958b10f3e3cba"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-destination-direction.png",
+        "expected": {
+          "bytes": 106155,
+          "sha256": "a5d424cf1a5b2484e88a8e053c62b40843d5afe5b8080ce58581c7258b83e3c1"
+        },
+        "actual": {
+          "bytes": 106155,
+          "sha256": "a5d424cf1a5b2484e88a8e053c62b40843d5afe5b8080ce58581c7258b83e3c1"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-application-direction.png",
+        "expected": {
+          "bytes": 153195,
+          "sha256": "668aadfe38a21c3850db29b9069bfb8ab0b5efc97f2b436495576a6ca8505b7e"
+        },
+        "actual": {
+          "bytes": 153195,
+          "sha256": "668aadfe38a21c3850db29b9069bfb8ab0b5efc97f2b436495576a6ca8505b7e"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-destination-direction.png",
+        "expected": {
+          "bytes": 97959,
+          "sha256": "f6ecc7f881529978606832496ec03e26bfc5b7b2d293db8b3b8906fe78039753"
+        },
+        "actual": {
+          "bytes": 97959,
+          "sha256": "f6ecc7f881529978606832496ec03e26bfc5b7b2d293db8b3b8906fe78039753"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/1440-full.png",
+        "expected": {
+          "bytes": 705386,
+          "sha256": "e0233065b1e48b552cfd94ab6e3a0a48eb6197739066e8c45d9760eae697c31f"
+        },
+        "actual": {
+          "bytes": 705386,
+          "sha256": "e0233065b1e48b552cfd94ab6e3a0a48eb6197739066e8c45d9760eae697c31f"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/768-full.png",
+        "expected": {
+          "bytes": 676133,
+          "sha256": "335444b47002a598f82cee67a5a5275a62991a46e8661142a0e60f1b165248f4"
+        },
+        "actual": {
+          "bytes": 676133,
+          "sha256": "335444b47002a598f82cee67a5a5275a62991a46e8661142a0e60f1b165248f4"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/390-full.png",
+        "expected": {
+          "bytes": 623363,
+          "sha256": "321eab7f08b56ba457e36914a04497df6c950741b6506fca40b8fc5ccff51672"
+        },
+        "actual": {
+          "bytes": 623363,
+          "sha256": "321eab7f08b56ba457e36914a04497df6c950741b6506fca40b8fc5ccff51672"
+        },
+        "exists": true,
+        "exact": true
+      }
+    ]
+  },
+  "evidence_images": {
+    "expected": 51,
+    "exact_identity_and_dimensions": 51,
+    "mismatches": [],
+    "checks": [
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-application-hover.png",
+        "expected": {
+          "bytes": 37930,
+          "sha256": "cc0da89ab12e98ca1b5ea07d7bcd0048f47c659001bc4f13108f5ac429a4a842"
+        },
+        "actual": {
+          "bytes": 37930,
+          "sha256": "cc0da89ab12e98ca1b5ea07d7bcd0048f47c659001bc4f13108f5ac429a4a842"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          384,
+          409
+        ],
+        "actualDimensions": [
+          384,
+          409
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-cookie.png",
+        "expected": {
+          "bytes": 112315,
+          "sha256": "07dbf7cf11840584dace83259fe867103567291179edc0893542e75bc6db0f71"
+        },
+        "actual": {
+          "bytes": 112315,
+          "sha256": "07dbf7cf11840584dace83259fe867103567291179edc0893542e75bc6db0f71"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          900
+        ],
+        "actualDimensions": [
+          1440,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-full.png",
+        "expected": {
+          "bytes": 705350,
+          "sha256": "43614b7e949eac8a452c8e851b92300c0bc99a10f7352327241f2ee8a70c2bd9"
+        },
+        "actual": {
+          "bytes": 705350,
+          "sha256": "43614b7e949eac8a452c8e851b92300c0bc99a10f7352327241f2ee8a70c2bd9"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          5228
+        ],
+        "actualDimensions": [
+          1440,
+          5228
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-hero-primary-focus.png",
+        "expected": {
+          "bytes": 59126,
+          "sha256": "00c45061a4f61da32c85eb72db9960b70bcecfcb497f7eb3569469b1ce1f562c"
+        },
+        "actual": {
+          "bytes": 59126,
+          "sha256": "00c45061a4f61da32c85eb72db9960b70bcecfcb497f7eb3569469b1ce1f562c"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          579
+        ],
+        "actualDimensions": [
+          1440,
+          579
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/1440-reference-focus.png",
+        "expected": {
+          "bytes": 68402,
+          "sha256": "2c5524f313da63dda2725353998d78d5eb36788e13998a6f7d87b241f0963486"
+        },
+        "actual": {
+          "bytes": 68402,
+          "sha256": "2c5524f313da63dda2725353998d78d5eb36788e13998a6f7d87b241f0963486"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1200,
+          441
+        ],
+        "actualDimensions": [
+          1200,
+          441
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-application-hover.png",
+        "expected": {
+          "bytes": 29857,
+          "sha256": "fb7e665f5327ed569c9967c1c1d06dbde2a6e37a9b1fa40677d183998c4ad4b1"
+        },
+        "actual": {
+          "bytes": 29857,
+          "sha256": "fb7e665f5327ed569c9967c1c1d06dbde2a6e37a9b1fa40677d183998c4ad4b1"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          350,
+          382
+        ],
+        "actualDimensions": [
+          350,
+          382
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-cookie.png",
+        "expected": {
+          "bytes": 48645,
+          "sha256": "a6bdd5189e48f10d6d8a709e867004a80bf82bb4a15264afac0879ad0b377461"
+        },
+        "actual": {
+          "bytes": 48645,
+          "sha256": "a6bdd5189e48f10d6d8a709e867004a80bf82bb4a15264afac0879ad0b377461"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-full.png",
+        "expected": {
+          "bytes": 623412,
+          "sha256": "70e06006edc8d8713b7bd2fa1b7bc433084bfb4e69a6b103e7c17ce2ae710138"
+        },
+        "actual": {
+          "bytes": 623412,
+          "sha256": "70e06006edc8d8713b7bd2fa1b7bc433084bfb4e69a6b103e7c17ce2ae710138"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          7996
+        ],
+        "actualDimensions": [
+          390,
+          7996
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-hero-primary-focus.png",
+        "expected": {
+          "bytes": 46696,
+          "sha256": "76f398d68cdcda97f7c759a68d1c28adf79f54376cbe2e7dcf67ca6bd42cc046"
+        },
+        "actual": {
+          "bytes": 46696,
+          "sha256": "76f398d68cdcda97f7c759a68d1c28adf79f54376cbe2e7dcf67ca6bd42cc046"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          624
+        ],
+        "actualDimensions": [
+          390,
+          624
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-menu.png",
+        "expected": {
+          "bytes": 37736,
+          "sha256": "486609f9ec56cc347b4129441209bc707014764f32460db68f17bf0618489324"
+        },
+        "actual": {
+          "bytes": 37736,
+          "sha256": "486609f9ec56cc347b4129441209bc707014764f32460db68f17bf0618489324"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/390-reference-focus.png",
+        "expected": {
+          "bytes": 59253,
+          "sha256": "19fa759be1da9b6ffb37641c2d96ebf5cea4ae3286d96c093ebabcc0873a0529"
+        },
+        "actual": {
+          "bytes": 59253,
+          "sha256": "19fa759be1da9b6ffb37641c2d96ebf5cea4ae3286d96c093ebabcc0873a0529"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          350,
+          724
+        ],
+        "actualDimensions": [
+          350,
+          724
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-application-hover.png",
+        "expected": {
+          "bytes": 33468,
+          "sha256": "642ba55624693b88795fd279e546012136ab138e33d799b5153654c104aa6997"
+        },
+        "actual": {
+          "bytes": 33468,
+          "sha256": "642ba55624693b88795fd279e546012136ab138e33d799b5153654c104aa6997"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          720,
+          289
+        ],
+        "actualDimensions": [
+          720,
+          289
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-cookie.png",
+        "expected": {
+          "bytes": 67641,
+          "sha256": "eabf811c5f07b1b2b1cf5481ba588097174c277dc26661be6948b005f3408c36"
+        },
+        "actual": {
+          "bytes": 67641,
+          "sha256": "eabf811c5f07b1b2b1cf5481ba588097174c277dc26661be6948b005f3408c36"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-full.png",
+        "expected": {
+          "bytes": 676123,
+          "sha256": "6c07039a5e41428b4237144ae25440e67d4c8ffe676c88a6da25a185c20334a0"
+        },
+        "actual": {
+          "bytes": 676123,
+          "sha256": "6c07039a5e41428b4237144ae25440e67d4c8ffe676c88a6da25a185c20334a0"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          6181
+        ],
+        "actualDimensions": [
+          768,
+          6181
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-hero-primary-focus.png",
+        "expected": {
+          "bytes": 50734,
+          "sha256": "8ff142bce663c5a1e1ce2eb7aec40d5823af4d5c6fa0561b483c87dfd7619f8e"
+        },
+        "actual": {
+          "bytes": 50734,
+          "sha256": "8ff142bce663c5a1e1ce2eb7aec40d5823af4d5c6fa0561b483c87dfd7619f8e"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          555
+        ],
+        "actualDimensions": [
+          768,
+          555
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-menu.png",
+        "expected": {
+          "bytes": 66947,
+          "sha256": "1d9f4962415a0cee34e869ba32a0e931b829ff47dff5ded621b051546eb81ee5"
+        },
+        "actual": {
+          "bytes": 66947,
+          "sha256": "1d9f4962415a0cee34e869ba32a0e931b829ff47dff5ded621b051546eb81ee5"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/768-reference-focus.png",
+        "expected": {
+          "bytes": 64789,
+          "sha256": "b31e4c72ef60534ab9619449de527d004cc60b7c2642c40aad5faf1a4e31b91b"
+        },
+        "actual": {
+          "bytes": 64789,
+          "sha256": "b31e4c72ef60534ab9619449de527d004cc60b7c2642c40aad5faf1a4e31b91b"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          720,
+          503
+        ],
+        "actualDimensions": [
+          720,
+          503
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-01.png",
+        "expected": {
+          "bytes": 98852,
+          "sha256": "2ceedc10c8d95fe0ae6a027b4e88b7e4999cce6b7bfdd1790e5587c3fd6193f2"
+        },
+        "actual": {
+          "bytes": 98852,
+          "sha256": "2ceedc10c8d95fe0ae6a027b4e88b7e4999cce6b7bfdd1790e5587c3fd6193f2"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          900
+        ],
+        "actualDimensions": [
+          1440,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-02.png",
+        "expected": {
+          "bytes": 143743,
+          "sha256": "f1c0bacbcbf23b64577a24765bc705ae96ce7fe34ffb0834220faa30d61b0630"
+        },
+        "actual": {
+          "bytes": 143743,
+          "sha256": "f1c0bacbcbf23b64577a24765bc705ae96ce7fe34ffb0834220faa30d61b0630"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          900
+        ],
+        "actualDimensions": [
+          1440,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-03.png",
+        "expected": {
+          "bytes": 114870,
+          "sha256": "dd8f15cc27a2b59a60f2cb90e72671694393f13e733c0ad4511b79035b63a1e4"
+        },
+        "actual": {
+          "bytes": 114870,
+          "sha256": "dd8f15cc27a2b59a60f2cb90e72671694393f13e733c0ad4511b79035b63a1e4"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          900
+        ],
+        "actualDimensions": [
+          1440,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-04.png",
+        "expected": {
+          "bytes": 150562,
+          "sha256": "60b3b8cfc68fc7127240e8b60a9820233ac5b0e633c8c471d671e9e2cb583274"
+        },
+        "actual": {
+          "bytes": 150562,
+          "sha256": "60b3b8cfc68fc7127240e8b60a9820233ac5b0e633c8c471d671e9e2cb583274"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          900
+        ],
+        "actualDimensions": [
+          1440,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-05.png",
+        "expected": {
+          "bytes": 96228,
+          "sha256": "a167ddd6c12068a473b7659b15632fcd2767d73964cd82246c25f38e0cc72c76"
+        },
+        "actual": {
+          "bytes": 96228,
+          "sha256": "a167ddd6c12068a473b7659b15632fcd2767d73964cd82246c25f38e0cc72c76"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          900
+        ],
+        "actualDimensions": [
+          1440,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-06.png",
+        "expected": {
+          "bytes": 117373,
+          "sha256": "2c8cb62e7b7c963665e5c6f916961d13ca6762a35377dc918b73d38324e260ee"
+        },
+        "actual": {
+          "bytes": 117373,
+          "sha256": "2c8cb62e7b7c963665e5c6f916961d13ca6762a35377dc918b73d38324e260ee"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          900
+        ],
+        "actualDimensions": [
+          1440,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-1440-07.png",
+        "expected": {
+          "bytes": 95798,
+          "sha256": "18a1d05e540509368e9deeec68dd4567b2931ca54486fc7a123b240569e6c5c3"
+        },
+        "actual": {
+          "bytes": 95798,
+          "sha256": "18a1d05e540509368e9deeec68dd4567b2931ca54486fc7a123b240569e6c5c3"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          900
+        ],
+        "actualDimensions": [
+          1440,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-01.png",
+        "expected": {
+          "bytes": 64712,
+          "sha256": "733f99212cd87ee07e9ff0f0716d06e73af72a811b1ebc5370aa61c793ad1fc6"
+        },
+        "actual": {
+          "bytes": 64712,
+          "sha256": "733f99212cd87ee07e9ff0f0716d06e73af72a811b1ebc5370aa61c793ad1fc6"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-02.png",
+        "expected": {
+          "bytes": 82268,
+          "sha256": "01657c68167791a83878f0d0a8b2f8f97c6fd259a185affe57176445a0a332d1"
+        },
+        "actual": {
+          "bytes": 82268,
+          "sha256": "01657c68167791a83878f0d0a8b2f8f97c6fd259a185affe57176445a0a332d1"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-03.png",
+        "expected": {
+          "bytes": 63743,
+          "sha256": "0a91f3e8dbcb84275304e7ecc7d6dd0c56a90fdde40228d9de961f8ec3dbf7ac"
+        },
+        "actual": {
+          "bytes": 63743,
+          "sha256": "0a91f3e8dbcb84275304e7ecc7d6dd0c56a90fdde40228d9de961f8ec3dbf7ac"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-04.png",
+        "expected": {
+          "bytes": 62778,
+          "sha256": "fc3fb3496df5b6782bf99a96aa62231f7d52870e8be9dfce89f49f7123a851d7"
+        },
+        "actual": {
+          "bytes": 62778,
+          "sha256": "fc3fb3496df5b6782bf99a96aa62231f7d52870e8be9dfce89f49f7123a851d7"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-05.png",
+        "expected": {
+          "bytes": 74682,
+          "sha256": "10c1fbbf1cfbb301120f1d7af232382301534f82d43f62bc14f37ad4c976334f"
+        },
+        "actual": {
+          "bytes": 74682,
+          "sha256": "10c1fbbf1cfbb301120f1d7af232382301534f82d43f62bc14f37ad4c976334f"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-06.png",
+        "expected": {
+          "bytes": 75657,
+          "sha256": "b70a28a036853c310541ae0c90adf086be39dd22228762832bdc954eae4deb65"
+        },
+        "actual": {
+          "bytes": 75657,
+          "sha256": "b70a28a036853c310541ae0c90adf086be39dd22228762832bdc954eae4deb65"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-07.png",
+        "expected": {
+          "bytes": 62363,
+          "sha256": "941375551fb6a5c9ae1d90e9dd96a885d2e8b4db34b0063c43889174a21b8772"
+        },
+        "actual": {
+          "bytes": 62363,
+          "sha256": "941375551fb6a5c9ae1d90e9dd96a885d2e8b4db34b0063c43889174a21b8772"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-08.png",
+        "expected": {
+          "bytes": 63358,
+          "sha256": "3d6d70e96e988416a05766fc2b0b801cb7da48e44b5e2d8841671569a59f2e12"
+        },
+        "actual": {
+          "bytes": 63358,
+          "sha256": "3d6d70e96e988416a05766fc2b0b801cb7da48e44b5e2d8841671569a59f2e12"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-09.png",
+        "expected": {
+          "bytes": 63840,
+          "sha256": "71d1622d198422b4792a4bcc098e65daa05f8fda0dab4d91113e171ff542eac3"
+        },
+        "actual": {
+          "bytes": 63840,
+          "sha256": "71d1622d198422b4792a4bcc098e65daa05f8fda0dab4d91113e171ff542eac3"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-390-10.png",
+        "expected": {
+          "bytes": 40392,
+          "sha256": "ee5fcdb632e1e6c003020c14e365d6a62ab1c37d421d544186fc8358535140ed"
+        },
+        "actual": {
+          "bytes": 40392,
+          "sha256": "ee5fcdb632e1e6c003020c14e365d6a62ab1c37d421d544186fc8358535140ed"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          844
+        ],
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-01.png",
+        "expected": {
+          "bytes": 98416,
+          "sha256": "918b86eefd1b0281b4ff8c35b0423d9b7cb8558ebf105809843dc9e98a89f2a4"
+        },
+        "actual": {
+          "bytes": 98416,
+          "sha256": "918b86eefd1b0281b4ff8c35b0423d9b7cb8558ebf105809843dc9e98a89f2a4"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-02.png",
+        "expected": {
+          "bytes": 122069,
+          "sha256": "22db5cff40c23840050fa68906047a18b013f275d27baf156cad6616ee881db4"
+        },
+        "actual": {
+          "bytes": 122069,
+          "sha256": "22db5cff40c23840050fa68906047a18b013f275d27baf156cad6616ee881db4"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-03.png",
+        "expected": {
+          "bytes": 93364,
+          "sha256": "fbd4669c5428e11cbc0680531370a3e030606194f81aff0a751e4d998849154e"
+        },
+        "actual": {
+          "bytes": 93364,
+          "sha256": "fbd4669c5428e11cbc0680531370a3e030606194f81aff0a751e4d998849154e"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-04.png",
+        "expected": {
+          "bytes": 106779,
+          "sha256": "30ad839aaf0a83c8cd0e8703249d6ca0ab8c9c7475193d69d07fa7e97e26bcf0"
+        },
+        "actual": {
+          "bytes": 106779,
+          "sha256": "30ad839aaf0a83c8cd0e8703249d6ca0ab8c9c7475193d69d07fa7e97e26bcf0"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-05.png",
+        "expected": {
+          "bytes": 116877,
+          "sha256": "bb82495fd596d463e49cc0bfe732d204f69680dde0ab12ae5465e16f865c857f"
+        },
+        "actual": {
+          "bytes": 116877,
+          "sha256": "bb82495fd596d463e49cc0bfe732d204f69680dde0ab12ae5465e16f865c857f"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-06.png",
+        "expected": {
+          "bytes": 101247,
+          "sha256": "3f8d81b7633acfa179da5737241af7018f91e6e3647ad03efa046689f8bb5c54"
+        },
+        "actual": {
+          "bytes": 101247,
+          "sha256": "3f8d81b7633acfa179da5737241af7018f91e6e3647ad03efa046689f8bb5c54"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-07.png",
+        "expected": {
+          "bytes": 91379,
+          "sha256": "ead1d8814367e07f080fcb8c88f9e4c9af96e3fbf6e1b19949375cae73732428"
+        },
+        "actual": {
+          "bytes": 91379,
+          "sha256": "ead1d8814367e07f080fcb8c88f9e4c9af96e3fbf6e1b19949375cae73732428"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/readable-768-08.png",
+        "expected": {
+          "bytes": 48262,
+          "sha256": "6fa094fac5bf4d5df6d956fe32647963c144aaf7c73cdc5bdfb6c6460b4b7bcc"
+        },
+        "actual": {
+          "bytes": 48262,
+          "sha256": "6fa094fac5bf4d5df6d956fe32647963c144aaf7c73cdc5bdfb6c6460b4b7bcc"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          900
+        ],
+        "actualDimensions": [
+          768,
+          900
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-application-direction.png",
+        "expected": {
+          "bytes": 156525,
+          "sha256": "75cb0567dd80fce5c84ff0033735402fd731306117498cb105b09915137c4033"
+        },
+        "actual": {
+          "bytes": 156525,
+          "sha256": "75cb0567dd80fce5c84ff0033735402fd731306117498cb105b09915137c4033"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          962
+        ],
+        "actualDimensions": [
+          1440,
+          962
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/1440-destination-direction.png",
+        "expected": {
+          "bytes": 116137,
+          "sha256": "f2d4df045e5e5cc96f939b73c4ea61480773aa644ffeaff07549294a5635aaef"
+        },
+        "actual": {
+          "bytes": 116137,
+          "sha256": "f2d4df045e5e5cc96f939b73c4ea61480773aa644ffeaff07549294a5635aaef"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          621
+        ],
+        "actualDimensions": [
+          1440,
+          621
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-application-direction.png",
+        "expected": {
+          "bytes": 153195,
+          "sha256": "668aadfe38a21c3850db29b9069bfb8ab0b5efc97f2b436495576a6ca8505b7e"
+        },
+        "actual": {
+          "bytes": 153195,
+          "sha256": "668aadfe38a21c3850db29b9069bfb8ab0b5efc97f2b436495576a6ca8505b7e"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          1868
+        ],
+        "actualDimensions": [
+          390,
+          1868
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/390-destination-direction.png",
+        "expected": {
+          "bytes": 97959,
+          "sha256": "f6ecc7f881529978606832496ec03e26bfc5b7b2d293db8b3b8906fe78039753"
+        },
+        "actual": {
+          "bytes": 97959,
+          "sha256": "f6ecc7f881529978606832496ec03e26bfc5b7b2d293db8b3b8906fe78039753"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          1237
+        ],
+        "actualDimensions": [
+          390,
+          1237
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-application-direction.png",
+        "expected": {
+          "bytes": 165262,
+          "sha256": "777cd837fe5ddfa6c1a9d1ab8612703492eb7015ce1745093eb958b10f3e3cba"
+        },
+        "actual": {
+          "bytes": 165262,
+          "sha256": "777cd837fe5ddfa6c1a9d1ab8612703492eb7015ce1745093eb958b10f3e3cba"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          1392
+        ],
+        "actualDimensions": [
+          768,
+          1392
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/4a-r1/768-destination-direction.png",
+        "expected": {
+          "bytes": 106155,
+          "sha256": "a5d424cf1a5b2484e88a8e053c62b40843d5afe5b8080ce58581c7258b83e3c1"
+        },
+        "actual": {
+          "bytes": 106155,
+          "sha256": "a5d424cf1a5b2484e88a8e053c62b40843d5afe5b8080ce58581c7258b83e3c1"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          858
+        ],
+        "actualDimensions": [
+          768,
+          858
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/1440-full.png",
+        "expected": {
+          "bytes": 705386,
+          "sha256": "e0233065b1e48b552cfd94ab6e3a0a48eb6197739066e8c45d9760eae697c31f"
+        },
+        "actual": {
+          "bytes": 705386,
+          "sha256": "e0233065b1e48b552cfd94ab6e3a0a48eb6197739066e8c45d9760eae697c31f"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          1440,
+          5228
+        ],
+        "actualDimensions": [
+          1440,
+          5228
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/390-full.png",
+        "expected": {
+          "bytes": 623363,
+          "sha256": "321eab7f08b56ba457e36914a04497df6c950741b6506fca40b8fc5ccff51672"
+        },
+        "actual": {
+          "bytes": 623363,
+          "sha256": "321eab7f08b56ba457e36914a04497df6c950741b6506fca40b8fc5ccff51672"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          390,
+          7996
+        ],
+        "actualDimensions": [
+          390,
+          7996
+        ],
+        "dimensionExact": true
+      },
+      {
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1/768-full.png",
+        "expected": {
+          "bytes": 676133,
+          "sha256": "335444b47002a598f82cee67a5a5275a62991a46e8661142a0e60f1b165248f4"
+        },
+        "actual": {
+          "bytes": 676133,
+          "sha256": "335444b47002a598f82cee67a5a5275a62991a46e8661142a0e60f1b165248f4"
+        },
+        "exists": true,
+        "exact": true,
+        "expectedDimensions": [
+          768,
+          6181
+        ],
+        "actualDimensions": [
+          768,
+          6181
+        ],
+        "dimensionExact": true
+      }
+    ]
+  },
+  "evidence_bindings": {
+    "expected": 22,
+    "exact": 22,
+    "mismatches": [],
+    "checks": [
+      {
+        "label": "bindings.input_index",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/input_index.json",
+        "expected": {
+          "bytes": 12117,
+          "sha256": "5b281f9359d15e9ba71a1b95a3a80a58b1b797c3bb940acbf4b0a0da82848825"
+        },
+        "actual": {
+          "bytes": 12117,
+          "sha256": "5b281f9359d15e9ba71a1b95a3a80a58b1b797c3bb940acbf4b0a0da82848825"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.workset",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/workset.json",
+        "expected": {
+          "bytes": 2353,
+          "sha256": "2987fc9d0f08cbb3007ae91d048883d8dbb11581c4b1206b755122cf345e0914"
+        },
+        "actual": {
+          "bytes": 2353,
+          "sha256": "2987fc9d0f08cbb3007ae91d048883d8dbb11581c4b1206b755122cf345e0914"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.source_freeze",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/source-freeze.json",
+        "expected": {
+          "bytes": 16224,
+          "sha256": "46c4f2dbc289861f9910b2cf27dc8ea5dc2ff8c6305a6ccfaf2512211fa4370c"
+        },
+        "actual": {
+          "bytes": 16224,
+          "sha256": "46c4f2dbc289861f9910b2cf27dc8ea5dc2ff8c6305a6ccfaf2512211fa4370c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.direction_check",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/4A-direction-check.json",
+        "expected": {
+          "bytes": 5857,
+          "sha256": "c3133e8b1ca0a3330a70ab4c765f13ce2b4bbec010068b938a8f9d3bddc48b3f"
+        },
+        "actual": {
+          "bytes": 5857,
+          "sha256": "c3133e8b1ca0a3330a70ab4c765f13ce2b4bbec010068b938a8f9d3bddc48b3f"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.direction_runtime",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/direction-r1-checks.json",
+        "expected": {
+          "bytes": 192615,
+          "sha256": "2eb78d80633f45e3f5d781e87f160df374322d3f5f576b44285de73a274c6f6f"
+        },
+        "actual": {
+          "bytes": 192615,
+          "sha256": "2eb78d80633f45e3f5d781e87f160df374322d3f5f576b44285de73a274c6f6f"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.preflight_runtime",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/preflight-r1-checks.json",
+        "expected": {
+          "bytes": 190397,
+          "sha256": "e75cca9492b9d4920acb5d2834899cc2cc093a16a37a63db9f77a25b57c6cf2c"
+        },
+        "actual": {
+          "bytes": 190397,
+          "sha256": "e75cca9492b9d4920acb5d2834899cc2cc093a16a37a63db9f77a25b57c6cf2c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.formal_runtime",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/formal-r1-checks.json",
+        "expected": {
+          "bytes": 216406,
+          "sha256": "4bd8bf564b612b08f9edeb2633c8b60b54b8bcbf828629ef43c834a44cbc30b5"
+        },
+        "actual": {
+          "bytes": 216406,
+          "sha256": "4bd8bf564b612b08f9edeb2633c8b60b54b8bcbf828629ef43c834a44cbc30b5"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.asset_inventory",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/asset-inventory.json",
+        "expected": {
+          "bytes": 38601,
+          "sha256": "7d899059f7947f12f1739dedcd09181256e43891ea6f4c57922f14847930290a"
+        },
+        "actual": {
+          "bytes": 38601,
+          "sha256": "7d899059f7947f12f1739dedcd09181256e43891ea6f4c57922f14847930290a"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.export_inventory",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/export-inventory.json",
+        "expected": {
+          "bytes": 40269,
+          "sha256": "7c73dfc58ea01e4e928d48228cc549f92936eea4d29744ef04bbe84318dc021c"
+        },
+        "actual": {
+          "bytes": 40269,
+          "sha256": "7c73dfc58ea01e4e928d48228cc549f92936eea4d29744ef04bbe84318dc021c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.visual_readback",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/visual-readback.json",
+        "expected": {
+          "bytes": 18373,
+          "sha256": "d61ea1b6bf5a8a5b7a45a3b82915011d9c4666e9244794cccfdd85f88c02d863"
+        },
+        "actual": {
+          "bytes": 18373,
+          "sha256": "d61ea1b6bf5a8a5b7a45a3b82915011d9c4666e9244794cccfdd85f88c02d863"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.post_freeze_drift",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/diagnostic_support/post-freeze-drift.json",
+        "expected": {
+          "bytes": 1304,
+          "sha256": "ace0d9099fae45d0d3759b2604abb9c76331fb46802424ef05055ea3f6865a35"
+        },
+        "actual": {
+          "bytes": 1304,
+          "sha256": "ace0d9099fae45d0d3759b2604abb9c76331fb46802424ef05055ea3f6865a35"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.frozen_index_snapshot",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/snapshots/01_PROJECT_INDEX.frozen.md",
+        "expected": {
+          "bytes": 21658,
+          "sha256": "fde0c59fabeda7f3688eaf4c41af59f8104c80462ef5f752212e3f53486d40cf"
+        },
+        "actual": {
+          "bytes": 21658,
+          "sha256": "fde0c59fabeda7f3688eaf4c41af59f8104c80462ef5f752212e3f53486d40cf"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.composition_report",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/MARKET-EU-DE_GATE4_VISUAL_AND_EXECUTION_REPORT_V0.1.md",
+        "expected": {
+          "bytes": 5754,
+          "sha256": "0978992f2651ea8557d456688113704b6ea10af29b290151e952dd4ebb24d053"
+        },
+        "actual": {
+          "bytes": 5754,
+          "sha256": "0978992f2651ea8557d456688113704b6ea10af29b290151e952dd4ebb24d053"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.executor_self_check",
+        "path": "D:/23MySec/pages/markets/germany/05_review/MARKET-EU-DE_GATE4_EXECUTION_SELF_CHECK_V0.1.md",
+        "expected": {
+          "bytes": 2958,
+          "sha256": "b5357eb0ee3e0724489135dff2d8f07c1dd71f6d5f26d5157984a6408c8bc674"
+        },
+        "actual": {
+          "bytes": 2958,
+          "sha256": "b5357eb0ee3e0724489135dff2d8f07c1dd71f6d5f26d5157984a6408c8bc674"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "bindings.review_submission",
+        "path": "D:/23MySec/pages/markets/germany/05_review/MARKET-EU-DE_GATE4_REVIEW_SUBMISSION_V0.1.md",
+        "expected": {
+          "bytes": 1967,
+          "sha256": "4cddbe841266194c0b825ce8346408adaebe469a625f711bbd2056cf60d96a91"
+        },
+        "actual": {
+          "bytes": 1967,
+          "sha256": "4cddbe841266194c0b825ce8346408adaebe469a625f711bbd2056cf60d96a91"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "authority_manifest",
+        "path": "D:/23MySec/pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md",
+        "expected": {
+          "bytes": 13426,
+          "sha256": "4f7bbbd0630dc7887cec21b7a5f269f8db09cd5a953ad4e726e23af954f964bd"
+        },
+        "actual": {
+          "bytes": 13426,
+          "sha256": "4f7bbbd0630dc7887cec21b7a5f269f8db09cd5a953ad4e726e23af954f964bd"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "source",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/MARKET-EU-DE_GATE4_COMPLETE_VISUAL_V0.1.html",
+        "expected": {
+          "bytes": 23813,
+          "sha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc"
+        },
+        "actual": {
+          "bytes": 23813,
+          "sha256": "9f729196ea8135b7daa9aa83cc8e43768eafa27a35792605de67d125e0eccdbc"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "css",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/visual-direction.css",
+        "expected": {
+          "bytes": 3977,
+          "sha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+        },
+        "actual": {
+          "bytes": 3977,
+          "sha256": "d5723d30d33b265beb60d8afe5394621eb5c1ada23d2a89f56ad0d4d7f21b10d"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "dependencies.0",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/dependencies/Inter-Variable.ttf",
+        "expected": {
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        },
+        "actual": {
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "dependencies.1",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/dependencies/Inter-OFL.txt",
+        "expected": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "actual": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "dependencies.2",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/dependencies/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "expected": {
+          "bytes": 4342,
+          "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+        },
+        "actual": {
+          "bytes": 4342,
+          "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+        },
+        "exists": true,
+        "exact": true
+      },
+      {
+        "label": "dependencies.3",
+        "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/dependencies/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "expected": {
+          "bytes": 2725,
+          "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+        },
+        "actual": {
+          "bytes": 2725,
+          "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+        },
+        "exists": true,
+        "exact": true
+      }
+    ]
+  },
+  "index_drift": {
+    "frozen_snapshot": {
+      "path": "D:/23MySec/pages/markets/germany/04_planning/gate4-v0.1/approval_core/snapshots/01_PROJECT_INDEX.frozen.md",
+      "bytes": 21658,
+      "sha256": "fde0c59fabeda7f3688eaf4c41af59f8104c80462ef5f752212e3f53486d40cf"
+    },
+    "live": {
+      "path": "D:/23MySec/01_PROJECT_INDEX.md",
+      "bytes": 21657,
+      "sha256": "9f369cadfe0456fd0f1e9e829d0a748d6b28ee3312a7fe964a84617625bd1939"
+    },
+    "exact": false
+  }
+}

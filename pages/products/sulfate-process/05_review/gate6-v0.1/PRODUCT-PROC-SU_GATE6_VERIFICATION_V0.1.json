@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "record_id": "PRODUCT-PROC-SU-G6-VERIFY-01",
+  "date": "2026-09-07",
+  "page_id": "PRODUCT-PROC-SU",
+  "route": "/products/sulfate-process-titanium-dioxide/",
+  "site_scope": "tio2-my",
+  "status": "EXECUTOR_SELF_CHECK_PASS_PENDING_ROOT_INDEPENDENT_REVIEW",
+  "approval_effect": "NONE",
+  "gate4_identity": {
+    "workset_id": "SU-G4-COMPLETE-V01",
+    "freeze_id": "SU-G4-COMPLETE-V01-F01",
+    "source_freeze": {
+      "bytes": 14735,
+      "sha256": "e4615952f2989d09c66e61dc45b926c36226fd92fbde5ca3ad698cb090bd8576"
+    },
+    "evidence_index": {
+      "bytes": 4348,
+      "sha256": "25eb3cc6cdbb858e34bbfc0d8af8098ca7c4c25bf3846064ecd460a0e86f53e3"
+    },
+    "dependencies_checked": 6,
+    "dependencies_byte_and_hash_match": 6,
+    "export_files_checked": 36,
+    "export_files_byte_and_hash_match": 36,
+    "dependency_failures": [],
+    "export_failures": []
+  },
+  "source_checks": {
+    "complete_visual_html": {
+      "bytes": 19596,
+      "sha256": "e17a3fafb143b2a9c7d9b72661093bdb237d453c162b6a7f38feb209cbea485c"
+    },
+    "visual_direction_css": {
+      "bytes": 808,
+      "sha256": "c9c3cd702764928f528f6be9824857b958df363171c5a1fff77fae204a2cfd99"
+    },
+    "h1_count": 1,
+    "body_section_count": 5,
+    "approved_title_present": true,
+    "approved_anchor_present": true,
+    "grade_order": [
+      "M-996",
+      "M-2196",
+      "M-108",
+      "M-52",
+      "M-2377"
+    ],
+    "grade_order_strict_match": true,
+    "rubber_present": false,
+    "specialty_materials_present": false,
+    "cr901_present": false,
+    "grade_prefill_token_present": false,
+    "visible_current_label_present": false,
+    "terms_link_present": false,
+    "cookie_settings_present": true,
+    "cookie_close_present": true,
+    "rfq_source_page_id_present": true,
+    "meta_description_present_in_visual_prototype": false,
+    "canonical_present_in_visual_prototype": false,
+    "json_ld_present_in_visual_prototype": false,
+    "head_schema_disposition": "SU-G6-F01_DELIVERY_MAPPING_ADDED_PENDING_INDEPENDENT_REVIEW",
+    "aria_current_dom_nodes": 2,
+    "aria_current_interpretation": "desktop and mobile navigation are both in the static DOM; approved Gate 4 runtime evidence shows only one navigation surface is accessible at each tested viewport"
+  },
+  "visual_inspection": {
+    "directly_opened": [
+      "approval_core/1440-full.png",
+      "approval_core/768-full.png",
+      "approval_core/390-full.png",
+      "approval_core/390-menu.png",
+      "approval_core/390-cookie.png",
+      "approval_core/390-grade-focus.png"
+    ],
+    "independent_gate4_record_scope": {
+      "images_reviewed": 36,
+      "path_bindings": 254,
+      "unique_files": 146,
+      "checks_passed": 508,
+      "checks_failed": 0
+    },
+    "direct_observation": "five body modules and footer are continuous and readable at 1440, 768 and 390; grade order and equal treatment persist; no visible overflow, clipping, placeholder or buyer-visible governance state observed"
+  },
+  "relationship_authority": {
+    "matrix_sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406",
+    "unified_audit_sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb",
+    "grade_contract_sha256": {
+      "M-996": "4eaf22aa4f3f551f27cb83b41d644caa59312b6ef20f02bcbd9aa6522f3ec66a",
+      "M-2196": "6adb2a350f3e7f2a3f5138969e4a16a5f7e81993a25729a4906838fb2116ca3c",
+      "M-108": "998c57d70ac303c0f47ac3e14b0c9214f4d53bc91130044274773b7cd3260bff",
+      "M-52": "977a72af33377f7a3cab12c4f72314e93cfd79f2be0ccfcfd62a3a2d009de1a7",
+      "M-2377": "f735a9ff9486e8693b5e59e9bf25bbad39f4b46d1b47ddac630225d540afb7fa"
+    },
+    "process_set_exact": true,
+    "application_summaries_supported": true,
+    "hidden_applicability_found": false,
+    "m996_m2196_hidden_differentiation_found": false
+  },
+  "gate6_outputs": {
+    "review": {
+      "bytes": 19675,
+      "sha256": "3fc68dcf0e93d7ea1993a3eba021a2ddb06807c911c19804769e6500dfafaac8"
+    },
+    "handoff": {
+      "bytes": 32938,
+      "sha256": "343a220cb92d058a6c8914c4e30af405d619076b14ec96eb06a2e59ef0b7f192"
+    },
+    "acceptance_id_first": "SU-G9-01",
+    "acceptance_id_last": "SU-G9-16",
+    "acceptance_id_count": 16,
+    "handoff_status": "NOT_HANDED_OFF"
+  },
+  "findings": [
+    {
+      "id": "SU-G6-F01",
+      "severity": "P1_IF_OMITTED_FROM_IMPLEMENTATION",
+      "classification": "DELIVERY_CONTRACT_GAP_NOT_GATE4_VISUAL_DEFECT",
+      "status": "EXECUTOR_REMEDIATION_COMPLETE_PENDING_ROOT_INDEPENDENT_REVIEW"
+    }
+  ],
+  "open_dependencies": [
+    "SU-DEP-01",
+    "SU-DEP-02",
+    "SU-DEP-03",
+    "SU-DEP-04",
+    "SU-DEP-05",
+    "SU-DEP-06",
+    "SU-DEP-07",
+    "SU-DEP-08"
+  ],
+  "boundary_checks": {
+    "gate1_to_gate4_sources_modified": false,
+    "nextjs_or_wordpress_code_produced": false,
+    "external_development_project_accessed": false,
+    "changes_outside_page_directory": false,
+    "gate6_approved_or_closed_by_executor": false,
+    "gate8_started": false,
+    "gate9_or_gate10_claimed": false
+  }
+}

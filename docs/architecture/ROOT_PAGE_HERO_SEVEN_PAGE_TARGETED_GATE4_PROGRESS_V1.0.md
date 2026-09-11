@@ -7,7 +7,7 @@
 | Parent control | `ROOT-HERO-G4-7PAGE-CTRL-01` |
 | Workset | `ROOT-HERO-G4-7P-V1` |
 | Date | `2026-09-11` |
-| Current state | `IN_PROGRESS / HOME_MASTER_PROOF_REVIEW_PASS / APP_NEXT` |
+| Current state | `IN_PROGRESS / WAVE_1_FROZEN / PRODUCT_NEXT` |
 | Gate 8 / D16 | `NOT_AUTHORIZED_BY_THIS_RECORD / NOT_TOUCHED` |
 
 This progress record does not replace the seven-page control. It records actual execution after the user chose to prove the shared direction on Home first and then instructed the project to continue by the approved process.
@@ -27,9 +27,25 @@ The Home proof is accepted for inheritance by the remaining bindings. It does no
 
 ## Next execution order
 
-1. Complete `APP-000` using the same open-white presentation without changing its approved content, CTA, information cards or following modules.
-2. Freeze the Wave 1 shared checkpoint.
-3. Continue `PRODUCT-000`, `MARKET-000`, `DOC-000`, `RES-000` and `ABOUT-001` in the parent control order.
-4. Perform the final cross-page Gate 5 consistency review, then project-control close and Gate 6 intake.
+1. Wave 1 is complete and frozen with Home V1.3 and APP V1.1.
+2. Continue `PRODUCT-000`, `MARKET-000`, `DOC-000`, `RES-000` and `ABOUT-001` in the parent control order.
+3. Perform the final cross-page Gate 5 consistency review, then project-control close and Gate 6 intake.
 
-The Home independent evidence is inherited in the final review; it is not repeated unless the shared master or Home binding changes.
+The Home and APP independent evidence is inherited in the final review; it is not repeated unless the shared master or the corresponding binding changes.
+
+## APP-000 Wave 1 binding
+
+- Final page-local candidate: `APP-000_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.1.md`.
+- Binding record: `APP-000_ROOT_PAGE_HERO_GATE4_BINDING_V1.1.md`.
+- Frozen visual evidence: `pages/applications/04_planning/visual-designs/app-root-page-hero-v1.1/` at 1440px, 768px and 390px.
+- Author verification: `PASS`, exit code `0`.
+- Independent targeted recheck: `APP-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_TARGETED_RECHECK_V1.1.md`, SHA-256 `4F803F70C43C6F4EAF39FA13733ED5180039C4BF4AE6A716583BA0764DF4588D`.
+- Independent result: `PROJECT_CONTROL_REVIEW_PASS`; required Findings `0`.
+
+The initial V1.0 candidate and its independent return are retained as history. V1.1 closes the missing Desktop Home navigation item, prohibited unconditional application subroutes, six imprecise card anchors and the H1 weight mismatch. This remains a page-local proof and does not update the current APP Manifest or close the seven-page Gate 4/Gate 5 workset.
+
+## Wave 1 checkpoint
+
+Home V1.3 and APP V1.1 jointly prove the shared open-white family at 1440px, 768px and 390px. The shared grid, typography, action rhythm, information-card placement, Hero-to-body transition, zero visible `CURRENT`, zero Hero left decorative rule and minimum 44px target rules are frozen for inheritance. Any later change to the shared parent requires regeneration and recheck of both Wave 1 bindings.
+
+Next: begin the `PRODUCT-000` Wave 2 binding as a preservation/reference proof. Do not alter its approved open-white content or treat this checkpoint as Gate 6 or Gate 8 authorization.

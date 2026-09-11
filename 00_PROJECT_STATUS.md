@@ -1,5 +1,7 @@
 # TiO2 Malaysia · 当前项目状态
 
+2026-09-11 七页共享Hero Wave 1已冻结：Home V1.3与APP-000 V1.1均完成制作、定向返修和独立审查，APP最终`PROJECT_CONTROL_REVIEW_PASS`、必修Finding 0；三断点、自适应、44px、无可见CURRENT、无Hero巨大外框/左侧竖线及Hero到首模块过渡均已复验。其余五页加APP共六页的前置审查已完成，资料均可用并须按Wave顺序执行；下一页为PRODUCT-000参考绑定。七页横向Gate 5完成前不更新各页当前Manifest、不进入Gate 6/8、不操作D16。[六页前置审查](docs/architecture/ROOT_PAGE_HERO_SIX_PAGE_PREFLIGHT_AUDIT_V1.0.md) / [七页进度](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_PROGRESS_V1.0.md) / [APP独立复审](pages/applications/05_review/APP-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_TARGETED_RECHECK_V1.1.md)。
+
 2026-09-11 Home开放白底共享Hero样板已完成Gate 4制作、自检、三轮冻结返修及独立Gate 5审查：最终bundle `HOME-ROOT-HERO-G4-CANDIDATE-04`，`HOME-ROOT-HERO-G5-F01=CLOSED`，必修Finding 0；1440用户确认视觉保持，1024/1023/768/767/561/390/350响应参数及非Hero模块保持均已独立复验。依据七页控制单，本结果作为Wave 1 Home样板证明保留，七页横向组合未完成前不单独关闭整组Gate 4/5、不更新Home当前Manifest、不进入Gate 6。下一顺序为APP-000开放白底绑定；Gate 8与D16均未触碰。[Home V1.3候选](pages/home/04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.3.md) / [独立最终复审](pages/home/05_review/HOME-001_ROOT_PAGE_HERO_GATE5_TARGETED_RECHECK_V1.2.md) / [七页进度](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_PROGRESS_V1.0.md)。
 
 2026-09-11七个一级导航根页面Hero定向Gate 4编排已准备：`ROOT-HERO-G4-7PAGE-CTRL-01=PREPARED / NOT_DISPATCHED`。顺序为`HOME-001 + APP-000`共享母版验证 → `PRODUCT-000 + MARKET-000 + DOC-000`浅色Hub扩展 → `RES-000 + ABOUT-001`特殊变体；建议由一个Gate 4任务维护共享母版与七页绑定，冻结后交给另一个独立任务执行一次横向Gate 5审查。当前未派发Gate 4、未更新七页Manifest、未授权Gate 8、未操作`D:\16Wordpress_nextjs`。[七页控制单V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_CONTROL_V1.0.md)。

@@ -1,0 +1,68 @@
+{
+  "freeze_id": "APP-ROOT-HERO-G4-CANDIDATE-02-FREEZE-20260911",
+  "page_id": "APP-000",
+  "candidate_id": "APP-ROOT-HERO-G4-CANDIDATE-02",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "scope": "Wave 1 targeted Gate 4 required-revision proof only; no APP Manifest replacement, Gate closure, Gate 6/8 work, implementation, or release authorization.",
+  "supersedes": {
+    "candidate": "APP-ROOT-HERO-G4-CANDIDATE-01",
+    "historical_path": "pages/applications/04_planning/visual-designs/app-root-page-hero-v1.0/",
+    "preserved": true
+  },
+  "contracts": [
+    "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+    "docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+    "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+    "pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md"
+  ],
+  "source_dependencies": [
+    {
+      "path": "brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "purpose": "approved primary horizontal Logo in the white Header"
+    },
+    {
+      "path": "pages/home/04_planning/visual-designs/home-root-page-hero-v1.3/dependencies/Inter-Variable.ttf",
+      "purpose": "Home V1.3 reference font dependency used by the standalone capture"
+    }
+  ],
+  "candidate": {
+    "path": "app-root-page-hero-preview-v1.1.html",
+    "bytes": 10469,
+    "sha256": "e918ee91286e4697986f56f0c397922a55523ac2d946802425695bd1e3864d9d"
+  },
+  "replay": {
+    "capture": "node capture-app-root-page-hero-v1.1.cjs",
+    "verification": "node verify-app-root-page-hero-v1.1.cjs",
+    "tools": [
+      { "path": "capture-app-root-page-hero-v1.1.cjs", "sha256": "b10484cd58bdd8d43ddec7a886a328bd22db861f16d9f8b0ea798e630c180777" },
+      { "path": "verify-app-root-page-hero-v1.1.cjs", "sha256": "2b0cbbb7304b896e833ec4a7af15881d44c8688240bfa0fcb1b6a6021e684c48" }
+    ],
+    "runtime_report": {
+      "path": "capture-runtime-v1.1.json",
+      "bytes": 4238,
+      "sha256": "853a3a90d7e08240bb5d637285552fc19c91a4fdf22447208c30ab2dd6829d45",
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    { "name": "desktop", "path": "APP-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.1.png", "dimensions": "1440x980", "bytes": 124820, "sha256": "8a5b06eda91f0b11d2c4df739f5b7a2832ce92ac187f2a9b72c3b62d54528878", "h1_px": 56, "header_px": 84 },
+    { "name": "tablet", "path": "APP-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.1.png", "dimensions": "768x1180", "bytes": 101827, "sha256": "af8c3d555a8be32435823d65f150a6a494d9828ed741b16da32551de05c5955c", "h1_px": 44, "header_px": 64 },
+    { "name": "mobile", "path": "APP-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.1.png", "dimensions": "390x1280", "bytes": 88290, "sha256": "a0846012bf069762d8e635655dd02a3197fb0ea6ea86275a74fcdab203b4ffd8", "h1_px": 36, "header_px": 64 }
+  ],
+  "validated": {
+    "desktop_navigation_order": ["Home", "Markets", "Products", "Applications", "Documents", "Resources", "About"],
+    "buyer_visible_status_label": false,
+    "h1_weight": 700,
+    "hero_card_exact_anchors": true,
+    "anchor_targets_resolve": true,
+    "m2_preview_route_links": 0,
+    "unconditional_application_subroutes": 0,
+    "open_white_surface": true,
+    "no_hero_left_decoration": true,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false,
+    "h1_line_count_maximum": 2
+  }
+}

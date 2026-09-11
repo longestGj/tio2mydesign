@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>APP-000 Root Page Hero Gate 4 Candidate V1.0</title>
+  <style>
+    @font-face {
+      font-family: Inter;
+      src: url('../../../../home/04_planning/visual-designs/home-root-page-hero-v1.3/dependencies/Inter-Variable.ttf') format('truetype');
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+    }
+    :root { --navy:#123047; --teal:#008078; --ink:#173246; --muted:#506779; --line:#d7e1e6; --wash:#f4f8f8; }
+    * { box-sizing:border-box; }
+    html, body { margin:0; min-width:0; overflow-x:hidden; }
+    body { color:var(--ink); background:#fff; font-family:Inter, Arial, sans-serif; font-size:16px; line-height:1.5; }
+    a { color:inherit; text-decoration:none; }
+    .site-header { height:84px; background:#fff; border-bottom:1px solid #e5ecef; }
+    .header-inner { width:min(1200px, calc(100% - 48px)); height:100%; margin:auto; display:flex; align-items:center; gap:28px; }
+    .header-inner > a:first-child { min-height:44px; display:flex; align-items:center; }
+    .brand-logo { display:block; width:180px; height:60px; flex:0 0 180px; object-fit:contain; }
+    .desktop-nav { margin-left:auto; display:flex; align-self:stretch; align-items:center; gap:25px; }
+    .desktop-nav a { position:relative; min-height:44px; display:flex; align-items:center; font-size:14px; font-weight:600; color:#2b4657; white-space:nowrap; }
+    .desktop-nav .is-active { color:var(--navy); font-weight:750; }
+    .desktop-nav .is-active::after { content:""; position:absolute; left:0; right:0; bottom:0; height:3px; background:var(--teal); }
+    .rfq { min-height:44px; padding:0 18px; display:inline-flex; align-items:center; justify-content:center; border-radius:2px; background:var(--teal); color:#fff; font-size:14px; font-weight:750; white-space:nowrap; }
+    .mobile-header { display:none; }
+    .page-grid { width:min(1200px, calc(100% - 48px)); margin:auto; }
+    .breadcrumb { padding-top:24px; color:#577081; font-size:14px; }
+    .breadcrumb a { min-height:44px; display:inline-flex; align-items:center; color:#37596d; }
+    .breadcrumb span { margin:0 8px; color:#78909e; }
+    .hero-shell { border: 0; border-radius: 0; background: transparent; box-shadow: none; position:relative; }
+    .hero-shell::before { content:none; display:none; }
+    .hero-layout { display:grid; grid-template-columns:minmax(0, 1.62fr) minmax(330px, .98fr); gap:68px; align-items:center; padding:52px 0 64px; }
+    .eyebrow { margin:0 0 13px; color:var(--teal); font-size:14px; font-weight:780; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { max-width:720px; margin:0; color:var(--navy); font-size: 56px; font-weight:730; letter-spacing:-.045em; line-height:1.055; }
+    .hero-intro { max-width:670px; margin:22px 0 0; color:#425d6e; font-size:18px; line-height:1.62; }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
+    .button { min-height: 44px; padding:11px 20px; display:inline-flex; align-items:center; justify-content:center; border:1px solid transparent; border-radius:2px; font-size:15px; font-weight:750; line-height:1.2; }
+    .button-primary { background:var(--teal); color:#fff; }
+    .button-secondary { border-color:#48687a; background:#fff; color:var(--navy); }
+    .application-card { padding:24px; background:#fff; border:1px solid #cbd9df; border-radius:8px; box-shadow:0 10px 24px rgba(18,48,71,.08); }
+    .application-card h2 { margin:0; color:var(--navy); font-size:22px; line-height:1.25; letter-spacing:-.02em; }
+    .application-card p { margin:8px 0 17px; color:#5b7180; font-size:14px; }
+    .application-links { margin:0; padding:0; display:grid; grid-template-columns:1fr 1fr; gap:7px 10px; list-style:none; }
+    .application-links a { min-height:44px; padding:10px 11px; display:flex; align-items:center; border:1px solid #dce6ea; border-radius:3px; color:#24475b; font-size:14px; font-weight:650; }
+    .application-links a::after { content:'→'; margin-left:auto; color:var(--teal); font-weight:800; }
+    .module-start { border-top:1px solid #dbe5e9; background:var(--wash); }
+    .module-inner { width:min(1200px, calc(100% - 48px)); margin:auto; padding:46px 0 64px; }
+    .module-kicker { margin:0 0 10px; color:var(--teal); font-size:14px; font-weight:780; letter-spacing:.08em; text-transform:uppercase; }
+    .module-start h2 { margin:0; color:var(--navy); font-size:34px; line-height:1.18; letter-spacing:-.03em; }
+    .module-intro { max-width:770px; margin:14px 0 26px; color:#486272; font-size:16px; line-height:1.6; }
+    .application-preview-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; }
+    .application-preview-grid a { min-height:76px; padding:17px; display:flex; align-items:center; justify-content:space-between; background:#fff; border:1px solid #d6e2e7; color:#24475b; font-weight:720; }
+    .application-preview-grid a::after { content:'→'; color:var(--teal); }
+    @media (max-width:1023px) {
+      .site-header { height:64px; }
+      .header-inner { width:calc(100% - 40px); justify-content:space-between; gap:12px; }
+      .brand-logo { width:120px; height:40px; flex-basis:120px; }
+      .desktop-nav, .header-inner > .rfq { display:none; }
+      .mobile-header { display:flex; align-items:center; gap:10px; }
+      .mobile-header .rfq { padding:0 13px; font-size:13px; }
+      .menu-button { min-width:44px; min-height:44px; display:inline-flex; align-items:center; justify-content:center; border:1px solid #9cb0bb; border-radius:2px; background:#fff; color:var(--navy); font:inherit; font-size:13px; font-weight:750; }
+      .page-grid, .module-inner { width:calc(100% - 48px); }
+      .breadcrumb { padding-top:20px; }
+      .hero-layout { grid-template-columns:1fr; gap:28px; padding:40px 0 52px; }
+      h1 { font-size: 44px; max-width:690px; }
+      .hero-intro { max-width:680px; }
+      .application-card { max-width:680px; }
+      .module-start h2 { font-size:30px; }
+    }
+    @media (max-width:767px) {
+      .header-inner { width:calc(100% - 40px); }
+      .page-grid, .module-inner { width:calc(100% - 40px); }
+      .breadcrumb { padding-top:16px; font-size:13px; }
+      .hero-layout { padding:32px 0 42px; gap:26px; }
+      .eyebrow { margin-bottom:10px; font-size:12px; }
+      h1 { font-size: 36px; line-height:1.08; }
+      .hero-intro { margin-top:18px; font-size:16px; line-height:1.58; }
+      .hero-actions { display:grid; grid-template-columns:1fr; margin-top:25px; }
+      .button { width:100%; min-height: 44px; }
+      .application-card { padding:20px; border-radius:6px; }
+      .application-card h2 { font-size:21px; }
+      .application-links { grid-template-columns:1fr; gap:8px; }
+      .module-inner { padding:36px 0 48px; }
+      .module-start h2 { font-size:28px; }
+      .application-preview-grid { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" aria-label="Global header">
+    <div class="header-inner">
+      <a href="/" aria-label="TiO2 Malaysia home"><img class="brand-logo" src="../../../../../brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg" alt="TiO2 Malaysia"></a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="/markets/">Markets</a><a href="/products/">Products</a><a class="is-active" href="/applications/" aria-current="page">Applications</a><a href="/documents/">Documents</a><a href="/resources/">Resources</a><a href="/about/">About</a>
+      </nav>
+      <a class="rfq" href="/request-a-quote/">Request a Quote</a>
+      <div class="mobile-header"><a class="rfq" href="/request-a-quote/">Request a Quote</a><button class="menu-button" type="button" aria-label="Open menu">Menu</button></div>
+    </div>
+  </header>
+  <main>
+    <section class="hero-shell" aria-labelledby="page-title">
+      <div class="page-grid">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><span>Applications</span></nav>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Applications</p>
+            <h1 id="page-title">Explore Titanium Dioxide by Application</h1>
+            <p class="hero-intro">This hub organizes titanium dioxide grades by application across coatings, plastics, masterbatch, printing inks, paper and specialty materials. Use each collection as a starting point for technical evaluation.</p>
+            <div class="hero-actions" aria-label="Hero actions"><a class="button button-primary" href="#application-selector">Explore Applications</a><a class="button button-secondary" href="/request-a-quote/">Request a Quote</a></div>
+          </div>
+          <aside class="application-card" aria-labelledby="application-card-title">
+            <h2 id="application-card-title">Choose an Application</h2>
+            <p>Start with the collection that matches your evaluation context.</p>
+            <ul class="application-links"><li><a href="#coatings">Coatings</a></li><li><a href="#plastics">Plastics</a></li><li><a href="#masterbatch">Masterbatch</a></li><li><a href="#printing-inks">Printing Inks</a></li><li><a href="#paper">Paper</a></li><li><a href="#specialty-materials">Specialty Materials</a></li></ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <section class="module-start" id="application-selector" aria-labelledby="choose-by-application">
+      <div class="module-inner">
+        <p class="module-kicker">Application selector</p>
+        <h2 id="choose-by-application">Choose by Application</h2>
+        <p class="module-intro">Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.</p>
+        <div class="application-preview-grid" aria-label="Application collections"><a id="coatings" href="/applications/coatings/">Coatings</a><a id="plastics" href="/applications/plastics/">Plastics</a><a id="masterbatch" href="/applications/masterbatch/">Masterbatch</a><a id="printing-inks" href="/applications/printing-inks/">Printing Inks</a><a id="paper" href="/applications/paper/">Paper</a><a id="specialty-materials" href="/applications/specialty-materials/">Specialty Materials</a></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

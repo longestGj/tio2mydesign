@@ -1,0 +1,93 @@
+{
+  "freeze_id": "APP-ROOT-HERO-G4-CANDIDATE-01-FREEZE-20260911",
+  "page_id": "APP-000",
+  "candidate_id": "APP-ROOT-HERO-G4-CANDIDATE-01",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "scope": "Wave 1 targeted Gate 4 visual proof only; no APP Manifest replacement, Gate closure, Gate 6/8 work, implementation, or release authorization.",
+  "contracts": [
+    "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+    "docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+    "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+    "pages/home/04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.3.md"
+  ],
+  "source_dependencies": [
+    {
+      "path": "brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "purpose": "approved primary horizontal Logo consumed in the white Header"
+    },
+    {
+      "path": "pages/home/04_planning/visual-designs/home-root-page-hero-v1.3/dependencies/Inter-Variable.ttf",
+      "purpose": "Home V1.3 reference font dependency used by the standalone capture"
+    }
+  ],
+  "candidate": {
+    "path": "app-root-page-hero-preview-v1.0.html",
+    "bytes": 10475,
+    "sha256": "cdf3bd13a21ff663a5142780af2f4eb4766055cef04f084b8b6328d4dfad7a83"
+  },
+  "replay": {
+    "capture": "node capture-app-root-page-hero-v1.0.cjs",
+    "verification": "node verify-app-root-page-hero-v1.0.cjs",
+    "tools": [
+      {
+        "path": "capture-app-root-page-hero-v1.0.cjs",
+        "sha256": "51bfc540a96c6b1ff02c04a167a1d862eb6c422c3702ce2ecee23e332cff1e47"
+      },
+      {
+        "path": "verify-app-root-page-hero-v1.0.cjs",
+        "sha256": "501120eb58f2b9a4f4ba88fb74810375afc02939303e9279bb46f83a2c48b880"
+      }
+    ],
+    "runtime_report": {
+      "path": "capture-runtime-v1.0.json",
+      "bytes": 2426,
+      "sha256": "bdca0328cac8a329c9eb640d0df99866e3b9fa44d4350b23f6666f05a0038c83",
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    {
+      "name": "desktop",
+      "path": "APP-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png",
+      "dimensions": "1440x980",
+      "bytes": 125254,
+      "sha256": "c864c632e950f9c3e962550a79b5fc03b5c08010a29a2c01282c7302cd265e74",
+      "h1_px": 56,
+      "header_px": 84
+    },
+    {
+      "name": "tablet",
+      "path": "APP-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png",
+      "dimensions": "768x1180",
+      "bytes": 102841,
+      "sha256": "ce5dbca7f4300adf298145fe73f77f788413fd06a2bd082a603996091609f63c",
+      "h1_px": 44,
+      "header_px": 64
+    },
+    {
+      "name": "mobile",
+      "path": "APP-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png",
+      "dimensions": "390x1280",
+      "bytes": 87614,
+      "sha256": "9b7b5531234d0b072ac68a316bf4c1204d3a96ece8c9fade077604a33f157736",
+      "h1_px": 36,
+      "header_px": 64
+    }
+  ],
+  "validated": {
+    "open_white_surface": true,
+    "no_hero_wide_border": true,
+    "no_hero_wide_radius": true,
+    "no_hero_wide_background": true,
+    "no_hero_wide_shadow": true,
+    "no_hero_left_decoration": true,
+    "no_buyer_visible_status_label": true,
+    "information_card_follows_actions_at_responsive_widths": true,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false,
+    "h1_line_count_maximum": 2
+  },
+  "historical_assets": "Preserved without modification: pages/applications/04_planning/gate4-v1.0/ and pages/applications/04_planning/visual-designs/APP-000_FULL_VISUAL_DESIGN_V0.12.md."
+}

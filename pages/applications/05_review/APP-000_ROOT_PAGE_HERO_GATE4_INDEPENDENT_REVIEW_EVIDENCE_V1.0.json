@@ -1,0 +1,409 @@
+{
+  "reviewId": "APP-ROOT-HERO-G4-IR-01",
+  "reviewerRole": "independent read-only reviewer",
+  "candidate": {
+    "path": "D:\\23MySec\\pages\\applications\\04_planning\\visual-designs\\app-root-page-hero-v1.0\\app-root-page-hero-preview-v1.0.html",
+    "sha256": "cdf3bd13a21ff663a5142780af2f4eb4766055cef04f084b8b6328d4dfad7a83"
+  },
+  "freeze": {
+    "path": "D:\\23MySec\\pages\\applications\\04_planning\\visual-designs\\app-root-page-hero-v1.0\\freeze-record.json",
+    "sha256": "861d949396a10de8aaaf7392963ab1d7fc010066c8d4f2530668921b99eb1dde"
+  },
+  "checks": [
+    {
+      "id": "IR-01",
+      "pass": true,
+      "observed": "cdf3bd13a21ff663a5142780af2f4eb4766055cef04f084b8b6328d4dfad7a83",
+      "expected": "cdf3bd13a21ff663a5142780af2f4eb4766055cef04f084b8b6328d4dfad7a83"
+    },
+    {
+      "id": "IR-02-desktop",
+      "pass": true,
+      "observed": "c864c632e950f9c3e962550a79b5fc03b5c08010a29a2c01282c7302cd265e74",
+      "expected": "c864c632e950f9c3e962550a79b5fc03b5c08010a29a2c01282c7302cd265e74"
+    },
+    {
+      "id": "IR-02-tablet",
+      "pass": true,
+      "observed": "ce5dbca7f4300adf298145fe73f77f788413fd06a2bd082a603996091609f63c",
+      "expected": "ce5dbca7f4300adf298145fe73f77f788413fd06a2bd082a603996091609f63c"
+    },
+    {
+      "id": "IR-02-mobile",
+      "pass": true,
+      "observed": "9b7b5531234d0b072ac68a316bf4c1204d3a96ece8c9fade077604a33f157736",
+      "expected": "9b7b5531234d0b072ac68a316bf4c1204d3a96ece8c9fade077604a33f157736"
+    },
+    {
+      "id": "IR-03",
+      "pass": true,
+      "observed": "PASS",
+      "expected": "PASS with 3 viewports"
+    },
+    {
+      "id": "IR-04-desktop",
+      "pass": true,
+      "observed": {
+        "size": 56,
+        "lines": 2
+      },
+      "expected": {
+        "size": 56,
+        "maxLines": 3
+      }
+    },
+    {
+      "id": "IR-05-desktop",
+      "pass": true,
+      "observed": {
+        "header": 84,
+        "minActionHeight": 44,
+        "overflow": false
+      },
+      "expected": {
+        "header": 84,
+        "minActionHeight": 44,
+        "overflow": false
+      }
+    },
+    {
+      "id": "IR-06-desktop",
+      "pass": true,
+      "observed": {
+        "currentVisible": false,
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "pseudo": "none"
+      },
+      "expected": "open-white / no CURRENT / no decoration"
+    },
+    {
+      "id": "IR-04-tablet",
+      "pass": true,
+      "observed": {
+        "size": 44,
+        "lines": 2
+      },
+      "expected": {
+        "size": 44,
+        "maxLines": 3
+      }
+    },
+    {
+      "id": "IR-05-tablet",
+      "pass": true,
+      "observed": {
+        "header": 64,
+        "minActionHeight": 44,
+        "overflow": false
+      },
+      "expected": {
+        "header": 64,
+        "minActionHeight": 44,
+        "overflow": false
+      }
+    },
+    {
+      "id": "IR-06-tablet",
+      "pass": true,
+      "observed": {
+        "currentVisible": false,
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "pseudo": "none"
+      },
+      "expected": "open-white / no CURRENT / no decoration"
+    },
+    {
+      "id": "IR-04-mobile",
+      "pass": true,
+      "observed": {
+        "size": 36,
+        "lines": 2
+      },
+      "expected": {
+        "size": 36,
+        "maxLines": 3
+      }
+    },
+    {
+      "id": "IR-05-mobile",
+      "pass": true,
+      "observed": {
+        "header": 64,
+        "minActionHeight": 44,
+        "overflow": false
+      },
+      "expected": {
+        "header": 64,
+        "minActionHeight": 44,
+        "overflow": false
+      }
+    },
+    {
+      "id": "IR-06-mobile",
+      "pass": true,
+      "observed": {
+        "currentVisible": false,
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "pseudo": "none"
+      },
+      "expected": "open-white / no CURRENT / no decoration"
+    },
+    {
+      "id": "IR-07",
+      "pass": true,
+      "observed": {
+        "primary": "#application-selector",
+        "secondary": "/request-a-quote/"
+      },
+      "expected": {
+        "primary": "#application-selector",
+        "secondary": "/request-a-quote/"
+      }
+    },
+    {
+      "id": "IR-08",
+      "pass": false,
+      "observed": {
+        "labels": [
+          "Coatings",
+          "Plastics",
+          "Masterbatch",
+          "Printing Inks",
+          "Paper",
+          "Specialty Materials"
+        ],
+        "hrefs": [
+          "#coatings",
+          "#plastics",
+          "#masterbatch",
+          "#printing-inks",
+          "#paper",
+          "#specialty-materials"
+        ]
+      },
+      "expected": "six approved same-page application anchors in order"
+    },
+    {
+      "id": "IR-09",
+      "pass": true,
+      "observed": {
+        "heading": "Choose by Application",
+        "intro": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "cardAfterActions": true
+      },
+      "expected": "approved Hero-to-M2 transition"
+    },
+    {
+      "id": "IR-10",
+      "pass": false,
+      "observed": [
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "expected": "complete shared primary-navigation link order before RFQ"
+    },
+    {
+      "id": "IR-11",
+      "pass": false,
+      "observed": "730",
+      "expected": "700"
+    },
+    {
+      "id": "IR-12",
+      "pass": false,
+      "observed": [
+        "/applications/coatings/",
+        "/applications/plastics/",
+        "/applications/masterbatch/",
+        "/applications/printing-inks/",
+        "/applications/paper/",
+        "/applications/specialty-materials/"
+      ],
+      "expected": "no sixth Application route; Specialty remains a no-CTA collection / CR-901 path under its existing conditional contract"
+    }
+  ],
+  "viewportResults": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 980,
+      "h1": 56,
+      "header": 84,
+      "h1Size": 56,
+      "h1Weight": "730",
+      "h1Lines": 2,
+      "headerHeight": 84,
+      "overflow": false,
+      "minActionHeight": 44,
+      "currentVisible": false,
+      "heroBorder": "0px",
+      "heroRadius": "0px",
+      "heroBackground": "rgba(0, 0, 0, 0)",
+      "heroShadow": "none",
+      "heroPseudo": "none",
+      "primaryHref": "#application-selector",
+      "secondaryHref": "/request-a-quote/",
+      "cardLabels": [
+        "Coatings",
+        "Plastics",
+        "Masterbatch",
+        "Printing Inks",
+        "Paper",
+        "Specialty Materials"
+      ],
+      "cardHrefs": [
+        "#coatings",
+        "#plastics",
+        "#masterbatch",
+        "#printing-inks",
+        "#paper",
+        "#specialty-materials"
+      ],
+      "previewHrefs": [
+        "/applications/coatings/",
+        "/applications/plastics/",
+        "/applications/masterbatch/",
+        "/applications/printing-inks/",
+        "/applications/paper/",
+        "/applications/specialty-materials/"
+      ],
+      "navLabels": [
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "firstModule": "Choose by Application",
+      "firstModuleText": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "cardAfterActions": true
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1180,
+      "h1": 44,
+      "header": 64,
+      "h1Size": 44,
+      "h1Weight": "730",
+      "h1Lines": 2,
+      "headerHeight": 64,
+      "overflow": false,
+      "minActionHeight": 44,
+      "currentVisible": false,
+      "heroBorder": "0px",
+      "heroRadius": "0px",
+      "heroBackground": "rgba(0, 0, 0, 0)",
+      "heroShadow": "none",
+      "heroPseudo": "none",
+      "primaryHref": "#application-selector",
+      "secondaryHref": "/request-a-quote/",
+      "cardLabels": [
+        "Coatings",
+        "Plastics",
+        "Masterbatch",
+        "Printing Inks",
+        "Paper",
+        "Specialty Materials"
+      ],
+      "cardHrefs": [
+        "#coatings",
+        "#plastics",
+        "#masterbatch",
+        "#printing-inks",
+        "#paper",
+        "#specialty-materials"
+      ],
+      "previewHrefs": [
+        "/applications/coatings/",
+        "/applications/plastics/",
+        "/applications/masterbatch/",
+        "/applications/printing-inks/",
+        "/applications/paper/",
+        "/applications/specialty-materials/"
+      ],
+      "navLabels": [
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "firstModule": "Choose by Application",
+      "firstModuleText": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "cardAfterActions": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 1280,
+      "h1": 36,
+      "header": 64,
+      "h1Size": 36,
+      "h1Weight": "730",
+      "h1Lines": 2,
+      "headerHeight": 64,
+      "overflow": false,
+      "minActionHeight": 44,
+      "currentVisible": false,
+      "heroBorder": "0px",
+      "heroRadius": "0px",
+      "heroBackground": "rgba(0, 0, 0, 0)",
+      "heroShadow": "none",
+      "heroPseudo": "none",
+      "primaryHref": "#application-selector",
+      "secondaryHref": "/request-a-quote/",
+      "cardLabels": [
+        "Coatings",
+        "Plastics",
+        "Masterbatch",
+        "Printing Inks",
+        "Paper",
+        "Specialty Materials"
+      ],
+      "cardHrefs": [
+        "#coatings",
+        "#plastics",
+        "#masterbatch",
+        "#printing-inks",
+        "#paper",
+        "#specialty-materials"
+      ],
+      "previewHrefs": [
+        "/applications/coatings/",
+        "/applications/plastics/",
+        "/applications/masterbatch/",
+        "/applications/printing-inks/",
+        "/applications/paper/",
+        "/applications/specialty-materials/"
+      ],
+      "navLabels": [
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "firstModule": "Choose by Application",
+      "firstModuleText": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "cardAfterActions": true
+    }
+  ],
+  "result": "RETURN"
+}

@@ -1,0 +1,581 @@
+{
+  "reviewId": "APP-ROOT-HERO-G4-IR-02",
+  "reviewerRole": "independent targeted recheck",
+  "candidate": {
+    "path": "D:\\23MySec\\pages\\applications\\04_planning\\visual-designs\\app-root-page-hero-v1.1\\app-root-page-hero-preview-v1.1.html",
+    "sha256": "e918ee91286e4697986f56f0c397922a55523ac2d946802425695bd1e3864d9d"
+  },
+  "freeze": {
+    "path": "D:\\23MySec\\pages\\applications\\04_planning\\visual-designs\\app-root-page-hero-v1.1\\freeze-record.json",
+    "sha256": "e66d18f4bfd7c260bd61ad9b4a595abf5d9f6d816d45adaaed46d3599c438469"
+  },
+  "checks": [
+    {
+      "id": "IRR-01",
+      "pass": true,
+      "observed": "e918ee91286e4697986f56f0c397922a55523ac2d946802425695bd1e3864d9d",
+      "expected": "e918ee91286e4697986f56f0c397922a55523ac2d946802425695bd1e3864d9d"
+    },
+    {
+      "id": "IRR-02-desktop",
+      "pass": true,
+      "observed": "8a5b06eda91f0b11d2c4df739f5b7a2832ce92ac187f2a9b72c3b62d54528878",
+      "expected": "8a5b06eda91f0b11d2c4df739f5b7a2832ce92ac187f2a9b72c3b62d54528878"
+    },
+    {
+      "id": "IRR-02-tablet",
+      "pass": true,
+      "observed": "af8c3d555a8be32435823d65f150a6a494d9828ed741b16da32551de05c5955c",
+      "expected": "af8c3d555a8be32435823d65f150a6a494d9828ed741b16da32551de05c5955c"
+    },
+    {
+      "id": "IRR-02-mobile",
+      "pass": true,
+      "observed": "a0846012bf069762d8e635655dd02a3197fb0ea6ea86275a74fcdab203b4ffd8",
+      "expected": "a0846012bf069762d8e635655dd02a3197fb0ea6ea86275a74fcdab203b4ffd8"
+    },
+    {
+      "id": "IRR-03",
+      "pass": true,
+      "observed": "PASS",
+      "expected": "PASS / 3 viewports"
+    },
+    {
+      "id": "IRR-04-desktop",
+      "pass": true,
+      "observed": {
+        "size": 56,
+        "lines": 2
+      },
+      "expected": {
+        "size": 56,
+        "maxLines": 3
+      }
+    },
+    {
+      "id": "IRR-05-desktop",
+      "pass": true,
+      "observed": {
+        "header": 84,
+        "minActionHeight": 44,
+        "overflow": false
+      },
+      "expected": {
+        "header": 84,
+        "minActionHeight": 44,
+        "overflow": false
+      }
+    },
+    {
+      "id": "IRR-06-desktop",
+      "pass": true,
+      "observed": {
+        "currentCount": 0,
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "pseudo": [
+          "none",
+          "none"
+        ]
+      },
+      "expected": "CURRENT=0 / open-white with no exterior decoration"
+    },
+    {
+      "id": "IRR-08-desktop",
+      "pass": true,
+      "observed": {
+        "hrefs": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "targets": [
+          "application-coatings",
+          "application-plastics",
+          "application-masterbatch",
+          "application-printing-inks",
+          "application-paper",
+          "application-specialty-materials"
+        ]
+      },
+      "expected": [
+        "#application-coatings",
+        "#application-plastics",
+        "#application-masterbatch",
+        "#application-printing-inks",
+        "#application-paper",
+        "#application-specialty-materials"
+      ]
+    },
+    {
+      "id": "IRR-10-desktop",
+      "pass": true,
+      "observed": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "expected": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ]
+    },
+    {
+      "id": "IRR-11-desktop",
+      "pass": true,
+      "observed": "700",
+      "expected": "700"
+    },
+    {
+      "id": "IRR-12-desktop",
+      "pass": true,
+      "observed": {
+        "previewHrefs": [],
+        "applicationRoutes": []
+      },
+      "expected": "zero child-application routes; no Specialty route"
+    },
+    {
+      "id": "IRR-04-tablet",
+      "pass": true,
+      "observed": {
+        "size": 44,
+        "lines": 2
+      },
+      "expected": {
+        "size": 44,
+        "maxLines": 3
+      }
+    },
+    {
+      "id": "IRR-05-tablet",
+      "pass": true,
+      "observed": {
+        "header": 64,
+        "minActionHeight": 44,
+        "overflow": false
+      },
+      "expected": {
+        "header": 64,
+        "minActionHeight": 44,
+        "overflow": false
+      }
+    },
+    {
+      "id": "IRR-06-tablet",
+      "pass": true,
+      "observed": {
+        "currentCount": 0,
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "pseudo": [
+          "none",
+          "none"
+        ]
+      },
+      "expected": "CURRENT=0 / open-white with no exterior decoration"
+    },
+    {
+      "id": "IRR-08-tablet",
+      "pass": true,
+      "observed": {
+        "hrefs": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "targets": [
+          "application-coatings",
+          "application-plastics",
+          "application-masterbatch",
+          "application-printing-inks",
+          "application-paper",
+          "application-specialty-materials"
+        ]
+      },
+      "expected": [
+        "#application-coatings",
+        "#application-plastics",
+        "#application-masterbatch",
+        "#application-printing-inks",
+        "#application-paper",
+        "#application-specialty-materials"
+      ]
+    },
+    {
+      "id": "IRR-10-tablet",
+      "pass": true,
+      "observed": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "expected": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ]
+    },
+    {
+      "id": "IRR-11-tablet",
+      "pass": true,
+      "observed": "700",
+      "expected": "700"
+    },
+    {
+      "id": "IRR-12-tablet",
+      "pass": true,
+      "observed": {
+        "previewHrefs": [],
+        "applicationRoutes": []
+      },
+      "expected": "zero child-application routes; no Specialty route"
+    },
+    {
+      "id": "IRR-04-mobile",
+      "pass": true,
+      "observed": {
+        "size": 36,
+        "lines": 2
+      },
+      "expected": {
+        "size": 36,
+        "maxLines": 3
+      }
+    },
+    {
+      "id": "IRR-05-mobile",
+      "pass": true,
+      "observed": {
+        "header": 64,
+        "minActionHeight": 44,
+        "overflow": false
+      },
+      "expected": {
+        "header": 64,
+        "minActionHeight": 44,
+        "overflow": false
+      }
+    },
+    {
+      "id": "IRR-06-mobile",
+      "pass": true,
+      "observed": {
+        "currentCount": 0,
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "shadow": "none",
+        "pseudo": [
+          "none",
+          "none"
+        ]
+      },
+      "expected": "CURRENT=0 / open-white with no exterior decoration"
+    },
+    {
+      "id": "IRR-08-mobile",
+      "pass": true,
+      "observed": {
+        "hrefs": [
+          "#application-coatings",
+          "#application-plastics",
+          "#application-masterbatch",
+          "#application-printing-inks",
+          "#application-paper",
+          "#application-specialty-materials"
+        ],
+        "targets": [
+          "application-coatings",
+          "application-plastics",
+          "application-masterbatch",
+          "application-printing-inks",
+          "application-paper",
+          "application-specialty-materials"
+        ]
+      },
+      "expected": [
+        "#application-coatings",
+        "#application-plastics",
+        "#application-masterbatch",
+        "#application-printing-inks",
+        "#application-paper",
+        "#application-specialty-materials"
+      ]
+    },
+    {
+      "id": "IRR-10-mobile",
+      "pass": true,
+      "observed": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "expected": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ]
+    },
+    {
+      "id": "IRR-11-mobile",
+      "pass": true,
+      "observed": "700",
+      "expected": "700"
+    },
+    {
+      "id": "IRR-12-mobile",
+      "pass": true,
+      "observed": {
+        "previewHrefs": [],
+        "applicationRoutes": []
+      },
+      "expected": "zero child-application routes; no Specialty route"
+    },
+    {
+      "id": "IRR-07",
+      "pass": true,
+      "observed": {
+        "primary": "#application-selector",
+        "secondary": "/request-a-quote/"
+      },
+      "expected": {
+        "primary": "#application-selector",
+        "secondary": "/request-a-quote/"
+      }
+    },
+    {
+      "id": "IRR-09",
+      "pass": true,
+      "observed": {
+        "h1": "Explore Titanium Dioxide by Application",
+        "intro": "This hub organizes titanium dioxide grades by application across coatings, plastics, masterbatch, printing inks, paper and specialty materials. Use each collection as a starting point for technical evaluation.",
+        "module": "Choose by Application",
+        "moduleText": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate."
+      },
+      "expected": "approved Hero copy and M2 transition"
+    }
+  ],
+  "viewportResults": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 980,
+      "expectedH1": 56,
+      "expectedHeader": 84,
+      "h1": "Explore Titanium Dioxide by Application",
+      "intro": "This hub organizes titanium dioxide grades by application across coatings, plastics, masterbatch, printing inks, paper and specialty materials. Use each collection as a starting point for technical evaluation.",
+      "h1Size": 56,
+      "h1Weight": "700",
+      "h1Lines": 2,
+      "header": 84,
+      "minActionHeight": 44,
+      "overflow": false,
+      "currentCount": 0,
+      "heroBorder": "0px",
+      "heroRadius": "0px",
+      "heroBackground": "rgba(0, 0, 0, 0)",
+      "heroShadow": "none",
+      "heroPseudoContent": "none",
+      "heroPseudoDisplay": "none",
+      "primaryHref": "#application-selector",
+      "secondaryHref": "/request-a-quote/",
+      "cardLabels": [
+        "Coatings",
+        "Plastics",
+        "Masterbatch",
+        "Printing Inks",
+        "Paper",
+        "Specialty Materials"
+      ],
+      "cardHrefs": [
+        "#application-coatings",
+        "#application-plastics",
+        "#application-masterbatch",
+        "#application-printing-inks",
+        "#application-paper",
+        "#application-specialty-materials"
+      ],
+      "targetIds": [
+        "application-coatings",
+        "application-plastics",
+        "application-masterbatch",
+        "application-printing-inks",
+        "application-paper",
+        "application-specialty-materials"
+      ],
+      "nav": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "firstModule": "Choose by Application",
+      "firstModuleText": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "previewHrefs": [],
+      "allApplicationRoutes": []
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1180,
+      "expectedH1": 44,
+      "expectedHeader": 64,
+      "h1": "Explore Titanium Dioxide by Application",
+      "intro": "This hub organizes titanium dioxide grades by application across coatings, plastics, masterbatch, printing inks, paper and specialty materials. Use each collection as a starting point for technical evaluation.",
+      "h1Size": 44,
+      "h1Weight": "700",
+      "h1Lines": 2,
+      "header": 64,
+      "minActionHeight": 44,
+      "overflow": false,
+      "currentCount": 0,
+      "heroBorder": "0px",
+      "heroRadius": "0px",
+      "heroBackground": "rgba(0, 0, 0, 0)",
+      "heroShadow": "none",
+      "heroPseudoContent": "none",
+      "heroPseudoDisplay": "none",
+      "primaryHref": "#application-selector",
+      "secondaryHref": "/request-a-quote/",
+      "cardLabels": [
+        "Coatings",
+        "Plastics",
+        "Masterbatch",
+        "Printing Inks",
+        "Paper",
+        "Specialty Materials"
+      ],
+      "cardHrefs": [
+        "#application-coatings",
+        "#application-plastics",
+        "#application-masterbatch",
+        "#application-printing-inks",
+        "#application-paper",
+        "#application-specialty-materials"
+      ],
+      "targetIds": [
+        "application-coatings",
+        "application-plastics",
+        "application-masterbatch",
+        "application-printing-inks",
+        "application-paper",
+        "application-specialty-materials"
+      ],
+      "nav": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "firstModule": "Choose by Application",
+      "firstModuleText": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "previewHrefs": [],
+      "allApplicationRoutes": []
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 1280,
+      "expectedH1": 36,
+      "expectedHeader": 64,
+      "h1": "Explore Titanium Dioxide by Application",
+      "intro": "This hub organizes titanium dioxide grades by application across coatings, plastics, masterbatch, printing inks, paper and specialty materials. Use each collection as a starting point for technical evaluation.",
+      "h1Size": 36,
+      "h1Weight": "700",
+      "h1Lines": 2,
+      "header": 64,
+      "minActionHeight": 44,
+      "overflow": false,
+      "currentCount": 0,
+      "heroBorder": "0px",
+      "heroRadius": "0px",
+      "heroBackground": "rgba(0, 0, 0, 0)",
+      "heroShadow": "none",
+      "heroPseudoContent": "none",
+      "heroPseudoDisplay": "none",
+      "primaryHref": "#application-selector",
+      "secondaryHref": "/request-a-quote/",
+      "cardLabels": [
+        "Coatings",
+        "Plastics",
+        "Masterbatch",
+        "Printing Inks",
+        "Paper",
+        "Specialty Materials"
+      ],
+      "cardHrefs": [
+        "#application-coatings",
+        "#application-plastics",
+        "#application-masterbatch",
+        "#application-printing-inks",
+        "#application-paper",
+        "#application-specialty-materials"
+      ],
+      "targetIds": [
+        "application-coatings",
+        "application-plastics",
+        "application-masterbatch",
+        "application-printing-inks",
+        "application-paper",
+        "application-specialty-materials"
+      ],
+      "nav": [
+        "Home",
+        "Markets",
+        "Products",
+        "Applications",
+        "Documents",
+        "Resources",
+        "About"
+      ],
+      "firstModule": "Choose by Application",
+      "firstModuleText": "Grades to Review are starting points for technical evaluation, not rankings or guarantees of suitability. Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "previewHrefs": [],
+      "allApplicationRoutes": []
+    }
+  ],
+  "requiredFindings": [],
+  "result": "PROJECT_CONTROL_REVIEW_PASS"
+}

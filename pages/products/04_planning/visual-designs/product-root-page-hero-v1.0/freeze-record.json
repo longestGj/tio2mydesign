@@ -1,0 +1,51 @@
+{
+  "freeze_id": "PRODUCT-ROOT-HERO-G4-REFERENCE-01-FREEZE-20260911",
+  "page_id": "PRODUCT-000",
+  "candidate_id": "PRODUCT-ROOT-HERO-G4-REFERENCE-01",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "scope": "Wave 2 reference binding only; no current Manifest replacement, Gate closure, Gate 6/8 work, implementation, or release authorization.",
+  "approved_reference_assets": [
+    { "path": "pages/products/04_planning/visual-designs/PRODUCT-000_FULL_VISUAL_DESIGN_V0.13.md", "sha256": "23d74eb4a8ff16bdff1f1e2a8683ac0ee68a039f721d94b13977cf058839444e" },
+    { "path": "pages/products/04_planning/visual-designs/assets/PRODUCT-000_G5_DESKTOP_BUYER_FACING_FINAL_V0.17.png", "dimensions": "1440x5481", "sha256": "f0ce195fe5583fb68a81a2bd0468f74b126f3a851e1e799055fc705becd1c63b" },
+    { "path": "pages/products/04_planning/visual-designs/assets/PRODUCT-000_G5_MOBILE_390_BUYER_FACING_FINAL_V0.16.png", "dimensions": "780x12867 (390px logical at 2x)", "sha256": "27480b92700cdeb97ea41a1ab751e1d539f4d339fc58ed2967719a656869de67" }
+  ],
+  "contracts": [
+    "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+    "docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_CONTROL_V1.0.md",
+    "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+    "docs/page-briefs/PRODUCT-000_TITANIUM_DIOXIDE_PRODUCTS_BRIEF_V0.4.md"
+  ],
+  "source_dependencies": [
+    { "path": "brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg", "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c", "purpose": "approved primary horizontal Logo in the white Header" },
+    { "path": "pages/home/04_planning/visual-designs/home-root-page-hero-v1.3/dependencies/Inter-Variable.ttf", "purpose": "Home V1.3 reference font dependency used for standalone capture" }
+  ],
+  "candidate": { "path": "product-root-page-hero-preview-v1.0.html", "bytes": 12825, "sha256": "b8e8ca5a7bab8de730d3aa470d94d2432f9aaeeb9d62f46f20b5155417daed69" },
+  "replay": {
+    "capture": "node capture-product-root-page-hero-v1.0.cjs",
+    "verification": "node verify-product-root-page-hero-v1.0.cjs",
+    "tools": [
+      { "path": "capture-product-root-page-hero-v1.0.cjs", "sha256": "918a36bcccf270013b291a3ba37b63f01b109fffe9002a0dcec84e2038875aa0" },
+      { "path": "verify-product-root-page-hero-v1.0.cjs", "sha256": "58449fee358666d01d4b23bd8c785dae3e04830f016b8a4a30ffdb81dedaae4e" }
+    ],
+    "runtime_report": { "path": "capture-runtime-v1.0.json", "bytes": 3288, "sha256": "74fb399ff06e28279581355eea3a5971a45ad1bb0eb1559c7c607ca49ee47eb6", "status": "PASS" }
+  },
+  "evidence": [
+    { "name": "desktop", "path": "PRODUCT-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png", "dimensions": "1440x980", "bytes": 140086, "sha256": "0061081a20833c447f5d78df45b8cbf2856c570003acad75db857de322000d16", "h1_px": 56, "header_px": 84 },
+    { "name": "tablet", "path": "PRODUCT-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png", "dimensions": "768x1200", "bytes": 114232, "sha256": "c0e8cb1db0161b72fc0ecd93b101559a798b265e0f3692cf71c37d6868e9a538", "h1_px": 44, "header_px": 64 },
+    { "name": "mobile", "path": "PRODUCT-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png", "dimensions": "390x1280", "bytes": 99003, "sha256": "815496920cfde1336a81816ca5b1fbe1a6011627cb673851da927d5a80aa7f2f", "h1_px": 36, "header_px": 64 }
+  ],
+  "validated": {
+    "open_white_surface": true,
+    "no_hero_wide_border_radius_background_or_shadow": true,
+    "no_hero_left_decoration": true,
+    "buyer_visible_status_label": false,
+    "h1_weight": 700,
+    "primary_local_target": "#grade-selector",
+    "summary_card_count": 4,
+    "visible_coatings_result_count": 8,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false,
+    "h1_line_count_maximum": 3
+  }
+}

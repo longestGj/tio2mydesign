@@ -1,0 +1,92 @@
+{
+  "review_id": "PRODUCT-ROOT-HERO-G4-REFERENCE-INDEPENDENT-01",
+  "reviewer_role": "independent reviewer; did not create the candidate",
+  "date": "2026-09-11",
+  "mode": "read-only browser replay and frozen-asset verification",
+  "candidate": {
+    "path": "pages/products/04_planning/visual-designs/product-root-page-hero-v1.0/product-root-page-hero-preview-v1.0.html",
+    "sha256": "b8e8ca5a7bab8de730d3aa470d94d2432f9aaeeb9d62f46f20b5155417daed69"
+  },
+  "producer_verifier": {
+    "command": "node verify-product-root-page-hero-v1.0.cjs",
+    "result": "PASS",
+    "asset_hashes_match_freeze_record": true
+  },
+  "independent_browser_replay": {
+    "result": "PASS",
+    "write_behavior": "No candidate, asset, freeze record, Manifest, or progress file was written.",
+    "checks": [
+      "exact approved Hero copy and 6/5/2/1 labels",
+      "H1 56/44/36px at weight 700",
+      "minimum visible interactive height 44px",
+      "no horizontal overflow",
+      "no buyer-visible CURRENT text",
+      "open-white Hero without border, radius, background, shadow, or left pseudo-decoration",
+      "four summary cards and eight neutral Coatings results",
+      "Start Grade Selection resolves locally to #grade-selector",
+      "Rubber and M-996-vs-M-2196 comparison text absent",
+      "no grade-result child href created"
+    ],
+    "viewports": [
+      {
+        "width": 1440,
+        "header_px": 84,
+        "h1_px": 56,
+        "h1_weight": "700",
+        "h1_lines": 3,
+        "minimum_interactive_px": 44,
+        "overflow": false,
+        "current_visible": false,
+        "summary_cards": 4,
+        "coatings_results": 8,
+        "primary_target": "#grade-selector",
+        "primary_target_resolves": true
+      },
+      {
+        "width": 768,
+        "header_px": 64,
+        "h1_px": 44,
+        "h1_weight": "700",
+        "h1_lines": 2,
+        "minimum_interactive_px": 44,
+        "overflow": false,
+        "current_visible": false,
+        "summary_cards": 4,
+        "coatings_results": 8,
+        "primary_target": "#grade-selector",
+        "primary_target_resolves": true
+      },
+      {
+        "width": 390,
+        "header_px": 64,
+        "h1_px": 36,
+        "h1_weight": "700",
+        "h1_lines": 3,
+        "minimum_interactive_px": 44,
+        "overflow": false,
+        "current_visible": false,
+        "summary_cards": 4,
+        "coatings_results": 8,
+        "primary_target": "#grade-selector",
+        "primary_target_resolves": true
+      }
+    ]
+  },
+  "original_detail_visual_review": {
+    "evidence": [
+      {
+        "path": "pages/products/04_planning/visual-designs/product-root-page-hero-v1.0/PRODUCT-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png",
+        "sha256": "0061081a20833c447f5d78df45b8cbf2856c570003acad75db857de322000d16"
+      },
+      {
+        "path": "pages/products/04_planning/visual-designs/product-root-page-hero-v1.0/PRODUCT-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png",
+        "sha256": "c0e8cb1db0161b72fc0ecd93b101559a798b265e0f3692cf71c37d6868e9a538"
+      },
+      {
+        "path": "pages/products/04_planning/visual-designs/product-root-page-hero-v1.0/PRODUCT-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png",
+        "sha256": "815496920cfde1336a81816ca5b1fbe1a6011627cb673851da927d5a80aa7f2f"
+      }
+    ],
+    "result": "PASS"
+  }
+}

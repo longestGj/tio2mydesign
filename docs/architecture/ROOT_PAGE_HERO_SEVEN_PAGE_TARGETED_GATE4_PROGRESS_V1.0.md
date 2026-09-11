@@ -7,7 +7,7 @@
 | Parent control | `ROOT-HERO-G4-7PAGE-CTRL-01` |
 | Workset | `ROOT-HERO-G4-7P-V1` |
 | Date | `2026-09-11` |
-| Current state | `IN_PROGRESS / WAVE_1_FROZEN / PRODUCT_NEXT` |
+| Current state | `IN_PROGRESS / PRODUCT_REFERENCE_PASS / MARKET_NEXT` |
 | Gate 8 / D16 | `NOT_AUTHORIZED_BY_THIS_RECORD / NOT_TOUCHED` |
 
 This progress record does not replace the seven-page control. It records actual execution after the user chose to prove the shared direction on Home first and then instructed the project to continue by the approved process.
@@ -49,3 +49,14 @@ The initial V1.0 candidate and its independent return are retained as history. V
 Home V1.3 and APP V1.1 jointly prove the shared open-white family at 1440px, 768px and 390px. The shared grid, typography, action rhythm, information-card placement, Hero-to-body transition, zero visible `CURRENT`, zero Hero left decorative rule and minimum 44px target rules are frozen for inheritance. Any later change to the shared parent requires regeneration and recheck of both Wave 1 bindings.
 
 Next: begin the `PRODUCT-000` Wave 2 binding as a preservation/reference proof. Do not alter its approved open-white content or treat this checkpoint as Gate 6 or Gate 8 authorization.
+
+## PRODUCT-000 Wave 2 reference binding
+
+- Page-local reference candidate: `PRODUCT-000_ROOT_PAGE_HERO_GATE4_REFERENCE_CANDIDATE_V1.0.md`.
+- Reference binding: `PRODUCT-000_ROOT_PAGE_HERO_GATE4_REFERENCE_BINDING_V1.0.md`.
+- Frozen page-context evidence: `pages/products/04_planning/visual-designs/product-root-page-hero-v1.0/` at 1440px, 768px and 390px.
+- Author verification: `PASS`, exit code `0`.
+- Independent review: `pages/products/05_review/PRODUCT-000_ROOT_PAGE_HERO_GATE4_REFERENCE_INDEPENDENT_REVIEW_V1.0.md`, SHA-256 `5393DE6E518918BD70D51401D67F6BA5C2DB06D046A64BB462673237DF28CB97`.
+- Independent result: `PROJECT_CONTROL_REVIEW_PASS`; required Findings `0`.
+
+This reference proof confirms that the approved PRODUCT-000 open-white presentation can consume the shared Hero contract without redesign. It does not replace PRODUCT-000's current Manifest or approved full-page assets. Next: `MARKET-000` Wave 2 binding.

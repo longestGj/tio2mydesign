@@ -1,0 +1,1309 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\16Wordpress_nextjs\\.worktrees\\_handoffs\\home-001-app-align-gate8\\gate8_evidence_manifest.json",
+  "handoff_id": "HOME-001-G6-APP-ALIGN-HANDOFF-V1",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "HOME-001",
+          "acceptance_condition_ids": [
+            "HOME-VU-A01",
+            "HOME-VU-A02",
+            "HOME-VU-A03",
+            "HOME-VU-A04",
+            "HOME-VU-A05",
+            "HOME-VU-A06",
+            "HOME-VU-A07",
+            "HOME-VU-A08",
+            "HOME-VU-A09",
+            "HOME-VU-A10",
+            "HOME-VU-A11",
+            "HOME-VU-A12"
+          ],
+          "runtime_path": "/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\home-001-app-align-gate8"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/home-001-app-align-gate8",
+        "actual": "codex/home-001-app-align-gate8"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "63898249810817bbd298fba259410fc7565c320c",
+        "actual": "63898249810817bbd298fba259410fc7565c320c"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "9571dd2ab7e7f2c7c9cb373e008ca81b3c534822",
+        "descendant": "cc55245e83bff0e7c4a63638f65d678dbc3989c3"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "cc55245e83bff0e7c4a63638f65d678dbc3989c3",
+        "descendant": "63898249810817bbd298fba259410fc7565c320c"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\home-001-app-align-gate8\\.next-home-001-app-align-cc55245"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "jWyd3UOiNCdM8j7ue6NvY",
+        "actual": "jWyd3UOiNCdM8j7ue6NvY"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "cc55245e83bff0e7c4a63638f65d678dbc3989c3",
+        "git": "cc55245e83bff0e7c4a63638f65d678dbc3989c3"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/prework-identity.json"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A07",
+          "HOME-VU-A10",
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "Git identity and SHA-256 capture before implementation",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a29b0a7468a22fba3e654209c6963ad3f5312fc15b42bc13a6fd2cbe5f2a01ea",
+        "actual": "a29b0a7468a22fba3e654209c6963ad3f5312fc15b42bc13a6fd2cbe5f2a01ea"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/prework-identity.json"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "65a3372f11b41161de86342e61ea8b743d3e148d",
+        "blob_sha256": "1f83f899d984b02a6b2fc59774b071939434c7f96c5eb50f7691902b4208f781",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/preservation-report.json"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A07",
+          "HOME-VU-A10",
+          "HOME-VU-A11"
+        ],
+        "command": "SHA-256 comparison of authorized and frozen HOME-001 inputs",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3da1c4fc3e649086151e847e7788a216aeef8c58b22b0daed64afbe759560a97",
+        "actual": "3da1c4fc3e649086151e847e7788a216aeef8c58b22b0daed64afbe759560a97"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/preservation-report.json"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b49518e578ed08e9633de21605627442476d3f2b",
+        "blob_sha256": "3da1c4fc3e649086151e847e7788a216aeef8c58b22b0daed64afbe759560a97",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/build-identity.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "HOME-VU-A12"
+        ],
+        "command": "SITE_ID=tio2-my; NEXT_DIST_DIR=.next-home-001-app-align-cc55245; npm run build",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0c37a2f29de95d02b3787877827e6c74057f721313572860841995292923e043",
+        "actual": "0c37a2f29de95d02b3787877827e6c74057f721313572860841995292923e043"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/build-identity.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c64e70dc43ef404ecbfab500b726ff080b66bd41",
+        "blob_sha256": "0c37a2f29de95d02b3787877827e6c74057f721313572860841995292923e043",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/visual-review.json"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "Open seven actual runtime PNG files at original detail and compare with approved V1.1 reference",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f0e63d8ef53c7d1d9f547960aec227ca9c2524a117f21da9fa607156fe63b5e9",
+        "actual": "f0e63d8ef53c7d1d9f547960aec227ca9c2524a117f21da9fa607156fe63b5e9"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/visual-review.json"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a3892b223b3df3901b11c4915cf5c73e70307f60",
+        "blob_sha256": "f0e63d8ef53c7d1d9f547960aec227ca9c2524a117f21da9fa607156fe63b5e9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/acceptance-matrix.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09",
+          "HOME-VU-A10",
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "Map targeted source, runtime and visual evidence to HOME-VU-A01 through HOME-VU-A12",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0506a02b95c1b3d4703c169033963882b9881a254e515ae647e66a6f5790ac23",
+        "actual": "0506a02b95c1b3d4703c169033963882b9881a254e515ae647e66a6f5790ac23"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/acceptance-matrix.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "97ff79585e58693c8dd59a4d53a96f9e1cbf1e97",
+        "blob_sha256": "0506a02b95c1b3d4703c169033963882b9881a254e515ae647e66a6f5790ac23",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/source-diff-check.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A07",
+          "HOME-VU-A10",
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "git diff --check 9571dd2ab7e7f2c7c9cb373e008ca81b3c534822",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4ebd86ac699a241814690a8edc80d104a6eafd4eef7fed218e03ad4e924f4ce7",
+        "actual": "4ebd86ac699a241814690a8edc80d104a6eafd4eef7fed218e03ad4e924f4ce7"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/source-diff-check.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8762175e5f5ce53c4b87d49bf6923c6947e5975f",
+        "blob_sha256": "96da086182eaf4dd37899af7fce0d1ce98a015de1c465dca62a3ebbcfefed82f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/runtime-matrix.json"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09",
+          "HOME-VU-A10",
+          "HOME-VU-A11"
+        ],
+        "command": "npx playwright test --config=playwright.home-001-app-align.config.ts",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "df195ef0d69e4cba9c7b811993b9bea0d6972dceca3c55b9bdd15d5c02f5c347",
+        "actual": "df195ef0d69e4cba9c7b811993b9bea0d6972dceca3c55b9bdd15d5c02f5c347"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/runtime-matrix.json"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b6791d66860008e4951409d5067bd7ada6018bbd",
+        "blob_sha256": "df195ef0d69e4cba9c7b811993b9bea0d6972dceca3c55b9bdd15d5c02f5c347",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/route-liveness.json"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A11",
+          "HOME-VU-DEP-03"
+        ],
+        "command": "GET-only audit of every preserved HOME-001 local href against http://127.0.0.1:3291",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "baf4696b20fb9d2639e34ef2111cace87a3d55b967384dbf4834888ae818b191",
+        "actual": "baf4696b20fb9d2639e34ef2111cace87a3d55b967384dbf4834888ae818b191"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/route-liveness.json"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b415f367c73430dcb5ef7e23a1d8a4de38892c93",
+        "blob_sha256": "4dfabb2397921a8d9481519cf0563435c19c9d2aeb213c677861de40dd4131d7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/targeted-vitest-result.json"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09",
+          "HOME-VU-A10",
+          "HOME-VU-A11"
+        ],
+        "command": "npx vitest run <11 HOME-001 focused suites> --reporter=json",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3cdb158332fd459c22435494de94b42c90b939223395640a629dc81db3cf5a16",
+        "actual": "3cdb158332fd459c22435494de94b42c90b939223395640a629dc81db3cf5a16"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/targeted-vitest-result.json"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cf973aeb412f6a291070cbb7d76078646c2bdc67",
+        "blob_sha256": "3cdb158332fd459c22435494de94b42c90b939223395640a629dc81db3cf5a16",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/targeted-eslint-result.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A09",
+          "HOME-VU-A12"
+        ],
+        "command": "npx eslint <7 changed HOME-001 source/test/config files> -f json",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "05b59d7d3f2b47dd87ae8a3ab3ac53c6258e302e02a78936f00c137cd0fe3955",
+        "actual": "05b59d7d3f2b47dd87ae8a3ab3ac53c6258e302e02a78936f00c137cd0fe3955"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/targeted-eslint-result.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c4ede1f1b465bea82e48863a641425bf474d573b",
+        "blob_sha256": "14bf3206224702622806303931f9cb046b71ad082af960e79140b3ec2c15b6df",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/typecheck-output.txt"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A10",
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "npm run typecheck",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/typecheck-output.txt"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+        "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/typecheck-exit-code.txt"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A10",
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "npm run typecheck",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "actual": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/typecheck-exit-code.txt"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c227083464fb9af8955c90d2924774ee50abb547",
+        "blob_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/playwright-result.json"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09",
+          "HOME-VU-A10",
+          "HOME-VU-A11"
+        ],
+        "command": "npx playwright test --config=playwright.home-001-app-align.config.ts --reporter=json",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4461c8a0684e6247e6b7cbc8f20bb94aa866e27eb87a211331cf8b1fd2a9ce19",
+        "actual": "4461c8a0684e6247e6b7cbc8f20bb94aa866e27eb87a211331cf8b1fd2a9ce19"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/playwright-result.json"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4c08246ba5256abbeaa92698ade22f8716798445",
+        "blob_sha256": "4461c8a0684e6247e6b7cbc8f20bb94aa866e27eb87a211331cf8b1fd2a9ce19",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/legacy-homepage-playwright-result.json"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A07",
+          "HOME-VU-A09",
+          "HOME-VU-A10",
+          "HOME-VU-A11"
+        ],
+        "command": "npx playwright test tests/e2e/malaysia-homepage-gate9.spec.ts --config=playwright.config.ts --reporter=json",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "2a930e3ddaf0394b3f74ea1027ebc1b7873dce2c1eeb1476872a59e4ca43030f",
+        "actual": "2a930e3ddaf0394b3f74ea1027ebc1b7873dce2c1eeb1476872a59e4ca43030f"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/legacy-homepage-playwright-result.json"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "73c3a22107ed19c6d85350b500b9c7d3ae41f012",
+        "blob_sha256": "2a930e3ddaf0394b3f74ea1027ebc1b7873dce2c1eeb1476872a59e4ca43030f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-1440.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "Playwright full-page screenshot from locked runtime; opened at original detail for visual review",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3283b737662327842f17f2de152e0bec2d36cf78c923ee643c216c570471b063",
+        "actual": "3283b737662327842f17f2de152e0bec2d36cf78c923ee643c216c570471b063"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-1440.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "63e980f011df8afac479951617f945dc03878f7f",
+        "blob_sha256": "3283b737662327842f17f2de152e0bec2d36cf78c923ee643c216c570471b063",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-1024.png"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "Playwright full-page screenshot from locked runtime; opened at original detail for visual review",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "afb6b8f7eaf7731fc30ec3d361a0988dc619f12e454163fb5176658cf3654cdf",
+        "actual": "afb6b8f7eaf7731fc30ec3d361a0988dc619f12e454163fb5176658cf3654cdf"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-1024.png"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cf81b694c753dac12688baae9f70a15a99e77f86",
+        "blob_sha256": "afb6b8f7eaf7731fc30ec3d361a0988dc619f12e454163fb5176658cf3654cdf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-768.png"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "Playwright full-page screenshot from locked runtime; opened at original detail for visual review",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a1d7d5cafe9b863dfa73d30aa7d922af760415b4f93e2182624c94f9eaf91b51",
+        "actual": "a1d7d5cafe9b863dfa73d30aa7d922af760415b4f93e2182624c94f9eaf91b51"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-768.png"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "035001823795995aa975145f50e8b808bdcd8b08",
+        "blob_sha256": "a1d7d5cafe9b863dfa73d30aa7d922af760415b4f93e2182624c94f9eaf91b51",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390.png"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "Playwright full-page screenshot from locked runtime; opened at original detail for visual review",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d57936f6b4bd66ae36a35dc3e2d63aa5bbe11e4fc82b596312dbc03ef35a20d0",
+        "actual": "d57936f6b4bd66ae36a35dc3e2d63aa5bbe11e4fc82b596312dbc03ef35a20d0"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390.png"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "baaf50bd2543328c13d6b585aa270fdc9d230024",
+        "blob_sha256": "d57936f6b4bd66ae36a35dc3e2d63aa5bbe11e4fc82b596312dbc03ef35a20d0",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-320.png"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "Playwright full-page screenshot from locked runtime; opened at original detail for visual review",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "1f6ddf0ad83304b9a8feadbf7480073f8f944705d1339849030487befdd1d673",
+        "actual": "1f6ddf0ad83304b9a8feadbf7480073f8f944705d1339849030487befdd1d673"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-320.png"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7fab53bbde238c59bf8f83679dffd9de362d7290",
+        "blob_sha256": "1f6ddf0ad83304b9a8feadbf7480073f8f944705d1339849030487befdd1d673",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390-menu-open.png"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "Playwright full-page screenshot from locked runtime; opened at original detail for visual review",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d1b1677eeb995966c75f844737ec7d5cc4af1952c2c2d0a93f5926d0f2ac64b4",
+        "actual": "d1b1677eeb995966c75f844737ec7d5cc4af1952c2c2d0a93f5926d0f2ac64b4"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390-menu-open.png"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ae6265343d0c483c7919907dafb73e8b9a7601ec",
+        "blob_sha256": "d1b1677eeb995966c75f844737ec7d5cc4af1952c2c2d0a93f5926d0f2ac64b4",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390-products-expanded.png"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "Playwright full-page screenshot from locked runtime; opened at original detail for visual review",
+        "environment": "Windows local-production tio2-my candidate at http://127.0.0.1:3291; GET-only route checks; no form submission or production CMS write"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3970e8dbdc3746fc8834283347e91294e88c862d323333dc51e8d1196b7c0ec0",
+        "actual": "3970e8dbdc3746fc8834283347e91294e88c862d323333dc51e8d1196b7c0ec0"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390-products-expanded.png"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "510cb5978b84c96de165dba8f899a4755d46848b",
+        "blob_sha256": "3970e8dbdc3746fc8834283347e91294e88c862d323333dc51e8d1196b7c0ec0",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/GATE8_HANDOFF_RECEIPT.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/home-001/applications-aligned-gate8/acceptance-matrix.json",
+          "docs/verification/home-001/applications-aligned-gate8/build-identity.json",
+          "docs/verification/home-001/applications-aligned-gate8/preservation-report.json",
+          "docs/verification/home-001/applications-aligned-gate8/prework-identity.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-1024.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-1440.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-320.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390-menu-open.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390-products-expanded.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-768.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/legacy-homepage-playwright-result.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/playwright-result.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/route-liveness.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/runtime-matrix.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/targeted-eslint-result.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/targeted-vitest-result.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/typecheck-exit-code.txt",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/typecheck-output.txt",
+          "docs/verification/home-001/applications-aligned-gate8/source-diff-check.json",
+          "docs/verification/home-001/applications-aligned-gate8/visual-review.json"
+        ],
+        "actual": [
+          "docs/verification/home-001/applications-aligned-gate8/acceptance-matrix.json",
+          "docs/verification/home-001/applications-aligned-gate8/build-identity.json",
+          "docs/verification/home-001/applications-aligned-gate8/preservation-report.json",
+          "docs/verification/home-001/applications-aligned-gate8/prework-identity.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-1024.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-1440.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-320.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390-menu-open.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390-products-expanded.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-390.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/home-001-768.png",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/legacy-homepage-playwright-result.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/playwright-result.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/route-liveness.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/runtime-matrix.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/targeted-eslint-result.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/targeted-vitest-result.json",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/typecheck-exit-code.txt",
+          "docs/verification/home-001/applications-aligned-gate8/runtime/typecheck-output.txt",
+          "docs/verification/home-001/applications-aligned-gate8/source-diff-check.json",
+          "docs/verification/home-001/applications-aligned-gate8/visual-review.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home-001/applications-aligned-gate8/GATE8_HANDOFF_RECEIPT.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

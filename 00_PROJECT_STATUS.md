@@ -1,5 +1,7 @@
 # TiO2 Malaysia · 当前项目状态
 
+2026-09-11七个一级导航根页面Hero定向Gate 4编排已准备：`ROOT-HERO-G4-7PAGE-CTRL-01=PREPARED / NOT_DISPATCHED`。顺序为`HOME-001 + APP-000`共享母版验证 → `PRODUCT-000 + MARKET-000 + DOC-000`浅色Hub扩展 → `RES-000 + ABOUT-001`特殊变体；建议由一个Gate 4任务维护共享母版与七页绑定，冻结后交给另一个独立任务执行一次横向Gate 5审查。当前未派发Gate 4、未更新七页Manifest、未授权Gate 8、未操作`D:\16Wordpress_nextjs`。[七页控制单V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_CONTROL_V1.0.md)。
+
 2026-09-11 用户已批准七个一级导航根页面共享Hero合同：`ROOT-PAGE-HERO-001=USER_APPROVED / ACTIVE`，覆盖`HOME-001`、`MARKET-000`、`PRODUCT-000`、`APP-000`、`DOC-000`、`RES-000`、`ABOUT-001`。七页后续共用唯一`RootPageHero`骨架和三个受控变体，Hero左侧装饰竖线统一为0；页面内容、媒体、CTA目标、SEO/GEO、Schema及Global Chrome不因本合同改变。后续按定向Gate 4→新Gate 5→Gate 6→获授权Gate 8→Gate 9执行；当前尚未派发制作或开发，七页Manifest未因本次入口同步修改，未操作`D:\16Wordpress_nextjs`。[共享合同V1.0](docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)。
 
 2026-09-11 HOME-001 Hero左侧绿色竖线返修已对新锁定候选完成独立定向复验：implementation `09aa4e4...`、evidence `517f18f...`、Build `lcePXqYwI1h1gOF3nVmpW`，Manifest与两轮preflight PASS；五档`::before`均为none，像素变化严格局限在原4/6px竖线区域，零横滑及Axe零问题。`HOME-001-G9-USER-CHANGE-01=PASS/CLOSED`；Mobile Menu透明背景按用户决定保持并关闭，Gate 8本轮可停止。Page Gate 9仍为`NOT_PASS / EVIDENCE_INCOMPLETE`，仅因物理读屏、触控设备和原生200%缩放未测；五个Application子路由及Sulfate Process路由404继续使Integration不就绪。Gate 10、合并、部署和发布未授权。[当前Manifest V1.6](pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.6.md) / [定向复验V1.0](pages/home/07_qa/HOME-001_APPLICATIONS_ALIGNED_GATE9_TARGETED_RECHECK_V1.0.md)。

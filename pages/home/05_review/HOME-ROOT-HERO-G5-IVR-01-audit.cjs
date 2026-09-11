@@ -1,0 +1,35 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const crypto = require('node:crypto');
+const {execFileSync} = require('node:child_process');
+const {pathToFileURL} = require('node:url');
+const modules = 'C:/Users/longe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
+const {chromium} = require(path.join(modules,'playwright'));
+const root = 'D:/23MySec';
+const base = path.join(root,'pages/home/04_planning/visual-designs/home-root-page-hero-v1.1');
+const current = path.join(base,'homepage-root-page-hero-preview-v1.1.html');
+const old = path.join(root,'pages/home/04_planning/visual-designs/home-root-page-hero-v1.0/homepage-root-page-hero-preview-v1.0.html');
+const approved = path.join(root,'pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/homepage-applications-aligned-preview-v1.1.html');
+const hash = b => crypto.createHash('sha256').update(b).digest('hex').toUpperCase();
+const git = p => execFileSync('git',['show','0257c54:'+path.relative(root,p).split(path.sep).join('/')],{cwd:root,maxBuffer:20000000});
+const html=fs.readFileSync(current,'utf8');
+const body=s=>s.match(/<body>[\s\S]*<\/body>/)[0];
+const result={review_id:'HOME-ROOT-HERO-G5-IVR-01',date:new Date().toISOString(),frozen_commit:execFileSync('git',['rev-parse','0257c54'],{cwd:root,encoding:'utf8'}).trim(),node:process.version,evidence_class:'ACTUAL_RUNTIME_LOCAL_PROTOTYPE',files:[],dependencies:[],body:{},runtime:[]};
+const freeze=JSON.parse(fs.readFileSync(path.join(base,'freeze-record.json'),'utf8'));
+for(const f of freeze.files){const p=path.join(base,f.path),b=fs.readFileSync(p);result.files.push({...f,actualBytes:b.length,actualSha256:hash(b),dimensions:f.width?[b.readUInt32BE(16),b.readUInt32BE(20)]:null,matchesFreeze:b.length===f.bytes&&hash(b)===f.sha256&&(!f.width||(b.readUInt32BE(16)===f.width&&b.readUInt32BE(20)===f.height)),matchesCommit:b.equals(git(p))});}
+result.freezeUnchanged=fs.readFileSync(path.join(base,'freeze-record.json')).equals(git(path.join(base,'freeze-record.json')));
+for(const ref of [...html.matchAll(/(?:src="|url\(")([^"#]+)"/g)].map(m=>m[1]).filter((v,i,a)=>a.indexOf(v)===i)){const p=path.resolve(base,ref),b=fs.readFileSync(p);result.dependencies.push({reference:ref,path:p,bytes:b.length,sha256:hash(b),matchesCommit:b.equals(git(p))});}
+for(const [name,p] of [['v1_0',old],['approved_applications_aligned_v1_1',approved]]){const b=body(fs.readFileSync(p,'utf8'));result.body[name]={sha256:hash(b),currentSha256:hash(body(html)),exactBodyEqual:b===body(html)};}
+(async()=>{const browser=await chromium.launch({headless:true});result.browser=browser.version();
+for(const [width,height] of [[1440,900],[768,1400],[390,1500],[767,900],[1023,900],[1024,900]]){
+const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1});const failures=[];page.on('requestfailed',r=>failures.push({url:r.url(),reason:r.failure()}));
+await page.goto(pathToFileURL(current).href);await page.evaluate(()=>document.fonts.ready);
+const observation=await page.evaluate(()=>{const rect=e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height,bottom:r.bottom,right:r.right};};const describe=s=>{const e=document.querySelector(s),c=getComputedStyle(e);return {rect:rect(e),fontSize:c.fontSize,fontWeight:c.fontWeight,lineHeight:c.lineHeight,columns:c.gridTemplateColumns,padding:c.padding,border:c.borderWidth,radius:c.borderRadius,background:c.backgroundColor,backgroundImage:c.backgroundImage,shadow:c.boxShadow};};
+const shell=document.querySelector('.hero-shell'),before=getComputedStyle(shell,'::before');
+return {viewport:[innerWidth,innerHeight],dpr:devicePixelRatio,fontLoaded:document.fonts.check('16px Inter'),scrollWidths:[document.documentElement.scrollWidth,document.body.scrollWidth],header:describe('.global-header'),shell:describe('.hero-shell'),h1:describe('h1'),h1Text:document.querySelector('h1').innerText,intro:document.querySelector('.hero-copy p:not(.eyebrow)').innerText,media:describe('.hero-media'),mediaLoaded:[document.querySelector('.hero-media img').complete,document.querySelector('.hero-media img').naturalWidth],before:{display:before.display,content:before.content},actions:[...document.querySelectorAll('.hero-actions a')].map(e=>({text:e.textContent,href:e.getAttribute('href'),rect:rect(e),color:getComputedStyle(e).color,background:getComputedStyle(e).backgroundColor})),start:describe('.start-here'),startLinks:[...document.querySelectorAll('.start-card')].map(e=>({text:e.innerText,href:e.getAttribute('href'),rect:rect(e)})),horizontalEscapes:[...document.querySelectorAll('main *')].filter(e=>{const r=e.getBoundingClientRect();return r.width>0&&(r.left<-.5||r.right>innerWidth+.5)}).map(e=>e.tagName+'.'+e.className)};});
+await page.evaluate(()=>{window.reviewActivations=[];document.querySelectorAll('.hero-actions a').forEach(e=>e.addEventListener('click',ev=>{ev.preventDefault();window.reviewActivations.push({text:e.textContent,href:e.getAttribute('href'),trusted:ev.isTrusted});}));});
+await page.locator('.hero-actions a').first().focus();await page.keyboard.press('Tab');observation.tabToSecond=await page.evaluate(()=>document.activeElement===document.querySelectorAll('.hero-actions a')[1]);
+observation.focusStyle=await page.locator('.hero-actions a').nth(1).evaluate(e=>{const c=getComputedStyle(e);return {outline:c.outline,offset:c.outlineOffset}});
+await page.keyboard.press('Enter');await page.keyboard.press('Shift+Tab');await page.keyboard.press('Enter');observation.activations=await page.evaluate(()=>window.reviewActivations);
+observation.requestFailures=failures;result.runtime.push(observation);await page.close();}
+await browser.close();fs.writeFileSync(path.join(__dirname,'HOME-ROOT-HERO-G5-IVR-01-runtime.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));})().catch(e=>{console.error(e);process.exit(1)});

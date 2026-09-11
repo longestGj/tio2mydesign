@@ -1,0 +1,2608 @@
+{
+  "review_id": "HOME-ROOT-HERO-G5-IVR-01",
+  "date": "2026-09-11T06:34:39.293Z",
+  "frozen_commit": "2492cb0ab9ad2be1799989a8340ed0ca04199052",
+  "node": "v24.19.0",
+  "evidence_class": "ACTUAL_RUNTIME_LOCAL_PROTOTYPE",
+  "files": [
+    {
+      "path": "homepage-root-page-hero-preview-v1.2.html",
+      "bytes": 32610,
+      "sha256": "952BB8EEFF6B98902B0B3475F0C0932EB80383BD1BC58E60CDD2485C8CE6977E",
+      "actualBytes": 32610,
+      "actualSha256": "952BB8EEFF6B98902B0B3475F0C0932EB80383BD1BC58E60CDD2485C8CE6977E",
+      "dimensions": null,
+      "matchesFreeze": true,
+      "matchesCommit": true
+    },
+    {
+      "path": "HOME-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.2.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 394336,
+      "sha256": "FC3177BB1E4ED7F11E1E30C823184FA773CB90106647098A39311025B4027B2A",
+      "capture_status": "BYTE_IDENTICAL_REUSE_OF_USER_APPROVED_V1.1_DESKTOP",
+      "actualBytes": 394336,
+      "actualSha256": "FC3177BB1E4ED7F11E1E30C823184FA773CB90106647098A39311025B4027B2A",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "matchesFreeze": true,
+      "matchesCommit": true
+    },
+    {
+      "path": "HOME-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.2.png",
+      "width": 768,
+      "height": 1400,
+      "bytes": 369051,
+      "sha256": "BF5C9A9CECFC5A560C4FD0B9C41F8F904C214115C0CBBC2FDE87823609420C1B",
+      "actualBytes": 369051,
+      "actualSha256": "BF5C9A9CECFC5A560C4FD0B9C41F8F904C214115C0CBBC2FDE87823609420C1B",
+      "dimensions": [
+        768,
+        1400
+      ],
+      "matchesFreeze": true,
+      "matchesCommit": true
+    },
+    {
+      "path": "HOME-001_ROOT_PAGE_HERO_MOBILE_EDGE_767_CANDIDATE_V1.2.png",
+      "width": 767,
+      "height": 1400,
+      "bytes": 371227,
+      "sha256": "B34239531728E0739913B1625DA5E6E51D1F78C1781610DD3848AB4A45587517",
+      "capture_trigger": "CHANGED_PRESENTATION / HOME-ROOT-HERO-G5-F01",
+      "actualBytes": 371227,
+      "actualSha256": "B34239531728E0739913B1625DA5E6E51D1F78C1781610DD3848AB4A45587517",
+      "dimensions": [
+        767,
+        1400
+      ],
+      "matchesFreeze": true,
+      "matchesCommit": true
+    },
+    {
+      "path": "HOME-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.2.png",
+      "width": 390,
+      "height": 1500,
+      "bytes": 174739,
+      "sha256": "98059B78B290E70C19CDC831A65FC363648F4FA787FEDF677B2715A1BDAB6369",
+      "actualBytes": 174739,
+      "actualSha256": "98059B78B290E70C19CDC831A65FC363648F4FA787FEDF677B2715A1BDAB6369",
+      "dimensions": [
+        390,
+        1500
+      ],
+      "matchesFreeze": true,
+      "matchesCommit": true
+    },
+    {
+      "path": "capture-home-root-page-hero-v1.2.cjs",
+      "bytes": 4311,
+      "sha256": "6BD2E5FD62D4A96BCDA7DFD1441A8D3F8832095B1901E10104DFC52F3FB22187",
+      "actualBytes": 4311,
+      "actualSha256": "6BD2E5FD62D4A96BCDA7DFD1441A8D3F8832095B1901E10104DFC52F3FB22187",
+      "dimensions": null,
+      "matchesFreeze": true,
+      "matchesCommit": true
+    },
+    {
+      "path": "capture-runtime-v1.2.json",
+      "bytes": 8533,
+      "sha256": "46A403363836C60CD1A1DA8A9B99AC30A2C8C5485E0BA4B802FF35C70F339027",
+      "actualBytes": 8533,
+      "actualSha256": "46A403363836C60CD1A1DA8A9B99AC30A2C8C5485E0BA4B802FF35C70F339027",
+      "dimensions": null,
+      "matchesFreeze": true,
+      "matchesCommit": true
+    },
+    {
+      "path": "dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+      "actualBytes": 876576,
+      "actualSha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+      "dimensions": null,
+      "matchesFreeze": true,
+      "matchesCommit": true
+    }
+  ],
+  "dependencies": [
+    {
+      "reference": "./dependencies/Inter-Variable.ttf",
+      "path": "D:\\23MySec\\pages\\home\\04_planning\\visual-designs\\home-root-page-hero-v1.2\\dependencies\\Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+      "matchesCommit": true
+    },
+    {
+      "reference": "../../../../../brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "path": "D:\\23MySec\\brand\\logo\\candidates\\v0.1\\tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C",
+      "matchesCommit": true
+    },
+    {
+      "reference": "../assets/homepage-hero-tio2-material-v0.6.png",
+      "path": "D:\\23MySec\\pages\\home\\04_planning\\visual-designs\\assets\\homepage-hero-tio2-material-v0.6.png",
+      "bytes": 1915067,
+      "sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5",
+      "matchesCommit": true
+    },
+    {
+      "reference": "../../../../../brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "path": "D:\\23MySec\\brand\\logo\\candidates\\v0.1\\tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E",
+      "matchesCommit": true
+    }
+  ],
+  "body": {
+    "previous_v1_1": {
+      "sha256": "768344ED43879CA8D1BCC54E4DC8AEEEF6C07B2701044C1BF6CA0D97E83E4BF0",
+      "currentSha256": "768344ED43879CA8D1BCC54E4DC8AEEEF6C07B2701044C1BF6CA0D97E83E4BF0",
+      "exactBodyEqual": true
+    },
+    "approved_applications_aligned_v1_1": {
+      "sha256": "768344ED43879CA8D1BCC54E4DC8AEEEF6C07B2701044C1BF6CA0D97E83E4BF0",
+      "currentSha256": "768344ED43879CA8D1BCC54E4DC8AEEEF6C07B2701044C1BF6CA0D97E83E4BF0",
+      "exactBodyEqual": true
+    }
+  },
+  "runtime": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "fontLoaded": true,
+      "scrollWidths": [
+        1440,
+        1440
+      ],
+      "header": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 84,
+          "bottom": 84,
+          "right": 1440
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px 0px 1px",
+        "radius": "0px",
+        "background": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "shell": {
+        "rect": {
+          "x": 120,
+          "y": 118,
+          "width": 1200,
+          "height": 683.296875,
+          "bottom": 801.296875,
+          "right": 1320
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "691.188px 460.812px",
+        "padding": "54px 0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1": {
+        "rect": {
+          "x": 120,
+          "y": 322.734375,
+          "width": 691.1875,
+          "height": 127.53125,
+          "bottom": 450.265625,
+          "right": 811.1875
+        },
+        "fontSize": "61.92px",
+        "fontWeight": "750",
+        "lineHeight": "63.7776px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1Text": "Malaysia Titanium Dioxide for Industrial Buyers",
+      "intro": "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+      "media": {
+        "rect": {
+          "x": 859.1875,
+          "y": 172,
+          "width": 460.8125,
+          "height": 575.296875,
+          "bottom": 747.296875,
+          "right": 1320
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "1px",
+        "radius": "12px",
+        "background": "rgb(236, 242, 245)",
+        "backgroundImage": "none",
+        "shadow": "rgba(3, 27, 58, 0.06) 0px 8px 24px 0px"
+      },
+      "mediaLoaded": [
+        true,
+        1122
+      ],
+      "before": {
+        "display": "none",
+        "content": "none"
+      },
+      "actions": [
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "rect": {
+            "x": 120,
+            "y": 579.734375,
+            "width": 167.484375,
+            "height": 48.25,
+            "bottom": 627.984375,
+            "right": 287.484375
+          },
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)"
+        },
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "rect": {
+            "x": 299.484375,
+            "y": 579.734375,
+            "width": 153.84375,
+            "height": 48.25,
+            "bottom": 627.984375,
+            "right": 453.328125
+          },
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)"
+        }
+      ],
+      "start": {
+        "rect": {
+          "x": 0,
+          "y": 827.296875,
+          "width": 1440,
+          "height": 274.96875,
+          "bottom": 1102.265625,
+          "right": 1440
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "26px 0px 62px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "startLinks": [
+        {
+          "text": "01\nMarkets\nDestination markets\n→",
+          "href": "/markets/",
+          "rect": {
+            "x": 120,
+            "y": 914.265625,
+            "width": 388,
+            "height": 126,
+            "bottom": 1040.265625,
+            "right": 508
+          }
+        },
+        {
+          "text": "02\nProducts\nFourteen grades\n→",
+          "href": "/products/",
+          "rect": {
+            "x": 526,
+            "y": 914.265625,
+            "width": 388,
+            "height": 126,
+            "bottom": 1040.265625,
+            "right": 914
+          }
+        },
+        {
+          "text": "03\nDocuments\nGuidance and requests\n→",
+          "href": "/documents/",
+          "rect": {
+            "x": 932,
+            "y": 914.265625,
+            "width": 388,
+            "height": 126,
+            "bottom": 1040.265625,
+            "right": 1320
+          }
+        }
+      ],
+      "nonHeroShells": [
+        {
+          "module": "start-here",
+          "rect": {
+            "x": 120,
+            "y": 853.296875,
+            "width": 1200,
+            "height": 186.96875,
+            "bottom": 1040.265625,
+            "right": 1320
+          }
+        },
+        {
+          "module": "markets",
+          "rect": {
+            "x": 120,
+            "y": 1174.265625,
+            "width": 1200,
+            "height": 597.34375,
+            "bottom": 1771.609375,
+            "right": 1320
+          }
+        },
+        {
+          "module": "products",
+          "rect": {
+            "x": 120,
+            "y": 1915.609375,
+            "width": 1200,
+            "height": 601.84375,
+            "bottom": 2517.453125,
+            "right": 1320
+          }
+        },
+        {
+          "module": "applications",
+          "rect": {
+            "x": 120,
+            "y": 2661.453125,
+            "width": 1200,
+            "height": 765.9375,
+            "bottom": 3427.390625,
+            "right": 1320
+          }
+        },
+        {
+          "module": "company",
+          "rect": {
+            "x": 120,
+            "y": 3571.390625,
+            "width": 1200,
+            "height": 511.984375,
+            "bottom": 4083.375,
+            "right": 1320
+          }
+        },
+        {
+          "module": "documents",
+          "rect": {
+            "x": 120,
+            "y": 4227.375,
+            "width": 1200,
+            "height": 511.234375,
+            "bottom": 4738.609375,
+            "right": 1320
+          }
+        },
+        {
+          "module": "resources",
+          "rect": {
+            "x": 120,
+            "y": 4882.609375,
+            "width": 1200,
+            "height": 760.90625,
+            "bottom": 5643.515625,
+            "right": 1320
+          }
+        },
+        {
+          "module": "page-rfq",
+          "rect": {
+            "x": 120,
+            "y": 5787.515625,
+            "width": 1200,
+            "height": 331.296875,
+            "bottom": 6118.8125,
+            "right": 1320
+          }
+        }
+      ],
+      "horizontalEscapes": [],
+      "h1Lines": 2,
+      "desktopLiveRenderEqualsPriorPNG": true,
+      "tabToSecond": true,
+      "focusStyle": {
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "offset": "3px"
+      },
+      "activations": [
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "trusted": true
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "trusted": true
+        }
+      ],
+      "requestFailures": [],
+      "previousNonHeroShells": [
+        {
+          "module": "start-here",
+          "x": 120,
+          "width": 1200,
+          "height": 186.96875
+        },
+        {
+          "module": "markets",
+          "x": 120,
+          "width": 1200,
+          "height": 597.34375
+        },
+        {
+          "module": "products",
+          "x": 120,
+          "width": 1200,
+          "height": 601.84375
+        },
+        {
+          "module": "applications",
+          "x": 120,
+          "width": 1200,
+          "height": 765.9375
+        },
+        {
+          "module": "company",
+          "x": 120,
+          "width": 1200,
+          "height": 511.984375
+        },
+        {
+          "module": "documents",
+          "x": 120,
+          "width": 1200,
+          "height": 511.234375
+        },
+        {
+          "module": "resources",
+          "x": 120,
+          "width": 1200,
+          "height": 760.90625
+        },
+        {
+          "module": "page-rfq",
+          "x": 120,
+          "width": 1200,
+          "height": 331.296875
+        }
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1400
+      ],
+      "dpr": 1,
+      "fontLoaded": true,
+      "scrollWidths": [
+        768,
+        768
+      ],
+      "header": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 64,
+          "bottom": 64,
+          "right": 768
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px 0px 1px",
+        "radius": "0px",
+        "background": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "shell": {
+        "rect": {
+          "x": 32,
+          "y": 98,
+          "width": 704,
+          "height": 713.78125,
+          "bottom": 811.78125,
+          "right": 736
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "704px",
+        "padding": "38px 0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1": {
+        "rect": {
+          "x": 32,
+          "y": 167.4375,
+          "width": 704,
+          "height": 90.625,
+          "bottom": 258.0625,
+          "right": 736
+        },
+        "fontSize": "44px",
+        "fontWeight": "700",
+        "lineHeight": "45.32px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1Text": "Malaysia Titanium Dioxide for Industrial Buyers",
+      "intro": "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+      "media": {
+        "rect": {
+          "x": 32,
+          "y": 463.78125,
+          "width": 704,
+          "height": 310,
+          "bottom": 773.78125,
+          "right": 736
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "1px",
+        "radius": "12px",
+        "background": "rgb(236, 242, 245)",
+        "backgroundImage": "none",
+        "shadow": "rgba(3, 27, 58, 0.06) 0px 8px 24px 0px"
+      },
+      "mediaLoaded": [
+        true,
+        1122
+      ],
+      "before": {
+        "display": "none",
+        "content": "none"
+      },
+      "actions": [
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "rect": {
+            "x": 32,
+            "y": 387.53125,
+            "width": 167.484375,
+            "height": 48.25,
+            "bottom": 435.78125,
+            "right": 199.484375
+          },
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)"
+        },
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "rect": {
+            "x": 211.484375,
+            "y": 387.53125,
+            "width": 153.84375,
+            "height": 48.25,
+            "bottom": 435.78125,
+            "right": 365.328125
+          },
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)"
+        }
+      ],
+      "start": {
+        "rect": {
+          "x": 0,
+          "y": 837.78125,
+          "width": 768,
+          "height": 288.96875,
+          "bottom": 1126.75,
+          "right": 768
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "26px 0px 62px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "startLinks": [
+        {
+          "text": "01\nMarkets\nDestination markets",
+          "href": "/markets/",
+          "rect": {
+            "x": 32,
+            "y": 924.75,
+            "width": 226.65625,
+            "height": 140,
+            "bottom": 1064.75,
+            "right": 258.65625
+          }
+        },
+        {
+          "text": "02\nProducts\nFourteen grades",
+          "href": "/products/",
+          "rect": {
+            "x": 270.65625,
+            "y": 924.75,
+            "width": 226.671875,
+            "height": 140,
+            "bottom": 1064.75,
+            "right": 497.328125
+          }
+        },
+        {
+          "text": "03\nDocuments\nGuidance and requests",
+          "href": "/documents/",
+          "rect": {
+            "x": 509.328125,
+            "y": 924.75,
+            "width": 226.671875,
+            "height": 140,
+            "bottom": 1064.75,
+            "right": 736
+          }
+        }
+      ],
+      "nonHeroShells": [
+        {
+          "module": "start-here",
+          "rect": {
+            "x": 32,
+            "y": 863.78125,
+            "width": 704,
+            "height": 200.96875,
+            "bottom": 1064.75,
+            "right": 736
+          }
+        },
+        {
+          "module": "markets",
+          "rect": {
+            "x": 32,
+            "y": 1198.75,
+            "width": 704,
+            "height": 781.46875,
+            "bottom": 1980.21875,
+            "right": 736
+          }
+        },
+        {
+          "module": "products",
+          "rect": {
+            "x": 32,
+            "y": 2124.21875,
+            "width": 704,
+            "height": 815.5625,
+            "bottom": 2939.78125,
+            "right": 736
+          }
+        },
+        {
+          "module": "applications",
+          "rect": {
+            "x": 32,
+            "y": 3083.78125,
+            "width": 704,
+            "height": 1078.140625,
+            "bottom": 4161.921875,
+            "right": 736
+          }
+        },
+        {
+          "module": "company",
+          "rect": {
+            "x": 32,
+            "y": 4305.921875,
+            "width": 704,
+            "height": 748.21875,
+            "bottom": 5054.140625,
+            "right": 736
+          }
+        },
+        {
+          "module": "documents",
+          "rect": {
+            "x": 32,
+            "y": 5198.140625,
+            "width": 704,
+            "height": 535.53125,
+            "bottom": 5733.671875,
+            "right": 736
+          }
+        },
+        {
+          "module": "resources",
+          "rect": {
+            "x": 32,
+            "y": 5877.671875,
+            "width": 704,
+            "height": 1078.25,
+            "bottom": 6955.921875,
+            "right": 736
+          }
+        },
+        {
+          "module": "page-rfq",
+          "rect": {
+            "x": 32,
+            "y": 7099.921875,
+            "width": 704,
+            "height": 445.90625,
+            "bottom": 7545.828125,
+            "right": 736
+          }
+        }
+      ],
+      "horizontalEscapes": [],
+      "h1Lines": 2,
+      "tabToSecond": true,
+      "focusStyle": {
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "offset": "3px"
+      },
+      "activations": [
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "trusted": true
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "trusted": true
+        }
+      ],
+      "requestFailures": [],
+      "previousNonHeroShells": [
+        {
+          "module": "start-here",
+          "x": 32,
+          "width": 704,
+          "height": 200.96875
+        },
+        {
+          "module": "markets",
+          "x": 32,
+          "width": 704,
+          "height": 781.46875
+        },
+        {
+          "module": "products",
+          "x": 32,
+          "width": 704,
+          "height": 815.5625
+        },
+        {
+          "module": "applications",
+          "x": 32,
+          "width": 704,
+          "height": 1078.140625
+        },
+        {
+          "module": "company",
+          "x": 32,
+          "width": 704,
+          "height": 748.21875
+        },
+        {
+          "module": "documents",
+          "x": 32,
+          "width": 704,
+          "height": 535.53125
+        },
+        {
+          "module": "resources",
+          "x": 32,
+          "width": 704,
+          "height": 1078.25
+        },
+        {
+          "module": "page-rfq",
+          "x": 32,
+          "width": 704,
+          "height": 445.90625
+        }
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        1500
+      ],
+      "dpr": 1,
+      "fontLoaded": true,
+      "scrollWidths": [
+        390,
+        390
+      ],
+      "header": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "bottom": 64,
+          "right": 390
+        },
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.92px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px 0px 1px",
+        "radius": "0px",
+        "background": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "shell": {
+        "rect": {
+          "x": 20,
+          "y": 84,
+          "width": 350,
+          "height": 752.609375,
+          "bottom": 836.609375,
+          "right": 370
+        },
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.92px",
+        "columns": "350px",
+        "padding": "30px 0px 24px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1": {
+        "rect": {
+          "x": 20,
+          "y": 145.4375,
+          "width": 350,
+          "height": 111.234375,
+          "bottom": 256.671875,
+          "right": 370
+        },
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "37.08px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1Text": "Malaysia Titanium Dioxide for Industrial Buyers",
+      "intro": "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+      "media": {
+        "rect": {
+          "x": 20,
+          "y": 582.609375,
+          "width": 350,
+          "height": 230,
+          "bottom": 812.609375,
+          "right": 370
+        },
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.92px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "1px",
+        "radius": "12px",
+        "background": "rgb(236, 242, 245)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "mediaLoaded": [
+        true,
+        1122
+      ],
+      "before": {
+        "display": "none",
+        "content": "none"
+      },
+      "actions": [
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "rect": {
+            "x": 20,
+            "y": 450.109375,
+            "width": 350,
+            "height": 48.25,
+            "bottom": 498.359375,
+            "right": 370
+          },
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)"
+        },
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "rect": {
+            "x": 20,
+            "y": 510.359375,
+            "width": 350,
+            "height": 48.25,
+            "bottom": 558.609375,
+            "right": 370
+          },
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)"
+        }
+      ],
+      "start": {
+        "rect": {
+          "x": 0,
+          "y": 854.609375,
+          "width": 390,
+          "height": 509.25,
+          "bottom": 1363.859375,
+          "right": 390
+        },
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.92px",
+        "columns": "none",
+        "padding": "18px 0px 46px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "startLinks": [
+        {
+          "text": "01\nMarkets\nDestination markets\n→",
+          "href": "/markets/",
+          "rect": {
+            "x": 20,
+            "y": 957.859375,
+            "width": 350,
+            "height": 112,
+            "bottom": 1069.859375,
+            "right": 370
+          }
+        },
+        {
+          "text": "02\nProducts\nFourteen grades\n→",
+          "href": "/products/",
+          "rect": {
+            "x": 20,
+            "y": 1081.859375,
+            "width": 350,
+            "height": 112,
+            "bottom": 1193.859375,
+            "right": 370
+          }
+        },
+        {
+          "text": "03\nDocuments\nGuidance and requests\n→",
+          "href": "/documents/",
+          "rect": {
+            "x": 20,
+            "y": 1205.859375,
+            "width": 350,
+            "height": 112,
+            "bottom": 1317.859375,
+            "right": 370
+          }
+        }
+      ],
+      "nonHeroShells": [
+        {
+          "module": "start-here",
+          "rect": {
+            "x": 20,
+            "y": 872.609375,
+            "width": 350,
+            "height": 445.25,
+            "bottom": 1317.859375,
+            "right": 370
+          }
+        },
+        {
+          "module": "markets",
+          "rect": {
+            "x": 20,
+            "y": 1415.859375,
+            "width": 350,
+            "height": 1426.265625,
+            "bottom": 2842.125,
+            "right": 370
+          }
+        },
+        {
+          "module": "products",
+          "rect": {
+            "x": 20,
+            "y": 2946.125,
+            "width": 350,
+            "height": 845.3125,
+            "bottom": 3791.4375,
+            "right": 370
+          }
+        },
+        {
+          "module": "applications",
+          "rect": {
+            "x": 20,
+            "y": 3895.4375,
+            "width": 350,
+            "height": 1689.34375,
+            "bottom": 5584.78125,
+            "right": 370
+          }
+        },
+        {
+          "module": "company",
+          "rect": {
+            "x": 20,
+            "y": 5688.78125,
+            "width": 350,
+            "height": 870.65625,
+            "bottom": 6559.4375,
+            "right": 370
+          }
+        },
+        {
+          "module": "documents",
+          "rect": {
+            "x": 20,
+            "y": 6663.4375,
+            "width": 350,
+            "height": 863.5625,
+            "bottom": 7527,
+            "right": 370
+          }
+        },
+        {
+          "module": "resources",
+          "rect": {
+            "x": 20,
+            "y": 7631,
+            "width": 350,
+            "height": 1648.375,
+            "bottom": 9279.375,
+            "right": 370
+          }
+        },
+        {
+          "module": "page-rfq",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      ],
+      "horizontalEscapes": [],
+      "h1Lines": 3,
+      "tabToSecond": true,
+      "focusStyle": {
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "offset": "3px"
+      },
+      "activations": [
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "trusted": true
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "trusted": true
+        }
+      ],
+      "requestFailures": [],
+      "previousNonHeroShells": [
+        {
+          "module": "start-here",
+          "x": 20,
+          "width": 350,
+          "height": 445.25
+        },
+        {
+          "module": "markets",
+          "x": 20,
+          "width": 350,
+          "height": 1426.265625
+        },
+        {
+          "module": "products",
+          "x": 20,
+          "width": 350,
+          "height": 845.3125
+        },
+        {
+          "module": "applications",
+          "x": 20,
+          "width": 350,
+          "height": 1689.34375
+        },
+        {
+          "module": "company",
+          "x": 20,
+          "width": 350,
+          "height": 870.65625
+        },
+        {
+          "module": "documents",
+          "x": 20,
+          "width": 350,
+          "height": 863.5625
+        },
+        {
+          "module": "resources",
+          "x": 20,
+          "width": 350,
+          "height": 1648.375
+        },
+        {
+          "module": "page-rfq",
+          "x": 0,
+          "width": 0,
+          "height": 0
+        }
+      ]
+    },
+    {
+      "viewport": [
+        767,
+        1400
+      ],
+      "dpr": 1,
+      "fontLoaded": true,
+      "scrollWidths": [
+        767,
+        767
+      ],
+      "header": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 767,
+          "height": 64,
+          "bottom": 64,
+          "right": 767
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px 0px 1px",
+        "radius": "0px",
+        "background": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "shell": {
+        "rect": {
+          "x": 20,
+          "y": 98,
+          "width": 727,
+          "height": 660.234375,
+          "bottom": 758.234375,
+          "right": 747
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "727px",
+        "padding": "38px 0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1": {
+        "rect": {
+          "x": 20,
+          "y": 167.4375,
+          "width": 727,
+          "height": 37.078125,
+          "bottom": 204.515625,
+          "right": 747
+        },
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "37.08px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1Text": "Malaysia Titanium Dioxide for Industrial Buyers",
+      "intro": "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+      "media": {
+        "rect": {
+          "x": 20,
+          "y": 410.234375,
+          "width": 727,
+          "height": 310,
+          "bottom": 720.234375,
+          "right": 747
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "1px",
+        "radius": "12px",
+        "background": "rgb(236, 242, 245)",
+        "backgroundImage": "none",
+        "shadow": "rgba(3, 27, 58, 0.06) 0px 8px 24px 0px"
+      },
+      "mediaLoaded": [
+        true,
+        1122
+      ],
+      "before": {
+        "display": "none",
+        "content": "none"
+      },
+      "actions": [
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "rect": {
+            "x": 20,
+            "y": 333.984375,
+            "width": 167.484375,
+            "height": 48.25,
+            "bottom": 382.234375,
+            "right": 187.484375
+          },
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)"
+        },
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "rect": {
+            "x": 199.484375,
+            "y": 333.984375,
+            "width": 153.84375,
+            "height": 48.25,
+            "bottom": 382.234375,
+            "right": 353.328125
+          },
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)"
+        }
+      ],
+      "start": {
+        "rect": {
+          "x": 0,
+          "y": 784.234375,
+          "width": 767,
+          "height": 288.96875,
+          "bottom": 1073.203125,
+          "right": 767
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "26px 0px 62px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "startLinks": [
+        {
+          "text": "01\nMarkets\nDestination markets",
+          "href": "/markets/",
+          "rect": {
+            "x": 20,
+            "y": 871.203125,
+            "width": 234.328125,
+            "height": 140,
+            "bottom": 1011.203125,
+            "right": 254.328125
+          }
+        },
+        {
+          "text": "02\nProducts\nFourteen grades",
+          "href": "/products/",
+          "rect": {
+            "x": 266.328125,
+            "y": 871.203125,
+            "width": 234.328125,
+            "height": 140,
+            "bottom": 1011.203125,
+            "right": 500.65625
+          }
+        },
+        {
+          "text": "03\nDocuments\nGuidance and requests",
+          "href": "/documents/",
+          "rect": {
+            "x": 512.65625,
+            "y": 871.203125,
+            "width": 234.328125,
+            "height": 140,
+            "bottom": 1011.203125,
+            "right": 746.984375
+          }
+        }
+      ],
+      "nonHeroShells": [
+        {
+          "module": "start-here",
+          "rect": {
+            "x": 20,
+            "y": 810.234375,
+            "width": 727,
+            "height": 200.96875,
+            "bottom": 1011.203125,
+            "right": 747
+          }
+        },
+        {
+          "module": "markets",
+          "rect": {
+            "x": 20,
+            "y": 1145.203125,
+            "width": 727,
+            "height": 781.46875,
+            "bottom": 1926.671875,
+            "right": 747
+          }
+        },
+        {
+          "module": "products",
+          "rect": {
+            "x": 20,
+            "y": 2070.671875,
+            "width": 727,
+            "height": 815.5625,
+            "bottom": 2886.234375,
+            "right": 747
+          }
+        },
+        {
+          "module": "applications",
+          "rect": {
+            "x": 20,
+            "y": 3030.234375,
+            "width": 727,
+            "height": 1078.140625,
+            "bottom": 4108.375,
+            "right": 747
+          }
+        },
+        {
+          "module": "company",
+          "rect": {
+            "x": 20,
+            "y": 4252.375,
+            "width": 727,
+            "height": 748.21875,
+            "bottom": 5000.59375,
+            "right": 747
+          }
+        },
+        {
+          "module": "documents",
+          "rect": {
+            "x": 20,
+            "y": 5144.59375,
+            "width": 727,
+            "height": 535.53125,
+            "bottom": 5680.125,
+            "right": 747
+          }
+        },
+        {
+          "module": "resources",
+          "rect": {
+            "x": 20,
+            "y": 5824.125,
+            "width": 727,
+            "height": 1078.25,
+            "bottom": 6902.375,
+            "right": 747
+          }
+        },
+        {
+          "module": "page-rfq",
+          "rect": {
+            "x": 20,
+            "y": 7046.375,
+            "width": 727,
+            "height": 418.375,
+            "bottom": 7464.75,
+            "right": 747
+          }
+        }
+      ],
+      "horizontalEscapes": [],
+      "h1Lines": 1,
+      "tabToSecond": true,
+      "focusStyle": {
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "offset": "3px"
+      },
+      "activations": [
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "trusted": true
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "trusted": true
+        }
+      ],
+      "requestFailures": [],
+      "previousNonHeroShells": [
+        {
+          "module": "start-here",
+          "x": 32,
+          "width": 703,
+          "height": 200.96875
+        },
+        {
+          "module": "markets",
+          "x": 32,
+          "width": 703,
+          "height": 781.46875
+        },
+        {
+          "module": "products",
+          "x": 32,
+          "width": 703,
+          "height": 815.5625
+        },
+        {
+          "module": "applications",
+          "x": 32,
+          "width": 703,
+          "height": 1078.140625
+        },
+        {
+          "module": "company",
+          "x": 32,
+          "width": 703,
+          "height": 748.21875
+        },
+        {
+          "module": "documents",
+          "x": 32,
+          "width": 703,
+          "height": 535.53125
+        },
+        {
+          "module": "resources",
+          "x": 32,
+          "width": 703,
+          "height": 1078.25
+        },
+        {
+          "module": "page-rfq",
+          "x": 32,
+          "width": 703,
+          "height": 445.90625
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1023,
+        900
+      ],
+      "dpr": 1,
+      "fontLoaded": true,
+      "scrollWidths": [
+        1023,
+        1023
+      ],
+      "header": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1023,
+          "height": 64,
+          "bottom": 64,
+          "right": 1023
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px 0px 1px",
+        "radius": "0px",
+        "background": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "shell": {
+        "rect": {
+          "x": 32,
+          "y": 98,
+          "width": 959,
+          "height": 702.46875,
+          "bottom": 800.46875,
+          "right": 991
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "959px",
+        "padding": "40px 0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1": {
+        "rect": {
+          "x": 32,
+          "y": 169.4375,
+          "width": 959,
+          "height": 45.3125,
+          "bottom": 214.75,
+          "right": 991
+        },
+        "fontSize": "44px",
+        "fontWeight": "700",
+        "lineHeight": "45.32px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1Text": "Malaysia Titanium Dioxide for Industrial Buyers",
+      "intro": "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+      "media": {
+        "rect": {
+          "x": 32,
+          "y": 420.46875,
+          "width": 959,
+          "height": 340,
+          "bottom": 760.46875,
+          "right": 991
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "1px",
+        "radius": "12px",
+        "background": "rgb(236, 242, 245)",
+        "backgroundImage": "none",
+        "shadow": "rgba(3, 27, 58, 0.06) 0px 8px 24px 0px"
+      },
+      "mediaLoaded": [
+        true,
+        1122
+      ],
+      "before": {
+        "display": "none",
+        "content": "none"
+      },
+      "actions": [
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "rect": {
+            "x": 32,
+            "y": 344.21875,
+            "width": 167.484375,
+            "height": 48.25,
+            "bottom": 392.46875,
+            "right": 199.484375
+          },
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)"
+        },
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "rect": {
+            "x": 211.484375,
+            "y": 344.21875,
+            "width": 153.84375,
+            "height": 48.25,
+            "bottom": 392.46875,
+            "right": 365.328125
+          },
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)"
+        }
+      ],
+      "start": {
+        "rect": {
+          "x": 0,
+          "y": 826.46875,
+          "width": 1023,
+          "height": 274.96875,
+          "bottom": 1101.4375,
+          "right": 1023
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "26px 0px 62px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "startLinks": [
+        {
+          "text": "01\nMarkets\nDestination markets\n→",
+          "href": "/markets/",
+          "rect": {
+            "x": 32,
+            "y": 913.4375,
+            "width": 307.65625,
+            "height": 126,
+            "bottom": 1039.4375,
+            "right": 339.65625
+          }
+        },
+        {
+          "text": "02\nProducts\nFourteen grades\n→",
+          "href": "/products/",
+          "rect": {
+            "x": 357.65625,
+            "y": 913.4375,
+            "width": 307.671875,
+            "height": 126,
+            "bottom": 1039.4375,
+            "right": 665.328125
+          }
+        },
+        {
+          "text": "03\nDocuments\nGuidance and requests\n→",
+          "href": "/documents/",
+          "rect": {
+            "x": 683.328125,
+            "y": 913.4375,
+            "width": 307.65625,
+            "height": 126,
+            "bottom": 1039.4375,
+            "right": 990.984375
+          }
+        }
+      ],
+      "nonHeroShells": [
+        {
+          "module": "start-here",
+          "rect": {
+            "x": 32,
+            "y": 852.46875,
+            "width": 959,
+            "height": 186.96875,
+            "bottom": 1039.4375,
+            "right": 991
+          }
+        },
+        {
+          "module": "markets",
+          "rect": {
+            "x": 32,
+            "y": 1173.4375,
+            "width": 959,
+            "height": 624.875,
+            "bottom": 1798.3125,
+            "right": 991
+          }
+        },
+        {
+          "module": "products",
+          "rect": {
+            "x": 32,
+            "y": 1942.3125,
+            "width": 959,
+            "height": 774.53125,
+            "bottom": 2716.84375,
+            "right": 991
+          }
+        },
+        {
+          "module": "applications",
+          "rect": {
+            "x": 32,
+            "y": 2860.84375,
+            "width": 959,
+            "height": 1002.015625,
+            "bottom": 3862.859375,
+            "right": 991
+          }
+        },
+        {
+          "module": "company",
+          "rect": {
+            "x": 32,
+            "y": 4006.859375,
+            "width": 959,
+            "height": 534.65625,
+            "bottom": 4541.515625,
+            "right": 991
+          }
+        },
+        {
+          "module": "documents",
+          "rect": {
+            "x": 32,
+            "y": 4685.515625,
+            "width": 959,
+            "height": 511.234375,
+            "bottom": 5196.75,
+            "right": 991
+          }
+        },
+        {
+          "module": "resources",
+          "rect": {
+            "x": 32,
+            "y": 5340.75,
+            "width": 959,
+            "height": 1020.609375,
+            "bottom": 6361.359375,
+            "right": 991
+          }
+        },
+        {
+          "module": "page-rfq",
+          "rect": {
+            "x": 32,
+            "y": 6505.359375,
+            "width": 959,
+            "height": 331.296875,
+            "bottom": 6836.65625,
+            "right": 991
+          }
+        }
+      ],
+      "horizontalEscapes": [],
+      "h1Lines": 1,
+      "tabToSecond": true,
+      "focusStyle": {
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "offset": "3px"
+      },
+      "activations": [
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "trusted": true
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "trusted": true
+        }
+      ],
+      "requestFailures": [],
+      "previousNonHeroShells": [
+        {
+          "module": "start-here",
+          "x": 32,
+          "width": 959,
+          "height": 186.96875
+        },
+        {
+          "module": "markets",
+          "x": 32,
+          "width": 959,
+          "height": 624.875
+        },
+        {
+          "module": "products",
+          "x": 32,
+          "width": 959,
+          "height": 774.53125
+        },
+        {
+          "module": "applications",
+          "x": 32,
+          "width": 959,
+          "height": 1002.015625
+        },
+        {
+          "module": "company",
+          "x": 32,
+          "width": 959,
+          "height": 534.65625
+        },
+        {
+          "module": "documents",
+          "x": 32,
+          "width": 959,
+          "height": 511.234375
+        },
+        {
+          "module": "resources",
+          "x": 32,
+          "width": 959,
+          "height": 1020.609375
+        },
+        {
+          "module": "page-rfq",
+          "x": 32,
+          "width": 959,
+          "height": 331.296875
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        900
+      ],
+      "dpr": 1,
+      "fontLoaded": true,
+      "scrollWidths": [
+        1024,
+        1024
+      ],
+      "header": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 64,
+          "bottom": 64,
+          "right": 1024
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px 0px 1px",
+        "radius": "0px",
+        "background": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "shell": {
+        "rect": {
+          "x": 32,
+          "y": 98,
+          "width": 960,
+          "height": 619.765625,
+          "bottom": 717.765625,
+          "right": 992
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "500.031px 425.969px",
+        "padding": "44px 0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1": {
+        "rect": {
+          "x": 32,
+          "y": 233.65625,
+          "width": 500.03125,
+          "height": 173.015625,
+          "bottom": 406.671875,
+          "right": 532.03125
+        },
+        "fontSize": "56px",
+        "fontWeight": "700",
+        "lineHeight": "57.68px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1Text": "Malaysia Titanium Dioxide for Industrial Buyers",
+      "intro": "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+      "media": {
+        "rect": {
+          "x": 566.03125,
+          "y": 142,
+          "width": 425.96875,
+          "height": 531.765625,
+          "bottom": 673.765625,
+          "right": 992
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "1px",
+        "radius": "12px",
+        "background": "rgb(236, 242, 245)",
+        "backgroundImage": "none",
+        "shadow": "rgba(3, 27, 58, 0.06) 0px 8px 24px 0px"
+      },
+      "mediaLoaded": [
+        true,
+        1122
+      ],
+      "before": {
+        "display": "none",
+        "content": "none"
+      },
+      "actions": [
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "rect": {
+            "x": 32,
+            "y": 565.296875,
+            "width": 167.484375,
+            "height": 48.25,
+            "bottom": 613.546875,
+            "right": 199.484375
+          },
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)"
+        },
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "rect": {
+            "x": 211.484375,
+            "y": 565.296875,
+            "width": 153.84375,
+            "height": 48.25,
+            "bottom": 613.546875,
+            "right": 365.328125
+          },
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)"
+        }
+      ],
+      "start": {
+        "rect": {
+          "x": 0,
+          "y": 743.765625,
+          "width": 1024,
+          "height": 274.96875,
+          "bottom": 1018.734375,
+          "right": 1024
+        },
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "27.54px",
+        "columns": "none",
+        "padding": "26px 0px 62px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "startLinks": [
+        {
+          "text": "01\nMarkets\nDestination markets\n→",
+          "href": "/markets/",
+          "rect": {
+            "x": 32,
+            "y": 830.734375,
+            "width": 308,
+            "height": 126,
+            "bottom": 956.734375,
+            "right": 340
+          }
+        },
+        {
+          "text": "02\nProducts\nFourteen grades\n→",
+          "href": "/products/",
+          "rect": {
+            "x": 358,
+            "y": 830.734375,
+            "width": 308,
+            "height": 126,
+            "bottom": 956.734375,
+            "right": 666
+          }
+        },
+        {
+          "text": "03\nDocuments\nGuidance and requests\n→",
+          "href": "/documents/",
+          "rect": {
+            "x": 684,
+            "y": 830.734375,
+            "width": 308,
+            "height": 126,
+            "bottom": 956.734375,
+            "right": 992
+          }
+        }
+      ],
+      "nonHeroShells": [
+        {
+          "module": "start-here",
+          "rect": {
+            "x": 32,
+            "y": 769.765625,
+            "width": 960,
+            "height": 186.96875,
+            "bottom": 956.734375,
+            "right": 992
+          }
+        },
+        {
+          "module": "markets",
+          "rect": {
+            "x": 32,
+            "y": 1090.734375,
+            "width": 960,
+            "height": 624.875,
+            "bottom": 1715.609375,
+            "right": 992
+          }
+        },
+        {
+          "module": "products",
+          "rect": {
+            "x": 32,
+            "y": 1859.609375,
+            "width": 960,
+            "height": 774.53125,
+            "bottom": 2634.140625,
+            "right": 992
+          }
+        },
+        {
+          "module": "applications",
+          "rect": {
+            "x": 32,
+            "y": 2778.140625,
+            "width": 960,
+            "height": 1002.015625,
+            "bottom": 3780.15625,
+            "right": 992
+          }
+        },
+        {
+          "module": "company",
+          "rect": {
+            "x": 32,
+            "y": 3924.15625,
+            "width": 960,
+            "height": 534.65625,
+            "bottom": 4458.8125,
+            "right": 992
+          }
+        },
+        {
+          "module": "documents",
+          "rect": {
+            "x": 32,
+            "y": 4602.8125,
+            "width": 960,
+            "height": 511.234375,
+            "bottom": 5114.046875,
+            "right": 992
+          }
+        },
+        {
+          "module": "resources",
+          "rect": {
+            "x": 32,
+            "y": 5258.046875,
+            "width": 960,
+            "height": 1020.609375,
+            "bottom": 6278.65625,
+            "right": 992
+          }
+        },
+        {
+          "module": "page-rfq",
+          "rect": {
+            "x": 32,
+            "y": 6422.65625,
+            "width": 960,
+            "height": 331.296875,
+            "bottom": 6753.953125,
+            "right": 992
+          }
+        }
+      ],
+      "horizontalEscapes": [],
+      "h1Lines": 3,
+      "tabToSecond": true,
+      "focusStyle": {
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "offset": "3px"
+      },
+      "activations": [
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "trusted": true
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "trusted": true
+        }
+      ],
+      "requestFailures": [],
+      "previousNonHeroShells": [
+        {
+          "module": "start-here",
+          "x": 32,
+          "width": 960,
+          "height": 186.96875
+        },
+        {
+          "module": "markets",
+          "x": 32,
+          "width": 960,
+          "height": 624.875
+        },
+        {
+          "module": "products",
+          "x": 32,
+          "width": 960,
+          "height": 774.53125
+        },
+        {
+          "module": "applications",
+          "x": 32,
+          "width": 960,
+          "height": 1002.015625
+        },
+        {
+          "module": "company",
+          "x": 32,
+          "width": 960,
+          "height": 534.65625
+        },
+        {
+          "module": "documents",
+          "x": 32,
+          "width": 960,
+          "height": 511.234375
+        },
+        {
+          "module": "resources",
+          "x": 32,
+          "width": 960,
+          "height": 1020.609375
+        },
+        {
+          "module": "page-rfq",
+          "x": 32,
+          "width": 960,
+          "height": 331.296875
+        }
+      ]
+    },
+    {
+      "viewport": [
+        350,
+        900
+      ],
+      "dpr": 1,
+      "fontLoaded": true,
+      "scrollWidths": [
+        350,
+        350
+      ],
+      "header": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 350,
+          "height": 64,
+          "bottom": 64,
+          "right": 350
+        },
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.92px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px 0px 1px",
+        "radius": "0px",
+        "background": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "shell": {
+        "rect": {
+          "x": 16,
+          "y": 84,
+          "width": 318,
+          "height": 754.609375,
+          "bottom": 838.609375,
+          "right": 334
+        },
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.92px",
+        "columns": "318px",
+        "padding": "28px 0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1": {
+        "rect": {
+          "x": 16,
+          "y": 143.4375,
+          "width": 318,
+          "height": 111.234375,
+          "bottom": 254.671875,
+          "right": 334
+        },
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "37.08px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "h1Text": "Malaysia Titanium Dioxide for Industrial Buyers",
+      "intro": "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+      "media": {
+        "rect": {
+          "x": 16,
+          "y": 580.609375,
+          "width": 318,
+          "height": 230,
+          "bottom": 810.609375,
+          "right": 334
+        },
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.92px",
+        "columns": "none",
+        "padding": "0px",
+        "border": "1px",
+        "radius": "12px",
+        "background": "rgb(236, 242, 245)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "mediaLoaded": [
+        true,
+        1122
+      ],
+      "before": {
+        "display": "none",
+        "content": "none"
+      },
+      "actions": [
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "rect": {
+            "x": 16,
+            "y": 448.109375,
+            "width": 318,
+            "height": 48.25,
+            "bottom": 496.359375,
+            "right": 334
+          },
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)"
+        },
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "rect": {
+            "x": 16,
+            "y": 508.359375,
+            "width": 318,
+            "height": 48.25,
+            "bottom": 556.609375,
+            "right": 334
+          },
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(255, 255, 255)"
+        }
+      ],
+      "start": {
+        "rect": {
+          "x": 0,
+          "y": 856.609375,
+          "width": 350,
+          "height": 509.25,
+          "bottom": 1365.859375,
+          "right": 350
+        },
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.92px",
+        "columns": "none",
+        "padding": "18px 0px 46px",
+        "border": "0px",
+        "radius": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "shadow": "none"
+      },
+      "startLinks": [
+        {
+          "text": "01\nMarkets\nDestination markets\n→",
+          "href": "/markets/",
+          "rect": {
+            "x": 16,
+            "y": 959.859375,
+            "width": 318,
+            "height": 112,
+            "bottom": 1071.859375,
+            "right": 334
+          }
+        },
+        {
+          "text": "02\nProducts\nFourteen grades\n→",
+          "href": "/products/",
+          "rect": {
+            "x": 16,
+            "y": 1083.859375,
+            "width": 318,
+            "height": 112,
+            "bottom": 1195.859375,
+            "right": 334
+          }
+        },
+        {
+          "text": "03\nDocuments\nGuidance and requests\n→",
+          "href": "/documents/",
+          "rect": {
+            "x": 16,
+            "y": 1207.859375,
+            "width": 318,
+            "height": 112,
+            "bottom": 1319.859375,
+            "right": 334
+          }
+        }
+      ],
+      "nonHeroShells": [
+        {
+          "module": "start-here",
+          "rect": {
+            "x": 16,
+            "y": 874.609375,
+            "width": 318,
+            "height": 445.25,
+            "bottom": 1319.859375,
+            "right": 334
+          }
+        },
+        {
+          "module": "markets",
+          "rect": {
+            "x": 16,
+            "y": 1417.859375,
+            "width": 318,
+            "height": 1450.5625,
+            "bottom": 2868.421875,
+            "right": 334
+          }
+        },
+        {
+          "module": "products",
+          "rect": {
+            "x": 16,
+            "y": 2972.421875,
+            "width": 318,
+            "height": 871.21875,
+            "bottom": 3843.640625,
+            "right": 334
+          }
+        },
+        {
+          "module": "applications",
+          "rect": {
+            "x": 16,
+            "y": 3947.640625,
+            "width": 318,
+            "height": 1737.9375,
+            "bottom": 5685.578125,
+            "right": 334
+          }
+        },
+        {
+          "module": "company",
+          "rect": {
+            "x": 16,
+            "y": 5789.578125,
+            "width": 318,
+            "height": 929.609375,
+            "bottom": 6719.1875,
+            "right": 334
+          }
+        },
+        {
+          "module": "documents",
+          "rect": {
+            "x": 16,
+            "y": 6823.1875,
+            "width": 318,
+            "height": 889.46875,
+            "bottom": 7712.65625,
+            "right": 334
+          }
+        },
+        {
+          "module": "resources",
+          "rect": {
+            "x": 16,
+            "y": 7816.65625,
+            "width": 318,
+            "height": 1674.28125,
+            "bottom": 9490.9375,
+            "right": 334
+          }
+        },
+        {
+          "module": "page-rfq",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      ],
+      "horizontalEscapes": [],
+      "h1Lines": 3,
+      "tabToSecond": true,
+      "focusStyle": {
+        "outline": "rgb(0, 128, 120) solid 3px",
+        "offset": "3px"
+      },
+      "activations": [
+        {
+          "text": "View Products",
+          "href": "/products/",
+          "trusted": true
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/",
+          "trusted": true
+        }
+      ],
+      "requestFailures": [],
+      "previousNonHeroShells": [
+        {
+          "module": "start-here",
+          "x": 16,
+          "width": 318,
+          "height": 445.25
+        },
+        {
+          "module": "markets",
+          "x": 16,
+          "width": 318,
+          "height": 1450.5625
+        },
+        {
+          "module": "products",
+          "x": 16,
+          "width": 318,
+          "height": 871.21875
+        },
+        {
+          "module": "applications",
+          "x": 16,
+          "width": 318,
+          "height": 1737.9375
+        },
+        {
+          "module": "company",
+          "x": 16,
+          "width": 318,
+          "height": 929.609375
+        },
+        {
+          "module": "documents",
+          "x": 16,
+          "width": 318,
+          "height": 889.46875
+        },
+        {
+          "module": "resources",
+          "x": 16,
+          "width": 318,
+          "height": 1674.28125
+        },
+        {
+          "module": "page-rfq",
+          "x": 0,
+          "width": 0,
+          "height": 0
+        }
+      ]
+    }
+  ],
+  "freezeUnchanged": true,
+  "browser": "151.0.7922.34"
+}

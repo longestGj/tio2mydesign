@@ -1,0 +1,76 @@
+{
+  "freeze_id": "MARKET-ROOT-HERO-G4-CANDIDATE-01-FREEZE-20260911",
+  "page_id": "MARKET-000",
+  "candidate_id": "MARKET-ROOT-HERO-G4-CANDIDATE-01",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "scope": "Wave 2 targeted Gate 4 Hero proof only; no Manifest replacement, Gate closure, implementation, D16 work or release authorization.",
+  "contracts": [
+    "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+    "docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_CONTROL_V1.0.md",
+    "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+    "pages/markets/04_planning/MARKET-000_CONTENT_ARCHITECTURE_V0.1.md"
+  ],
+  "candidate": {
+    "path": "market-root-page-hero-preview-v1.0.html",
+    "bytes": 11540,
+    "sha256": "96bce9e7f389be6d008b53910290dfccb68bc2dff9e96889094a634bb3e22d6f"
+  },
+  "replay": {
+    "capture": "node capture-market-root-page-hero-v1.0.cjs",
+    "verification": "node verify-market-root-page-hero-v1.0.cjs",
+    "runtime_report": {
+      "path": "capture-runtime-v1.0.json",
+      "sha256": "479a19cc1a7f1218371c3319ce2411a1bb82d91892e9a7011c8bd5525c7428b6",
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    {
+      "name": "desktop",
+      "path": "MARKET-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png",
+      "dimensions": "1440x980",
+      "bytes": 113437,
+      "sha256": "a20020617ff1ae0f7cd4993ede211060ea3cca4ee579586dbba25d22b4b11dfd",
+      "h1_px": 56,
+      "header_px": 84
+    },
+    {
+      "name": "tablet",
+      "path": "MARKET-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png",
+      "dimensions": "768x1180",
+      "bytes": 94134,
+      "sha256": "7820cf2844bcdd0b663d6e7a28b41e9ae06e91ec1bee3909684953e337f3bb19",
+      "h1_px": 44,
+      "header_px": 64
+    },
+    {
+      "name": "mobile",
+      "path": "MARKET-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png",
+      "dimensions": "390x1280",
+      "bytes": 85383,
+      "sha256": "93f74640a626b69d3a440034307dba43feaa32ace729a843b8e1fb4fea48227d",
+      "h1_px": 36,
+      "header_px": 64
+    }
+  ],
+  "validated": {
+    "desktop_navigation_order": [
+      "Home",
+      "Markets",
+      "Products",
+      "Applications",
+      "Documents",
+      "Resources",
+      "About"
+    ],
+    "buyer_visible_status_label": false,
+    "h1_weight": 700,
+    "no_unconditional_market_child_routes": true,
+    "ptbr_absent": true,
+    "information_media_visible_390": true,
+    "no_hero_left_decoration": true,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false
+  }
+}

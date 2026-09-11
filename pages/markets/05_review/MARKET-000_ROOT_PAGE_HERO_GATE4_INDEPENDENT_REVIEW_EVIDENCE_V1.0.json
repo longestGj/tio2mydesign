@@ -1,0 +1,83 @@
+{
+  "review_id": "MARKET-ROOT-HERO-G4-IR-01",
+  "reviewer_independence": "Reviewer did not create the MARKET-000 Wave 2 candidate, capture, freeze record, or source preview.",
+  "candidate": {
+    "path": "pages/markets/04_planning/visual-designs/market-root-page-hero-v1.0/market-root-page-hero-preview-v1.0.html",
+    "sha256": "96bce9e7f389be6d008b53910290dfccb68bc2dff9e96889094a634bb3e22d6f",
+    "freeze_record": "pages/markets/04_planning/visual-designs/market-root-page-hero-v1.0/freeze-record.json"
+  },
+  "author_verifier": {
+    "command": "node pages/markets/04_planning/visual-designs/market-root-page-hero-v1.0/verify-market-root-page-hero-v1.0.cjs",
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "independent_validator": {
+    "command": "node pages/markets/05_review/MARKET-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_REVIEW_VALIDATOR_V1.0.cjs",
+    "status": "PASS",
+    "exit_code": 0,
+    "static_checks": {
+      "candidate_sha_matches_freeze": true,
+      "all_frozen_evidence_matches": true,
+      "no_provisional_market_route_token": true,
+      "no_ptbr_token": true,
+      "no_schema_payload": true
+    }
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "dimensions": "1440x980",
+      "screenshot_sha256": "a20020617ff1ae0f7cd4993ede211060ea3cca4ee579586dbba25d22b4b11dfd",
+      "h1_px": 56,
+      "h1_weight": 700,
+      "h1_lines": 2,
+      "header_px": 84,
+      "min_interactive_px": 44,
+      "overflow": false,
+      "information_card_visible": true
+    },
+    {
+      "name": "tablet",
+      "dimensions": "768x1180",
+      "screenshot_sha256": "7820cf2844bcdd0b663d6e7a28b41e9ae06e91ec1bee3909684953e337f3bb19",
+      "h1_px": 44,
+      "h1_weight": 700,
+      "h1_lines": 1,
+      "header_px": 64,
+      "min_interactive_px": 44,
+      "overflow": false,
+      "information_card_visible": true
+    },
+    {
+      "name": "mobile",
+      "dimensions": "390x1280",
+      "screenshot_sha256": "93f74640a626b69d3a440034307dba43feaa32ace729a843b8e1fb4fea48227d",
+      "h1_px": 36,
+      "h1_weight": 700,
+      "h1_lines": 2,
+      "header_px": 64,
+      "min_interactive_px": 44,
+      "overflow": false,
+      "information_card_visible": true
+    }
+  ],
+  "market_state_checks": {
+    "hero_primary_target": "#destination-selector",
+    "hero_primary_target_resolves": true,
+    "desktop_navigation_order": ["Home", "Markets", "Products", "Applications", "Documents", "Resources", "About"],
+    "active_navigation": "Markets",
+    "buyer_visible_CURRENT": false,
+    "market_child_hrefs": [],
+    "ptbr_rendered": false,
+    "destination_order": ["Germany", "Italy", "Spain", "Poland", "Netherlands", "Belgium", "United Kingdom", "India", "Brazil"],
+    "hero_left_pseudo_content": "none",
+    "hero_left_pseudo_display": "none"
+  },
+  "original_detail_visual_review": {
+    "desktop": "PASS",
+    "tablet": "PASS",
+    "mobile": "PASS",
+    "scope": "Header, full bounded Hero, information card and first Destination Market transition were read at original detail."
+  },
+  "result": "PASS / REQUIRED_FINDINGS_0"
+}

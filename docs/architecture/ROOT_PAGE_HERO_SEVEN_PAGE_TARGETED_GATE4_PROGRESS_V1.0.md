@@ -7,7 +7,7 @@
 | Parent control | `ROOT-HERO-G4-7PAGE-CTRL-01` |
 | Workset | `ROOT-HERO-G4-7P-V1` |
 | Date | `2026-09-11` |
-| Current state | `IN_PROGRESS / MARKET_BINDING_PASS / DOC_NEXT` |
+| Current state | `IN_PROGRESS / WAVE_2_COMPLETE / RES_NEXT` |
 | Gate 8 / D16 | `NOT_AUTHORIZED_BY_THIS_RECORD / NOT_TOUCHED` |
 
 This progress record does not replace the seven-page control. It records actual execution after the user chose to prove the shared direction on Home first and then instructed the project to continue by the approved process.
@@ -71,3 +71,16 @@ This reference proof confirms that the approved PRODUCT-000 open-white presentat
 - Independent result: `PROJECT_CONTROL_REVIEW_PASS`; required Findings `0`.
 
 The binding retains destination-first copy, the local selector action, EU/country hierarchy, PT-BR hold and non-live route governance. The historical buyer-visible `CURRENT` label is absent under Global Chrome V0.5. This does not replace the current MARKET Manifest or authorize route implementation. Next: `DOC-000` Wave 2 binding.
+
+## DOC-000 Wave 2 binding
+
+- Page-local candidate: `DOC-000_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.0.md`.
+- Binding record: `DOC-000_ROOT_PAGE_HERO_GATE4_BINDING_V1.0.md`.
+- Frozen page-context evidence: `pages/documents/04_planning/visual-designs/doc-root-page-hero-v1.0/` at 1440px, 768px and 390px.
+- Author verification: `PASS`, exit code `0`.
+- Independent review: `pages/documents/05_review/DOC-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_REVIEW_V1.0.md`, SHA-256 `4F91C8E9FC947F8FA396CB9469B03D3E4E5A38448FDB66DE8BC9FC81E0421448`.
+- Independent result: `PROJECT_CONTROL_REVIEW_PASS`; required Findings `0`.
+
+The Hero action remains a direct `/request-documents/` path. The separate selector below the Hero remains fully visible with one non-default 14-grade field and an explicit Continue action. Its existing teal section rule is preserved as a selector-owned element and is not a Hero decoration. The current FAQ #2 authority overlay is recorded without modifying page copy in this workset.
+
+Wave 2 is complete. Next: `RES-000` Wave 3 `hub-dark` binding.

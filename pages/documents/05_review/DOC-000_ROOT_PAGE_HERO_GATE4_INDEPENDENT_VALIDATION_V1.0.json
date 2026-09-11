@@ -1,0 +1,45 @@
+{
+  "review_id": "DOC-ROOT-HERO-G4-INDEPENDENT-VALIDATION-V1.0",
+  "page_id": "DOC-000",
+  "candidate_id": "DOC-ROOT-HERO-G4-CANDIDATE-01",
+  "reviewer_role": "independent_project_control_reviewer",
+  "review_date": "2026-09-11",
+  "candidate": {
+    "path": "pages/documents/04_planning/visual-designs/doc-root-page-hero-v1.0/doc-root-page-hero-preview-v1.0.html",
+    "sha256": "62bf03dde9bf9474e4fddf73c1f4addd32db09539450987c84c09bd195c89561"
+  },
+  "producer_freeze_replay": {
+    "command": "node verify-doc-root-page-hero-v1.0.cjs",
+    "result": "PASS",
+    "frozen_evidence": [
+      {"viewport": "1440x1200", "path": "DOC-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png", "sha256": "af72300b3e8159dd8484a7dbb61d428000c3bc99c4a08b886efbd57b043b61fe"},
+      {"viewport": "768x1450", "path": "DOC-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png", "sha256": "6cd146fa18197e3bafe49722ba76d2090aef0686900e4f816c49f5e6e3401112"},
+      {"viewport": "390x1500", "path": "DOC-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png", "sha256": "b577071966ffff62491cc229d052b807983a88643d840cffca770e67acb5688b"}
+    ]
+  },
+  "independent_browser_replay": {
+    "method": "read-only Playwright evaluation at 1440, 768 and 390; no candidate, freeze or evidence file was written",
+    "result": "PASS",
+    "all_viewports": {
+      "hero_copy": "exact approved eyebrow/H1/body/English note",
+      "hero_link": "/request-documents/ exactly; no query or fragment",
+      "h1": "56/44/36px, weight 700",
+      "controls": "minimum visible height 44px",
+      "overflow": false,
+      "buyer_visible_CURRENT": false,
+      "hero_pseudo_decoration": "none",
+      "media_visible": true,
+      "selector_left_rule": "4px teal, isolated to selector",
+      "selector_initial": "one unselected 14-grade allowlist and visible operable Continue",
+      "empty_continue": "no navigation; exact validation; focus returns to product-grade",
+      "M-350": "confirmation exact and href /request-documents/?product=M-350"
+    }
+  },
+  "source_checks": {
+    "faq_2_overlay": "exact V0.10 answer verified; not reproduced or changed by the Hero/selector candidate",
+    "visual_inspection": "original-detail inspection completed for all frozen 1440, 768 and 390 PNGs",
+    "finding_counts": {"P0": 0, "P1": 0, "P2": 0}
+  },
+  "result": "PROJECT_CONTROL_REVIEW_PASS",
+  "required_findings": 0
+}

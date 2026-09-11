@@ -1,0 +1,72 @@
+{
+  "freeze_id": "DOC-ROOT-HERO-G4-CANDIDATE-01-FREEZE-20260911",
+  "page_id": "DOC-000",
+  "candidate_id": "DOC-ROOT-HERO-G4-CANDIDATE-01",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "scope": "Wave 2 targeted Gate 4 Hero/selector proof only; no Manifest replacement, Gate closure, implementation, D16 work or release authorization.",
+  "contracts": [
+    "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+    "docs/architecture/ROOT_PAGE_HERO_SIX_PAGE_PREFLIGHT_AUDIT_V1.0.md",
+    "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+    "pages/documents/04_planning/DOC-000_CONTENT_ARCHITECTURE_V0.10.md",
+    "pages/documents/04_planning/DOC-000_GATE4_HERO_CTA_USER_DECISION_V0.1.md"
+  ],
+  "candidate": {
+    "path": "doc-root-page-hero-preview-v1.0.html",
+    "bytes": 11577,
+    "sha256": "62bf03dde9bf9474e4fddf73c1f4addd32db09539450987c84c09bd195c89561"
+  },
+  "replay": {
+    "capture": "node capture-doc-root-page-hero-v1.0.cjs",
+    "verification": "node verify-doc-root-page-hero-v1.0.cjs",
+    "runtime_report": {
+      "path": "capture-runtime-v1.0.json",
+      "sha256": "d8d9d173e37e4aa0de363b3fdcaef9a587ab8c7066bea7759b70c59ae2ba4d77",
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    {
+      "name": "desktop",
+      "path": "DOC-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png",
+      "dimensions": "1440x1200",
+      "bytes": 114867,
+      "sha256": "af72300b3e8159dd8484a7dbb61d428000c3bc99c4a08b886efbd57b043b61fe",
+      "h1_px": 56,
+      "header_px": 84
+    },
+    {
+      "name": "tablet",
+      "path": "DOC-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png",
+      "dimensions": "768x1450",
+      "bytes": 95236,
+      "sha256": "6cd146fa18197e3bafe49722ba76d2090aef0686900e4f816c49f5e6e3401112",
+      "h1_px": 44,
+      "header_px": 64
+    },
+    {
+      "name": "mobile",
+      "path": "DOC-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png",
+      "dimensions": "390x1500",
+      "bytes": 86508,
+      "sha256": "b577071966ffff62491cc229d052b807983a88643d840cffca770e67acb5688b",
+      "h1_px": 36,
+      "header_px": 64
+    }
+  ],
+  "validated": {
+    "hero_direct_request_exact": "/request-documents/",
+    "selector_initial_no_default": true,
+    "selector_grade_count": 14,
+    "selector_validation_focus": true,
+    "selector_selected_handoff": "/request-documents/?product={GRADE}",
+    "selector_teal_left_rule_retained": true,
+    "faq_overlay_out_of_capture": true,
+    "buyer_visible_status_label": false,
+    "information_media_visible_390": true,
+    "no_hero_left_decoration": true,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false
+  }
+}

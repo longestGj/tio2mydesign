@@ -1,5 +1,7 @@
 # TiO2 Malaysia · 当前项目状态
 
+2026-09-11用户退回Home首张大框Hero候选，并明确只调整一项：Home与Applications采用Products气质的开放白底，不再用大外框包住首屏；标题、正文、CTA、图片/信息卡和后续模块均不改，其他页面不因本决定变化。`ROOT-PAGE-HERO-OPEN-WHITE-01=USER_APPROVED / ACTIVE`；Home V1.0=`USER_REJECTED / SUPERSEDED`，Home V1.1 1440候选已生成并等待用户视觉判断。七页Manifest、Gate 8与D16均未改变。[开放白底增补](docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md) / [Home V1.1候选](pages/home/04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.1.md)。
+
 2026-09-11七个一级导航根页面Hero定向Gate 4编排已准备：`ROOT-HERO-G4-7PAGE-CTRL-01=PREPARED / NOT_DISPATCHED`。顺序为`HOME-001 + APP-000`共享母版验证 → `PRODUCT-000 + MARKET-000 + DOC-000`浅色Hub扩展 → `RES-000 + ABOUT-001`特殊变体；建议由一个Gate 4任务维护共享母版与七页绑定，冻结后交给另一个独立任务执行一次横向Gate 5审查。当前未派发Gate 4、未更新七页Manifest、未授权Gate 8、未操作`D:\16Wordpress_nextjs`。[七页控制单V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_CONTROL_V1.0.md)。
 
 2026-09-11 用户已批准七个一级导航根页面共享Hero合同：`ROOT-PAGE-HERO-001=USER_APPROVED / ACTIVE`，覆盖`HOME-001`、`MARKET-000`、`PRODUCT-000`、`APP-000`、`DOC-000`、`RES-000`、`ABOUT-001`。七页后续共用唯一`RootPageHero`骨架和三个受控变体，Hero左侧装饰竖线统一为0；页面内容、媒体、CTA目标、SEO/GEO、Schema及Global Chrome不因本合同改变。后续按定向Gate 4→新Gate 5→Gate 6→获授权Gate 8→Gate 9执行；当前尚未派发制作或开发，七页Manifest未因本次入口同步修改，未操作`D:\16Wordpress_nextjs`。[共享合同V1.0](docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)。

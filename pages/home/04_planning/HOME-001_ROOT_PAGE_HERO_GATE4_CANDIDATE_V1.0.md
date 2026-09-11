@@ -9,7 +9,7 @@
 | Parent contract | `ROOT-PAGE-HERO-001 = USER_APPROVED / ACTIVE` |
 | Candidate ID | `HOME-ROOT-HERO-G4-CANDIDATE-01` |
 | Date | `2026-09-11` |
-| Status | `DRAFT_FOR_USER_VISUAL_REVIEW / NOT_APPROVED` |
+| Status | `USER_REJECTED / SUPERSEDED_BY_OPEN_WHITE_V1.1` |
 | Scope | Home Header-to-Hero join, full Hero and first following-module transition |
 | Current page Manifest | Unchanged; `HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.6.md` remains current |
 | Gate 8 / D16 | `NOT_AUTHORIZED / NOT_TOUCHED` |
@@ -52,3 +52,7 @@ Fresh browser inspection at 1440×900 recorded:
 ## Review Boundary
 
 This is the first visual proof of Wave 1, not a Gate 4 close, Gate 5 review, approved page baseline or production implementation. User feedback may revise the shared master before 768px/390px evidence and the APP-000 binding are produced. Historical approved Home assets remain unchanged.
+
+## User Disposition
+
+The user rejected this framed-shell direction on `2026-09-11` and selected the open-white Products feeling for Home and Applications. The proposed replacement of Home media/content was explicitly not authorized. This candidate remains immutable history and must not be promoted.

@@ -1,5 +1,7 @@
 # TiO₂ Malaysia 一级页面共享 Hero 组件规范 V1.0
 
+> 2026-09-11用户定向决定：Home与Applications不使用包住完整首屏的大卡片，改为Products气质的开放白底；其他提议不执行。该局部优先规则见[Open-White Surface Addendum V1.0](ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md)，其余V1.0合同保持。
+
 ## 1. 文档控制
 
 | 字段 | 当前值 |

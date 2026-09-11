@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "handoff_id": "HOME-001-G6-APP-ALIGN-HANDOFF-V1",
+  "gate8_task_id": "01a07a66-3c4a-75a2-9df4-648942742f9e",
+  "site_scope": "tio2-my",
+  "identity": {
+    "implementation_commit": "09aa4e446ec3eae870f8fc844a73a4169ac06abe",
+    "evidence_head": "517f18f883a9853b5510ddec088df97bf2828923",
+    "build_id": "lcePXqYwI1h1gOF3nVmpW"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:3292",
+    "rounds": 2,
+    "requests": 2,
+    "successful_requests": 2,
+    "observations": [
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:3292/",
+        "status": 200,
+        "bytes": 62695,
+        "final_url": "http://127.0.0.1:3292/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:3292/",
+        "status": 200,
+        "bytes": 62695,
+        "final_url": "http://127.0.0.1:3292/",
+        "missing_markers": [],
+        "scope_header": null,
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "evidence_validation": {
+    "status": "PASS"
+  }
+}

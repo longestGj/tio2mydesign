@@ -119,4 +119,4 @@ All images used for the visual conclusion were opened and inspected. The prior i
 }
 ```
 
-Notification target: D16 task `01My开发1` / thread `01a07a66-3c4a-75a2-9df4-648942742f9e`. Delivery result: `SENT` on 2026-09-11. The notice authorizes the developer to stop this Home return and release the held `3292` runtime; it does not authorize Gate 10 or release.
+Notification target: D16 task `01My开发1` / thread `01a07a66-3c4a-75a2-9df4-648942742f9e`. Delivery result: `SENT_AND_ACKNOWLEDGED` on 2026-09-11. The developer confirmed the Home return stopped, no further Home or Shared Global Chrome changes were made, and the held `3292` runtime was released with listener count `0`. The feature HEAD remains `517f18f883a9853b5510ddec088df97bf2828923` and clean; D16 `main` remains at `9571dd2ab7e7f2c7c9cb373e008ca81b3c534822` and clean with no merge. This acknowledgement does not authorize Gate 10 or release.

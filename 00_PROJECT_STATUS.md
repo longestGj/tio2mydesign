@@ -1,5 +1,7 @@
 # TiO2 Malaysia · 当前项目状态
 
+2026-09-11 七页共享Hero Gate 6已完成并关闭：FAST_PATH作者包V1.1经不同身份独立复审`REVIEW_PASS`，P0/P1/P2=`0/0/0`；Markets生产入口继续继承10个正常可爬取链接，Gate4无链接预览未被误升为生产规则，七页current authority与依赖已精确绑定。当前[Gate6 Manifest](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_CURRENT_GATE6_MANIFEST_V1.0.md)状态为`APPROVED / CLOSED`及`APPROVED_FOR_HANDOFF`。用户已授权本工作集连续执行Gate6→8→9且中间无需确认；下一步直接交既有D16「01My开发1」实现一个共享RootPageHero与七个配置。Gate10、合并、部署、发布、DNS和索引不在授权范围。
+
 2026-09-11 七个一级导航根页面共享Hero工作集已完成并关闭：`ROOT-HERO-G4-7P-V1=APPROVED / CLOSED`，最终独立横向审查`ROOT-HERO-G5-XPAGE-IVR-01-R2=PROJECT_CONTROL_REVIEW_PASS / CLOSED`，P0/P1/P2=`0/0/0`、开放条件0。Home桌面H1已在V1.4修正为56px/700；用户批准的RES-000与ABOUT-001 390px自然四行例外均仅限各自页面和断点，其他页面继续遵守三行默认。单一批准组合由[七页批准Manifest](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md)登记，[关闭记录](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_GATE4_GATE5_CLOSURE_V1.0.md)完成Gate4/新Gate5收口。页面正文、SEO/GEO、Schema、Global Chrome、路由及既有生命周期不因本次重写；Gate6/8与D16未启动、未授权。
 
 2026-09-11 RES-000共享Hero绑定经两轮定向返修后完成：V1.2=`PROJECT_CONTROL_REVIEW_PASS`、required Findings 0；Mobile Menu、共享CTA色、装饰图语义、901/900媒体断点及H0零库存均通过作者与独立验证。用户批准的390px H1自然四行例外已登记为仅限RES-000，不扩张其他页面；正常字距、36px/700、24px内边距与零溢出保持。未恢复旧资源卡，未更新Manifest。下一顺序为ABOUT-001；Gate 6/8与D16未触碰。[候选](pages/resources/04_planning/RES-000_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.2.md) / [最终独立复审](pages/resources/05_review/RES-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_TARGETED_RECHECK_V1.2.md) / [七页进度](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_PROGRESS_V1.0.md)。

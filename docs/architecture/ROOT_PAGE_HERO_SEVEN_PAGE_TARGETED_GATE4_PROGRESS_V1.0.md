@@ -7,7 +7,7 @@
 | Parent control | `ROOT-HERO-G4-7PAGE-CTRL-01` |
 | Workset | `ROOT-HERO-G4-7P-V1` |
 | Date | `2026-09-11` |
-| Current state | `COMPLETE / GATE4_APPROVED_CLOSED / GATE5_PROJECT_CONTROL_REVIEW_PASS_CLOSED` |
+| Current state | `GATE6_APPROVED_CLOSED / APPROVED_FOR_HANDOFF / GATE8_AUTHORIZED_PENDING_DISPATCH` |
 | Gate 8 / D16 | `NOT_AUTHORIZED_BY_THIS_RECORD / NOT_TOUCHED` |
 
 This progress record does not replace the seven-page control. It records actual execution after the user chose to prove the shared direction on Home first and then instructed the project to continue by the approved process.
@@ -108,3 +108,7 @@ The candidate retains the current H0 inventory state and transitions directly fr
 - Final cross-page independent review: `ROOT-HERO-G5-XPAGE-IVR-01-R2 = PROJECT_CONTROL_REVIEW_PASS`; P0/P1/P2 `0/0/0`; open conditions `0`.
 
 The exact seven-page combination is registered in `ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md` and closed by `ROOT-HERO-G4-G5-PC-CLOSURE-01`. Home V1.4, APP V1.1, Product V1.0, Market V1.0, DOC V1.0, RES V1.2 and About V1.1 are the approved additive Root Hero bindings. Existing page bodies and lifecycle Manifests remain authoritative for all non-Hero scope. Gate 6 and Gate 8 remain not started and are not authorized by this progress record.
+
+## Gate 6 completion
+
+Gate 6 FAST_PATH intake, additive handoff mapping and independent review are complete. The V1.1 package closes `ROOT-HERO-G6-F01/F02`; final independent findings are P0/P1/P2 `0/0/0`. Project Control closed Gate 6 under standing authority in `ROOT_PAGE_HERO_SEVEN_PAGE_CURRENT_GATE6_MANIFEST_V1.0.md`. The user's 2026-09-11 continuous authorization permits immediate Gate 8 dispatch and subsequent Gate 9 independent acceptance without intermediate confirmation. This record does not authorize Gate 10 or publication.

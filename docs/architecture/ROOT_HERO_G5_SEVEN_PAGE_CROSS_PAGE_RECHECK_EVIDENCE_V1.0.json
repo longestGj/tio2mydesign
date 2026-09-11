@@ -1,0 +1,37 @@
+{
+  "review_id": "ROOT-HERO-G5-XPAGE-IVR-01-R1",
+  "mode": "TARGETED_RECHECK / INDEPENDENT_REVIEW",
+  "date": "2026-09-11",
+  "workset": "ROOT-HERO-G4-7P-V1",
+  "finding": "ROOT-HERO-G5-XPAGE-F01",
+  "candidate": {
+    "id": "HOME-ROOT-HERO-G4-CANDIDATE-05",
+    "path": "pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/homepage-root-page-hero-preview-v1.4.html",
+    "sha256": "1ABE07BCD941A05295A26194CA7CE3EA81F5DEC2074F717BCEF58EF62D891DE6"
+  },
+  "freeze_record": {
+    "path": "pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/freeze-record.json",
+    "sha256": "5E81C6CA3A0650B836FF87B4141B29946C02DA72DE2287B6B2BE5A088474C7F5"
+  },
+  "fresh_validator": {
+    "command": "node pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/verify-home-root-page-hero-v1.4.cjs",
+    "exit_code": 0,
+    "result": "PASS",
+    "checks": {
+      "1440": { "h1": "56px / 700 / 2 lines", "overflow": false, "open_white": true, "cta_targets": ["/request-a-quote/", "/products/"], "cta_min_height_px": 48.25, "first_module": "start-here" },
+      "768": { "h1": "44px / 700 / 2 lines", "overflow": false, "open_white": true, "cta_targets": ["/request-a-quote/", "/products/"], "cta_min_height_px": 48.25, "first_module": "start-here" },
+      "390": { "h1": "36px / 700 / 3 lines", "overflow": false, "open_white": true, "cta_targets": ["/request-a-quote/", "/products/"], "cta_min_height_px": 48.25, "first_module": "start-here" }
+    }
+  },
+  "frozen_images": [
+    { "viewport": "1440x900", "path": "pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/HOME-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.4.png", "sha256": "5D6BAF6C788BB82DC1FD7E629854FB72919189E5EDC533CCEB8977428326251C", "original_detail_inspected": true },
+    { "viewport": "768x1400", "path": "pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/HOME-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.4.png", "sha256": "BF5C9A9CECFC5A560C4FD0B9C41F8F904C214115C0CBBC2FDE87823609420C1B", "original_detail_inspected": true },
+    { "viewport": "390x1500", "path": "pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/HOME-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.4.png", "sha256": "98059B78B290E70C19CDC831A65FC363648F4FA787FEDF677B2715A1BDAB6369", "original_detail_inspected": true }
+  ],
+  "unchanged_scope": {
+    "checked": ["H1 exact text", "two CTA labels and targets", "Hero media asset", "open-white Hero", "Header/Chrome context", "Start Here transition", "44px controls", "horizontal overflow"],
+    "result": "NO_REGRESSION_OBSERVED"
+  },
+  "finding_disposition": "CLOSED_FOR_HOME-ROOT-HERO-G4-CANDIDATE-05",
+  "remaining_condition": "ABOUT-001 390px natural four-line H1 remains USER_DECISION_REQUIRED; it is not approved or changed by this recheck."
+}

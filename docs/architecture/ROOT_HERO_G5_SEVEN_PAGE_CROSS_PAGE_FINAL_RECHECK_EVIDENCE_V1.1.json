@@ -1,0 +1,45 @@
+{
+  "review_id": "ROOT-HERO-G5-XPAGE-IVR-01-R2",
+  "mode": "TARGETED_RECHECK / INDEPENDENT_REVIEW",
+  "date": "2026-09-11",
+  "workset": "ROOT-HERO-G4-7P-V1",
+  "result": "PROJECT_CONTROL_REVIEW_PASS",
+  "user_decision_consumed": {
+    "date": "2026-09-11",
+    "object": "ABOUT-001 RootPageHero H1 at 390px only",
+    "approved_exception": "Natural four-line wrap at 36px/700 with normal letter spacing and the shared 24px Shell padding.",
+    "non_expansion": ["shared three-line default", "other breakpoints", "other About headings", "other root pages"]
+  },
+  "about_candidate": {
+    "id": "ABOUT-ROOT-HERO-G4-CANDIDATE-02",
+    "binding": "pages/about-contact/04_visual/ABOUT-001_ROOT_PAGE_HERO_GATE4_BINDING_V1.1.md",
+    "source": "pages/about-contact/04_visual/visual-designs/about-root-page-hero-v1.0/about-root-page-hero-preview-v1.0.html",
+    "source_sha256": "241632a24f79edbabfeb1c618dabd178d574a48bc3ca800760813a0f60941871"
+  },
+  "about_fresh_validator": {
+    "command": "node pages/about-contact/04_visual/visual-designs/about-root-page-hero-v1.1/verify-about-root-page-hero-v1.1.cjs",
+    "exit_code": 0,
+    "result": "PASS",
+    "decision_scope_verified": "ABOUT-001 390px only; no shared-default expansion",
+    "viewports": {
+      "1440": { "h1": "56px / 700 / 3 lines", "overflow": false, "current_visible": false, "min_target_px": 44 },
+      "768": { "h1": "44px / 700 / 2 lines", "overflow": false, "current_visible": false, "min_target_px": 44 },
+      "390": { "h1": "36px / 700 / 4 natural lines", "letter_spacing": "normal", "transform": "none", "font_stretch": "normal", "shell_padding_px": 24, "overflow": false, "current_visible": false, "min_target_px": 44 }
+    }
+  },
+  "about_original_images": [
+    { "viewport": "1440x1280", "path": "pages/about-contact/04_visual/visual-designs/about-root-page-hero-v1.1/ABOUT-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.1.png", "sha256": "9d02534a9d847c7185c8dd5b17fbc1e64205032d60994e54a884e30292e13419", "original_detail_inspected": true },
+    { "viewport": "768x1550", "path": "pages/about-contact/04_visual/visual-designs/about-root-page-hero-v1.1/ABOUT-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.1.png", "sha256": "4664fe7cbfa43838cd6ccecf907fba83ebe126fac3e8974c0291bf84d64ec2e3", "original_detail_inspected": true },
+    { "viewport": "390x1800", "path": "pages/about-contact/04_visual/visual-designs/about-root-page-hero-v1.1/ABOUT-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.1.png", "sha256": "cc82120d767629270ba9f088f8abdf13e3dbea92660044e03af8f92810b9b9f4", "original_detail_inspected": true }
+  ],
+  "home_f01_reconfirmation": {
+    "candidate": "HOME-ROOT-HERO-G4-CANDIDATE-05",
+    "command": "node pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/verify-home-root-page-hero-v1.4.cjs",
+    "exit_code": 0,
+    "result": "PASS",
+    "h1": { "1440": "56px / 700 / 2 lines", "768": "44px / 700 / 2 lines", "390": "36px / 700 / 3 lines" },
+    "finding_disposition": "ROOT-HERO-G5-XPAGE-F01 CLOSED_FOR_HOME-ROOT-HERO-G4-CANDIDATE-05"
+  },
+  "inherited_unchanged_pages": ["APP-000", "PRODUCT-000", "MARKET-000", "DOC-000", "RES-000"],
+  "findings": { "p0": 0, "p1": 0, "p2": 0, "required_open": 0 }
+}

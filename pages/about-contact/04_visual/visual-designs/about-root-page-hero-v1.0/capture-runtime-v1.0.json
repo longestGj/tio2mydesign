@@ -1,0 +1,152 @@
+{
+  "candidate": "about-root-page-hero-preview-v1.0.html",
+  "candidateSha256": "241632a24f79edbabfeb1c618dabd178d574a48bc3ca800760813a0f60941871",
+  "status": "NEEDS_USER_DECISION",
+  "title_line_contract": {
+    "default_max_lines": 3,
+    "mobile_lines": 4,
+    "decision": "USER_DECISION_REQUIRED",
+    "reason": "At 390px, the shared 24px Shell padding leaves 302px for a 36px/700 H1. No transform, font-stretch, fixed over-width, or non-normal letter-spacing is used."
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "h1Size": 56,
+      "h1Weight": "700",
+      "h1Transform": "none",
+      "h1LetterSpacing": "-2.52px",
+      "h1Lines": 3,
+      "header": 84,
+      "minTarget": 44,
+      "overflow": false,
+      "current": false,
+      "hrefs": [
+        "/request-a-quote/",
+        "/contact/"
+      ],
+      "media": [
+        true,
+        "true",
+        false
+      ],
+      "facts": [
+        "Operating Company",
+        "Location",
+        "Main Product",
+        "Annual Supply",
+        "Markets Served",
+        "Customer Base",
+        "Export Coordination"
+      ],
+      "who": "Who We Are",
+      "menu": {},
+      "mechanical_pass": true,
+      "title_line_contract_pass": true,
+      "file": "ABOUT-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png",
+      "screenshotSha256": "9d02534a9d847c7185c8dd5b17fbc1e64205032d60994e54a884e30292e13419"
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "h1Size": 44,
+      "h1Weight": "700",
+      "h1Transform": "none",
+      "h1LetterSpacing": "-1.98px",
+      "h1Lines": 2,
+      "header": 64,
+      "minTarget": 44,
+      "overflow": false,
+      "current": false,
+      "hrefs": [
+        "/request-a-quote/",
+        "/contact/"
+      ],
+      "media": [
+        true,
+        "true",
+        true
+      ],
+      "facts": [
+        "Operating Company",
+        "Location",
+        "Main Product",
+        "Annual Supply",
+        "Markets Served",
+        "Customer Base",
+        "Export Coordination"
+      ],
+      "who": "Who We Are",
+      "menu": {
+        "open": "true",
+        "links": [
+          "Home",
+          "Markets",
+          "Products",
+          "Applications",
+          "Documents",
+          "Resources",
+          "About",
+          "Request a Quote"
+        ],
+        "active": "About",
+        "closed": true
+      },
+      "mechanical_pass": true,
+      "title_line_contract_pass": true,
+      "file": "ABOUT-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png",
+      "screenshotSha256": "4664fe7cbfa43838cd6ccecf907fba83ebe126fac3e8974c0291bf84d64ec2e3"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "h1Size": 36,
+      "h1Weight": "700",
+      "h1Transform": "none",
+      "h1LetterSpacing": "normal",
+      "h1Lines": 4,
+      "header": 64,
+      "minTarget": 44,
+      "overflow": false,
+      "current": false,
+      "hrefs": [
+        "/request-a-quote/",
+        "/contact/"
+      ],
+      "media": [
+        true,
+        "true",
+        true
+      ],
+      "facts": [
+        "Operating Company",
+        "Location",
+        "Main Product",
+        "Annual Supply",
+        "Markets Served",
+        "Customer Base",
+        "Export Coordination"
+      ],
+      "who": "Who We Are",
+      "menu": {
+        "open": "true",
+        "links": [
+          "Home",
+          "Markets",
+          "Products",
+          "Applications",
+          "Documents",
+          "Resources",
+          "About",
+          "Request a Quote"
+        ],
+        "active": "About",
+        "closed": true
+      },
+      "mechanical_pass": true,
+      "title_line_contract_pass": false,
+      "file": "ABOUT-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png",
+      "screenshotSha256": "cc82120d767629270ba9f088f8abdf13e3dbea92660044e03af8f92810b9b9f4"
+    }
+  ]
+}

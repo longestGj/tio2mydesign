@@ -1,0 +1,43 @@
+{
+  "recordId": "HOME-ROOT-HERO-G4-CANDIDATE-05-FREEZE-V1.4",
+  "page": "HOME-001",
+  "route": "/",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "date": "2026-09-11",
+  "parent": {
+    "candidate": "HOME-ROOT-HERO-G4-CANDIDATE-04",
+    "version": "V1.3",
+    "crossPageFinding": "ROOT-HERO-G5-XPAGE-F01"
+  },
+  "scope": "Home-only F01 correction: remove the 1440px H1 override so the shared 56px/700 H1 token applies. All other page content and component behavior are preserved.",
+  "capture": {
+    "browser": "Chromium 151.0.7922.34",
+    "playwright": "1.62.1",
+    "mode": "headless; DPR1; light; reduced motion; document.fonts.ready plus 200ms; fullPage=false; animations=disabled",
+    "script": "capture-home-root-page-hero-v1.4.cjs",
+    "runtime": "capture-runtime-v1.4.json"
+  },
+  "files": [
+    { "path": "homepage-root-page-hero-preview-v1.4.html", "bytes": 32628, "sha256": "1ABE07BCD941A05295A26194CA7CE3EA81F5DEC2074F717BCEF58EF62D891DE6" },
+    { "path": "capture-home-root-page-hero-v1.4.cjs", "bytes": 4504, "sha256": "151F480C8175642B1F00575EC282AC3299BA1DDF24CDCBE068BC97EF36975C24" },
+    { "path": "verify-home-root-page-hero-v1.4.cjs", "bytes": 4173, "sha256": "B59CC4D21572AC7870B9FBBE6B70612106D3E7241BF3F338F6A2994BCA9FE3FC" },
+    { "path": "capture-runtime-v1.4.json", "bytes": 11328, "sha256": "79532AD57753F1DD616BD918ADDE4EF3FB4511F05E108976B8FAC536957F8487" },
+    { "path": "verification-runtime-v1.4.json", "bytes": 4830, "sha256": "6594D2B6643F232E4C3E51D14259C66DA7350CA11C12E7078D8D112FF06A6F86" },
+    { "path": "HOME-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.4.png", "bytes": 391424, "sha256": "5D6BAF6C788BB82DC1FD7E629854FB72919189E5EDC533CCEB8977428326251C", "dimensions": "1440x900" },
+    { "path": "HOME-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.4.png", "bytes": 369051, "sha256": "BF5C9A9CECFC5A560C4FD0B9C41F8F904C214115C0CBBC2FDE87823609420C1B", "dimensions": "768x1400" },
+    { "path": "HOME-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.4.png", "bytes": 174739, "sha256": "98059B78B290E70C19CDC831A65FC363648F4FA787FEDF677B2715A1BDAB6369", "dimensions": "390x1500" }
+  ],
+  "dependencies": [
+    { "path": "../home-root-page-hero-v1.3/dependencies/Inter-Variable.ttf", "bytes": 876576, "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031" },
+    { "path": "../assets/homepage-hero-tio2-material-v0.6.png", "bytes": 1915067, "sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5" },
+    { "path": "../../../../../brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg", "bytes": 4342, "sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C" },
+    { "path": "../../../../../brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg", "bytes": 2725, "sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E" }
+  ],
+  "acceptance": {
+    "1440": "H1 56px/700, two lines; same copy, CTA destinations, media, open-white Hero and Start Here transition",
+    "768": "H1 44px/700, two lines; no horizontal overflow",
+    "390": "H1 36px/700, three lines; no horizontal overflow",
+    "shared": "No Hero-wide frame, radius, shadow or left decorative rule; CTA targets remain at least 44px high."
+  }
+}

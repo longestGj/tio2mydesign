@@ -1,0 +1,67 @@
+{
+  "freeze_id": "ABOUT-ROOT-HERO-G4-CANDIDATE-01-FREEZE-20260911",
+  "page_id": "ABOUT-001",
+  "candidate_id": "ABOUT-ROOT-HERO-G4-CANDIDATE-01",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW / TITLE_LINE_USER_DECISION_REQUIRED",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "candidate": {
+    "path": "about-root-page-hero-preview-v1.0.html",
+    "bytes": 14020,
+    "sha256": "241632a24f79edbabfeb1c618dabd178d574a48bc3ca800760813a0f60941871"
+  },
+  "replay": {
+    "capture": "node recheck-about-root-page-hero-v1.0.cjs",
+    "verification": "node verify-about-root-page-hero-v1.0.cjs",
+    "runtime_report": {
+      "path": "capture-runtime-v1.0.json",
+      "sha256": "a853905872115b1efc82a964e2f33c9616be05e747c7618351fc2b9ffd1c5c10",
+      "status": "NEEDS_USER_DECISION"
+    }
+  },
+  "evidence": [
+    {
+      "name": "desktop",
+      "path": "ABOUT-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png",
+      "dimensions": "1440x1280",
+      "bytes": 244801,
+      "sha256": "9d02534a9d847c7185c8dd5b17fbc1e64205032d60994e54a884e30292e13419",
+      "h1_px": 56,
+      "header_px": 84
+    },
+    {
+      "name": "tablet",
+      "path": "ABOUT-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png",
+      "dimensions": "768x1550",
+      "bytes": 241920,
+      "sha256": "4664fe7cbfa43838cd6ccecf907fba83ebe126fac3e8974c0291bf84d64ec2e3",
+      "h1_px": 44,
+      "header_px": 64
+    },
+    {
+      "name": "mobile",
+      "path": "ABOUT-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png",
+      "dimensions": "390x1800",
+      "bytes": 169152,
+      "sha256": "cc82120d767629270ba9f088f8abdf13e3dbea92660044e03af8f92810b9b9f4",
+      "h1_px": 36,
+      "header_px": 64
+    }
+  ],
+  "validated": {
+    "variant": "corporate-light",
+    "approved_composite_and_route_map_retained": true,
+    "decorative_media_aria_hidden": true,
+    "hero_supporting_copy_moved_to_immediate_who_we_are": true,
+    "cta_targets_unchanged": true,
+    "buyer_visible_status_label": false,
+    "no_hero_left_decoration": true,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false,
+    "title_line_contract": {
+      "default_max_lines": 3,
+      "mobile_lines": 4,
+      "decision": "USER_DECISION_REQUIRED",
+      "reason": "At 390px, the shared 24px Shell padding leaves 302px for a 36px/700 H1. No transform, font-stretch, fixed over-width, or non-normal letter-spacing is used."
+    }
+  }
+}

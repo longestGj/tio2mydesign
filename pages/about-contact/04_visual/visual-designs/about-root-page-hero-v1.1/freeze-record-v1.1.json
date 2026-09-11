@@ -1,0 +1,69 @@
+{
+  "freeze_id": "ABOUT-ROOT-HERO-G4-CANDIDATE-02-FREEZE-20260911",
+  "page_id": "ABOUT-001",
+  "candidate_id": "ABOUT-ROOT-HERO-G4-CANDIDATE-02",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "supersedes": "V1.0 retained as history; V1.1 is a user-authorized 390px line-count decision only.",
+  "user_decision": {
+    "date": "2026-09-11",
+    "object": "ABOUT-001 390px RootPageHero H1",
+    "scope": "Only at 390px: natural four lines at 36px/700, normal letter spacing, 24px Shell padding and safe side edges; no expansion to other breakpoints, other About headings, or other root pages."
+  },
+  "candidate_source": {
+    "path": "../about-root-page-hero-v1.0/about-root-page-hero-preview-v1.0.html",
+    "sha256": "241632a24f79edbabfeb1c618dabd178d574a48bc3ca800760813a0f60941871",
+    "unchanged_visual_source": true
+  },
+  "replay": {
+    "capture": "node capture-about-root-page-hero-v1.1.cjs",
+    "verification": "node verify-about-root-page-hero-v1.1.cjs",
+    "runtime_report": {
+      "path": "capture-runtime-v1.1.json",
+      "sha256": "0e3cd3305c1c11c3be4f12ca65eafd76eabcfe9efffe9c925972d72a6af9ffa7",
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    {
+      "name": "desktop",
+      "path": "ABOUT-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.1.png",
+      "dimensions": "1440x1280",
+      "bytes": 244801,
+      "sha256": "9d02534a9d847c7185c8dd5b17fbc1e64205032d60994e54a884e30292e13419",
+      "h1_px": 56,
+      "header_px": 84
+    },
+    {
+      "name": "tablet",
+      "path": "ABOUT-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.1.png",
+      "dimensions": "768x1550",
+      "bytes": 241920,
+      "sha256": "4664fe7cbfa43838cd6ccecf907fba83ebe126fac3e8974c0291bf84d64ec2e3",
+      "h1_px": 44,
+      "header_px": 64
+    },
+    {
+      "name": "mobile-user-approved-four-line-exception",
+      "path": "ABOUT-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.1.png",
+      "dimensions": "390x1800",
+      "bytes": 169152,
+      "sha256": "cc82120d767629270ba9f088f8abdf13e3dbea92660044e03af8f92810b9b9f4",
+      "h1_px": 36,
+      "header_px": 64
+    }
+  ],
+  "validated": {
+    "desktop_and_tablet_h1_max_three_lines": true,
+    "about_390_only_user_approved_four_lines": true,
+    "mobile_h1_normal_spacing": true,
+    "mobile_h1_transform": "none",
+    "mobile_h1_font_stretch": "normal",
+    "mobile_h1_safe_padding_px": 24,
+    "horizontal_overflow": false,
+    "cta_targets_unchanged": true,
+    "approved_composite_and_route_map_retained": true,
+    "who_we_are_facts_retained": true,
+    "global_chrome_current_visible_text": false
+  }
+}

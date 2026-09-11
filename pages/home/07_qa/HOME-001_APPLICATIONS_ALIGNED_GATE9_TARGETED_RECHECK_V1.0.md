@@ -119,5 +119,4 @@ All images used for the visual conclusion were opened and inspected. The prior i
 }
 ```
 
-Notification target: D16 task `01My开发1` / thread `01a07a66-3c4a-75a2-9df4-648942742f9e`. Delivery status is recorded after sending.
-
+Notification target: D16 task `01My开发1` / thread `01a07a66-3c4a-75a2-9df4-648942742f9e`. Delivery result: `SENT` on 2026-09-11. The notice authorizes the developer to stop this Home return and release the held `3292` runtime; it does not authorize Gate 10 or release.

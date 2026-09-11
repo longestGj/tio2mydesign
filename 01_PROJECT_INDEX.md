@@ -87,6 +87,7 @@
 | 品牌视觉 | [Visual Standard V1.0](brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md) |
 | 主CTA无障碍增补 | [CTA Addendum V1.0](brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md) |
 | Header / Menu / Footer | [Global Chrome V0.5](docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md)：固定RFQ、共享维护、无可见CURRENT |
+| 七个一级导航根页面Hero | [Root Page Hero V1.0](docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)：`USER_APPROVED / ACTIVE`；统一骨架、三个受控变体、无左侧装饰竖线；页面内容和媒体保持差异 |
 | 生产SVG | [Production Logo Manifest V1.0](brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md) |
 | 法律/隐私共享区 | [Footer Legal Utility Addendum](docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md)与§2 No-Terms更新一起使用 |
 | 页面完整视觉与批准范围 | [状态中的页面指针](00_PROJECT_STATUS.md) → 本页当前Manifest → 其列出的规格/PNG/哈希 |

@@ -16,7 +16,7 @@
 
 ## 3. 输入合同
 
-继承[总控派发与交回合同](../project-orchestrator/references/handoff-contract.md)全部适用字段：派发 ID、Page/Gate、实际双方实例、角色与方法版本、授权、读写范围、输出位置和停止边界。按根入口读取当前权威合同；总控提供准确指针，不要求另抄全文。
+继承[总控派发与交回合同](../project-orchestrator/references/handoff-contract.md)全部适用字段：派发 ID、Page/Gate、实际双方实例、角色与方法版本、授权、读写范围、输出位置和停止边界。按根入口读取当前权威合同；总控提供准确指针，不要求另抄全文。审查七个一级导航根页面时，必须读取[一级页面共享Hero合同](../../docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)，核对共享组件owner、统一几何、受控variant和Hero左侧装饰竖线为0；只审查本次Hero变化及必要相邻回归，不重开未变化正文、SEO/GEO或Schema。
 
 接收Gate 4提供的单一`handoff_entry`，必需字段、原件引用、交付就绪条件和接收异常分类统一按[共用交接合同](../../docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md)§2–3执行，不另维护一份竞争清单。总控补齐实际Reviewer和派发信息；缺制作材料返回Gate 4，缺授权或角色信息返回总控。
 

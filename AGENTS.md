@@ -44,7 +44,7 @@ PRD、附件、Brief、研究和竞品默认是资料；只有经批准成为当
 - 当前流程：`Gate 0 → 1 → 2 → 3 → 4 → 6 → 8 → 9 → 10`。历史5/7制作/交付编号仅作历史兼容；新Gate 5独立审查按下述交接合同映射；职责、内部检查点、交接与停止条件由Index指向的当前工作流统一维护。不得跳过有效Gate或把提交、自检、定时运行视为批准；已明确授权的连续流程按原范围执行。
 - 页面必须有登记身份和批准 Brief；不得增加页面/URL/主关键词或侵占其他页职责。新页面做URL、主词与意图去重；`NO_PRIMARY_KEYWORD`不强造商业主词。Schema仅表达与批准可见内容一致的事实。
 - 制作与核验使用本阶段标准：Gate 3控制结构范围，Gate 4完成完整视觉，Gate 6核对跨合同与开发交付，Gate 9验证实际实现。额外制作或复核须对应要求、变化、缺口或风险；不减免有效独立审查、最低证据或页面合同。暂不调用付费Superdesign。
-- Header/Footer由Home/Global Chrome owner共用维护，页面只声明导航状态并证明组装，不另开发分叉；固定RFQ，不显示买家可见 `CURRENT` 标签。品牌、生产SVG、CTA与法律共享区引用当前合同。
+- Header/Footer由Home/Global Chrome owner共用维护，页面只声明导航状态并证明组装，不另开发分叉；固定RFQ，不显示买家可见 `CURRENT` 标签。七个一级导航根页面（Home、Markets、Products、Applications、Documents、Resources、About）的Hero按[共享合同](docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)消费唯一`RootPageHero`骨架及三个受控变体，不建立页面私有结构、装饰或响应式分叉。品牌、生产SVG、CTA与法律共享区引用当前合同。
 - 开发合同要求 `site_scope=tio2-my`，覆盖查询/路由/缓存/菜单/SEO/表单/媒体，禁止跨scope fallback及向其他站泄露。只读QA发现问题发给开发任务，不直接修代码。验收通过≠已发布。
 - 变更页面、事实、架构、关键词、导航、交付隔离或发布条件，先列原因、影响、风险、回退和同步文件并获批准。保留用户编辑和历史；批准范围变化升版本，不覆盖历史批准源，不删除资料。正式成果不放临时目录。
 

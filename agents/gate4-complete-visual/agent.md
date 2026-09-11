@@ -26,7 +26,7 @@
 
 ## 2. 启动、授权与共同工作集
 
-读取根AGENTS、PROJECT_CONTEXT、当前工作流、统一Gate标准及任务路由要求。核对Page ID、Brief、Gate 2批准全文、Gate 3冻结组合、品牌/Logo/Global Chrome/法律共享合同、当前Manifest和原始用户决定。
+读取根AGENTS、PROJECT_CONTEXT、当前工作流、统一Gate标准及任务路由要求。核对Page ID、Brief、Gate 2批准全文、Gate 3冻结组合、品牌/Logo/Global Chrome/法律共享合同、当前Manifest和原始用户决定。任务属于七个一级导航根页面时，必须读取[一级页面共享Hero合同](../../docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)，只建立本页内容／媒体绑定，不得另建与`RootPageHero`竞争的Hero骨架、装饰或响应式分叉。
 
 明确本次是首次完整视觉、历史缺口补齐还是定向返修；记录允许写入位置、停止点和执行授权。成果映射不等于执行授权，暂停页面不得因新流程自动恢复。
 

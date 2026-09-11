@@ -7,8 +7,9 @@
 | 文档 ID | `ROOT-PAGE-HERO-001` |
 | 版本 | `V1.0` |
 | 日期 | `2026-09-11` |
-| 当前状态 | `DESIGN_DIRECTION_USER_CONFIRMED / DRAFT_CONTRACT_FOR_USER_REVIEW` |
-| 用户决定来源 | 用户确认一级页面 Hero 缺少统一视觉骨架，并同意建立共享 `RootPageHero` 后回复“可以。执行下一步” |
+| 当前状态 | `USER_APPROVED_SHARED_VISUAL_CONTRACT / ACTIVE` |
+| 用户批准日期 | `2026-09-11` |
+| 用户决定来源 | 用户确认一级页面 Hero 缺少统一视觉骨架，同意建立共享 `RootPageHero`，并在收到完整合同内容后回复“同意” |
 | 适用页面 | `HOME-001`、`MARKET-000`、`PRODUCT-000`、`APP-000`、`DOC-000`、`RES-000`、`ABOUT-001` |
 | 不适用页面 | Contact、RFQ、Request Documents、Request a Sample、Thank You、404、法律页面及各二级详情页；这些页面继续使用各自已批准的任务型或内容型首屏 |
 | 实施边界 | 本文件只定义跨页视觉与组装合同；不修改 `D:\16Wordpress_nextjs`，不授权 Gate 8、部署或发布 |
@@ -216,13 +217,16 @@ Hero 不承担完整公司介绍、完整分类说明、证明清单或多段销
 - 禁止借本次统一重新设计 Header、Footer、正文模块、页面 RFQ、表单、产品关系或市场关系。
 - 禁止把视觉一致性解释为所有页面必须使用相同图片、相同 CTA 数量或相同文案。
 
-## 11. 当前停止点
+## 11. 生效与当前停止点
 
-本文件已经把用户确认的方向转化为可审阅合同，但精确规范仍等待用户最终确认。确认前：
+`ROOT-PAGE-HERO-001 = USER_APPROVED / ACTIVE`。
 
-- 不把本文件登记为 `APPROVED / ACTIVE`；
-- 不启动七页定向 Gate 4 制作；
-- 不修改任何页面当前 Manifest；
-- 不派发 D16 开发；
-- 不修改 `D:\16Wordpress_nextjs`。
+本文件自 2026-09-11 起作为七个一级导航根页面的共享 Hero 视觉与组装合同。该批准确认本合同，不自动批准尚未制作的七页定向视觉候选，也不自动授权 Gate 8、部署或发布。
 
+当前停止点：
+
+- 将本合同同步到根入口、视觉索引、项目状态、Gate 4执行角色和Gate 5独立审查角色；
+- 七个页面的当前 Manifest 保持不变，直到对应页面存在可登记的定向 Hero 候选；
+- 尚未派发七页定向 Gate 4 制作；
+- 尚未派发 D16 开发；
+- 未修改 `D:\16Wordpress_nextjs`。

@@ -1,0 +1,52 @@
+{
+  "bundle_id": "HOME-ROOT-HERO-G4-CANDIDATE-04",
+  "workset_id": "ROOT-HERO-G4-7P-V1",
+  "date": "2026-09-11",
+  "status": "GATE4_TARGETED_REPAIR_FROZEN_SUBMITTED_FOR_GATE5_RECHECK",
+  "parent_contract": "ROOT-PAGE-HERO-001",
+  "user_addendum": "ROOT-PAGE-HERO-OPEN-WHITE-01",
+  "finding": "HOME-ROOT-HERO-G5-F01",
+  "capture_provenance": {
+    "script": "capture-home-root-page-hero-v1.3.cjs",
+    "script_sha256": "3E87E6A3A4B7CB0BAC79F26F2B4D0545A03C42B5AE47E514C9555B79660F504D",
+    "runtime_record": "capture-runtime-v1.3.json",
+    "runtime_record_sha256": "69BBE38774FD51E525E34F182039399C7B28D7F6E1E26D4DC96932A075AB1B5C",
+    "browser": "Chromium 151.0.7922.34",
+    "playwright": "1.62.1",
+    "headless": true,
+    "device_scale_factor": 1,
+    "color_scheme": "light",
+    "reduced_motion": "reduce",
+    "font_wait": "document.fonts.ready + 200ms",
+    "screenshot_mode": "fullPage=false; animations=disabled"
+  },
+  "files": [
+    {"path": "homepage-root-page-hero-preview-v1.3.html", "bytes": 32670, "sha256": "95AB855FB16C318707D0C0F3E4399B24B443BDAB448BE4B07D78652072DF37A5"},
+    {"path": "HOME-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.3.png", "width": 1440, "height": 900, "bytes": 394336, "sha256": "FC3177BB1E4ED7F11E1E30C823184FA773CB90106647098A39311025B4027B2A", "capture_status": "BYTE_IDENTICAL_REUSE_OF_USER_APPROVED_V1.1_DESKTOP"},
+    {"path": "HOME-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.3.png", "width": 768, "height": 1400, "bytes": 369051, "sha256": "BF5C9A9CECFC5A560C4FD0B9C41F8F904C214115C0CBBC2FDE87823609420C1B", "capture_status": "BYTE_IDENTICAL_REUSE_OF_V1.2"},
+    {"path": "HOME-001_ROOT_PAGE_HERO_MOBILE_EDGE_767_CANDIDATE_V1.3.png", "width": 767, "height": 1400, "bytes": 372008, "sha256": "0C0AC3C8C31D007BC9068385EFCCC4A5EEC982B39B74D4D766BCA759735B2B60", "capture_trigger": "CHANGED_PRESENTATION / HOME-ROOT-HERO-G5-F01"},
+    {"path": "HOME-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.3.png", "width": 390, "height": 1500, "bytes": 174739, "sha256": "98059B78B290E70C19CDC831A65FC363648F4FA787FEDF677B2715A1BDAB6369", "capture_status": "BYTE_IDENTICAL_REUSE_OF_V1.2"},
+    {"path": "capture-home-root-page-hero-v1.3.cjs", "bytes": 4317, "sha256": "3E87E6A3A4B7CB0BAC79F26F2B4D0545A03C42B5AE47E514C9555B79660F504D"},
+    {"path": "capture-runtime-v1.3.json", "bytes": 11084, "sha256": "69BBE38774FD51E525E34F182039399C7B28D7F6E1E26D4DC96932A075AB1B5C"},
+    {"path": "dependencies/Inter-Variable.ttf", "bytes": 876576, "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031"}
+  ],
+  "external_dependencies": [
+    {"path": "../assets/homepage-hero-tio2-material-v0.6.png", "bytes": 1915067, "sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5"},
+    {"path": "../../../../../brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg", "bytes": 4342, "sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C"},
+    {"path": "../../../../../brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg", "bytes": 2725, "sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E"}
+  ],
+  "verified_responsive_values": {
+    "1440": "Hero 1200; H1 61.92px / 750; Start Here 1200",
+    "1024": "Hero 960; H1 56px / 700; Start Here 960; two columns",
+    "1023": "Hero 959; H1 44px / 700; Start Here 959; one column",
+    "768": "Hero 704; H1 44px / 700; Start Here 704",
+    "767": "Hero 727; H1 36px / 700; Start Here preserved at 703",
+    "561": "Hero 521; H1 36px / 700; Start Here preserved at 497",
+    "390": "Hero 350; H1 36px / 700; Start Here 350",
+    "350": "Hero 310; H1 36px / 700; Start Here preserved at 318"
+  },
+  "gate4_closed": false,
+  "gate5_targeted_recheck": "NOT_STARTED",
+  "gate8_authorized": false,
+  "d16_touched": false
+}

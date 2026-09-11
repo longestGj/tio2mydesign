@@ -1,0 +1,70 @@
+{
+  "freeze_id": "RES-ROOT-HERO-G4-CANDIDATE-01-FREEZE-20260911",
+  "page_id": "RES-000",
+  "candidate_id": "RES-ROOT-HERO-G4-CANDIDATE-01",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "scope": "Wave 3 targeted hub-dark Hero and H0 transition proof only; no Manifest replacement, child-publication change, Gate closure, D16 work or release authorization.",
+  "contracts": [
+    "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+    "docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_CONTROL_V1.0.md",
+    "pages/resources/05_review/RES-000_GATE5_APPROVED_BASELINE_MANIFEST_V0.1.md",
+    "pages/resources/04_planning/RES-000_CONTENT_ARCHITECTURE_V0.3.md",
+    "pages/resources/04_planning/visual-directions/RES-000_VISUAL_DIRECTION_V0.3.md"
+  ],
+  "candidate": {
+    "path": "res-root-page-hero-preview-v1.0.html",
+    "bytes": 11168,
+    "sha256": "ac4f1a6a660ab0f90e463eceac2ba1c696df55d31a26c3c96e5c824f06dd00e5"
+  },
+  "replay": {
+    "capture": "node capture-res-root-page-hero-v1.0.cjs",
+    "verification": "node verify-res-root-page-hero-v1.0.cjs",
+    "runtime_report": {
+      "path": "capture-runtime-v1.0.json",
+      "sha256": "a366cb11891039cd7664779227daa255f5d0bb6c034b3b1de606b15256793161",
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    {
+      "name": "desktop",
+      "path": "RES-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png",
+      "dimensions": "1440x1200",
+      "bytes": 161819,
+      "sha256": "61f97609e866c29b69aa5bb464f75bdd6474d61af4177d5224c02d6a24cd363a",
+      "h1_px": 56,
+      "header_px": 84
+    },
+    {
+      "name": "tablet",
+      "path": "RES-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png",
+      "dimensions": "768x1450",
+      "bytes": 145688,
+      "sha256": "8946e6041409c6b24da2e37644e1dde95ac9ab374f336bd753672e7d852d7e5a",
+      "h1_px": 44,
+      "header_px": 64
+    },
+    {
+      "name": "mobile",
+      "path": "RES-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png",
+      "dimensions": "390x1500",
+      "bytes": 111049,
+      "sha256": "fa362ab03949b75f62e39aae16f93a26c0fd2e868523982bc93a072e016697ad",
+      "h1_px": 36,
+      "header_px": 64
+    }
+  ],
+  "validated": {
+    "h0_inventory": 0,
+    "hero_h0_cta": "#research-paths",
+    "next_module": "Choose the right research path",
+    "hero_media_decorative": true,
+    "hero_media_visible_1440_only": true,
+    "featured_latest_itemlist_absent": true,
+    "buyer_visible_status_label": false,
+    "no_hero_left_decoration": true,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false
+  }
+}

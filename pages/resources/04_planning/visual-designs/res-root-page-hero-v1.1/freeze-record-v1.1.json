@@ -1,0 +1,74 @@
+{
+  "freeze_id": "RES-ROOT-HERO-G4-CANDIDATE-02-FREEZE-20260911",
+  "page_id": "RES-000",
+  "candidate_id": "RES-ROOT-HERO-G4-CANDIDATE-02",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "supersedes": "V1.0 candidate only; V1.0 is preserved historical evidence.",
+  "scope": "Wave 3 targeted hub-dark Hero/H0 proof and independent-review correction only; no Manifest replacement, child-publication change, Gate closure, D16 work or release authorization.",
+  "contracts": [
+    "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+    "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+    "pages/resources/05_review/RES-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_REVIEW_V1.0.md",
+    "pages/resources/05_review/RES-000_GATE5_APPROVED_BASELINE_MANIFEST_V0.1.md"
+  ],
+  "candidate": {
+    "path": "res-root-page-hero-preview-v1.1.html",
+    "bytes": 11921,
+    "sha256": "45a1f1c6c81d544117906847b2da999d24e0fddbc938b1c8c37df8e15b274d07"
+  },
+  "replay": {
+    "capture": "node capture-res-root-page-hero-v1.1.cjs",
+    "verification": "node verify-res-root-page-hero-v1.1.cjs",
+    "runtime_report": {
+      "path": "capture-runtime-v1.1.json",
+      "sha256": "9af75d08a131f2ca4a6f396e84d338aa41ba9784cdb35db8c76b1d2f2b7b1253",
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    {
+      "name": "desktop",
+      "path": "RES-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.1.png",
+      "dimensions": "1440x1200",
+      "bytes": 161917,
+      "sha256": "61debf90833327ceec1cfe8c5092b1e2479d24faaa675dccef7171f8f4df558e",
+      "h1_px": 56,
+      "header_px": 84
+    },
+    {
+      "name": "tablet",
+      "path": "RES-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.1.png",
+      "dimensions": "768x1450",
+      "bytes": 145787,
+      "sha256": "b4a2a9a094df9801e8e15efcf898f52e0d366150614b396630c4eb0aa4b2ebba",
+      "h1_px": 44,
+      "header_px": 64
+    },
+    {
+      "name": "mobile",
+      "path": "RES-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.1.png",
+      "dimensions": "390x1500",
+      "bytes": 111116,
+      "sha256": "09edfdd3155b5e028e4a4bfd9fd8913ae01717c4347c2a1d44bc3c1dc7dded80",
+      "h1_px": 36,
+      "header_px": 64
+    }
+  ],
+  "validated": {
+    "mobile_menu_operable": true,
+    "mobile_menu_order": "Home | Markets | Products | Applications | Documents | Resources | About | Request a Quote",
+    "cta_primary": "#008078 with white label",
+    "h1_mobile_no_transform": true,
+    "decorative_media_aria_hidden": true,
+    "media_visible_above_900": true,
+    "media_zero_space_at_or_below_900": true,
+    "h0_inventory": 0,
+    "hero_h0_cta": "#research-paths",
+    "featured_latest_itemlist_absent": true,
+    "buyer_visible_status_label": false,
+    "no_hero_left_decoration": true,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false
+  }
+}

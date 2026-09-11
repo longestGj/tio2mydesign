@@ -1,0 +1,27 @@
+{
+  "review_id": "RES-ROOT-HERO-G4-IR-01-R1",
+  "mode": "TARGETED_RECHECK",
+  "date": "2026-09-11",
+  "candidate": {
+    "path": "D:\\23MySec\\pages\\resources\\04_planning\\visual-designs\\res-root-page-hero-v1.1\\res-root-page-hero-preview-v1.1.html",
+    "sha256": "45a1f1c6c81d544117906847b2da999d24e0fddbc938b1c8c37df8e15b274d07",
+    "matches_freeze": true
+  },
+  "formal_images": [
+    { "viewport": "1440x1200", "sha256": "61debf90833327ceec1cfe8c5092b1e2479d24faaa675dccef7171f8f4df558e", "matches_freeze": true },
+    { "viewport": "768x1450", "sha256": "b4a2a9a094df9801e8e15efcf898f52e0d366150614b396630c4eb0aa4b2ebba", "matches_freeze": true },
+    { "viewport": "390x1500", "sha256": "09edfdd3155b5e028e4a4bfd9fd8913ae01717c4347c2a1d44bc3c1dc7dded80", "matches_freeze": true }
+  ],
+  "author_validator": { "command": "node pages/resources/04_planning/visual-designs/res-root-page-hero-v1.1/verify-res-root-page-hero-v1.1.cjs", "exit": 0, "result": "PASS" },
+  "independent_runtime": { "command": "node pages/resources/05_review/RES-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_TARGETED_RECHECK_VALIDATOR_V1.1.cjs", "viewports": [1440, 1023, 901, 900, 768, 390], "result": "CHANGES_REQUIRED" },
+  "closed": {
+    "P0-01": "At 1023/901/768/390, native Enter opens the menu with exactly Home, Markets, Products, Applications, Documents, Resources, About, Request a Quote; Resources is the sole current link. Escape closes it, returns focus to Menu, and leaves zero focusable links in the hidden menu.",
+    "P1-01": "CTA is #008078 / rgb(0,128,120) with white text at all checked viewports and retains #research-paths.",
+    "P1-03": "Illustration is a DIV with aria-hidden=true and no role/accessible label.",
+    "P2-01": "Media is visible at 901px and 1023px, and display:none with 0x0 rectangle at 900px, 768px, and 390px."
+  },
+  "remaining": {
+    "P1-02": "At 390px H1 is 36px/700, three lines, no transform or fixed 380px width, but computed letter-spacing is -3.96px (-.11em). Original-detail review shows this remains a visibly squeezed title; it is a page-private compression workaround rather than the normal shared H1 layout required by the V1.0 acceptance condition."
+  },
+  "preserved": { "contained_hub_dark": true, "current_visible_text": 0, "h0_featured_latest_itemlist_res_origin_placeholders": 0, "h0_cta": "#research-paths", "next_module": "Choose the right research path / three panels", "horizontal_overflow": 0, "visible_control_minimum_height": "44px" }
+}

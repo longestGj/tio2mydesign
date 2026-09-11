@@ -1,0 +1,42 @@
+{
+  "review_id": "RES-ROOT-HERO-G4-IR-01",
+  "mode": "INDEPENDENT_REVIEW",
+  "date": "2026-09-11",
+  "candidate": {
+    "path": "D:\\23MySec\\pages\\resources\\04_planning\\visual-designs\\res-root-page-hero-v1.0\\res-root-page-hero-preview-v1.0.html",
+    "sha256": "ac4f1a6a660ab0f90e463eceac2ba1c696df55d31a26c3c96e5c824f06dd00e5",
+    "matches_freeze": true
+  },
+  "formal_evidence": [
+    { "viewport": "1440x1200", "path": "RES-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.0.png", "sha256": "61f97609e866c29b69aa5bb464f75bdd6474d61af4177d5224c02d6a24cd363a", "matches_freeze": true },
+    { "viewport": "768x1450", "path": "RES-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.0.png", "sha256": "8946e6041409c6b24da2e37644e1dde95ac9ab374f336bd753672e7d852d7e5a", "matches_freeze": true },
+    { "viewport": "390x1500", "path": "RES-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.0.png", "sha256": "fa362ab03949b75f62e39aae16f93a26c0fd2e868523982bc93a072e016697ad", "matches_freeze": true }
+  ],
+  "independent_runtime": {
+    "command": "node pages/resources/05_review/RES-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_REVIEW_VALIDATOR_V1.0.cjs",
+    "viewports": [1440, 901, 768, 390],
+    "author_validator": "node pages/resources/04_planning/visual-designs/res-root-page-hero-v1.0/verify-res-root-page-hero-v1.0.cjs",
+    "author_validator_result": "PASS (read-only replay; insufficient to cover the findings below)",
+    "result": "CHANGES_REQUIRED"
+  },
+  "observations": {
+    "preserved": {
+      "h0_hero_cta": "#research-paths",
+      "h0_featured_latest_itemlist_res_origin_placeholders": 0,
+      "next_module": "Choose the right research path with three informational panels",
+      "contained_hub_dark": true,
+      "current_visible_text": 0,
+      "formal_images_original_detail_reviewed": ["1440x1200", "768x1450", "390x1500"],
+      "h1_declared": { "desktop": "56px/700", "tablet": "44px/700", "mobile": "36px/700" },
+      "minimum_visible_interactive_height": "44px or greater",
+      "document_horizontal_scroll": 0
+    },
+    "findings": {
+      "P0-01": "At 768px and 390px, clicking Menu changes neither aria-expanded nor visible navigation. There is no .mobile-menu, no eight-item mobile navigation surface, no terminal RFQ in that menu, and no accessible Resources aria-current page node. Only the breadcrumb remains as an accessible nav.",
+      "P1-01": "The primary CTA computes to rgb(0,169,157) with rgb(6,43,91) text, rather than the active filled-primary contract #008078 with white label.",
+      "P1-02": "At 390px H1 has a 380px layout width inside a 300px text column and is visually compressed with transform matrix(0.85,0,0,1,0,0). The declared 36px value therefore masks a page-private compressed responsive treatment.",
+      "P1-03": "The decorative illustration wrapper is an exposed aside with aria-label=Decorative research-path illustration; only its nested SVG is aria-hidden. Decorative media must not add an accessibility-tree landmark/name.",
+      "P2-01": "Binding says the decorative illustration is visible only above 900px, while source hides it through 1023px. The required <=900 behavior is safe, but the 901–1023 implementation does not match the claimed breakpoint."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "review_id": "RES-ROOT-HERO-G4-IR-01-R2",
+  "mode": "TARGETED_RECHECK",
+  "date": "2026-09-11",
+  "candidate": {
+    "path": "D:\\23MySec\\pages\\resources\\04_planning\\visual-designs\\res-root-page-hero-v1.2\\res-root-page-hero-preview-v1.2.html",
+    "sha256": "a8a8f06e28b5ab04f02f74a01ada3433a4e0c33fe18ad369b7d7e9fe2a5c9e94",
+    "matches_freeze": true
+  },
+  "decision_record": {
+    "source": "pages/resources/04_planning/RES-000_ROOT_PAGE_HERO_GATE4_BINDING_V1.2.md",
+    "date": "2026-09-11",
+    "object": "RES-000 Hero H1 at 390px only",
+    "approved_exception": "Natural four-line wrap at 36px / 700 with shared 24px mobile Shell padding and side safety margins",
+    "constraints": ["letter-spacing 0", "no transform", "no font-stretch", "no fixed width exceeding text column", "no clipping", "no horizontal overflow"],
+    "non_expansion": "Does not alter the shared default maximum of three lines, any other RES viewport, or any other root page."
+  },
+  "formal_images": [
+    { "viewport": "1440x1200", "sha256": "61debf90833327ceec1cfe8c5092b1e2479d24faaa675dccef7171f8f4df558e", "matches_freeze": true },
+    { "viewport": "768x1450", "sha256": "1ec9a474cfed5fefe0e59bd7e2a9ecb129cd28fe98f2edb076ab7191aa05214c", "matches_freeze": true },
+    { "viewport": "390x1500", "sha256": "0769817812a0f48a7929915820245961c0905268e413824c8f8cbda38a59bb7f", "matches_freeze": true }
+  ],
+  "author_validator": { "command": "node pages/resources/04_planning/visual-designs/res-root-page-hero-v1.2/verify-res-root-page-hero-v1.2.cjs", "exit": 0, "result": "PASS" },
+  "independent_runtime": { "command": "node pages/resources/05_review/RES-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_TARGETED_RECHECK_VALIDATOR_V1.2.cjs", "viewports": [1440, 1023, 901, 900, 768, 390], "result": "PROJECT_CONTROL_REVIEW_PASS" },
+  "results": {
+    "h1_exception": "390: 36px/700, normal (0px) letter-spacing, transform none, font-stretch 100%, four lines, 24px Hero padding, H1 entirely inside the 300px text column with 24px-plus Shell side safety margins",
+    "prior_findings": { "P0-01": "CLOSED", "P1-01": "CLOSED", "P1-02": "CLOSED by exact user-approved RES/390 exception", "P1-03": "CLOSED", "P2-01": "CLOSED" },
+    "media": "Visible at 901 and 1023; hidden with zero height at 900, 768, 390.",
+    "mobile_menu": "At 768 and 390, Enter opens exact eight-item menu/current/RFQ; Escape returns focus and closed menu has zero focusable links.",
+    "regression": "Contained hub-dark, #research-paths, zero H0 inventory/old cards, direct Three Decision Paths, CURRENT=0, 44px minimum visible control height, no document horizontal overflow."
+  }
+}

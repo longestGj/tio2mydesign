@@ -7,7 +7,7 @@
 | Parent control | `ROOT-HERO-G4-7PAGE-CTRL-01` |
 | Workset | `ROOT-HERO-G4-7P-V1` |
 | Date | `2026-09-11` |
-| Current state | `IN_PROGRESS / WAVE_2_COMPLETE / RES_NEXT` |
+| Current state | `IN_PROGRESS / RES_BINDING_PASS / ABOUT_NEXT` |
 | Gate 8 / D16 | `NOT_AUTHORIZED_BY_THIS_RECORD / NOT_TOUCHED` |
 
 This progress record does not replace the seven-page control. It records actual execution after the user chose to prove the shared direction on Home first and then instructed the project to continue by the approved process.
@@ -84,3 +84,16 @@ The binding retains destination-first copy, the local selector action, EU/countr
 The Hero action remains a direct `/request-documents/` path. The separate selector below the Hero remains fully visible with one non-default 14-grade field and an explicit Continue action. Its existing teal section rule is preserved as a selector-owned element and is not a Hero decoration. The current FAQ #2 authority overlay is recorded without modifying page copy in this workset.
 
 Wave 2 is complete. Next: `RES-000` Wave 3 `hub-dark` binding.
+
+## RES-000 Wave 3 binding
+
+- Final page-local candidate: `RES-000_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.2.md`.
+- Binding record: `RES-000_ROOT_PAGE_HERO_GATE4_BINDING_V1.2.md`.
+- Frozen page-context evidence: `pages/resources/04_planning/visual-designs/res-root-page-hero-v1.2/` at 1440px, 768px and 390px, with 901/1023px media-boundary checks.
+- Author and final independent validations: `PASS`, both exit code `0`.
+- Final independent review: `pages/resources/05_review/RES-000_ROOT_PAGE_HERO_GATE4_INDEPENDENT_TARGETED_RECHECK_V1.2.md`, SHA-256 `2DB3871E896B7C3689653B3E6544FEC532566038E9B5105B04DF21A2CD686FA2`.
+- Independent result: `PROJECT_CONTROL_REVIEW_PASS`; required Findings `0`.
+
+V1.0 and V1.1 remain as the original candidate and repair history. The final binding closes Mobile Menu, button token, accessible-decoration and media-breakpoint findings. By the user's 2026-09-11 decision, only the RES-000 390px H1 may wrap naturally to four lines at 36px/700 with normal spacing; this does not change the shared three-line default for other pages or breakpoints.
+
+The candidate retains the current H0 inventory state and transitions directly from the contained dark Hero to Three Decision Paths. Next: `ABOUT-001` Wave 3 `corporate-light` binding.

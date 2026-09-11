@@ -1,0 +1,74 @@
+{
+  "freeze_id": "RES-ROOT-HERO-G4-CANDIDATE-03-FREEZE-20260911",
+  "page_id": "RES-000",
+  "candidate_id": "RES-ROOT-HERO-G4-CANDIDATE-03",
+  "status": "DRAFT_FOR_PROJECT_CONTROL_REVIEW",
+  "workflow": "ROOT-HERO-G4-7P-V1",
+  "supersedes": "V1.0/V1.1 candidates retained as history.",
+  "user_decision": {
+    "date": "2026-09-11",
+    "object": "RES-000 390px Hero H1 only",
+    "scope": "Natural four-line 36px/700 exception; no shared-default expansion"
+  },
+  "non_expansion": "Does not alter the shared default of at most three lines or apply to any other page or viewport.",
+  "candidate": {
+    "path": "res-root-page-hero-preview-v1.2.html",
+    "bytes": 11705,
+    "sha256": "a8a8f06e28b5ab04f02f74a01ada3433a4e0c33fe18ad369b7d7e9fe2a5c9e94"
+  },
+  "replay": {
+    "capture": "node capture-res-root-page-hero-v1.2.cjs",
+    "verification": "node verify-res-root-page-hero-v1.2.cjs",
+    "runtime_report": {
+      "path": "capture-runtime-v1.2.json",
+      "sha256": "5f6a4a993000d3fc3e6cd265d681a531b76bc471e91ed6aeec5e4d18d281e18d",
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    {
+      "name": "desktop",
+      "path": "RES-000_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.2.png",
+      "dimensions": "1440x1200",
+      "bytes": 161917,
+      "sha256": "61debf90833327ceec1cfe8c5092b1e2479d24faaa675dccef7171f8f4df558e",
+      "h1_px": 56,
+      "header_px": 84
+    },
+    {
+      "name": "tablet",
+      "path": "RES-000_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.2.png",
+      "dimensions": "768x1450",
+      "bytes": 145821,
+      "sha256": "1ec9a474cfed5fefe0e59bd7e2a9ecb129cd28fe98f2edb076ab7191aa05214c",
+      "h1_px": 44,
+      "header_px": 64
+    },
+    {
+      "name": "mobile-user-approved-four-line-exception",
+      "path": "RES-000_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.2.png",
+      "dimensions": "390x1500",
+      "bytes": 109030,
+      "sha256": "0769817812a0f48a7929915820245961c0905268e413824c8f8cbda38a59bb7f",
+      "h1_px": 36,
+      "header_px": 64
+    }
+  ],
+  "validated": {
+    "res_390_user_approved_four_line_exception": true,
+    "mobile_h1_letter_spacing": "0px",
+    "mobile_h1_transform": "none",
+    "mobile_menu_operable": true,
+    "cta_primary": "#008078 with white label",
+    "decorative_media_aria_hidden": true,
+    "media_visible_above_900": true,
+    "media_zero_space_at_or_below_900": true,
+    "h0_inventory": 0,
+    "hero_h0_cta": "#research-paths",
+    "featured_latest_itemlist_absent": true,
+    "buyer_visible_status_label": false,
+    "no_hero_left_decoration": true,
+    "minimum_visible_interactive_height_px": 44,
+    "horizontal_overflow": false
+  }
+}

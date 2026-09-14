@@ -82,3 +82,7 @@ The approved package retains Request Documents receiver/prefill, Products/RFQ ro
 - No code, tests, D16 access, deployment, publication, DNS or indexing is authorized.
 
 Work stops pending explicit user authorization for Gate 8/development. The Manifest self-hash is external and is not embedded.
+
+## 2026-09-13 publication-contract overlay
+
+`../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes DOC-000's public URL, keyword-neutral hub responsibility, `Start a Document Request` destination, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. This does not alter its approved design/copy or claim that later implementation/release work is complete.

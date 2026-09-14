@@ -79,3 +79,7 @@ The receiver owner must separately provide redacted account/key-to-recipient bin
 ## 6. Boundary
 
 This Manifest records the user-authorized single live attempt and its inconclusive result. It does not authorize another form submission or email, production configuration change, merge, push, deployment, publication, production WordPress write, DNS, sitemap promotion, indexing or Gate 10.
+
+## 2026-09-13 publication-contract overlay
+
+`../../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes CONV-RFQ's URL, quotation-intake role, buyer task, submit CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. Existing form/provider evidence and success semantics remain authoritative; this overlay does not prove a production send or authorize release.

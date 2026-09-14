@@ -42,3 +42,6 @@ Release is not ready. `CONTACT-G9-09` remains partial because the current Privac
 
 Gate 8 requires no further code or evidence submission. Project Control and the Privacy owner retain Privacy parity; the release owner retains sitemap activation. Gate 10, merge, deployment, publication, DNS and indexing remain unauthorized.
 
+## 2026-09-13 publication-contract overlay
+
+`../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes CONTACT-001's URL, keyword-neutral general-inquiry role, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. Contact remains separate from Quote/Documents/Sample; its existing provider, privacy-parity and release evidence requirements are not waived.

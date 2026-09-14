@@ -1,0 +1,1733 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\16Wordpress_nextjs\\.worktrees\\root-hero-seven-gate8\\.tmp\\root-hero-gate8-return-02\\gate8_evidence_manifest.json",
+  "handoff_id": "ROOT-HERO-G6-HANDOFF-01",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "HOME-001",
+          "acceptance_condition_ids": [
+            "RH7-AC-CORE-01",
+            "RH7-AC-CORE-02",
+            "RH7-AC-CORE-03",
+            "RH7-AC-CORE-04",
+            "RH7-AC-CORE-05",
+            "RH7-AC-CORE-06",
+            "RH7-AC-CORE-07",
+            "RH7-AC-CORE-08",
+            "RH7-AC-CORE-09",
+            "RH7-AC-CORE-10",
+            "RH7-AC-CORE-11",
+            "RH7-AC-CORE-12",
+            "RH7-AC-CORE-13",
+            "RH7-AC-HOME-01",
+            "RH7-DEP-01",
+            "RH7-DEP-02",
+            "RH7-DEP-03",
+            "RH7-DEP-04"
+          ],
+          "runtime_path": "/"
+        },
+        {
+          "page_id": "APP-000",
+          "acceptance_condition_ids": [
+            "RH7-AC-CORE-01",
+            "RH7-AC-CORE-02",
+            "RH7-AC-CORE-03",
+            "RH7-AC-CORE-04",
+            "RH7-AC-CORE-05",
+            "RH7-AC-CORE-06",
+            "RH7-AC-CORE-07",
+            "RH7-AC-CORE-08",
+            "RH7-AC-CORE-09",
+            "RH7-AC-CORE-10",
+            "RH7-AC-CORE-11",
+            "RH7-AC-CORE-12",
+            "RH7-AC-CORE-13",
+            "RH7-AC-APP-01",
+            "RH7-DEP-01",
+            "RH7-DEP-02",
+            "RH7-DEP-03",
+            "RH7-DEP-04"
+          ],
+          "runtime_path": "/applications/"
+        },
+        {
+          "page_id": "PRODUCT-000",
+          "acceptance_condition_ids": [
+            "RH7-AC-CORE-01",
+            "RH7-AC-CORE-02",
+            "RH7-AC-CORE-03",
+            "RH7-AC-CORE-04",
+            "RH7-AC-CORE-05",
+            "RH7-AC-CORE-06",
+            "RH7-AC-CORE-07",
+            "RH7-AC-CORE-08",
+            "RH7-AC-CORE-09",
+            "RH7-AC-CORE-10",
+            "RH7-AC-CORE-11",
+            "RH7-AC-CORE-12",
+            "RH7-AC-CORE-13",
+            "RH7-AC-PRODUCT-01",
+            "RH7-DEP-01",
+            "RH7-DEP-02",
+            "RH7-DEP-03",
+            "RH7-DEP-04"
+          ],
+          "runtime_path": "/products/"
+        },
+        {
+          "page_id": "MARKET-000",
+          "acceptance_condition_ids": [
+            "RH7-AC-CORE-01",
+            "RH7-AC-CORE-02",
+            "RH7-AC-CORE-03",
+            "RH7-AC-CORE-04",
+            "RH7-AC-CORE-05",
+            "RH7-AC-CORE-06",
+            "RH7-AC-CORE-07",
+            "RH7-AC-CORE-08",
+            "RH7-AC-CORE-09",
+            "RH7-AC-CORE-10",
+            "RH7-AC-CORE-11",
+            "RH7-AC-CORE-12",
+            "RH7-AC-CORE-13",
+            "RH7-AC-MARKET-01",
+            "RH7-DEP-01",
+            "RH7-DEP-02",
+            "RH7-DEP-03",
+            "RH7-DEP-04"
+          ],
+          "runtime_path": "/markets/"
+        },
+        {
+          "page_id": "DOC-000",
+          "acceptance_condition_ids": [
+            "RH7-AC-CORE-01",
+            "RH7-AC-CORE-02",
+            "RH7-AC-CORE-03",
+            "RH7-AC-CORE-04",
+            "RH7-AC-CORE-05",
+            "RH7-AC-CORE-06",
+            "RH7-AC-CORE-07",
+            "RH7-AC-CORE-08",
+            "RH7-AC-CORE-09",
+            "RH7-AC-CORE-10",
+            "RH7-AC-CORE-11",
+            "RH7-AC-CORE-12",
+            "RH7-AC-CORE-13",
+            "RH7-AC-DOC-01",
+            "RH7-DEP-01",
+            "RH7-DEP-02",
+            "RH7-DEP-03",
+            "RH7-DEP-04"
+          ],
+          "runtime_path": "/documents/"
+        },
+        {
+          "page_id": "RES-000",
+          "acceptance_condition_ids": [
+            "RH7-AC-CORE-01",
+            "RH7-AC-CORE-02",
+            "RH7-AC-CORE-03",
+            "RH7-AC-CORE-04",
+            "RH7-AC-CORE-05",
+            "RH7-AC-CORE-06",
+            "RH7-AC-CORE-07",
+            "RH7-AC-CORE-08",
+            "RH7-AC-CORE-09",
+            "RH7-AC-CORE-10",
+            "RH7-AC-CORE-11",
+            "RH7-AC-CORE-12",
+            "RH7-AC-CORE-13",
+            "RH7-AC-RES-01",
+            "RH7-DEP-01",
+            "RH7-DEP-02",
+            "RH7-DEP-03",
+            "RH7-DEP-04"
+          ],
+          "runtime_path": "/resources/"
+        },
+        {
+          "page_id": "ABOUT-001",
+          "acceptance_condition_ids": [
+            "RH7-AC-CORE-01",
+            "RH7-AC-CORE-02",
+            "RH7-AC-CORE-03",
+            "RH7-AC-CORE-04",
+            "RH7-AC-CORE-05",
+            "RH7-AC-CORE-06",
+            "RH7-AC-CORE-07",
+            "RH7-AC-CORE-08",
+            "RH7-AC-CORE-09",
+            "RH7-AC-CORE-10",
+            "RH7-AC-CORE-11",
+            "RH7-AC-CORE-12",
+            "RH7-AC-CORE-13",
+            "RH7-AC-ABOUT-01",
+            "RH7-DEP-01",
+            "RH7-DEP-02",
+            "RH7-DEP-03",
+            "RH7-DEP-04"
+          ],
+          "runtime_path": "/about/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\root-hero-seven-gate8"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/root-hero-seven-gate8",
+        "actual": "codex/root-hero-seven-gate8"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "0a4d8e679a206dc62fd5cf6d1206fb4e03ca28f3",
+        "actual": "0a4d8e679a206dc62fd5cf6d1206fb4e03ca28f3"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "27f0a0da59df1e54cd01eab7d77eb7024b338d42",
+        "descendant": "c91f5a9e2da7af46b18b0325b5d58d22c379ad19"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "c91f5a9e2da7af46b18b0325b5d58d22c379ad19",
+        "descendant": "0a4d8e679a206dc62fd5cf6d1206fb4e03ca28f3"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\16Wordpress_nextjs\\.worktrees\\root-hero-seven-gate8\\.next-root-hero-gate8"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "O9v9ni00s3gk6I2C3PTqy",
+        "actual": "O9v9ni00s3gk6I2C3PTqy"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "c91f5a9e2da7af46b18b0325b5d58d22c379ad19",
+        "git": "c91f5a9e2da7af46b18b0325b5d58d22c379ad19"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/build-result.txt"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RH7-AC-CORE-01",
+          "RH7-AC-CORE-10",
+          "RH7-AC-CORE-12",
+          "RH7-DEP-01"
+        ],
+        "command": "SITE_ID=tio2-my NEXT_DIST_DIR=.next-root-hero-gate8 next build",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a217343a01d800a39e491ad2bef6820252c5a0d65c999e4ea26eee5db474becd",
+        "actual": "a217343a01d800a39e491ad2bef6820252c5a0d65c999e4ea26eee5db474becd"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/build-result.txt"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "943bf076a9bfbd006e4ddf252d4244562d4b32e6",
+        "blob_sha256": "c99fc44614183c0316fb694739f1d54384a20e19879afd90259e50b7d8f2d599",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/unit-result.txt"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RH7-AC-CORE-01",
+          "RH7-AC-CORE-08",
+          "RH7-AC-CORE-10",
+          "RH7-AC-CORE-11"
+        ],
+        "command": "vitest run targeted Root Hero, consumer, and private attribution suites",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7b1cc3d541507ce7adcbe2fb7522d5ce33de292fad7f789acf422403cfbbe60c",
+        "actual": "7b1cc3d541507ce7adcbe2fb7522d5ce33de292fad7f789acf422403cfbbe60c"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/unit-result.txt"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4fe0577c2dc5e6b75b58d68a35f7f452ba817d2d",
+        "blob_sha256": "aeace51219019e8ca9a2f8b70c17d6b84a2bddccc8fc289f93ecb831a3a7de51",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/e2e-result.txt"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RH7-AC-ABOUT-01",
+          "RH7-AC-APP-01",
+          "RH7-AC-CORE-01",
+          "RH7-AC-CORE-02",
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-04",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07",
+          "RH7-AC-CORE-08",
+          "RH7-AC-CORE-09",
+          "RH7-AC-CORE-10",
+          "RH7-AC-CORE-11",
+          "RH7-AC-CORE-12",
+          "RH7-AC-CORE-13",
+          "RH7-AC-DOC-01",
+          "RH7-AC-HOME-01",
+          "RH7-AC-MARKET-01",
+          "RH7-AC-PRODUCT-01",
+          "RH7-AC-RES-01",
+          "RH7-DEP-01",
+          "RH7-DEP-02",
+          "RH7-DEP-03",
+          "RH7-DEP-04"
+        ],
+        "command": "playwright test tests/e2e/root-page-hero-seven.spec.ts",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8fbcfb7c026cd9119d8d679e6f09282cc72618090ca65fc5b1b3a238f8b76adb",
+        "actual": "8fbcfb7c026cd9119d8d679e6f09282cc72618090ca65fc5b1b3a238f8b76adb"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/e2e-result.txt"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "fe8fe9792806d1000cccc2505bed6a939ce73a8e",
+        "blob_sha256": "7f9f45f4d6153da475db715b34cec9c7a159f60bb65c7dff14f366d909952632",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/mobile-runtime-geometry.json"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "read-only 390px browser surface and 375px layout-width geometry capture",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d26e24c35d299586fd1909354381e12a984284c6d4c2a81e918aa71ef7400cf7",
+        "actual": "d26e24c35d299586fd1909354381e12a984284c6d4c2a81e918aa71ef7400cf7"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/mobile-runtime-geometry.json"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "eea3a984a1bfb815799c2e7b6ffc576a0915477a",
+        "blob_sha256": "d26e24c35d299586fd1909354381e12a984284c6d4c2a81e918aa71ef7400cf7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/private-rfq-attribution-result.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-11",
+          "RH7-AC-CORE-12",
+          "RH7-DEP-02"
+        ],
+        "command": "read-only runtime privacy and private attribution verification",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "826fd4b279ac0e4121379121d26b0c22cb0f04190d4fc367243b8603e73ed2bf",
+        "actual": "826fd4b279ac0e4121379121d26b0c22cb0f04190d4fc367243b8603e73ed2bf"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/private-rfq-attribution-result.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d9d8e4ae01b4de3a7dec7cdd3eae99c58ff60d6a",
+        "blob_sha256": "826fd4b279ac0e4121379121d26b0c22cb0f04190d4fc367243b8603e73ed2bf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/runtime-identity.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "RH7-AC-CORE-12",
+          "RH7-AC-CORE-13",
+          "RH7-DEP-04"
+        ],
+        "command": "exact local production runtime identity capture",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "634ea015c30091915f51dde8fbcbf0cde10fbb4a05774b66957a2d4f26c7e2ca",
+        "actual": "634ea015c30091915f51dde8fbcbf0cde10fbb4a05774b66957a2d4f26c7e2ca"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/runtime-identity.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "880e2ed7940f95d705b8816ea09d0ba59e723912",
+        "blob_sha256": "c0e46929218ed7efeb2257e366eb57d846e048e208fb52bb3eba06a06d4087db",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-1440.png"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "2ef484ae06719c966b820f1fc16f996b7273e317c26e17eced51d57f01a54043",
+        "actual": "2ef484ae06719c966b820f1fc16f996b7273e317c26e17eced51d57f01a54043"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-1440.png"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cad47c106d50943c6f2e2f51fbf47d369406cd1b",
+        "blob_sha256": "2ef484ae06719c966b820f1fc16f996b7273e317c26e17eced51d57f01a54043",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-768.png"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a78f90dc898a72ec5de78f0712a00244935f1648b7dc27b1c9ae0a4586975ef4",
+        "actual": "a78f90dc898a72ec5de78f0712a00244935f1648b7dc27b1c9ae0a4586975ef4"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-768.png"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "abdc09d0f189db513ad327ed0249bcb8a0b11ac6",
+        "blob_sha256": "a78f90dc898a72ec5de78f0712a00244935f1648b7dc27b1c9ae0a4586975ef4",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-390.png"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7b460677f7fe545d8368c4ff46d0fba7f69e4c75ccdfee85d25a130b67b4a0ee",
+        "actual": "7b460677f7fe545d8368c4ff46d0fba7f69e4c75ccdfee85d25a130b67b4a0ee"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-390.png"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d61b4a1b3ae973782c8ba157793f57da9bf05229",
+        "blob_sha256": "7b460677f7fe545d8368c4ff46d0fba7f69e4c75ccdfee85d25a130b67b4a0ee",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-1440.png"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ae968516ec7e747ddf154b38966fec375105697664ab671c78c56e3ea7c481e3",
+        "actual": "ae968516ec7e747ddf154b38966fec375105697664ab671c78c56e3ea7c481e3"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-1440.png"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9b08edf53c1fdcfb07dd1bc6507a79aacd179705",
+        "blob_sha256": "ae968516ec7e747ddf154b38966fec375105697664ab671c78c56e3ea7c481e3",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-768.png"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c2168cecd8125384ba8ea4e16d929589cee31c2a2fc578072051db873900e791",
+        "actual": "c2168cecd8125384ba8ea4e16d929589cee31c2a2fc578072051db873900e791"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-768.png"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5afae6a43e594383b23a71ea170eecce9cf3f900",
+        "blob_sha256": "c2168cecd8125384ba8ea4e16d929589cee31c2a2fc578072051db873900e791",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-390.png"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "19c1d87365f9a183bd874c226cc40f7c348d54183b1d7318cb1a736cb493816e",
+        "actual": "19c1d87365f9a183bd874c226cc40f7c348d54183b1d7318cb1a736cb493816e"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-390.png"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7ef8e7ea06cb36d99f0aa6dafcc7f3e616624e95",
+        "blob_sha256": "19c1d87365f9a183bd874c226cc40f7c348d54183b1d7318cb1a736cb493816e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-1440.png"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0a9ea6f8bde98fc4be4e17063d9630f545d1740ed63f68615e00ec64fd5fd0a7",
+        "actual": "0a9ea6f8bde98fc4be4e17063d9630f545d1740ed63f68615e00ec64fd5fd0a7"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-1440.png"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9c101fc51c7d31d9a392dce9d3f244906b49ef68",
+        "blob_sha256": "0a9ea6f8bde98fc4be4e17063d9630f545d1740ed63f68615e00ec64fd5fd0a7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-768.png"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "dac8a4a486f950ae6b58db0e70d859045f2170586ddd631d7e8d292dec9edfde",
+        "actual": "dac8a4a486f950ae6b58db0e70d859045f2170586ddd631d7e8d292dec9edfde"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-768.png"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8d3cf5845f1e5acc82519b4b8f500e58abfe16c6",
+        "blob_sha256": "dac8a4a486f950ae6b58db0e70d859045f2170586ddd631d7e8d292dec9edfde",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-390.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f9920df13af27d0fcfe2938955e70947a0007e905cf079cf308bced6fe1e1b4b",
+        "actual": "f9920df13af27d0fcfe2938955e70947a0007e905cf079cf308bced6fe1e1b4b"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-390.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6136d8c41f05aeb1fa9b29055878fb73e3386c05",
+        "blob_sha256": "f9920df13af27d0fcfe2938955e70947a0007e905cf079cf308bced6fe1e1b4b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-1440.png"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "553222f7f7c1283ccc065831d7f943b64920d1da2fd39cc78b53b84d52dd8c4e",
+        "actual": "553222f7f7c1283ccc065831d7f943b64920d1da2fd39cc78b53b84d52dd8c4e"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-1440.png"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4c69bc1b7987f86adbb91dc800e6174ecfa13a86",
+        "blob_sha256": "553222f7f7c1283ccc065831d7f943b64920d1da2fd39cc78b53b84d52dd8c4e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-768.png"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "381268364cdac2022e06b8f0b8cf307356ec989bedcc1378d0aed0f19662d748",
+        "actual": "381268364cdac2022e06b8f0b8cf307356ec989bedcc1378d0aed0f19662d748"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-768.png"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "81b817e97a8cc088c66b90311613ae6e33d33b42",
+        "blob_sha256": "381268364cdac2022e06b8f0b8cf307356ec989bedcc1378d0aed0f19662d748",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-390.png"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "01d606189850a7840bcccfdd761d37335e4cda1599907a6719d7e2158abaa99b",
+        "actual": "01d606189850a7840bcccfdd761d37335e4cda1599907a6719d7e2158abaa99b"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-390.png"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "fceff35af711009b56e5d24b9b2da320da10c944",
+        "blob_sha256": "01d606189850a7840bcccfdd761d37335e4cda1599907a6719d7e2158abaa99b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-1440.png"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f208bd49057314f4fdb26a70c0c83f9fe7ee567bd6ded2b5057d5b025c605c1d",
+        "actual": "f208bd49057314f4fdb26a70c0c83f9fe7ee567bd6ded2b5057d5b025c605c1d"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-1440.png"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5eab4a99320c7a35da76fd6eb09c3761f7935d8f",
+        "blob_sha256": "f208bd49057314f4fdb26a70c0c83f9fe7ee567bd6ded2b5057d5b025c605c1d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-768.png"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "f8e353b6a47a8ca0e79f34bd5df8ac5e5ed86ea47c5e0d4aecea840b8d6748c3",
+        "actual": "f8e353b6a47a8ca0e79f34bd5df8ac5e5ed86ea47c5e0d4aecea840b8d6748c3"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-768.png"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5240bc51e6abdfbab9320edd9e75268dad15576c",
+        "blob_sha256": "f8e353b6a47a8ca0e79f34bd5df8ac5e5ed86ea47c5e0d4aecea840b8d6748c3",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-390.png"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "03d2cc3bd43efd3c8448f28b183cb2120f1b50097e04287075f3bdfb6e2966a8",
+        "actual": "03d2cc3bd43efd3c8448f28b183cb2120f1b50097e04287075f3bdfb6e2966a8"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-390.png"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ca47a49201b30f0f62847df2cbf88eabb5b22569",
+        "blob_sha256": "03d2cc3bd43efd3c8448f28b183cb2120f1b50097e04287075f3bdfb6e2966a8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-1440.png"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "795e779d116dfd304e8d11edba2c79f976ad3065499beafa9a27a2b2da526d1f",
+        "actual": "795e779d116dfd304e8d11edba2c79f976ad3065499beafa9a27a2b2da526d1f"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-1440.png"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "fc00a154fee64fd36204f8883d9d04e1bcc405ec",
+        "blob_sha256": "795e779d116dfd304e8d11edba2c79f976ad3065499beafa9a27a2b2da526d1f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-768.png"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "df38153426850bb0b5795a2aef02aa1cbd66977be6d5f2071760f1c4d9f034e5",
+        "actual": "df38153426850bb0b5795a2aef02aa1cbd66977be6d5f2071760f1c4d9f034e5"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-768.png"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9ada8334bc50527be9c195364cc48fb131167b41",
+        "blob_sha256": "df38153426850bb0b5795a2aef02aa1cbd66977be6d5f2071760f1c4d9f034e5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-390.png"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5b24feb26ce6b3afb59419d86e474ed571f2c579bf11f1614d6b057e52d54600",
+        "actual": "5b24feb26ce6b3afb59419d86e474ed571f2c579bf11f1614d6b057e52d54600"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-390.png"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "87d46398314d269a65da7a3dfd69081026938406",
+        "blob_sha256": "5b24feb26ce6b3afb59419d86e474ed571f2c579bf11f1614d6b057e52d54600",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-1440.png"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "383188af2fe562f6aa661f8e43501b01bd99f55ca9e522ae58498cdfcdd2d888",
+        "actual": "383188af2fe562f6aa661f8e43501b01bd99f55ca9e522ae58498cdfcdd2d888"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-1440.png"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1ff97993520e5ab3fd92cd81c6a7f905032fe6f5",
+        "blob_sha256": "383188af2fe562f6aa661f8e43501b01bd99f55ca9e522ae58498cdfcdd2d888",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_25_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-768.png"
+    },
+    {
+      "id": "evidence_25_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_25_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "83353b6bcb39c3c9a4af9c2d092a40a6714257ff1ebce9e84c9cda7eca5cc45e",
+        "actual": "83353b6bcb39c3c9a4af9c2d092a40a6714257ff1ebce9e84c9cda7eca5cc45e"
+      }
+    },
+    {
+      "id": "evidence_25_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-768.png"
+    },
+    {
+      "id": "evidence_25_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1e4678475f70c3e22587fc4998a750d08f480195",
+        "blob_sha256": "83353b6bcb39c3c9a4af9c2d092a40a6714257ff1ebce9e84c9cda7eca5cc45e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_25_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_26_missing",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-390.png"
+    },
+    {
+      "id": "evidence_26_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RH7-AC-CORE-03",
+          "RH7-AC-CORE-05",
+          "RH7-AC-CORE-06",
+          "RH7-AC-CORE-07"
+        ],
+        "command": "RootPageHero Playwright locator screenshot after runtime assertions",
+        "environment": "D16 isolated Gate 8 worktree; local production runtime 127.0.0.1:32000; CMS read-only"
+      }
+    },
+    {
+      "id": "evidence_26_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "628d928fdd076f77d9b0c6ba5f3233e6ee2ed7a324fc21fcd1e0497751c51cba",
+        "actual": "628d928fdd076f77d9b0c6ba5f3233e6ee2ed7a324fc21fcd1e0497751c51cba"
+      }
+    },
+    {
+      "id": "evidence_26_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-390.png"
+    },
+    {
+      "id": "evidence_26_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "fcbcd5263b018388b2cf7c1cf5fc00764f090512",
+        "blob_sha256": "628d928fdd076f77d9b0c6ba5f3233e6ee2ed7a324fc21fcd1e0497751c51cba",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_26_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/ROOT_PAGE_HERO_SEVEN_GATE9_RETURN_02_RECEIPT_V1.0.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/root-page-hero-seven/gate8-return-02/build-result.txt",
+          "docs/verification/root-page-hero-seven/gate8-return-02/e2e-result.txt",
+          "docs/verification/root-page-hero-seven/gate8-return-02/mobile-runtime-geometry.json",
+          "docs/verification/root-page-hero-seven/gate8-return-02/private-rfq-attribution-result.json",
+          "docs/verification/root-page-hero-seven/gate8-return-02/runtime-identity.json",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/unit-result.txt"
+        ],
+        "actual": [
+          "docs/verification/root-page-hero-seven/gate8-return-02/build-result.txt",
+          "docs/verification/root-page-hero-seven/gate8-return-02/e2e-result.txt",
+          "docs/verification/root-page-hero-seven/gate8-return-02/mobile-runtime-geometry.json",
+          "docs/verification/root-page-hero-seven/gate8-return-02/private-rfq-attribution-result.json",
+          "docs/verification/root-page-hero-seven/gate8-return-02/runtime-identity.json",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/about-001-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/app-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/doc-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/home-001-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/market-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/product-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-1440.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-390.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/screenshots/res-000-768.png",
+          "docs/verification/root-page-hero-seven/gate8-return-02/unit-result.txt"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/verification/root-page-hero-seven/gate8-return-02/ROOT_PAGE_HERO_SEVEN_GATE9_RETURN_02_RECEIPT_V1.0.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

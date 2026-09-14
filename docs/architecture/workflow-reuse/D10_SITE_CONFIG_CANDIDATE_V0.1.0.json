@@ -1,0 +1,34 @@
+{
+  "format_version": 1,
+  "site_id": "gemasterbatch",
+  "project_root": "D:/10MasterbatchDev",
+  "package_version": "0.1.0",
+  "profile": "wordpress-nextjs",
+  "site_url": "https://www.gemasterbatch.com/",
+  "site_scope": null,
+  "development_root": null,
+  "industry": "industrial-b2b",
+  "bindings": {
+    "rules": "AGENTS.md",
+    "status": "00_Governance/PROJECT_STATUS.md",
+    "index": "00_Governance/PLANNING_PROCESS.md",
+    "directory": "00_Governance/PLANNING_PROCESS.md",
+    "context": "01_Project_Intake/PROJECT_FOUNDATION_BRIEF_V0.4.md",
+    "decisions": "00_Governance/DECISION_LOG.md",
+    "authority": "00_Governance/DECISION_LOG.md",
+    "facts": "02_Source_Evidence/SOURCE_REGISTER.md",
+    "relations": "02_Source_Evidence/ENTITY_PRODUCT_FILE_MATRIX_V0.1.md",
+    "briefs": null,
+    "page_registry": null,
+    "keywords": null,
+    "playbooks": null,
+    "brand": null,
+    "logo": null,
+    "shared_contracts": null,
+    "shared_consumer": null
+  },
+  "integration": {
+    "AGENTS.md": "## 可复用工作流接入\n\n按 `.workflow/INSTANCE_ENTRY.md` 读取本站锁定的角色、Skill与合同。本站原规则、main-only/no-worktree及唯一状态入口保持有效；工作流安装不授予阶段、开发或发布权限。前置阶段不得提前制作正式页面Brief。",
+    "00_Governance/PLANNING_PROCESS.md": "## 母版工作包映射\n\n`.workflow/INSTANCE_ENTRY.md` 提供锁定方法：01–02对应W1，03对应W2，04对应W3，05–07对应W4，08–09对应W5，10对应Gate0接入。保留本表唯一流程与成果位置；W5只准备页面输入和缺口，正式Brief在10的页面准入中按批准范围形成。已有批准成果继承，不因接入重新启动01。"
+  }
+}

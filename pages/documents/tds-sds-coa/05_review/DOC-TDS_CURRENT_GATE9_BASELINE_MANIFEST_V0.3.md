@@ -35,3 +35,7 @@ This Manifest supersedes `DOC-TDS_CURRENT_GATE9_REVIEW_MANIFEST_V0.2.md` as the 
 ## 3. Release stop
 
 Gate 9 approval does not authorize Gate 10. Real WordPress readiness, dependent routes, production receiver/account evidence, deployment, production writes, DNS, publication, sitemap activation, robots activation and indexing remain separately controlled.
+
+## 2026-09-13 publication-contract overlay
+
+`../../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes DOC-TDS's registered URL, document-explanation responsibility, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. The Grade selector must consume the single launch product roster; no document inventory or availability promise is created.

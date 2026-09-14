@@ -76,3 +76,7 @@ The browser submits directly to `https://api.web3forms.com/submit`. The Access K
 `Gate 10 = NOT_AUTHORIZED`.
 
 No mailbox receipt is inferred from provider acceptance. No production WordPress change, deployment, publication, DNS, robots, sitemap or indexing action is authorized by this Manifest.
+
+## 2026-09-13 publication-contract overlay
+
+`../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes CONV-DOC's URL, request-only role, buyer task, submit CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. Existing field, provider, success/failure and privacy contracts remain authoritative; no receipt, availability, delivery or approval promise is added.

@@ -1,0 +1,3119 @@
+{
+  "version": "0.1.0",
+  "status": "EXTRACTION_CANDIDATE_NOT_INSTALLABLE",
+  "source_map": [
+    {
+      "source": "agents/business-strategy-positioning/agent.md",
+      "source_sha256": "6e95afc6e3f4065c93df4b6ec5e0badd6212c71a607727f7678c02d8a61d07e1",
+      "target": "agents/business-strategy-positioning/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "9ed5ba0481e50a71e1dc08b52c3a05bd513549f8ef7e473fa431a04450968345"
+    },
+    {
+      "source": "agents/enterprise-product-facts/agent.md",
+      "source_sha256": "0d9ea60bbd02034e851a186e6a9da1ea16aa56d9f2c08fc52890b103230ac111",
+      "target": "agents/enterprise-product-facts/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "b4ef721e9bce97b1d9cdc1e6260f47c470f214423c69633568d3e9eb232e5214"
+    },
+    {
+      "source": "agents/gate1-execution/agent.md",
+      "source_sha256": "70722956c526b07c816b664410556b4bd12a51aff4963dc0fecb0b706e7f8a34",
+      "target": "agents/gate1-execution/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "285873073f9d1d5761d1b38ae40e3b7777ae9a8e450d17db8f3da779ca8e2f50"
+    },
+    {
+      "source": "agents/gate2-execution/agent.md",
+      "source_sha256": "e8e567e3e9dfeb4d39aed26ca4d5a815e82b06d5894abdf64f661f9416887343",
+      "target": "agents/gate2-execution/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "bf750d0adc2d419a53b266714827a99dbeed3d0062b1ff575aa6bab0eac4815a"
+    },
+    {
+      "source": "agents/gate2-review/agent.md",
+      "source_sha256": "f9a6fad21458e299fe4e3a299d43617259ed3548d057a5f603ab569515ac22b4",
+      "target": "agents/gate2-review/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "854d458f893366d8b4fd96f9a65583bf26bb053180ac70a657a1934dd4bb883e"
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "source_sha256": "25fb15a959a514ffa14e7ea73ab66fefcd6a9c07817f452a5de12ebee8231f46",
+      "target": "agents/gate3-execution/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "5932d9d3aba9b235d0e080c9a122c8cff3dd309fc6ff01cf15098e8906115f69"
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "source_sha256": "c92003a05783de90804426f0a34adf53eac1062bbd70bb3d07a5def02cff4604",
+      "target": "agents/gate4-complete-visual/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "43a001c3508bb331816da884bce294c17bb5f24449ef928d0a60b56253696295"
+    },
+    {
+      "source": "agents/gate5-independent-visual-review/agent.md",
+      "source_sha256": "a00a4d1b713d601969ddfc4f19c242c9df438c0ae9de8d388bcf91085c7be13e",
+      "target": "agents/gate5-independent-visual-review/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "844b6d8c9dd65583869468b2dd073fd659ffb20cb07effc0386b9c3c301d66ba"
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "source_sha256": "b302783e22d16d72d238bec336d766dd37f6f3ef34927e868de1c5f1bfc4372c",
+      "target": "agents/gate6-review-delivery/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "bf4ed3abd6baf39d5bdbe1b26cb67b638bcff878f5cd945bf1dabb49b31eda85"
+    },
+    {
+      "source": "agents/gate9-read-only-acceptance/agent.md",
+      "source_sha256": "114e7dd102f77839819118c0320588b3761099b86d565203f65d994853101817",
+      "target": "agents/gate9-read-only-acceptance/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "4b32a2a48a21b00f5b255420e71a1d9b3e4400b396de2eb6f8887d3fe5e6edb6"
+    },
+    {
+      "source": "agents/internal-link-review/agent.md",
+      "source_sha256": "2bb392b1c1528ace216b323925ba7b09d7e5721bc8cadb328bbd22572ed609a3",
+      "target": "agents/internal-link-review/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "7eb036e7294eaca210bdb57525db79f71a46d5814bfae700a7d4bb5625f3c2f4"
+    },
+    {
+      "source": "agents/market-customer-competition/agent.md",
+      "source_sha256": "d7daf1a6de2600dbbe5abf3bbed03da2d87a5f4af0f7caba87f6996e7918121a",
+      "target": "agents/market-customer-competition/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "31705c2cffcc84a8f2269117983fbef760a9b3566e32de1d489993720e8f52c4"
+    },
+    {
+      "source": "agents/production-preparation/agent.md",
+      "source_sha256": "7223ef7f8b8713e1f2930848d4a8b747d9071f4f003b0d4ec3225dacfd0abea2",
+      "target": "agents/production-preparation/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "4ab2f7b0b208c2aa0e44e1c9f335a8ae0ef29187db5d2b473acd65d9949cb1bc"
+    },
+    {
+      "source": "agents/project-orchestrator/agent.md",
+      "source_sha256": "f48e04601be6abf4a5e6ed2294d6aa345c1cd818d9eb2c96be91d1e990f108f1",
+      "target": "agents/project-orchestrator/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "539626f5790bdb791cf5194804ed9136ab4118dd13af1318cc867cc0532e411b"
+    },
+    {
+      "source": "agents/project-orchestrator/references/gate-routing.md",
+      "source_sha256": "23907bfee8dec814d8f64b2bdbe4019197ff8a6e09de1a0fdd9176fff3ffdaa4",
+      "target": "agents/project-orchestrator/references/gate-routing.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "fe221de377822249d92e7ecd98d9a55a28abeb0234af8e0beb6ca15899485328"
+    },
+    {
+      "source": "agents/project-orchestrator/references/handoff-contract.md",
+      "source_sha256": "1c37d5803e5429bc6d929596571432cfeefc416903f437152681584644e0b1ff",
+      "target": "agents/project-orchestrator/references/handoff-contract.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "31001f6e6b34e39a9162ed73c318505832d7dba4ce69bf40571ed6108414ee31"
+    },
+    {
+      "source": "agents/project-orchestrator/references/orchestration-sop.md",
+      "source_sha256": "93f040060f12e408390d3c96a34a68f02772aca0d9ecb1a196910aeb701ce726",
+      "target": "agents/project-orchestrator/references/orchestration-sop.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "476025b4ad912b4561f9f7c0da8868b5f9605cdf9aa2aad4cc1e090845c91a86"
+    },
+    {
+      "source": "agents/site-architecture-buyer-journey/agent.md",
+      "source_sha256": "f294e804eea78ddd9443dc8de8184805f1806285adba7fc7d3a8b441d0897ffc",
+      "target": "agents/site-architecture-buyer-journey/agent.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "09b023cb87fcfa77aae065c7bd719b50d5d779ee0e6178ea267707c698233f83"
+    },
+    {
+      "source": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "source_sha256": "021e2c046c0dd0567c411d2e41d2f2f7f66b58f7703ae24f7367f45420f7a4f3",
+      "target": "contracts/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "605fc89ad1c0702792eb1a1a61eb46a4f6cefd0c13496ee30a3b40a73df5376a"
+    },
+    {
+      "source": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "source_sha256": "a83b791f72c873b77b247a5a05295e01d1aeebb526e5671e920077fc86794d61",
+      "target": "contracts/article-handoff.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "66beb85679f761f4b2c07065c5e887ff5690911c5859027928fba662dae426bf"
+    },
+    {
+      "source": "docs/architecture/D16_LOCAL_MAIN_INTEGRATION_QUEUE_RULE_V1.0.md",
+      "source_sha256": "76ba8b3c1c84469f8b4a42b20a4df9916125030a379645bf5f7eee72496f949a",
+      "target": "profiles/wordpress-nextjs/integration.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "324f17165c53a98fb07a690d91455c598e2f37e42de0ab55bca6891e211d4cb8"
+    },
+    {
+      "source": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "source_sha256": "f600a38be744655bb97e05417cc9860fc46737310dbbf284197c702deee2d06f",
+      "target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "4a583c3369333b8f23a63853b18ca5d2eb6e825f5b95fd118c5c8dd4981fda6a"
+    },
+    {
+      "source": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "source_sha256": "bbb2ac3c52a5964867831b4e222418ad5b1f5bd0cedf396742095d379819f0c2",
+      "target": "contracts/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "c24b35e4b7e71605fab28818230d96047620d96118c521e90560899846d5280e"
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "source_sha256": "4339c7b3163a96f442860407f547dde3ad4638d8064b12bb4e0d0097eb9a1822",
+      "target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "4a6d56606c08ff3ea5c341693733cd4990cd36845c0da3fd3eb22df72872dcba"
+    },
+    {
+      "source": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "source_sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370",
+      "target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "df643279e97fed6bcb4ff13a34be16fbec426d5169e5271b84a5bb996f57d4e7"
+    },
+    {
+      "source": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "source_sha256": "c408bdcd34b898edb5e95c76db8c126a203ebd1e85c530460e3615f49e0e80eb",
+      "target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "c4ce6b6161991b71167b33d9e0bea7dc0dbdec7623daeb839909dbb888382d37"
+    },
+    {
+      "source": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "source_sha256": "d2aaffaadf6ba44f3472b4045a40c165b170aa4fdfdc4ee1d824fe66415e9f67",
+      "target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "d59c273aa46b56f5f5b830f49011a1c32f46d07ba0b53f0738435a8516a77bbf"
+    },
+    {
+      "source": "docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "source_sha256": "cbd36d338412a5d311ae062a93982d9a5799e0cf3d459bcb72d41e4a155247ad",
+      "target": "contracts/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "treatment": "EXTRACT",
+      "target_sha256": "7802b98d08a1931e44332b94f6a8f5e5e47f2773954a76e99a433c25655bbb03"
+    },
+    {
+      "source": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "source_sha256": "a74953971244d3b2bb43f6bc5d9b798f428d9590bab8bcb8664e1d4e9b4b31cb",
+      "target": "contracts/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "a49a6b526d2169c855a90f3135f664651e61bffb0254bd9f8e18527d2b5c4116"
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "source_sha256": "5476e9ef47c0e8632c741745233f8d0e8984360cb639d9de2b69e6e7c81ea3a0",
+      "target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "a51c01430c4bc4aca933480c28b5fe9123b6ae07b037b4523c78f86ced7dab8d"
+    },
+    {
+      "source": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "source_sha256": "5888017477bec9347f2dc0592927b033791b4c3ae40fed2793e935bcac048228",
+      "target": "contracts/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "175e8f356f52bf759407f6d8d26e144fdbb94a465c2e2ee5dd0d238e6e632aa3"
+    },
+    {
+      "source": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "source_sha256": "7b14c96e8515fdaeaeee12f23e9e7c8ffb815f8a00643d2bc0998f667efff64a",
+      "target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "efecfcccb6a8a6ea003d67a6efdd21d7124fec18d1f9fdabb32b9b87959a741c"
+    },
+    {
+      "source": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "source_sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140",
+      "target": "contracts/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "38a8d85920006021dd3a28159db9f2c5deb3020d934ab7152192317fc959160c"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "source_sha256": "db39f56b4eedb37e6330689962c2dc98c5ffc4d1fcf9deefb0f4eeb44c982f49",
+      "target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "f1434f62c62c1feb5beeac04da4c2bf41bf35a2f49d1f64148c95e9882bfa99a"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "source_sha256": "9ed15808467159151cfafb317f9673824f5004dacb8f771f35d59668f7a85eab",
+      "target": "templates/site-preparation-handoff.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "acba2fa69a40d6496ad65e507f0bec2a2df276b20d5ea2ed026c429df6d7d249"
+    },
+    {
+      "source": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "source_sha256": "7c1483978115e6c7e44e4d97b999406a67b63c6c5cf3a13f2e695c2dcc42446f",
+      "target": "contracts/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "eb40f644e0413c4b2b293ee9173f987f50b96013003b8511d56c862d5cf013c3"
+    },
+    {
+      "source": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "source_sha256": "6434341362530b3da5cdb23c4cc202bd15c0a41ed0e88f166f6e18deefa0d636",
+      "target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "179f7a8174d60c661a491f630696a984d19e37c9010041750e7751fb772fad53"
+    },
+    {
+      "source": "skills/brand-applied-visual-design/SKILL.md",
+      "source_sha256": "770ed434423de2fb1abfd4c7f9f8fe536f3ba1a3c78c75b27fb3e783b9751132",
+      "target": "skills/brand-applied-visual-design/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "0d7e72de45a1417905e863b216094d3a52d60921d2e9439a4973a2c5fcf5ca87"
+    },
+    {
+      "source": "skills/development-delivery-specification/SKILL.md",
+      "source_sha256": "92f7c3e4989714d62c12a8b4ddcf916397f405a45fca1193b541f6f652088180",
+      "target": "skills/development-delivery-specification/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "67be239f798c341a2854d3bea5364b14ee5473179d7e6431eac85baf469fbe93"
+    },
+    {
+      "source": "skills/full-page-visual-composition/SKILL.md",
+      "source_sha256": "6c0bbbb12eb3ac727f0f1a1e52e5106a18ece0987f980a36d0b28d38f5bbb29f",
+      "target": "skills/full-page-visual-composition/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "821ae07f51139fce977d5e46e82532ed94efa2f97311c6190c07030b347e96cf"
+    },
+    {
+      "source": "skills/internal-link-verification/SKILL.md",
+      "source_sha256": "f2e06f599ca0a9be00f67bdc7f0fbfce579408f302f157f6b56ddb8f67e9ba38",
+      "target": "skills/internal-link-verification/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "c3483b6342a47bbbcf210a63879f4814b1f5a9c89c3bf8d659b4ece1a939b37c"
+    },
+    {
+      "source": "skills/layout-interaction-verification/SKILL.md",
+      "source_sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884",
+      "target": "skills/layout-interaction-verification/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "d4cc60526cf2043c4a2323ab5f0efd1b7b460e27ae96b4e01cb171c4ca73ca5a"
+    },
+    {
+      "source": "skills/layout-interaction-verification/references/core-risk-model.md",
+      "source_sha256": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609",
+      "target": "skills/layout-interaction-verification/references/core-risk-model.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "da5fcecce2d15116ef2f877cf4664a75e799cf332f19c7b42807b99f311ef5b4"
+    },
+    {
+      "source": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "source_sha256": "4a5927478f436610cb133aa8c0bde792737edd8e50fc5b7f6b95cb2a2b510c98",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "6994870304b93eb391cd9a308aec142d26d233a21087b32bb4414370fc93c4eb"
+    },
+    {
+      "source": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "source_sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9",
+      "target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "48c3523e0c7c69aa09d4198c7f730609392a77999ac0da650b6fd36b702b99db"
+    },
+    {
+      "source": "skills/layout-interaction-verification/references/independent-visual-review.md",
+      "source_sha256": "a5816b700851f19df9604a5eebc7c94917b50fc25678bfbed8c73740c1530208",
+      "target": "skills/layout-interaction-verification/references/independent-visual-review.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "f762d564dd5927a8cbc51c96dae09e50ac3aa028af4bd6601a98fcf53305ef8a"
+    },
+    {
+      "source": "skills/page-contract-consistency-review/SKILL.md",
+      "source_sha256": "5f8d864dbdb0da5118df5898d5dbe12421455aa5f5b346ff479b26ed643203ea",
+      "target": "skills/page-contract-consistency-review/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "8c37041225d9f276cff68a4eb0c0e5ccd26026f0d0a128c1d8fb37ecf6c1301c"
+    },
+    {
+      "source": "skills/responsive-wireframe-design/SKILL.md",
+      "source_sha256": "dd8a1691e5646815fac56e1667ef794194b4ae3289bdf3272dc879d06493dc86",
+      "target": "skills/responsive-wireframe-design/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "15119c6f5310c5d74559d3997615a82773e6e5033c0b65f901395ebc69a8aa4b"
+    },
+    {
+      "source": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "source_sha256": "d7a095adf522e45d9b82dac2dab909de9fed83296c8d86e0105ad5214cafcd9f",
+      "target": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "f2e99504a05f7af3c311076c62d4d1c4530af99fb81e5108f5dcfd4ec5d84d3a"
+    },
+    {
+      "source": "skills/responsive-wireframe-design/scripts/check-preflight-record.mjs",
+      "source_sha256": "6cd67439a2d867e07a2f63d0be79a2a7163683591daee4f835d3888939424c34",
+      "target": "skills/responsive-wireframe-design/scripts/check-preflight-record.mjs",
+      "treatment": "EXTRACT",
+      "target_sha256": "6cd67439a2d867e07a2f63d0be79a2a7163683591daee4f835d3888939424c34"
+    },
+    {
+      "source": "skills/runtime-implementation-verification/SKILL.md",
+      "source_sha256": "59a1b7fed0e97ce8131f016a60217be43f7fa1a341e8ba7b6b8e3f36382e9832",
+      "target": "skills/runtime-implementation-verification/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "84a7d72a39d947b69ffba96ab29d355f69f63f5b0041e0be2ffec11ed4a5413f"
+    },
+    {
+      "source": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "source_sha256": "47e41d376378e91257cddf2edddf9bc8e0bf64455279424eadde33f7ae17e78c",
+      "target": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "aa295f8100a28c0fd57748d40c77686dea0c96de094336b77db1aa79a76b7417"
+    },
+    {
+      "source": "skills/runtime-implementation-verification/scripts/gate9_preflight.py",
+      "source_sha256": "d08e342b9b07218f1847c60f2c9723e27934fd17bb677133ddf2b69c95687066",
+      "target": "skills/runtime-implementation-verification/scripts/gate9_preflight.py",
+      "treatment": "EXTRACT",
+      "target_sha256": "d08e342b9b07218f1847c60f2c9723e27934fd17bb677133ddf2b69c95687066"
+    },
+    {
+      "source": "skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py",
+      "source_sha256": "72e944731451f253444a8230ca553be35739e9da9922e316f734ffbf07501e6c",
+      "target": "skills/runtime-implementation-verification/scripts/validate_evidence_manifest.py",
+      "treatment": "EXTRACT",
+      "target_sha256": "72e944731451f253444a8230ca553be35739e9da9922e316f734ffbf07501e6c"
+    },
+    {
+      "source": "skills/runtime-implementation-verification/tests/test_gate9_tools.py",
+      "source_sha256": "e4fdab7890d02018c0fdb5e86ea021c4d2d8528d8ef42ea1a4236147a1edc769",
+      "target": "skills/runtime-implementation-verification/tests/test_gate9_tools.py",
+      "treatment": "EXTRACT",
+      "target_sha256": "d6a746f734a3aa376dec9cdb9ced3452a0315ba6eda83ac07467072f79878a8c"
+    },
+    {
+      "source": "skills/search-intent-evidence-analysis/SKILL.md",
+      "source_sha256": "fdae1fa133a1592db378026e6992caa7ffc5c13c1f561e17f6e40d4cc89fd8e0",
+      "target": "skills/search-intent-evidence-analysis/SKILL.md",
+      "treatment": "EXTRACT",
+      "target_sha256": "131d704fe98923675e0c1c52fb5aec75ae1e7bb7c0b1126b9e17856f223b6edb"
+    },
+    {
+      "source": "D:/16Wordpress_nextjs/AGENTS.md",
+      "source_sha256": "25311d7e025023d87099d7c52ca1bd982bf67e8808011e29354ebaf42f6a61ac",
+      "target": null,
+      "treatment": "READ_ONLY_INTERFACE_REFERENCE",
+      "interface_target": "profiles/wordpress-nextjs/README.md"
+    },
+    {
+      "source": "D:/16Wordpress_nextjs/docs/development-workflow.md",
+      "source_sha256": "0f6f53aca3d1d6608f65f33d8d213aadac1cb224052931691fa580ebfe636354",
+      "target": null,
+      "treatment": "READ_ONLY_INTERFACE_REFERENCE",
+      "interface_target": "profiles/wordpress-nextjs/README.md"
+    },
+    {
+      "source": "D:/16Wordpress_nextjs/docs/development-execution.md",
+      "source_sha256": "17826f9dc3f88a80e5fdf139d5bd63951aeb4db12c191ca067d5922219ce2366",
+      "target": null,
+      "treatment": "READ_ONLY_INTERFACE_REFERENCE",
+      "interface_target": "profiles/wordpress-nextjs/README.md"
+    }
+  ],
+  "dependency_dispositions": [
+    {
+      "from": "agents/business-strategy-positioning/agent.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.3.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/business-strategy-positioning/agent.md",
+      "target": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/enterprise-product-facts/agent.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.1.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-06-gate1-execution-agent-design-v0.7.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "target": "AGENTS.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#rules",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "target": "PROJECT_CONTEXT.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#context",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "target": "01_PROJECT_INDEX.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#index",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "target": "00_PROJECT_STATUS.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#status",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "target": "skills/search-intent-evidence-analysis/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/search-intent-evidence-analysis/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate2-execution/agent.md",
+      "target": "90_archive/project-governance/2026-09-08-gate2-content-adaptation/agents/gate2-execution/agent.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate2-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate2-review/agent.md",
+      "target": "90_archive/project-governance/2026-09-08-gate2-content-adaptation/agents/gate2-review/agent.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate2-review/agent.md",
+      "target": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-execution-agent-design-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-skill-method-design-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-agent-entry-integration-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-two-page-process-retrospective-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "agents/gate3-execution/history/agent-v0.1.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-skill-validation-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "agents/gate3-execution/history/agent-v0.2-scope-control-baseline.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.7.md",
+      "classification": "PROVENANCE_OR_TARGET_RELEASE_LOCK",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "AGENTS.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#rules",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "PROJECT_CONTEXT.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#context",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "01_PROJECT_INDEX.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#index",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "00_PROJECT_STATUS.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#status",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.5.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "skills/responsive-wireframe-design/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/responsive-wireframe-design/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "skills/layout-interaction-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#shared",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "02_DIRECTORY_GUIDE.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#directory",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#shared",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "skills/brand-applied-visual-design/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/brand-applied-visual-design/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "skills/full-page-visual-composition/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/full-page-visual-composition/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "skills/layout-interaction-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "target": "agents/gate4-complete-visual/history/agent-v1.0-before-workflow-alignment.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "target": "agents/project-orchestrator/references/handoff-contract.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/project-orchestrator/references/handoff-contract.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "target": "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#shared",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "target": "skills/layout-interaction-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "target": "skills/layout-interaction-verification/references/independent-visual-review.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/independent-visual-review.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "agents/gate6-review-delivery/history/agent-v0.1.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate6-agent-skill-design-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "agents/gate6-review-delivery/history/agent-v0.2-before-workflow-alignment.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "90_archive/project-governance/2026-09-07-gate6-three-page-method-revision/agents/gate6-review-delivery/agent.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md",
+      "classification": "PROVENANCE_OR_TARGET_RELEASE_LOCK",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "AGENTS.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#rules",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "PROJECT_CONTEXT.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#context",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "skills/page-contract-consistency-review/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/page-contract-consistency-review/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "skills/layout-interaction-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "skills/development-delivery-specification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/development-delivery-specification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "target": "02_DIRECTORY_GUIDE.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#directory",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate9-agent-design-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "docs/architecture/GATE9_MULTI_BATCH_RETROSPECTIVE_V1.0.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "docs/architecture/D16_LOCAL_MAIN_INTEGRATION_QUEUE_RULE_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "profiles/wordpress-nextjs/integration.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate9-runtime-skill-validation-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "90_archive/project-governance/2026-09-07-gate9-poland-improvements/agents/gate9-read-only-acceptance/agent.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "AGENTS.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#rules",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "PROJECT_CONTEXT.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#context",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "01_PROJECT_INDEX.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#index",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "skills/runtime-implementation-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/runtime-implementation-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "target": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/internal-link-review/agent.md",
+      "target": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/internal-link-review/agent.md",
+      "target": "skills/internal-link-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/internal-link-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/market-customer-competition/agent.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.2.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/market-customer-competition/agent.md",
+      "target": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/production-preparation/agent.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/production-preparation/agent.md",
+      "target": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/superpowers/specs/2026-09-07-project-orchestrator-agent-design-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/project-orchestrator/references/handoff-contract.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/project-orchestrator/references/handoff-contract.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/project-orchestrator/references/orchestration-sop.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/project-orchestrator/references/orchestration-sop.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/project-orchestrator/references/gate-routing.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/project-orchestrator/references/gate-routing.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/article-handoff.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.13.md",
+      "classification": "PROVENANCE_OR_TARGET_RELEASE_LOCK",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/internal-link-review/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/internal-link-review/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "templates/site-preparation-handoff.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/enterprise-product-facts/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/enterprise-product-facts/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/market-customer-competition/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/market-customer-competition/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/business-strategy-positioning/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/business-strategy-positioning/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/site-architecture-buyer-journey/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/site-architecture-buyer-journey/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "target": "agents/production-preparation/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/production-preparation/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/article-handoff.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "agents/internal-link-review/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/internal-link-review/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/article-handoff.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "templates/site-preparation-handoff.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/orchestration-sop.md",
+      "target": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/article-handoff.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/project-orchestrator/references/orchestration-sop.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/site-architecture-buyer-journey/agent.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.4.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "agents/site-architecture-buyer-journey/agent.md",
+      "target": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "target": "pages/applications/02_analysis/APPLICATION_ARTICLE_TOPIC_CONTROLLER_MANDATE_AND_THREE_ARTICLE_USER_APPROVAL_V0.1.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "target": "pages/applications/04_planning/APPLICATION_ARTICLE_TOPIC_MASTER_PLAN_V0.1.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "target": "pages/applications/02_analysis/R02_PLASTIC_FILM_ARTICLE_D23_ACCEPTANCE_V0.1.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "target": "pages/applications/02_analysis/R02_PLASTIC_FILM_ARTICLE_USER_APPROVAL_AND_CLOSURE_V0.1.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "target": "docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.7.md",
+      "classification": "PROVENANCE_OR_TARGET_RELEASE_LOCK",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-boundary-change-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "agents/project-orchestrator/references/handoff-contract.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/project-orchestrator/references/handoff-contract.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "target": "agents/project-orchestrator/references/handoff-contract.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/project-orchestrator/references/handoff-contract.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "target": "docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.0.md",
+      "classification": "PROVENANCE_OR_TARGET_RELEASE_LOCK",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "target": "docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "01_PROJECT_INDEX.md",
+      "classification": "TARGET_INSTANCE_ENTRY_TEMPLATE",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#index",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.5.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#brief",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "docs/product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.3.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#playbooks",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "docs/product-pages/04_Product_Detail_Single_Grade_Operational_Checklist_V1.3.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#playbooks",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "docs/page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.4.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#playbooks",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "agents/README.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "agents/README.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "skills/README.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "skills/README.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "docs/architecture/WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "target": "agents/internal-link-review/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/internal-link-review/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "target": "skills/internal-link-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/internal-link-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "target": "90_archive/project-governance/2026-09-08-internal-link-review",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "target": "docs/architecture/INTERNAL_LINK_REVIEW_VALIDATION_V1.1.json",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "target": "90_archive/project-governance/2026-09-08-internal-link-routing",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.0.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "target": "docs/architecture/PAGE_GATE_1_5_STANDARD_V1.3.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.0.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "target": "docs/page-briefs/README.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#brief",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_RETROSPECTIVE_AND_WORKFLOW_DESIGN_V1.0.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "templates/site-preparation-handoff.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "agents/enterprise-product-facts/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/enterprise-product-facts/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "agents/market-customer-competition/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/market-customer-competition/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "agents/business-strategy-positioning/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/business-strategy-positioning/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "agents/site-architecture-buyer-journey/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/site-architecture-buyer-journey/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "agents/production-preparation/agent.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "agents/production-preparation/agent.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_W1_W5_HANDOFF_REVIEW_V1.0.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "classification": "INSTANCE_AUTHORIZATION_DO_NOT_COPY",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#authority",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": "contracts/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "target": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "target": "docs/architecture/GATE_WORKFLOW_V3.0.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/GATE_WORKFLOW_V3.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.5.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate2-efficiency-change-v0.1.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/brand-applied-visual-design/SKILL.md",
+      "target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/brand-applied-visual-design/SKILL.md",
+      "target": "skills/brand-applied-visual-design/history/SKILL-v0.1.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "skills/development-delivery-specification/SKILL.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "skills/development-delivery-specification/SKILL.md",
+      "target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.0.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/full-page-visual-composition/SKILL.md",
+      "target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/full-page-visual-composition/SKILL.md",
+      "target": "skills/full-page-visual-composition/history/SKILL-v0.1.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "skills/full-page-visual-composition/SKILL.md",
+      "target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/full-page-visual-composition/SKILL.md",
+      "target": "skills/layout-interaction-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/history/SKILL-v0.2.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/history/SKILL-v0.3-before-gate3-scope.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/references/independent-visual-review.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/independent-visual-review.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/references/core-risk-model.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/core-risk-model.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/layout-interaction-verification/references/core-risk-model.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "target": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/page-contract-consistency-review/SKILL.md",
+      "target": "docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md",
+      "classification": "PROVENANCE_EXTRACT_NORMATIVE_CLAUSES_IF_REQUIRED",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "skills/page-contract-consistency-review/SKILL.md",
+      "target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.0.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "target": "skills/responsive-wireframe-design/history/SKILL-v0.1.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "target": "skills/responsive-wireframe-design/history/SKILL-v0.2-scope-control-baseline.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": null,
+      "disposition": "PROVENANCE_ONLY_NOT_RUNTIME_REQUIREMENT"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "target": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "target": "docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "classification": "INSTANCE_ONLY_REPLACE_WITH_CONFIG_BINDING",
+      "exists": true,
+      "portable_target": "contracts/instance-bindings.md#shared",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "target": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "target": "skills/responsive-wireframe-design/scripts/check-preflight-record.mjs",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/responsive-wireframe-design/scripts/check-preflight-record.mjs",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "classification": "SUPPORTING_SOURCE_REQUIRES_MAPPING_BEFORE_EXPORT",
+      "exists": true,
+      "portable_target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/runtime-implementation-verification/SKILL.md",
+      "target": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "contracts/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/runtime-implementation-verification/SKILL.md",
+      "target": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "target": "skills/layout-interaction-verification/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/layout-interaction-verification/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    },
+    {
+      "from": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "target": "skills/page-contract-consistency-review/SKILL.md",
+      "classification": "SELECTED_SOURCE",
+      "exists": true,
+      "portable_target": "skills/page-contract-consistency-review/SKILL.md",
+      "disposition": "PACKAGE_CONTRACT_OR_EXPLICIT_INSTANCE_BINDING"
+    }
+  ],
+  "removed_source_metadata": [
+    {
+      "source": "agents/business-strategy-positioning/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 393
+    },
+    {
+      "source": "agents/enterprise-product-facts/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 315
+    },
+    {
+      "source": "agents/gate1-execution/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 311
+    },
+    {
+      "source": "agents/gate2-execution/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 665
+    },
+    {
+      "source": "agents/gate2-review/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 1051
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 1250
+    },
+    {
+      "source": "agents/gate3-execution/agent.md",
+      "operation": "remove_source_history_line",
+      "text": "本次V0.5依据G3-BOUNDARY-20260907收紧制作上限；必须读取[Gate 3制作与审查边界](../../docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md)。本版尚未新页面试跑，历史验证不迁移为本版行为通过。"
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 618
+    },
+    {
+      "source": "agents/gate4-complete-visual/agent.md",
+      "operation": "remove_source_history_line",
+      "text": "V1.1仅同步当前工作流入口；[V1.0快照](history/agent-v1.0-before-workflow-alignment.md)保留。方法、4A/4B和页面授权边界保持。"
+    },
+    {
+      "source": "agents/gate5-independent-visual-review/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 300
+    },
+    {
+      "source": "agents/gate6-review-delivery/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 1129
+    },
+    {
+      "source": "agents/gate9-read-only-acceptance/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 1010
+    },
+    {
+      "source": "agents/internal-link-review/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 258
+    },
+    {
+      "source": "agents/market-customer-competition/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 404
+    },
+    {
+      "source": "agents/production-preparation/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 386
+    },
+    {
+      "source": "agents/production-preparation/agent.md",
+      "operation": "remove_source_history_line",
+      "text": "W-PREP-ALIGNMENT-20260911批准四项交接修订。readiness_scope按共同合同V1.6§3说明接收方、对象和用途；本角色交当前批次可供Gate 0核对的输入，不能用本角色就绪要求反向约束W1–4。"
+    },
+    {
+      "source": "agents/project-orchestrator/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 313
+    },
+    {
+      "source": "agents/project-orchestrator/agent.md",
+      "operation": "remove_provenance_link",
+      "original_target": "docs/architecture/ARTICLE_策划侧_写作侧_HANDOFF_CONTRACT_V1.0.md",
+      "label": "文章交接合同"
+    },
+    {
+      "source": "agents/project-orchestrator/agent.md",
+      "operation": "remove_provenance_link",
+      "original_target": "docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.13.md",
+      "label": "生效记录V1.13"
+    },
+    {
+      "source": "agents/project-orchestrator/references/gate-routing.md",
+      "operation": "remove_provenance_link",
+      "original_target": "docs/architecture/ARTICLE_策划侧_写作侧_HANDOFF_CONTRACT_V1.0.md",
+      "label": "文章交接合同"
+    },
+    {
+      "source": "agents/project-orchestrator/references/handoff-contract.md",
+      "operation": "remove_provenance_link",
+      "original_target": "docs/architecture/ARTICLE_策划侧_写作侧_HANDOFF_CONTRACT_V1.0.md",
+      "label": "共用合同"
+    },
+    {
+      "source": "agents/project-orchestrator/references/orchestration-sop.md",
+      "operation": "remove_provenance_link",
+      "original_target": "docs/architecture/ARTICLE_策划侧_写作侧_HANDOFF_CONTRACT_V1.0.md",
+      "label": "文章交接合同"
+    },
+    {
+      "source": "agents/site-architecture-buyer-journey/agent.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 384
+    },
+    {
+      "source": "docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 384
+    },
+    {
+      "source": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 185
+    },
+    {
+      "source": "docs/architecture/ARTICLE_D23_D22_HANDOFF_CONTRACT_V1.0.md",
+      "operation": "remove_source_history_line",
+      "text": "来源：[文章Controller职责](../../pages/applications/02_analysis/APPLICATION_ARTICLE_TOPIC_CONTROLLER_MANDATE_AND_THREE_ARTICLE_USER_APPROVAL_V0.1.md)、[选题计划](../../pages/applications/04_planning/APPLICATION_ARTICLE_TOPIC_MASTER_PLAN_V0.1.md)、[R02接收实例](../../pages/applications/02_analysis/R02_PLASTIC_FILM_ARTICLE_D23_ACCEPTANCE_V0.1.md)、[R02用户批准](../../pages/applications/02_analysis/R02_PLASTIC_FILM_ARTICLE_USER_APPROVAL_AND_CLOSURE_V0.1.md)。"
+    },
+    {
+      "source": "docs/architecture/D16_LOCAL_MAIN_INTEGRATION_QUEUE_RULE_V1.0.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 94
+    },
+    {
+      "source": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 162
+    },
+    {
+      "source": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 357
+    },
+    {
+      "source": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "operation": "remove_source_history_line",
+      "text": "本轮实施和验证见[变更记录](../superpowers/specs/2026-09-07-gate3-boundary-change-v0.1.md)。"
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 372
+    },
+    {
+      "source": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "operation": "remove_source_history_line",
+      "text": "2026-09-07用户明确“可以，同意修改Gate4的内容。”批准本次收口。三项Skill与Agent共用同一实际覆盖记录；制作中的有效检查可继承，核验补齐缺口，Agent判断就绪，不因方法切换增加全量自检。详细执行按[Gate 4自检方法](../../skills/layout-interaction-verification/references/gate4-self-check.md)。"
+    },
+    {
+      "source": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 158
+    },
+    {
+      "source": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 134
+    },
+    {
+      "source": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 158
+    },
+    {
+      "source": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "operation": "remove_provenance_link",
+      "original_target": "docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.0.md",
+      "label": "总控初版生效记录"
+    },
+    {
+      "source": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 137
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 752
+    },
+    {
+      "source": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "operation": "remove_source_history_line",
+      "text": "本次变更、验证局限和回退映射见[修订记录](WORKFLOW_ENTRY_ALIGNMENT_CHANGE_RECORD_V1.0.md)。回退需有对应有效决定，按记录恢复本次段落或版本指针，保留并行页面进度和本次证据。"
+    },
+    {
+      "source": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 190
+    },
+    {
+      "source": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 947
+    },
+    {
+      "source": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 569
+    },
+    {
+      "source": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "operation": "remove_source_history_line",
+      "text": "2026-09-07用户“按照你的方案，开始修正。”批准当前入口收口。V1.3替代V1.2的未来规则入口，§9职责详述归统一工作流维护，Brief使用当前导航；其余事实、范围与治理底线继承。原V1.2及历史页面源保留。"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 232
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "operation": "remove_source_history_line",
+      "text": "本版按用户后续决定建立[企业与产品事实基础Agent V0.1](../../agents/enterprise-product-facts/agent.md)，负责W1六部分及先读资料、整理事实、集中补问、确认和交回。暂不新增专属Skill；W2现按下述新增条款执行；W3现按下述新增条款执行；W4现按下述新增条款执行；W5现按下述新增条款执行，不自动启动具体任务。旧V1.0“本次不新增专业Agent”是当时范围，不能覆盖本次明确决定。"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "operation": "remove_source_history_line",
+      "text": "W1-FACTS-20260911记录用户批准先事实、再市场竞争、再战略的顺序，并批准W1六部分、执行方式及Agent。V1.0及原复盘保留历史，当前顺序以本版为准；原模板W1–5行按本版解释，不复制旧次序。总控派发W1须提供准确site_id、企业/产品范围、资料/决定入口、读写范围和停止点，接收三类信息及W2可研究范围。W1交付不自动启动W2，也不重新执行本项目既有事实整理。"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "operation": "remove_source_history_line",
+      "text": "W2-ANALYSIS-20260911：用户批准W2六部分、分析深度/停止条件、四类信息及建立[W2 Agent](../../agents/market-customer-competition/agent.md)。角色仅建设，不自动启动研究。"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "operation": "remove_source_history_line",
+      "text": "W3-STRATEGY-20260911：用户批准W3六部分及职责边界并同意建立[战略定位Agent](../../agents/business-strategy-positioning/agent.md)。本次只建设角色，不替某企业批准战略。"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "operation": "remove_source_history_line",
+      "text": "W4-ARCHITECTURE-20260911：用户批准W4七部分及执行边界，同意建立[架构与采购旅程Agent](../../agents/site-architecture-buyer-journey/agent.md)。本次只建设角色，不批准新页面/URL/导航。"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "operation": "remove_source_history_line",
+      "text": "W5-PRODUCTION-20260911：用户批准W5六部分、执行边界及建立[生产准备Agent](../../agents/production-preparation/agent.md)。只建设角色，不批准具体批次或页面启动。"
+    },
+    {
+      "source": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "operation": "remove_source_history_line",
+      "text": "决定W-PREP-ALIGNMENT-20260911：用户同意[交接检查](WEBSITE_PREPARATION_W1_W5_HANDOFF_REVIEW_V1.0.md)四项定向修订。本节及§3修正此前共用“首批就绪”口径；§6–10历史决定和W1–4角色职责继续有效，不要求重做或变更其原引用。"
+    },
+    {
+      "source": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 833
+    },
+    {
+      "source": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "operation": "move_control_preamble_to_provenance",
+      "characters": 397
+    },
+    {
+      "source": "skills/brand-applied-visual-design/SKILL.md",
+      "operation": "remove_provenance_link",
+      "original_target": "skills/brand-applied-visual-design/history/SKILL-v0.1.md",
+      "label": "历史快照"
+    },
+    {
+      "source": "skills/development-delivery-specification/SKILL.md",
+      "operation": "remove_provenance_link",
+      "original_target": "docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md",
+      "label": "修订记录"
+    },
+    {
+      "source": "skills/full-page-visual-composition/SKILL.md",
+      "operation": "remove_provenance_link",
+      "original_target": "skills/full-page-visual-composition/history/SKILL-v0.1.md",
+      "label": "历史快照"
+    },
+    {
+      "source": "skills/layout-interaction-verification/SKILL.md",
+      "operation": "remove_source_history_line",
+      "text": "2026-09-07合并修订：在V0.2风险模型上增加Gate 4共同工作集、4A诊断与4B最终核验的范围区分。V0.2保存在[历史快照](history/SKILL-v0.2.md)，V0.1继续保留。"
+    },
+    {
+      "source": "skills/layout-interaction-verification/SKILL.md",
+      "operation": "remove_source_history_line",
+      "text": "V0.4在并行Gate 4合并版V0.3上增加仅对Gate 3适用的范围配置；[修订前V0.3](history/SKILL-v0.3-before-gate3-scope.md)保留。Gate 4共同工作集、4A/4B和其他阶段完整核验能力保持。"
+    },
+    {
+      "source": "skills/page-contract-consistency-review/SKILL.md",
+      "operation": "remove_provenance_link",
+      "original_target": "docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md",
+      "label": "修订记录"
+    },
+    {
+      "source": "skills/responsive-wireframe-design/SKILL.md",
+      "operation": "remove_source_history_line",
+      "text": "2026-09-07定向修订：在两个真实页面试跑后增加正式渲染前硬预检、候选冻结、核心/诊断证据分层及页面中立共享消费。V0.1保存在[历史快照](history/SKILL-v0.1.md)。"
+    },
+    {
+      "source": "skills/responsive-wireframe-design/SKILL.md",
+      "operation": "remove_source_history_line",
+      "text": "V0.3定向收敛Gate 3制作范围、共享验证继承和状态证据；[修订前V0.2](history/SKILL-v0.2-scope-control-baseline.md)保留。"
+    },
+    {
+      "source": "skills/responsive-wireframe-design/SKILL.md",
+      "operation": "remove_source_history_line",
+      "text": "V0.4按用户批准的[Gate 3制作上限](../../docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md)细化执行边界；本项目Gate 3使用前必读，其他项目按其实际合同。"
+    }
+  ],
+  "rewritten_links": [
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "original_target": "AGENTS.md",
+      "target": "contracts/instance-bindings.md#rules"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "original_target": "PROJECT_CONTEXT.md",
+      "target": "contracts/instance-bindings.md#context"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "original_target": "01_PROJECT_INDEX.md",
+      "target": "contracts/instance-bindings.md#index"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "original_target": "00_PROJECT_STATUS.md",
+      "target": "contracts/instance-bindings.md#status"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "original_target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/gate1-execution/agent.md",
+      "original_target": "skills/search-intent-evidence-analysis/SKILL.md",
+      "target": "skills/search-intent-evidence-analysis/SKILL.md"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "AGENTS.md",
+      "target": "contracts/instance-bindings.md#rules"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "PROJECT_CONTEXT.md",
+      "target": "contracts/instance-bindings.md#context"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "01_PROJECT_INDEX.md",
+      "target": "contracts/instance-bindings.md#index"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "00_PROJECT_STATUS.md",
+      "target": "contracts/instance-bindings.md#status"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "docs/superpowers/specs/2026-09-07-gate2-delivery-structure-v0.5.md",
+      "target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "skills/responsive-wireframe-design/SKILL.md",
+      "target": "skills/responsive-wireframe-design/SKILL.md"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/SKILL.md"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "target": "contracts/instance-bindings.md#shared"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "02_DIRECTORY_GUIDE.md",
+      "target": "contracts/instance-bindings.md#directory"
+    },
+    {
+      "from": "agents/gate3-execution/agent.md",
+      "original_target": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "target": "contracts/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "original_target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "original_target": "skills/brand-applied-visual-design/SKILL.md",
+      "target": "skills/brand-applied-visual-design/SKILL.md"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "original_target": "skills/full-page-visual-composition/SKILL.md",
+      "target": "skills/full-page-visual-composition/SKILL.md"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "original_target": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/SKILL.md"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "original_target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "target": "skills/layout-interaction-verification/references/gate4-self-check.md"
+    },
+    {
+      "from": "agents/gate4-complete-visual/agent.md",
+      "original_target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "original_target": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "agents/project-orchestrator/references/handoff-contract.md"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "original_target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "original_target": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/SKILL.md"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "original_target": "skills/layout-interaction-verification/references/independent-visual-review.md",
+      "target": "skills/layout-interaction-verification/references/independent-visual-review.md"
+    },
+    {
+      "from": "agents/gate5-independent-visual-review/agent.md",
+      "original_target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "original_target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "original_target": "AGENTS.md",
+      "target": "contracts/instance-bindings.md#rules"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "original_target": "PROJECT_CONTEXT.md",
+      "target": "contracts/instance-bindings.md#context"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "original_target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "contracts/GATE_WORKFLOW_V3.2.md"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "original_target": "skills/page-contract-consistency-review/SKILL.md",
+      "target": "skills/page-contract-consistency-review/SKILL.md"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "original_target": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/SKILL.md"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "original_target": "skills/development-delivery-specification/SKILL.md",
+      "target": "skills/development-delivery-specification/SKILL.md"
+    },
+    {
+      "from": "agents/gate6-review-delivery/agent.md",
+      "original_target": "02_DIRECTORY_GUIDE.md",
+      "target": "contracts/instance-bindings.md#directory"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "original_target": "AGENTS.md",
+      "target": "contracts/instance-bindings.md#rules"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "original_target": "PROJECT_CONTEXT.md",
+      "target": "contracts/instance-bindings.md#context"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "original_target": "01_PROJECT_INDEX.md",
+      "target": "contracts/instance-bindings.md#index"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "original_target": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "target": "contracts/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "original_target": "skills/runtime-implementation-verification/SKILL.md",
+      "target": "skills/runtime-implementation-verification/SKILL.md"
+    },
+    {
+      "from": "agents/gate9-read-only-acceptance/agent.md",
+      "original_target": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "target": "skills/runtime-implementation-verification/references/gate9-method-integration.md"
+    },
+    {
+      "from": "agents/internal-link-review/agent.md",
+      "original_target": "skills/internal-link-verification/SKILL.md",
+      "target": "skills/internal-link-verification/SKILL.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "agents/project-orchestrator/references/handoff-contract.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/project-orchestrator/references/orchestration-sop.md",
+      "target": "agents/project-orchestrator/references/orchestration-sop.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/project-orchestrator/references/gate-routing.md",
+      "target": "agents/project-orchestrator/references/gate-routing.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/internal-link-review/agent.md",
+      "target": "agents/internal-link-review/agent.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "target": "contracts/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "target": "templates/site-preparation-handoff.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/enterprise-product-facts/agent.md",
+      "target": "agents/enterprise-product-facts/agent.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/market-customer-competition/agent.md",
+      "target": "agents/market-customer-competition/agent.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/business-strategy-positioning/agent.md",
+      "target": "agents/business-strategy-positioning/agent.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/site-architecture-buyer-journey/agent.md",
+      "target": "agents/site-architecture-buyer-journey/agent.md"
+    },
+    {
+      "from": "agents/project-orchestrator/agent.md",
+      "original_target": "agents/production-preparation/agent.md",
+      "target": "agents/production-preparation/agent.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "contracts/GATE_WORKFLOW_V3.2.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "agents/internal-link-review/agent.md",
+      "target": "agents/internal-link-review/agent.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md",
+      "target": "contracts/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/gate-routing.md",
+      "original_target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "original_target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "original_target": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "target": "contracts/2026-09-08-gate2-delivery-structure-v0.6.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "original_target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/handoff-contract.md",
+      "original_target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "target": "templates/site-preparation-handoff.md"
+    },
+    {
+      "from": "agents/project-orchestrator/references/orchestration-sop.md",
+      "original_target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md"
+    },
+    {
+      "from": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "original_target": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "target": "contracts/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md"
+    },
+    {
+      "from": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "original_target": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "target": "contracts/instance-bindings.md#authority"
+    },
+    {
+      "from": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "original_target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "contracts/GATE_WORKFLOW_V3.2.md"
+    },
+    {
+      "from": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "original_target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md"
+    },
+    {
+      "from": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "original_target": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "agents/project-orchestrator/references/handoff-contract.md"
+    },
+    {
+      "from": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "original_target": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "target": "contracts/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "original_target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md"
+    },
+    {
+      "from": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "original_target": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "target": "contracts/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "original_target": "agents/project-orchestrator/references/handoff-contract.md",
+      "target": "agents/project-orchestrator/references/handoff-contract.md"
+    },
+    {
+      "from": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "original_target": "docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "target": "contracts/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json"
+    },
+    {
+      "from": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "original_target": "docs/page-briefs/README.md",
+      "target": "contracts/instance-bindings.md#brief"
+    },
+    {
+      "from": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "original_target": "docs/architecture/GATE_WORKFLOW_V3.2.md",
+      "target": "contracts/GATE_WORKFLOW_V3.2.md"
+    },
+    {
+      "from": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "original_target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "original_target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "target": "templates/site-preparation-handoff.md"
+    },
+    {
+      "from": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md",
+      "original_target": "docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md",
+      "target": "contracts/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md",
+      "original_target": "docs/architecture/GATE_WORKFLOW_V3.0.md",
+      "target": "contracts/GATE_WORKFLOW_V3.2.md"
+    },
+    {
+      "from": "docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md",
+      "original_target": "docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md",
+      "target": "contracts/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "skills/brand-applied-visual-design/SKILL.md",
+      "original_target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md"
+    },
+    {
+      "from": "skills/development-delivery-specification/SKILL.md",
+      "original_target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.0.md",
+      "target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md"
+    },
+    {
+      "from": "skills/full-page-visual-composition/SKILL.md",
+      "original_target": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md",
+      "target": "contracts/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.2.md"
+    },
+    {
+      "from": "skills/full-page-visual-composition/SKILL.md",
+      "original_target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "target": "skills/layout-interaction-verification/references/gate4-self-check.md"
+    },
+    {
+      "from": "skills/full-page-visual-composition/SKILL.md",
+      "original_target": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/SKILL.md"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "original_target": "skills/layout-interaction-verification/references/independent-visual-review.md",
+      "target": "skills/layout-interaction-verification/references/independent-visual-review.md"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "original_target": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "target": "skills/layout-interaction-verification/references/gate4-self-check.md"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "original_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md"
+    },
+    {
+      "from": "skills/layout-interaction-verification/SKILL.md",
+      "original_target": "skills/layout-interaction-verification/references/core-risk-model.md",
+      "target": "skills/layout-interaction-verification/references/core-risk-model.md"
+    },
+    {
+      "from": "skills/layout-interaction-verification/references/core-risk-model.md",
+      "original_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md"
+    },
+    {
+      "from": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "original_target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md",
+      "target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md"
+    },
+    {
+      "from": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "original_target": "docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md",
+      "target": "contracts/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.0.md"
+    },
+    {
+      "from": "skills/page-contract-consistency-review/SKILL.md",
+      "original_target": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.0.md",
+      "target": "contracts/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "original_target": "docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "target": "contracts/instance-bindings.md#shared"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "original_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "original_target": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "target": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/SKILL.md",
+      "original_target": "skills/responsive-wireframe-design/scripts/check-preflight-record.mjs",
+      "target": "skills/responsive-wireframe-design/scripts/check-preflight-record.mjs"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "original_target": "docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md",
+      "target": "contracts/PAGE_GATE_1_4_STANDARD_V2.2.md"
+    },
+    {
+      "from": "skills/responsive-wireframe-design/references/preflight-freeze-evidence.md",
+      "original_target": "skills/layout-interaction-verification/references/gate3-structure-scope.md",
+      "target": "skills/layout-interaction-verification/references/gate3-structure-scope.md"
+    },
+    {
+      "from": "skills/runtime-implementation-verification/SKILL.md",
+      "original_target": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "target": "contracts/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md"
+    },
+    {
+      "from": "skills/runtime-implementation-verification/SKILL.md",
+      "original_target": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "target": "skills/runtime-implementation-verification/references/gate9-method-integration.md"
+    },
+    {
+      "from": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "original_target": "skills/layout-interaction-verification/SKILL.md",
+      "target": "skills/layout-interaction-verification/SKILL.md"
+    },
+    {
+      "from": "skills/runtime-implementation-verification/references/gate9-method-integration.md",
+      "original_target": "skills/page-contract-consistency-review/SKILL.md",
+      "target": "skills/page-contract-consistency-review/SKILL.md"
+    }
+  ],
+  "external_reference_drift": [
+    {
+      "source": "D:/16Wordpress_nextjs/docs/development-workflow.md",
+      "catalog_sha256": "0f6f53aca3d1d6608f65f33d8d213aadac1cb224052931691fa580ebfe636354",
+      "observed_sha256": "84ee6717fa9e6f0d337eb5ab52e5ee14d71fde250ca610727ddc524d0a07125b",
+      "disposition": "EXTERNAL_REFERENCE_CHANGED_RECHECK_AT_DEVELOPMENT_BINDING"
+    },
+    {
+      "source": "D:/16Wordpress_nextjs/docs/development-execution.md",
+      "catalog_sha256": "17826f9dc3f88a80e5fdf139d5bd63951aeb4db12c191ca067d5922219ce2366",
+      "observed_sha256": "7e0387d0e3ae6d5530cc01cc9c642b26147f06d414ff28e477048bfb719795c5",
+      "disposition": "EXTERNAL_REFERENCE_CHANGED_RECHECK_AT_DEVELOPMENT_BINDING"
+    }
+  ],
+  "finalization_notes": [
+    "Final package links override intermediate extraction link rewrite records. Article links restored to contracts/article-handoff.md.",
+    "Construction scripts are not the supported bootstrap.",
+    "Historical versions are provenance, not site authorization."
+  ],
+  "release_manifest_sha256": "d42c416ab86384ca2fc1f1a96650e490cc79b313f03c4f362e0cc38ea57eff5e"
+}

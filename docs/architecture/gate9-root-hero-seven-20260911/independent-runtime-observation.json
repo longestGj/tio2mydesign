@@ -1,0 +1,97 @@
+{
+  "review_id": "ROOT-HERO-G9-INDEPENDENT-ACCEPTANCE-01",
+  "observed_at": "2026-09-11T18:23:24+08:00",
+  "reviewer": "D23 Gate 9 independent read-only acceptance",
+  "browser": {
+    "surface": "Codex in-app browser",
+    "runtime_url": "http://127.0.0.1:32000/",
+    "configured_mobile_viewport": {"width": 390, "height": 844},
+    "observed_mobile_geometry": {"inner_width": 390, "document_client_width": 375},
+    "configured_desktop_viewport": {"width": 1440, "height": 1000},
+    "observed_desktop_geometry": {"inner_width": 1440, "document_client_width": 1425}
+  },
+  "candidate_identity": {
+    "site_scope": "tio2-my",
+    "repository": "D:/16Wordpress_nextjs/.worktrees/root-hero-seven-gate8",
+    "branch": "codex/root-hero-seven-gate8",
+    "baseline_commit": "27f0a0da59df1e54cd01eab7d77eb7024b338d42",
+    "implementation_commit": "25f7e89d4d41c0e821581757717acf05156335ce",
+    "evidence_head": "a8e7d3f0447cc05c1c3161e9204372f806168557",
+    "build_id": "fhXPekoseOA_c5UmA1zpT",
+    "build_directory": ".next-root-hero-gate8"
+  },
+  "machine_handoff": {
+    "manifest_validation": "PASS",
+    "two_round_preflight": "PASS",
+    "runtime_route_checks": "14/14 PASS",
+    "worktree_clean": true
+  },
+  "shared_pass_observations": {
+    "one_shared_component_for_seven_consumers": true,
+    "h1_tokens_at_1440_768_390": "56px/44px/36px; weight 700",
+    "horizontal_overflow": "0 on seven routes at 1440/768/390",
+    "minimum_hero_action_height": "48px at mobile; DOC 50px",
+    "home_keyboard_focus": "Hero actions reachable with visible 3px focus outline",
+    "market_destination_links": "10 crawlable links in approved order",
+    "document_selector": "14 grades plus unselected placeholder; visible Continue",
+    "resource_media_boundary": ">900px visible; <=900px hidden with zero reserved space",
+    "schema": "all seven page payloads parsed",
+    "global_chrome": "one visible primary navigation and one aria-current page mapping per route"
+  },
+  "required_findings": [
+    {
+      "id": "ROOT-HERO-G9-F01",
+      "severity": "P1",
+      "route": "/applications/",
+      "condition": "RH7-AC-APP-01; RH7-DEP-02",
+      "observation": "The Hero exposes only Explore Applications. The approved Request a Quote action to /request-a-quote/ is absent at 1440, 768 and 390.",
+      "source_cause": "malaysia-application-hub.tsx conditionally hides the action when rfqReady is false."
+    },
+    {
+      "id": "ROOT-HERO-G9-F02",
+      "severity": "P1",
+      "route": "/about/",
+      "condition": "RH7-AC-ABOUT-01; RH7-AC-CORE-10",
+      "observation": "All six About paragraphs render inside RootPageHero; the immediate Who We Are module contains only the seven fact rows. The approved boundary keeps only the first introduction in Hero and places five supporting paragraphs in Who We Are.",
+      "desktop_hero_height_px": 761.859375
+    },
+    {
+      "id": "ROOT-HERO-G9-F03",
+      "severity": "P1",
+      "routes": ["/products/", "/documents/", "/resources/", "/about/"],
+      "condition": "RH7-AC-CORE-03; RH7-AC-CORE-04",
+      "observation": "At configured 390px in the in-app browser, Documents renders four H1 lines where the default maximum is three and About renders five where its exception maximum is four. Product, Resources and About compute letter-spacing -1.26px (-0.035em) although their accepted mobile geometry requires normal/zero letter spacing. Product's user-approved four-line exception remains accepted; only its non-zero tracking is returned.",
+      "mobile_measurements": {
+        "products": {"lines": 4, "font_size": "36px", "font_weight": "700", "letter_spacing": "-1.26px"},
+        "documents": {"lines": 4, "font_size": "36px", "font_weight": "700", "letter_spacing": "-1.26px"},
+        "resources": {"lines": 4, "font_size": "36px", "font_weight": "700", "letter_spacing": "-1.26px"},
+        "about": {"lines": 5, "font_size": "36px", "font_weight": "700", "letter_spacing": "-1.26px"}
+      }
+    },
+    {
+      "id": "ROOT-HERO-G9-F04",
+      "severity": "P1",
+      "route": "/resources/",
+      "condition": "RH7-AC-RES-01; RH7-AC-CORE-10",
+      "observation": "Explore Procurement Resources targets #browse-resources; the approved exact target is #research-paths and no #research-paths element exists."
+    },
+    {
+      "id": "ROOT-HERO-G9-F05",
+      "severity": "P1",
+      "routes": ["/", "/products/", "/about/"],
+      "condition": "RH7-AC-CORE-11; RH7-AC-CORE-12",
+      "observation": "Root Hero public DOM exposes data-source-page=HOME-001, PRODUCT-000 and ABOUT-001. Product also exposes source_page_id=PRODUCT-000 in the buyer-facing RFQ URL instead of the approved clean /request-a-quote/ target. The current private-attribution boundary requires internal Page IDs to remain receiver-side."
+    }
+  ],
+  "non_finding_notes": [
+    "PRODUCT-000 four H1 lines at 390 are accepted by the user's current explicit decision when normal/zero letter spacing is preserved.",
+    "MARKET-000 visible CURRENT INFORMATION is approved editorial body copy; no forbidden current-status label appears in Global Chrome.",
+    "Physical-device and named assistive-technology evidence is not required for this workset under the user's explicit decision."
+  ],
+  "four_layer_result": {
+    "RECHECK_SCOPE_STATUS": "RETURN / 5_REQUIRED_FINDINGS_OPEN",
+    "PAGE_GATE9_STATUS": "NOT_PASS / GATE8_REPAIR_REQUIRED",
+    "INTEGRATION_STATUS": "NOT_READY",
+    "RELEASE_STATUS": "NOT_AUTHORIZED"
+  }
+}

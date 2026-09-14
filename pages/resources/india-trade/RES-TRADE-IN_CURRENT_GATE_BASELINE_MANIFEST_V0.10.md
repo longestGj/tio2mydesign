@@ -15,3 +15,7 @@
 | Gate 10 | `NOT_AUTHORIZED / NOT_EXECUTED` |
 
 定向复验：`../../../docs/architecture/GATE9_TRADE4_APPLICATION5_TARGETED_RECHECK_V1.0.md`。Gate 1–6与首轮未受影响的PASS项继续继承。
+
+## 2026-09-13 publication-contract overlay
+
+`../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes the India Trade URL, role, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal links. The 2026-08-03 DGTR record was checked 2026-09-13; its amounts remain recommendations unless later implementation evidence is captured.

@@ -18,3 +18,7 @@
 当前实现的正文、实际页面、三端视觉、九档响应、SEO/Schema、Request Documents预填和共享Chrome组装没有发现实现缺陷。`COO-G9-07`仍缺真实200% zoom、命名非Chromium/真实设备/屏幕阅读器证据；`COO-G9-15`缺pre-work/final原始status输出、pre-work dirty逐路径清单和可归于独立Gate9的GREEN/typecheck/lint/build复跑，因此Gate9不得关闭。
 
 唯一当前验收记录为`pages/documents/certificate-of-origin/07_qa/DOC-COO_GATE9_READ_ONLY_ACCEPTANCE_V0.1.md`。下一轮仅复验两项稳定Finding，不重开已通过条件。真实表单发送、生产WordPress写入、合并、部署、DNS、发布、sitemap和索引均未授权。
+
+## 2026-09-13 publication-contract overlay
+
+`../../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes DOC-COO's registered URL, origin-document guidance role, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. `EG-001` permits the Malaysia-origin product proposition; shipment-specific certificate/customs outcomes and any unextended availability claim remain outside this overlay.

@@ -152,3 +152,7 @@ The user's 2026-09-08 decision is recorded in `05_review/APP-000_GATE9_G9-10_USE
 The exception closes only APP-000's missing native browser 200% zoom, physical touch and named assistive-technology evidence. It does not claim those environments were tested and does not propagate to another page's accessibility conditions.
 
 The current four-layer status is: `REPAIR_SCOPE_STATUS=PASS / F01_R2_CLOSED_AND_F02_F04_STAY_CLOSED`; `PAGE_GATE9_STATUS=PASS_WITH_USER_APPROVED_G9-10_EVIDENCE_EXCEPTION`; `INTEGRATION_STATUS=NOT_READY / NINE_CONSUMER_ROUTES_AND_SULFATE_OPEN`; `RELEASE_STATUS=NOT_AUTHORIZED`. Overall Gate 9 remains open until the cross-page integration conditions are verified or separately decided by the user. The user expressly stated that the nine consumer pages must be handled rather than waived.
+
+## 2026-09-13 publication-contract overlay
+
+`docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes APP-000's public URL, keyword-neutral hub responsibility, reader task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. Historical integration Findings remain in force until Gate 8/9 evidence closes them; no implementation or release is inferred.

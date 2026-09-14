@@ -16,3 +16,7 @@
 | Gate 10 | `NOT_AUTHORIZED / NOT_EXECUTED` |
 
 定向复验：`../../../docs/architecture/GATE9_TRADE4_APPLICATION5_TARGETED_RECHECK_V1.0.md`。新HMRC目标、label及六来源集合已通过direct-CMS复验。
+
+## 2026-09-13 publication-contract overlay
+
+`../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes the UK Trade URL, role, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal links. AD0086 and the import-registration notice were checked 2026-09-13; registration must not be presented as a current duty rate.

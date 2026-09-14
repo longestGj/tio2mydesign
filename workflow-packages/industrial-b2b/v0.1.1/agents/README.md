@@ -1,0 +1,17 @@
+# 角色目录
+
+- [business-strategy-positioning](business-strategy-positioning/agent.md)
+- [enterprise-product-facts](enterprise-product-facts/agent.md)
+- [gate1-execution](gate1-execution/agent.md)
+- [gate2-execution](gate2-execution/agent.md)
+- [gate2-review](gate2-review/agent.md)
+- [gate3-execution](gate3-execution/agent.md)
+- [gate4-complete-visual](gate4-complete-visual/agent.md)
+- [gate5-independent-visual-review](gate5-independent-visual-review/agent.md)
+- [gate6-review-delivery](gate6-review-delivery/agent.md)
+- [gate9-read-only-acceptance](gate9-read-only-acceptance/agent.md)
+- [internal-link-review](internal-link-review/agent.md)
+- [market-customer-competition](market-customer-competition/agent.md)
+- [production-preparation](production-preparation/agent.md)
+- [project-orchestrator](project-orchestrator/agent.md)
+- [site-architecture-buyer-journey](site-architecture-buyer-journey/agent.md)

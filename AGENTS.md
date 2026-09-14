@@ -36,7 +36,7 @@ PRD、附件、Brief、研究和竞品默认是资料；只有经批准成为当
 
 ## 3. 责任、授权与交付底线
 
-总控编排（状态恢复、任务准入、派发、接收、协调及阶段关闭）使用[Project Orchestrator角色](agents/project-orchestrator/agent.md)及其三个引用合同；按[生效增补](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.6.md)解释治理细则§6.2与阶段交接。总控按各Gate承担必要判断，不默认重复有效独立审查；具体页面授权和批准方式保持。
+总控编排（状态恢复、任务准入、派发、接收、协调及阶段关闭）使用[Project Orchestrator角色](agents/project-orchestrator/agent.md)及其三个引用合同；按[生效增补](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.13.md)解释治理细则§6.2与阶段交接。总控按各Gate承担必要判断，不默认重复有效独立审查；具体页面授权和批准方式保持。
 
 - 用户保留事实、重大变更及未委托阶段的批准权；Gate 3/4/6由总控依常设授权在独立审查通过、必修关闭后直接关闭，无需用户逐页审核；总控独立审查与冲突协调；执行任务限于获授权 Page ID/Gate，自检并提交，不自行批准。Agent负责结果与判断，Skill提供可复用方法，项目文件保存事实/决定/进度；自检不是独立审查。
 - 事实权威顺序：最新用户决定 → 已批准具体 Brief → 当前批准 PRD及增补 → 页面关键词主表 → 批准 Playbook/专属规格 → 有效证据 → 研究 → 历史。冲突核对批准日期与范围，不以最高文件版本号自行裁决。Context/Index/Status不是新事实或新授权。

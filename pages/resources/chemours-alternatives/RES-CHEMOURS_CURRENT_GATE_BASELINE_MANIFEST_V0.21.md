@@ -13,3 +13,7 @@ Date: 2026-09-08. This version records the first independent read-only Gate 9 re
 | Review | [Gate 9 V1.0](../../../docs/architecture/GATE9_DE_IT_SU_R706_CHEMOURS_INITIAL_ACCEPTANCE_V1.0.md) |
 
 No Gate 10, merge, push, deployment, publication, DNS or indexing is authorized. Local HTTP 200 is not publication approval.
+
+## 2026-09-13 publication-contract overlay
+
+`../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes RES-CHEMOURS's registered URL, evidence-led qualification role, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. It does not authorize equivalence/replacement claims or infer production release.

@@ -1,0 +1,42 @@
+{
+  "schema_version": "d23-gate9-independent-browser-audit-v1.0",
+  "review_id": "TIO2-MY-PROD-GA4-F01-G9-RECHECK-01",
+  "browser": "Codex in-app browser",
+  "runtime": "http://127.0.0.1:3143",
+  "pages": [
+    {"page_id": "LEGAL-COOKIE-EN", "path": "/cookie-policy/", "widths": [390, 768, 1440], "status": "PASS"},
+    {"page_id": "LEGAL-PRIV-EN", "path": "/privacy-policy/", "widths": [390, 768, 1440], "status": "PASS"},
+    {"page_id": "LEGAL-PRIV-MS", "path": "/ms/privacy-policy/", "widths": [390, 768, 1440], "status": "PASS"}
+  ],
+  "page_checks": {
+    "http_200": "9_OF_9",
+    "active_wording": "PASS",
+    "inactive_wording_absent": "PASS",
+    "metadata_canonical_robots": "PASS",
+    "h1_jsonld": "PASS",
+    "privacy_hreflang": "PASS",
+    "horizontal_overflow": "NONE"
+  },
+  "cookie_inventory": {
+    "headers_exact": true,
+    "items": [
+      {"name": "tio2_my_consent_v1", "type": "Local Storage", "duration": "Until browser storage is cleared or the consent version is replaced", "category": "Necessary"},
+      {"name": "_ga", "type": "Cookie", "duration": "Up to 2 years", "category": "Analytics", "condition": "analytics_storage=granted"},
+      {"name": "_ga_QDHLMRH2WB", "type": "Cookie", "duration": "Up to 2 years", "category": "Analytics", "condition": "analytics_storage=granted"}
+    ]
+  },
+  "consent_flow": {
+    "first_open_actions": ["Accept analytics", "Necessary only", "Cookie Policy"],
+    "first_open_focus": "Accept analytics",
+    "saved_reopen_actions": ["Save preferences", "Accept analytics", "Necessary only", "Close"],
+    "saved_reopen_focus": "Save preferences",
+    "accept_state": {"checkbox": true, "status": "Analytics allowed"},
+    "withdraw_state": {"checkbox": false, "status": "Necessary only"},
+    "close_returns_focus_to_trigger": true
+  },
+  "console": {"warnings": 0, "errors": 0},
+  "external_form_submission": false,
+  "physical_device_or_assistive_technology_required": false,
+  "result": "PASS_FOR_EXACT_THREE_PAGE_CANDIDATE"
+}
+

@@ -1,0 +1,82 @@
+{
+  "review_id": "TIO2-MY-GA4-ACTIVE-G9-01",
+  "captured_at": "2026-09-13",
+  "browser": "Codex in-app browser",
+  "runtime": "http://127.0.0.1:3123",
+  "candidate": {
+    "implementation_commit": "30e026318006c141b725a1231f1942f555cd9a07",
+    "handoff_head": "2cf213c43bd0d2b6ad3e5cbfeb1d09b8053eaee2",
+    "build_id": "tio2-my-ga4-g8-30e02631-20260913"
+  },
+  "legal_surfaces_390": [
+    {
+      "path": "/privacy-policy/",
+      "title": "Privacy Policy | TiO2 Malaysia",
+      "lang": "en",
+      "last_updated": "13 September 2026",
+      "canonical": "https://tio2malaysia.com/privacy-policy/",
+      "hreflang": ["en", "ms-MY", "x-default"],
+      "robots": "index, follow",
+      "json_ld_valid": true,
+      "active_ga_gtm_copy": true,
+      "four_consent_states_named": true,
+      "no_pii_copy": true,
+      "placeholder_visible": false,
+      "horizontal_overflow": 0
+    },
+    {
+      "path": "/ms/privacy-policy/",
+      "title": "Dasar Privasi | TiO2 Malaysia",
+      "lang": "ms-MY",
+      "last_updated": "13 September 2026",
+      "canonical": "https://tio2malaysia.com/ms/privacy-policy/",
+      "hreflang": ["ms-MY", "en", "x-default"],
+      "robots": "index, follow",
+      "json_ld_valid": true,
+      "active_ga_gtm_copy": true,
+      "four_consent_states_named": true,
+      "no_pii_copy": true,
+      "placeholder_visible": false,
+      "horizontal_overflow": 0
+    },
+    {
+      "path": "/cookie-policy/",
+      "title": "Cookie Policy | TiO2 Malaysia",
+      "lang": "en",
+      "last_updated": "13 September 2026",
+      "canonical": "https://tio2malaysia.com/cookie-policy/",
+      "robots": "index, follow",
+      "json_ld_valid": true,
+      "semantic_inventory": ["tio2_my_consent_v1", "_ga", "_ga_QDHLMRH2WB"],
+      "active_ga_gtm_copy": true,
+      "four_consent_states_named": true,
+      "placeholder_visible": false,
+      "horizontal_overflow": 0
+    }
+  ],
+  "responsive": {
+    "768": {"three_routes_h1_count": 1, "three_routes_overflow": 0, "footer_cookie_settings_count_each": 1},
+    "1440": {"three_routes_h1_count": 1, "three_routes_overflow": 0, "footer_cookie_settings_count_each": 1}
+  },
+  "consent_interaction": {
+    "first_open_precondition": "no tio2_my_consent_v1 record",
+    "first_open_title": "Analytics preferences",
+    "first_open_body_matches_contract": true,
+    "first_open_checkbox": {"label": "Allow analytics", "checked": false},
+    "first_open_status": "Necessary only",
+    "first_open_observed_controls_in_order": ["Close", "Save preferences", "Accept analytics", "Necessary only", "Read Cookie Policy"],
+    "first_open_expected_actions": ["Accept analytics", "Necessary only", "Cookie Policy"],
+    "first_open_exact_action_set_matches": false,
+    "accept_then_reopen": {"checkbox_checked": true, "status": "Analytics allowed"},
+    "necessary_only_then_reopen": {"checkbox_checked": false, "status": "Necessary only"},
+    "withdrawal_returns_focus_to_opener": true,
+    "dialog_keyboard_containment": "supported by frozen Gate8 runtime evidence; no contradiction observed"
+  },
+  "finding": {
+    "id": "TIO2-MY-GA4-G9-F01",
+    "severity": "P1",
+    "acceptance_condition": "CONSENT.ACTIVE / LEGAL.COOKIE.ACTIVE",
+    "status": "OPEN",
+    "summary": "The no-choice first interaction renders the reopen control set and changes the approved Cookie Policy action label."
+  }
+}

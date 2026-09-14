@@ -9,7 +9,7 @@
 
 ## 1. 全站入口与规则
 
-总控编排当前入口：[角色V0.7](agents/project-orchestrator/agent.md)及[生效与身份V1.6](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.6.md)。用于状态恢复、准入、派发、接收、异常及关闭；按当前交接合同派发新Gate 5审查与Gate 6差异路径。
+总控编排当前入口：[角色V0.14](agents/project-orchestrator/agent.md)及[生效与身份V1.13](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.13.md)。用于状态恢复、准入、派发、接收、异常及关闭；按当前交接合同派发新Gate 5审查与Gate 6差异路径。
 
 | 要了解什么 | 当前入口 |
 |---|---|
@@ -24,6 +24,7 @@
 | Agent与Skill职责 | [分工标准V1.0](docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md) |
 | Gate 4完整视觉Agent与方法 | [当前基线Manifest V1.3](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.9.md)：一个[完整视觉执行Agent](agents/gate4-complete-visual/agent.md)，三项能力Skill及[共同工作合同](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.1.md)。4A为内部方向检查，4B冻结后进入唯一最终独立审查环节；旧Gate 4/5角色与成果保留历史。Belgium仍暂停，本次设计批准不恢复页面执行。 |
 | Gate 6策划总审与开发交付 | [当前基线V1.1](docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md)：Agent V0.7、两项Skill V0.3；有效上游继承、触发式扩大检查、单一自检、新包独立复核、总控维护Manifest。 |
+| 全站公开/SEO/GTM-GA4当前执行 | [生产GA4法律一致性当前Gate9 Manifest V1.1](docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_CURRENT_GATE9_MANIFEST_V1.1.md) / [本地develop集成V1.0](docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_LOCAL_DEVELOP_INTEGRATION_V1.0.md) / [Gate9定向复验V1.0](docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_GATE9_TARGETED_RECHECK_V1.0.md) / [Google上线后状态V1.0](docs/architecture/TIO2_MY_GOOGLE_POSTLAUNCH_READONLY_STATUS_20260914_V1.0.md) / [On-page与社交元数据验收V1.0](docs/architecture/TIO2_MY_PRODUCTION_ONPAGE_SOCIAL_METADATA_READONLY_VERIFICATION_20260914_V1.0.md) / [生产SEO深度验收V1.0](docs/architecture/TIO2_MY_PRODUCTION_SEO_DEEP_READONLY_VERIFICATION_20260914_V1.0.md) / [生产只读验收V1.0](docs/architecture/TIO2_MY_PRODUCTION_SEO_GA4_READONLY_VERIFICATION_20260914_V1.0.md) / [原GA4 Gate9 Manifest V1.2](docs/architecture/TIO2_MY_GA4_ACTIVE_CURRENT_GATE9_MANIFEST_V1.2.md) / [Gate6交付包V1.0](docs/architecture/TIO2_MY_FULL_PUBLIC_SEO_GA4_GATE6_DELIVERY_V1.0.md)：三页GA4法律文案返修已通过Gate9并按用户后续授权合并到本地develop `fe1b64d5…`；`LOCAL_DEVELOP_INTEGRATION=COMPLETE`。整站develop/CMS组合仍为43/57，`INTEGRATION_ACCEPTANCE=NOT_READY`；`TIO2-MY-PROD-GA4-F01=RESOLVED_IN_ACCEPTED_CANDIDATE / OPEN_IN_PRODUCTION`。须另行授权发布并完成生产复验后才能关闭生产Finding；Gate10、push、deploy和发布未授权。 |
 | Germany当前页面任务 | [当前Manifest V0.13](pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md)：Gate 9 `READ_ONLY_QA_IN_REVIEW / NOT_PASS`；RFQ/Sample与设备/生产证据开放。 |
 | Italy当前页面任务 | [当前Manifest V0.13](pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md)：Gate 9 `READ_ONLY_QA_IN_REVIEW / NOT_PASS`；RFQ/Sample、Documents接收及设备/生产证据开放。 |
 
@@ -88,6 +89,7 @@
 | 主CTA无障碍增补 | [CTA Addendum V1.0](brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md) |
 | Header / Menu / Footer | [Global Chrome V0.5](docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md)：固定RFQ、共享维护、无可见CURRENT |
 | 七个一级导航根页面Hero | [Root Page Hero V1.0](docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)：`USER_APPROVED / ACTIVE`；统一骨架、三个受控变体、无左侧装饰竖线；页面内容和媒体保持差异 |
+| 七页共享Hero当前Gate 9 | [当前Gate9 Manifest V1.2](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_CURRENT_GATE9_MANIFEST_V1.2.md) / [Return-02定向复验V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_GATE9_RETURN_02_TARGETED_RECHECK_V1.0.md) / [Return-01定向复验V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_GATE9_RETURN_01_TARGETED_RECHECK_V1.0.md) / [首轮验收V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_GATE9_INDEPENDENT_ACCEPTANCE_V1.0.md)：Return-02机器预检和内置浏览器复验PASS；F01–F05全部关闭，`PAGE_GATE9_STATUS=PASS / ROOT_HERO_SEVEN_WORKSET_ACCEPTED`，Integration可进入经授权的下一步，Gate10/发布未授权 |
 | Home / Applications Hero开放白底增补 | [Open-White Addendum V1.0](docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md)：两页取消完整首屏大外框；内容、CTA、媒体及其他页面不改 |
 | 七页Hero定向Gate 4控制 | [七页控制单V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_CONTROL_V1.0.md)：三批制作、一个共享母版任务、一次独立横向Gate 5审查；当前`PREPARED / NOT_DISPATCHED` |
 | 生产SVG | [Production Logo Manifest V1.0](brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md) |
@@ -188,4 +190,25 @@ Trade 4 + Application 5 Gate 9当前入口：[定向复验V1.0](docs/architectur
 
 Gate 1当前执行：[三路径合同V1.0](docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md)；Agent V0.2，搜索意图Skill V0.2，REUSE_CONFIRMATION / GAP_RESEARCH / FULL_RESEARCH。四类信息可引用映射、按缺口调用方法；旧四文件建设记录保留历史。本轮只改规则，未做页面回放。
 
-Gate 2内容适配已按G2-ADAPTATION-20260908修订：两个Agent V0.7、交付结构V0.6，保留两步/独立冷读/用户批准；三种制作方式不映射G1路径，不新增Skill。当前总控生效增补为[ V1.6 ](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.6.md)。
+Gate 2内容适配已按G2-ADAPTATION-20260908修订：两个Agent V0.7、交付结构V0.6，保留两步/独立冷读/用户批准；三种制作方式不映射G1路径，不新增Skill。当前总控生效增补为[ V1.13 ](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.13.md)。
+
+网站级准备已接入总控V0.14：[共同合同](docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md) / [最小模板](docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md)。五工作包不新增Gate；W1–W5 Agent已建立，均未实战试跑，准备就绪与页面授权分开。
+
+企业与产品事实基础：[Agent V0.1](agents/enterprise-product-facts/agent.md)。W1六部分、先读资料再集中补问；不制定战略，不新增Skill，未实战试跑。
+
+市场、客户与竞争分析：[Agent V0.1](agents/market-customer-competition/agent.md)。W2六部分、四类信息和有界研究，为W3提供依据；不批准战略，不新增Skill，未实战试跑。
+
+商业战略与网站定位：[Agent V0.1](agents/business-strategy-positioning/agent.md)。W3六部分、战略选择与网站职责分离，用户决定后交W4；不强造方案、不新增Skill，未实战试跑。
+
+网站架构与采购旅程：[Agent V0.1](agents/site-architecture-buyer-journey/agent.md)。W4七部分、内链与异常旅程、架构批准边界；不新增Skill，未实战试跑。
+
+生产准备与批次安排：[Agent V0.2](agents/production-preparation/agent.md)。W5六部分、三类交付、当前批准入与增量接口；只形成计划，不派发或关闭Gate，未实战试跑。
+
+
+可复用项目当前目录投影：[0.2.1工具](workflow-tooling/v0.2.1/README.md)，统一W1–W5成果入口；[目录同步记录](docs/architecture/workflow-reuse/W1_W5_STORAGE_ALIGNMENT_V1.0.md)。D10已应用，D23既有业务成果/原角色历史基线不迁移。
+
+
+独立模板库角色：[设计V0.1](docs/architecture/PAGE_TEMPLATE_LIBRARY_AGENT_DESIGN_V0.1.md) / [Agent](agents/page-template-library/agent.md) / [入库合同](agents/page-template-library/references/catalog-contract.md)。独立于W1–W5和Gate；尚未盘点、注册或加入通用发行。
+
+
+模板库D16位置与首轮执行入口：[建库和候选盘点任务书](docs/architecture/TEMPLATE_LIBRARY_D16_INVENTORY_BRIEF_V0.1.md)。已准备、未派发；不改变W1–W5/Gate与页面授权。

@@ -100,3 +100,7 @@ Allowed current state:
 `Gate 10 = NOT_AUTHORIZED`
 
 Do not modify D16, deploy, publish, change DNS, write production data, migrate, add the route to a sitemap or enable indexing under this decision.
+
+## 2026-09-13 publication-contract overlay
+
+`../../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes CONV-SAMPLE's URL, qualified sample-request role, buyer task, submit CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. Existing field/provider/privacy and fulfillment boundaries remain; actual Sitemap/indexing activation still requires the later release step.

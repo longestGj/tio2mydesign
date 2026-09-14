@@ -1,0 +1,336 @@
+{
+  "captured_at": "2026-09-13T04:26:41.367601+00:00",
+  "identity": {
+    "branch": "codex/tio2-my-full-public-seo-ga4",
+    "head": "2cf213c43bd0d2b6ad3e5cbfeb1d09b8053eaee2",
+    "clean": true,
+    "baseline_to_implementation": true,
+    "implementation_to_test_alignment": true,
+    "test_alignment_to_evidence": true,
+    "evidence_to_handoff": true
+  },
+  "manifest": {
+    "declared_evidence_head": "c55eb8f8dec38f9d96a817228cf7d66bfac9afeb",
+    "handoff_head": "2cf213c43bd0d2b6ad3e5cbfeb1d09b8053eaee2",
+    "validator_status": "EVIDENCE_INCOMPLETE",
+    "validator_failed_checks": [
+      "git_head",
+      "receipt_committed"
+    ],
+    "known_self_reference_limitation": true,
+    "evidence_count": 16,
+    "all_exist": true,
+    "all_hash_match": true,
+    "all_tracked_in_evidence_commit": true,
+    "receipt_reference_parity": true,
+    "receipt_committed_in_handoff": true,
+    "manifest_committed_in_handoff": true,
+    "evidence": [
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/build-identity.txt",
+        "exists": true,
+        "declared_sha256": "6f293c6c79f0232681052c9dd50f2fc048ff9c804165e8685a1d70aa3c7515fa",
+        "actual_sha256": "6f293c6c79f0232681052c9dd50f2fc048ff9c804165e8685a1d70aa3c7515fa",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/runtime-audit.json",
+        "exists": true,
+        "declared_sha256": "bd851ec50c950987d1fdc5344a69adeacb85ee2666a4ceb54e0ea1a75bed63c1",
+        "actual_sha256": "bd851ec50c950987d1fdc5344a69adeacb85ee2666a4ceb54e0ea1a75bed63c1",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/summary.json",
+        "exists": true,
+        "declared_sha256": "59c2953292cb8e36fc58e9d646fed687149e907893ec1f77f01cd723c377d8c8",
+        "actual_sha256": "59c2953292cb8e36fc58e9d646fed687149e907893ec1f77f01cd723c377d8c8",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/targeted-vitest.txt",
+        "exists": true,
+        "declared_sha256": "b24a7a9cef49f2fd9c405e339a6205970c32af61134c4d38a437f8777f9611ab",
+        "actual_sha256": "b24a7a9cef49f2fd9c405e339a6205970c32af61134c4d38a437f8777f9611ab",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/ga4-active-playwright.txt",
+        "exists": true,
+        "declared_sha256": "54526fcbfafad01cb6446f8c7266b38293f105dc514c6852b3f8e34cc7e7dd1d",
+        "actual_sha256": "54526fcbfafad01cb6446f8c7266b38293f105dc514c6852b3f8e34cc7e7dd1d",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/legal-playwright.txt",
+        "exists": true,
+        "declared_sha256": "bd61ddb95a9f4b168bdf03af7c8df60ab034f31c34778ddffb4e8e551f54455b",
+        "actual_sha256": "bd61ddb95a9f4b168bdf03af7c8df60ab034f31c34778ddffb4e8e551f54455b",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/typecheck.txt",
+        "exists": true,
+        "declared_sha256": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "actual_sha256": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/eslint.txt",
+        "exists": true,
+        "declared_sha256": "892852c3771d9857e928f4f0c2c7598c7677fae88b8ad8a46674e3b6ddbca5a4",
+        "actual_sha256": "892852c3771d9857e928f4f0c2c7598c7677fae88b8ad8a46674e3b6ddbca5a4",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-observation.md",
+        "exists": true,
+        "declared_sha256": "29dd933540683c7078f5c70fafb6beb4b7c8e48f38cd79e6bfe082b3d9e2d116",
+        "actual_sha256": "29dd933540683c7078f5c70fafb6beb4b7c8e48f38cd79e6bfe082b3d9e2d116",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-runtime-evidence.json",
+        "exists": true,
+        "declared_sha256": "cfcdccab1b5fdda50a5e60b69eda4ada061c7c63ad56ef8c499e5d926a4033e0",
+        "actual_sha256": "cfcdccab1b5fdda50a5e60b69eda4ada061c7c63ad56ef8c499e5d926a4033e0",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-initial-denied-consent.png",
+        "exists": true,
+        "declared_sha256": "897b6e5ff4277070b3ecd598950684c343e832ba93aa6e76c788279bfa641f0a",
+        "actual_sha256": "897b6e5ff4277070b3ecd598950684c343e832ba93aa6e76c788279bfa641f0a",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-accepted-consent.png",
+        "exists": true,
+        "declared_sha256": "af67304acb60887c7106326419c67ffc39efebeb278ff36728c0b86b4a0eb58b",
+        "actual_sha256": "af67304acb60887c7106326419c67ffc39efebeb278ff36728c0b86b4a0eb58b",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-google-tag-page-view.png",
+        "exists": true,
+        "declared_sha256": "5e6b160e61e9226b6be2a65a7490bd694f667b2d2ac96b19c80976614c6d79cc",
+        "actual_sha256": "5e6b160e61e9226b6be2a65a7490bd694f667b2d2ac96b19c80976614c6d79cc",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-rfq-event-fired.png",
+        "exists": true,
+        "declared_sha256": "9887efc14946bcbc4e71230050a6facdc918863fcc4deea6597cfafacf93e735",
+        "actual_sha256": "9887efc14946bcbc4e71230050a6facdc918863fcc4deea6597cfafacf93e735",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-documents-event-fired.png",
+        "exists": true,
+        "declared_sha256": "9ab44f55ab44076d0dca59ef052e017f11a5d8b4aaaea875bc2681bbdaefb95c",
+        "actual_sha256": "9ab44f55ab44076d0dca59ef052e017f11a5d8b4aaaea875bc2681bbdaefb95c",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      },
+      {
+        "path": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-sample-event-fired.png",
+        "exists": true,
+        "declared_sha256": "f21c0d64508433a047063ddad56b72c4c634c86ffc21c20728b4b21aa7b0e912",
+        "actual_sha256": "f21c0d64508433a047063ddad56b72c4c634c86ffc21c20728b4b21aa7b0e912",
+        "hash_match": true,
+        "tracked_in_evidence_commit": true
+      }
+    ]
+  },
+  "build": {
+    "directory": ".next-tio2-my-ga4-g8-30e02631",
+    "directory_exists": true,
+    "build_id_file": "D:\\16Wordpress_nextjs\\.worktrees\\tio2-my-full-public-seo-ga4\\.next-tio2-my-ga4-g8-30e02631\\BUILD_ID",
+    "build_id": "tio2-my-ga4-g8-30e02631-20260913",
+    "matches_manifest": true
+  },
+  "runtime": {
+    "rows": [
+      {
+        "path": "/request-a-quote/",
+        "status": 200,
+        "bytes": 38127,
+        "markers": [
+          {
+            "marker": "Request a Titanium Dioxide Quote",
+            "present": true
+          },
+          {
+            "marker": "GTM-MWQVK7J4",
+            "present": true
+          }
+        ],
+        "build_marker": true
+      },
+      {
+        "path": "/privacy-policy/",
+        "status": 200,
+        "bytes": 68356,
+        "markers": [
+          {
+            "marker": "Privacy Policy",
+            "present": true
+          },
+          {
+            "marker": "G-QDHLMRH2WB",
+            "present": true
+          }
+        ],
+        "build_marker": true
+      },
+      {
+        "path": "/ms/privacy-policy/",
+        "status": 200,
+        "bytes": 73355,
+        "markers": [
+          {
+            "marker": "Dasar Privasi",
+            "present": true
+          },
+          {
+            "marker": "G-QDHLMRH2WB",
+            "present": true
+          }
+        ],
+        "build_marker": true
+      },
+      {
+        "path": "/cookie-policy/",
+        "status": 200,
+        "bytes": 47360,
+        "markers": [
+          {
+            "marker": "Cookie Policy",
+            "present": true
+          },
+          {
+            "marker": "_ga_QDHLMRH2WB",
+            "present": true
+          }
+        ],
+        "build_marker": true
+      }
+    ],
+    "all_http_200": true,
+    "all_required_markers": true,
+    "all_build_marker": true,
+    "cms_graphql_status": 200
+  },
+  "gtm_only": {
+    "script_order": [
+      {
+        "dom_script_index": 8,
+        "id": "tio2-my-gtm-bootstrap",
+        "src": null
+      },
+      {
+        "dom_script_index": 9,
+        "id": "tio2-my-gtm-loader",
+        "src": "https://www.googletagmanager.com/gtm.js?id=GTM-MWQVK7J4"
+      },
+      {
+        "dom_script_index": 14,
+        "id": "tio2-my-gtm-bootstrap",
+        "src": null
+      },
+      {
+        "dom_script_index": 14,
+        "id": "tio2-my-gtm-loader",
+        "src": "https://www.googletagmanager.com/gtm.js?id=GTM-MWQVK7J4"
+      }
+    ],
+    "bootstrap_script_index": 8,
+    "loader_script_index": 9,
+    "default_precedes_loader": true,
+    "four_denied_default_in_bootstrap": true,
+    "gtm_loader_present": true,
+    "direct_gtag_loader_absent": true,
+    "direct_google_analytics_script_absent": true,
+    "container": "GTM-MWQVK7J4",
+    "measurement": "G-QDHLMRH2WB"
+  },
+  "tag_assistant_evidence": {
+    "container_observed": true,
+    "container_version": "Preview",
+    "initial_denied_page_view_count": 1,
+    "accepted_reload_page_view_count": 1,
+    "withdrawn_page_view_count": 1,
+    "event_audit": [
+      {
+        "event": "rfq_provider_accepted",
+        "hit_count": 1,
+        "event_parameter_keys": [
+          "ep.form_type",
+          "ep.page_id",
+          "ep.site_scope",
+          "ep.source"
+        ],
+        "approved_only": true
+      },
+      {
+        "event": "documents_provider_accepted",
+        "hit_count": 1,
+        "event_parameter_keys": [
+          "ep.form_type",
+          "ep.page_id",
+          "ep.site_scope",
+          "ep.source"
+        ],
+        "approved_only": true
+      },
+      {
+        "event": "sample_provider_accepted",
+        "hit_count": 1,
+        "event_parameter_keys": [
+          "ep.form_type",
+          "ep.page_id",
+          "ep.site_scope",
+          "ep.source"
+        ],
+        "approved_only": true
+      }
+    ],
+    "cross_scope_measurement_ids": [],
+    "accepted_cookies": [
+      {
+        "name": "_ga",
+        "domain": "127.0.0.1",
+        "path": "/",
+        "expires": 1823832260.547782,
+        "durationDays": 400,
+        "sameSite": "Lax",
+        "secure": false
+      },
+      {
+        "name": "_ga_QDHLMRH2WB",
+        "domain": "127.0.0.1",
+        "path": "/",
+        "expires": 1823832260.552666,
+        "durationDays": 400,
+        "sameSite": "Lax",
+        "secure": false
+      }
+    ],
+    "withdrawn_cookies": [],
+    "pii_hits": []
+  }
+}

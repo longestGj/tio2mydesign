@@ -15,3 +15,7 @@
 | Gate 10 | `NOT_AUTHORIZED / NOT_EXECUTED` |
 
 定向复验：`../../../docs/architecture/GATE9_TRADE4_APPLICATION5_TARGETED_RECHECK_V1.0.md`。Brazil EN/PT批准目标、Page ID、语言、Canonical及Back路径已通过。
+
+## 2026-09-13 publication-contract overlay
+
+`../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes the Brazil Trade URL, role, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal links. The current MDIC/CAMEX measure, entity bands, Siegwerk correction and open public-interest record were checked 2026-09-13; narrow exclusions must not be generalized.

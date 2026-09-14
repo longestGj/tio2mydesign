@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:industrial-b2b-workflow:site-config-v1",
+  "title": "Workflow bootstrap config",
+  "type": "object",
+  "required": [
+    "format_version",
+    "site_id",
+    "project_root",
+    "package_version",
+    "profile",
+    "bindings"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "site_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "site_scope": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "development_root": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "development_rules": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "runtime": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "industry": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "format_version": {
+      "const": 1
+    },
+    "site_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "project_root": {
+      "type": "string",
+      "minLength": 1
+    },
+    "package_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profile": {
+      "const": "wordpress-nextjs"
+    },
+    "bindings": {
+      "type": "object",
+      "required": [
+        "rules",
+        "status",
+        "index"
+      ],
+      "properties": {
+        "rules": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "index": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "integration": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "$comment": "Runtime also enforces existing roots, safe relative bindings, package hashes and existing-rule integration. Stage readiness is not an installation result."
+}

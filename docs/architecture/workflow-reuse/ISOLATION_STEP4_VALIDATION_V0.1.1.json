@@ -1,0 +1,31 @@
+{
+  "status": "STEP4_PASS",
+  "package_version": "0.1.1",
+  "tooling_version": "0.1.1",
+  "tests": {
+    "count": 26,
+    "failures": 0,
+    "skipped": 0,
+    "seconds": 29.3,
+    "command": "PYTHONDONTWRITEBYTECODE=1; python -B -m unittest discover -s workflow-tooling/v0.1.1/tests -v"
+  },
+  "release_cli_without_candidate_override": "PASS",
+  "markdown_file_links": 225,
+  "payload_count": 63,
+  "payload_changes_from_candidate": [
+    "README.md",
+    "contracts/instance-bindings.md"
+  ],
+  "original_candidate_payload_unchanged": true,
+  "package_manifest_sha256": "5e9afb46e8e0044e6727d54030862c7acac78780737bd98c0c5c3ef2d556f7a0",
+  "tooling_manifest_sha256": "0a442942ffef5b5ea7756831aba6ece07697928258cafe23db56e457e8cc2c25",
+  "method_review_inherited": "MASTER_EXTRACTION_VALIDATION_V0.1.0.json; role and skill methods unchanged",
+  "D10_installed": false,
+  "D10_plan": "BLOCKED: 2 MERGE_REQUIRED",
+  "limitations": [
+    "Windows only",
+    "no system crash or hostile race simulation",
+    "no real CMS or production verification",
+    "no exhaustive Markdown anchor semantic validation"
+  ]
+}

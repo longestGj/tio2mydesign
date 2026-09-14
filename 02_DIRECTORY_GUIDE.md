@@ -249,3 +249,11 @@ pages/{page-family}/ 内容架构、线框、视觉方向与完整视觉稿
 - Gate 2 Review角色：`agents/gate2-review/agent.md`，由Spain真实实践归纳；必须由不同于执行者的子代理读取，负责买家视角预审及返修复核，不取得总控/用户批准权。
 - 与 `skills/` 方法目录分开；页面研究和事实仍放在对应 `pages/` 等正式资料目录，不写死进角色文件。
 - 本次仅创建项目角色文件，不进行运行注册或启动；任务需明确读取。根 `AGENTS.md` 不替换，既有 `research/keyword/agent.md` 与历史设计不移动、不覆盖。
+
+
+## 独立模板库角色设计（2026-09-12）
+
+职责放agents/page-template-library/agent.md，档案与入库合同放该角色references/；设计决定放docs/architecture/PAGE_TEMPLATE_LIBRARY_AGENT_DESIGN_V0.1.md。实际模板库使用另行指定的library_root，目录由合同定义，不放Website_Preparation或页面Gate目录；当前仅建角色规范，未建立含业务模板的实际库。
+
+
+模板库位置已由用户指定到`D:/16Wordpress_nextjs/template-library`；D23保存角色和任务书，D16任务保存实际库。当前[首轮任务书](docs/architecture/TEMPLATE_LIBRARY_D16_INVENTORY_BRIEF_V0.1.md)已准备，未执行建库。

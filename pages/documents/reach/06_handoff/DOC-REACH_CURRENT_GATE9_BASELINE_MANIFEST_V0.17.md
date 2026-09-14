@@ -51,3 +51,6 @@
 - V0.16 is `HISTORICAL / SUPERSEDED_BY_V0.17` and remains preserved.
 - Earlier Gate 1–8 Manifests remain historical evidence and cannot override this Gate 9 state.
 
+## 2026-09-13 publication-contract overlay
+
+`../../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes DOC-REACH's registered URL, page role, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. Factual statements remain limited to the approved REACH verification guidance; this overlay does not assert company registration/coverage or waive runtime/release evidence.

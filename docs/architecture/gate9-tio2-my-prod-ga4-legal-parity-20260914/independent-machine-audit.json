@@ -1,0 +1,69 @@
+{
+  "schema_version": "d23-gate9-independent-machine-audit-v1.0",
+  "review_id": "TIO2-MY-PROD-GA4-F01-G9-RECHECK-01",
+  "date": "2026-09-14",
+  "candidate": {
+    "repository": "D:/16Wordpress_nextjs/.worktrees/tio2-my-prod-ga4-legal-parity",
+    "branch": "codex/tio2-my-prod-ga4-legal-parity",
+    "baseline": "1ab1a9a02958394135b655d912463dd12d69e1cf",
+    "implementation": "24065cdeffef6a887b290f542be74d78be595b71",
+    "evidence_only": "f0c3bc9891822d1beb4d21d77211c3fd297e6ec2",
+    "receipt": "1ae56f2e93f098c66be61f02693c2fb380410827",
+    "handoff": "409053e008ccc767b01615bad73e6e38902b68b7",
+    "build_id": "aoZsmmoI852RtB8oVR-vb",
+    "worktree_clean": true,
+    "ancestry_chain_pass": true
+  },
+  "authority_sha256": {
+    "production_finding": "7f1174d43176bd9f4ee5a221eeece1bbdf31f2cf4d109777d42b1898a56f9f2d",
+    "production_57_page_seo_review": "e82157d37b30f264d059153bc383a965f2735a5c2b175286e478dcf2eca977cb",
+    "production_onpage_social_review": "7aa649b05ef9e89ac5aac29192a4f8e1ddd1f38b9423f20bb1cc6299f39faaa9"
+  },
+  "handoff_files": {
+    "manifest_sha256_match": true,
+    "receipt_sha256_match": true,
+    "package_file_sha256_match": true,
+    "evidence_files": 14,
+    "evidence_exist": 14,
+    "evidence_sha256_match": 14,
+    "evidence_tracked": 14,
+    "receipt_reference_parity": true,
+    "content_sha256": "13ac8f9984d8a4cadb8c4e34f0cc07c2d7519d88ee3effd0583d23afeeb5a3a8",
+    "content_sha256_recalculated_match": true,
+    "package_record_count": 3,
+    "package_record_ids": ["LEGAL-COOKIE-EN", "LEGAL-PRIV-EN", "LEGAL-PRIV-MS"]
+  },
+  "validator": {
+    "status": "EVIDENCE_INCOMPLETE",
+    "pass": 102,
+    "fail": 1,
+    "failed_check": "git_head",
+    "expected": "1ae56f2e93f098c66be61f02693c2fb380410827",
+    "actual": "409053e008ccc767b01615bad73e6e38902b68b7",
+    "independent_supplement": "PASS_FOR_CHAIN_HASH_AND_TRACKING",
+    "preflight_relabelled": false
+  },
+  "fresh_tests": [
+    {"command": "python -m pytest -q tests/production/test_build_tio2_my_ga4_legal_package.py tests/production/test_content_approval_binding.py", "result": "PASS", "tests": 28},
+    {"command": "npx playwright test tests/e2e/tio2-my-ga4-active.spec.ts --project=chromium", "result": "PASS", "tests": 2},
+    {"command": "npx playwright test tests/e2e/legal-privacy.spec.ts --project=chromium --grep-invert LEGAL-PRIV-MS", "result": "PASS", "tests": 11},
+    {"command": "npx vitest run tests/unit/analytics/malaysia-ga4.test.tsx tests/unit/legal tests/unit/thank-you/source-success-events.test.ts tests/unit/rfq/malaysia-rfq-analytics.test.ts", "result": "PASS", "files": 7, "tests": 84}
+  ],
+  "broader_diagnostic": {
+    "result": "FAIL_OUTSIDE_PACKAGE",
+    "files_passed": 7,
+    "files_failed": 1,
+    "tests_passed": 41,
+    "tests_failed": 3,
+    "failed_file": "tests/unit/wordpress-content-release-seo.test.ts",
+    "classification": "CONVERSION_SEO_COMBINATION_GAP_OUTSIDE_THREE_LEGAL_PAGE_PACKAGE"
+  },
+  "status": {
+    "recheck_scope": "PASS",
+    "page_gate9": "PASS_FOR_EXACT_THREE_PAGE_CANDIDATE",
+    "integration": "NOT_READY_43_OF_57",
+    "release": "NOT_AUTHORIZED",
+    "production_finding": "OPEN_IN_PRODUCTION"
+  }
+}
+

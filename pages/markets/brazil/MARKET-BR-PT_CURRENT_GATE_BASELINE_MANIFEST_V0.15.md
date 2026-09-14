@@ -15,3 +15,7 @@
 | Gate 10 | `NOT_AUTHORIZED` |
 
 Gate9已独立关闭RFQ buyer-edit history Finding。Application/Brazil Trade route Finding及原无障碍、设备、接收和隔离未验证范围继续开放。`PROVISIONAL_ROUTE`不升级。当前验收记录为`docs/architecture/GATE9_BR_CL_COO_FOUR_PAGE_TARGETED_RECHECK_V1.1.md`。
+
+## 2026-09-13 publication-contract overlay
+
+The 2026-09-13 user decision and `docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalize `/pt-br/markets/brazil/`, its PT-BR responsibility, buyer task, CTA, SEO fields, self-canonical, reciprocal `en`/`pt-BR` hreflang target, `index, follow`, Sitemap target and internal-link sources. This supersedes `PROVISIONAL_ROUTE` only in the publication-target dimension. It does not prove D16 implementation, live alternates, resolved Gate 9 Findings or Gate 10 release.

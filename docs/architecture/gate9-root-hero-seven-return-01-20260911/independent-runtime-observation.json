@@ -1,0 +1,72 @@
+{
+  "review_id": "ROOT-HERO-G9-RETURN-01-TARGETED-RECHECK-01",
+  "observed_at": "2026-09-11",
+  "browser": "Codex in-app browser",
+  "candidate": {
+    "implementation_commit": "5e4cf270a46e059345bfe2e07fde1a1402335efb",
+    "evidence_head": "a7d31671ba60fe8797455aba5b6ea99538e73fd9",
+    "build_id": "5HyOyxr4edPSEh1KtWPhH",
+    "runtime": "http://127.0.0.1:32000/"
+  },
+  "preflight": {
+    "manifest_validation": "PASS",
+    "two_round_preflight": "PASS",
+    "runtime_requests": "14/14 PASS",
+    "git_clean": true
+  },
+  "finding_results": {
+    "ROOT-HERO-G9-F01": {
+      "status": "CLOSED",
+      "evidence": "Applications exposes Explore Applications and clean /request-a-quote/ at 1440/768/390; both are keyboard reachable with visible focus and 49px height at 390."
+    },
+    "ROOT-HERO-G9-F02": {
+      "status": "CLOSED",
+      "evidence": "About Hero contains one approved introductory paragraph. The immediate Who We Are module contains the other five approved paragraphs followed by seven fact rows."
+    },
+    "ROOT-HERO-G9-F03": {
+      "status": "OPEN",
+      "evidence": "Line counts are 4/3/4/4 for Product/Documents/Resources/About at configured 390px, but Documents and About use data-hero-mobile-heading-fit=wide with 12px inline padding instead of the approved shared 24px. Resources remains content-box: its Hero rect is x=8, right=377, width=369 while document clientWidth=375, producing a -2px right safe edge hidden by clipping. The line result therefore relies on unapproved geometry and does not close RH7-AC-CORE-02/04/07."
+    },
+    "ROOT-HERO-G9-F04": {
+      "status": "CLOSED",
+      "evidence": "Resources Hero action targets #research-paths and exactly one #research-paths target exists."
+    },
+    "ROOT-HERO-G9-F05": {
+      "status": "CLOSED",
+      "evidence": "Home/Product/About Hero URLs are clean. Browser DOM and inline-script scans return zero affected Page IDs, source_page_id and data-source-page. Independent raw HTML scans return zero, and local private-context POSTs for Home/Applications/Product/About return 204 with HttpOnly SameSite=Strict opaque cookies containing no Page ID."
+    }
+  },
+  "mobile_390": {
+    "configured_inner_width": 390,
+    "document_client_width": 375,
+    "h1": {
+      "home": {"lines": 3, "font_size": "36px", "font_weight": "700"},
+      "market": {"lines": 3, "font_size": "36px", "font_weight": "700"},
+      "product": {"lines": 4, "font_size": "36px", "font_weight": "700", "letter_spacing": "normal"},
+      "applications": {"lines": 3, "font_size": "36px", "font_weight": "700"},
+      "documents": {"lines": 3, "font_size": "36px", "font_weight": "700"},
+      "resources": {"lines": 4, "font_size": "36px", "font_weight": "700", "letter_spacing": "normal"},
+      "about": {"lines": 4, "font_size": "36px", "font_weight": "700", "letter_spacing": "normal"}
+    },
+    "shell_geometry": {
+      "documents": {"fit": "wide", "padding_inline_px": 12, "hero_x": 18, "hero_right": 357, "safe_right": 18},
+      "resources": {"fit": "default", "box_sizing": "content-box", "padding_inline_px": 24, "hero_x": 8, "hero_right": 377, "safe_right": -2},
+      "about": {"fit": "wide", "padding_inline_px": 12, "hero_x": 18, "hero_right": 357, "safe_right": 18}
+    },
+    "horizontal_scroll_metrics": "document scrollWidth equals clientWidth because overflow is clipped; the Resources element rect independently proves right-edge overrun."
+  },
+  "regression": {
+    "desktop_1440": "seven routes retain 56px/700 H1, zero document overflow, one active primary nav mapping, no Hero left pseudo rule, actions >=48px",
+    "tablet_768": "seven routes retain 44px/700 H1, zero document overflow, one active primary nav mapping, no Hero left pseudo rule, actions >=48px",
+    "market": "approved #destination-market action and 10 destination links remain",
+    "documents": "15 options including empty placeholder; selectedIndex=0; visible Continue; clean /request-documents/ Hero action",
+    "resources_media": "configured 901px visible; configured 900px display none with zero dimensions",
+    "metadata": "seven routes each have one H1, parseable JSON-LD, approved canonical and noindex,nofollow prerelease robots"
+  },
+  "four_layer_result": {
+    "RECHECK_SCOPE_STATUS": "RETURN / F01_F02_F04_F05_CLOSED / F03_OPEN",
+    "PAGE_GATE9_STATUS": "NOT_PASS / GATE8_RETURN_02_REQUIRED",
+    "INTEGRATION_STATUS": "NOT_READY",
+    "RELEASE_STATUS": "NOT_AUTHORIZED"
+  }
+}

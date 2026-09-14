@@ -93,3 +93,6 @@ The unique SHA-256 of this finalized Manifest is calculated after file creation 
 |---|---|---|---|
 | V0.1 | 2026-09-01 | Registered sealed Gate 7 payload, approved visual evidence, current H0 and shared authorities | `SUBMITTED_FOR_PROJECT_CONTROL_REVIEW / NOT_APPROVED`; Gate 8 locked |
 
+## 2026-09-13 publication-contract overlay
+
+`../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes RES-000's public URL, keyword-neutral resource-hub responsibility, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. This publication overlay does not rewrite the sealed historical payload or prove implementation/release.

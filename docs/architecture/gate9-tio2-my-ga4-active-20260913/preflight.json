@@ -1,0 +1,987 @@
+{
+  "status": "EVIDENCE_INCOMPLETE",
+  "evidence_validation": {
+    "status": "EVIDENCE_INCOMPLETE",
+    "manifest": "D:\\16Wordpress_nextjs\\.worktrees\\tio2-my-full-public-seo-ga4\\docs\\verification\\tio2-my-ga4-active-gate8-20260913\\gate8_evidence_manifest.json",
+    "handoff_id": "G8-G9-TIO2-MY-GA4-ACTIVE-20260913-01",
+    "checks": [
+      {
+        "id": "manifest_required_fields",
+        "result": "PASS",
+        "detail": {
+          "missing": []
+        }
+      },
+      {
+        "id": "schema_version",
+        "result": "PASS",
+        "detail": "gate8-evidence-manifest-v1.0"
+      },
+      {
+        "id": "identity_fields",
+        "result": "PASS",
+        "detail": null
+      },
+      {
+        "id": "page_scope",
+        "result": "PASS",
+        "detail": [
+          {
+            "page_id": "HOME-001",
+            "acceptance_condition_ids": [
+              "GA4.ACTIVE.CONTAINER",
+              "GA4.ACTIVE.PAGE_VIEW"
+            ],
+            "runtime_path": "/"
+          },
+          {
+            "page_id": "CONV-RFQ",
+            "acceptance_condition_ids": [
+              "GA4.EVENT.RFQ_PROVIDER_ACCEPTED",
+              "GA4.NO_PII"
+            ],
+            "runtime_path": "/request-a-quote/"
+          },
+          {
+            "page_id": "CONV-DOC",
+            "acceptance_condition_ids": [
+              "GA4.EVENT.DOCUMENTS_PROVIDER_ACCEPTED",
+              "GA4.NO_PII"
+            ],
+            "runtime_path": "/request-documents/"
+          },
+          {
+            "page_id": "CONV-SAMPLE",
+            "acceptance_condition_ids": [
+              "GA4.EVENT.SAMPLE_PROVIDER_ACCEPTED",
+              "GA4.NO_PII"
+            ],
+            "runtime_path": "/request-sample/"
+          },
+          {
+            "page_id": "LEGAL-PRIV-EN",
+            "acceptance_condition_ids": [
+              "LEGAL.ACTIVE.EN",
+              "CONSENT.ACTIVE"
+            ],
+            "runtime_path": "/privacy-policy/"
+          },
+          {
+            "page_id": "LEGAL-PRIV-MS",
+            "acceptance_condition_ids": [
+              "LEGAL.ACTIVE.MS",
+              "CONSENT.ACTIVE"
+            ],
+            "runtime_path": "/ms/privacy-policy/"
+          },
+          {
+            "page_id": "LEGAL-COOKIE-EN",
+            "acceptance_condition_ids": [
+              "LEGAL.COOKIE.ACTIVE",
+              "CONSENT.ACCEPT_WITHDRAW"
+            ],
+            "runtime_path": "/cookie-policy/"
+          }
+        ]
+      },
+      {
+        "id": "repository_exists",
+        "result": "PASS",
+        "detail": "D:\\16Wordpress_nextjs\\.worktrees\\tio2-my-full-public-seo-ga4"
+      },
+      {
+        "id": "git_fields",
+        "result": "PASS",
+        "detail": [
+          "branch",
+          "baseline_commit",
+          "implementation_commit",
+          "evidence_head",
+          "clean_checked_at"
+        ]
+      },
+      {
+        "id": "git_branch",
+        "result": "PASS",
+        "detail": {
+          "expected": "codex/tio2-my-full-public-seo-ga4",
+          "actual": "codex/tio2-my-full-public-seo-ga4"
+        }
+      },
+      {
+        "id": "git_head",
+        "result": "FAIL",
+        "detail": {
+          "expected": "c55eb8f8dec38f9d96a817228cf7d66bfac9afeb",
+          "actual": "2cf213c43bd0d2b6ad3e5cbfeb1d09b8053eaee2"
+        }
+      },
+      {
+        "id": "baseline_to_implementation",
+        "result": "PASS",
+        "detail": {
+          "ancestor": "b52702cf52a1eb6a8292db160920158a3def3eed",
+          "descendant": "30e026318006c141b725a1231f1942f555cd9a07"
+        }
+      },
+      {
+        "id": "implementation_to_evidence",
+        "result": "PASS",
+        "detail": {
+          "ancestor": "30e026318006c141b725a1231f1942f555cd9a07",
+          "descendant": "c55eb8f8dec38f9d96a817228cf7d66bfac9afeb"
+        }
+      },
+      {
+        "id": "git_clean",
+        "result": "PASS",
+        "detail": {
+          "porcelain": ""
+        }
+      },
+      {
+        "id": "build_directory",
+        "result": "PASS",
+        "detail": "D:\\16Wordpress_nextjs\\.worktrees\\tio2-my-full-public-seo-ga4\\.next-tio2-my-ga4-g8-30e02631"
+      },
+      {
+        "id": "build_id",
+        "result": "PASS",
+        "detail": {
+          "expected": "tio2-my-ga4-g8-30e02631-20260913",
+          "actual": "tio2-my-ga4-g8-30e02631-20260913"
+        }
+      },
+      {
+        "id": "build_implementation_binding",
+        "result": "PASS",
+        "detail": {
+          "build": "30e026318006c141b725a1231f1942f555cd9a07",
+          "git": "30e026318006c141b725a1231f1942f555cd9a07"
+        }
+      },
+      {
+        "id": "evidence_0_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/build-identity.txt"
+      },
+      {
+        "id": "evidence_0_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "IDENTITY",
+          "proves": [
+            "Binds site scope, branch, implementation commit, Build ID and held runtimes."
+          ],
+          "command": "Read Git revisions and the existing BUILD_ID file.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_0_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "6f293c6c79f0232681052c9dd50f2fc048ff9c804165e8685a1d70aa3c7515fa",
+          "actual": "6f293c6c79f0232681052c9dd50f2fc048ff9c804165e8685a1d70aa3c7515fa"
+        }
+      },
+      {
+        "id": "evidence_0_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/build-identity.txt"
+      },
+      {
+        "id": "evidence_0_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "9b36ad9d060c55f86ef27bf21db9a28c1d9149a9",
+          "blob_sha256": "6f293c6c79f0232681052c9dd50f2fc048ff9c804165e8685a1d70aa3c7515fa",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_0_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_1_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/runtime-audit.json"
+      },
+      {
+        "id": "evidence_1_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "Records HTTP 200 probes for the held Next.js and isolated CMS runtimes."
+          ],
+          "command": "Read-only HTTP probes against 127.0.0.1:3123 and 127.0.0.1:8280.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_1_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "bd851ec50c950987d1fdc5344a69adeacb85ee2666a4ceb54e0ea1a75bed63c1",
+          "actual": "bd851ec50c950987d1fdc5344a69adeacb85ee2666a4ceb54e0ea1a75bed63c1"
+        }
+      },
+      {
+        "id": "evidence_1_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/runtime-audit.json"
+      },
+      {
+        "id": "evidence_1_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "d713daece8e8df707c324e31df33b3235fd1c73b",
+          "blob_sha256": "bd851ec50c950987d1fdc5344a69adeacb85ee2666a4ceb54e0ea1a75bed63c1",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_1_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_2_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/summary.json"
+      },
+      {
+        "id": "evidence_2_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "IDENTITY",
+          "proves": [
+            "Consolidates the Gate 8 GA4 activation result and boundaries."
+          ],
+          "command": "Generate summary from the final directed verification.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_2_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "59c2953292cb8e36fc58e9d646fed687149e907893ec1f77f01cd723c377d8c8",
+          "actual": "59c2953292cb8e36fc58e9d646fed687149e907893ec1f77f01cd723c377d8c8"
+        }
+      },
+      {
+        "id": "evidence_2_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/summary.json"
+      },
+      {
+        "id": "evidence_2_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "ee5c410de648b7978578e0821cc9ef0503357fe8",
+          "blob_sha256": "59c2953292cb8e36fc58e9d646fed687149e907893ec1f77f01cd723c377d8c8",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_2_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_3_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/targeted-vitest.txt"
+      },
+      {
+        "id": "evidence_3_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "Eight affected test files and 37 tests pass."
+          ],
+          "command": "npx vitest run <8 affected GA4, consent, legal and event test files>",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_3_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "b24a7a9cef49f2fd9c405e339a6205970c32af61134c4d38a437f8777f9611ab",
+          "actual": "b24a7a9cef49f2fd9c405e339a6205970c32af61134c4d38a437f8777f9611ab"
+        }
+      },
+      {
+        "id": "evidence_3_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/targeted-vitest.txt"
+      },
+      {
+        "id": "evidence_3_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "869d355a063032b48600ba1c03b6413291020bc2",
+          "blob_sha256": "73cdc2236f5dcddad9a6acc34ad4be8098596b635110c5f63f5d149b024d865f",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_3_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_4_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/ga4-active-playwright.txt"
+      },
+      {
+        "id": "evidence_4_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "LOCAL_SIMULATION",
+          "proves": [
+            "Two deterministic GA4/CMP scenarios pass without loading the real receiver."
+          ],
+          "command": "npx playwright test tests/e2e/tio2-my-ga4-active.spec.ts --project=chromium",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_4_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "54526fcbfafad01cb6446f8c7266b38293f105dc514c6852b3f8e34cc7e7dd1d",
+          "actual": "54526fcbfafad01cb6446f8c7266b38293f105dc514c6852b3f8e34cc7e7dd1d"
+        }
+      },
+      {
+        "id": "evidence_4_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/ga4-active-playwright.txt"
+      },
+      {
+        "id": "evidence_4_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "07e282ed901af4ad9ee7a278449571e4afc58b56",
+          "blob_sha256": "a33581c8ae17e6b33436cf0f2ecf759898629806d6e407b5b76f27aac43b5540",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_4_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_5_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/legal-playwright.txt"
+      },
+      {
+        "id": "evidence_5_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "Thirteen legal/CMP runtime scenarios pass at the approved widths."
+          ],
+          "command": "npx playwright test tests/e2e/legal-privacy.spec.ts --project=chromium",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_5_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "bd61ddb95a9f4b168bdf03af7c8df60ab034f31c34778ddffb4e8e551f54455b",
+          "actual": "bd61ddb95a9f4b168bdf03af7c8df60ab034f31c34778ddffb4e8e551f54455b"
+        }
+      },
+      {
+        "id": "evidence_5_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/legal-playwright.txt"
+      },
+      {
+        "id": "evidence_5_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "fe4d59d2b9ed07ee0411a916a17183f59a58bcda",
+          "blob_sha256": "3c0d669427c64c5bd1754d7a7cedc0eaf268411417c4d3796609f5f7cc03faf9",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_5_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_6_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/typecheck.txt"
+      },
+      {
+        "id": "evidence_6_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "Next route generation and TypeScript no-emit checking pass."
+          ],
+          "command": "npm run typecheck",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_6_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b",
+          "actual": "d98c656d4bd66d7ecbbb46c5061cc283ccb9638f83d21d23fc68fc683deb581b"
+        }
+      },
+      {
+        "id": "evidence_6_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/typecheck.txt"
+      },
+      {
+        "id": "evidence_6_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "7e40841c235af608d79263a735ec08efda0bd4c2",
+          "blob_sha256": "555c70edb794c45b374a551ae74baf3b899e2145265d9082846f81c1a1f1ec7b",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_6_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_7_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/eslint.txt"
+      },
+      {
+        "id": "evidence_7_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "The thirteen affected implementation and test files pass ESLint."
+          ],
+          "command": "npx eslint <13 affected implementation and test files>",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_7_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "892852c3771d9857e928f4f0c2c7598c7677fae88b8ad8a46674e3b6ddbca5a4",
+          "actual": "892852c3771d9857e928f4f0c2c7598c7677fae88b8ad8a46674e3b6ddbca5a4"
+        }
+      },
+      {
+        "id": "evidence_7_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/eslint.txt"
+      },
+      {
+        "id": "evidence_7_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "99994f92959cc79b537de64c6fe8fcf9ad2d9db7",
+          "blob_sha256": "892852c3771d9857e928f4f0c2c7598c7677fae88b8ad8a46674e3b6ddbca5a4",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_7_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_8_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-observation.md"
+      },
+      {
+        "id": "evidence_8_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "SOURCE_INSPECTION",
+          "proves": [
+            "Explains the controlled Preview procedure, result and no-form-send boundary."
+          ],
+          "command": "Manual review of the user-shared Preview plus controlled local Chromium.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_8_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "29dd933540683c7078f5c70fafb6beb4b7c8e48f38cd79e6bfe082b3d9e2d116",
+          "actual": "29dd933540683c7078f5c70fafb6beb4b7c8e48f38cd79e6bfe082b3d9e2d116"
+        }
+      },
+      {
+        "id": "evidence_8_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-observation.md"
+      },
+      {
+        "id": "evidence_8_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "3bb83045433fb8ee95363b47c6f6f786fb34094d",
+          "blob_sha256": "29dd933540683c7078f5c70fafb6beb4b7c8e48f38cd79e6bfe082b3d9e2d116",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_8_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_9_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-runtime-evidence.json"
+      },
+      {
+        "id": "evidence_9_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "Sanitized Cookie, consent, network, approved-event, no-PII and cross-scope evidence."
+          ],
+          "command": "Controlled local Tag Assistant Preview capture with direct approved dataLayer events.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_9_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "cfcdccab1b5fdda50a5e60b69eda4ada061c7c63ad56ef8c499e5d926a4033e0",
+          "actual": "cfcdccab1b5fdda50a5e60b69eda4ada061c7c63ad56ef8c499e5d926a4033e0"
+        }
+      },
+      {
+        "id": "evidence_9_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-runtime-evidence.json"
+      },
+      {
+        "id": "evidence_9_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "81aa07d6e159d8a843e146f3a0b090cc26edc314",
+          "blob_sha256": "0760b561c86567f66f8a059ebc085a56d7c9b863a1c7904ccbffb23caa5eda0d",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_9_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_10_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-initial-denied-consent.png"
+      },
+      {
+        "id": "evidence_10_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "Shows all four Consent Mode fields denied before choice."
+          ],
+          "command": "Tag Assistant Preview screenshot at initial Window Loaded.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_10_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "897b6e5ff4277070b3ecd598950684c343e832ba93aa6e76c788279bfa641f0a",
+          "actual": "897b6e5ff4277070b3ecd598950684c343e832ba93aa6e76c788279bfa641f0a"
+        }
+      },
+      {
+        "id": "evidence_10_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-initial-denied-consent.png"
+      },
+      {
+        "id": "evidence_10_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "ecb4c7b17eeaa970b6f4c6a1ccdeeca18c86bf92",
+          "blob_sha256": "897b6e5ff4277070b3ecd598950684c343e832ba93aa6e76c788279bfa641f0a",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_10_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_11_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-accepted-consent.png"
+      },
+      {
+        "id": "evidence_11_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "Shows analytics_storage granted while all advertising fields remain denied."
+          ],
+          "command": "Tag Assistant Preview screenshot after Accept Analytics.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_11_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "af67304acb60887c7106326419c67ffc39efebeb278ff36728c0b86b4a0eb58b",
+          "actual": "af67304acb60887c7106326419c67ffc39efebeb278ff36728c0b86b4a0eb58b"
+        }
+      },
+      {
+        "id": "evidence_11_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-accepted-consent.png"
+      },
+      {
+        "id": "evidence_11_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "d1ae3fc6d83dfae1440c0794d988d4a22d0993a6",
+          "blob_sha256": "af67304acb60887c7106326419c67ffc39efebeb278ff36728c0b86b4a0eb58b",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_11_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_12_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-google-tag-page-view.png"
+      },
+      {
+        "id": "evidence_12_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "Shows the Google Tag succeeded and Page View hits are associated with G-QDHLMRH2WB."
+          ],
+          "command": "Tag Assistant Preview screenshot of the Google Tag details.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_12_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "5e6b160e61e9226b6be2a65a7490bd694f667b2d2ac96b19c80976614c6d79cc",
+          "actual": "5e6b160e61e9226b6be2a65a7490bd694f667b2d2ac96b19c80976614c6d79cc"
+        }
+      },
+      {
+        "id": "evidence_12_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-google-tag-page-view.png"
+      },
+      {
+        "id": "evidence_12_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "2ceab0cdb9d708e7163761cb5489066a8beaffb0",
+          "blob_sha256": "5e6b160e61e9226b6be2a65a7490bd694f667b2d2ac96b19c80976614c6d79cc",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_12_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_13_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-rfq-event-fired.png"
+      },
+      {
+        "id": "evidence_13_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "Shows req-RFQ fired once for rfq_provider_accepted with the approved parameter map."
+          ],
+          "command": "Tag Assistant Preview screenshot after direct approved dataLayer push.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_13_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "9887efc14946bcbc4e71230050a6facdc918863fcc4deea6597cfafacf93e735",
+          "actual": "9887efc14946bcbc4e71230050a6facdc918863fcc4deea6597cfafacf93e735"
+        }
+      },
+      {
+        "id": "evidence_13_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-rfq-event-fired.png"
+      },
+      {
+        "id": "evidence_13_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "23bd2d83d5e5e3de2bdc20dd7369e52e144fe0d7",
+          "blob_sha256": "9887efc14946bcbc4e71230050a6facdc918863fcc4deea6597cfafacf93e735",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_13_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_14_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-documents-event-fired.png"
+      },
+      {
+        "id": "evidence_14_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "Shows REQ-Doc fired once for documents_provider_accepted with the approved parameter map."
+          ],
+          "command": "Tag Assistant Preview screenshot after direct approved dataLayer push.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_14_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "9ab44f55ab44076d0dca59ef052e017f11a5d8b4aaaea875bc2681bbdaefb95c",
+          "actual": "9ab44f55ab44076d0dca59ef052e017f11a5d8b4aaaea875bc2681bbdaefb95c"
+        }
+      },
+      {
+        "id": "evidence_14_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-documents-event-fired.png"
+      },
+      {
+        "id": "evidence_14_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "18c0e5f13578cab18acaf85e4e63b4b0422d4f6c",
+          "blob_sha256": "9ab44f55ab44076d0dca59ef052e017f11a5d8b4aaaea875bc2681bbdaefb95c",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_14_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "evidence_15_missing",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-sample-event-fired.png"
+      },
+      {
+        "id": "evidence_15_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "STATIC_VISUAL",
+          "proves": [
+            "Shows ReqSam fired once for sample_provider_accepted with the approved parameter map."
+          ],
+          "command": "Tag Assistant Preview screenshot after direct approved dataLayer push.",
+          "environment": "Windows local-production Next.js at 127.0.0.1:3123; isolated local CMS at 127.0.0.1:8280; SITE_ID=tio2-my; GTM Preview; no form submission"
+        }
+      },
+      {
+        "id": "evidence_15_sha256",
+        "result": "PASS",
+        "detail": {
+          "expected": "f21c0d64508433a047063ddad56b72c4c634c86ffc21c20728b4b21aa7b0e912",
+          "actual": "f21c0d64508433a047063ddad56b72c4c634c86ffc21c20728b4b21aa7b0e912"
+        }
+      },
+      {
+        "id": "evidence_15_committed",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-sample-event-fired.png"
+      },
+      {
+        "id": "evidence_15_committed_blob",
+        "result": "PASS",
+        "detail": {
+          "blob_oid": "80decb835a8dd228377457e2bd6c42b73e985fcd",
+          "blob_sha256": "f21c0d64508433a047063ddad56b72c4c634c86ffc21c20728b4b21aa7b0e912",
+          "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+        }
+      },
+      {
+        "id": "evidence_15_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      },
+      {
+        "id": "receipt_references_declared",
+        "result": "PASS",
+        "detail": {
+          "undeclared": []
+        }
+      },
+      {
+        "id": "receipt_exists",
+        "result": "PASS",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/gate8_handoff_receipt.md"
+      },
+      {
+        "id": "receipt_actual_references",
+        "result": "PASS",
+        "detail": {
+          "declared": [
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/build-identity.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/eslint.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/ga4-active-playwright.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/legal-playwright.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/runtime-audit.json",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/summary.json",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-accepted-consent.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-documents-event-fired.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-google-tag-page-view.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-initial-denied-consent.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-observation.md",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-rfq-event-fired.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-runtime-evidence.json",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-sample-event-fired.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/targeted-vitest.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/typecheck.txt"
+          ],
+          "actual": [
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/build-identity.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/eslint.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/ga4-active-playwright.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/legal-playwright.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/runtime-audit.json",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/summary.json",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-accepted-consent.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-documents-event-fired.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-google-tag-page-view.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-initial-denied-consent.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-observation.md",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-rfq-event-fired.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-runtime-evidence.json",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/tagassistant-sample-event-fired.png",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/targeted-vitest.txt",
+            "docs/verification/tio2-my-ga4-active-gate8-20260913/typecheck.txt"
+          ],
+          "undeclared_in_receipt": [],
+          "missing_from_receipt": []
+        }
+      },
+      {
+        "id": "receipt_committed",
+        "result": "FAIL",
+        "detail": "docs/verification/tio2-my-ga4-active-gate8-20260913/gate8_handoff_receipt.md"
+      },
+      {
+        "id": "receipt_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      }
+    ]
+  },
+  "runtime": null
+}

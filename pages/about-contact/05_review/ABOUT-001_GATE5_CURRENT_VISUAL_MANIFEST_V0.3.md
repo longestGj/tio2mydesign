@@ -39,3 +39,7 @@ Global Chrome V0.5 and Production SVG authorities remain the only Header, Mobile
 ## 4. Version Boundary
 
 V0.3 supersedes the current-governance interpretation in Visual Manifest V0.2. It does not alter the Gate 5 visual pixels. Project control closed Gate 6 under `ABOUT-001-G6-PCR-03`; Gate 7 remains locked pending separate user authorization.
+
+## 2026-09-13 publication-contract and 390px title overlay
+
+`../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` finalizes ABOUT-001's URL, trust-page responsibility, buyer task, CTA, SEO fields, self-canonical, `index, follow`, Sitemap target and internal-link sources. The user also approved the unchanged H1's natural four-line rendering at 390px. That visual approval applies only at 390px and does not change copy, other breakpoints, CTA, media, layout or source hashes. Implementation, Gate 9 and Gate 10 remain separate.

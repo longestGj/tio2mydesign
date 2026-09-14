@@ -1,0 +1,101 @@
+{
+  "deliveryId": "TIO2-MY-FULL-PUBLIC-SEO-GA4-G6-01",
+  "siteScope": "tio2-my",
+  "date": "2026-09-13",
+  "gate": 6,
+  "status": "PROJECT_CONTROL_REVIEW_PASS_APPROVED_CLOSED",
+  "review": {
+    "artifact": "docs/architecture/TIO2_MY_FULL_PUBLIC_SEO_GA4_D23_INDEPENDENT_REVIEW_V1.0.md",
+    "result": "PROJECT_CONTROL_REVIEW_PASS",
+    "checksPassed": 1687,
+    "checksFailed": 0,
+    "openMandatoryFindings": 0,
+    "approvalBasis": "USER_STANDING_AUTHORITY"
+  },
+  "authorization": {
+    "publicProductionObjects": 59,
+    "indexableStandardPages": 57,
+    "continuousExecutionThroughGate": 9,
+    "gate10PublicationAuthorized": false
+  },
+  "projection": {
+    "urlBearingObjects": 58,
+    "runtimeFallbackObjects": 1,
+    "sitemapUrls": 57,
+    "exceptions": [
+      {
+        "pageId": "SYS-404",
+        "url": "RUNTIME_FALLBACK",
+        "http": 404,
+        "robots": "noindex, follow",
+        "sitemap": false,
+        "canonical": null
+      },
+      {
+        "pageId": "CONV-THANK",
+        "url": "/thank-you/",
+        "http": 200,
+        "robots": "noindex, nofollow",
+        "sitemap": false,
+        "canonical": "https://tio2malaysia.com/thank-you/"
+      }
+    ]
+  },
+  "normativeInputs": [
+    {"path":"docs/architecture/TIO2_MY_FULL_PUBLIC_SEO_GA4_GSC_LAUNCH_DECISION_AND_SPEC_V1.0.md","sha256":"685077EA909918DAAD71FE8B59F4246615F0E4916B86E72A3B48E4688E90E17D","role":"approved_launch_decision_and_spec"},
+    {"path":"docs/architecture/TIO2_MY_59_OBJECT_PUBLICATION_TARGET_MATRIX_V1.0.csv","sha256":"C53505FAD93697A235D6152252E797A9EE9D9572DBDAB3211D6FD6448F3262C3","role":"target_projection"},
+    {"path":"docs/architecture/TIO2_MY_59_OBJECT_PUBLICATION_CURRENT_STATE_V1.0.csv","sha256":"FAF3FC7DB0C2F283E595DD56082F6CF729498E3D810C3488B1980DACDE1ADC0B","role":"row_to_manifest_ledger"},
+    {"path":"docs/architecture/TIO2_MY_57_INDEXABLE_PAGE_SEO_DELIVERY_V1.0.csv","sha256":"31AF7C04D77CF19204FE2B6BDDA95590D49B360BE5A686DF4FF8ACCCB2B20CE3","role":"seo_geo_delivery_and_exception_rows"},
+    {"path":"docs/architecture/TIO2_MY_LAUNCH_FACT_CLOSURE_V1.0.md","sha256":"56974A5F9508A28512CB71D52F5E9BB7FC7210F7DD0A03D3544FAAD07721557C","role":"fact_closure"},
+    {"path":"docs/architecture/TIO2_MY_GA4_LEGAL_CONTENT_DELIVERY_V1.0.md","sha256":"7D2457B87BE87E527B9218382E1B5F7D1926CC17061E1784F5E56B04E43695FE","role":"atomic_legal_content"},
+    {"path":"docs/architecture/LEGAL_PRIVACY_GATE1_DATA_FLOW_AND_EVIDENCE_V1.1.md","sha256":"F06FC653D72DB917FA2544BCBEA9BBEABAF348D411E9353D0AF177B990D9D80F","role":"analytics_data_flow_and_evidence"},
+    {"path":"pages/legal-privacy/05_review/LEGAL-PRIV-EN_CURRENT_GATE6_GA4_DELIVERY_MANIFEST_V1.4.md","sha256":"04C7DB364175F24D7D9FB9CD4AA56414ED3339659932C401B2FEFB3210C069AE","role":"privacy_en"},
+    {"path":"pages/legal-privacy/05_review/LEGAL-PRIV-MS_CURRENT_GATE6_GA4_DELIVERY_MANIFEST_V1.4.md","sha256":"6D63A920314220A56D2914BC9B3C8A399362DD7C4C42F0B7B938521AD870698A","role":"privacy_bm"},
+    {"path":"pages/legal-privacy/05_review/LEGAL-COOKIE-EN_CURRENT_GATE6_GA4_DELIVERY_MANIFEST_V1.2.md","sha256":"A0D40684E9A7D3DE50F595CF2EBC0C5AA7DC10B373D6760EECDC8BE4B2BAFDC7","role":"cookie_policy"},
+    {"path":"docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md","sha256":"E28DE105BA35628365C0C0DC3DAC272C5F6FE2B19589F6888CADE0A26AB09213","role":"approved_page_contract_successor"}
+  ],
+  "analytics": {
+    "loaderScope": "tio2-my",
+    "gtmContainerIdEnvironmentVariable": "NEXT_PUBLIC_TIO2_MY_GTM_CONTAINER_ID",
+    "measurementIdEnvironmentVariable": "NEXT_PUBLIC_TIO2_MY_GA4_MEASUREMENT_ID",
+    "deliveryPath": "site_scoped_gtm_container_only",
+    "directGtagBypassAllowed": false,
+    "requiredLoadOrder": ["dataLayer_and_four_denied_defaults","site_scoped_configuration","site_scoped_gtm_loader","matching_ga4_tag_delivered_by_gtm"],
+    "defaultConsent": {
+      "analytics_storage": "denied",
+      "ad_storage": "denied",
+      "ad_user_data": "denied",
+      "ad_personalization": "denied"
+    },
+    "acceptAnalyticsChange": {"analytics_storage":"granted"},
+    "advertisingStatesAlwaysDenied": true,
+    "allowedEventParameters": ["site_scope","page_id","source","form_type"],
+    "prohibitedData": ["name","email","telephone","company","free_text","form_payload","document_name","request_content","unfiltered_url"],
+    "runtimeFields": ["consent_local_storage_key","consent_value_shape","consent_version","cookie_names_domains_durations","exact_conversion_event_names","network_and_storage_observations"]
+  },
+  "requiredGate8Return": [
+    "commit_sha_and_parent_sha",
+    "changed_file_list",
+    "test_and_production_equivalent_build_results",
+    "59_object_route_inventory",
+    "rendered_source_and_schema_evidence",
+    "hreflang_evidence",
+    "gtm_container_and_matching_ga4_destination_binding",
+    "gtm_only_source_and_network_ordering_evidence",
+    "consent_storage_key_value_version_and_migration",
+    "ga_cookie_inventory",
+    "four_state_network_and_storage_capture",
+    "pageview_and_conversion_event_cardinality",
+    "no_pii_evidence",
+    "gate8_to_gate9_evidence_manifest"
+  ],
+  "negativeRequirements": [
+    "no_cross_scope_fallback",
+    "no_hidden_or_placeholder_public_page",
+    "no_stale_provisional_seo_fields",
+    "no_buyer_visible_current_label",
+    "no_page_private_global_chrome_fork",
+    "no_pii_in_url_marker_analytics_log_or_evidence",
+    "no_gate10_publication_dns_gsc_or_indexing_action"
+  ]
+}

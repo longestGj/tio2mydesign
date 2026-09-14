@@ -15,3 +15,7 @@
 | Gate 10 | `NOT_AUTHORIZED / NOT_EXECUTED` |
 
 定向复验：`../../../docs/architecture/GATE9_TRADE4_APPLICATION5_TARGETED_RECHECK_V1.0.md`。`PROVISIONAL_URL`保持，未批准最终URL。
+
+## 2026-09-13 publication-contract overlay
+
+The user publication decision and `../../../docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md` now finalize the registered URL and publication fields. This supersedes `PROVISIONAL_URL` only for URL/publication targeting; approved copy, PRODUCT V0.3 boundaries, Gate 9 evidence and Gate 10 release remain separately controlled.

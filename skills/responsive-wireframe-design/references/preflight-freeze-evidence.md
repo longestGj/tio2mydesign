@@ -1,12 +1,14 @@
 # Gate 3预检、冻结与证据分层
 
-在TiO2 Malaysia页面生成正式Gate 3图片前使用。本参考依据[Gate标准V2.1 §4.3](../../../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.1.md)细化硬停止条件；页面授权保持。执行前读[Gate 3核验范围](../../layout-interaction-verification/references/gate3-structure-scope.md)，共享完整检查可有条件继承，本页必要操作不能继承。
+> 2026-09-21历史适用：仅用于明确保留旧Gate 3范围的任务。合并Gate 4使用共同工作集及Gate 4自检/最终冻结，不把本文独立线框和冻结要求作为新页准入。原授权和历史证据不变。
+
+在TiO2 Malaysia页面生成正式Gate 3图片前使用。本参考依据[Gate标准V2.3 §4.3](../../../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.3.md)细化硬停止条件；页面授权保持。执行前读[Gate 3核验范围](../../layout-interaction-verification/references/gate3-structure-scope.md)，共享完整检查可有条件继承，本页必要操作不能继承。
 
 ## PASS_FOR_FORMAL_RENDER最低条件
 
 1. 当前Manifest及批准A/B/C或等价输入的实际hash与任务输入卡相同。
 2. 候选源位于获准页面目录；显示所需字体、样式、数据和脚本不以`99_workspace`、临时目录或另一业务页面为唯一来源。
-3. 共享Header/Footer/Cookie来自当前页面中立消费包或共享owner正式来源；当前导航、Logo、法律文字和固定CTA准确。
+3. 已在设计报告核对页面家族、同类模块复用和必要差异，明确Gate 4待解决项；不得因未指定基准省略适用对照。共享Header/Footer/Cookie来自当前页面中立消费包或共享owner正式来源；当前导航、Logo、法律文字和固定CTA准确。
 4. B中每个可见标题、段落、字段、链接和对象关系均能从输入找到并从候选回查；无编辑标签、占位、截断或新增承诺。
 5. 1440、768、390诊断渲染覆盖至Footer；无隐藏裁切、横向越界、碰撞或异常固定空白；可见控件宽高均至少44px。
 6. 两个适用窄屏的移动菜单在本页实际验证打开、选择链接关闭、背景与焦点恢复。首焦点、Tab/Shift+Tab、Escape、背景隔离、跨Desktop断点关闭等完整共享检查须由适用owner原始证据或本页完整复验覆盖；继承不成立、影响范围不明或有异常时完整复验受影响组件。

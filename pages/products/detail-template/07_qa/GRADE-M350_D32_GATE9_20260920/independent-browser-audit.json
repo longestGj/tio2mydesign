@@ -1,0 +1,82 @@
+{
+  "reviewId": "GRADE-M350-D32-G9-20260920-01",
+  "browser": "Codex built-in browser",
+  "runtimeUrl": "http://127.0.0.1:8350/products/m-350/",
+  "result": "PASS",
+  "viewports": [
+    {
+      "width": 1440,
+      "horizontalOverflow": false,
+      "visibleTargetsAtLeast44By44": true,
+      "technicalPresentation": "table"
+    },
+    {
+      "width": 1024,
+      "horizontalOverflow": false,
+      "visibleTargetsAtLeast44By44": true,
+      "technicalPresentation": "table"
+    },
+    {
+      "width": 768,
+      "horizontalOverflow": false,
+      "visibleTargetsAtLeast44By44": true,
+      "technicalPresentation": "table"
+    },
+    {
+      "width": 390,
+      "horizontalOverflow": false,
+      "visibleTargetsAtLeast44By44": true,
+      "technicalPresentation": "readable row cards with Property, Standard and Typical Value labels"
+    }
+  ],
+  "content": {
+    "singleH1": true,
+    "approvedModuleOrder": true,
+    "applications": 6,
+    "paperQualifiedAsSeparateEvaluationPath": true,
+    "technicalRows": 15,
+    "conditionalExternalModulesOmittedWhileUnready": true,
+    "publicInternalControlLeaks": 0
+  },
+  "headAndSchema": {
+    "title": "M-350 Titanium Dioxide for Coatings and Inks | TiO2 Malaysia",
+    "canonical": "https://tio2products.com/products/m-350/",
+    "robots": "noindex, nofollow",
+    "language": "en",
+    "types": [
+      "Product",
+      "BreadcrumbList"
+    ],
+    "visibleTechnicalRows": 15,
+    "schemaTechnicalRows": 15,
+    "losslessVisibleSchemaParity": true,
+    "unsupportedCommercialFields": 0
+  },
+  "interaction": {
+    "mobileMenuKeyboardAndFocusLoop": "PASS",
+    "mobileMenuEscapeAndFocusReturn": "PASS",
+    "cookieDialogKeyboardAndFocusLoop": "PASS",
+    "cookieDialogEscapeAndFocusReturn": "PASS",
+    "consoleErrors": 0,
+    "consoleWarnings": 0
+  },
+  "productHub": {
+    "gradeLabels": 14,
+    "m350VisibleLinks": 2,
+    "otherGradeDetailLinks": 0,
+    "m350SchemaUrlsPresent": true,
+    "publicInternalControlLeaks": 0,
+    "horizontalOverflow": false
+  },
+  "visualComparison": {
+    "approvedBaseline": "Gate 4/new Gate 5 Freeze 02",
+    "status": "PASS",
+    "note": "The current runtime preserves the approved hierarchy at 1440 and 390. Conditional Documents, Sample, market links and contextual actions are correctly omitted while their external owners are unready."
+  },
+  "userExceptions": {
+    "physicalDevice": "USER_EXCEPTED / NOT_TESTED",
+    "manualScreenReader": "USER_EXCEPTED / NOT_TESTED",
+    "nativeBrowserOsZoom200Percent": "USER_EXCEPTED / NOT_TESTED",
+    "blocking": false
+  }
+}

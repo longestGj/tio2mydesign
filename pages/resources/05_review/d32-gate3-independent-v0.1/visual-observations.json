@@ -1,0 +1,28 @@
+{
+  "reviewer": "/root/about_root_d32",
+  "candidateBundleSha256": "ddeb7bbeaa82bb4df943bd270e94b1f8235461670026e840735de284b923d9c2",
+  "mode": "INDEPENDENT_GATE3_REVIEW",
+  "evidenceType": "STATIC_VISUAL + SOURCE_INSPECTION; runtime is separately recorded",
+  "formalDirectory": "D:/23MySec/pages/resources/04_planning/d32-gate3-v0.1/formal/",
+  "formalInspected": ["RES-000_D32_GATE3_1440.png", "RES-000_D32_GATE3_768.png", "RES-000_D32_GATE3_390.png", "RES-000_D32_GATE3_390_MENU.png", "RES-000_D32_GATE3_H2_1440_LOCAL_SIMULATION.png", "RES-000_D32_GATE3_H2_390_LOCAL_SIMULATION.png", "RES-000_D32_GATE3_H4_1440_LOCAL_SIMULATION.png", "RES-000_D32_GATE3_H4_768_LOCAL_SIMULATION.png", "RES-000_D32_GATE3_H4_390_LOCAL_SIMULATION.png", "RES-000_D32_GATE3_H4_720_LOCAL_SIMULATION.png"],
+  "readableSupportDirectory": "D:/23MySec/pages/resources/04_planning/d32-gate3-v0.1/diagnostic/",
+  "readableSupportInspected": ["1440-part-1.png", "1440-part-2.png", "1440-part-3.png", "1440-part-4.png", "768-part-1.png", "768-part-2.png", "768-part-3.png", "768-part-4.png", "768-part-5.png", "390-part-1.png", "390-part-2.png", "390-part-3.png", "390-part-4.png", "390-part-5.png", "390-part-6.png", "390-part-7.png", "390-part-8.png", "RES-000_D32_GATE3_H4_390_LOCAL_SIMULATION.png"],
+  "checks": [
+    {"id": "V01", "status": "PASS", "observation": "H0 formal 1440/768/390 complete Header-to-Footer structure agrees with source and approved permanent B. Readable continuous frames cover every paragraph and all five answers."},
+    {"id": "V02", "status": "PASS", "observation": "No Featured/Latest title/card/divider/empty slot survives actual H0; direct Hero-to-research transition is natural. No invented inventory or child-link demand."},
+    {"id": "V03", "status": "PASS", "observation": "Hub-dark contained shared Hero, approved decorative diagram and exact labels at desktop; media absent at 768/390 without a reserved empty area. Four-line 390 title is the explicit approved RES exception."},
+    {"id": "V04", "status": "PASS", "observation": "Three research paths retain labels/headings/body relationships when stacked; evidence principles and five expanded FAQs preserve full context, non-equivalence and freshness limitations."},
+    {"id": "V05", "status": "PASS", "observation": "Resources current marker, production logos, fixed RFQ, footer legal controls and menu order match neutral shared owner. Focus indication is visually distinct; interactive behavior tested separately."},
+    {"id": "V06", "status": "PASS", "observation": "H2 is explicitly local simulation. Exactly one approved RES-ORIGIN card plus compact coverage list appears; no Latest duplicate or fabricated dates. Conditional CTA and metadata relationship are legible."},
+    {"id": "V07", "status": "PASS", "observation": "H4 complete long-title/no-thumbnail/Portuguese source/scope/date/status/content-type/action group remains associated at 1440/768/390/720. Synthetic banner and fixture qualifiers avoid implying an actual policy/source/child approval."},
+    {"id": "V08", "status": "PASS", "observation": "No hidden-clipping, collision, horizontal overflow, orphaned controls or material abnormal space observed. Final columns, spacing/media refinement and native zoom verification remain downstream; 720 is reflow-equivalent only."}
+  ],
+  "passed": 8,
+  "failed": 0,
+  "mandatoryFindings": [],
+  "gate4MandatoryAcceptanceConditions": [
+    {"id": "RES-D32-G4-CARRY-01", "status": "NON_BLOCKING_AT_GATE3 / MANDATORY_GATE4_ACCEPTANCE_CONDITION", "authority": "Approved B V0.3 section 8 and RES-HUB-FINAL-01; controller scope ruling 2026-09-21", "observed": "Desktop .res-section padding 68px / 68px", "required": "84px top / 76px bottom under approved page-specific spacing; hidden H0 conditional modules remain fully absent, zero space"},
+    {"id": "RES-D32-G4-CARRY-02", "status": "NON_BLOCKING_AT_GATE3 / MANDATORY_GATE4_ACCEPTANCE_CONDITION", "authority": "Approved B V0.3 section 8; controller scope ruling 2026-09-21", "observed": "390px body .res-container outer gutters 20px", "required": "Restore 16px body gutters in Gate4, separate from shared Hero outer 20px gutters, which remain unchanged"}
+  ],
+  "notClaimed": ["Gate4 five-width final visual review", "native browser zoom", "current official-source verification", "D32 runtime conformance", "publication approval"]
+}

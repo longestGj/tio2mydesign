@@ -1,0 +1,4073 @@
+{
+  "reviewer": "/root/res_root_d32",
+  "mode": "INDEPENDENT_REVIEW",
+  "gate": 3,
+  "time": "2026-09-21T00:10:22.138Z",
+  "candidateSource": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_structure.html",
+  "sourceSha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada",
+  "bundleSha256": "c5f09a5c91650857493818394d6b97b92b14cc20fd5922d4abfb5820ef3b779c",
+  "browser": "Bundled Playwright Chromium headless",
+  "evidenceTypes": [
+    "SOURCE_INSPECTION",
+    "ACTUAL_RUNTIME_PLANNING_ONLY",
+    "STATIC_VISUAL author formal assets opened separately"
+  ],
+  "assertions": [
+    {
+      "id": "bundle_digest",
+      "pass": true,
+      "actual": "c5f09a5c91650857493818394d6b97b92b14cc20fd5922d4abfb5820ef3b779c"
+    },
+    {
+      "id": "all_recorded_identities_match",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "submitted_source_identity",
+      "pass": true
+    },
+    {
+      "id": "shared_consumer_exact_snapshot",
+      "pass": true
+    },
+    {
+      "id": "approved_hero_media_unchanged",
+      "pass": true,
+      "actual": {
+        "source": "D:\\23MySec\\pages\\documents\\04_planning\\visual-designs\\doc-root-page-hero-v1.0\\doc-root-page-hero-preview-v1.0.html",
+        "sha256": "62bf03dde9bf9474e4fddf73c1f4addd32db09539450987c84c09bd195c89561"
+      }
+    },
+    {
+      "id": "approved_seo_title_preserved",
+      "pass": false,
+      "actual": {
+        "expected": "Documents for Product Qualification | TiO2 Malaysia",
+        "actual": "Documents for Product & Supplier Qualification | TiO2 Malaysia"
+      }
+    },
+    {
+      "id": "1440_module_order",
+      "pass": true,
+      "actual": [
+        "Documents for Product & Supplier Qualification",
+        "Select a Product Grade",
+        "How It Works",
+        "Supporting Your Review Process",
+        "Documentation You Can Request",
+        "Why Documents Are Provided on Request",
+        "Buyer Questions",
+        "Ready to Request Documents?"
+      ]
+    },
+    {
+      "id": "1440_permanent_copy",
+      "pass": true
+    },
+    {
+      "id": "1440_scenario_pairs",
+      "pass": true
+    },
+    {
+      "id": "1440_group_pairs",
+      "pass": true
+    },
+    {
+      "id": "1440_lightweight_steps",
+      "pass": true
+    },
+    {
+      "id": "1440_steps_complete",
+      "pass": true
+    },
+    {
+      "id": "1440_no_fake_inventory",
+      "pass": true
+    },
+    {
+      "id": "1440_schema_forbidden_absent",
+      "pass": true
+    },
+    {
+      "id": "1440_geometry",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "small": [],
+        "badLeaves": []
+      }
+    },
+    {
+      "id": "1440_shared_assembly",
+      "pass": true
+    },
+    {
+      "id": "1440_hero_binding",
+      "pass": true,
+      "actual": {
+        "size": "56px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "id": "1440_initial_grade",
+      "pass": true
+    },
+    {
+      "id": "1440_native_direct_hero",
+      "pass": true
+    },
+    {
+      "id": "1440_initial_continue_operable",
+      "pass": true
+    },
+    {
+      "id": "1440_empty_validation",
+      "pass": true
+    },
+    {
+      "id": "1440_stable_validation_slot",
+      "pass": true
+    },
+    {
+      "id": "1440_unrelated_state_preserved",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-350",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-510",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-896",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-996",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-2196",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-895",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-200",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-108",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-210",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-340",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-886",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-52",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_M-2377",
+      "pass": true
+    },
+    {
+      "id": "1440_grade_CR-901",
+      "pass": true
+    },
+    {
+      "id": "1440_closing_empty_focus_no_navigation",
+      "pass": true
+    },
+    {
+      "id": "1440_FAQ_initial_DOM_and_collapsed",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_1",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_1_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_2",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_2_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_3",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_3_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_4",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_4_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_5",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_5_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_6",
+      "pass": true
+    },
+    {
+      "id": "1440_faq_6_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "1440_cookie_opens_first_focus",
+      "pass": true
+    },
+    {
+      "id": "1440_cookie_reverse",
+      "pass": true
+    },
+    {
+      "id": "1440_cookie_forward",
+      "pass": true
+    },
+    {
+      "id": "1440_cookie_return",
+      "pass": true
+    },
+    {
+      "id": "1440_no_runtime_errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "768_module_order",
+      "pass": true,
+      "actual": [
+        "Documents for Product & Supplier Qualification",
+        "Select a Product Grade",
+        "How It Works",
+        "Supporting Your Review Process",
+        "Documentation You Can Request",
+        "Why Documents Are Provided on Request",
+        "Buyer Questions",
+        "Ready to Request Documents?"
+      ]
+    },
+    {
+      "id": "768_permanent_copy",
+      "pass": true
+    },
+    {
+      "id": "768_scenario_pairs",
+      "pass": true
+    },
+    {
+      "id": "768_group_pairs",
+      "pass": true
+    },
+    {
+      "id": "768_lightweight_steps",
+      "pass": true
+    },
+    {
+      "id": "768_steps_complete",
+      "pass": true
+    },
+    {
+      "id": "768_no_fake_inventory",
+      "pass": true
+    },
+    {
+      "id": "768_schema_forbidden_absent",
+      "pass": true
+    },
+    {
+      "id": "768_geometry",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "small": [],
+        "badLeaves": []
+      }
+    },
+    {
+      "id": "768_shared_assembly",
+      "pass": true
+    },
+    {
+      "id": "768_hero_binding",
+      "pass": true,
+      "actual": {
+        "size": "44px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "id": "768_initial_grade",
+      "pass": true
+    },
+    {
+      "id": "768_native_direct_hero",
+      "pass": true
+    },
+    {
+      "id": "768_initial_continue_operable",
+      "pass": true
+    },
+    {
+      "id": "768_empty_validation",
+      "pass": true
+    },
+    {
+      "id": "768_stable_validation_slot",
+      "pass": true
+    },
+    {
+      "id": "768_unrelated_state_preserved",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-350",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-510",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-896",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-996",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-2196",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-895",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-200",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-108",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-210",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-340",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-886",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-52",
+      "pass": true
+    },
+    {
+      "id": "768_grade_M-2377",
+      "pass": true
+    },
+    {
+      "id": "768_grade_CR-901",
+      "pass": true
+    },
+    {
+      "id": "768_closing_empty_focus_no_navigation",
+      "pass": true
+    },
+    {
+      "id": "768_FAQ_initial_DOM_and_collapsed",
+      "pass": true
+    },
+    {
+      "id": "768_faq_1",
+      "pass": true
+    },
+    {
+      "id": "768_faq_1_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "768_faq_2",
+      "pass": true
+    },
+    {
+      "id": "768_faq_2_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "768_faq_3",
+      "pass": true
+    },
+    {
+      "id": "768_faq_3_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "768_faq_4",
+      "pass": true
+    },
+    {
+      "id": "768_faq_4_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "768_faq_5",
+      "pass": true
+    },
+    {
+      "id": "768_faq_5_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "768_faq_6",
+      "pass": true
+    },
+    {
+      "id": "768_faq_6_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "768_menu_open_focus_inert",
+      "pass": true
+    },
+    {
+      "id": "768_menu_forward_loop",
+      "pass": true
+    },
+    {
+      "id": "768_menu_reverse_loop",
+      "pass": true
+    },
+    {
+      "id": "768_menu_escape_restores",
+      "pass": true
+    },
+    {
+      "id": "768_menu_choice_restores",
+      "pass": true
+    },
+    {
+      "id": "768_menu_breakpoint_restores",
+      "pass": true
+    },
+    {
+      "id": "768_cookie_opens_first_focus",
+      "pass": true
+    },
+    {
+      "id": "768_cookie_reverse",
+      "pass": true
+    },
+    {
+      "id": "768_cookie_forward",
+      "pass": true
+    },
+    {
+      "id": "768_cookie_return",
+      "pass": true
+    },
+    {
+      "id": "768_no_runtime_errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "390_module_order",
+      "pass": true,
+      "actual": [
+        "Documents for Product & Supplier Qualification",
+        "Select a Product Grade",
+        "How It Works",
+        "Supporting Your Review Process",
+        "Documentation You Can Request",
+        "Why Documents Are Provided on Request",
+        "Buyer Questions",
+        "Ready to Request Documents?"
+      ]
+    },
+    {
+      "id": "390_permanent_copy",
+      "pass": true
+    },
+    {
+      "id": "390_scenario_pairs",
+      "pass": true
+    },
+    {
+      "id": "390_group_pairs",
+      "pass": true
+    },
+    {
+      "id": "390_lightweight_steps",
+      "pass": true
+    },
+    {
+      "id": "390_steps_complete",
+      "pass": true
+    },
+    {
+      "id": "390_no_fake_inventory",
+      "pass": true
+    },
+    {
+      "id": "390_schema_forbidden_absent",
+      "pass": true
+    },
+    {
+      "id": "390_geometry",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "small": [],
+        "badLeaves": []
+      }
+    },
+    {
+      "id": "390_shared_assembly",
+      "pass": true
+    },
+    {
+      "id": "390_hero_binding",
+      "pass": true,
+      "actual": {
+        "size": "36px",
+        "weight": "700",
+        "lines": 3
+      }
+    },
+    {
+      "id": "390_initial_grade",
+      "pass": true
+    },
+    {
+      "id": "390_native_direct_hero",
+      "pass": true
+    },
+    {
+      "id": "390_initial_continue_operable",
+      "pass": true
+    },
+    {
+      "id": "390_empty_validation",
+      "pass": true
+    },
+    {
+      "id": "390_stable_validation_slot",
+      "pass": true
+    },
+    {
+      "id": "390_unrelated_state_preserved",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-350",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-510",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-896",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-996",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-2196",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-895",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-200",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-108",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-210",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-340",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-886",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-52",
+      "pass": true
+    },
+    {
+      "id": "390_grade_M-2377",
+      "pass": true
+    },
+    {
+      "id": "390_grade_CR-901",
+      "pass": true
+    },
+    {
+      "id": "390_closing_empty_focus_no_navigation",
+      "pass": true
+    },
+    {
+      "id": "390_FAQ_initial_DOM_and_collapsed",
+      "pass": true
+    },
+    {
+      "id": "390_faq_1",
+      "pass": true
+    },
+    {
+      "id": "390_faq_1_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "390_faq_2",
+      "pass": true
+    },
+    {
+      "id": "390_faq_2_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "390_faq_3",
+      "pass": true
+    },
+    {
+      "id": "390_faq_3_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "390_faq_4",
+      "pass": true
+    },
+    {
+      "id": "390_faq_4_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "390_faq_5",
+      "pass": true
+    },
+    {
+      "id": "390_faq_5_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "390_faq_6",
+      "pass": true
+    },
+    {
+      "id": "390_faq_6_fully_visible",
+      "pass": true
+    },
+    {
+      "id": "390_menu_open_focus_inert",
+      "pass": true
+    },
+    {
+      "id": "390_menu_forward_loop",
+      "pass": true
+    },
+    {
+      "id": "390_menu_reverse_loop",
+      "pass": true
+    },
+    {
+      "id": "390_menu_escape_restores",
+      "pass": true
+    },
+    {
+      "id": "390_menu_choice_restores",
+      "pass": true
+    },
+    {
+      "id": "390_menu_breakpoint_restores",
+      "pass": true
+    },
+    {
+      "id": "390_cookie_opens_first_focus",
+      "pass": true
+    },
+    {
+      "id": "390_cookie_reverse",
+      "pass": true
+    },
+    {
+      "id": "390_cookie_forward",
+      "pass": true
+    },
+    {
+      "id": "390_cookie_return",
+      "pass": true
+    },
+    {
+      "id": "390_no_runtime_errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "readonly_DOC-000_D32_structure.html",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_structure.css",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_behavior.js",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_build.cjs",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_verify.cjs",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_INPUT_BINDING_V0.1.json",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_PREFLIGHT_V0.1.json",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_FREEZE_V0.1.json",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_1440_FULL.png",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_768_FULL.png",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_390_FULL.png",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_390_EMPTY_ERROR.png",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_390_SELECTED.png",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_390_FAQ2_OPEN.png",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_390_MENU_OPEN.png",
+      "pass": true
+    },
+    {
+      "id": "readonly_DOC-000_D32_390_COOKIE.png",
+      "pass": true
+    }
+  ],
+  "identities": [
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.html",
+      "bytes": 19294,
+      "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada",
+      "actual": {
+        "bytes": 19294,
+        "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.css",
+      "bytes": 4181,
+      "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552",
+      "actual": {
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_behavior.js",
+      "bytes": 1634,
+      "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e",
+      "actual": {
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_build.cjs",
+      "bytes": 5880,
+      "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a",
+      "actual": {
+        "bytes": 5880,
+        "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_verify.cjs",
+      "bytes": 8235,
+      "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5",
+      "actual": {
+        "bytes": 8235,
+        "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_INPUT_BINDING_V0.1.json",
+      "bytes": 8092,
+      "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd",
+      "actual": {
+        "bytes": 8092,
+        "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_PREFLIGHT_V0.1.json",
+      "bytes": 886,
+      "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4",
+      "actual": {
+        "bytes": 886,
+        "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_FREEZE_V0.1.json",
+      "bytes": 4267,
+      "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4",
+      "actual": {
+        "bytes": 4267,
+        "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_1440_FULL.png",
+      "bytes": 383022,
+      "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+      "logical_width": 1440,
+      "scale": 1,
+      "state": "FULL",
+      "evidence_type": "STATIC_VISUAL",
+      "actual": {
+        "bytes": 383022,
+        "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_768_FULL.png",
+      "bytes": 383896,
+      "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+      "logical_width": 768,
+      "scale": 1,
+      "state": "FULL",
+      "evidence_type": "STATIC_VISUAL",
+      "actual": {
+        "bytes": 383896,
+        "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FULL.png",
+      "bytes": 362758,
+      "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+      "logical_width": 390,
+      "scale": 1,
+      "state": "FULL",
+      "evidence_type": "STATIC_VISUAL",
+      "actual": {
+        "bytes": 362758,
+        "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_EMPTY_ERROR.png",
+      "bytes": 37024,
+      "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86",
+      "logical_width": 390,
+      "scale": 1,
+      "state": "EMPTY_ERROR",
+      "evidence_type": "STATIC_VISUAL",
+      "actual": {
+        "bytes": 37024,
+        "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_SELECTED.png",
+      "bytes": 36072,
+      "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c",
+      "logical_width": 390,
+      "scale": 1,
+      "state": "SELECTED",
+      "evidence_type": "STATIC_VISUAL",
+      "actual": {
+        "bytes": 36072,
+        "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FAQ2_OPEN.png",
+      "bytes": 37794,
+      "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e",
+      "logical_width": 390,
+      "scale": 1,
+      "state": "FAQ2_OPEN",
+      "evidence_type": "STATIC_VISUAL",
+      "actual": {
+        "bytes": 37794,
+        "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_MENU_OPEN.png",
+      "bytes": 37336,
+      "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97",
+      "logical_width": 390,
+      "scale": 1,
+      "state": "MENU_OPEN",
+      "evidence_type": "STATIC_VISUAL",
+      "actual": {
+        "bytes": 37336,
+        "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97"
+      },
+      "pass": true
+    },
+    {
+      "group": "approval_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_COOKIE.png",
+      "bytes": 24902,
+      "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c",
+      "logical_width": 390,
+      "scale": 1,
+      "state": "COOKIE",
+      "evidence_type": "STATIC_VISUAL",
+      "actual": {
+        "bytes": 24902,
+        "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/AGENTS.md",
+      "bytes": 13421,
+      "sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21",
+      "actual": {
+        "bytes": 13421,
+        "sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/PROJECT_CONTEXT.md",
+      "bytes": 9673,
+      "sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27",
+      "actual": {
+        "bytes": 9673,
+        "sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/01_PROJECT_INDEX.md",
+      "bytes": 46982,
+      "sha256": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2",
+      "actual": {
+        "bytes": 46982,
+        "sha256": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/superpowers/plans/2026-09-21-four-root-pages-d32-gate3-gate9.md",
+      "bytes": 11148,
+      "sha256": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37",
+      "actual": {
+        "bytes": 11148,
+        "sha256": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/page-briefs/DOC-000_DOCUMENTS_COMPLIANCE_BRIEF_V0.6.md",
+      "bytes": 11220,
+      "sha256": "561438171421419adfa50a20ebcaf26ebf4691ec85ac32a824cb2b2e81b4693f",
+      "actual": {
+        "bytes": 11220,
+        "sha256": "561438171421419adfa50a20ebcaf26ebf4691ec85ac32a824cb2b2e81b4693f"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/pages/documents/04_planning/DOC-000_CONTENT_ARCHITECTURE_V0.10.md",
+      "bytes": 12654,
+      "sha256": "019881f75517f87b75283a4a14fa7bea3163b740db6196b3b5f3778b84164326",
+      "actual": {
+        "bytes": 12654,
+        "sha256": "019881f75517f87b75283a4a14fa7bea3163b740db6196b3b5f3778b84164326"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/pages/documents/05_review/DOC-000_POST_GATE9_FAQ_GRADE_ALIGNMENT_DECISION_V0.1.md",
+      "bytes": 2388,
+      "sha256": "a6a7a14afd67d41464db3ae252b9224964243a2de601dceee8328264c32e7215",
+      "actual": {
+        "bytes": 2388,
+        "sha256": "a6a7a14afd67d41464db3ae252b9224964243a2de601dceee8328264c32e7215"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/pages/documents/06_handoff/DOC-000_CURRENT_GATE7_BASELINE_MANIFEST_V0.2.md",
+      "bytes": 5325,
+      "sha256": "5f85c4728a6f37c9c1b8e5d1c157173fc1ac90e8146f396fb7bd8817cb5635f2",
+      "actual": {
+        "bytes": 5325,
+        "sha256": "5f85c4728a6f37c9c1b8e5d1c157173fc1ac90e8146f396fb7bd8817cb5635f2"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+      "bytes": 3394,
+      "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01",
+      "actual": {
+        "bytes": 3394,
+        "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "bytes": 7235,
+      "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+      "actual": {
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "bytes": 13549,
+      "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+      "actual": {
+        "bytes": 13549,
+        "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "bytes": 2812,
+      "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+      "actual": {
+        "bytes": 2812,
+        "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "bytes": 4653,
+      "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580",
+      "actual": {
+        "bytes": 4653,
+        "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "bytes": 1289,
+      "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5",
+      "actual": {
+        "bytes": 1289,
+        "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/pages/products/PRODUCT-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "bytes": 1747,
+      "sha256": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004",
+      "actual": {
+        "bytes": 1747,
+        "sha256": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "bytes": 4502,
+      "sha256": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7",
+      "actual": {
+        "bytes": 4502,
+        "sha256": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "bytes": 11671,
+      "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+      "actual": {
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "bytes": 1960,
+      "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+      "actual": {
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "bytes": 8090,
+      "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+      "actual": {
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "bytes": 2310,
+      "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+      "actual": {
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "bytes": 2409,
+      "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+      "actual": {
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "bytes": 11126,
+      "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a",
+      "actual": {
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "actual": {
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "actual": {
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "bytes": 3889,
+      "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+      "actual": {
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "bytes": 2369,
+      "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+      "actual": {
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "bytes": 1426,
+      "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+      "actual": {
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "bytes": 5125,
+      "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+      "actual": {
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "bytes": 455,
+      "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+      "actual": {
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "bytes": 5668,
+      "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb",
+      "actual": {
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "actual": {
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "pass": true
+    },
+    {
+      "group": "input_or_shared",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "actual": {
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.html",
+      "bytes": 19294,
+      "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada",
+      "actual": {
+        "bytes": 19294,
+        "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.css",
+      "bytes": 4181,
+      "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552",
+      "actual": {
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_behavior.js",
+      "bytes": 1634,
+      "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e",
+      "actual": {
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_build.cjs",
+      "bytes": 5880,
+      "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a",
+      "actual": {
+        "bytes": 5880,
+        "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_verify.cjs",
+      "bytes": 8235,
+      "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5",
+      "actual": {
+        "bytes": 8235,
+        "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "bytes": 2409,
+      "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+      "actual": {
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "bytes": 11126,
+      "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a",
+      "actual": {
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "actual": {
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "actual": {
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "bytes": 3889,
+      "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+      "actual": {
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "bytes": 2369,
+      "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+      "actual": {
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "bytes": 1426,
+      "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+      "actual": {
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "bytes": 5125,
+      "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+      "actual": {
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "bytes": 455,
+      "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+      "actual": {
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "bytes": 5668,
+      "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb",
+      "actual": {
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "actual": {
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "actual": {
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_PREFLIGHT_V0.1.json",
+      "bytes": 886,
+      "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4",
+      "actual": {
+        "bytes": 886,
+        "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_INPUT_BINDING_V0.1.json",
+      "bytes": 8092,
+      "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd",
+      "actual": {
+        "bytes": 8092,
+        "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd"
+      },
+      "pass": true
+    }
+  ],
+  "observations": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "title": "Documents for Product & Supplier Qualification | TiO2 Malaysia",
+      "description": null,
+      "headings": [
+        "Documents for Product & Supplier Qualification",
+        "Select a Product Grade",
+        "How It Works",
+        "Supporting Your Review Process",
+        "Documentation You Can Request",
+        "Why Documents Are Provided on Request",
+        "Buyer Questions",
+        "Ready to Request Documents?"
+      ],
+      "text": "\nHome/Documents\nDOCUMENT HUBDocuments for Product & Supplier QualificationRequest technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.Requests are currently handled in English.Start a Document Request\nSelect a Product GradeSelect the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.Product GradeSelect a product gradeM-350M-510M-896M-996M-2196M-895M-200M-108M-210M-340M-886M-52M-2377CR-901Choose one grade to continue.Continue to Request DocumentsNot sure which grade to select? Explore Products.\nHow It WorksIdentify Your Review NeedChoose product evaluation, quality and supplier qualification, or origin review.Select a Product GradeChoose the titanium dioxide grade the documents should relate to.Request DocumentsContinue with the grade prefilled, select the document types you need, and submit your request.\nSupporting Your Review ProcessStart with the decision your team is preparing to make.Product EvaluationReview product data, specifications, safety and handling information for the selected grade.Quality & Supplier QualificationSupport QA and supplier qualification with quality information, COA-related documentation and supplier details.Origin & Supplier Qualification ReviewRequest origin and supplier-qualification information for purchasing and internal review.\nDocumentation You Can RequestChoose the category that best matches your review.Technical Data & Product DocumentationTechnical product data and specifications for evaluating the selected grade.Safety DocumentationSafety, handling and storage information for workplace and product review.Quality & COA DocumentationQuality information and COA-related documentation for QA and purchasing checks.Origin & Supplier Qualification DocumentationOrigin and company documentation for supplier qualification and purchasing review.\nWhy Documents Are Provided on RequestDocumentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.\nBuyer QuestionsWhat documents can I request?+You can request technical/product, safety, quality/COA, and origin/supplier-qualification documentation.Do I need to know the Product Grade?+You can start a document request without a preselected Grade, but a Product Grade is required before submission.Can I request more than one document type?+Yes. On the Request Documents form, you can select the document types your team needs.Can I change the prefilled Product Grade?+Yes. The selected Product Grade is prefilled on the request form and can be changed before submission.Why are documents provided on request?+Documentation can differ by product and review purpose. A request helps match the materials to the selected Grade and your team's needs.What language is used for document requests?+Requests are currently handled in English.\nDOCUMENT REQUESTReady to Request Documents?Select the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.Select a Product Grade",
+      "visible": "Home\n/\nDocuments\n\nDOCUMENT HUB\n\nDocuments for Product & Supplier Qualification\n\nRequest technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.\n\nRequests are currently handled in English.\n\nStart a Document Request\nSelect a Product Grade\n\nSelect the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.\n\nProduct Grade\nSelect a product grade\nM-350\nM-510\nM-896\nM-996\nM-2196\nM-895\nM-200\nM-108\nM-210\nM-340\nM-886\nM-52\nM-2377\nCR-901\n\nChoose one grade to continue.\n\nContinue to Request Documents\nNot sure which grade to select? Explore Products.\nHow It Works\nIdentify Your Review Need\n\nChoose product evaluation, quality and supplier qualification, or origin review.\n\nSelect a Product Grade\n\nChoose the titanium dioxide grade the documents should relate to.\n\nRequest Documents\n\nContinue with the grade prefilled, select the document types you need, and submit your request.\n\nSupporting Your Review Process\n\nStart with the decision your team is preparing to make.\n\nProduct Evaluation\n\nReview product data, specifications, safety and handling information for the selected grade.\n\nQuality & Supplier Qualification\n\nSupport QA and supplier qualification with quality information, COA-related documentation and supplier details.\n\nOrigin & Supplier Qualification Review\n\nRequest origin and supplier-qualification information for purchasing and internal review.\n\nDocumentation You Can Request\n\nChoose the category that best matches your review.\n\nTechnical Data & Product Documentation\n\nTechnical product data and specifications for evaluating the selected grade.\n\nSafety Documentation\n\nSafety, handling and storage information for workplace and product review.\n\nQuality & COA Documentation\n\nQuality information and COA-related documentation for QA and purchasing checks.\n\nOrigin & Supplier Qualification Documentation\n\nOrigin and company documentation for supplier qualification and purchasing review.\n\nWhy Documents Are Provided on Request\n\nDocumentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.\n\nBuyer Questions\nWhat documents can I request?\n+\nDo I need to know the Product Grade?\n+\nCan I request more than one document type?\n+\nCan I change the prefilled Product Grade?\n+\nWhy are documents provided on request?\n+\nWhat language is used for document requests?\n+\n\nDOCUMENT REQUEST\n\nReady to Request Documents?\n\nSelect the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.\n\nSelect a Product Grade",
+      "controls": [
+        {
+          "label": "",
+          "w": 180,
+          "h": 60
+        },
+        {
+          "label": "Home",
+          "w": 44,
+          "h": 83
+        },
+        {
+          "label": "Markets",
+          "w": 54.28125,
+          "h": 83
+        },
+        {
+          "label": "Products",
+          "w": 59.921875,
+          "h": 83
+        },
+        {
+          "label": "Applications",
+          "w": 83.171875,
+          "h": 83
+        },
+        {
+          "label": "Documents",
+          "w": 78.359375,
+          "h": 83
+        },
+        {
+          "label": "Resources",
+          "w": 70.515625,
+          "h": 83
+        },
+        {
+          "label": "About",
+          "w": 44,
+          "h": 83
+        },
+        {
+          "label": "Request a QuoteRFQ",
+          "w": 149.546875,
+          "h": 48
+        },
+        {
+          "label": "Home",
+          "w": 44.53125,
+          "h": 44
+        },
+        {
+          "label": "Start a Document Request",
+          "w": 242.828125,
+          "h": 50
+        },
+        {
+          "label": "Select a product gradeM-350M-510M-896M-996M-2196M-895M-200M-108M-210M-340M-886M-52M-2377CR-901",
+          "w": 545.5,
+          "h": 48
+        },
+        {
+          "label": "Continue to Request Documents",
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "label": "Not sure which grade to select? Explore Products.",
+          "w": 545.5,
+          "h": 44
+        },
+        {
+          "label": "What documents can I request?+",
+          "w": 1200,
+          "h": 59
+        },
+        {
+          "label": "Do I need to know the Product Grade?+",
+          "w": 1200,
+          "h": 59
+        },
+        {
+          "label": "Can I request more than one document type?+",
+          "w": 1200,
+          "h": 59
+        },
+        {
+          "label": "Can I change the prefilled Product Grade?+",
+          "w": 1200,
+          "h": 59
+        },
+        {
+          "label": "Why are documents provided on request?+",
+          "w": 1200,
+          "h": 59
+        },
+        {
+          "label": "What language is used for document requests?+",
+          "w": 1200,
+          "h": 59
+        },
+        {
+          "label": "Select a Product Grade",
+          "w": 218.296875,
+          "h": 50
+        },
+        {
+          "label": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "label": "Markets",
+          "w": 54.28125,
+          "h": 44
+        },
+        {
+          "label": "Products",
+          "w": 59.921875,
+          "h": 44
+        },
+        {
+          "label": "Applications",
+          "w": 83.171875,
+          "h": 44
+        },
+        {
+          "label": "Documents",
+          "w": 76.328125,
+          "h": 44
+        },
+        {
+          "label": "Resources",
+          "w": 70.515625,
+          "h": 44
+        },
+        {
+          "label": "About",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "label": "Request a Quote",
+          "w": 148.625,
+          "h": 44
+        },
+        {
+          "label": "Privacy Policy",
+          "w": 93.8125,
+          "h": 44
+        },
+        {
+          "label": "Dasar Privasi (BM)",
+          "w": 123.734375,
+          "h": 44
+        },
+        {
+          "label": "Cookie Policy",
+          "w": 90.765625,
+          "h": 44
+        },
+        {
+          "label": "Cookie Settings",
+          "w": 105.40625,
+          "h": 44
+        }
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3675,
+      "headerHeight": 84,
+      "h1": {
+        "size": "56px",
+        "weight": "700",
+        "lines": 2
+      },
+      "media": {
+        "visible": true,
+        "ariaHidden": "true"
+      },
+      "leaves": [
+        {
+          "text": "Home",
+          "left": 120,
+          "right": 164.53125,
+          "w": 44.53125,
+          "h": 44,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "text": "DOCUMENT HUB",
+          "left": 177,
+          "right": 844.921875,
+          "w": 667.921875,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Documents for Product & Supplier Qualification",
+          "left": 177,
+          "right": 844.921875,
+          "w": 667.921875,
+          "h": 118.15625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 122,
+          "clientHeight": 118
+        },
+        {
+          "text": "Request technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.",
+          "left": 177,
+          "right": 844.921875,
+          "w": 667.921875,
+          "h": 59.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Requests are currently handled in English.",
+          "left": 177,
+          "right": 844.921875,
+          "w": 667.921875,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Start a Document Request",
+          "left": 177,
+          "right": 419.828125,
+          "w": 242.828125,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 156,
+          "right": 701.5,
+          "w": 545.5,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Select the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.",
+          "left": 156,
+          "right": 701.5,
+          "w": 545.5,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Choose one grade to continue.",
+          "left": 741.5,
+          "right": 1287,
+          "w": 545.5,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "",
+          "left": 741.5,
+          "right": 1287,
+          "w": 545.5,
+          "h": 24,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 24,
+          "clientHeight": 24
+        },
+        {
+          "text": "",
+          "left": 741.5,
+          "right": 1287,
+          "w": 545.5,
+          "h": 24,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 24,
+          "clientHeight": 24
+        },
+        {
+          "text": "Continue to Request Documents",
+          "left": 741.5,
+          "right": 1031.265625,
+          "w": 289.765625,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "text": "Not sure which grade to select? Explore Products.",
+          "left": 741.5,
+          "right": 1287,
+          "w": 545.5,
+          "h": 44,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "text": "How It Works",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Identify Your Review Need",
+          "left": 152,
+          "right": 514.65625,
+          "w": 362.65625,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Choose product evaluation, quality and supplier qualification, or origin review.",
+          "left": 152,
+          "right": 514.65625,
+          "w": 362.65625,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 554.65625,
+          "right": 917.328125,
+          "w": 362.671875,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Choose the titanium dioxide grade the documents should relate to.",
+          "left": 554.65625,
+          "right": 917.328125,
+          "w": 362.671875,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Request Documents",
+          "left": 957.328125,
+          "right": 1319.984375,
+          "w": 362.65625,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Continue with the grade prefilled, select the document types you need, and submit your request.",
+          "left": 957.328125,
+          "right": 1319.984375,
+          "w": 362.65625,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Supporting Your Review Process",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Start with the decision your team is preparing to make.",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 26.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 26,
+          "clientHeight": 26
+        },
+        {
+          "text": "Product Evaluation",
+          "left": 149,
+          "right": 475,
+          "w": 326,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Review product data, specifications, safety and handling information for the selected grade.",
+          "left": 149,
+          "right": 475,
+          "w": 326,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Quality & Supplier Qualification",
+          "left": 557,
+          "right": 883,
+          "w": 326,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Support QA and supplier qualification with quality information, COA-related documentation and supplier details.",
+          "left": 557,
+          "right": 883,
+          "w": 326,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Origin & Supplier Qualification Review",
+          "left": 965,
+          "right": 1291,
+          "w": 326,
+          "h": 50.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "text": "Request origin and supplier-qualification information for purchasing and internal review.",
+          "left": 965,
+          "right": 1291,
+          "w": 326,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Documentation You Can Request",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Choose the category that best matches your review.",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 26.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 26,
+          "clientHeight": 26
+        },
+        {
+          "text": "Technical Data & Product Documentation",
+          "left": 149,
+          "right": 679,
+          "w": 530,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Technical product data and specifications for evaluating the selected grade.",
+          "left": 149,
+          "right": 679,
+          "w": 530,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Safety Documentation",
+          "left": 761,
+          "right": 1291,
+          "w": 530,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Safety, handling and storage information for workplace and product review.",
+          "left": 761,
+          "right": 1291,
+          "w": 530,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Quality & COA Documentation",
+          "left": 149,
+          "right": 679,
+          "w": 530,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Quality information and COA-related documentation for QA and purchasing checks.",
+          "left": 149,
+          "right": 679,
+          "w": 530,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Origin & Supplier Qualification Documentation",
+          "left": 761,
+          "right": 1291,
+          "w": 530,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Origin and company documentation for supplier qualification and purchasing review.",
+          "left": 761,
+          "right": 1291,
+          "w": 530,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Why Documents Are Provided on Request",
+          "left": 152,
+          "right": 1288,
+          "w": 1136,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Documentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.",
+          "left": 152,
+          "right": 1288,
+          "w": 1136,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Buyer Questions",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "What documents can I request?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "What documents can I request?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Do I need to know the Product Grade?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Do I need to know the Product Grade?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Can I request more than one document type?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Can I request more than one document type?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Can I change the prefilled Product Grade?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Can I change the prefilled Product Grade?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Why are documents provided on request?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Why are documents provided on request?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "What language is used for document requests?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "What language is used for document requests?+",
+          "left": 120,
+          "right": 1320,
+          "w": 1200,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "DOCUMENT REQUEST",
+          "left": 156,
+          "right": 1006,
+          "w": 850,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Ready to Request Documents?",
+          "left": 156,
+          "right": 1284,
+          "w": 1128,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Select the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.",
+          "left": 156,
+          "right": 1006,
+          "w": 850,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 156,
+          "right": 374.296875,
+          "w": 218.296875,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        }
+      ],
+      "images": [
+        true,
+        true
+      ],
+      "current": [
+        "Documents",
+        "Documents"
+      ],
+      "legal": [
+        "/privacy-policy/",
+        "/ms/privacy-policy/",
+        "/cookie-policy/"
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1000
+      ],
+      "title": "Documents for Product & Supplier Qualification | TiO2 Malaysia",
+      "description": null,
+      "headings": [
+        "Documents for Product & Supplier Qualification",
+        "Select a Product Grade",
+        "How It Works",
+        "Supporting Your Review Process",
+        "Documentation You Can Request",
+        "Why Documents Are Provided on Request",
+        "Buyer Questions",
+        "Ready to Request Documents?"
+      ],
+      "text": "\nHome/Documents\nDOCUMENT HUBDocuments for Product & Supplier QualificationRequest technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.Requests are currently handled in English.Start a Document Request\nSelect a Product GradeSelect the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.Product GradeSelect a product gradeM-350M-510M-896M-996M-2196M-895M-200M-108M-210M-340M-886M-52M-2377CR-901Choose one grade to continue.Continue to Request DocumentsNot sure which grade to select? Explore Products.\nHow It WorksIdentify Your Review NeedChoose product evaluation, quality and supplier qualification, or origin review.Select a Product GradeChoose the titanium dioxide grade the documents should relate to.Request DocumentsContinue with the grade prefilled, select the document types you need, and submit your request.\nSupporting Your Review ProcessStart with the decision your team is preparing to make.Product EvaluationReview product data, specifications, safety and handling information for the selected grade.Quality & Supplier QualificationSupport QA and supplier qualification with quality information, COA-related documentation and supplier details.Origin & Supplier Qualification ReviewRequest origin and supplier-qualification information for purchasing and internal review.\nDocumentation You Can RequestChoose the category that best matches your review.Technical Data & Product DocumentationTechnical product data and specifications for evaluating the selected grade.Safety DocumentationSafety, handling and storage information for workplace and product review.Quality & COA DocumentationQuality information and COA-related documentation for QA and purchasing checks.Origin & Supplier Qualification DocumentationOrigin and company documentation for supplier qualification and purchasing review.\nWhy Documents Are Provided on RequestDocumentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.\nBuyer QuestionsWhat documents can I request?+You can request technical/product, safety, quality/COA, and origin/supplier-qualification documentation.Do I need to know the Product Grade?+You can start a document request without a preselected Grade, but a Product Grade is required before submission.Can I request more than one document type?+Yes. On the Request Documents form, you can select the document types your team needs.Can I change the prefilled Product Grade?+Yes. The selected Product Grade is prefilled on the request form and can be changed before submission.Why are documents provided on request?+Documentation can differ by product and review purpose. A request helps match the materials to the selected Grade and your team's needs.What language is used for document requests?+Requests are currently handled in English.\nDOCUMENT REQUESTReady to Request Documents?Select the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.Select a Product Grade",
+      "visible": "Home\n/\nDocuments\n\nDOCUMENT HUB\n\nDocuments for Product & Supplier Qualification\n\nRequest technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.\n\nRequests are currently handled in English.\n\nStart a Document Request\nSelect a Product Grade\n\nSelect the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.\n\nProduct Grade\nSelect a product grade\nM-350\nM-510\nM-896\nM-996\nM-2196\nM-895\nM-200\nM-108\nM-210\nM-340\nM-886\nM-52\nM-2377\nCR-901\n\nChoose one grade to continue.\n\nContinue to Request Documents\nNot sure which grade to select? Explore Products.\nHow It Works\nIdentify Your Review Need\n\nChoose product evaluation, quality and supplier qualification, or origin review.\n\nSelect a Product Grade\n\nChoose the titanium dioxide grade the documents should relate to.\n\nRequest Documents\n\nContinue with the grade prefilled, select the document types you need, and submit your request.\n\nSupporting Your Review Process\n\nStart with the decision your team is preparing to make.\n\nProduct Evaluation\n\nReview product data, specifications, safety and handling information for the selected grade.\n\nQuality & Supplier Qualification\n\nSupport QA and supplier qualification with quality information, COA-related documentation and supplier details.\n\nOrigin & Supplier Qualification Review\n\nRequest origin and supplier-qualification information for purchasing and internal review.\n\nDocumentation You Can Request\n\nChoose the category that best matches your review.\n\nTechnical Data & Product Documentation\n\nTechnical product data and specifications for evaluating the selected grade.\n\nSafety Documentation\n\nSafety, handling and storage information for workplace and product review.\n\nQuality & COA Documentation\n\nQuality information and COA-related documentation for QA and purchasing checks.\n\nOrigin & Supplier Qualification Documentation\n\nOrigin and company documentation for supplier qualification and purchasing review.\n\nWhy Documents Are Provided on Request\n\nDocumentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.\n\nBuyer Questions\nWhat documents can I request?\n+\nDo I need to know the Product Grade?\n+\nCan I request more than one document type?\n+\nCan I change the prefilled Product Grade?\n+\nWhy are documents provided on request?\n+\nWhat language is used for document requests?\n+\n\nDOCUMENT REQUEST\n\nReady to Request Documents?\n\nSelect the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.\n\nSelect a Product Grade",
+      "controls": [
+        {
+          "label": "",
+          "w": 120,
+          "h": 44
+        },
+        {
+          "label": "Request a QuoteRFQ",
+          "w": 58.1875,
+          "h": 44
+        },
+        {
+          "label": "Menu",
+          "w": 64.34375,
+          "h": 44
+        },
+        {
+          "label": "Home",
+          "w": 44.53125,
+          "h": 44
+        },
+        {
+          "label": "Start a Document Request",
+          "w": 242.828125,
+          "h": 50
+        },
+        {
+          "label": "Select a product gradeM-350M-510M-896M-996M-2196M-895M-200M-108M-210M-340M-886M-52M-2377CR-901",
+          "w": 635,
+          "h": 48
+        },
+        {
+          "label": "Continue to Request Documents",
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "label": "Not sure which grade to select? Explore Products.",
+          "w": 635,
+          "h": 44
+        },
+        {
+          "label": "What documents can I request?+",
+          "w": 704,
+          "h": 59
+        },
+        {
+          "label": "Do I need to know the Product Grade?+",
+          "w": 704,
+          "h": 59
+        },
+        {
+          "label": "Can I request more than one document type?+",
+          "w": 704,
+          "h": 59
+        },
+        {
+          "label": "Can I change the prefilled Product Grade?+",
+          "w": 704,
+          "h": 59
+        },
+        {
+          "label": "Why are documents provided on request?+",
+          "w": 704,
+          "h": 59
+        },
+        {
+          "label": "What language is used for document requests?+",
+          "w": 704,
+          "h": 59
+        },
+        {
+          "label": "Select a Product Grade",
+          "w": 218.296875,
+          "h": 50
+        },
+        {
+          "label": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "label": "Markets",
+          "w": 54.28125,
+          "h": 44
+        },
+        {
+          "label": "Products",
+          "w": 59.921875,
+          "h": 44
+        },
+        {
+          "label": "Applications",
+          "w": 83.171875,
+          "h": 44
+        },
+        {
+          "label": "Documents",
+          "w": 76.328125,
+          "h": 44
+        },
+        {
+          "label": "Resources",
+          "w": 70.515625,
+          "h": 44
+        },
+        {
+          "label": "About",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "label": "Request a Quote",
+          "w": 148.625,
+          "h": 44
+        },
+        {
+          "label": "Privacy Policy",
+          "w": 93.8125,
+          "h": 44
+        },
+        {
+          "label": "Dasar Privasi (BM)",
+          "w": 123.734375,
+          "h": 44
+        },
+        {
+          "label": "Cookie Policy",
+          "w": 90.765625,
+          "h": 44
+        },
+        {
+          "label": "Cookie Settings",
+          "w": 105.40625,
+          "h": 44
+        }
+      ],
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 4787,
+      "headerHeight": 64,
+      "h1": {
+        "size": "44px",
+        "weight": "700",
+        "lines": 2
+      },
+      "media": {
+        "visible": true,
+        "ariaHidden": "true"
+      },
+      "leaves": [
+        {
+          "text": "Home",
+          "left": 32,
+          "right": 76.53125,
+          "w": 44.53125,
+          "h": 44,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "text": "DOCUMENT HUB",
+          "left": 73,
+          "right": 695,
+          "w": 622,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Documents for Product & Supplier Qualification",
+          "left": 73,
+          "right": 695,
+          "w": 622,
+          "h": 92.8125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 96,
+          "clientHeight": 93
+        },
+        {
+          "text": "Request technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.",
+          "left": 73,
+          "right": 695,
+          "w": 622,
+          "h": 59.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Requests are currently handled in English.",
+          "left": 73,
+          "right": 695,
+          "w": 622,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Start a Document Request",
+          "left": 73,
+          "right": 315.828125,
+          "w": 242.828125,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 68,
+          "right": 703,
+          "w": 635,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Select the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.",
+          "left": 68,
+          "right": 703,
+          "w": 635,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Choose one grade to continue.",
+          "left": 68,
+          "right": 703,
+          "w": 635,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "",
+          "left": 68,
+          "right": 703,
+          "w": 635,
+          "h": 24,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 24,
+          "clientHeight": 24
+        },
+        {
+          "text": "",
+          "left": 68,
+          "right": 703,
+          "w": 635,
+          "h": 24,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 24,
+          "clientHeight": 24
+        },
+        {
+          "text": "Continue to Request Documents",
+          "left": 68,
+          "right": 357.765625,
+          "w": 289.765625,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "text": "Not sure which grade to select? Explore Products.",
+          "left": 68,
+          "right": 703,
+          "w": 635,
+          "h": 44,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "text": "How It Works",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Identify Your Review Need",
+          "left": 64,
+          "right": 736,
+          "w": 672,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Choose product evaluation, quality and supplier qualification, or origin review.",
+          "left": 64,
+          "right": 736,
+          "w": 672,
+          "h": 26.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 26,
+          "clientHeight": 26
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 64,
+          "right": 736,
+          "w": 672,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Choose the titanium dioxide grade the documents should relate to.",
+          "left": 64,
+          "right": 736,
+          "w": 672,
+          "h": 26.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 26,
+          "clientHeight": 26
+        },
+        {
+          "text": "Request Documents",
+          "left": 64,
+          "right": 736,
+          "w": 672,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Continue with the grade prefilled, select the document types you need, and submit your request.",
+          "left": 64,
+          "right": 736,
+          "w": 672,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Supporting Your Review Process",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Start with the decision your team is preparing to make.",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 26.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 26,
+          "clientHeight": 26
+        },
+        {
+          "text": "Product Evaluation",
+          "left": 61,
+          "right": 707,
+          "w": 646,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Review product data, specifications, safety and handling information for the selected grade.",
+          "left": 61,
+          "right": 707,
+          "w": 646,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Quality & Supplier Qualification",
+          "left": 61,
+          "right": 707,
+          "w": 646,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Support QA and supplier qualification with quality information, COA-related documentation and supplier details.",
+          "left": 61,
+          "right": 707,
+          "w": 646,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Origin & Supplier Qualification Review",
+          "left": 61,
+          "right": 707,
+          "w": 646,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Request origin and supplier-qualification information for purchasing and internal review.",
+          "left": 61,
+          "right": 707,
+          "w": 646,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Documentation You Can Request",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Choose the category that best matches your review.",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 26.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 26,
+          "clientHeight": 26
+        },
+        {
+          "text": "Technical Data & Product Documentation",
+          "left": 61,
+          "right": 343,
+          "w": 282,
+          "h": 50.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "text": "Technical product data and specifications for evaluating the selected grade.",
+          "left": 61,
+          "right": 343,
+          "w": 282,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Safety Documentation",
+          "left": 425,
+          "right": 707,
+          "w": 282,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Safety, handling and storage information for workplace and product review.",
+          "left": 425,
+          "right": 707,
+          "w": 282,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Quality & COA Documentation",
+          "left": 61,
+          "right": 343,
+          "w": 282,
+          "h": 50.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "text": "Quality information and COA-related documentation for QA and purchasing checks.",
+          "left": 61,
+          "right": 343,
+          "w": 282,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Origin & Supplier Qualification Documentation",
+          "left": 425,
+          "right": 707,
+          "w": 282,
+          "h": 75.5625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 76,
+          "clientHeight": 76
+        },
+        {
+          "text": "Origin and company documentation for supplier qualification and purchasing review.",
+          "left": 425,
+          "right": 707,
+          "w": 282,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Why Documents Are Provided on Request",
+          "left": 64,
+          "right": 704,
+          "w": 640,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Documentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.",
+          "left": 64,
+          "right": 704,
+          "w": 640,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Buyer Questions",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "What documents can I request?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "What documents can I request?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Do I need to know the Product Grade?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Do I need to know the Product Grade?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Can I request more than one document type?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Can I request more than one document type?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Can I change the prefilled Product Grade?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Can I change the prefilled Product Grade?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Why are documents provided on request?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Why are documents provided on request?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "What language is used for document requests?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "What language is used for document requests?+",
+          "left": 32,
+          "right": 736,
+          "w": 704,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "DOCUMENT REQUEST",
+          "left": 68,
+          "right": 700,
+          "w": 632,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Ready to Request Documents?",
+          "left": 68,
+          "right": 700,
+          "w": 632,
+          "h": 38.390625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 38,
+          "clientHeight": 38
+        },
+        {
+          "text": "Select the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.",
+          "left": 68,
+          "right": 700,
+          "w": 632,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 68,
+          "right": 286.296875,
+          "w": 218.296875,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        }
+      ],
+      "images": [
+        true,
+        true
+      ],
+      "current": [
+        "Documents",
+        "Documents"
+      ],
+      "legal": [
+        "/privacy-policy/",
+        "/ms/privacy-policy/",
+        "/cookie-policy/"
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        1000
+      ],
+      "title": "Documents for Product & Supplier Qualification | TiO2 Malaysia",
+      "description": null,
+      "headings": [
+        "Documents for Product & Supplier Qualification",
+        "Select a Product Grade",
+        "How It Works",
+        "Supporting Your Review Process",
+        "Documentation You Can Request",
+        "Why Documents Are Provided on Request",
+        "Buyer Questions",
+        "Ready to Request Documents?"
+      ],
+      "text": "\nHome/Documents\nDOCUMENT HUBDocuments for Product & Supplier QualificationRequest technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.Requests are currently handled in English.Start a Document Request\nSelect a Product GradeSelect the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.Product GradeSelect a product gradeM-350M-510M-896M-996M-2196M-895M-200M-108M-210M-340M-886M-52M-2377CR-901Choose one grade to continue.Continue to Request DocumentsNot sure which grade to select? Explore Products.\nHow It WorksIdentify Your Review NeedChoose product evaluation, quality and supplier qualification, or origin review.Select a Product GradeChoose the titanium dioxide grade the documents should relate to.Request DocumentsContinue with the grade prefilled, select the document types you need, and submit your request.\nSupporting Your Review ProcessStart with the decision your team is preparing to make.Product EvaluationReview product data, specifications, safety and handling information for the selected grade.Quality & Supplier QualificationSupport QA and supplier qualification with quality information, COA-related documentation and supplier details.Origin & Supplier Qualification ReviewRequest origin and supplier-qualification information for purchasing and internal review.\nDocumentation You Can RequestChoose the category that best matches your review.Technical Data & Product DocumentationTechnical product data and specifications for evaluating the selected grade.Safety DocumentationSafety, handling and storage information for workplace and product review.Quality & COA DocumentationQuality information and COA-related documentation for QA and purchasing checks.Origin & Supplier Qualification DocumentationOrigin and company documentation for supplier qualification and purchasing review.\nWhy Documents Are Provided on RequestDocumentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.\nBuyer QuestionsWhat documents can I request?+You can request technical/product, safety, quality/COA, and origin/supplier-qualification documentation.Do I need to know the Product Grade?+You can start a document request without a preselected Grade, but a Product Grade is required before submission.Can I request more than one document type?+Yes. On the Request Documents form, you can select the document types your team needs.Can I change the prefilled Product Grade?+Yes. The selected Product Grade is prefilled on the request form and can be changed before submission.Why are documents provided on request?+Documentation can differ by product and review purpose. A request helps match the materials to the selected Grade and your team's needs.What language is used for document requests?+Requests are currently handled in English.\nDOCUMENT REQUESTReady to Request Documents?Select the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.Select a Product Grade",
+      "visible": "Home\n/\nDocuments\n\nDOCUMENT HUB\n\nDocuments for Product & Supplier Qualification\n\nRequest technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.\n\nRequests are currently handled in English.\n\nStart a Document Request\nSelect a Product Grade\n\nSelect the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.\n\nProduct Grade\nSelect a product grade\nM-350\nM-510\nM-896\nM-996\nM-2196\nM-895\nM-200\nM-108\nM-210\nM-340\nM-886\nM-52\nM-2377\nCR-901\n\nChoose one grade to continue.\n\nContinue to Request Documents\nNot sure which grade to select? Explore Products.\nHow It Works\nIdentify Your Review Need\n\nChoose product evaluation, quality and supplier qualification, or origin review.\n\nSelect a Product Grade\n\nChoose the titanium dioxide grade the documents should relate to.\n\nRequest Documents\n\nContinue with the grade prefilled, select the document types you need, and submit your request.\n\nSupporting Your Review Process\n\nStart with the decision your team is preparing to make.\n\nProduct Evaluation\n\nReview product data, specifications, safety and handling information for the selected grade.\n\nQuality & Supplier Qualification\n\nSupport QA and supplier qualification with quality information, COA-related documentation and supplier details.\n\nOrigin & Supplier Qualification Review\n\nRequest origin and supplier-qualification information for purchasing and internal review.\n\nDocumentation You Can Request\n\nChoose the category that best matches your review.\n\nTechnical Data & Product Documentation\n\nTechnical product data and specifications for evaluating the selected grade.\n\nSafety Documentation\n\nSafety, handling and storage information for workplace and product review.\n\nQuality & COA Documentation\n\nQuality information and COA-related documentation for QA and purchasing checks.\n\nOrigin & Supplier Qualification Documentation\n\nOrigin and company documentation for supplier qualification and purchasing review.\n\nWhy Documents Are Provided on Request\n\nDocumentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.\n\nBuyer Questions\nWhat documents can I request?\n+\nDo I need to know the Product Grade?\n+\nCan I request more than one document type?\n+\nCan I change the prefilled Product Grade?\n+\nWhy are documents provided on request?\n+\nWhat language is used for document requests?\n+\n\nDOCUMENT REQUEST\n\nReady to Request Documents?\n\nSelect the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.\n\nSelect a Product Grade",
+      "controls": [
+        {
+          "label": "",
+          "w": 120,
+          "h": 44
+        },
+        {
+          "label": "Request a QuoteRFQ",
+          "w": 58.1875,
+          "h": 44
+        },
+        {
+          "label": "Menu",
+          "w": 64.34375,
+          "h": 44
+        },
+        {
+          "label": "Home",
+          "w": 44.53125,
+          "h": 44
+        },
+        {
+          "label": "Start a Document Request",
+          "w": 300,
+          "h": 50
+        },
+        {
+          "label": "Select a product gradeM-350M-510M-896M-996M-2196M-895M-200M-108M-210M-340M-886M-52M-2377CR-901",
+          "w": 297,
+          "h": 48
+        },
+        {
+          "label": "Continue to Request Documents",
+          "w": 297,
+          "h": 50
+        },
+        {
+          "label": "Not sure which grade to select? Explore Products.",
+          "w": 297,
+          "h": 52.78125
+        },
+        {
+          "label": "What documents can I request?+",
+          "w": 350,
+          "h": 59
+        },
+        {
+          "label": "Do I need to know the Product Grade?+",
+          "w": 350,
+          "h": 86
+        },
+        {
+          "label": "Can I request more than one document type?+",
+          "w": 350,
+          "h": 86
+        },
+        {
+          "label": "Can I change the prefilled Product Grade?+",
+          "w": 350,
+          "h": 86
+        },
+        {
+          "label": "Why are documents provided on request?+",
+          "w": 350,
+          "h": 86
+        },
+        {
+          "label": "What language is used for document requests?+",
+          "w": 350,
+          "h": 86
+        },
+        {
+          "label": "Select a Product Grade",
+          "w": 302,
+          "h": 50
+        },
+        {
+          "label": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "label": "Markets",
+          "w": 54.28125,
+          "h": 44
+        },
+        {
+          "label": "Products",
+          "w": 59.921875,
+          "h": 44
+        },
+        {
+          "label": "Applications",
+          "w": 83.171875,
+          "h": 44
+        },
+        {
+          "label": "Documents",
+          "w": 76.328125,
+          "h": 44
+        },
+        {
+          "label": "Resources",
+          "w": 70.515625,
+          "h": 44
+        },
+        {
+          "label": "About",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "label": "Request a Quote",
+          "w": 148.625,
+          "h": 44
+        },
+        {
+          "label": "Privacy Policy",
+          "w": 93.8125,
+          "h": 44
+        },
+        {
+          "label": "Dasar Privasi (BM)",
+          "w": 123.734375,
+          "h": 44
+        },
+        {
+          "label": "Cookie Policy",
+          "w": 90.765625,
+          "h": 44
+        },
+        {
+          "label": "Cookie Settings",
+          "w": 105.40625,
+          "h": 44
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 5840,
+      "headerHeight": 64,
+      "h1": {
+        "size": "36px",
+        "weight": "700",
+        "lines": 3
+      },
+      "media": {
+        "visible": true,
+        "ariaHidden": "true"
+      },
+      "leaves": [
+        {
+          "text": "Home",
+          "left": 20,
+          "right": 64.53125,
+          "w": 44.53125,
+          "h": 44,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "text": "DOCUMENT HUB",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Documents for Product & Supplier Qualification",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 116.625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 119,
+          "clientHeight": 117
+        },
+        {
+          "text": "Request technical, safety, quality, COA, origin and supplier-qualification documentation for the titanium dioxide grade your team is evaluating.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 105.5625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 106,
+          "clientHeight": 106
+        },
+        {
+          "text": "Requests are currently handled in English.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Start a Document Request",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 48,
+          "right": 345,
+          "w": 297,
+          "h": 67.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 67,
+          "clientHeight": 67
+        },
+        {
+          "text": "Select the product grade the documents relate to. It will be prefilled on the request form and can be changed before submission.",
+          "left": 48,
+          "right": 345,
+          "w": 297,
+          "h": 105.5625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 106,
+          "clientHeight": 106
+        },
+        {
+          "text": "Choose one grade to continue.",
+          "left": 48,
+          "right": 345,
+          "w": 297,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "",
+          "left": 48,
+          "right": 345,
+          "w": 297,
+          "h": 24,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 24,
+          "clientHeight": 24
+        },
+        {
+          "text": "",
+          "left": 48,
+          "right": 345,
+          "w": 297,
+          "h": 24,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 24,
+          "clientHeight": 24
+        },
+        {
+          "text": "Continue to Request Documents",
+          "left": 48,
+          "right": 345,
+          "w": 297,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "text": "Not sure which grade to select? Explore Products.",
+          "left": 48,
+          "right": 345,
+          "w": 297,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "How It Works",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 33.59375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 34,
+          "clientHeight": 34
+        },
+        {
+          "text": "Identify Your Review Need",
+          "left": 52,
+          "right": 370,
+          "w": 318,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Choose product evaluation, quality and supplier qualification, or origin review.",
+          "left": 52,
+          "right": 370,
+          "w": 318,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 52,
+          "right": 370,
+          "w": 318,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Choose the titanium dioxide grade the documents should relate to.",
+          "left": 52,
+          "right": 370,
+          "w": 318,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Request Documents",
+          "left": 52,
+          "right": 370,
+          "w": 318,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Continue with the grade prefilled, select the document types you need, and submit your request.",
+          "left": 52,
+          "right": 370,
+          "w": 318,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Supporting Your Review Process",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 67.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 67,
+          "clientHeight": 67
+        },
+        {
+          "text": "Start with the decision your team is preparing to make.",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Product Evaluation",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Review product data, specifications, safety and handling information for the selected grade.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Quality & Supplier Qualification",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 50.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "text": "Support QA and supplier qualification with quality information, COA-related documentation and supplier details.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Origin & Supplier Qualification Review",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 50.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "text": "Request origin and supplier-qualification information for purchasing and internal review.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Documentation You Can Request",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 67.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 67,
+          "clientHeight": 67
+        },
+        {
+          "text": "Choose the category that best matches your review.",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 52.78125,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "text": "Technical Data & Product Documentation",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 50.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "text": "Technical product data and specifications for evaluating the selected grade.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Safety Documentation",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 25.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "text": "Safety, handling and storage information for workplace and product review.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Quality & COA Documentation",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 50.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "text": "Quality information and COA-related documentation for QA and purchasing checks.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Origin & Supplier Qualification Documentation",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 50.375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "text": "Origin and company documentation for supplier qualification and purchasing review.",
+          "left": 45,
+          "right": 345,
+          "w": 300,
+          "h": 79.171875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "text": "Why Documents Are Provided on Request",
+          "left": 44,
+          "right": 346,
+          "w": 302,
+          "h": 67.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 67,
+          "clientHeight": 67
+        },
+        {
+          "text": "Documentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review.",
+          "left": 44,
+          "right": 346,
+          "w": 302,
+          "h": 158.34375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 158,
+          "clientHeight": 158
+        },
+        {
+          "text": "Buyer Questions",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 33.59375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 34,
+          "clientHeight": 34
+        },
+        {
+          "text": "What documents can I request?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "What documents can I request?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 59,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 59,
+          "clientHeight": 59
+        },
+        {
+          "text": "Do I need to know the Product Grade?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "Do I need to know the Product Grade?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "Can I request more than one document type?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "Can I request more than one document type?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "Can I change the prefilled Product Grade?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "Can I change the prefilled Product Grade?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "Why are documents provided on request?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "Why are documents provided on request?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "What language is used for document requests?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "What language is used for document requests?+",
+          "left": 20,
+          "right": 370,
+          "w": 350,
+          "h": 86,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 86,
+          "clientHeight": 86
+        },
+        {
+          "text": "DOCUMENT REQUEST",
+          "left": 44,
+          "right": 346,
+          "w": 302,
+          "h": 23.09375,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 23,
+          "clientHeight": 23
+        },
+        {
+          "text": "Ready to Request Documents?",
+          "left": 44,
+          "right": 346,
+          "w": 302,
+          "h": 67.1875,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 67,
+          "clientHeight": 67
+        },
+        {
+          "text": "Select the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need.",
+          "left": 44,
+          "right": 346,
+          "w": 302,
+          "h": 105.5625,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 106,
+          "clientHeight": 106
+        },
+        {
+          "text": "Select a Product Grade",
+          "left": 44,
+          "right": 346,
+          "w": 302,
+          "h": 50,
+          "textOverflow": "clip",
+          "overflow": "visible",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        }
+      ],
+      "images": [
+        true,
+        true
+      ],
+      "current": [
+        "Documents",
+        "Documents"
+      ],
+      "legal": [
+        "/privacy-policy/",
+        "/ms/privacy-policy/",
+        "/cookie-policy/"
+      ]
+    }
+  ],
+  "passed": 183,
+  "failed": 1,
+  "limitations": [
+    "No author script executed or candidate file edited.",
+    "No network navigation, receiver, real submission, WordPress or production claim.",
+    "Menu link default was intercepted solely to remain on local test document.",
+    "No repeated full-page raster exports created."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "browser": "Codex in-app browser",
+  "base_url": "http://127.0.0.1:8432",
+  "tested_routes": [
+    "/applications/titanium-dioxide-for-coatings/",
+    "/applications/titanium-dioxide-for-plastics/",
+    "/applications/titanium-dioxide-for-masterbatch/",
+    "/applications/titanium-dioxide-for-printing-inks/",
+    "/applications/titanium-dioxide-for-paper/"
+  ],
+  "responsive_matrix": {
+    "viewports": [1440, 768, 390],
+    "observations": 15,
+    "horizontal_overflow_failures": 0,
+    "missing_h1_failures": 0,
+    "module_count_failures": 0,
+    "source_count_failures": 0,
+    "applications_current_failures": 0,
+    "fixed_rfq_visibility_failures": 0,
+    "console_warning_or_error_count": 0,
+    "result": "PASS"
+  },
+  "visual_observation": {
+    "representative_viewports_inspected": [1440, 768, 390],
+    "full_page_asset_load_check": "PASS",
+    "notes": "Family hierarchy, hero actions, long text and responsive tables remained readable. Header and footer SVG assets returned 200 and reported naturalWidth 300 after full-page loading."
+  },
+  "interaction": {
+    "mobile_menu_open_close": "PASS",
+    "mobile_menu_focus_containment": "PASS",
+    "mobile_menu_focus_return": "PASS",
+    "hero_anchor_after_smooth_scroll_settled": "PASS",
+    "cookie_dialog_open_close": "PASS",
+    "cookie_dialog_focus_return": "PASS",
+    "cookie_dialog_shift_tab_from_first": "FAIL_ACTIVE_ELEMENT_BODY_OUTSIDE_DIALOG",
+    "cookie_dialog_tab_from_last": "FAIL_ACTIVE_ELEMENT_BODY_OUTSIDE_DIALOG"
+  },
+  "user_exceptions": {
+    "physical_device": "USER_EXCEPTED_NOT_TESTED_NON_BLOCKING",
+    "manual_screen_reader": "USER_EXCEPTED_NOT_TESTED_NON_BLOCKING",
+    "native_browser_200_percent_zoom": "USER_EXCEPTED_NOT_TESTED_NON_BLOCKING"
+  }
+}

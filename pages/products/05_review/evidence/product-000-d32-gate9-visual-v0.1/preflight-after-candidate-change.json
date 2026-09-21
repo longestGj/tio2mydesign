@@ -1,0 +1,773 @@
+{
+  "status": "EVIDENCE_INCOMPLETE",
+  "evidence_validation": {
+    "status": "EVIDENCE_INCOMPLETE",
+    "manifest": "C:\\Users\\longe\\.codex\\worktrees\\product-000-products\\32Wordpress_new\\.runtime\\handoff\\products\\gate8_evidence_manifest.json",
+    "handoff_id": "PRODUCT-D32-G8-01",
+    "checks": [
+      {
+        "id": "manifest_required_fields",
+        "result": "PASS",
+        "detail": {
+          "missing": []
+        }
+      },
+      {
+        "id": "schema_version",
+        "result": "PASS",
+        "detail": "gate8-evidence-manifest-v1.0"
+      },
+      {
+        "id": "identity_fields",
+        "result": "PASS",
+        "detail": null
+      },
+      {
+        "id": "page_scope",
+        "result": "PASS",
+        "detail": [
+          {
+            "page_id": "PRODUCT-000",
+            "acceptance_condition_ids": [
+              "PRODUCT-G6-B02",
+              "PRODUCT-G6-B03",
+              "PRODUCT-G6-TDS-I02",
+              "PRODUCT-G7-B05",
+              "PRODUCT-G7-B06",
+              "PRODUCT-G7-B07"
+            ],
+            "runtime_path": "/products/"
+          }
+        ]
+      },
+      {
+        "id": "repository_exists",
+        "result": "PASS",
+        "detail": "C:\\Users\\longe\\.codex\\worktrees\\product-000-products\\32Wordpress_new"
+      },
+      {
+        "id": "git_fields",
+        "result": "PASS",
+        "detail": [
+          "branch",
+          "baseline_commit",
+          "implementation_commit",
+          "evidence_head",
+          "clean_checked_at"
+        ]
+      },
+      {
+        "id": "git_branch",
+        "result": "PASS",
+        "detail": {
+          "expected": "codex/product-000-products",
+          "actual": "codex/product-000-products"
+        }
+      },
+      {
+        "id": "git_head",
+        "result": "FAIL",
+        "detail": {
+          "expected": "5c339caad74e8c00658c9497ee428c4f029adbb7",
+          "actual": "95ed4c4c47481ef78f64fa90b95a1096ea45bfae"
+        }
+      },
+      {
+        "id": "baseline_to_implementation",
+        "result": "PASS",
+        "detail": {
+          "ancestor": "f520678e723fe040c2e3b2cb5f9bd219e33d8fb9",
+          "descendant": "7d4875a778401d0ecd118f5935c6392571a6d13c"
+        }
+      },
+      {
+        "id": "implementation_to_evidence",
+        "result": "PASS",
+        "detail": {
+          "ancestor": "7d4875a778401d0ecd118f5935c6392571a6d13c",
+          "descendant": "5c339caad74e8c00658c9497ee428c4f029adbb7"
+        }
+      },
+      {
+        "id": "git_clean",
+        "result": "FAIL",
+        "detail": {
+          "porcelain": "D docs/verification/products/acceptance-mapping.json\n D docs/verification/products/acceptance.md\n D docs/verification/products/artifact.json\n D docs/verification/products/cookie-390.png\n D docs/verification/products/dependencies.json\n D docs/verification/products/editor-changed.png\n D docs/verification/products/editor-results.json\n D docs/verification/products/environment.json\n D docs/verification/products/faq-keyboard-768.png\n D docs/verification/products/home-content.json\n D docs/verification/products/home-response.html\n D docs/verification/products/identity.json\n D docs/verification/products/layout-1024.json\n D docs/verification/products/layout-1440.json\n D docs/verification/products/layout-390.json\n D docs/verification/products/layout-768.json\n D docs/verification/products/menu-390.png\n D docs/verification/products/migration-results.json\n D docs/verification/products/products-1024.png\n D docs/verification/products/products-1440.png\n D docs/verification/products/products-390.png\n D docs/verification/products/products-768.png\n D docs/verification/products/products-content-before.json\n D docs/verification/products/products-content-restored.json\n D docs/verification/products/products-content.json\n D docs/verification/products/products-response.html\n D docs/verification/products/readiness-matrix.json\n D docs/verification/products/selector-not-sure-1024.png\n D docs/verification/products/seo-schema.json\n D docs/verification/products/source-hashes.json\n D docs/verification/products/test-results.json"
+        }
+      },
+      {
+        "id": "build_directory",
+        "result": "PASS",
+        "detail": "C:\\Users\\longe\\.codex\\worktrees\\product-000-products\\32Wordpress_new\\.runtime\\artifacts\\wp-fb45d8677fec877ae499976fdfa96491c03bf9c9c062d35c98f70b10eb7cea9b"
+      },
+      {
+        "id": "build_id",
+        "result": "PASS",
+        "detail": {
+          "expected": "wp-fb45d8677fec877ae499976fdfa96491c03bf9c9c062d35c98f70b10eb7cea9b",
+          "actual": "wp-fb45d8677fec877ae499976fdfa96491c03bf9c9c062d35c98f70b10eb7cea9b"
+        }
+      },
+      {
+        "id": "build_implementation_binding",
+        "result": "PASS",
+        "detail": {
+          "build": "7d4875a778401d0ecd118f5935c6392571a6d13c",
+          "git": "7d4875a778401d0ecd118f5935c6392571a6d13c"
+        }
+      },
+      {
+        "id": "evidence_0_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/acceptance-mapping.json"
+      },
+      {
+        "id": "evidence_0_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "SOURCE_INSPECTION",
+          "proves": [
+            "PRODUCT-G6-B02",
+            "PRODUCT-G6-B03",
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05",
+            "PRODUCT-G7-B06",
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_1_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/acceptance.md"
+      },
+      {
+        "id": "evidence_1_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "SOURCE_INSPECTION",
+          "proves": [
+            "PRODUCT-G6-B02",
+            "PRODUCT-G6-B03",
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05",
+            "PRODUCT-G7-B06",
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_2_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/artifact.json"
+      },
+      {
+        "id": "evidence_2_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "IDENTITY",
+          "proves": [
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_3_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/cookie-390.png"
+      },
+      {
+        "id": "evidence_3_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_4_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/dependencies.json"
+      },
+      {
+        "id": "evidence_4_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "LOCAL_SIMULATION",
+          "proves": [
+            "PRODUCT-G6-B03",
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_5_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/editor-changed.png"
+      },
+      {
+        "id": "evidence_5_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_6_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/editor-results.json"
+      },
+      {
+        "id": "evidence_6_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "LOCAL_SIMULATION",
+          "proves": [
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_7_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/environment.json"
+      },
+      {
+        "id": "evidence_7_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "IDENTITY",
+          "proves": [
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_8_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/faq-keyboard-768.png"
+      },
+      {
+        "id": "evidence_8_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_9_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/home-content.json"
+      },
+      {
+        "id": "evidence_9_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_10_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/home-response.html"
+      },
+      {
+        "id": "evidence_10_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_11_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/identity.json"
+      },
+      {
+        "id": "evidence_11_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "IDENTITY",
+          "proves": [
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_12_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/layout-1024.json"
+      },
+      {
+        "id": "evidence_12_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_13_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/layout-1440.json"
+      },
+      {
+        "id": "evidence_13_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_14_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/layout-390.json"
+      },
+      {
+        "id": "evidence_14_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_15_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/layout-768.json"
+      },
+      {
+        "id": "evidence_15_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_16_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/menu-390.png"
+      },
+      {
+        "id": "evidence_16_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_17_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/migration-results.json"
+      },
+      {
+        "id": "evidence_17_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "LOCAL_SIMULATION",
+          "proves": [
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_18_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/products-1024.png"
+      },
+      {
+        "id": "evidence_18_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_19_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/products-1440.png"
+      },
+      {
+        "id": "evidence_19_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_20_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/products-390.png"
+      },
+      {
+        "id": "evidence_20_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_21_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/products-768.png"
+      },
+      {
+        "id": "evidence_21_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_22_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/products-content-before.json"
+      },
+      {
+        "id": "evidence_22_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_23_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/products-content-restored.json"
+      },
+      {
+        "id": "evidence_23_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_24_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/products-content.json"
+      },
+      {
+        "id": "evidence_24_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_25_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/products-response.html"
+      },
+      {
+        "id": "evidence_25_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_26_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/readiness-matrix.json"
+      },
+      {
+        "id": "evidence_26_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "LOCAL_SIMULATION",
+          "proves": [
+            "PRODUCT-G6-B03",
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_27_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/selector-not-sure-1024.png"
+      },
+      {
+        "id": "evidence_27_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "ACTUAL_RUNTIME",
+          "proves": [
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_28_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/seo-schema.json"
+      },
+      {
+        "id": "evidence_28_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_29_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/source-hashes.json"
+      },
+      {
+        "id": "evidence_29_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "SOURCE_INSPECTION",
+          "proves": [
+            "PRODUCT-G7-B06"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "evidence_30_missing",
+        "result": "FAIL",
+        "detail": "docs/verification/products/test-results.json"
+      },
+      {
+        "id": "evidence_30_metadata",
+        "result": "PASS",
+        "detail": {
+          "evidence_type": "TEST_RESULT",
+          "proves": [
+            "PRODUCT-G6-B02",
+            "PRODUCT-G6-B03",
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05",
+            "PRODUCT-G7-B06",
+            "PRODUCT-G7-B07"
+          ],
+          "command": "python scripts/products-evidence.py run-suite/capture",
+          "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+        }
+      },
+      {
+        "id": "receipt_references_declared",
+        "result": "PASS",
+        "detail": {
+          "undeclared": []
+        }
+      },
+      {
+        "id": "receipt_exists",
+        "result": "PASS",
+        "detail": "docs/handoffs/PRODUCT-000-gate8.md"
+      },
+      {
+        "id": "receipt_actual_references",
+        "result": "PASS",
+        "detail": {
+          "declared": [
+            "docs/verification/products/acceptance-mapping.json",
+            "docs/verification/products/acceptance.md",
+            "docs/verification/products/artifact.json",
+            "docs/verification/products/cookie-390.png",
+            "docs/verification/products/dependencies.json",
+            "docs/verification/products/editor-changed.png",
+            "docs/verification/products/editor-results.json",
+            "docs/verification/products/environment.json",
+            "docs/verification/products/faq-keyboard-768.png",
+            "docs/verification/products/home-content.json",
+            "docs/verification/products/home-response.html",
+            "docs/verification/products/identity.json",
+            "docs/verification/products/layout-1024.json",
+            "docs/verification/products/layout-1440.json",
+            "docs/verification/products/layout-390.json",
+            "docs/verification/products/layout-768.json",
+            "docs/verification/products/menu-390.png",
+            "docs/verification/products/migration-results.json",
+            "docs/verification/products/products-1024.png",
+            "docs/verification/products/products-1440.png",
+            "docs/verification/products/products-390.png",
+            "docs/verification/products/products-768.png",
+            "docs/verification/products/products-content-before.json",
+            "docs/verification/products/products-content-restored.json",
+            "docs/verification/products/products-content.json",
+            "docs/verification/products/products-response.html",
+            "docs/verification/products/readiness-matrix.json",
+            "docs/verification/products/selector-not-sure-1024.png",
+            "docs/verification/products/seo-schema.json",
+            "docs/verification/products/source-hashes.json",
+            "docs/verification/products/test-results.json"
+          ],
+          "actual": [
+            "docs/verification/products/acceptance-mapping.json",
+            "docs/verification/products/acceptance.md",
+            "docs/verification/products/artifact.json",
+            "docs/verification/products/cookie-390.png",
+            "docs/verification/products/dependencies.json",
+            "docs/verification/products/editor-changed.png",
+            "docs/verification/products/editor-results.json",
+            "docs/verification/products/environment.json",
+            "docs/verification/products/faq-keyboard-768.png",
+            "docs/verification/products/home-content.json",
+            "docs/verification/products/home-response.html",
+            "docs/verification/products/identity.json",
+            "docs/verification/products/layout-1024.json",
+            "docs/verification/products/layout-1440.json",
+            "docs/verification/products/layout-390.json",
+            "docs/verification/products/layout-768.json",
+            "docs/verification/products/menu-390.png",
+            "docs/verification/products/migration-results.json",
+            "docs/verification/products/products-1024.png",
+            "docs/verification/products/products-1440.png",
+            "docs/verification/products/products-390.png",
+            "docs/verification/products/products-768.png",
+            "docs/verification/products/products-content-before.json",
+            "docs/verification/products/products-content-restored.json",
+            "docs/verification/products/products-content.json",
+            "docs/verification/products/products-response.html",
+            "docs/verification/products/readiness-matrix.json",
+            "docs/verification/products/selector-not-sure-1024.png",
+            "docs/verification/products/seo-schema.json",
+            "docs/verification/products/source-hashes.json",
+            "docs/verification/products/test-results.json"
+          ],
+          "undeclared_in_receipt": [],
+          "missing_from_receipt": []
+        }
+      },
+      {
+        "id": "receipt_committed",
+        "result": "PASS",
+        "detail": "docs/handoffs/PRODUCT-000-gate8.md"
+      },
+      {
+        "id": "receipt_secret_scan",
+        "result": "PASS",
+        "detail": {
+          "hits": [],
+          "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+        }
+      }
+    ]
+  },
+  "runtime": null
+}

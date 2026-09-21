@@ -1,0 +1,81 @@
+{
+  "receipt_id": "PRODUCT-DETAIL-13-GRADE-D32-NEXTJS-G8-RECEIPT-01",
+  "date": "2026-09-21",
+  "source_thread_id": "01a0be72-2ac4-7963-9db8-0b493cf103c3",
+  "executor": "04开发",
+  "gate": "GATE8",
+  "status": "RECEIVED_AND_IN_PROGRESS",
+  "handed_off": true,
+  "package": {
+    "id": "PRODUCT-DETAIL-13-GRADE-D32-NEXTJS-G6-04",
+    "path": "D:\\23MySec\\pages\\products\\detail-template\\06_handoff\\PRODUCT-DETAIL-13-GRADE_D32_NEXTJS_GATE6_HANDOFF_PACKAGE_V0.4.md",
+    "sha256_expected": "D7397CB3647EAE61D3B7B5BF653552B6C3B2978C78B3BB425563B4EBB0815591",
+    "sha256_receiver_verified": "D7397CB3647EAE61D3B7B5BF653552B6C3B2978C78B3BB425563B4EBB0815591",
+    "sha_match": true
+  },
+  "repository": {
+    "path": "D:\\32NextJS",
+    "worktree": "D:\\32NextJS\\.worktrees\\product-detail-13-gate8",
+    "branch": "codex/product-detail-13-gate8",
+    "base_branch": "develop",
+    "base_commit": "53280559074eab582aecabea6e2593aaf9ccd8ed",
+    "base_clean": true
+  },
+  "page_ids": [
+    "GRADE-M510",
+    "GRADE-M896",
+    "GRADE-M895",
+    "GRADE-M340",
+    "GRADE-M886",
+    "GRADE-M52",
+    "GRADE-M108",
+    "GRADE-M210",
+    "GRADE-M200",
+    "GRADE-M996",
+    "GRADE-M2196",
+    "GRADE-M2377",
+    "GRADE-CR901"
+  ],
+  "hold_dependencies": [
+    "CONV-RFQ",
+    "CONV-SAMPLE",
+    "CONV-DOC",
+    "PRODUCT-PROC-CL",
+    "PRODUCT-PROC-SU",
+    "APP-COAT",
+    "APP-PLAS",
+    "APP-MB",
+    "APP-INK",
+    "APP-PAPER",
+    "MARKET-EU-001",
+    "MARKET-UK-001",
+    "MARKET-IN-001",
+    "MARKET-BR-EN",
+    "GATE10_INDEXING"
+  ],
+  "accepted_behavior": "Unready targets follow the package's atomic omission or link-omission rules; no fallback receiver or fake success is allowed.",
+  "regression_surfaces": [
+    "HOME-001",
+    "PRODUCT-000",
+    "APP-000",
+    "GRADE-M350"
+  ],
+  "boundary": {
+    "preview_only": true,
+    "gate9_started": false,
+    "gate10_authorized": false,
+    "merge_authorized": false,
+    "deploy_authorized": false,
+    "publish_authorized": false,
+    "indexing_authorized": false
+  },
+  "receiver_baseline_verification": {
+    "dependency_audit_vulnerabilities": 0,
+    "typecheck": "PASS",
+    "build": "PASS",
+    "deployment_contract": "8/8 PASS",
+    "browser_tests": "48/48 PASS"
+  },
+  "implementation_method_owner": "D32 / 04开发",
+  "next_required_return": "Gate 8 implementation candidate and evidence Manifest required by package V0.4 section 8"
+}

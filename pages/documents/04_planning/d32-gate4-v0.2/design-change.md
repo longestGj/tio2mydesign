@@ -1,0 +1,19 @@
+# DOC Gate4 V0.2 additive design return
+
+2026-09-21; author /root/doc_root_d32; PROTOTYPE_ONLY / DESIGN_CONTRACT_ONLY. Scope: DOC-D32-G5-R01 and R02 only, under user-approved ROOT-NARROW-VISUAL-20260921 §§2,4 and controller dispatch. No production implementation is supplied or prescribed; no development repository was entered.
+
+R01 presentation is unchanged: DOC/320 H1 natural four lines is now an explicitly approved page-and-width exception, not a proposed exception nor a global default. H1 remains complete,36px/700, original letter spacing/shell/padding/order. Other widths and content remain unchanged. This author record binds the approval but does not close the independent finding. DOC Eyebrow already fits one line at320; per controller clarification no private narrow Eyebrow override is added.
+
+R02 design: at widths≤340 the validation area under the helper reserves two text lines at the existing14px/1.65 typography. Initial, empty-selection error, selected grade and cleared selection retain the same Continue document position. Full error text, red color, focus return to select, error association, native select, all14 grade-only targets and unrelated FAQ state remain exact. The local CSS demonstrates the design result only; Gate8 chooses production implementation. At widths>340 the visual rule is byte-identical to V0.1.
+
+Actual source delta is one page-owned `#grade-error` min-height rule in≤340 media scope. HTML and behavior JS are byte-identical. No Hero/Chrome/shared source, CTA, page content, SEO title, group/scenario/FAQ, URL, intent or fact change. No dependencies installed. V0.1 freeze, images and independent observations remain untouched.
+
+## Evidence inheritance and correction of previous claims
+
+V0.1 independent review has410 valid assertions and two findings. Those410 results remain evidence of their original object; source-identity and geometry checks establish reuse applicability, not a fabricated new independent PASS. New author checks cover the affected geometry/states and nearby boundary. The prior blanket stability statement in V0.1 design-rules/capture-check was inaccurate at320; this additive record supersedes that statement only. Original records remain historical and are not rewritten.
+
+Unchanged HTML/JS and source dependencies preserve approved copy/structure, all14 routes, FAQ/menu/cookie behavior, Buyer Clean, shared ownership and family comparison. Full existing author suite rerun provides additional238 author checks, not independent review. New targeted suite verifies seven widths1440/1024/768/390/341/340/320 and all four states; five required widths are included. Identity and actual DOM geometry comparison verify unchanged>340 whole page and unchanged320 element sizes/relative layouts other than reserved feedback and the resulting normal-flow displacement. All old74 frozen entries remain exact.
+
+Formal V0.1 FULL320, ERROR320, SELECTED320 and ERROR390 are superseded for the new evidence set; replacement/new images are indexed separately. Other14 formal views inherit unchanged components/states. Old320 readable segments remain original content-reading evidence only, not pixel-identical new global document coordinates; new full320 plus a selector-to-following-section readable view cover the changed flow. Other22 readable images inherit unchanged geometry. No old screenshot is relabeled with new CSS hash. Each reused image retains its original source lock and reason.
+
+Current global architecture is the approved static single-site decision, not obsolete WordPress/multisite obligations in historical prototype notes. This design fix neither enters Gate6 nor defines Next.js/production architecture. Subsequent target is https://tio2products.com/documents/ under existing authority; no deployment or real receiving endpoint tested. Output stops CHANGES_READY_FOR_TARGETED_REVIEW; /root/res_root_d32 independently rechecks, controller alone closes.

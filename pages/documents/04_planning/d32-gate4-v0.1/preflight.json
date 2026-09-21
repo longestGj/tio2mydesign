@@ -1,0 +1,685 @@
+{
+  "status": "PASS",
+  "mode": "AUTHOR_PREFLIGHT",
+  "source_identity": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723",
+  "runtime_check_count": 238,
+  "checks": [
+    {
+      "check_id": "parity.structure.html",
+      "category": "parity",
+      "criterion": "Exact bytes equal approved Gate3 V0.2",
+      "actual": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723",
+      "result": "PASS"
+    },
+    {
+      "check_id": "parity.structure.css",
+      "category": "parity",
+      "criterion": "Exact bytes equal approved Gate3 V0.2",
+      "actual": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552",
+      "result": "PASS"
+    },
+    {
+      "check_id": "parity.behavior.js",
+      "category": "parity",
+      "criterion": "Exact bytes equal approved Gate3 V0.2",
+      "actual": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e",
+      "result": "PASS"
+    },
+    {
+      "check_id": "runtime.complete",
+      "category": "runtime",
+      "criterion": "All existing author coverage passes for this source and five widths",
+      "actual": 238,
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.1440.overflow",
+      "category": "layout",
+      "criterion": "No horizontal overflow",
+      "actual": 1440,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.1440.DPR",
+      "category": "render",
+      "criterion": "Actual window.devicePixelRatio=1",
+      "actual": 1,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.1440.fonts",
+      "category": "render",
+      "criterion": "Inter loaded; not fallback",
+      "actual": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 2,
+        "h1Size": "56px",
+        "heroColumns": 2,
+        "scenarioColumns": 3,
+        "groupColumns": 2,
+        "selectorColumns": 2,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 83
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.1440.images",
+      "category": "render",
+      "criterion": "All referenced images decoded",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.1440.columns",
+      "category": "layout",
+      "criterion": "Matches final design-rules column table",
+      "actual": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 2,
+        "h1Size": "56px",
+        "heroColumns": 2,
+        "scenarioColumns": 3,
+        "groupColumns": 2,
+        "selectorColumns": 2,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 83
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.1440.h1",
+      "category": "layout",
+      "criterion": "Approved shared H1 tokens; 320 candidate exception separately reviewed",
+      "actual": {
+        "lines": 2,
+        "exception": null
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1440.targets",
+      "category": "a11y",
+      "criterion": "All visible interactive boxes at least44x44",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1440.contrast",
+      "category": "a11y",
+      "criterion": "Visible text >=4.5; large >=3; computed solid background ancestry",
+      "actual": {
+        "pairs": 83,
+        "failures": []
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1440.hover",
+      "category": "a11y",
+      "criterion": "Hover keeps approved accessible white/teal",
+      "actual": {
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 128, 120)"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1440.focus",
+      "category": "a11y",
+      "criterion": "Visible3px outline offset4",
+      "actual": {
+        "width": "3px",
+        "style": "solid",
+        "offset": "4px"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1440.error",
+      "category": "a11y",
+      "criterion": "Visible associated text error; no clipping; approved error color contrast",
+      "actual": {
+        "text": "Select a product grade to continue.",
+        "color": "rgb(180, 35, 24)",
+        "overflow": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.1024.overflow",
+      "category": "layout",
+      "criterion": "No horizontal overflow",
+      "actual": 1024,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.1024.DPR",
+      "category": "render",
+      "criterion": "Actual window.devicePixelRatio=1",
+      "actual": 1,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.1024.fonts",
+      "category": "render",
+      "criterion": "Inter loaded; not fallback",
+      "actual": {
+        "scrollWidth": 1024,
+        "width": 1024,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 3,
+        "h1Size": "56px",
+        "heroColumns": 2,
+        "scenarioColumns": 3,
+        "groupColumns": 2,
+        "selectorColumns": 2,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 77
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.1024.images",
+      "category": "render",
+      "criterion": "All referenced images decoded",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.1024.columns",
+      "category": "layout",
+      "criterion": "Matches final design-rules column table",
+      "actual": {
+        "scrollWidth": 1024,
+        "width": 1024,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 3,
+        "h1Size": "56px",
+        "heroColumns": 2,
+        "scenarioColumns": 3,
+        "groupColumns": 2,
+        "selectorColumns": 2,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 77
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.1024.h1",
+      "category": "layout",
+      "criterion": "Approved shared H1 tokens; 320 candidate exception separately reviewed",
+      "actual": {
+        "lines": 3,
+        "exception": null
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1024.targets",
+      "category": "a11y",
+      "criterion": "All visible interactive boxes at least44x44",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1024.contrast",
+      "category": "a11y",
+      "criterion": "Visible text >=4.5; large >=3; computed solid background ancestry",
+      "actual": {
+        "pairs": 77,
+        "failures": []
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1024.hover",
+      "category": "a11y",
+      "criterion": "Hover keeps approved accessible white/teal",
+      "actual": {
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 128, 120)"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1024.focus",
+      "category": "a11y",
+      "criterion": "Visible3px outline offset4",
+      "actual": {
+        "width": "3px",
+        "style": "solid",
+        "offset": "4px"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.1024.error",
+      "category": "a11y",
+      "criterion": "Visible associated text error; no clipping; approved error color contrast",
+      "actual": {
+        "text": "Select a product grade to continue.",
+        "color": "rgb(180, 35, 24)",
+        "overflow": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.768.overflow",
+      "category": "layout",
+      "criterion": "No horizontal overflow",
+      "actual": 768,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.768.DPR",
+      "category": "render",
+      "criterion": "Actual window.devicePixelRatio=1",
+      "actual": 1,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.768.fonts",
+      "category": "render",
+      "criterion": "Inter loaded; not fallback",
+      "actual": {
+        "scrollWidth": 768,
+        "width": 768,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 2,
+        "h1Size": "44px",
+        "heroColumns": 1,
+        "scenarioColumns": 1,
+        "groupColumns": 2,
+        "selectorColumns": 1,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 77
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.768.images",
+      "category": "render",
+      "criterion": "All referenced images decoded",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.768.columns",
+      "category": "layout",
+      "criterion": "Matches final design-rules column table",
+      "actual": {
+        "scrollWidth": 768,
+        "width": 768,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 2,
+        "h1Size": "44px",
+        "heroColumns": 1,
+        "scenarioColumns": 1,
+        "groupColumns": 2,
+        "selectorColumns": 1,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 77
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.768.h1",
+      "category": "layout",
+      "criterion": "Approved shared H1 tokens; 320 candidate exception separately reviewed",
+      "actual": {
+        "lines": 2,
+        "exception": null
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.768.targets",
+      "category": "a11y",
+      "criterion": "All visible interactive boxes at least44x44",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.768.contrast",
+      "category": "a11y",
+      "criterion": "Visible text >=4.5; large >=3; computed solid background ancestry",
+      "actual": {
+        "pairs": 77,
+        "failures": []
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.768.hover",
+      "category": "a11y",
+      "criterion": "Hover keeps approved accessible white/teal",
+      "actual": {
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 128, 120)"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.768.focus",
+      "category": "a11y",
+      "criterion": "Visible3px outline offset4",
+      "actual": {
+        "width": "3px",
+        "style": "solid",
+        "offset": "4px"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.768.error",
+      "category": "a11y",
+      "criterion": "Visible associated text error; no clipping; approved error color contrast",
+      "actual": {
+        "text": "Select a product grade to continue.",
+        "color": "rgb(180, 35, 24)",
+        "overflow": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.390.overflow",
+      "category": "layout",
+      "criterion": "No horizontal overflow",
+      "actual": 390,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.390.DPR",
+      "category": "render",
+      "criterion": "Actual window.devicePixelRatio=1",
+      "actual": 1,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.390.fonts",
+      "category": "render",
+      "criterion": "Inter loaded; not fallback",
+      "actual": {
+        "scrollWidth": 390,
+        "width": 390,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 3,
+        "h1Size": "36px",
+        "heroColumns": 1,
+        "scenarioColumns": 1,
+        "groupColumns": 1,
+        "selectorColumns": 1,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 77
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.390.images",
+      "category": "render",
+      "criterion": "All referenced images decoded",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.390.columns",
+      "category": "layout",
+      "criterion": "Matches final design-rules column table",
+      "actual": {
+        "scrollWidth": 390,
+        "width": 390,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 3,
+        "h1Size": "36px",
+        "heroColumns": 1,
+        "scenarioColumns": 1,
+        "groupColumns": 1,
+        "selectorColumns": 1,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 77
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.390.h1",
+      "category": "layout",
+      "criterion": "Approved shared H1 tokens; 320 candidate exception separately reviewed",
+      "actual": {
+        "lines": 3,
+        "exception": null
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.390.targets",
+      "category": "a11y",
+      "criterion": "All visible interactive boxes at least44x44",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.390.contrast",
+      "category": "a11y",
+      "criterion": "Visible text >=4.5; large >=3; computed solid background ancestry",
+      "actual": {
+        "pairs": 77,
+        "failures": []
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.390.hover",
+      "category": "a11y",
+      "criterion": "Hover keeps approved accessible white/teal",
+      "actual": {
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 128, 120)"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.390.focus",
+      "category": "a11y",
+      "criterion": "Visible3px outline offset4",
+      "actual": {
+        "width": "3px",
+        "style": "solid",
+        "offset": "4px"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.390.error",
+      "category": "a11y",
+      "criterion": "Visible associated text error; no clipping; approved error color contrast",
+      "actual": {
+        "text": "Select a product grade to continue.",
+        "color": "rgb(180, 35, 24)",
+        "overflow": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.320.overflow",
+      "category": "layout",
+      "criterion": "No horizontal overflow",
+      "actual": 320,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.320.DPR",
+      "category": "render",
+      "criterion": "Actual window.devicePixelRatio=1",
+      "actual": 1,
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.320.fonts",
+      "category": "render",
+      "criterion": "Inter loaded; not fallback",
+      "actual": {
+        "scrollWidth": 320,
+        "width": 320,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 4,
+        "h1Size": "36px",
+        "heroColumns": 1,
+        "scenarioColumns": 1,
+        "groupColumns": 1,
+        "selectorColumns": 1,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 77
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "render.320.images",
+      "category": "render",
+      "criterion": "All referenced images decoded",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.320.columns",
+      "category": "layout",
+      "criterion": "Matches final design-rules column table",
+      "actual": {
+        "scrollWidth": 320,
+        "width": 320,
+        "dpr": 1,
+        "fonts": "loaded",
+        "inter": true,
+        "imageFailures": [],
+        "h1Lines": 4,
+        "h1Size": "36px",
+        "heroColumns": 1,
+        "scenarioColumns": 1,
+        "groupColumns": 1,
+        "selectorColumns": 1,
+        "smallTargets": [],
+        "contrastFailures": [],
+        "contrastPairCount": 77
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "layout.320.h1",
+      "category": "layout",
+      "criterion": "Approved shared H1 tokens; 320 candidate exception separately reviewed",
+      "actual": {
+        "lines": 4,
+        "exception": "PROPOSED_CONTROLLED_NARROW_WIDTH_EXCEPTION"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.320.targets",
+      "category": "a11y",
+      "criterion": "All visible interactive boxes at least44x44",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.320.contrast",
+      "category": "a11y",
+      "criterion": "Visible text >=4.5; large >=3; computed solid background ancestry",
+      "actual": {
+        "pairs": 77,
+        "failures": []
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.320.hover",
+      "category": "a11y",
+      "criterion": "Hover keeps approved accessible white/teal",
+      "actual": {
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 128, 120)"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.320.focus",
+      "category": "a11y",
+      "criterion": "Visible3px outline offset4",
+      "actual": {
+        "width": "3px",
+        "style": "solid",
+        "offset": "4px"
+      },
+      "result": "PASS"
+    },
+    {
+      "check_id": "a11y.320.error",
+      "category": "a11y",
+      "criterion": "Visible associated text error; no clipping; approved error color contrast",
+      "actual": {
+        "text": "Select a product grade to continue.",
+        "color": "rgb(180, 35, 24)",
+        "overflow": false
+      },
+      "result": "PASS"
+    }
+  ],
+  "rendering": {
+    "browser": "151.0.7922.34",
+    "engine": "Chromium",
+    "OS": "win32",
+    "node": "v24.16.0",
+    "viewport_height": 1000,
+    "widths": [
+      1440,
+      1024,
+      768,
+      390,
+      320
+    ],
+    "device_scale_factor": 1,
+    "reduced_motion": "reduce",
+    "font_wait": "document.fonts.ready plus two animation frames",
+    "font": "shared Inter Variable local TTF",
+    "actual_runtime": "file:// local complete HTML/CSS/JS consumer"
+  }
+}

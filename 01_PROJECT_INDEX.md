@@ -1,5 +1,27 @@
 # TiO2 Malaysia · 当前资料索引
 
+2026-09-21：按[Gate 3/4合并决定](docs/architecture/GATE3_GATE4_MERGE_DECISION_V1.0.md)，Gate 4统一负责跨页一致性、结构、视觉和验证；Gate 5独立审查后总控关闭一次。新页从Gate 2批准组合进入，不要求单独Gate 3冻结。历史成果、仅旧Gate 3授权及暂停按原范围继承。
+
+2026-09-21 剩余13个Product Detail页面Gate 9已通过并关闭：Return 1 replacement implementation `8cee4e8a...`、evidence HEAD `b39406c0...`、Build `foS-HPfnTtWVoHkZQg3Jb`通过Manifest 85/85、预检34/34、HTTP审计299/299和五个共享消费者焦点复验；唯一Finding关闭，14/14 stable AC PASS。Gate 8随后按PASS notice停止验收预览，Gate 9确认8341不再监听；branch/worktree保留且clean。当前`READ_ONLY_QA_APPROVED / CLOSED`，但外部Integration依赖仍开放，Release/Gate 10未授权。[当前13页Manifest V0.4](pages/products/detail-template/PRODUCT-DETAIL-13-GRADE_D32_NEXTJS_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md) / [Return 1定向复检V0.1](pages/products/detail-template/07_qa/PRODUCT-DETAIL-13-GRADE_D32_NEXTJS_GATE9_TARGETED_RECHECK_V0.1.md) / [预览释放确认](pages/products/detail-template/07_qa/PRODUCT-DETAIL-13-GRADE_D32_NEXTJS_GATE9_RETURN1_20260921/gate8-preview-release-confirmation.json)。
+
+2026-09-20 CONV-RFQ已关闭D32 Gate 6并正式派发Gate 8给`01开发`：首审4项合同Finding在V0.2全部修订，定向复验`REVIEW_PASS`、新Finding 0；开发任务已把独立分支刷新到当时最新local `develop` `ce4147c...`，提交package-bound计划`b9f56c8...`并开始首个TDD模型测试。receiver限fake/mock，未授权真实提交；Gate9待交回，Gate10、PR/push/merge、部署、发布和索引未授权。[当前RFQ D32 Manifest V0.2](pages/conversion/request-a-quote/05_review/CONV-RFQ_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md) / [Gate6关闭](pages/conversion/request-a-quote/05_review/CONV-RFQ_D32_GATE6_CONTROLLER_CLOSURE_V0.1.md) / [Gate8派发回执V0.2](pages/conversion/request-a-quote/06_handoff/CONV-RFQ_D32_GATE8_DISPATCH_RECEIPT_V0.2.json)。
+
+2026-09-20 M-350 D32已完成Gate 0–9：候选implementation `a13d270...`、evidence/clean HEAD `a96d850...`、build `wp-b6ac...`通过独立只读验收，16/16 AC PASS、新Finding 0。页面`READ_ONLY_QA_APPROVED / CLOSED`；Product Hub组合已关闭，七项外部依赖使Integration保持未就绪。实体设备、手工命名AT和原生200%缩放按用户决定不要求。Gate 8已确认停止返修与隔离preview并保留volumes/候选。Gate 10、合并、部署、发布和索引未授权。[当前M-350 Manifest V0.7](pages/products/detail-template/GRADE-M350_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.7.md) / [Gate 9验收](pages/products/detail-template/07_qa/GRADE-M350_D32_GATE9_INDEPENDENT_ACCEPTANCE_V0.1.md)。
+
+2026-09-20 PRODUCT-000 D32 Gate3→9已完成：替换候选implementation `95ed4c4...`、evidence HEAD `8a4e3f5...`、build `wp-9fcfb...`通过Gate9定向独立复核；首审F01/F02/VF01全部关闭，新Finding 0。页面PASS，外部Grade/Process/Support/RFQ依赖仍开放，Gate10/部署/发布/索引未授权。[当前Manifest V0.2](pages/products/PRODUCT-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md) / [Gate9关闭](pages/products/05_review/PRODUCT-000_D32_GATE9_PROJECT_CONTROL_CLOSEOUT_V0.1.md) / [定向复核](pages/products/05_review/PRODUCT-000_D32_GATE9_TARGETED_RECHECK_V0.1.md)。
+
+2026-09-20 D32首页Gate9已按用户明确范围例外关闭：11项AC通过，A09浏览器部分通过，真实触控/读屏/原生200%三项USER_WAIVED且未测试；VF01关闭，实现必修0、待补证0。Integration NOT_READY（24目标依赖）、Release NOT_AUTHORIZED。[当前Home Manifest V1.12](pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md) / [决定与关闭](pages/home/07_qa/HOME-001_D32_GATE9_USER_EXCEPTION_CLOSEOUT_V1.0.md)。
+
+> 2026-09-20 当前开发归属：TiO2 Malaysia 全站后续开发统一由 `D:\32Wordpress_new`（D32）承接，不再使用 D16 开发。D23继续负责策划、交付规格和只读验收。旧D16代码、任务、运行与验收记录仅证明其原对象，不代表D32状态；页面启动与发布仍按各自授权。旧合同中的开发归属和技术栈解释统一见[开发归属切换决定V1.0](docs/architecture/DEVELOPMENT_OWNER_D32_SWITCH_DECISION_V1.0.md)。
+
+2026-09-20 D32首页开发已交回；总控核对候选HEAD、clean工作区及34项证据SHA一致。开发方自检通过，独立Gate9尚未启动，待用户授权；24个外部目标和物理AT等保留。[当前Manifest V1.10](pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.10.md) / [开发交回接收](pages/home/06_handoff/HOME-001_D32_GATE8_COMPLETION_INTAKE_V1.0.md)。
+
+2026-09-20 D32“00首页开发”已正式接收并启动Gate8；总控已读回接收文件，准确交付包与范围一致，HANDED_OFF=YES。开发完成、Gate9及发布尚未通过。[当前首页Manifest V1.9](pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.9.md) / [接收证据](pages/home/06_handoff/HOME-001_D32_GATE8_DISPATCH_RECEIPT_V1.1.json)。
+
+首页开发当前入口：[HOME-001 Manifest V1.8](pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.8.md)。用户已指定D32“00首页开发”执行Gate8，正式包V0.2不变；[授权与派发](pages/home/06_handoff/HOME-001_D32_GATE8_AUTHORIZATION_AND_DISPATCH_V1.0.md)记录接收任务及范围。
+
+首页当前入口（2026-09-20）：[HOME-001 Manifest V1.7](pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.7.md)统一导航D32 WordPress首批[Gate6包V0.2](pages/home/06_handoff/HOME-001_D32_GATE6_HANDOFF_PACKAGE_V0.2.md)、[独立复验](pages/home/05_review/HOME-001_D32_GATE6_TARGETED_RECHECK_V0.1.md)与[总控关闭](pages/home/05_review/HOME-001_D32_GATE6_PROJECT_CONTROL_CLOSEOUT_V1.0.md)。旧D16首页及全站运行记录保留历史，不表示D32已实现；本批Gate8未启动。
+
 > 2026-09-07当前批准方式：Gate 3、4、6按[总控常设关闭授权](docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md)执行独立审查与总控关闭，不再等待逐页用户批准；Gate 1/2/9/10不变。本文历史“用户批准”表述只保留原记录语境，当前三关关闭由该授权解释；内容事实决定、明确暂停、下一阶段启动与外发/开发/发布权限分别保留。
 
 
@@ -9,26 +31,26 @@
 
 ## 1. 全站入口与规则
 
-总控编排当前入口：[角色V0.14](agents/project-orchestrator/agent.md)及[生效与身份V1.13](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.13.md)。用于状态恢复、准入、派发、接收、异常及关闭；按当前交接合同派发新Gate 5审查与Gate 6差异路径。
+总控编排当前入口：[角色V0.17](agents/project-orchestrator/agent.md)及[生效与身份V1.16](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.16.md)。用于状态恢复、准入、派发、接收、异常及关闭；按当前交接合同派发新Gate 5审查与Gate 6差异路径。
 
 | 要了解什么 | 当前入口 |
 |---|---|
-| 当前Gate职责与历史兼容 | [Gate工作流V3.2](docs/architecture/GATE_WORKFLOW_V3.2.md)保留合并Gate 4生命周期；当前制作/冻结→新Gate 5独立审查→总控关闭按[4→5合同](docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md)，后续凭独立启动授权按[5→6接收合同](docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md)进入Gate 6。历史有效审查/关闭保持并可等价继承，原Gate 7职责并入Gate 6。 |
+| 当前Gate职责与历史兼容 | [Gate工作流V3.6](docs/architecture/GATE_WORKFLOW_V3.6.md)保留合并Gate 4生命周期；当前制作/冻结→新Gate 5独立审查→总控关闭按[4→5合同](docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.1.md)，后续凭独立启动授权按[5→6接收合同](docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.1.md)进入Gate 6。历史有效审查/关闭保持并可等价继承，原Gate 7职责并入Gate 6。 |
 | 稳定规则/阅读路由 | [AGENTS](AGENTS.md) |
 | 全站前四环节已有结论 | [PROJECT_CONTEXT](PROJECT_CONTEXT.md) |
 | 页面进度、未决项与当前页面指针 | [PROJECT_STATUS](00_PROJECT_STATUS.md) |
 | 文件放置、旧路径对应 | [DIRECTORY_GUIDE](02_DIRECTORY_GUIDE.md) |
-| 詳细治理（保留原章编号） | [治理细则V1.4](docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md) |
-| Gate 1–4流程/质量标准 | [PAGE_GATE_1_4_STANDARD_V2.2](docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md) |
+| 詳细治理（保留原章编号） | [治理细则V1.7](docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.7.md) |
+| Gate 1–4流程/质量标准 | [PAGE_GATE_1_4_STANDARD_V2.4](docs/architecture/PAGE_GATE_1_4_STANDARD_V2.4.md) |
 | 全站Gate1责任与逐页确认 | [Gate1串行控制V1.0](docs/architecture/GATE1_SITE_WIDE_SERIAL_CONTROL_V1.0.md)：本controller只负责Gate1；子代理执行、总控独立审查、用户确认一页再启动下一页；Gate2由用户指定的其他controller负责。57页覆盖盘点不等于批量重做或全部已独立验收。 |
 | Agent与Skill职责 | [分工标准V1.0](docs/architecture/AGENT_SKILL_SEPARATION_STANDARD_V1.0.md) |
-| Gate 4完整视觉Agent与方法 | [当前基线Manifest V1.3](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.9.md)：一个[完整视觉执行Agent](agents/gate4-complete-visual/agent.md)，三项能力Skill及[共同工作合同](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.1.md)。4A为内部方向检查，4B冻结后进入唯一最终独立审查环节；旧Gate 4/5角色与成果保留历史。Belgium仍暂停，本次设计批准不恢复页面执行。 |
-| Gate 6策划总审与开发交付 | [当前基线V1.1](docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md)：Agent V0.7、两项Skill V0.3；有效上游继承、触发式扩大检查、单一自检、新包独立复核、总控维护Manifest。 |
+| Gate 4页面设计Agent与方法 | [当前基线Manifest V1.11](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.11.md)：一个[完整视觉执行Agent](agents/gate4-complete-visual/agent.md)，结构、品牌、完整制作与核验能力Skill及[共同工作合同](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.4.md)。4A为内部方向检查，4B冻结后进入唯一最终独立审查环节；旧Gate 4/5角色与成果保留历史。Belgium仍暂停，本次设计批准不恢复页面执行。 |
+| Gate 6策划总审与开发交付 | [当前基线V1.3](docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)：Agent V0.9、一致性Skill V0.4、交付Skill V0.5；有效上游继承、触发式扩大检查、单一自检、新包独立复核、总控维护Manifest。 |
 | 全站公开/SEO/GTM-GA4当前执行 | [生产GA4法律一致性当前Gate9 Manifest V1.1](docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_CURRENT_GATE9_MANIFEST_V1.1.md) / [本地develop集成V1.0](docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_LOCAL_DEVELOP_INTEGRATION_V1.0.md) / [Gate9定向复验V1.0](docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_GATE9_TARGETED_RECHECK_V1.0.md) / [Google上线后状态V1.0](docs/architecture/TIO2_MY_GOOGLE_POSTLAUNCH_READONLY_STATUS_20260914_V1.0.md) / [On-page与社交元数据验收V1.0](docs/architecture/TIO2_MY_PRODUCTION_ONPAGE_SOCIAL_METADATA_READONLY_VERIFICATION_20260914_V1.0.md) / [生产SEO深度验收V1.0](docs/architecture/TIO2_MY_PRODUCTION_SEO_DEEP_READONLY_VERIFICATION_20260914_V1.0.md) / [生产只读验收V1.0](docs/architecture/TIO2_MY_PRODUCTION_SEO_GA4_READONLY_VERIFICATION_20260914_V1.0.md) / [原GA4 Gate9 Manifest V1.2](docs/architecture/TIO2_MY_GA4_ACTIVE_CURRENT_GATE9_MANIFEST_V1.2.md) / [Gate6交付包V1.0](docs/architecture/TIO2_MY_FULL_PUBLIC_SEO_GA4_GATE6_DELIVERY_V1.0.md)：三页GA4法律文案返修已通过Gate9并按用户后续授权合并到本地develop `fe1b64d5…`；`LOCAL_DEVELOP_INTEGRATION=COMPLETE`。整站develop/CMS组合仍为43/57，`INTEGRATION_ACCEPTANCE=NOT_READY`；`TIO2-MY-PROD-GA4-F01=RESOLVED_IN_ACCEPTED_CANDIDATE / OPEN_IN_PRODUCTION`。须另行授权发布并完成生产复验后才能关闭生产Finding；Gate10、push、deploy和发布未授权。 |
 | Germany当前页面任务 | [当前Manifest V0.13](pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md)：Gate 9 `READ_ONLY_QA_IN_REVIEW / NOT_PASS`；RFQ/Sample与设备/生产证据开放。 |
 | Italy当前页面任务 | [当前Manifest V0.13](pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md)：Gate 9 `READ_ONLY_QA_IN_REVIEW / NOT_PASS`；RFQ/Sample、Documents接收及设备/生产证据开放。 |
 
-| Gate 9 Agent与方法改进 | [当前基线Manifest V1.1](docs/architecture/GATE9_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md)：[角色V0.5](agents/gate9-read-only-acceptance/agent.md)＋[运行方法V0.5](skills/runtime-implementation-verification/SKILL.md)＋两个只读预检脚本＋[交接合同V1.0](docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md)＋[D16本地main队列规则](docs/architecture/D16_LOCAL_MAIN_INTEGRATION_QUEUE_RULE_V1.0.md)。D16已在commit `3ec98f34a8ee8dbb4cdca1ff7be6c5f25c32260b`采用，见[独立读回](docs/architecture/D16_GATE9_INTERFACE_ADOPTION_RECEIPT_V1.0.md)。当前组合实现机器预检、四层状态、共享根Finding、固定收口及Gate8通知；预检兼容旧式Next静态路径与Next.js 16 RSC Build marker，8/8工具测试通过，待带完整Manifest的真实页面试跑。项目源未运行注册；`INTEGRATION_READY`不自动授权合并或发布。 |
+| Gate 9 Agent与方法改进 | [当前基线V1.3](docs/architecture/GATE9_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)：Agent V0.7、运行Skill V0.7、交接合同V1.2（机器格式V1.0/V1.1）；新增静态制品方式，保留V1.0兼容。D16队列只用于历史对象；当前开发在develop集成，页面/集成/发布结论分开。工具合成测试14项通过，未做真实页面V1.1试跑。 |
 | 项目自有Skill | [方法源目录](skills/README.md)；[迁出与三方法拆分](docs/architecture/PROJECT_SKILL_DIRECTORY_AND_GATE1_SPLIT_V1.0.md) + [批准设计](docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-design-v0.1.md) + [第一项方法源](skills/search-intent-evidence-analysis/SKILL.md) + [文件交接合同与验证V0.4](docs/superpowers/specs/2026-09-06-search-intent-evidence-skill-validation-v0.4.md)：先保存并读回，再返回路径/摘要/未完成事项；四条工具路径的方法验证保留于 V0.3；未安装/未正式启用 |
 | Gate 1执行Agent角色 | 当前项目角色文件：[agent.md](agents/gate1-execution/agent.md)，由[已批准角色说明V0.7](docs/superpowers/specs/2026-09-06-gate1-execution-agent-design-v0.7.md)整理；未安装或运行平台注册。2026-09-06按用户要求由Italy子代理明确读取角色、执行Skill、保存方法报告并读回综合，四核心交付不变；[Italy当前记录V0.3](pages/markets/italy/MARKET-EU-IT_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md)已完成独立复审、用户内容批准及Gate 1正式关闭。[Germany当前记录V0.3](pages/markets/germany/MARKET-EU-DE_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md)已补齐独立总控审查PASS并于2026-09-07正式关闭Gate 1，DE-D02可选事实未批准且不阻塞。两页后续Gate授权及进度由相应Controller管理；第二项问题驱动研究Skill暂缓，未创建。旧角色设计保留历史 |
 | Gate 2执行Agent设计与交付 | 当前项目角色：[agent.md](agents/gate2-execution/agent.md) V0.7；[设计收束V0.7](docs/superpowers/specs/2026-09-06-gate2-execution-agent-design-v0.7.md)与[当前交付结构V0.6](docs/superpowers/specs/2026-09-08-gate2-delivery-structure-v0.6.md)。两步流程与用户批准保持；骨架限于方向判断、同轮集中返修，总控核对范围及跨合同；Buyer冷读必须扫描完整页面，外部公司/品牌/链接/事实触发第三方来源表达精度检查。C仅因动作、事实/来源范围、机器语义、模块职责或条件渲染变化升级；Manifest仅因实质阶段或权威组合变化升级。V0.4保存为Chemours测试基线，未建立Gate 2专属Skill。 |
@@ -44,7 +66,7 @@
 | RES-CHEMOURS当前页面任务 | [当前Manifest V0.21](pages/resources/chemours-alternatives/RES-CHEMOURS_CURRENT_GATE_BASELINE_MANIFEST_V0.21.md)：Gate 9 `READ_ONLY_QA_IN_REVIEW / NOT_PASS`；RFQ、Documents receiver、设备/AT及route/canonical/Schema决定开放。 |
 | Chloride Process当前页面任务 | Gate9定向复验已在精确Build输出中关闭Schema `CL-G9-F01`；[当前Manifest V0.29](pages/products/chloride-process/PRODUCT-PROC-CL_CURRENT_GATE_BASELINE_MANIFEST_V0.29.md) / [定向复验V1.1](docs/architecture/GATE9_BR_CL_COO_FOUR_PAGE_TARGETED_RECHECK_V1.1.md)。Applications route、无障碍环境和负向数据/cache/scope `CL-G9-F02…F04`继续开放；八Grade关系和页面视觉保持通过。Gate10、部署和发布未授权。 |
 | Sulfate Process当前页面任务 | [当前Manifest V0.13](pages/products/sulfate-process/PRODUCT-PROC-SU_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md)：Gate 9 `READ_ONLY_QA_IN_REVIEW / NOT_PASS`；`/applications/` 404、RFQ与外部/设备依赖开放。 |
-| Gate 3 Agent与方法 | [当前基线Manifest V1.11](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.11.md)：[执行角色V0.5](agents/gate3-execution/agent.md)、[线框设计V0.4](skills/responsive-wireframe-design/SKILL.md)、[布局核验V0.8](skills/layout-interaction-verification/SKILL.md)及[交接合同v0.3](docs/superpowers/specs/2026-09-07-gate3-to-gate4-handoff-contract-v0.3.md)。当前V0.5角色/V0.4线框按专项标准限制媒体、动画、风格和返修，未新页面试跑；用户授权范围控制定向修订，标准§4.3为准；[修订与校验记录](docs/superpowers/specs/2026-09-07-gate3-v0.3-scope-targeted-revision.md)。V0.3已在Germany和Italy两个新真实页面完成执行、总控独立审查及用户批准关闭，两页均无阻塞Finding；不扩大其他页面授权。 |
+| Gate 3历史角色与方法 | 新任务由[合并Gate 4基线V1.11](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.11.md)承接；[旧基线V1.14](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md)仅作历史。仅旧Gate 3授权不扩大，历史源快照及映射见[变更记录](docs/architecture/GATE3_GATE4_MERGE_CHANGE_RECORD_V1.0.md)。 |
 | Gate 3八页串行批次 | [当前串行控制V1.8](docs/architecture/GATE3_EIGHT_PAGE_SERIAL_CONTROL_V1.8.md)：八页均已由子代理严格串行完成，并经总控独立审查按预授权关闭Gate3；[完成审计](docs/architecture/GATE3_EIGHT_PAGE_SERIAL_COMPLETION_V1.0.md)核对8个冻结源、64张正式图及全部审查/关闭/交接记录，身份差异0。本合同不授权Gate4–10。 |
 | Gate 3五个Resource串行批次 | [当前串行控制V1.6](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_CONTROL_V1.6.md)：五页均已严格串行完成并按预授权关闭Gate3；[完成记录](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_V1.0.md)与[机器审计](docs/architecture/GATE3_FIVE_RESOURCE_SERIAL_COMPLETION_AUDIT_V1.0.json)确认5个冻结源、40张正式图、身份差异0、失败页0。 |
 | Gate 3 Application P1三页历史记录 | [控制V1.2](docs/architecture/GATE3_APPLICATION_P1_THREE_PARALLEL_CONTROL_V1.2.md)：Coatings、Plastics、Masterbatch已完成Gate3 V0.3执行及总控独立审查；用户明确批准当前全部Gate3待审对象，决定`APP-COAT-G3-APPROVAL-01`、`APP-PLAS-G3-APPROVAL-01`、`APP-MB-G3-APPROVAL-01`关闭三页Gate3，阻塞Finding 0。[Coatings V0.6](pages/applications/coatings/APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md) / [Plastics V0.6](pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.6.md) / [Masterbatch V0.8](pages/applications/masterbatch/APP-MB_CURRENT_GATE_BASELINE_MANIFEST_V0.8.md)。三份Gate3→4交接已就绪；Gate4–10及开发发布未授权。 |
@@ -61,7 +83,7 @@
 | 页面身份/URL | [登记册V0.2](docs/architecture/PAGE_REGISTRY_V0.2.md)，当前59页，不代表全部已上线 |
 | 58对象本地预发布 / 404与共享Thank You Gate 9 | 固定候选为local main `98c2c573dd090048352fa12415a9cc8eeefc485b`、run `20260908T162630Z-98c2c573dd09`、Build `QmeAVzHgLILD56DVWgAww`、CMS SHA-256 `b1d425d...`。58对象页面/合同、81内部URL、31上下文CTA、27交互与174截图检查完成；14个editorial缺配置及Brazil对比度已迭代关闭。完整预发布仍`NOT_PASS`：三真实表单无provider/inbox确认，原生200%及设备/AT未补；`/contact/`仅为预发布启动例外。独立内链运行审查按相同身份进行。[预发布接收V1.0](docs/architecture/LOCAL_PRERELEASE_58_EXECUTION_INTAKE_V1.0.md)；[例外决定V1.0](docs/architecture/SYS404_CONTACT_DEPENDENCY_PRERELEASE_EXCEPTION_V1.0.md)；[404当前Manifest V0.16](pages/system/404/SYS-404_CURRENT_GATE_BASELINE_MANIFEST_V0.16.md) / [Thank You当前Manifest V0.16](pages/conversion/thank-you/CONV-THANK_CURRENT_GATE_BASELINE_MANIFEST_V0.16.md)。Gate 10及正式发布未授权。 |
 | 关键词归属/内耗 | [实施主表](research/keyword/11_page_keyword_master.csv)，不是历史研究建议表 |
-| 页面通用任务卡 | [Brief模板](docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.5.md) |
+| 页面通用任务卡 | [Brief模板](docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.6.md) |
 | 页面类型规则/任务合同 | [Playbooks当前流程入口](docs/page-playbooks/README.md) / [Briefs](docs/page-briefs/)，按本页Manifest选择完整Brief与适用增补 |
 | 企业事实缺口/用户决定 | [Evidence Gap Decision Register](docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md) |
 | CONTACT-001 Gate 9 | [Web3Forms轻量流决定](pages/contact/00_governance/CONTACT-001_WEB3FORMS_LIGHTWEIGHT_FLOW_USER_DECISION_2026-09-10.md)、[浏览器提交邮箱归属](pages/contact/00_governance/CONTACT-001_MAILBOX_RECEIPT_USER_CONFIRMATION_V1.2_2026-09-10.md)和[provider证据范围决定](docs/architecture/CONTACT-001_GATE9_PROVIDER_EVIDENCE_SCOPE_DECISION_V1.0.md)已生效。完整provider transaction、provider账户/config审计及自动监控/SLA为`NOT_COLLECTED / NO_LONGER_REQUIRED_BY_USER_DECISION`；运行边界为人工邮箱/表单检查，不宣称后台审计、自动告警或SLA。当前15 PASS/PASS_WITH_HOLD、1 PARTIAL、0 NOT_VERIFIED、0 FAIL，`CONTENT_PASS / PAGE_GATE9_PASS / INTEGRATION_READY / RELEASE_NOT_READY`。仅Contact-specific Privacy parity及sitemap发布步骤仍开放。[当前Manifest V0.14](pages/contact/CONTACT-001_CURRENT_GATE_BASELINE_MANIFEST_V0.14.md) / [当前判定V1.5](docs/architecture/CONTACT-001_GATE9_TARGETED_RECHECK_DISPOSITION_V1.5.md) |
@@ -69,7 +91,7 @@
 | 法律页架构增补 | [No-Terms决定V1.0](docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md) |
 | 产品Application/Process关系 | [PRODUCT V0.3矩阵](pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv) + [统一审计](pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md) |
 | TDS/应用指南原始资料 | [材料目录](<docs/7.27 马来全套TDS +应用指南/>)；具体型号以各自当前Manifest锁定资料为准 |
-| Grade当前执行流程 | [SOP V2.3](docs/product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.3.md)、[清单V1.3](docs/product-pages/04_Product_Detail_Single_Grade_Operational_Checklist_V1.3.md)、[Product Playbook增补V0.4](docs/page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.4.md)；旧产品事实和已完成串行结果保持。 |
+| Grade当前执行流程 | [SOP V2.4](docs/product-pages/03_Product_Detail_Template_Reuse_Development_SOP_V2.4.md)、[清单V1.4](docs/product-pages/04_Product_Detail_Single_Grade_Operational_Checklist_V1.4.md)、[Product Playbook增补V0.5](docs/page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.5.md)；旧产品事实和已完成串行结果保持。 |
 | Grade执行与既有串行结果 | [产品页规范目录](docs/product-pages/)；[串行关闭Manifest V0.16](docs/product-pages/29_Product_Detail_Development_SOP_V2_Autonomous_Serial_Manifest_V0.16.md)，不自动授权新页面 |
 
 ## 3. 研究资料：按问题读取，不重做全站研究
@@ -88,7 +110,7 @@
 | 品牌视觉 | [Visual Standard V1.0](brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md) |
 | 主CTA无障碍增补 | [CTA Addendum V1.0](brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md) |
 | Header / Menu / Footer | [Global Chrome V0.5](docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md)：固定RFQ、共享维护、无可见CURRENT |
-| 七个一级导航根页面Hero | [Root Page Hero V1.0](docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)：`USER_APPROVED / ACTIVE`；统一骨架、三个受控变体、无左侧装饰竖线；页面内容和媒体保持差异 |
+| 七个一级导航根页面Hero | [Root Page Hero V1.0](docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md) + [窄屏视觉与DOC反馈决定V1.0](docs/architecture/ROOT_PAGE_NARROW_VISUAL_AND_DOC_FEEDBACK_DECISION_V1.0.md)：`USER_APPROVED / ACTIVE`；统一骨架、三个受控变体、四页限定自然换行、`<=340px`共享单行Eyebrow及DOC稳定反馈区；页面内容和媒体保持差异 |
 | 七页共享Hero当前Gate 9 | [当前Gate9 Manifest V1.2](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_CURRENT_GATE9_MANIFEST_V1.2.md) / [Return-02定向复验V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_GATE9_RETURN_02_TARGETED_RECHECK_V1.0.md) / [Return-01定向复验V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_GATE9_RETURN_01_TARGETED_RECHECK_V1.0.md) / [首轮验收V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_GATE9_INDEPENDENT_ACCEPTANCE_V1.0.md)：Return-02机器预检和内置浏览器复验PASS；F01–F05全部关闭，`PAGE_GATE9_STATUS=PASS / ROOT_HERO_SEVEN_WORKSET_ACCEPTED`，Integration可进入经授权的下一步，Gate10/发布未授权 |
 | Home / Applications Hero开放白底增补 | [Open-White Addendum V1.0](docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md)：两页取消完整首屏大外框；内容、CTA、媒体及其他页面不改 |
 | 七页Hero定向Gate 4控制 | [七页控制单V1.0](docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_TARGETED_GATE4_CONTROL_V1.0.md)：三批制作、一个共享母版任务、一次独立横向Gate 5审查；当前`PREPARED / NOT_DISPATCHED` |
@@ -100,17 +122,17 @@
 
 | 页面体系 | 目录 |
 |---|---|
-| Home | [当前Manifest V1.6](pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.6.md)：Hero左侧绿色竖线返修已独立复验通过并关闭，Mobile Menu透明背景按用户决定保持，Gate 8可停止；Page Gate 9仅剩物理读屏/触控/原生200%未测，五个Application子路由及Sulfate Process路由404仍属Integration开放项。Gate 10及发布未授权。 |
+| Home | [当前Manifest V1.12](pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md)：D32 Gate9含用户范围例外通过并关闭；VF01关闭，三项未测不再要求补证；24目标依赖保留。D16历史见V1.6及全站专题源。 |
 | Markets | [pages/markets](pages/markets/)；MARKET-EU-001的F03/原生200% zoom已关闭，RFQ/Sample/Documents可用性使A05通过并收窄F02；整页Gate 9因F01和A06剩余行为/receiver证据仍为`READ_ONLY_QA_COMPLETE / NOT_PASS`，由[当前Manifest V0.21](pages/markets/07_qa/MARKET-EU-001_CURRENT_GATE9_BASELINE_MANIFEST_V0.21.md)导航 |
 | Products / Grades | [pages/products](pages/products/) / [detail-template](pages/products/detail-template/) |
 | Applications | [pages/applications](pages/applications/)；五篇主Application文章的当前批准状态及后续选题Controller职责见[三篇批准与选题职责记录V0.1](pages/applications/02_analysis/APPLICATION_ARTICLE_TOPIC_CONTROLLER_MANDATE_AND_THREE_ARTICLE_USER_APPROVAL_V0.1.md)；42个候选题材与28个串行研究单元见[选题总计划V0.1](pages/applications/04_planning/APPLICATION_ARTICLE_TOPIC_MASTER_PLAN_V0.1.md)及[详细Backlog V0.1](pages/applications/04_planning/APPLICATION_ARTICLE_TOPIC_BACKLOG_V0.1.csv)；R04 PE/PP合并方向已获用户批准，冻结Brief SHA `8f94e4f8...cfbe`已派发给既有D22任务`00-Con-masterbatch`执行一篇完整受治理文章，见[R04冻结Brief V1.0](pages/applications/01_research/r04-pe-pp/R04_D22_ARTICLE_BRIEF_V1.0.md)、[派发记录V0.1](pages/applications/01_research/r04-pe-pp/R04_D22_DISPATCH_RECORD_V0.1.md)及[用户方向批准V0.1](pages/applications/01_research/r04-pe-pp/R04_USER_DIRECTION_APPROVAL_V0.1.md)；R05及后续未启动。R03正文已批准关闭，见[R03批准记录](pages/applications/02_analysis/R03_POWDER_COATINGS_ARTICLE_USER_APPROVAL_AND_CLOSURE_V0.1.md)；R01修订正文仍待用户批准，见[R01 D23验收](pages/applications/02_analysis/R01_PVC_UPVC_ARTICLE_D23_ACCEPTANCE_V0.2.md)；R02正文已批准关闭，见[R02批准记录](pages/applications/02_analysis/R02_PLASTIC_FILM_ARTICLE_USER_APPROVAL_AND_CLOSURE_V0.1.md) |
 | Documents | [pages/documents](pages/documents/) |
 | Resources | [pages/resources](pages/resources/)；RES-PROC候选一返修后Gate 9为28/28 PASS且已由用户选定，当前`INTEGRATION_READY / NOT_EXECUTED`；候选二保持隔离且不可按原样选择；由[Gate 9比较审查Manifest V0.16](pages/resources/05_review/RES-PROC_CURRENT_GATE9_COMPARATIVE_REVIEW_MANIFEST_V0.16.md)导航 |
 | About / Contact | [pages/about-contact](pages/about-contact/) |
-| Conversion | [pages/conversion](pages/conversion/)；RFQ 12/12条件通过；Gate 8已执行一次授权Web3Forms测试，但未取得provider完成响应，邮箱核对待用户返回，禁止自动重试；Gate 9为`NOT_PASS / ENVIRONMENT_BLOCKED / LIVE_ATTEMPT_INCONCLUSIVE`，当前由[RFQ Manifest V1.6](pages/conversion/request-a-quote/05_review/CONV-RFQ_CURRENT_GATE9_BASELINE_MANIFEST_V1.6.md)导航；Sample在[request-sample](pages/conversion/request-sample/) |
+| Conversion | [pages/conversion](pages/conversion/)；CONV-RFQ D32页面Gate 9已按用户明确偏差接受关闭：固定候选不变，F01/F02无需返修，原生200%/实体触控/命名AT均USER_WAIVED，当前`READ_ONLY_QA_APPROVED / CLOSED`；AC-09因Products缺失保留Integration未验证，六项外部依赖不变，仅允许mock receiver。旧D16记录只作历史；当前由[RFQ D32 Manifest V0.4](pages/conversion/request-a-quote/05_review/CONV-RFQ_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md)导航；Sample在[request-sample](pages/conversion/request-sample/) |
 | Legal / Privacy | [pages/legal-privacy](pages/legal-privacy/) |
 
-APP-000当前入口：[Manifest V1.12](pages/applications/APP-000_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md)。Gate 2已获用户批准；Gate 3、4、6经独立审查并由总控依常设授权关闭。F01-R2返修候选`6ece488c` / `f6ca423a` / `maNqNFg3Urit7VkLTu5KM`已通过两名独立Reviewer及内链复核，F01–F04全部关闭。用户已明确接受APP-000的G9-10设备/AT证据例外，页面层通过；九消费页不得豁免，九消费页和Sulfate集成项保持开放，整体Gate 9未关闭。Gate 10未授权。V0.12仅为历史视觉参考，不是当前批准基线。
+APP-000 D32当前入口：[D32 Manifest V0.4](pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md)。Gate 3、Gate 4及Gate 6已关闭；Gate 5不同身份独立审查245/245通过，Gate 6不同身份独立审查388/388通过，均为必修0、建议0。Gate 6关闭包`sha256:723ba66bca86b5dd27a3151cfdb9910ea2469df46e9330567078b37fc188686d`包含22项验收和15项依赖，并按[Gate 6总控关闭](pages/applications/05_review/APP-000_D32_GATE6_CONTROLLER_CLOSURE_V0.1.md)登记`APPROVED_FOR_HANDOFF`。[Gate 8派发回执](pages/applications/06_handoff/APP-000_D32_GATE8_DISPATCH_RECEIPT_V0.1.json)已记录既有`03开发`接收：从`develop@1194cd641910a3dc9ad5ad7a0edd84e594765cc5`创建`codex/app-000-wordpress`隔离工作树，HOLD为0，Gate 8当前进行中、尚未交付。主控只编排、接收、协调和授权关闭，不重复独立审查。旧D32 Manifest V0.1–V0.3、[Manifest V1.12](pages/applications/APP-000_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md)及D16 implementation/evidence/build仅作历史。Gate 9、Gate 10、部署、发布和索引未授权。
 
 找具体页面：先用Page ID查登记册与Status，再打开页面当前Manifest；完整Brief、关系增补、设计、审查和handoff按Manifest的authority order组合。找不到/状态相冲突时登记，不凭文件名猜当前批准版本。
 
@@ -145,15 +167,15 @@ Gate 5审查合同补全：Agent V0.2、核验Skill V0.6及独立审查参考V0.
 
 Gate 4自检当前规则：Agent V1.3、制作Skill V0.3、核验Skill V0.7及共同合同V1.2，见[自检效率修订](docs/architecture/GATE4_SELF_CHECK_EFFICIENCY_CHANGE_V1.0.md)。同一实际覆盖只检查一次，正式捕获与变化补验按范围执行；不减免独立审查。
 
-三个视觉Skill当前方法边界：品牌应用V0.4、完整页面制作V0.4、核验V0.8，均集中列出允许与禁止做法，见[整理记录](docs/architecture/VISUAL_SKILL_METHOD_BOUNDARIES_CHANGE_V1.0.md)。
+此前三个视觉Skill方法边界记录：品牌应用V0.5、完整页面制作V0.5、核验V0.8，均集中列出允许与禁止做法，见[整理记录](docs/architecture/VISUAL_SKILL_METHOD_BOUNDARIES_CHANGE_V1.0.md)。
 
-Gate 6当前执行与总控路由增补：[执行与复核合同V1.0](docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.0.md)，[修订记录](docs/architecture/GATE6_EFFICIENCY_CHANGE_V1.0.md)。启用FAST_PATH/ESCALATED_PATH规则；总控初版“尚未启用”仅为历史说明。共享一致性Skill当前V0.3，Gate 9不套用Gate 6精简路径；未实现统一validator或更改页面授权。
+Gate 6当前执行与总控路由增补：[执行与复核合同V1.2](docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.2.md)，[修订记录](docs/architecture/GATE6_EFFICIENCY_CHANGE_V1.0.md)。启用FAST_PATH/ESCALATED_PATH规则；总控初版“尚未启用”仅为历史说明。共享一致性Skill当前V0.3，Gate 9不套用Gate 6精简路径；未实现统一validator或更改页面授权。
 
 Gate 6四页实战关闭：[完成控制V1.0](docs/architecture/GATE6_FOUR_PAGE_V02_REPAIR_AND_CLOSURE_CONTROL_V1.0.md)。Brazil EN/PT、Chloride Process、DOC-COO均经页面隔离执行、不同身份复核和常设授权关闭；随后用户通过[G8-BR-CL-COO-FOUR-20260908-01](docs/architecture/GATE8_BR_CL_COO_FOUR_PAGE_AUTHORIZATION_AND_DISPATCH_V1.0.md)授权交给既有`00Con`，四页现已接收并进入Gate 8开发，状态以各页新版Manifest和[接收回执](docs/architecture/GATE8_BR_CL_COO_FOUR_PAGE_DISPATCH_RECEIPT_V1.0.json)为准。
 
-Gate 4→新Gate 5当前交接：[共用合同V1.0](docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md)及[统一记录](docs/architecture/GATE4_GATE5_HANDOFF_ALIGNMENT_CHANGE_V1.0.md)。Gate 4 Agent V1.4与Gate 5 Agent V0.3共同消费；新Gate 5承担合并Gate 4唯一最终独立审查，明确映射现有生命周期。此前“交接/路由尚待统一”仅保留历史时点，不再作为当前阻塞。
+Gate 4→新Gate 5当前交接：[共用合同V1.1](docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.1.md)及[统一记录](docs/architecture/GATE4_GATE5_HANDOFF_ALIGNMENT_CHANGE_V1.0.md)。Gate 4 Agent V1.4与Gate 5 Agent V0.3共同消费；新Gate 5承担合并Gate 4唯一最终独立审查，明确映射现有生命周期。此前“交接/路由尚待统一”仅保留历史时点，不再作为当前阻塞。
 
-Gate 5→6当前接收：[共用合同V1.0](docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md)及[同步记录](docs/architecture/GATE5_GATE6_CONTROLLER_ALIGNMENT_CHANGE_V1.0.md)。Gate 5 V0.4、Gate 6 V0.7、Controller V0.2和路由V0.2直接引用当前交接定义。
+Gate 5→6当前接收：[共用合同V1.1](docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.1.md)及[同步记录](docs/architecture/GATE5_GATE6_CONTROLLER_ALIGNMENT_CHANGE_V1.0.md)。Gate 5 V0.4、Gate 6 V0.7、Controller V0.2和路由V0.2直接引用当前交接定义。
 
 
 新Gate 5九页独立审查：[控制V1.0](docs/architecture/GATE5_NINE_PAGE_REVIEW_CONTROL_V1.0.md)。用户授权子代理执行RES-R706、RES-CHEMOURS、四个Trade Resource与APP-MB/INK/PAPER；实际冻结候选按各页Gate 4→5交接读取，旧上游Manifest不代表尚无制作成果。仅审查及按有效权限关闭，不启动Gate 6。
@@ -170,15 +192,15 @@ Gate 5→6当前接收：[共用合同V1.0](docs/architecture/GATE5_GATE6_ACCEPT
 
 - RES-TRADE-IN当前基线：[RES-TRADE-IN_CURRENT_GATE_BASELINE_MANIFEST_V0.10.md](pages/resources/india-trade/RES-TRADE-IN_CURRENT_GATE_BASELINE_MANIFEST_V0.10.md)；Gate 9定向复验完成，`F02 OPEN / NOT_PASS`。
 
-- APP-COAT当前基线：[APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md](pages/applications/coatings/APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md)；`F01 CLOSED`，`F02 OPEN / NOT_PASS`，`PROVISIONAL_URL`保持。
+- APP-COAT当前基线：[APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.16.md](pages/applications/coatings/APP-COAT_CURRENT_GATE_BASELINE_MANIFEST_V0.16.md)；Gate 9 Return 1通过并关闭，Integration ready、未合并，Gate10未授权。
 
-- APP-PLAS当前基线：[APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md](pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.12.md)；`F01 CLOSED`，`F02 OPEN / NOT_PASS`，`PROVISIONAL_URL`保持。
+- APP-PLAS当前基线：[APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.16.md](pages/applications/plastics/APP-PLAS_CURRENT_GATE_BASELINE_MANIFEST_V0.16.md)；Gate 9 Return 1通过并关闭，Integration ready、未合并，Gate10未授权。
 
-- APP-MB当前基线：[APP-MB_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md](pages/applications/masterbatch/APP-MB_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md)；`F01 CLOSED`，`F02 OPEN / NOT_PASS`，`PROVISIONAL_URL`保持。
+- APP-MB当前基线：[APP-MB_CURRENT_GATE_BASELINE_MANIFEST_V0.17.md](pages/applications/masterbatch/APP-MB_CURRENT_GATE_BASELINE_MANIFEST_V0.17.md)；Gate 9 Return 1通过并关闭，Integration ready、未合并，Gate10未授权。
 
-- APP-INK当前基线：[APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.9.md](pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.9.md)；`F01 CLOSED`，`F02 OPEN / NOT_PASS`，`PROVISIONAL_URL`保持。
+- APP-INK当前基线：[APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md](pages/applications/printing-inks/APP-INK_CURRENT_GATE_BASELINE_MANIFEST_V0.13.md)；Gate 9 Return 1通过并关闭，Integration ready、未合并，Gate10未授权。
 
-- APP-PAPER当前基线：[APP-PAPER_CURRENT_GATE_BASELINE_MANIFEST_V0.11.md](pages/applications/paper/APP-PAPER_CURRENT_GATE_BASELINE_MANIFEST_V0.11.md)；`F01 CLOSED`，`F02 OPEN / NOT_PASS`，`PROVISIONAL_URL`保持。
+- APP-PAPER当前基线：[APP-PAPER_CURRENT_GATE_BASELINE_MANIFEST_V0.15.md](pages/applications/paper/APP-PAPER_CURRENT_GATE_BASELINE_MANIFEST_V0.15.md)；Gate 9 Return 1通过并关闭，Integration ready、未合并，Gate10未授权。
 
 Trade 4 + Application 5 Gate 9当前入口：[定向复验V1.0](docs/architecture/GATE9_TRADE4_APPLICATION5_TARGETED_RECHECK_V1.0.md) / [首轮独立验收V1.0](docs/architecture/GATE9_TRADE4_APPLICATION5_INITIAL_ACCEPTANCE_AND_RETURN_V1.0.md) / [121 AC + 66依赖机器审计V1.0](docs/architecture/GATE9_TRADE4_APPLICATION5_ACCEPTANCE_AUDIT_V1.0.json)。`F01/F03/F04 CLOSED`；`F02 OPEN`，九页均为`TARGETED_RECHECK_COMPLETE / NOT_PASS`。
 
@@ -190,7 +212,7 @@ Trade 4 + Application 5 Gate 9当前入口：[定向复验V1.0](docs/architectur
 
 Gate 1当前执行：[三路径合同V1.0](docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md)；Agent V0.2，搜索意图Skill V0.2，REUSE_CONFIRMATION / GAP_RESEARCH / FULL_RESEARCH。四类信息可引用映射、按缺口调用方法；旧四文件建设记录保留历史。本轮只改规则，未做页面回放。
 
-Gate 2内容适配已按G2-ADAPTATION-20260908修订：两个Agent V0.7、交付结构V0.6，保留两步/独立冷读/用户批准；三种制作方式不映射G1路径，不新增Skill。当前总控生效增补为[ V1.13 ](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.13.md)。
+Gate 2内容适配已按G2-ADAPTATION-20260908修订：两个Agent V0.7、交付结构V0.6，保留两步/独立冷读/用户批准；三种制作方式不映射G1路径，不新增Skill。当前总控生效增补为[ V1.14 ](docs/architecture/PROJECT_ORCHESTRATOR_ACTIVATION_V1.16.md)。
 
 网站级准备已接入总控V0.14：[共同合同](docs/architecture/WEBSITE_PREPARATION_HANDOFF_CONTRACT_V1.6.md) / [最小模板](docs/architecture/WEBSITE_PREPARATION_HANDOFF_TEMPLATE_V1.6.md)。五工作包不新增Gate；W1–W5 Agent已建立，均未实战试跑，准备就绪与页面授权分开。
 
@@ -212,3 +234,7 @@ Gate 2内容适配已按G2-ADAPTATION-20260908修订：两个Agent V0.7、交付
 
 
 模板库D16位置与首轮执行入口：[建库和候选盘点任务书](docs/architecture/TEMPLATE_LIBRARY_D16_INVENTORY_BRIEF_V0.1.md)。已准备、未派发；不改变W1–W5/Gate与页面授权。
+
+2026-09-21 Gate 6当前职责按[边界决定V1.0](docs/architecture/GATE6_RESPONSIBILITY_BOUNDARY_DECISION_V1.0.md)及[基线V1.3](docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)执行：交付批准依据、一致性、依赖责任及验收条件；开发决定技术实现，Gate 9负责实际验收。此前候选/旧版本说明保留历史语境。
+
+开发规则直接读取D32的[AGENTS.md](D:/32NextJS/AGENTS.md)、[CONTRIBUTING.md](D:/32NextJS/CONTRIBUTING.md)与[README.md](D:/32NextJS/README.md)。D23只保留策划及验收交接接口。

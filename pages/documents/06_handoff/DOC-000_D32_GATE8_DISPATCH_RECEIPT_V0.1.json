@@ -1,0 +1,33 @@
+{
+  "schema_version": "d23-gate8-dispatch-receipt-v0.1",
+  "page_id": "DOC-000",
+  "date": "2026-09-21",
+  "authorization": "USER_AUTHORIZED_FOUR_ROOT_PAGES_GATE3_TO_GATE9",
+  "controller_closure_id": "DOC000-D32-G6-PC-CLOSURE-20260921-01",
+  "gate6_package": {
+    "path": "D:/23MySec/pages/documents/06_handoff/DOC-000_D32_GATE6_HANDOFF_PACKAGE_V0.2.md",
+    "sha256": "b8e94690ae34b787e1e936b9753905e45b1437e0fd29b36ad08c4e11f541c063"
+  },
+  "receiver": {
+    "task_title": "02开发",
+    "thread_id": "01a0bd8c-1d64-7fd1-9026-243adc069ca9",
+    "acknowledged": true
+  },
+  "development_repository": "D:/32NextJS",
+  "baseline_commit": "4beaf2f70daccd9d141fddb5a24f0185998613f8",
+  "branch": "codex/doc-000-gate8",
+  "worktree": "D:/32NextJS/.worktrees/doc-000-gate8",
+  "worktree_clean_at_acceptance": true,
+  "hold": {
+    "blocking": false,
+    "open_not_verified": [
+      "RB-15..17 / G8-16..18 visible discovery placement approval and target-route readiness",
+      "static receiver, real operational receipt and mailbox evidence",
+      "formal release, indexing and sitemap publication",
+      "applicable shared-policy and route runtime proof"
+    ]
+  },
+  "status": "RECEIVED / GATE8_IN_PROGRESS",
+  "serial_queue": ["DOC-000", "RES-000", "ABOUT-001", "MARKET-000"],
+  "prohibited": ["Gate9 self-approval", "Gate10", "merge", "push", "deploy", "publish", "DNS", "Search Console", "index submission"]
+}

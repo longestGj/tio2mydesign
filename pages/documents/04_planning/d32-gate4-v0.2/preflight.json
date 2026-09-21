@@ -1,0 +1,1590 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "74 prior frozen members intact",
+      "pass": true,
+      "actual": true
+    },
+    {
+      "id": "byte identity DOC-000_D32_structure.html",
+      "pass": true,
+      "actual": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723"
+    },
+    {
+      "id": "byte identity DOC-000_D32_behavior.js",
+      "pass": true,
+      "actual": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+    },
+    {
+      "id": "only approved narrow feedback CSS delta",
+      "pass": true,
+      "actual": "Shared/body rules otherwise exact"
+    },
+    {
+      "id": "targeted green",
+      "pass": true,
+      "actual": 140
+    },
+    {
+      "id": "full existing author suite",
+      "pass": true,
+      "actual": 238
+    },
+    {
+      "id": "1440 entire visible main geometry unchanged",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "1440 no overflow / eyebrow remains one line",
+      "pass": true,
+      "actual": {
+        "overflow": false,
+        "eyebrowLines": 1
+      }
+    },
+    {
+      "id": "1024 entire visible main geometry unchanged",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "1024 no overflow / eyebrow remains one line",
+      "pass": true,
+      "actual": {
+        "overflow": false,
+        "eyebrowLines": 1
+      }
+    },
+    {
+      "id": "768 entire visible main geometry unchanged",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "768 no overflow / eyebrow remains one line",
+      "pass": true,
+      "actual": {
+        "overflow": false,
+        "eyebrowLines": 1
+      }
+    },
+    {
+      "id": "390 entire visible main geometry unchanged",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "390 no overflow / eyebrow remains one line",
+      "pass": true,
+      "actual": {
+        "overflow": false,
+        "eyebrowLines": 1
+      }
+    },
+    {
+      "id": "320 only feedback height and downstream flow offset",
+      "pass": true,
+      "actual": {
+        "changed": 82,
+        "bad": [],
+        "differences": [
+          {
+            "old": {
+              "key": "SECTION#grade-selector.doc-section doc-width doc-selector",
+              "x": 20,
+              "y": 962.859375,
+              "w": 280,
+              "h": 613.40625,
+              "text": null
+            },
+            "now": {
+              "key": "SECTION#grade-selector.doc-section doc-width doc-selector",
+              "x": 20,
+              "y": 962.859375,
+              "w": 280,
+              "h": 635.59375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.doc-selector-controls",
+              "x": 48,
+              "y": 1243,
+              "w": 227,
+              "h": 308.265625,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.doc-selector-controls",
+              "x": 48,
+              "y": 1243,
+              "w": 227,
+              "h": 330.453125,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "P#grade-error.",
+              "x": 48,
+              "y": 1352.484375,
+              "w": 227,
+              "h": 24,
+              "text": ""
+            },
+            "now": {
+              "key": "P#grade-error.",
+              "x": 48,
+              "y": 1352.484375,
+              "w": 227,
+              "h": 46.1875,
+              "text": ""
+            }
+          },
+          {
+            "old": {
+              "key": "P#grade-selected.",
+              "x": 48,
+              "y": 1382.484375,
+              "w": 227,
+              "h": 24,
+              "text": ""
+            },
+            "now": {
+              "key": "P#grade-selected.",
+              "x": 48,
+              "y": 1404.671875,
+              "w": 227,
+              "h": 24,
+              "text": ""
+            }
+          },
+          {
+            "old": {
+              "key": "A#continue-request.doc-primary",
+              "x": 48,
+              "y": 1412.484375,
+              "w": 227,
+              "h": 74,
+              "text": "Continue to Request Documents"
+            },
+            "now": {
+              "key": "A#continue-request.doc-primary",
+              "x": 48,
+              "y": 1434.671875,
+              "w": 227,
+              "h": 74,
+              "text": "Continue to Request Documents"
+            }
+          },
+          {
+            "old": {
+              "key": "A#.doc-assistance",
+              "x": 48,
+              "y": 1498.484375,
+              "w": 227,
+              "h": 52.78125,
+              "text": "Not sure which grade to select? Explore Products."
+            },
+            "now": {
+              "key": "A#.doc-assistance",
+              "x": 48,
+              "y": 1520.671875,
+              "w": 227,
+              "h": 52.78125,
+              "text": "Not sure which grade to select? Explore Products."
+            }
+          },
+          {
+            "old": {
+              "key": "SECTION#.doc-section doc-width",
+              "x": 20,
+              "y": 1616.265625,
+              "w": 280,
+              "h": 566.25,
+              "text": null
+            },
+            "now": {
+              "key": "SECTION#.doc-section doc-width",
+              "x": 20,
+              "y": 1638.453125,
+              "w": 280,
+              "h": 566.25,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H2#steps-title.",
+              "x": 20,
+              "y": 1616.265625,
+              "w": 280,
+              "h": 33.59375,
+              "text": "How It Works"
+            },
+            "now": {
+              "key": "H2#steps-title.",
+              "x": 20,
+              "y": 1638.453125,
+              "w": 280,
+              "h": 33.59375,
+              "text": "How It Works"
+            }
+          },
+          {
+            "old": {
+              "key": "OL#.doc-steps",
+              "x": 20,
+              "y": 1669.859375,
+              "w": 280,
+              "h": 512.65625,
+              "text": null
+            },
+            "now": {
+              "key": "OL#.doc-steps",
+              "x": 20,
+              "y": 1692.046875,
+              "w": 280,
+              "h": 512.65625,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "LI#.",
+              "x": 44,
+              "y": 1669.859375,
+              "w": 256,
+              "h": 157.546875,
+              "text": null
+            },
+            "now": {
+              "key": "LI#.",
+              "x": 44,
+              "y": 1692.046875,
+              "w": 256,
+              "h": 157.546875,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 52,
+              "y": 1669.859375,
+              "w": 248,
+              "h": 50.375,
+              "text": "Identify Your Review Need"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 52,
+              "y": 1692.046875,
+              "w": 248,
+              "h": 50.375,
+              "text": "Identify Your Review Need"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 52,
+              "y": 1732.234375,
+              "w": 248,
+              "h": 79.171875,
+              "text": "Choose product evaluation, quality and supplier qualification, or origin review."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 52,
+              "y": 1754.421875,
+              "w": 248,
+              "h": 79.171875,
+              "text": "Choose product evaluation, quality and supplier qualification, or origin review."
+            }
+          },
+          {
+            "old": {
+              "key": "LI#.",
+              "x": 44,
+              "y": 1859.40625,
+              "w": 256,
+              "h": 132.359375,
+              "text": null
+            },
+            "now": {
+              "key": "LI#.",
+              "x": 44,
+              "y": 1881.59375,
+              "w": 256,
+              "h": 132.359375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 52,
+              "y": 1859.40625,
+              "w": 248,
+              "h": 25.1875,
+              "text": "Select a Product Grade"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 52,
+              "y": 1881.59375,
+              "w": 248,
+              "h": 25.1875,
+              "text": "Select a Product Grade"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 52,
+              "y": 1896.59375,
+              "w": 248,
+              "h": 79.171875,
+              "text": "Choose the titanium dioxide grade the documents should relate to."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 52,
+              "y": 1918.78125,
+              "w": 248,
+              "h": 79.171875,
+              "text": "Choose the titanium dioxide grade the documents should relate to."
+            }
+          },
+          {
+            "old": {
+              "key": "LI#.",
+              "x": 44,
+              "y": 2023.765625,
+              "w": 256,
+              "h": 158.75,
+              "text": null
+            },
+            "now": {
+              "key": "LI#.",
+              "x": 44,
+              "y": 2045.953125,
+              "w": 256,
+              "h": 158.75,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 52,
+              "y": 2023.765625,
+              "w": 248,
+              "h": 25.1875,
+              "text": "Request Documents"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 52,
+              "y": 2045.953125,
+              "w": 248,
+              "h": 25.1875,
+              "text": "Request Documents"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 52,
+              "y": 2060.953125,
+              "w": 248,
+              "h": 105.5625,
+              "text": "Continue with the grade prefilled, select the document types you need, and submit your request."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 52,
+              "y": 2083.140625,
+              "w": 248,
+              "h": 105.5625,
+              "text": "Continue with the grade prefilled, select the document types you need, and submit your request."
+            }
+          },
+          {
+            "old": {
+              "key": "SECTION#.doc-section doc-width",
+              "x": 20,
+              "y": 2222.515625,
+              "w": 280,
+              "h": 858.984375,
+              "text": null
+            },
+            "now": {
+              "key": "SECTION#.doc-section doc-width",
+              "x": 20,
+              "y": 2244.703125,
+              "w": 280,
+              "h": 858.984375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H2#scenarios-title.",
+              "x": 20,
+              "y": 2222.515625,
+              "w": 280,
+              "h": 67.1875,
+              "text": "Supporting Your Review Process"
+            },
+            "now": {
+              "key": "H2#scenarios-title.",
+              "x": 20,
+              "y": 2244.703125,
+              "w": 280,
+              "h": 67.1875,
+              "text": "Supporting Your Review Process"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 20,
+              "y": 2309.703125,
+              "w": 280,
+              "h": 52.78125,
+              "text": "Start with the decision your team is preparing to make."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 20,
+              "y": 2331.890625,
+              "w": 280,
+              "h": 52.78125,
+              "text": "Start with the decision your team is preparing to make."
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.doc-scenarios",
+              "x": 20,
+              "y": 2378.484375,
+              "w": 280,
+              "h": 703.015625,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.doc-scenarios",
+              "x": 20,
+              "y": 2400.671875,
+              "w": 280,
+              "h": 703.015625,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 2378.484375,
+              "w": 280,
+              "h": 192.75,
+              "text": null
+            },
+            "now": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 2400.671875,
+              "w": 280,
+              "h": 192.75,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 2403.484375,
+              "w": 230,
+              "h": 25.1875,
+              "text": "Product Evaluation"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 2425.671875,
+              "w": 230,
+              "h": 25.1875,
+              "text": "Product Evaluation"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 45,
+              "y": 2440.671875,
+              "w": 230,
+              "h": 105.5625,
+              "text": "Review product data, specifications, safety and handling information for the selected grade."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 45,
+              "y": 2462.859375,
+              "w": 230,
+              "h": 105.5625,
+              "text": "Review product data, specifications, safety and handling information for the selected grade."
+            }
+          },
+          {
+            "old": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 2595.234375,
+              "w": 280,
+              "h": 244.328125,
+              "text": null
+            },
+            "now": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 2617.421875,
+              "w": 280,
+              "h": 244.328125,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 2620.234375,
+              "w": 230,
+              "h": 50.375,
+              "text": "Quality & Supplier Qualification"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 2642.421875,
+              "w": 230,
+              "h": 50.375,
+              "text": "Quality & Supplier Qualification"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 45,
+              "y": 2682.609375,
+              "w": 230,
+              "h": 131.953125,
+              "text": "Support QA and supplier qualification with quality information, COA-related documentation and supplier details."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 45,
+              "y": 2704.796875,
+              "w": 230,
+              "h": 131.953125,
+              "text": "Support QA and supplier qualification with quality information, COA-related documentation and supplier details."
+            }
+          },
+          {
+            "old": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 2863.5625,
+              "w": 280,
+              "h": 217.9375,
+              "text": null
+            },
+            "now": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 2885.75,
+              "w": 280,
+              "h": 217.9375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 2888.5625,
+              "w": 230,
+              "h": 50.375,
+              "text": "Origin & Supplier Qualification Review"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 2910.75,
+              "w": 230,
+              "h": 50.375,
+              "text": "Origin & Supplier Qualification Review"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 45,
+              "y": 2950.9375,
+              "w": 230,
+              "h": 105.5625,
+              "text": "Request origin and supplier-qualification information for purchasing and internal review."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 45,
+              "y": 2973.125,
+              "w": 230,
+              "h": 105.5625,
+              "text": "Request origin and supplier-qualification information for purchasing and internal review."
+            }
+          },
+          {
+            "old": {
+              "key": "SECTION#.doc-section doc-width",
+              "x": 20,
+              "y": 3121.5,
+              "w": 280,
+              "h": 1045.734375,
+              "text": null
+            },
+            "now": {
+              "key": "SECTION#.doc-section doc-width",
+              "x": 20,
+              "y": 3143.6875,
+              "w": 280,
+              "h": 1045.734375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H2#groups-title.",
+              "x": 20,
+              "y": 3121.5,
+              "w": 280,
+              "h": 67.1875,
+              "text": "Documentation You Can Request"
+            },
+            "now": {
+              "key": "H2#groups-title.",
+              "x": 20,
+              "y": 3143.6875,
+              "w": 280,
+              "h": 67.1875,
+              "text": "Documentation You Can Request"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 20,
+              "y": 3208.6875,
+              "w": 280,
+              "h": 52.78125,
+              "text": "Choose the category that best matches your review."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 20,
+              "y": 3230.875,
+              "w": 280,
+              "h": 52.78125,
+              "text": "Choose the category that best matches your review."
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.doc-groups",
+              "x": 20,
+              "y": 3277.46875,
+              "w": 280,
+              "h": 889.765625,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.doc-groups",
+              "x": 20,
+              "y": 3299.65625,
+              "w": 280,
+              "h": 889.765625,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 3277.46875,
+              "w": 280,
+              "h": 216.734375,
+              "text": null
+            },
+            "now": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 3299.65625,
+              "w": 280,
+              "h": 216.734375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 3302.46875,
+              "w": 230,
+              "h": 75.5625,
+              "text": "Technical Data & Product Documentation"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 3324.65625,
+              "w": 230,
+              "h": 75.5625,
+              "text": "Technical Data & Product Documentation"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 45,
+              "y": 3390.03125,
+              "w": 230,
+              "h": 79.171875,
+              "text": "Technical product data and specifications for evaluating the selected grade."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 45,
+              "y": 3412.21875,
+              "w": 230,
+              "h": 79.171875,
+              "text": "Technical product data and specifications for evaluating the selected grade."
+            }
+          },
+          {
+            "old": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 3518.203125,
+              "w": 280,
+              "h": 166.359375,
+              "text": null
+            },
+            "now": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 3540.390625,
+              "w": 280,
+              "h": 166.359375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 3543.203125,
+              "w": 230,
+              "h": 25.1875,
+              "text": "Safety Documentation"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 3565.390625,
+              "w": 230,
+              "h": 25.1875,
+              "text": "Safety Documentation"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 45,
+              "y": 3580.390625,
+              "w": 230,
+              "h": 79.171875,
+              "text": "Safety, handling and storage information for workplace and product review."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 45,
+              "y": 3602.578125,
+              "w": 230,
+              "h": 79.171875,
+              "text": "Safety, handling and storage information for workplace and product review."
+            }
+          },
+          {
+            "old": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 3708.5625,
+              "w": 280,
+              "h": 191.546875,
+              "text": null
+            },
+            "now": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 3730.75,
+              "w": 280,
+              "h": 191.546875,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 3733.5625,
+              "w": 230,
+              "h": 50.375,
+              "text": "Quality & COA Documentation"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 3755.75,
+              "w": 230,
+              "h": 50.375,
+              "text": "Quality & COA Documentation"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 45,
+              "y": 3795.9375,
+              "w": 230,
+              "h": 79.171875,
+              "text": "Quality information and COA-related documentation for QA and purchasing checks."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 45,
+              "y": 3818.125,
+              "w": 230,
+              "h": 79.171875,
+              "text": "Quality information and COA-related documentation for QA and purchasing checks."
+            }
+          },
+          {
+            "old": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 3924.109375,
+              "w": 280,
+              "h": 243.125,
+              "text": null
+            },
+            "now": {
+              "key": "ARTICLE#.",
+              "x": 20,
+              "y": 3946.296875,
+              "w": 280,
+              "h": 243.125,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 3949.109375,
+              "w": 230,
+              "h": 75.5625,
+              "text": "Origin & Supplier Qualification Documentation"
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 45,
+              "y": 3971.296875,
+              "w": 230,
+              "h": 75.5625,
+              "text": "Origin & Supplier Qualification Documentation"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 45,
+              "y": 4036.671875,
+              "w": 230,
+              "h": 105.5625,
+              "text": "Origin and company documentation for supplier qualification and purchasing review."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 45,
+              "y": 4058.859375,
+              "w": 230,
+              "h": 105.5625,
+              "text": "Origin and company documentation for supplier qualification and purchasing review."
+            }
+          },
+          {
+            "old": {
+              "key": "SECTION#.doc-section doc-width doc-band",
+              "x": 20,
+              "y": 4207.234375,
+              "w": 280,
+              "h": 406.296875,
+              "text": null
+            },
+            "now": {
+              "key": "SECTION#.doc-section doc-width doc-band",
+              "x": 20,
+              "y": 4229.421875,
+              "w": 280,
+              "h": 406.296875,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H2#why-title.",
+              "x": 44,
+              "y": 4231.234375,
+              "w": 232,
+              "h": 100.78125,
+              "text": "Why Documents Are Provided on Request"
+            },
+            "now": {
+              "key": "H2#why-title.",
+              "x": 44,
+              "y": 4253.421875,
+              "w": 232,
+              "h": 100.78125,
+              "text": "Why Documents Are Provided on Request"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 44,
+              "y": 4352.015625,
+              "w": 232,
+              "h": 237.515625,
+              "text": "Documentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 44,
+              "y": 4374.203125,
+              "w": 232,
+              "h": 237.515625,
+              "text": "Documentation can differ by product and review purpose. Submitting a request helps match the materials to the selected grade and the information your team needs. Availability and applicable scope are confirmed during review."
+            }
+          },
+          {
+            "old": {
+              "key": "SECTION#.doc-section doc-width",
+              "x": 20,
+              "y": 4653.53125,
+              "w": 280,
+              "h": 575.59375,
+              "text": null
+            },
+            "now": {
+              "key": "SECTION#.doc-section doc-width",
+              "x": 20,
+              "y": 4675.71875,
+              "w": 280,
+              "h": 575.59375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H2#faq-title.",
+              "x": 20,
+              "y": 4653.53125,
+              "w": 280,
+              "h": 33.59375,
+              "text": "Buyer Questions"
+            },
+            "now": {
+              "key": "H2#faq-title.",
+              "x": 20,
+              "y": 4675.71875,
+              "w": 280,
+              "h": 33.59375,
+              "text": "Buyer Questions"
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.doc-faq",
+              "x": 20,
+              "y": 4707.125,
+              "w": 280,
+              "h": 522,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.doc-faq",
+              "x": 20,
+              "y": 4729.3125,
+              "w": 280,
+              "h": 522,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 4707.125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 4729.3125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 4707.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 4729.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "BUTTON#faq-question-1.faq-question",
+              "x": 20,
+              "y": 4707.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "BUTTON#faq-question-1.faq-question",
+              "x": 20,
+              "y": 4729.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 4736.625,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            },
+            "now": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 4758.8125,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 4794.125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 4816.3125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 4794.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 4816.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "BUTTON#faq-question-2.faq-question",
+              "x": 20,
+              "y": 4794.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "BUTTON#faq-question-2.faq-question",
+              "x": 20,
+              "y": 4816.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 4823.625,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            },
+            "now": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 4845.8125,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 4881.125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 4903.3125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 4881.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 4903.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "BUTTON#faq-question-3.faq-question",
+              "x": 20,
+              "y": 4881.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "BUTTON#faq-question-3.faq-question",
+              "x": 20,
+              "y": 4903.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 4910.625,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            },
+            "now": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 4932.8125,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 4968.125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 4990.3125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 4968.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 4990.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "BUTTON#faq-question-4.faq-question",
+              "x": 20,
+              "y": 4968.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "BUTTON#faq-question-4.faq-question",
+              "x": 20,
+              "y": 4990.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 4997.625,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            },
+            "now": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 5019.8125,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 5055.125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 5077.3125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 5055.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 5077.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "BUTTON#faq-question-5.faq-question",
+              "x": 20,
+              "y": 5055.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "BUTTON#faq-question-5.faq-question",
+              "x": 20,
+              "y": 5077.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 5084.625,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            },
+            "now": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 5106.8125,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            }
+          },
+          {
+            "old": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 5142.125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            },
+            "now": {
+              "key": "DIV#.faq-item",
+              "x": 20,
+              "y": 5164.3125,
+              "w": 280,
+              "h": 87,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 5142.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "H3#.",
+              "x": 20,
+              "y": 5164.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "BUTTON#faq-question-6.faq-question",
+              "x": 20,
+              "y": 5142.125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            },
+            "now": {
+              "key": "BUTTON#faq-question-6.faq-question",
+              "x": 20,
+              "y": 5164.3125,
+              "w": 280,
+              "h": 86,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 5171.625,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            },
+            "now": {
+              "key": "SPAN#.",
+              "x": 287.984375,
+              "y": 5193.8125,
+              "w": 12.015625,
+              "h": 27,
+              "text": "+"
+            }
+          },
+          {
+            "old": {
+              "key": "SECTION#.doc-section doc-width doc-closing",
+              "x": 20,
+              "y": 5269.125,
+              "w": 280,
+              "h": 372.234375,
+              "text": null
+            },
+            "now": {
+              "key": "SECTION#.doc-section doc-width doc-closing",
+              "x": 20,
+              "y": 5291.3125,
+              "w": 280,
+              "h": 372.234375,
+              "text": null
+            }
+          },
+          {
+            "old": {
+              "key": "P#.doc-eyebrow",
+              "x": 44,
+              "y": 5293.125,
+              "w": 232,
+              "h": 23.09375,
+              "text": "DOCUMENT REQUEST"
+            },
+            "now": {
+              "key": "P#.doc-eyebrow",
+              "x": 44,
+              "y": 5315.3125,
+              "w": 232,
+              "h": 23.09375,
+              "text": "DOCUMENT REQUEST"
+            }
+          },
+          {
+            "old": {
+              "key": "H2#closing-title.",
+              "x": 44,
+              "y": 5332.21875,
+              "w": 232,
+              "h": 67.1875,
+              "text": "Ready to Request Documents?"
+            },
+            "now": {
+              "key": "H2#closing-title.",
+              "x": 44,
+              "y": 5354.40625,
+              "w": 232,
+              "h": 67.1875,
+              "text": "Ready to Request Documents?"
+            }
+          },
+          {
+            "old": {
+              "key": "P#.",
+              "x": 44,
+              "y": 5419.40625,
+              "w": 232,
+              "h": 131.953125,
+              "text": "Select the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need."
+            },
+            "now": {
+              "key": "P#.",
+              "x": 44,
+              "y": 5441.59375,
+              "w": 232,
+              "h": 131.953125,
+              "text": "Select the product grade the documents relate to. We’ll carry it into the request form, where you can choose the document types you need."
+            }
+          },
+          {
+            "old": {
+              "key": "A#closing-action.doc-primary",
+              "x": 44,
+              "y": 5567.359375,
+              "w": 232,
+              "h": 50,
+              "text": "Select a Product Grade"
+            },
+            "now": {
+              "key": "A#closing-action.doc-primary",
+              "x": 44,
+              "y": 5589.546875,
+              "w": 232,
+              "h": 50,
+              "text": "Select a Product Grade"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "320 no overflow / eyebrow remains one line",
+      "pass": true,
+      "actual": {
+        "overflow": false,
+        "eyebrowLines": 1
+      }
+    }
+  ],
+  "rendering": {
+    "browser": "151.0.7922.34",
+    "viewport_height": 1000,
+    "deviceScaleFactor": 1,
+    "reducedMotion": "reduce",
+    "font_wait": "document.fonts.ready + two animation frames",
+    "evidence": "D23 file:// prototype"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "browser": "Codex in-app browser",
+  "base_url": "http://127.0.0.1:8342",
+  "viewport": {
+    "width": 390,
+    "height": 900
+  },
+  "route": "/applications/titanium-dioxide-for-coatings/",
+  "checks": [
+    {
+      "id": "cookie_initial_focus",
+      "expected": "Close button focused",
+      "actual": "Close button focused",
+      "result": "PASS"
+    },
+    {
+      "id": "cookie_reverse_boundary",
+      "expected": "Shift+Tab from Close focuses Read Cookie Policy inside dialog",
+      "actual": "Read Cookie Policy link focused; active element remained inside dialog",
+      "result": "PASS"
+    },
+    {
+      "id": "cookie_forward_boundary",
+      "expected": "Tab from Read Cookie Policy focuses Close inside dialog",
+      "actual": "Close button focused; active element remained inside dialog",
+      "result": "PASS"
+    },
+    {
+      "id": "cookie_escape_return",
+      "expected": "Escape closes dialog and restores Cookie Settings trigger focus",
+      "actual": "Dialog closed; Cookie Settings button focused",
+      "result": "PASS"
+    },
+    {
+      "id": "console",
+      "expected": "No warning or error",
+      "actual": [],
+      "result": "PASS"
+    }
+  ],
+  "finding": "APP5-D32-G9-F02",
+  "result": "PASS / CLOSED"
+}

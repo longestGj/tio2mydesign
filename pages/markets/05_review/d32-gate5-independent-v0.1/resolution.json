@@ -1,0 +1,178 @@
+{
+  "initial_record_sha256": "f51ac82e89952e71b4bdab76e3b8273fbaf5d3edb503386de2799dddc4fb393c",
+  "checks": [
+    {
+      "id": "single hover color repair",
+      "pass": true,
+      "classification": "REVIEWER_PREDICATE_CORRECTION",
+      "detail": "Pre-fix color was inherited #008078, not an explicit color declaration in visual.css. Actual change adds exactly one color declaration; no other CSS change. Initial reviewer assumption retained in audit.json; threshold remains4.5."
+    },
+    {
+      "id": "controlling inputs unchanged",
+      "pass": true,
+      "classification": "APPROVED_NON_RETROACTIVE_METHOD_MIGRATION / RESOLVED_BY_ARCHIVED_IDENTITY",
+      "authority": "G34-MERGE-20260921 compatibility table and parent controller message2026-09-21",
+      "detail": "Method sources must match archived exact frozen identities. Entry/nav changes recorded separately; do not change candidate content/source/shared dependency or create retrospective rework.",
+      "drift": [
+        {
+          "path": "D:\\23MySec\\AGENTS.md",
+          "bytes": 13421,
+          "sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21",
+          "current_sha256": "cfa3db7d4217de02ef04790f43699db070bb05fafc1811a3f2beded4ae3bc537",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\AGENTS.md",
+          "archived_sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21"
+        },
+        {
+          "path": "D:\\23MySec\\PROJECT_CONTEXT.md",
+          "bytes": 9673,
+          "sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27",
+          "current_sha256": "102675fb43a009824119cc38136b269b867f2e5264b4823ad8fa4ba5e8d58be6",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\PROJECT_CONTEXT.md",
+          "archived_sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27"
+        },
+        {
+          "path": "D:\\23MySec\\01_PROJECT_INDEX.md",
+          "bytes": 46982,
+          "sha256": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2",
+          "current_sha256": "239ddff7226864b8aced119a7dcc8fa2c60fa2415cad61edc12ef70788e9c2ad",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\01_PROJECT_INDEX.md",
+          "archived_sha256": "0063400b23a2da02e64106996cb05b9c992e1056fe5010f317c9a02092cc399d"
+        },
+        {
+          "path": "D:\\23MySec\\agents\\gate3-execution\\agent.md",
+          "bytes": 21936,
+          "sha256": "a5f7c6a421ae7454497ef464d2cfe51d48812e2a0eeb04a1fa5649a1bb26bbeb",
+          "current_sha256": "5caa07f982f51ffb2d4e27582e4c549f7928ab5285a234e9ab382f21757259df",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\agents\\gate3-execution\\agent.md",
+          "archived_sha256": "a5f7c6a421ae7454497ef464d2cfe51d48812e2a0eeb04a1fa5649a1bb26bbeb"
+        },
+        {
+          "path": "D:\\23MySec\\skills\\responsive-wireframe-design\\SKILL.md",
+          "bytes": 13112,
+          "sha256": "c27c7b1348a88f91be10cc07a8b1a45a08711c13ad82686ea777bf64c6f69339",
+          "current_sha256": "ba6f3a6ce603e7a7fc68984012b7a4971eb97646edb088761b1c29aceceedb41",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\skills\\responsive-wireframe-design\\SKILL.md",
+          "archived_sha256": "c27c7b1348a88f91be10cc07a8b1a45a08711c13ad82686ea777bf64c6f69339"
+        },
+        {
+          "path": "D:\\23MySec\\skills\\responsive-wireframe-design\\references\\preflight-freeze-evidence.md",
+          "bytes": 4244,
+          "sha256": "40f7f9ddaaf54981e6dc35714c9976579ed3e4ef09b96ac7184dca57546498e8",
+          "current_sha256": "46296d366af587588697fc8e7241925820d390f34e1cb2a4950144128781c96e",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\skills\\responsive-wireframe-design\\references\\preflight-freeze-evidence.md",
+          "archived_sha256": "40f7f9ddaaf54981e6dc35714c9976579ed3e4ef09b96ac7184dca57546498e8"
+        },
+        {
+          "path": "D:\\23MySec\\skills\\layout-interaction-verification\\SKILL.md",
+          "bytes": 12641,
+          "sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884",
+          "current_sha256": "e8448781edb1dd42bcbec2475692678039d783dbf848384b889231538b555378",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\skills\\layout-interaction-verification\\SKILL.md",
+          "archived_sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884"
+        },
+        {
+          "path": "D:\\23MySec\\skills\\layout-interaction-verification\\references\\gate3-structure-scope.md",
+          "bytes": 7488,
+          "sha256": "5d511125408211655bd201a3f0d2ee7b2db349324f563faff24ecafe1b7d7ba6",
+          "current_sha256": "5c97c8bcf203b7ccb7b743e962e1b9f8bd6c3be90b0e0c0079b9601eb2d313ef",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\skills\\layout-interaction-verification\\references\\gate3-structure-scope.md",
+          "archived_sha256": "5d511125408211655bd201a3f0d2ee7b2db349324f563faff24ecafe1b7d7ba6"
+        },
+        {
+          "path": "D:\\23MySec\\agents\\gate4-complete-visual\\agent.md",
+          "bytes": 11149,
+          "sha256": "4826c6ddaf3eb6dc828483599d14999e589e02e9a76989cdb9ecf18e77764db0",
+          "current_sha256": "8b918b4bb28c692de00c4fbee6945fbb8c73b48c583d99eb25a3c3f79f7aa275",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\agents\\gate4-complete-visual\\agent.md",
+          "archived_sha256": "4826c6ddaf3eb6dc828483599d14999e589e02e9a76989cdb9ecf18e77764db0"
+        },
+        {
+          "path": "D:\\23MySec\\skills\\brand-applied-visual-design\\SKILL.md",
+          "bytes": 9679,
+          "sha256": "0a326320a9946e67aeade1d3c3b197b7e232f74e1cc9e28d35c427eb8e54587e",
+          "current_sha256": "872a53370b0f03df33d83993d743bf1e4d91517afe45932d921d7dee0b482c4a",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\skills\\brand-applied-visual-design\\SKILL.md",
+          "archived_sha256": "0a326320a9946e67aeade1d3c3b197b7e232f74e1cc9e28d35c427eb8e54587e"
+        },
+        {
+          "path": "D:\\23MySec\\skills\\full-page-visual-composition\\SKILL.md",
+          "bytes": 11032,
+          "sha256": "d379306ad5cca18f8f5c0641b8d9eacded171712025a360a79fa532137d26219",
+          "current_sha256": "383e7195266531b7ea7326c4f1d0befd6df730611cfddc69d46237eebe575cd8",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\skills\\full-page-visual-composition\\SKILL.md",
+          "archived_sha256": "d379306ad5cca18f8f5c0641b8d9eacded171712025a360a79fa532137d26219"
+        },
+        {
+          "path": "D:\\23MySec\\skills\\layout-interaction-verification\\references\\gate4-self-check.md",
+          "bytes": 3712,
+          "sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9",
+          "current_sha256": "8dae6d088395093661be6eaa0ffa1b933baad2089c1ac3caee770f4391856a82",
+          "archived": "D:\\23MySec\\90_archive\\project-governance\\2026-09-21-gate3-gate4-merge\\skills\\layout-interaction-verification\\references\\gate4-self-check.md",
+          "archived_sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9"
+        }
+      ]
+    },
+    {
+      "id": "post-review frozen preservation",
+      "pass": true,
+      "files": 46
+    },
+    {
+      "id": "family reference identities",
+      "pass": true,
+      "detail": {
+        "evidence_type": "STATIC_VISUAL_COMPARISON_AID_NOT_RUNTIME_REGRESSION",
+        "image": "D:\\23MySec\\pages\\markets\\04_planning\\d32-gate4-v0.1\\diagnostic_support\\family-comparison.png",
+        "sha256": "48c7c900670b6c6f4ef08ec52f02c66dcdd22174658cfcc5c35061c80eddf20e",
+        "refs": [
+          {
+            "path": "D:\\23MySec\\pages\\home\\07_qa\\d32-gate9-v0.1\\visual\\runtime-1440.png",
+            "sha256": "ad3cacf5b1234335b263dcbbaa54515c7de959b364a277269f05bbf59001d23a"
+          },
+          {
+            "path": "D:\\23MySec\\pages\\products\\04_planning\\d32-gate4-v0.1\\PRODUCT-000_G4_FULL_1440.png",
+            "sha256": "e61ed9066342d3aba7e02a445fe86fdc5def53164bfd38a42e203417def6df66"
+          },
+          {
+            "path": "D:\\23MySec\\pages\\applications\\04_planning\\d32-gate4-v0.1\\APP-000_G4_FULL_1440.png",
+            "sha256": "e245404fa57796a8ae86bb6c3aedf4de92d1a7367bec5f3863fa6696bf31406c"
+          },
+          {
+            "path": "D:\\23MySec\\pages\\markets\\04_planning\\d32-gate4-v0.1\\diagnostic_support\\readable\\1440-0.png",
+            "sha256": "86a3499c96d7303a8b51c9169197f17907165e0532bbec5321ec69e7351a96d7"
+          }
+        ]
+      }
+    }
+  ],
+  "passed": 4,
+  "failed": 0,
+  "current_review_sources": [
+    {
+      "path": "D:/23MySec/docs/architecture/GATE3_GATE4_MERGE_DECISION_V1.0.md",
+      "sha256": "0ae374afe399fdbbcd14656076cb5e41743828aa12bf43b252074750838e409f"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.1.md",
+      "sha256": "5b4896fd6e59858c9fe3540e5db6d5fc9191f403a231f9c36af8b3a7117c5a4a"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.1.md",
+      "sha256": "38e08c7c651da69c1081d5b4924020ff3ed9a2dc832ef559d9eee09cc4b1a334"
+    },
+    {
+      "path": "D:/23MySec/agents/gate5-independent-visual-review/agent.md",
+      "sha256": "a25ff5e98992e39d1719d37289035957ccd54c282e926457f0c158c41a6713c7"
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/SKILL.md",
+      "sha256": "e8448781edb1dd42bcbec2475692678039d783dbf848384b889231538b555378"
+    },
+    {
+      "path": "D:/23MySec/skills/layout-interaction-verification/references/independent-visual-review.md",
+      "sha256": "763a19332dfe1642e23a01f8778912d6148c3c41925a138ad5411a3065d636d0"
+    }
+  ],
+  "effective_initial_assertions": 137,
+  "resolved_initial_failures": 2
+}

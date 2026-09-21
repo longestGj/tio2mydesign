@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import socket
 import sys
@@ -43,8 +44,10 @@ def main() -> int:
     manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
     runtime = manifest["runtime"]
     base_url = str(runtime.get("base_url", "")).rstrip("/")
-    expected_scope = manifest["site_scope"]
-    build_id = manifest["build"]["build_id"]
+    expected_scope = manifest.get("site_scope")
+    static = manifest["schema_version"] == "gate8-evidence-manifest-v1.1"
+    artifact_hashes = {x["path"]: x["sha256"] for x in manifest["build"].get("files", [])}
+    build_id = manifest["build"].get("build_id")
     observations: list[dict[str, Any]] = []
     successful = 0
     environment_failure = False
@@ -72,8 +75,8 @@ def main() -> int:
                     expected_status = int(check.get("expected_status", 200))
                     missing_markers = [marker for marker in check.get("contains", []) if str(marker) not in text]
                     scope_header = response.headers.get("X-Site-Scope")
-                    scope_mismatch = scope_header is not None and scope_header != expected_scope
-                    require_build_marker = bool(runtime.get("require_build_marker", True))
+                    scope_mismatch = not static and scope_header is not None and scope_header != expected_scope
+                    require_build_marker = not static and bool(runtime.get("require_build_marker", True))
                     build_markers = (
                         f"/_next/static/{build_id}/",
                         f'\\"b\\":\\"{build_id}\\"',
@@ -81,13 +84,15 @@ def main() -> int:
                     build_marker_missing = require_build_marker and not any(
                         marker in text for marker in build_markers
                     )
+                    artifact_mismatch = static and hashlib.sha256(data).hexdigest() != artifact_hashes.get(check.get("artifact_path"))
                     observation.update({
+                        "artifact_mismatch": artifact_mismatch,
                         "missing_markers": missing_markers,
                         "scope_header": scope_header,
                         "scope_mismatch": scope_mismatch,
                         "build_marker_missing": build_marker_missing,
                     })
-                    passed = response.status == expected_status and not missing_markers and not scope_mismatch and not build_marker_missing
+                    passed = response.status == expected_status and not missing_markers and not scope_mismatch and not build_marker_missing and not artifact_mismatch
                     observation["result"] = "PASS" if passed else "FAIL"
                     if passed:
                         successful += 1
@@ -114,6 +119,7 @@ def main() -> int:
             "implementation_commit": manifest["git"]["implementation_commit"],
             "evidence_head": manifest["git"]["evidence_head"],
             "build_id": build_id,
+            "artifact_files": len(artifact_hashes) if static else None,
         },
         "runtime": {"base_url": base_url, "rounds": args.rounds, "requests": total, "successful_requests": successful, "observations": observations},
         "evidence_validation": {"status": evidence_result["status"]},

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "APP5-D32-STATIC-G9-RETURN-20260921-01",
+  "returned_at": "2026-09-21",
+  "gate9_task": {
+    "title": "09Gate9验收",
+    "thread_id": "01a07e7e-24ef-7390-beab-f50fcbf169e0",
+    "status": "INDEPENDENT_REVIEW_COMPLETE"
+  },
+  "gate8_receiver": {
+    "title": "03开发",
+    "thread_id": "01a0be2a-838b-76c0-b116-6677b9cadb70",
+    "status": "TARGETED_REPAIR_DISPATCHED / IN_PROGRESS"
+  },
+  "bound_candidate": {
+    "implementation_commit": "0c117ee0941a3b307f761ff0db5ea67fc98b5a07",
+    "tree": "9033cf746f14154fc6895ed0d1357fcabbea07fa"
+  },
+  "gate9_report": {
+    "path": "D:/23MySec/pages/applications/07_qa/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE9_INDEPENDENT_ACCEPTANCE_V1.0.md",
+    "sha256": "fbcd392c9f955487eb399f3b767dc6975c5bd19795fe939ccb3ba0fec806db1f"
+  },
+  "statuses": {
+    "recheck_scope_status": "EVIDENCE_INCOMPLETE / RETURN_REQUIRED",
+    "page_gate9_status": "NOT_PASS / TARGETED_REPAIR_AND_EVIDENCE_RETURN_REQUIRED",
+    "integration_status": "NOT_READY",
+    "release_status": "NOT_AUTHORIZED"
+  },
+  "open_findings": [
+    "APP5-D32-G9-F01",
+    "APP5-D32-G9-F02"
+  ],
+  "targeted_recheck_scope": [
+    "APP5-D32-G9-F01",
+    "APP5-D32-G9-F02",
+    "APP5-G9-05",
+    "APP5-G9-11",
+    "APP5-G9-12",
+    "DIFF_PROTECTION_SAMPLE_FOR_PREVIOUS_PASS_ITEMS"
+  ],
+  "prohibited_by_this_return": [
+    "merge",
+    "push",
+    "deploy",
+    "release",
+    "dns_change",
+    "search_console_submission"
+  ]
+}

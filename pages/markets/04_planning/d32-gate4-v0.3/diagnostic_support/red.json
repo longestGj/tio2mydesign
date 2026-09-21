@@ -1,0 +1,126 @@
+{
+  "mode": "RED_BASELINE",
+  "source": {
+    "path": "D:\\23MySec\\pages\\markets\\04_planning\\d32-gate4-v0.2\\market-visual.html",
+    "sha256": "f2bb81f5aba8bde386d4efd1ce45113a2c21f267ce54b0dc9a7b643f69e583ed"
+  },
+  "renderer": "151.0.7922.34",
+  "passed": 3,
+  "failed": 3,
+  "checks": [
+    {
+      "name": "390: PT link discoverable under Brazil",
+      "pass": false,
+      "actual": null
+    },
+    {
+      "name": "390: 10 EN plus PT ordered",
+      "pass": false,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/"
+      ]
+    },
+    {
+      "name": "390: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "390: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "390: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "390: visible ItemList parity",
+      "pass": false,
+      "actual": null
+    }
+  ],
+  "measurements": [
+    {
+      "width": 390,
+      "pt": null,
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 2,
+      "hero": {
+        "x": 20,
+        "y": 144,
+        "w": 350,
+        "h": 726.3125,
+        "right": 370,
+        "bottom": 870.3125
+      },
+      "eyebrow": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": null,
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 350,
+          "h": 726.3125
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 390,
+          "h": 1552.640625
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 350,
+          "h": 1289.015625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 390,
+          "h": 1160.265625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 350,
+          "h": 429.953125
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 390,
+          "h": 1933
+        }
+      ]
+    }
+  ]
+}

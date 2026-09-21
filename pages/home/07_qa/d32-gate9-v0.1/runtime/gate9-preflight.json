@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "handoff_id": "HOME-001-D32-G6-HANDOFF-01",
+  "gate8_task_id": "01a0bca9-1318-7022-aa49-8723850227f7",
+  "site_scope": "tio2-my",
+  "identity": {
+    "implementation_commit": "a75572a36cc50e820b640fca663a3a60594029cb",
+    "evidence_head": "9de5ef0e3409daf9c9cb675efb26f54d7c7ba6c6",
+    "build_id": "wp-f576fa2d7a74ab057e5878765db4187ae7b2689aaf921f8c5d6f5ab0bac6fc3e"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:8232",
+    "rounds": 2,
+    "requests": 2,
+    "successful_requests": 2,
+    "observations": [
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:8232/",
+        "status": 200,
+        "bytes": 29027,
+        "final_url": "http://127.0.0.1:8232/",
+        "missing_markers": [],
+        "scope_header": "tio2-my",
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:8232/",
+        "status": 200,
+        "bytes": 29027,
+        "final_url": "http://127.0.0.1:8232/",
+        "missing_markers": [],
+        "scope_header": "tio2-my",
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "evidence_validation": {
+    "status": "PASS"
+  }
+}

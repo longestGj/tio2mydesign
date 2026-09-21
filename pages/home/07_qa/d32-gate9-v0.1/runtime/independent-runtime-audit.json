@@ -1,0 +1,662 @@
+{
+  "date": "2026-09-20T03:15:06.948811+00:00",
+  "reviewer": "/root/d32_gate9_runtime",
+  "evidence_type": "ACTUAL_RUNTIME + SOURCE_INSPECTION",
+  "independent": true,
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Date": "Sun, 20 Sep 2026 03:15:03 GMT",
+    "Link": "<http://127.0.0.1:8232/wp-json/>; rel=\"https://api.w.org/\"",
+    "Server": "Apache/2.4.68 (Debian)",
+    "Vary": "Accept-Encoding",
+    "X-Powered-By": "PHP/8.3.33",
+    "X-Site-Scope": "tio2-my"
+  },
+  "actual_artifact": "wp-f576fa2d7a74ab057e5878765db4187ae7b2689aaf921f8c5d6f5ab0bac6fc3e",
+  "computed_artifact": "wp-f576fa2d7a74ab057e5878765db4187ae7b2689aaf921f8c5d6f5ab0bac6fc3e",
+  "artifact_matches": true,
+  "actual_content_hash": "ee6a324ea68ada21e9424f930ed52f87800cea9e982c0feb4fd9ef456b71a992",
+  "restored_snapshot_hash": "ee6a324ea68ada21e9424f930ed52f87800cea9e982c0feb4fd9ef456b71a992",
+  "content_matches": true,
+  "files": [
+    {
+      "path": "wp-content/plugins/tio2-content/assets/admin.js",
+      "source_sha256": "eebc819221bd9e92d95612c597bdeab6a1b5fde72344b2973328de77bd32a8d3",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/plugins/tio2-content/includes/admin.php",
+      "source_sha256": "f5d8bb212d4319132e34f1e627a4e9e61c12220e89960c119dc8fbd790fc50c2",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/plugins/tio2-content/includes/identity.php",
+      "source_sha256": "9444ec88d50d6d021ea118e1dbdf7b4420aa08c843877e6447a40d94affbd2e7",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/plugins/tio2-content/includes/validation.php",
+      "source_sha256": "49cab942529b3c5646f149714a7e9acb5b0356a80d4d59a1b133e0b7090e3de4",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/plugins/tio2-content/schema.json",
+      "source_sha256": "f35f210ec5c7e55208ebdd4901559fcb58303e40086c9fc85e8f2d0ca819c652",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/plugins/tio2-content/tio2-content.php",
+      "source_sha256": "0cd10e15a91ff8f03b25eda37f4ac62d2dd614f2a22e2555f0b11276c1c0eab1",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/brand/favicon.svg",
+      "source_sha256": "f1d1b97ff66211410a50279eed16414b5a6e888c27c11419e41265168d08692c",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/brand/logo-primary.svg",
+      "source_sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/brand/logo-reverse.svg",
+      "source_sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/brand/symbol.svg",
+      "source_sha256": "9fd1fafafad4bc6fef0c05f499c27baf1051eef084d1b834b1061caf3b8b85a0",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/design.css",
+      "source_sha256": "70d0982d756d87a2692d0e3ecb6db54bb513640047dac420820b6c06180c7a78",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/fonts/Inter-Variable.ttf",
+      "source_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/fonts/LICENSE.txt",
+      "source_sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/site.css",
+      "source_sha256": "d15854e99963cd4e09744ec2c79cdf3f69c1c3e8ede0c26e7282eb34befe3d11",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/assets/site.js",
+      "source_sha256": "0b1c81499811efbbdaecd27d78ba42bdbcb479c5405dfbc5acddcffe4627356f",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/footer.php",
+      "source_sha256": "8cb83ad0d30fe3c4058b6da01592c90775b9df92e56393af5ac5a96aea0c577d",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/front-page.php",
+      "source_sha256": "fd2dc28f9cbc2d05af621d326f2cf17db21cb55d54eea952d0ac4ab7bd1062cb",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/functions.php",
+      "source_sha256": "699595b493feef75635d7d4e52f9f9f3542830948a048e41783e6f947067bb0d",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/header.php",
+      "source_sha256": "a44219feb8d1443ed2958873abc470ee37ce3d21b2aa7123a3287473c363345c",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/inc/seo.php",
+      "source_sha256": "859fd3d5bcc45ad78becbe38e93c7cdce18a287c1944603d3a51dbb52a0249a1",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/index.php",
+      "source_sha256": "f6b3be5bb3c9068db54b43e5d7115467aedc9059e1ac4efb4bd933c6052efa52",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/style.css",
+      "source_sha256": "4ebb69b87669e20c41d02d18913ba40ed3f29223fe13b18593cdd711ba68edfe",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/applications.php",
+      "source_sha256": "1e5669fdca2db44e5ac9192f401f2e5898b647345a1d7223abdb7ff5dc8376b9",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/company.php",
+      "source_sha256": "ef211f8cad9f6e9bc6a29196780c541a077a8d3f0780173a958e8571d52239d2",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/documents.php",
+      "source_sha256": "3d5ec2dc0ffd72d25faafac62466a9fd35ce3203c90d479c8884e4609d5be74d",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/hero.php",
+      "source_sha256": "44700b429da52192a5616c70fd886f804d3030943dadb95d93b56a748a6227cf",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/markets.php",
+      "source_sha256": "03f10e11cc7104b61053ed874c157bdda63eec2f7550ae34ad5292c824949f36",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/page-rfq.php",
+      "source_sha256": "977645df43086f2efd04fa190c21f432de7702eb17ea9402cb758257bfd980c6",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/products.php",
+      "source_sha256": "81db0229d7455827452a49f19869dea551cc20099110ad348442059482a142a9",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/resources.php",
+      "source_sha256": "9a4e270c16248846391fb27384feeff6128563cdadc2ce29b0d53dd2d312f692",
+      "artifact_match": true,
+      "git_blob_matches": true
+    },
+    {
+      "path": "wp-content/themes/tio2-malaysia/template-parts/start-here.php",
+      "source_sha256": "23112764d3c3fd2b3e0f51bac958cdefe43c0732ae7b58ae3a06b3bea0d2ef38",
+      "artifact_match": true,
+      "git_blob_matches": true
+    }
+  ],
+  "modules": [
+    {
+      "module": "hero",
+      "text_match": true,
+      "expected_text": [
+        "FOR INTERNATIONAL INDUSTRIAL BUYERS",
+        "Malaysia Titanium Dioxide for Industrial Buyers",
+        "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+        "Request a Quote",
+        "View Products"
+      ],
+      "actual_text": [
+        "FOR INTERNATIONAL INDUSTRIAL BUYERS",
+        "Malaysia Titanium Dioxide for Industrial Buyers",
+        "For international industrial buyers sourcing titanium dioxide from Malaysia, explore product grades, destination markets, applications, procurement documents and quotation requirements from one clear starting point.",
+        "Request a Quote",
+        "View Products"
+      ],
+      "links_match": true
+    },
+    {
+      "module": "start-here",
+      "text_match": true,
+      "expected_text": [
+        "START HERE",
+        "Select a starting point based on your market, product or documentation needs.",
+        "01",
+        "Markets",
+        "Destination markets",
+        "02",
+        "Products",
+        "Fourteen grades",
+        "03",
+        "Documents",
+        "Guidance and requests"
+      ],
+      "actual_text": [
+        "START HERE",
+        "Select a starting point based on your market, product or documentation needs.",
+        "01",
+        "Markets",
+        "Destination markets",
+        "02",
+        "Products",
+        "Fourteen grades",
+        "03",
+        "Documents",
+        "Guidance and requests"
+      ],
+      "links_match": true
+    },
+    {
+      "module": "markets",
+      "text_match": true,
+      "expected_text": [
+        "MARKETS",
+        "Start with your destination market",
+        "Select your destination market to review relevant sourcing, product and documentation considerations.",
+        "View All Markets →",
+        "EU",
+        "European Union",
+        "Review product, sourcing and documentation considerations for the European Union market.",
+        "European Union market →",
+        "UK",
+        "United Kingdom",
+        "Review product, sourcing and documentation considerations for the United Kingdom market.",
+        "United Kingdom market →",
+        "IN",
+        "India",
+        "Review product, sourcing and quotation considerations for the India market.",
+        "India market →",
+        "BR",
+        "Brazil",
+        "Review product, sourcing and documentation considerations for the Brazil market.",
+        "Brazil market →"
+      ],
+      "actual_text": [
+        "MARKETS",
+        "Start with your destination market",
+        "Select your destination market to review relevant sourcing, product and documentation considerations.",
+        "View All Markets →",
+        "EU",
+        "European Union",
+        "Review product, sourcing and documentation considerations for the European Union market.",
+        "European Union market →",
+        "UK",
+        "United Kingdom",
+        "Review product, sourcing and documentation considerations for the United Kingdom market.",
+        "United Kingdom market →",
+        "IN",
+        "India",
+        "Review product, sourcing and quotation considerations for the India market.",
+        "India market →",
+        "BR",
+        "Brazil",
+        "Review product, sourcing and documentation considerations for the Brazil market.",
+        "Brazil market →"
+      ],
+      "links_match": true
+    },
+    {
+      "module": "products",
+      "text_match": true,
+      "expected_text": [
+        "PRODUCTS",
+        "Four product groups. Fourteen grades.",
+        "Compare grades by product group and intended use, then continue to the relevant product page for detailed information.",
+        "14",
+        "GRADES ACROSS FOUR PRODUCT GROUPS",
+        "Coatings Grades",
+        "Grades grouped for coatings applications and product selection.",
+        "M-350",
+        "M-510",
+        "M-896",
+        "M-996",
+        "M-2196",
+        "M-895",
+        "Plastics & Masterbatch Grades",
+        "Grades for plastics processing and masterbatch applications.",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "Inks & Multi-Application",
+        "Grades for printing inks and selected multi-application uses.",
+        "M-52",
+        "M-2377",
+        "Specialty Grade",
+        "A specialty grade for selected product and application requirements.",
+        "CR-901",
+        "Chloride Process →",
+        "Sulfate Process →",
+        "View All 14 Grades"
+      ],
+      "actual_text": [
+        "PRODUCTS",
+        "Four product groups. Fourteen grades.",
+        "Compare grades by product group and intended use, then continue to the relevant product page for detailed information.",
+        "14",
+        "GRADES ACROSS FOUR PRODUCT GROUPS",
+        "Coatings Grades",
+        "Grades grouped for coatings applications and product selection.",
+        "M-350",
+        "M-510",
+        "M-896",
+        "M-996",
+        "M-2196",
+        "M-895",
+        "Plastics & Masterbatch Grades",
+        "Grades for plastics processing and masterbatch applications.",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "Inks & Multi-Application",
+        "Grades for printing inks and selected multi-application uses.",
+        "M-52",
+        "M-2377",
+        "Specialty Grade",
+        "A specialty grade for selected product and application requirements.",
+        "CR-901",
+        "Chloride Process →",
+        "Sulfate Process →",
+        "View All 14 Grades"
+      ],
+      "links_match": true
+    },
+    {
+      "module": "applications",
+      "text_match": true,
+      "expected_text": [
+        "APPLICATIONS",
+        "Explore by use case",
+        "Choose the application that best matches your product, formulation or processing requirements.",
+        "C",
+        "Coatings",
+        "Review titanium dioxide for coatings and the key criteria used to compare suitable grades.",
+        "Coatings information →",
+        "P",
+        "Plastics",
+        "Review titanium dioxide for plastics processing and the factors used to compare suitable grades.",
+        "Plastics information →",
+        "M",
+        "Masterbatch",
+        "Review titanium dioxide for masterbatch production and relevant grade-selection factors. This refers to TiO₂ input, not finished masterbatch supply.",
+        "Masterbatch information →",
+        "I",
+        "Printing Inks",
+        "Review titanium dioxide for printing ink applications and related product options.",
+        "Printing inks information →",
+        "P",
+        "Paper",
+        "Review titanium dioxide for paper applications and relevant product information.",
+        "Paper information →"
+      ],
+      "actual_text": [
+        "APPLICATIONS",
+        "Explore by use case",
+        "Choose the application that best matches your product, formulation or processing requirements.",
+        "C",
+        "Coatings",
+        "Review titanium dioxide for coatings and the key criteria used to compare suitable grades.",
+        "Coatings information →",
+        "P",
+        "Plastics",
+        "Review titanium dioxide for plastics processing and the factors used to compare suitable grades.",
+        "Plastics information →",
+        "M",
+        "Masterbatch",
+        "Review titanium dioxide for masterbatch production and relevant grade-selection factors. This refers to TiO₂ input, not finished masterbatch supply.",
+        "Masterbatch information →",
+        "I",
+        "Printing Inks",
+        "Review titanium dioxide for printing ink applications and related product options.",
+        "Printing inks information →",
+        "P",
+        "Paper",
+        "Review titanium dioxide for paper applications and relevant product information.",
+        "Paper information →"
+      ],
+      "links_match": true
+    },
+    {
+      "module": "company",
+      "text_match": true,
+      "expected_text": [
+        "COMPANY & SUPPLY",
+        "Know the company behind TiO₂ Malaysia",
+        "TiO₂ Malaysia is operated by IKHLAS TITANIUM (MALAYSIA) SDN. BHD., a titanium dioxide manufacturer. Visit the About section for company details, supply information, and available information on origin and documentation.",
+        "About TiO₂ Malaysia →",
+        "IKHLAS TITANIUM (MALAYSIA) SDN. BHD.",
+        "Supply overview",
+        "Understand the product, market and procurement scope.",
+        "Company information",
+        "Review the operating entity and company details.",
+        "Origin & documentation",
+        "Review available information on origin and related documentation."
+      ],
+      "actual_text": [
+        "COMPANY & SUPPLY",
+        "Know the company behind TiO₂ Malaysia",
+        "TiO₂ Malaysia is operated by IKHLAS TITANIUM (MALAYSIA) SDN. BHD., a titanium dioxide manufacturer. Visit the About section for company details, supply information, and available information on origin and documentation.",
+        "About TiO₂ Malaysia →",
+        "IKHLAS TITANIUM (MALAYSIA) SDN. BHD.",
+        "Supply overview",
+        "Understand the product, market and procurement scope.",
+        "Company information",
+        "Review the operating entity and company details.",
+        "Origin & documentation",
+        "Review available information on origin and related documentation."
+      ],
+      "links_match": true
+    },
+    {
+      "module": "documents",
+      "text_match": true,
+      "expected_text": [
+        "DOCUMENTS",
+        "Access product and procurement documentation",
+        "Use the Documents Hub to review document types and guidance, or submit a request when documentation is needed for a specific product or purchasing requirement.",
+        "D",
+        "Documents Hub",
+        "Review guidance on product, sourcing and compliance documentation.",
+        "View Document Information →",
+        "R",
+        "Request Documents",
+        "Request documentation for a specific product, application or purchasing requirement.",
+        "Request Documents →"
+      ],
+      "actual_text": [
+        "DOCUMENTS",
+        "Access product and procurement documentation",
+        "Use the Documents Hub to review document types and guidance, or submit a request when documentation is needed for a specific product or purchasing requirement.",
+        "D",
+        "Documents Hub",
+        "Review guidance on product, sourcing and compliance documentation.",
+        "View Document Information →",
+        "R",
+        "Request Documents",
+        "Request documentation for a specific product, application or purchasing requirement.",
+        "Request Documents →"
+      ],
+      "links_match": true
+    },
+    {
+      "module": "resources",
+      "text_match": true,
+      "expected_text": [
+        "RESOURCES & BUYER ANSWERS",
+        "Technical and sourcing topics for purchasing teams",
+        "Use the short answers below for initial guidance, then open the relevant resource for detailed context and supporting evidence.",
+        "Alternative-origin sourcing considerations",
+        "Review the factors buyers may need to assess when comparing sourcing origins, including trade measures and documentation requirements.",
+        "Read sourcing considerations →",
+        "Chloride and sulfate process overview",
+        "Understand chloride and sulfate process terminology before comparing relevant titanium dioxide grades.",
+        "Read process overview →",
+        "Where should buyers start?",
+        "Start with the destination market, then narrow the search by application or product group and confirm the documentation needed for purchasing.",
+        "Market information →",
+        "How are the products organised?",
+        "Fourteen grades are organised into four product groups: coatings, plastics & masterbatch, inks & multi-application, and specialty grades.",
+        "View all 14 grades →",
+        "How can a quotation request be prepared?",
+        "Include the destination market, application, preferred grade if known, quantity, packaging requirements and required documents.",
+        "Request a Quote →"
+      ],
+      "actual_text": [
+        "RESOURCES & BUYER ANSWERS",
+        "Technical and sourcing topics for purchasing teams",
+        "Use the short answers below for initial guidance, then open the relevant resource for detailed context and supporting evidence.",
+        "Alternative-origin sourcing considerations",
+        "Review the factors buyers may need to assess when comparing sourcing origins, including trade measures and documentation requirements.",
+        "Read sourcing considerations →",
+        "Chloride and sulfate process overview",
+        "Understand chloride and sulfate process terminology before comparing relevant titanium dioxide grades.",
+        "Read process overview →",
+        "Where should buyers start?",
+        "Start with the destination market, then narrow the search by application or product group and confirm the documentation needed for purchasing.",
+        "Market information →",
+        "How are the products organised?",
+        "Fourteen grades are organised into four product groups: coatings, plastics & masterbatch, inks & multi-application, and specialty grades.",
+        "View all 14 grades →",
+        "How can a quotation request be prepared?",
+        "Include the destination market, application, preferred grade if known, quantity, packaging requirements and required documents.",
+        "Request a Quote →"
+      ],
+      "links_match": true
+    },
+    {
+      "module": "page-rfq",
+      "text_match": true,
+      "expected_text": [
+        "REQUEST A QUOTE",
+        "Prepare a structured quotation request",
+        "Provide the key purchasing details needed to structure your quotation request.",
+        "Destination Market",
+        "Application",
+        "Grade / Product",
+        "Quantity",
+        "Packaging",
+        "Document Needs",
+        "Request a Quote"
+      ],
+      "actual_text": [
+        "REQUEST A QUOTE",
+        "Prepare a structured quotation request",
+        "Provide the key purchasing details needed to structure your quotation request.",
+        "Destination Market",
+        "Application",
+        "Grade / Product",
+        "Quantity",
+        "Packaging",
+        "Document Needs",
+        "Request a Quote"
+      ],
+      "links_match": true
+    }
+  ],
+  "seo": {
+    "title": [
+      "Malaysia Titanium Dioxide Supplier | TiO₂ Malaysia"
+    ],
+    "description": [
+      "Explore titanium dioxide grades, applications, destination markets and document request paths through TiO₂ Malaysia for international industrial buyers."
+    ],
+    "canonical": [
+      "https://tio2malaysia.com/"
+    ],
+    "robots": [
+      "noindex, nofollow"
+    ],
+    "lang": "en",
+    "h1": [
+      "Malaysia Titanium Dioxide for Industrial Buyers"
+    ],
+    "graphs": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://tio2malaysia.com/#website",
+            "url": "https://tio2malaysia.com/",
+            "name": "TiO₂ Malaysia",
+            "inLanguage": "en",
+            "publisher": {
+              "@id": "https://tio2malaysia.com/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://tio2malaysia.com/#webpage",
+            "url": "https://tio2malaysia.com/",
+            "name": "Malaysia Titanium Dioxide for Industrial Buyers",
+            "isPartOf": {
+              "@id": "https://tio2malaysia.com/#website"
+            },
+            "about": [
+              {
+                "@id": "https://tio2malaysia.com/#brand"
+              },
+              {
+                "@id": "https://tio2malaysia.com/#organization"
+              },
+              {
+                "@id": "https://tio2malaysia.com/#titanium-dioxide"
+              }
+            ],
+            "inLanguage": "en"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://tio2malaysia.com/#organization",
+            "name": "IKHLAS TITANIUM (MALAYSIA) SDN. BHD."
+          },
+          {
+            "@type": "Brand",
+            "@id": "https://tio2malaysia.com/#brand",
+            "name": "TiO₂ Malaysia"
+          },
+          {
+            "@type": "Product",
+            "@id": "https://tio2malaysia.com/#titanium-dioxide",
+            "name": "Titanium Dioxide",
+            "description": "Fourteen titanium dioxide grades organised into four product groups.",
+            "brand": {
+              "@id": "https://tio2malaysia.com/#brand"
+            },
+            "manufacturer": {
+              "@id": "https://tio2malaysia.com/#organization"
+            }
+          }
+        ]
+      }
+    ],
+    "exact_contract_graph_match": true
+  },
+  "media": {
+    "url": "http://127.0.0.1:8232/wp-content/uploads/2026/09/titanium-dioxide-material.png",
+    "sha256": "7308472e4e633584fe4d7761afd7ed9ea4ea4c622576e2d7736c105f13cf50a5",
+    "approved_sha_match": true
+  },
+  "schema_fields": 218,
+  "notes": [
+    "No CMS mutation, development tests or external business requests executed.",
+    "Runtime computes identity from actual loaded files and validated WP option; snapshot DB content is inferred through verified source and actual fingerprint, not independently exported with WP-CLI."
+  ]
+}

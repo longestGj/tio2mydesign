@@ -3,13 +3,15 @@ name: runtime-implementation-verification
 description: Use when an implemented page needs read-only verification against approved acceptance criteria, especially when CMS data, runtime versions, receiver results, conditional rendering, shared behavior or scope isolation must be distinguished from previews and developer test claims.
 ---
 
-# 运行实现核验 V0.5
+# 运行实现核验 V0.7
 
 把批准条件对应到准确实现及可观察结果。方法先机器校验Gate8证据Manifest和runtime，再交回证据、差异、分类、未验证范围及可供Agent发送的Gate8通过通知字段；Agent负责范围、Finding归属、通知和阶段决定。本版加入可重复的只读预检，不赋予实际业务提交、开发、合并或发布权限。
 
+2026-09-21当前执行按[开发流程](D:/32NextJS/CONTRIBUTING.md)及[基线V1.2](../../docs/architecture/GATE9_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)：静态单站核对本地内容→构建制品→实际响应，不要求CMS/API或scope隔离。下文这些专用检查仅适用于明确保留的历史合同。V1.1证据读指定Git提交及完整静态制品，不要求当前branch/HEAD、clean或BUILD_ID；运行响应hash绑定对应制品。V1.0继续按旧机制兼容，不能混用两种hash语义。
+
 ## 输入与工作方式
 
-接收原始批准要求/接受条件ID、符合[机器交接合同](../../docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md)的`gate8_evidence_manifest.json`、实现与运行身份、数据/共享/接收合同、操作权限、初审或复验范围，以及绝对`report_path`、`evidence_dir`和共同`evidence_index`。复验另需原Finding、接受条件与变更说明。既有文件/章节可直接引用；缺少关键输入时指出受影响条件，继续其余可核验部分。
+接收原始批准要求/接受条件ID、符合[机器交接合同](../../docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.2.md)的`gate8_evidence_manifest.json`、实现与运行身份、数据/共享/接收合同、操作权限、初审或复验范围，以及绝对`report_path`、`evidence_dir`和共同`evidence_index`。复验另需原Finding、接受条件与变更说明。既有文件/章节可直接引用；缺少关键输入时指出受影响条件，继续其余可核验部分。
 
 按实际可用工具文档选择浏览器、只读HTTP/API、文件/差异/日志读取能力；不假设存在某个命令。浏览器证明呈现和操作，HTTP/API证明对应响应，源码说明路径与条件，日志须能关联请求和环境。工具不可访问时返回明确缺口，不用另一证据类型冒充。历史摘录回放只分析给定材料，不宣称亲测。
 
@@ -22,7 +24,7 @@ python scripts/validate_evidence_manifest.py <manifest> --output <evidence-valid
 python scripts/gate9_preflight.py <manifest> --rounds 2 --output <preflight.json>
 ```
 
-`validate_evidence_manifest.py`核对必填字段、Git祖先关系、当前branch/HEAD、clean状态、Build ID、证据存在性、工作树SHA-256、evidence HEAD中的文件及回执引用。它阻止明显密钥模式，但所有真实个人信息仍需人工复核。
+V1.1使用Python 3及jsonschema，校验完整制品与提交证据；具体字段见交接合同。以下为V1.0兼容行为：`validate_evidence_manifest.py`核对必填字段、Git祖先关系、当前branch/HEAD、clean状态、Build ID、证据存在性、工作树SHA-256、evidence HEAD中的文件及回执引用。它阻止明显密钥模式，但所有真实个人信息仍需人工复核。
 
 `gate9_preflight.py`在Manifest通过后检查runtime连续响应、目标状态、页面标识、可见scope header（若提供）及Next Build marker。默认要求HTML包含旧式`/_next/static/{build_id}/`，或Next.js 16 RSC输出中的精确转义字段`\"b\":\"{build_id}\"`；两种形式都必须绑定Manifest中的完整Build ID。非Next输出只有在合同给出等价运行身份探针时才可关闭该检查，不能随意跳过。
 

@@ -1,0 +1,1954 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\32Wordpress_new\\.runtime\\handoff\\gate8_evidence_manifest.json",
+  "handoff_id": "HOME-001-D32-G6-HANDOFF-01",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "HOME-001",
+          "acceptance_condition_ids": [
+            "HOME-VU-A01",
+            "HOME-VU-A02",
+            "HOME-VU-A03",
+            "HOME-VU-A04",
+            "HOME-VU-A05",
+            "HOME-VU-A06",
+            "HOME-VU-A07",
+            "HOME-VU-A08",
+            "HOME-VU-A09",
+            "HOME-VU-A10",
+            "HOME-VU-A11",
+            "HOME-VU-A12"
+          ],
+          "runtime_path": "/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\32Wordpress_new"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/home-001-wordpress",
+        "actual": "codex/home-001-wordpress"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "9de5ef0e3409daf9c9cb675efb26f54d7c7ba6c6",
+        "actual": "9de5ef0e3409daf9c9cb675efb26f54d7c7ba6c6"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "61cf09e0adabd90d67af645f973d936de7902d5e",
+        "descendant": "a75572a36cc50e820b640fca663a3a60594029cb"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "a75572a36cc50e820b640fca663a3a60594029cb",
+        "descendant": "9de5ef0e3409daf9c9cb675efb26f54d7c7ba6c6"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\32Wordpress_new\\.runtime\\artifacts\\wp-f576fa2d7a74ab057e5878765db4187ae7b2689aaf921f8c5d6f5ab0bac6fc3e"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "wp-f576fa2d7a74ab057e5878765db4187ae7b2689aaf921f8c5d6f5ab0bac6fc3e",
+        "actual": "wp-f576fa2d7a74ab057e5878765db4187ae7b2689aaf921f8c5d6f5ab0bac6fc3e"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "a75572a36cc50e820b640fca663a3a60594029cb",
+        "git": "a75572a36cc50e820b640fca663a3a60594029cb"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/source-map.json"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A07"
+        ],
+        "command": "Read-only source/contract/hash review; scope and limitations recorded in evidence",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "cf4d2d2367d71177b0e4001f6ebb0b27199f5e2ba1b19d2cabfbf15818e2fd00",
+        "actual": "cf4d2d2367d71177b0e4001f6ebb0b27199f5e2ba1b19d2cabfbf15818e2fd00"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/source-map.json"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "97e8b70023c2edc5c309a32beaf2fb075323051e",
+        "blob_sha256": "c9d265203d3d80852de20c7d222b70f7d296b80625ebd24669f7bee4fb227558",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/acceptance.md"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09",
+          "HOME-VU-A10",
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "Read-only source/contract/hash review; scope and limitations recorded in evidence",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "167cf4559bea8f668c3d0a3ae1d9c8c8a017778fbf3c5eef71c17a4769625886",
+        "actual": "167cf4559bea8f668c3d0a3ae1d9c8c8a017778fbf3c5eef71c17a4769625886"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/acceptance.md"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3274250b885e354c553758a841835e2a240b1a55",
+        "blob_sha256": "167cf4559bea8f668c3d0a3ae1d9c8c8a017778fbf3c5eef71c17a4769625886",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/artifact.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "python scripts/artifact.py; python tests/identity.py; Docker/WP-CLI read-only version and media queries",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e47cfb31aefb41f90dbd27189b1da5c731b57069c85030d5b3874e509d2b5edc",
+        "actual": "e47cfb31aefb41f90dbd27189b1da5c731b57069c85030d5b3874e509d2b5edc"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/artifact.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5852191c94ab9216795bde9c7f3a61072b3ecc6c",
+        "blob_sha256": "2c2e68aebb2df8b985577c7a2b9d97ba7b1aeb3c2d12a8c9722e94daa6ec8d7b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/code-review.md"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09",
+          "HOME-VU-A10",
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "Read-only source/contract/hash review; scope and limitations recorded in evidence",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "16af7c93ddaef86a767881b89d15d02a03bd41add2c92c7afc0d3b62f031635a",
+        "actual": "16af7c93ddaef86a767881b89d15d02a03bd41add2c92c7afc0d3b62f031635a"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/code-review.md"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b820ab488633789887d208587e13e186269f1d4c",
+        "blob_sha256": "16af7c93ddaef86a767881b89d15d02a03bd41add2c92c7afc0d3b62f031635a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/content-before.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A10",
+          "HOME-VU-A12"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e7570810f9df6ebe1160871270330483360091f794fe2ba202befb3a51f6e19b",
+        "actual": "e7570810f9df6ebe1160871270330483360091f794fe2ba202befb3a51f6e19b"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/content-before.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3b35ad95c89be0341128ddd9c5de56829c7c950a",
+        "blob_sha256": "e7570810f9df6ebe1160871270330483360091f794fe2ba202befb3a51f6e19b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/content-restored.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A10",
+          "HOME-VU-A12"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e7570810f9df6ebe1160871270330483360091f794fe2ba202befb3a51f6e19b",
+        "actual": "e7570810f9df6ebe1160871270330483360091f794fe2ba202befb3a51f6e19b"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/content-restored.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3b35ad95c89be0341128ddd9c5de56829c7c950a",
+        "blob_sha256": "e7570810f9df6ebe1160871270330483360091f794fe2ba202befb3a51f6e19b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/cookie-390.png"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A07",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e7316cc7c50005bf955cb0de77afc291b1a96ddf8d8434be0c58a669ef99478e",
+        "actual": "e7316cc7c50005bf955cb0de77afc291b1a96ddf8d8434be0c58a669ef99478e"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/cookie-390.png"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a75b25a2b1114f469c67753e1450a1c0d9a89210",
+        "blob_sha256": "e7316cc7c50005bf955cb0de77afc291b1a96ddf8d8434be0c58a669ef99478e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/dependencies.json"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A10",
+          "HOME-VU-DEP-03"
+        ],
+        "command": "python scripts/capture-contract.py",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "31632c2a4423605262a8fac195772b3be6d0517bf70fe41cd5e37e50cc878c49",
+        "actual": "31632c2a4423605262a8fac195772b3be6d0517bf70fe41cd5e37e50cc878c49"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/dependencies.json"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "04f3df49444e8d275ee3a624c591261603dd1cdc",
+        "blob_sha256": "b1a5b8c231a5fae15fb14eef534901b45d141ea6f0f8c51a65fbe9717d6233f8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/editor-changed.png"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6a39479ab6b43bd4574409f6e7191e77e14eabfc55f445b3a6680a973c8c27a5",
+        "actual": "6a39479ab6b43bd4574409f6e7191e77e14eabfc55f445b3a6680a973c8c27a5"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/editor-changed.png"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bc9499e0d3e77e009273a7d27fca8ca856d70f96",
+        "blob_sha256": "6a39479ab6b43bd4574409f6e7191e77e14eabfc55f445b3a6680a973c8c27a5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/editor-results.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A10",
+          "HOME-VU-A12"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "16eb18b2942ff425efaaaa0986b9badc7a4dd61491addb0a2102468fb66fe5dd",
+        "actual": "16eb18b2942ff425efaaaa0986b9badc7a4dd61491addb0a2102468fb66fe5dd"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/editor-results.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "513a4225f0740ffc1918d3a84b5ba7ab63072074",
+        "blob_sha256": "16eb18b2942ff425efaaaa0986b9badc7a4dd61491addb0a2102468fb66fe5dd",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/environment.json"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "python scripts/artifact.py; python tests/identity.py; Docker/WP-CLI read-only version and media queries",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "cecf4b0b431865a22222de1411a970173e9b732bd88a5656270113ae5ae6e2f1",
+        "actual": "cecf4b0b431865a22222de1411a970173e9b732bd88a5656270113ae5ae6e2f1"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/environment.json"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1ba9f6f8adc0cd15627722812b3e986768ca5204",
+        "blob_sha256": "36c18c62d6a11bd2abd9e65640cfd14ccea6fb2183934ee74345301083802d1f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/hero-1440.png"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A03"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7821d38905238a2447c5bc3b7fa9e6944c373c7c5682db74297d8e6f2795b18b",
+        "actual": "7821d38905238a2447c5bc3b7fa9e6944c373c7c5682db74297d8e6f2795b18b"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/hero-1440.png"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "61116c1d6236d4da6aac1d6340105c6edf316daa",
+        "blob_sha256": "7821d38905238a2447c5bc3b7fa9e6944c373c7c5682db74297d8e6f2795b18b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/hero-390.png"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A03"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "fbdd563090794ef8c012e3990a41bb2b99f918aa0a4b7d9785b4334a8e6e2b8d",
+        "actual": "fbdd563090794ef8c012e3990a41bb2b99f918aa0a4b7d9785b4334a8e6e2b8d"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/hero-390.png"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "58f757f6ea74ccab12546ff98c565d049d4114f1",
+        "blob_sha256": "fbdd563090794ef8c012e3990a41bb2b99f918aa0a4b7d9785b4334a8e6e2b8d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/hero-768.png"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A03"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "62688aefc51522d95ab79fc8ba9fb5d17bf2e760eb646d0283ac81017d7cff14",
+        "actual": "62688aefc51522d95ab79fc8ba9fb5d17bf2e760eb646d0283ac81017d7cff14"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/hero-768.png"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "fbd085ea4a0add3c9ae8da69ec51c7483026000d",
+        "blob_sha256": "62688aefc51522d95ab79fc8ba9fb5d17bf2e760eb646d0283ac81017d7cff14",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-1024.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "af7ffb8d54ce6ec7424ba32efac5a8dd18a0a046312f251effa3250b3590c4e5",
+        "actual": "af7ffb8d54ce6ec7424ba32efac5a8dd18a0a046312f251effa3250b3590c4e5"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-1024.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "fd1be50aba53e8f5da8a0ec15ce0ac65b589a851",
+        "blob_sha256": "af7ffb8d54ce6ec7424ba32efac5a8dd18a0a046312f251effa3250b3590c4e5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-1440.png"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "2965b8ebbb632f0974193a9602466ac886484c2b84e6d2aa7db09b174fa482f6",
+        "actual": "2965b8ebbb632f0974193a9602466ac886484c2b84e6d2aa7db09b174fa482f6"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-1440.png"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c5a28a8ce0591b570a31d9294a51cd23929d8a81",
+        "blob_sha256": "2965b8ebbb632f0974193a9602466ac886484c2b84e6d2aa7db09b174fa482f6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-320.png"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "2dc355f120c0a18876ad4c2d0d9a3f3a270ba9cb07a211cdb3cbf7ed5d549dfe",
+        "actual": "2dc355f120c0a18876ad4c2d0d9a3f3a270ba9cb07a211cdb3cbf7ed5d549dfe"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-320.png"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "7fd8fe39ad9390e08945b3ca772f04caad5124c1",
+        "blob_sha256": "2dc355f120c0a18876ad4c2d0d9a3f3a270ba9cb07a211cdb3cbf7ed5d549dfe",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-390.png"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "ac716423cd319de36c1f46879774304988c7cd66b121aef1a762332744f98b64",
+        "actual": "ac716423cd319de36c1f46879774304988c7cd66b121aef1a762332744f98b64"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-390.png"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "20ec1b6133f8e1df5eec14574edbf4624ddcf158",
+        "blob_sha256": "ac716423cd319de36c1f46879774304988c7cd66b121aef1a762332744f98b64",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-768.png"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "71b433804f4e975f602c84505964f2eb1544eee0c772a500424098caa638bda8",
+        "actual": "71b433804f4e975f602c84505964f2eb1544eee0c772a500424098caa638bda8"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/home-768.png"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "509ebf2ef4b56e9096a7f7d8c240d1ef47105392",
+        "blob_sha256": "71b433804f4e975f602c84505964f2eb1544eee0c772a500424098caa638bda8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/homepage-response.html"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A10",
+          "HOME-VU-DEP-03"
+        ],
+        "command": "python scripts/capture-contract.py",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3a9c7cc882e7d23c1c7c6a3325c80eae6c183ffc59b36e533ff6f5643f4793dd",
+        "actual": "3a9c7cc882e7d23c1c7c6a3325c80eae6c183ffc59b36e533ff6f5643f4793dd"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/homepage-response.html"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ec0163519acd57f2198d907398f0413187deed01",
+        "blob_sha256": "60ab23d84d5668f83f5e66615309e2da9fd7abbf9d7388300ec18f5a642a9948",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/identity.json"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "python scripts/artifact.py; python tests/identity.py; Docker/WP-CLI read-only version and media queries",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "bd8f532f8db69934283c24290faee8fff08aa3963fb703bc6d138be6282a0665",
+        "actual": "bd8f532f8db69934283c24290faee8fff08aa3963fb703bc6d138be6282a0665"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/identity.json"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "0ee6635d55cfbc6b96cfa4b10bdfb294fdd7cc6b",
+        "blob_sha256": "a56bb530e87fb872359dcd638be154075e94d3fa85240db66f9850e998117e75",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-1024.json"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c8bd5dee35f7db67f2d8d94951524cf40ea6a06d5136c5b9f85740f5d06d34a6",
+        "actual": "c8bd5dee35f7db67f2d8d94951524cf40ea6a06d5136c5b9f85740f5d06d34a6"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-1024.json"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f3d0d88baaf933cbc0ca71d590b3f1ecfb4406dd",
+        "blob_sha256": "c8bd5dee35f7db67f2d8d94951524cf40ea6a06d5136c5b9f85740f5d06d34a6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-1440.json"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a879abc91a0ad3ec4b0349ae7a6b32f0da319aa27c700fd5a91cf72ba8a88f66",
+        "actual": "a879abc91a0ad3ec4b0349ae7a6b32f0da319aa27c700fd5a91cf72ba8a88f66"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-1440.json"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8f5497490df424088dd6cb76ab6761125d5709d1",
+        "blob_sha256": "a879abc91a0ad3ec4b0349ae7a6b32f0da319aa27c700fd5a91cf72ba8a88f66",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-320.json"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5fa7a7a496599d552aa908a55c02985e57083c14eb42999f138d71cbc826e6f0",
+        "actual": "5fa7a7a496599d552aa908a55c02985e57083c14eb42999f138d71cbc826e6f0"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-320.json"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e5ea098b19e19264b1753fc0789fa0e08814d7df",
+        "blob_sha256": "5fa7a7a496599d552aa908a55c02985e57083c14eb42999f138d71cbc826e6f0",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-390.json"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "30d2766f65be27914e28b99c268d1673c74b093ec22cb38d97d5d1606a51d27e",
+        "actual": "30d2766f65be27914e28b99c268d1673c74b093ec22cb38d97d5d1606a51d27e"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-390.json"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cc5b65e3b0fa61e0b5dd548e56f79a7424834131",
+        "blob_sha256": "30d2766f65be27914e28b99c268d1673c74b093ec22cb38d97d5d1606a51d27e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_25_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-768.json"
+    },
+    {
+      "id": "evidence_25_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_25_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4444f786e84eeb596300b98be7833d2b9c67a1cf1aa5f6120fe75c172112922b",
+        "actual": "4444f786e84eeb596300b98be7833d2b9c67a1cf1aa5f6120fe75c172112922b"
+      }
+    },
+    {
+      "id": "evidence_25_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/layout-768.json"
+    },
+    {
+      "id": "evidence_25_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "018a1a6435e6e6c44803600b61bee979b71d5a50",
+        "blob_sha256": "4444f786e84eeb596300b98be7833d2b9c67a1cf1aa5f6120fe75c172112922b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_25_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_26_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/menu-390.png"
+    },
+    {
+      "id": "evidence_26_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A07",
+          "HOME-VU-A09"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_26_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "aa8df3fd3aaf591071526fbdda1b8e21bdf8a2edcba8cedd8377a33dcb1b413f",
+        "actual": "aa8df3fd3aaf591071526fbdda1b8e21bdf8a2edcba8cedd8377a33dcb1b413f"
+      }
+    },
+    {
+      "id": "evidence_26_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/menu-390.png"
+    },
+    {
+      "id": "evidence_26_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c14ec800ac2bf7d3588176e8882dfd910a6cc3ac",
+        "blob_sha256": "aa8df3fd3aaf591071526fbdda1b8e21bdf8a2edcba8cedd8377a33dcb1b413f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_26_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_27_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/negative-restore.json"
+    },
+    {
+      "id": "evidence_27_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A11"
+        ],
+        "command": "python tests/negative-runtime.py",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_27_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "bc65f64ad16cb4f028865194e4bee71c405f728ff49054e4a45fdd174be0d6df",
+        "actual": "bc65f64ad16cb4f028865194e4bee71c405f728ff49054e4a45fdd174be0d6df"
+      }
+    },
+    {
+      "id": "evidence_27_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/negative-restore.json"
+    },
+    {
+      "id": "evidence_27_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3b35ad95c89be0341128ddd9c5de56829c7c950a",
+        "blob_sha256": "e7570810f9df6ebe1160871270330483360091f794fe2ba202befb3a51f6e19b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_27_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_28_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/negative-runtime.json"
+    },
+    {
+      "id": "evidence_28_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A11"
+        ],
+        "command": "python tests/negative-runtime.py",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_28_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "80ab537c92d346235a5106fb90f76c3a618b46a6629ce5f53394d2d4b6b2b374",
+        "actual": "80ab537c92d346235a5106fb90f76c3a618b46a6629ce5f53394d2d4b6b2b374"
+      }
+    },
+    {
+      "id": "evidence_28_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/negative-runtime.json"
+    },
+    {
+      "id": "evidence_28_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "0080fa5d2a7a7fdb4bee05cc90ecd68fdeaf3b5a",
+        "blob_sha256": "eb41e4cc22e74d09c8ce7544a6e800946d961c279cd0b274d62e5134b003ab9f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_28_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_29_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/privacy.json"
+    },
+    {
+      "id": "evidence_29_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A07",
+          "HOME-VU-A11"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_29_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "00bba5ea515328859de0b5f0259ffc61fbe508eaa8032c6fe4871d71888d5841",
+        "actual": "00bba5ea515328859de0b5f0259ffc61fbe508eaa8032c6fe4871d71888d5841"
+      }
+    },
+    {
+      "id": "evidence_29_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/privacy.json"
+    },
+    {
+      "id": "evidence_29_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e0d5ab673375e57bb937b2afaa50bf02a6b0b040",
+        "blob_sha256": "00bba5ea515328859de0b5f0259ffc61fbe508eaa8032c6fe4871d71888d5841",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_29_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_30_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/products-expanded-390.png"
+    },
+    {
+      "id": "evidence_30_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A05"
+        ],
+        "command": "npx playwright test",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_30_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "269142f05f8765c3f7d16a1dd550ca0ad78185a29894970a3fcad05f945595e2",
+        "actual": "269142f05f8765c3f7d16a1dd550ca0ad78185a29894970a3fcad05f945595e2"
+      }
+    },
+    {
+      "id": "evidence_30_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/products-expanded-390.png"
+    },
+    {
+      "id": "evidence_30_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "359bd496f633bb548c08d9f8f8456850c9f0ea41",
+        "blob_sha256": "269142f05f8765c3f7d16a1dd550ca0ad78185a29894970a3fcad05f945595e2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_30_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_31_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/source-hashes.json"
+    },
+    {
+      "id": "evidence_31_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A07"
+        ],
+        "command": "Read-only source/contract/hash review; scope and limitations recorded in evidence",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_31_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "da24ff8440e7facb76fdf0da135fbf922cde8ffafec726d2317228a32d3f3450",
+        "actual": "da24ff8440e7facb76fdf0da135fbf922cde8ffafec726d2317228a32d3f3450"
+      }
+    },
+    {
+      "id": "evidence_31_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/source-hashes.json"
+    },
+    {
+      "id": "evidence_31_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "0a1a5876c477e1735462ddf2e72310b17e8502e0",
+        "blob_sha256": "c73debe67799e95e3ab4222d1d290582da7a455d9a4f2540888a9ebba4dfed48",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_31_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_32_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/source-runtime-parity.json"
+    },
+    {
+      "id": "evidence_32_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A10",
+          "HOME-VU-DEP-03"
+        ],
+        "command": "python scripts/capture-contract.py",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_32_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "cd094784018e08c47c43311d3ddabe6bc877b04f403f66265533a64e8e63bfc7",
+        "actual": "cd094784018e08c47c43311d3ddabe6bc877b04f403f66265533a64e8e63bfc7"
+      }
+    },
+    {
+      "id": "evidence_32_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/source-runtime-parity.json"
+    },
+    {
+      "id": "evidence_32_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a2617e2bdc7a95a1e2f810c479dc1763682dcf8b",
+        "blob_sha256": "5fb518d7fe2f99283ee9b20eb0ac5d3179dacb820aa572c40833b08d564eebe2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_32_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_33_missing",
+      "result": "PASS",
+      "detail": "docs/verification/home/test-results.json"
+    },
+    {
+      "id": "evidence_33_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "HOME-VU-A01",
+          "HOME-VU-A02",
+          "HOME-VU-A03",
+          "HOME-VU-A04",
+          "HOME-VU-A05",
+          "HOME-VU-A06",
+          "HOME-VU-A07",
+          "HOME-VU-A08",
+          "HOME-VU-A09",
+          "HOME-VU-A10",
+          "HOME-VU-A11",
+          "HOME-VU-A12"
+        ],
+        "command": "Commands and actual outputs recorded inside this file",
+        "environment": "Windows; isolated Docker d32-tio2-my; http://127.0.0.1:8232/; Chrome browser where applicable"
+      }
+    },
+    {
+      "id": "evidence_33_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "eb8300327ceea4b7a3b6f84b690640010adefaaf7126bcb00cea5ded54cd951c",
+        "actual": "eb8300327ceea4b7a3b6f84b690640010adefaaf7126bcb00cea5ded54cd951c"
+      }
+    },
+    {
+      "id": "evidence_33_committed",
+      "result": "PASS",
+      "detail": "docs/verification/home/test-results.json"
+    },
+    {
+      "id": "evidence_33_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "df1ee7c55f89909e0001f0b43c397db23c8f7513",
+        "blob_sha256": "8e4b772d150790a26163acdd0c0dc02f3a23cd9358c3948fc0784d3b8158dd4d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_33_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/handoffs/HOME-001-gate8.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/source-map.json",
+          "docs/verification/home/acceptance.md",
+          "docs/verification/home/artifact.json",
+          "docs/verification/home/code-review.md",
+          "docs/verification/home/content-before.json",
+          "docs/verification/home/content-restored.json",
+          "docs/verification/home/cookie-390.png",
+          "docs/verification/home/dependencies.json",
+          "docs/verification/home/editor-changed.png",
+          "docs/verification/home/editor-results.json",
+          "docs/verification/home/environment.json",
+          "docs/verification/home/hero-1440.png",
+          "docs/verification/home/hero-390.png",
+          "docs/verification/home/hero-768.png",
+          "docs/verification/home/home-1024.png",
+          "docs/verification/home/home-1440.png",
+          "docs/verification/home/home-320.png",
+          "docs/verification/home/home-390.png",
+          "docs/verification/home/home-768.png",
+          "docs/verification/home/homepage-response.html",
+          "docs/verification/home/identity.json",
+          "docs/verification/home/layout-1024.json",
+          "docs/verification/home/layout-1440.json",
+          "docs/verification/home/layout-320.json",
+          "docs/verification/home/layout-390.json",
+          "docs/verification/home/layout-768.json",
+          "docs/verification/home/menu-390.png",
+          "docs/verification/home/negative-restore.json",
+          "docs/verification/home/negative-runtime.json",
+          "docs/verification/home/privacy.json",
+          "docs/verification/home/products-expanded-390.png",
+          "docs/verification/home/source-hashes.json",
+          "docs/verification/home/source-runtime-parity.json",
+          "docs/verification/home/test-results.json"
+        ],
+        "actual": [
+          "docs/source-map.json",
+          "docs/verification/home/acceptance.md",
+          "docs/verification/home/artifact.json",
+          "docs/verification/home/code-review.md",
+          "docs/verification/home/content-before.json",
+          "docs/verification/home/content-restored.json",
+          "docs/verification/home/cookie-390.png",
+          "docs/verification/home/dependencies.json",
+          "docs/verification/home/editor-changed.png",
+          "docs/verification/home/editor-results.json",
+          "docs/verification/home/environment.json",
+          "docs/verification/home/hero-1440.png",
+          "docs/verification/home/hero-390.png",
+          "docs/verification/home/hero-768.png",
+          "docs/verification/home/home-1024.png",
+          "docs/verification/home/home-1440.png",
+          "docs/verification/home/home-320.png",
+          "docs/verification/home/home-390.png",
+          "docs/verification/home/home-768.png",
+          "docs/verification/home/homepage-response.html",
+          "docs/verification/home/identity.json",
+          "docs/verification/home/layout-1024.json",
+          "docs/verification/home/layout-1440.json",
+          "docs/verification/home/layout-320.json",
+          "docs/verification/home/layout-390.json",
+          "docs/verification/home/layout-768.json",
+          "docs/verification/home/menu-390.png",
+          "docs/verification/home/negative-restore.json",
+          "docs/verification/home/negative-runtime.json",
+          "docs/verification/home/privacy.json",
+          "docs/verification/home/products-expanded-390.png",
+          "docs/verification/home/source-hashes.json",
+          "docs/verification/home/source-runtime-parity.json",
+          "docs/verification/home/test-results.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/handoffs/HOME-001-gate8.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

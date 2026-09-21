@@ -1,0 +1,131 @@
+{
+  "page_id": "APP-000",
+  "route": "/applications/",
+  "site_scope": "tio2-my",
+  "module_order": [
+    "M1-HERO",
+    "M2-APPLICATION_PATHS",
+    "M3-EVALUATION_GUIDE",
+    "M4-PROCUREMENT_PATHS",
+    "M5-FINAL-RFQ"
+  ],
+  "collections": [
+    {
+      "key": "coatings",
+      "name": "Coatings",
+      "scope": "For paint and coating formulations.",
+      "grades": [
+        "M-350",
+        "M-510",
+        "M-896",
+        "M-996",
+        "M-2196",
+        "M-895",
+        "M-52",
+        "M-2377"
+      ],
+      "action": "Explore Coatings"
+    },
+    {
+      "key": "plastics",
+      "name": "Plastics",
+      "scope": "For plastic compounds and finished plastic applications.",
+      "grades": [
+        "M-350",
+        "M-510",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "M-2377"
+      ],
+      "action": "Explore Plastics"
+    },
+    {
+      "key": "masterbatch",
+      "name": "Masterbatch",
+      "scope": "For evaluating titanium dioxide as a pigment input in masterbatch formulations.",
+      "grades": [
+        "M-510",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "M-2377"
+      ],
+      "action": "Explore Masterbatch"
+    },
+    {
+      "key": "printing-inks",
+      "name": "Printing Inks",
+      "scope": "For printing-ink formulations.",
+      "grades": [
+        "M-350",
+        "M-510",
+        "M-52",
+        "M-2377"
+      ],
+      "action": "Explore Printing Inks"
+    },
+    {
+      "key": "paper",
+      "name": "Paper",
+      "scope": "For paper-related applications.",
+      "grades": [
+        "M-350",
+        "M-2377"
+      ],
+      "action": "Explore Paper"
+    },
+    {
+      "key": "specialty-materials",
+      "name": "Specialty Materials",
+      "scope": "For reviewing CR-901 in specialty-material applications.",
+      "grades": [
+        "CR-901"
+      ],
+      "action": null
+    }
+  ],
+  "steps": [
+    {
+      "title": "Choose your application.",
+      "body": "Start with the category that matches what you make. Review more than one path if your work spans several applications."
+    },
+    {
+      "title": "Compare technical information.",
+      "body": "Use current technical data to compare the grades under review against your requirements."
+    },
+    {
+      "title": "Validate in your own system.",
+      "body": "Check the grade in your formulation and process before making a specification decision."
+    }
+  ],
+  "procurement": [
+    {
+      "name": "Products",
+      "body": "Already know the grade, or need a wider starting point? Use the product directory to review the portfolio and explore process information.",
+      "action": "Explore Products",
+      "href": "/products/"
+    },
+    {
+      "name": "Documents",
+      "body": "Understand technical, quality and origin document types and how to request them.",
+      "action": "Review Documents",
+      "href": "/documents/"
+    },
+    {
+      "name": "Markets",
+      "body": "Find procurement context for your destination market.",
+      "action": "Explore Markets",
+      "href": "/markets/"
+    }
+  ],
+  "excluded_obsolete_modules": [
+    "Process Classification directory",
+    "FAQ module",
+    "complete 14-grade product directory"
+  ]
+}

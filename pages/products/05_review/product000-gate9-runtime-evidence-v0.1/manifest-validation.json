@@ -1,0 +1,1699 @@
+{
+  "status": "PASS",
+  "manifest": "C:\\Users\\longe\\.codex\\worktrees\\product-000-products\\32Wordpress_new\\.runtime\\handoff\\products\\gate8_evidence_manifest.json",
+  "handoff_id": "PRODUCT-D32-G8-01",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "PRODUCT-000",
+          "acceptance_condition_ids": [
+            "PRODUCT-G6-B02",
+            "PRODUCT-G6-B03",
+            "PRODUCT-G6-TDS-I02",
+            "PRODUCT-G7-B05",
+            "PRODUCT-G7-B06",
+            "PRODUCT-G7-B07"
+          ],
+          "runtime_path": "/products/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\product-000-products\\32Wordpress_new"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/product-000-products",
+        "actual": "codex/product-000-products"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "5c339caad74e8c00658c9497ee428c4f029adbb7",
+        "actual": "5c339caad74e8c00658c9497ee428c4f029adbb7"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "f520678e723fe040c2e3b2cb5f9bd219e33d8fb9",
+        "descendant": "7d4875a778401d0ecd118f5935c6392571a6d13c"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "7d4875a778401d0ecd118f5935c6392571a6d13c",
+        "descendant": "5c339caad74e8c00658c9497ee428c4f029adbb7"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "C:\\Users\\longe\\.codex\\worktrees\\product-000-products\\32Wordpress_new\\.runtime\\artifacts\\wp-fb45d8677fec877ae499976fdfa96491c03bf9c9c062d35c98f70b10eb7cea9b"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "wp-fb45d8677fec877ae499976fdfa96491c03bf9c9c062d35c98f70b10eb7cea9b",
+        "actual": "wp-fb45d8677fec877ae499976fdfa96491c03bf9c9c062d35c98f70b10eb7cea9b"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "7d4875a778401d0ecd118f5935c6392571a6d13c",
+        "git": "7d4875a778401d0ecd118f5935c6392571a6d13c"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/acceptance-mapping.json"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PRODUCT-G6-B02",
+          "PRODUCT-G6-B03",
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B05",
+          "PRODUCT-G7-B06",
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "22f1da81990b2e7351d7928d4100a68b7050bdf7c03cc03d0aeb8fbd6acaab37",
+        "actual": "22f1da81990b2e7351d7928d4100a68b7050bdf7c03cc03d0aeb8fbd6acaab37"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/acceptance-mapping.json"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b8ba12a7829b73c9c3d32a48811b3168d1733298",
+        "blob_sha256": "d87ec875161a56dab9dd8112b468cbb39c1b998ddb5a9f29d4657d03cad3b7cf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/acceptance.md"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PRODUCT-G6-B02",
+          "PRODUCT-G6-B03",
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B05",
+          "PRODUCT-G7-B06",
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "90ec53c26a53c9d8ec92573e02295414cec2d1614b1d71d5f71819d498905246",
+        "actual": "90ec53c26a53c9d8ec92573e02295414cec2d1614b1d71d5f71819d498905246"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/acceptance.md"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c0bb2ac4ee044355e7218433bb25c017dcb1b376",
+        "blob_sha256": "bcae4facc0504b5cca209a2c182d7ae34b9f24bc9a981dffd26f471cee46025d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/artifact.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5d74f376b96233dac2ec8ce3536fea0b94078fd06ebac3236ab6344f95dceda8",
+        "actual": "5d74f376b96233dac2ec8ce3536fea0b94078fd06ebac3236ab6344f95dceda8"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/artifact.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1291817abb53349401ec692d31317a170d1ab09e",
+        "blob_sha256": "e96bc4ab7fbb02a7811fb879369e389883bf0afc5e0c4141761176879e9bba5d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/cookie-390.png"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b8a5520ca50eecec218c570898d04abc4bf64c04f0af5dea8d1f0cf442a3327c",
+        "actual": "b8a5520ca50eecec218c570898d04abc4bf64c04f0af5dea8d1f0cf442a3327c"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/cookie-390.png"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "320e139d384c603bc7eccd8ede3792987245f508",
+        "blob_sha256": "b8a5520ca50eecec218c570898d04abc4bf64c04f0af5dea8d1f0cf442a3327c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/dependencies.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "PRODUCT-G6-B03",
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e313ebec76364c2db7bd3fa21b458c2c9104bc6b2db27e462d4cf6982a37ae8f",
+        "actual": "e313ebec76364c2db7bd3fa21b458c2c9104bc6b2db27e462d4cf6982a37ae8f"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/dependencies.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "103b26b186576326cf7b4258da4377e3c190e931",
+        "blob_sha256": "085877ae5e80c8abb831e99523df5f92d689b0ea4b7e6041844f9d266ce49ecd",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/editor-changed.png"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "cc2963b9416281669f48cd37435272bca9df2b214ca72b95ac6222e80d48cdac",
+        "actual": "cc2963b9416281669f48cd37435272bca9df2b214ca72b95ac6222e80d48cdac"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/editor-changed.png"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "298fe11bcdbe75843087cfd7492a2a4be8d6ea8d",
+        "blob_sha256": "cc2963b9416281669f48cd37435272bca9df2b214ca72b95ac6222e80d48cdac",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/editor-results.json"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "cc250c5423c9612af92ec6fd8a38f3b31c02499741f564cc056d36f39330de78",
+        "actual": "cc250c5423c9612af92ec6fd8a38f3b31c02499741f564cc056d36f39330de78"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/editor-results.json"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "003a3f6fa9925f9e131250277e528df72622a13c",
+        "blob_sha256": "cc250c5423c9612af92ec6fd8a38f3b31c02499741f564cc056d36f39330de78",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/environment.json"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5b0e99912236efe5816e7f9d418b814addaa39c728272f5958fbb5783ce70b30",
+        "actual": "5b0e99912236efe5816e7f9d418b814addaa39c728272f5958fbb5783ce70b30"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/environment.json"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "027c730eb02b9f7a505db20b1588081e124834dc",
+        "blob_sha256": "7cfb88a4eaf211de4c765d2c21d1190a577222463bb95450c0d51789df2fd9e7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/faq-keyboard-768.png"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c28320d9606d293928e5e64fdcb2ffa198bdc5fffcf4bbb93656222884eada03",
+        "actual": "c28320d9606d293928e5e64fdcb2ffa198bdc5fffcf4bbb93656222884eada03"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/faq-keyboard-768.png"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6ebc9500883a7e875b4c643a91557471fc3460ef",
+        "blob_sha256": "c28320d9606d293928e5e64fdcb2ffa198bdc5fffcf4bbb93656222884eada03",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/home-content.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "fb97e74c1bcf02cffd06c6c80cfe1e8618c07f6a36f604b3ee2ebe3e2472d77d",
+        "actual": "fb97e74c1bcf02cffd06c6c80cfe1e8618c07f6a36f604b3ee2ebe3e2472d77d"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/home-content.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a35a27ff7b8e55731e9b8210ac15ba49082b2d1d",
+        "blob_sha256": "68c3455c781ddb02210a2ea29919006507d72a91b543d1b5468eaf41d83a6dad",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/home-response.html"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4441e1fadeb99fefbddc92e7e791ebfe1e0662c93062496ed69db046702db159",
+        "actual": "4441e1fadeb99fefbddc92e7e791ebfe1e0662c93062496ed69db046702db159"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/home-response.html"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ba36e9aa7679c46a7fa52d049b90d9b7ebe4b21b",
+        "blob_sha256": "4441e1fadeb99fefbddc92e7e791ebfe1e0662c93062496ed69db046702db159",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/identity.json"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "2ea095fcfe769cb64ffa543b3c83b321f3a6bd1327ff17d9fc7201e7dce97e75",
+        "actual": "2ea095fcfe769cb64ffa543b3c83b321f3a6bd1327ff17d9fc7201e7dce97e75"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/identity.json"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "263eca9b14da0a6da53c91c1e57def9a0c0fdd87",
+        "blob_sha256": "5700426ec0bbdd45519226d3ef0fb8c63ecb7907236084ed9abc5b49677f0329",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/layout-1024.json"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "fc6462beb323817daa84cb63b6d3ebbd4ce15754f2d5b5110c6daa4df3d5b757",
+        "actual": "fc6462beb323817daa84cb63b6d3ebbd4ce15754f2d5b5110c6daa4df3d5b757"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/layout-1024.json"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e7d1b4acc7c1fc095e964407d97ab0e1551f37e4",
+        "blob_sha256": "fc6462beb323817daa84cb63b6d3ebbd4ce15754f2d5b5110c6daa4df3d5b757",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/layout-1440.json"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "48c19cb72703f039f8ffd2b08a8b3eb56f13ddd643c0ff9515622f1458956907",
+        "actual": "48c19cb72703f039f8ffd2b08a8b3eb56f13ddd643c0ff9515622f1458956907"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/layout-1440.json"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "de804e26e3a5dab560883a025f517b5555d1dab6",
+        "blob_sha256": "48c19cb72703f039f8ffd2b08a8b3eb56f13ddd643c0ff9515622f1458956907",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/layout-390.json"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "40e681881b0b667cefe26222454d230aa9843c09d386fbd77b11e10ebf5bdca9",
+        "actual": "40e681881b0b667cefe26222454d230aa9843c09d386fbd77b11e10ebf5bdca9"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/layout-390.json"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "aea93c04e67f4ea6d62dd6e1b0b764ebccb54945",
+        "blob_sha256": "40e681881b0b667cefe26222454d230aa9843c09d386fbd77b11e10ebf5bdca9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/layout-768.json"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7dd5116685ebb0a60202490bf0531c7bc8856bbcec0aba65c3e06aa25b5b76bf",
+        "actual": "7dd5116685ebb0a60202490bf0531c7bc8856bbcec0aba65c3e06aa25b5b76bf"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/layout-768.json"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6ba55b24d4b804516a3f296d0443a4e0f0c2eaa1",
+        "blob_sha256": "7dd5116685ebb0a60202490bf0531c7bc8856bbcec0aba65c3e06aa25b5b76bf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/menu-390.png"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "396d7995b09252be5a718fde5e4c4b9294c6c424a201a9072d6a3c1f070b2efb",
+        "actual": "396d7995b09252be5a718fde5e4c4b9294c6c424a201a9072d6a3c1f070b2efb"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/menu-390.png"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d4bad5f23e9c27e7764dcb6e8e2b5225dfbb62dc",
+        "blob_sha256": "396d7995b09252be5a718fde5e4c4b9294c6c424a201a9072d6a3c1f070b2efb",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/migration-results.json"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "981f9f8f9145d00ebb876be9cde3839321cc4009fdab33aecc96c3ad4037558b",
+        "actual": "981f9f8f9145d00ebb876be9cde3839321cc4009fdab33aecc96c3ad4037558b"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/migration-results.json"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6e3cbf99d254aaad2e349bf206c74cd2959e36fa",
+        "blob_sha256": "ccc3bd5588b6bea809d2392ccb0bdc3e69916d17b87c4cbae85172f1fdcdc8ee",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-1024.png"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "796c6299b3a9845aeb53dadb2bc07f5202da0d3c201273e0699e11fd364f479e",
+        "actual": "796c6299b3a9845aeb53dadb2bc07f5202da0d3c201273e0699e11fd364f479e"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-1024.png"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "1945771fd54be111d7329c6ec7c8305ea574b06e",
+        "blob_sha256": "796c6299b3a9845aeb53dadb2bc07f5202da0d3c201273e0699e11fd364f479e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-1440.png"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "86ea4b61981fd7198136b610e938ea5d838146d4fce88ebfe85d26fedf58bde8",
+        "actual": "86ea4b61981fd7198136b610e938ea5d838146d4fce88ebfe85d26fedf58bde8"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-1440.png"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4291dd25de145847c206efb8a012f14a8c1c95fc",
+        "blob_sha256": "86ea4b61981fd7198136b610e938ea5d838146d4fce88ebfe85d26fedf58bde8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-390.png"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "745b48ec474879966b8de4cbdf3ce6bee9321991b235962dc899a8ac6ff99461",
+        "actual": "745b48ec474879966b8de4cbdf3ce6bee9321991b235962dc899a8ac6ff99461"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-390.png"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2325ac88a2955957a9cccda5d807de3f9eba2d30",
+        "blob_sha256": "745b48ec474879966b8de4cbdf3ce6bee9321991b235962dc899a8ac6ff99461",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-768.png"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "73e8e3f5894d2904beae4335f32765c56abe00adf996fe6521205199d6ecf003",
+        "actual": "73e8e3f5894d2904beae4335f32765c56abe00adf996fe6521205199d6ecf003"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-768.png"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "d3a209903ddbb6c9a2d4ca83d35bc551a6c6c137",
+        "blob_sha256": "73e8e3f5894d2904beae4335f32765c56abe00adf996fe6521205199d6ecf003",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-content-before.json"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B05"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "09c2b073087ac38eb3c4a61b40d086d9936bcc3ecbabb00df477bedb4a1f0ab2",
+        "actual": "09c2b073087ac38eb3c4a61b40d086d9936bcc3ecbabb00df477bedb4a1f0ab2"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-content-before.json"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "eb889bd2a49f23a571100a5ebca63dc0df547e93",
+        "blob_sha256": "09c2b073087ac38eb3c4a61b40d086d9936bcc3ecbabb00df477bedb4a1f0ab2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-content-restored.json"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B05"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "09c2b073087ac38eb3c4a61b40d086d9936bcc3ecbabb00df477bedb4a1f0ab2",
+        "actual": "09c2b073087ac38eb3c4a61b40d086d9936bcc3ecbabb00df477bedb4a1f0ab2"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-content-restored.json"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "eb889bd2a49f23a571100a5ebca63dc0df547e93",
+        "blob_sha256": "09c2b073087ac38eb3c4a61b40d086d9936bcc3ecbabb00df477bedb4a1f0ab2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-content.json"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B05"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8830a0f444ef01b4349f4713a3be2663fcecd03114b962ce72d6ed07a518a511",
+        "actual": "8830a0f444ef01b4349f4713a3be2663fcecd03114b962ce72d6ed07a518a511"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-content.json"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "eb889bd2a49f23a571100a5ebca63dc0df547e93",
+        "blob_sha256": "09c2b073087ac38eb3c4a61b40d086d9936bcc3ecbabb00df477bedb4a1f0ab2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_25_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-response.html"
+    },
+    {
+      "id": "evidence_25_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B05"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_25_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9fa9ff22dff77f17f81e19f198c5e4c28f866933e7713fc7fa5c2c92f29aa56a",
+        "actual": "9fa9ff22dff77f17f81e19f198c5e4c28f866933e7713fc7fa5c2c92f29aa56a"
+      }
+    },
+    {
+      "id": "evidence_25_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/products-response.html"
+    },
+    {
+      "id": "evidence_25_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2697423bac7ec8263e008fc72e5e003e49e56c6d",
+        "blob_sha256": "d3fa2a079010e0b3854133334610e1033a16e8390ed9047a802c90ce133dd234",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_25_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_26_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/readiness-matrix.json"
+    },
+    {
+      "id": "evidence_26_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "PRODUCT-G6-B03",
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_26_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b85aa51ea48fc78250a8e952b75d07a2c3647f620116efb66573a28a3456ef70",
+        "actual": "b85aa51ea48fc78250a8e952b75d07a2c3647f620116efb66573a28a3456ef70"
+      }
+    },
+    {
+      "id": "evidence_26_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/readiness-matrix.json"
+    },
+    {
+      "id": "evidence_26_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5bd2ebcecdf55ac4541a1a219e6d53b5d7f6288f",
+        "blob_sha256": "55de61bd43597d3ec77626662ff1f12dad0c05799274b78d5049506f7f46a334",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_26_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_27_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/selector-not-sure-1024.png"
+    },
+    {
+      "id": "evidence_27_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_27_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4a96b99d3e9ec10c9a0e15569565ae701977eddcce45c52e568e6e9e2f5e4b5e",
+        "actual": "4a96b99d3e9ec10c9a0e15569565ae701977eddcce45c52e568e6e9e2f5e4b5e"
+      }
+    },
+    {
+      "id": "evidence_27_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/selector-not-sure-1024.png"
+    },
+    {
+      "id": "evidence_27_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3048f41201966098ef13dd52a8fb9b14cf918acf",
+        "blob_sha256": "4a96b99d3e9ec10c9a0e15569565ae701977eddcce45c52e568e6e9e2f5e4b5e",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_27_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_28_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/seo-schema.json"
+    },
+    {
+      "id": "evidence_28_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B05"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_28_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9db63dc54dc89a1e392de505af8f6d598042466e47502ba988ec325d396f753b",
+        "actual": "9db63dc54dc89a1e392de505af8f6d598042466e47502ba988ec325d396f753b"
+      }
+    },
+    {
+      "id": "evidence_28_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/seo-schema.json"
+    },
+    {
+      "id": "evidence_28_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "164528da96a4ff50af86b4bad19e192ff49da2ea",
+        "blob_sha256": "10d0b7bc413b30dcfcfeea76821c031fe6227c3c09e82cfb5e180632cce1698c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_28_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_29_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/source-hashes.json"
+    },
+    {
+      "id": "evidence_29_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "PRODUCT-G7-B06"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_29_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0d398a398a7f8e55b574978630ae377f6eb0187712c437007012986a99866d71",
+        "actual": "0d398a398a7f8e55b574978630ae377f6eb0187712c437007012986a99866d71"
+      }
+    },
+    {
+      "id": "evidence_29_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/source-hashes.json"
+    },
+    {
+      "id": "evidence_29_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f6102867ad6c3d5489e2ab15fe0a2341dfd56359",
+        "blob_sha256": "766e046b597445f7f64ff4e64d5f1ede46e02c9468981897f9d9fbf50b131df1",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_29_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_30_missing",
+      "result": "PASS",
+      "detail": "docs/verification/products/test-results.json"
+    },
+    {
+      "id": "evidence_30_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "PRODUCT-G6-B02",
+          "PRODUCT-G6-B03",
+          "PRODUCT-G6-TDS-I02",
+          "PRODUCT-G7-B05",
+          "PRODUCT-G7-B06",
+          "PRODUCT-G7-B07"
+        ],
+        "command": "python scripts/products-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-product-000; WordPress local preview; Chrome Playwright; http://127.0.0.1:8232"
+      }
+    },
+    {
+      "id": "evidence_30_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7702b4bfbe6704b160a9b5205c61a56a3beeef499c5527b38798f5fd107c3106",
+        "actual": "7702b4bfbe6704b160a9b5205c61a56a3beeef499c5527b38798f5fd107c3106"
+      }
+    },
+    {
+      "id": "evidence_30_committed",
+      "result": "PASS",
+      "detail": "docs/verification/products/test-results.json"
+    },
+    {
+      "id": "evidence_30_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "50c517ef2c86fe94033c529171cda807045afa9a",
+        "blob_sha256": "301091a34bddb4169d8cb88d2886dca99a04513e6413bfd4d45e9ab248ef6c84",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_30_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/handoffs/PRODUCT-000-gate8.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/products/acceptance-mapping.json",
+          "docs/verification/products/acceptance.md",
+          "docs/verification/products/artifact.json",
+          "docs/verification/products/cookie-390.png",
+          "docs/verification/products/dependencies.json",
+          "docs/verification/products/editor-changed.png",
+          "docs/verification/products/editor-results.json",
+          "docs/verification/products/environment.json",
+          "docs/verification/products/faq-keyboard-768.png",
+          "docs/verification/products/home-content.json",
+          "docs/verification/products/home-response.html",
+          "docs/verification/products/identity.json",
+          "docs/verification/products/layout-1024.json",
+          "docs/verification/products/layout-1440.json",
+          "docs/verification/products/layout-390.json",
+          "docs/verification/products/layout-768.json",
+          "docs/verification/products/menu-390.png",
+          "docs/verification/products/migration-results.json",
+          "docs/verification/products/products-1024.png",
+          "docs/verification/products/products-1440.png",
+          "docs/verification/products/products-390.png",
+          "docs/verification/products/products-768.png",
+          "docs/verification/products/products-content-before.json",
+          "docs/verification/products/products-content-restored.json",
+          "docs/verification/products/products-content.json",
+          "docs/verification/products/products-response.html",
+          "docs/verification/products/readiness-matrix.json",
+          "docs/verification/products/selector-not-sure-1024.png",
+          "docs/verification/products/seo-schema.json",
+          "docs/verification/products/source-hashes.json",
+          "docs/verification/products/test-results.json"
+        ],
+        "actual": [
+          "docs/verification/products/acceptance-mapping.json",
+          "docs/verification/products/acceptance.md",
+          "docs/verification/products/artifact.json",
+          "docs/verification/products/cookie-390.png",
+          "docs/verification/products/dependencies.json",
+          "docs/verification/products/editor-changed.png",
+          "docs/verification/products/editor-results.json",
+          "docs/verification/products/environment.json",
+          "docs/verification/products/faq-keyboard-768.png",
+          "docs/verification/products/home-content.json",
+          "docs/verification/products/home-response.html",
+          "docs/verification/products/identity.json",
+          "docs/verification/products/layout-1024.json",
+          "docs/verification/products/layout-1440.json",
+          "docs/verification/products/layout-390.json",
+          "docs/verification/products/layout-768.json",
+          "docs/verification/products/menu-390.png",
+          "docs/verification/products/migration-results.json",
+          "docs/verification/products/products-1024.png",
+          "docs/verification/products/products-1440.png",
+          "docs/verification/products/products-390.png",
+          "docs/verification/products/products-768.png",
+          "docs/verification/products/products-content-before.json",
+          "docs/verification/products/products-content-restored.json",
+          "docs/verification/products/products-content.json",
+          "docs/verification/products/products-response.html",
+          "docs/verification/products/readiness-matrix.json",
+          "docs/verification/products/selector-not-sure-1024.png",
+          "docs/verification/products/seo-schema.json",
+          "docs/verification/products/source-hashes.json",
+          "docs/verification/products/test-results.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/handoffs/PRODUCT-000-gate8.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

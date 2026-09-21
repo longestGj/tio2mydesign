@@ -1,0 +1,21 @@
+{
+  "id": "ABOUT-001-D32-G3-FORMAL-VERIFICATION-V0.2",
+  "status": "AUTHOR_CHECK_PASS_NOT_INDEPENDENT_REVIEW",
+  "actor": "/root/about_root_d32",
+  "recordedAt": "2026-09-21T08:16:00+08:00",
+  "workset": "D:/23MySec/pages/about-contact/04_planning/d32-gate3-v0.2",
+  "sourceSetSha256": "f3168de74bc8f22d452f16c3601774aa68b3ded29a8b71e26931eb4a5a42e690",
+  "htmlSha256": "33cdf52b03854f2d2fdda502e2c472141a3de0a8cc4ed560e2bd4f2d507d8351",
+  "preflight": "PASS_FOR_FORMAL_RENDER; check-preflight-record.mjs exit 0 before freeze",
+  "formalCapture": {"command": "node capture.cjs --formal", "exitCode": 0, "images": 8, "readiness": "document.fonts.ready then two requestAnimationFrame callbacks; no arbitrary sleep"},
+  "runtimeRecheck": {"path": "diagnostic/formal-recheck.json", "sha256": "d4b2d6e35b22be6e755ba48a99ab2539fc0367a85533f52c9f390182228a449c", "passed": 303, "failed": 0, "evidenceType": "ACTUAL_RUNTIME + SOURCE_INSPECTION; two restricted-state checks are LOCAL_SIMULATION"},
+  "visualAuthorInspection": {
+    "fullPageImages": ["formal/ABOUT-001_D32_GATE3_FULL_1440.png", "formal/ABOUT-001_D32_GATE3_FULL_768.png", "formal/ABOUT-001_D32_GATE3_FULL_390.png"],
+    "stateImages": ["formal/ABOUT-001_D32_GATE3_MENU_768.png", "formal/ABOUT-001_D32_GATE3_MENU_390.png", "formal/ABOUT-001_D32_GATE3_COOKIE_390.png", "formal/ABOUT-001_D32_GATE3_PARTIAL_390.png", "formal/ABOUT-001_D32_GATE3_RESTRICTED_390.png"],
+    "result": "Eight formal PNGs inspected. Full page overall order, footer completion and responsive stacking match the frozen source. Readable full-content detail was additionally inspected in the unchanged v0.1 diagnostic segments; font/H1/overflow/target geometry measured by the verifier. Menu states show About current and proper fixed RFQ; Cookie uses inactive no_optional_analytics text. Partial/restricted views remove affected content without placeholders.",
+    "support": "../d32-gate3-v0.1/diagnostic/segments/ and desktop-footer-runtime.png; source bytes remain identical across v0.1/v0.2"
+  },
+  "v01Preservation": "Original freeze, source, preflight and failure-related diagnostic retained. Formal protocol error transcript: diagnostic/formal-capture-v0.1-failure.json. Only capture readiness and evidence report differ in v0.2; page and shared runtime source bytes unchanged.",
+  "knownBlockingFindings": [],
+  "notProven": ["D32 implementation or route readiness", "production CMS/Schema/migration", "independent review", "Gate 3 closure", "publication authority"]
+}

@@ -3,7 +3,7 @@ name: layout-interaction-verification
 description: Verify responsive planning assets against authoritative content and interaction contracts. Use to inspect content visibility, comparison relationships, clipping, spacing, touch targets and state behavior across supplied viewports. Reports evidence and findings without editing the candidate; static images do not prove runtime behavior or Gate approval.
 ---
 
-# 布局与交互核验 V0.8
+# 布局与交互核验 V0.9
 
 对照权威输入与实际成果发现可读性、关系和操作问题。可用于执行自检或独立审查；使用同一方法不会使自检变成独立审查。只写核验报告和必要证据，不修改被审设计、内容、批准记录或他人审查结论。
 
@@ -16,6 +16,10 @@ V0.5明确SELF_CHECK / INDEPENDENT_REVIEW：新Gate 5或Gate 4内部最终独立
 V0.6补齐独立视觉审查的INITIAL/TARGETED范围、同一审查内行为等价覆盖和只读冻结索引规则。下文完整方法按本次范围适用：定向复审继承有效未变覆盖，不重新从头执行全部步骤。SELF_CHECK由执行方消费；独立模式的差异详见上述参考，不能将其等价复用规则自动扩展到Gate 3或Gate 9。
 
 V0.7增加[Gate 4自检方法](references/gate4-self-check.md)：仅Gate 4 SELF_CHECK必读，区分完整覆盖、正式捕获核对和变化补验。制作Skill和Agent共用结果，不默认各做一轮完整自检。Gate 5独立审查与其他阶段范围不变。
+
+## 合并流程适用范围
+
+2026-09-21按[合并决定](../../docs/architecture/GATE3_GATE4_MERGE_DECISION_V1.0.md)：Gate 4从Gate 2批准内容/行为及4A跨页映射开展完整核验；新页无需独立Gate 3冻结。4A局部结构诊断与4B完整自检共用覆盖，最终Gate 5独立审查包括一致性、结构、视觉和操作。下文Gate 3专项仅适用于明确保留旧Gate 3范围的任务，不因合并扩大原授权。
 
 ## 输入与范围
 

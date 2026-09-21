@@ -1,0 +1,3058 @@
+{
+  "reviewer": "/root/app_gate3_independent_review",
+  "type": "INDEPENDENT_REVIEW",
+  "bundle_id": "sha256:64592411f67a5e69dd0fa18db1195abde26e2b873d037db93985e1fa45430297",
+  "source": {
+    "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.1/application-planning.html",
+    "bytes": 32508,
+    "sha256": "88f06f499c377688d3488b1dd0fa0ac00a2a6fc2f5f84ed4da6cf588bd988288"
+  },
+  "checks": [
+    {
+      "name": "freeze members",
+      "pass": true,
+      "details": 16
+    },
+    {
+      "name": "bundle identity",
+      "pass": true,
+      "details": "sha256:64592411f67a5e69dd0fa18db1195abde26e2b873d037db93985e1fa45430297"
+    },
+    {
+      "name": "all approved inputs",
+      "pass": true,
+      "details": 29
+    },
+    {
+      "name": "asset dependencies",
+      "pass": true,
+      "details": 12
+    },
+    {
+      "name": "formal PNG dimensions",
+      "pass": true,
+      "details": [
+        {
+          "file": "APP-000_G3_FULL_1440.png",
+          "sha256": "d4c6c77a4ef83d67540077e5b5bd471e855bf88e68a96a4f9635aae32b45f829",
+          "width": 1440,
+          "height": 3910
+        },
+        {
+          "file": "APP-000_G3_FULL_768.png",
+          "sha256": "18d5125f8f27d61273caea7fd1ecb2fb8ab09f813e0be7a33ee6bc8804981c7e",
+          "width": 768,
+          "height": 5980
+        },
+        {
+          "file": "APP-000_G3_FULL_390.png",
+          "sha256": "a8b560471eb9aafbe0244f7aa57c64806114993651a3e59321b69386dfd089b7",
+          "width": 390,
+          "height": 7012
+        },
+        {
+          "file": "APP-000_G3_MENU_390.png",
+          "sha256": "8f7b64d15ec67ab80ae8ca06eaa51d46d2e4f511ab32f801d25a79512277503f",
+          "width": 390,
+          "height": 1000
+        },
+        {
+          "file": "APP-000_G3_COOKIE_390.png",
+          "sha256": "f6e75696f2a9ec17f3531b19f58f629e9ea1899bc56873c56f08e63946933643",
+          "width": 390,
+          "height": 1000
+        },
+        {
+          "file": "APP-000_G3_ROUTE_FULL_390.png",
+          "sha256": "771c5dfe6e5e4c695a424e919b2d0f3db1fc73cdd5df2c6c3606ec8e6c37100d",
+          "width": 390,
+          "height": 7012
+        },
+        {
+          "file": "APP-000_G3_ROUTE_GRADE_ONLY_390.png",
+          "sha256": "066107e835f92eadaa0c4ee1cd4465e68b6ff66ccaca3aaf33a9d1215344715b",
+          "width": 390,
+          "height": 6711
+        },
+        {
+          "file": "APP-000_G3_ROUTE_APPLICATION_ONLY_390.png",
+          "sha256": "06f6e5b0b60f3bdace7b4cf4c3cb02a435b5f89e846145f3a0e32e9f662d32e7",
+          "width": 390,
+          "height": 6985
+        },
+        {
+          "file": "APP-000_G3_ROUTE_NONE_390.png",
+          "sha256": "6e633672223e60b773c9b88334bc72870154f82de418f4ec3576c44a69ec98f7",
+          "width": 390,
+          "height": 5117
+        }
+      ]
+    },
+    {
+      "name": "author validator independent rerun",
+      "pass": true
+    },
+    {
+      "name": "current preflight checker",
+      "pass": true,
+      "details": "{\n  \"record\": \"D:\\\\23MySec\\\\pages\\\\applications\\\\04_planning\\\\d32-gate3-v0.1\\\\preflight.json\",\n  \"status\": \"PASS_FOR_FORMAL_RENDER\",\n  \"failures\": []\n}"
+    },
+    {
+      "name": "shared chrome page-neutral generator exact assembly",
+      "pass": true,
+      "details": [
+        "header",
+        "footer",
+        "dialog",
+        "style",
+        "behavior"
+      ]
+    },
+    {
+      "name": "1440 exact approved body after separately auditing eyebrow/ordinal decoration",
+      "pass": true
+    },
+    {
+      "name": "1440 no text overflow/clamp",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "1440 no added editorial copy",
+      "pass": false,
+      "details": [
+        "Application-first navigation",
+        "Application review steps",
+        "Continue the review",
+        "Share your requirements"
+      ]
+    },
+    {
+      "name": "1440 functional links match approved teal",
+      "pass": false,
+      "details": [
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(6, 43, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "selector": ".heroLinks a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(215, 226, 232)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "width": 197.234375,
+          "height": 48
+        },
+        {
+          "selector": "[data-grade-link]",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(234, 247, 246)",
+          "fontSize": "14px",
+          "fontWeight": "750",
+          "width": 82,
+          "height": 44
+        },
+        {
+          "selector": ".primary",
+          "color": "rgb(255, 255, 255)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "16px",
+          "fontWeight": "750",
+          "width": 201.75,
+          "height": 50.796875
+        }
+      ]
+    },
+    {
+      "name": "application action owner route binding",
+      "pass": false,
+      "details": [
+        {
+          "owner": "APP-COAT",
+          "route": "/applications/titanium-dioxide-for-coatings/",
+          "actual": "/applications/coatings/"
+        },
+        {
+          "owner": "APP-PLAS",
+          "route": "/applications/titanium-dioxide-for-plastics/",
+          "actual": "/applications/plastics/"
+        },
+        {
+          "owner": "APP-MB",
+          "route": "/applications/titanium-dioxide-for-masterbatch/",
+          "actual": "/applications/masterbatch/"
+        },
+        {
+          "owner": "APP-INK",
+          "route": "/applications/titanium-dioxide-for-printing-inks/",
+          "actual": "/applications/printing-inks/"
+        },
+        {
+          "owner": "APP-PAPER",
+          "route": "/applications/titanium-dioxide-for-paper/",
+          "actual": "/applications/paper/"
+        }
+      ]
+    },
+    {
+      "name": "1440 full preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "1440 grade-only preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "1440 application-only preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "1440 none preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "1440 plain unavailable grade has no hover affordance",
+      "pass": false,
+      "details": {
+        "before": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(242, 248, 247)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        },
+        "after": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        }
+      }
+    },
+    {
+      "name": "1440 visible keyboard focus .actions .primary",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "1440 visible keyboard focus .heroLinks a",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "1440 visible keyboard focus [data-grade-link]",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "1440 visible keyboard focus .applicationAction",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "1440 local anchor 0",
+      "pass": true,
+      "details": {
+        "hash": "#application-coatings",
+        "top": 95.59375,
+        "headerBottom": -728
+      }
+    },
+    {
+      "name": "1440 local anchor 5",
+      "pass": true,
+      "details": {
+        "hash": "#application-specialty-materials",
+        "top": 95.765625,
+        "headerBottom": -1477
+      }
+    },
+    {
+      "name": "768 exact approved body after separately auditing eyebrow/ordinal decoration",
+      "pass": true
+    },
+    {
+      "name": "768 no text overflow/clamp",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "768 no added editorial copy",
+      "pass": false,
+      "details": [
+        "Application-first navigation",
+        "Application review steps",
+        "Continue the review",
+        "Share your requirements"
+      ]
+    },
+    {
+      "name": "768 functional links match approved teal",
+      "pass": false,
+      "details": [
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(6, 43, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "selector": ".heroLinks a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(215, 226, 232)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "width": 326,
+          "height": 48
+        },
+        {
+          "selector": "[data-grade-link]",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(234, 247, 246)",
+          "fontSize": "14px",
+          "fontWeight": "750",
+          "width": 82,
+          "height": 44
+        },
+        {
+          "selector": ".primary",
+          "color": "rgb(255, 255, 255)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "16px",
+          "fontWeight": "750",
+          "width": 201.75,
+          "height": 50.796875
+        }
+      ]
+    },
+    {
+      "name": "768 full preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "768 grade-only preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "768 application-only preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "768 none preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "768 plain unavailable grade has no hover affordance",
+      "pass": false,
+      "details": {
+        "before": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(242, 248, 247)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        },
+        "after": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        }
+      }
+    },
+    {
+      "name": "768 menu focus remains inside menu/close",
+      "pass": true,
+      "details": [
+        {
+          "text": "Home",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Markets",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Products",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Applications",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Documents",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Resources",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "About",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Request a Quote",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Close",
+          "class": "menuButton",
+          "inMenu": true
+        },
+        {
+          "text": "Home",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Markets",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Products",
+          "class": "",
+          "inMenu": true
+        }
+      ]
+    },
+    {
+      "name": "768 menu restores background and trigger",
+      "pass": true
+    },
+    {
+      "name": "768 visible keyboard focus .actions .primary",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "768 visible keyboard focus .heroLinks a",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "768 visible keyboard focus [data-grade-link]",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "768 visible keyboard focus .applicationAction",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "768 local anchor 0",
+      "pass": true,
+      "details": {
+        "hash": "#application-coatings",
+        "top": 96.40625,
+        "headerBottom": -966
+      }
+    },
+    {
+      "name": "768 local anchor 5",
+      "pass": true,
+      "details": {
+        "hash": "#application-specialty-materials",
+        "top": 149.34375,
+        "headerBottom": -2565
+      }
+    },
+    {
+      "name": "390 exact approved body after separately auditing eyebrow/ordinal decoration",
+      "pass": true
+    },
+    {
+      "name": "390 no text overflow/clamp",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "390 no added editorial copy",
+      "pass": false,
+      "details": [
+        "Application-first navigation",
+        "Application review steps",
+        "Continue the review",
+        "Share your requirements"
+      ]
+    },
+    {
+      "name": "390 functional links match approved teal",
+      "pass": false,
+      "details": [
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(6, 43, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "selector": ".heroLinks a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(215, 226, 232)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "width": 312,
+          "height": 48
+        },
+        {
+          "selector": "[data-grade-link]",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(234, 247, 246)",
+          "fontSize": "14px",
+          "fontWeight": "750",
+          "width": 151.5,
+          "height": 44
+        },
+        {
+          "selector": ".primary",
+          "color": "rgb(255, 255, 255)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "16px",
+          "fontWeight": "750",
+          "width": 358,
+          "height": 50.796875
+        }
+      ]
+    },
+    {
+      "name": "390 full preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "390 grade-only preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "390 application-only preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "390 none preserves core and no hidden focus/overflow",
+      "pass": true
+    },
+    {
+      "name": "390 plain unavailable grade has no hover affordance",
+      "pass": false,
+      "details": {
+        "before": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(242, 248, 247)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        },
+        "after": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        }
+      }
+    },
+    {
+      "name": "390 menu focus remains inside menu/close",
+      "pass": true,
+      "details": [
+        {
+          "text": "Home",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Markets",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Products",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Applications",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Documents",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Resources",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "About",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Request a Quote",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Close",
+          "class": "menuButton",
+          "inMenu": true
+        },
+        {
+          "text": "Home",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Markets",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Products",
+          "class": "",
+          "inMenu": true
+        }
+      ]
+    },
+    {
+      "name": "390 menu restores background and trigger",
+      "pass": true
+    },
+    {
+      "name": "390 visible keyboard focus .actions .primary",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "390 visible keyboard focus .heroLinks a",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "390 visible keyboard focus [data-grade-link]",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "390 visible keyboard focus .applicationAction",
+      "pass": true,
+      "details": {
+        "outline": "solid",
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "390 local anchor 0",
+      "pass": true,
+      "details": {
+        "hash": "#application-coatings",
+        "top": 95.734375,
+        "headerBottom": -1222
+      }
+    },
+    {
+      "name": "390 local anchor 5",
+      "pass": true,
+      "details": {
+        "hash": "#application-specialty-materials",
+        "top": 205.0625,
+        "headerBottom": -3203
+      }
+    },
+    {
+      "name": "freeze unchanged after audit",
+      "pass": true
+    }
+  ],
+  "authorRuntime": {
+    "workset_id": "APP-000-D32-G3-V0.1",
+    "type": "AUTHOR_SELF_CHECK",
+    "source": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.1/application-planning.html",
+    "browser": "151.0.7922.34",
+    "contract": {
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "h1": "Explore Titanium Dioxide by Application",
+      "heroBody": "This hub organizes titanium dioxide grades by application across coatings, plastics, masterbatch, printing inks, paper and specialty materials. Use each collection as a starting point for technical evaluation.",
+      "anchors": [
+        "application-coatings",
+        "application-plastics",
+        "application-masterbatch",
+        "application-printing-inks",
+        "application-paper",
+        "application-specialty-materials"
+      ],
+      "collections": {
+        "Coatings": [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        "Plastics": [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        "Masterbatch": [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        "Printing Inks": [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        "Paper": [
+          "M-350",
+          "M-2377"
+        ],
+        "Specialty Materials": [
+          "CR-901"
+        ]
+      },
+      "steps": [
+        [
+          "Choose your application.",
+          "Start with the category that matches what you make. Review more than one path if your work spans several applications."
+        ],
+        [
+          "Compare technical information.",
+          "Use current technical data to compare the grades under review against your requirements."
+        ],
+        [
+          "Validate in your own system.",
+          "Check the grade in your formulation and process before making a specification decision."
+        ]
+      ],
+      "procurement": [
+        "Products",
+        "Documents",
+        "Markets"
+      ],
+      "processRows": 0,
+      "faqItems": 0,
+      "finalHeading": "Share Your Application Requirements",
+      "visibleInternalIdentity": false,
+      "buyerCurrent": false,
+      "currentDesktop": [
+        "Applications"
+      ],
+      "currentMobile": [
+        "Applications"
+      ]
+    },
+    "viewports": [
+      {
+        "width": 1440,
+        "pageHeight": 3910,
+        "overflow": 0,
+        "h1Font": "56px",
+        "h1Weight": "700",
+        "h1Lines": 2,
+        "fontLoaded": true,
+        "brokenImages": [],
+        "smallTargets": []
+      },
+      {
+        "width": 768,
+        "pageHeight": 5980,
+        "overflow": 0,
+        "h1Font": "44px",
+        "h1Weight": "700",
+        "h1Lines": 2,
+        "fontLoaded": true,
+        "brokenImages": [],
+        "smallTargets": []
+      },
+      {
+        "width": 390,
+        "pageHeight": 7011,
+        "overflow": 0,
+        "h1Font": "36px",
+        "h1Weight": "700",
+        "h1Lines": 2,
+        "fontLoaded": true,
+        "brokenImages": [],
+        "smallTargets": []
+      }
+    ],
+    "operations": [
+      {
+        "scenario": "full",
+        "applicationActions": 5,
+        "gradeLinks": 30,
+        "plainGrades": 0,
+        "procurementCards": 3,
+        "bodyRfq": 2,
+        "procurementHidden": false,
+        "finalHidden": false,
+        "secondSentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "collectionCount": 6,
+        "anchorCount": 6
+      },
+      {
+        "scenario": "grade-only",
+        "applicationActions": 0,
+        "gradeLinks": 30,
+        "plainGrades": 0,
+        "procurementCards": 3,
+        "bodyRfq": 2,
+        "procurementHidden": false,
+        "finalHidden": false,
+        "secondSentence": "Open a grade page for product information.",
+        "collectionCount": 6,
+        "anchorCount": 6
+      },
+      {
+        "scenario": "application-only",
+        "applicationActions": 5,
+        "gradeLinks": 0,
+        "plainGrades": 30,
+        "procurementCards": 3,
+        "bodyRfq": 2,
+        "procurementHidden": false,
+        "finalHidden": false,
+        "secondSentence": "Explore an application for guidance on what to evaluate.",
+        "collectionCount": 6,
+        "anchorCount": 6
+      },
+      {
+        "scenario": "none",
+        "applicationActions": 0,
+        "gradeLinks": 0,
+        "plainGrades": 30,
+        "procurementCards": 0,
+        "bodyRfq": 0,
+        "procurementHidden": true,
+        "finalHidden": true,
+        "secondSentence": "",
+        "collectionCount": 6,
+        "anchorCount": 6
+      },
+      {
+        "width": 1440,
+        "cookie": "pass"
+      },
+      {
+        "width": 768,
+        "menu": "opened",
+        "expanded": "true",
+        "firstFocus": "Home",
+        "mainInert": true,
+        "locked": "hidden"
+      },
+      {
+        "width": 768,
+        "menu": "escape",
+        "expanded": "false",
+        "focus": "menuButton",
+        "mainInert": false,
+        "hidden": true
+      },
+      {
+        "width": 768,
+        "menu": "link-close",
+        "expanded": "false",
+        "mainInert": false,
+        "hidden": true
+      },
+      {
+        "width": 768,
+        "menu": "desktop-resize-close",
+        "expanded": "false",
+        "mainInert": false,
+        "hidden": true,
+        "locked": ""
+      },
+      {
+        "width": 768,
+        "cookie": "pass"
+      },
+      {
+        "width": 390,
+        "menu": "opened",
+        "expanded": "true",
+        "firstFocus": "Home",
+        "mainInert": true,
+        "locked": "hidden"
+      },
+      {
+        "width": 390,
+        "menu": "escape",
+        "expanded": "false",
+        "focus": "menuButton",
+        "mainInert": false,
+        "hidden": true
+      },
+      {
+        "width": 390,
+        "menu": "link-close",
+        "expanded": "false",
+        "mainInert": false,
+        "hidden": true
+      },
+      {
+        "width": 390,
+        "menu": "desktop-resize-close",
+        "expanded": "false",
+        "mainInert": false,
+        "hidden": true,
+        "locked": ""
+      },
+      {
+        "width": 390,
+        "cookie": "pass"
+      },
+      {
+        "width": 390,
+        "noScript": {
+          "collections": 6,
+          "gradeLinks": 30,
+          "steps": 3,
+          "procurement": 3,
+          "finalVisible": true,
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  "viewports": [
+    {
+      "width": 1440,
+      "extras": [
+        "Application-first navigation",
+        "Application review steps",
+        "Continue the review",
+        "Share your requirements"
+      ],
+      "textClips": [],
+      "overflow": 0,
+      "grid": {
+        "selector": ".rootHero",
+        "color": "rgb(51, 65, 85)",
+        "border": "rgb(51, 65, 85)",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "width": 1200,
+        "height": 475.53125
+      },
+      "heading": {
+        "selector": "h1",
+        "color": "rgb(6, 43, 91)",
+        "border": "rgb(6, 43, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "56px",
+        "fontWeight": "700",
+        "width": 665.515625,
+        "height": 116.46875
+      },
+      "colors": [
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(6, 43, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "selector": ".heroLinks a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(215, 226, 232)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "width": 197.234375,
+          "height": 48
+        },
+        {
+          "selector": "[data-grade-link]",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(234, 247, 246)",
+          "fontSize": "14px",
+          "fontWeight": "750",
+          "width": 82,
+          "height": 44
+        },
+        {
+          "selector": ".primary",
+          "color": "rgb(255, 255, 255)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "16px",
+          "fontWeight": "750",
+          "width": 201.75,
+          "height": 50.796875
+        }
+      ],
+      "h1Count": 1,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "links": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Explore Applications",
+          "href": "#application-selector"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Coatings",
+          "href": "#application-coatings"
+        },
+        {
+          "text": "Plastics",
+          "href": "#application-plastics"
+        },
+        {
+          "text": "Masterbatch",
+          "href": "#application-masterbatch"
+        },
+        {
+          "text": "Printing Inks",
+          "href": "#application-printing-inks"
+        },
+        {
+          "text": "Paper",
+          "href": "#application-paper"
+        },
+        {
+          "text": "Specialty Materials",
+          "href": "#application-specialty-materials"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-896",
+          "href": "/products/m-896/"
+        },
+        {
+          "text": "M-996",
+          "href": "/products/m-996/"
+        },
+        {
+          "text": "M-2196",
+          "href": "/products/m-2196/"
+        },
+        {
+          "text": "M-895",
+          "href": "/products/m-895/"
+        },
+        {
+          "text": "M-52",
+          "href": "/products/m-52/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Coatings",
+          "href": "/applications/coatings/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-200",
+          "href": "/products/m-200/"
+        },
+        {
+          "text": "M-108",
+          "href": "/products/m-108/"
+        },
+        {
+          "text": "M-210",
+          "href": "/products/m-210/"
+        },
+        {
+          "text": "M-340",
+          "href": "/products/m-340/"
+        },
+        {
+          "text": "M-886",
+          "href": "/products/m-886/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Plastics",
+          "href": "/applications/plastics/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-200",
+          "href": "/products/m-200/"
+        },
+        {
+          "text": "M-108",
+          "href": "/products/m-108/"
+        },
+        {
+          "text": "M-210",
+          "href": "/products/m-210/"
+        },
+        {
+          "text": "M-340",
+          "href": "/products/m-340/"
+        },
+        {
+          "text": "M-886",
+          "href": "/products/m-886/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Masterbatch",
+          "href": "/applications/masterbatch/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-52",
+          "href": "/products/m-52/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Printing Inks",
+          "href": "/applications/printing-inks/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Paper",
+          "href": "/applications/paper/"
+        },
+        {
+          "text": "CR-901",
+          "href": "/products/cr-901/"
+        },
+        {
+          "text": "Explore Products",
+          "href": "/products/"
+        },
+        {
+          "text": "Review Documents",
+          "href": "/documents/"
+        },
+        {
+          "text": "Explore Markets",
+          "href": "/markets/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        }
+      ],
+      "footerContact": false
+    },
+    {
+      "width": 768,
+      "extras": [
+        "Application-first navigation",
+        "Application review steps",
+        "Continue the review",
+        "Share your requirements"
+      ],
+      "textClips": [],
+      "overflow": 0,
+      "grid": {
+        "selector": ".rootHero",
+        "color": "rgb(51, 65, 85)",
+        "border": "rgb(51, 65, 85)",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "width": 720,
+        "height": 717.4375
+      },
+      "heading": {
+        "selector": "h1",
+        "color": "rgb(6, 43, 91)",
+        "border": "rgb(6, 43, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "44px",
+        "fontWeight": "700",
+        "width": 720,
+        "height": 91.5
+      },
+      "colors": [
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(6, 43, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "selector": ".heroLinks a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(215, 226, 232)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "width": 326,
+          "height": 48
+        },
+        {
+          "selector": "[data-grade-link]",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(234, 247, 246)",
+          "fontSize": "14px",
+          "fontWeight": "750",
+          "width": 82,
+          "height": 44
+        },
+        {
+          "selector": ".primary",
+          "color": "rgb(255, 255, 255)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "16px",
+          "fontWeight": "750",
+          "width": 201.75,
+          "height": 50.796875
+        }
+      ],
+      "h1Count": 1,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "links": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Explore Applications",
+          "href": "#application-selector"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Coatings",
+          "href": "#application-coatings"
+        },
+        {
+          "text": "Plastics",
+          "href": "#application-plastics"
+        },
+        {
+          "text": "Masterbatch",
+          "href": "#application-masterbatch"
+        },
+        {
+          "text": "Printing Inks",
+          "href": "#application-printing-inks"
+        },
+        {
+          "text": "Paper",
+          "href": "#application-paper"
+        },
+        {
+          "text": "Specialty Materials",
+          "href": "#application-specialty-materials"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-896",
+          "href": "/products/m-896/"
+        },
+        {
+          "text": "M-996",
+          "href": "/products/m-996/"
+        },
+        {
+          "text": "M-2196",
+          "href": "/products/m-2196/"
+        },
+        {
+          "text": "M-895",
+          "href": "/products/m-895/"
+        },
+        {
+          "text": "M-52",
+          "href": "/products/m-52/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Coatings",
+          "href": "/applications/coatings/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-200",
+          "href": "/products/m-200/"
+        },
+        {
+          "text": "M-108",
+          "href": "/products/m-108/"
+        },
+        {
+          "text": "M-210",
+          "href": "/products/m-210/"
+        },
+        {
+          "text": "M-340",
+          "href": "/products/m-340/"
+        },
+        {
+          "text": "M-886",
+          "href": "/products/m-886/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Plastics",
+          "href": "/applications/plastics/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-200",
+          "href": "/products/m-200/"
+        },
+        {
+          "text": "M-108",
+          "href": "/products/m-108/"
+        },
+        {
+          "text": "M-210",
+          "href": "/products/m-210/"
+        },
+        {
+          "text": "M-340",
+          "href": "/products/m-340/"
+        },
+        {
+          "text": "M-886",
+          "href": "/products/m-886/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Masterbatch",
+          "href": "/applications/masterbatch/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-52",
+          "href": "/products/m-52/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Printing Inks",
+          "href": "/applications/printing-inks/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Paper",
+          "href": "/applications/paper/"
+        },
+        {
+          "text": "CR-901",
+          "href": "/products/cr-901/"
+        },
+        {
+          "text": "Explore Products",
+          "href": "/products/"
+        },
+        {
+          "text": "Review Documents",
+          "href": "/documents/"
+        },
+        {
+          "text": "Explore Markets",
+          "href": "/markets/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        }
+      ],
+      "footerContact": false
+    },
+    {
+      "width": 390,
+      "extras": [
+        "Application-first navigation",
+        "Application review steps",
+        "Continue the review",
+        "Share your requirements"
+      ],
+      "textClips": [],
+      "overflow": 0,
+      "grid": {
+        "selector": ".rootHero",
+        "color": "rgb(51, 65, 85)",
+        "border": "rgb(51, 65, 85)",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "width": 358,
+        "height": 946.078125
+      },
+      "heading": {
+        "selector": "h1",
+        "color": "rgb(6, 43, 91)",
+        "border": "rgb(6, 43, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "width": 358,
+        "height": 77.03125
+      },
+      "colors": [
+        {
+          "selector": ".breadcrumb a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(6, 43, 91)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "selector": ".heroLinks a",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(215, 226, 232)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "width": 312,
+          "height": 48
+        },
+        {
+          "selector": "[data-grade-link]",
+          "color": "rgb(6, 43, 91)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(234, 247, 246)",
+          "fontSize": "14px",
+          "fontWeight": "750",
+          "width": 151.5,
+          "height": 44
+        },
+        {
+          "selector": ".primary",
+          "color": "rgb(255, 255, 255)",
+          "border": "rgb(0, 128, 120)",
+          "background": "rgb(0, 128, 120)",
+          "fontSize": "16px",
+          "fontWeight": "750",
+          "width": 358,
+          "height": 50.796875
+        }
+      ],
+      "h1Count": 1,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "links": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Explore Applications",
+          "href": "#application-selector"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        },
+        {
+          "text": "Coatings",
+          "href": "#application-coatings"
+        },
+        {
+          "text": "Plastics",
+          "href": "#application-plastics"
+        },
+        {
+          "text": "Masterbatch",
+          "href": "#application-masterbatch"
+        },
+        {
+          "text": "Printing Inks",
+          "href": "#application-printing-inks"
+        },
+        {
+          "text": "Paper",
+          "href": "#application-paper"
+        },
+        {
+          "text": "Specialty Materials",
+          "href": "#application-specialty-materials"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-896",
+          "href": "/products/m-896/"
+        },
+        {
+          "text": "M-996",
+          "href": "/products/m-996/"
+        },
+        {
+          "text": "M-2196",
+          "href": "/products/m-2196/"
+        },
+        {
+          "text": "M-895",
+          "href": "/products/m-895/"
+        },
+        {
+          "text": "M-52",
+          "href": "/products/m-52/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Coatings",
+          "href": "/applications/coatings/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-200",
+          "href": "/products/m-200/"
+        },
+        {
+          "text": "M-108",
+          "href": "/products/m-108/"
+        },
+        {
+          "text": "M-210",
+          "href": "/products/m-210/"
+        },
+        {
+          "text": "M-340",
+          "href": "/products/m-340/"
+        },
+        {
+          "text": "M-886",
+          "href": "/products/m-886/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Plastics",
+          "href": "/applications/plastics/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-200",
+          "href": "/products/m-200/"
+        },
+        {
+          "text": "M-108",
+          "href": "/products/m-108/"
+        },
+        {
+          "text": "M-210",
+          "href": "/products/m-210/"
+        },
+        {
+          "text": "M-340",
+          "href": "/products/m-340/"
+        },
+        {
+          "text": "M-886",
+          "href": "/products/m-886/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Masterbatch",
+          "href": "/applications/masterbatch/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-510",
+          "href": "/products/m-510/"
+        },
+        {
+          "text": "M-52",
+          "href": "/products/m-52/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Printing Inks",
+          "href": "/applications/printing-inks/"
+        },
+        {
+          "text": "M-350",
+          "href": "/products/m-350/"
+        },
+        {
+          "text": "M-2377",
+          "href": "/products/m-2377/"
+        },
+        {
+          "text": "Explore Paper",
+          "href": "/applications/paper/"
+        },
+        {
+          "text": "CR-901",
+          "href": "/products/cr-901/"
+        },
+        {
+          "text": "Explore Products",
+          "href": "/products/"
+        },
+        {
+          "text": "Review Documents",
+          "href": "/documents/"
+        },
+        {
+          "text": "Explore Markets",
+          "href": "/markets/"
+        },
+        {
+          "text": "Request a Quote",
+          "href": "/request-a-quote/"
+        }
+      ],
+      "footerContact": false
+    }
+  ],
+  "scenarios": [
+    {
+      "width": 1440,
+      "scenario": "full",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 5,
+      "gradeLinks": 30,
+      "plain": 0,
+      "steps": 3,
+      "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "scenario": "grade-only",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 0,
+      "gradeLinks": 30,
+      "plain": 0,
+      "steps": 3,
+      "sentence": "Open a grade page for product information.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "scenario": "application-only",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 5,
+      "gradeLinks": 0,
+      "plain": 30,
+      "steps": 3,
+      "sentence": "Explore an application for guidance on what to evaluate.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "scenario": "none",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 0,
+      "gradeLinks": 0,
+      "plain": 30,
+      "steps": 3,
+      "sentence": "",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "scenario": "full",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 5,
+      "gradeLinks": 30,
+      "plain": 0,
+      "steps": 3,
+      "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "scenario": "grade-only",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 0,
+      "gradeLinks": 30,
+      "plain": 0,
+      "steps": 3,
+      "sentence": "Open a grade page for product information.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "scenario": "application-only",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 5,
+      "gradeLinks": 0,
+      "plain": 30,
+      "steps": 3,
+      "sentence": "Explore an application for guidance on what to evaluate.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "scenario": "none",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 0,
+      "gradeLinks": 0,
+      "plain": 30,
+      "steps": 3,
+      "sentence": "",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "scenario": "full",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 5,
+      "gradeLinks": 30,
+      "plain": 0,
+      "steps": 3,
+      "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "scenario": "grade-only",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 0,
+      "gradeLinks": 30,
+      "plain": 0,
+      "steps": 3,
+      "sentence": "Open a grade page for product information.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "scenario": "application-only",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 5,
+      "gradeLinks": 0,
+      "plain": 30,
+      "steps": 3,
+      "sentence": "Explore an application for guidance on what to evaluate.",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "scenario": "none",
+      "collections": 6,
+      "relations": [
+        [
+          "M-350",
+          "M-510",
+          "M-896",
+          "M-996",
+          "M-2196",
+          "M-895",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-510",
+          "M-200",
+          "M-108",
+          "M-210",
+          "M-340",
+          "M-886",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-510",
+          "M-52",
+          "M-2377"
+        ],
+        [
+          "M-350",
+          "M-2377"
+        ],
+        [
+          "CR-901"
+        ]
+      ],
+      "appLinks": 0,
+      "gradeLinks": 0,
+      "plain": 30,
+      "steps": 3,
+      "sentence": "",
+      "hiddenFocusable": 0,
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE"
+      ],
+      "overflow": 0
+    }
+  ],
+  "interactions": [
+    {
+      "width": 1440,
+      "plainGradeHover": {
+        "before": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(242, 248, 247)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        },
+        "after": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "plainGradeHover": {
+        "before": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(242, 248, 247)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        },
+        "after": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "menuFocusCycle": [
+        {
+          "text": "Home",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Markets",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Products",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Applications",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Documents",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Resources",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "About",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Request a Quote",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Close",
+          "class": "menuButton",
+          "inMenu": true
+        },
+        {
+          "text": "Home",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Markets",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Products",
+          "class": "",
+          "inMenu": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "plainGradeHover": {
+        "before": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(6, 43, 91)",
+          "background": "rgb(242, 248, 247)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        },
+        "after": {
+          "tag": "SPAN",
+          "tabIndex": -1,
+          "href": null,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 128, 120)",
+          "border": "rgb(141, 186, 183)",
+          "cursor": "auto"
+        }
+      }
+    },
+    {
+      "width": 390,
+      "menuFocusCycle": [
+        {
+          "text": "Home",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Markets",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Products",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Applications",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Documents",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Resources",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "About",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Request a Quote",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Close",
+          "class": "menuButton",
+          "inMenu": true
+        },
+        {
+          "text": "Home",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Markets",
+          "class": "",
+          "inMenu": true
+        },
+        {
+          "text": "Products",
+          "class": "",
+          "inMenu": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "APP-000_G3_FULL_1440.png",
+      "sha256": "d4c6c77a4ef83d67540077e5b5bd471e855bf88e68a96a4f9635aae32b45f829",
+      "width": 1440,
+      "height": 3910
+    },
+    {
+      "file": "APP-000_G3_FULL_768.png",
+      "sha256": "18d5125f8f27d61273caea7fd1ecb2fb8ab09f813e0be7a33ee6bc8804981c7e",
+      "width": 768,
+      "height": 5980
+    },
+    {
+      "file": "APP-000_G3_FULL_390.png",
+      "sha256": "a8b560471eb9aafbe0244f7aa57c64806114993651a3e59321b69386dfd089b7",
+      "width": 390,
+      "height": 7012
+    },
+    {
+      "file": "APP-000_G3_MENU_390.png",
+      "sha256": "8f7b64d15ec67ab80ae8ca06eaa51d46d2e4f511ab32f801d25a79512277503f",
+      "width": 390,
+      "height": 1000
+    },
+    {
+      "file": "APP-000_G3_COOKIE_390.png",
+      "sha256": "f6e75696f2a9ec17f3531b19f58f629e9ea1899bc56873c56f08e63946933643",
+      "width": 390,
+      "height": 1000
+    },
+    {
+      "file": "APP-000_G3_ROUTE_FULL_390.png",
+      "sha256": "771c5dfe6e5e4c695a424e919b2d0f3db1fc73cdd5df2c6c3606ec8e6c37100d",
+      "width": 390,
+      "height": 7012
+    },
+    {
+      "file": "APP-000_G3_ROUTE_GRADE_ONLY_390.png",
+      "sha256": "066107e835f92eadaa0c4ee1cd4465e68b6ff66ccaca3aaf33a9d1215344715b",
+      "width": 390,
+      "height": 6711
+    },
+    {
+      "file": "APP-000_G3_ROUTE_APPLICATION_ONLY_390.png",
+      "sha256": "06f6e5b0b60f3bdace7b4cf4c3cb02a435b5f89e846145f3a0e32e9f662d32e7",
+      "width": 390,
+      "height": 6985
+    },
+    {
+      "file": "APP-000_G3_ROUTE_NONE_390.png",
+      "sha256": "6e633672223e60b773c9b88334bc72870154f82de418f4ec3576c44a69ec98f7",
+      "width": 390,
+      "height": 5117
+    }
+  ],
+  "browser": "151.0.7922.34",
+  "checked_at": "2026-09-20T10:11:00.289Z",
+  "failed_checks": [
+    "1440 no added editorial copy",
+    "1440 functional links match approved teal",
+    "application action owner route binding",
+    "1440 plain unavailable grade has no hover affordance",
+    "768 no added editorial copy",
+    "768 functional links match approved teal",
+    "768 plain unavailable grade has no hover affordance",
+    "390 no added editorial copy",
+    "390 functional links match approved teal",
+    "390 plain unavailable grade has no hover affordance"
+  ],
+  "conclusion": "REVIEW_FAIL / RETURN_TO_AUTHOR",
+  "mandatory_findings": [
+    {
+      "id": "APP-D32-G3-F01",
+      "title": "Four editorial eyebrow strings absent from approved B",
+      "severity": "MANDATORY",
+      "locations": [
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "actual": [
+        "Application-first navigation",
+        "Application review steps",
+        "Continue the review",
+        "Share your requirements"
+      ],
+      "requirement": "Gate 3 retains approved B visible copy; Gate 2 C section 1 and Gate 3 Agent section 1 prohibit authoring new copy.",
+      "acceptance": "Remove these four page-owned additions in a new candidate, retaining approved B exactly. RootPageHero Applications eyebrow and numeric step ordinals are controlled structural labels and are not this finding."
+    },
+    {
+      "id": "APP-D32-G3-F02",
+      "title": "Page-owned functional link tokens conflict with active global override",
+      "severity": "MANDATORY",
+      "locations": [
+        ".breadcrumb a",
+        ".heroLinks a",
+        "[data-grade-link]"
+      ],
+      "actual": "All normal link text rgb(6,43,91); Hero interactive borders rgb(215,226,232).",
+      "requirement": "CTA Accessibility Addendum V1.0 requires #008078 for normal link text and interactive borders on light surfaces.",
+      "acceptance": "Use the existing functional Teal tokens for affected page-owned links/borders in a new candidate and verify all three widths; keep shared navigation owner rules."
+    },
+    {
+      "id": "APP-D32-G3-F03",
+      "title": "Unavailable grade labels retain active link affordance",
+      "severity": "MANDATORY",
+      "locations": [
+        "M2 application-only",
+        "M2 none"
+      ],
+      "actual": "Neutral SPANs use same pill outline/size as grade links and change from pale background/Navy text to Teal fill/white text on hover; linked versus plain differs only by colors.",
+      "requirement": "Gate 2 C section 2.3 requires plain text with no link affordance; section 2.4 disallows color-only relationship encoding.",
+      "acceptance": "Make all 30 unavailable labels visibly noninteractive without changing neutral identifiers or suitability meaning; no hover/focus/click behavior, no link affordance; preserve all four route states."
+    },
+    {
+      "id": "APP-D32-G3-F04",
+      "title": "Five application action hrefs are invented shortened routes",
+      "severity": "MANDATORY",
+      "locations": [
+        "M2 full",
+        "M2 application-only"
+      ],
+      "actual": [
+        {
+          "owner": "APP-COAT",
+          "route": "/applications/titanium-dioxide-for-coatings/",
+          "actual": "/applications/coatings/"
+        },
+        {
+          "owner": "APP-PLAS",
+          "route": "/applications/titanium-dioxide-for-plastics/",
+          "actual": "/applications/plastics/"
+        },
+        {
+          "owner": "APP-MB",
+          "route": "/applications/titanium-dioxide-for-masterbatch/",
+          "actual": "/applications/masterbatch/"
+        },
+        {
+          "owner": "APP-INK",
+          "route": "/applications/titanium-dioxide-for-printing-inks/",
+          "actual": "/applications/printing-inks/"
+        },
+        {
+          "owner": "APP-PAPER",
+          "route": "/applications/titanium-dioxide-for-paper/",
+          "actual": "/applications/paper/"
+        }
+      ],
+      "requirement": "Gate 2 C section 2.1 binds actions to APP owner IDs and their effective routes; no invented URL. Current owner Manifests and registry use /applications/titanium-dioxide-for-…/.",
+      "acceptance": "Bind the five destinations to explicit Page IDs and documented owner paths, preserving provisional/target-readiness status. A planning simulation may keep full target actions but must not manufacture alternate paths or claim live readiness."
+    }
+  ],
+  "visual_observations": [
+    {
+      "file": "APP-000_G3_FULL_1440.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "Original-detail full image; 1440x3910",
+      "observation": "Header through Footer complete. Open-white Hero, six-item information card, two-column collections, three evaluation steps, procurement and RFQ. No clipped words or overlapping controls; F01/F02 visible."
+    },
+    {
+      "file": "APP-000_G3_FULL_768.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "Original-detail full image; 768x5980",
+      "observation": "Stacked Hero and body cards preserve full descriptions and all grades. Menu trigger and fixed RFQ visible. Footer closes cleanly. F01/F02 remain."
+    },
+    {
+      "file": "APP-000_G3_FULL_390.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "Original file plus unscaled 390px-wide in-memory segments y=0..3699 and y=3400..7011; no output files created.",
+      "observation": "Long Masterbatch scope and final RFQ unknown-option sentences wrap completely. Six categories, all grades and all three steps visible. No clipping, collision or horizontal overflow."
+    },
+    {
+      "file": "APP-000_G3_MENU_390.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "390x1000 original detail",
+      "observation": "Eight nav actions in correct order; Applications left marker, Home first, RFQ last. Close and header RFQ visible. Underlying page visible below menu but browser audit confirms inert/scroll isolation."
+    },
+    {
+      "file": "APP-000_G3_COOKIE_390.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "390x1000 original detail",
+      "observation": "Dialog text, Close and Read Cookie Policy fully legible inside viewport, with darkened backdrop; behavioral focus loop and return independently rerun."
+    },
+    {
+      "file": "APP-000_G3_ROUTE_FULL_390.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "Original file plus unscaled 390px-wide in-memory segments y=0..3699 and y=3400..7011.",
+      "observation": "All application/grade/procurement/body RFQ actions displayed. Cookie Settings has a residual white focus outline in this full-route formal capture; no obstruction. This contradicts author narrative of completely neutral focus, but does not invalidate route-state proof."
+    },
+    {
+      "file": "APP-000_G3_ROUTE_GRADE_ONLY_390.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "Original file plus unscaled 390px-wide in-memory segments y=0..3699 and y=3400..6710.",
+      "observation": "Five application actions omitted; 30 grade links retained; grade-only sentence exact. All collections remain and layout closes naturally."
+    },
+    {
+      "file": "APP-000_G3_ROUTE_APPLICATION_ONLY_390.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "Original file plus unscaled 390px-wide in-memory segments y=0..3699 and y=3400..6984.",
+      "observation": "Five application actions retained, 30 neutral grade spans displayed; exact application-only sentence. Spans still visually resemble linked pills, independently confirmed by hover F03."
+    },
+    {
+      "file": "APP-000_G3_ROUTE_NONE_390.png",
+      "type": "STATIC_VISUAL",
+      "inspection": "390x5117 original detail",
+      "observation": "No body RFQ, procurement or application action; no second route sentence. All six categories and 30 grade labels retained; M3 flows directly to Footer; shared RFQ stays fixed."
+    }
+  ],
+  "advisory": [
+    {
+      "id": "A01",
+      "owner": "Gate 3 author / Gate 4",
+      "note": "Full-route formal PNG retains Cookie Settings focus outline. Label capture accurately or neutralize during an already-required changed-source capture; no stand-alone recapture required."
+    },
+    {
+      "id": "A02",
+      "owner": "Controller",
+      "note": "Control V0.1 section 4 retains obsolete process/FAQ wording. Parent dispatch explicitly resolves this to approved B/C five-module scope; carry that resolution into subsequent handoff without rewriting frozen input."
+    }
+  ],
+  "later_owner_tests": [
+    {
+      "owner": "Gate 4",
+      "scope": "Final columns, responsive spacing, surface/shadow/button details, 1024/320 and enlarged text/zoom layout; do not change B or module semantics."
+    },
+    {
+      "owner": "Gate 6/8",
+      "scope": "Per-destination mixed eligibility (one missing application/grade/procurement target), actual owner URL approval/readiness, shared required dependencies, source_page_id transport and no browsing-derived RFQ preselection."
+    },
+    {
+      "owner": "Gate 8/9",
+      "scope": "D32 CMS/routes/cache/media/menus/SEO/Schema/site_scope isolation, actual RFQ receipt, physical device/AT and native browser 200% evidence. No D16 pass is inherited."
+    }
+  ],
+  "read_only_boundary": "No frozen candidate/index/author report modified; only four authorized independent review files. Browser actions are local planning runtime; route states are LOCAL_SIMULATION; no network target submission or D32 implementation change."
+}

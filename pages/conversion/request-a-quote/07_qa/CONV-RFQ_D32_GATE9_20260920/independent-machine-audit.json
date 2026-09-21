@@ -1,0 +1,53 @@
+{
+  "review_id": "CONV-RFQ-D32-G9-20260920-01",
+  "date": "2026-09-20",
+  "page_id": "CONV-RFQ",
+  "runtime_url": "http://127.0.0.1:8242/request-a-quote/",
+  "site_scope": "tio2-my",
+  "candidate": {
+    "worktree": "D:/32Wordpress_new/.worktrees/conv-rfq-gate8",
+    "branch": "codex/conv-rfq-gate8",
+    "baseline_commit": "ce4147c7076112934b3dc6d8d97e983efb045f2f",
+    "implementation_commit": "f407f0ee526ac3d8fe1dc3efefa31364dc191030",
+    "evidence_head": "616662613d170420dce6bcddd5f026652bc3b0d8",
+    "observed_head": "616662613d170420dce6bcddd5f026652bc3b0d8",
+    "clean": true,
+    "baseline_is_ancestor_of_implementation": true,
+    "implementation_is_ancestor_of_evidence_head": true,
+    "build_id": "wp-815f8debd4b2129b21a8cc67d8c410dea58e8986b4e3d38b2450ebbeeaaaeb58"
+  },
+  "handoff": {
+    "manifest_sha256": "39FF4ED7653E22068BD9E1D91F7CD0684DFA11236EE7C8B776A3B55FD3E5F77C",
+    "manifest_bytes": 22306,
+    "receipt_sha256": "67387557F2605E2859D7FFA5BD7307904A275CFB0FE7DB762FFC616AC674EDD9",
+    "receipt_bytes": 4599,
+    "declared_evidence_files": 26
+  },
+  "validator": {
+    "status": "PASS",
+    "checks_passed": 175,
+    "checks_failed": 0,
+    "output": "evidence-validation.json"
+  },
+  "preflight": {
+    "status": "PASS",
+    "rounds": 2,
+    "successful_requests": 2,
+    "expected_requests": 2,
+    "http_status": 200,
+    "response_bytes": 29946,
+    "scope_header": "tio2-my",
+    "build_markers_present": true,
+    "output": "preflight.json"
+  },
+  "gate8_suite": {
+    "commands_exit_zero": 17,
+    "playwright_passed": 30,
+    "playwright_skipped": 0,
+    "playwright_unexpected": 0,
+    "playwright_flaky": 0,
+    "real_submission_performed": false,
+    "analytics_enabled": false
+  },
+  "scope_note": "Independent Gate 9 validated the immutable handoff and inspected the evidence and source. No D32 code, CMS data, receiver, merge, deployment or publication state was changed."
+}

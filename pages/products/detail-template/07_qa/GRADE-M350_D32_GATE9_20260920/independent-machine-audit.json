@@ -1,0 +1,65 @@
+{
+  "reviewId": "GRADE-M350-D32-G9-20260920-01",
+  "date": "2026-09-20",
+  "reviewer": "/root",
+  "pageId": "GRADE-M350",
+  "runtimeUrl": "http://127.0.0.1:8350/products/m-350/",
+  "siteScope": "tio2-my",
+  "candidate": {
+    "branch": "codex/grade-m350-gate8",
+    "baselineCommit": "5a7801b05bdb4aeccf7a95b336ef04c3740579ab",
+    "implementationCommit": "a13d270160d39d009159d7c38f82b85456f71c03",
+    "evidenceHead": "a96d850ff487a3f0b566614bc826ef67bb3b5d23",
+    "buildId": "wp-b6ac6157961a238166aeb566b1121810a29ee6e2c4441547f36b0965107343d0",
+    "worktreeClean": true,
+    "ancestry": {
+      "baselineToImplementation": true,
+      "implementationToEvidenceHead": true,
+      "acceptedProductHubEvidenceToImplementation": true
+    }
+  },
+  "manifest": {
+    "path": "D:/32Wordpress_new/.worktrees/grade-m350-gate8/.runtime/handoff/m350/gate8_evidence_manifest.json",
+    "sha256": "2C9EB8EAE59067B4B92559F5099CCDD7A8DF53475D3CD5FF8417909D2A03C560",
+    "declaredEvidenceFiles": 36,
+    "validator": {
+      "status": "PASS",
+      "checks": 235,
+      "passed": 235,
+      "failed": 0
+    }
+  },
+  "preflight": {
+    "status": "PASS",
+    "rounds": 2,
+    "requests": 6,
+    "successfulRequests": 6,
+    "paths": [
+      "/",
+      "/products/",
+      "/products/m-350/"
+    ],
+    "allHttp200": true,
+    "scopeHeaderMatched": true,
+    "buildMarkersMatched": true
+  },
+  "developerSuite": {
+    "status": "PASS",
+    "commands": 46,
+    "passed": 46,
+    "failed": 0,
+    "m350Playwright": "9/9",
+    "productsPlaywright": "9/9",
+    "homePlaywright": "11/11",
+    "migration": "PASS",
+    "readinessAndFailClosedMatrix": "PASS",
+    "runtimeIdentity": "PASS",
+    "negativeRuntimeIsolation": "PASS"
+  },
+  "acceptanceMapping": {
+    "conditions": 16,
+    "passed": 16,
+    "failed": 0
+  },
+  "result": "PASS"
+}

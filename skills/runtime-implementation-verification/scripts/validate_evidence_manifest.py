@@ -63,6 +63,10 @@ def validate_manifest(manifest_path: Path) -> dict[str, Any]:
     except (OSError, json.JSONDecodeError) as exc:
         return {"status": "EVIDENCE_INCOMPLETE", "checks": [{"id": "manifest_parse", "result": "FAIL", "detail": str(exc)}]}
 
+    if isinstance(manifest, dict) and manifest.get("schema_version") == "gate8-evidence-manifest-v1.1":
+        from validate_static_artifact import validate_static
+        return validate_static(manifest)
+
     missing = sorted(REQUIRED_TOP_LEVEL - set(manifest))
     add(checks, "manifest_required_fields", not missing, {"missing": missing})
     if missing:

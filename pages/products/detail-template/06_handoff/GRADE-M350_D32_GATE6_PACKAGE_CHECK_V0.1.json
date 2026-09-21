@@ -1,0 +1,45 @@
+{
+  "dispatch_id": "GRADE-M350-D32-G6-EXEC-01",
+  "page_id": "GRADE-M350",
+  "site_scope": "tio2-my",
+  "package": "GRADE-M350_D32_GATE6_HANDOFF_PACKAGE_V0.1.md",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "acceptance_ids": [
+    "M350-D32-AC-IDENTITY",
+    "M350-D32-AC-CONTENT",
+    "M350-D32-AC-TECHNICAL",
+    "M350-D32-AC-VISUAL",
+    "M350-D32-AC-A11Y",
+    "M350-D32-AC-CONDITIONAL-ROUTES",
+    "M350-D32-AC-CONVERSION-CONTEXT",
+    "M350-D32-AC-SEO",
+    "M350-D32-AC-SCHEMA",
+    "M350-D32-AC-CMS",
+    "M350-D32-AC-MIGRATION",
+    "M350-D32-AC-SCOPE",
+    "M350-D32-AC-PUBLIC-CLEAN",
+    "M350-D32-AC-CHROME",
+    "M350-D32-AC-PRODUCT-HUB",
+    "M350-D32-AC-EVIDENCE"
+  ],
+  "dependency_ids": [
+    "M350-D32-DEP-PRODUCT-HUB",
+    "M350-D32-DEP-RFQ",
+    "M350-D32-DEP-SAMPLE",
+    "M350-D32-DEP-DOCUMENT",
+    "M350-D32-DEP-PROCESS",
+    "M350-D32-DEP-APPLICATIONS",
+    "M350-D32-DEP-MARKETS",
+    "M350-D32-DEP-INDEXING"
+  ],
+  "checks": {
+    "acceptance_id_count": 16,
+    "acceptance_ids_unique": true,
+    "dependency_id_count": 8,
+    "dependency_ids_unique": true,
+    "public_tds_version_allowed": false,
+    "related_grades_allowed": false,
+    "gate10_authorized": false,
+    "deployment_authorized": false
+  }
+}

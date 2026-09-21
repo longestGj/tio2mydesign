@@ -1,0 +1,1569 @@
+{
+  "base_url": "http://127.0.0.1:8432",
+  "pages": [
+    {
+      "id": "APP-COAT",
+      "route": "/applications/titanium-dioxide-for-coatings/",
+      "served_sha256": "bf58b6b21081888c06d9ed9919ca03f145fab5441a81eee62eec769d9dc3264b",
+      "out_file_sha256": "bf58b6b21081888c06d9ed9919ca03f145fab5441a81eee62eec769d9dc3264b",
+      "checks": [
+        {
+          "name": "http_status",
+          "pass": true,
+          "actual": 200,
+          "expected": 200,
+          "detail": ""
+        },
+        {
+          "name": "served_bytes_equal_out_file",
+          "pass": true,
+          "actual": "bf58b6b21081888c06d9ed9919ca03f145fab5441a81eee62eec769d9dc3264b",
+          "expected": "bf58b6b21081888c06d9ed9919ca03f145fab5441a81eee62eec769d9dc3264b",
+          "detail": ""
+        },
+        {
+          "name": "approved_copy_exact",
+          "pass": true,
+          "actual": "COATINGS APPLICATION\n\n# Titanium Dioxide for Coatings\n\nCompare a candidate titanium dioxide Grade with the incumbent in the coating system that will actually use it. Keep the formulation basis, dispersion route, application and cure, substrate and film, exposure and endpoint methods comparable. Similar technical-data-sheet fields, nominal TiO2 content or one favourable result do not establish equivalence.\n\n[Review Coatings Grades](#grades-to-review)  [Build Your Comparison Basis](#define-the-coating)\n\n<a id=\"define-the-coating\"></a>\n\n## Define the coating before comparing the Grade\n\nStart with the incumbent Grade and the reason for considering a change. Then describe the system that turns the pigment input into a coating result:\n\n- liquid or powder coating;\n- binder or vehicle;\n- formulation and pigment-volume-concentration or loading basis;\n- relevant additives;\n- dispersion route and meaningful process history;\n- application and cure;\n- substrate and film construction;\n- intended interior, exterior or other exposure; and\n- the properties and acceptance basis that will decide the comparison.\n\nLabels such as waterborne, solventborne, powder, interior or exterior help frame the questions. They do not select a Grade. If the incumbent and candidate do not share the same comparison basis, the difference may still be informative, but any interpretation must identify the other changes.\n\nName the endpoints before testing starts. Hiding, colour or undertone, gloss, surface appearance, rheology and weathering response answer different questions. A candidate should progress because it meets the buyer's defined set of application requirements, not because one isolated number looks similar.\n\nPowder coatings show why system context matters. ASTM D3451-24 states that method selection and interpretation depend on the application, the purchaser-seller agreement and often the powder chemistry. Many powder-characterisation methods are relative comparisons rather than universal good-or-bad values. Liquid-coating evidence therefore cannot simply be transferred to a powder system, and laboratory work still requires the applicable current method text. [Source 1](#technical-sources)\n\n## Read optical results in the prepared film\n\nTiO2 optical performance is realised through scattering in the prepared coating film. The film contains the pigment distribution and surface structure created by the formulation, dispersion process, application and cure. The comparison therefore needs to evaluate the prepared coating, not the dry pigment in isolation.\n\nNIST reported preliminary experiments in pigmented coating systems, including a TiO2-containing system, in which surface roughness, pigment particle size and particle-size distribution affected optical-scattering distribution and appearance. This shows that microstructure can change what an instrument and the eye observe; it does not establish a universal particle-size rule or Grade ranking. [Source 2](#technical-sources)\n\nCompare opacity or hiding in controlled films made from the declared system. Colour or undertone needs the same reference and measurement basis. Gloss and other appearance observations retain their own specimen and geometry conditions. A favourable result in one endpoint cannot stand in for the others.\n\nPublished work on waterborne architectural paints also associated formulation-dependent TiO2 distribution and aggregation with changes in film observations such as hiding and gloss. That helps explain a waterborne comparison, but it does not automatically transfer to another binder, vehicle or application route. The decision-relevant optical result still has to be reproduced in the buyer's own films. [Source 3](#technical-sources)\n\n## Keep dispersion, rheology and appearance separate\n\nDispersion is the distribution achieved in a particular formulation and process. In the cited waterborne studies, binder or latex, dispersant, pigment-volume or solids context, and whether material entered through the mill-base or let-down route influenced TiO2 distribution and resulting film observations. These findings identify variables to control; they do not prescribe a universal formulation or process. [Sources 3 and 4](#technical-sources)\n\nFor an incumbent-versus-candidate trial, decide which formulation and process variables will be held fixed, which differences will be recorded and which differences would make the result hard to interpret. Preserve meaningful process history as well as the final specimen, because the same nominal formulation can be reached through a different incorporation route.\n\nRheology needs the same discipline. A viscosity result belongs to its instrument, geometry, rotational conditions and shear history. One reading cannot represent every handling or application condition. Use the method appropriate to the coating and compare like conditions instead of treating viscosity as a universal target or proof of dispersion quality.\n\nOne reported waterborne experiment offers a useful warning: opacity or spreading-rate behaviour did not always track gloss and surface roughness, and the authors left one result without a clear explanation. Keep opacity, gloss, roughness, rheology and observed dispersion as separate endpoints. Investigate the endpoint that matters to the intended use without assigning a single cause unsupported by the trial. [Source 4](#technical-sources)\n\n## Use surface-treatment information to frame durability questions\n\nSurface-treatment information can help explain why two TiO2 inputs raise different dispersion or photoactivity questions. Laboratory work on treated rutile powders found that treatment composition and conditions changed dispersion stability, while photoactivity was evaluated separately through methylene-blue degradation. That is pigment-level screening in laboratory suspensions, not weathering evidence for a formulated coating. [Source 5](#technical-sources)\n\nFormulated-film durability adds the polymer matrix, achieved pigment dispersion, film construction and exposure condition. An accelerated-UV study of epoxy and acrylic-urethane films reported degradation observations that varied with pigment type or photoreactivity and dispersion, polymer matrix, and dry versus warm/wet exposure conditions. The study demonstrates system dependence within its tested materials; it does not establish a universal pigment hierarchy. [Source 6](#technical-sources)\n\nUse surface-treatment and photoactivity information to frame questions, then test durability in the intended coating matrix, prepared film and relevant exposure. Declare the coating matrix, pigment and achieved dispersion, exposure conditions, controls and endpoints. The cited study supports comparison only within its tested epoxy and acrylic-urethane matrices, pigment types and dispersions, and its dry and warm/wet UV exposure conditions.\n\nAccelerated exposure is an application-bound comparison tool. It is not a conversion to years of outdoor service. A treatment name, TiO2 percentage, crystal label or favourable pigment screen cannot by itself establish exterior suitability or service life.\n\n## Compare every endpoint on a declared basis\n\nA method defines how an endpoint is produced. A standard can define a category or measurement scope. A current product document can identify the candidate being discussed. None replaces controlled evidence from the buyer's coating system.\n\n| Decision endpoint | Keep comparable or declare | What the result can answer |\n|---|---|---|\n| Opacity or hiding | Formulation and loading basis, substrate, film preparation, application and cure, method and reference | Whether the prepared films are comparable on the declared optical endpoint |\n| Colour or undertone | Specimen, reference, instrument conditions, colour coordinates and agreed tolerance | Whether the colour difference is acceptable on the chosen basis |\n| Dispersion and rheology | Binder or vehicle, additives, incorporation route, process history, measurement method and conditions | Whether observed distribution and flow behaviour are comparable under the recorded conditions |\n| Gloss and film appearance | Substrate, film build, application and cure, surface condition, geometry and visual observations | Whether appearance meets the intended requirement without becoming a proxy for hiding or durability |\n| Durability | Coating matrix, film, exposure cycle, controls, replicates, endpoints and interpretation basis | How the candidate behaves in the declared accelerated or natural-exposure comparison, without predicting service years |\n\nBefore drawing a conclusion, confirm that the incumbent and candidate share the declared basis for each endpoint. Record any mismatch and limit the interpretation accordingly. Matching document fields or one passing test can frame the next question; it is not approval of a replacement.\n\n## Compare cost only at an equal technical endpoint\n\nPrice per kilogram, nominal TiO2 content and loading provide a meaningful cost comparison only when the incumbent and candidate coatings reach the same accepted technical endpoint for the intended application.\n\nOnce the endpoint is comparable, add the current internal formulation cost, coverage or film basis, process inputs, yield, waste, rework, testing and qualification costs within an agreed accounting boundary. These inputs are buyer-owned and time-sensitive, so state what is included instead of presenting a universal saving or return.\n\nThe commercial question is whether the candidate reaches the required technical result in the buyer's system and what the complete, currently measured cost is at that result.\n\n<a id=\"grades-to-review\"></a>\n\n## Grades to Review\n\nThe following eight TiO2 Malaysia Grades have a public Coatings relationship. The list is a starting point for evaluation. It does not rank the Grades or establish suitability for a formulation, process, film or exposure.\n\n| Grade | Process | Next step |\n|---|---|---|\n| M-350 | Chloride process | [View M-350](/products/m-350/) |\n| M-510 | Chloride process | [View M-510](/products/m-510/) |\n| M-896 | Chloride process | [View M-896](/products/m-896/) |\n| M-996 | Sulfate process | [View M-996](/products/m-996/) |\n| M-2196 | Sulfate process | [View M-2196](/products/m-2196/) |\n| M-895 | Chloride process | [View M-895](/products/m-895/) |\n| M-52 | Sulfate process | [View M-52](/products/m-52/) |\n| M-2377 | Sulfate process | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for the candidate you are considering, or compare the relevant Grade pages if you are considering more than one. Keep each trial result separate and name all candidates when you continue. If the Grade is not yet known, you can still continue without guessing.\n\n[Explore All Products](/products/)\n\n## Prepare the next request\n\nA useful technical-comparison brief describes the decision rather than asking for a generic replacement. Include what you already know:\n\n- the current TiO2 Grade and the reason for considering a change;\n- the candidate Grade or Grades, or state that the Grade is not yet known;\n- the binder or vehicle, formulation, pigment-volume-concentration or loading basis and relevant additive context;\n- the dispersion route and meaningful process history;\n- the application and cure conditions;\n- the substrate, film construction and intended interior, exterior or other exposure; and\n- the target properties, methods, acceptance basis and current technical problem.\n\nIncomplete conditions do not need to be guessed. Mark them as unknown and provide the context already available.\n\n### Request current documents\n\nUse the Documents page when one Grade is known and you need to select the relevant document types. File availability and applicable scope are reviewed after the request. For documents on another Grade, make a separate request.\n\n[Request Documents](/request-documents/)\n\n### Discuss a sample evaluation\n\nShare the Grade you are considering, or say that you are not sure, together with the application, destination and test objective. Submitting starts a human review. Any sample arrangement is confirmed separately.\n\n[Request a Sample](/request-sample/)\n\n### Send an RFQ\n\nIf you have not selected a Grade, choose `Not sure / Need help`. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If you are comparing several Grades, choose one lead Grade or `Not sure / Need help` and list the other candidates in `Additional Requirements`.\n\nAfter you submit, our team will review your requirements and details and contact you using the information provided. An RFQ is not a technical qualification, test approval or product-equivalence decision.\n\n[Request a Quote](/request-a-quote/)\n\n<a id=\"technical-sources\"></a>\n\n## Technical sources\n\n1. ASTM International. [ASTM D3451-24: Standard Guide for Testing Coating Powders and Powder Coatings](https://store.astm.org/d3451-24.html). Updated 12 September 2024.\n2. Li Piin Sung, Maria E. Nadal, M. E. McKnight, J. V. Nguyen and C.-C. Lin. [Investigation of the Relationship Between Microstructure and Appearance Properties of Coating Materials](https://www.nist.gov/publications/investigation-relationship-between-microstructure-and-appearance-properties-coating). National Institute of Standards and Technology. Published 1 October 2000.\n3. F. Tiarks, T. Frechen, S. Kirsch, J. Leuninger, M. Melan, A. Pfau, F. Richter, B. Schuler and C. L. Zhao. [Formulation effects on the distribution of pigment particles in paints](https://doi.org/10.1016/S0300-9440(03)00095-X). *Progress in Organic Coatings*. Published December 2003.\n4. Sara Beldarrain, Vincent Vreeken, Jose Ramon Leiza and Edurne González. [Polymer particles as dispersants for inorganic pigments in waterborne paint formulations](https://link.springer.com/article/10.1007/s11998-025-01261-x). *Journal of Coatings Technology and Research*. Published 13 May 2026.\n5. A. C. van Dyk and A. M. Heyns. [Dispersion Stability and Photo-activity of Rutile (TiO2) Powders](https://pubmed.ncbi.nlm.nih.gov/9756650/). *Journal of Colloid and Interface Science*. Published 15 October 1998.\n6. Deborah L. Wang, Stephanie S. Watson, Li-Piin Sung, I-Hsiang Tseng, Craig J. Bouis and Raymond Fernando. [Effect of TiO2 pigment type on the UV degradation of filled coatings](https://link.springer.com/article/10.1007/s11998-009-9216-y). *Journal of Coatings Technology and Research*. Published online 14 May 2010; 2011 issue.",
+          "expected": "COATINGS APPLICATION\n\n# Titanium Dioxide for Coatings\n\nCompare a candidate titanium dioxide Grade with the incumbent in the coating system that will actually use it. Keep the formulation basis, dispersion route, application and cure, substrate and film, exposure and endpoint methods comparable. Similar technical-data-sheet fields, nominal TiO2 content or one favourable result do not establish equivalence.\n\n[Review Coatings Grades](#grades-to-review)  [Build Your Comparison Basis](#define-the-coating)\n\n<a id=\"define-the-coating\"></a>\n\n## Define the coating before comparing the Grade\n\nStart with the incumbent Grade and the reason for considering a change. Then describe the system that turns the pigment input into a coating result:\n\n- liquid or powder coating;\n- binder or vehicle;\n- formulation and pigment-volume-concentration or loading basis;\n- relevant additives;\n- dispersion route and meaningful process history;\n- application and cure;\n- substrate and film construction;\n- intended interior, exterior or other exposure; and\n- the properties and acceptance basis that will decide the comparison.\n\nLabels such as waterborne, solventborne, powder, interior or exterior help frame the questions. They do not select a Grade. If the incumbent and candidate do not share the same comparison basis, the difference may still be informative, but any interpretation must identify the other changes.\n\nName the endpoints before testing starts. Hiding, colour or undertone, gloss, surface appearance, rheology and weathering response answer different questions. A candidate should progress because it meets the buyer's defined set of application requirements, not because one isolated number looks similar.\n\nPowder coatings show why system context matters. ASTM D3451-24 states that method selection and interpretation depend on the application, the purchaser-seller agreement and often the powder chemistry. Many powder-characterisation methods are relative comparisons rather than universal good-or-bad values. Liquid-coating evidence therefore cannot simply be transferred to a powder system, and laboratory work still requires the applicable current method text. [Source 1](#technical-sources)\n\n## Read optical results in the prepared film\n\nTiO2 optical performance is realised through scattering in the prepared coating film. The film contains the pigment distribution and surface structure created by the formulation, dispersion process, application and cure. The comparison therefore needs to evaluate the prepared coating, not the dry pigment in isolation.\n\nNIST reported preliminary experiments in pigmented coating systems, including a TiO2-containing system, in which surface roughness, pigment particle size and particle-size distribution affected optical-scattering distribution and appearance. This shows that microstructure can change what an instrument and the eye observe; it does not establish a universal particle-size rule or Grade ranking. [Source 2](#technical-sources)\n\nCompare opacity or hiding in controlled films made from the declared system. Colour or undertone needs the same reference and measurement basis. Gloss and other appearance observations retain their own specimen and geometry conditions. A favourable result in one endpoint cannot stand in for the others.\n\nPublished work on waterborne architectural paints also associated formulation-dependent TiO2 distribution and aggregation with changes in film observations such as hiding and gloss. That helps explain a waterborne comparison, but it does not automatically transfer to another binder, vehicle or application route. The decision-relevant optical result still has to be reproduced in the buyer's own films. [Source 3](#technical-sources)\n\n## Keep dispersion, rheology and appearance separate\n\nDispersion is the distribution achieved in a particular formulation and process. In the cited waterborne studies, binder or latex, dispersant, pigment-volume or solids context, and whether material entered through the mill-base or let-down route influenced TiO2 distribution and resulting film observations. These findings identify variables to control; they do not prescribe a universal formulation or process. [Sources 3 and 4](#technical-sources)\n\nFor an incumbent-versus-candidate trial, decide which formulation and process variables will be held fixed, which differences will be recorded and which differences would make the result hard to interpret. Preserve meaningful process history as well as the final specimen, because the same nominal formulation can be reached through a different incorporation route.\n\nRheology needs the same discipline. A viscosity result belongs to its instrument, geometry, rotational conditions and shear history. One reading cannot represent every handling or application condition. Use the method appropriate to the coating and compare like conditions instead of treating viscosity as a universal target or proof of dispersion quality.\n\nOne reported waterborne experiment offers a useful warning: opacity or spreading-rate behaviour did not always track gloss and surface roughness, and the authors left one result without a clear explanation. Keep opacity, gloss, roughness, rheology and observed dispersion as separate endpoints. Investigate the endpoint that matters to the intended use without assigning a single cause unsupported by the trial. [Source 4](#technical-sources)\n\n## Use surface-treatment information to frame durability questions\n\nSurface-treatment information can help explain why two TiO2 inputs raise different dispersion or photoactivity questions. Laboratory work on treated rutile powders found that treatment composition and conditions changed dispersion stability, while photoactivity was evaluated separately through methylene-blue degradation. That is pigment-level screening in laboratory suspensions, not weathering evidence for a formulated coating. [Source 5](#technical-sources)\n\nFormulated-film durability adds the polymer matrix, achieved pigment dispersion, film construction and exposure condition. An accelerated-UV study of epoxy and acrylic-urethane films reported degradation observations that varied with pigment type or photoreactivity and dispersion, polymer matrix, and dry versus warm/wet exposure conditions. The study demonstrates system dependence within its tested materials; it does not establish a universal pigment hierarchy. [Source 6](#technical-sources)\n\nUse surface-treatment and photoactivity information to frame questions, then test durability in the intended coating matrix, prepared film and relevant exposure. Declare the coating matrix, pigment and achieved dispersion, exposure conditions, controls and endpoints. The cited study supports comparison only within its tested epoxy and acrylic-urethane matrices, pigment types and dispersions, and its dry and warm/wet UV exposure conditions.\n\nAccelerated exposure is an application-bound comparison tool. It is not a conversion to years of outdoor service. A treatment name, TiO2 percentage, crystal label or favourable pigment screen cannot by itself establish exterior suitability or service life.\n\n## Compare every endpoint on a declared basis\n\nA method defines how an endpoint is produced. A standard can define a category or measurement scope. A current product document can identify the candidate being discussed. None replaces controlled evidence from the buyer's coating system.\n\n| Decision endpoint | Keep comparable or declare | What the result can answer |\n|---|---|---|\n| Opacity or hiding | Formulation and loading basis, substrate, film preparation, application and cure, method and reference | Whether the prepared films are comparable on the declared optical endpoint |\n| Colour or undertone | Specimen, reference, instrument conditions, colour coordinates and agreed tolerance | Whether the colour difference is acceptable on the chosen basis |\n| Dispersion and rheology | Binder or vehicle, additives, incorporation route, process history, measurement method and conditions | Whether observed distribution and flow behaviour are comparable under the recorded conditions |\n| Gloss and film appearance | Substrate, film build, application and cure, surface condition, geometry and visual observations | Whether appearance meets the intended requirement without becoming a proxy for hiding or durability |\n| Durability | Coating matrix, film, exposure cycle, controls, replicates, endpoints and interpretation basis | How the candidate behaves in the declared accelerated or natural-exposure comparison, without predicting service years |\n\nBefore drawing a conclusion, confirm that the incumbent and candidate share the declared basis for each endpoint. Record any mismatch and limit the interpretation accordingly. Matching document fields or one passing test can frame the next question; it is not approval of a replacement.\n\n## Compare cost only at an equal technical endpoint\n\nPrice per kilogram, nominal TiO2 content and loading provide a meaningful cost comparison only when the incumbent and candidate coatings reach the same accepted technical endpoint for the intended application.\n\nOnce the endpoint is comparable, add the current internal formulation cost, coverage or film basis, process inputs, yield, waste, rework, testing and qualification costs within an agreed accounting boundary. These inputs are buyer-owned and time-sensitive, so state what is included instead of presenting a universal saving or return.\n\nThe commercial question is whether the candidate reaches the required technical result in the buyer's system and what the complete, currently measured cost is at that result.\n\n<a id=\"grades-to-review\"></a>\n\n## Grades to Review\n\nThe following eight TiO2 Malaysia Grades have a public Coatings relationship. The list is a starting point for evaluation. It does not rank the Grades or establish suitability for a formulation, process, film or exposure.\n\n| Grade | Process | Next step |\n|---|---|---|\n| M-350 | Chloride process | [View M-350](/products/m-350/) |\n| M-510 | Chloride process | [View M-510](/products/m-510/) |\n| M-896 | Chloride process | [View M-896](/products/m-896/) |\n| M-996 | Sulfate process | [View M-996](/products/m-996/) |\n| M-2196 | Sulfate process | [View M-2196](/products/m-2196/) |\n| M-895 | Chloride process | [View M-895](/products/m-895/) |\n| M-52 | Sulfate process | [View M-52](/products/m-52/) |\n| M-2377 | Sulfate process | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for the candidate you are considering, or compare the relevant Grade pages if you are considering more than one. Keep each trial result separate and name all candidates when you continue. If the Grade is not yet known, you can still continue without guessing.\n\n[Explore All Products](/products/)\n\n## Prepare the next request\n\nA useful technical-comparison brief describes the decision rather than asking for a generic replacement. Include what you already know:\n\n- the current TiO2 Grade and the reason for considering a change;\n- the candidate Grade or Grades, or state that the Grade is not yet known;\n- the binder or vehicle, formulation, pigment-volume-concentration or loading basis and relevant additive context;\n- the dispersion route and meaningful process history;\n- the application and cure conditions;\n- the substrate, film construction and intended interior, exterior or other exposure; and\n- the target properties, methods, acceptance basis and current technical problem.\n\nIncomplete conditions do not need to be guessed. Mark them as unknown and provide the context already available.\n\n### Request current documents\n\nUse the Documents page when one Grade is known and you need to select the relevant document types. File availability and applicable scope are reviewed after the request. For documents on another Grade, make a separate request.\n\n[Request Documents](/request-documents/)\n\n### Discuss a sample evaluation\n\nShare the Grade you are considering, or say that you are not sure, together with the application, destination and test objective. Submitting starts a human review. Any sample arrangement is confirmed separately.\n\n[Request a Sample](/request-sample/)\n\n### Send an RFQ\n\nIf you have not selected a Grade, choose `Not sure / Need help`. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If you are comparing several Grades, choose one lead Grade or `Not sure / Need help` and list the other candidates in `Additional Requirements`.\n\nAfter you submit, our team will review your requirements and details and contact you using the information provided. An RFQ is not a technical qualification, test approval or product-equivalence decision.\n\n[Request a Quote](/request-a-quote/)\n\n<a id=\"technical-sources\"></a>\n\n## Technical sources\n\n1. ASTM International. [ASTM D3451-24: Standard Guide for Testing Coating Powders and Powder Coatings](https://store.astm.org/d3451-24.html). Updated 12 September 2024.\n2. Li Piin Sung, Maria E. Nadal, M. E. McKnight, J. V. Nguyen and C.-C. Lin. [Investigation of the Relationship Between Microstructure and Appearance Properties of Coating Materials](https://www.nist.gov/publications/investigation-relationship-between-microstructure-and-appearance-properties-coating). National Institute of Standards and Technology. Published 1 October 2000.\n3. F. Tiarks, T. Frechen, S. Kirsch, J. Leuninger, M. Melan, A. Pfau, F. Richter, B. Schuler and C. L. Zhao. [Formulation effects on the distribution of pigment particles in paints](https://doi.org/10.1016/S0300-9440(03)00095-X). *Progress in Organic Coatings*. Published December 2003.\n4. Sara Beldarrain, Vincent Vreeken, Jose Ramon Leiza and Edurne González. [Polymer particles as dispersants for inorganic pigments in waterborne paint formulations](https://link.springer.com/article/10.1007/s11998-025-01261-x). *Journal of Coatings Technology and Research*. Published 13 May 2026.\n5. A. C. van Dyk and A. M. Heyns. [Dispersion Stability and Photo-activity of Rutile (TiO2) Powders](https://pubmed.ncbi.nlm.nih.gov/9756650/). *Journal of Colloid and Interface Science*. Published 15 October 1998.\n6. Deborah L. Wang, Stephanie S. Watson, Li-Piin Sung, I-Hsiang Tseng, Craig J. Bouis and Raymond Fernando. [Effect of TiO2 pigment type on the UV degradation of filled coatings](https://link.springer.com/article/10.1007/s11998-009-9216-y). *Journal of Coatings Technology and Research*. Published online 14 May 2010; 2011 issue.",
+          "detail": ""
+        },
+        {
+          "name": "html_lang",
+          "pass": true,
+          "actual": "en",
+          "expected": "en",
+          "detail": ""
+        },
+        {
+          "name": "h1",
+          "pass": true,
+          "actual": "Titanium Dioxide for Coatings",
+          "expected": "Titanium Dioxide for Coatings",
+          "detail": ""
+        },
+        {
+          "name": "title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Coatings | Grade Evaluation",
+          "expected": "Titanium Dioxide for Coatings | Grade Evaluation",
+          "detail": ""
+        },
+        {
+          "name": "description",
+          "pass": true,
+          "actual": "Compare TiO2 grades in your coating system by formulation, dispersion, film, exposure and test basis. Review Grades, documents, samples and RFQ inputs.",
+          "expected": "Compare TiO2 grades in your coating system by formulation, dispersion, film, exposure and test basis. Review Grades, documents, samples and RFQ inputs.",
+          "detail": ""
+        },
+        {
+          "name": "canonical",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-coatings/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-coatings/",
+          "detail": ""
+        },
+        {
+          "name": "og_url",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-coatings/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-coatings/",
+          "detail": ""
+        },
+        {
+          "name": "og_title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Coatings | Grade Evaluation",
+          "expected": "Titanium Dioxide for Coatings | Grade Evaluation",
+          "detail": ""
+        },
+        {
+          "name": "og_description",
+          "pass": true,
+          "actual": "Compare TiO2 grades in your coating system by formulation, dispersion, film, exposure and test basis. Review Grades, documents, samples and RFQ inputs.",
+          "expected": "Compare TiO2 grades in your coating system by formulation, dispersion, film, exposure and test basis. Review Grades, documents, samples and RFQ inputs.",
+          "detail": ""
+        },
+        {
+          "name": "robots_index_follow",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": "index, follow"
+        },
+        {
+          "name": "breadcrumb",
+          "pass": true,
+          "actual": [
+            "Home",
+            "Applications",
+            "Coatings"
+          ],
+          "expected": [
+            "Home",
+            "Applications",
+            "Coatings"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "module_count",
+          "pass": true,
+          "actual": 10,
+          "expected": 10,
+          "detail": ""
+        },
+        {
+          "name": "grade_order",
+          "pass": true,
+          "actual": [
+            "M-350",
+            "M-510",
+            "M-896",
+            "M-996",
+            "M-2196",
+            "M-895",
+            "M-52",
+            "M-2377"
+          ],
+          "expected": [
+            "M-350",
+            "M-510",
+            "M-896",
+            "M-996",
+            "M-2196",
+            "M-895",
+            "M-52",
+            "M-2377"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "ready_grade_links_only",
+          "pass": true,
+          "actual": [
+            "/products/m-350/"
+          ],
+          "expected": [
+            "/products/m-350/"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "products_link_present",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "required_crosslinks",
+          "pass": true,
+          "actual": [],
+          "expected": [],
+          "detail": ""
+        },
+        {
+          "name": "rfq_main_link_count",
+          "pass": true,
+          "actual": 1,
+          "expected": 1,
+          "detail": ""
+        },
+        {
+          "name": "documents_sample_controls_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "source_count",
+          "pass": true,
+          "actual": 6,
+          "expected": 6,
+          "detail": ""
+        },
+        {
+          "name": "source_urls_exact",
+          "pass": true,
+          "actual": [
+            "https://store.astm.org/d3451-24.html",
+            "https://www.nist.gov/publications/investigation-relationship-between-microstructure-and-appearance-properties-coating",
+            "https://doi.org/10.1016/S0300-9440(03)00095-X",
+            "https://link.springer.com/article/10.1007/s11998-025-01261-x",
+            "https://pubmed.ncbi.nlm.nih.gov/9756650/",
+            "https://link.springer.com/article/10.1007/s11998-009-9216-y"
+          ],
+          "expected": [
+            "https://store.astm.org/d3451-24.html",
+            "https://www.nist.gov/publications/investigation-relationship-between-microstructure-and-appearance-properties-coating",
+            "https://doi.org/10.1016/S0300-9440(03)00095-X",
+            "https://link.springer.com/article/10.1007/s11998-025-01261-x",
+            "https://pubmed.ncbi.nlm.nih.gov/9756650/",
+            "https://link.springer.com/article/10.1007/s11998-009-9216-y"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "source_link_safety",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "schema_types",
+          "pass": true,
+          "actual": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "expected": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "schema_page",
+          "pass": true,
+          "actual": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-coatings/",
+            "name": "Titanium Dioxide for Coatings",
+            "description": "Compare TiO2 grades in your coating system by formulation, dispersion, film, exposure and test basis. Review Grades, documents, samples and RFQ inputs.",
+            "inLanguage": "en"
+          },
+          "expected": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-coatings/",
+            "name": "Titanium Dioxide for Coatings",
+            "description": "Compare TiO2 grades in your coating system by formulation, dispersion, film, exposure and test basis. Review Grades, documents, samples and RFQ inputs.",
+            "inLanguage": "en"
+          },
+          "detail": ""
+        },
+        {
+          "name": "public_output_clean",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "no_runtime_content_endpoint",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "initial_html_substantive",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "hero_anchor_targets",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "table_semantics",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "shared_chrome",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "buyer_visible_current_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "terms_link_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "APP-PLAS",
+      "route": "/applications/titanium-dioxide-for-plastics/",
+      "served_sha256": "b0fd05d83eb98fe1933945fc98b0355dbb319205481f753b4320ce1ba59b0d13",
+      "out_file_sha256": "b0fd05d83eb98fe1933945fc98b0355dbb319205481f753b4320ce1ba59b0d13",
+      "checks": [
+        {
+          "name": "http_status",
+          "pass": true,
+          "actual": 200,
+          "expected": 200,
+          "detail": ""
+        },
+        {
+          "name": "served_bytes_equal_out_file",
+          "pass": true,
+          "actual": "b0fd05d83eb98fe1933945fc98b0355dbb319205481f753b4320ce1ba59b0d13",
+          "expected": "b0fd05d83eb98fe1933945fc98b0355dbb319205481f753b4320ce1ba59b0d13",
+          "detail": ""
+        },
+        {
+          "name": "approved_copy_exact",
+          "pass": true,
+          "actual": "# Titanium Dioxide for Plastics\n\nCompare TiO2 candidates in the plastic system you actually make. Define the resin, how TiO2 enters the formulation, the conversion process, the finished specimen, its exposure and the results you need to accept before comparing candidates.\n\n[Review Plastics Grades](#grades-to-review) · [Define Your Plastics System](#define-your-plastics-system)\n\n## Define your plastics system\n\nStart with the application rather than a pigment name. Record what you know, and mark an item as unknown instead of guessing:\n\n- resin or material, including whether it is virgin, recycled, blended, filled or reinforced where relevant;\n- whether TiO2 enters as direct powder, a compound or a masterbatch, plus known carrier or formulation context;\n- conversion process and the process window used for the comparison;\n- finished specimen, thickness or geometry and surface condition;\n- indoor, outdoor, warm, wet, chemical or other relevant exposure;\n- incumbent material or other reference; and\n- measured endpoints, methods and rejection conditions.\n\nThis basis lets a supplier understand the comparison even when the Grade, one test condition or another technical detail is still open.\n\n## Judge optical results in the finished system\n\nWhiteness and opacity are results of the full plastic system. Resin colour, TiO2 level, dispersion, specimen thickness, surface, processing and the measurement method can all affect the observed result. A nominal pigment value alone does not establish finished-part performance.\n\nFor an opacity comparison, identify the specimen and method. One established contrast-ratio approach compares the CIE Y value of the same specimen over black and white backgrounds. Report the illuminant and observer conditions with the result. Keep the loading, specimen preparation and measurement basis comparable when discussing two candidates.\n\n## Keep dispersion screens and defect observations separate\n\n| Observation | What it can support | What it does not establish |\n|---|---|---|\n| Filter pressure value under ISO 23900-5 | A bounded comparison of pigment dispersibility under the stated concentrate preparation and test conditions | A universal acceptance limit or finished-product result |\n| Film test under ISO 23900-6 | A film-based assessment under the stated preparation and inspection method | A complete diagnosis of every production defect |\n| Gels, black specks, holes or other line defects | A reason to investigate material, contamination, drying, residence time, temperature, filtration, handling and other process factors | Proof that TiO2 is the sole cause |\n\nUse each observation for the question it was designed to answer. If concentrate preparation changes, state that change before comparing FPV results.\n\n## Build durability evidence around the use condition\n\nAn accelerated exposure result becomes useful when it names the material, property, laboratory exposure and field or service comparator. There is no universal conversion from a set number of accelerated-weathering hours to outdoor years. An acceleration factor measured for one material and property should not be transferred to another without evidence.\n\nFor a candidate comparison, identify the finished plastic, the property being followed, the exposure cycle and the endpoint. Use outdoor or field evidence as a comparator where the decision requires it. A weathering study on an aromatic engineering thermoplastic can help frame exposure variables, but it does not establish the behaviour of an untested TiO2 formulation.\n\n## Follow the final-plastic route\n\nHow TiO2 enters the final plastic—direct powder, compound or masterbatch—is part of the application definition on this page. Evaluate the converted specimen and its accepted endpoints after that route is chosen.\n\nIf your primary task is making or qualifying a high-concentration colour masterbatch, continue to [Titanium Dioxide for Masterbatch](/applications/titanium-dioxide-for-masterbatch/). Carrier selection, concentrate formulation and masterbatch production qualification belong there.\n\n## Turn resin examples into questions\n\nMaterial examples help identify missing inputs. They do not transfer a result from one formulation to another or select a Grade.\n\n| Final-plastic context | Questions to define before comparison |\n|---|---|\n| Film or outdoor PVC | What thickness, processing history, optical endpoint and exposure represent the finished use? |\n| Post-consumer PET | Are the opaque and transparent feed streams, TiO2 content, processing history and mechanical endpoints controlled or separately reported? A reported recycling study does not isolate every effect as a direct pigment substitution. |\n| Polycarbonate or PBT | What stabilisation, specimen, exposure and failure endpoint apply? Historical polycarbonate findings and their erratum do not establish a rule for another grade, resin or formulation. |\n| Polyamide | What moisture conditioning, specimen state and test timing are required? Conditioning can affect measured behaviour, so state the protocol rather than inferring a universal drying or processing rule. |\n\n## Use a TDS to define the comparison\n\nA Technical Data Sheet can support candidate screening. Sort its fields before drawing a conclusion:\n\n- **Comparable:** same property, method, units and stated basis.\n- **Not directly comparable:** different method, units, specimen, conditioning or reporting basis.\n- **Needs verification:** a required field is missing, ambiguous or outside the stated scope.\n\nMatching nominal TiO2 content, process route or one reported value does not establish interchangeability. Ask for the method and basis behind any field that affects the trial decision.\n\n## Compare at matched conditions and accepted output\n\nRun the incumbent and candidate on a declared basis: the same resin or clearly documented lot difference, TiO2 introduction route, formulation, specimen, process conditions, conditioning, exposure, method and endpoint. Keep results for different candidate Grades separate. Investigate an unexpected defect across material and process causes before assigning it to the pigment.\n\nPrice per kilogram, nominal TiO2 content and loading make a meaningful cost comparison only when the incumbent and candidate plastic systems reach the same accepted technical endpoint. Define which cost categories to include, such as material, testing, scrap and rework, and apply that same basis throughout the comparison.\n\n## Grades to review\n\nUse these eight Grades as starting points for technical review. The list does not rank or recommend a Grade or establish suitability for a particular resin.\n\n| Grade | Process | Next step |\n|---|---|---|\n| M-350 | Chloride | [View M-350](/products/m-350/) |\n| M-510 | Chloride | [View M-510](/products/m-510/) |\n| M-200 | Chloride | [View M-200](/products/m-200/) |\n| M-108 | Sulfate | [View M-108](/products/m-108/) |\n| M-210 | Chloride | [View M-210](/products/m-210/) |\n| M-340 | Chloride | [View M-340](/products/m-340/) |\n| M-886 | Chloride | [View M-886](/products/m-886/) |\n| M-2377 | Sulfate | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for a candidate you are considering, or compare the relevant pages if you have several candidates. Keep each candidate's trial results separate. If you do not know the Grade, continue with your application and the context you already have.\n\n[Explore All Products](/products/)\n\n## Prepare your request\n\nShare the resin or material, TiO2 introduction route, conversion process, specimen, exposure, test methods, acceptance endpoints and incumbent or reference where known. State which conditions are still unknown.\n\n- [Request Documents](/request-documents/) when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews availability and applicable scope.\n- [Request a Sample](/request-sample/) with a known Grade or an unknown-Grade selection, your plastics application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.\n- [Request a Quote](/request-a-quote/) with a known lead Grade or `Not sure / Need help`. Tell us your plastics application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in `Additional Requirements`.\n\nAfter an RFQ is submitted, the team reviews the requirements and details and contacts you using the information provided.\n\n## Technical sources\n\n1. Titanium Dioxide Manufacturers Association (TDMA). [*How titanium dioxide protects your outdoor plastics*](https://www.tdma.info/uses-of-tio2/how-titanium-dioxide-protects-your-outdoor-plastics/).\n2. HunterLab. [*Contrast Ratio Opacity*](https://www.hunterlab.com/en/blog/contrast-ratio-opacity/). Published 20 April 2023.\n3. ISO. [*ISO 23900-5:2015, Pigments and extenders — Methods of dispersion and assessment of dispersibility in plastics — Part 5: Determination by filter pressure value test*](https://www.iso.org/standard/61929.html). Published May 2015; confirmed in 2025.\n4. ISO. [*ISO 23900-6:2015, Pigments and extenders — Methods of dispersion and assessment of dispersibility in plastics — Part 6: Determination by film test*](https://www.iso.org/standard/61930.html). Published May 2015; confirmed in 2025.\n5. Sean Fowler, Q-Lab. [*How many hours in a Q-SUN or a QUV equals a year of outdoor exposure?*](https://blog.q-lab.com/how-many-hours-in-a-q-sun-xenon-test-chamber-or-a-quv-weathering-tester-equals-a-year-of-outdoor-exposure). Published 22 August 2022.\n6. Andreas Riedl, Atlas Material Testing Technology. [*Weathering Basics I – Acceleration*](https://www.atlas-mts.com/knowledge-center/atlas-weathering-blog/2024/december/weathering-basics-i-acceleration-). Published 30 December 2024.\n7. Li Piin Sung, James E. Pickett, Olga Kuvshinnikova and Brett Ermi, NIST. [*Accelerated Weathering Parameters for Some Aromatic Engineering Thermoplastics. Part 2: Polycarbonate copolymers, polyarylate and ABS*](https://www.nist.gov/publications/accelerated-weathering-parameters-some-aromatic-engineering-thermoplastics-part-2). NIST publication page dated 16 August 2020.\n8. Marcela Hricova, Maria Petkova, Zita Tomcikova and Anna Ujhelyiova. [*The Effect of Inorganic Pigments on the Rheological Properties of the Color Masterbatches from Polylactic Acid*](https://www.mdpi.com/2079-6439/13/9/122). *Fibers* 13(9), 122; published 8 September 2025.\n9. David Loaeza, Jonathan Cailloux, Orlando Santana Pérez, Miguel Sánchez-Soto and Maria Lluïsa Maspoch. [*Impact of Titanium Dioxide in the Mechanical Recycling of Post-Consumer Polyethylene Terephthalate Bottle Waste: Tensile and Fracture Behavior*](https://pubmed.ncbi.nlm.nih.gov/33478158/). *Polymers* 13(2), 310; published 19 January 2021.\n10. K. M. Blackwood, R. A. Pethrick, F. I. Simpson, R. E. Day and C. L. Watson. [*Titanium dioxide induced failure in polycarbonate*](https://link.springer.com/article/10.1007/BF00361529). *Journal of Materials Science*; published September 1995, with a 1996 erratum notice.\n11. Paul Wetzel, Anna Katharina Sambale, Kai Uhlig, Markus Stommel, Benjamin Schneider and Jan-Martin Kaiser. [*Hygromechanical Behavior of Polyamide 6.6: Experiments and Modeling*](https://pubmed.ncbi.nlm.nih.gov/37631444/). *Polymers* 15(16), 3387; published 12 August 2023.\n12. ISO. [*ISO 1110:2019, Plastics — Polyamides — Accelerated conditioning of test specimens*](https://www.iso.org/standard/76395.html). Fourth edition, published May 2019; confirmed in 2024.\n13. American Society for Quality. [*Cost of Quality (COQ)*](https://asq.org/quality-resources/cost-of-quality). Reference page; no publication date shown.",
+          "expected": "# Titanium Dioxide for Plastics\n\nCompare TiO2 candidates in the plastic system you actually make. Define the resin, how TiO2 enters the formulation, the conversion process, the finished specimen, its exposure and the results you need to accept before comparing candidates.\n\n[Review Plastics Grades](#grades-to-review) · [Define Your Plastics System](#define-your-plastics-system)\n\n## Define your plastics system\n\nStart with the application rather than a pigment name. Record what you know, and mark an item as unknown instead of guessing:\n\n- resin or material, including whether it is virgin, recycled, blended, filled or reinforced where relevant;\n- whether TiO2 enters as direct powder, a compound or a masterbatch, plus known carrier or formulation context;\n- conversion process and the process window used for the comparison;\n- finished specimen, thickness or geometry and surface condition;\n- indoor, outdoor, warm, wet, chemical or other relevant exposure;\n- incumbent material or other reference; and\n- measured endpoints, methods and rejection conditions.\n\nThis basis lets a supplier understand the comparison even when the Grade, one test condition or another technical detail is still open.\n\n## Judge optical results in the finished system\n\nWhiteness and opacity are results of the full plastic system. Resin colour, TiO2 level, dispersion, specimen thickness, surface, processing and the measurement method can all affect the observed result. A nominal pigment value alone does not establish finished-part performance.\n\nFor an opacity comparison, identify the specimen and method. One established contrast-ratio approach compares the CIE Y value of the same specimen over black and white backgrounds. Report the illuminant and observer conditions with the result. Keep the loading, specimen preparation and measurement basis comparable when discussing two candidates.\n\n## Keep dispersion screens and defect observations separate\n\n| Observation | What it can support | What it does not establish |\n|---|---|---|\n| Filter pressure value under ISO 23900-5 | A bounded comparison of pigment dispersibility under the stated concentrate preparation and test conditions | A universal acceptance limit or finished-product result |\n| Film test under ISO 23900-6 | A film-based assessment under the stated preparation and inspection method | A complete diagnosis of every production defect |\n| Gels, black specks, holes or other line defects | A reason to investigate material, contamination, drying, residence time, temperature, filtration, handling and other process factors | Proof that TiO2 is the sole cause |\n\nUse each observation for the question it was designed to answer. If concentrate preparation changes, state that change before comparing FPV results.\n\n## Build durability evidence around the use condition\n\nAn accelerated exposure result becomes useful when it names the material, property, laboratory exposure and field or service comparator. There is no universal conversion from a set number of accelerated-weathering hours to outdoor years. An acceleration factor measured for one material and property should not be transferred to another without evidence.\n\nFor a candidate comparison, identify the finished plastic, the property being followed, the exposure cycle and the endpoint. Use outdoor or field evidence as a comparator where the decision requires it. A weathering study on an aromatic engineering thermoplastic can help frame exposure variables, but it does not establish the behaviour of an untested TiO2 formulation.\n\n## Follow the final-plastic route\n\nHow TiO2 enters the final plastic—direct powder, compound or masterbatch—is part of the application definition on this page. Evaluate the converted specimen and its accepted endpoints after that route is chosen.\n\nIf your primary task is making or qualifying a high-concentration colour masterbatch, continue to [Titanium Dioxide for Masterbatch](/applications/titanium-dioxide-for-masterbatch/). Carrier selection, concentrate formulation and masterbatch production qualification belong there.\n\n## Turn resin examples into questions\n\nMaterial examples help identify missing inputs. They do not transfer a result from one formulation to another or select a Grade.\n\n| Final-plastic context | Questions to define before comparison |\n|---|---|\n| Film or outdoor PVC | What thickness, processing history, optical endpoint and exposure represent the finished use? |\n| Post-consumer PET | Are the opaque and transparent feed streams, TiO2 content, processing history and mechanical endpoints controlled or separately reported? A reported recycling study does not isolate every effect as a direct pigment substitution. |\n| Polycarbonate or PBT | What stabilisation, specimen, exposure and failure endpoint apply? Historical polycarbonate findings and their erratum do not establish a rule for another grade, resin or formulation. |\n| Polyamide | What moisture conditioning, specimen state and test timing are required? Conditioning can affect measured behaviour, so state the protocol rather than inferring a universal drying or processing rule. |\n\n## Use a TDS to define the comparison\n\nA Technical Data Sheet can support candidate screening. Sort its fields before drawing a conclusion:\n\n- **Comparable:** same property, method, units and stated basis.\n- **Not directly comparable:** different method, units, specimen, conditioning or reporting basis.\n- **Needs verification:** a required field is missing, ambiguous or outside the stated scope.\n\nMatching nominal TiO2 content, process route or one reported value does not establish interchangeability. Ask for the method and basis behind any field that affects the trial decision.\n\n## Compare at matched conditions and accepted output\n\nRun the incumbent and candidate on a declared basis: the same resin or clearly documented lot difference, TiO2 introduction route, formulation, specimen, process conditions, conditioning, exposure, method and endpoint. Keep results for different candidate Grades separate. Investigate an unexpected defect across material and process causes before assigning it to the pigment.\n\nPrice per kilogram, nominal TiO2 content and loading make a meaningful cost comparison only when the incumbent and candidate plastic systems reach the same accepted technical endpoint. Define which cost categories to include, such as material, testing, scrap and rework, and apply that same basis throughout the comparison.\n\n## Grades to review\n\nUse these eight Grades as starting points for technical review. The list does not rank or recommend a Grade or establish suitability for a particular resin.\n\n| Grade | Process | Next step |\n|---|---|---|\n| M-350 | Chloride | [View M-350](/products/m-350/) |\n| M-510 | Chloride | [View M-510](/products/m-510/) |\n| M-200 | Chloride | [View M-200](/products/m-200/) |\n| M-108 | Sulfate | [View M-108](/products/m-108/) |\n| M-210 | Chloride | [View M-210](/products/m-210/) |\n| M-340 | Chloride | [View M-340](/products/m-340/) |\n| M-886 | Chloride | [View M-886](/products/m-886/) |\n| M-2377 | Sulfate | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for a candidate you are considering, or compare the relevant pages if you have several candidates. Keep each candidate's trial results separate. If you do not know the Grade, continue with your application and the context you already have.\n\n[Explore All Products](/products/)\n\n## Prepare your request\n\nShare the resin or material, TiO2 introduction route, conversion process, specimen, exposure, test methods, acceptance endpoints and incumbent or reference where known. State which conditions are still unknown.\n\n- [Request Documents](/request-documents/) when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews availability and applicable scope.\n- [Request a Sample](/request-sample/) with a known Grade or an unknown-Grade selection, your plastics application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.\n- [Request a Quote](/request-a-quote/) with a known lead Grade or `Not sure / Need help`. Tell us your plastics application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in `Additional Requirements`.\n\nAfter an RFQ is submitted, the team reviews the requirements and details and contacts you using the information provided.\n\n## Technical sources\n\n1. Titanium Dioxide Manufacturers Association (TDMA). [*How titanium dioxide protects your outdoor plastics*](https://www.tdma.info/uses-of-tio2/how-titanium-dioxide-protects-your-outdoor-plastics/).\n2. HunterLab. [*Contrast Ratio Opacity*](https://www.hunterlab.com/en/blog/contrast-ratio-opacity/). Published 20 April 2023.\n3. ISO. [*ISO 23900-5:2015, Pigments and extenders — Methods of dispersion and assessment of dispersibility in plastics — Part 5: Determination by filter pressure value test*](https://www.iso.org/standard/61929.html). Published May 2015; confirmed in 2025.\n4. ISO. [*ISO 23900-6:2015, Pigments and extenders — Methods of dispersion and assessment of dispersibility in plastics — Part 6: Determination by film test*](https://www.iso.org/standard/61930.html). Published May 2015; confirmed in 2025.\n5. Sean Fowler, Q-Lab. [*How many hours in a Q-SUN or a QUV equals a year of outdoor exposure?*](https://blog.q-lab.com/how-many-hours-in-a-q-sun-xenon-test-chamber-or-a-quv-weathering-tester-equals-a-year-of-outdoor-exposure). Published 22 August 2022.\n6. Andreas Riedl, Atlas Material Testing Technology. [*Weathering Basics I – Acceleration*](https://www.atlas-mts.com/knowledge-center/atlas-weathering-blog/2024/december/weathering-basics-i-acceleration-). Published 30 December 2024.\n7. Li Piin Sung, James E. Pickett, Olga Kuvshinnikova and Brett Ermi, NIST. [*Accelerated Weathering Parameters for Some Aromatic Engineering Thermoplastics. Part 2: Polycarbonate copolymers, polyarylate and ABS*](https://www.nist.gov/publications/accelerated-weathering-parameters-some-aromatic-engineering-thermoplastics-part-2). NIST publication page dated 16 August 2020.\n8. Marcela Hricova, Maria Petkova, Zita Tomcikova and Anna Ujhelyiova. [*The Effect of Inorganic Pigments on the Rheological Properties of the Color Masterbatches from Polylactic Acid*](https://www.mdpi.com/2079-6439/13/9/122). *Fibers* 13(9), 122; published 8 September 2025.\n9. David Loaeza, Jonathan Cailloux, Orlando Santana Pérez, Miguel Sánchez-Soto and Maria Lluïsa Maspoch. [*Impact of Titanium Dioxide in the Mechanical Recycling of Post-Consumer Polyethylene Terephthalate Bottle Waste: Tensile and Fracture Behavior*](https://pubmed.ncbi.nlm.nih.gov/33478158/). *Polymers* 13(2), 310; published 19 January 2021.\n10. K. M. Blackwood, R. A. Pethrick, F. I. Simpson, R. E. Day and C. L. Watson. [*Titanium dioxide induced failure in polycarbonate*](https://link.springer.com/article/10.1007/BF00361529). *Journal of Materials Science*; published September 1995, with a 1996 erratum notice.\n11. Paul Wetzel, Anna Katharina Sambale, Kai Uhlig, Markus Stommel, Benjamin Schneider and Jan-Martin Kaiser. [*Hygromechanical Behavior of Polyamide 6.6: Experiments and Modeling*](https://pubmed.ncbi.nlm.nih.gov/37631444/). *Polymers* 15(16), 3387; published 12 August 2023.\n12. ISO. [*ISO 1110:2019, Plastics — Polyamides — Accelerated conditioning of test specimens*](https://www.iso.org/standard/76395.html). Fourth edition, published May 2019; confirmed in 2024.\n13. American Society for Quality. [*Cost of Quality (COQ)*](https://asq.org/quality-resources/cost-of-quality). Reference page; no publication date shown.",
+          "detail": ""
+        },
+        {
+          "name": "html_lang",
+          "pass": true,
+          "actual": "en",
+          "expected": "en",
+          "detail": ""
+        },
+        {
+          "name": "h1",
+          "pass": true,
+          "actual": "Titanium Dioxide for Plastics",
+          "expected": "Titanium Dioxide for Plastics",
+          "detail": ""
+        },
+        {
+          "name": "title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Plastics | Grade Evaluation",
+          "expected": "Titanium Dioxide for Plastics | Grade Evaluation",
+          "detail": ""
+        },
+        {
+          "name": "description",
+          "pass": true,
+          "actual": "Compare TiO2 candidates in a defined plastic resin, process, specimen and exposure. Review Product Grades and prepare a document, sample or quotation request.",
+          "expected": "Compare TiO2 candidates in a defined plastic resin, process, specimen and exposure. Review Product Grades and prepare a document, sample or quotation request.",
+          "detail": ""
+        },
+        {
+          "name": "canonical",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-plastics/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-plastics/",
+          "detail": ""
+        },
+        {
+          "name": "og_url",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-plastics/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-plastics/",
+          "detail": ""
+        },
+        {
+          "name": "og_title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Plastics | Grade Evaluation",
+          "expected": "Titanium Dioxide for Plastics | Grade Evaluation",
+          "detail": ""
+        },
+        {
+          "name": "og_description",
+          "pass": true,
+          "actual": "Compare TiO2 candidates in a defined plastic resin, process, specimen and exposure. Review Product Grades and prepare a document, sample or quotation request.",
+          "expected": "Compare TiO2 candidates in a defined plastic resin, process, specimen and exposure. Review Product Grades and prepare a document, sample or quotation request.",
+          "detail": ""
+        },
+        {
+          "name": "robots_index_follow",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": "index, follow"
+        },
+        {
+          "name": "breadcrumb",
+          "pass": true,
+          "actual": [
+            "Home",
+            "Applications",
+            "Plastics"
+          ],
+          "expected": [
+            "Home",
+            "Applications",
+            "Plastics"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "module_count",
+          "pass": true,
+          "actual": 12,
+          "expected": 12,
+          "detail": ""
+        },
+        {
+          "name": "grade_order",
+          "pass": true,
+          "actual": [
+            "M-350",
+            "M-510",
+            "M-200",
+            "M-108",
+            "M-210",
+            "M-340",
+            "M-886",
+            "M-2377"
+          ],
+          "expected": [
+            "M-350",
+            "M-510",
+            "M-200",
+            "M-108",
+            "M-210",
+            "M-340",
+            "M-886",
+            "M-2377"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "ready_grade_links_only",
+          "pass": true,
+          "actual": [
+            "/products/m-350/"
+          ],
+          "expected": [
+            "/products/m-350/"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "products_link_present",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "required_crosslinks",
+          "pass": true,
+          "actual": [
+            "/applications/titanium-dioxide-for-masterbatch/"
+          ],
+          "expected": [
+            "/applications/titanium-dioxide-for-masterbatch/"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "rfq_main_link_count",
+          "pass": true,
+          "actual": 1,
+          "expected": 1,
+          "detail": ""
+        },
+        {
+          "name": "documents_sample_controls_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "source_count",
+          "pass": true,
+          "actual": 13,
+          "expected": 13,
+          "detail": ""
+        },
+        {
+          "name": "source_urls_exact",
+          "pass": true,
+          "actual": [
+            "https://www.tdma.info/uses-of-tio2/how-titanium-dioxide-protects-your-outdoor-plastics/",
+            "https://www.hunterlab.com/en/blog/contrast-ratio-opacity/",
+            "https://www.iso.org/standard/61929.html",
+            "https://www.iso.org/standard/61930.html",
+            "https://blog.q-lab.com/how-many-hours-in-a-q-sun-xenon-test-chamber-or-a-quv-weathering-tester-equals-a-year-of-outdoor-exposure",
+            "https://www.atlas-mts.com/knowledge-center/atlas-weathering-blog/2024/december/weathering-basics-i-acceleration-",
+            "https://www.nist.gov/publications/accelerated-weathering-parameters-some-aromatic-engineering-thermoplastics-part-2",
+            "https://www.mdpi.com/2079-6439/13/9/122",
+            "https://pubmed.ncbi.nlm.nih.gov/33478158/",
+            "https://link.springer.com/article/10.1007/BF00361529",
+            "https://pubmed.ncbi.nlm.nih.gov/37631444/",
+            "https://www.iso.org/standard/76395.html",
+            "https://asq.org/quality-resources/cost-of-quality"
+          ],
+          "expected": [
+            "https://www.tdma.info/uses-of-tio2/how-titanium-dioxide-protects-your-outdoor-plastics/",
+            "https://www.hunterlab.com/en/blog/contrast-ratio-opacity/",
+            "https://www.iso.org/standard/61929.html",
+            "https://www.iso.org/standard/61930.html",
+            "https://blog.q-lab.com/how-many-hours-in-a-q-sun-xenon-test-chamber-or-a-quv-weathering-tester-equals-a-year-of-outdoor-exposure",
+            "https://www.atlas-mts.com/knowledge-center/atlas-weathering-blog/2024/december/weathering-basics-i-acceleration-",
+            "https://www.nist.gov/publications/accelerated-weathering-parameters-some-aromatic-engineering-thermoplastics-part-2",
+            "https://www.mdpi.com/2079-6439/13/9/122",
+            "https://pubmed.ncbi.nlm.nih.gov/33478158/",
+            "https://link.springer.com/article/10.1007/BF00361529",
+            "https://pubmed.ncbi.nlm.nih.gov/37631444/",
+            "https://www.iso.org/standard/76395.html",
+            "https://asq.org/quality-resources/cost-of-quality"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "source_link_safety",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "schema_types",
+          "pass": true,
+          "actual": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "expected": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "schema_page",
+          "pass": true,
+          "actual": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-plastics/",
+            "name": "Titanium Dioxide for Plastics",
+            "description": "Compare TiO2 candidates in a defined plastic resin, process, specimen and exposure. Review Product Grades and prepare a document, sample or quotation request.",
+            "inLanguage": "en"
+          },
+          "expected": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-plastics/",
+            "name": "Titanium Dioxide for Plastics",
+            "description": "Compare TiO2 candidates in a defined plastic resin, process, specimen and exposure. Review Product Grades and prepare a document, sample or quotation request.",
+            "inLanguage": "en"
+          },
+          "detail": ""
+        },
+        {
+          "name": "public_output_clean",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "no_runtime_content_endpoint",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "initial_html_substantive",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "hero_anchor_targets",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "table_semantics",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "shared_chrome",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "buyer_visible_current_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "terms_link_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "APP-MB",
+      "route": "/applications/titanium-dioxide-for-masterbatch/",
+      "served_sha256": "46820a5e59b63f9ead6f09acba43543e34aadd4b09cd9f6725a9104166ed44a0",
+      "out_file_sha256": "46820a5e59b63f9ead6f09acba43543e34aadd4b09cd9f6725a9104166ed44a0",
+      "checks": [
+        {
+          "name": "http_status",
+          "pass": true,
+          "actual": 200,
+          "expected": 200,
+          "detail": ""
+        },
+        {
+          "name": "served_bytes_equal_out_file",
+          "pass": true,
+          "actual": "46820a5e59b63f9ead6f09acba43543e34aadd4b09cd9f6725a9104166ed44a0",
+          "expected": "46820a5e59b63f9ead6f09acba43543e34aadd4b09cd9f6725a9104166ed44a0",
+          "detail": ""
+        },
+        {
+          "name": "approved_copy_exact",
+          "pass": true,
+          "actual": "# Titanium Dioxide for Masterbatch\n\nEvaluate a TiO2 pigment candidate in two connected stages: making the concentrate, then letting it down into the receiving resin and testing the final specimen. Keep each system, method, reference and endpoint explicit so that a concentrate result is not mistaken for final-use evidence.\n\n[Build Your Evaluation Basis](#define-the-two-stage-system) · [Review Masterbatch Grades](#grades-to-review)\n\n## Define the two-stage system\n\nTreat the pigment, carrier-based concentrate and receiving-resin article as separate evaluation objects. Record what you know for each stage:\n\n- carrier resin identity and Grade;\n- receiving resin identity and Grade;\n- TiO2 fraction in the concentrate and in the final material;\n- concentrate preparation, equipment and process conditions;\n- let-down and conversion route;\n- final specimen, geometry or thickness;\n- reference material; and\n- required optical, colour, mechanical, ageing or other end-use endpoints.\n\nIf an input is unknown, state that it is unknown and identify who can supply it. A shared polymer-family name alone does not make two systems equivalent.\n\n## Make the comparison basis explicit\n\nBefore interpreting results together, match the comparison conditions or disclose every difference. Name the method, concentrate preparation, equipment, conditions and test polymer. Also name the specimen, reference and endpoint that the comparison is intended to answer.\n\nISO 23900-5:2015 assesses colorant dispersion in a thermoplastic polymer through a filter pressure value test. Its public scope says the result is valid for the equipment, conditions and test polymer used. Because that part does not specify concentrate preparation, candidate results are comparable only when the colour concentrates are prepared by the same method.\n\nUse the published FPV result, not raw line-pressure rise alone. Your laboratory should select the applicable full method and operating protocol for the system; the public ISO page does not provide a universal acceptance threshold.\n\n## Read each observation for the question it answers\n\n| Observation | Question it can answer | Limit to keep visible |\n|---|---|---|\n| Flow or melt-flow observation | How did the material behave under the declared process or test conditions? | It is not a microscopic observation or final-performance result. |\n| Filter pressure value | What filter-pressure behaviour was measured under the declared method boundary? | Preparation, equipment, conditions and test polymer remain part of the result. |\n| Microscopy or distribution observation | What spatial state appeared in the specimen or field examined? | One field does not establish whole-lot homogeneity. |\n| Final-specimen test | How did the declared article perform against a stated reference and endpoint? | Optical, colour, mechanical and ageing or retention results remain separate questions. |\n\nA published LLDPE study varied carrier and concentrate-preparation conditions before producing cast films at controlled final pigment content and thickness. It measured flow, morphology, optical response and ageing separately. This is a useful example of the two stages and complementary evidence, not a carrier, loading or formulation prescription for another system.\n\nWhen observations agree, check that their stage, specimen, method and endpoint bases also align. When they differ, inspect those bases and collect the missing comparable evidence before assigning a cause.\n\n## Keep processing evidence within its stage\n\nFavourable concentrate flow, FPV or morphology evidence can support the next final-specimen trial. It cannot qualify an optical, colour, mechanical, ageing or retention requirement that has not been measured in the declared receiving resin, route, geometry and end use.\n\n“Film” identifies a geometry or conversion route; it does not identify a polymer. Evidence from an LLDPE cast film does not establish results for PP/BOPP, PVC, PET yarn or an engineering polymer. The cited accelerated-ageing observations are tied to the study specimens and endpoints and are not outdoor service-life evidence.\n\nIf your main task is evaluating the finished plastic after its TiO2 introduction route is chosen, continue to [Titanium Dioxide for Plastics](/applications/titanium-dioxide-for-plastics/). This page retains the carrier, formulation and concentrate-production questions that define the masterbatch stage.\n\n## Ask each document the right question\n\n| Document | What it can support | What to check |\n|---|---|---|\n| Current TDS | Grade-level screening information | Identity, revision, method, units and the stated status of each value |\n| SDS | Safety communication | Correct product identity and revision; it is not an application-performance report or a compliance conclusion |\n| Relevant lot CoA | Results for an identified lot | Lot identity, method, units and scope; it does not qualify the final application by itself |\n| Complete application report | Evidence for a tested system | Resin, preparation, specimen, reference, method and endpoint |\n\nManufacturer product pages illustrate why these roles should remain separate. The current Chemours Ti-Pure R-350 page presents application positioning and links product information, SDS and TDS resources separately. The current KRONOS 2220 page marks some product-characteristic values as typical. A page position or one field's status does not turn every value into a lot result or an independent application comparison.\n\nStart with the records that answer your current question. A TDS can support early Grade screening, while an SDS provides safety information. Add a relevant lot CoA once a lot is identified, and use application data when a tested system needs to be assessed. Record any missing document or context for later verification, and keep each conclusion within the document or trial that supports it.\n\n## Plan the next evaluation step\n\nYour team sets the trial plan, sampling, acceptance limits and repeatability needs. Use this sequence to decide which technical question to answer next:\n\n| Step | Evidence to assemble | Decision supported |\n|---|---|---|\n| Document screening | Defined two-stage system, records relevant to the current question and a list of missing inputs | Choose the inputs and conditions for a controlled concentrate trial |\n| Concentrate trial | Method-matched process evidence and the required flow, FPV or morphology observations | Decide whether to run the receiving-resin and final-specimen trial or collect more concentrate evidence |\n| Receiving-resin and final-specimen trial | Optical, colour, mechanical and end-use or retention evidence for the stated endpoints | Decide which tests to repeat or extend before judging whether the results meet the stated endpoints and acceptance requirements |\n| Repeatability assessment | Repeated results under declared conditions and a record of unresolved questions | Decide whether the evidence supports proceeding in this system or whether further testing is needed |\n\nEach step answers one technical question. If a required input or comparable result is missing, record it and obtain or test it before relying on the affected conclusion. A concentrate-stage result does not establish final fitness or recommend a Grade.\n\n## Compare economics after the accepted endpoint\n\nPowder price and nominal loading alone do not establish cost in use. Compare economics only after the candidate systems reach the same accepted final functional endpoint in the declared masterbatch and receiving-resin system.\n\nThen define the inputs you will compare: actual consumption, delivered cost, accepted yield, energy and time, losses, and allocated testing or change costs. Keep currency, date or period, terms and destination comparable. If the technical endpoint or current operating and commercial inputs are missing, request those data before calculating a result.\n\n## Grades to review\n\nUse these seven Grades as starting points for technical review. The list does not rank or recommend a Grade or establish fit, equivalence, comparative performance or availability in your system.\n\n| Grade | Process | Next step |\n|---|---|---|\n| M-510 | Chloride | [View M-510](/products/m-510/) |\n| M-200 | Chloride | [View M-200](/products/m-200/) |\n| M-108 | Sulfate | [View M-108](/products/m-108/) |\n| M-210 | Chloride | [View M-210](/products/m-210/) |\n| M-340 | Chloride | [View M-340](/products/m-340/) |\n| M-886 | Chloride | [View M-886](/products/m-886/) |\n| M-2377 | Sulfate | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for a candidate you are considering, or compare the relevant pages if you have several candidates. Keep each candidate's evidence and trial results separate. If you do not know the Grade, continue with your masterbatch system and the context you already have.\n\n[Explore All Products](/products/)\n\n## Prepare your request\n\nTell us the carrier and receiving resin where known, concentrate and final TiO2 fractions, preparation and conversion route, final specimen, target endpoints, comparison reference, documents already reviewed and the next unresolved question. State unknown conditions rather than guessing them.\n\n- [Request Technical Documents](/request-documents/) when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.\n- [Request a Sample](/request-sample/) with a known Grade or an unknown-Grade selection, your masterbatch application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.\n- [Discuss Your Masterbatch Application](/request-a-quote/) with a known lead Grade or `Not sure / Need help`. Tell us your masterbatch application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in `Additional Requirements`.\n\nAfter an RFQ is submitted, the team reviews the requirements and details and contacts you using the information provided.\n\n## Technical sources\n\n1. Christian J. Cabello-Alvarado, Zoe V. Quiñones-Jurado, Víctor J. Cruz-Delgado and Carlos A. Avila-Orta. [*Pigmentation and Degradative Activity of TiO2 on Polyethylene Films Using Masterbatches Fabricated Using Variable-Frequency Ultrasound-Assisted Melt-Extrusion*](https://pubmed.ncbi.nlm.nih.gov/32882893/). *Materials* 13(17), 3855; published 1 September 2020.\n2. ISO. [*ISO 23900-5:2015, Pigments and extenders — Methods of dispersion and assessment of dispersibility in plastics — Part 5: Determination by filter pressure value test*](https://www.iso.org/standard/61929.html). Edition 1, published May 2015; confirmed in 2025.\n3. Chemours / Ti-Pure. [*Ti-Pure R-350*](https://www.tipure.com/en/products/plastics/r-350). Manufacturer product page; no publication date shown; accessed 7 September 2026.\n4. KRONOS Worldwide. [*KRONOS 2220*](https://www.kronosww.com/grade/kronos-2220/). Manufacturer product page; no publication date shown; accessed 7 September 2026.",
+          "expected": "# Titanium Dioxide for Masterbatch\n\nEvaluate a TiO2 pigment candidate in two connected stages: making the concentrate, then letting it down into the receiving resin and testing the final specimen. Keep each system, method, reference and endpoint explicit so that a concentrate result is not mistaken for final-use evidence.\n\n[Build Your Evaluation Basis](#define-the-two-stage-system) · [Review Masterbatch Grades](#grades-to-review)\n\n## Define the two-stage system\n\nTreat the pigment, carrier-based concentrate and receiving-resin article as separate evaluation objects. Record what you know for each stage:\n\n- carrier resin identity and Grade;\n- receiving resin identity and Grade;\n- TiO2 fraction in the concentrate and in the final material;\n- concentrate preparation, equipment and process conditions;\n- let-down and conversion route;\n- final specimen, geometry or thickness;\n- reference material; and\n- required optical, colour, mechanical, ageing or other end-use endpoints.\n\nIf an input is unknown, state that it is unknown and identify who can supply it. A shared polymer-family name alone does not make two systems equivalent.\n\n## Make the comparison basis explicit\n\nBefore interpreting results together, match the comparison conditions or disclose every difference. Name the method, concentrate preparation, equipment, conditions and test polymer. Also name the specimen, reference and endpoint that the comparison is intended to answer.\n\nISO 23900-5:2015 assesses colorant dispersion in a thermoplastic polymer through a filter pressure value test. Its public scope says the result is valid for the equipment, conditions and test polymer used. Because that part does not specify concentrate preparation, candidate results are comparable only when the colour concentrates are prepared by the same method.\n\nUse the published FPV result, not raw line-pressure rise alone. Your laboratory should select the applicable full method and operating protocol for the system; the public ISO page does not provide a universal acceptance threshold.\n\n## Read each observation for the question it answers\n\n| Observation | Question it can answer | Limit to keep visible |\n|---|---|---|\n| Flow or melt-flow observation | How did the material behave under the declared process or test conditions? | It is not a microscopic observation or final-performance result. |\n| Filter pressure value | What filter-pressure behaviour was measured under the declared method boundary? | Preparation, equipment, conditions and test polymer remain part of the result. |\n| Microscopy or distribution observation | What spatial state appeared in the specimen or field examined? | One field does not establish whole-lot homogeneity. |\n| Final-specimen test | How did the declared article perform against a stated reference and endpoint? | Optical, colour, mechanical and ageing or retention results remain separate questions. |\n\nA published LLDPE study varied carrier and concentrate-preparation conditions before producing cast films at controlled final pigment content and thickness. It measured flow, morphology, optical response and ageing separately. This is a useful example of the two stages and complementary evidence, not a carrier, loading or formulation prescription for another system.\n\nWhen observations agree, check that their stage, specimen, method and endpoint bases also align. When they differ, inspect those bases and collect the missing comparable evidence before assigning a cause.\n\n## Keep processing evidence within its stage\n\nFavourable concentrate flow, FPV or morphology evidence can support the next final-specimen trial. It cannot qualify an optical, colour, mechanical, ageing or retention requirement that has not been measured in the declared receiving resin, route, geometry and end use.\n\n“Film” identifies a geometry or conversion route; it does not identify a polymer. Evidence from an LLDPE cast film does not establish results for PP/BOPP, PVC, PET yarn or an engineering polymer. The cited accelerated-ageing observations are tied to the study specimens and endpoints and are not outdoor service-life evidence.\n\nIf your main task is evaluating the finished plastic after its TiO2 introduction route is chosen, continue to [Titanium Dioxide for Plastics](/applications/titanium-dioxide-for-plastics/). This page retains the carrier, formulation and concentrate-production questions that define the masterbatch stage.\n\n## Ask each document the right question\n\n| Document | What it can support | What to check |\n|---|---|---|\n| Current TDS | Grade-level screening information | Identity, revision, method, units and the stated status of each value |\n| SDS | Safety communication | Correct product identity and revision; it is not an application-performance report or a compliance conclusion |\n| Relevant lot CoA | Results for an identified lot | Lot identity, method, units and scope; it does not qualify the final application by itself |\n| Complete application report | Evidence for a tested system | Resin, preparation, specimen, reference, method and endpoint |\n\nManufacturer product pages illustrate why these roles should remain separate. The current Chemours Ti-Pure R-350 page presents application positioning and links product information, SDS and TDS resources separately. The current KRONOS 2220 page marks some product-characteristic values as typical. A page position or one field's status does not turn every value into a lot result or an independent application comparison.\n\nStart with the records that answer your current question. A TDS can support early Grade screening, while an SDS provides safety information. Add a relevant lot CoA once a lot is identified, and use application data when a tested system needs to be assessed. Record any missing document or context for later verification, and keep each conclusion within the document or trial that supports it.\n\n## Plan the next evaluation step\n\nYour team sets the trial plan, sampling, acceptance limits and repeatability needs. Use this sequence to decide which technical question to answer next:\n\n| Step | Evidence to assemble | Decision supported |\n|---|---|---|\n| Document screening | Defined two-stage system, records relevant to the current question and a list of missing inputs | Choose the inputs and conditions for a controlled concentrate trial |\n| Concentrate trial | Method-matched process evidence and the required flow, FPV or morphology observations | Decide whether to run the receiving-resin and final-specimen trial or collect more concentrate evidence |\n| Receiving-resin and final-specimen trial | Optical, colour, mechanical and end-use or retention evidence for the stated endpoints | Decide which tests to repeat or extend before judging whether the results meet the stated endpoints and acceptance requirements |\n| Repeatability assessment | Repeated results under declared conditions and a record of unresolved questions | Decide whether the evidence supports proceeding in this system or whether further testing is needed |\n\nEach step answers one technical question. If a required input or comparable result is missing, record it and obtain or test it before relying on the affected conclusion. A concentrate-stage result does not establish final fitness or recommend a Grade.\n\n## Compare economics after the accepted endpoint\n\nPowder price and nominal loading alone do not establish cost in use. Compare economics only after the candidate systems reach the same accepted final functional endpoint in the declared masterbatch and receiving-resin system.\n\nThen define the inputs you will compare: actual consumption, delivered cost, accepted yield, energy and time, losses, and allocated testing or change costs. Keep currency, date or period, terms and destination comparable. If the technical endpoint or current operating and commercial inputs are missing, request those data before calculating a result.\n\n## Grades to review\n\nUse these seven Grades as starting points for technical review. The list does not rank or recommend a Grade or establish fit, equivalence, comparative performance or availability in your system.\n\n| Grade | Process | Next step |\n|---|---|---|\n| M-510 | Chloride | [View M-510](/products/m-510/) |\n| M-200 | Chloride | [View M-200](/products/m-200/) |\n| M-108 | Sulfate | [View M-108](/products/m-108/) |\n| M-210 | Chloride | [View M-210](/products/m-210/) |\n| M-340 | Chloride | [View M-340](/products/m-340/) |\n| M-886 | Chloride | [View M-886](/products/m-886/) |\n| M-2377 | Sulfate | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for a candidate you are considering, or compare the relevant pages if you have several candidates. Keep each candidate's evidence and trial results separate. If you do not know the Grade, continue with your masterbatch system and the context you already have.\n\n[Explore All Products](/products/)\n\n## Prepare your request\n\nTell us the carrier and receiving resin where known, concentrate and final TiO2 fractions, preparation and conversion route, final specimen, target endpoints, comparison reference, documents already reviewed and the next unresolved question. State unknown conditions rather than guessing them.\n\n- [Request Technical Documents](/request-documents/) when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.\n- [Request a Sample](/request-sample/) with a known Grade or an unknown-Grade selection, your masterbatch application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.\n- [Discuss Your Masterbatch Application](/request-a-quote/) with a known lead Grade or `Not sure / Need help`. Tell us your masterbatch application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in `Additional Requirements`.\n\nAfter an RFQ is submitted, the team reviews the requirements and details and contacts you using the information provided.\n\n## Technical sources\n\n1. Christian J. Cabello-Alvarado, Zoe V. Quiñones-Jurado, Víctor J. Cruz-Delgado and Carlos A. Avila-Orta. [*Pigmentation and Degradative Activity of TiO2 on Polyethylene Films Using Masterbatches Fabricated Using Variable-Frequency Ultrasound-Assisted Melt-Extrusion*](https://pubmed.ncbi.nlm.nih.gov/32882893/). *Materials* 13(17), 3855; published 1 September 2020.\n2. ISO. [*ISO 23900-5:2015, Pigments and extenders — Methods of dispersion and assessment of dispersibility in plastics — Part 5: Determination by filter pressure value test*](https://www.iso.org/standard/61929.html). Edition 1, published May 2015; confirmed in 2025.\n3. Chemours / Ti-Pure. [*Ti-Pure R-350*](https://www.tipure.com/en/products/plastics/r-350). Manufacturer product page; no publication date shown; accessed 7 September 2026.\n4. KRONOS Worldwide. [*KRONOS 2220*](https://www.kronosww.com/grade/kronos-2220/). Manufacturer product page; no publication date shown; accessed 7 September 2026.",
+          "detail": ""
+        },
+        {
+          "name": "html_lang",
+          "pass": true,
+          "actual": "en",
+          "expected": "en",
+          "detail": ""
+        },
+        {
+          "name": "h1",
+          "pass": true,
+          "actual": "Titanium Dioxide for Masterbatch",
+          "expected": "Titanium Dioxide for Masterbatch",
+          "detail": ""
+        },
+        {
+          "name": "title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Masterbatch Evaluation | TiO2 Malaysia",
+          "expected": "Titanium Dioxide for Masterbatch Evaluation | TiO2 Malaysia",
+          "detail": ""
+        },
+        {
+          "name": "description",
+          "pass": true,
+          "actual": "Evaluate titanium dioxide for masterbatch by separating concentrate processing from final-article evidence. Review Product Grades and prepare your request.",
+          "expected": "Evaluate titanium dioxide for masterbatch by separating concentrate processing from final-article evidence. Review Product Grades and prepare your request.",
+          "detail": ""
+        },
+        {
+          "name": "canonical",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-masterbatch/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-masterbatch/",
+          "detail": ""
+        },
+        {
+          "name": "og_url",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-masterbatch/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-masterbatch/",
+          "detail": ""
+        },
+        {
+          "name": "og_title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Masterbatch Evaluation | TiO2 Malaysia",
+          "expected": "Titanium Dioxide for Masterbatch Evaluation | TiO2 Malaysia",
+          "detail": ""
+        },
+        {
+          "name": "og_description",
+          "pass": true,
+          "actual": "Evaluate titanium dioxide for masterbatch by separating concentrate processing from final-article evidence. Review Product Grades and prepare your request.",
+          "expected": "Evaluate titanium dioxide for masterbatch by separating concentrate processing from final-article evidence. Review Product Grades and prepare your request.",
+          "detail": ""
+        },
+        {
+          "name": "robots_index_follow",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": "index, follow"
+        },
+        {
+          "name": "breadcrumb",
+          "pass": true,
+          "actual": [
+            "Home",
+            "Applications",
+            "Masterbatch"
+          ],
+          "expected": [
+            "Home",
+            "Applications",
+            "Masterbatch"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "module_count",
+          "pass": true,
+          "actual": 11,
+          "expected": 11,
+          "detail": ""
+        },
+        {
+          "name": "grade_order",
+          "pass": true,
+          "actual": [
+            "M-510",
+            "M-200",
+            "M-108",
+            "M-210",
+            "M-340",
+            "M-886",
+            "M-2377"
+          ],
+          "expected": [
+            "M-510",
+            "M-200",
+            "M-108",
+            "M-210",
+            "M-340",
+            "M-886",
+            "M-2377"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "ready_grade_links_only",
+          "pass": true,
+          "actual": [],
+          "expected": [],
+          "detail": ""
+        },
+        {
+          "name": "products_link_present",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "required_crosslinks",
+          "pass": true,
+          "actual": [
+            "/applications/titanium-dioxide-for-plastics/"
+          ],
+          "expected": [
+            "/applications/titanium-dioxide-for-plastics/"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "rfq_main_link_count",
+          "pass": true,
+          "actual": 1,
+          "expected": 1,
+          "detail": ""
+        },
+        {
+          "name": "documents_sample_controls_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "source_count",
+          "pass": true,
+          "actual": 4,
+          "expected": 4,
+          "detail": ""
+        },
+        {
+          "name": "source_urls_exact",
+          "pass": true,
+          "actual": [
+            "https://pubmed.ncbi.nlm.nih.gov/32882893/",
+            "https://www.iso.org/standard/61929.html",
+            "https://www.tipure.com/en/products/plastics/r-350",
+            "https://www.kronosww.com/grade/kronos-2220/"
+          ],
+          "expected": [
+            "https://pubmed.ncbi.nlm.nih.gov/32882893/",
+            "https://www.iso.org/standard/61929.html",
+            "https://www.tipure.com/en/products/plastics/r-350",
+            "https://www.kronosww.com/grade/kronos-2220/"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "source_link_safety",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "schema_types",
+          "pass": true,
+          "actual": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "expected": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "schema_page",
+          "pass": true,
+          "actual": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-masterbatch/",
+            "name": "Titanium Dioxide for Masterbatch",
+            "description": "Evaluate titanium dioxide for masterbatch by separating concentrate processing from final-article evidence. Review Product Grades and prepare your request.",
+            "inLanguage": "en"
+          },
+          "expected": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-masterbatch/",
+            "name": "Titanium Dioxide for Masterbatch",
+            "description": "Evaluate titanium dioxide for masterbatch by separating concentrate processing from final-article evidence. Review Product Grades and prepare your request.",
+            "inLanguage": "en"
+          },
+          "detail": ""
+        },
+        {
+          "name": "public_output_clean",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "no_runtime_content_endpoint",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "initial_html_substantive",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "hero_anchor_targets",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "table_semantics",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "shared_chrome",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "buyer_visible_current_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "terms_link_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "APP-INK",
+      "route": "/applications/titanium-dioxide-for-printing-inks/",
+      "served_sha256": "1c1194f5243c9115bc5979b6df0455a68e2b41f7a30cc5cd8d5fc5959d3e62ee",
+      "out_file_sha256": "1c1194f5243c9115bc5979b6df0455a68e2b41f7a30cc5cd8d5fc5959d3e62ee",
+      "checks": [
+        {
+          "name": "http_status",
+          "pass": true,
+          "actual": 200,
+          "expected": 200,
+          "detail": ""
+        },
+        {
+          "name": "served_bytes_equal_out_file",
+          "pass": true,
+          "actual": "1c1194f5243c9115bc5979b6df0455a68e2b41f7a30cc5cd8d5fc5959d3e62ee",
+          "expected": "1c1194f5243c9115bc5979b6df0455a68e2b41f7a30cc5cd8d5fc5959d3e62ee",
+          "detail": ""
+        },
+        {
+          "name": "approved_copy_exact",
+          "pass": true,
+          "actual": "# Titanium Dioxide for Printing Inks\n\nCompare a TiO2 candidate in the white ink and print you actually need. Define the vehicle, printing process, substrate, deposited film, drying or cure, end use, incumbent and rejection conditions before interpreting opacity, dispersion or cost.\n\n[Build Your Print Comparison](#define-the-ink-and-print-system) · [Review Printing Inks Grades](#grades-to-review)\n\n## Define the ink and print system\n\nStart with the system in which the pigment will be evaluated. Record what you know about:\n\n- ink chemistry and vehicle;\n- printing process and relevant equipment context;\n- substrate and any surface treatment;\n- deposited white-ink film and how it is prepared;\n- drying or cure conditions;\n- end use and any later converting step that affects the evaluation;\n- incumbent ink or pigment reference;\n- optical and colour targets; and\n- rejection conditions for the printed result.\n\nIf a detail is unknown, state that it is unknown and identify the person or supplier who may hold it. You can still prepare a focused request without guessing a process, Grade or target.\n\n## Judge opacity in the printed white layer\n\nOpacity is a result of the prepared ink, deposited layer, substrate and measurement basis. Keep it separate from coverage or pinholes and from colour. A more opaque reading does not by itself show that the white layer is uniform or that the overprinted colour result is acceptable.\n\nA 2023 *Applied Sciences* study examined a solvent-based opaque white reverse-flexographic layer on treated BOPET while varying anilox volume under otherwise stated print conditions. It assessed opacity and ink-layer uniformity, including pinholes, separately. The study did not compare TiO2 candidates, and its measurements were taken before varnishing and lamination. Its results therefore illustrate why deposited-layer conditions belong in the comparison; they do not supply a target for another ink, press, substrate or converted structure.\n\nISO 23498:2022 describes a method for visual opacity assessment of printed white ink on transparent and opaque substrates. ISO 13655:2017 covers spectral measurement and colorimetric computation for graphic-arts images. Use the full method selected by your laboratory and record the specimen, backing, instrument conditions and acceptance basis. These public scope pages do not provide a universal opacity threshold or convert a printed-ink colour result into a raw-pigment whiteness result.\n\n## Read dispersion, rheology and storage together\n\nDispersion state, viscosity and stability can move together or trade off under a particular formulation and method. Record the vehicle, pigment state, dispersant context, solids basis, preparation, shear or measurement conditions and observation period before comparing results.\n\nA 2025 *ACS Omega* study investigated aqueous dispersions of untreated primary rutile TiO2 with poly(acrylic acid) sodium salt dispersants of different molecular weights. It measured viscosity, zeta potential and stability with multiple-light-scattering methods in that research system. This is evidence that dispersion, rheology and stability should be read together. It is not a finished commercial printing ink, a surface-treated Grade comparison, a dispersant recommendation, a dosage instruction or a shelf-life claim.\n\nWhen results differ, first check whether the preparation, solids basis, temperature, shear history, method or observation period also changed. Do not assign the difference to the pigment alone unless the comparison supports that conclusion.\n\n## Keep grind and particle measurements in context\n\nISO 1524:2020 covers the use of a graduated gauge to determine fineness of grind for paints, inks and related products. A fineness-of-grind gauge reading is taken under specified conditions at the groove depth where discrete solid particles become readily discernible. It is not the pigment's primary particle size, a complete particle-size distribution or proof of nozzle, screen or filtration performance.\n\nRecord the full method, sample preparation, gauge range, reading basis and units. Pair the result with the rheology, stability and printed-film evidence needed for your own system rather than treating one grind reading as a complete dispersion verdict.\n\n## Use supplier documents to frame the comparison\n\n| Record | What it can support | What to check |\n|---|---|---|\n| Current TDS | Grade-level screening information | Product identity, revision, method, units and whether a value is typical or specified |\n| SDS | Safety communication | Correct product identity and revision; it is not an application-performance report or a compliance conclusion |\n| Relevant lot CoA | Results for an identified lot | Lot identity, method, units and scope; it does not establish finished-ink or print performance by itself |\n| Application or trial data | Evidence for a tested system | Vehicle, process, substrate, deposited film, drying or cure, reference, method and endpoint |\n\nSelect the records that answer the question you are working on. A TDS may support early Grade screening, while an SDS provides safety information. Add lot evidence when a lot is identified and application data when a tested system needs to be assessed. Record missing context for later verification; incomplete records do not require you to invent a conclusion.\n\n## Compare incumbent and candidate on matched conditions\n\nKeep the incumbent and candidate trials aligned wherever the comparison depends on the same condition. Record formulation basis, preparation, print method, substrate, deposited film, drying or cure, conditioning, measurement method, reference and acceptance requirement. If one factor must change, disclose it and judge what the resulting comparison can still answer.\n\nISO 2834-2:2022 covers preparation of test prints with liquid printing inks for processes including flexography and gravure. Its public scope includes water-based, solvent-based and radiation-curing inks and excludes inkjet inks. It does not declare a pigment suitable for a process or provide a complete production setting.\n\nAssess opacity, coverage or pinholes, colour, rheology, stability and other required print or conversion results as separate stated endpoints. If a result reaches its acceptance requirement, decide whether a representative repeat or next test is needed. If information is missing, record the question and repeat or extend the relevant test. If a result does not reach the requirement, retain that result for the declared system. These outcomes do not recommend or rank a Grade for another system.\n\n## Compare cost on accepted printed output\n\nPrice per kilogram, nominal TiO2 content and ink loading form a meaningful cost comparison only after both the incumbent and candidate inks reach the same accepted endpoint in the declared printed output.\n\nUse your own current delivered prices, actual consumption, accepted print yield, waste, rework, downtime and allocated trial or change costs. Keep currency, date, commercial terms and destination comparable. If the technical endpoint or current cost inputs are not aligned, collect the missing evidence instead of projecting a saving or a Grade winner.\n\n## Grades to Review\n\n| Product Grade | Continue your review |\n|---|---|\n| M-350 | [View M-350](/products/m-350/) |\n| M-510 | [View M-510](/products/m-510/) |\n| M-52 | [View M-52](/products/m-52/) |\n| M-2377 | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for a candidate you are considering and review its public information against your defined ink and print system. If you have several candidates, compare the relevant pages and keep each candidate's documents and trial results separate. The order is not a ranking; determine fit from evidence in your own system and your stated acceptance requirements. If you do not know the Grade, continue with your ink system and the context you already have.\n\n[Explore All Products](/products/)\n\n## Prepare your request\n\nBring the known ink and print context: vehicle, printing process, substrate, deposited white layer, drying or cure, end use, incumbent reference, required endpoints, rejection conditions and methods already used. Mark any missing detail as unknown.\n\n- [Request Technical Documents](/request-documents/) when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.\n- [Request a Sample](/request-sample/) with a known Grade or an unknown-Grade selection, your Printing Inks application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.\n- [Discuss Your Printing Inks Application](/request-a-quote/) with a known lead Grade or `Not sure / Need help`. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in `Additional Requirements`.\n\nAfter an RFQ is submitted, the team reviews the requirements and details and contacts you using the information provided.\n\n## Technical sources\n\n1. Renata Tomerlin, Dean Valdec, Mario Tomiša and Damir Vusić. [*The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality*](https://www.mdpi.com/2076-3417/13/15/8575). *Applied Sciences* research article, 2023. The cited use is limited to its stated reverse-flexographic white-ink layer, treated BOPET, anilox-volume comparison and pre-varnish/pre-lamination measurements.\n2. Liu et al. [*Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity*](https://pubmed.ncbi.nlm.nih.gov/40290988/). PubMed record for an *ACS Omega* research article; electronically published 10 April 2025. The cited use is limited to the declared untreated-rutile aqueous PAAS dispersion and its viscosity, zeta-potential and stability measurements.\n3. International Organization for Standardization. [*ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks*](https://www.iso.org/standard/82263.html). Official standard landing page; edition 3, published December 2022.\n4. International Organization for Standardization. [*ISO 23498:2022 — Visual opacity of printed white ink*](https://www.iso.org/standard/83546.html). Official standard landing page; edition 2, published December 2022.\n5. International Organization for Standardization. [*ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images*](https://www.iso.org/standard/65430.html). Official standard landing page; edition 3, published July 2017 and confirmed in 2022.\n6. International Organization for Standardization. [*ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind*](https://www.iso.org/standard/76040.html). Official standard landing page; edition 5, published June 2020 and confirmed in 2026.",
+          "expected": "# Titanium Dioxide for Printing Inks\n\nCompare a TiO2 candidate in the white ink and print you actually need. Define the vehicle, printing process, substrate, deposited film, drying or cure, end use, incumbent and rejection conditions before interpreting opacity, dispersion or cost.\n\n[Build Your Print Comparison](#define-the-ink-and-print-system) · [Review Printing Inks Grades](#grades-to-review)\n\n## Define the ink and print system\n\nStart with the system in which the pigment will be evaluated. Record what you know about:\n\n- ink chemistry and vehicle;\n- printing process and relevant equipment context;\n- substrate and any surface treatment;\n- deposited white-ink film and how it is prepared;\n- drying or cure conditions;\n- end use and any later converting step that affects the evaluation;\n- incumbent ink or pigment reference;\n- optical and colour targets; and\n- rejection conditions for the printed result.\n\nIf a detail is unknown, state that it is unknown and identify the person or supplier who may hold it. You can still prepare a focused request without guessing a process, Grade or target.\n\n## Judge opacity in the printed white layer\n\nOpacity is a result of the prepared ink, deposited layer, substrate and measurement basis. Keep it separate from coverage or pinholes and from colour. A more opaque reading does not by itself show that the white layer is uniform or that the overprinted colour result is acceptable.\n\nA 2023 *Applied Sciences* study examined a solvent-based opaque white reverse-flexographic layer on treated BOPET while varying anilox volume under otherwise stated print conditions. It assessed opacity and ink-layer uniformity, including pinholes, separately. The study did not compare TiO2 candidates, and its measurements were taken before varnishing and lamination. Its results therefore illustrate why deposited-layer conditions belong in the comparison; they do not supply a target for another ink, press, substrate or converted structure.\n\nISO 23498:2022 describes a method for visual opacity assessment of printed white ink on transparent and opaque substrates. ISO 13655:2017 covers spectral measurement and colorimetric computation for graphic-arts images. Use the full method selected by your laboratory and record the specimen, backing, instrument conditions and acceptance basis. These public scope pages do not provide a universal opacity threshold or convert a printed-ink colour result into a raw-pigment whiteness result.\n\n## Read dispersion, rheology and storage together\n\nDispersion state, viscosity and stability can move together or trade off under a particular formulation and method. Record the vehicle, pigment state, dispersant context, solids basis, preparation, shear or measurement conditions and observation period before comparing results.\n\nA 2025 *ACS Omega* study investigated aqueous dispersions of untreated primary rutile TiO2 with poly(acrylic acid) sodium salt dispersants of different molecular weights. It measured viscosity, zeta potential and stability with multiple-light-scattering methods in that research system. This is evidence that dispersion, rheology and stability should be read together. It is not a finished commercial printing ink, a surface-treated Grade comparison, a dispersant recommendation, a dosage instruction or a shelf-life claim.\n\nWhen results differ, first check whether the preparation, solids basis, temperature, shear history, method or observation period also changed. Do not assign the difference to the pigment alone unless the comparison supports that conclusion.\n\n## Keep grind and particle measurements in context\n\nISO 1524:2020 covers the use of a graduated gauge to determine fineness of grind for paints, inks and related products. A fineness-of-grind gauge reading is taken under specified conditions at the groove depth where discrete solid particles become readily discernible. It is not the pigment's primary particle size, a complete particle-size distribution or proof of nozzle, screen or filtration performance.\n\nRecord the full method, sample preparation, gauge range, reading basis and units. Pair the result with the rheology, stability and printed-film evidence needed for your own system rather than treating one grind reading as a complete dispersion verdict.\n\n## Use supplier documents to frame the comparison\n\n| Record | What it can support | What to check |\n|---|---|---|\n| Current TDS | Grade-level screening information | Product identity, revision, method, units and whether a value is typical or specified |\n| SDS | Safety communication | Correct product identity and revision; it is not an application-performance report or a compliance conclusion |\n| Relevant lot CoA | Results for an identified lot | Lot identity, method, units and scope; it does not establish finished-ink or print performance by itself |\n| Application or trial data | Evidence for a tested system | Vehicle, process, substrate, deposited film, drying or cure, reference, method and endpoint |\n\nSelect the records that answer the question you are working on. A TDS may support early Grade screening, while an SDS provides safety information. Add lot evidence when a lot is identified and application data when a tested system needs to be assessed. Record missing context for later verification; incomplete records do not require you to invent a conclusion.\n\n## Compare incumbent and candidate on matched conditions\n\nKeep the incumbent and candidate trials aligned wherever the comparison depends on the same condition. Record formulation basis, preparation, print method, substrate, deposited film, drying or cure, conditioning, measurement method, reference and acceptance requirement. If one factor must change, disclose it and judge what the resulting comparison can still answer.\n\nISO 2834-2:2022 covers preparation of test prints with liquid printing inks for processes including flexography and gravure. Its public scope includes water-based, solvent-based and radiation-curing inks and excludes inkjet inks. It does not declare a pigment suitable for a process or provide a complete production setting.\n\nAssess opacity, coverage or pinholes, colour, rheology, stability and other required print or conversion results as separate stated endpoints. If a result reaches its acceptance requirement, decide whether a representative repeat or next test is needed. If information is missing, record the question and repeat or extend the relevant test. If a result does not reach the requirement, retain that result for the declared system. These outcomes do not recommend or rank a Grade for another system.\n\n## Compare cost on accepted printed output\n\nPrice per kilogram, nominal TiO2 content and ink loading form a meaningful cost comparison only after both the incumbent and candidate inks reach the same accepted endpoint in the declared printed output.\n\nUse your own current delivered prices, actual consumption, accepted print yield, waste, rework, downtime and allocated trial or change costs. Keep currency, date, commercial terms and destination comparable. If the technical endpoint or current cost inputs are not aligned, collect the missing evidence instead of projecting a saving or a Grade winner.\n\n## Grades to Review\n\n| Product Grade | Continue your review |\n|---|---|\n| M-350 | [View M-350](/products/m-350/) |\n| M-510 | [View M-510](/products/m-510/) |\n| M-52 | [View M-52](/products/m-52/) |\n| M-2377 | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for a candidate you are considering and review its public information against your defined ink and print system. If you have several candidates, compare the relevant pages and keep each candidate's documents and trial results separate. The order is not a ranking; determine fit from evidence in your own system and your stated acceptance requirements. If you do not know the Grade, continue with your ink system and the context you already have.\n\n[Explore All Products](/products/)\n\n## Prepare your request\n\nBring the known ink and print context: vehicle, printing process, substrate, deposited white layer, drying or cure, end use, incumbent reference, required endpoints, rejection conditions and methods already used. Mark any missing detail as unknown.\n\n- [Request Technical Documents](/request-documents/) when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.\n- [Request a Sample](/request-sample/) with a known Grade or an unknown-Grade selection, your Printing Inks application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.\n- [Discuss Your Printing Inks Application](/request-a-quote/) with a known lead Grade or `Not sure / Need help`. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in `Additional Requirements`.\n\nAfter an RFQ is submitted, the team reviews the requirements and details and contacts you using the information provided.\n\n## Technical sources\n\n1. Renata Tomerlin, Dean Valdec, Mario Tomiša and Damir Vusić. [*The Impact of Underlying Opaque White Coating Parameters on Flexographic Print Quality*](https://www.mdpi.com/2076-3417/13/15/8575). *Applied Sciences* research article, 2023. The cited use is limited to its stated reverse-flexographic white-ink layer, treated BOPET, anilox-volume comparison and pre-varnish/pre-lamination measurements.\n2. Liu et al. [*Designing Titanium Dioxide Aqueous Dispersion with High Solid Content and Low Viscosity*](https://pubmed.ncbi.nlm.nih.gov/40290988/). PubMed record for an *ACS Omega* research article; electronically published 10 April 2025. The cited use is limited to the declared untreated-rutile aqueous PAAS dispersion and its viscosity, zeta-potential and stability measurements.\n3. International Organization for Standardization. [*ISO 2834-2:2022 — Graphic technology — Laboratory preparation of test prints — Part 2: Liquid printing inks*](https://www.iso.org/standard/82263.html). Official standard landing page; edition 3, published December 2022.\n4. International Organization for Standardization. [*ISO 23498:2022 — Visual opacity of printed white ink*](https://www.iso.org/standard/83546.html). Official standard landing page; edition 2, published December 2022.\n5. International Organization for Standardization. [*ISO 13655:2017 — Spectral measurement and colorimetric computation for graphic arts images*](https://www.iso.org/standard/65430.html). Official standard landing page; edition 3, published July 2017 and confirmed in 2022.\n6. International Organization for Standardization. [*ISO 1524:2020 — Paints, varnishes and printing inks — Determination of fineness of grind*](https://www.iso.org/standard/76040.html). Official standard landing page; edition 5, published June 2020 and confirmed in 2026.",
+          "detail": ""
+        },
+        {
+          "name": "html_lang",
+          "pass": true,
+          "actual": "en",
+          "expected": "en",
+          "detail": ""
+        },
+        {
+          "name": "h1",
+          "pass": true,
+          "actual": "Titanium Dioxide for Printing Inks",
+          "expected": "Titanium Dioxide for Printing Inks",
+          "detail": ""
+        },
+        {
+          "name": "title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Printing Inks | TiO2 Malaysia",
+          "expected": "Titanium Dioxide for Printing Inks | TiO2 Malaysia",
+          "detail": ""
+        },
+        {
+          "name": "description",
+          "pass": true,
+          "actual": "Compare titanium dioxide candidates in a defined white-ink and print system. Review Product Grades and prepare a document, sample or quotation request.",
+          "expected": "Compare titanium dioxide candidates in a defined white-ink and print system. Review Product Grades and prepare a document, sample or quotation request.",
+          "detail": ""
+        },
+        {
+          "name": "canonical",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-printing-inks/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-printing-inks/",
+          "detail": ""
+        },
+        {
+          "name": "og_url",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-printing-inks/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-printing-inks/",
+          "detail": ""
+        },
+        {
+          "name": "og_title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Printing Inks | TiO2 Malaysia",
+          "expected": "Titanium Dioxide for Printing Inks | TiO2 Malaysia",
+          "detail": ""
+        },
+        {
+          "name": "og_description",
+          "pass": true,
+          "actual": "Compare titanium dioxide candidates in a defined white-ink and print system. Review Product Grades and prepare a document, sample or quotation request.",
+          "expected": "Compare titanium dioxide candidates in a defined white-ink and print system. Review Product Grades and prepare a document, sample or quotation request.",
+          "detail": ""
+        },
+        {
+          "name": "robots_index_follow",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": "index, follow"
+        },
+        {
+          "name": "breadcrumb",
+          "pass": true,
+          "actual": [
+            "Home",
+            "Applications",
+            "Printing Inks"
+          ],
+          "expected": [
+            "Home",
+            "Applications",
+            "Printing Inks"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "module_count",
+          "pass": true,
+          "actual": 11,
+          "expected": 11,
+          "detail": ""
+        },
+        {
+          "name": "grade_order",
+          "pass": true,
+          "actual": [
+            "M-350",
+            "M-510",
+            "M-52",
+            "M-2377"
+          ],
+          "expected": [
+            "M-350",
+            "M-510",
+            "M-52",
+            "M-2377"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "ready_grade_links_only",
+          "pass": true,
+          "actual": [
+            "/products/m-350/"
+          ],
+          "expected": [
+            "/products/m-350/"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "products_link_present",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "required_crosslinks",
+          "pass": true,
+          "actual": [],
+          "expected": [],
+          "detail": ""
+        },
+        {
+          "name": "rfq_main_link_count",
+          "pass": true,
+          "actual": 1,
+          "expected": 1,
+          "detail": ""
+        },
+        {
+          "name": "documents_sample_controls_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "source_count",
+          "pass": true,
+          "actual": 6,
+          "expected": 6,
+          "detail": ""
+        },
+        {
+          "name": "source_urls_exact",
+          "pass": true,
+          "actual": [
+            "https://www.mdpi.com/2076-3417/13/15/8575",
+            "https://pubmed.ncbi.nlm.nih.gov/40290988/",
+            "https://www.iso.org/standard/82263.html",
+            "https://www.iso.org/standard/83546.html",
+            "https://www.iso.org/standard/65430.html",
+            "https://www.iso.org/standard/76040.html"
+          ],
+          "expected": [
+            "https://www.mdpi.com/2076-3417/13/15/8575",
+            "https://pubmed.ncbi.nlm.nih.gov/40290988/",
+            "https://www.iso.org/standard/82263.html",
+            "https://www.iso.org/standard/83546.html",
+            "https://www.iso.org/standard/65430.html",
+            "https://www.iso.org/standard/76040.html"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "source_link_safety",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "schema_types",
+          "pass": true,
+          "actual": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "expected": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "schema_page",
+          "pass": true,
+          "actual": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-printing-inks/",
+            "name": "Titanium Dioxide for Printing Inks",
+            "description": "Compare titanium dioxide candidates in a defined white-ink and print system. Review Product Grades and prepare a document, sample or quotation request.",
+            "inLanguage": "en"
+          },
+          "expected": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-printing-inks/",
+            "name": "Titanium Dioxide for Printing Inks",
+            "description": "Compare titanium dioxide candidates in a defined white-ink and print system. Review Product Grades and prepare a document, sample or quotation request.",
+            "inLanguage": "en"
+          },
+          "detail": ""
+        },
+        {
+          "name": "public_output_clean",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "no_runtime_content_endpoint",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "initial_html_substantive",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "hero_anchor_targets",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "table_semantics",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "shared_chrome",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "buyer_visible_current_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "terms_link_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "APP-PAPER",
+      "route": "/applications/titanium-dioxide-for-paper/",
+      "served_sha256": "62a116d0f4ea48594b3b107445854fdc4cae9c17622be9d6ad76331150e00a82",
+      "out_file_sha256": "62a116d0f4ea48594b3b107445854fdc4cae9c17622be9d6ad76331150e00a82",
+      "checks": [
+        {
+          "name": "http_status",
+          "pass": true,
+          "actual": 200,
+          "expected": 200,
+          "detail": ""
+        },
+        {
+          "name": "served_bytes_equal_out_file",
+          "pass": true,
+          "actual": "62a116d0f4ea48594b3b107445854fdc4cae9c17622be9d6ad76331150e00a82",
+          "expected": "62a116d0f4ea48594b3b107445854fdc4cae9c17622be9d6ad76331150e00a82",
+          "detail": ""
+        },
+        {
+          "name": "approved_copy_exact",
+          "pass": true,
+          "actual": "# Titanium Dioxide for Paper\n\nEvaluate a TiO2 candidate against the paper result you need, using an identified baseline, the actual paper system and method-matched finished-paper data. A similar technical data sheet field can support screening; it does not establish a replacement result.\n\nThis page supports general paper evaluation. The detailed framework centres on decorative and lightweight paper because those are the defined technical contexts behind this guidance. It does not treat those or other paper constructions as interchangeable.\n\n[Build Your Paper Evaluation](#define-the-paper-result-and-system) · [Review Paper Grades](#grades-to-review)\n\n## Define the paper result and system\n\nStart with the finished-paper outcomes the candidate must reproduce or otherwise satisfy. Then record the system that gives those outcomes meaning:\n\n- paper type, end use, furnish and construction;\n- basis weight or grammage, when relevant to the comparison;\n- wet-end, coating or another buyer-defined addition route;\n- chemistry and process conditions that your team considers material;\n- current Grade, candidate identity and the reason for the comparison;\n- target finished-paper properties and the named method for each; and\n- rejection conditions for the finished paper.\n\nDecorative and lightweight papers can use the same evaluation discipline, but their furnishes, constructions, routes and targets can differ. If a material input is unknown, state that it is unknown and identify who may hold it. Do not fill the gap with a generic paper assumption.\n\nA 2016 *BioResources* review explains TiO2's strong opacifying role in paper through its refractive-index contrast with other paper components. The same review notes that filler brightness and paper brightness can have only an indirect relationship and that particle agglomeration can reduce light-scattering efficiency. These observations explain why the actual paper system matters; they do not predict the result of a TiO2 Malaysia Grade.\n\n## Keep brightness, whiteness, colour and opacity distinct\n\nOptical labels can look interchangeable even when they belong to different measurement families. Classify the property first, then keep its named method and relevant conditions with every baseline and candidate result.\n\n| Property | Public method scope | Context to retain |\n|---|---|---|\n| ISO brightness | ISO 2470-1:2016 measures diffuse blue reflectance for white and near-white pulp, paper and board. | Instrument illumination is adjusted to CIE illuminant C, including the specified UV basis. |\n| CIE whiteness, D65/10° | ISO 11475:2017 uses reflectance across the visible spectrum for paper and board viewed under the D65 daylight basis. | Results involving fluorescent whitening agents depend on the UV content described by the method. |\n| Paper colour, D65/10° | ISO 5631-2:2022 measures colour by diffuse reflectance with specular gloss eliminated. | Keep the stated illumination, observer and fluorescent-material conditions; L* is not another name for brightness. |\n| Paper-backing opacity | ISO 2471:2008 determines opacity by diffuse reflectance. | Keep backing and applicable UV/FWA conditions with the result. |\n\nFor each result, record the property definition, named method, sample preparation, instrument and reporting conditions. Compare like with like. Do not convert a brightness value into whiteness, colour or opacity, and do not apply a universal tolerance that the public source does not provide.\n\n## Separate pigment information from paper performance\n\nA method-compatible pigment value is still not a finished-paper result. Keep four evidence roles apart:\n\n| Evidence role | What it can answer | Limit |\n|---|---|---|\n| Supplier-declared pigment information | What the supplier states for the identified product, method and document revision | It does not establish finished-paper performance. |\n| System observation | What was observed about dispersion or agglomeration in the declared furnish and route | It does not prove a root cause by itself. |\n| Retention-related observation | What was observed after the pigment entered the system | It does not create an unmeasured retention percentage. |\n| Finished-paper result | How the identified paper performed under a named method and condition | It applies to the declared furnish, construction, route and result basis. |\n\nThis separation keeps general TiO2 behaviour from becoming a statement that a specific candidate is compatible, stable, retainable or able to deliver a particular paper result. When observations differ, compare their material identities, methods and system conditions before assigning a cause.\n\n## Keep documents, samples, lots and methods connected\n\nBind each document and result to the exact candidate identity, document revision, lot and sample identity, sampling basis, method and applicable conditions. Missing links should remain visible until they can be verified; do not assume that two records describe the same material or test basis.\n\nISO 186:2002 describes representative sampling from a paper or board lot to determine average quality against specifications. Its public abstract says the method is unsuitable for determining variability within a lot. A representative sample therefore does not establish within-lot variability or between-lot consistency. If consistency matters, define the repeated-lot evidence needed for that question.\n\nUse the current TDS for Grade-level screening, the SDS for safety communication, a relevant lot CoA for results on an identified lot and application or trial records for their declared paper system. Select the records that answer your current question; early screening can continue while missing lot or application context is recorded for later verification.\n\n## Use laboratory work as a bounded screen\n\nA laboratory comparison can help decide whether a candidate merits further work in the declared paper context. It cannot by itself establish mill performance or replacement equivalence.\n\nISO 5269-1:2005 covers conventional laboratory-sheet preparation from pulp for subsequent physical testing and applies to most pulps within its stated limits. Its public abstract says the method is not suitable for preparing laboratory sheets for diffuse-blue-reflectance determination under ISO 3688. Sample preparation must remain tied to the property being measured.\n\nFor a controlled comparison:\n\n1. define the finished-paper decision, properties and method-comparability basis;\n2. identify the baseline and candidate documents, lots, samples and sampling bases;\n3. keep the declared furnish, construction, addition route and material conditions visible during preparation; and\n4. compare method-matched paper outcomes while retaining dispersion, agglomeration, retention-related and process observations as separate evidence.\n\nYour laboratory or paper team selects the full applicable methods, preparation and acceptance requirements. This page supplies no universal recipe, dosage, process setting or pass threshold.\n\n## Decide what evidence comes next\n\nWhen method-matched results meet the stated requirements, decide whether repeatability or more representative work is needed. When a material context, identity link, method condition or result is missing, name the question and collect the relevant evidence. When a result does not meet the requirement, retain it as an outcome for that declared paper system.\n\nFurther work remains a buyer decision based on the complete record. A laboratory result does not establish mill performance, replacement equivalence or a result for another paper construction.\n\n## Compare cost-in-use from accepted results\n\nPurchase price alone does not answer the economic question. Compare cost only after the baseline and candidate reach the same accepted finished-paper endpoint in the same tested context.\n\nUse your own current records for delivered material cost, actual use, retained-performance information, method-matched finished-paper results, observed chemical or process changes, off-spec or rejected output and processing effects. Keep currency, date, commercial terms and destination comparable. If the technical, process or commercial inputs are incomplete, collect the missing information instead of projecting a saving or a Grade winner.\n\n## Grades to Review\n\n| Product Grade | Continue your review |\n|---|---|\n| M-350 | [View M-350](/products/m-350/) |\n| M-2377 | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for a candidate you are considering and review its public information against your defined paper system. If you are considering several candidates, compare the relevant pages and keep each candidate's documents and trial results separate. The order is not a ranking; determine fit from evidence in your own system and your stated acceptance requirements. If you do not know the Grade, continue with the paper context you already have.\n\n[Explore All Products](/products/)\n\n## Prepare your request\n\nBring the paper type, furnish, construction, addition route, material conditions, end use, current baseline, target properties, methods, rejection conditions and any available document, lot, sample or result identities. Mark missing details as unknown.\n\n- [Request Technical Documents](/request-documents/) when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.\n- [Request a Sample](/request-sample/) with a known Grade or an unknown-Grade selection, your Paper application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.\n- [Discuss Your Paper Application](/request-a-quote/) with a known lead Grade or `Not sure / Need help`. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in `Additional Requirements`.\n\nAfter an RFQ is submitted, the team reviews the requirements and details and contacts you using the information provided.\n\n## Technical sources\n\n1. Martin A. Hubbe and Robert A. Gill. [*Fillers for papermaking: A review of their properties, usage practices, and their mechanistic role*](https://bioresources.cnr.ncsu.edu/resources/fillers-for-papermaking-a-review-of-their-properties-usage-practices-and-their-mechanistic-role/). *BioResources* 11(1), 2886–2963, 2016. Publisher-hosted review; the cited use is limited to category-level filler and TiO2 mechanism context, not a project Grade result or formulation.\n2. International Organization for Standardization. [*ISO 2470-1:2016 — Paper, board and pulps — Measurement of diffuse blue reflectance factor — Part 1: Indoor daylight conditions (ISO brightness)*](https://www.iso.org/standard/69090.html). Official standard landing page; edition 2, published September 2016 and confirmed in 2022.\n3. International Organization for Standardization. [*ISO 11475:2017 — Paper and board — Determination of CIE whiteness, D65/10 degrees (outdoor daylight)*](https://www.iso.org/standard/63614.html). Official standard landing page; edition 3, published May 2017 and confirmed in 2022.\n4. International Organization for Standardization. [*ISO 5631-2:2022 — Paper and board — Determination of colour by diffuse reflectance — Part 2: Outdoor daylight conditions (D65/10°)*](https://www.iso.org/standard/83367.html). Official standard landing page; edition 4, published July 2022.\n5. International Organization for Standardization. [*ISO 2471:2008 — Paper and board — Determination of opacity (paper backing) — Diffuse reflectance method*](https://www.iso.org/standard/39771.html). Official standard landing page; edition 4, published December 2008 and confirmed in 2023.\n6. International Organization for Standardization. [*ISO 186:2002 — Paper and board — Sampling to determine average quality*](https://www.iso.org/standard/34233.html). Official standard landing page; edition 4, published March 2002 and confirmed in 2023. When checked on 7 September 2026, the page marked this edition for revision and pointed to ISO/DIS 186 as the version under development.\n7. International Organization for Standardization. [*ISO 5269-1:2005 — Pulps — Preparation of laboratory sheets for physical testing — Part 1: Conventional sheet-former method*](https://www.iso.org/standard/39340.html). Official standard landing page; edition 3, published February 2005; the current page marks it published and confirmed.",
+          "expected": "# Titanium Dioxide for Paper\n\nEvaluate a TiO2 candidate against the paper result you need, using an identified baseline, the actual paper system and method-matched finished-paper data. A similar technical data sheet field can support screening; it does not establish a replacement result.\n\nThis page supports general paper evaluation. The detailed framework centres on decorative and lightweight paper because those are the defined technical contexts behind this guidance. It does not treat those or other paper constructions as interchangeable.\n\n[Build Your Paper Evaluation](#define-the-paper-result-and-system) · [Review Paper Grades](#grades-to-review)\n\n## Define the paper result and system\n\nStart with the finished-paper outcomes the candidate must reproduce or otherwise satisfy. Then record the system that gives those outcomes meaning:\n\n- paper type, end use, furnish and construction;\n- basis weight or grammage, when relevant to the comparison;\n- wet-end, coating or another buyer-defined addition route;\n- chemistry and process conditions that your team considers material;\n- current Grade, candidate identity and the reason for the comparison;\n- target finished-paper properties and the named method for each; and\n- rejection conditions for the finished paper.\n\nDecorative and lightweight papers can use the same evaluation discipline, but their furnishes, constructions, routes and targets can differ. If a material input is unknown, state that it is unknown and identify who may hold it. Do not fill the gap with a generic paper assumption.\n\nA 2016 *BioResources* review explains TiO2's strong opacifying role in paper through its refractive-index contrast with other paper components. The same review notes that filler brightness and paper brightness can have only an indirect relationship and that particle agglomeration can reduce light-scattering efficiency. These observations explain why the actual paper system matters; they do not predict the result of a TiO2 Malaysia Grade.\n\n## Keep brightness, whiteness, colour and opacity distinct\n\nOptical labels can look interchangeable even when they belong to different measurement families. Classify the property first, then keep its named method and relevant conditions with every baseline and candidate result.\n\n| Property | Public method scope | Context to retain |\n|---|---|---|\n| ISO brightness | ISO 2470-1:2016 measures diffuse blue reflectance for white and near-white pulp, paper and board. | Instrument illumination is adjusted to CIE illuminant C, including the specified UV basis. |\n| CIE whiteness, D65/10° | ISO 11475:2017 uses reflectance across the visible spectrum for paper and board viewed under the D65 daylight basis. | Results involving fluorescent whitening agents depend on the UV content described by the method. |\n| Paper colour, D65/10° | ISO 5631-2:2022 measures colour by diffuse reflectance with specular gloss eliminated. | Keep the stated illumination, observer and fluorescent-material conditions; L* is not another name for brightness. |\n| Paper-backing opacity | ISO 2471:2008 determines opacity by diffuse reflectance. | Keep backing and applicable UV/FWA conditions with the result. |\n\nFor each result, record the property definition, named method, sample preparation, instrument and reporting conditions. Compare like with like. Do not convert a brightness value into whiteness, colour or opacity, and do not apply a universal tolerance that the public source does not provide.\n\n## Separate pigment information from paper performance\n\nA method-compatible pigment value is still not a finished-paper result. Keep four evidence roles apart:\n\n| Evidence role | What it can answer | Limit |\n|---|---|---|\n| Supplier-declared pigment information | What the supplier states for the identified product, method and document revision | It does not establish finished-paper performance. |\n| System observation | What was observed about dispersion or agglomeration in the declared furnish and route | It does not prove a root cause by itself. |\n| Retention-related observation | What was observed after the pigment entered the system | It does not create an unmeasured retention percentage. |\n| Finished-paper result | How the identified paper performed under a named method and condition | It applies to the declared furnish, construction, route and result basis. |\n\nThis separation keeps general TiO2 behaviour from becoming a statement that a specific candidate is compatible, stable, retainable or able to deliver a particular paper result. When observations differ, compare their material identities, methods and system conditions before assigning a cause.\n\n## Keep documents, samples, lots and methods connected\n\nBind each document and result to the exact candidate identity, document revision, lot and sample identity, sampling basis, method and applicable conditions. Missing links should remain visible until they can be verified; do not assume that two records describe the same material or test basis.\n\nISO 186:2002 describes representative sampling from a paper or board lot to determine average quality against specifications. Its public abstract says the method is unsuitable for determining variability within a lot. A representative sample therefore does not establish within-lot variability or between-lot consistency. If consistency matters, define the repeated-lot evidence needed for that question.\n\nUse the current TDS for Grade-level screening, the SDS for safety communication, a relevant lot CoA for results on an identified lot and application or trial records for their declared paper system. Select the records that answer your current question; early screening can continue while missing lot or application context is recorded for later verification.\n\n## Use laboratory work as a bounded screen\n\nA laboratory comparison can help decide whether a candidate merits further work in the declared paper context. It cannot by itself establish mill performance or replacement equivalence.\n\nISO 5269-1:2005 covers conventional laboratory-sheet preparation from pulp for subsequent physical testing and applies to most pulps within its stated limits. Its public abstract says the method is not suitable for preparing laboratory sheets for diffuse-blue-reflectance determination under ISO 3688. Sample preparation must remain tied to the property being measured.\n\nFor a controlled comparison:\n\n1. define the finished-paper decision, properties and method-comparability basis;\n2. identify the baseline and candidate documents, lots, samples and sampling bases;\n3. keep the declared furnish, construction, addition route and material conditions visible during preparation; and\n4. compare method-matched paper outcomes while retaining dispersion, agglomeration, retention-related and process observations as separate evidence.\n\nYour laboratory or paper team selects the full applicable methods, preparation and acceptance requirements. This page supplies no universal recipe, dosage, process setting or pass threshold.\n\n## Decide what evidence comes next\n\nWhen method-matched results meet the stated requirements, decide whether repeatability or more representative work is needed. When a material context, identity link, method condition or result is missing, name the question and collect the relevant evidence. When a result does not meet the requirement, retain it as an outcome for that declared paper system.\n\nFurther work remains a buyer decision based on the complete record. A laboratory result does not establish mill performance, replacement equivalence or a result for another paper construction.\n\n## Compare cost-in-use from accepted results\n\nPurchase price alone does not answer the economic question. Compare cost only after the baseline and candidate reach the same accepted finished-paper endpoint in the same tested context.\n\nUse your own current records for delivered material cost, actual use, retained-performance information, method-matched finished-paper results, observed chemical or process changes, off-spec or rejected output and processing effects. Keep currency, date, commercial terms and destination comparable. If the technical, process or commercial inputs are incomplete, collect the missing information instead of projecting a saving or a Grade winner.\n\n## Grades to Review\n\n| Product Grade | Continue your review |\n|---|---|\n| M-350 | [View M-350](/products/m-350/) |\n| M-2377 | [View M-2377](/products/m-2377/) |\n\nOpen the Grade page for a candidate you are considering and review its public information against your defined paper system. If you are considering several candidates, compare the relevant pages and keep each candidate's documents and trial results separate. The order is not a ranking; determine fit from evidence in your own system and your stated acceptance requirements. If you do not know the Grade, continue with the paper context you already have.\n\n[Explore All Products](/products/)\n\n## Prepare your request\n\nBring the paper type, furnish, construction, addition route, material conditions, end use, current baseline, target properties, methods, rejection conditions and any available document, lot, sample or result identities. Mark missing details as unknown.\n\n- [Request Technical Documents](/request-documents/) when you know one Product Grade and need one or more document types. Submit a separate request for another Grade. The team reviews document availability and applicable scope.\n- [Request a Sample](/request-sample/) with a known Grade or an unknown-Grade selection, your Paper application, destination and test objective. Submission starts a review; any arrangement is confirmed separately.\n- [Discuss Your Paper Application](/request-a-quote/) with a known lead Grade or `Not sure / Need help`. Tell us your application, required or estimated quantity in metric tonnes, destination and any other context you already know. If several Grades are under consideration, list the others in `Additional Requirements`.\n\nAfter an RFQ is submitted, the team reviews the requirements and details and contacts you using the information provided.\n\n## Technical sources\n\n1. Martin A. Hubbe and Robert A. Gill. [*Fillers for papermaking: A review of their properties, usage practices, and their mechanistic role*](https://bioresources.cnr.ncsu.edu/resources/fillers-for-papermaking-a-review-of-their-properties-usage-practices-and-their-mechanistic-role/). *BioResources* 11(1), 2886–2963, 2016. Publisher-hosted review; the cited use is limited to category-level filler and TiO2 mechanism context, not a project Grade result or formulation.\n2. International Organization for Standardization. [*ISO 2470-1:2016 — Paper, board and pulps — Measurement of diffuse blue reflectance factor — Part 1: Indoor daylight conditions (ISO brightness)*](https://www.iso.org/standard/69090.html). Official standard landing page; edition 2, published September 2016 and confirmed in 2022.\n3. International Organization for Standardization. [*ISO 11475:2017 — Paper and board — Determination of CIE whiteness, D65/10 degrees (outdoor daylight)*](https://www.iso.org/standard/63614.html). Official standard landing page; edition 3, published May 2017 and confirmed in 2022.\n4. International Organization for Standardization. [*ISO 5631-2:2022 — Paper and board — Determination of colour by diffuse reflectance — Part 2: Outdoor daylight conditions (D65/10°)*](https://www.iso.org/standard/83367.html). Official standard landing page; edition 4, published July 2022.\n5. International Organization for Standardization. [*ISO 2471:2008 — Paper and board — Determination of opacity (paper backing) — Diffuse reflectance method*](https://www.iso.org/standard/39771.html). Official standard landing page; edition 4, published December 2008 and confirmed in 2023.\n6. International Organization for Standardization. [*ISO 186:2002 — Paper and board — Sampling to determine average quality*](https://www.iso.org/standard/34233.html). Official standard landing page; edition 4, published March 2002 and confirmed in 2023. When checked on 7 September 2026, the page marked this edition for revision and pointed to ISO/DIS 186 as the version under development.\n7. International Organization for Standardization. [*ISO 5269-1:2005 — Pulps — Preparation of laboratory sheets for physical testing — Part 1: Conventional sheet-former method*](https://www.iso.org/standard/39340.html). Official standard landing page; edition 3, published February 2005; the current page marks it published and confirmed.",
+          "detail": ""
+        },
+        {
+          "name": "html_lang",
+          "pass": true,
+          "actual": "en",
+          "expected": "en",
+          "detail": ""
+        },
+        {
+          "name": "h1",
+          "pass": true,
+          "actual": "Titanium Dioxide for Paper",
+          "expected": "Titanium Dioxide for Paper",
+          "detail": ""
+        },
+        {
+          "name": "title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Paper Evaluation | TiO2 Malaysia",
+          "expected": "Titanium Dioxide for Paper Evaluation | TiO2 Malaysia",
+          "detail": ""
+        },
+        {
+          "name": "description",
+          "pass": true,
+          "actual": "Evaluate titanium dioxide for paper in a defined system. Compare method-matched results, review Product Grades, and prepare document, sample or RFQ details.",
+          "expected": "Evaluate titanium dioxide for paper in a defined system. Compare method-matched results, review Product Grades, and prepare document, sample or RFQ details.",
+          "detail": ""
+        },
+        {
+          "name": "canonical",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-paper/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-paper/",
+          "detail": ""
+        },
+        {
+          "name": "og_url",
+          "pass": true,
+          "actual": "https://tio2products.com/applications/titanium-dioxide-for-paper/",
+          "expected": "https://tio2products.com/applications/titanium-dioxide-for-paper/",
+          "detail": ""
+        },
+        {
+          "name": "og_title",
+          "pass": true,
+          "actual": "Titanium Dioxide for Paper Evaluation | TiO2 Malaysia",
+          "expected": "Titanium Dioxide for Paper Evaluation | TiO2 Malaysia",
+          "detail": ""
+        },
+        {
+          "name": "og_description",
+          "pass": true,
+          "actual": "Evaluate titanium dioxide for paper in a defined system. Compare method-matched results, review Product Grades, and prepare document, sample or RFQ details.",
+          "expected": "Evaluate titanium dioxide for paper in a defined system. Compare method-matched results, review Product Grades, and prepare document, sample or RFQ details.",
+          "detail": ""
+        },
+        {
+          "name": "robots_index_follow",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": "index, follow"
+        },
+        {
+          "name": "breadcrumb",
+          "pass": true,
+          "actual": [
+            "Home",
+            "Applications",
+            "Paper"
+          ],
+          "expected": [
+            "Home",
+            "Applications",
+            "Paper"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "module_count",
+          "pass": true,
+          "actual": 11,
+          "expected": 11,
+          "detail": ""
+        },
+        {
+          "name": "grade_order",
+          "pass": true,
+          "actual": [
+            "M-350",
+            "M-2377"
+          ],
+          "expected": [
+            "M-350",
+            "M-2377"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "ready_grade_links_only",
+          "pass": true,
+          "actual": [
+            "/products/m-350/"
+          ],
+          "expected": [
+            "/products/m-350/"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "products_link_present",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "required_crosslinks",
+          "pass": true,
+          "actual": [],
+          "expected": [],
+          "detail": ""
+        },
+        {
+          "name": "rfq_main_link_count",
+          "pass": true,
+          "actual": 1,
+          "expected": 1,
+          "detail": ""
+        },
+        {
+          "name": "documents_sample_controls_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "source_count",
+          "pass": true,
+          "actual": 7,
+          "expected": 7,
+          "detail": ""
+        },
+        {
+          "name": "source_urls_exact",
+          "pass": true,
+          "actual": [
+            "https://bioresources.cnr.ncsu.edu/resources/fillers-for-papermaking-a-review-of-their-properties-usage-practices-and-their-mechanistic-role/",
+            "https://www.iso.org/standard/69090.html",
+            "https://www.iso.org/standard/63614.html",
+            "https://www.iso.org/standard/83367.html",
+            "https://www.iso.org/standard/39771.html",
+            "https://www.iso.org/standard/34233.html",
+            "https://www.iso.org/standard/39340.html"
+          ],
+          "expected": [
+            "https://bioresources.cnr.ncsu.edu/resources/fillers-for-papermaking-a-review-of-their-properties-usage-practices-and-their-mechanistic-role/",
+            "https://www.iso.org/standard/69090.html",
+            "https://www.iso.org/standard/63614.html",
+            "https://www.iso.org/standard/83367.html",
+            "https://www.iso.org/standard/39771.html",
+            "https://www.iso.org/standard/34233.html",
+            "https://www.iso.org/standard/39340.html"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "source_link_safety",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "schema_types",
+          "pass": true,
+          "actual": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "expected": [
+            "WebPage",
+            "BreadcrumbList"
+          ],
+          "detail": ""
+        },
+        {
+          "name": "schema_page",
+          "pass": true,
+          "actual": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-paper/",
+            "name": "Titanium Dioxide for Paper",
+            "description": "Evaluate titanium dioxide for paper in a defined system. Compare method-matched results, review Product Grades, and prepare document, sample or RFQ details.",
+            "inLanguage": "en"
+          },
+          "expected": {
+            "url": "https://tio2products.com/applications/titanium-dioxide-for-paper/",
+            "name": "Titanium Dioxide for Paper",
+            "description": "Evaluate titanium dioxide for paper in a defined system. Compare method-matched results, review Product Grades, and prepare document, sample or RFQ details.",
+            "inLanguage": "en"
+          },
+          "detail": ""
+        },
+        {
+          "name": "public_output_clean",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "no_runtime_content_endpoint",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "initial_html_substantive",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "hero_anchor_targets",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "table_semantics",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "shared_chrome",
+          "pass": true,
+          "actual": true,
+          "expected": true,
+          "detail": ""
+        },
+        {
+          "name": "buyer_visible_current_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        },
+        {
+          "name": "terms_link_absent",
+          "pass": true,
+          "actual": false,
+          "expected": false,
+          "detail": ""
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "shared": {
+    "robots": {
+      "status": 200,
+      "allow_root": true,
+      "applications_not_blocked": true,
+      "sitemap": true,
+      "sha256": "fe1aa29ddb51408dedd7556214df8f967c11cfd09ed107656aa68ae353461332"
+    },
+    "sitemap": {
+      "status": 200,
+      "urls": [
+        "https://tio2products.com/applications/titanium-dioxide-for-coatings/",
+        "https://tio2products.com/applications/titanium-dioxide-for-plastics/",
+        "https://tio2products.com/applications/titanium-dioxide-for-masterbatch/",
+        "https://tio2products.com/applications/titanium-dioxide-for-printing-inks/",
+        "https://tio2products.com/applications/titanium-dioxide-for-paper/"
+      ],
+      "exact_five": true,
+      "unique": true,
+      "sha256": "5ebdf34bb654723f2a64d01115211e9e488f102be4ec86a3d15c8c92ecf62063"
+    },
+    "hub": {
+      "status": 200,
+      "visible_child_links": [
+        "/applications/titanium-dioxide-for-coatings/",
+        "/applications/titanium-dioxide-for-plastics/",
+        "/applications/titanium-dioxide-for-masterbatch/",
+        "/applications/titanium-dioxide-for-printing-inks/",
+        "/applications/titanium-dioxide-for-paper/"
+      ],
+      "exact_five_links": true,
+      "schema_child_urls": [
+        "/applications/titanium-dioxide-for-coatings/",
+        "/applications/titanium-dioxide-for-plastics/",
+        "/applications/titanium-dioxide-for-masterbatch/",
+        "/applications/titanium-dioxide-for-printing-inks/",
+        "/applications/titanium-dioxide-for-paper/"
+      ],
+      "schema_matches_links": true,
+      "specialty_child_link_absent": true
+    },
+    "regressions": {
+      "/": {
+        "status": 200,
+        "h1": "Malaysia Titanium Dioxide for Industrial Buyers",
+        "sha256": "75f9c1eb75561b81eeafb18cbd3835aa234181aaf9791f0ff8a2fe379a6b0f4e"
+      },
+      "/products/": {
+        "status": 200,
+        "h1": "Titanium Dioxide Pigment Grades for Industrial Applications",
+        "sha256": "7a898b52ca7936afccd833ddf2d027c03efae4d59dcd228e2926404eb2c07404"
+      },
+      "/products/m-350/": {
+        "status": 200,
+        "h1": "M-350 Titanium Dioxide for Multi-Application Evaluation",
+        "sha256": "fe38726fccf861b09f650993bb0c46d280e7d4965bde92b26a2cbe804fddcd17"
+      },
+      "/applications/": {
+        "status": 200,
+        "h1": "Explore Titanium Dioxide by Application",
+        "sha256": "6584f95738ba238143223c81128b5c6861771fb6b6a69874160664cc6b191277"
+      }
+    }
+  },
+  "summary": {
+    "page_checks": 165,
+    "page_failures": [],
+    "all_page_checks_pass": true,
+    "shared_checks_pass": true
+  }
+}

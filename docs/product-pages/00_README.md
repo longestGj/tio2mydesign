@@ -1,9 +1,11 @@
 # TiO2 Malaysia Product Page Planning Pack
 
+2026-09-21：按[Gate 3/4合并决定](../../docs/architecture/GATE3_GATE4_MERGE_DECISION_V1.0.md)，Gate 4统一负责跨页一致性、结构、视觉和验证；Gate 5独立审查后总控关闭一次。新页从Gate 2批准组合进入，不要求单独Gate 3冻结。历史成果、仅旧Gate 3授权及暂停按原范围继承。
+
 > 2026-09-07当前批准方式：Gate 3、4、6按[总控常设关闭授权](../architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md)执行独立审查与总控关闭，不再等待逐页用户批准；Gate 1/2/9/10不变。本文历史“用户批准”表述只保留原记录语境，当前三关关闭由该授权解释；内容事实决定、明确暂停、下一阶段启动与外发/开发/发布权限分别保留。
 
 
-> 当前未来执行采用[Gate工作流V3.2](../architecture/GATE_WORKFLOW_V3.2.md)、[SOP V2.3](03_Product_Detail_Template_Reuse_Development_SOP_V2.3.md)、[清单V1.3](04_Product_Detail_Single_Grade_Operational_Checklist_V1.3.md)与[Playbook增补V0.4](../page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.4.md)。原Gate 4/5合并为Gate 4，原Gate 7交付并入Gate 6。下列旧批准、Review ID、SOP V2.0及封存包均为可追溯历史/有效具体合同，不能据旧流程新建独立Gate 7阶段；实质产品要求保持。
+> 当前未来执行采用[Gate工作流V3.4](../architecture/GATE_WORKFLOW_V3.4.md)、[SOP V2.4](03_Product_Detail_Template_Reuse_Development_SOP_V2.4.md)、[清单V1.4](04_Product_Detail_Single_Grade_Operational_Checklist_V1.4.md)与[Playbook增补V0.5](../page-playbooks/PRODUCT_PLAYBOOK_CURRENT_SOP_ADDENDUM_V0.5.md)。原Gate 4/5合并为Gate 4，原Gate 7交付并入Gate 6。下列旧批准、Review ID、SOP V2.0及封存包均为可追溯历史/有效具体合同，不能据旧流程新建独立Gate 7阶段；实质产品要求保持。
 
 ## Historical approval source — 2026-09-02
 

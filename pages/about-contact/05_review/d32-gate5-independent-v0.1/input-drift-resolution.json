@@ -1,0 +1,62 @@
+{
+  "time": "2026-09-21T02:09:19.379Z",
+  "actor": "/root/market_root_d32",
+  "controllerDisposition": "2026-09-21 /root confirmation: concurrent approved governance updates, non-page/non-retroactive; preserve raw failures and candidate; not page mandatory findings",
+  "bundle": "bde5d8c53d582f8ab181629baf0de5e19190e94adc9ad42ac9b0e18d4e8952d9",
+  "raw": {
+    "total": 458,
+    "pass": 452,
+    "fail": 6
+  },
+  "records": [
+    {
+      "path": "AGENTS.md",
+      "frozenSha256": "1b4b298147f592c54b609b6308df8b6402305f997851e4e4a5a41ba5f4b66545",
+      "currentSha256": "f1fd9b1c56530f79a878051d9368d8609f57f27b6a094f3bf5d201bc3894cc8c",
+      "archive": "D:/23MySec/90_archive/project-governance/2026-09-21-gate8-rules/AGENTS.md",
+      "archiveSha256": "1b4b298147f592c54b609b6308df8b6402305f997851e4e4a5a41ba5f4b66545",
+      "archiveExact": true,
+      "classification": "APPROVED_NON_RETROACTIVE_GOVERNANCE_DRIFT / RESOLVED_BY_ARCHIVED_IDENTITY",
+      "scope": "Gate8 static-single-site development owner, scope removal, rules/workflow/navigation synchronization; no ABOUT content/visual/behavior change"
+    },
+    {
+      "path": "PROJECT_CONTEXT.md",
+      "frozenSha256": "88f422e5f77eaf67ac21d50c946037bcc3e394108e2703e20b60f5a4b30f3239",
+      "currentSha256": "a169791f2f19f2f344c94faed0b00844fd26531fd7c2a51521e5326cbed95139",
+      "archive": "D:/23MySec/90_archive/project-governance/2026-09-21-gate8-rules/PROJECT_CONTEXT.md",
+      "archiveSha256": "88f422e5f77eaf67ac21d50c946037bcc3e394108e2703e20b60f5a4b30f3239",
+      "archiveExact": true,
+      "classification": "APPROVED_NON_RETROACTIVE_GOVERNANCE_DRIFT / RESOLVED_BY_ARCHIVED_IDENTITY",
+      "scope": "Gate8 static-single-site development owner, scope removal, rules/workflow/navigation synchronization; no ABOUT content/visual/behavior change"
+    },
+    {
+      "path": "02_DIRECTORY_GUIDE.md",
+      "frozenSha256": "20a005324a552a9fb07afd2f4a8029d6ecf1cc91e3831e6164f4887ddbc94dc8",
+      "currentSha256": "10c710982f0770399402ae1a987776d8d3368d1328c12df8ad43b9ca58e5bb0a",
+      "archive": "D:/23MySec/90_archive/project-governance/2026-09-21-gate8-rules/02_DIRECTORY_GUIDE.md",
+      "archiveSha256": "20a005324a552a9fb07afd2f4a8029d6ecf1cc91e3831e6164f4887ddbc94dc8",
+      "archiveExact": true,
+      "classification": "APPROVED_NON_RETROACTIVE_GOVERNANCE_DRIFT / RESOLVED_BY_ARCHIVED_IDENTITY",
+      "scope": "Gate8 static-single-site development owner, scope removal, rules/workflow/navigation synchronization; no ABOUT content/visual/behavior change"
+    }
+  ],
+  "checks": [
+    {
+      "id": "three-frozen-inputs-resolved",
+      "pass": true
+    },
+    {
+      "id": "only-six-known-pre-post-raw-failures",
+      "pass": true
+    },
+    {
+      "id": "all-33-core-still-exact",
+      "pass": true
+    },
+    {
+      "id": "remaining-72-dependencies-still-exact",
+      "pass": true
+    }
+  ],
+  "resolution": "RESOLVED_NON_BLOCKING"
+}

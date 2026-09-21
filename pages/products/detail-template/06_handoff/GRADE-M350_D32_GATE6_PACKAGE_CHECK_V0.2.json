@@ -1,0 +1,59 @@
+{
+  "dispatch_id": "GRADE-M350-D32-G6-EXEC-02",
+  "page_id": "GRADE-M350",
+  "site_scope": "tio2-my",
+  "locale": "en",
+  "content_contract_revision": "GRADE-M350-D32-CONTENT-CONTRACT-V1.0",
+  "package": "GRADE-M350_D32_GATE6_HANDOFF_PACKAGE_V0.2.md",
+  "package_sha256": "FE0099B04A28D52C24DE60214C579DAD78075A23DD6195F25C6057CAE1069141",
+  "generated_at": "2026-09-20T16:23:12+08:00",
+  "generation_command": "PowerShell: read UTF-8 package; regex unique M350-D32-AC-* and M350-D32-DEP-* identifiers; compare exact expected sets; Get-FileHash -Algorithm SHA256",
+  "limitations": "This JSON proves package identity, exact ID sets and declared boolean boundaries only. It does not prove semantic completeness, runtime implementation, receiver readiness or Gate 9 acceptance.",
+  "status": "READY_FOR_TARGETED_RECHECK",
+  "accepted_product_hub": {
+    "implementation_commit": "95ed4c4c47481ef78f64fa90b95a1096ea45bfae",
+    "evidence_head": "8a4e3f5cb88cc30d0aecc36955ccb3ac19b8307c",
+    "build_id": "wp-9fcfb835a0e8b3709924a3d05cfe0bf5173fcd4db200308e0c4edf96845b68df",
+    "gate9_recheck_sha256": "D21C1C53C43F53E561DDE7233E9635BF715B642BBCD671190658942EDDA26C40"
+  },
+  "acceptance_ids": [
+    "M350-D32-AC-IDENTITY",
+    "M350-D32-AC-CONTENT",
+    "M350-D32-AC-TECHNICAL",
+    "M350-D32-AC-VISUAL",
+    "M350-D32-AC-A11Y",
+    "M350-D32-AC-CONDITIONAL-ROUTES",
+    "M350-D32-AC-CONVERSION-CONTEXT",
+    "M350-D32-AC-SEO",
+    "M350-D32-AC-SCHEMA",
+    "M350-D32-AC-CMS",
+    "M350-D32-AC-MIGRATION",
+    "M350-D32-AC-SCOPE",
+    "M350-D32-AC-PUBLIC-CLEAN",
+    "M350-D32-AC-CHROME",
+    "M350-D32-AC-PRODUCT-HUB",
+    "M350-D32-AC-EVIDENCE"
+  ],
+  "dependency_ids": [
+    "M350-D32-DEP-PRODUCT-HUB",
+    "M350-D32-DEP-RFQ",
+    "M350-D32-DEP-SAMPLE",
+    "M350-D32-DEP-DOCUMENT",
+    "M350-D32-DEP-PROCESS",
+    "M350-D32-DEP-APPLICATIONS",
+    "M350-D32-DEP-MARKETS",
+    "M350-D32-DEP-INDEXING"
+  ],
+  "checks": {
+    "acceptance_id_count": 16,
+    "acceptance_ids_unique": true,
+    "dependency_id_count": 8,
+    "dependency_ids_unique": true,
+    "public_tds_version_allowed": false,
+    "related_grades_allowed": false,
+    "gate10_authorized": false,
+    "deployment_authorized": false
+  }
+}
+
+

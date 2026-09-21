@@ -1,0 +1,52 @@
+{
+  "reviewed_at": "2026-09-21",
+  "baseline_commit": "0c117ee0941a3b307f761ff0db5ea67fc98b5a07",
+  "implementation_commit": "ede0e32c2c73477589447344921c34370307206a",
+  "evidence_head": "57a333ed31d6cded722533ab9ff2525742c6f939",
+  "implementation_tree": "7d1280ef53cf5f3f53fb6abd6148b8552edd0cd9",
+  "evidence_head_tree": "e45b4f9810c175a74b799f817a3b5203263222c1",
+  "later_docs_only_head_observed": "6b5aa53b8a8c9fc974dcdb5500ae52fff73ff701",
+  "worktree_clean": true,
+  "diff_from_returned_candidate": {
+    "implementation_files": [
+      "components/sites/tio2-my/consent/malaysia-cookie-settings.tsx",
+      "tests/static-verification.spec.ts"
+    ],
+    "diff_check": "PASS"
+  },
+  "manifest": {
+    "path": "D:/23MySec/pages/applications/07_qa/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE9_RETURN1_20260921/gate8_evidence_manifest.json",
+    "sha256": "b024118ed931b71fc03db93d6581dfaa1495665cdf8dbc10aa80984d0f27866c",
+    "validation": "PASS",
+    "artifact_files": 93
+  },
+  "preflight": {
+    "rounds": 2,
+    "requests": 10,
+    "successful_requests": 10,
+    "artifact_mismatches": 0,
+    "result": "PASS"
+  },
+  "independent_static_http_audit": {
+    "page_checks": 165,
+    "page_failures": 0,
+    "shared_checks": "PASS",
+    "result": "PASS"
+  },
+  "browser_targeted_recheck": "PASS",
+  "findings": {
+    "APP5-D32-G9-F01": "CLOSED",
+    "APP5-D32-G9-F02": "CLOSED"
+  },
+  "acceptance_conditions": {
+    "APP5-G9-05": "PASS",
+    "APP5-G9-11": "PASS",
+    "APP5-G9-12": "PASS"
+  },
+  "status": {
+    "RECHECK_SCOPE_STATUS": "PASS",
+    "PAGE_GATE9_STATUS": "PASS_FOR_BOUND_CANDIDATE",
+    "INTEGRATION_STATUS": "INTEGRATION_READY / NOT_MERGED",
+    "RELEASE_STATUS": "NOT_AUTHORIZED"
+  }
+}

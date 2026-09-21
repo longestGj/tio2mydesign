@@ -1,0 +1,16 @@
+{
+  "evidenceType": "ACTUAL_TOOL_RESULT_TRANSCRIPT",
+  "candidate": "../d32-gate3-v0.1/",
+  "attempts": 2,
+  "command": "node D:/23MySec/pages/about-contact/04_planning/d32-gate3-v0.1/capture.cjs --formal",
+  "exitCode": 1,
+  "error": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot",
+  "callLog": ["taking page screenshot", "waiting for fonts to load...", "fonts loaded"],
+  "location": "capture.cjs:7:22",
+  "runtime": "Node.js v24.16.0 / Playwright Chromium",
+  "originalSourceSetSha256": "abbc8a54b299cabbe5d449f99c9175de1c78d948ef8689e3b7d7c9a7e1c3a3bf",
+  "originalHtmlSha256": "33cdf52b03854f2d2fdda502e2c472141a3de0a8cc4ed560e2bd4f2d507d8351",
+  "isolation": "Same-source diagnostic after two requestAnimationFrame callbacks succeeded; no page or shared source change.",
+  "successfulDiagnostic": "../d32-gate3-v0.1/diagnostic/after-freeze-compositor-check.png",
+  "followUp": "Additive v0.2 capture readiness: fonts completion and two observable paint callbacks, no arbitrary sleep."
+}

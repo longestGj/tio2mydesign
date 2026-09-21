@@ -1,0 +1,798 @@
+{
+  "document": "HOME-001 D32 Gate 6 input verification",
+  "date": "2026-09-20",
+  "verification_kind": "AUTHOR_SELF_CHECK_NOT_INDEPENDENT_REVIEW",
+  "package": {
+    "path": "D:/23MySec/pages/home/06_handoff/HOME-001_D32_GATE6_HANDOFF_PACKAGE_V0.2.md",
+    "sha256": "EEB70B4D48753BBAF02D9CBEA1B6ADAD65B18D90CD6C6123A0F63C6063065A3A"
+  },
+  "source_files": [
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-favicon-safe-v0.1.svg",
+      "bytes": 1107,
+      "sha256": "F1D1B97FF66211410A50279EED16414B5A6E888C27C11419E41265168D08692C"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "bytes": 4342,
+      "sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "bytes": 2725,
+      "sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-symbol-v0.1.svg",
+      "bytes": 2510,
+      "sha256": "9FD1FAFAFAD4BC6FEF0C05F499C27BAF1051EEF084D1B834B1061CAF3B8B85A0"
+    },
+    {
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "bytes": 8090,
+      "sha256": "81B73A5262269F618E8FB0667C9345279449A1BCB71647422B6A1D3F8EBFE894"
+    },
+    {
+      "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "bytes": 1960,
+      "sha256": "1F6CB1F9913BD78AED3CAB30AF56CE1EEABB0C46CB354F09F05E2D00A3897E9A"
+    },
+    {
+      "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "bytes": 11671,
+      "sha256": "75CF7BBD306A4B2BF2662414DFB28813B094B8552AF8A7FE54231F3837E524EC"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "bytes": 12847,
+      "sha256": "4AFC9C195A5D42A5FB9AB7C1C03F02F3DCA0DBD61121B79673F0DE0FFF2E8E09"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "bytes": 6627,
+      "sha256": "D2AAFFAADF6BA44F3472B4045A40C165B170AA4FDFDC4EE1D824FE66415E9F67"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "bytes": 5154,
+      "sha256": "CBD36D338412A5D311AE062A93982D9A5799E0CF3D459BCB72D41E4A155247AD"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "bytes": 4219,
+      "sha256": "A74953971244D3B2BB43F6BC5D9B798F428D9590BAB8BCB8664E1D4E9B4B31CB"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "bytes": 2310,
+      "sha256": "C1F0011408ED1D87CFF6D36C11F7E9812CC9A803431A3F7030C771FAF41BF633"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "bytes": 7235,
+      "sha256": "CC236F47018A68771856FDBAF5553517F63959774E0E8819130E66E2B1049F18"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/MALAYSIA_ORIGIN_SITE_WIDE_PUBLICATION_AUTHORITY_V1.0.md",
+      "bytes": 3724,
+      "sha256": "48AC05C99826315489686348BFA515ECE7094142DB21703D1CF28BCE716023B2"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "bytes": 19457,
+      "sha256": "3DA1956FE15AD5E15E078BC43FE291804C151BB45528C778F7177C40825A9552"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/ROOT_HERO_G5_SEVEN_PAGE_CROSS_PAGE_INDEPENDENT_REVIEW_V1.1.md",
+      "bytes": 3121,
+      "sha256": "835F7B111AFEFA86CEB31783AE181FA13BA751F308F943E12259357868F731EC"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/ROOT_HERO_G5_SEVEN_PAGE_CROSS_PAGE_INDEPENDENT_REVIEW_V1.2.md",
+      "bytes": 3368,
+      "sha256": "23F2A808AED429FA5B2FFDDAAFF02C3E7A16A19857761F00EF50D3671636CCDF"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "bytes": 2812,
+      "sha256": "A665865572D9819C926C0E636F42D8FC8DD55B7DBD2905ABBD5D1B7749F65720"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "bytes": 4653,
+      "sha256": "5E07A2C8F597CE92978144D1E6744A0A8783157F544863B7D515487197A10580"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "bytes": 13549,
+      "sha256": "E309FA21993701C87A7600826E7F1AD98D53CF86A27F688E94FE429CF5BB9E6F"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_57_INDEXABLE_PAGE_SEO_DELIVERY_V1.0.csv",
+      "bytes": 38591,
+      "sha256": "31AF7C04D77CF19204FE2B6BDDA95590D49B360BE5A686DF4FF8ACCCB2B20CE3"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_FULL_PUBLIC_SEO_GA4_GATE6_DELIVERY_V1.0.md",
+      "bytes": 11988,
+      "sha256": "50E46F8C2912FD70318332D2F582326E2D47EA98E9568BED78F9BC1F12A4FE9F"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_GA4_LEGAL_CONTENT_DELIVERY_V1.0.md",
+      "bytes": 15017,
+      "sha256": "7D2457B87BE87E527B9218382E1B5F7D1926CC17061E1784F5E56B04E43695FE"
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_CURRENT_GATE9_MANIFEST_V1.1.md",
+      "bytes": 2560,
+      "sha256": "B9D2040886BB22AC6B6757A4759787D235BEEA407422B82B1DC78BB76841B721"
+    },
+    {
+      "path": "D:/23MySec/docs/page-briefs/HOME-001_HOME_BRIEF_V0.1.md",
+      "bytes": 16526,
+      "sha256": "690144A787A7B301360B1B31F90A184E2B8248557172E921794CB9BCF90209B0"
+    },
+    {
+      "path": "D:/23MySec/docs/page-briefs/SHARED-CONSENT_ADVANCED_COOKIE_SETTINGS_BRIEF_V0.1.md",
+      "bytes": 6395,
+      "sha256": "4CAE93208E65DF328235FBCF025A7F1D3B366E3944F6A22A4A10081F9B9AC893"
+    },
+    {
+      "path": "D:/23MySec/docs/page-playbooks/HOME_PLAYBOOK_V0.1.md",
+      "bytes": 15112,
+      "sha256": "ABA3A53908849BC9361918DF4B2C81E2463356BBA532B9424EA3BB90BCF0C80A"
+    },
+    {
+      "path": "D:/23MySec/research/keyword/11_page_keyword_master.csv",
+      "bytes": 44334,
+      "sha256": "AD86E336FF7F77B1DC9B7EB120A89ADC13463D70E73FC84AD4F16A36247DD6B0"
+    },
+    {
+      "path": "D:/23MySec/pages/legal-privacy/04_planning/LEGAL-COOKIE-EN_GATE2_FULL_COPY_V0.2.md",
+      "bytes": 10830,
+      "sha256": "F1C54257C5D682ED2A9DAA458A52119CEFB752CD35662F6243644F2A9E70DF46"
+    },
+    {
+      "path": "D:/23MySec/pages/legal-privacy/04_planning/SHARED-CONSENT_CURRENT_GATE5_BASELINE_MANIFEST_V0.6.md",
+      "bytes": 1718,
+      "sha256": "DAE384B6BFC2BC2FC6F8B1C0E0857AE62AE07DF2688A48C3EDF7A23250F1C495"
+    },
+    {
+      "path": "D:/23MySec/pages/legal-privacy/06_handoff/LEGAL_PRIVACY_GATE7_CONSENT_CMP_DATA_FLOW_CONTRACT_V0.1.md",
+      "bytes": 10554,
+      "sha256": "FED667015CB003D544B7EF42A3E34EF108C2FDCC69E24BE732BCDB4949EFE2DF"
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_BINDING_V1.4.md",
+      "bytes": 3329,
+      "sha256": "4A0B79441B24E8759A6A877032B82A8661F951F7BAB10280E6B34582B774577E"
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.4.md",
+      "bytes": 2184,
+      "sha256": "BA1CF901BC321226D55BEEFF63333411CE2EC7A29719CFCB206F90C7A4B46022"
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/HOME-001_SEO_GEO_SCHEMA_CONTRACT_V0.1.md",
+      "bytes": 11649,
+      "sha256": "C76EFDA95E797B80BB2B4E34095B6E002C51ADEF2A936CDEF349A33D192657C1"
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/assets/homepage-hero-tio2-material-v0.6.png",
+      "bytes": 1915067,
+      "sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5"
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/dependencies/Inter-Variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031"
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/freeze-record.json",
+      "bytes": 9506,
+      "sha256": "06DBDA1AEE5FFAED6FBEF9BB7543A34B7D2D60971C85E5EE0C41A9327A1DEA07"
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/homepage-applications-aligned-preview-v1.1.html",
+      "bytes": 32550,
+      "sha256": "FADA718489C6558EE1025B70FB1DFD9F2303DF7226EADBE20C3A22C4177708DF"
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/freeze-record.json",
+      "bytes": 3298,
+      "sha256": "5E81C6CA3A0650B836FF87B4141B29946C02DA72DE2287B6B2BE5A088474C7F5"
+    },
+    {
+      "path": "D:/23MySec/pages/home/05_review/HOME-001_APPLICATIONS_ALIGNED_GATE4_CLOSEOUT_V1.0.md",
+      "bytes": 3538,
+      "sha256": "5F0189E8B505FF1893FF26CDA6B877211D065F30721140630B4C868C6225BD69"
+    },
+    {
+      "path": "D:/23MySec/pages/home/05_review/HOME-001_APPLICATIONS_ALIGNED_GATE6_PROJECT_CONTROL_CLOSEOUT_V1.0.md",
+      "bytes": 3252,
+      "sha256": "E89EB0B62F6B58A41A7C76BA7EEB56534999526737DE10FFC237B35644BFE7DC"
+    },
+    {
+      "path": "D:/23MySec/pages/home/05_review/HOME-001_D32_GATE6_INDEPENDENT_REVIEW_V0.1.md",
+      "bytes": 10425,
+      "sha256": "B44F8E9C31758AC8495F276070A6FB5CBD7E28AEBCFC343FD7FBB5C15EB69552"
+    },
+    {
+      "path": "D:/23MySec/pages/home/07_qa/HOME-001_GATE9_MOBILE_MENU_BACKDROP_USER_DECISION_V1.0.md",
+      "bytes": 1303,
+      "sha256": "A6E14A65829BE87D450C1355D7F4200A9A87523E2C45D243024A604C7B90296C"
+    },
+    {
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.1.md",
+      "bytes": 2969,
+      "sha256": "7BD14D7E58DBBA3AD27B5009ACE909F58BEA70781DDB2B8A4029060BA5292785"
+    },
+    {
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.6.md",
+      "bytes": 2025,
+      "sha256": "49F941FE73347DA741A95E2D09C871A02FAA06F9FF3C8D90FD2ECE9CB11B2C76"
+    },
+    {
+      "path": "D:/23MySec/pages/home/06_handoff/HOME-001_APPLICATIONS_ALIGNED_GATE6_ACCEPTANCE_AND_BLOCKERS_V1.0.md",
+      "bytes": 20740,
+      "sha256": "CA992794C8D368C87AD473F6BD85B33D735F64B52A1DF1C3B91418BBDC5220DE"
+    },
+    {
+      "path": "D:/23MySec/pages/home/06_handoff/HOME-001_APPLICATIONS_ALIGNED_GATE6_HANDOFF_PACKAGE_V1.0.md",
+      "bytes": 19536,
+      "sha256": "9024252791E4BB1DBC39CC2F1FC85B795559B263C26F0C302A1B303A0CCBB700"
+    },
+    {
+      "path": "D:/23MySec/pages/home/06_handoff/HOME-001_GATE7_HANDOFF_PACKAGE_V0.1.md",
+      "bytes": 28386,
+      "sha256": "49B34C52B5B761C0A66190A55329CDB7717097E81638491E11DA88DD3212DB4F"
+    }
+  ],
+  "link_checks": [
+    {
+      "target": "../../../brand/logo/candidates/v0.1/tio2-malaysia-favicon-safe-v0.1.svg",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-favicon-safe-v0.1.svg",
+      "exists": true
+    },
+    {
+      "target": "../../../brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "exists": true
+    },
+    {
+      "target": "../../../brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "exists": true
+    },
+    {
+      "target": "../../../brand/logo/candidates/v0.1/tio2-malaysia-symbol-v0.1.svg",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-symbol-v0.1.svg",
+      "exists": true
+    },
+    {
+      "target": "../../../brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "path": "D:/23MySec/docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "path": "D:/23MySec/docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "path": "D:/23MySec/docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "path": "D:/23MySec/docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/MALAYSIA_ORIGIN_SITE_WIDE_PUBLICATION_AUTHORITY_V1.0.md",
+      "path": "D:/23MySec/docs/architecture/MALAYSIA_ORIGIN_SITE_WIDE_PUBLICATION_AUTHORITY_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "path": "D:/23MySec/docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/ROOT_HERO_G5_SEVEN_PAGE_CROSS_PAGE_INDEPENDENT_REVIEW_V1.1.md",
+      "path": "D:/23MySec/docs/architecture/ROOT_HERO_G5_SEVEN_PAGE_CROSS_PAGE_INDEPENDENT_REVIEW_V1.1.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/ROOT_HERO_G5_SEVEN_PAGE_CROSS_PAGE_INDEPENDENT_REVIEW_V1.2.md",
+      "path": "D:/23MySec/docs/architecture/ROOT_HERO_G5_SEVEN_PAGE_CROSS_PAGE_INDEPENDENT_REVIEW_V1.2.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/TIO2_MY_57_INDEXABLE_PAGE_SEO_DELIVERY_V1.0.csv",
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_57_INDEXABLE_PAGE_SEO_DELIVERY_V1.0.csv",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/TIO2_MY_FULL_PUBLIC_SEO_GA4_GATE6_DELIVERY_V1.0.md",
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_FULL_PUBLIC_SEO_GA4_GATE6_DELIVERY_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/TIO2_MY_GA4_LEGAL_CONTENT_DELIVERY_V1.0.md",
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_GA4_LEGAL_CONTENT_DELIVERY_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_CURRENT_GATE9_MANIFEST_V1.1.md",
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_PRODUCTION_GA4_LEGAL_PARITY_CURRENT_GATE9_MANIFEST_V1.1.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/page-briefs/HOME-001_HOME_BRIEF_V0.1.md",
+      "path": "D:/23MySec/docs/page-briefs/HOME-001_HOME_BRIEF_V0.1.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/page-briefs/SHARED-CONSENT_ADVANCED_COOKIE_SETTINGS_BRIEF_V0.1.md",
+      "path": "D:/23MySec/docs/page-briefs/SHARED-CONSENT_ADVANCED_COOKIE_SETTINGS_BRIEF_V0.1.md",
+      "exists": true
+    },
+    {
+      "target": "../../../docs/page-playbooks/HOME_PLAYBOOK_V0.1.md",
+      "path": "D:/23MySec/docs/page-playbooks/HOME_PLAYBOOK_V0.1.md",
+      "exists": true
+    },
+    {
+      "target": "../../../research/keyword/11_page_keyword_master.csv",
+      "path": "D:/23MySec/research/keyword/11_page_keyword_master.csv",
+      "exists": true
+    },
+    {
+      "target": "../../legal-privacy/04_planning/LEGAL-COOKIE-EN_GATE2_FULL_COPY_V0.2.md",
+      "path": "D:/23MySec/pages/legal-privacy/04_planning/LEGAL-COOKIE-EN_GATE2_FULL_COPY_V0.2.md",
+      "exists": true
+    },
+    {
+      "target": "../../legal-privacy/04_planning/SHARED-CONSENT_CURRENT_GATE5_BASELINE_MANIFEST_V0.6.md",
+      "path": "D:/23MySec/pages/legal-privacy/04_planning/SHARED-CONSENT_CURRENT_GATE5_BASELINE_MANIFEST_V0.6.md",
+      "exists": true
+    },
+    {
+      "target": "../../legal-privacy/06_handoff/LEGAL_PRIVACY_GATE7_CONSENT_CMP_DATA_FLOW_CONTRACT_V0.1.md",
+      "path": "D:/23MySec/pages/legal-privacy/06_handoff/LEGAL_PRIVACY_GATE7_CONSENT_CMP_DATA_FLOW_CONTRACT_V0.1.md",
+      "exists": true
+    },
+    {
+      "target": "../04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_BINDING_V1.4.md",
+      "path": "D:/23MySec/pages/home/04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_BINDING_V1.4.md",
+      "exists": true
+    },
+    {
+      "target": "../04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.4.md",
+      "path": "D:/23MySec/pages/home/04_planning/HOME-001_ROOT_PAGE_HERO_GATE4_CANDIDATE_V1.4.md",
+      "exists": true
+    },
+    {
+      "target": "../04_planning/HOME-001_SEO_GEO_SCHEMA_CONTRACT_V0.1.md",
+      "path": "D:/23MySec/pages/home/04_planning/HOME-001_SEO_GEO_SCHEMA_CONTRACT_V0.1.md",
+      "exists": true
+    },
+    {
+      "target": "../04_planning/visual-designs/assets/homepage-hero-tio2-material-v0.6.png",
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/assets/homepage-hero-tio2-material-v0.6.png",
+      "exists": true
+    },
+    {
+      "target": "../04_planning/visual-designs/home-applications-aligned-v1.1/dependencies/Inter-Variable.ttf",
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/dependencies/Inter-Variable.ttf",
+      "exists": true
+    },
+    {
+      "target": "../04_planning/visual-designs/home-applications-aligned-v1.1/freeze-record.json",
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/freeze-record.json",
+      "exists": true
+    },
+    {
+      "target": "../04_planning/visual-designs/home-applications-aligned-v1.1/homepage-applications-aligned-preview-v1.1.html",
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/homepage-applications-aligned-preview-v1.1.html",
+      "exists": true
+    },
+    {
+      "target": "../04_planning/visual-designs/home-root-page-hero-v1.4/freeze-record.json",
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/freeze-record.json",
+      "exists": true
+    },
+    {
+      "target": "../05_review/HOME-001_APPLICATIONS_ALIGNED_GATE4_CLOSEOUT_V1.0.md",
+      "path": "D:/23MySec/pages/home/05_review/HOME-001_APPLICATIONS_ALIGNED_GATE4_CLOSEOUT_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../05_review/HOME-001_APPLICATIONS_ALIGNED_GATE6_PROJECT_CONTROL_CLOSEOUT_V1.0.md",
+      "path": "D:/23MySec/pages/home/05_review/HOME-001_APPLICATIONS_ALIGNED_GATE6_PROJECT_CONTROL_CLOSEOUT_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../05_review/HOME-001_D32_GATE6_INDEPENDENT_REVIEW_V0.1.md",
+      "path": "D:/23MySec/pages/home/05_review/HOME-001_D32_GATE6_INDEPENDENT_REVIEW_V0.1.md",
+      "exists": true
+    },
+    {
+      "target": "../07_qa/HOME-001_GATE9_MOBILE_MENU_BACKDROP_USER_DECISION_V1.0.md",
+      "path": "D:/23MySec/pages/home/07_qa/HOME-001_GATE9_MOBILE_MENU_BACKDROP_USER_DECISION_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "../HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.1.md",
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.1.md",
+      "exists": true
+    },
+    {
+      "target": "../HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.6.md",
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.6.md",
+      "exists": true
+    },
+    {
+      "target": "HOME-001_APPLICATIONS_ALIGNED_GATE6_ACCEPTANCE_AND_BLOCKERS_V1.0.md",
+      "path": "D:/23MySec/pages/home/06_handoff/HOME-001_APPLICATIONS_ALIGNED_GATE6_ACCEPTANCE_AND_BLOCKERS_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "HOME-001_APPLICATIONS_ALIGNED_GATE6_HANDOFF_PACKAGE_V1.0.md",
+      "path": "D:/23MySec/pages/home/06_handoff/HOME-001_APPLICATIONS_ALIGNED_GATE6_HANDOFF_PACKAGE_V1.0.md",
+      "exists": true
+    },
+    {
+      "target": "HOME-001_D32_GATE6_INPUT_VERIFICATION_V0.2.json",
+      "path": "D:/23MySec/pages/home/06_handoff/HOME-001_D32_GATE6_INPUT_VERIFICATION_V0.2.json",
+      "exists": true
+    },
+    {
+      "target": "HOME-001_GATE7_HANDOFF_PACKAGE_V0.1.md",
+      "path": "D:/23MySec/pages/home/06_handoff/HOME-001_GATE7_HANDOFF_PACKAGE_V0.1.md",
+      "exists": true
+    }
+  ],
+  "frozen_input_checks": [
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/homepage-applications-aligned-preview-v1.1.html",
+      "expected_sha256": "FADA718489C6558EE1025B70FB1DFD9F2303DF7226EADBE20C3A22C4177708DF",
+      "actual_sha256": "FADA718489C6558EE1025B70FB1DFD9F2303DF7226EADBE20C3A22C4177708DF",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/home-001-applications-aligned-1440-v1.1.png",
+      "expected_sha256": "64243AEE18C29624B3720E7ED7205275F41E22F205B07C6352A03B6F22B2F1F4",
+      "actual_sha256": "64243AEE18C29624B3720E7ED7205275F41E22F205B07C6352A03B6F22B2F1F4",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/home-001-applications-aligned-1024-v1.1.png",
+      "expected_sha256": "918A9B32C1BD06D35791BBA6FC2A610F6CFEDCC0D0F7F7CF6F0F0084057A0C6D",
+      "actual_sha256": "918A9B32C1BD06D35791BBA6FC2A610F6CFEDCC0D0F7F7CF6F0F0084057A0C6D",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/home-001-applications-aligned-768-v1.1.png",
+      "expected_sha256": "86E47B22E9C96D63FB72D307A55436BB09B6A7DAD30F2940B97EAD68D4A44A31",
+      "actual_sha256": "86E47B22E9C96D63FB72D307A55436BB09B6A7DAD30F2940B97EAD68D4A44A31",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/home-001-applications-aligned-390-v1.1.png",
+      "expected_sha256": "91BC39DABE371F689F9C36A6837EFBD5C5FED75BC184E3DF71475C7068AA566D",
+      "actual_sha256": "91BC39DABE371F689F9C36A6837EFBD5C5FED75BC184E3DF71475C7068AA566D",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/home-001-applications-aligned-320-v1.1.png",
+      "expected_sha256": "6C0655D73DCB575A36E72CC0D03DFF09A46376A91AC3C5E30FA8F4039C6A33FE",
+      "actual_sha256": "6C0655D73DCB575A36E72CC0D03DFF09A46376A91AC3C5E30FA8F4039C6A33FE",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/home-001-mobile-menu-390-v1.1.png",
+      "expected_sha256": "E1C1C7EA289F8DC14AF3528FAB2B6EE9060C1139336068E41EABAB1BF360C308",
+      "actual_sha256": "E1C1C7EA289F8DC14AF3528FAB2B6EE9060C1139336068E41EABAB1BF360C308",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/home-001-products-expanded-390-v1.1.png",
+      "expected_sha256": "B8447D73AFB5006373E0A5CBC280057E1E6D11A5B2ED6F4DCB9B7DE74B1D1F4F",
+      "actual_sha256": "B8447D73AFB5006373E0A5CBC280057E1E6D11A5B2ED6F4DCB9B7DE74B1D1F4F",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-applications-aligned-v1.1/dependencies/Inter-Variable.ttf",
+      "expected_sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+      "actual_sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/assets/homepage-hero-tio2-material-v0.6.png",
+      "expected_sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5",
+      "actual_sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "expected_sha256": "CC236F47018A68771856FDBAF5553517F63959774E0E8819130E66E2B1049F18",
+      "actual_sha256": "CC236F47018A68771856FDBAF5553517F63959774E0E8819130E66E2B1049F18",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "expected_sha256": "C1F0011408ED1D87CFF6D36C11F7E9812CC9A803431A3F7030C771FAF41BF633",
+      "actual_sha256": "C1F0011408ED1D87CFF6D36C11F7E9812CC9A803431A3F7030C771FAF41BF633",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "expected_sha256": "81B73A5262269F618E8FB0667C9345279449A1BCB71647422B6A1D3F8EBFE894",
+      "actual_sha256": "81B73A5262269F618E8FB0667C9345279449A1BCB71647422B6A1D3F8EBFE894",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected_sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C",
+      "actual_sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected_sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E",
+      "actual_sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "expected_sha256": "75CF7BBD306A4B2BF2662414DFB28813B094B8552AF8A7FE54231F3837E524EC",
+      "actual_sha256": "75CF7BBD306A4B2BF2662414DFB28813B094B8552AF8A7FE54231F3837E524EC",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "expected_sha256": "1F6CB1F9913BD78AED3CAB30AF56CE1EEABB0C46CB354F09F05E2D00A3897E9A",
+      "actual_sha256": "1F6CB1F9913BD78AED3CAB30AF56CE1EEABB0C46CB354F09F05E2D00A3897E9A",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/homepage-root-page-hero-preview-v1.4.html",
+      "expected_sha256": "1ABE07BCD941A05295A26194CA7CE3EA81F5DEC2074F717BCEF58EF62D891DE6",
+      "actual_sha256": "1ABE07BCD941A05295A26194CA7CE3EA81F5DEC2074F717BCEF58EF62D891DE6",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/capture-home-root-page-hero-v1.4.cjs",
+      "expected_sha256": "151F480C8175642B1F00575EC282AC3299BA1DDF24CDCBE068BC97EF36975C24",
+      "actual_sha256": "151F480C8175642B1F00575EC282AC3299BA1DDF24CDCBE068BC97EF36975C24",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/verify-home-root-page-hero-v1.4.cjs",
+      "expected_sha256": "B59CC4D21572AC7870B9FBBE6B70612106D3E7241BF3F338F6A2994BCA9FE3FC",
+      "actual_sha256": "B59CC4D21572AC7870B9FBBE6B70612106D3E7241BF3F338F6A2994BCA9FE3FC",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/capture-runtime-v1.4.json",
+      "expected_sha256": "79532AD57753F1DD616BD918ADDE4EF3FB4511F05E108976B8FAC536957F8487",
+      "actual_sha256": "79532AD57753F1DD616BD918ADDE4EF3FB4511F05E108976B8FAC536957F8487",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/verification-runtime-v1.4.json",
+      "expected_sha256": "6594D2B6643F232E4C3E51D14259C66DA7350CA11C12E7078D8D112FF06A6F86",
+      "actual_sha256": "E8788AC2533BFA211FC723B22DA838830139D441CA0296FB9CB4C839E811771A",
+      "exists": true,
+      "hash_match": false,
+      "normalization": {
+        "classification": "LINE_ENDING_ONLY",
+        "method": "In-memory UTF-8 without BOM, LF to CRLF; source file unchanged",
+        "normalized_sha256": "6594D2B6643F232E4C3E51D14259C66DA7350CA11C12E7078D8D112FF06A6F86",
+        "matches_frozen_hash": true
+      }
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/HOME-001_ROOT_PAGE_HERO_DESKTOP_1440_CANDIDATE_V1.4.png",
+      "expected_sha256": "5D6BAF6C788BB82DC1FD7E629854FB72919189E5EDC533CCEB8977428326251C",
+      "actual_sha256": "5D6BAF6C788BB82DC1FD7E629854FB72919189E5EDC533CCEB8977428326251C",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/HOME-001_ROOT_PAGE_HERO_TABLET_768_CANDIDATE_V1.4.png",
+      "expected_sha256": "BF5C9A9CECFC5A560C4FD0B9C41F8F904C214115C0CBBC2FDE87823609420C1B",
+      "actual_sha256": "BF5C9A9CECFC5A560C4FD0B9C41F8F904C214115C0CBBC2FDE87823609420C1B",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.4/HOME-001_ROOT_PAGE_HERO_MOBILE_390_CANDIDATE_V1.4.png",
+      "expected_sha256": "98059B78B290E70C19CDC831A65FC363648F4FA787FEDF677B2715A1BDAB6369",
+      "actual_sha256": "98059B78B290E70C19CDC831A65FC363648F4FA787FEDF677B2715A1BDAB6369",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/home-root-page-hero-v1.3/dependencies/Inter-Variable.ttf",
+      "expected_sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+      "actual_sha256": "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/home/04_planning/visual-designs/assets/homepage-hero-tio2-material-v0.6.png",
+      "expected_sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5",
+      "actual_sha256": "7308472E4E633584FE4D7761AFD7ED9EA4EA4C622576E2D7736C105F13CF50A5",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected_sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C",
+      "actual_sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected_sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E",
+      "actual_sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected_sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "actual_sha256": "EEED3A758E7AE1B847238D1C88E86EEE7A8E67B863969AF4D286747E9A72487C",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected_sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "actual_sha256": "7CFAEAFA02AC8469A006C9489DB2F92B15B2621E4151B04EFE1B30FC734C1B5E",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-symbol-v0.1.svg",
+      "expected_sha256": "9fd1fafafad4bc6fef0c05f499c27baf1051eef084d1b834b1061caf3b8b85a0",
+      "actual_sha256": "9FD1FAFAFAD4BC6FEF0C05F499C27BAF1051EEF084D1B834B1061CAF3B8B85A0",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-favicon-safe-v0.1.svg",
+      "expected_sha256": "f1d1b97ff66211410a50279eed16414b5a6e888c27c11419e41265168d08692c",
+      "actual_sha256": "F1D1B97FF66211410A50279EED16414B5A6E888C27C11419E41265168D08692C",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/legal-privacy/04_planning/visual-designs/gate5_v0.1/assets/SHARED-CONSENT_G5_STATE_PROOF_1440_V0.1.png",
+      "expected_sha256": "6C7054D6F8CCF7A3A7EA2B577616B0EC2BC0E021D0455DCE74DDAAA026BD7604",
+      "actual_sha256": "6C7054D6F8CCF7A3A7EA2B577616B0EC2BC0E021D0455DCE74DDAAA026BD7604",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "D:/23MySec/pages/legal-privacy/04_planning/visual-designs/gate5_v0.1/assets/SHARED-CONSENT_G5_MOBILE_STATE_PROOF_390_LOGICAL_AT2X_V0.1.png",
+      "expected_sha256": "87D38C654A95B6EBCD11A88EB9453480F9B62CFB43FCD2766B75D4F096083E7E",
+      "actual_sha256": "87D38C654A95B6EBCD11A88EB9453480F9B62CFB43FCD2766B75D4F096083E7E",
+      "exists": true,
+      "hash_match": true
+    }
+  ],
+  "acceptance_ids": [
+    "HOME-VU-A01",
+    "HOME-VU-A02",
+    "HOME-VU-A03",
+    "HOME-VU-A04",
+    "HOME-VU-A05",
+    "HOME-VU-A06",
+    "HOME-VU-A07",
+    "HOME-VU-A08",
+    "HOME-VU-A09",
+    "HOME-VU-A10",
+    "HOME-VU-A11",
+    "HOME-VU-A12"
+  ],
+  "dependency_ids": [
+    "HOME-VU-DEP-01",
+    "HOME-VU-DEP-02",
+    "HOME-VU-DEP-03",
+    "HOME-VU-DEP-04",
+    "HOME-VU-DEP-05"
+  ],
+  "summary": {
+    "links": 49,
+    "missing_links": 0,
+    "frozen_checks": 35,
+    "raw_hash_matches": 34,
+    "frozen_mismatches": 1,
+    "line_ending_equivalent": 1,
+    "unexplained_mismatches": 0,
+    "acceptance_count": 12,
+    "dependency_count": 5
+  },
+  "open_items": [
+    "F01: original five-node authorization reconciled by independent V0.1; V0.2 wording pending targeted recheck and controller closure.",
+    "F02: V0.2 preserves 14 non-link grade labels and limits editable targets to existing Hub/process links; pending independent targeted recheck.",
+    "DEP-01: actual WordPress candidate identity and existing verification tool compatibility remain Gate8/9 runtime obligations."
+  ],
+  "limitations": [
+    "No browser or WordPress runtime verification",
+    "No independent review or Gate6 closure",
+    "No D16 or D32 mutation",
+    "D16 historical freeze dependencies intentionally excluded from new-site asset equality checks",
+    "Prototype font presence/hash does not validate production packaging license",
+    "Package and sources are not a replacement page Manifest"
+  ],
+  "verification_method": "PowerShell: resolve Markdown file links; Test-Path; Get-FileHash SHA256; compare frozen records with actual bytes; inspect CRLF normalization only in memory. Self JSON excluded from source hashes to avoid circular identity.",
+  "revision": "V0.2: narrow F01/F02 response; previous V0.1 and approved sources unchanged. Author self-check only."
+}

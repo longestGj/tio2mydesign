@@ -1,0 +1,693 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-09-20T08:13:41.241Z",
+  "identity": {
+    "expected": {
+      "implementation": "95ed4c4c47481ef78f64fa90b95a1096ea45bfae",
+      "evidenceHead": "8a4e3f5cb88cc30d0aecc36955ccb3ac19b8307c",
+      "build": "wp-9fcfb835a0e8b3709924a3d05cfe0bf5173fcd4db200308e0c4edf96845b68df"
+    },
+    "actual": {
+      "branch": "codex/product-000-products",
+      "head": "8a4e3f5cb88cc30d0aecc36955ccb3ac19b8307c",
+      "clean": true,
+      "manifestImplementation": "95ed4c4c47481ef78f64fa90b95a1096ea45bfae",
+      "manifestEvidenceHead": "8a4e3f5cb88cc30d0aecc36955ccb3ac19b8307c",
+      "manifestBuild": "wp-9fcfb835a0e8b3709924a3d05cfe0bf5173fcd4db200308e0c4edf96845b68df"
+    }
+  },
+  "f01": {
+    "rawScans": [
+      {
+        "url": "http://127.0.0.1:8232/products/",
+        "status": 200,
+        "scope": "tio2-my",
+        "scan": {
+          "label": "raw:http://127.0.0.1:8232/products/",
+          "bytes": 41387,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      },
+      {
+        "url": "http://127.0.0.1:8232/products/?grade=M-350",
+        "status": 200,
+        "scope": "tio2-my",
+        "scan": {
+          "label": "raw:http://127.0.0.1:8232/products/?grade=M-350",
+          "bytes": 41387,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      }
+    ],
+    "scriptScans": [
+      {
+        "url": "http://127.0.0.1:8232/wp-content/themes/tio2-malaysia/assets/site.js?ver=1789884937",
+        "status": 200,
+        "scan": {
+          "label": "script:http://127.0.0.1:8232/wp-content/themes/tio2-malaysia/assets/site.js?ver=1789884937",
+          "bytes": 3060,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      },
+      {
+        "url": "http://127.0.0.1:8232/wp-content/themes/tio2-malaysia/assets/products.js?ver=1789890998",
+        "status": 200,
+        "scan": {
+          "label": "script:http://127.0.0.1:8232/wp-content/themes/tio2-malaysia/assets/products.js?ver=1789890998",
+          "bytes": 2881,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      }
+    ],
+    "domScans": [
+      {
+        "label": "dom:initial",
+        "bytes": 41386,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      },
+      {
+        "label": "json:products-selector-data",
+        "bytes": 1315,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      },
+      {
+        "label": "dom:document-after-selector:Coatings",
+        "bytes": 40898,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      },
+      {
+        "label": "dom:document-after-selector:Plastics",
+        "bytes": 40898,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      },
+      {
+        "label": "dom:document-after-selector:Masterbatch",
+        "bytes": 40833,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      },
+      {
+        "label": "dom:document-after-selector:Printing Inks",
+        "bytes": 40637,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      },
+      {
+        "label": "dom:document-after-selector:Paper",
+        "bytes": 40508,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      },
+      {
+        "label": "dom:document-after-selector:Specialty Materials",
+        "bytes": 40443,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      },
+      {
+        "label": "dom:document-after-selector:Not Sure",
+        "bytes": 40596,
+        "matches": [
+          {
+            "id": "internal-page-id",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "routeKey-field",
+            "count": 0,
+            "values": []
+          },
+          {
+            "id": "data-route-key-attribute",
+            "count": 0,
+            "values": []
+          }
+        ],
+        "pass": true
+      }
+    ],
+    "routeKeyAttributeCount": 0,
+    "readinessStateCount": 12,
+    "readinessStateLabels": [
+      "zero",
+      "wrong-scope",
+      "cr-ready-independent",
+      "three-grades",
+      "fourteen-grades",
+      "process-one",
+      "process-two",
+      "support-1",
+      "support-2",
+      "support-3",
+      "full-registry",
+      "restored-zero"
+    ],
+    "readinessLeakStates": []
+  },
+  "f02": {
+    "expectedAcceptance": [
+      "PRODUCT-G6-B02",
+      "PRODUCT-G6-B03",
+      "PRODUCT-G6-TDS-I02",
+      "PRODUCT-G7-B05",
+      "PRODUCT-G7-B06",
+      "PRODUCT-G7-B07",
+      "PRODUCT-D32-AC-CONTENT",
+      "PRODUCT-D32-AC-SEO",
+      "PRODUCT-D32-AC-SCHEMA-PREVIEW",
+      "PRODUCT-D32-AC-MIGRATION",
+      "PRODUCT-D32-AC-DOMAIN",
+      "PRODUCT-D32-AC-CHROME-REGRESSION"
+    ],
+    "manifestIds": [
+      "PRODUCT-G6-B02",
+      "PRODUCT-G6-B03",
+      "PRODUCT-G6-TDS-I02",
+      "PRODUCT-G7-B05",
+      "PRODUCT-G7-B06",
+      "PRODUCT-G7-B07",
+      "PRODUCT-D32-AC-CONTENT",
+      "PRODUCT-D32-AC-SEO",
+      "PRODUCT-D32-AC-SCHEMA-PREVIEW",
+      "PRODUCT-D32-AC-MIGRATION",
+      "PRODUCT-D32-AC-DOMAIN",
+      "PRODUCT-D32-AC-CHROME-REGRESSION"
+    ],
+    "mappingIds": [
+      "PRODUCT-G6-B02",
+      "PRODUCT-G6-B03",
+      "PRODUCT-G6-TDS-I02",
+      "PRODUCT-G7-B05",
+      "PRODUCT-G7-B06",
+      "PRODUCT-G7-B07",
+      "PRODUCT-D32-AC-CONTENT",
+      "PRODUCT-D32-AC-SEO",
+      "PRODUCT-D32-AC-SCHEMA-PREVIEW",
+      "PRODUCT-D32-AC-MIGRATION",
+      "PRODUCT-D32-AC-DOMAIN",
+      "PRODUCT-D32-AC-CHROME-REGRESSION"
+    ],
+    "manifestMissing": [],
+    "manifestExtra": [],
+    "mappingMissing": [],
+    "mappingExtra": [],
+    "duplicateManifestIds": [],
+    "duplicateMappingIds": [],
+    "mappingCompleteness": [
+      {
+        "id": "PRODUCT-G6-B02",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-G6-B03",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-G6-TDS-I02",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-G7-B05",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-G7-B06",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-G7-B07",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-D32-AC-CONTENT",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-D32-AC-SEO",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-D32-AC-SCHEMA-PREVIEW",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-D32-AC-MIGRATION",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-D32-AC-DOMAIN",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      },
+      {
+        "id": "PRODUCT-D32-AC-CHROME-REGRESSION",
+        "hasEvidence": true,
+        "hasCommands": true,
+        "hasResult": true,
+        "hasBoundary": true
+      }
+    ]
+  },
+  "adjacentRegression": {
+    "httpStatus": 200,
+    "h1Count": 1,
+    "directoryRows": 14,
+    "modules": [
+      "breadcrumb",
+      "hero",
+      "selector",
+      "process",
+      "directory",
+      "evaluation",
+      "faq",
+      "final-rfq"
+    ],
+    "rfqCleanLinkCount": 7,
+    "selectorStates": [
+      {
+        "label": "Coatings",
+        "count": 8,
+        "scan": {
+          "label": "dom:selector:Coatings",
+          "bytes": 553,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      },
+      {
+        "label": "Plastics",
+        "count": 8,
+        "scan": {
+          "label": "dom:selector:Plastics",
+          "bytes": 553,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      },
+      {
+        "label": "Masterbatch",
+        "count": 7,
+        "scan": {
+          "label": "dom:selector:Masterbatch",
+          "bytes": 488,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      },
+      {
+        "label": "Printing Inks",
+        "count": 4,
+        "scan": {
+          "label": "dom:selector:Printing Inks",
+          "bytes": 292,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      },
+      {
+        "label": "Paper",
+        "count": 2,
+        "scan": {
+          "label": "dom:selector:Paper",
+          "bytes": 163,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      },
+      {
+        "label": "Specialty Materials",
+        "count": 1,
+        "scan": {
+          "label": "dom:selector:Specialty Materials",
+          "bytes": 98,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      },
+      {
+        "label": "Not Sure",
+        "count": 0,
+        "scan": {
+          "label": "dom:selector:Not Sure",
+          "bytes": 251,
+          "matches": [
+            {
+              "id": "internal-page-id",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "routeKey-field",
+              "count": 0,
+              "values": []
+            },
+            {
+              "id": "data-route-key-attribute",
+              "count": 0,
+              "values": []
+            }
+          ],
+          "pass": true
+        }
+      }
+    ],
+    "pageErrors": [],
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "summary": {
+    "identityPass": true,
+    "f01Pass": true,
+    "f02Pass": true,
+    "adjacentPass": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "gate8_return_notice": {
+    "notice_type": "PAGE_GATE9_RETURN",
+    "review_id": "PRODUCT-DETAIL-13-GRADE-D32-NEXTJS-G9-20260921-01",
+    "recheck_scope_status": "INITIAL_REVIEW_COMPLETE / RETURN_REQUIRED",
+    "page_gate9_status": "READ_ONLY_QA_NOT_APPROVED / GATE8_RETURN_REQUIRED",
+    "integration_status": "NOT_READY / PAGE_GATE9_NOT_PASS_AND_EXTERNAL_DEPENDENCIES_OPEN",
+    "release_status": "NOT_AUTHORIZED",
+    "implementation_commit": "3a06b574d52dbf2f32f11f872dbaea63ca65aad3",
+    "evidence_head": "d75043ba5bf379b804d567db39871019dc778704",
+    "build_id": "7BGXY_4cV95ZiX1VdmTId",
+    "open_findings": [
+      "PD13-D32-G9-ROOT-F01"
+    ],
+    "targeted_recheck": [
+      "PD13-D32-AC-A11Y",
+      "PD13-D32-AC-REGRESSION",
+      "shared Cookie Settings keyboard focus containment on the replacement exact candidate"
+    ],
+    "user_excepted_non_blockers": [
+      "physical-device testing",
+      "manual named assistive-technology testing",
+      "native 200-percent zoom evidence"
+    ],
+    "report_path": "D:\\23MySec\\pages\\products\\detail-template\\07_qa\\PRODUCT-DETAIL-13-GRADE_D32_NEXTJS_GATE9_INDEPENDENT_ACCEPTANCE_V0.1.md",
+    "gate8_should_stop_return_work": false
+  }
+}

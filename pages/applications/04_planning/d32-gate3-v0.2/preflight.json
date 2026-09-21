@@ -1,0 +1,431 @@
+{
+  "workset_id": "APP-000-D32-G3-V0.2",
+  "status": "PASS_FOR_FORMAL_RENDER",
+  "lifecycle": "GATE3_IN_PROGRESS",
+  "candidate": {
+    "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.2/application-planning.html",
+    "bytes": 32776,
+    "sha256": "60e7a9091b7ebfab27a810aafce30a457532ac770ea9f75a6b655a14c9c09aef"
+  },
+  "approvedInputs": [
+    {
+      "role": "historical_current_manifest",
+      "path": "D:/23MySec/pages/applications/APP-000_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "bytes": 18594,
+      "sha256": "bd1a52ca78a49f6862975cef2b4f6cc03ec7f74137843d0cc9d700c259f59073"
+    },
+    {
+      "role": "approved_visible_copy",
+      "path": "D:/23MySec/pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+      "bytes": 6995,
+      "sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1"
+    },
+    {
+      "role": "approved_content_contract",
+      "path": "D:/23MySec/pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+      "bytes": 22077,
+      "sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e"
+    },
+    {
+      "role": "approved_product_relation_delta",
+      "path": "D:/23MySec/pages/applications/04_planning/APP-000_PRODUCT_V0.3_RELATION_CONTENT_DELTA_V0.1.md",
+      "bytes": 3469,
+      "sha256": "c5a0c4f96e1bd5411c4e1ec3b488901cebbb1adb894e06b46e3670817c34a308"
+    },
+    {
+      "role": "page_playbook",
+      "path": "D:/23MySec/docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+      "bytes": 36722,
+      "sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c"
+    },
+    {
+      "role": "page_brief",
+      "path": "D:/23MySec/docs/page-briefs/APP-000_APPLICATIONS_BRIEF_V0.1.md",
+      "bytes": 75132,
+      "sha256": "f3735ef738b2cdc63f9b08d44c31ca80872ca18118f1b01701b892db7b667c88"
+    },
+    {
+      "role": "home_current_manifest",
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "bytes": 1289,
+      "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5"
+    },
+    {
+      "role": "home_d32_visual_baseline",
+      "path": "D:/23MySec/pages/home/07_qa/HOME-001_D32_GATE9_VISUAL_INTERACTION_REVIEW_V0.1.md",
+      "bytes": 9030,
+      "sha256": "da8a8fa2abc7d238f669a73cf9c78f9d474d09501be456f35ab2557e2ce518f9"
+    },
+    {
+      "role": "workflow",
+      "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.3.md",
+      "bytes": 19244,
+      "sha256": "b00f404ef3c24e394194c7dd4f85e40c56b1fb6e33b723290e1a8f3af50ac1f1"
+    },
+    {
+      "role": "page_gate_standard",
+      "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.3.md",
+      "bytes": 19561,
+      "sha256": "2cc10e4951ec110742e977d1d45e07c9dc1cece7b5012c168600125408eda87b"
+    },
+    {
+      "role": "gate3_baseline",
+      "path": "D:/23MySec/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+      "bytes": 3394,
+      "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01"
+    },
+    {
+      "role": "gate3_agent",
+      "path": "D:/23MySec/agents/gate3-execution/agent.md",
+      "bytes": 21936,
+      "sha256": "a5f7c6a421ae7454497ef464d2cfe51d48812e2a0eeb04a1fa5649a1bb26bbeb"
+    },
+    {
+      "role": "gate3_cross_page_decision",
+      "path": "D:/23MySec/docs/architecture/GATE3_CROSS_PAGE_CONSISTENCY_DECISION_V1.0.md",
+      "bytes": 5352,
+      "sha256": "0c78278b9898e3a52ed048e0bcd3cd338f6f490e1dd56fa3085b7b83fc86c95c"
+    },
+    {
+      "role": "gate3_production_boundary",
+      "path": "D:/23MySec/docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.1.md",
+      "bytes": 6320,
+      "sha256": "86ff91f577bd4fba1173699637a41ee549ce18df1553a178e0bd3245a59a6da1"
+    },
+    {
+      "role": "gate4_baseline",
+      "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.10.md",
+      "bytes": 3632,
+      "sha256": "dd8f87b232373897d12875045e269be85d3107f89ff2c8144d9de9bafb3a437a"
+    },
+    {
+      "role": "gate4_agent",
+      "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+      "bytes": 11149,
+      "sha256": "4826c6ddaf3eb6dc828483599d14999e589e02e9a76989cdb9ecf18e77764db0"
+    },
+    {
+      "role": "gate4_gate5_handoff",
+      "path": "D:/23MySec/docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "bytes": 8078,
+      "sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370"
+    },
+    {
+      "role": "gate5_agent",
+      "path": "D:/23MySec/agents/gate5-independent-visual-review/agent.md",
+      "bytes": 6619,
+      "sha256": "3ed2dd7c6c6cc94daa2d3acaf4cfb330c9ec65069f206c69f0843aa07b5dbb13"
+    },
+    {
+      "role": "gate5_gate6_acceptance",
+      "path": "D:/23MySec/docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "bytes": 5954,
+      "sha256": "c408bdcd34b898edb5e95c76db8c126a203ebd1e85c530460e3615f49e0e80eb"
+    },
+    {
+      "role": "gate6_baseline",
+      "path": "D:/23MySec/docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md",
+      "bytes": 1913,
+      "sha256": "b03647827a0969ea6c26915715ec6114fa31d0a7cf0a8629dd280625a7761cdf"
+    },
+    {
+      "role": "gate6_execution_review",
+      "path": "D:/23MySec/docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "bytes": 6627,
+      "sha256": "d2aaffaadf6ba44f3472b4045a40c165b170aa4fdfdc4ee1d824fe66415e9f67"
+    },
+    {
+      "role": "gate8_gate9_evidence_handoff",
+      "path": "D:/23MySec/docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "bytes": 4219,
+      "sha256": "a74953971244d3b2bb43f6bc5d9b798f428d9590bab8bcb8664e1d4e9b4b31cb"
+    },
+    {
+      "role": "development_owner",
+      "path": "D:/23MySec/docs/architecture/DEVELOPMENT_OWNER_D32_SWITCH_DECISION_V1.0.md",
+      "bytes": 5000,
+      "sha256": "5afdb91fa3288eaa9dc5dfbf7683eb73240addbca8c32636d052d6362a4d0a07"
+    },
+    {
+      "role": "root_hero_shared_contract",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "bytes": 13549,
+      "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f"
+    },
+    {
+      "role": "root_hero_open_white_addendum",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "bytes": 2812,
+      "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720"
+    },
+    {
+      "role": "root_hero_approved_baseline",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "bytes": 4653,
+      "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580"
+    },
+    {
+      "role": "global_chrome_owner",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "bytes": 7235,
+      "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+    },
+    {
+      "role": "global_footer_legal_owner",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "bytes": 2310,
+      "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+    },
+    {
+      "role": "production_logo_owner",
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "bytes": 8090,
+      "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+    }
+  ],
+  "dependencies": [
+    {
+      "role": "historical_current_manifest",
+      "path": "D:/23MySec/pages/applications/APP-000_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "bytes": 18594,
+      "sha256": "bd1a52ca78a49f6862975cef2b4f6cc03ec7f74137843d0cc9d700c259f59073"
+    },
+    {
+      "role": "approved_visible_copy",
+      "path": "D:/23MySec/pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+      "bytes": 6995,
+      "sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1"
+    },
+    {
+      "role": "approved_content_contract",
+      "path": "D:/23MySec/pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+      "bytes": 22077,
+      "sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e"
+    },
+    {
+      "role": "approved_product_relation_delta",
+      "path": "D:/23MySec/pages/applications/04_planning/APP-000_PRODUCT_V0.3_RELATION_CONTENT_DELTA_V0.1.md",
+      "bytes": 3469,
+      "sha256": "c5a0c4f96e1bd5411c4e1ec3b488901cebbb1adb894e06b46e3670817c34a308"
+    },
+    {
+      "role": "page_playbook",
+      "path": "D:/23MySec/docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+      "bytes": 36722,
+      "sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c"
+    },
+    {
+      "role": "page_brief",
+      "path": "D:/23MySec/docs/page-briefs/APP-000_APPLICATIONS_BRIEF_V0.1.md",
+      "bytes": 75132,
+      "sha256": "f3735ef738b2cdc63f9b08d44c31ca80872ca18118f1b01701b892db7b667c88"
+    },
+    {
+      "role": "home_current_manifest",
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "bytes": 1289,
+      "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5"
+    },
+    {
+      "role": "home_d32_visual_baseline",
+      "path": "D:/23MySec/pages/home/07_qa/HOME-001_D32_GATE9_VISUAL_INTERACTION_REVIEW_V0.1.md",
+      "bytes": 9030,
+      "sha256": "da8a8fa2abc7d238f669a73cf9c78f9d474d09501be456f35ab2557e2ce518f9"
+    },
+    {
+      "role": "workflow",
+      "path": "D:/23MySec/docs/architecture/GATE_WORKFLOW_V3.3.md",
+      "bytes": 19244,
+      "sha256": "b00f404ef3c24e394194c7dd4f85e40c56b1fb6e33b723290e1a8f3af50ac1f1"
+    },
+    {
+      "role": "page_gate_standard",
+      "path": "D:/23MySec/docs/architecture/PAGE_GATE_1_4_STANDARD_V2.3.md",
+      "bytes": 19561,
+      "sha256": "2cc10e4951ec110742e977d1d45e07c9dc1cece7b5012c168600125408eda87b"
+    },
+    {
+      "role": "gate3_baseline",
+      "path": "D:/23MySec/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+      "bytes": 3394,
+      "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01"
+    },
+    {
+      "role": "gate3_agent",
+      "path": "D:/23MySec/agents/gate3-execution/agent.md",
+      "bytes": 21936,
+      "sha256": "a5f7c6a421ae7454497ef464d2cfe51d48812e2a0eeb04a1fa5649a1bb26bbeb"
+    },
+    {
+      "role": "gate3_cross_page_decision",
+      "path": "D:/23MySec/docs/architecture/GATE3_CROSS_PAGE_CONSISTENCY_DECISION_V1.0.md",
+      "bytes": 5352,
+      "sha256": "0c78278b9898e3a52ed048e0bcd3cd338f6f490e1dd56fa3085b7b83fc86c95c"
+    },
+    {
+      "role": "gate3_production_boundary",
+      "path": "D:/23MySec/docs/architecture/GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.1.md",
+      "bytes": 6320,
+      "sha256": "86ff91f577bd4fba1173699637a41ee549ce18df1553a178e0bd3245a59a6da1"
+    },
+    {
+      "role": "gate4_baseline",
+      "path": "D:/23MySec/docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.10.md",
+      "bytes": 3632,
+      "sha256": "dd8f87b232373897d12875045e269be85d3107f89ff2c8144d9de9bafb3a437a"
+    },
+    {
+      "role": "gate4_agent",
+      "path": "D:/23MySec/agents/gate4-complete-visual/agent.md",
+      "bytes": 11149,
+      "sha256": "4826c6ddaf3eb6dc828483599d14999e589e02e9a76989cdb9ecf18e77764db0"
+    },
+    {
+      "role": "gate4_gate5_handoff",
+      "path": "D:/23MySec/docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "bytes": 8078,
+      "sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370"
+    },
+    {
+      "role": "gate5_agent",
+      "path": "D:/23MySec/agents/gate5-independent-visual-review/agent.md",
+      "bytes": 6619,
+      "sha256": "3ed2dd7c6c6cc94daa2d3acaf4cfb330c9ec65069f206c69f0843aa07b5dbb13"
+    },
+    {
+      "role": "gate5_gate6_acceptance",
+      "path": "D:/23MySec/docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "bytes": 5954,
+      "sha256": "c408bdcd34b898edb5e95c76db8c126a203ebd1e85c530460e3615f49e0e80eb"
+    },
+    {
+      "role": "gate6_baseline",
+      "path": "D:/23MySec/docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md",
+      "bytes": 1913,
+      "sha256": "b03647827a0969ea6c26915715ec6114fa31d0a7cf0a8629dd280625a7761cdf"
+    },
+    {
+      "role": "gate6_execution_review",
+      "path": "D:/23MySec/docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "bytes": 6627,
+      "sha256": "d2aaffaadf6ba44f3472b4045a40c165b170aa4fdfdc4ee1d824fe66415e9f67"
+    },
+    {
+      "role": "gate8_gate9_evidence_handoff",
+      "path": "D:/23MySec/docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "bytes": 4219,
+      "sha256": "a74953971244d3b2bb43f6bc5d9b798f428d9590bab8bcb8664e1d4e9b4b31cb"
+    },
+    {
+      "role": "development_owner",
+      "path": "D:/23MySec/docs/architecture/DEVELOPMENT_OWNER_D32_SWITCH_DECISION_V1.0.md",
+      "bytes": 5000,
+      "sha256": "5afdb91fa3288eaa9dc5dfbf7683eb73240addbca8c32636d052d6362a4d0a07"
+    },
+    {
+      "role": "root_hero_shared_contract",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "bytes": 13549,
+      "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f"
+    },
+    {
+      "role": "root_hero_open_white_addendum",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "bytes": 2812,
+      "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720"
+    },
+    {
+      "role": "root_hero_approved_baseline",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "bytes": 4653,
+      "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580"
+    },
+    {
+      "role": "global_chrome_owner",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "bytes": 7235,
+      "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+    },
+    {
+      "role": "global_footer_legal_owner",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "bytes": 2310,
+      "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+    },
+    {
+      "role": "production_logo_owner",
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "bytes": 8090,
+      "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+    },
+    {
+      "role": "content-extraction",
+      "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.2/content-extraction.json",
+      "bytes": 3962,
+      "sha256": "4af953de883c6acb503fbd5ea29ff933e99265f96ebd8d443a37fa252b7cff7b"
+    },
+    {
+      "role": "runtime-observations",
+      "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.2/runtime-observations.json",
+      "bytes": 22982,
+      "sha256": "256fddcd41552a482a7105c4bf7f494f323f1703f0989632a5d7f5990ca9fcc5"
+    },
+    {
+      "role": "planning-css",
+      "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.2/planning.css",
+      "bytes": 7222,
+      "sha256": "8deacbbf80bdc525b2ed59d95d610022d34056b2386db2da551ae692dc70b1a7"
+    },
+    {
+      "role": "planning-js",
+      "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.2/planning.js",
+      "bytes": 2028,
+      "sha256": "95e17881cd729791e7b46b863778c585c6f9de4e3184bea6e82d9f73bb6de06c"
+    },
+    {
+      "role": "shared-consumer-package",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "bytes": 2409,
+      "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+    }
+  ],
+  "sharedConsumer": {
+    "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+    "bytes": 2409,
+    "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+  },
+  "checks": {
+    "approvedInputsMatch": "PASS",
+    "durableDependencies": "PASS",
+    "sharedConsumerNeutral": "PASS",
+    "contentRelationshipsMatch": "PASS",
+    "threeViewportsVisible": "PASS",
+    "touchTargets44": "PASS",
+    "mobileMenuExit": "PASS",
+    "applicableStates": "PASS",
+    "pageSpecificRisks": "PASS"
+  },
+  "formalExportsGenerated": false,
+  "runtime": {
+    "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.2/runtime-observations.json",
+    "bytes": 22982,
+    "sha256": "256fddcd41552a482a7105c4bf7f494f323f1703f0989632a5d7f5990ca9fcc5"
+  },
+  "inputIdentityRecord": {
+    "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.2/input-identities.json",
+    "bytes": 8161,
+    "sha256": "12b6021e3e77723c6546b6af5a0c2efe6c1c5a3a2a38c81244bdbd81c8b5f3c4"
+  },
+  "contentExtraction": {
+    "path": "D:/23MySec/pages/applications/04_planning/d32-gate3-v0.2/content-extraction.json",
+    "bytes": 3962,
+    "sha256": "4af953de883c6acb503fbd5ea29ff933e99265f96ebd8d443a37fa252b7cff7b"
+  },
+  "evidenceTypes": [
+    "ACTUAL_RUNTIME",
+    "SOURCE_INSPECTION",
+    "LOCAL_SIMULATION"
+  ],
+  "formal_render_allowed": true,
+  "captured_at": "2026-09-20T10:28:18.053Z"
+}

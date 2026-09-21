@@ -5,7 +5,7 @@ description: Review page planning deliverables for contradictions between approv
 
 # 页面合同一致性核验
 
-V0.3，项目方法源；2026-09-07用户已授权本轮定向修订，具体范围及有限验证见[修订记录](../../docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md)。按具体任务授权使用，不代表所有页面类型已验证或已运行注册。对照原始要求和实际成果，找出足以影响读者理解、开发实现或验收的矛盾与遗漏。调用 Agent 决定问题处置、阶段和批准；方法只交核验依据。
+V0.4，项目方法源；2026-09-07用户已授权本轮定向修订，具体范围及有限验证见[修订记录](../../docs/superpowers/specs/2026-09-07-gate6-three-page-method-revision-v0.2.md)。按具体任务授权使用，不代表所有页面类型已验证或已运行注册。对照原始要求和实际成果，找出足以影响读者理解、开发实现或验收的矛盾与遗漏。调用 Agent 决定问题处置、阶段和批准；方法只交核验依据。
 
 ## 接收范围
 
@@ -22,7 +22,7 @@ V0.3，项目方法源；2026-09-07用户已授权本轮定向修订，具体范
 | 问题处置 | 定位差异、责任与接受条件 | 修改被审源/当前Manifest；将上游违约改名后置依赖放行 |
 | 输出 | 差异、Finding、有效引用与局限 | 复制全文、重建依赖台账、无差异堆逐项PASS |
 
-Gate 6调用时必读[执行与复核合同](../../docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.0.md)，接收路径、继承覆盖及触发范围。其他阶段按其实际任务范围执行，不自动套用Gate 6的FAST_PATH；尤其不能减免Gate 9实际实现核验。
+Gate 6调用时必读[执行与复核合同](../../docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.2.md)，接收路径、继承覆盖及触发范围。其他阶段按其实际任务范围执行，不自动套用Gate 6的FAST_PATH；尤其不能减免Gate 9实际实现核验。
 
 ## 1. 先确定身份与有效规则
 

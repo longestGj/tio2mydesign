@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "handoff_id": "PRODUCT-D32-G8-01",
+  "gate8_task_id": "01a0bd3a-a7ba-7632-bda0-fad444f654db",
+  "site_scope": "tio2-my",
+  "identity": {
+    "implementation_commit": "95ed4c4c47481ef78f64fa90b95a1096ea45bfae",
+    "evidence_head": "8a4e3f5cb88cc30d0aecc36955ccb3ac19b8307c",
+    "build_id": "wp-9fcfb835a0e8b3709924a3d05cfe0bf5173fcd4db200308e0c4edf96845b68df"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:8232",
+    "rounds": 2,
+    "requests": 4,
+    "successful_requests": 4,
+    "observations": [
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:8232/",
+        "status": 200,
+        "bytes": 28946,
+        "final_url": "http://127.0.0.1:8232/",
+        "missing_markers": [],
+        "scope_header": "tio2-my",
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:8232/products/",
+        "status": 200,
+        "bytes": 41387,
+        "final_url": "http://127.0.0.1:8232/products/",
+        "missing_markers": [],
+        "scope_header": "tio2-my",
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:8232/",
+        "status": 200,
+        "bytes": 28946,
+        "final_url": "http://127.0.0.1:8232/",
+        "missing_markers": [],
+        "scope_header": "tio2-my",
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:8232/products/",
+        "status": 200,
+        "bytes": 41387,
+        "final_url": "http://127.0.0.1:8232/products/",
+        "missing_markers": [],
+        "scope_header": "tio2-my",
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "evidence_validation": {
+    "status": "PASS"
+  }
+}

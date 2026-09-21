@@ -1,0 +1,1217 @@
+{
+  "timestamp": "2026-09-21T00:15:33.701Z",
+  "source_sha256": "2b9ba0dac6f6988e065b4b99a9be49d5e560b96f32c5a318abfa516dd1412f3c",
+  "css_sha256": "a312fed76ca0e24f04162e7c8b83732a83637ff69c0b9d50086dae01c4b13da5",
+  "verifier_sha256": "17beb01af95484f8b1e41eb5ea50d61df1619add1ba5e8d9008952330a51c134",
+  "renderer": "151.0.7922.34",
+  "evidence_types": [
+    "ACTUAL_RUNTIME",
+    "SOURCE_INSPECTION",
+    "LOCAL_SIMULATION"
+  ],
+  "passed": 141,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "1440:approved complete text",
+      "pass": true
+    },
+    {
+      "id": "1440:approved links",
+      "pass": true
+    },
+    {
+      "id": "1440:single Hero CTA",
+      "pass": true
+    },
+    {
+      "id": "1440:Q1-Q6 only",
+      "pass": true
+    },
+    {
+      "id": "1440:hierarchy",
+      "pass": true
+    },
+    {
+      "id": "1440:no forbidden body additions",
+      "pass": true
+    },
+    {
+      "id": "1440:no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "small": [],
+        "clipped": [],
+        "hero": {
+          "pad": "56px",
+          "radius": "12px",
+          "h1": "56px",
+          "h1Lines": 1.999627976190476,
+          "summary": true
+        },
+        "columns": {
+          "rail": 3,
+          "questions": 2
+        },
+        "font": true,
+        "images": true,
+        "header": 84
+      }
+    },
+    {
+      "id": "1440:no clipping",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "1440:44x44",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "1440:font and SVG loaded",
+      "pass": true
+    },
+    {
+      "id": "1440:Hero owner geometry",
+      "pass": true,
+      "detail": {
+        "pad": "56px",
+        "radius": "12px",
+        "h1": "56px",
+        "h1Lines": 1.999627976190476,
+        "summary": true
+      }
+    },
+    {
+      "id": "1440:H1 max3 lines",
+      "pass": true,
+      "detail": {
+        "pad": "56px",
+        "radius": "12px",
+        "h1": "56px",
+        "h1Lines": 1.999627976190476,
+        "summary": true
+      }
+    },
+    {
+      "id": "1440:body responsive columns",
+      "pass": true,
+      "detail": {
+        "rail": 3,
+        "questions": 2
+      }
+    },
+    {
+      "id": "1440:primary keyboard focus",
+      "pass": true
+    },
+    {
+      "id": "1440:cookie initial focus",
+      "pass": true
+    },
+    {
+      "id": "1440:cookie reverse loop",
+      "pass": true
+    },
+    {
+      "id": "1440:cookie forward loop",
+      "pass": true
+    },
+    {
+      "id": "1440:cookie restored",
+      "pass": true
+    },
+    {
+      "id": "1024:approved complete text",
+      "pass": true
+    },
+    {
+      "id": "1024:approved links",
+      "pass": true
+    },
+    {
+      "id": "1024:single Hero CTA",
+      "pass": true
+    },
+    {
+      "id": "1024:Q1-Q6 only",
+      "pass": true
+    },
+    {
+      "id": "1024:hierarchy",
+      "pass": true
+    },
+    {
+      "id": "1024:no forbidden body additions",
+      "pass": true
+    },
+    {
+      "id": "1024:no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "small": [],
+        "clipped": [],
+        "hero": {
+          "pad": "56px",
+          "radius": "12px",
+          "h1": "56px",
+          "h1Lines": 1.999627976190476,
+          "summary": true
+        },
+        "columns": {
+          "rail": 3,
+          "questions": 2
+        },
+        "font": true,
+        "images": true,
+        "header": 64
+      }
+    },
+    {
+      "id": "1024:no clipping",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "1024:44x44",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "1024:font and SVG loaded",
+      "pass": true
+    },
+    {
+      "id": "1024:Hero owner geometry",
+      "pass": true,
+      "detail": {
+        "pad": "56px",
+        "radius": "12px",
+        "h1": "56px",
+        "h1Lines": 1.999627976190476,
+        "summary": true
+      }
+    },
+    {
+      "id": "1024:H1 max3 lines",
+      "pass": true,
+      "detail": {
+        "pad": "56px",
+        "radius": "12px",
+        "h1": "56px",
+        "h1Lines": 1.999627976190476,
+        "summary": true
+      }
+    },
+    {
+      "id": "1024:body responsive columns",
+      "pass": true,
+      "detail": {
+        "rail": 3,
+        "questions": 2
+      }
+    },
+    {
+      "id": "1024:primary keyboard focus",
+      "pass": true
+    },
+    {
+      "id": "1024:menu initial focus",
+      "pass": true
+    },
+    {
+      "id": "1024:menu background inert",
+      "pass": true
+    },
+    {
+      "id": "1024:menu forward loop",
+      "pass": true
+    },
+    {
+      "id": "1024:menu reverse loop",
+      "pass": true
+    },
+    {
+      "id": "1024:menu return",
+      "pass": true
+    },
+    {
+      "id": "1024:menu selection exit",
+      "pass": true
+    },
+    {
+      "id": "1024:menu breakpoint close",
+      "pass": true
+    },
+    {
+      "id": "1024:cookie initial focus",
+      "pass": true
+    },
+    {
+      "id": "1024:cookie reverse loop",
+      "pass": true
+    },
+    {
+      "id": "1024:cookie forward loop",
+      "pass": true
+    },
+    {
+      "id": "1024:cookie restored",
+      "pass": true
+    },
+    {
+      "id": "768:approved complete text",
+      "pass": true
+    },
+    {
+      "id": "768:approved links",
+      "pass": true
+    },
+    {
+      "id": "768:single Hero CTA",
+      "pass": true
+    },
+    {
+      "id": "768:Q1-Q6 only",
+      "pass": true
+    },
+    {
+      "id": "768:hierarchy",
+      "pass": true
+    },
+    {
+      "id": "768:no forbidden body additions",
+      "pass": true
+    },
+    {
+      "id": "768:no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "small": [],
+        "clipped": [],
+        "hero": {
+          "pad": "40px",
+          "radius": "12px",
+          "h1": "44px",
+          "h1Lines": 0.9999408143939394,
+          "summary": true
+        },
+        "columns": {
+          "rail": 1,
+          "questions": 1
+        },
+        "font": true,
+        "images": true,
+        "header": 64
+      }
+    },
+    {
+      "id": "768:no clipping",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "768:44x44",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "768:font and SVG loaded",
+      "pass": true
+    },
+    {
+      "id": "768:Hero owner geometry",
+      "pass": true,
+      "detail": {
+        "pad": "40px",
+        "radius": "12px",
+        "h1": "44px",
+        "h1Lines": 0.9999408143939394,
+        "summary": true
+      }
+    },
+    {
+      "id": "768:H1 max3 lines",
+      "pass": true,
+      "detail": {
+        "pad": "40px",
+        "radius": "12px",
+        "h1": "44px",
+        "h1Lines": 0.9999408143939394,
+        "summary": true
+      }
+    },
+    {
+      "id": "768:body responsive columns",
+      "pass": true,
+      "detail": {
+        "rail": 1,
+        "questions": 1
+      }
+    },
+    {
+      "id": "768:primary keyboard focus",
+      "pass": true
+    },
+    {
+      "id": "768:menu initial focus",
+      "pass": true
+    },
+    {
+      "id": "768:menu background inert",
+      "pass": true
+    },
+    {
+      "id": "768:menu forward loop",
+      "pass": true
+    },
+    {
+      "id": "768:menu reverse loop",
+      "pass": true
+    },
+    {
+      "id": "768:menu return",
+      "pass": true
+    },
+    {
+      "id": "768:menu selection exit",
+      "pass": true
+    },
+    {
+      "id": "768:menu breakpoint close",
+      "pass": true
+    },
+    {
+      "id": "768:cookie initial focus",
+      "pass": true
+    },
+    {
+      "id": "768:cookie reverse loop",
+      "pass": true
+    },
+    {
+      "id": "768:cookie forward loop",
+      "pass": true
+    },
+    {
+      "id": "768:cookie restored",
+      "pass": true
+    },
+    {
+      "id": "390:approved complete text",
+      "pass": true
+    },
+    {
+      "id": "390:approved links",
+      "pass": true
+    },
+    {
+      "id": "390:single Hero CTA",
+      "pass": true
+    },
+    {
+      "id": "390:Q1-Q6 only",
+      "pass": true
+    },
+    {
+      "id": "390:hierarchy",
+      "pass": true
+    },
+    {
+      "id": "390:no forbidden body additions",
+      "pass": true
+    },
+    {
+      "id": "390:no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "small": [],
+        "clipped": [],
+        "hero": {
+          "pad": "24px",
+          "radius": "10px",
+          "h1": "36px",
+          "h1Lines": 1.999421296296296,
+          "summary": true
+        },
+        "columns": {
+          "rail": 1,
+          "questions": 1
+        },
+        "font": true,
+        "images": true,
+        "header": 64
+      }
+    },
+    {
+      "id": "390:no clipping",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "390:44x44",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "390:font and SVG loaded",
+      "pass": true
+    },
+    {
+      "id": "390:Hero owner geometry",
+      "pass": true,
+      "detail": {
+        "pad": "24px",
+        "radius": "10px",
+        "h1": "36px",
+        "h1Lines": 1.999421296296296,
+        "summary": true
+      }
+    },
+    {
+      "id": "390:H1 max3 lines",
+      "pass": true,
+      "detail": {
+        "pad": "24px",
+        "radius": "10px",
+        "h1": "36px",
+        "h1Lines": 1.999421296296296,
+        "summary": true
+      }
+    },
+    {
+      "id": "390:body responsive columns",
+      "pass": true,
+      "detail": {
+        "rail": 1,
+        "questions": 1
+      }
+    },
+    {
+      "id": "390:primary keyboard focus",
+      "pass": true
+    },
+    {
+      "id": "390:menu initial focus",
+      "pass": true
+    },
+    {
+      "id": "390:menu background inert",
+      "pass": true
+    },
+    {
+      "id": "390:menu forward loop",
+      "pass": true
+    },
+    {
+      "id": "390:menu reverse loop",
+      "pass": true
+    },
+    {
+      "id": "390:menu return",
+      "pass": true
+    },
+    {
+      "id": "390:menu selection exit",
+      "pass": true
+    },
+    {
+      "id": "390:menu breakpoint close",
+      "pass": true
+    },
+    {
+      "id": "390:cookie initial focus",
+      "pass": true
+    },
+    {
+      "id": "390:cookie reverse loop",
+      "pass": true
+    },
+    {
+      "id": "390:cookie forward loop",
+      "pass": true
+    },
+    {
+      "id": "390:cookie restored",
+      "pass": true
+    },
+    {
+      "id": "320:approved complete text",
+      "pass": true
+    },
+    {
+      "id": "320:approved links",
+      "pass": true
+    },
+    {
+      "id": "320:single Hero CTA",
+      "pass": true
+    },
+    {
+      "id": "320:Q1-Q6 only",
+      "pass": true
+    },
+    {
+      "id": "320:hierarchy",
+      "pass": true
+    },
+    {
+      "id": "320:no forbidden body additions",
+      "pass": true
+    },
+    {
+      "id": "320:no horizontal overflow",
+      "pass": true,
+      "detail": {
+        "overflow": 0,
+        "small": [],
+        "clipped": [],
+        "hero": {
+          "pad": "24px",
+          "radius": "10px",
+          "h1": "36px",
+          "h1Lines": 2.999131944444444,
+          "summary": true
+        },
+        "columns": {
+          "rail": 1,
+          "questions": 1
+        },
+        "font": true,
+        "images": true,
+        "header": 64
+      }
+    },
+    {
+      "id": "320:no clipping",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "320:44x44",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "320:font and SVG loaded",
+      "pass": true
+    },
+    {
+      "id": "320:Hero owner geometry",
+      "pass": true,
+      "detail": {
+        "pad": "24px",
+        "radius": "10px",
+        "h1": "36px",
+        "h1Lines": 2.999131944444444,
+        "summary": true
+      }
+    },
+    {
+      "id": "320:H1 max3 lines",
+      "pass": true,
+      "detail": {
+        "pad": "24px",
+        "radius": "10px",
+        "h1": "36px",
+        "h1Lines": 2.999131944444444,
+        "summary": true
+      }
+    },
+    {
+      "id": "320:body responsive columns",
+      "pass": true,
+      "detail": {
+        "rail": 1,
+        "questions": 1
+      }
+    },
+    {
+      "id": "320:primary keyboard focus",
+      "pass": true
+    },
+    {
+      "id": "320:menu initial focus",
+      "pass": true
+    },
+    {
+      "id": "320:menu background inert",
+      "pass": true
+    },
+    {
+      "id": "320:menu forward loop",
+      "pass": true
+    },
+    {
+      "id": "320:menu reverse loop",
+      "pass": true
+    },
+    {
+      "id": "320:menu return",
+      "pass": true
+    },
+    {
+      "id": "320:menu selection exit",
+      "pass": true
+    },
+    {
+      "id": "320:menu breakpoint close",
+      "pass": true
+    },
+    {
+      "id": "320:cookie initial focus",
+      "pass": true
+    },
+    {
+      "id": "320:cookie reverse loop",
+      "pass": true
+    },
+    {
+      "id": "320:cookie forward loop",
+      "pass": true
+    },
+    {
+      "id": "320:cookie restored",
+      "pass": true
+    },
+    {
+      "id": "route:none:market",
+      "pass": true
+    },
+    {
+      "id": "route:none:support",
+      "pass": true
+    },
+    {
+      "id": "route:none:fixed RFQ",
+      "pass": true
+    },
+    {
+      "id": "route:none:country content",
+      "pass": true
+    },
+    {
+      "id": "route:eu-only:market",
+      "pass": true
+    },
+    {
+      "id": "route:eu-only:support",
+      "pass": true
+    },
+    {
+      "id": "route:eu-only:fixed RFQ",
+      "pass": true
+    },
+    {
+      "id": "route:eu-only:country content",
+      "pass": true
+    },
+    {
+      "id": "route:support-only:market",
+      "pass": true
+    },
+    {
+      "id": "route:support-only:support",
+      "pass": true
+    },
+    {
+      "id": "route:support-only:fixed RFQ",
+      "pass": true
+    },
+    {
+      "id": "route:support-only:country content",
+      "pass": true
+    },
+    {
+      "id": "route:full:market",
+      "pass": true
+    },
+    {
+      "id": "route:full:support",
+      "pass": true
+    },
+    {
+      "id": "route:full:fixed RFQ",
+      "pass": true
+    },
+    {
+      "id": "route:full:country content",
+      "pass": true
+    },
+    {
+      "id": "EU default collapsed",
+      "pass": true
+    },
+    {
+      "id": "EU Enter opens",
+      "pass": true
+    },
+    {
+      "id": "EU Space closes",
+      "pass": true
+    },
+    {
+      "id": "actual text contrast",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "primary hover contrast contract",
+      "pass": true,
+      "detail": {
+        "bg": "rgb(0, 108, 102)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "id": "noJS countries readable",
+      "pass": true
+    },
+    {
+      "id": "no browser errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "contrast": [
+    {
+      "text": "Home",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Destination market navigation",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Choose Your Destination Market",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Start with the region or country where your procurement requ",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Choose a Market",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(0, 128, 120)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Destination market",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 4.5200728131076575,
+      "threshold": 4.5
+    },
+    {
+      "text": "Destination market",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 4.5200728131076575,
+      "threshold": 4.5
+    },
+    {
+      "text": "Start with the market tied to your procurement requirements",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 13.09690217866694,
+      "threshold": 3
+    },
+    {
+      "text": "Use the European Union overview for shared regional context,",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 9.714952160628796,
+      "threshold": 4.5
+    },
+    {
+      "text": "European Union",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Start with the European Union overview when you need the sha",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Explore the European Union",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "View EU country destinations",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "United Kingdom",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Use the United Kingdom path when your next procurement quest",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Explore the United Kingdom",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "India",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Use the India path when your next procurement questions need",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Explore India",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Brazil",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Use the Brazil path when your next procurement questions nee",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Explore Brazil",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "How to choose",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Choose the level of market context you need",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "The right starting point depends on whether your question is",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Start with the EU overview",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Use the European Union path for shared regional procurement ",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Choose an EU country destination",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Use a country path when your next question depends on the de",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Use a standalone market path",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Choose the United Kingdom, India, or Brazil when that destin",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Choose the European Union overview for shared regional conte",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 9.714952160628796,
+      "threshold": 4.5
+    },
+    {
+      "text": "Next procurement check",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 4.5200728131076575,
+      "threshold": 4.5
+    },
+    {
+      "text": "Continue with the next procurement check",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 13.09690217866694,
+      "threshold": 3
+    },
+    {
+      "text": "Choosing a destination is one part of the review. Continue w",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 9.714952160628796,
+      "threshold": 4.5
+    },
+    {
+      "text": "Review pigment grades",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Use Products when you need to review grade pages or begin fr",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Explore Products",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Start from the application",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Use Applications when the first known input is coatings, pla",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Explore Applications",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Plan document review",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Use Documents to understand document categories and controll",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Review Documents",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Current information",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Keep time-sensitive trade information separate",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Market pages organize procurement context. Detailed trade-po",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Review Resources",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.817749371824569,
+      "threshold": 4.5
+    },
+    {
+      "text": "Buyer questions",
+      "color": "rgb(0, 128, 120)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 4.5200728131076575,
+      "threshold": 4.5
+    },
+    {
+      "text": "Questions buyers ask before choosing a market page",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(245, 248, 251)",
+      "ratio": 13.09690217866694,
+      "threshold": 3
+    },
+    {
+      "text": "How is the market navigation organized?",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "The market navigation is organized around the European Union",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Should I start with the European Union overview or a country",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Start with the European Union overview for shared regional c",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "What does a market page help me review?",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "A market page organizes destination-specific procurement con",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Where should I check current trade-policy information?",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Detailed, time-sensitive trade information belongs in Resour",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Where should I start if I do not know the grade?",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Product selection is handled by Products and Applications. S",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    },
+    {
+      "text": "Where are technical and origin documents handled?",
+      "color": "rgb(6, 43, 91)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 13.959419428188236,
+      "threshold": 3
+    },
+    {
+      "text": "Document explanations and controlled request paths belong in",
+      "color": "rgb(51, 65, 85)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 10.35474573184942,
+      "threshold": 4.5
+    }
+  ]
+}

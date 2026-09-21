@@ -1,0 +1,148 @@
+{
+  "scope": "TARGETED supplemental actual contrast, 320 eyebrow measurement and missing readable diagnostic spans",
+  "eyebrow": {
+    "available": 230,
+    "singleLineWidth": 248.234375,
+    "before": {
+      "height": 44.78125,
+      "lines": 2,
+      "text": "PROCUREMENT RESEARCH HUB",
+      "font": "14px",
+      "weight": "700",
+      "tracking": "1.12px"
+    },
+    "nowrapFits": false
+  },
+  "colors": [
+    {
+      "selector": "body",
+      "color": "rgb(51, 65, 85)",
+      "background": "rgb(255, 255, 255)",
+      "font": "16px"
+    },
+    {
+      "selector": ".res-main h2",
+      "color": "rgb(6, 43, 91)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "30px"
+    },
+    {
+      "selector": ".res-label",
+      "color": "rgb(0, 128, 120)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "14px"
+    },
+    {
+      "selector": ".hero-eyebrow",
+      "color": "rgb(89, 193, 187)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "14px"
+    },
+    {
+      "selector": ".hero-intro",
+      "color": "rgb(220, 234, 244)",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "16px"
+    },
+    {
+      "selector": ".hero-action",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(0, 128, 120)",
+      "font": "16px"
+    }
+  ],
+  "checks": [
+    {
+      "id": "contrast_body",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(51,65,85)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 10.35474573184942,
+        "min": 4.5
+      }
+    },
+    {
+      "id": "contrast_navy",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(6,43,91)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 13.959419428188236,
+        "min": 4.5
+      }
+    },
+    {
+      "id": "contrast_teal-link-label",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(0,128,120)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4.817749371824569,
+        "min": 4.5
+      }
+    },
+    {
+      "id": "contrast_teal-evidence-label",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(0,128,120)",
+        "bg": "rgb(245,248,251)",
+        "ratio": 4.5200728131076575,
+        "min": 4.5
+      }
+    },
+    {
+      "id": "contrast_hero-eyebrow",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(89,193,187)",
+        "bg": "rgb(3,27,58)",
+        "ratio": 7.997041198395579,
+        "min": 4.5
+      }
+    },
+    {
+      "id": "contrast_hero-intro",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(220,234,244)",
+        "bg": "rgb(3,27,58)",
+        "ratio": 14.011614398117427,
+        "min": 4.5
+      }
+    },
+    {
+      "id": "contrast_cta-text",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(255,255,255)",
+        "bg": "rgb(0,128,120)",
+        "ratio": 4.817749371824569,
+        "min": 4.5
+      }
+    },
+    {
+      "id": "contrast_focus-white-on-navy",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(255,255,255)",
+        "bg": "rgb(3,27,58)",
+        "ratio": 17.188562557698454,
+        "min": 3
+      }
+    },
+    {
+      "id": "contrast_focus-teal-on-white",
+      "pass": true,
+      "actual": {
+        "fg": "rgb(0,128,120)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4.817749371824569,
+        "min": 3
+      }
+    }
+  ],
+  "passed": 9,
+  "failed": 0
+}

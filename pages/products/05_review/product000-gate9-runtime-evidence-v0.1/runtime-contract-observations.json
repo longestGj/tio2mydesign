@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-09-20T07:51:56.1955853Z",
+  "reviewer": "/root/product000_gate9_runtime_final",
+  "evidence_type": "ACTUAL_RUNTIME_AND_SOURCE_INSPECTION",
+  "candidate": {
+    "implementation_commit": "7d4875a778401d0ecd118f5935c6392571a6d13c",
+    "evidence_head": "5c339caad74e8c00658c9497ee428c4f029adbb7",
+    "build_id": "wp-fb45d8677fec877ae499976fdfa96491c03bf9c9c062d35c98f70b10eb7cea9b",
+    "runtime": "http://127.0.0.1:8232/products/",
+    "site_scope": "tio2-my"
+  },
+  "identity": {
+    "manifest_validation": "PASS",
+    "preflight_rounds": 2,
+    "preflight_requests": 4,
+    "preflight_successes": 4,
+    "git_branch": "codex/product-000-products",
+    "git_head": "5c339caad74e8c00658c9497ee428c4f029adbb7",
+    "git_clean": true,
+    "implementation_is_ancestor_of_evidence_head": true
+  },
+  "runtime": {
+    "products_status": 200,
+    "products_scope_header": "tio2-my",
+    "canonical": "https://tio2products.com/products/",
+    "robots": "noindex, nofollow",
+    "h1_count": 1,
+    "grade_rows": 14,
+    "grade_directory_actions": 0,
+    "process_cards": 0,
+    "support_module_present": false,
+    "cr901_classification_present": true,
+    "rfq_link_count": 7,
+    "rfq_query_link_count": 0,
+    "external_routes_checked": 20,
+    "external_routes_matching_expected_404_and_scope": 20,
+    "sitemap_status": 404,
+    "query_variant_kept_canonical_and_robots": true
+  },
+  "schema": {
+    "item_count": 14,
+    "ordered_names_match_visible_directory": true,
+    "unready_item_url_count": 0,
+    "unready_item_id_count": 0,
+    "visible_summary_schema_description_parity": true
+  },
+  "selector": {
+    "initial_result_count": 8,
+    "initial_result_link_count": 0,
+    "paper_result_names": ["M-350", "M-2377"],
+    "paper_result_link_count": 0,
+    "not_sure_browse_href": "#all-grades"
+  },
+  "findings": {
+    "PRODUCT-000-D32-G9-RUNTIME-F01": {
+      "classification": "IMPLEMENTATION_FAILURE",
+      "public_product_000_count": 1,
+      "public_grade_route_key_count": 30,
+      "source_locations": [
+        "wp-content/themes/tio2-malaysia/page-products.php:49",
+        "wp-content/themes/tio2-malaysia/page-products.php:30-35",
+        "wp-content/themes/tio2-malaysia/page-products.php:87",
+        "wp-content/themes/tio2-malaysia/page-products.php:105",
+        "wp-content/themes/tio2-malaysia/page-products.php:109",
+        "wp-content/themes/tio2-malaysia/page-products.php:121",
+        "wp-content/themes/tio2-malaysia/page-products.php:135",
+        "wp-content/themes/tio2-malaysia/assets/products.js:37"
+      ]
+    },
+    "PRODUCT-000-D32-G9-RUNTIME-F02": {
+      "classification": "EVIDENCE_INCOMPLETE",
+      "declared_acceptance_condition_count": 6,
+      "missing_acceptance_condition_ids": [
+        "PRODUCT-D32-AC-CONTENT",
+        "PRODUCT-D32-AC-SEO",
+        "PRODUCT-D32-AC-SCHEMA-PREVIEW",
+        "PRODUCT-D32-AC-MIGRATION",
+        "PRODUCT-D32-AC-DOMAIN",
+        "PRODUCT-D32-AC-CHROME-REGRESSION"
+      ]
+    }
+  }
+}

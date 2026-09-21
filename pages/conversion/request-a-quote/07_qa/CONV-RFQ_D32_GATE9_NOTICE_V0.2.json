@@ -1,0 +1,34 @@
+{
+  "notice_id": "CONV-RFQ-D32-G9-NOTICE-02",
+  "date": "2026-09-20",
+  "destination_thread_id": "01a0bd3a-a7ba-7632-bda0-fad444f654db",
+  "destination_task": "01开发",
+  "delivery_status": "DELIVERED_AND_ACKNOWLEDGED",
+  "instruction": "Stop the previously requested F01/F02/E01 repair and evidence work. User accepted the reviewed deviations and waived native 200 percent zoom, physical touch and named assistive technology evidence for this exact candidate.",
+  "acknowledgement": {
+    "candidate_unchanged": true,
+    "worktree_clean": true,
+    "head": "616662613d170420dce6bcddd5f026652bc3b0d8",
+    "implementation": "f407f0ee526ac3d8fe1dc3efefa31364dc191030",
+    "runtime_http_status": 200,
+    "build_marker_present": true,
+    "repair_or_evidence_changes_made": false
+  },
+  "runtime_release": {
+    "status": "STOPPED_AFTER_GATE9_CLOSEOUT",
+    "command_scope": "docker compose --project-name d32-conv-rfq-gate8 stop",
+    "containers": "WordPress and MariaDB exited normally with code 0",
+    "persistent_volumes_retained": [
+      "d32-conv-rfq-gate8_wp_data",
+      "d32-conv-rfq-gate8_db_data"
+    ],
+    "candidate_head_after_stop": "616662613d170420dce6bcddd5f026652bc3b0d8",
+    "worktree_clean_after_stop": true
+  },
+  "unchanged_boundaries": [
+    "AC-09 remains integration-not-verified",
+    "DEP-01 through DEP-06 remain open",
+    "No real Web3Forms or email submission",
+    "No push, PR, merge, deployment, publication, indexing or Gate 10"
+  ]
+}

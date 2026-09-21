@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "APP5-D32-STATIC-G9-DISPATCH-20260921-01",
+  "pages": [
+    "APP-COAT",
+    "APP-PLAS",
+    "APP-MB",
+    "APP-INK",
+    "APP-PAPER"
+  ],
+  "authorization": {
+    "authorized_at": "2026-09-21",
+    "source": "USER_EXPLICIT_START",
+    "scope": "GATE9_INDEPENDENT_READ_ONLY_ACCEPTANCE",
+    "status": "AUTHORIZED / IN_PROGRESS"
+  },
+  "assignment": {
+    "task_title": "09Gate9验收",
+    "task_id": "01a07e7e-24ef-7390-beab-f50fcbf169e0",
+    "host": "local",
+    "report_target": "D:/23MySec/pages/applications/07_qa/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE9_INDEPENDENT_ACCEPTANCE_V1.0.md",
+    "evidence_target": "D:/23MySec/pages/applications/07_qa/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE9_20260921/"
+  },
+  "bound_candidate": {
+    "repository": "D:/32NextJS",
+    "worktree": "D:/32NextJS/.worktrees/applications-child-5-gate8",
+    "branch": "codex/applications-child-5-gate8",
+    "implementation_commit": "0c117ee0941a3b307f761ff0db5ea67fc98b5a07",
+    "tree": "9033cf746f14154fc6895ed0d1357fcabbea07fa",
+    "parents": [
+      "b8b00e423d04c4143c967ffce86a5ba00e81338e",
+      "28a2f5d28334a253d3d2fd0a73bf789c3b180ddb"
+    ]
+  },
+  "closed_input": {
+    "gate6_package": "D:/23MySec/pages/applications/06_handoff/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE6_HANDOFF_PACKAGE_V1.0.md",
+    "gate6_package_sha256": "71153324f999035d3bb42357d3a44170651f49c9de4ae36bad054e16e36baa8c",
+    "gate8_receipt": "D:/23MySec/pages/applications/06_handoff/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE8_DISPATCH_RECEIPT_V1.0.json",
+    "gate8_results": "D:/32NextJS/.worktrees/applications-child-5-gate8/docs/verification/applications-child-5-gate8/RESULTS.md",
+    "gate8_results_sha256": "fca64e709cf2cc59b1726cbe26f46cb4c03d530adb07576952945212ab0afe06",
+    "acceptance_ids": "APP5-G9-01..APP5-G9-12"
+  },
+  "constraints": {
+    "read_only_d32": true,
+    "real_form_submission": false,
+    "merge_push_deploy_dns_search_console": "NOT_AUTHORIZED",
+    "multisite_scope_isolation": "NOT_APPLICABLE_STATIC_SINGLE_SITE",
+    "google_actual_indexing": "POST_RELEASE_NOT_GATE9_LOCAL_PASS_CONDITION",
+    "waived_evidence": [
+      "physical_devices",
+      "manual_named_screen_reader",
+      "native_browser_zoom"
+    ]
+  }
+}

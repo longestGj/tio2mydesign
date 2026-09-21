@@ -1,0 +1,82 @@
+{
+  "review_id": "CONV-RFQ-D32-G9-20260920-01",
+  "date": "2026-09-20",
+  "browser": "Codex in-app browser",
+  "runtime_url": "http://127.0.0.1:8242/request-a-quote/",
+  "checks": {
+    "identity_and_head": {
+      "title": "Request a Titanium Dioxide Quote | TiO2 Malaysia",
+      "canonical": "https://tio2products.com/request-a-quote/",
+      "robots": "noindex, nofollow",
+      "lang": "en",
+      "h1_count": 1,
+      "schema_types": ["WebPage", "BreadcrumbList"],
+      "internal_governance_leak": false
+    },
+    "form": {
+      "forms": 1,
+      "editable_controls": 11,
+      "grade_options_excluding_placeholder": 15,
+      "application_options_excluding_placeholder": 7,
+      "fixed_metric_tonnes_visible": true,
+      "empty_submit_summary_focused": true,
+      "empty_submit_invalid_fields": 7,
+      "receiver_request_triggered_by_empty_submit": false
+    },
+    "prefill": {
+      "valid_query_visible_and_editable": true,
+      "canonical_unchanged": true,
+      "invalid_stale_and_internal_values_cleared": true,
+      "internal_id_dom_leak": false
+    },
+    "responsive": {
+      "widths": [1440, 1280, 1024, 768, 430, 390, 375, 320],
+      "horizontal_overflow": false,
+      "desktop_form_columns": 2,
+      "tablet_mobile_form_columns": 1,
+      "quantity_overflow": false,
+      "browser_console_errors_or_warnings": 0
+    }
+  },
+  "findings": [
+    {
+      "id": "CONV-RFQ-D32-G9-F01",
+      "acceptance": "RFQ-D32-AC-11-RESPONSIVE-VISUAL",
+      "status": "FAIL",
+      "summary": "The all-interactive-target audit fails at every required width.",
+      "observations": [
+        "Breadcrumb Home link: 40.2 x 44 px.",
+        "Inline Privacy Policy link inside the form notice: approximately 92 x 17 px."
+      ],
+      "test_gap": "Gate 8's minTarget assertion only queried controls inside #rfq-form and only measured height; it did not audit links or both dimensions."
+    },
+    {
+      "id": "CONV-RFQ-D32-G9-F02",
+      "acceptance": "RFQ-D32-AC-11-RESPONSIVE-VISUAL",
+      "status": "FAIL",
+      "summary": "The page-specific runtime presentation does not reproduce the approved Gate 5 visual result.",
+      "observations": [
+        "Desktop Website remains a half-width grid item with an empty right column; the approved 1440 asset spans the row.",
+        "Approved teal uppercase group dividers are replaced by navy title-case legends without divider rules.",
+        "Approved restrained bordered/soft Other request types panel is rendered as an unframed full-width white section."
+      ]
+    },
+    {
+      "id": "CONV-RFQ-D32-G9-E01",
+      "acceptance": "RFQ-D32-AC-11-RESPONSIVE-VISUAL",
+      "status": "NOT_VERIFIED",
+      "summary": "Native browser UI 200% zoom could not be produced by the in-app browser; Gate 8 only supplied a reflow proxy."
+    }
+  ],
+  "user_scope_decision": {
+    "physical_device_touch": "USER_WAIVED",
+    "named_assistive_technology": "USER_WAIVED",
+    "basis": "The user explicitly stated that the previously described physical-device and assistive-technology evidence is not required. These items are not Gate 9 blockers for this candidate."
+  },
+  "external_routes": {
+    "/privacy-policy/": 404,
+    "/request-sample/": 404,
+    "/request-documents/": 404,
+    "/products/": 404
+  }
+}

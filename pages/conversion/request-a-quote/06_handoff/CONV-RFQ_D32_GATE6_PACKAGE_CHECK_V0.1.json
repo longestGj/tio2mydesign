@@ -1,0 +1,110 @@
+{
+  "type": "AUTHOR_SELF_CHECK",
+  "page_id": "CONV-RFQ",
+  "gate": 6,
+  "target_repository": "D:\\32Wordpress_new",
+  "package": "D:\\23MySec\\pages\\conversion\\request-a-quote\\06_handoff\\CONV-RFQ_D32_GATE6_HANDOFF_PACKAGE_V0.1.md",
+  "package_bytes": 18542,
+  "package_sha256": "3a74c012e559a3df401039f1434889e447a86de7bdc688001ae5ed56e1c67e3b",
+  "status": "READY_FOR_INDEPENDENT_REVIEW_NOT_APPROVED",
+  "counts": {
+    "acceptance_ids": 15,
+    "dependency_ids": 5
+  },
+  "identity_checks": {
+    "page_id": true,
+    "route": true,
+    "site_scope": true,
+    "d32_owner": true,
+    "wordpress_native_boundary": true,
+    "domain_override": true,
+    "explicit_positive_ack": true,
+    "no_real_submission_authority": true,
+    "gate10_not_authorized": true
+  },
+  "source_files": [
+    {
+      "path": "docs/architecture/DEVELOPMENT_OWNER_D32_SWITCH_DECISION_V1.0.md",
+      "bytes": 5000,
+      "sha256": "5afdb91fa3288eaa9dc5dfbf7683eb73240addbca8c32636d052d6362a4d0a07"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/05_review/CONV-RFQ_CURRENT_GATE9_BASELINE_MANIFEST_V1.6.md",
+      "bytes": 6679,
+      "sha256": "d1c9a231be957480e84eecc11d1165c0a079fe51624db1a68635e9d00db834bb"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_GATE7_MANIFEST_V1.2.md",
+      "bytes": 5384,
+      "sha256": "b35b3a4969a9d0753fa63aef987e6bd06ad473d5df3ec473ec7fee2a780a74ee"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_GATE7_HANDOFF_PACKAGE_V1.0.md",
+      "bytes": 12181,
+      "sha256": "7644cc0f33e47ad2db7921cd820bf8afb7b40a4c69a3c9d68a618bf1a9119f38"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_GATE7_HANDOFF_PACKAGE_V1.1.md",
+      "bytes": 6809,
+      "sha256": "264156a38cc88f0926bb9eb6b0bc7ca3ddc500a8b47d3ff63eacc50510930d15"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_GATE7_CMS_API_COMPONENT_MAPPING_V1.0.md",
+      "bytes": 12724,
+      "sha256": "219665fcf1e6b7d8b4c6e5673924d5ff820356481335b7df78e70eb5d7642cbf"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_GATE7_CMS_API_COMPONENT_MAPPING_V1.1.md",
+      "bytes": 4703,
+      "sha256": "3675984183ed0d86848cae2635517b80e6fae50e59a0b9400afe4ad6f5010f2a"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_GATE7_ACCEPTANCE_AND_BLOCKERS_V1.0.md",
+      "bytes": 9988,
+      "sha256": "ed6491883b2c04f4944bdc2fe82dcaf3877edf9e967274edf9c6e0e351c3ce49"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_GATE7_ACCEPTANCE_AND_BLOCKERS_V1.1.md",
+      "bytes": 4412,
+      "sha256": "961ebed064c009b3c0a3f98d8b42edad66b42fdb7946872ebd01dc6d7043d7f2"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_LEGAL_PRIVACY_DEPENDENCY_OVERRIDE_V1.0.md",
+      "bytes": 1997,
+      "sha256": "7704f951105f75826ac497f8c40bcc40bea65f98251bf0830c251efe206d7a8a"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/05_review/CONV-RFQ_GATE5_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "bytes": 5034,
+      "sha256": "1693d9d0f9c24e08854be72da42afe40e7ca864009d8716a15fa1ae30f8d4139"
+    },
+    {
+      "path": "pages/conversion/request-a-quote/04_planning/CONV-RFQ_GATE2_FULL_COPY_V1.1.md",
+      "bytes": 16377,
+      "sha256": "0d38c9ed1c3beb4121bf4ba924d53e9b8e153a51f30ec9b87b7a74717272fdc2"
+    },
+    {
+      "path": "docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md",
+      "bytes": 28614,
+      "sha256": "e28de105ba35628365c0c0dc3dac272c5f6fe2b19589f6888cade0a26ab09213"
+    },
+    {
+      "path": "pages/products/05_review/PRODUCT-000_D32_GATE3_GATE9_CONTROL_V0.1.md",
+      "bytes": 8345,
+      "sha256": "9bbc92203147e60e082d8c084df167b6805beb74d61096dd931a22e5c928ab86"
+    },
+    {
+      "path": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "bytes": 4219,
+      "sha256": "a74953971244d3b2bb43f6bc5d9b798f428d9590bab8bcb8664e1d4e9b4b31cb"
+    }
+  ],
+  "author_self_check": {
+    "all_source_paths_exist": true,
+    "all_source_hashes_match": true,
+    "json_parse": true,
+    "acceptance_id_count": 15,
+    "dependency_id_count": 5,
+    "result": "PASS_FOR_INDEPENDENT_REVIEW_ONLY"
+  }
+}

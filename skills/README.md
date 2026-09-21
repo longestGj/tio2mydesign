@@ -1,9 +1,13 @@
 # 项目自有Skill源目录
 
+2026-09-21：按[Gate 3/4合并决定](../docs/architecture/GATE3_GATE4_MERGE_DECISION_V1.0.md)，Gate 4统一负责跨页一致性、结构、视觉和验证；Gate 5独立审查后总控关闭一次。新页从Gate 2批准组合进入，不要求单独Gate 3冻结。历史成果、仅旧Gate 3授权及暂停按原范围继承。
+
+历史记录：2026-09-20 Gate 3视觉基准承接规则按当时授权定向增补：Agent V0.7、线框Skill V0.6、核验Gate 3专项V0.4；通用核验V0.8不变。[当前方法基线V1.14](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md)。仅治理修订，不代表任何页面Gate已执行。
+
 > 2026-09-07当前批准方式：Gate 3、4、6按[总控常设关闭授权](../docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md)执行独立审查与总控关闭，不再等待逐页用户批准；Gate 1/2/9/10不变。本文历史“用户批准”表述只保留原记录语境，当前三关关闭由该授权解释；内容事实决定、明确暂停、下一阶段启动与外发/开发/发布权限分别保留。
 
 
-> 阶段解释必须先读[Gate工作流V3.2](../docs/architecture/GATE_WORKFLOW_V3.2.md)。原Gate 4/5合并为当前Gate 4完整视觉；三个能力Skill按同一工作集协作，旧版本和页面历史保持。本目录不授予具体页面权限。
+> 阶段解释必须先读[Gate工作流V3.4](../docs/architecture/GATE_WORKFLOW_V3.4.md)。原Gate 4/5合并为当前Gate 4完整视觉；三个能力Skill按同一工作集协作，旧版本和页面历史保持。本目录不授予具体页面权限。
 
 本目录由2026-09-06用户明确要求建立，保存本项目自主设计的方法Skill，不放在用户级公共Skill目录。
 
@@ -13,7 +17,7 @@
 
 ## Gate 4完整视觉当前方法组合（2026-09-07）
 
-[当前基线Manifest](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.7.md)统一指向一个执行Agent和三项能力方法：[品牌应用与视觉样例](brand-applied-visual-design/SKILL.md) V0.2、[完整页面视觉制作](full-page-visual-composition/SKILL.md) V0.2、[布局与交互核验](layout-interaction-verification/SKILL.md) V0.8。三者按[共同工作合同](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.1.md)共用`workset_id`、输入清单、设计源和证据索引，只追加各自结果。4A是内部方向检查；4B冻结后进入唯一最终独立审查环节，该环节允许Finding、返修和复审。
+[当前基线Manifest](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.11.md)统一指向一个执行Agent及按风险调用的结构方法、三项视觉/核验能力方法：[品牌应用与视觉样例](brand-applied-visual-design/SKILL.md) V0.6、[完整页面视觉制作](full-page-visual-composition/SKILL.md) V0.6、[布局与交互核验](layout-interaction-verification/SKILL.md) V0.9。各方法按[共同工作合同](../docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.4.md)共用`workset_id`、输入清单、设计源和证据索引，只追加各自结果。4A是内部方向检查；4B冻结后进入唯一最终独立审查环节，该环节允许Finding、返修和复审。
 
 旧“Gate 4方法候选”和“Gate 5方法设计”章节保留为历史说明；其阶段接口由当前工作流覆盖。各Skill旧源保存在自身`history/`，不回写。
 
@@ -57,13 +61,13 @@ Agent负责选择方法、综合结果、四项核心交付与阶段管理；Ski
 
 本目录是方法源，不等于Codex自动发现或已安装；未来本项目运行入口与验证另行确认。不要为了凑目录创建空壳Skill，不把纸面设计或结构检查写成实际行为验证。
 
-## Gate 3 当前方法V0.3（2026-09-07）
+## Gate 3历史方法（2026-09-20记录）
 
-用户要求“现在开始定向修订”，当前组合由[基线Manifest V1.6](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.6.md)导航，范围以[Gate标准V2.2 §4.3](../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.2.md)为准。既有V0.2与更早验证仍为历史结果，不代表V0.3已通过真实新页面验证。
+历史用户要求“现在开始定向修订”，当时组合由[基线Manifest V1.14](../docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md)导航，范围以[历史Gate标准V2.3 §4.3](../docs/architecture/PAGE_GATE_1_4_STANDARD_V2.3.md)为准。既有V0.2与更早验证仍为历史结果，不代表V0.3已通过真实新页面验证。
 
 | 方法 | 当前源与用途 |
 |---|---|
-| 响应式线框设计 | [SKILL.md](responsive-wireframe-design/SKILL.md) V0.4：制作上限、缺陷驱动调整、结构通过即停止；完整内容三端结构、风险对应的状态图、共享继承与本页预检、冻结；[V0.2快照](responsive-wireframe-design/history/SKILL-v0.2-scope-control-baseline.md) |
+| 响应式线框设计 | [SKILL.md](responsive-wireframe-design/SKILL.md) V0.6：制作上限、缺陷驱动调整、结构通过即停止；完整内容三端结构、风险对应的状态图、共享继承与本页预检、冻结；[V0.2快照](responsive-wireframe-design/history/SKILL-v0.2-scope-control-baseline.md) |
 | 布局与交互核验 | [SKILL.md](layout-interaction-verification/SKILL.md) V0.8：仅Gate 3使用[结构核验范围](layout-interaction-verification/references/gate3-structure-scope.md)，其他阶段继续按完整合同；[合并版V0.3快照](layout-interaction-verification/history/SKILL-v0.3-before-gate3-scope.md) |
 
 使用现有[预检规则](responsive-wireframe-design/references/preflight-freeze-evidence.md)、[检查器](responsive-wireframe-design/scripts/check-preflight-record.mjs)和[风险模型](layout-interaction-verification/references/core-risk-model.md)。检查器不自动判断共享继承资格，执行者与独立审查者须检查原始证据和本页实际结果。共享消费仍为既有V0.2，本次未更新共享组件。
@@ -76,12 +80,18 @@ Gate 5审查合同补全：Agent V0.2、核验Skill V0.6及独立审查参考V0.
 
 Gate 4自检当前规则：Agent V1.3、制作Skill V0.3、核验Skill V0.7及共同合同V1.2，见[自检效率修订](../docs/architecture/GATE4_SELF_CHECK_EFFICIENCY_CHANGE_V1.0.md)。同一实际覆盖只检查一次，正式捕获与变化补验按范围执行；不减免独立审查。
 
-三个视觉Skill当前方法边界：品牌应用V0.4、完整页面制作V0.4、核验V0.8，均集中列出允许与禁止做法，见[整理记录](../docs/architecture/VISUAL_SKILL_METHOD_BOUNDARIES_CHANGE_V1.0.md)。
+此前三个视觉Skill方法边界记录：品牌应用V0.6、完整页面制作V0.6、核验V0.8，均集中列出允许与禁止做法，见[整理记录](../docs/architecture/VISUAL_SKILL_METHOD_BOUNDARIES_CHANGE_V1.0.md)。
 
-Gate 6当前执行与总控路由增补：[执行与复核合同V1.0](../docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.0.md)，[修订记录](../docs/architecture/GATE6_EFFICIENCY_CHANGE_V1.0.md)。启用FAST_PATH/ESCALATED_PATH规则；总控初版“尚未启用”仅为历史说明。共享一致性Skill当前V0.3，Gate 9不套用Gate 6精简路径；未实现统一validator或更改页面授权。
+Gate 6当前执行与总控路由增补：[执行与复核合同V1.2](../docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.2.md)，[修订记录](../docs/architecture/GATE6_EFFICIENCY_CHANGE_V1.0.md)。启用FAST_PATH/ESCALATED_PATH规则；总控初版“尚未启用”仅为历史说明。共享一致性Skill当前V0.3，Gate 9不套用Gate 6精简路径；未实现统一validator或更改页面授权。
 
-Gate 5→6当前接收：[共用合同V1.0](../docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md)及[同步记录](../docs/architecture/GATE5_GATE6_CONTROLLER_ALIGNMENT_CHANGE_V1.0.md)。Gate 5 V0.4、Gate 6 V0.7、Controller V0.2和路由V0.2直接引用当前交接定义。
+Gate 5→6当前接收：[共用合同V1.1](../docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.1.md)及[同步记录](../docs/architecture/GATE5_GATE6_CONTROLLER_ALIGNMENT_CHANGE_V1.0.md)。Gate 5 V0.4、Gate 6 V0.7、Controller V0.2和路由V0.2直接引用当前交接定义。
 
 内链核验：[internal-link-verification V0.2](internal-link-verification/SKILL.md)，用于批准关系与实际链接/落点/买家路径的核对；由内链审查Agent消费。项目源未注册、未全站实测；[生效记录](../docs/architecture/INTERNAL_LINK_REVIEW_ACTIVATION_V1.1.md)。
 
 Gate 1当前执行：[三路径合同V1.0](../docs/architecture/GATE1_THREE_PATH_EXECUTION_CONTRACT_V1.0.md)；Agent V0.2，搜索意图Skill V0.2，REUSE_CONFIRMATION / GAP_RESEARCH / FULL_RESEARCH。四类信息可引用映射、按缺口调用方法；旧四文件建设记录保留历史。本轮只改规则，未做页面回放。
+
+2026-09-20正文同步：Gate 3方法主动对照相关页面家族与同类模块；Gate 4方法明确决定列数及响应式布局。各项历史验证保留原范围，当前验证见[同步记录](../docs/architecture/GATE3_CONSISTENCY_SOURCE_SYNC_V1.0.md)。
+
+2026-09-21 Gate 6当前职责按[边界决定V1.0](../docs/architecture/GATE6_RESPONSIBILITY_BOUNDARY_DECISION_V1.0.md)及[基线V1.3](../docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)执行：交付批准依据、一致性、依赖责任及验收条件；开发决定技术实现，Gate 9负责实际验收。此前候选/旧版本说明保留历史语境。
+
+Gate 8不设独立Agent；开发及Gate 9接收读取[开发流程](D:/32NextJS/CONTRIBUTING.md)及[Gate 9基线V1.2](../docs/architecture/GATE9_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)。旧D16队列及CMS/scope说明只用于原合同对象。

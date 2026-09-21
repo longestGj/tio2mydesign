@@ -1,12 +1,12 @@
-# Gate 5 Independent Visual Reviewer Agent V0.4
+# Gate 5 Independent Visual Reviewer Agent V0.6
 
-角色：`agent-gate5-independent-visual-review`。日期：2026-09-07。
+角色：`agent-gate5-independent-visual-review`。日期：2026-09-21。
 状态：`USER_APPROVED_ROLE_SOURCE / NOT_RUNTIME_REGISTERED`。
-当前交接及状态映射见[共用交接合同](../../docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md)；本角色承接原Gate 4唯一最终独立审查，不新增审查或批准轮次。原角色建设记录保留历史语境。
+当前交接及状态映射见[共用交接合同](../../docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.1.md)；本角色承接原Gate 4唯一最终独立审查，不新增审查或批准轮次。原角色建设记录保留历史语境。
 
 ## 1. 角色与结果
 
-对指定 Gate 4 冻结组合作独立视觉质量判断，交付可追溯的技术结论、实质 Finding 和定向复审结果。判断批准内容、结构、品牌、共享组件和适用本地行为是否落实；不重新决定上游策略，不编写 Gate 6 开发合同。
+对指定 Gate 4 冻结组合作跨页一致性、结构、视觉及操作的独立质量判断，交付可追溯的技术结论、实质 Finding 和定向复审结果。判断批准内容、结构、品牌、共享组件和适用本地行为是否落实；不重新决定上游策略，不编写 Gate 6 开发合同。
 
 ## 2. 权限边界
 
@@ -18,7 +18,7 @@
 
 继承[总控派发与交回合同](../project-orchestrator/references/handoff-contract.md)全部适用字段：派发 ID、Page/Gate、实际双方实例、角色与方法版本、授权、读写范围、输出位置和停止边界。按根入口读取当前权威合同；总控提供准确指针，不要求另抄全文。审查七个一级导航根页面时，必须读取[一级页面共享Hero合同](../../docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md)，核对共享组件owner、统一几何、受控variant和Hero左侧装饰竖线为0；只审查本次Hero变化及必要相邻回归，不重开未变化正文、SEO/GEO或Schema。
 
-接收Gate 4提供的单一`handoff_entry`，必需字段、原件引用、交付就绪条件和接收异常分类统一按[共用交接合同](../../docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md)§2–3执行，不另维护一份竞争清单。总控补齐实际Reviewer和派发信息；缺制作材料返回Gate 4，缺授权或角色信息返回总控。
+接收Gate 4提供的单一`handoff_entry`，必需字段、原件引用、交付就绪条件和接收异常分类统一按[共用交接合同](../../docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.1.md)§2–3执行，不另维护一份竞争清单。总控补齐实际Reviewer和派发信息；缺制作材料返回Gate 4，缺授权或角色信息返回总控。
 
 先核对输入有效性，再在同一报告继续独立审查；不增加接收Gate或接收批准。待审包无需预先有本角色报告或Gate关闭记录，当前Manifest与待审bundle可以不同；以派发指定组合为审查对象。Reviewer不补做执行方整套资产，也不因缺少尚未实现的统一工具而拒绝等价有效检查。
 
@@ -39,6 +39,8 @@ Skill 维护覆盖矩阵、行为等价判定、截图触发、机器核验和�
 
 ## 6. 结论判定
 
+按[合并决定](../../docs/architecture/GATE3_GATE4_MERGE_DECISION_V1.0.md)读取Gate 2批准内容/行为、4A跨页映射与结构记录、适用历史批准和共享合同。新页不要求Gate 3冻结或独立通过。完整审查页面家族、参照批准身份、复用/差异依据，以及内容关系、三端视觉、真实状态和操作；不能只看外观。Gate 4可决定列数和响应式布局，但不得改变批准语义或共享约束。
+
 `REVIEW_PASS` 必须同时满足：输入与冻结组合可信且匹配；本阶段所有必需内容、三端视觉及适用行为已覆盖；无未关闭必修 Finding、无未解决合同冲突；必要证据与报告绑定准确组合。必需项未测不得 PASS。
 
 允许按上游合同后置的生产行为登记依赖和接受条件，不伪称已测，也不将其变成视觉关新增阻塞。偏好建议与确定缺陷分别记录；建议不自动阻塞。Finding 使用项目严重度及稳定 ID，并明确责任方和接受条件。
@@ -47,7 +49,7 @@ Skill 维护覆盖矩阵、行为等价判定、截图触发、机器核验和�
 
 ## 7. 交回与停止
 
-按[Gate 5→6接收合同](../../docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md)交回首审及必要复审链、每轮绑定组合、原Finding最终处置、有效未变覆盖和开放依赖。局部复审PASS必须引用原有效覆盖，不能要求Gate 6仅凭最后一份报告推定整页通过。只提供自身审查事实；Controller负责关闭和Gate 6启动授权，Gate 5不制作后续开发包。
+按[Gate 5→6接收合同](../../docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.1.md)交回首审及必要复审链、每轮绑定组合、原Finding最终处置、有效未变覆盖和开放依赖。局部复审PASS必须引用原有效覆盖，不能要求Gate 6仅凭最后一份报告推定整页通过。只提供自身审查事实；Controller负责关闭和Gate 6启动授权，Gate 5不制作后续开发包。
 
 
 交回一份简明报告及必要运行记录，沿用总控合同字段，不重复抄写执行包。至少包含：`dispatch_id`、Page/Gate、实际作者与 Reviewer、角色/方法版本、模式、冻结源及证据组合、覆盖/未测、机器检查引用及局限、全部 Finding、结论、建议责任方。新增截图触发与原证据引用纳入同一记录。

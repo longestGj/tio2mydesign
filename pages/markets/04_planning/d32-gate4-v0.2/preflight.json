@@ -1,0 +1,57 @@
+{
+  "status": "PASS_FOR_TARGETED_FORMAL_RENDER",
+  "mode": "TARGETED_SELF_CHECK",
+  "passed": 95,
+  "failed": 0,
+  "priorCoverage": "Gate5 V0.1 retained except MARKET-D32-G5-R01; prior 143 runtime and independent full content/operations/family/17 formal+26 readable inspection",
+  "evidence": [
+    {
+      "path": "D:\\23MySec\\pages\\markets\\04_planning\\d32-gate4-v0.2\\diagnostic_support\\narrow-green.json",
+      "bytes": 276646,
+      "sha256": "f68d1dd3a85827895b2c9e1694661839cec1af337d8ff8e462df6a372dec954e"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\markets\\04_planning\\d32-gate4-v0.2\\diagnostic_support\\adjacent.json",
+      "bytes": 699,
+      "sha256": "46eb57a9435498e4b730d5136c5ba5ee560ae13ca887db46f3cf99b1e8cee8b7"
+    }
+  ],
+  "newInputs": [
+    {
+      "path": "D:\\23MySec\\docs\\architecture\\ROOT_PAGE_NARROW_VISUAL_AND_DOC_FEEDBACK_DECISION_V1.0.md",
+      "bytes": 3534,
+      "sha256": "6ff4253b56936ccf9838f27d7532053a501de82aec99b9ab1518b38de667f1a9"
+    },
+    {
+      "path": "D:\\23MySec\\docs\\architecture\\STATIC_NEXTJS_SINGLE_SITE_AND_GOOGLE_INDEXING_DECISION_V1.0.md",
+      "bytes": 1901,
+      "sha256": "da69c0806cb8c545aa47329cc36f79a8b897a04cc637020654a8ef24ebe3d68e"
+    },
+    {
+      "path": "D:\\23MySec\\docs\\architecture\\GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.11.md",
+      "bytes": 2877,
+      "sha256": "3a223ad48f1712c76265e0a856033aef68df86ad7a0f3a49513cdf7dcbe4573d"
+    },
+    {
+      "path": "D:\\23MySec\\docs\\architecture\\GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.1.md",
+      "bytes": 8370,
+      "sha256": "1a6341a5b54ab373796b7a6666fb68a28b7dd42d92251751d10711483ffb83d6"
+    },
+    {
+      "path": "D:\\23MySec\\pages\\markets\\05_review\\MARKET-000_D32_GATE5_INDEPENDENT_REVIEW_V0.1.md",
+      "bytes": 9194,
+      "sha256": "09364f6f59a94a278ce1e4bf70ce85064dd62f47243567b269a184ad2e6a3590"
+    }
+  ],
+  "source_identity": "f2bb81f5aba8bde386d4efd1ce45113a2c21f267ce54b0dc9a7b643f69e583ed",
+  "unchangedEvidenceScope": ">=375 exact content/action/layout comparison; immutable prior CSS/JS/Chrome; <=374 only Hero eyebrow type size and natural flow height",
+  "newFormalScope": [
+    "FULL_320",
+    "COOKIE_320",
+    "HERO_320",
+    "HERO_340",
+    "HERO_341",
+    "HERO_374",
+    "HERO_375"
+  ]
+}

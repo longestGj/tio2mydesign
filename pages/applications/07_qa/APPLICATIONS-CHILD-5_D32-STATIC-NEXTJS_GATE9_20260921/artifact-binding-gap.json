@@ -1,0 +1,50 @@
+{
+  "classification": "EVIDENCE_INCOMPLETE",
+  "contract": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.2.md",
+  "manifest": {
+    "required_current_format": "gate8-evidence-manifest-v1.1",
+    "present": false,
+    "validation_run": false,
+    "preflight_run": false,
+    "reason": "No Applications child-five Gate 8 evidence manifest was supplied, so the standard validator and two-round preflight have no valid input."
+  },
+  "candidate": {
+    "commit": "0c117ee0941a3b307f761ff0db5ea67fc98b5a07",
+    "tree": "9033cf746f14154fc6895ed0d1357fcabbea07fa",
+    "worktree_clean": true,
+    "observed_out_files": 93
+  },
+  "reported_vs_observed_html_sha256": [
+    {
+      "route": "/applications/titanium-dioxide-for-coatings/",
+      "reported": "9b1e1f44586321cd1f4b9044445c9dd2094fdb972d89ef59dd7d9e6503108733",
+      "observed": "bf58b6b21081888c06d9ed9919ca03f145fab5441a81eee62eec769d9dc3264b",
+      "match": false
+    },
+    {
+      "route": "/applications/titanium-dioxide-for-plastics/",
+      "reported": "2f57bfc639c37f94ea642995fdf2d8da648d69f579ecf035e2541f958700ee29",
+      "observed": "b0fd05d83eb98fe1933945fc98b0355dbb319205481f753b4320ce1ba59b0d13",
+      "match": false
+    },
+    {
+      "route": "/applications/titanium-dioxide-for-masterbatch/",
+      "reported": "8280952389a968364cecc149fabf2fd6d276fa149d3b4a98fbfc56840c3a1713",
+      "observed": "46820a5e59b63f9ead6f09acba43543e34aadd4b09cd9f6725a9104166ed44a0",
+      "match": false
+    },
+    {
+      "route": "/applications/titanium-dioxide-for-printing-inks/",
+      "reported": "083e0c08f3c3dffaf3298b29defaa897f2b0e68f8a40a4863e7f85e20d621e75",
+      "observed": "1c1194f5243c9115bc5979b6df0455a68e2b41f7a30cc5cd8d5fc5959d3e62ee",
+      "match": false
+    },
+    {
+      "route": "/applications/titanium-dioxide-for-paper/",
+      "reported": "9209d4f3ce59a2034cb464ba32cca49ea51268fe0c3fd147c64aca1256a55930",
+      "observed": "62a116d0f4ea48594b3b107445854fdc4cae9c17622be9d6ad76331150e00a82",
+      "match": false
+    }
+  ],
+  "independent_observation": "The current out directory and localhost responses are internally byte-identical and passed independent static/browser checks. Without the required committed build binding and manifest, those bytes cannot be accepted as the exact Gate 8 artifact represented by the recorded RESULTS hashes."
+}

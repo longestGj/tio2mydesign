@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "APP000-D32-G8-DISPATCH-20260920-01",
+  "page_id": "APP-000",
+  "route": "/applications/",
+  "language": "EN",
+  "site_scope": "tio2-my",
+  "dispatch": {
+    "sent_at": "2026-09-20",
+    "acknowledged_at": "2026-09-20T19:36:10+08:00",
+    "sender_role": "Project Control",
+    "receiver_task_title": "03开发",
+    "receiver_task_id": "01a0be2a-838b-76c0-b116-6677b9cadb70",
+    "receiver_host": "local",
+    "status": "ACKNOWLEDGED / GATE8_IN_PROGRESS"
+  },
+  "closed_input": {
+    "package_path": "D:/23MySec/pages/applications/06_handoff/APP-000_D32_GATE6_HANDOFF_PACKAGE_V0.1.md",
+    "package_sha256": "723ba66bca86b5dd27a3151cfdb9910ea2469df46e9330567078b37fc188686d",
+    "package_check_path": "D:/23MySec/pages/applications/06_handoff/APP-000_D32_GATE6_PACKAGE_CHECK_V0.1.json",
+    "package_check_sha256": "dcf3397b90424c2c32d84b27e5d21017431a3c04991fa4e1c835b97f9524f146",
+    "gate6_closure_path": "D:/23MySec/pages/applications/05_review/APP-000_D32_GATE6_CONTROLLER_CLOSURE_V0.1.md",
+    "gate6_closure_decision": "APP000-D32-G6-PC-CLOSURE-20260920-01",
+    "accepted_visual_bundle": "sha256:8275ccefa106ffca6186651b705f9a77bee9fe2a17a90981a3ecd2182a5ad618",
+    "acceptance_id_count": 22,
+    "dependency_id_count": 15
+  },
+  "receiver_acknowledgement": {
+    "package_hash_match": true,
+    "package_check_hash_match": true,
+    "gate6_re_review_requested": false,
+    "gate5_visual_re_review_requested": false,
+    "repository": "D:/32Wordpress_new",
+    "baseline_branch": "develop",
+    "baseline_commit": "1194cd641910a3dc9ad5ad7a0edd84e594765cc5",
+    "baseline_subject": "merge: adopt local-first release flow",
+    "product_candidate_is_ancestor": true,
+    "home_products_rfq_shared_baseline_present": true,
+    "shared_baseline_hold": "NONE",
+    "feature_branch": "codex/app-000-wordpress",
+    "worktree": "D:/32Wordpress_new/.worktrees/app-000-wordpress",
+    "worktree_initial_head": "1194cd641910a3dc9ad5ad7a0edd84e594765cc5",
+    "root_conflict_workspace_used": false
+  },
+  "isolated_runtime": {
+    "status": "STARTED_FOR_BASELINE_VERIFICATION",
+    "url": "http://127.0.0.1:8236",
+    "compose_project": "tio2-ci-app-000-03",
+    "dedicated_data_environment": true,
+    "baseline_suite_status": "RUNNING"
+  },
+  "current_outcome": {
+    "gate8": "IN_PROGRESS",
+    "verified_delivery": false,
+    "gate9": "NOT_STARTED / NOT_AUTHORIZED",
+    "merge_push_deploy_publish": "NOT_AUTHORIZED",
+    "next_required_return": "VERIFIED_GATE8_DELIVERY_OR_CONCRETE_BLOCKING_CONDITION"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "handoff_id": "CONV-RFQ-D32-G8-HANDOFF-01",
+  "gate8_task_id": "01a0bd3a-a7ba-7632-bda0-fad444f654db",
+  "site_scope": "tio2-my",
+  "identity": {
+    "implementation_commit": "f407f0ee526ac3d8fe1dc3efefa31364dc191030",
+    "evidence_head": "616662613d170420dce6bcddd5f026652bc3b0d8",
+    "build_id": "wp-815f8debd4b2129b21a8cc67d8c410dea58e8986b4e3d38b2450ebbeeaaaeb58"
+  },
+  "runtime": {
+    "base_url": "http://127.0.0.1:8242",
+    "rounds": 2,
+    "requests": 2,
+    "successful_requests": 2,
+    "observations": [
+      {
+        "round": 1,
+        "url": "http://127.0.0.1:8242/request-a-quote/",
+        "status": 200,
+        "bytes": 29946,
+        "final_url": "http://127.0.0.1:8242/request-a-quote/",
+        "missing_markers": [],
+        "scope_header": "tio2-my",
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      },
+      {
+        "round": 2,
+        "url": "http://127.0.0.1:8242/request-a-quote/",
+        "status": 200,
+        "bytes": 29946,
+        "final_url": "http://127.0.0.1:8242/request-a-quote/",
+        "missing_markers": [],
+        "scope_header": "tio2-my",
+        "scope_mismatch": false,
+        "build_marker_missing": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "evidence_validation": {
+    "status": "PASS"
+  }
+}

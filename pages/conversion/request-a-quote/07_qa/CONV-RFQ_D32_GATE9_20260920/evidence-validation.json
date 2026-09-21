@@ -1,0 +1,1530 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\32Wordpress_new\\.worktrees\\conv-rfq-gate8\\.runtime\\handoff\\request-a-quote\\gate8_evidence_manifest.json",
+  "handoff_id": "CONV-RFQ-D32-G8-HANDOFF-01",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "CONV-RFQ",
+          "acceptance_condition_ids": [
+            "RFQ-D32-AC-01-IDENTITY-CONTENT",
+            "RFQ-D32-AC-02-FIELDS-OPTIONS",
+            "RFQ-D32-AC-03-VALIDATION-A11Y",
+            "RFQ-D32-AC-04-STATE-ACK",
+            "RFQ-D32-AC-05-PREFILL",
+            "RFQ-D32-AC-06-SERVER-SECURITY",
+            "RFQ-D32-AC-07-CMS-MIGRATION",
+            "RFQ-D32-AC-08-SCOPE-ISOLATION",
+            "RFQ-D32-AC-09-SHARED-CHROME",
+            "RFQ-D32-AC-10-SEO-SCHEMA",
+            "RFQ-D32-AC-11-RESPONSIVE-VISUAL",
+            "RFQ-D32-AC-12-EXTERNAL-ROUTES",
+            "RFQ-D32-AC-13-ANALYTICS",
+            "RFQ-D32-AC-14-RECEIVER-CONFIG",
+            "RFQ-D32-AC-15-EVIDENCE-HANDOFF"
+          ],
+          "runtime_path": "/request-a-quote/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\32Wordpress_new\\.worktrees\\conv-rfq-gate8"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/conv-rfq-gate8",
+        "actual": "codex/conv-rfq-gate8"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "616662613d170420dce6bcddd5f026652bc3b0d8",
+        "actual": "616662613d170420dce6bcddd5f026652bc3b0d8"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "ce4147c7076112934b3dc6d8d97e983efb045f2f",
+        "descendant": "f407f0ee526ac3d8fe1dc3efefa31364dc191030"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "f407f0ee526ac3d8fe1dc3efefa31364dc191030",
+        "descendant": "616662613d170420dce6bcddd5f026652bc3b0d8"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\32Wordpress_new\\.worktrees\\conv-rfq-gate8\\.runtime\\artifacts\\wp-815f8debd4b2129b21a8cc67d8c410dea58e8986b4e3d38b2450ebbeeaaaeb58"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "wp-815f8debd4b2129b21a8cc67d8c410dea58e8986b4e3d38b2450ebbeeaaaeb58",
+        "actual": "wp-815f8debd4b2129b21a8cc67d8c410dea58e8986b4e3d38b2450ebbeeaaaeb58"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "f407f0ee526ac3d8fe1dc3efefa31364dc191030",
+        "git": "f407f0ee526ac3d8fe1dc3efefa31364dc191030"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/acceptance.json"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RFQ-D32-AC-01-IDENTITY-CONTENT",
+          "RFQ-D32-AC-02-FIELDS-OPTIONS",
+          "RFQ-D32-AC-03-VALIDATION-A11Y",
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-05-PREFILL",
+          "RFQ-D32-AC-06-SERVER-SECURITY",
+          "RFQ-D32-AC-07-CMS-MIGRATION",
+          "RFQ-D32-AC-08-SCOPE-ISOLATION",
+          "RFQ-D32-AC-09-SHARED-CHROME",
+          "RFQ-D32-AC-10-SEO-SCHEMA",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL",
+          "RFQ-D32-AC-12-EXTERNAL-ROUTES",
+          "RFQ-D32-AC-13-ANALYTICS",
+          "RFQ-D32-AC-14-RECEIVER-CONFIG",
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF",
+          "RFQ-D32-DEP-01-PROVIDER",
+          "RFQ-D32-DEP-02-PRIVACY-OPS",
+          "RFQ-D32-DEP-03-PRIVACY-ROUTE",
+          "RFQ-D32-DEP-04-SIBLING-ROUTES",
+          "RFQ-D32-DEP-05-COOKIE-CMP",
+          "RFQ-D32-DEP-06-ANALYTICS-CONSENT"
+        ],
+        "command": "python scripts/rfq-evidence.py --generate",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "2c0d45db2608af8bce4da85811d61e191eba4c3fe4984c83f8f158ac7669f066",
+        "actual": "2c0d45db2608af8bce4da85811d61e191eba4c3fe4984c83f8f158ac7669f066"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/acceptance.json"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "573bc5f6fd9e4e3500c59a6e253d2ad7b538e1c4",
+        "blob_sha256": "6b9f66dc6d983a1292726edc05ef5f92ae0d842afd313ede0e4e6f1c0803edde",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/acceptance.md"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RFQ-D32-AC-01-IDENTITY-CONTENT",
+          "RFQ-D32-AC-02-FIELDS-OPTIONS",
+          "RFQ-D32-AC-03-VALIDATION-A11Y",
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-05-PREFILL",
+          "RFQ-D32-AC-06-SERVER-SECURITY",
+          "RFQ-D32-AC-07-CMS-MIGRATION",
+          "RFQ-D32-AC-08-SCOPE-ISOLATION",
+          "RFQ-D32-AC-09-SHARED-CHROME",
+          "RFQ-D32-AC-10-SEO-SCHEMA",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL",
+          "RFQ-D32-AC-12-EXTERNAL-ROUTES",
+          "RFQ-D32-AC-13-ANALYTICS",
+          "RFQ-D32-AC-14-RECEIVER-CONFIG",
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF",
+          "RFQ-D32-DEP-01-PROVIDER",
+          "RFQ-D32-DEP-02-PRIVACY-OPS",
+          "RFQ-D32-DEP-03-PRIVACY-ROUTE",
+          "RFQ-D32-DEP-04-SIBLING-ROUTES",
+          "RFQ-D32-DEP-05-COOKIE-CMP",
+          "RFQ-D32-DEP-06-ANALYTICS-CONSENT"
+        ],
+        "command": "python scripts/rfq-evidence.py --generate",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7839e0406ec85a8d6542c6645f486e2cd0a6d6d3814d69069540e4f432d1458b",
+        "actual": "7839e0406ec85a8d6542c6645f486e2cd0a6d6d3814d69069540e4f432d1458b"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/acceptance.md"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "3909c5f216ac5d0dec49b5bcab49e3d3cdbf5f00",
+        "blob_sha256": "7c885008747998bb3a5b59a39eccd35d6e0ab667f2d86c160080eba7319a85d0",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/artifact.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF"
+        ],
+        "command": "python scripts/artifact.py --evidence-dir docs/verification/request-a-quote",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e993c8563f49bc218a0c165a976030565842f3241a4265684a5287daa1c7aab6",
+        "actual": "e993c8563f49bc218a0c165a976030565842f3241a4265684a5287daa1c7aab6"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/artifact.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f48d72f4e59fbfe058e2df19a93d90bb4f27643b",
+        "blob_sha256": "7dbad5d1770c6d0a52e5b8708c49276a740d6564d237a151d1a0bfef9453a628",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/code-review.md"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "RFQ-D32-AC-06-SERVER-SECURITY",
+          "RFQ-D32-AC-07-CMS-MIGRATION",
+          "RFQ-D32-AC-08-SCOPE-ISOLATION",
+          "RFQ-D32-AC-14-RECEIVER-CONFIG",
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF"
+        ],
+        "command": "git diff --check ce4147c7076112934b3dc6d8d97e983efb045f2f..f407f0ee526ac3d8fe1dc3efefa31364dc191030",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "bf78b275063dc28c49d7fbce3100074bba4721e0775edb8ae4f4f30b1aab9cbb",
+        "actual": "bf78b275063dc28c49d7fbce3100074bba4721e0775edb8ae4f4f30b1aab9cbb"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/code-review.md"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ab678537fa83e63ab29b9b84dd8ce61a10e940b7",
+        "blob_sha256": "bf78b275063dc28c49d7fbce3100074bba4721e0775edb8ae4f4f30b1aab9cbb",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/dependencies.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RFQ-D32-AC-09-SHARED-CHROME",
+          "RFQ-D32-AC-12-EXTERNAL-ROUTES",
+          "RFQ-D32-AC-13-ANALYTICS",
+          "RFQ-D32-AC-14-RECEIVER-CONFIG",
+          "RFQ-D32-DEP-01-PROVIDER",
+          "RFQ-D32-DEP-02-PRIVACY-OPS",
+          "RFQ-D32-DEP-03-PRIVACY-ROUTE",
+          "RFQ-D32-DEP-04-SIBLING-ROUTES",
+          "RFQ-D32-DEP-05-COOKIE-CMP",
+          "RFQ-D32-DEP-06-ANALYTICS-CONSENT"
+        ],
+        "command": "python scripts/rfq-evidence.py --generate",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e0644795009b72bca45bd579860caebb110f5b80a2fb6f0f8b6b3f831409a862",
+        "actual": "e0644795009b72bca45bd579860caebb110f5b80a2fb6f0f8b6b3f831409a862"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/dependencies.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "74a8d58d8b721b797252fd28c2b5adb1edce0224",
+        "blob_sha256": "f1547bfa11680e35d6169182521404a36cb466f3b94f4478045cae9847684fb8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/environment.json"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF"
+        ],
+        "command": "python scripts/rfq-evidence.py --generate",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "83af67f0b93af3b87088b2d00d5250a87c7b78178c1f9a5828b3de842b995bea",
+        "actual": "83af67f0b93af3b87088b2d00d5250a87c7b78178c1f9a5828b3de842b995bea"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/environment.json"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "50e52c5cc368473c76501ced1b0ceae52f9de4ed",
+        "blob_sha256": "fe0bc7788aa380727cf961c04271970cafd7588ee8b5bf3401dcc4563c81bf64",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/identity.json"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "RFQ-D32-AC-01-IDENTITY-CONTENT",
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF"
+        ],
+        "command": "python tests/identity.py",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "351ce308d4be5802f90b21a3c77534fa8706b4a52a37a94765c46d4bd5f78bf2",
+        "actual": "351ce308d4be5802f90b21a3c77534fa8706b4a52a37a94765c46d4bd5f78bf2"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/identity.json"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f1a77627b42899010c2defa0c1b2724704d695e9",
+        "blob_sha256": "9822a03f55479c7a76bc56a51a3cb629ed6dcc472fb6409fabcecc92843d5d2b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/migration-results.json"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RFQ-D32-AC-07-CMS-MIGRATION"
+        ],
+        "command": "python tests/rfq-migration.py",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "53d35594a7e3f33451ed189b3d0ea3d465f8b058cc0914215050740bfca2ad0c",
+        "actual": "53d35594a7e3f33451ed189b3d0ea3d465f8b058cc0914215050740bfca2ad0c"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/migration-results.json"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "13aae938e27a7ecfe8c0e2869bc1d416efa5a77a",
+        "blob_sha256": "be134aa24bb6d748b6ef5c927755d3805125c1162f1decb516b9742e983e15c9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/playwright-results.json"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RFQ-D32-AC-03-VALIDATION-A11Y",
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-05-PREFILL",
+          "RFQ-D32-AC-07-CMS-MIGRATION",
+          "RFQ-D32-AC-09-SHARED-CHROME",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/browser.spec.mjs tests/rfq-editor.spec.mjs tests/editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "97e01f44fd77b656797ead18cef58ef001b21f858eb2600fff92fe92170afec6",
+        "actual": "97e01f44fd77b656797ead18cef58ef001b21f858eb2600fff92fe92170afec6"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/playwright-results.json"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "14d86883fc05f982ac7bf5e7fded3bc80c4ac778",
+        "blob_sha256": "97e01f44fd77b656797ead18cef58ef001b21f858eb2600fff92fe92170afec6",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/receiver-security.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "RECEIVER",
+        "proves": [
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-06-SERVER-SECURITY",
+          "RFQ-D32-AC-14-RECEIVER-CONFIG"
+        ],
+        "command": "python scripts/rfq-evidence.py --generate",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "13143fa7be05b485124fe6fffa14223f50f81fc8e7652982989d246621586ec3",
+        "actual": "13143fa7be05b485124fe6fffa14223f50f81fc8e7652982989d246621586ec3"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/receiver-security.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bcaaf8877a7e6f0f36bea85b7b0c62250e1d3633",
+        "blob_sha256": "b65c43defa2646532fe4f2847c7d3ffe471575e13f7a1720337805031dd076aa",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-editor-changed.png"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-07-CMS-MIGRATION"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "11790dd077307109180c78bc3b3d55fb57fba1ebe4153a68743e29660c4cb1f0",
+        "actual": "11790dd077307109180c78bc3b3d55fb57fba1ebe4153a68743e29660c4cb1f0"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-editor-changed.png"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "27d4a19eb0727d432e1c47e0923e5c487157cdec",
+        "blob_sha256": "11790dd077307109180c78bc3b3d55fb57fba1ebe4153a68743e29660c4cb1f0",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-editor-results.json"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RFQ-D32-AC-07-CMS-MIGRATION"
+        ],
+        "command": "npx playwright test tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "30a44627eec6ceb099f45a54c5b62b574dcc5fcb3b93ac6b1b099fe42764e2b2",
+        "actual": "30a44627eec6ceb099f45a54c5b62b574dcc5fcb3b93ac6b1b099fe42764e2b2"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-editor-results.json"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5a573097f58e98e3a9ccdf76a8742058616403bc",
+        "blob_sha256": "30a44627eec6ceb099f45a54c5b62b574dcc5fcb3b93ac6b1b099fe42764e2b2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-failure.png"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a173354e0e2cf82a095159cdc0f837f6d6cf2a85839b271a1e28e75ce49f899d",
+        "actual": "a173354e0e2cf82a095159cdc0f837f6d6cf2a85839b271a1e28e75ce49f899d"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-failure.png"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9286ce24576bc9bfdad46e36e568ba66379f7c78",
+        "blob_sha256": "a173354e0e2cf82a095159cdc0f837f6d6cf2a85839b271a1e28e75ce49f899d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-initial-1440.png"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-01-IDENTITY-CONTENT",
+          "RFQ-D32-AC-02-FIELDS-OPTIONS",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "009e1abbf424369ba9e5f0398eb989bdd6c425e2454de4295fa033f63effef8a",
+        "actual": "009e1abbf424369ba9e5f0398eb989bdd6c425e2454de4295fa033f63effef8a"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-initial-1440.png"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bac2426b582775eac3ed99af23385b4e848adef8",
+        "blob_sha256": "009e1abbf424369ba9e5f0398eb989bdd6c425e2454de4295fa033f63effef8a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-initial-390.png"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-01-IDENTITY-CONTENT",
+          "RFQ-D32-AC-02-FIELDS-OPTIONS",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "3bc81a6b89a99ac31c6b21a2906397abdebb7270b472d160e8d5276eb514e607",
+        "actual": "3bc81a6b89a99ac31c6b21a2906397abdebb7270b472d160e8d5276eb514e607"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-initial-390.png"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bd9ae17bed4d1166cf57bab424198533eb8a76da",
+        "blob_sha256": "3bc81a6b89a99ac31c6b21a2906397abdebb7270b472d160e8d5276eb514e607",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-initial-768.png"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-01-IDENTITY-CONTENT",
+          "RFQ-D32-AC-02-FIELDS-OPTIONS",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "84410d74db1dfb9c9010de1cc9ead9726e9471490b85853eb5c4875d8cd5eed7",
+        "actual": "84410d74db1dfb9c9010de1cc9ead9726e9471490b85853eb5c4875d8cd5eed7"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-initial-768.png"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "376b60afbe0c5534677637d87d4c6798bfaf0b43",
+        "blob_sha256": "84410d74db1dfb9c9010de1cc9ead9726e9471490b85853eb5c4875d8cd5eed7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-isolation.json"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RFQ-D32-AC-08-SCOPE-ISOLATION"
+        ],
+        "command": "python tests/rfq-isolation.py",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "85fd4aa80477e3d80d1fc2c82cd793054230d7f0363aca940232b12d842ca23d",
+        "actual": "85fd4aa80477e3d80d1fc2c82cd793054230d7f0363aca940232b12d842ca23d"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-isolation.json"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f4ae5ecb70f810b972eec95e849e15ff4a4a96de",
+        "blob_sha256": "a421a565ab6720cb5c6f226b2d2336a787a59b33c72ea827e0fcae674cd86a44",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-long-320.png"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "738d624f537d48c776d799f34b4277bd266022f358bba4a22decd2bfdb86bae8",
+        "actual": "738d624f537d48c776d799f34b4277bd266022f358bba4a22decd2bfdb86bae8"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-long-320.png"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8c62c54fec8e67ae99d668effb71b3a0878c2297",
+        "blob_sha256": "738d624f537d48c776d799f34b4277bd266022f358bba4a22decd2bfdb86bae8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-menu-390.png"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-09-SHARED-CHROME",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e22e561536176e5acfac61b2222869db50d13fc8630b39237e6fec68238e94cc",
+        "actual": "e22e561536176e5acfac61b2222869db50d13fc8630b39237e6fec68238e94cc"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-menu-390.png"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "32805e35ba1c5df11e9e479682a74a8325206b45",
+        "blob_sha256": "e22e561536176e5acfac61b2222869db50d13fc8630b39237e6fec68238e94cc",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-pending.png"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "09c2a1542f0e95da30fc3eea1ce7d63ac6713a80a1f7f52498c4bfe44e809f0b",
+        "actual": "09c2a1542f0e95da30fc3eea1ce7d63ac6713a80a1f7f52498c4bfe44e809f0b"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-pending.png"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b03d24141553fedd8a86d748fad517cc2579a76b",
+        "blob_sha256": "09c2a1542f0e95da30fc3eea1ce7d63ac6713a80a1f7f52498c4bfe44e809f0b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-success.png"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9d6a1ccaeec868fdda108fba88f85205b45517b991b8287ea5290a52942538ee",
+        "actual": "9d6a1ccaeec868fdda108fba88f85205b45517b991b8287ea5290a52942538ee"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-success.png"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2c942aa39a3bcc3b78f3c5aa59b6c0af88218be9",
+        "blob_sha256": "9d6a1ccaeec868fdda108fba88f85205b45517b991b8287ea5290a52942538ee",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-unavailable.png"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5e959fa205f87ae1a554a3893f00b9d7eb3b71882be43a3c545dcf81b876f814",
+        "actual": "5e959fa205f87ae1a554a3893f00b9d7eb3b71882be43a3c545dcf81b876f814"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-unavailable.png"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "2b6e7f48cf14c058df53286610da619fcd7d4592",
+        "blob_sha256": "5e959fa205f87ae1a554a3893f00b9d7eb3b71882be43a3c545dcf81b876f814",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-validation.png"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "STATIC_VISUAL",
+        "proves": [
+          "RFQ-D32-AC-03-VALIDATION-A11Y",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL"
+        ],
+        "command": "npx playwright test tests/rfq-browser.spec.mjs tests/rfq-editor.spec.mjs",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9286d3a946e49bc9c54362924767734c9775bbfee58e2d8a2096c6d3ec147442",
+        "actual": "9286d3a946e49bc9c54362924767734c9775bbfee58e2d8a2096c6d3ec147442"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/rfq-validation.png"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "0aaaa1f79ab3417309e0b770ddc17f5ba5013b2b",
+        "blob_sha256": "9286d3a946e49bc9c54362924767734c9775bbfee58e2d8a2096c6d3ec147442",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/runtime-contract.json"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "RFQ-D32-AC-01-IDENTITY-CONTENT",
+          "RFQ-D32-AC-02-FIELDS-OPTIONS",
+          "RFQ-D32-AC-10-SEO-SCHEMA",
+          "RFQ-D32-AC-12-EXTERNAL-ROUTES",
+          "RFQ-D32-AC-13-ANALYTICS",
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF"
+        ],
+        "command": "python scripts/rfq-evidence.py --generate",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "babdeedf82eb0cfeb321b2df7d7cdad048911a61fa6933bf523bd7be3617a549",
+        "actual": "babdeedf82eb0cfeb321b2df7d7cdad048911a61fa6933bf523bd7be3617a549"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/runtime-contract.json"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c0e8913cc4bc01c880e7966a76d45687aa052569",
+        "blob_sha256": "75fac85fc27982d35735bdb27cb3472e57c6853302e0b14485732b98847395d7",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/source-hashes.json"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF"
+        ],
+        "command": "python scripts/rfq-evidence.py --generate",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c243987855d720051ec9971eacd50b815bfb0e3e22b62dc9ee53485639347005",
+        "actual": "c243987855d720051ec9971eacd50b815bfb0e3e22b62dc9ee53485639347005"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/source-hashes.json"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f4148c1b32cc3901ce6a3a0bf8ddef84ec1c22f1",
+        "blob_sha256": "4e114edc6ca603526ef5b9b42f51e7780dae93be2c33b4781208753f9b9cab12",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_25_missing",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/test-results.json"
+    },
+    {
+      "id": "evidence_25_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "RFQ-D32-AC-01-IDENTITY-CONTENT",
+          "RFQ-D32-AC-02-FIELDS-OPTIONS",
+          "RFQ-D32-AC-03-VALIDATION-A11Y",
+          "RFQ-D32-AC-04-STATE-ACK",
+          "RFQ-D32-AC-05-PREFILL",
+          "RFQ-D32-AC-06-SERVER-SECURITY",
+          "RFQ-D32-AC-07-CMS-MIGRATION",
+          "RFQ-D32-AC-08-SCOPE-ISOLATION",
+          "RFQ-D32-AC-09-SHARED-CHROME",
+          "RFQ-D32-AC-10-SEO-SCHEMA",
+          "RFQ-D32-AC-11-RESPONSIVE-VISUAL",
+          "RFQ-D32-AC-12-EXTERNAL-ROUTES",
+          "RFQ-D32-AC-13-ANALYTICS",
+          "RFQ-D32-AC-14-RECEIVER-CONFIG",
+          "RFQ-D32-AC-15-EVIDENCE-HANDOFF"
+        ],
+        "command": "python scripts/rfq-evidence.py --run-suite",
+        "environment": "d32-conv-rfq-gate8 local-preview at http://127.0.0.1:8242; fake receiver only"
+      }
+    },
+    {
+      "id": "evidence_25_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "1715ef498bdf04cc2f8446f0e0e31f44e524287235b67f8a1bd980be7f758880",
+        "actual": "1715ef498bdf04cc2f8446f0e0e31f44e524287235b67f8a1bd980be7f758880"
+      }
+    },
+    {
+      "id": "evidence_25_committed",
+      "result": "PASS",
+      "detail": "docs/verification/request-a-quote/test-results.json"
+    },
+    {
+      "id": "evidence_25_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "fd4ebdc6b8848755f26550fe3fc1bdb791a25b26",
+        "blob_sha256": "402913b2e045b4845c6505c869fce18ebd4369c22a8b49ea2e58040101fb5343",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_25_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/handoffs/CONV-RFQ-gate8.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/request-a-quote/acceptance.json",
+          "docs/verification/request-a-quote/acceptance.md",
+          "docs/verification/request-a-quote/artifact.json",
+          "docs/verification/request-a-quote/code-review.md",
+          "docs/verification/request-a-quote/dependencies.json",
+          "docs/verification/request-a-quote/environment.json",
+          "docs/verification/request-a-quote/identity.json",
+          "docs/verification/request-a-quote/migration-results.json",
+          "docs/verification/request-a-quote/playwright-results.json",
+          "docs/verification/request-a-quote/receiver-security.json",
+          "docs/verification/request-a-quote/rfq-editor-changed.png",
+          "docs/verification/request-a-quote/rfq-editor-results.json",
+          "docs/verification/request-a-quote/rfq-failure.png",
+          "docs/verification/request-a-quote/rfq-initial-1440.png",
+          "docs/verification/request-a-quote/rfq-initial-390.png",
+          "docs/verification/request-a-quote/rfq-initial-768.png",
+          "docs/verification/request-a-quote/rfq-isolation.json",
+          "docs/verification/request-a-quote/rfq-long-320.png",
+          "docs/verification/request-a-quote/rfq-menu-390.png",
+          "docs/verification/request-a-quote/rfq-pending.png",
+          "docs/verification/request-a-quote/rfq-success.png",
+          "docs/verification/request-a-quote/rfq-unavailable.png",
+          "docs/verification/request-a-quote/rfq-validation.png",
+          "docs/verification/request-a-quote/runtime-contract.json",
+          "docs/verification/request-a-quote/source-hashes.json",
+          "docs/verification/request-a-quote/test-results.json"
+        ],
+        "actual": [
+          "docs/verification/request-a-quote/acceptance.json",
+          "docs/verification/request-a-quote/acceptance.md",
+          "docs/verification/request-a-quote/artifact.json",
+          "docs/verification/request-a-quote/code-review.md",
+          "docs/verification/request-a-quote/dependencies.json",
+          "docs/verification/request-a-quote/environment.json",
+          "docs/verification/request-a-quote/identity.json",
+          "docs/verification/request-a-quote/migration-results.json",
+          "docs/verification/request-a-quote/playwright-results.json",
+          "docs/verification/request-a-quote/receiver-security.json",
+          "docs/verification/request-a-quote/rfq-editor-changed.png",
+          "docs/verification/request-a-quote/rfq-editor-results.json",
+          "docs/verification/request-a-quote/rfq-failure.png",
+          "docs/verification/request-a-quote/rfq-initial-1440.png",
+          "docs/verification/request-a-quote/rfq-initial-390.png",
+          "docs/verification/request-a-quote/rfq-initial-768.png",
+          "docs/verification/request-a-quote/rfq-isolation.json",
+          "docs/verification/request-a-quote/rfq-long-320.png",
+          "docs/verification/request-a-quote/rfq-menu-390.png",
+          "docs/verification/request-a-quote/rfq-pending.png",
+          "docs/verification/request-a-quote/rfq-success.png",
+          "docs/verification/request-a-quote/rfq-unavailable.png",
+          "docs/verification/request-a-quote/rfq-validation.png",
+          "docs/verification/request-a-quote/runtime-contract.json",
+          "docs/verification/request-a-quote/source-hashes.json",
+          "docs/verification/request-a-quote/test-results.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/handoffs/CONV-RFQ-gate8.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

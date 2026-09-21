@@ -1,0 +1,41 @@
+{
+  "gate8_pass_notice": {
+    "notice_type": "PAGE_GATE9_PASS",
+    "target_task_id": "01a0bd8c-1d64-7fd1-9026-243adc069ca9",
+    "review_id": "GRADE-M350-D32-G9-20260920-01",
+    "recheck_scope_status": "INITIAL_REVIEW_COMPLETE / PASS",
+    "page_gate9_status": "READ_ONLY_QA_APPROVED / CLOSED",
+    "integration_status": "NOT_READY / EXTERNAL_DEPENDENCIES_OPEN",
+    "release_status": "NOT_AUTHORIZED",
+    "implementation_commit": "a13d270160d39d009159d7c38f82b85456f71c03",
+    "evidence_head": "a96d850ff487a3f0b566614bc826ef67bb3b5d23",
+    "build_id": "wp-b6ac6157961a238166aeb566b1121810a29ee6e2c4441547f36b0965107343d0",
+    "acceptance_conditions_passed": 16,
+    "new_findings": 0,
+    "user_exceptions": [
+      "PHYSICAL_DEVICE_NOT_TESTED",
+      "MANUAL_SCREEN_READER_NOT_TESTED",
+      "NATIVE_BROWSER_OS_ZOOM_200_PERCENT_NOT_TESTED"
+    ],
+    "open_external_dependencies": [
+      "M350-D32-DEP-RFQ",
+      "M350-D32-DEP-SAMPLE",
+      "M350-D32-DEP-DOCUMENT",
+      "M350-D32-DEP-PROCESS",
+      "M350-D32-DEP-APPLICATIONS",
+      "M350-D32-DEP-MARKETS",
+      "M350-D32-DEP-INDEXING"
+    ],
+    "report_path": "D:/23MySec/pages/products/detail-template/07_qa/GRADE-M350_D32_GATE9_INDEPENDENT_ACCEPTANCE_V0.1.md",
+    "gate8_should_stop_return_work": true,
+    "runtime_may_stop_after_acknowledgement": true,
+    "gate8_acknowledgement": {
+      "status": "RECEIVED",
+      "return_work_stopped": true,
+      "compose_preview_stopped": true,
+      "database_and_media_volumes_preserved": true,
+      "branch_worktree_and_candidate_preserved": true,
+      "merge_push_deploy_publish_indexing_performed": false
+    }
+  }
+}

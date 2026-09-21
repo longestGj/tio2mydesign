@@ -1,0 +1,1663 @@
+{
+  "workset_id": "APP-000-D32-G4-V0.1",
+  "mode": "INITIAL",
+  "source": "D:\\23MySec\\pages\\applications\\04_planning\\d32-gate4-v0.1\\application-visual.html",
+  "source_sha256": "1575cfed2fd93857a4ad0a49421099cef24ed34cc22e78cf49dad7c0f69c3cb4",
+  "checks": [
+    {
+      "name": "Approved main content, attributes and operation structure preserved byte-for-byte",
+      "pass": true
+    },
+    {
+      "name": "Shared Header/Footer/dialog and scripts unchanged",
+      "pass": true
+    },
+    {
+      "name": "1440 complete module/relationship set",
+      "pass": true
+    },
+    {
+      "name": "1440 H1 tokens and three-line maximum",
+      "pass": true,
+      "actual": {
+        "size": "56px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "name": "1440 layout columns",
+      "pass": true,
+      "actual": {
+        ".rootHero": 2,
+        ".applicationGrid": 2,
+        ".steps": 3,
+        ".procurementGrid": 3
+      }
+    },
+    {
+      "name": "1440 open white hero",
+      "pass": true
+    },
+    {
+      "name": "1440 restrained action/card shapes and separate final band",
+      "pass": true
+    },
+    {
+      "name": "1440 no overflow/clipping and 44px controls",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "clips": [],
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "1440 actual Inter and production Logos",
+      "pass": true
+    },
+    {
+      "name": "1440 functional Teal page links",
+      "pass": true
+    },
+    {
+      "name": "1440 full atomic state",
+      "pass": true,
+      "actual": {
+        "state": "full",
+        "grades": 30,
+        "plain": 0,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "1440 grade-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "grade-only",
+        "grades": 30,
+        "plain": 0,
+        "apps": 0,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "1440 application-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "application-only",
+        "grades": 0,
+        "plain": 30,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "1440 none atomic state",
+      "pass": true,
+      "actual": {
+        "state": "none",
+        "grades": 0,
+        "plain": 30,
+        "apps": 0,
+        "procurement": 0,
+        "rfq": 0,
+        "collections": 6,
+        "sentence": "",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "1440 cookie entry",
+      "pass": true
+    },
+    {
+      "name": "1440 cookie reverse trap",
+      "pass": true
+    },
+    {
+      "name": "1440 cookie forward trap",
+      "pass": true
+    },
+    {
+      "name": "1440 cookie Escape return",
+      "pass": true
+    },
+    {
+      "name": "1440 cookie Close return",
+      "pass": true
+    },
+    {
+      "name": "1440 anchor actual navigation",
+      "pass": true
+    },
+    {
+      "name": "1440 visible focus",
+      "pass": true,
+      "actual": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "1024 complete module/relationship set",
+      "pass": true
+    },
+    {
+      "name": "1024 H1 tokens and three-line maximum",
+      "pass": true,
+      "actual": {
+        "size": "56px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "name": "1024 layout columns",
+      "pass": true,
+      "actual": {
+        ".rootHero": 2,
+        ".applicationGrid": 2,
+        ".steps": 3,
+        ".procurementGrid": 3
+      }
+    },
+    {
+      "name": "1024 open white hero",
+      "pass": true
+    },
+    {
+      "name": "1024 restrained action/card shapes and separate final band",
+      "pass": true
+    },
+    {
+      "name": "1024 no overflow/clipping and 44px controls",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "clips": [],
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "1024 actual Inter and production Logos",
+      "pass": true
+    },
+    {
+      "name": "1024 functional Teal page links",
+      "pass": true
+    },
+    {
+      "name": "1024 full atomic state",
+      "pass": true,
+      "actual": {
+        "state": "full",
+        "grades": 30,
+        "plain": 0,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "1024 grade-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "grade-only",
+        "grades": 30,
+        "plain": 0,
+        "apps": 0,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "1024 application-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "application-only",
+        "grades": 0,
+        "plain": 30,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "1024 none atomic state",
+      "pass": true,
+      "actual": {
+        "state": "none",
+        "grades": 0,
+        "plain": 30,
+        "apps": 0,
+        "procurement": 0,
+        "rfq": 0,
+        "collections": 6,
+        "sentence": "",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "1024 menu focus entry and inert",
+      "pass": true
+    },
+    {
+      "name": "1024 menu forward trap",
+      "pass": true
+    },
+    {
+      "name": "1024 menu backward trap",
+      "pass": true
+    },
+    {
+      "name": "1024 menu Escape returns focus",
+      "pass": true
+    },
+    {
+      "name": "1024 menu Close returns focus",
+      "pass": true
+    },
+    {
+      "name": "1024 cookie entry",
+      "pass": true
+    },
+    {
+      "name": "1024 cookie reverse trap",
+      "pass": true
+    },
+    {
+      "name": "1024 cookie forward trap",
+      "pass": true
+    },
+    {
+      "name": "1024 cookie Escape return",
+      "pass": true
+    },
+    {
+      "name": "1024 cookie Close return",
+      "pass": true
+    },
+    {
+      "name": "1024 anchor actual navigation",
+      "pass": true
+    },
+    {
+      "name": "1024 visible focus",
+      "pass": true,
+      "actual": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "768 complete module/relationship set",
+      "pass": true
+    },
+    {
+      "name": "768 H1 tokens and three-line maximum",
+      "pass": true,
+      "actual": {
+        "size": "44px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "name": "768 layout columns",
+      "pass": true,
+      "actual": {
+        ".rootHero": 1,
+        ".applicationGrid": 2,
+        ".steps": 3,
+        ".procurementGrid": 3
+      }
+    },
+    {
+      "name": "768 open white hero",
+      "pass": true
+    },
+    {
+      "name": "768 restrained action/card shapes and separate final band",
+      "pass": true
+    },
+    {
+      "name": "768 no overflow/clipping and 44px controls",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "clips": [],
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "768 actual Inter and production Logos",
+      "pass": true
+    },
+    {
+      "name": "768 functional Teal page links",
+      "pass": true
+    },
+    {
+      "name": "768 full atomic state",
+      "pass": true,
+      "actual": {
+        "state": "full",
+        "grades": 30,
+        "plain": 0,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "768 grade-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "grade-only",
+        "grades": 30,
+        "plain": 0,
+        "apps": 0,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "768 application-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "application-only",
+        "grades": 0,
+        "plain": 30,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "768 none atomic state",
+      "pass": true,
+      "actual": {
+        "state": "none",
+        "grades": 0,
+        "plain": 30,
+        "apps": 0,
+        "procurement": 0,
+        "rfq": 0,
+        "collections": 6,
+        "sentence": "",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "768 menu focus entry and inert",
+      "pass": true
+    },
+    {
+      "name": "768 menu forward trap",
+      "pass": true
+    },
+    {
+      "name": "768 menu backward trap",
+      "pass": true
+    },
+    {
+      "name": "768 menu Escape returns focus",
+      "pass": true
+    },
+    {
+      "name": "768 menu Close returns focus",
+      "pass": true
+    },
+    {
+      "name": "768 cookie entry",
+      "pass": true
+    },
+    {
+      "name": "768 cookie reverse trap",
+      "pass": true
+    },
+    {
+      "name": "768 cookie forward trap",
+      "pass": true
+    },
+    {
+      "name": "768 cookie Escape return",
+      "pass": true
+    },
+    {
+      "name": "768 cookie Close return",
+      "pass": true
+    },
+    {
+      "name": "768 anchor actual navigation",
+      "pass": true
+    },
+    {
+      "name": "768 visible focus",
+      "pass": true,
+      "actual": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "390 complete module/relationship set",
+      "pass": true
+    },
+    {
+      "name": "390 H1 tokens and three-line maximum",
+      "pass": true,
+      "actual": {
+        "size": "36px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "name": "390 layout columns",
+      "pass": true,
+      "actual": {
+        ".rootHero": 1,
+        ".applicationGrid": 1,
+        ".steps": 1,
+        ".procurementGrid": 1
+      }
+    },
+    {
+      "name": "390 open white hero",
+      "pass": true
+    },
+    {
+      "name": "390 restrained action/card shapes and separate final band",
+      "pass": true
+    },
+    {
+      "name": "390 no overflow/clipping and 44px controls",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "clips": [],
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "390 actual Inter and production Logos",
+      "pass": true
+    },
+    {
+      "name": "390 functional Teal page links",
+      "pass": true
+    },
+    {
+      "name": "390 full atomic state",
+      "pass": true,
+      "actual": {
+        "state": "full",
+        "grades": 30,
+        "plain": 0,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "390 grade-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "grade-only",
+        "grades": 30,
+        "plain": 0,
+        "apps": 0,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "390 application-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "application-only",
+        "grades": 0,
+        "plain": 30,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "390 none atomic state",
+      "pass": true,
+      "actual": {
+        "state": "none",
+        "grades": 0,
+        "plain": 30,
+        "apps": 0,
+        "procurement": 0,
+        "rfq": 0,
+        "collections": 6,
+        "sentence": "",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "390 menu focus entry and inert",
+      "pass": true
+    },
+    {
+      "name": "390 menu forward trap",
+      "pass": true
+    },
+    {
+      "name": "390 menu backward trap",
+      "pass": true
+    },
+    {
+      "name": "390 menu Escape returns focus",
+      "pass": true
+    },
+    {
+      "name": "390 menu Close returns focus",
+      "pass": true
+    },
+    {
+      "name": "390 cookie entry",
+      "pass": true
+    },
+    {
+      "name": "390 cookie reverse trap",
+      "pass": true
+    },
+    {
+      "name": "390 cookie forward trap",
+      "pass": true
+    },
+    {
+      "name": "390 cookie Escape return",
+      "pass": true
+    },
+    {
+      "name": "390 cookie Close return",
+      "pass": true
+    },
+    {
+      "name": "390 anchor actual navigation",
+      "pass": true
+    },
+    {
+      "name": "390 visible focus",
+      "pass": true,
+      "actual": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "320 complete module/relationship set",
+      "pass": true
+    },
+    {
+      "name": "320 H1 tokens and three-line maximum",
+      "pass": true,
+      "actual": {
+        "size": "36px",
+        "weight": "700",
+        "lines": 3
+      }
+    },
+    {
+      "name": "320 layout columns",
+      "pass": true,
+      "actual": {
+        ".rootHero": 1,
+        ".applicationGrid": 1,
+        ".steps": 1,
+        ".procurementGrid": 1
+      }
+    },
+    {
+      "name": "320 open white hero",
+      "pass": true
+    },
+    {
+      "name": "320 restrained action/card shapes and separate final band",
+      "pass": true
+    },
+    {
+      "name": "320 no overflow/clipping and 44px controls",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "clips": [],
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "320 actual Inter and production Logos",
+      "pass": true
+    },
+    {
+      "name": "320 functional Teal page links",
+      "pass": true
+    },
+    {
+      "name": "320 full atomic state",
+      "pass": true,
+      "actual": {
+        "state": "full",
+        "grades": 30,
+        "plain": 0,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "320 grade-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "grade-only",
+        "grades": 30,
+        "plain": 0,
+        "apps": 0,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Open a grade page for product information.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "320 application-only atomic state",
+      "pass": true,
+      "actual": {
+        "state": "application-only",
+        "grades": 0,
+        "plain": 30,
+        "apps": 5,
+        "procurement": 3,
+        "rfq": 2,
+        "collections": 6,
+        "sentence": "Explore an application for guidance on what to evaluate.",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "320 none atomic state",
+      "pass": true,
+      "actual": {
+        "state": "none",
+        "grades": 0,
+        "plain": 30,
+        "apps": 0,
+        "procurement": 0,
+        "rfq": 0,
+        "collections": 6,
+        "sentence": "",
+        "overflow": 0,
+        "plainNeutral": true
+      }
+    },
+    {
+      "name": "320 menu focus entry and inert",
+      "pass": true
+    },
+    {
+      "name": "320 menu forward trap",
+      "pass": true
+    },
+    {
+      "name": "320 menu backward trap",
+      "pass": true
+    },
+    {
+      "name": "320 menu Escape returns focus",
+      "pass": true
+    },
+    {
+      "name": "320 menu Close returns focus",
+      "pass": true
+    },
+    {
+      "name": "320 cookie entry",
+      "pass": true
+    },
+    {
+      "name": "320 cookie reverse trap",
+      "pass": true
+    },
+    {
+      "name": "320 cookie forward trap",
+      "pass": true
+    },
+    {
+      "name": "320 cookie Escape return",
+      "pass": true
+    },
+    {
+      "name": "320 cookie Close return",
+      "pass": true
+    },
+    {
+      "name": "320 anchor actual navigation",
+      "pass": true
+    },
+    {
+      "name": "320 visible focus",
+      "pass": true,
+      "actual": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "name": "200 percent desktop reflow equivalent:720 logical DPR2",
+      "pass": true
+    },
+    {
+      "name": "200 percent page text enlargement preserves content",
+      "pass": true,
+      "actual": {
+        "overflow": 0,
+        "clipped": []
+      }
+    },
+    {
+      "name": "No JavaScript core content",
+      "pass": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 3793,
+      "overflow": 0,
+      "h1": {
+        "size": "56px",
+        "weight": "700",
+        "lines": 2
+      },
+      "columns": {
+        ".rootHero": 2,
+        ".applicationGrid": 2,
+        ".steps": 3,
+        ".procurementGrid": 3
+      },
+      "hero": {
+        "border": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "radius": "6px",
+      "cardRadius": "10px",
+      "finalBackground": "rgb(255, 255, 255)",
+      "finalHeading": "rgb(6, 43, 91)",
+      "clips": [],
+      "fontLoaded": true,
+      "brokenImages": [],
+      "smallTargets": [],
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "relations": [
+        8,
+        8,
+        7,
+        4,
+        2,
+        1
+      ],
+      "steps": 3,
+      "faq": 0,
+      "process": 0,
+      "links": [
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)"
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 4106,
+      "overflow": 0,
+      "h1": {
+        "size": "56px",
+        "weight": "700",
+        "lines": 2
+      },
+      "columns": {
+        ".rootHero": 2,
+        ".applicationGrid": 2,
+        ".steps": 3,
+        ".procurementGrid": 3
+      },
+      "hero": {
+        "border": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "radius": "6px",
+      "cardRadius": "10px",
+      "finalBackground": "rgb(255, 255, 255)",
+      "finalHeading": "rgb(6, 43, 91)",
+      "clips": [],
+      "fontLoaded": true,
+      "brokenImages": [],
+      "smallTargets": [],
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "relations": [
+        8,
+        8,
+        7,
+        4,
+        2,
+        1
+      ],
+      "steps": 3,
+      "faq": 0,
+      "process": 0,
+      "links": [
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)"
+      ]
+    },
+    {
+      "width": 768,
+      "height": 4613,
+      "overflow": 0,
+      "h1": {
+        "size": "44px",
+        "weight": "700",
+        "lines": 2
+      },
+      "columns": {
+        ".rootHero": 1,
+        ".applicationGrid": 2,
+        ".steps": 3,
+        ".procurementGrid": 3
+      },
+      "hero": {
+        "border": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "radius": "6px",
+      "cardRadius": "10px",
+      "finalBackground": "rgb(255, 255, 255)",
+      "finalHeading": "rgb(6, 43, 91)",
+      "clips": [],
+      "fontLoaded": true,
+      "brokenImages": [],
+      "smallTargets": [],
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "relations": [
+        8,
+        8,
+        7,
+        4,
+        2,
+        1
+      ],
+      "steps": 3,
+      "faq": 0,
+      "process": 0,
+      "links": [
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 6755,
+      "overflow": 0,
+      "h1": {
+        "size": "36px",
+        "weight": "700",
+        "lines": 2
+      },
+      "columns": {
+        ".rootHero": 1,
+        ".applicationGrid": 1,
+        ".steps": 1,
+        ".procurementGrid": 1
+      },
+      "hero": {
+        "border": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "radius": "6px",
+      "cardRadius": "10px",
+      "finalBackground": "rgb(255, 255, 255)",
+      "finalHeading": "rgb(6, 43, 91)",
+      "clips": [],
+      "fontLoaded": true,
+      "brokenImages": [],
+      "smallTargets": [],
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "relations": [
+        8,
+        8,
+        7,
+        4,
+        2,
+        1
+      ],
+      "steps": 3,
+      "faq": 0,
+      "process": 0,
+      "links": [
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)"
+      ]
+    },
+    {
+      "width": 320,
+      "height": 7165,
+      "overflow": 0,
+      "h1": {
+        "size": "36px",
+        "weight": "700",
+        "lines": 3
+      },
+      "columns": {
+        ".rootHero": 1,
+        ".applicationGrid": 1,
+        ".steps": 1,
+        ".procurementGrid": 1
+      },
+      "hero": {
+        "border": "0px",
+        "shadow": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "radius": "6px",
+      "cardRadius": "10px",
+      "finalBackground": "rgb(255, 255, 255)",
+      "finalHeading": "rgb(6, 43, 91)",
+      "clips": [],
+      "fontLoaded": true,
+      "brokenImages": [],
+      "smallTargets": [],
+      "modules": [
+        "M1-HERO",
+        "M2-APPLICATION_PATHS",
+        "M3-EVALUATION_GUIDE",
+        "M4-PROCUREMENT_PATHS",
+        "M5-FINAL-RFQ"
+      ],
+      "relations": [
+        8,
+        8,
+        7,
+        4,
+        2,
+        1
+      ],
+      "steps": 3,
+      "faq": 0,
+      "process": 0,
+      "links": [
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)",
+        "rgb(0, 128, 120)"
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "width": 1440,
+      "type": "LOCAL_SIMULATION",
+      "state": "full",
+      "grades": 30,
+      "plain": 0,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 1440,
+      "type": "LOCAL_SIMULATION",
+      "state": "grade-only",
+      "grades": 30,
+      "plain": 0,
+      "apps": 0,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 1440,
+      "type": "LOCAL_SIMULATION",
+      "state": "application-only",
+      "grades": 0,
+      "plain": 30,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 1440,
+      "type": "LOCAL_SIMULATION",
+      "state": "none",
+      "grades": 0,
+      "plain": 30,
+      "apps": 0,
+      "procurement": 0,
+      "rfq": 0,
+      "collections": 6,
+      "sentence": "",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 1440,
+      "type": "ACTUAL_RUNTIME",
+      "menu": "desktop navigation",
+      "cookie": "entry/trap/escape/close PASS",
+      "anchor": "Specialty Materials PASS",
+      "focus": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "width": 1024,
+      "type": "LOCAL_SIMULATION",
+      "state": "full",
+      "grades": 30,
+      "plain": 0,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 1024,
+      "type": "LOCAL_SIMULATION",
+      "state": "grade-only",
+      "grades": 30,
+      "plain": 0,
+      "apps": 0,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 1024,
+      "type": "LOCAL_SIMULATION",
+      "state": "application-only",
+      "grades": 0,
+      "plain": 30,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 1024,
+      "type": "LOCAL_SIMULATION",
+      "state": "none",
+      "grades": 0,
+      "plain": 30,
+      "apps": 0,
+      "procurement": 0,
+      "rfq": 0,
+      "collections": 6,
+      "sentence": "",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 1024,
+      "type": "ACTUAL_RUNTIME",
+      "menu": "entry/trap/escape/close PASS",
+      "cookie": "entry/trap/escape/close PASS",
+      "anchor": "Specialty Materials PASS",
+      "focus": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "width": 768,
+      "type": "LOCAL_SIMULATION",
+      "state": "full",
+      "grades": 30,
+      "plain": 0,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 768,
+      "type": "LOCAL_SIMULATION",
+      "state": "grade-only",
+      "grades": 30,
+      "plain": 0,
+      "apps": 0,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 768,
+      "type": "LOCAL_SIMULATION",
+      "state": "application-only",
+      "grades": 0,
+      "plain": 30,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 768,
+      "type": "LOCAL_SIMULATION",
+      "state": "none",
+      "grades": 0,
+      "plain": 30,
+      "apps": 0,
+      "procurement": 0,
+      "rfq": 0,
+      "collections": 6,
+      "sentence": "",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 768,
+      "type": "ACTUAL_RUNTIME",
+      "menu": "entry/trap/escape/close PASS",
+      "cookie": "entry/trap/escape/close PASS",
+      "anchor": "Specialty Materials PASS",
+      "focus": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "width": 390,
+      "type": "LOCAL_SIMULATION",
+      "state": "full",
+      "grades": 30,
+      "plain": 0,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 390,
+      "type": "LOCAL_SIMULATION",
+      "state": "grade-only",
+      "grades": 30,
+      "plain": 0,
+      "apps": 0,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 390,
+      "type": "LOCAL_SIMULATION",
+      "state": "application-only",
+      "grades": 0,
+      "plain": 30,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 390,
+      "type": "LOCAL_SIMULATION",
+      "state": "none",
+      "grades": 0,
+      "plain": 30,
+      "apps": 0,
+      "procurement": 0,
+      "rfq": 0,
+      "collections": 6,
+      "sentence": "",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 390,
+      "type": "ACTUAL_RUNTIME",
+      "menu": "entry/trap/escape/close PASS",
+      "cookie": "entry/trap/escape/close PASS",
+      "anchor": "Specialty Materials PASS",
+      "focus": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    },
+    {
+      "width": 320,
+      "type": "LOCAL_SIMULATION",
+      "state": "full",
+      "grades": 30,
+      "plain": 0,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information, or explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 320,
+      "type": "LOCAL_SIMULATION",
+      "state": "grade-only",
+      "grades": 30,
+      "plain": 0,
+      "apps": 0,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Open a grade page for product information.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 320,
+      "type": "LOCAL_SIMULATION",
+      "state": "application-only",
+      "grades": 0,
+      "plain": 30,
+      "apps": 5,
+      "procurement": 3,
+      "rfq": 2,
+      "collections": 6,
+      "sentence": "Explore an application for guidance on what to evaluate.",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 320,
+      "type": "LOCAL_SIMULATION",
+      "state": "none",
+      "grades": 0,
+      "plain": 30,
+      "apps": 0,
+      "procurement": 0,
+      "rfq": 0,
+      "collections": 6,
+      "sentence": "",
+      "overflow": 0,
+      "plainNeutral": true
+    },
+    {
+      "width": 320,
+      "type": "ACTUAL_RUNTIME",
+      "menu": "entry/trap/escape/close PASS",
+      "cookie": "entry/trap/escape/close PASS",
+      "anchor": "Specialty Materials PASS",
+      "focus": {
+        "visible": true,
+        "width": "3px",
+        "color": "rgb(0, 128, 120)"
+      }
+    }
+  ],
+  "limitations": [
+    "LOCAL_PLANNING_SIMULATION_ONLY; target readiness and receipt are not tested.",
+    "Logical viewport/text enlargement/reflow stress tests are not physical devices, assistive technology or native browser UI zoom."
+  ],
+  "browser": "151.0.7922.34",
+  "failed": [],
+  "status": "PASS"
+}

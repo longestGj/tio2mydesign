@@ -1,0 +1,2564 @@
+{
+  "reviewer": "/root/doc_root_d32",
+  "timestamp": "2026-09-21T00:11:07.340Z",
+  "candidate_bundle": "f2c25e99b6b7958ddfb7c6e7f2888decd07c5a6aaa9223b2099ed66a6d3219b9",
+  "html_sha256": "2c845cf518645afe3b22192d8ace9d2cd92770fcfd7f77f9ffd647199dcf11db",
+  "evidence_types": [
+    "SOURCE_INSPECTION",
+    "ACTUAL_RUNTIME",
+    "LOCAL_SIMULATION"
+  ],
+  "passed": 232,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "source:market-planning.html",
+      "pass": true,
+      "detail": {
+        "actual": "2c845cf518645afe3b22192d8ace9d2cd92770fcfd7f77f9ffd647199dcf11db",
+        "expected": "2c845cf518645afe3b22192d8ace9d2cd92770fcfd7f77f9ffd647199dcf11db"
+      }
+    },
+    {
+      "id": "source:planning.css",
+      "pass": true,
+      "detail": {
+        "actual": "a3991aa5c42e38adf94c9d4b4bdfe73e83bdffccbfbfeae14f57af50c6fdbca4",
+        "expected": "a3991aa5c42e38adf94c9d4b4bdfe73e83bdffccbfbfeae14f57af50c6fdbca4"
+      }
+    },
+    {
+      "id": "source:planning.js",
+      "pass": true,
+      "detail": {
+        "actual": "44118a9b1c9658cae588df59c6b25f5db1e705eb2ddc701becd1cb4f722a59e5",
+        "expected": "44118a9b1c9658cae588df59c6b25f5db1e705eb2ddc701becd1cb4f722a59e5"
+      }
+    },
+    {
+      "id": "source:build.cjs",
+      "pass": true,
+      "detail": {
+        "actual": "979582ad1a337c9a99deeb57ee751e3e191860ef91d90882c77511effb7aa4e0",
+        "expected": "979582ad1a337c9a99deeb57ee751e3e191860ef91d90882c77511effb7aa4e0"
+      }
+    },
+    {
+      "id": "source:verify.cjs",
+      "pass": true,
+      "detail": {
+        "actual": "da5fb545af56bec105e9a9ee389d920536af210214888a820eeb5b7f75d45804",
+        "expected": "da5fb545af56bec105e9a9ee389d920536af210214888a820eeb5b7f75d45804"
+      }
+    },
+    {
+      "id": "source:capture.cjs",
+      "pass": true,
+      "detail": {
+        "actual": "b7c9f4cc82f9827e630b6b693d27afc24a78f37180db208f8eb790bceea5abb4",
+        "expected": "b7c9f4cc82f9827e630b6b693d27afc24a78f37180db208f8eb790bceea5abb4"
+      }
+    },
+    {
+      "id": "source:content-map.json",
+      "pass": true,
+      "detail": {
+        "actual": "9a6e0092ab1bc5428f2fb5a2978ffa23ffd8a985151e5285a57a51d08a7f2363",
+        "expected": "9a6e0092ab1bc5428f2fb5a2978ffa23ffd8a985151e5285a57a51d08a7f2363"
+      }
+    },
+    {
+      "id": "source:MARKET-000_D32_GATE3_DESIGN_REPORT_V0.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "a7717b6ff12e74cf2c12aa00655de8a502bd754937ab7ba0e1a54436543fffe1",
+        "expected": "a7717b6ff12e74cf2c12aa00655de8a502bd754937ab7ba0e1a54436543fffe1"
+      }
+    },
+    {
+      "id": "source:finalize.cjs",
+      "pass": true,
+      "detail": {
+        "actual": "834fc53aebbf037c83d77c816ff0640950603a3b2f86ba2fad6d3a3e7e1ec7b6",
+        "expected": "834fc53aebbf037c83d77c816ff0640950603a3b2f86ba2fad6d3a3e7e1ec7b6"
+      }
+    },
+    {
+      "id": "source:input-identities.json",
+      "pass": true,
+      "detail": {
+        "actual": "60d7c68aa6d4476cb83a0ddd857dc0e3270476e788df8a31343eacef9d803b0b",
+        "expected": "60d7c68aa6d4476cb83a0ddd857dc0e3270476e788df8a31343eacef9d803b0b"
+      }
+    },
+    {
+      "id": "source:preflight.json",
+      "pass": true,
+      "detail": {
+        "actual": "f61287fd9cb08cd3cbaed241c255f3b90b6129c5251d923b4dd2afbbaa9a45e1",
+        "expected": "f61287fd9cb08cd3cbaed241c255f3b90b6129c5251d923b4dd2afbbaa9a45e1"
+      }
+    },
+    {
+      "id": "input:AGENTS.md",
+      "pass": true,
+      "detail": {
+        "actual": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21",
+        "expected": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21"
+      }
+    },
+    {
+      "id": "input:PROJECT_CONTEXT.md",
+      "pass": true,
+      "detail": {
+        "actual": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27",
+        "expected": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27"
+      }
+    },
+    {
+      "id": "input:01_PROJECT_INDEX.md",
+      "pass": true,
+      "detail": {
+        "actual": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2",
+        "expected": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2"
+      }
+    },
+    {
+      "id": "input:2026-09-21-four-root-pages-d32-gate3-gate9.md",
+      "pass": true,
+      "detail": {
+        "actual": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37",
+        "expected": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37"
+      }
+    },
+    {
+      "id": "input:GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+      "pass": true,
+      "detail": {
+        "actual": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01",
+        "expected": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01"
+      }
+    },
+    {
+      "id": "input:agent.md",
+      "pass": true,
+      "detail": {
+        "actual": "a5f7c6a421ae7454497ef464d2cfe51d48812e2a0eeb04a1fa5649a1bb26bbeb",
+        "expected": "a5f7c6a421ae7454497ef464d2cfe51d48812e2a0eeb04a1fa5649a1bb26bbeb"
+      }
+    },
+    {
+      "id": "input:SKILL.md",
+      "pass": true,
+      "detail": {
+        "actual": "c27c7b1348a88f91be10cc07a8b1a45a08711c13ad82686ea777bf64c6f69339",
+        "expected": "c27c7b1348a88f91be10cc07a8b1a45a08711c13ad82686ea777bf64c6f69339"
+      }
+    },
+    {
+      "id": "input:preflight-freeze-evidence.md",
+      "pass": true,
+      "detail": {
+        "actual": "40f7f9ddaaf54981e6dc35714c9976579ed3e4ef09b96ac7184dca57546498e8",
+        "expected": "40f7f9ddaaf54981e6dc35714c9976579ed3e4ef09b96ac7184dca57546498e8"
+      }
+    },
+    {
+      "id": "input:SKILL.md",
+      "pass": true,
+      "detail": {
+        "actual": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884",
+        "expected": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884"
+      }
+    },
+    {
+      "id": "input:gate3-structure-scope.md",
+      "pass": true,
+      "detail": {
+        "actual": "5d511125408211655bd201a3f0d2ee7b2db349324f563faff24ecafe1b7d7ba6",
+        "expected": "5d511125408211655bd201a3f0d2ee7b2db349324f563faff24ecafe1b7d7ba6"
+      }
+    },
+    {
+      "id": "input:core-risk-model.md",
+      "pass": true,
+      "detail": {
+        "actual": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609",
+        "expected": "5f0f45e5b8015ce331c95506c1cd264b8ada01f6e2b42f35fafd6d444f920609"
+      }
+    },
+    {
+      "id": "input:GATE_WORKFLOW_V3.3.md",
+      "pass": true,
+      "detail": {
+        "actual": "b00f404ef3c24e394194c7dd4f85e40c56b1fb6e33b723290e1a8f3af50ac1f1",
+        "expected": "b00f404ef3c24e394194c7dd4f85e40c56b1fb6e33b723290e1a8f3af50ac1f1"
+      }
+    },
+    {
+      "id": "input:PAGE_GATE_1_4_STANDARD_V2.3.md",
+      "pass": true,
+      "detail": {
+        "actual": "2cc10e4951ec110742e977d1d45e07c9dc1cece7b5012c168600125408eda87b",
+        "expected": "2cc10e4951ec110742e977d1d45e07c9dc1cece7b5012c168600125408eda87b"
+      }
+    },
+    {
+      "id": "input:PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "pass": true,
+      "detail": {
+        "actual": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140",
+        "expected": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140"
+      }
+    },
+    {
+      "id": "input:GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "86ff91f577bd4fba1173699637a41ee549ce18df1553a178e0bd3245a59a6da1",
+        "expected": "86ff91f577bd4fba1173699637a41ee549ce18df1553a178e0bd3245a59a6da1"
+      }
+    },
+    {
+      "id": "input:GATE3_CROSS_PAGE_CONSISTENCY_DECISION_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "0c78278b9898e3a52ed048e0bcd3cd338f6f490e1dd56fa3085b7b83fc86c95c",
+        "expected": "0c78278b9898e3a52ed048e0bcd3cd338f6f490e1dd56fa3085b7b83fc86c95c"
+      }
+    },
+    {
+      "id": "input:GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1",
+        "expected": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1"
+      }
+    },
+    {
+      "id": "input:2026-09-20-gate3-to-gate4-handoff-contract-v0.5.md",
+      "pass": true,
+      "detail": {
+        "actual": "e1867d8841c49d67629ac4b1eead9ff1005b1a0ddce7a0fb624b8f54d41465ca",
+        "expected": "e1867d8841c49d67629ac4b1eead9ff1005b1a0ddce7a0fb624b8f54d41465ca"
+      }
+    },
+    {
+      "id": "input:PAGE_REGISTRY_V0.2.md",
+      "pass": true,
+      "detail": {
+        "actual": "3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552",
+        "expected": "3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552"
+      }
+    },
+    {
+      "id": "input:11_page_keyword_master.csv",
+      "pass": true,
+      "detail": {
+        "actual": "ad86e336ff7f77b1dc9b7eb120a89adc13463d70e73fc84ad4f16a36247dd6b0",
+        "expected": "ad86e336ff7f77b1dc9b7eb120a89adc13463d70e73fc84ad4f16a36247dd6b0"
+      }
+    },
+    {
+      "id": "input:MARKET_PLAYBOOK_V0.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "846d54b98259b5650c95251edbbea124c42e6df7dcfd213379ab1f4e639f9386",
+        "expected": "846d54b98259b5650c95251edbbea124c42e6df7dcfd213379ab1f4e639f9386"
+      }
+    },
+    {
+      "id": "input:MARKET-000_MARKETS_BRIEF_V0.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "bc3ba3b9ef19d3a8c2464d21fc8a526e8c141311359888b5297bbf20b18690ad",
+        "expected": "bc3ba3b9ef19d3a8c2464d21fc8a526e8c141311359888b5297bbf20b18690ad"
+      }
+    },
+    {
+      "id": "input:EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "pass": true,
+      "detail": {
+        "actual": "4afc9c195a5d42a5fb9ab7c1c03f02f3dca0dbd61121b79673f0de0fff2e8e09",
+        "expected": "4afc9c195a5d42a5fb9ab7c1c03f02f3dca0dbd61121b79673f0de0fff2e8e09"
+      }
+    },
+    {
+      "id": "input:MARKET-000_CONTENT_ARCHITECTURE_V0.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "29e25efa5029ee0aae000dd16f2980518cf1d957b8cabec1610acc91a9219f92",
+        "expected": "29e25efa5029ee0aae000dd16f2980518cf1d957b8cabec1610acc91a9219f92"
+      }
+    },
+    {
+      "id": "input:MARKET-000_SEO_GEO_SCHEMA_CONTRACT_V0.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "c0ae7a2af65c064abf0f017b9c9aa402176a2063115705a77cba6fd774b77ef6",
+        "expected": "c0ae7a2af65c064abf0f017b9c9aa402176a2063115705a77cba6fd774b77ef6"
+      }
+    },
+    {
+      "id": "input:MARKET-000_FULL_VISUAL_DESIGN_V0.4.md",
+      "pass": true,
+      "detail": {
+        "actual": "556afd70abba5536352d2ec9baab722a531ed65cc06cf5dfd14558c41e13f7bb",
+        "expected": "556afd70abba5536352d2ec9baab722a531ed65cc06cf5dfd14558c41e13f7bb"
+      }
+    },
+    {
+      "id": "input:MARKET-000_GATE5_APPROVED_BASELINE_MANIFEST_V0.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "b290415392fdec2499b902726fff476ab0a68ed05049c4dfa3a55c4fbd952ac5",
+        "expected": "b290415392fdec2499b902726fff476ab0a68ed05049c4dfa3a55c4fbd952ac5"
+      }
+    },
+    {
+      "id": "input:MARKET-000_CURRENT_GATE9_BASELINE_MANIFEST_V0.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "fdbf07feaac76795a86ac60d0006c5cf77ee93d9eb56df035954a76dddf920dc",
+        "expected": "fdbf07feaac76795a86ac60d0006c5cf77ee93d9eb56df035954a76dddf920dc"
+      }
+    },
+    {
+      "id": "input:MARKET-000_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md",
+      "pass": true,
+      "detail": {
+        "actual": "8272c12ba54945a48c1eed8c67cc1c4949b079ba3c21e904b7cfeb48fb2aa16f",
+        "expected": "8272c12ba54945a48c1eed8c67cc1c4949b079ba3c21e904b7cfeb48fb2aa16f"
+      }
+    },
+    {
+      "id": "input:GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "pass": true,
+      "detail": {
+        "actual": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+        "expected": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      }
+    },
+    {
+      "id": "input:GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+        "expected": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      }
+    },
+    {
+      "id": "input:ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+        "expected": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f"
+      }
+    },
+    {
+      "id": "input:ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+        "expected": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720"
+      }
+    },
+    {
+      "id": "input:ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580",
+        "expected": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580"
+      }
+    },
+    {
+      "id": "input:TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+        "expected": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      }
+    },
+    {
+      "id": "input:TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+        "expected": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      }
+    },
+    {
+      "id": "input:PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "pass": true,
+      "detail": {
+        "actual": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+        "expected": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      }
+    },
+    {
+      "id": "input:HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "pass": true,
+      "detail": {
+        "actual": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5",
+        "expected": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5"
+      }
+    },
+    {
+      "id": "input:PRODUCT-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "pass": true,
+      "detail": {
+        "actual": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004",
+        "expected": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004"
+      }
+    },
+    {
+      "id": "input:APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "pass": true,
+      "detail": {
+        "actual": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7",
+        "expected": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7"
+      }
+    },
+    {
+      "id": "input:SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "pass": true,
+      "detail": {
+        "actual": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb",
+        "expected": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      }
+    },
+    {
+      "id": "input:render-shared-chrome.cjs",
+      "pass": true,
+      "detail": {
+        "actual": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+        "expected": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      }
+    },
+    {
+      "id": "input:shared-chrome.css",
+      "pass": true,
+      "detail": {
+        "actual": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+        "expected": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      }
+    },
+    {
+      "id": "input:shared-chrome-behavior.js",
+      "pass": true,
+      "detail": {
+        "actual": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+        "expected": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      }
+    },
+    {
+      "id": "input:shared-chrome-data.json",
+      "pass": true,
+      "detail": {
+        "actual": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+        "expected": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      }
+    },
+    {
+      "id": "input:shared-consent-data.json",
+      "pass": true,
+      "detail": {
+        "actual": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+        "expected": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      }
+    },
+    {
+      "id": "input:Inter-Variable.ttf",
+      "pass": true,
+      "detail": {
+        "actual": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "expected": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      }
+    },
+    {
+      "id": "input:tio2-malaysia-primary-horizontal-v0.1.svg",
+      "pass": true,
+      "detail": {
+        "actual": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+        "expected": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      }
+    },
+    {
+      "id": "input:tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "pass": true,
+      "detail": {
+        "actual": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+        "expected": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_FULL_1440.png",
+      "pass": true,
+      "detail": {
+        "actual": "02b6156b7c6638279f42d129830a165ff275e3633659e2b15a92ab9893c7d5c0",
+        "expected": "02b6156b7c6638279f42d129830a165ff275e3633659e2b15a92ab9893c7d5c0"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_FULL_768.png",
+      "pass": true,
+      "detail": {
+        "actual": "c346bb070d2172ee504fb4b75dfb3b51119a99b4d2aad4535aafc8148b9586c4",
+        "expected": "c346bb070d2172ee504fb4b75dfb3b51119a99b4d2aad4535aafc8148b9586c4"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_MENU_768.png",
+      "pass": true,
+      "detail": {
+        "actual": "55e6b26823561c32c9031848948e337660363bd66247a3bc4d6a095305e114dc",
+        "expected": "55e6b26823561c32c9031848948e337660363bd66247a3bc4d6a095305e114dc"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_FULL_390.png",
+      "pass": true,
+      "detail": {
+        "actual": "6daeb006762f8ccda8734e31ca284cef82d591fd9027db0214a208be68ff35e6",
+        "expected": "6daeb006762f8ccda8734e31ca284cef82d591fd9027db0214a208be68ff35e6"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_MENU_390.png",
+      "pass": true,
+      "detail": {
+        "actual": "21002d74deb6791737e930f4cc9fef02ee7f63a52bef762dc40755742d261d66",
+        "expected": "21002d74deb6791737e930f4cc9fef02ee7f63a52bef762dc40755742d261d66"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_EU_EXPANDED_390.png",
+      "pass": true,
+      "detail": {
+        "actual": "1a78b0b8ad858e657fb674b8a032cb1b12b4e0e45bbe286e9884cff513e08258",
+        "expected": "1a78b0b8ad858e657fb674b8a032cb1b12b4e0e45bbe286e9884cff513e08258"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_COOKIE_390.png",
+      "pass": true,
+      "detail": {
+        "actual": "dee2ea72b264b6d3d277ae8c971941cb7945e4e6689c3c3b75a2c44dd15b441b",
+        "expected": "dee2ea72b264b6d3d277ae8c971941cb7945e4e6689c3c3b75a2c44dd15b441b"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_NONE_390.png",
+      "pass": true,
+      "detail": {
+        "actual": "a945ca79d49e8ca47686bf71411f84391d5e4b33ed0f7cf0a8b4eb8d023f5b4b",
+        "expected": "a945ca79d49e8ca47686bf71411f84391d5e4b33ed0f7cf0a8b4eb8d023f5b4b"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_EU-ONLY_390.png",
+      "pass": true,
+      "detail": {
+        "actual": "d255749195b405ea17e81ca4c45beafe966c49809b95fc107789acc1793aed34",
+        "expected": "d255749195b405ea17e81ca4c45beafe966c49809b95fc107789acc1793aed34"
+      }
+    },
+    {
+      "id": "formal:MARKET-000_D32_G3_SUPPORT-ONLY_390.png",
+      "pass": true,
+      "detail": {
+        "actual": "4bd6d244c452b00588588e9dcce880fd8cff51d571e0e092bf1d8285c84c3e89",
+        "expected": "4bd6d244c452b00588588e9dcce880fd8cff51d571e0e092bf1d8285c84c3e89"
+      }
+    },
+    {
+      "id": "submitted-bundle",
+      "pass": true,
+      "detail": "f2c25e99b6b7958ddfb7c6e7f2888decd07c5a6aaa9223b2099ed66a6d3219b9"
+    },
+    {
+      "id": "no-public-held-schema-hreflang",
+      "pass": true
+    },
+    {
+      "id": "1440:no-overflow",
+      "pass": true
+    },
+    {
+      "id": "1440:one-approved-h1",
+      "pass": true
+    },
+    {
+      "id": "1440:module-order",
+      "pass": true
+    },
+    {
+      "id": "1440:six-questions",
+      "pass": true
+    },
+    {
+      "id": "1440:all-fourteen-routes",
+      "pass": true
+    },
+    {
+      "id": "1440:single-hero-action",
+      "pass": true
+    },
+    {
+      "id": "1440:touch-targets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "1440:clean-body",
+      "pass": true
+    },
+    {
+      "id": "1440:brazil-approved-delta",
+      "pass": true
+    },
+    {
+      "id": "1440:all-tagged-copy-exact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "1440:eu-default",
+      "pass": true
+    },
+    {
+      "id": "1440:local-anchor",
+      "pass": true
+    },
+    {
+      "id": "1440:cookie-open",
+      "pass": true
+    },
+    {
+      "id": "1440:cookie-return",
+      "pass": true
+    },
+    {
+      "id": "1440:no-console-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "768:no-overflow",
+      "pass": true
+    },
+    {
+      "id": "768:one-approved-h1",
+      "pass": true
+    },
+    {
+      "id": "768:module-order",
+      "pass": true
+    },
+    {
+      "id": "768:six-questions",
+      "pass": true
+    },
+    {
+      "id": "768:all-fourteen-routes",
+      "pass": true
+    },
+    {
+      "id": "768:single-hero-action",
+      "pass": true
+    },
+    {
+      "id": "768:touch-targets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "768:clean-body",
+      "pass": true
+    },
+    {
+      "id": "768:brazil-approved-delta",
+      "pass": true
+    },
+    {
+      "id": "768:all-tagged-copy-exact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "768:eu-default",
+      "pass": true
+    },
+    {
+      "id": "768:local-anchor",
+      "pass": true
+    },
+    {
+      "id": "768:menu-open",
+      "pass": true
+    },
+    {
+      "id": "768:menu-background-inert",
+      "pass": true
+    },
+    {
+      "id": "768:menu-first-focus",
+      "pass": true
+    },
+    {
+      "id": "768:menu-escape-return",
+      "pass": true
+    },
+    {
+      "id": "768:breakpoint-closes",
+      "pass": true
+    },
+    {
+      "id": "768:cookie-open",
+      "pass": true
+    },
+    {
+      "id": "768:cookie-return",
+      "pass": true
+    },
+    {
+      "id": "768:no-console-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "390:no-overflow",
+      "pass": true
+    },
+    {
+      "id": "390:one-approved-h1",
+      "pass": true
+    },
+    {
+      "id": "390:module-order",
+      "pass": true
+    },
+    {
+      "id": "390:six-questions",
+      "pass": true
+    },
+    {
+      "id": "390:all-fourteen-routes",
+      "pass": true
+    },
+    {
+      "id": "390:single-hero-action",
+      "pass": true
+    },
+    {
+      "id": "390:touch-targets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "390:clean-body",
+      "pass": true
+    },
+    {
+      "id": "390:brazil-approved-delta",
+      "pass": true
+    },
+    {
+      "id": "390:all-tagged-copy-exact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "390:eu-default",
+      "pass": true
+    },
+    {
+      "id": "390:eu-enter",
+      "pass": true
+    },
+    {
+      "id": "390:eu-six",
+      "pass": true
+    },
+    {
+      "id": "390:eu-space",
+      "pass": true
+    },
+    {
+      "id": "390:local-anchor",
+      "pass": true
+    },
+    {
+      "id": "390:menu-open",
+      "pass": true
+    },
+    {
+      "id": "390:menu-background-inert",
+      "pass": true
+    },
+    {
+      "id": "390:menu-first-focus",
+      "pass": true
+    },
+    {
+      "id": "390:menu-escape-return",
+      "pass": true
+    },
+    {
+      "id": "390:breakpoint-closes",
+      "pass": true
+    },
+    {
+      "id": "390:cookie-open",
+      "pass": true
+    },
+    {
+      "id": "390:cookie-return",
+      "pass": true
+    },
+    {
+      "id": "390:no-console-errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "none:atomic-route-simulation",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "none:countries-readable",
+      "pass": true
+    },
+    {
+      "id": "none:rfq-stays",
+      "pass": true
+    },
+    {
+      "id": "none:no-overflow",
+      "pass": true
+    },
+    {
+      "id": "none:no-internal-label",
+      "pass": true
+    },
+    {
+      "id": "eu-only:atomic-route-simulation",
+      "pass": true,
+      "detail": [
+        "/markets/european-union/"
+      ]
+    },
+    {
+      "id": "eu-only:countries-readable",
+      "pass": true
+    },
+    {
+      "id": "eu-only:rfq-stays",
+      "pass": true
+    },
+    {
+      "id": "eu-only:no-overflow",
+      "pass": true
+    },
+    {
+      "id": "eu-only:no-internal-label",
+      "pass": true
+    },
+    {
+      "id": "support-only:atomic-route-simulation",
+      "pass": true,
+      "detail": [
+        "/products/",
+        "/applications/",
+        "/documents/",
+        "/resources/"
+      ]
+    },
+    {
+      "id": "support-only:countries-readable",
+      "pass": true
+    },
+    {
+      "id": "support-only:rfq-stays",
+      "pass": true
+    },
+    {
+      "id": "support-only:no-overflow",
+      "pass": true
+    },
+    {
+      "id": "support-only:no-internal-label",
+      "pass": true
+    },
+    {
+      "id": "nojs:all-country-links-visible",
+      "pass": true
+    },
+    {
+      "id": "nojs:six-answers",
+      "pass": true
+    },
+    {
+      "id": "200-percent-body:no-overflow",
+      "pass": true
+    },
+    {
+      "id": "768:full-menu-forward-loop",
+      "pass": true
+    },
+    {
+      "id": "768:full-menu-reverse-loop",
+      "pass": true
+    },
+    {
+      "id": "768:menu-selection-restores",
+      "pass": true
+    },
+    {
+      "id": "768:cookie-initial-close",
+      "pass": true
+    },
+    {
+      "id": "768:cookie-reverse-loop",
+      "pass": true
+    },
+    {
+      "id": "768:cookie-forward-loop",
+      "pass": true
+    },
+    {
+      "id": "768:cookie-close-return",
+      "pass": true
+    },
+    {
+      "id": "390:full-menu-forward-loop",
+      "pass": true
+    },
+    {
+      "id": "390:full-menu-reverse-loop",
+      "pass": true
+    },
+    {
+      "id": "390:menu-selection-restores",
+      "pass": true
+    },
+    {
+      "id": "390:cookie-initial-close",
+      "pass": true
+    },
+    {
+      "id": "390:cookie-reverse-loop",
+      "pass": true
+    },
+    {
+      "id": "390:cookie-forward-loop",
+      "pass": true
+    },
+    {
+      "id": "390:cookie-close-return",
+      "pass": true
+    },
+    {
+      "id": "read-only:market-planning.html",
+      "pass": true
+    },
+    {
+      "id": "read-only:planning.css",
+      "pass": true
+    },
+    {
+      "id": "read-only:planning.js",
+      "pass": true
+    },
+    {
+      "id": "read-only:build.cjs",
+      "pass": true
+    },
+    {
+      "id": "read-only:verify.cjs",
+      "pass": true
+    },
+    {
+      "id": "read-only:capture.cjs",
+      "pass": true
+    },
+    {
+      "id": "read-only:content-map.json",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_GATE3_DESIGN_REPORT_V0.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:finalize.cjs",
+      "pass": true
+    },
+    {
+      "id": "read-only:input-identities.json",
+      "pass": true
+    },
+    {
+      "id": "read-only:preflight.json",
+      "pass": true
+    },
+    {
+      "id": "read-only:AGENTS.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:PROJECT_CONTEXT.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:01_PROJECT_INDEX.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:2026-09-21-four-root-pages-d32-gate3-gate9.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:agent.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:SKILL.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:preflight-freeze-evidence.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:SKILL.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:gate3-structure-scope.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:core-risk-model.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:GATE_WORKFLOW_V3.3.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:PAGE_GATE_1_4_STANDARD_V2.3.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:GATE3_PRODUCTION_BOUNDARY_STANDARD_V1.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:GATE3_CROSS_PAGE_CONSISTENCY_DECISION_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:2026-09-20-gate3-to-gate4-handoff-contract-v0.5.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:PAGE_REGISTRY_V0.2.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:11_page_keyword_master.csv",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET_PLAYBOOK_V0.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_MARKETS_BRIEF_V0.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_CONTENT_ARCHITECTURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_SEO_GEO_SCHEMA_CONTRACT_V0.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_FULL_VISUAL_DESIGN_V0.4.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_GATE5_APPROVED_BASELINE_MANIFEST_V0.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_CURRENT_GATE9_BASELINE_MANIFEST_V0.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_GATE9_READ_ONLY_QA_CLOSURE_V0.1.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:PRODUCT-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "pass": true
+    },
+    {
+      "id": "read-only:render-shared-chrome.cjs",
+      "pass": true
+    },
+    {
+      "id": "read-only:shared-chrome.css",
+      "pass": true
+    },
+    {
+      "id": "read-only:shared-chrome-behavior.js",
+      "pass": true
+    },
+    {
+      "id": "read-only:shared-chrome-data.json",
+      "pass": true
+    },
+    {
+      "id": "read-only:shared-consent-data.json",
+      "pass": true
+    },
+    {
+      "id": "read-only:Inter-Variable.ttf",
+      "pass": true
+    },
+    {
+      "id": "read-only:tio2-malaysia-primary-horizontal-v0.1.svg",
+      "pass": true
+    },
+    {
+      "id": "read-only:tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_FULL_1440.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_FULL_768.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_MENU_768.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_FULL_390.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_MENU_390.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_EU_EXPANDED_390.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_COOKIE_390.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_NONE_390.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_EU-ONLY_390.png",
+      "pass": true
+    },
+    {
+      "id": "read-only:MARKET-000_D32_G3_SUPPORT-ONLY_390.png",
+      "pass": true
+    }
+  ],
+  "observations": [
+    {
+      "width": 1440,
+      "h1": [
+        "Choose Your Destination Market"
+      ],
+      "modules": [
+        "HERO",
+        "DESTINATION_SELECTOR",
+        "MARKET_CHOICE_GUIDE",
+        "PROCUREMENT_PATHS",
+        "TRADE_BOUNDARY",
+        "BUYER_QUESTIONS"
+      ],
+      "copy": [
+        {
+          "i": 0,
+          "text": "Destination market navigation"
+        },
+        {
+          "i": 1,
+          "text": "Choose Your Destination Market"
+        },
+        {
+          "i": 2,
+          "text": "Start with the region or country where your procurement requirements need to be reviewed. This hub explains which market path to choose and where product, application, document, trade-update, and quotation questions belong."
+        },
+        {
+          "i": 3,
+          "text": "Choose a Market"
+        },
+        {
+          "i": 5,
+          "text": "Destination market"
+        },
+        {
+          "i": 6,
+          "text": "Start with the market tied to your procurement requirements"
+        },
+        {
+          "i": 7,
+          "text": "Use the European Union overview for shared regional context, choose an EU country destination when local context matters, or start directly with the United Kingdom, India, or Brazil."
+        },
+        {
+          "i": 9,
+          "text": "Start with the European Union overview when you need the shared regional procurement context. Choose a country destination when the next step depends on local market context."
+        },
+        {
+          "i": 14,
+          "text": "Use the United Kingdom path when your next procurement questions need a UK-specific context."
+        },
+        {
+          "i": 16,
+          "text": "Use the India path when your next procurement questions need an India-specific context."
+        },
+        {
+          "i": 20,
+          "text": "How to choose"
+        },
+        {
+          "i": 21,
+          "text": "Choose the level of market context you need"
+        },
+        {
+          "i": 22,
+          "text": "The right starting point depends on whether your question is regional, destination-specific, or outside the European Union."
+        },
+        {
+          "i": 23,
+          "text": "Start with the EU overviewUse the European Union path for shared regional procurement context and to understand how the EU country destinations relate to the wider market structure."
+        },
+        {
+          "i": 24,
+          "text": "Choose an EU country destinationUse a country path when your next question depends on the destination market. Country pages provide local procurement context; they do not replace the EU overview."
+        },
+        {
+          "i": 25,
+          "text": "Use a standalone market pathChoose the United Kingdom, India, or Brazil when that destination is the primary context for the next procurement check."
+        },
+        {
+          "i": 26,
+          "text": "Choose the European Union overview for shared regional context. Choose a country destination for local procurement context. Use the United Kingdom, India, or Brazil paths when those markets are the destination."
+        },
+        {
+          "i": 27,
+          "text": "Next procurement check"
+        },
+        {
+          "i": 28,
+          "text": "Continue with the next procurement check"
+        },
+        {
+          "i": 29,
+          "text": "Choosing a destination is one part of the review. Continue with the section that addresses your next question."
+        },
+        {
+          "i": 30,
+          "text": "Review pigment gradesUse Products when you need to review grade pages or begin from product requirements. Product suitability still depends on technical evaluation.Explore Products"
+        },
+        {
+          "i": 31,
+          "text": "Start from the applicationUse Applications when the first known input is coatings, plastics, masterbatch, printing inks, or paper. Product relationships appear only where technical evidence permits.Explore Applications"
+        },
+        {
+          "i": 32,
+          "text": "Plan document reviewUse Documents to understand document categories and controlled request paths. A page or request does not promise that a document is available for every product or market.Review Documents"
+        },
+        {
+          "i": 33,
+          "text": "Current information"
+        },
+        {
+          "i": 34,
+          "text": "Keep time-sensitive trade information separate"
+        },
+        {
+          "i": 35,
+          "text": "Market pages organize procurement context. Detailed trade-policy information belongs in Resources, where official sources, scope, and update dates can be reviewed. This hub does not state current duties, measures, or customs outcomes."
+        },
+        {
+          "i": 37,
+          "text": "Buyer questions"
+        },
+        {
+          "i": 38,
+          "text": "Questions buyers ask before choosing a market page"
+        },
+        {
+          "i": 39,
+          "text": "The market navigation is organized around the European Union, United Kingdom, India, and Brazil. Within the EU structure, Germany, Italy, Spain, Poland, the Netherlands, and Belgium are separate country destinations."
+        },
+        {
+          "i": 40,
+          "text": "Start with the European Union overview for shared regional context. Choose a country destination when the next procurement question depends on local market context."
+        },
+        {
+          "i": 41,
+          "text": "A market page organizes destination-specific procurement context and directs you to the relevant Products, Applications, Documents, Resources, or quotation path. It does not replace technical evaluation or document confirmation."
+        },
+        {
+          "i": 42,
+          "text": "Detailed, time-sensitive trade information belongs in Resources and must be checked against current official sources. This hub does not state policy outcomes."
+        },
+        {
+          "i": 43,
+          "text": "Product selection is handled by Products and Applications. Start with Products when you have a grade or technical requirement, or with Applications when the end use is the first known input."
+        },
+        {
+          "i": 44,
+          "text": "Document explanations and controlled request paths belong in Documents. Availability, version, and market applicability must be confirmed through the relevant document process."
+        }
+      ],
+      "qa": [
+        "How is the market navigation organized?",
+        "Should I start with the European Union overview or a country destination?",
+        "What does a market page help me review?",
+        "Where should I check current trade-policy information?",
+        "Where should I start if I do not know the grade?",
+        "Where are technical and origin documents handled?"
+      ],
+      "routes": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/products/",
+        "/applications/",
+        "/documents/",
+        "/resources/"
+      ],
+      "body": "Home\n/\nMarkets\n\nDESTINATION MARKET NAVIGATION\n\nChoose Your Destination Market\n\nStart with the region or country where your procurement requirements need to be reviewed. This hub explains which market path to choose and where product, application, document, trade-update, and quotation questions belong.\n\nChoose a Market\n\nDESTINATION MARKET\n\nEuropean Union\nUnited Kingdom\nIndia\nBrazil\n\nDESTINATION MARKET\n\nStart with the market tied to your procurement requirements\n\nUse the European Union overview for shared regional context, choose an EU country destination when local context matters, or start directly with the United Kingdom, India, or Brazil.\n\nEuropean Union\n\nStart with the European Union overview when you need the shared regional procurement context. Choose a country destination when the next step depends on local market context.\n\nExplore the European Union\nEU country destinations\nGermany\nItaly\nSpain\nPoland\nNetherlands\nBelgium\nUnited Kingdom\n\nUse the United Kingdom path when your next procurement questions need a UK-specific context.\n\nExplore the United Kingdom\nIndia\n\nUse the India path when your next procurement questions need an India-specific context.\n\nExplore India\nBrazil\n\nUse the Brazil path when your next procurement questions need a Brazil-specific market context.\n\nExplore Brazil\n\nHOW TO CHOOSE\n\nChoose the level of market context you need\n\nThe right starting point depends on whether your question is regional, destination-specific, or outside the European Union.\n\nStart with the EU overview\n\nUse the European Union path for shared regional procurement context and to understand how the EU country destinations relate to the wider market structure.\n\nChoose an EU country destination\n\nUse a country path when your next question depends on the destination market. Country pages provide local procurement context; they do not replace the EU overview.\n\nUse a standalone market path\n\nChoose the United Kingdom, India, or Brazil when that destination is the primary context for the next procurement check.\n\nChoose the European Union overview for shared regional context. Choose a country destination for local procurement context. Use the United Kingdom, India, or Brazil paths when those markets are the destination.\n\nNEXT PROCUREMENT CHECK\n\nContinue with the next procurement check\n\nChoosing a destination is one part of the review. Continue with the section that addresses your next question.\n\nReview pigment grades\n\nUse Products when you need to review grade pages or begin from product requirements. Product suitability still depends on technical evaluation.\n\nExplore Products\nStart from the application\n\nUse Applications when the first known input is coatings, plastics, masterbatch, printing inks, or paper. Product relationships appear only where technical evidence permits.\n\nExplore Applications\nPlan document review\n\nUse Documents to understand document categories and controlled request paths. A page or request does not promise that a document is available for every product or market.\n\nReview Documents\n\nCURRENT INFORMATION\n\nKeep time-sensitive trade information separate\n\nMarket pages organize procurement context. Detailed trade-policy information belongs in Resources, where official sources, scope, and update dates can be reviewed. This hub does not state current duties, measures, or customs outcomes.\n\nReview Resources\n\nBUYER QUESTIONS\n\nQuestions buyers ask before choosing a market page\nHow is the market navigation organized?\n\nThe market navigation is organized around the European Union, United Kingdom, India, and Brazil. Within the EU structure, Germany, Italy, Spain, Poland, the Netherlands, and Belgium are separate country destinations.\n\nShould I start with the European Union overview or a country destination?\n\nStart with the European Union overview for shared regional context. Choose a country destination when the next procurement question depends on local market context.\n\nWhat does a market page help me review?\n\nA market page organizes destination-specific procurement context and directs you to the relevant Products, Applications, Documents, Resources, or quotation path. It does not replace technical evaluation or document confirmation.\n\nWhere should I check current trade-policy information?\n\nDetailed, time-sensitive trade information belongs in Resources and must be checked against current official sources. This hub does not state policy outcomes.\n\nWhere should I start if I do not know the grade?\n\nProduct selection is handled by Products and Applications. Start with Products when you have a grade or technical requirement, or with Applications when the end use is the first known input.\n\nWhere are technical and origin documents handled?\n\nDocument explanations and controlled request paths belong in Documents. Availability, version, and market applicability must be confirmed through the relevant document process.",
+      "overflow": false,
+      "heroLinks": [
+        "#destination-selector"
+      ],
+      "targets": [
+        {
+          "text": "Skip to content",
+          "w": 136.6875,
+          "h": 49.59375
+        },
+        {
+          "text": "",
+          "w": 180,
+          "h": 60
+        },
+        {
+          "text": "Home",
+          "w": 44,
+          "h": 83
+        },
+        {
+          "text": "Markets",
+          "w": 56.109375,
+          "h": 83
+        },
+        {
+          "text": "Products",
+          "w": 59.921875,
+          "h": 83
+        },
+        {
+          "text": "Applications",
+          "w": 83.171875,
+          "h": 83
+        },
+        {
+          "text": "Documents",
+          "w": 76.328125,
+          "h": 83
+        },
+        {
+          "text": "Resources",
+          "w": 70.515625,
+          "h": 83
+        },
+        {
+          "text": "About",
+          "w": 44,
+          "h": 83
+        },
+        {
+          "text": "Request a QuoteRFQ",
+          "w": 149.546875,
+          "h": 48
+        },
+        {
+          "text": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Choose a Market",
+          "w": 168.09375,
+          "h": 48
+        },
+        {
+          "text": "Explore the European Union",
+          "w": 250.84375,
+          "h": 48
+        },
+        {
+          "text": "Germany",
+          "w": 307.984375,
+          "h": 48
+        },
+        {
+          "text": "Italy",
+          "w": 308,
+          "h": 48
+        },
+        {
+          "text": "Spain",
+          "w": 307.984375,
+          "h": 48
+        },
+        {
+          "text": "Poland",
+          "w": 308,
+          "h": 48
+        },
+        {
+          "text": "Netherlands",
+          "w": 307.984375,
+          "h": 48
+        },
+        {
+          "text": "Belgium",
+          "w": 308,
+          "h": 48
+        },
+        {
+          "text": "Explore the United Kingdom",
+          "w": 432,
+          "h": 48
+        },
+        {
+          "text": "Explore India",
+          "w": 432,
+          "h": 48
+        },
+        {
+          "text": "Explore Brazil",
+          "w": 432,
+          "h": 48
+        },
+        {
+          "text": "Explore Products",
+          "w": 168.796875,
+          "h": 48
+        },
+        {
+          "text": "Explore Applications",
+          "w": 195.875,
+          "h": 48
+        },
+        {
+          "text": "Review Documents",
+          "w": 185.09375,
+          "h": 48
+        },
+        {
+          "text": "Review Resources",
+          "w": 178.28125,
+          "h": 48
+        },
+        {
+          "text": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Markets",
+          "w": 54.28125,
+          "h": 44
+        },
+        {
+          "text": "Products",
+          "w": 59.921875,
+          "h": 44
+        },
+        {
+          "text": "Applications",
+          "w": 83.171875,
+          "h": 44
+        },
+        {
+          "text": "Documents",
+          "w": 76.328125,
+          "h": 44
+        },
+        {
+          "text": "Resources",
+          "w": 70.515625,
+          "h": 44
+        },
+        {
+          "text": "About",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Request a Quote",
+          "w": 148.625,
+          "h": 44
+        },
+        {
+          "text": "Privacy Policy",
+          "w": 93.8125,
+          "h": 44
+        },
+        {
+          "text": "Dasar Privasi (BM)",
+          "w": 123.734375,
+          "h": 44
+        },
+        {
+          "text": "Cookie Policy",
+          "w": 90.765625,
+          "h": 44
+        },
+        {
+          "text": "Cookie Settings",
+          "w": 105.40625,
+          "h": 44
+        }
+      ],
+      "headings": [
+        {
+          "text": "Choose Your Destination Market",
+          "level": 1
+        },
+        {
+          "text": "Start with the market tied to your procurement requirements",
+          "level": 2
+        },
+        {
+          "text": "European Union",
+          "level": 3
+        },
+        {
+          "text": "EU country destinations",
+          "level": 4
+        },
+        {
+          "text": "United Kingdom",
+          "level": 3
+        },
+        {
+          "text": "India",
+          "level": 3
+        },
+        {
+          "text": "Brazil",
+          "level": 3
+        },
+        {
+          "text": "Choose the level of market context you need",
+          "level": 2
+        },
+        {
+          "text": "Start with the EU overview",
+          "level": 3
+        },
+        {
+          "text": "Choose an EU country destination",
+          "level": 3
+        },
+        {
+          "text": "Use a standalone market path",
+          "level": 3
+        },
+        {
+          "text": "Continue with the next procurement check",
+          "level": 2
+        },
+        {
+          "text": "Review pigment grades",
+          "level": 3
+        },
+        {
+          "text": "Start from the application",
+          "level": 3
+        },
+        {
+          "text": "Plan document review",
+          "level": 3
+        },
+        {
+          "text": "Keep time-sensitive trade information separate",
+          "level": 2
+        },
+        {
+          "text": "Questions buyers ask before choosing a market page",
+          "level": 2
+        },
+        {
+          "text": "How is the market navigation organized?",
+          "level": 3
+        },
+        {
+          "text": "Should I start with the European Union overview or a country destination?",
+          "level": 3
+        },
+        {
+          "text": "What does a market page help me review?",
+          "level": 3
+        },
+        {
+          "text": "Where should I check current trade-policy information?",
+          "level": 3
+        },
+        {
+          "text": "Where should I start if I do not know the grade?",
+          "level": 3
+        },
+        {
+          "text": "Where are technical and origin documents handled?",
+          "level": 3
+        }
+      ],
+      "height": 5129
+    },
+    {
+      "width": 768,
+      "h1": [
+        "Choose Your Destination Market"
+      ],
+      "modules": [
+        "HERO",
+        "DESTINATION_SELECTOR",
+        "MARKET_CHOICE_GUIDE",
+        "PROCUREMENT_PATHS",
+        "TRADE_BOUNDARY",
+        "BUYER_QUESTIONS"
+      ],
+      "copy": [
+        {
+          "i": 0,
+          "text": "Destination market navigation"
+        },
+        {
+          "i": 1,
+          "text": "Choose Your Destination Market"
+        },
+        {
+          "i": 2,
+          "text": "Start with the region or country where your procurement requirements need to be reviewed. This hub explains which market path to choose and where product, application, document, trade-update, and quotation questions belong."
+        },
+        {
+          "i": 3,
+          "text": "Choose a Market"
+        },
+        {
+          "i": 5,
+          "text": "Destination market"
+        },
+        {
+          "i": 6,
+          "text": "Start with the market tied to your procurement requirements"
+        },
+        {
+          "i": 7,
+          "text": "Use the European Union overview for shared regional context, choose an EU country destination when local context matters, or start directly with the United Kingdom, India, or Brazil."
+        },
+        {
+          "i": 9,
+          "text": "Start with the European Union overview when you need the shared regional procurement context. Choose a country destination when the next step depends on local market context."
+        },
+        {
+          "i": 14,
+          "text": "Use the United Kingdom path when your next procurement questions need a UK-specific context."
+        },
+        {
+          "i": 16,
+          "text": "Use the India path when your next procurement questions need an India-specific context."
+        },
+        {
+          "i": 20,
+          "text": "How to choose"
+        },
+        {
+          "i": 21,
+          "text": "Choose the level of market context you need"
+        },
+        {
+          "i": 22,
+          "text": "The right starting point depends on whether your question is regional, destination-specific, or outside the European Union."
+        },
+        {
+          "i": 23,
+          "text": "Start with the EU overviewUse the European Union path for shared regional procurement context and to understand how the EU country destinations relate to the wider market structure."
+        },
+        {
+          "i": 24,
+          "text": "Choose an EU country destinationUse a country path when your next question depends on the destination market. Country pages provide local procurement context; they do not replace the EU overview."
+        },
+        {
+          "i": 25,
+          "text": "Use a standalone market pathChoose the United Kingdom, India, or Brazil when that destination is the primary context for the next procurement check."
+        },
+        {
+          "i": 26,
+          "text": "Choose the European Union overview for shared regional context. Choose a country destination for local procurement context. Use the United Kingdom, India, or Brazil paths when those markets are the destination."
+        },
+        {
+          "i": 27,
+          "text": "Next procurement check"
+        },
+        {
+          "i": 28,
+          "text": "Continue with the next procurement check"
+        },
+        {
+          "i": 29,
+          "text": "Choosing a destination is one part of the review. Continue with the section that addresses your next question."
+        },
+        {
+          "i": 30,
+          "text": "Review pigment gradesUse Products when you need to review grade pages or begin from product requirements. Product suitability still depends on technical evaluation.Explore Products"
+        },
+        {
+          "i": 31,
+          "text": "Start from the applicationUse Applications when the first known input is coatings, plastics, masterbatch, printing inks, or paper. Product relationships appear only where technical evidence permits.Explore Applications"
+        },
+        {
+          "i": 32,
+          "text": "Plan document reviewUse Documents to understand document categories and controlled request paths. A page or request does not promise that a document is available for every product or market.Review Documents"
+        },
+        {
+          "i": 33,
+          "text": "Current information"
+        },
+        {
+          "i": 34,
+          "text": "Keep time-sensitive trade information separate"
+        },
+        {
+          "i": 35,
+          "text": "Market pages organize procurement context. Detailed trade-policy information belongs in Resources, where official sources, scope, and update dates can be reviewed. This hub does not state current duties, measures, or customs outcomes."
+        },
+        {
+          "i": 37,
+          "text": "Buyer questions"
+        },
+        {
+          "i": 38,
+          "text": "Questions buyers ask before choosing a market page"
+        },
+        {
+          "i": 39,
+          "text": "The market navigation is organized around the European Union, United Kingdom, India, and Brazil. Within the EU structure, Germany, Italy, Spain, Poland, the Netherlands, and Belgium are separate country destinations."
+        },
+        {
+          "i": 40,
+          "text": "Start with the European Union overview for shared regional context. Choose a country destination when the next procurement question depends on local market context."
+        },
+        {
+          "i": 41,
+          "text": "A market page organizes destination-specific procurement context and directs you to the relevant Products, Applications, Documents, Resources, or quotation path. It does not replace technical evaluation or document confirmation."
+        },
+        {
+          "i": 42,
+          "text": "Detailed, time-sensitive trade information belongs in Resources and must be checked against current official sources. This hub does not state policy outcomes."
+        },
+        {
+          "i": 43,
+          "text": "Product selection is handled by Products and Applications. Start with Products when you have a grade or technical requirement, or with Applications when the end use is the first known input."
+        },
+        {
+          "i": 44,
+          "text": "Document explanations and controlled request paths belong in Documents. Availability, version, and market applicability must be confirmed through the relevant document process."
+        }
+      ],
+      "qa": [
+        "How is the market navigation organized?",
+        "Should I start with the European Union overview or a country destination?",
+        "What does a market page help me review?",
+        "Where should I check current trade-policy information?",
+        "Where should I start if I do not know the grade?",
+        "Where are technical and origin documents handled?"
+      ],
+      "routes": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/products/",
+        "/applications/",
+        "/documents/",
+        "/resources/"
+      ],
+      "body": "Home\n/\nMarkets\n\nDESTINATION MARKET NAVIGATION\n\nChoose Your Destination Market\n\nStart with the region or country where your procurement requirements need to be reviewed. This hub explains which market path to choose and where product, application, document, trade-update, and quotation questions belong.\n\nChoose a Market\n\nDESTINATION MARKET\n\nEuropean Union\nUnited Kingdom\nIndia\nBrazil\n\nDESTINATION MARKET\n\nStart with the market tied to your procurement requirements\n\nUse the European Union overview for shared regional context, choose an EU country destination when local context matters, or start directly with the United Kingdom, India, or Brazil.\n\nEuropean Union\n\nStart with the European Union overview when you need the shared regional procurement context. Choose a country destination when the next step depends on local market context.\n\nExplore the European Union\nEU country destinations\nGermany\nItaly\nSpain\nPoland\nNetherlands\nBelgium\nUnited Kingdom\n\nUse the United Kingdom path when your next procurement questions need a UK-specific context.\n\nExplore the United Kingdom\nIndia\n\nUse the India path when your next procurement questions need an India-specific context.\n\nExplore India\nBrazil\n\nUse the Brazil path when your next procurement questions need a Brazil-specific market context.\n\nExplore Brazil\n\nHOW TO CHOOSE\n\nChoose the level of market context you need\n\nThe right starting point depends on whether your question is regional, destination-specific, or outside the European Union.\n\nStart with the EU overview\n\nUse the European Union path for shared regional procurement context and to understand how the EU country destinations relate to the wider market structure.\n\nChoose an EU country destination\n\nUse a country path when your next question depends on the destination market. Country pages provide local procurement context; they do not replace the EU overview.\n\nUse a standalone market path\n\nChoose the United Kingdom, India, or Brazil when that destination is the primary context for the next procurement check.\n\nChoose the European Union overview for shared regional context. Choose a country destination for local procurement context. Use the United Kingdom, India, or Brazil paths when those markets are the destination.\n\nNEXT PROCUREMENT CHECK\n\nContinue with the next procurement check\n\nChoosing a destination is one part of the review. Continue with the section that addresses your next question.\n\nReview pigment grades\n\nUse Products when you need to review grade pages or begin from product requirements. Product suitability still depends on technical evaluation.\n\nExplore Products\nStart from the application\n\nUse Applications when the first known input is coatings, plastics, masterbatch, printing inks, or paper. Product relationships appear only where technical evidence permits.\n\nExplore Applications\nPlan document review\n\nUse Documents to understand document categories and controlled request paths. A page or request does not promise that a document is available for every product or market.\n\nReview Documents\n\nCURRENT INFORMATION\n\nKeep time-sensitive trade information separate\n\nMarket pages organize procurement context. Detailed trade-policy information belongs in Resources, where official sources, scope, and update dates can be reviewed. This hub does not state current duties, measures, or customs outcomes.\n\nReview Resources\n\nBUYER QUESTIONS\n\nQuestions buyers ask before choosing a market page\nHow is the market navigation organized?\n\nThe market navigation is organized around the European Union, United Kingdom, India, and Brazil. Within the EU structure, Germany, Italy, Spain, Poland, the Netherlands, and Belgium are separate country destinations.\n\nShould I start with the European Union overview or a country destination?\n\nStart with the European Union overview for shared regional context. Choose a country destination when the next procurement question depends on local market context.\n\nWhat does a market page help me review?\n\nA market page organizes destination-specific procurement context and directs you to the relevant Products, Applications, Documents, Resources, or quotation path. It does not replace technical evaluation or document confirmation.\n\nWhere should I check current trade-policy information?\n\nDetailed, time-sensitive trade information belongs in Resources and must be checked against current official sources. This hub does not state policy outcomes.\n\nWhere should I start if I do not know the grade?\n\nProduct selection is handled by Products and Applications. Start with Products when you have a grade or technical requirement, or with Applications when the end use is the first known input.\n\nWhere are technical and origin documents handled?\n\nDocument explanations and controlled request paths belong in Documents. Availability, version, and market applicability must be confirmed through the relevant document process.",
+      "overflow": false,
+      "heroLinks": [
+        "#destination-selector"
+      ],
+      "targets": [
+        {
+          "text": "Skip to content",
+          "w": 136.6875,
+          "h": 49.59375
+        },
+        {
+          "text": "",
+          "w": 120,
+          "h": 44
+        },
+        {
+          "text": "Request a QuoteRFQ",
+          "w": 58.1875,
+          "h": 44
+        },
+        {
+          "text": "Menu",
+          "w": 64.34375,
+          "h": 44
+        },
+        {
+          "text": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Choose a Market",
+          "w": 168.09375,
+          "h": 48
+        },
+        {
+          "text": "Explore the European Union",
+          "w": 250.84375,
+          "h": 48
+        },
+        {
+          "text": "Germany",
+          "w": 317,
+          "h": 48
+        },
+        {
+          "text": "Italy",
+          "w": 317,
+          "h": 48
+        },
+        {
+          "text": "Spain",
+          "w": 317,
+          "h": 48
+        },
+        {
+          "text": "Poland",
+          "w": 317,
+          "h": 48
+        },
+        {
+          "text": "Netherlands",
+          "w": 317,
+          "h": 48
+        },
+        {
+          "text": "Belgium",
+          "w": 317,
+          "h": 48
+        },
+        {
+          "text": "Explore the United Kingdom",
+          "w": 646,
+          "h": 48
+        },
+        {
+          "text": "Explore India",
+          "w": 646,
+          "h": 48
+        },
+        {
+          "text": "Explore Brazil",
+          "w": 646,
+          "h": 48
+        },
+        {
+          "text": "Explore Products",
+          "w": 168.796875,
+          "h": 48
+        },
+        {
+          "text": "Explore Applications",
+          "w": 195.875,
+          "h": 48
+        },
+        {
+          "text": "Review Documents",
+          "w": 185.09375,
+          "h": 48
+        },
+        {
+          "text": "Review Resources",
+          "w": 178.28125,
+          "h": 48
+        },
+        {
+          "text": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Markets",
+          "w": 54.28125,
+          "h": 44
+        },
+        {
+          "text": "Products",
+          "w": 59.921875,
+          "h": 44
+        },
+        {
+          "text": "Applications",
+          "w": 83.171875,
+          "h": 44
+        },
+        {
+          "text": "Documents",
+          "w": 76.328125,
+          "h": 44
+        },
+        {
+          "text": "Resources",
+          "w": 70.515625,
+          "h": 44
+        },
+        {
+          "text": "About",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Request a Quote",
+          "w": 148.625,
+          "h": 44
+        },
+        {
+          "text": "Privacy Policy",
+          "w": 93.8125,
+          "h": 44
+        },
+        {
+          "text": "Dasar Privasi (BM)",
+          "w": 123.734375,
+          "h": 44
+        },
+        {
+          "text": "Cookie Policy",
+          "w": 90.765625,
+          "h": 44
+        },
+        {
+          "text": "Cookie Settings",
+          "w": 105.40625,
+          "h": 44
+        }
+      ],
+      "headings": [
+        {
+          "text": "Choose Your Destination Market",
+          "level": 1
+        },
+        {
+          "text": "Start with the market tied to your procurement requirements",
+          "level": 2
+        },
+        {
+          "text": "European Union",
+          "level": 3
+        },
+        {
+          "text": "EU country destinations",
+          "level": 4
+        },
+        {
+          "text": "United Kingdom",
+          "level": 3
+        },
+        {
+          "text": "India",
+          "level": 3
+        },
+        {
+          "text": "Brazil",
+          "level": 3
+        },
+        {
+          "text": "Choose the level of market context you need",
+          "level": 2
+        },
+        {
+          "text": "Start with the EU overview",
+          "level": 3
+        },
+        {
+          "text": "Choose an EU country destination",
+          "level": 3
+        },
+        {
+          "text": "Use a standalone market path",
+          "level": 3
+        },
+        {
+          "text": "Continue with the next procurement check",
+          "level": 2
+        },
+        {
+          "text": "Review pigment grades",
+          "level": 3
+        },
+        {
+          "text": "Start from the application",
+          "level": 3
+        },
+        {
+          "text": "Plan document review",
+          "level": 3
+        },
+        {
+          "text": "Keep time-sensitive trade information separate",
+          "level": 2
+        },
+        {
+          "text": "Questions buyers ask before choosing a market page",
+          "level": 2
+        },
+        {
+          "text": "How is the market navigation organized?",
+          "level": 3
+        },
+        {
+          "text": "Should I start with the European Union overview or a country destination?",
+          "level": 3
+        },
+        {
+          "text": "What does a market page help me review?",
+          "level": 3
+        },
+        {
+          "text": "Where should I check current trade-policy information?",
+          "level": 3
+        },
+        {
+          "text": "Where should I start if I do not know the grade?",
+          "level": 3
+        },
+        {
+          "text": "Where are technical and origin documents handled?",
+          "level": 3
+        }
+      ],
+      "height": 6919
+    },
+    {
+      "width": 390,
+      "h1": [
+        "Choose Your Destination Market"
+      ],
+      "modules": [
+        "HERO",
+        "DESTINATION_SELECTOR",
+        "MARKET_CHOICE_GUIDE",
+        "PROCUREMENT_PATHS",
+        "TRADE_BOUNDARY",
+        "BUYER_QUESTIONS"
+      ],
+      "copy": [
+        {
+          "i": 0,
+          "text": "Destination market navigation"
+        },
+        {
+          "i": 1,
+          "text": "Choose Your Destination Market"
+        },
+        {
+          "i": 2,
+          "text": "Start with the region or country where your procurement requirements need to be reviewed. This hub explains which market path to choose and where product, application, document, trade-update, and quotation questions belong."
+        },
+        {
+          "i": 3,
+          "text": "Choose a Market"
+        },
+        {
+          "i": 5,
+          "text": "Destination market"
+        },
+        {
+          "i": 6,
+          "text": "Start with the market tied to your procurement requirements"
+        },
+        {
+          "i": 7,
+          "text": "Use the European Union overview for shared regional context, choose an EU country destination when local context matters, or start directly with the United Kingdom, India, or Brazil."
+        },
+        {
+          "i": 9,
+          "text": "Start with the European Union overview when you need the shared regional procurement context. Choose a country destination when the next step depends on local market context."
+        },
+        {
+          "i": 14,
+          "text": "Use the United Kingdom path when your next procurement questions need a UK-specific context."
+        },
+        {
+          "i": 16,
+          "text": "Use the India path when your next procurement questions need an India-specific context."
+        },
+        {
+          "i": 20,
+          "text": "How to choose"
+        },
+        {
+          "i": 21,
+          "text": "Choose the level of market context you need"
+        },
+        {
+          "i": 22,
+          "text": "The right starting point depends on whether your question is regional, destination-specific, or outside the European Union."
+        },
+        {
+          "i": 23,
+          "text": "Start with the EU overviewUse the European Union path for shared regional procurement context and to understand how the EU country destinations relate to the wider market structure."
+        },
+        {
+          "i": 24,
+          "text": "Choose an EU country destinationUse a country path when your next question depends on the destination market. Country pages provide local procurement context; they do not replace the EU overview."
+        },
+        {
+          "i": 25,
+          "text": "Use a standalone market pathChoose the United Kingdom, India, or Brazil when that destination is the primary context for the next procurement check."
+        },
+        {
+          "i": 26,
+          "text": "Choose the European Union overview for shared regional context. Choose a country destination for local procurement context. Use the United Kingdom, India, or Brazil paths when those markets are the destination."
+        },
+        {
+          "i": 27,
+          "text": "Next procurement check"
+        },
+        {
+          "i": 28,
+          "text": "Continue with the next procurement check"
+        },
+        {
+          "i": 29,
+          "text": "Choosing a destination is one part of the review. Continue with the section that addresses your next question."
+        },
+        {
+          "i": 30,
+          "text": "Review pigment gradesUse Products when you need to review grade pages or begin from product requirements. Product suitability still depends on technical evaluation.Explore Products"
+        },
+        {
+          "i": 31,
+          "text": "Start from the applicationUse Applications when the first known input is coatings, plastics, masterbatch, printing inks, or paper. Product relationships appear only where technical evidence permits.Explore Applications"
+        },
+        {
+          "i": 32,
+          "text": "Plan document reviewUse Documents to understand document categories and controlled request paths. A page or request does not promise that a document is available for every product or market.Review Documents"
+        },
+        {
+          "i": 33,
+          "text": "Current information"
+        },
+        {
+          "i": 34,
+          "text": "Keep time-sensitive trade information separate"
+        },
+        {
+          "i": 35,
+          "text": "Market pages organize procurement context. Detailed trade-policy information belongs in Resources, where official sources, scope, and update dates can be reviewed. This hub does not state current duties, measures, or customs outcomes."
+        },
+        {
+          "i": 37,
+          "text": "Buyer questions"
+        },
+        {
+          "i": 38,
+          "text": "Questions buyers ask before choosing a market page"
+        },
+        {
+          "i": 39,
+          "text": "The market navigation is organized around the European Union, United Kingdom, India, and Brazil. Within the EU structure, Germany, Italy, Spain, Poland, the Netherlands, and Belgium are separate country destinations."
+        },
+        {
+          "i": 40,
+          "text": "Start with the European Union overview for shared regional context. Choose a country destination when the next procurement question depends on local market context."
+        },
+        {
+          "i": 41,
+          "text": "A market page organizes destination-specific procurement context and directs you to the relevant Products, Applications, Documents, Resources, or quotation path. It does not replace technical evaluation or document confirmation."
+        },
+        {
+          "i": 42,
+          "text": "Detailed, time-sensitive trade information belongs in Resources and must be checked against current official sources. This hub does not state policy outcomes."
+        },
+        {
+          "i": 43,
+          "text": "Product selection is handled by Products and Applications. Start with Products when you have a grade or technical requirement, or with Applications when the end use is the first known input."
+        },
+        {
+          "i": 44,
+          "text": "Document explanations and controlled request paths belong in Documents. Availability, version, and market applicability must be confirmed through the relevant document process."
+        }
+      ],
+      "qa": [
+        "How is the market navigation organized?",
+        "Should I start with the European Union overview or a country destination?",
+        "What does a market page help me review?",
+        "Where should I check current trade-policy information?",
+        "Where should I start if I do not know the grade?",
+        "Where are technical and origin documents handled?"
+      ],
+      "routes": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/products/",
+        "/applications/",
+        "/documents/",
+        "/resources/"
+      ],
+      "body": "Home\n/\nMarkets\n\nDESTINATION MARKET NAVIGATION\n\nChoose Your Destination Market\n\nStart with the region or country where your procurement requirements need to be reviewed. This hub explains which market path to choose and where product, application, document, trade-update, and quotation questions belong.\n\nChoose a Market\n\nDESTINATION MARKET\n\nEuropean Union\nUnited Kingdom\nIndia\nBrazil\n\nDESTINATION MARKET\n\nStart with the market tied to your procurement requirements\n\nUse the European Union overview for shared regional context, choose an EU country destination when local context matters, or start directly with the United Kingdom, India, or Brazil.\n\nEuropean Union\n\nStart with the European Union overview when you need the shared regional procurement context. Choose a country destination when the next step depends on local market context.\n\nExplore the European Union\nEU country destinations\nView EU country destinations\nUnited Kingdom\n\nUse the United Kingdom path when your next procurement questions need a UK-specific context.\n\nExplore the United Kingdom\nIndia\n\nUse the India path when your next procurement questions need an India-specific context.\n\nExplore India\nBrazil\n\nUse the Brazil path when your next procurement questions need a Brazil-specific market context.\n\nExplore Brazil\n\nHOW TO CHOOSE\n\nChoose the level of market context you need\n\nThe right starting point depends on whether your question is regional, destination-specific, or outside the European Union.\n\nStart with the EU overview\n\nUse the European Union path for shared regional procurement context and to understand how the EU country destinations relate to the wider market structure.\n\nChoose an EU country destination\n\nUse a country path when your next question depends on the destination market. Country pages provide local procurement context; they do not replace the EU overview.\n\nUse a standalone market path\n\nChoose the United Kingdom, India, or Brazil when that destination is the primary context for the next procurement check.\n\nChoose the European Union overview for shared regional context. Choose a country destination for local procurement context. Use the United Kingdom, India, or Brazil paths when those markets are the destination.\n\nNEXT PROCUREMENT CHECK\n\nContinue with the next procurement check\n\nChoosing a destination is one part of the review. Continue with the section that addresses your next question.\n\nReview pigment grades\n\nUse Products when you need to review grade pages or begin from product requirements. Product suitability still depends on technical evaluation.\n\nExplore Products\nStart from the application\n\nUse Applications when the first known input is coatings, plastics, masterbatch, printing inks, or paper. Product relationships appear only where technical evidence permits.\n\nExplore Applications\nPlan document review\n\nUse Documents to understand document categories and controlled request paths. A page or request does not promise that a document is available for every product or market.\n\nReview Documents\n\nCURRENT INFORMATION\n\nKeep time-sensitive trade information separate\n\nMarket pages organize procurement context. Detailed trade-policy information belongs in Resources, where official sources, scope, and update dates can be reviewed. This hub does not state current duties, measures, or customs outcomes.\n\nReview Resources\n\nBUYER QUESTIONS\n\nQuestions buyers ask before choosing a market page\nHow is the market navigation organized?\n\nThe market navigation is organized around the European Union, United Kingdom, India, and Brazil. Within the EU structure, Germany, Italy, Spain, Poland, the Netherlands, and Belgium are separate country destinations.\n\nShould I start with the European Union overview or a country destination?\n\nStart with the European Union overview for shared regional context. Choose a country destination when the next procurement question depends on local market context.\n\nWhat does a market page help me review?\n\nA market page organizes destination-specific procurement context and directs you to the relevant Products, Applications, Documents, Resources, or quotation path. It does not replace technical evaluation or document confirmation.\n\nWhere should I check current trade-policy information?\n\nDetailed, time-sensitive trade information belongs in Resources and must be checked against current official sources. This hub does not state policy outcomes.\n\nWhere should I start if I do not know the grade?\n\nProduct selection is handled by Products and Applications. Start with Products when you have a grade or technical requirement, or with Applications when the end use is the first known input.\n\nWhere are technical and origin documents handled?\n\nDocument explanations and controlled request paths belong in Documents. Availability, version, and market applicability must be confirmed through the relevant document process.",
+      "overflow": false,
+      "heroLinks": [
+        "#destination-selector"
+      ],
+      "targets": [
+        {
+          "text": "Skip to content",
+          "w": 136.6875,
+          "h": 49.59375
+        },
+        {
+          "text": "",
+          "w": 120,
+          "h": 44
+        },
+        {
+          "text": "Request a QuoteRFQ",
+          "w": 58.1875,
+          "h": 44
+        },
+        {
+          "text": "Menu",
+          "w": 64.34375,
+          "h": 44
+        },
+        {
+          "text": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Choose a Market",
+          "w": 300,
+          "h": 48
+        },
+        {
+          "text": "Explore the European Union",
+          "w": 250.84375,
+          "h": 48
+        },
+        {
+          "text": "View EU country destinations",
+          "w": 304,
+          "h": 48
+        },
+        {
+          "text": "Explore the United Kingdom",
+          "w": 304,
+          "h": 48
+        },
+        {
+          "text": "Explore India",
+          "w": 304,
+          "h": 48
+        },
+        {
+          "text": "Explore Brazil",
+          "w": 304,
+          "h": 48
+        },
+        {
+          "text": "Explore Products",
+          "w": 168.796875,
+          "h": 48
+        },
+        {
+          "text": "Explore Applications",
+          "w": 195.875,
+          "h": 48
+        },
+        {
+          "text": "Review Documents",
+          "w": 185.09375,
+          "h": 48
+        },
+        {
+          "text": "Review Resources",
+          "w": 178.28125,
+          "h": 48
+        },
+        {
+          "text": "Home",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Markets",
+          "w": 54.28125,
+          "h": 44
+        },
+        {
+          "text": "Products",
+          "w": 59.921875,
+          "h": 44
+        },
+        {
+          "text": "Applications",
+          "w": 83.171875,
+          "h": 44
+        },
+        {
+          "text": "Documents",
+          "w": 76.328125,
+          "h": 44
+        },
+        {
+          "text": "Resources",
+          "w": 70.515625,
+          "h": 44
+        },
+        {
+          "text": "About",
+          "w": 44,
+          "h": 44
+        },
+        {
+          "text": "Request a Quote",
+          "w": 148.625,
+          "h": 44
+        },
+        {
+          "text": "Privacy Policy",
+          "w": 93.8125,
+          "h": 44
+        },
+        {
+          "text": "Dasar Privasi (BM)",
+          "w": 123.734375,
+          "h": 44
+        },
+        {
+          "text": "Cookie Policy",
+          "w": 90.765625,
+          "h": 44
+        },
+        {
+          "text": "Cookie Settings",
+          "w": 105.40625,
+          "h": 44
+        }
+      ],
+      "headings": [
+        {
+          "text": "Choose Your Destination Market",
+          "level": 1
+        },
+        {
+          "text": "Start with the market tied to your procurement requirements",
+          "level": 2
+        },
+        {
+          "text": "European Union",
+          "level": 3
+        },
+        {
+          "text": "EU country destinations",
+          "level": 4
+        },
+        {
+          "text": "United Kingdom",
+          "level": 3
+        },
+        {
+          "text": "India",
+          "level": 3
+        },
+        {
+          "text": "Brazil",
+          "level": 3
+        },
+        {
+          "text": "Choose the level of market context you need",
+          "level": 2
+        },
+        {
+          "text": "Start with the EU overview",
+          "level": 3
+        },
+        {
+          "text": "Choose an EU country destination",
+          "level": 3
+        },
+        {
+          "text": "Use a standalone market path",
+          "level": 3
+        },
+        {
+          "text": "Continue with the next procurement check",
+          "level": 2
+        },
+        {
+          "text": "Review pigment grades",
+          "level": 3
+        },
+        {
+          "text": "Start from the application",
+          "level": 3
+        },
+        {
+          "text": "Plan document review",
+          "level": 3
+        },
+        {
+          "text": "Keep time-sensitive trade information separate",
+          "level": 2
+        },
+        {
+          "text": "Questions buyers ask before choosing a market page",
+          "level": 2
+        },
+        {
+          "text": "How is the market navigation organized?",
+          "level": 3
+        },
+        {
+          "text": "Should I start with the European Union overview or a country destination?",
+          "level": 3
+        },
+        {
+          "text": "What does a market page help me review?",
+          "level": 3
+        },
+        {
+          "text": "Where should I check current trade-policy information?",
+          "level": 3
+        },
+        {
+          "text": "Where should I start if I do not know the grade?",
+          "level": 3
+        },
+        {
+          "text": "Where are technical and origin documents handled?",
+          "level": 3
+        }
+      ],
+      "height": 8148
+    }
+  ]
+}

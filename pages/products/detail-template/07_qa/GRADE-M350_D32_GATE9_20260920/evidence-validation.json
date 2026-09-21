@@ -1,0 +1,1950 @@
+{
+  "status": "PASS",
+  "manifest": "D:\\32Wordpress_new\\.worktrees\\grade-m350-gate8\\.runtime\\handoff\\m350\\gate8_evidence_manifest.json",
+  "handoff_id": "GRADE-M350-D32-G8-01",
+  "checks": [
+    {
+      "id": "manifest_required_fields",
+      "result": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "id": "schema_version",
+      "result": "PASS",
+      "detail": "gate8-evidence-manifest-v1.0"
+    },
+    {
+      "id": "identity_fields",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "id": "page_scope",
+      "result": "PASS",
+      "detail": [
+        {
+          "page_id": "GRADE-M350",
+          "acceptance_condition_ids": [
+            "M350-D32-AC-IDENTITY",
+            "M350-D32-AC-CONTENT",
+            "M350-D32-AC-TECHNICAL",
+            "M350-D32-AC-VISUAL",
+            "M350-D32-AC-A11Y",
+            "M350-D32-AC-CONDITIONAL-ROUTES",
+            "M350-D32-AC-CONVERSION-CONTEXT",
+            "M350-D32-AC-SEO",
+            "M350-D32-AC-SCHEMA",
+            "M350-D32-AC-CMS",
+            "M350-D32-AC-MIGRATION",
+            "M350-D32-AC-SCOPE",
+            "M350-D32-AC-PUBLIC-CLEAN",
+            "M350-D32-AC-CHROME",
+            "M350-D32-AC-PRODUCT-HUB",
+            "M350-D32-AC-EVIDENCE"
+          ],
+          "runtime_path": "/products/m-350/"
+        }
+      ]
+    },
+    {
+      "id": "repository_exists",
+      "result": "PASS",
+      "detail": "D:\\32Wordpress_new\\.worktrees\\grade-m350-gate8"
+    },
+    {
+      "id": "git_fields",
+      "result": "PASS",
+      "detail": [
+        "branch",
+        "baseline_commit",
+        "implementation_commit",
+        "evidence_head",
+        "clean_checked_at"
+      ]
+    },
+    {
+      "id": "git_branch",
+      "result": "PASS",
+      "detail": {
+        "expected": "codex/grade-m350-gate8",
+        "actual": "codex/grade-m350-gate8"
+      }
+    },
+    {
+      "id": "git_head",
+      "result": "PASS",
+      "detail": {
+        "expected": "a96d850ff487a3f0b566614bc826ef67bb3b5d23",
+        "actual": "a96d850ff487a3f0b566614bc826ef67bb3b5d23"
+      }
+    },
+    {
+      "id": "baseline_to_implementation",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "5a7801b05bdb4aeccf7a95b336ef04c3740579ab",
+        "descendant": "a13d270160d39d009159d7c38f82b85456f71c03"
+      }
+    },
+    {
+      "id": "implementation_to_evidence",
+      "result": "PASS",
+      "detail": {
+        "ancestor": "a13d270160d39d009159d7c38f82b85456f71c03",
+        "descendant": "a96d850ff487a3f0b566614bc826ef67bb3b5d23"
+      }
+    },
+    {
+      "id": "git_clean",
+      "result": "PASS",
+      "detail": {
+        "porcelain": ""
+      }
+    },
+    {
+      "id": "build_directory",
+      "result": "PASS",
+      "detail": "D:\\32Wordpress_new\\.worktrees\\grade-m350-gate8\\.runtime\\artifacts\\wp-b6ac6157961a238166aeb566b1121810a29ee6e2c4441547f36b0965107343d0"
+    },
+    {
+      "id": "build_id",
+      "result": "PASS",
+      "detail": {
+        "expected": "wp-b6ac6157961a238166aeb566b1121810a29ee6e2c4441547f36b0965107343d0",
+        "actual": "wp-b6ac6157961a238166aeb566b1121810a29ee6e2c4441547f36b0965107343d0"
+      }
+    },
+    {
+      "id": "build_implementation_binding",
+      "result": "PASS",
+      "detail": {
+        "build": "a13d270160d39d009159d7c38f82b85456f71c03",
+        "git": "a13d270160d39d009159d7c38f82b85456f71c03"
+      }
+    },
+    {
+      "id": "evidence_0_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/acceptance-mapping.json"
+    },
+    {
+      "id": "evidence_0_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_0_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4269c19fdcf0a38a9c50f3595865271888d85b72d2f631eca3c3c6e1677bb58c",
+        "actual": "4269c19fdcf0a38a9c50f3595865271888d85b72d2f631eca3c3c6e1677bb58c"
+      }
+    },
+    {
+      "id": "evidence_0_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/acceptance-mapping.json"
+    },
+    {
+      "id": "evidence_0_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e298a6cde29f886439ae90ea69b683664d837486",
+        "blob_sha256": "a2ec29ed5877d7c1fce7588fb32f4e9587f0cd3a2e4ccf754adabf38821c8f1b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_0_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_1_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/acceptance.md"
+    },
+    {
+      "id": "evidence_1_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_1_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a459c53e2b51be2db91d8e55f38a18d9eff8be218a331ccae45a543819136256",
+        "actual": "a459c53e2b51be2db91d8e55f38a18d9eff8be218a331ccae45a543819136256"
+      }
+    },
+    {
+      "id": "evidence_1_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/acceptance.md"
+    },
+    {
+      "id": "evidence_1_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e65d2564dbe4c77f62546fcbbb4f27a0872f75b9",
+        "blob_sha256": "981bec6e3f5cd8c18af58156c92c13e2974068567f5b22fd71046d703bfe2641",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_1_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_2_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/artifact.json"
+    },
+    {
+      "id": "evidence_2_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_2_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c07a358354ee9781298a476a4d6e3f5ca3ff0a8eed56b6991a62b62d21ca47d7",
+        "actual": "c07a358354ee9781298a476a4d6e3f5ca3ff0a8eed56b6991a62b62d21ca47d7"
+      }
+    },
+    {
+      "id": "evidence_2_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/artifact.json"
+    },
+    {
+      "id": "evidence_2_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e48aa1305fa28283166c6b5b9b7d400121d191c3",
+        "blob_sha256": "e7cb0e78beee172ae4c2ac5e480fe8ab91aadfdd50c87586229dd26c7739088a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_2_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_3_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/code-review.md"
+    },
+    {
+      "id": "evidence_3_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_3_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "bfe336d49ac432272d2fd6da872bf4d6fdb7998952c18fc98b4a3e7cad1f10c9",
+        "actual": "bfe336d49ac432272d2fd6da872bf4d6fdb7998952c18fc98b4a3e7cad1f10c9"
+      }
+    },
+    {
+      "id": "evidence_3_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/code-review.md"
+    },
+    {
+      "id": "evidence_3_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8368dd0f94648c40846a55afc1440d7ca965592a",
+        "blob_sha256": "d2ad8e725d9d859021ad982db400f1c8c38f84a7118217ac60d15e67a64eae42",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_3_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_4_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/composition.json"
+    },
+    {
+      "id": "evidence_4_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "M350-D32-AC-PRODUCT-HUB"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_4_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4615776d4bc8131baad62c048f764b62d5201eb6d3307f347615ead44c254dd5",
+        "actual": "4615776d4bc8131baad62c048f764b62d5201eb6d3307f347615ead44c254dd5"
+      }
+    },
+    {
+      "id": "evidence_4_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/composition.json"
+    },
+    {
+      "id": "evidence_4_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e4e7a346cefd592cc732364e7980562c9995632a",
+        "blob_sha256": "6627654d9a25836e86ff85acad60833a8cb476f3c565959b5f478168200a62cb",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_4_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_5_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/cookie-390.png"
+    },
+    {
+      "id": "evidence_5_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-A11Y",
+          "M350-D32-AC-CHROME"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_5_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "e24bc1cd02a77baa343c1dcc5b3aceff4f75c1f475245fd1ab91d44eac52ab9d",
+        "actual": "e24bc1cd02a77baa343c1dcc5b3aceff4f75c1f475245fd1ab91d44eac52ab9d"
+      }
+    },
+    {
+      "id": "evidence_5_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/cookie-390.png"
+    },
+    {
+      "id": "evidence_5_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "253a0c2ce64444507c308ed072abf1ac0ef4b9c0",
+        "blob_sha256": "e24bc1cd02a77baa343c1dcc5b3aceff4f75c1f475245fd1ab91d44eac52ab9d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_5_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_6_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/dependencies.json"
+    },
+    {
+      "id": "evidence_6_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "M350-D32-AC-CONDITIONAL-ROUTES",
+          "M350-D32-AC-CONVERSION-CONTEXT"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_6_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "cb22fd1824d1c0cf66aa9b2de8853f2fe55f91de1da3ffb7f4d4f312e6b05f3a",
+        "actual": "cb22fd1824d1c0cf66aa9b2de8853f2fe55f91de1da3ffb7f4d4f312e6b05f3a"
+      }
+    },
+    {
+      "id": "evidence_6_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/dependencies.json"
+    },
+    {
+      "id": "evidence_6_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "9f1fbd140ded6a71e2c42171e7c85901a3770bf2",
+        "blob_sha256": "42c9ca9ca987c776548d961a16ac07fd3985b2f311b601a8043c9f68801ed06a",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_6_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_7_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/editor-changed.png"
+    },
+    {
+      "id": "evidence_7_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-CMS"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_7_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "bccabe39175127ab5288259bdd7b99ef18f63744c6a8de8432e0dbd66853b471",
+        "actual": "bccabe39175127ab5288259bdd7b99ef18f63744c6a8de8432e0dbd66853b471"
+      }
+    },
+    {
+      "id": "evidence_7_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/editor-changed.png"
+    },
+    {
+      "id": "evidence_7_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "72e254e4ff8775dd098359d19abde2fa1a886303",
+        "blob_sha256": "bccabe39175127ab5288259bdd7b99ef18f63744c6a8de8432e0dbd66853b471",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_7_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_8_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/editor-results.json"
+    },
+    {
+      "id": "evidence_8_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "M350-D32-AC-CMS"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_8_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "7c41c506273e58fd37c95a48241cec3e6a25413c2a19a77654d9ef5b576c4616",
+        "actual": "7c41c506273e58fd37c95a48241cec3e6a25413c2a19a77654d9ef5b576c4616"
+      }
+    },
+    {
+      "id": "evidence_8_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/editor-results.json"
+    },
+    {
+      "id": "evidence_8_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "92e70921b6dca554c4a8db9d1a2ba596d9fb7e78",
+        "blob_sha256": "7c41c506273e58fd37c95a48241cec3e6a25413c2a19a77654d9ef5b576c4616",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_8_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_9_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/environment.json"
+    },
+    {
+      "id": "evidence_9_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_9_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "78c984babaadde77f8e29055be9c766d526ae13b2d20e30f1b9e7b70b3d892d3",
+        "actual": "78c984babaadde77f8e29055be9c766d526ae13b2d20e30f1b9e7b70b3d892d3"
+      }
+    },
+    {
+      "id": "evidence_9_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/environment.json"
+    },
+    {
+      "id": "evidence_9_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ae080c40fd61a73f01a22191759e0a80c87116be",
+        "blob_sha256": "a7f96f9d622ce9ef98b4a5363dd76c24b489ddc794a6250d6c9b5dae751165b5",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_9_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_10_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/home-content.json"
+    },
+    {
+      "id": "evidence_10_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-MIGRATION"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_10_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "fb97e74c1bcf02cffd06c6c80cfe1e8618c07f6a36f604b3ee2ebe3e2472d77d",
+        "actual": "fb97e74c1bcf02cffd06c6c80cfe1e8618c07f6a36f604b3ee2ebe3e2472d77d"
+      }
+    },
+    {
+      "id": "evidence_10_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/home-content.json"
+    },
+    {
+      "id": "evidence_10_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "a35a27ff7b8e55731e9b8210ac15ba49082b2d1d",
+        "blob_sha256": "68c3455c781ddb02210a2ea29919006507d72a91b543d1b5468eaf41d83a6dad",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_10_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_11_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/home-response.html"
+    },
+    {
+      "id": "evidence_11_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-CHROME"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_11_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "a12b2c2aa81d0392790c4ed708106dd51a64e5263cf77b17e7fbded519054926",
+        "actual": "a12b2c2aa81d0392790c4ed708106dd51a64e5263cf77b17e7fbded519054926"
+      }
+    },
+    {
+      "id": "evidence_11_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/home-response.html"
+    },
+    {
+      "id": "evidence_11_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "4f610011692a2c2a7cd8eed29b8bff97d01568be",
+        "blob_sha256": "a12b2c2aa81d0392790c4ed708106dd51a64e5263cf77b17e7fbded519054926",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_11_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_12_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/identity.json"
+    },
+    {
+      "id": "evidence_12_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "IDENTITY",
+        "proves": [
+          "M350-D32-AC-IDENTITY",
+          "M350-D32-AC-SCOPE",
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_12_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "709cfd4d0039900aa870a6074e6eeb55cb3927b6632cac7a50169e277dc8a66b",
+        "actual": "709cfd4d0039900aa870a6074e6eeb55cb3927b6632cac7a50169e277dc8a66b"
+      }
+    },
+    {
+      "id": "evidence_12_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/identity.json"
+    },
+    {
+      "id": "evidence_12_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "8c25470f742fd518cb9c4dc668343eabb6828485",
+        "blob_sha256": "3b9796d71c8c4dfd81b19792087fd6e5922041ea0c1cf84c2b634f618630696f",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_12_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_13_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/layout-1024.json"
+    },
+    {
+      "id": "evidence_13_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-A11Y"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_13_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "4c85bd213edb4d384c8fe19b38ae609e9a26bdcfd7200331e9b516b716430969",
+        "actual": "4c85bd213edb4d384c8fe19b38ae609e9a26bdcfd7200331e9b516b716430969"
+      }
+    },
+    {
+      "id": "evidence_13_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/layout-1024.json"
+    },
+    {
+      "id": "evidence_13_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "ea779c2df104714206d5de61c7d050c89f36b5f1",
+        "blob_sha256": "4c85bd213edb4d384c8fe19b38ae609e9a26bdcfd7200331e9b516b716430969",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_13_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_14_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/layout-1440.json"
+    },
+    {
+      "id": "evidence_14_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-A11Y"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_14_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "feed253b6d833de5be2e01880b608b8ee94ad00be8fb36da53dafa9fbb8afcd8",
+        "actual": "feed253b6d833de5be2e01880b608b8ee94ad00be8fb36da53dafa9fbb8afcd8"
+      }
+    },
+    {
+      "id": "evidence_14_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/layout-1440.json"
+    },
+    {
+      "id": "evidence_14_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "28d5b36e82f9ebaa60766ae9c072bd05993d0325",
+        "blob_sha256": "feed253b6d833de5be2e01880b608b8ee94ad00be8fb36da53dafa9fbb8afcd8",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_14_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_15_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/layout-390.json"
+    },
+    {
+      "id": "evidence_15_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-A11Y"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_15_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "5cd2d97923cf2fb08d141ada46f5801b36a61caeb12076fe528df7c97bc4db34",
+        "actual": "5cd2d97923cf2fb08d141ada46f5801b36a61caeb12076fe528df7c97bc4db34"
+      }
+    },
+    {
+      "id": "evidence_15_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/layout-390.json"
+    },
+    {
+      "id": "evidence_15_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "11c448d89be9ab7f5efa4509865c7222ca7bd144",
+        "blob_sha256": "5cd2d97923cf2fb08d141ada46f5801b36a61caeb12076fe528df7c97bc4db34",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_15_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_16_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/layout-768.json"
+    },
+    {
+      "id": "evidence_16_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-A11Y"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_16_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0067c05ff2708ffda05a38f6694f3cec3b8cf39e9bc45d577da3216b3c9386ff",
+        "actual": "0067c05ff2708ffda05a38f6694f3cec3b8cf39e9bc45d577da3216b3c9386ff"
+      }
+    },
+    {
+      "id": "evidence_16_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/layout-768.json"
+    },
+    {
+      "id": "evidence_16_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5853c9724fe4df7cbdc367bf1323e3baa24e36ff",
+        "blob_sha256": "0067c05ff2708ffda05a38f6694f3cec3b8cf39e9bc45d577da3216b3c9386ff",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_16_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_17_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-1024.png"
+    },
+    {
+      "id": "evidence_17_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-VISUAL"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_17_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6540368acc952a7234af0435ee5c825a49bc9978b4d024c91b1ded0ab4cb0f14",
+        "actual": "6540368acc952a7234af0435ee5c825a49bc9978b4d024c91b1ded0ab4cb0f14"
+      }
+    },
+    {
+      "id": "evidence_17_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-1024.png"
+    },
+    {
+      "id": "evidence_17_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "19d11c05712627cd1d5dc0f27e05a12dca9a69b9",
+        "blob_sha256": "6540368acc952a7234af0435ee5c825a49bc9978b4d024c91b1ded0ab4cb0f14",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_17_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_18_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-1440.png"
+    },
+    {
+      "id": "evidence_18_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-VISUAL"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_18_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "65b085770e81a2963d42e9b3a428bfff64378ca239f2171e4010244f3c76ad6c",
+        "actual": "65b085770e81a2963d42e9b3a428bfff64378ca239f2171e4010244f3c76ad6c"
+      }
+    },
+    {
+      "id": "evidence_18_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-1440.png"
+    },
+    {
+      "id": "evidence_18_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "cb676f0fb3709e57f2bce54d50dae234bef1c432",
+        "blob_sha256": "65b085770e81a2963d42e9b3a428bfff64378ca239f2171e4010244f3c76ad6c",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_18_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_19_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-390.png"
+    },
+    {
+      "id": "evidence_19_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-VISUAL"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_19_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "27755af3166a9f2189f11ef90b5e164973de6d3aba3e8110302e3a3cc85a196b",
+        "actual": "27755af3166a9f2189f11ef90b5e164973de6d3aba3e8110302e3a3cc85a196b"
+      }
+    },
+    {
+      "id": "evidence_19_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-390.png"
+    },
+    {
+      "id": "evidence_19_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "bd88dbb3f0711d4b7ff38a83996a3b3a82a00b42",
+        "blob_sha256": "27755af3166a9f2189f11ef90b5e164973de6d3aba3e8110302e3a3cc85a196b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_19_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_20_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-768.png"
+    },
+    {
+      "id": "evidence_20_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-VISUAL"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_20_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "c747e1608209702d85120fc9545745a5afe97dba2db12ebcee1ad04adb76a2c9",
+        "actual": "c747e1608209702d85120fc9545745a5afe97dba2db12ebcee1ad04adb76a2c9"
+      }
+    },
+    {
+      "id": "evidence_20_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-768.png"
+    },
+    {
+      "id": "evidence_20_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "c71519ad84e3b7868972bf8355ffcb35a8b0398b",
+        "blob_sha256": "c747e1608209702d85120fc9545745a5afe97dba2db12ebcee1ad04adb76a2c9",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_20_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_21_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-conditional-ready-1440.png"
+    },
+    {
+      "id": "evidence_21_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-VISUAL"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_21_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "6a98e50dc0a90a07458dfbc0c5f74215f22a5c2aa683ae993042b8d514ac52de",
+        "actual": "6a98e50dc0a90a07458dfbc0c5f74215f22a5c2aa683ae993042b8d514ac52de"
+      }
+    },
+    {
+      "id": "evidence_21_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-conditional-ready-1440.png"
+    },
+    {
+      "id": "evidence_21_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "705763dc270f746e76f93c3e18510e1af0e7de56",
+        "blob_sha256": "6a98e50dc0a90a07458dfbc0c5f74215f22a5c2aa683ae993042b8d514ac52de",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_21_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_22_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-content-before.json"
+    },
+    {
+      "id": "evidence_22_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-CMS"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_22_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "406463d26f2c6b755bb103bacc1c776d74c731af87862abc5e1ede1ac0ae8613",
+        "actual": "406463d26f2c6b755bb103bacc1c776d74c731af87862abc5e1ede1ac0ae8613"
+      }
+    },
+    {
+      "id": "evidence_22_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-content-before.json"
+    },
+    {
+      "id": "evidence_22_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5c1819620edbce4f8ed1fb8769858af91315b6d3",
+        "blob_sha256": "406463d26f2c6b755bb103bacc1c776d74c731af87862abc5e1ede1ac0ae8613",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_22_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_23_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-content-restored.json"
+    },
+    {
+      "id": "evidence_23_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-CMS"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_23_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "406463d26f2c6b755bb103bacc1c776d74c731af87862abc5e1ede1ac0ae8613",
+        "actual": "406463d26f2c6b755bb103bacc1c776d74c731af87862abc5e1ede1ac0ae8613"
+      }
+    },
+    {
+      "id": "evidence_23_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-content-restored.json"
+    },
+    {
+      "id": "evidence_23_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5c1819620edbce4f8ed1fb8769858af91315b6d3",
+        "blob_sha256": "406463d26f2c6b755bb103bacc1c776d74c731af87862abc5e1ede1ac0ae8613",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_23_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_24_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-content.json"
+    },
+    {
+      "id": "evidence_24_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_24_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9f1353a5bd18a43ddc71588f3d9761376667c6d40cfed0bc3e31b0f05e4cc626",
+        "actual": "9f1353a5bd18a43ddc71588f3d9761376667c6d40cfed0bc3e31b0f05e4cc626"
+      }
+    },
+    {
+      "id": "evidence_24_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-content.json"
+    },
+    {
+      "id": "evidence_24_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "69763f7179813c0fdd562a2fb0ba50c1cbef60de",
+        "blob_sha256": "b6cb15cdc1a09ede2699ce83fc0a95690a4d7e59af43a711871825b4e67e81ac",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_24_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_25_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-migration-pretest.json"
+    },
+    {
+      "id": "evidence_25_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_25_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0ca6989f176350a9a084522953d1a3e93eed7cf9dabc38788027198ebed937d4",
+        "actual": "0ca6989f176350a9a084522953d1a3e93eed7cf9dabc38788027198ebed937d4"
+      }
+    },
+    {
+      "id": "evidence_25_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-migration-pretest.json"
+    },
+    {
+      "id": "evidence_25_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "5fbd00a288bd903a2406fa4a89b292d690f2b481",
+        "blob_sha256": "daa0362abe2c8681e531b87556a59f48229d8a5303425ada6d62c8ecb23fd2cd",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_25_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_26_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-response.html"
+    },
+    {
+      "id": "evidence_26_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-CONTENT",
+          "M350-D32-AC-TECHNICAL",
+          "M350-D32-AC-CONVERSION-CONTEXT",
+          "M350-D32-AC-SEO",
+          "M350-D32-AC-PUBLIC-CLEAN"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_26_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "0affd4ea630d505de4d582ea2008f1f923ef0edb65766454b7e721ca7b11d202",
+        "actual": "0affd4ea630d505de4d582ea2008f1f923ef0edb65766454b7e721ca7b11d202"
+      }
+    },
+    {
+      "id": "evidence_26_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/m350-response.html"
+    },
+    {
+      "id": "evidence_26_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b1e86e2b037ec72266df3496fad588aca0d8d4c8",
+        "blob_sha256": "0affd4ea630d505de4d582ea2008f1f923ef0edb65766454b7e721ca7b11d202",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_26_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_27_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/menu-390.png"
+    },
+    {
+      "id": "evidence_27_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-A11Y",
+          "M350-D32-AC-CHROME"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_27_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "90ce51bbdae49777f6660e23ad9764ab7e3344d9d12cc75ce080405663f44ab2",
+        "actual": "90ce51bbdae49777f6660e23ad9764ab7e3344d9d12cc75ce080405663f44ab2"
+      }
+    },
+    {
+      "id": "evidence_27_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/menu-390.png"
+    },
+    {
+      "id": "evidence_27_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "6aa27bbdd9b3d33f507ddbc51c27ff23295fdbb2",
+        "blob_sha256": "90ce51bbdae49777f6660e23ad9764ab7e3344d9d12cc75ce080405663f44ab2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_27_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_28_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/migration-results.json"
+    },
+    {
+      "id": "evidence_28_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "M350-D32-AC-MIGRATION"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_28_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "bf5edca97515f061a7ce99138a026519a4bd8e91bf21947145dd85cb938f5360",
+        "actual": "bf5edca97515f061a7ce99138a026519a4bd8e91bf21947145dd85cb938f5360"
+      }
+    },
+    {
+      "id": "evidence_28_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/migration-results.json"
+    },
+    {
+      "id": "evidence_28_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "b97919b5c5a0e988bcab803595a59331a9399f52",
+        "blob_sha256": "d700980564d5101338ea0558ddb0f3f0c42939f4fb88599687f565653225eede",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_28_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_29_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/products-content.json"
+    },
+    {
+      "id": "evidence_29_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-MIGRATION"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_29_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8830a0f444ef01b4349f4713a3be2663fcecd03114b962ce72d6ed07a518a511",
+        "actual": "8830a0f444ef01b4349f4713a3be2663fcecd03114b962ce72d6ed07a518a511"
+      }
+    },
+    {
+      "id": "evidence_29_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/products-content.json"
+    },
+    {
+      "id": "evidence_29_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "eb889bd2a49f23a571100a5ebca63dc0df547e93",
+        "blob_sha256": "09c2b073087ac38eb3c4a61b40d086d9936bcc3ecbabb00df477bedb4a1f0ab2",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_29_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_30_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/products-response.html"
+    },
+    {
+      "id": "evidence_30_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "ACTUAL_RUNTIME",
+        "proves": [
+          "M350-D32-AC-CHROME",
+          "M350-D32-AC-PRODUCT-HUB"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_30_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "d3dd020edae6f31eee5a5d4dc9cee705468356324afc2076df206adb5e7ca7dc",
+        "actual": "d3dd020edae6f31eee5a5d4dc9cee705468356324afc2076df206adb5e7ca7dc"
+      }
+    },
+    {
+      "id": "evidence_30_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/products-response.html"
+    },
+    {
+      "id": "evidence_30_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "e8f2f547d95e647af8c11d444eca0f47ea346edc",
+        "blob_sha256": "d3dd020edae6f31eee5a5d4dc9cee705468356324afc2076df206adb5e7ca7dc",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_30_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_31_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/readiness-matrix.json"
+    },
+    {
+      "id": "evidence_31_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "LOCAL_SIMULATION",
+        "proves": [
+          "M350-D32-AC-IDENTITY",
+          "M350-D32-AC-CONTENT",
+          "M350-D32-AC-TECHNICAL",
+          "M350-D32-AC-CONDITIONAL-ROUTES",
+          "M350-D32-AC-CONVERSION-CONTEXT",
+          "M350-D32-AC-SCHEMA",
+          "M350-D32-AC-SCOPE",
+          "M350-D32-AC-PRODUCT-HUB"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_31_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "8f3de4e9684b89a7eb270875ee3144f9a71ed57ab7d586d0bdd3f5f9ff46a083",
+        "actual": "8f3de4e9684b89a7eb270875ee3144f9a71ed57ab7d586d0bdd3f5f9ff46a083"
+      }
+    },
+    {
+      "id": "evidence_31_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/readiness-matrix.json"
+    },
+    {
+      "id": "evidence_31_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "41cce317b41af648cc4a3442f02824e28be0a205",
+        "blob_sha256": "f4dcb82ada65d376b1e2554ff0bf7dff16c9e12e1f0c44aa00ab22f3b9001988",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_31_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_32_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/seo-schema.json"
+    },
+    {
+      "id": "evidence_32_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-TECHNICAL",
+          "M350-D32-AC-SEO",
+          "M350-D32-AC-SCHEMA"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_32_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "9872a69ea6c3d226d5a960399272f1167ac4c4e35345ecc89d319a031be3e6ba",
+        "actual": "9872a69ea6c3d226d5a960399272f1167ac4c4e35345ecc89d319a031be3e6ba"
+      }
+    },
+    {
+      "id": "evidence_32_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/seo-schema.json"
+    },
+    {
+      "id": "evidence_32_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "99f7a0f7c313dec4080fc789243e044106594242",
+        "blob_sha256": "d3c4f2f2a93399e6ee1538a5d4fb29a7278dddb35de4ee52629bfecc964975cf",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_32_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_33_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/source-hashes.json"
+    },
+    {
+      "id": "evidence_33_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_33_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "b7a20e9a82ce7c6e4770f26c39cb6573f0f24bca7c4ee6b16bab79b719581511",
+        "actual": "b7a20e9a82ce7c6e4770f26c39cb6573f0f24bca7c4ee6b16bab79b719581511"
+      }
+    },
+    {
+      "id": "evidence_33_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/source-hashes.json"
+    },
+    {
+      "id": "evidence_33_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "db0041aafba8f7098b595d03cec330dbc833159d",
+        "blob_sha256": "fa3b05a74fd32edd5c425cf69aa8ea00d5634bd81b880f8aa503f8aabf2f170d",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_33_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_34_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/test-results.json"
+    },
+    {
+      "id": "evidence_34_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "TEST_RESULT",
+        "proves": [
+          "M350-D32-AC-PUBLIC-CLEAN",
+          "M350-D32-AC-CHROME",
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_34_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "216138fd6365b87fa068d03b5281b3f28fd1f44e0f15a9cdf9b0075e1e713328",
+        "actual": "216138fd6365b87fa068d03b5281b3f28fd1f44e0f15a9cdf9b0075e1e713328"
+      }
+    },
+    {
+      "id": "evidence_34_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/test-results.json"
+    },
+    {
+      "id": "evidence_34_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "f9ed7be01dadcc82f8142096437bbdfd18b69ee2",
+        "blob_sha256": "f6cef7dde26afdcb1e9f217bb304254ae5146a96fa3b8bdbcc28922589b4ae90",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_34_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "evidence_35_missing",
+      "result": "PASS",
+      "detail": "docs/verification/m350/user-exceptions.json"
+    },
+    {
+      "id": "evidence_35_metadata",
+      "result": "PASS",
+      "detail": {
+        "evidence_type": "SOURCE_INSPECTION",
+        "proves": [
+          "M350-D32-AC-EVIDENCE"
+        ],
+        "command": "python scripts/grade-m350-evidence.py run-suite/capture",
+        "environment": "Windows; Docker Compose d32-grade-m350; WordPress local preview; Chrome Playwright; http://127.0.0.1:8350"
+      }
+    },
+    {
+      "id": "evidence_35_sha256",
+      "result": "PASS",
+      "detail": {
+        "expected": "04726600ae15d45d0208f4527695e8c38af7b39c762af2145276a420912f9587",
+        "actual": "04726600ae15d45d0208f4527695e8c38af7b39c762af2145276a420912f9587"
+      }
+    },
+    {
+      "id": "evidence_35_committed",
+      "result": "PASS",
+      "detail": "docs/verification/m350/user-exceptions.json"
+    },
+    {
+      "id": "evidence_35_committed_blob",
+      "result": "PASS",
+      "detail": {
+        "blob_oid": "45c7dd0d9e48a5bd7ab4e612f1a3fb9e6279a1b9",
+        "blob_sha256": "98682c0fda0711f4e5371d822994b4bded48f6950ce406a8c2f55467f53e9b9b",
+        "note": "Git filters may make committed blob bytes differ from worktree bytes; the declared SHA-256 binds the delivered worktree file."
+      }
+    },
+    {
+      "id": "evidence_35_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    },
+    {
+      "id": "receipt_references_declared",
+      "result": "PASS",
+      "detail": {
+        "undeclared": []
+      }
+    },
+    {
+      "id": "receipt_exists",
+      "result": "PASS",
+      "detail": "docs/handoffs/GRADE-M350-gate8.md"
+    },
+    {
+      "id": "receipt_actual_references",
+      "result": "PASS",
+      "detail": {
+        "declared": [
+          "docs/verification/m350/acceptance-mapping.json",
+          "docs/verification/m350/acceptance.md",
+          "docs/verification/m350/artifact.json",
+          "docs/verification/m350/code-review.md",
+          "docs/verification/m350/composition.json",
+          "docs/verification/m350/cookie-390.png",
+          "docs/verification/m350/dependencies.json",
+          "docs/verification/m350/editor-changed.png",
+          "docs/verification/m350/editor-results.json",
+          "docs/verification/m350/environment.json",
+          "docs/verification/m350/home-content.json",
+          "docs/verification/m350/home-response.html",
+          "docs/verification/m350/identity.json",
+          "docs/verification/m350/layout-1024.json",
+          "docs/verification/m350/layout-1440.json",
+          "docs/verification/m350/layout-390.json",
+          "docs/verification/m350/layout-768.json",
+          "docs/verification/m350/m350-1024.png",
+          "docs/verification/m350/m350-1440.png",
+          "docs/verification/m350/m350-390.png",
+          "docs/verification/m350/m350-768.png",
+          "docs/verification/m350/m350-conditional-ready-1440.png",
+          "docs/verification/m350/m350-content-before.json",
+          "docs/verification/m350/m350-content-restored.json",
+          "docs/verification/m350/m350-content.json",
+          "docs/verification/m350/m350-migration-pretest.json",
+          "docs/verification/m350/m350-response.html",
+          "docs/verification/m350/menu-390.png",
+          "docs/verification/m350/migration-results.json",
+          "docs/verification/m350/products-content.json",
+          "docs/verification/m350/products-response.html",
+          "docs/verification/m350/readiness-matrix.json",
+          "docs/verification/m350/seo-schema.json",
+          "docs/verification/m350/source-hashes.json",
+          "docs/verification/m350/test-results.json",
+          "docs/verification/m350/user-exceptions.json"
+        ],
+        "actual": [
+          "docs/verification/m350/acceptance-mapping.json",
+          "docs/verification/m350/acceptance.md",
+          "docs/verification/m350/artifact.json",
+          "docs/verification/m350/code-review.md",
+          "docs/verification/m350/composition.json",
+          "docs/verification/m350/cookie-390.png",
+          "docs/verification/m350/dependencies.json",
+          "docs/verification/m350/editor-changed.png",
+          "docs/verification/m350/editor-results.json",
+          "docs/verification/m350/environment.json",
+          "docs/verification/m350/home-content.json",
+          "docs/verification/m350/home-response.html",
+          "docs/verification/m350/identity.json",
+          "docs/verification/m350/layout-1024.json",
+          "docs/verification/m350/layout-1440.json",
+          "docs/verification/m350/layout-390.json",
+          "docs/verification/m350/layout-768.json",
+          "docs/verification/m350/m350-1024.png",
+          "docs/verification/m350/m350-1440.png",
+          "docs/verification/m350/m350-390.png",
+          "docs/verification/m350/m350-768.png",
+          "docs/verification/m350/m350-conditional-ready-1440.png",
+          "docs/verification/m350/m350-content-before.json",
+          "docs/verification/m350/m350-content-restored.json",
+          "docs/verification/m350/m350-content.json",
+          "docs/verification/m350/m350-migration-pretest.json",
+          "docs/verification/m350/m350-response.html",
+          "docs/verification/m350/menu-390.png",
+          "docs/verification/m350/migration-results.json",
+          "docs/verification/m350/products-content.json",
+          "docs/verification/m350/products-response.html",
+          "docs/verification/m350/readiness-matrix.json",
+          "docs/verification/m350/seo-schema.json",
+          "docs/verification/m350/source-hashes.json",
+          "docs/verification/m350/test-results.json",
+          "docs/verification/m350/user-exceptions.json"
+        ],
+        "undeclared_in_receipt": [],
+        "missing_from_receipt": []
+      }
+    },
+    {
+      "id": "receipt_committed",
+      "result": "PASS",
+      "detail": "docs/handoffs/GRADE-M350-gate8.md"
+    },
+    {
+      "id": "receipt_secret_scan",
+      "result": "PASS",
+      "detail": {
+        "hits": [],
+        "personal_data_review": "MANUAL_REVIEW_STILL_REQUIRED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+const {chromium}=require('C:/Users/longe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const {pathToFileURL}=require('url');const path=require('path');
+if(require('fs').existsSync(path.join(__dirname,'freeze.json')))throw Error('Frozen diagnostics must not be overwritten');
+(async()=>{const b=await chromium.launch({headless:true});for(const width of [1440,768,320]){const p=await b.newPage({viewport:{width,height:1000},reducedMotion:'reduce'});await p.goto(pathToFileURL(path.join(__dirname,'application-visual.html')).href);await p.evaluate(()=>document.fonts.ready);await p.locator('.rootHero').screenshot({path:path.join(__dirname,`4A-hero-${width}.png`)});if(width===768)await p.locator('.applicationGrid').screenshot({path:path.join(__dirname,'4A-collections-768.png')});await p.close();}await b.close();})().catch(e=>{console.error(e);process.exit(1)});

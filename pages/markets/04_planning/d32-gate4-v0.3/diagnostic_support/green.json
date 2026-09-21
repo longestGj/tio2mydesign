@@ -1,0 +1,3733 @@
+{
+  "mode": "GREEN_CANDIDATE",
+  "source": {
+    "path": "D:\\23MySec\\pages\\markets\\04_planning\\d32-gate4-v0.3\\market-visual.html",
+    "sha256": "60707bd8bdf34e05e2fb7ec6a1a76ebcbf084d4aeacf50ddb57a25d9f302616c"
+  },
+  "renderer": "151.0.7922.34",
+  "passed": 142,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "320: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2686.25,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2730.25
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "320: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "320: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "320: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "320: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "320: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "320: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2686.25,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2730.25
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "320: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "320: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "320: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "320: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "320: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 20,
+        "y": 144,
+        "w": 280,
+        "h": 815.890625,
+        "right": 300,
+        "bottom": 959.890625
+      }
+    },
+    {
+      "name": "320: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 280,
+          "h": 815.890625
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 320,
+          "h": 1799.359375
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 280,
+          "h": 1506.171875
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 320,
+          "h": 1407.015625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 280,
+          "h": 491.546875
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 320,
+          "h": 2311.28125
+        }
+      ]
+    },
+    {
+      "name": "320: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "11px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "320: H1 approved lines",
+      "pass": true,
+      "actual": 3
+    },
+    {
+      "name": "340: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2571.90625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2615.90625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "340: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "340: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "340: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "340: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "340: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "340: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2571.90625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2615.90625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "340: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "340: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "340: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "340: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "340: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 20,
+        "y": 144,
+        "w": 300,
+        "h": 790.296875,
+        "right": 320,
+        "bottom": 934.296875
+      }
+    },
+    {
+      "name": "340: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 300,
+          "h": 790.296875
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 340,
+          "h": 1710.609375
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 300,
+          "h": 1429.390625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 340,
+          "h": 1264.640625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 300,
+          "h": 491.546875
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 340,
+          "h": 2150.734375
+        }
+      ]
+    },
+    {
+      "name": "340: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "11px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "341: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2573.5,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2617.5
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "341: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "341: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "341: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "341: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "341: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "341: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2573.5,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2617.5
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "341: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "341: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "341: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "341: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "341: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 20,
+        "y": 144,
+        "w": 301,
+        "h": 791.890625,
+        "right": 321,
+        "bottom": 935.890625
+      }
+    },
+    {
+      "name": "341: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 301,
+          "h": 791.890625
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 341,
+          "h": 1710.609375
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 301,
+          "h": 1429.390625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 341,
+          "h": 1264.640625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 301,
+          "h": 491.546875
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 341,
+          "h": 2150.734375
+        }
+      ]
+    },
+    {
+      "name": "341: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "12px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "374: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2441.9375,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2485.9375
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "374: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "374: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "374: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "374: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "374: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "374: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2441.9375,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2485.9375
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "374: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "374: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "374: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "374: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "374: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 20,
+        "y": 144,
+        "w": 334,
+        "h": 766.296875,
+        "right": 354,
+        "bottom": 910.296875
+      }
+    },
+    {
+      "name": "374: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 334,
+          "h": 766.296875
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 374,
+          "h": 1604.640625
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 334,
+          "h": 1289.015625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 374,
+          "h": 1185.859375
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 334,
+          "h": 465.953125
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 374,
+          "h": 2014.375
+        }
+      ]
+    },
+    {
+      "name": "374: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "12px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "375: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2445.140625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2489.140625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "375: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "375: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "375: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "375: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "375: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "375: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2445.140625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2489.140625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "375: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "375: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "375: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "375: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "375: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 20,
+        "y": 144,
+        "w": 335,
+        "h": 769.5,
+        "right": 355,
+        "bottom": 913.5
+      }
+    },
+    {
+      "name": "375: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 335,
+          "h": 769.5
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 375,
+          "h": 1604.640625
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 335,
+          "h": 1289.015625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 375,
+          "h": 1160.265625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 335,
+          "h": 465.953125
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 375,
+          "h": 2014.375
+        }
+      ]
+    },
+    {
+      "name": "375: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "390: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2401.953125,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2445.953125
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "390: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "390: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "390: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "390: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "390: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "390: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2401.953125,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2445.953125
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "390: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "390: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "390: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "390: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "390: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 20,
+        "y": 144,
+        "w": 350,
+        "h": 726.3125,
+        "right": 370,
+        "bottom": 870.3125
+      }
+    },
+    {
+      "name": "390: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 350,
+          "h": 726.3125
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 390,
+          "h": 1604.640625
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 350,
+          "h": 1289.015625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 390,
+          "h": 1160.265625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 350,
+          "h": 429.953125
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 390,
+          "h": 1933
+        }
+      ]
+    },
+    {
+      "name": "390: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "768: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 61,
+          "y": 2249.625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 140.515625,
+          "bottom": 2293.625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "768: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "768: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "768: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "768: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "768: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "768: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 61,
+          "y": 2249.625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 140.515625,
+          "bottom": 2293.625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "768: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "768: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "768: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "768: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "768: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 32,
+        "y": 144,
+        "w": 704,
+        "h": 580.765625,
+        "right": 736,
+        "bottom": 724.765625
+      }
+    },
+    {
+      "name": "768: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 704,
+          "h": 580.765625
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 768,
+          "h": 1605.859375
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 704,
+          "h": 1039.484375
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 768,
+          "h": 1052.296875
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 704,
+          "h": 399.546875
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 768,
+          "h": 1457.171875
+        }
+      ]
+    },
+    {
+      "name": "768: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "1024: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 717,
+          "y": 1653.25,
+          "w": 79.515625,
+          "h": 44,
+          "right": 796.515625,
+          "bottom": 1697.25
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "1024: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "1024: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "1024: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "1024: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "1024: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 717,
+          "y": 1653.25,
+          "w": 79.515625,
+          "h": 44,
+          "right": 796.515625,
+          "bottom": 1697.25
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "1024: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "1024: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "1024: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "1024: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "1024: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 32,
+        "y": 144,
+        "w": 960,
+        "h": 497.953125,
+        "right": 992,
+        "bottom": 641.953125
+      }
+    },
+    {
+      "name": "1024: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 960,
+          "h": 497.953125
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 1024,
+          "h": 1108.296875
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 960,
+          "h": 760.703125
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 1024,
+          "h": 677.515625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 960,
+          "h": 388.359375
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 1024,
+          "h": 1070.609375
+        }
+      ]
+    },
+    {
+      "name": "1024: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "1024: H1 approved lines",
+      "pass": true,
+      "actual": 2
+    },
+    {
+      "name": "1440: PT link discoverable under Brazil",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 965,
+          "y": 1618.859375,
+          "w": 79.515625,
+          "h": 44,
+          "right": 1044.515625,
+          "bottom": 1662.859375
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "1440: 10 EN plus PT ordered",
+      "pass": true,
+      "actual": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ]
+    },
+    {
+      "name": "1440: Hub no hreflang",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "1440: no overflow",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "1440: six questions and one Hero action",
+      "pass": true,
+      "actual": {
+        "q": 6,
+        "cta": 1
+      }
+    },
+    {
+      "name": "1440: visible ItemList parity",
+      "pass": true,
+      "actual": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440: PT legible touch target",
+      "pass": true,
+      "actual": {
+        "text": "Português",
+        "rect": {
+          "x": 965,
+          "y": 1618.859375,
+          "w": 79.515625,
+          "h": 44,
+          "right": 1044.515625,
+          "bottom": 1662.859375
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      }
+    },
+    {
+      "name": "1440: keyboard enters PT after EN",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "1440: visible focus",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "1440: approved copy unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "1440: shared Chrome unchanged",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "1440: Hero geometry unchanged",
+      "pass": true,
+      "actual": {
+        "x": 120,
+        "y": 164,
+        "w": 1200,
+        "h": 469.15625,
+        "right": 1320,
+        "bottom": 633.15625
+      }
+    },
+    {
+      "name": "1440: only selector natural height changes",
+      "pass": true,
+      "actual": [
+        {
+          "module": "HERO",
+          "w": 1200,
+          "h": 469.15625
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 1440,
+          "h": 1082.703125
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 1200,
+          "h": 735.109375
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 1440,
+          "h": 624.328125
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 1200,
+          "h": 388.359375
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 1440,
+          "h": 938.65625
+        }
+      ]
+    },
+    {
+      "name": "1440: narrow eyebrow retained",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      }
+    },
+    {
+      "name": "?state=none: visible action scope",
+      "pass": true,
+      "actual": {
+        "urls": [],
+        "graph": [],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?state=none: graph same eligible scope",
+      "pass": true,
+      "actual": {
+        "urls": [],
+        "graph": [],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?state=none: no empty Portuguese label",
+      "pass": true,
+      "actual": {
+        "urls": [],
+        "graph": [],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?state=eu-only: visible action scope",
+      "pass": true,
+      "actual": {
+        "urls": [
+          "/markets/european-union/"
+        ],
+        "graph": [
+          "/markets/european-union/"
+        ],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?state=eu-only: graph same eligible scope",
+      "pass": true,
+      "actual": {
+        "urls": [
+          "/markets/european-union/"
+        ],
+        "graph": [
+          "/markets/european-union/"
+        ],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?state=eu-only: no empty Portuguese label",
+      "pass": true,
+      "actual": {
+        "urls": [
+          "/markets/european-union/"
+        ],
+        "graph": [
+          "/markets/european-union/"
+        ],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?state=support-only: visible action scope",
+      "pass": true,
+      "actual": {
+        "urls": [],
+        "graph": [],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?state=support-only: graph same eligible scope",
+      "pass": true,
+      "actual": {
+        "urls": [],
+        "graph": [],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?state=support-only: no empty Portuguese label",
+      "pass": true,
+      "actual": {
+        "urls": [],
+        "graph": [],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?pt=unavailable: visible action scope",
+      "pass": true,
+      "actual": {
+        "urls": [
+          "/markets/european-union/",
+          "/markets/germany/",
+          "/markets/italy/",
+          "/markets/spain/",
+          "/markets/poland/",
+          "/markets/netherlands/",
+          "/markets/belgium/",
+          "/markets/united-kingdom/",
+          "/markets/india/",
+          "/markets/brazil/"
+        ],
+        "graph": [
+          "/markets/european-union/",
+          "/markets/germany/",
+          "/markets/italy/",
+          "/markets/spain/",
+          "/markets/poland/",
+          "/markets/netherlands/",
+          "/markets/belgium/",
+          "/markets/united-kingdom/",
+          "/markets/india/",
+          "/markets/brazil/"
+        ],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?pt=unavailable: graph same eligible scope",
+      "pass": true,
+      "actual": {
+        "urls": [
+          "/markets/european-union/",
+          "/markets/germany/",
+          "/markets/italy/",
+          "/markets/spain/",
+          "/markets/poland/",
+          "/markets/netherlands/",
+          "/markets/belgium/",
+          "/markets/united-kingdom/",
+          "/markets/india/",
+          "/markets/brazil/"
+        ],
+        "graph": [
+          "/markets/european-union/",
+          "/markets/germany/",
+          "/markets/italy/",
+          "/markets/spain/",
+          "/markets/poland/",
+          "/markets/netherlands/",
+          "/markets/belgium/",
+          "/markets/united-kingdom/",
+          "/markets/india/",
+          "/markets/brazil/"
+        ],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "?pt=unavailable: no empty Portuguese label",
+      "pass": true,
+      "actual": {
+        "urls": [
+          "/markets/european-union/",
+          "/markets/germany/",
+          "/markets/italy/",
+          "/markets/spain/",
+          "/markets/poland/",
+          "/markets/netherlands/",
+          "/markets/belgium/",
+          "/markets/united-kingdom/",
+          "/markets/india/",
+          "/markets/brazil/"
+        ],
+        "graph": [
+          "/markets/european-union/",
+          "/markets/germany/",
+          "/markets/italy/",
+          "/markets/spain/",
+          "/markets/poland/",
+          "/markets/netherlands/",
+          "/markets/belgium/",
+          "/markets/united-kingdom/",
+          "/markets/india/",
+          "/markets/brazil/"
+        ],
+        "pt": false,
+        "label": false
+      }
+    },
+    {
+      "name": "noJS: PT real anchor",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "noJS: graph includes PT",
+      "pass": true,
+      "actual": null
+    }
+  ],
+  "measurements": [
+    {
+      "width": 320,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2686.25,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2730.25
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 3,
+      "hero": {
+        "x": 20,
+        "y": 144,
+        "w": 280,
+        "h": 815.890625,
+        "right": 300,
+        "bottom": 959.890625
+      },
+      "eyebrow": {
+        "size": "11px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 280,
+          "h": 815.890625
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 320,
+          "h": 1799.359375
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 280,
+          "h": 1506.171875
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 320,
+          "h": 1407.015625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 280,
+          "h": 491.546875
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 320,
+          "h": 2311.28125
+        }
+      ]
+    },
+    {
+      "width": 340,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2571.90625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2615.90625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 3,
+      "hero": {
+        "x": 20,
+        "y": 144,
+        "w": 300,
+        "h": 790.296875,
+        "right": 320,
+        "bottom": 934.296875
+      },
+      "eyebrow": {
+        "size": "11px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 300,
+          "h": 790.296875
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 340,
+          "h": 1710.609375
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 300,
+          "h": 1429.390625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 340,
+          "h": 1264.640625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 300,
+          "h": 491.546875
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 340,
+          "h": 2150.734375
+        }
+      ]
+    },
+    {
+      "width": 341,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2573.5,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2617.5
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 3,
+      "hero": {
+        "x": 20,
+        "y": 144,
+        "w": 301,
+        "h": 791.890625,
+        "right": 321,
+        "bottom": 935.890625
+      },
+      "eyebrow": {
+        "size": "12px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 301,
+          "h": 791.890625
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 341,
+          "h": 1710.609375
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 301,
+          "h": 1429.390625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 341,
+          "h": 1264.640625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 301,
+          "h": 491.546875
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 341,
+          "h": 2150.734375
+        }
+      ]
+    },
+    {
+      "width": 374,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2441.9375,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2485.9375
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 3,
+      "hero": {
+        "x": 20,
+        "y": 144,
+        "w": 334,
+        "h": 766.296875,
+        "right": 354,
+        "bottom": 910.296875
+      },
+      "eyebrow": {
+        "size": "12px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 334,
+          "h": 766.296875
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 374,
+          "h": 1604.640625
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 334,
+          "h": 1289.015625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 374,
+          "h": 1185.859375
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 334,
+          "h": 465.953125
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 374,
+          "h": 2014.375
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2445.140625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2489.140625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 3,
+      "hero": {
+        "x": 20,
+        "y": 144,
+        "w": 335,
+        "h": 769.5,
+        "right": 355,
+        "bottom": 913.5
+      },
+      "eyebrow": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 335,
+          "h": 769.5
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 375,
+          "h": 1604.640625
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 335,
+          "h": 1289.015625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 375,
+          "h": 1160.265625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 335,
+          "h": 465.953125
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 375,
+          "h": 2014.375
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 41,
+          "y": 2401.953125,
+          "w": 79.515625,
+          "h": 44,
+          "right": 120.515625,
+          "bottom": 2445.953125
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 2,
+      "hero": {
+        "x": 20,
+        "y": 144,
+        "w": 350,
+        "h": 726.3125,
+        "right": 370,
+        "bottom": 870.3125
+      },
+      "eyebrow": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 350,
+          "h": 726.3125
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 390,
+          "h": 1604.640625
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 350,
+          "h": 1289.015625
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 390,
+          "h": 1160.265625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 350,
+          "h": 429.953125
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 390,
+          "h": 1933
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 61,
+          "y": 2249.625,
+          "w": 79.515625,
+          "h": 44,
+          "right": 140.515625,
+          "bottom": 2293.625
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 1,
+      "hero": {
+        "x": 32,
+        "y": 144,
+        "w": 704,
+        "h": 580.765625,
+        "right": 736,
+        "bottom": 724.765625
+      },
+      "eyebrow": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 704,
+          "h": 580.765625
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 768,
+          "h": 1605.859375
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 704,
+          "h": 1039.484375
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 768,
+          "h": 1052.296875
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 704,
+          "h": 399.546875
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 768,
+          "h": 1457.171875
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 717,
+          "y": 1653.25,
+          "w": 79.515625,
+          "h": 44,
+          "right": 796.515625,
+          "bottom": 1697.25
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 2,
+      "hero": {
+        "x": 32,
+        "y": 144,
+        "w": 960,
+        "h": 497.953125,
+        "right": 992,
+        "bottom": 641.953125
+      },
+      "eyebrow": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 960,
+          "h": 497.953125
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 1024,
+          "h": 1108.296875
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 960,
+          "h": 760.703125
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 1024,
+          "h": 677.515625
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 960,
+          "h": 388.359375
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 1024,
+          "h": 1070.609375
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "pt": {
+        "text": "Português",
+        "rect": {
+          "x": 965,
+          "y": 1618.859375,
+          "w": 79.515625,
+          "h": 44,
+          "right": 1044.515625,
+          "bottom": 1662.859375
+        },
+        "parent": "Brazil",
+        "style": {
+          "font": "16px",
+          "decoration": "underline",
+          "color": "rgb(0, 128, 120)"
+        },
+        "visible": true
+      },
+      "market": [
+        "/markets/european-union/",
+        "/markets/germany/",
+        "/markets/italy/",
+        "/markets/spain/",
+        "/markets/poland/",
+        "/markets/netherlands/",
+        "/markets/belgium/",
+        "/markets/united-kingdom/",
+        "/markets/india/",
+        "/markets/brazil/",
+        "/pt-br/markets/brazil/"
+      ],
+      "questions": 6,
+      "h1": "Choose Your Destination Market",
+      "h1Lines": 2,
+      "hero": {
+        "x": 120,
+        "y": 164,
+        "w": 1200,
+        "h": 469.15625,
+        "right": 1320,
+        "bottom": 633.15625
+      },
+      "eyebrow": {
+        "size": "14px",
+        "lines": 1,
+        "text": "Destination market navigation"
+      },
+      "overflow": false,
+      "heroActions": 1,
+      "alternates": 0,
+      "graph": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "European Union",
+            "url": "https://tio2malaysia.com/markets/european-union/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Germany",
+            "url": "https://tio2malaysia.com/markets/germany/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Italy",
+            "url": "https://tio2malaysia.com/markets/italy/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain",
+            "url": "https://tio2malaysia.com/markets/spain/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Poland",
+            "url": "https://tio2malaysia.com/markets/poland/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Netherlands",
+            "url": "https://tio2malaysia.com/markets/netherlands/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Belgium",
+            "url": "https://tio2malaysia.com/markets/belgium/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "United Kingdom",
+            "url": "https://tio2malaysia.com/markets/united-kingdom/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "India",
+            "url": "https://tio2malaysia.com/markets/india/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Brazil",
+            "url": "https://tio2malaysia.com/markets/brazil/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Português",
+            "url": "https://tio2malaysia.com/pt-br/markets/brazil/"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "module": "HERO",
+          "w": 1200,
+          "h": 469.15625
+        },
+        {
+          "module": "DESTINATION_SELECTOR",
+          "w": 1440,
+          "h": 1082.703125
+        },
+        {
+          "module": "MARKET_CHOICE_GUIDE",
+          "w": 1200,
+          "h": 735.109375
+        },
+        {
+          "module": "PROCUREMENT_PATHS",
+          "w": 1440,
+          "h": 624.328125
+        },
+        {
+          "module": "TRADE_BOUNDARY",
+          "w": 1200,
+          "h": 388.359375
+        },
+        {
+          "module": "BUYER_QUESTIONS",
+          "w": 1440,
+          "h": 938.65625
+        }
+      ]
+    }
+  ]
+}

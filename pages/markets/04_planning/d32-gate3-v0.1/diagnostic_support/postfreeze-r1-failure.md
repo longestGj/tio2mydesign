@@ -1,0 +1,5 @@
+# Preserved post-freeze r1 test failure
+
+2026-09-21, author tool execution session32660, node verify.cjs exited1. The test reached locator('#cookie-trigger').click at verifier line38 after a narrow→desktop→narrow transition. Playwright timed out30000ms: locator visible/enabled/stable, scrolled into view, but body intercepted pointer events. The source did not change. The earlier runtime213 PASS JSON was not overwritten because the exception occurred before its write.
+
+Root-cause probe: resize-diagnosis.cjs runs100 transitions and records immediate / rapid-return / waited state. One immediate menu state was still open; all100 became hidden with main non-inert once matchMedia event ran. Test immediately checked hidden and resized back without waiting for that event, creating the invalid precondition for Cookie click. Remediation is a condition wait for hidden + main/Footer non-inert, not a sleep or weakened check. Earlier frozen bundle and actual earlier213 PASS are preserved under superseded-freeze-r1. No claim that this failed run passed.

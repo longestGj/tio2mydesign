@@ -1,0 +1,106 @@
+{
+  "review_id": "PRODUCT-DETAIL-13-GRADE-D32-NEXTJS-G9-20260921-01",
+  "captured_at": "2026-09-21",
+  "reviewer": "/root",
+  "browser": "Codex in-app browser / Chromium",
+  "runtime": "http://127.0.0.1:8341",
+  "candidate": {
+    "implementation_commit": "3a06b574d52dbf2f32f11f872dbaea63ca65aad3",
+    "evidence_head": "d75043ba5bf379b804d567db39871019dc778704",
+    "build_id": "7BGXY_4cV95ZiX1VdmTId"
+  },
+  "routes": [
+    "/products/m-510/",
+    "/products/m-896/",
+    "/products/m-895/",
+    "/products/m-340/",
+    "/products/m-886/",
+    "/products/m-52/",
+    "/products/m-108/",
+    "/products/m-210/",
+    "/products/m-200/",
+    "/products/m-996/",
+    "/products/m-2196/",
+    "/products/m-2377/",
+    "/products/cr-901/"
+  ],
+  "viewport_matrix": {
+    "widths_css_px": [1440, 1024, 768, 430, 390, 320],
+    "observations": 78,
+    "status": "PASS",
+    "checks": [
+      "one H1",
+      "no page-level horizontal overflow",
+      "no clipped horizontal text",
+      "visible targets at least 44x44 CSS px",
+      "positive non-overlapping section geometry",
+      "responsive technical-table labels and semantics"
+    ],
+    "visual_spot_checks": [
+      "M-2377 full page at 1440 CSS px",
+      "CR-901 full page at 320 CSS px"
+    ]
+  },
+  "accessibility_tree": {
+    "route": "/products/m-510/",
+    "status": "PASS_WITH_COOKIE_EXCEPTION",
+    "observed": [
+      "correct landmark and heading structure",
+      "breadcrumb and lists exposed",
+      "technical table retains row and header semantics",
+      "shared footer and Cookie Settings trigger exposed"
+    ]
+  },
+  "shared_mobile_menu": {
+    "status": "PASS",
+    "observed": [
+      "opening places focus on Close",
+      "reverse wrap reaches the last RFQ link",
+      "forward wrap returns to Close",
+      "Escape closes and returns focus to the trigger"
+    ]
+  },
+  "cookie_settings": {
+    "status": "FAIL",
+    "finding_id": "PD13-D32-G9-ROOT-F01",
+    "viewport_css_px": {
+      "width": 390,
+      "height": 844
+    },
+    "steps": [
+      "Activate the footer Cookie Settings button",
+      "Confirm the open modal places focus on Close",
+      "Press Shift+Tab from Close"
+    ],
+    "actual": {
+      "dialog_open": true,
+      "active_element_tag": "BODY",
+      "active_element_inside_open_dialog": false
+    },
+    "expected": "Focus remains inside the open dialog and wraps to Read Cookie Policy.",
+    "working_adjacent_behavior": [
+      "Escape closes the dialog",
+      "focus returns to Cookie Settings",
+      "current no-optional-analytics copy is accurate"
+    ]
+  },
+  "console": {
+    "errors_or_warnings": 0,
+    "status": "PASS"
+  },
+  "user_exceptions": [
+    {
+      "item": "physical-device testing",
+      "status": "USER_EXCEPTED / NOT_TESTED / NON_BLOCKING"
+    },
+    {
+      "item": "manual named assistive-technology testing",
+      "status": "USER_EXCEPTED / NOT_TESTED / NON_BLOCKING"
+    },
+    {
+      "item": "native browser or operating-system 200-percent zoom evidence",
+      "status": "USER_EXCEPTED / NOT_TESTED / NON_BLOCKING"
+    }
+  ],
+  "proxy_note": "The 320 CSS px observation remains responsive-layout evidence only and is not described as native 200-percent zoom evidence."
+}

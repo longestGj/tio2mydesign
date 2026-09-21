@@ -1,0 +1,3858 @@
+{
+  "checker_version": "APP000-D32-G6-CHECK-V0.1",
+  "generated_at": "2026-09-20T11:19:14.712Z",
+  "status": "PASS",
+  "scope": "AUTHOR_PACKAGE_IDENTITY_AND_STRUCTURE_ONLY_NOT_INDEPENDENT_REVIEW_NOT_D32_RUNTIME",
+  "package": {
+    "id": "APP000-D32-G6-V0.1",
+    "path": "pages/applications/06_handoff/APP-000_D32_GATE6_HANDOFF_PACKAGE_V0.1.md",
+    "bytes": 71674,
+    "sha256": "723ba66bca86b5dd27a3151cfdb9910ea2469df46e9330567078b37fc188686d"
+  },
+  "checker": {
+    "path": "pages/applications/06_handoff/APP-000_D32_GATE6_PACKAGE_CHECK_V0.1.cjs",
+    "sha256": "c256c0d70cee691065e6b813aec4ef4ebbe9c9f2685207effd6ea3dff1b07224"
+  },
+  "counts": {
+    "checks": 381,
+    "passed": 381,
+    "failed": 0,
+    "direct_sources": 63,
+    "unique_input_paths": 124,
+    "identity_comparisons": 189,
+    "acceptance_ids": 22,
+    "dependency_ids": 15,
+    "formal_assets": 14,
+    "bundle_members": 30
+  },
+  "bundle_id": "sha256:8275ccefa106ffca6186651b705f9a77bee9fe2a17a90981a3ecd2182a5ad618",
+  "mandatory_findings": [],
+  "checks": [
+    {
+      "id": "one-machine-register",
+      "pass": true,
+      "detail": "Single normative register"
+    },
+    {
+      "id": "unique-source-ids",
+      "pass": true,
+      "detail": 63
+    },
+    {
+      "id": "no-D16-current-evidence",
+      "pass": true,
+      "detail": "Reject D16 current implementation/evidence"
+    },
+    {
+      "id": "legacy-contract-role",
+      "pass": true,
+      "detail": "Historical contract continuity only"
+    },
+    {
+      "id": "D32-read-only-role",
+      "pass": true,
+      "detail": "Not APP implementation proof"
+    },
+    {
+      "id": "identity:direct:BRIEF:.superpowers/sdd/2026-09-20-app-000-d32-gate3-to-gate8/task-6-execution-brief.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:MANIFEST:pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:CLOSURE:pages/applications/05_review/APP-000_D32_GATE4_GATE5_CONTROLLER_CLOSURE_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:G5:pages/applications/05_review/APP-000_D32_GATE5_INDEPENDENT_REVIEW_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:G5JSON:pages/applications/05_review/d32-gate5-independent-v0.1/observations.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:G4HANDOFF:pages/applications/05_review/APP-000_D32_GATE4_GATE5_HANDOFF_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:G4REPORT:pages/applications/05_review/APP-000_D32_GATE4_EXECUTION_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:FREEZE:pages/applications/04_planning/d32-gate4-v0.1/freeze.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:INPUTS:pages/applications/04_planning/d32-gate4-v0.1/input-index.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:B:pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:C:pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:DELTA:pages/applications/04_planning/APP-000_PRODUCT_V0.3_RELATION_CONTENT_DELTA_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:MATRIX:pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:UNIFIED:pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:AUDIT:pages/products/01_research/PRODUCT-000_GATE1_EVIDENCE_AUDIT_V0.3.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:RELDEP:pages/products/02_analysis/PRODUCT-000_RELATION_DEPENDENCY_AUDIT_V0.3.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:APPIMPACT:pages/applications/01_research/APP-000_PRODUCT_V0.3_RELATION_IMPACT_AUDIT_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:G2:pages/applications/05_review/APP-000_GATE2_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:BASELINE:docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:AGENT:agents/gate6-review-delivery/agent.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:CONSISTENCY:skills/page-contract-consistency-review/SKILL.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:DELIVERY:skills/development-delivery-specification/SKILL.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:EXECREVIEW:docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:INTAKE:docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:EVIDENCE:docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:SCHEMA:docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:SWITCH:docs/architecture/DEVELOPMENT_OWNER_D32_SWITCH_DECISION_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:AUTHORITY:docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:CONTROL:pages/applications/05_review/APP-000_D32_GATE3_GATE8_CONTROL_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:DOMAIN:pages/products/05_review/PRODUCT-000_D32_GATE3_GATE9_CONTROL_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:GOVERNANCE:docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:WORKFLOW:docs/architecture/GATE_WORKFLOW_V3.3.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:DECISIONS:docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:NOTERMS:docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:RFQ:pages/conversion/request-a-quote/06_handoff/CONV-RFQ_D32_GATE6_HANDOFF_PACKAGE_V0.2.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:RFQSTATE:pages/conversion/request-a-quote/05_review/CONV-RFQ_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:LEGACYIDS:pages/applications/06_handoff/APP-000_GATE6_HANDOFF_PACKAGE_V1.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32RULES:D:/32Wordpress_new/AGENTS.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32README:D:/32Wordpress_new/README.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32CONTRIB:D:/32Wordpress_new/CONTRIBUTING.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32FUNCTIONS:D:/32Wordpress_new/wp-content/themes/tio2-malaysia/functions.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32HERO:D:/32Wordpress_new/wp-content/themes/tio2-malaysia/template-parts/root-page-hero.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32SEO:D:/32Wordpress_new/wp-content/themes/tio2-malaysia/inc/seo.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32HOMESECTION:D:/32Wordpress_new/wp-content/themes/tio2-malaysia/template-parts/applications.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32PRODUCTTEMPLATE:D:/32Wordpress_new/wp-content/themes/tio2-malaysia/page-products.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32PRODUCTMODEL:D:/32Wordpress_new/wp-content/plugins/tio2-content/includes/products.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32ADMIN:D:/32Wordpress_new/wp-content/plugins/tio2-content/includes/admin.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32VALIDATION:D:/32Wordpress_new/wp-content/plugins/tio2-content/includes/validation.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32IDENTITY:D:/32Wordpress_new/wp-content/plugins/tio2-content/includes/identity.php",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32HTTPTEST:D:/32Wordpress_new/tests/products-http.py",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32EVIDENCETEST:D:/32Wordpress_new/tests/products-evidence.py",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:D32EVIDENCESCRIPT:D:/32Wordpress_new/scripts/products-evidence.py",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:HERO:docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:WHITE:docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:CHROME:docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:LEGAL:docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:BRAND:brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:CTA:brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:LOGO:brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:REGISTRY:docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:KEYWORDS:research/keyword/11_page_keyword_master.csv",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:PAGEBRIEF:docs/page-briefs/APP-000_APPLICATIONS_BRIEF_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:direct:PLAYBOOK:docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/4A-direction.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_COOKIE_320.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_COOKIE_390.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_1024.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_1440.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_320.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_390.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_768.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_GRADE_FOCUS_768.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_MENU_390.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_NAV_HOVER_1440.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_PRIMARY_FOCUS_390.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_ROUTE_APPLICATION_ONLY_390.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_ROUTE_GRADE_ONLY_390.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_ROUTE_NONE_390.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/application-visual.html",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/capture-check.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/evidence-index.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/finalize.cjs",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/formal-render.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/input-index.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/inspect-image.cjs",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/preflight.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/render-freeze.cjs",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/runtime-observations.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/source-lock.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/supplemental-checks.cjs",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/supplemental-observations.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/visual-assertions.cjs",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-member:pages/applications/04_planning/d32-gate4-v0.1/visual.css",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-source:pages/applications/04_planning/d32-gate4-v0.1/application-visual.html",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:freeze-source:pages/applications/04_planning/d32-gate4-v0.1/visual.css",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:G4-dispatch:.superpowers/sdd/2026-09-20-app-000-d32-gate3-to-gate8/task-4-brief.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:AGENTS.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:PROJECT_CONTEXT.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:02_DIRECTORY_GUIDE.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/applications/05_review/APP-000_D32_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/applications/05_review/APP-000_D32_GATE3_CONTROLLER_CLOSURE_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/applications/04_planning/d32-gate3-v0.2/application-planning.html",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/applications/04_planning/d32-gate3-v0.2/freeze.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/applications/04_planning/APP-000_PRODUCT_V0.3_RELATION_CONTENT_DELTA_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/page-briefs/APP-000_APPLICATIONS_BRIEF_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:research/keyword/11_page_keyword_master.csv",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/home/07_qa/HOME-001_D32_GATE9_VISUAL_INTERACTION_REVIEW_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/home/07_qa/d32-gate9-v0.1/visual/runtime-1440.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:pages/home/07_qa/d32-gate9-v0.1/visual/runtime-1024-segment-0.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.10.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.3.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:agents/gate4-complete-visual/agent.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:skills/brand-applied-visual-design/SKILL.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:skills/full-page-visual-composition/SKILL.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:skills/layout-interaction-verification/SKILL.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:skills/layout-interaction-verification/references/gate4-self-check.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/superpowers/specs/2026-09-20-gate3-to-gate4-handoff-contract-v0.5.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-input:docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:inherited-dependency:brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:G4-authority:pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/04_planning/d32-gate4-v0.1/application-visual.html",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/04_planning/d32-gate4-v0.1/visual.css",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:AGENTS.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:PROJECT_CONTEXT.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:02_DIRECTORY_GUIDE.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/05_review/APP-000_D32_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/05_review/APP-000_D32_GATE3_CONTROLLER_CLOSURE_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/04_planning/d32-gate3-v0.2/application-planning.html",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/04_planning/d32-gate3-v0.2/freeze.json",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/applications/04_planning/APP-000_PRODUCT_V0.3_RELATION_CONTENT_DELTA_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/page-briefs/APP-000_APPLICATIONS_BRIEF_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:research/keyword/11_page_keyword_master.csv",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/home/07_qa/HOME-001_D32_GATE9_VISUAL_INTERACTION_REVIEW_V0.1.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/home/07_qa/d32-gate9-v0.1/visual/runtime-1440.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:pages/home/07_qa/d32-gate9-v0.1/visual/runtime-1024-segment-0.png",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.10.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.3.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:agents/gate4-complete-visual/agent.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:skills/brand-applied-visual-design/SKILL.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:skills/full-page-visual-composition/SKILL.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:skills/layout-interaction-verification/SKILL.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:skills/layout-interaction-verification/references/gate4-self-check.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/superpowers/specs/2026-09-20-gate3-to-gate4-handoff-contract-v0.5.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "identity:source-lock:docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "pass": true,
+      "detail": "Frozen bytes and SHA-256"
+    },
+    {
+      "id": "lock-index-parity",
+      "pass": true,
+      "detail": "Complete graph"
+    },
+    {
+      "id": "bundle-digest",
+      "pass": true,
+      "detail": "sha256:8275ccefa106ffca6186651b705f9a77bee9fe2a17a90981a3ecd2182a5ad618"
+    },
+    {
+      "id": "formal-count",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "id": "bundle-member-count",
+      "pass": true,
+      "detail": 30
+    },
+    {
+      "id": "source-counts",
+      "pass": true,
+      "detail": "35 / 10 / 2"
+    },
+    {
+      "id": "accepted-input",
+      "pass": true,
+      "detail": "Current Manifest unique input"
+    },
+    {
+      "id": "closure-bundle",
+      "pass": true,
+      "detail": "Exact approved bundle"
+    },
+    {
+      "id": "closure-authority",
+      "pass": true,
+      "detail": "Controller decision/authority"
+    },
+    {
+      "id": "independent-chain",
+      "pass": true,
+      "detail": "G4 author / G5 reviewer / G6 author"
+    },
+    {
+      "id": "G5-result",
+      "pass": true,
+      "detail": "Inherited only"
+    },
+    {
+      "id": "method:AGENT",
+      "pass": true,
+      "detail": "Current approved method hash"
+    },
+    {
+      "id": "method:CONSISTENCY",
+      "pass": true,
+      "detail": "Current approved method hash"
+    },
+    {
+      "id": "method:DELIVERY",
+      "pass": true,
+      "detail": "Current approved method hash"
+    },
+    {
+      "id": "method:EXECREVIEW",
+      "pass": true,
+      "detail": "Current approved method hash"
+    },
+    {
+      "id": "method:INTAKE",
+      "pass": true,
+      "detail": "Current approved method hash"
+    },
+    {
+      "id": "authorization",
+      "pass": true,
+      "detail": "No closure/dispatch/implementation"
+    },
+    {
+      "id": "no-affirmative-dispatch-prose",
+      "pass": true,
+      "detail": "Reject affirmative claims"
+    },
+    {
+      "id": "page-tuple",
+      "pass": true,
+      "detail": "Authorized tuple"
+    },
+    {
+      "id": "canonical",
+      "pass": true,
+      "detail": "Current domain decision/config"
+    },
+    {
+      "id": "shape",
+      "pass": true,
+      "detail": "5/3/6/30/0/0"
+    },
+    {
+      "id": "acceptance-IDs",
+      "pass": true,
+      "detail": "01–22"
+    },
+    {
+      "id": "dependency-IDs",
+      "pass": true,
+      "detail": "D01–D15"
+    },
+    {
+      "id": "APP000-G9-01:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-01:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "MANIFEST",
+        "D32PRODUCTMODEL"
+      ]
+    },
+    {
+      "id": "APP000-G9-01:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D01"
+    },
+    {
+      "id": "APP000-G9-01:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-02:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-02:sources",
+      "pass": true,
+      "detail": [
+        "B",
+        "C",
+        "DELTA",
+        "MANIFEST"
+      ]
+    },
+    {
+      "id": "APP000-G9-02:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D08"
+    },
+    {
+      "id": "APP000-G9-02:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-03:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-03:sources",
+      "pass": true,
+      "detail": [
+        "MATRIX",
+        "DELTA",
+        "C"
+      ]
+    },
+    {
+      "id": "APP000-G9-03:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D04"
+    },
+    {
+      "id": "APP000-G9-03:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-04:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-04:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "G4HANDOFF"
+      ]
+    },
+    {
+      "id": "APP000-G9-04:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D03"
+    },
+    {
+      "id": "APP000-G9-04:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-05:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-05:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "FREEZE"
+      ]
+    },
+    {
+      "id": "APP000-G9-05:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D09"
+    },
+    {
+      "id": "APP000-G9-05:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-06:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-06:sources",
+      "pass": true,
+      "detail": [
+        "REGISTRY",
+        "C",
+        "KEYWORDS"
+      ]
+    },
+    {
+      "id": "APP000-G9-06:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D03"
+    },
+    {
+      "id": "APP000-G9-06:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-07:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-07:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "RFQ",
+        "RFQSTATE"
+      ]
+    },
+    {
+      "id": "APP000-G9-07:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D06"
+    },
+    {
+      "id": "APP000-G9-07:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-08:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-08:sources",
+      "pass": true,
+      "detail": [
+        "CHROME",
+        "LEGAL",
+        "NOTERMS",
+        "LOGO",
+        "D32FUNCTIONS"
+      ]
+    },
+    {
+      "id": "APP000-G9-08:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D07"
+    },
+    {
+      "id": "APP000-G9-08:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-09:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-09:sources",
+      "pass": true,
+      "detail": [
+        "FREEZE",
+        "HERO",
+        "WHITE",
+        "BRAND",
+        "CTA"
+      ]
+    },
+    {
+      "id": "APP000-G9-09:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D09"
+    },
+    {
+      "id": "APP000-G9-09:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-10:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-10:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "LEGACYIDS",
+        "GOVERNANCE"
+      ]
+    },
+    {
+      "id": "APP000-G9-10:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D09"
+    },
+    {
+      "id": "APP000-G9-10:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-11:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-11:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "DOMAIN",
+        "D32SEO"
+      ]
+    },
+    {
+      "id": "APP000-G9-11:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D01"
+    },
+    {
+      "id": "APP000-G9-11:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-12:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-12:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "DOMAIN",
+        "D32SEO"
+      ]
+    },
+    {
+      "id": "APP000-G9-12:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D03"
+    },
+    {
+      "id": "APP000-G9-12:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-13:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-13:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "B",
+        "GOVERNANCE",
+        "DECISIONS"
+      ]
+    },
+    {
+      "id": "APP000-G9-13:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D08"
+    },
+    {
+      "id": "APP000-G9-13:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-14:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-14:sources",
+      "pass": true,
+      "detail": [
+        "C",
+        "BRIEF",
+        "D32PRODUCTMODEL"
+      ]
+    },
+    {
+      "id": "APP000-G9-14:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D08"
+    },
+    {
+      "id": "APP000-G9-14:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-15:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-15:sources",
+      "pass": true,
+      "detail": [
+        "GOVERNANCE",
+        "BRIEF",
+        "D32PRODUCTMODEL",
+        "RFQ"
+      ]
+    },
+    {
+      "id": "APP000-G9-15:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D10"
+    },
+    {
+      "id": "APP000-G9-15:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-16:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-16:sources",
+      "pass": true,
+      "detail": [
+        "LEGACYIDS",
+        "SWITCH",
+        "MANIFEST"
+      ]
+    },
+    {
+      "id": "APP000-G9-16:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D11"
+    },
+    {
+      "id": "APP000-G9-16:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-17:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-17:sources",
+      "pass": true,
+      "detail": [
+        "LEGACYIDS",
+        "SWITCH",
+        "MANIFEST"
+      ]
+    },
+    {
+      "id": "APP000-G9-17:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D13"
+    },
+    {
+      "id": "APP000-G9-17:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-18:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-18:sources",
+      "pass": true,
+      "detail": [
+        "BRIEF",
+        "D32ADMIN",
+        "D32VALIDATION",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "APP000-G9-18:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D08"
+    },
+    {
+      "id": "APP000-G9-18:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-19:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-19:sources",
+      "pass": true,
+      "detail": [
+        "BRIEF",
+        "D32PRODUCTMODEL",
+        "D32CONTRIB"
+      ]
+    },
+    {
+      "id": "APP000-G9-19:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D14"
+    },
+    {
+      "id": "APP000-G9-19:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-20:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-20:sources",
+      "pass": true,
+      "detail": [
+        "HERO",
+        "WHITE",
+        "CHROME",
+        "BRIEF",
+        "D32HERO"
+      ]
+    },
+    {
+      "id": "APP000-G9-20:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D07"
+    },
+    {
+      "id": "APP000-G9-20:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-21:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-21:sources",
+      "pass": true,
+      "detail": [
+        "BRIEF",
+        "D32PRODUCTMODEL",
+        "D32HTTPTEST"
+      ]
+    },
+    {
+      "id": "APP000-G9-21:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D15"
+    },
+    {
+      "id": "APP000-G9-21:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G9-22:fields",
+      "pass": true,
+      "detail": "Full observable chain"
+    },
+    {
+      "id": "APP000-G9-22:sources",
+      "pass": true,
+      "detail": [
+        "EVIDENCE",
+        "SCHEMA",
+        "D32IDENTITY",
+        "D32EVIDENCESCRIPT"
+      ]
+    },
+    {
+      "id": "APP000-G9-22:dependency",
+      "pass": true,
+      "detail": "APP000-G6-D12"
+    },
+    {
+      "id": "APP000-G9-22:not-tested",
+      "pass": true,
+      "detail": "No runtime claim"
+    },
+    {
+      "id": "APP000-G6-D01:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D01:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-01",
+        "APP000-G9-11"
+      ]
+    },
+    {
+      "id": "APP000-G6-D01:open",
+      "pass": true,
+      "detail": "OPEN_D32_IMPLEMENTATION"
+    },
+    {
+      "id": "APP000-G6-D01:blocking",
+      "pass": true,
+      "detail": "PAGE_GATE9"
+    },
+    {
+      "id": "APP000-G6-D02:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D02:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-11"
+      ]
+    },
+    {
+      "id": "APP000-G6-D02:open",
+      "pass": true,
+      "detail": "OPEN_NOT_AUTHORIZED"
+    },
+    {
+      "id": "APP000-G6-D02:blocking",
+      "pass": true,
+      "detail": "RELEASE"
+    },
+    {
+      "id": "APP000-G6-D03:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D03:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-04",
+        "APP000-G9-06",
+        "APP000-G9-12"
+      ]
+    },
+    {
+      "id": "APP000-G6-D03:open",
+      "pass": true,
+      "detail": "OPEN_TARGET_READINESS"
+    },
+    {
+      "id": "APP000-G6-D03:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "APP000-G6-D04:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D04:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-03",
+        "APP000-G9-04",
+        "APP000-G9-06"
+      ]
+    },
+    {
+      "id": "APP000-G6-D04:open",
+      "pass": true,
+      "detail": "OPEN_TARGET_READINESS"
+    },
+    {
+      "id": "APP000-G6-D04:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "APP000-G6-D05:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D05:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-04",
+        "APP000-G9-06"
+      ]
+    },
+    {
+      "id": "APP000-G6-D05:open",
+      "pass": true,
+      "detail": "OPEN_TARGET_READINESS"
+    },
+    {
+      "id": "APP000-G6-D05:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "APP000-G6-D06:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D06:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-07"
+      ]
+    },
+    {
+      "id": "APP000-G6-D06:open",
+      "pass": true,
+      "detail": "OPEN_SAME_CANDIDATE_RECEIVER"
+    },
+    {
+      "id": "APP000-G6-D06:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "APP000-G6-D07:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D07:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-08",
+        "APP000-G9-20"
+      ]
+    },
+    {
+      "id": "APP000-G6-D07:open",
+      "pass": true,
+      "detail": "OPEN_SHARED_REGRESSION"
+    },
+    {
+      "id": "APP000-G6-D07:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "APP000-G6-D08:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D08:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-02",
+        "APP000-G9-13",
+        "APP000-G9-14",
+        "APP000-G9-18"
+      ]
+    },
+    {
+      "id": "APP000-G6-D08:open",
+      "pass": true,
+      "detail": "OPEN_D32_IMPLEMENTATION"
+    },
+    {
+      "id": "APP000-G6-D08:blocking",
+      "pass": true,
+      "detail": "PAGE_GATE9"
+    },
+    {
+      "id": "APP000-G6-D09:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D09:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-05",
+        "APP000-G9-09",
+        "APP000-G9-10"
+      ]
+    },
+    {
+      "id": "APP000-G6-D09:open",
+      "pass": true,
+      "detail": "OPEN_ACTUAL_RUNTIME"
+    },
+    {
+      "id": "APP000-G6-D09:blocking",
+      "pass": true,
+      "detail": "PAGE_GATE9"
+    },
+    {
+      "id": "APP000-G6-D10:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D10:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-15"
+      ]
+    },
+    {
+      "id": "APP000-G6-D10:open",
+      "pass": true,
+      "detail": "OPEN_ACTUAL_RUNTIME"
+    },
+    {
+      "id": "APP000-G6-D10:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "APP000-G6-D11:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D11:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-16"
+      ]
+    },
+    {
+      "id": "APP000-G6-D11:open",
+      "pass": true,
+      "detail": "OPEN_FUTURE_D32_NOT_D16_CLOSURE"
+    },
+    {
+      "id": "APP000-G6-D11:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "APP000-G6-D12:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D12:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-22"
+      ]
+    },
+    {
+      "id": "APP000-G6-D12:open",
+      "pass": true,
+      "detail": "OPEN_GATE8_RETURN"
+    },
+    {
+      "id": "APP000-G6-D12:blocking",
+      "pass": true,
+      "detail": "RECHECK_SCOPE"
+    },
+    {
+      "id": "APP000-G6-D13:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D13:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-17"
+      ]
+    },
+    {
+      "id": "APP000-G6-D13:open",
+      "pass": true,
+      "detail": "OPEN_FUTURE_D32_NOT_D16_CLOSURE"
+    },
+    {
+      "id": "APP000-G6-D13:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "APP000-G6-D14:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D14:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-19"
+      ]
+    },
+    {
+      "id": "APP000-G6-D14:open",
+      "pass": true,
+      "detail": "OPEN_D32_IMPLEMENTATION"
+    },
+    {
+      "id": "APP000-G6-D14:blocking",
+      "pass": true,
+      "detail": "PAGE_GATE9"
+    },
+    {
+      "id": "APP000-G6-D15:fields",
+      "pass": true,
+      "detail": "Owner/closure present"
+    },
+    {
+      "id": "APP000-G6-D15:mapped",
+      "pass": true,
+      "detail": [
+        "APP000-G9-21"
+      ]
+    },
+    {
+      "id": "APP000-G6-D15:open",
+      "pass": true,
+      "detail": "OPEN_SAME_CANDIDATE_REGRESSION"
+    },
+    {
+      "id": "APP000-G6-D15:blocking",
+      "pass": true,
+      "detail": "INTEGRATION"
+    },
+    {
+      "id": "matrix-30",
+      "pass": true,
+      "detail": "Approved relation set"
+    },
+    {
+      "id": "relations:Coatings",
+      "pass": true,
+      "detail": [
+        "M-350",
+        "M-510",
+        "M-896",
+        "M-996",
+        "M-2196",
+        "M-895",
+        "M-52",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "package-order:Coatings",
+      "pass": true,
+      "detail": [
+        "M-350",
+        "M-510",
+        "M-896",
+        "M-996",
+        "M-2196",
+        "M-895",
+        "M-52",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "relations:Plastics",
+      "pass": true,
+      "detail": [
+        "M-350",
+        "M-510",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "package-order:Plastics",
+      "pass": true,
+      "detail": [
+        "M-350",
+        "M-510",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "relations:Masterbatch",
+      "pass": true,
+      "detail": [
+        "M-510",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "package-order:Masterbatch",
+      "pass": true,
+      "detail": [
+        "M-510",
+        "M-200",
+        "M-108",
+        "M-210",
+        "M-340",
+        "M-886",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "relations:Printing Inks",
+      "pass": true,
+      "detail": [
+        "M-350",
+        "M-510",
+        "M-52",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "package-order:Printing Inks",
+      "pass": true,
+      "detail": [
+        "M-350",
+        "M-510",
+        "M-52",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "relations:Paper",
+      "pass": true,
+      "detail": [
+        "M-350",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "package-order:Paper",
+      "pass": true,
+      "detail": [
+        "M-350",
+        "M-2377"
+      ]
+    },
+    {
+      "id": "relations:Specialty Materials",
+      "pass": true,
+      "detail": [
+        "CR-901"
+      ]
+    },
+    {
+      "id": "package-order:Specialty Materials",
+      "pass": true,
+      "detail": [
+        "CR-901"
+      ]
+    },
+    {
+      "id": "prototype-relations",
+      "pass": true,
+      "detail": "Source count only, not runtime"
+    },
+    {
+      "id": "prototype-steps",
+      "pass": true,
+      "detail": "Source count only"
+    },
+    {
+      "id": "seven-planes",
+      "pass": true,
+      "detail": "Named scope planes (case-insensitive prose)"
+    },
+    {
+      "id": "mandatory-zero",
+      "pass": true,
+      "detail": "Author semantic check separate"
+    }
+  ],
+  "identities": [
+    {
+      "group": "direct:BRIEF",
+      "path": ".superpowers/sdd/2026-09-20-app-000-d32-gate3-to-gate8/task-6-execution-brief.md",
+      "expected_sha256": "4109c37c03f4bbc33f8ee4789aad6e0f1811e35ad7eddf4a6da13092b5d98658",
+      "actual_sha256": "4109c37c03f4bbc33f8ee4789aad6e0f1811e35ad7eddf4a6da13092b5d98658",
+      "expected_bytes": 7878,
+      "actual_bytes": 7878,
+      "pass": true
+    },
+    {
+      "group": "direct:MANIFEST",
+      "path": "pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.3.md",
+      "expected_sha256": "838f175ef6e8798ff5bd06c031fc164fdb7afce7dd21bb19480549fe6d82d5eb",
+      "actual_sha256": "838f175ef6e8798ff5bd06c031fc164fdb7afce7dd21bb19480549fe6d82d5eb",
+      "expected_bytes": 4080,
+      "actual_bytes": 4080,
+      "pass": true
+    },
+    {
+      "group": "direct:CLOSURE",
+      "path": "pages/applications/05_review/APP-000_D32_GATE4_GATE5_CONTROLLER_CLOSURE_V0.1.md",
+      "expected_sha256": "666fe772728a97e13f317991334d2753a23bf95c03e13a298d440042d2a2bff5",
+      "actual_sha256": "666fe772728a97e13f317991334d2753a23bf95c03e13a298d440042d2a2bff5",
+      "expected_bytes": 4658,
+      "actual_bytes": 4658,
+      "pass": true
+    },
+    {
+      "group": "direct:G5",
+      "path": "pages/applications/05_review/APP-000_D32_GATE5_INDEPENDENT_REVIEW_V0.1.md",
+      "expected_sha256": "b12629e720df728d55ca54fedb21c136f43789546a7bdb2edb34ebfed6f8c0d3",
+      "actual_sha256": "b12629e720df728d55ca54fedb21c136f43789546a7bdb2edb34ebfed6f8c0d3",
+      "expected_bytes": 9685,
+      "actual_bytes": 9685,
+      "pass": true
+    },
+    {
+      "group": "direct:G5JSON",
+      "path": "pages/applications/05_review/d32-gate5-independent-v0.1/observations.json",
+      "expected_sha256": "8ddfb91989f7e3acc3104203d2d44236ea70db9eba652ffae6eebbb12de7694c",
+      "actual_sha256": "8ddfb91989f7e3acc3104203d2d44236ea70db9eba652ffae6eebbb12de7694c",
+      "expected_bytes": 109468,
+      "actual_bytes": 109468,
+      "pass": true
+    },
+    {
+      "group": "direct:G4HANDOFF",
+      "path": "pages/applications/05_review/APP-000_D32_GATE4_GATE5_HANDOFF_V0.1.md",
+      "expected_sha256": "d15081a810810625f3831adf69bb3f43eb71af9a7cb8da9194398c48f6ecf7d7",
+      "actual_sha256": "d15081a810810625f3831adf69bb3f43eb71af9a7cb8da9194398c48f6ecf7d7",
+      "expected_bytes": 5004,
+      "actual_bytes": 5004,
+      "pass": true
+    },
+    {
+      "group": "direct:G4REPORT",
+      "path": "pages/applications/05_review/APP-000_D32_GATE4_EXECUTION_V0.1.md",
+      "expected_sha256": "7217c424f307e99cdb5daa73dbe8674cf349a51c4ea5f11f3ca2666f25cf86b5",
+      "actual_sha256": "7217c424f307e99cdb5daa73dbe8674cf349a51c4ea5f11f3ca2666f25cf86b5",
+      "expected_bytes": 5745,
+      "actual_bytes": 5745,
+      "pass": true
+    },
+    {
+      "group": "direct:FREEZE",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/freeze.json",
+      "expected_sha256": "559096adeb96fde6b89d57f4140a0949a812fb3f45808e3633b8c46c8aa8f0d3",
+      "actual_sha256": "559096adeb96fde6b89d57f4140a0949a812fb3f45808e3633b8c46c8aa8f0d3",
+      "expected_bytes": 7659,
+      "actual_bytes": 7659,
+      "pass": true
+    },
+    {
+      "group": "direct:INPUTS",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/input-index.json",
+      "expected_sha256": "610e7d836e2b371cb35dc338d3181ba9ca6ee468bb024960941fabb17ba1218b",
+      "actual_sha256": "610e7d836e2b371cb35dc338d3181ba9ca6ee468bb024960941fabb17ba1218b",
+      "expected_bytes": 9045,
+      "actual_bytes": 9045,
+      "pass": true
+    },
+    {
+      "group": "direct:B",
+      "path": "pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+      "expected_sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1",
+      "actual_sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1",
+      "expected_bytes": 6995,
+      "actual_bytes": 6995,
+      "pass": true
+    },
+    {
+      "group": "direct:C",
+      "path": "pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+      "expected_sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e",
+      "actual_sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e",
+      "expected_bytes": 22077,
+      "actual_bytes": 22077,
+      "pass": true
+    },
+    {
+      "group": "direct:DELTA",
+      "path": "pages/applications/04_planning/APP-000_PRODUCT_V0.3_RELATION_CONTENT_DELTA_V0.1.md",
+      "expected_sha256": "c5a0c4f96e1bd5411c4e1ec3b488901cebbb1adb894e06b46e3670817c34a308",
+      "actual_sha256": "c5a0c4f96e1bd5411c4e1ec3b488901cebbb1adb894e06b46e3670817c34a308",
+      "expected_bytes": 3469,
+      "actual_bytes": 3469,
+      "pass": true
+    },
+    {
+      "group": "direct:MATRIX",
+      "path": "pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_MATRIX_V0.3.csv",
+      "expected_sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406",
+      "actual_sha256": "8465e231545d3efc6333ec593441eef65e95173a4708097cec0d7a97a014e406",
+      "expected_bytes": 61284,
+      "actual_bytes": 61284,
+      "pass": true
+    },
+    {
+      "group": "direct:UNIFIED",
+      "path": "pages/products/01_research/PRODUCT_GRADE_APPLICATION_PROCESS_UNIFIED_AUDIT_V0.3.md",
+      "expected_sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb",
+      "actual_sha256": "338f2d4f2083e2e56b00637a4771982d08bfa15c1283022d6a28d506f0dededb",
+      "expected_bytes": 4178,
+      "actual_bytes": 4178,
+      "pass": true
+    },
+    {
+      "group": "direct:AUDIT",
+      "path": "pages/products/01_research/PRODUCT-000_GATE1_EVIDENCE_AUDIT_V0.3.md",
+      "expected_sha256": "ed17610571bcedabadc3eff103e7db99978d9bca78971bce2655d1ddc8500af8",
+      "actual_sha256": "ed17610571bcedabadc3eff103e7db99978d9bca78971bce2655d1ddc8500af8",
+      "expected_bytes": 2350,
+      "actual_bytes": 2350,
+      "pass": true
+    },
+    {
+      "group": "direct:RELDEP",
+      "path": "pages/products/02_analysis/PRODUCT-000_RELATION_DEPENDENCY_AUDIT_V0.3.md",
+      "expected_sha256": "900acdc97767910139b3478dad69db9a734b933f8b2baf9d8a8955b2cdf05a78",
+      "actual_sha256": "900acdc97767910139b3478dad69db9a734b933f8b2baf9d8a8955b2cdf05a78",
+      "expected_bytes": 2012,
+      "actual_bytes": 2012,
+      "pass": true
+    },
+    {
+      "group": "direct:APPIMPACT",
+      "path": "pages/applications/01_research/APP-000_PRODUCT_V0.3_RELATION_IMPACT_AUDIT_V0.1.md",
+      "expected_sha256": "06c18f96b9dac88a07e2d99a164eebad124ef69014d0ae439159063785f03bd4",
+      "actual_sha256": "06c18f96b9dac88a07e2d99a164eebad124ef69014d0ae439159063785f03bd4",
+      "expected_bytes": 5682,
+      "actual_bytes": 5682,
+      "pass": true
+    },
+    {
+      "group": "direct:G2",
+      "path": "pages/applications/05_review/APP-000_GATE2_USER_APPROVAL_AND_CLOSURE_V1.0.md",
+      "expected_sha256": "f8207754c8e52efe3a742c044b6b4c0300584eaaaa055876b4fc85eda00765b6",
+      "actual_sha256": "f8207754c8e52efe3a742c044b6b4c0300584eaaaa055876b4fc85eda00765b6",
+      "expected_bytes": 1336,
+      "actual_bytes": 1336,
+      "pass": true
+    },
+    {
+      "group": "direct:BASELINE",
+      "path": "docs/architecture/GATE6_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.1.md",
+      "expected_sha256": "b03647827a0969ea6c26915715ec6114fa31d0a7cf0a8629dd280625a7761cdf",
+      "actual_sha256": "b03647827a0969ea6c26915715ec6114fa31d0a7cf0a8629dd280625a7761cdf",
+      "expected_bytes": 1913,
+      "actual_bytes": 1913,
+      "pass": true
+    },
+    {
+      "group": "direct:AGENT",
+      "path": "agents/gate6-review-delivery/agent.md",
+      "expected_sha256": "b302783e22d16d72d238bec336d766dd37f6f3ef34927e868de1c5f1bfc4372c",
+      "actual_sha256": "b302783e22d16d72d238bec336d766dd37f6f3ef34927e868de1c5f1bfc4372c",
+      "expected_bytes": 14614,
+      "actual_bytes": 14614,
+      "pass": true
+    },
+    {
+      "group": "direct:CONSISTENCY",
+      "path": "skills/page-contract-consistency-review/SKILL.md",
+      "expected_sha256": "5f8d864dbdb0da5118df5898d5dbe12421455aa5f5b346ff479b26ed643203ea",
+      "actual_sha256": "5f8d864dbdb0da5118df5898d5dbe12421455aa5f5b346ff479b26ed643203ea",
+      "expected_bytes": 8137,
+      "actual_bytes": 8137,
+      "pass": true
+    },
+    {
+      "group": "direct:DELIVERY",
+      "path": "skills/development-delivery-specification/SKILL.md",
+      "expected_sha256": "92f7c3e4989714d62c12a8b4ddcf916397f405a45fca1193b541f6f652088180",
+      "actual_sha256": "92f7c3e4989714d62c12a8b4ddcf916397f405a45fca1193b541f6f652088180",
+      "expected_bytes": 10181,
+      "actual_bytes": 10181,
+      "pass": true
+    },
+    {
+      "group": "direct:EXECREVIEW",
+      "path": "docs/architecture/GATE6_EXECUTION_REVIEW_CONTRACT_V1.1.md",
+      "expected_sha256": "d2aaffaadf6ba44f3472b4045a40c165b170aa4fdfdc4ee1d824fe66415e9f67",
+      "actual_sha256": "d2aaffaadf6ba44f3472b4045a40c165b170aa4fdfdc4ee1d824fe66415e9f67",
+      "expected_bytes": 6627,
+      "actual_bytes": 6627,
+      "pass": true
+    },
+    {
+      "group": "direct:INTAKE",
+      "path": "docs/architecture/GATE5_GATE6_ACCEPTANCE_CONTRACT_V1.0.md",
+      "expected_sha256": "c408bdcd34b898edb5e95c76db8c126a203ebd1e85c530460e3615f49e0e80eb",
+      "actual_sha256": "c408bdcd34b898edb5e95c76db8c126a203ebd1e85c530460e3615f49e0e80eb",
+      "expected_bytes": 5954,
+      "actual_bytes": 5954,
+      "pass": true
+    },
+    {
+      "group": "direct:EVIDENCE",
+      "path": "docs/architecture/GATE8_GATE9_EVIDENCE_HANDOFF_CONTRACT_V1.0.md",
+      "expected_sha256": "a74953971244d3b2bb43f6bc5d9b798f428d9590bab8bcb8664e1d4e9b4b31cb",
+      "actual_sha256": "a74953971244d3b2bb43f6bc5d9b798f428d9590bab8bcb8664e1d4e9b4b31cb",
+      "expected_bytes": 4219,
+      "actual_bytes": 4219,
+      "pass": true
+    },
+    {
+      "group": "direct:SCHEMA",
+      "path": "docs/architecture/GATE8_EVIDENCE_MANIFEST_SCHEMA_V1.0.json",
+      "expected_sha256": "cbd36d338412a5d311ae062a93982d9a5799e0cf3d459bcb72d41e4a155247ad",
+      "actual_sha256": "cbd36d338412a5d311ae062a93982d9a5799e0cf3d459bcb72d41e4a155247ad",
+      "expected_bytes": 5154,
+      "actual_bytes": 5154,
+      "pass": true
+    },
+    {
+      "group": "direct:SWITCH",
+      "path": "docs/architecture/DEVELOPMENT_OWNER_D32_SWITCH_DECISION_V1.0.md",
+      "expected_sha256": "5afdb91fa3288eaa9dc5dfbf7683eb73240addbca8c32636d052d6362a4d0a07",
+      "actual_sha256": "5afdb91fa3288eaa9dc5dfbf7683eb73240addbca8c32636d052d6362a4d0a07",
+      "expected_bytes": 5000,
+      "actual_bytes": 5000,
+      "pass": true
+    },
+    {
+      "group": "direct:AUTHORITY",
+      "path": "docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md",
+      "expected_sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1",
+      "actual_sha256": "47a7d3403645ecccaf1178b312a014891dec32a15ddab4bca407da9a8521abf1",
+      "expected_bytes": 4510,
+      "actual_bytes": 4510,
+      "pass": true
+    },
+    {
+      "group": "direct:CONTROL",
+      "path": "pages/applications/05_review/APP-000_D32_GATE3_GATE8_CONTROL_V0.1.md",
+      "expected_sha256": "1dfff3fc028631afd7c063ea662a050e6cfc87f39e0a4691698c42c343cd3ce9",
+      "actual_sha256": "1dfff3fc028631afd7c063ea662a050e6cfc87f39e0a4691698c42c343cd3ce9",
+      "expected_bytes": 3500,
+      "actual_bytes": 3500,
+      "pass": true
+    },
+    {
+      "group": "direct:DOMAIN",
+      "path": "pages/products/05_review/PRODUCT-000_D32_GATE3_GATE9_CONTROL_V0.1.md",
+      "expected_sha256": "9bbc92203147e60e082d8c084df167b6805beb74d61096dd931a22e5c928ab86",
+      "actual_sha256": "9bbc92203147e60e082d8c084df167b6805beb74d61096dd931a22e5c928ab86",
+      "expected_bytes": 8345,
+      "actual_bytes": 8345,
+      "pass": true
+    },
+    {
+      "group": "direct:GOVERNANCE",
+      "path": "docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md",
+      "expected_sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140",
+      "actual_sha256": "7627e3209020d0625f915e37c5a8bf292325cdf090f5706cd8605b8a9ffa5140",
+      "expected_bytes": 30319,
+      "actual_bytes": 30319,
+      "pass": true
+    },
+    {
+      "group": "direct:WORKFLOW",
+      "path": "docs/architecture/GATE_WORKFLOW_V3.3.md",
+      "expected_sha256": "b00f404ef3c24e394194c7dd4f85e40c56b1fb6e33b723290e1a8f3af50ac1f1",
+      "actual_sha256": "b00f404ef3c24e394194c7dd4f85e40c56b1fb6e33b723290e1a8f3af50ac1f1",
+      "expected_bytes": 19244,
+      "actual_bytes": 19244,
+      "pass": true
+    },
+    {
+      "group": "direct:DECISIONS",
+      "path": "docs/architecture/EVIDENCE_GAP_USER_DECISION_REGISTER_V1.8.md",
+      "expected_sha256": "4afc9c195a5d42a5fb9ab7c1c03f02f3dca0dbd61121b79673f0de0fff2e8e09",
+      "actual_sha256": "4afc9c195a5d42a5fb9ab7c1c03f02f3dca0dbd61121b79673f0de0fff2e8e09",
+      "expected_bytes": 12847,
+      "actual_bytes": 12847,
+      "pass": true
+    },
+    {
+      "group": "direct:NOTERMS",
+      "path": "docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md",
+      "expected_sha256": "9b01c3d086bcbed5cb3de2ed74ee997fc671fe21b055f458ac0b8301d99127d1",
+      "actual_sha256": "9b01c3d086bcbed5cb3de2ed74ee997fc671fe21b055f458ac0b8301d99127d1",
+      "expected_bytes": 5327,
+      "actual_bytes": 5327,
+      "pass": true
+    },
+    {
+      "group": "direct:RFQ",
+      "path": "pages/conversion/request-a-quote/06_handoff/CONV-RFQ_D32_GATE6_HANDOFF_PACKAGE_V0.2.md",
+      "expected_sha256": "5a19e738be8dd741ff533bcfe4951d23710f3c3a7411ba92c74211bbfac09a9d",
+      "actual_sha256": "5a19e738be8dd741ff533bcfe4951d23710f3c3a7411ba92c74211bbfac09a9d",
+      "expected_bytes": 24293,
+      "actual_bytes": 24293,
+      "pass": true
+    },
+    {
+      "group": "direct:RFQSTATE",
+      "path": "pages/conversion/request-a-quote/05_review/CONV-RFQ_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "expected_sha256": "f3b5b4f0ed3d0c9944ca46dbaf3f8bf2e9ab31fd1ec7646ae0bce9cdb2756dfc",
+      "actual_sha256": "f3b5b4f0ed3d0c9944ca46dbaf3f8bf2e9ab31fd1ec7646ae0bce9cdb2756dfc",
+      "expected_bytes": 2450,
+      "actual_bytes": 2450,
+      "pass": true
+    },
+    {
+      "group": "direct:LEGACYIDS",
+      "path": "pages/applications/06_handoff/APP-000_GATE6_HANDOFF_PACKAGE_V1.1.md",
+      "expected_sha256": "679921dff649eb19197364c998b9512b711c3a32ee00c64798ad70ce0c05e84c",
+      "actual_sha256": "679921dff649eb19197364c998b9512b711c3a32ee00c64798ad70ce0c05e84c",
+      "expected_bytes": 52622,
+      "actual_bytes": 52622,
+      "pass": true
+    },
+    {
+      "group": "direct:D32RULES",
+      "path": "D:/32Wordpress_new/AGENTS.md",
+      "expected_sha256": "ad41f40b5db229ee33d7cdbb4d6235be21194eca55c7cc6a7abba341a952c21b",
+      "actual_sha256": "ad41f40b5db229ee33d7cdbb4d6235be21194eca55c7cc6a7abba341a952c21b",
+      "expected_bytes": 5715,
+      "actual_bytes": 5715,
+      "pass": true
+    },
+    {
+      "group": "direct:D32README",
+      "path": "D:/32Wordpress_new/README.md",
+      "expected_sha256": "1efcc388175c9cac2fed44b87bb3e966c9b63d8b0539f1f4c9de24229c4d1e76",
+      "actual_sha256": "1efcc388175c9cac2fed44b87bb3e966c9b63d8b0539f1f4c9de24229c4d1e76",
+      "expected_bytes": 4877,
+      "actual_bytes": 4877,
+      "pass": true
+    },
+    {
+      "group": "direct:D32CONTRIB",
+      "path": "D:/32Wordpress_new/CONTRIBUTING.md",
+      "expected_sha256": "baae8a288ecab84a337f57f02cff713cf45a54558d85f710ca04dc381b3f0e0a",
+      "actual_sha256": "baae8a288ecab84a337f57f02cff713cf45a54558d85f710ca04dc381b3f0e0a",
+      "expected_bytes": 12155,
+      "actual_bytes": 12155,
+      "pass": true
+    },
+    {
+      "group": "direct:D32FUNCTIONS",
+      "path": "D:/32Wordpress_new/wp-content/themes/tio2-malaysia/functions.php",
+      "expected_sha256": "80d0baad985709648cc44c9361d1bc14e1626370a887f4752dcf49a040d7d0ab",
+      "actual_sha256": "80d0baad985709648cc44c9361d1bc14e1626370a887f4752dcf49a040d7d0ab",
+      "expected_bytes": 2771,
+      "actual_bytes": 2771,
+      "pass": true
+    },
+    {
+      "group": "direct:D32HERO",
+      "path": "D:/32Wordpress_new/wp-content/themes/tio2-malaysia/template-parts/root-page-hero.php",
+      "expected_sha256": "276647ef06e2c2bb05288264421d932700920cc1541efff41aed131e9d0b15f3",
+      "actual_sha256": "276647ef06e2c2bb05288264421d932700920cc1541efff41aed131e9d0b15f3",
+      "expected_bytes": 1607,
+      "actual_bytes": 1607,
+      "pass": true
+    },
+    {
+      "group": "direct:D32SEO",
+      "path": "D:/32Wordpress_new/wp-content/themes/tio2-malaysia/inc/seo.php",
+      "expected_sha256": "7c2f693fbae1d6da1402bd28ba25898473d278c252ae8bca8e56f1339dd085b7",
+      "actual_sha256": "7c2f693fbae1d6da1402bd28ba25898473d278c252ae8bca8e56f1339dd085b7",
+      "expected_bytes": 6253,
+      "actual_bytes": 6253,
+      "pass": true
+    },
+    {
+      "group": "direct:D32HOMESECTION",
+      "path": "D:/32Wordpress_new/wp-content/themes/tio2-malaysia/template-parts/applications.php",
+      "expected_sha256": "f025927dce417ab78a3a3cb17bc7327f4e0bd2673c46cdba6f3657cb5bea3c40",
+      "actual_sha256": "f025927dce417ab78a3a3cb17bc7327f4e0bd2673c46cdba6f3657cb5bea3c40",
+      "expected_bytes": 2643,
+      "actual_bytes": 2643,
+      "pass": true
+    },
+    {
+      "group": "direct:D32PRODUCTTEMPLATE",
+      "path": "D:/32Wordpress_new/wp-content/themes/tio2-malaysia/page-products.php",
+      "expected_sha256": "09a32872d3f67e82cc531f58a711270299e0a253541fbcf6dcd6a6604f2424cf",
+      "actual_sha256": "09a32872d3f67e82cc531f58a711270299e0a253541fbcf6dcd6a6604f2424cf",
+      "expected_bytes": 11125,
+      "actual_bytes": 11125,
+      "pass": true
+    },
+    {
+      "group": "direct:D32PRODUCTMODEL",
+      "path": "D:/32Wordpress_new/wp-content/plugins/tio2-content/includes/products.php",
+      "expected_sha256": "aa246edd077563c6eaeb416f3b3417a88c96bdeaaf11ba89d390e6aca574403a",
+      "actual_sha256": "aa246edd077563c6eaeb416f3b3417a88c96bdeaaf11ba89d390e6aca574403a",
+      "expected_bytes": 13636,
+      "actual_bytes": 13636,
+      "pass": true
+    },
+    {
+      "group": "direct:D32ADMIN",
+      "path": "D:/32Wordpress_new/wp-content/plugins/tio2-content/includes/admin.php",
+      "expected_sha256": "efa465bf66fc8208c82397753da5b1380bd3a674cd3af6d7a5f9e0c029a190e1",
+      "actual_sha256": "efa465bf66fc8208c82397753da5b1380bd3a674cd3af6d7a5f9e0c029a190e1",
+      "expected_bytes": 9466,
+      "actual_bytes": 9466,
+      "pass": true
+    },
+    {
+      "group": "direct:D32VALIDATION",
+      "path": "D:/32Wordpress_new/wp-content/plugins/tio2-content/includes/validation.php",
+      "expected_sha256": "731c5e28dee844386187de8f582d72432435fc8ba213a7dfa52c76d2b5543eab",
+      "actual_sha256": "731c5e28dee844386187de8f582d72432435fc8ba213a7dfa52c76d2b5543eab",
+      "expected_bytes": 1634,
+      "actual_bytes": 1634,
+      "pass": true
+    },
+    {
+      "group": "direct:D32IDENTITY",
+      "path": "D:/32Wordpress_new/wp-content/plugins/tio2-content/includes/identity.php",
+      "expected_sha256": "a40181c63cf3f833ec891d676d5c54302f17955b1fa9b75e671b7d86537b7513",
+      "actual_sha256": "a40181c63cf3f833ec891d676d5c54302f17955b1fa9b75e671b7d86537b7513",
+      "expected_bytes": 2098,
+      "actual_bytes": 2098,
+      "pass": true
+    },
+    {
+      "group": "direct:D32HTTPTEST",
+      "path": "D:/32Wordpress_new/tests/products-http.py",
+      "expected_sha256": "d7cba1fa0c3d15502e15fb1b35d25a9cc1ba6a4b9b9def668240edc8997ca01c",
+      "actual_sha256": "d7cba1fa0c3d15502e15fb1b35d25a9cc1ba6a4b9b9def668240edc8997ca01c",
+      "expected_bytes": 6172,
+      "actual_bytes": 6172,
+      "pass": true
+    },
+    {
+      "group": "direct:D32EVIDENCETEST",
+      "path": "D:/32Wordpress_new/tests/products-evidence.py",
+      "expected_sha256": "c927578ef700bc479f6dd900c6c84e9c842daf7f818503fbe60a747d8a7acdd3",
+      "actual_sha256": "c927578ef700bc479f6dd900c6c84e9c842daf7f818503fbe60a747d8a7acdd3",
+      "expected_bytes": 1730,
+      "actual_bytes": 1730,
+      "pass": true
+    },
+    {
+      "group": "direct:D32EVIDENCESCRIPT",
+      "path": "D:/32Wordpress_new/scripts/products-evidence.py",
+      "expected_sha256": "c5deaf18b68d85116ad2d4c182364f7549dabb042663cccb94534b7cf9a06d9d",
+      "actual_sha256": "c5deaf18b68d85116ad2d4c182364f7549dabb042663cccb94534b7cf9a06d9d",
+      "expected_bytes": 31327,
+      "actual_bytes": 31327,
+      "pass": true
+    },
+    {
+      "group": "direct:HERO",
+      "path": "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "expected_sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+      "actual_sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+      "expected_bytes": 13549,
+      "actual_bytes": 13549,
+      "pass": true
+    },
+    {
+      "group": "direct:WHITE",
+      "path": "docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "expected_sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+      "actual_sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+      "expected_bytes": 2812,
+      "actual_bytes": 2812,
+      "pass": true
+    },
+    {
+      "group": "direct:CHROME",
+      "path": "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "expected_sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+      "actual_sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+      "expected_bytes": 7235,
+      "actual_bytes": 7235,
+      "pass": true
+    },
+    {
+      "group": "direct:LEGAL",
+      "path": "docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "expected_sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+      "actual_sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+      "expected_bytes": 2310,
+      "actual_bytes": 2310,
+      "pass": true
+    },
+    {
+      "group": "direct:BRAND",
+      "path": "brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "expected_sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+      "actual_sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+      "expected_bytes": 11671,
+      "actual_bytes": 11671,
+      "pass": true
+    },
+    {
+      "group": "direct:CTA",
+      "path": "brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "expected_sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+      "actual_sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+      "expected_bytes": 1960,
+      "actual_bytes": 1960,
+      "pass": true
+    },
+    {
+      "group": "direct:LOGO",
+      "path": "brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "expected_sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+      "actual_sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+      "expected_bytes": 8090,
+      "actual_bytes": 8090,
+      "pass": true
+    },
+    {
+      "group": "direct:REGISTRY",
+      "path": "docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "expected_sha256": "3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552",
+      "actual_sha256": "3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552",
+      "expected_bytes": 19457,
+      "actual_bytes": 19457,
+      "pass": true
+    },
+    {
+      "group": "direct:KEYWORDS",
+      "path": "research/keyword/11_page_keyword_master.csv",
+      "expected_sha256": "ad86e336ff7f77b1dc9b7eb120a89adc13463d70e73fc84ad4f16a36247dd6b0",
+      "actual_sha256": "ad86e336ff7f77b1dc9b7eb120a89adc13463d70e73fc84ad4f16a36247dd6b0",
+      "expected_bytes": 44334,
+      "actual_bytes": 44334,
+      "pass": true
+    },
+    {
+      "group": "direct:PAGEBRIEF",
+      "path": "docs/page-briefs/APP-000_APPLICATIONS_BRIEF_V0.1.md",
+      "expected_sha256": "f3735ef738b2cdc63f9b08d44c31ca80872ca18118f1b01701b892db7b667c88",
+      "actual_sha256": "f3735ef738b2cdc63f9b08d44c31ca80872ca18118f1b01701b892db7b667c88",
+      "expected_bytes": 75132,
+      "actual_bytes": 75132,
+      "pass": true
+    },
+    {
+      "group": "direct:PLAYBOOK",
+      "path": "docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+      "expected_sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c",
+      "actual_sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c",
+      "expected_bytes": 36722,
+      "actual_bytes": 36722,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/4A-direction.md",
+      "expected_sha256": "25a026cc181cd479dc2f70e301c6f799ada0fc85fa7ad75e27ccaf72335cb4ca",
+      "actual_sha256": "25a026cc181cd479dc2f70e301c6f799ada0fc85fa7ad75e27ccaf72335cb4ca",
+      "expected_bytes": 3289,
+      "actual_bytes": 3289,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_COOKIE_320.png",
+      "expected_sha256": "964fbc36a56f5fea1959de487535a3f916d497e2938b5597136a9c9b3723a200",
+      "actual_sha256": "964fbc36a56f5fea1959de487535a3f916d497e2938b5597136a9c9b3723a200",
+      "expected_bytes": 54841,
+      "actual_bytes": 54841,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_COOKIE_390.png",
+      "expected_sha256": "d121781691a881c966db9660c93f68ad94c777ef1291d30afd3b2bfbbb13922a",
+      "actual_sha256": "d121781691a881c966db9660c93f68ad94c777ef1291d30afd3b2bfbbb13922a",
+      "expected_bytes": 57418,
+      "actual_bytes": 57418,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_1024.png",
+      "expected_sha256": "c7af5ecf5779aa4fe83885d8acacdaba9344244be1384e6185bb9115a81ca566",
+      "actual_sha256": "c7af5ecf5779aa4fe83885d8acacdaba9344244be1384e6185bb9115a81ca566",
+      "expected_bytes": 367064,
+      "actual_bytes": 367064,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_1440.png",
+      "expected_sha256": "e245404fa57796a8ae86bb6c3aedf4de92d1a7367bec5f3863fa6696bf31406c",
+      "actual_sha256": "e245404fa57796a8ae86bb6c3aedf4de92d1a7367bec5f3863fa6696bf31406c",
+      "expected_bytes": 376488,
+      "actual_bytes": 376488,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_320.png",
+      "expected_sha256": "05a9e5a1bb6d09c65704d536092d33b8054e6b5016afc25a50b138853c917752",
+      "actual_sha256": "05a9e5a1bb6d09c65704d536092d33b8054e6b5016afc25a50b138853c917752",
+      "expected_bytes": 373131,
+      "actual_bytes": 373131,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_390.png",
+      "expected_sha256": "9c3789286443d36363c2cc8e7040f84f9839f93e7ab5d7dc41e3222855075df1",
+      "actual_sha256": "9c3789286443d36363c2cc8e7040f84f9839f93e7ab5d7dc41e3222855075df1",
+      "expected_bytes": 369569,
+      "actual_bytes": 369569,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_FULL_768.png",
+      "expected_sha256": "4c43df31da70f296405c999c6e68b9b5a7fe070ee48201fc1a995fe0f450d787",
+      "actual_sha256": "4c43df31da70f296405c999c6e68b9b5a7fe070ee48201fc1a995fe0f450d787",
+      "expected_bytes": 376832,
+      "actual_bytes": 376832,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_GRADE_FOCUS_768.png",
+      "expected_sha256": "a26a5f4bce737857c9390060d30dd36e203753880c483903f2e37c817952611e",
+      "actual_sha256": "a26a5f4bce737857c9390060d30dd36e203753880c483903f2e37c817952611e",
+      "expected_bytes": 93263,
+      "actual_bytes": 93263,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_MENU_390.png",
+      "expected_sha256": "37b6c94235ab3dc965e6beb4735776149d2d8788d212e0781dfc646c371a1136",
+      "actual_sha256": "37b6c94235ab3dc965e6beb4735776149d2d8788d212e0781dfc646c371a1136",
+      "expected_bytes": 40390,
+      "actual_bytes": 40390,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_NAV_HOVER_1440.png",
+      "expected_sha256": "539eef556fca08805ad643ef2c0c8bb1c892e00aaa268d5d12fd29a293f6e9e6",
+      "actual_sha256": "539eef556fca08805ad643ef2c0c8bb1c892e00aaa268d5d12fd29a293f6e9e6",
+      "expected_bytes": 123544,
+      "actual_bytes": 123544,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_PRIMARY_FOCUS_390.png",
+      "expected_sha256": "e1ef11762fc9c1a2936933bf1974890444abd92e79fee494a0d28c23e237b0f7",
+      "actual_sha256": "e1ef11762fc9c1a2936933bf1974890444abd92e79fee494a0d28c23e237b0f7",
+      "expected_bytes": 60173,
+      "actual_bytes": 60173,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_ROUTE_APPLICATION_ONLY_390.png",
+      "expected_sha256": "7b5f0af763c9cc3fdec871b4d52cd47f14a4ea6e7cf0255673a4d389247be039",
+      "actual_sha256": "7b5f0af763c9cc3fdec871b4d52cd47f14a4ea6e7cf0255673a4d389247be039",
+      "expected_bytes": 356112,
+      "actual_bytes": 356112,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_ROUTE_GRADE_ONLY_390.png",
+      "expected_sha256": "49342bd7a573747dbe3522e68c9e9e64094af0c196464e43730d3a042f97f12e",
+      "actual_sha256": "49342bd7a573747dbe3522e68c9e9e64094af0c196464e43730d3a042f97f12e",
+      "expected_bytes": 352360,
+      "actual_bytes": 352360,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/APP-000_G4_ROUTE_NONE_390.png",
+      "expected_sha256": "55c5769738646be7d3b8a5712beff8c71d92262ccea740f3384492f117218277",
+      "actual_sha256": "55c5769738646be7d3b8a5712beff8c71d92262ccea740f3384492f117218277",
+      "expected_bytes": 248128,
+      "actual_bytes": 248128,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/application-visual.html",
+      "expected_sha256": "1575cfed2fd93857a4ad0a49421099cef24ed34cc22e78cf49dad7c0f69c3cb4",
+      "actual_sha256": "1575cfed2fd93857a4ad0a49421099cef24ed34cc22e78cf49dad7c0f69c3cb4",
+      "expected_bytes": 32821,
+      "actual_bytes": 32821,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/capture-check.md",
+      "expected_sha256": "82f6ee2902aaf39afbf13f94fc6162064e8608ca7cfb3e78a64e99a998b91999",
+      "actual_sha256": "82f6ee2902aaf39afbf13f94fc6162064e8608ca7cfb3e78a64e99a998b91999",
+      "expected_bytes": 4243,
+      "actual_bytes": 4243,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/evidence-index.json",
+      "expected_sha256": "8f226ecc16910a240653b34cd078291111c2eaa7636f3142f38896a50a927d58",
+      "actual_sha256": "8f226ecc16910a240653b34cd078291111c2eaa7636f3142f38896a50a927d58",
+      "expected_bytes": 9097,
+      "actual_bytes": 9097,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/finalize.cjs",
+      "expected_sha256": "256ff05bab9b020305383535ea57ae42ea1e98a61237c30f51c5fdfd178ce06a",
+      "actual_sha256": "256ff05bab9b020305383535ea57ae42ea1e98a61237c30f51c5fdfd178ce06a",
+      "expected_bytes": 4569,
+      "actual_bytes": 4569,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/formal-render.json",
+      "expected_sha256": "df76808ced4df27184c2f39319564c06473b4a6add28f7dcd81cfcae95fe5a15",
+      "actual_sha256": "df76808ced4df27184c2f39319564c06473b4a6add28f7dcd81cfcae95fe5a15",
+      "expected_bytes": 6774,
+      "actual_bytes": 6774,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/input-index.json",
+      "expected_sha256": "610e7d836e2b371cb35dc338d3181ba9ca6ee468bb024960941fabb17ba1218b",
+      "actual_sha256": "610e7d836e2b371cb35dc338d3181ba9ca6ee468bb024960941fabb17ba1218b",
+      "expected_bytes": 9045,
+      "actual_bytes": 9045,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/inspect-image.cjs",
+      "expected_sha256": "c1af6f3a4b8796efeff5bd966fa24069a4bc598b66f265645376164ac6e1dad8",
+      "actual_sha256": "c1af6f3a4b8796efeff5bd966fa24069a4bc598b66f265645376164ac6e1dad8",
+      "expected_bytes": 644,
+      "actual_bytes": 644,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/preflight.json",
+      "expected_sha256": "dcd776da6d9fe1793d8c418a701a507d911d2001e37c064a659cec2e3f802061",
+      "actual_sha256": "dcd776da6d9fe1793d8c418a701a507d911d2001e37c064a659cec2e3f802061",
+      "expected_bytes": 953,
+      "actual_bytes": 953,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/render-freeze.cjs",
+      "expected_sha256": "4f46fa3eee7055b5111e6d97d243a1d147c4131166feba05ee57261002bf4085",
+      "actual_sha256": "4f46fa3eee7055b5111e6d97d243a1d147c4131166feba05ee57261002bf4085",
+      "expected_bytes": 7675,
+      "actual_bytes": 7675,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/runtime-observations.json",
+      "expected_sha256": "16e0ce391851834233d4bd44723d20d9fd640f1c6e64fc968cf7d938a2b8d0b4",
+      "actual_sha256": "16e0ce391851834233d4bd44723d20d9fd640f1c6e64fc968cf7d938a2b8d0b4",
+      "expected_bytes": 38263,
+      "actual_bytes": 38263,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/source-lock.json",
+      "expected_sha256": "31e6aabcd66aa6f6aa84ef1fce16ef89d78d44c3f8e1f94bdd41f4a28ed8b7e6",
+      "actual_sha256": "31e6aabcd66aa6f6aa84ef1fce16ef89d78d44c3f8e1f94bdd41f4a28ed8b7e6",
+      "expected_bytes": 9432,
+      "actual_bytes": 9432,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/supplemental-checks.cjs",
+      "expected_sha256": "14b0bfade02dc0849a63e7f541a379d080d636c14683d43cb2148dc6a174b92a",
+      "actual_sha256": "14b0bfade02dc0849a63e7f541a379d080d636c14683d43cb2148dc6a174b92a",
+      "expected_bytes": 3243,
+      "actual_bytes": 3243,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/supplemental-observations.json",
+      "expected_sha256": "a5867a89c418fbb839cd8b6501086d3d5110e3f8a54527be3a8c530ad8757085",
+      "actual_sha256": "a5867a89c418fbb839cd8b6501086d3d5110e3f8a54527be3a8c530ad8757085",
+      "expected_bytes": 1609,
+      "actual_bytes": 1609,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/visual-assertions.cjs",
+      "expected_sha256": "5516a95b5fdd3185c576fac71bd7d941bb4bb200090b0950fb3cfdd5ad036d36",
+      "actual_sha256": "5516a95b5fdd3185c576fac71bd7d941bb4bb200090b0950fb3cfdd5ad036d36",
+      "expected_bytes": 12082,
+      "actual_bytes": 12082,
+      "pass": true
+    },
+    {
+      "group": "freeze-member",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/visual.css",
+      "expected_sha256": "1393717126ededfceac9f44e6d66b62376104433cd6dc5959275471d5357088a",
+      "actual_sha256": "1393717126ededfceac9f44e6d66b62376104433cd6dc5959275471d5357088a",
+      "expected_bytes": 4317,
+      "actual_bytes": 4317,
+      "pass": true
+    },
+    {
+      "group": "freeze-source",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/application-visual.html",
+      "expected_sha256": "1575cfed2fd93857a4ad0a49421099cef24ed34cc22e78cf49dad7c0f69c3cb4",
+      "actual_sha256": "1575cfed2fd93857a4ad0a49421099cef24ed34cc22e78cf49dad7c0f69c3cb4",
+      "expected_bytes": 32821,
+      "actual_bytes": 32821,
+      "pass": true
+    },
+    {
+      "group": "freeze-source",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/visual.css",
+      "expected_sha256": "1393717126ededfceac9f44e6d66b62376104433cd6dc5959275471d5357088a",
+      "actual_sha256": "1393717126ededfceac9f44e6d66b62376104433cd6dc5959275471d5357088a",
+      "expected_bytes": 4317,
+      "actual_bytes": 4317,
+      "pass": true
+    },
+    {
+      "group": "G4-dispatch",
+      "path": ".superpowers/sdd/2026-09-20-app-000-d32-gate3-to-gate8/task-4-brief.md",
+      "expected_sha256": "70f677313441960038350523351e792c58a83824957d9d83e162ab96f1f5e0ef",
+      "actual_sha256": "70f677313441960038350523351e792c58a83824957d9d83e162ab96f1f5e0ef",
+      "expected_bytes": 6173,
+      "actual_bytes": 6173,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "AGENTS.md",
+      "expected_sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21",
+      "actual_sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21",
+      "expected_bytes": 13421,
+      "actual_bytes": 13421,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "PROJECT_CONTEXT.md",
+      "expected_sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27",
+      "actual_sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27",
+      "expected_bytes": 9673,
+      "actual_bytes": 9673,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "02_DIRECTORY_GUIDE.md",
+      "expected_sha256": "37b2471654cac7e2816cfa65329fbe7d89806136bbf1bbc28943482ee83dc3a8",
+      "actual_sha256": "37b2471654cac7e2816cfa65329fbe7d89806136bbf1bbc28943482ee83dc3a8",
+      "expected_bytes": 16025,
+      "actual_bytes": 16025,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "expected_sha256": "fd5e61e02a614c6dc34500553ca76f58f912c55c96384332d98d798b9f5da6f0",
+      "actual_sha256": "fd5e61e02a614c6dc34500553ca76f58f912c55c96384332d98d798b9f5da6f0",
+      "expected_bytes": 4337,
+      "actual_bytes": 4337,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/applications/05_review/APP-000_D32_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+      "expected_sha256": "e62c12f1f287dfa2375e09477060f8e734c1e7708e3fc1b9dad316138d108900",
+      "actual_sha256": "e62c12f1f287dfa2375e09477060f8e734c1e7708e3fc1b9dad316138d108900",
+      "expected_bytes": 3734,
+      "actual_bytes": 3734,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/applications/05_review/APP-000_D32_GATE3_CONTROLLER_CLOSURE_V0.1.md",
+      "expected_sha256": "03c8e1c83eec89e52ced31700c90def803c2fc04ede368cb91889aeeca886727",
+      "actual_sha256": "03c8e1c83eec89e52ced31700c90def803c2fc04ede368cb91889aeeca886727",
+      "expected_bytes": 5243,
+      "actual_bytes": 5243,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/applications/04_planning/d32-gate3-v0.2/application-planning.html",
+      "expected_sha256": "60e7a9091b7ebfab27a810aafce30a457532ac770ea9f75a6b655a14c9c09aef",
+      "actual_sha256": "60e7a9091b7ebfab27a810aafce30a457532ac770ea9f75a6b655a14c9c09aef",
+      "expected_bytes": 32776,
+      "actual_bytes": 32776,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/applications/04_planning/d32-gate3-v0.2/freeze.json",
+      "expected_sha256": "390c5ed29f098c205bc292eb756b613a04fb064d5a9c7164f04222f4be6c5d6b",
+      "actual_sha256": "390c5ed29f098c205bc292eb756b613a04fb064d5a9c7164f04222f4be6c5d6b",
+      "expected_bytes": 4165,
+      "actual_bytes": 4165,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+      "expected_sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1",
+      "actual_sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1",
+      "expected_bytes": 6995,
+      "actual_bytes": 6995,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+      "expected_sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e",
+      "actual_sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e",
+      "expected_bytes": 22077,
+      "actual_bytes": 22077,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/applications/04_planning/APP-000_PRODUCT_V0.3_RELATION_CONTENT_DELTA_V0.1.md",
+      "expected_sha256": "c5a0c4f96e1bd5411c4e1ec3b488901cebbb1adb894e06b46e3670817c34a308",
+      "actual_sha256": "c5a0c4f96e1bd5411c4e1ec3b488901cebbb1adb894e06b46e3670817c34a308",
+      "expected_bytes": 3469,
+      "actual_bytes": 3469,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/page-briefs/APP-000_APPLICATIONS_BRIEF_V0.1.md",
+      "expected_sha256": "f3735ef738b2cdc63f9b08d44c31ca80872ca18118f1b01701b892db7b667c88",
+      "actual_sha256": "f3735ef738b2cdc63f9b08d44c31ca80872ca18118f1b01701b892db7b667c88",
+      "expected_bytes": 75132,
+      "actual_bytes": 75132,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+      "expected_sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c",
+      "actual_sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c",
+      "expected_bytes": 36722,
+      "actual_bytes": 36722,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "expected_sha256": "3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552",
+      "actual_sha256": "3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552",
+      "expected_bytes": 19457,
+      "actual_bytes": 19457,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "research/keyword/11_page_keyword_master.csv",
+      "expected_sha256": "ad86e336ff7f77b1dc9b7eb120a89adc13463d70e73fc84ad4f16a36247dd6b0",
+      "actual_sha256": "ad86e336ff7f77b1dc9b7eb120a89adc13463d70e73fc84ad4f16a36247dd6b0",
+      "expected_bytes": 44334,
+      "actual_bytes": 44334,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "expected_sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5",
+      "actual_sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5",
+      "expected_bytes": 1289,
+      "actual_bytes": 1289,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/home/07_qa/HOME-001_D32_GATE9_VISUAL_INTERACTION_REVIEW_V0.1.md",
+      "expected_sha256": "da8a8fa2abc7d238f669a73cf9c78f9d474d09501be456f35ab2557e2ce518f9",
+      "actual_sha256": "da8a8fa2abc7d238f669a73cf9c78f9d474d09501be456f35ab2557e2ce518f9",
+      "expected_bytes": 9030,
+      "actual_bytes": 9030,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/home/07_qa/d32-gate9-v0.1/visual/runtime-1440.png",
+      "expected_sha256": "ad3cacf5b1234335b263dcbbaa54515c7de959b364a277269f05bbf59001d23a",
+      "actual_sha256": "ad3cacf5b1234335b263dcbbaa54515c7de959b364a277269f05bbf59001d23a",
+      "expected_bytes": 657796,
+      "actual_bytes": 657796,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "pages/home/07_qa/d32-gate9-v0.1/visual/runtime-1024-segment-0.png",
+      "expected_sha256": "8f029e95b0ed78659166ced8185d217fe8b382a9070aa24ab4305bef6ac879ba",
+      "actual_sha256": "8f029e95b0ed78659166ced8185d217fe8b382a9070aa24ab4305bef6ac879ba",
+      "expected_bytes": 168893,
+      "actual_bytes": 168893,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.10.md",
+      "expected_sha256": "dd8f87b232373897d12875045e269be85d3107f89ff2c8144d9de9bafb3a437a",
+      "actual_sha256": "dd8f87b232373897d12875045e269be85d3107f89ff2c8144d9de9bafb3a437a",
+      "expected_bytes": 3632,
+      "actual_bytes": 3632,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.3.md",
+      "expected_sha256": "5c47544a247708b39af61b6a8385b9ee79c85f4ad900da7c17aeef20fe43c16b",
+      "actual_sha256": "5c47544a247708b39af61b6a8385b9ee79c85f4ad900da7c17aeef20fe43c16b",
+      "expected_bytes": 6598,
+      "actual_bytes": 6598,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "agents/gate4-complete-visual/agent.md",
+      "expected_sha256": "4826c6ddaf3eb6dc828483599d14999e589e02e9a76989cdb9ecf18e77764db0",
+      "actual_sha256": "4826c6ddaf3eb6dc828483599d14999e589e02e9a76989cdb9ecf18e77764db0",
+      "expected_bytes": 11149,
+      "actual_bytes": 11149,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "skills/brand-applied-visual-design/SKILL.md",
+      "expected_sha256": "0a326320a9946e67aeade1d3c3b197b7e232f74e1cc9e28d35c427eb8e54587e",
+      "actual_sha256": "0a326320a9946e67aeade1d3c3b197b7e232f74e1cc9e28d35c427eb8e54587e",
+      "expected_bytes": 9679,
+      "actual_bytes": 9679,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "skills/full-page-visual-composition/SKILL.md",
+      "expected_sha256": "d379306ad5cca18f8f5c0641b8d9eacded171712025a360a79fa532137d26219",
+      "actual_sha256": "d379306ad5cca18f8f5c0641b8d9eacded171712025a360a79fa532137d26219",
+      "expected_bytes": 11032,
+      "actual_bytes": 11032,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "skills/layout-interaction-verification/SKILL.md",
+      "expected_sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884",
+      "actual_sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884",
+      "expected_bytes": 12641,
+      "actual_bytes": 12641,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "expected_sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9",
+      "actual_sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9",
+      "expected_bytes": 3712,
+      "actual_bytes": 3712,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "expected_sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370",
+      "actual_sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370",
+      "expected_bytes": 8078,
+      "actual_bytes": 8078,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/superpowers/specs/2026-09-20-gate3-to-gate4-handoff-contract-v0.5.md",
+      "expected_sha256": "e1867d8841c49d67629ac4b1eead9ff1005b1a0ddce7a0fb624b8f54d41465ca",
+      "actual_sha256": "e1867d8841c49d67629ac4b1eead9ff1005b1a0ddce7a0fb624b8f54d41465ca",
+      "expected_bytes": 11129,
+      "actual_bytes": 11129,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "expected_sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+      "actual_sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+      "expected_bytes": 13549,
+      "actual_bytes": 13549,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "expected_sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+      "actual_sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+      "expected_bytes": 2812,
+      "actual_bytes": 2812,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "expected_sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+      "actual_sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+      "expected_bytes": 11671,
+      "actual_bytes": 11671,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "expected_sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+      "actual_sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+      "expected_bytes": 1960,
+      "actual_bytes": 1960,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "expected_sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+      "actual_sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+      "expected_bytes": 8090,
+      "actual_bytes": 8090,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "expected_sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+      "actual_sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+      "expected_bytes": 7235,
+      "actual_bytes": 7235,
+      "pass": true
+    },
+    {
+      "group": "inherited-input",
+      "path": "docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "expected_sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+      "actual_sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+      "expected_bytes": 2310,
+      "actual_bytes": 2310,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "expected_sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+      "actual_sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+      "expected_bytes": 2409,
+      "actual_bytes": 2409,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "expected_sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+      "actual_sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+      "expected_bytes": 3889,
+      "actual_bytes": 3889,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "expected_sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+      "actual_sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+      "expected_bytes": 5125,
+      "actual_bytes": 5125,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "expected_sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+      "actual_sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+      "expected_bytes": 2369,
+      "actual_bytes": 2369,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "expected_sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+      "actual_sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+      "expected_bytes": 1426,
+      "actual_bytes": 1426,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "expected_sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+      "actual_sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+      "expected_bytes": 455,
+      "actual_bytes": 455,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "expected_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "actual_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "expected_bytes": 876576,
+      "actual_bytes": 876576,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "expected_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "actual_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "expected_bytes": 4377,
+      "actual_bytes": 4377,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected_sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "actual_sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "expected_bytes": 4342,
+      "actual_bytes": 4342,
+      "pass": true
+    },
+    {
+      "group": "inherited-dependency",
+      "path": "brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected_sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "actual_sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "expected_bytes": 2725,
+      "actual_bytes": 2725,
+      "pass": true
+    },
+    {
+      "group": "G4-authority",
+      "path": "pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "expected_sha256": "fd5e61e02a614c6dc34500553ca76f58f912c55c96384332d98d798b9f5da6f0",
+      "actual_sha256": "fd5e61e02a614c6dc34500553ca76f58f912c55c96384332d98d798b9f5da6f0",
+      "expected_bytes": 4337,
+      "actual_bytes": 4337,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/application-visual.html",
+      "expected_sha256": "1575cfed2fd93857a4ad0a49421099cef24ed34cc22e78cf49dad7c0f69c3cb4",
+      "actual_sha256": "1575cfed2fd93857a4ad0a49421099cef24ed34cc22e78cf49dad7c0f69c3cb4",
+      "expected_bytes": 32821,
+      "actual_bytes": 32821,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/04_planning/d32-gate4-v0.1/visual.css",
+      "expected_sha256": "1393717126ededfceac9f44e6d66b62376104433cd6dc5959275471d5357088a",
+      "actual_sha256": "1393717126ededfceac9f44e6d66b62376104433cd6dc5959275471d5357088a",
+      "expected_bytes": 4317,
+      "actual_bytes": 4317,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "expected_sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+      "actual_sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+      "expected_bytes": 2409,
+      "actual_bytes": 2409,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "expected_sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+      "actual_sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+      "expected_bytes": 3889,
+      "actual_bytes": 3889,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "expected_sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+      "actual_sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+      "expected_bytes": 5125,
+      "actual_bytes": 5125,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "expected_sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+      "actual_sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+      "expected_bytes": 2369,
+      "actual_bytes": 2369,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "expected_sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+      "actual_sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+      "expected_bytes": 1426,
+      "actual_bytes": 1426,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "expected_sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+      "actual_sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+      "expected_bytes": 455,
+      "actual_bytes": 455,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "expected_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "actual_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "expected_bytes": 876576,
+      "actual_bytes": 876576,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "expected_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "actual_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "expected_bytes": 4377,
+      "actual_bytes": 4377,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected_sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "actual_sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+      "expected_bytes": 4342,
+      "actual_bytes": 4342,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected_sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "actual_sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+      "expected_bytes": 2725,
+      "actual_bytes": 2725,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "AGENTS.md",
+      "expected_sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21",
+      "actual_sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21",
+      "expected_bytes": 13421,
+      "actual_bytes": 13421,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "PROJECT_CONTEXT.md",
+      "expected_sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27",
+      "actual_sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27",
+      "expected_bytes": 9673,
+      "actual_bytes": 9673,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "02_DIRECTORY_GUIDE.md",
+      "expected_sha256": "37b2471654cac7e2816cfa65329fbe7d89806136bbf1bbc28943482ee83dc3a8",
+      "actual_sha256": "37b2471654cac7e2816cfa65329fbe7d89806136bbf1bbc28943482ee83dc3a8",
+      "expected_bytes": 16025,
+      "actual_bytes": 16025,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "expected_sha256": "fd5e61e02a614c6dc34500553ca76f58f912c55c96384332d98d798b9f5da6f0",
+      "actual_sha256": "fd5e61e02a614c6dc34500553ca76f58f912c55c96384332d98d798b9f5da6f0",
+      "expected_bytes": 4337,
+      "actual_bytes": 4337,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/05_review/APP-000_D32_GATE3_TO_GATE4_HANDOFF_V0.1.md",
+      "expected_sha256": "e62c12f1f287dfa2375e09477060f8e734c1e7708e3fc1b9dad316138d108900",
+      "actual_sha256": "e62c12f1f287dfa2375e09477060f8e734c1e7708e3fc1b9dad316138d108900",
+      "expected_bytes": 3734,
+      "actual_bytes": 3734,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/05_review/APP-000_D32_GATE3_CONTROLLER_CLOSURE_V0.1.md",
+      "expected_sha256": "03c8e1c83eec89e52ced31700c90def803c2fc04ede368cb91889aeeca886727",
+      "actual_sha256": "03c8e1c83eec89e52ced31700c90def803c2fc04ede368cb91889aeeca886727",
+      "expected_bytes": 5243,
+      "actual_bytes": 5243,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/04_planning/d32-gate3-v0.2/application-planning.html",
+      "expected_sha256": "60e7a9091b7ebfab27a810aafce30a457532ac770ea9f75a6b655a14c9c09aef",
+      "actual_sha256": "60e7a9091b7ebfab27a810aafce30a457532ac770ea9f75a6b655a14c9c09aef",
+      "expected_bytes": 32776,
+      "actual_bytes": 32776,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/04_planning/d32-gate3-v0.2/freeze.json",
+      "expected_sha256": "390c5ed29f098c205bc292eb756b613a04fb064d5a9c7164f04222f4be6c5d6b",
+      "actual_sha256": "390c5ed29f098c205bc292eb756b613a04fb064d5a9c7164f04222f4be6c5d6b",
+      "expected_bytes": 4165,
+      "actual_bytes": 4165,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/04_planning/APP-000_GATE2_FULL_BUYER_CLEAN_COPY_V1.0.md",
+      "expected_sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1",
+      "actual_sha256": "c57db3f8e1afb9b4d33a1498843cf8228b7faddeccdaa79c7e6a6d76c1a234b1",
+      "expected_bytes": 6995,
+      "actual_bytes": 6995,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/04_planning/APP-000_GATE2_CONTENT_CONTRACT_V1.0.md",
+      "expected_sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e",
+      "actual_sha256": "6f7ef60c6bc6cbe5398f9f1cf4e2e713fcfb48ce65bc28fe49d699ca61b26f6e",
+      "expected_bytes": 22077,
+      "actual_bytes": 22077,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/applications/04_planning/APP-000_PRODUCT_V0.3_RELATION_CONTENT_DELTA_V0.1.md",
+      "expected_sha256": "c5a0c4f96e1bd5411c4e1ec3b488901cebbb1adb894e06b46e3670817c34a308",
+      "actual_sha256": "c5a0c4f96e1bd5411c4e1ec3b488901cebbb1adb894e06b46e3670817c34a308",
+      "expected_bytes": 3469,
+      "actual_bytes": 3469,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/page-briefs/APP-000_APPLICATIONS_BRIEF_V0.1.md",
+      "expected_sha256": "f3735ef738b2cdc63f9b08d44c31ca80872ca18118f1b01701b892db7b667c88",
+      "actual_sha256": "f3735ef738b2cdc63f9b08d44c31ca80872ca18118f1b01701b892db7b667c88",
+      "expected_bytes": 75132,
+      "actual_bytes": 75132,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/page-playbooks/APPLICATION_PLAYBOOK_V0.1.md",
+      "expected_sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c",
+      "actual_sha256": "8c647681b15e9c3ee9e73d322a599a7b7e0f9eaba65960a96fa7d323413c153c",
+      "expected_bytes": 36722,
+      "actual_bytes": 36722,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/PAGE_REGISTRY_V0.2.md",
+      "expected_sha256": "3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552",
+      "actual_sha256": "3da1956fe15ad5e15e078bc43fe291804c151bb45528c778f7177c40825a9552",
+      "expected_bytes": 19457,
+      "actual_bytes": 19457,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "research/keyword/11_page_keyword_master.csv",
+      "expected_sha256": "ad86e336ff7f77b1dc9b7eb120a89adc13463d70e73fc84ad4f16a36247dd6b0",
+      "actual_sha256": "ad86e336ff7f77b1dc9b7eb120a89adc13463d70e73fc84ad4f16a36247dd6b0",
+      "expected_bytes": 44334,
+      "actual_bytes": 44334,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "expected_sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5",
+      "actual_sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5",
+      "expected_bytes": 1289,
+      "actual_bytes": 1289,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/home/07_qa/HOME-001_D32_GATE9_VISUAL_INTERACTION_REVIEW_V0.1.md",
+      "expected_sha256": "da8a8fa2abc7d238f669a73cf9c78f9d474d09501be456f35ab2557e2ce518f9",
+      "actual_sha256": "da8a8fa2abc7d238f669a73cf9c78f9d474d09501be456f35ab2557e2ce518f9",
+      "expected_bytes": 9030,
+      "actual_bytes": 9030,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/home/07_qa/d32-gate9-v0.1/visual/runtime-1440.png",
+      "expected_sha256": "ad3cacf5b1234335b263dcbbaa54515c7de959b364a277269f05bbf59001d23a",
+      "actual_sha256": "ad3cacf5b1234335b263dcbbaa54515c7de959b364a277269f05bbf59001d23a",
+      "expected_bytes": 657796,
+      "actual_bytes": 657796,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "pages/home/07_qa/d32-gate9-v0.1/visual/runtime-1024-segment-0.png",
+      "expected_sha256": "8f029e95b0ed78659166ced8185d217fe8b382a9070aa24ab4305bef6ac879ba",
+      "actual_sha256": "8f029e95b0ed78659166ced8185d217fe8b382a9070aa24ab4305bef6ac879ba",
+      "expected_bytes": 168893,
+      "actual_bytes": 168893,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.10.md",
+      "expected_sha256": "dd8f87b232373897d12875045e269be85d3107f89ff2c8144d9de9bafb3a437a",
+      "actual_sha256": "dd8f87b232373897d12875045e269be85d3107f89ff2c8144d9de9bafb3a437a",
+      "expected_bytes": 3632,
+      "actual_bytes": 3632,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CONTRACT_V1.3.md",
+      "expected_sha256": "5c47544a247708b39af61b6a8385b9ee79c85f4ad900da7c17aeef20fe43c16b",
+      "actual_sha256": "5c47544a247708b39af61b6a8385b9ee79c85f4ad900da7c17aeef20fe43c16b",
+      "expected_bytes": 6598,
+      "actual_bytes": 6598,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "agents/gate4-complete-visual/agent.md",
+      "expected_sha256": "4826c6ddaf3eb6dc828483599d14999e589e02e9a76989cdb9ecf18e77764db0",
+      "actual_sha256": "4826c6ddaf3eb6dc828483599d14999e589e02e9a76989cdb9ecf18e77764db0",
+      "expected_bytes": 11149,
+      "actual_bytes": 11149,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "skills/brand-applied-visual-design/SKILL.md",
+      "expected_sha256": "0a326320a9946e67aeade1d3c3b197b7e232f74e1cc9e28d35c427eb8e54587e",
+      "actual_sha256": "0a326320a9946e67aeade1d3c3b197b7e232f74e1cc9e28d35c427eb8e54587e",
+      "expected_bytes": 9679,
+      "actual_bytes": 9679,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "skills/full-page-visual-composition/SKILL.md",
+      "expected_sha256": "d379306ad5cca18f8f5c0641b8d9eacded171712025a360a79fa532137d26219",
+      "actual_sha256": "d379306ad5cca18f8f5c0641b8d9eacded171712025a360a79fa532137d26219",
+      "expected_bytes": 11032,
+      "actual_bytes": 11032,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "skills/layout-interaction-verification/SKILL.md",
+      "expected_sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884",
+      "actual_sha256": "27dbcf7a2815af08543f3579f4e0eb93de73bfe41246e6d9879793cdde725884",
+      "expected_bytes": 12641,
+      "actual_bytes": 12641,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "skills/layout-interaction-verification/references/gate4-self-check.md",
+      "expected_sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9",
+      "actual_sha256": "4aea55976c95e49370deeba440218e35c24fc299f3b726be06c8300ed38babc9",
+      "expected_bytes": 3712,
+      "actual_bytes": 3712,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/GATE4_GATE5_VISUAL_HANDOFF_CONTRACT_V1.0.md",
+      "expected_sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370",
+      "actual_sha256": "1b9005b4a375f0551f64549b86bf8bc42476b352af1601e5c6b8b59005466370",
+      "expected_bytes": 8078,
+      "actual_bytes": 8078,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/superpowers/specs/2026-09-20-gate3-to-gate4-handoff-contract-v0.5.md",
+      "expected_sha256": "e1867d8841c49d67629ac4b1eead9ff1005b1a0ddce7a0fb624b8f54d41465ca",
+      "actual_sha256": "e1867d8841c49d67629ac4b1eead9ff1005b1a0ddce7a0fb624b8f54d41465ca",
+      "expected_bytes": 11129,
+      "actual_bytes": 11129,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "expected_sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+      "actual_sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+      "expected_bytes": 13549,
+      "actual_bytes": 13549,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "expected_sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+      "actual_sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+      "expected_bytes": 2812,
+      "actual_bytes": 2812,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "expected_sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+      "actual_sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+      "expected_bytes": 11671,
+      "actual_bytes": 11671,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "expected_sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+      "actual_sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+      "expected_bytes": 1960,
+      "actual_bytes": 1960,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "expected_sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+      "actual_sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+      "expected_bytes": 8090,
+      "actual_bytes": 8090,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "expected_sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+      "actual_sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+      "expected_bytes": 7235,
+      "actual_bytes": 7235,
+      "pass": true
+    },
+    {
+      "group": "source-lock",
+      "path": "docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "expected_sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+      "actual_sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+      "expected_bytes": 2310,
+      "actual_bytes": 2310,
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Hashes/structure do not establish semantic correctness.",
+    "G4/G5 inherited only for immutable D23 planning object; no re-render.",
+    "No D32 APP implementation/runtime/migration/browser/device/AT/receiver/integration/release tested.",
+    "No independent PASS, Controller closure or Gate8 dispatch."
+  ]
+}

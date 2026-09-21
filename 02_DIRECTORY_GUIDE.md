@@ -1,9 +1,13 @@
 # TiO2 Malaysia 目录说明
 
+2026-09-21：按[Gate 3/4合并决定](docs/architecture/GATE3_GATE4_MERGE_DECISION_V1.0.md)，Gate 4统一负责跨页一致性、结构、视觉和验证；Gate 5独立审查后总控关闭一次。新页从Gate 2批准组合进入，不要求单独Gate 3冻结。历史成果、仅旧Gate 3授权及暂停按原范围继承。
+
+> 2026-09-21 当前开发仓库为 `D:\32NextJS` 静态单站，D23负责策划、交付与只读验收。旧D16及D32 WordPress仅作历史，当前按[开发流程](D:/32NextJS/CONTRIBUTING.md)和[静态单站决定](docs/architecture/STATIC_NEXTJS_SINGLE_SITE_AND_GOOGLE_INDEXING_DECISION_V1.0.md)执行。
+
 > 2026-09-07当前批准方式：Gate 3、4、6按[总控常设关闭授权](docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md)执行独立审查与总控关闭，不再等待逐页用户批准；Gate 1/2/9/10不变。本文历史“用户批准”表述只保留原记录语境，当前三关关闭由该授权解释；内容事实决定、明确暂停、下一阶段启动与外发/开发/发布权限分别保留。
 
 
-> 2026-09-07：[Gate工作流V3.2](docs/architecture/GATE_WORKFLOW_V3.2.md)统一阶段解释。原Gate 4/5合并为当前Gate 4；`06_handoff`、`07_qa`及旧Gate 5/7路径保持，不迁移或重命名已批准资料。
+> 2026-09-07：[Gate工作流V3.6](docs/architecture/GATE_WORKFLOW_V3.6.md)统一阶段解释。原Gate 4/5合并为当前Gate 4；`06_handoff`、`07_qa`及旧Gate 5/7路径保持，不迁移或重命名已批准资料。
 
 ## 1. 文件用途
 
@@ -16,7 +20,8 @@
 | 空间 | 职责 |
 |---|---|
 | `D:\23MySec` | 视觉、SEO、GEO、战略、PRD、关键词、证据、页面任务卡、开发交付规格、只读验收与归档 |
-| `D:\16Wordpress_nextjs` | WordPress、Next.js、CMS、共享组件、代码、测试、部署与实际实现 |
+| `D:\32NextJS` | 当前网站开发：Next.js静态导出、本地内容、共享组件、代码、测试、部署与实际实现 |
+| `D:\16Wordpress_nextjs` | 原开发项目与历史证据来源，不再承接本网站开发 |
 
 Malaysia 新站代码使用独立 `site_scope=tio2-my`。本项目不修改代码；视觉、SEO、GEO 和交付规格批准后交给开发项目实现。开发完成后，本项目只读检查视觉还原、移动端、SEO 和 GEO，并把问题交回开发项目修正。
 
@@ -163,11 +168,11 @@ D:\23MySec\
 
 全站当前版本指针统一维护在 [01_PROJECT_INDEX.md](01_PROJECT_INDEX.md)，页面阶段/Manifest统一由 [00_PROJECT_STATUS.md](00_PROJECT_STATUS.md)导航。不在此重复维护会过期的PRD/登记册/视觉版本表。
 
-- 稳定规则：根AGENTS；详细要求：`docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.4.md`，按触发路由读取。
+- 稳定规则：根AGENTS；详细要求：`docs/architecture/PROJECT_GOVERNANCE_DETAILS_V1.7.md`，按触发路由读取。
 - 背景速读：根PROJECT_CONTEXT；事实变更先更新原责任文件，再同步摘要。
 - 原四份根入口：`90_archive/project-governance/2026-09-06-entry-restructure/`，只保留历史，不覆盖当前规则。
 - 迁移记录：`docs/architecture/PROJECT_ENTRY_RESTRUCTURE_MIGRATION_V1.0.md`。
-- 页面任务卡模板：`docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.5.md`；按页面Manifest选当前完整Brief及增补。
+- 页面任务卡模板：`docs/page-briefs/PAGE_BRIEF_TEMPLATE_V0.6.md`；按页面Manifest选当前完整Brief及增补。
 
 版本化文件仍出现迁移前路径时，按第9节映射；不因旧链接回写历史批准内容。
 
@@ -184,7 +189,7 @@ docs/page-briefs/ 具体页面任务卡
         ↓
 pages/{page-family}/ 内容架构、线框、视觉方向与完整视觉稿
         ↓
- D:\16Wordpress_nextjs 独立开发项目实现与测试
+ D:\32NextJS 独立开发项目实现与测试
         ↓
 本项目只读视觉、SEO 与 GEO 验收
         ↓
@@ -231,7 +236,7 @@ pages/{page-family}/ 内容架构、线框、视觉方向与完整视觉稿
 - [ ] 没有把历史版本放进当前工作目录。
 - [ ] 没有把唯一正式资料放进 `99_workspace`。
 - [ ] 本任务只交付视觉、SEO、GEO 和开发规格，没有修改代码。
-- [ ] 代码工作只在 `D:\16Wordpress_nextjs` 开发项目中按其仓库规则进行。
+- [ ] 代码工作只在 `D:\32NextJS` 开发项目中按其项目规则和具体授权进行。
 - [ ] 开发完成后的检查采用只读方式，问题交回开发项目处理。
 - [ ] 发布、域名、DNS 和索引仍需用户单独授权。
 
@@ -243,8 +248,8 @@ pages/{page-family}/ 内容架构、线框、视觉方向与完整视觉稿
 
 - `agents/`：岗位职责、判断、协作与交付合同；当前入口为 `agents/README.md`。
 - Gate 1 执行角色：`agents/gate1-execution/agent.md`，由已批准角色设计 V0.7 整理。
-- Gate 4完整视觉执行角色：[agent.md](agents/gate4-complete-visual/agent.md) V1.1；当前组合由[基线Manifest V1.3](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.3.md)统一导航。原Gate 4/5角色保留历史；本设计不恢复Belgium或授权具体页面。
-- Gate 3执行角色：[agent.md](agents/gate3-execution/agent.md) V0.3，单一当前入口为[基线Manifest V1.6](docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.6.md)。范围控制修订前源在各自history及`90_archive/project-governance/2026-09-07-gate3-scope-revision/`保留；共享消费仍为页面中立V0.2，不迁移旧页面。
+- Gate 4页面设计执行角色：[agent.md](agents/gate4-complete-visual/agent.md) V1.6；当前组合由[基线Manifest V1.11](docs/architecture/GATE4_COMPLETE_VISUAL_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.11.md)导航，吸收跨页一致性和结构；不恢复暂停页面或扩大授权。
+- Gate 3历史执行入口：[agent.md](agents/gate3-execution/agent.md) V0.8，仅用于历史或明确保留的旧限定授权；新页按合并Gate 4执行。旧源身份从合并归档清单恢复，不迁移页面成果。
 - Gate 2 执行角色：`agents/gate2-execution/agent.md`，由已确认目标、职责、质量和两步流程继续细化；2026-09-06按用户“执行下一步”要求创建，设计记录见索引。
 - Gate 2 Review角色：`agents/gate2-review/agent.md`，由Spain真实实践归纳；必须由不同于执行者的子代理读取，负责买家视角预审及返修复核，不取得总控/用户批准权。
 - 与 `skills/` 方法目录分开；页面研究和事实仍放在对应 `pages/` 等正式资料目录，不写死进角色文件。
@@ -257,3 +262,7 @@ pages/{page-family}/ 内容架构、线框、视觉方向与完整视觉稿
 
 
 模板库位置已由用户指定到`D:/16Wordpress_nextjs/template-library`；D23保存角色和任务书，D16任务保存实际库。当前[首轮任务书](docs/architecture/TEMPLATE_LIBRARY_D16_INVENTORY_BRIEF_V0.1.md)已准备，未执行建库。
+
+模板库属于独立资产事项：上述D16模板库位置保留历史指定，本次开发归属切换不执行模板库迁移，也不构成继续向D16派发本网站开发的例外。
+
+开发规则直接读取D32的[AGENTS.md](D:/32NextJS/AGENTS.md)、[CONTRIBUTING.md](D:/32NextJS/CONTRIBUTING.md)与[README.md](D:/32NextJS/README.md)。D23只保留策划及验收交接接口。

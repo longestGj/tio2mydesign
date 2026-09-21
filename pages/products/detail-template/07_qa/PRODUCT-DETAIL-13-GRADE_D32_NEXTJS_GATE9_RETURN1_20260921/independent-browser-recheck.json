@@ -1,0 +1,109 @@
+{
+  "review_id": "PRODUCT-DETAIL-13-GRADE-D32-NEXTJS-G9-RETURN1-20260921-01",
+  "captured_at": "2026-09-21",
+  "reviewer": "/root",
+  "browser": "Codex in-app browser / Chromium",
+  "viewport_css_px": {
+    "width": 390,
+    "height": 844
+  },
+  "runtime": "http://127.0.0.1:8341",
+  "candidate": {
+    "implementation_commit": "8cee4e8a77de22710dcd95ca9933401f116655c2",
+    "evidence_head": "b39406c056d7278f7a2f019e735d41ba675388a2",
+    "build_id": "foS-HPfnTtWVoHkZQg3Jb"
+  },
+  "finding_recheck": {
+    "finding_id": "PD13-D32-G9-ROOT-F01",
+    "representative_route": "/products/cr-901/",
+    "status": "PASS / CLOSED",
+    "sequence": [
+      {
+        "step": "open Cookie Settings",
+        "active": "Close",
+        "inside_open_dialog": true
+      },
+      {
+        "step": "Shift+Tab from Close",
+        "active": "Read Cookie Policy",
+        "inside_open_dialog": true
+      },
+      {
+        "step": "Tab from Read Cookie Policy",
+        "active": "Close",
+        "inside_open_dialog": true
+      },
+      {
+        "step": "Tab from Close",
+        "active": "Read Cookie Policy",
+        "inside_open_dialog": true
+      },
+      {
+        "step": "Shift+Tab from Read Cookie Policy",
+        "active": "Close",
+        "inside_open_dialog": true
+      },
+      {
+        "step": "Escape",
+        "open_dialog_count": 0,
+        "active": "Cookie Settings"
+      }
+    ]
+  },
+  "shared_route_regression": [
+    {
+      "path": "/",
+      "initial_focus": true,
+      "reverse_boundary": true,
+      "forward_boundary": true,
+      "escape_return": true,
+      "status": "PASS"
+    },
+    {
+      "path": "/products/",
+      "initial_focus": true,
+      "reverse_boundary": true,
+      "forward_boundary": true,
+      "escape_return": true,
+      "status": "PASS"
+    },
+    {
+      "path": "/products/m-350/",
+      "initial_focus": true,
+      "reverse_boundary": true,
+      "forward_boundary": true,
+      "escape_return": true,
+      "status": "PASS"
+    },
+    {
+      "path": "/applications/",
+      "initial_focus": true,
+      "reverse_boundary": true,
+      "forward_boundary": true,
+      "escape_return": true,
+      "status": "PASS"
+    }
+  ],
+  "dismissal_regression": {
+    "close_button_returns_trigger_focus": true,
+    "escape_returns_trigger_focus": true,
+    "backdrop_coordinate_click_returns_trigger_focus": true,
+    "status": "PASS"
+  },
+  "consent_state": {
+    "optional_analytics_copy_unchanged": true,
+    "analytics_scripts": [],
+    "local_storage_keys": [],
+    "session_storage_keys": [],
+    "status": "PASS"
+  },
+  "console": {
+    "errors_or_warnings": 0,
+    "status": "PASS"
+  },
+  "user_exceptions": [
+    "physical-device testing: USER_EXCEPTED / NOT_TESTED / NON_BLOCKING",
+    "manual named assistive-technology testing: USER_EXCEPTED / NOT_TESTED / NON_BLOCKING",
+    "native browser or operating-system 200-percent zoom: USER_EXCEPTED / NOT_TESTED / NON_BLOCKING"
+  ]
+}

@@ -1,0 +1,3369 @@
+{
+  "reviewer": "/root/res_root_d32",
+  "reviewMode": "TARGETED_INDEPENDENT_RECHECK",
+  "finding": "DOC-D32-G3-R01",
+  "time": "2026-09-21T00:18:25.504Z",
+  "bundleSha256": "fa05968ccd064909e8c74fa32a54c5ef28d4fd9ff6bc065ec229cb3d0d8abbf2",
+  "sourceSha256": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723",
+  "checks": [
+    {
+      "id": "new_bundle_18_identities",
+      "pass": true,
+      "actual": 18
+    },
+    {
+      "id": "new_bundle_digest",
+      "pass": true,
+      "actual": "fa05968ccd064909e8c74fa32a54c5ef28d4fd9ff6bc065ec229cb3d0d8abbf2"
+    },
+    {
+      "id": "new_source_hash",
+      "pass": true
+    },
+    {
+      "id": "binding_freeze_dependencies_match",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "HTML_exact_single_title_delta",
+      "pass": true
+    },
+    {
+      "id": "body_including_inline_shared_bytes_unchanged",
+      "pass": true
+    },
+    {
+      "id": "DOC-000_D32_structure.css_byte_identical",
+      "pass": true,
+      "actual": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+    },
+    {
+      "id": "DOC-000_D32_behavior.js_byte_identical",
+      "pass": true,
+      "actual": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+    },
+    {
+      "id": "shared_identity_array_unchanged",
+      "pass": true
+    },
+    {
+      "id": "approved_metadata_source_bound",
+      "pass": true
+    },
+    {
+      "id": "title_equals_approved_source",
+      "pass": true
+    },
+    {
+      "id": "generator_not_H1_inference",
+      "pass": true
+    },
+    {
+      "id": "all_51_prior_files_preserved",
+      "pass": true
+    },
+    {
+      "id": "prior_independent_183_valid_unchanged",
+      "pass": true
+    },
+    {
+      "id": "8_formal_assets_inherited_exactly",
+      "pass": true
+    },
+    {
+      "id": "author140_actual_record",
+      "pass": true
+    },
+    {
+      "id": "1440_runtime_title_H1",
+      "pass": true,
+      "actual": {
+        "actualTitle": "Documents for Product Qualification | TiO2 Malaysia",
+        "h1": "Documents for Product & Supplier Qualification"
+      }
+    },
+    {
+      "id": "1440_exact_full_PNG_parity",
+      "pass": true,
+      "actual": {
+        "width": 1440,
+        "independentBufferSha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+        "priorFormalSha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+        "authorParityFileSha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+        "bytes": 383022
+      }
+    },
+    {
+      "id": "1440_no_new_page_errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "768_runtime_title_H1",
+      "pass": true,
+      "actual": {
+        "actualTitle": "Documents for Product Qualification | TiO2 Malaysia",
+        "h1": "Documents for Product & Supplier Qualification"
+      }
+    },
+    {
+      "id": "768_exact_full_PNG_parity",
+      "pass": true,
+      "actual": {
+        "width": 768,
+        "independentBufferSha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+        "priorFormalSha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+        "authorParityFileSha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+        "bytes": 383896
+      }
+    },
+    {
+      "id": "768_no_new_page_errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "390_runtime_title_H1",
+      "pass": true,
+      "actual": {
+        "actualTitle": "Documents for Product Qualification | TiO2 Malaysia",
+        "h1": "Documents for Product & Supplier Qualification"
+      }
+    },
+    {
+      "id": "390_exact_full_PNG_parity",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "independentBufferSha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+        "priorFormalSha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+        "authorParityFileSha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+        "bytes": 362758
+      }
+    },
+    {
+      "id": "390_no_new_page_errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_structure.html",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_structure.css",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_behavior.js",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_build.cjs",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_verify.cjs",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_title_test.cjs",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_finalize_fix.cjs",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_INPUT_BINDING_V0.2.json",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_PREFLIGHT_V0.2.json",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_FREEZE_V0.2.json",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_1440_FULL.png",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_768_FULL.png",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_390_FULL.png",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_390_EMPTY_ERROR.png",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_390_SELECTED.png",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_390_FAQ2_OPEN.png",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_390_MENU_OPEN.png",
+      "pass": true
+    },
+    {
+      "id": "final_readonly_DOC-000_D32_390_COOKIE.png",
+      "pass": true
+    }
+  ],
+  "identities": [
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_structure.html",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_structure.html",
+        "bytes": 19279,
+        "sha256": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723"
+      },
+      "actual": {
+        "bytes": 19279,
+        "sha256": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_structure.css",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_structure.css",
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "actual": {
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_behavior.js",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_behavior.js",
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "actual": {
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_build.cjs",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_build.cjs",
+        "bytes": 6141,
+        "sha256": "b847bfd5474264cc6bfd2599806ea0db9875caa4ce36c84d2b20c4f8e5330c13"
+      },
+      "actual": {
+        "bytes": 6141,
+        "sha256": "b847bfd5474264cc6bfd2599806ea0db9875caa4ce36c84d2b20c4f8e5330c13"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_verify.cjs",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_verify.cjs",
+        "bytes": 8351,
+        "sha256": "8471a4cd6d4985f525634d049e83098d36b023cafe3d6133683b26f60240dfd5"
+      },
+      "actual": {
+        "bytes": 8351,
+        "sha256": "8471a4cd6d4985f525634d049e83098d36b023cafe3d6133683b26f60240dfd5"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_title_test.cjs",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_title_test.cjs",
+        "bytes": 1527,
+        "sha256": "066102bd9ee4fdd212874ea2839b77cb599f66e8149766c7d9b1189679b26e33"
+      },
+      "actual": {
+        "bytes": 1527,
+        "sha256": "066102bd9ee4fdd212874ea2839b77cb599f66e8149766c7d9b1189679b26e33"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_finalize_fix.cjs",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_finalize_fix.cjs",
+        "bytes": 7316,
+        "sha256": "345479e9949b77cdec7b0017fc04694e768c8c505b999822d84855bfd1fe74c2"
+      },
+      "actual": {
+        "bytes": 7316,
+        "sha256": "345479e9949b77cdec7b0017fc04694e768c8c505b999822d84855bfd1fe74c2"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_INPUT_BINDING_V0.2.json",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_INPUT_BINDING_V0.2.json",
+        "bytes": 9410,
+        "sha256": "474618c30703277298d0ffef9a64a244842cf5a7caf30a3edd1c0725a0b57576"
+      },
+      "actual": {
+        "bytes": 9410,
+        "sha256": "474618c30703277298d0ffef9a64a244842cf5a7caf30a3edd1c0725a0b57576"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_PREFLIGHT_V0.2.json",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_PREFLIGHT_V0.2.json",
+        "bytes": 10813,
+        "sha256": "658ced5b9692937637015022288f48355517ead885004d2d01e9e5f082eef6b4"
+      },
+      "actual": {
+        "bytes": 10813,
+        "sha256": "658ced5b9692937637015022288f48355517ead885004d2d01e9e5f082eef6b4"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_FREEZE_V0.2.json",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_FREEZE_V0.2.json",
+        "bytes": 4953,
+        "sha256": "a94be1dad66e9e72351afc313c764d2df0c70ffe03d3007d8b8f80c62d3f7ef8"
+      },
+      "actual": {
+        "bytes": 4953,
+        "sha256": "a94be1dad66e9e72351afc313c764d2df0c70ffe03d3007d8b8f80c62d3f7ef8"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_1440_FULL.png",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_1440_FULL.png",
+        "bytes": 383022,
+        "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+        "logical_width": 1440,
+        "scale": 1,
+        "state": "FULL",
+        "evidence_type": "STATIC_VISUAL"
+      },
+      "actual": {
+        "bytes": 383022,
+        "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_768_FULL.png",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_768_FULL.png",
+        "bytes": 383896,
+        "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+        "logical_width": 768,
+        "scale": 1,
+        "state": "FULL",
+        "evidence_type": "STATIC_VISUAL"
+      },
+      "actual": {
+        "bytes": 383896,
+        "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FULL.png",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FULL.png",
+        "bytes": 362758,
+        "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "FULL",
+        "evidence_type": "STATIC_VISUAL"
+      },
+      "actual": {
+        "bytes": 362758,
+        "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_EMPTY_ERROR.png",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_EMPTY_ERROR.png",
+        "bytes": 37024,
+        "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "EMPTY_ERROR",
+        "evidence_type": "STATIC_VISUAL"
+      },
+      "actual": {
+        "bytes": 37024,
+        "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_SELECTED.png",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_SELECTED.png",
+        "bytes": 36072,
+        "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "SELECTED",
+        "evidence_type": "STATIC_VISUAL"
+      },
+      "actual": {
+        "bytes": 36072,
+        "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FAQ2_OPEN.png",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FAQ2_OPEN.png",
+        "bytes": 37794,
+        "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "FAQ2_OPEN",
+        "evidence_type": "STATIC_VISUAL"
+      },
+      "actual": {
+        "bytes": 37794,
+        "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_MENU_OPEN.png",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_MENU_OPEN.png",
+        "bytes": 37336,
+        "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "MENU_OPEN",
+        "evidence_type": "STATIC_VISUAL"
+      },
+      "actual": {
+        "bytes": 37336,
+        "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_core",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_COOKIE.png",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_COOKIE.png",
+        "bytes": 24902,
+        "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "COOKIE",
+        "evidence_type": "STATIC_VISUAL"
+      },
+      "actual": {
+        "bytes": 24902,
+        "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/AGENTS.md",
+      "expected": {
+        "path": "D:/23MySec/AGENTS.md",
+        "bytes": 13421,
+        "sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21"
+      },
+      "actual": {
+        "bytes": 13421,
+        "sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/PROJECT_CONTEXT.md",
+      "expected": {
+        "path": "D:/23MySec/PROJECT_CONTEXT.md",
+        "bytes": 9673,
+        "sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27"
+      },
+      "actual": {
+        "bytes": 9673,
+        "sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/01_PROJECT_INDEX.md",
+      "expected": {
+        "path": "D:/23MySec/01_PROJECT_INDEX.md",
+        "bytes": 46982,
+        "sha256": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2"
+      },
+      "actual": {
+        "bytes": 46982,
+        "sha256": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/superpowers/plans/2026-09-21-four-root-pages-d32-gate3-gate9.md",
+      "expected": {
+        "path": "D:/23MySec/docs/superpowers/plans/2026-09-21-four-root-pages-d32-gate3-gate9.md",
+        "bytes": 11148,
+        "sha256": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37"
+      },
+      "actual": {
+        "bytes": 11148,
+        "sha256": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/page-briefs/DOC-000_DOCUMENTS_COMPLIANCE_BRIEF_V0.6.md",
+      "expected": {
+        "path": "D:/23MySec/docs/page-briefs/DOC-000_DOCUMENTS_COMPLIANCE_BRIEF_V0.6.md",
+        "bytes": 11220,
+        "sha256": "561438171421419adfa50a20ebcaf26ebf4691ec85ac32a824cb2b2e81b4693f"
+      },
+      "actual": {
+        "bytes": 11220,
+        "sha256": "561438171421419adfa50a20ebcaf26ebf4691ec85ac32a824cb2b2e81b4693f"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/DOC-000_CONTENT_ARCHITECTURE_V0.10.md",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/DOC-000_CONTENT_ARCHITECTURE_V0.10.md",
+        "bytes": 12654,
+        "sha256": "019881f75517f87b75283a4a14fa7bea3163b740db6196b3b5f3778b84164326"
+      },
+      "actual": {
+        "bytes": 12654,
+        "sha256": "019881f75517f87b75283a4a14fa7bea3163b740db6196b3b5f3778b84164326"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/05_review/DOC-000_POST_GATE9_FAQ_GRADE_ALIGNMENT_DECISION_V0.1.md",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/05_review/DOC-000_POST_GATE9_FAQ_GRADE_ALIGNMENT_DECISION_V0.1.md",
+        "bytes": 2388,
+        "sha256": "a6a7a14afd67d41464db3ae252b9224964243a2de601dceee8328264c32e7215"
+      },
+      "actual": {
+        "bytes": 2388,
+        "sha256": "a6a7a14afd67d41464db3ae252b9224964243a2de601dceee8328264c32e7215"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/06_handoff/DOC-000_CURRENT_GATE7_BASELINE_MANIFEST_V0.2.md",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/06_handoff/DOC-000_CURRENT_GATE7_BASELINE_MANIFEST_V0.2.md",
+        "bytes": 5325,
+        "sha256": "5f85c4728a6f37c9c1b8e5d1c157173fc1ac90e8146f396fb7bd8817cb5635f2"
+      },
+      "actual": {
+        "bytes": 5325,
+        "sha256": "5f85c4728a6f37c9c1b8e5d1c157173fc1ac90e8146f396fb7bd8817cb5635f2"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+        "bytes": 3394,
+        "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01"
+      },
+      "actual": {
+        "bytes": 3394,
+        "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "actual": {
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+        "bytes": 13549,
+        "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f"
+      },
+      "actual": {
+        "bytes": 13549,
+        "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+        "bytes": 2812,
+        "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720"
+      },
+      "actual": {
+        "bytes": 2812,
+        "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+        "bytes": 4653,
+        "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580"
+      },
+      "actual": {
+        "bytes": 4653,
+        "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "expected": {
+        "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+        "bytes": 1289,
+        "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5"
+      },
+      "actual": {
+        "bytes": 1289,
+        "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/products/PRODUCT-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "expected": {
+        "path": "D:/23MySec/pages/products/PRODUCT-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+        "bytes": 1747,
+        "sha256": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004"
+      },
+      "actual": {
+        "bytes": 1747,
+        "sha256": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "expected": {
+        "path": "D:/23MySec/pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+        "bytes": 4502,
+        "sha256": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7"
+      },
+      "actual": {
+        "bytes": 4502,
+        "sha256": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "expected": {
+        "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      },
+      "actual": {
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "expected": {
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "actual": {
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "actual": {
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "actual": {
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/06_handoff/DOC-000_GATE7_SEO_GEO_SCHEMA_SOCIAL_CONTRACT_V0.1.md",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/06_handoff/DOC-000_GATE7_SEO_GEO_SCHEMA_SOCIAL_CONTRACT_V0.1.md",
+        "bytes": 6172,
+        "sha256": "de02f9f9962c651694afcf53eda40d9cbae68fbc58b48004716442293b5644ff"
+      },
+      "actual": {
+        "bytes": 6172,
+        "sha256": "de02f9f9962c651694afcf53eda40d9cbae68fbc58b48004716442293b5644ff"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/TIO2_MY_23_PAGE_PUBLICATION_CONTRACT_FINALIZATION_V1.0.md",
+        "bytes": 28614,
+        "sha256": "e28de105ba35628365c0c0dc3dac272c5f6fe2b19589f6888cade0a26ab09213"
+      },
+      "actual": {
+        "bytes": 28614,
+        "sha256": "e28de105ba35628365c0c0dc3dac272c5f6fe2b19589f6888cade0a26ab09213"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/05_review/DOC-000_D32_GATE3_INDEPENDENT_REVIEW_V0.1.md",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/05_review/DOC-000_D32_GATE3_INDEPENDENT_REVIEW_V0.1.md",
+        "bytes": 11921,
+        "sha256": "020e04db0c76d422735c3adc784ca7014ff7082299d88a71637e926f62c6c413"
+      },
+      "actual": {
+        "bytes": 11921,
+        "sha256": "020e04db0c76d422735c3adc784ca7014ff7082299d88a71637e926f62c6c413"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "actual": {
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "actual": {
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "actual": {
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "actual": {
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "actual": {
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "actual": {
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "actual": {
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "actual": {
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "actual": {
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      },
+      "actual": {
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "actual": {
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "actual": {
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_structure.html",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_structure.html",
+        "bytes": 19279,
+        "sha256": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723"
+      },
+      "actual": {
+        "bytes": 19279,
+        "sha256": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_structure.css",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_structure.css",
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "actual": {
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_behavior.js",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_behavior.js",
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "actual": {
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_build.cjs",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_build.cjs",
+        "bytes": 6141,
+        "sha256": "b847bfd5474264cc6bfd2599806ea0db9875caa4ce36c84d2b20c4f8e5330c13"
+      },
+      "actual": {
+        "bytes": 6141,
+        "sha256": "b847bfd5474264cc6bfd2599806ea0db9875caa4ce36c84d2b20c4f8e5330c13"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_verify.cjs",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_verify.cjs",
+        "bytes": 8351,
+        "sha256": "8471a4cd6d4985f525634d049e83098d36b023cafe3d6133683b26f60240dfd5"
+      },
+      "actual": {
+        "bytes": 8351,
+        "sha256": "8471a4cd6d4985f525634d049e83098d36b023cafe3d6133683b26f60240dfd5"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_title_test.cjs",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_title_test.cjs",
+        "bytes": 1527,
+        "sha256": "066102bd9ee4fdd212874ea2839b77cb599f66e8149766c7d9b1189679b26e33"
+      },
+      "actual": {
+        "bytes": 1527,
+        "sha256": "066102bd9ee4fdd212874ea2839b77cb599f66e8149766c7d9b1189679b26e33"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_finalize_fix.cjs",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_finalize_fix.cjs",
+        "bytes": 7316,
+        "sha256": "345479e9949b77cdec7b0017fc04694e768c8c505b999822d84855bfd1fe74c2"
+      },
+      "actual": {
+        "bytes": 7316,
+        "sha256": "345479e9949b77cdec7b0017fc04694e768c8c505b999822d84855bfd1fe74c2"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "actual": {
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "actual": {
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "actual": {
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "actual": {
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "actual": {
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "actual": {
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "actual": {
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "actual": {
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "actual": {
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "expected": {
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      },
+      "actual": {
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "actual": {
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected": {
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "actual": {
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_INPUT_BINDING_V0.2.json",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_INPUT_BINDING_V0.2.json",
+        "bytes": 9410,
+        "sha256": "474618c30703277298d0ffef9a64a244842cf5a7caf30a3edd1c0725a0b57576"
+      },
+      "actual": {
+        "bytes": 9410,
+        "sha256": "474618c30703277298d0ffef9a64a244842cf5a7caf30a3edd1c0725a0b57576"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_PREFLIGHT_V0.2.json",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.2/DOC-000_D32_PREFLIGHT_V0.2.json",
+        "bytes": 10813,
+        "sha256": "658ced5b9692937637015022288f48355517ead885004d2d01e9e5f082eef6b4"
+      },
+      "actual": {
+        "bytes": 10813,
+        "sha256": "658ced5b9692937637015022288f48355517ead885004d2d01e9e5f082eef6b4"
+      },
+      "pass": true
+    },
+    {
+      "group": "new_binding_freeze",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_FREEZE_V0.1.json",
+      "expected": {
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_FREEZE_V0.1.json",
+        "bytes": 4267,
+        "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4"
+      },
+      "actual": {
+        "bytes": 4267,
+        "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_1440_FULL.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_1440_FULL.png",
+        "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d"
+      },
+      "actual": {
+        "bytes": 383022,
+        "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_COOKIE.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_COOKIE.png",
+        "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c"
+      },
+      "actual": {
+        "bytes": 24902,
+        "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_EMPTY_ERROR.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_EMPTY_ERROR.png",
+        "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86"
+      },
+      "actual": {
+        "bytes": 37024,
+        "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_FAQ2_OPEN.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_FAQ2_OPEN.png",
+        "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e"
+      },
+      "actual": {
+        "bytes": 37794,
+        "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_FULL.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_FULL.png",
+        "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067"
+      },
+      "actual": {
+        "bytes": 362758,
+        "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_MENU.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_MENU.png",
+        "sha256": "9e4dda885a862d6c08b62db7112124c7ef34b2496929b106fdff9426e85964f8"
+      },
+      "actual": {
+        "bytes": 6621,
+        "sha256": "9e4dda885a862d6c08b62db7112124c7ef34b2496929b106fdff9426e85964f8"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_MENU_OPEN.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_MENU_OPEN.png",
+        "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97"
+      },
+      "actual": {
+        "bytes": 37336,
+        "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_SELECTED.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_390_SELECTED.png",
+        "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c"
+      },
+      "actual": {
+        "bytes": 36072,
+        "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_768_FULL.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\approval_core\\DOC-000_D32_768_FULL.png",
+        "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e"
+      },
+      "actual": {
+        "bytes": 383896,
+        "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\diagnostic-1440.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\diagnostic-1440.png",
+        "sha256": "b3c56e3677472eab3f6324fea0e0c1cee53fa37693a90429890f8ffb08683dc1"
+      },
+      "actual": {
+        "bytes": 383054,
+        "sha256": "b3c56e3677472eab3f6324fea0e0c1cee53fa37693a90429890f8ffb08683dc1"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\diagnostic-390.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\diagnostic-390.png",
+        "sha256": "6856f3d77b55e81ce254a63bb93cf0ff81bcd5c0e774520cbb331c51fd9df9e6"
+      },
+      "actual": {
+        "bytes": 362723,
+        "sha256": "6856f3d77b55e81ce254a63bb93cf0ff81bcd5c0e774520cbb331c51fd9df9e6"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\diagnostic-768.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\diagnostic-768.png",
+        "sha256": "e4404242bc44eaae99bc765b020b77d21f50dacf5ade767466ee32113e627ea1"
+      },
+      "actual": {
+        "bytes": 383906,
+        "sha256": "e4404242bc44eaae99bc765b020b77d21f50dacf5ade767466ee32113e627ea1"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\DIAGNOSTIC_01.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\DIAGNOSTIC_01.json",
+        "sha256": "b32267ce3ccfa565d342db94dd940a997a933443fa2a6cddfb349be9c9e2ff8d"
+      },
+      "actual": {
+        "bytes": 8875,
+        "sha256": "b32267ce3ccfa565d342db94dd940a997a933443fa2a6cddfb349be9c9e2ff8d"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\FIRST_CAPTURE_FREEZE.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\FIRST_CAPTURE_FREEZE.json",
+        "sha256": "3214925a26bb7990981781782cc408acb7818edf3890566327e277eb1c143119"
+      },
+      "actual": {
+        "bytes": 4267,
+        "sha256": "3214925a26bb7990981781782cc408acb7818edf3890566327e277eb1c143119"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\FIRST_CAPTURE_MANIFEST.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\FIRST_CAPTURE_MANIFEST.json",
+        "sha256": "b423e70d7a422271b39b574b9d75ced1c1bcc179d11c3ed80c7e342cbc0587e6"
+      },
+      "actual": {
+        "bytes": 4877,
+        "sha256": "b423e70d7a422271b39b574b9d75ced1c1bcc179d11c3ed80c7e342cbc0587e6"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\GREEN.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\GREEN.json",
+        "sha256": "d5e85379f723052b2952214730954de62f6948883e9960775dd1cab3d1d4ce75"
+      },
+      "actual": {
+        "bytes": 10048,
+        "sha256": "d5e85379f723052b2952214730954de62f6948883e9960775dd1cab3d1d4ce75"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-0.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-0.png",
+        "sha256": "95328bb51accafbe03a0b3ed57c4bad2a45faa52c729974ddb8d1adbacaa1422"
+      },
+      "actual": {
+        "bytes": 49230,
+        "sha256": "95328bb51accafbe03a0b3ed57c4bad2a45faa52c729974ddb8d1adbacaa1422"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-1.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-1.png",
+        "sha256": "c0aa0b74f3323bcd20e593d35ac66fe520127747b01e064903cec6666b45bb01"
+      },
+      "actual": {
+        "bytes": 36406,
+        "sha256": "c0aa0b74f3323bcd20e593d35ac66fe520127747b01e064903cec6666b45bb01"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-2.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-2.png",
+        "sha256": "13a9e51ba53b5fd4caec57ba47da0c17a9cc41726cdfa796940aa675dc8f3983"
+      },
+      "actual": {
+        "bytes": 32514,
+        "sha256": "13a9e51ba53b5fd4caec57ba47da0c17a9cc41726cdfa796940aa675dc8f3983"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-3.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-3.png",
+        "sha256": "7e5ac3963c9933b50a9f5df9006f383faf50030e2cd76a5b157c31b2e056fa18"
+      },
+      "actual": {
+        "bytes": 52395,
+        "sha256": "7e5ac3963c9933b50a9f5df9006f383faf50030e2cd76a5b157c31b2e056fa18"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-4.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-4.png",
+        "sha256": "0cff5645170c57f810be1deb2f0ee007da75123de00b3cefa7b1f34e70e2c78b"
+      },
+      "actual": {
+        "bytes": 55778,
+        "sha256": "0cff5645170c57f810be1deb2f0ee007da75123de00b3cefa7b1f34e70e2c78b"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-5.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-5.png",
+        "sha256": "d05431400844b6c5d07de927323472774b4067534f8ceec5dc681e94f4dce869"
+      },
+      "actual": {
+        "bytes": 26143,
+        "sha256": "d05431400844b6c5d07de927323472774b4067534f8ceec5dc681e94f4dce869"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-6.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-6.png",
+        "sha256": "47d1ed865ec0d89b736e48391dace8b49acf810387071828848372fd291fd65b"
+      },
+      "actual": {
+        "bytes": 35001,
+        "sha256": "47d1ed865ec0d89b736e48391dace8b49acf810387071828848372fd291fd65b"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-7.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-1440-7.png",
+        "sha256": "ef64998792cdeff7d5aa5c57e19046ca25ce14ce31f737acf5fe114a93fa4aaf"
+      },
+      "actual": {
+        "bytes": 25732,
+        "sha256": "ef64998792cdeff7d5aa5c57e19046ca25ce14ce31f737acf5fe114a93fa4aaf"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-0.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-0.png",
+        "sha256": "1d98c6767273fa9f611c80b526dde8156937f5c9ec6594da21fa8f9784eaa04c"
+      },
+      "actual": {
+        "bytes": 37899,
+        "sha256": "1d98c6767273fa9f611c80b526dde8156937f5c9ec6594da21fa8f9784eaa04c"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-1.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-1.png",
+        "sha256": "b979696963212915db5f710682f9001e28245d3b4d96c0a8c413e9ffe4f22295"
+      },
+      "actual": {
+        "bytes": 33423,
+        "sha256": "b979696963212915db5f710682f9001e28245d3b4d96c0a8c413e9ffe4f22295"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-2.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-2.png",
+        "sha256": "b645161ebd101a6e03dde3dd605922e0d902fd09756bb91676d15762d20f242a"
+      },
+      "actual": {
+        "bytes": 34967,
+        "sha256": "b645161ebd101a6e03dde3dd605922e0d902fd09756bb91676d15762d20f242a"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-3.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-3.png",
+        "sha256": "8024e450e9d0a0253dfe462084cc8a908756c2f52b85c3ada8334fb74b9f91a2"
+      },
+      "actual": {
+        "bytes": 54770,
+        "sha256": "8024e450e9d0a0253dfe462084cc8a908756c2f52b85c3ada8334fb74b9f91a2"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-4.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-4.png",
+        "sha256": "642f9267e4f33cbfeca3a0c3ab71474dd4ce13283e74d2e584927197e11207ec"
+      },
+      "actual": {
+        "bytes": 65820,
+        "sha256": "642f9267e4f33cbfeca3a0c3ab71474dd4ce13283e74d2e584927197e11207ec"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-5.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-5.png",
+        "sha256": "a0de24a2b78872c0ab1733b82d7764964c32d390099e1fc7b9f99514ddf90f76"
+      },
+      "actual": {
+        "bytes": 27190,
+        "sha256": "a0de24a2b78872c0ab1733b82d7764964c32d390099e1fc7b9f99514ddf90f76"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-6.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-6.png",
+        "sha256": "629d905d3b33af824ecdef9fdd71751135a5437bcb0fec192124a2127cdfbb9c"
+      },
+      "actual": {
+        "bytes": 32754,
+        "sha256": "629d905d3b33af824ecdef9fdd71751135a5437bcb0fec192124a2127cdfbb9c"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-7.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-390-7.png",
+        "sha256": "1672574b5d5d03b3fc7d4e779f79ca79caac20855704cb6b02f3e118ed9b95ed"
+      },
+      "actual": {
+        "bytes": 24006,
+        "sha256": "1672574b5d5d03b3fc7d4e779f79ca79caac20855704cb6b02f3e118ed9b95ed"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-0.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-0.png",
+        "sha256": "8e21b7d914846c3e84cb5e15913e67381652bc14630626606228023ccc063b09"
+      },
+      "actual": {
+        "bytes": 43042,
+        "sha256": "8e21b7d914846c3e84cb5e15913e67381652bc14630626606228023ccc063b09"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-1.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-1.png",
+        "sha256": "15875adb00a127044472cf5e027001f47ff3588528b9760face4c9ce8bf8df7b"
+      },
+      "actual": {
+        "bytes": 36007,
+        "sha256": "15875adb00a127044472cf5e027001f47ff3588528b9760face4c9ce8bf8df7b"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-2.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-2.png",
+        "sha256": "6666a39bda2f9decbfc10d6d678c8eaf05f960aaf3923d8b24b104c98ca3771f"
+      },
+      "actual": {
+        "bytes": 36978,
+        "sha256": "6666a39bda2f9decbfc10d6d678c8eaf05f960aaf3923d8b24b104c98ca3771f"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-3.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-3.png",
+        "sha256": "50fe873e7b269e20ea191bcc13e1a0ca4d72662a201905b381ae5107c4b8a969"
+      },
+      "actual": {
+        "bytes": 57684,
+        "sha256": "50fe873e7b269e20ea191bcc13e1a0ca4d72662a201905b381ae5107c4b8a969"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-4.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-4.png",
+        "sha256": "722db1424cac20f49e40d9d2e86993e159ef9eafa5c066fc541e46e28ba367a0"
+      },
+      "actual": {
+        "bytes": 68833,
+        "sha256": "722db1424cac20f49e40d9d2e86993e159ef9eafa5c066fc541e46e28ba367a0"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-5.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-5.png",
+        "sha256": "8f8cee1ebb946f795c34eb39363f813f01dfa2baa40c3b57ae46615fdfada5b0"
+      },
+      "actual": {
+        "bytes": 27121,
+        "sha256": "8f8cee1ebb946f795c34eb39363f813f01dfa2baa40c3b57ae46615fdfada5b0"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-6.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-6.png",
+        "sha256": "0703e340fea01f7f7d3b93f9a0408be0c79b2b11d0ad0d96bc7d7d7894b260ee"
+      },
+      "actual": {
+        "bytes": 33707,
+        "sha256": "0703e340fea01f7f7d3b93f9a0408be0c79b2b11d0ad0d96bc7d7d7894b260ee"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-7.png",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\readable-768-7.png",
+        "sha256": "3805ae68638888ebe6c9ee214a5d8220d1a42a05e7c26c9b7a9c35849c25dc95"
+      },
+      "actual": {
+        "bytes": 25326,
+        "sha256": "3805ae68638888ebe6c9ee214a5d8220d1a42a05e7c26c9b7a9c35849c25dc95"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\RED.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\diagnostic_support\\RED.json",
+        "sha256": "78aa17bf186e7c2464e5d4c7cf7ee29c2610a868dcb3ed891ade29c7311ec2c5"
+      },
+      "actual": {
+        "bytes": 134,
+        "sha256": "78aa17bf186e7c2464e5d4c7cf7ee29c2610a868dcb3ed891ade29c7311ec2c5"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_ASSET_MANIFEST_V0.1.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_ASSET_MANIFEST_V0.1.json",
+        "sha256": "891ba6ab8cb6bad128ebc8642161ba69568f5c4846e04f54a7a62877e75a5222"
+      },
+      "actual": {
+        "bytes": 4888,
+        "sha256": "891ba6ab8cb6bad128ebc8642161ba69568f5c4846e04f54a7a62877e75a5222"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_behavior.js",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_behavior.js",
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "actual": {
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_build.cjs",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_build.cjs",
+        "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a"
+      },
+      "actual": {
+        "bytes": 5880,
+        "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_capture.cjs",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_capture.cjs",
+        "sha256": "138824b4fe61f949cf214cfa40c9b0d0ff50413fe6daa83353d6f4432d33ebaa"
+      },
+      "actual": {
+        "bytes": 6042,
+        "sha256": "138824b4fe61f949cf214cfa40c9b0d0ff50413fe6daa83353d6f4432d33ebaa"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_FREEZE_V0.1.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_FREEZE_V0.1.json",
+        "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4"
+      },
+      "actual": {
+        "bytes": 4267,
+        "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_INPUT_BINDING_V0.1.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_INPUT_BINDING_V0.1.json",
+        "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd"
+      },
+      "actual": {
+        "bytes": 8092,
+        "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_PREFLIGHT_V0.1.json",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_PREFLIGHT_V0.1.json",
+        "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4"
+      },
+      "actual": {
+        "bytes": 886,
+        "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_structure.css",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_structure.css",
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "actual": {
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_structure.html",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_structure.html",
+        "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada"
+      },
+      "actual": {
+        "bytes": 19294,
+        "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada"
+      },
+      "pass": true
+    },
+    {
+      "group": "V01_preservation",
+      "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_verify.cjs",
+      "expected": {
+        "path": "D:\\23MySec\\pages\\documents\\04_planning\\d32-gate3-v0.1\\DOC-000_D32_verify.cjs",
+        "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5"
+      },
+      "actual": {
+        "bytes": 8235,
+        "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.html",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.html",
+        "bytes": 19294,
+        "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada",
+        "actual": {
+          "bytes": 19294,
+          "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 19294,
+        "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.css",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.css",
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552",
+        "actual": {
+          "bytes": 4181,
+          "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_behavior.js",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_behavior.js",
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e",
+        "actual": {
+          "bytes": 1634,
+          "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_build.cjs",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_build.cjs",
+        "bytes": 5880,
+        "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a",
+        "actual": {
+          "bytes": 5880,
+          "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 5880,
+        "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_verify.cjs",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_verify.cjs",
+        "bytes": 8235,
+        "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5",
+        "actual": {
+          "bytes": 8235,
+          "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 8235,
+        "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_INPUT_BINDING_V0.1.json",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_INPUT_BINDING_V0.1.json",
+        "bytes": 8092,
+        "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd",
+        "actual": {
+          "bytes": 8092,
+          "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 8092,
+        "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_PREFLIGHT_V0.1.json",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_PREFLIGHT_V0.1.json",
+        "bytes": 886,
+        "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4",
+        "actual": {
+          "bytes": 886,
+          "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 886,
+        "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_FREEZE_V0.1.json",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_FREEZE_V0.1.json",
+        "bytes": 4267,
+        "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4",
+        "actual": {
+          "bytes": 4267,
+          "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4267,
+        "sha256": "14b257e6db3c2b93b6132225135e514738f6c362ea4cb4ea27f24cf1a2f171b4"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_1440_FULL.png",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_1440_FULL.png",
+        "bytes": 383022,
+        "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+        "logical_width": 1440,
+        "scale": 1,
+        "state": "FULL",
+        "evidence_type": "STATIC_VISUAL",
+        "actual": {
+          "bytes": 383022,
+          "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 383022,
+        "sha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_768_FULL.png",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_768_FULL.png",
+        "bytes": 383896,
+        "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+        "logical_width": 768,
+        "scale": 1,
+        "state": "FULL",
+        "evidence_type": "STATIC_VISUAL",
+        "actual": {
+          "bytes": 383896,
+          "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 383896,
+        "sha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FULL.png",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FULL.png",
+        "bytes": 362758,
+        "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "FULL",
+        "evidence_type": "STATIC_VISUAL",
+        "actual": {
+          "bytes": 362758,
+          "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 362758,
+        "sha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_EMPTY_ERROR.png",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_EMPTY_ERROR.png",
+        "bytes": 37024,
+        "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "EMPTY_ERROR",
+        "evidence_type": "STATIC_VISUAL",
+        "actual": {
+          "bytes": 37024,
+          "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 37024,
+        "sha256": "f1a93800e8717065cf9830fd1ed2eeb2a8acb11bb88a4df4e1973f335ac92d86"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_SELECTED.png",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_SELECTED.png",
+        "bytes": 36072,
+        "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "SELECTED",
+        "evidence_type": "STATIC_VISUAL",
+        "actual": {
+          "bytes": 36072,
+          "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 36072,
+        "sha256": "defa32a35b937aeb74896f4506df9cf27682d0d4e844dcabc508087209a6ae7c"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FAQ2_OPEN.png",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_FAQ2_OPEN.png",
+        "bytes": 37794,
+        "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "FAQ2_OPEN",
+        "evidence_type": "STATIC_VISUAL",
+        "actual": {
+          "bytes": 37794,
+          "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 37794,
+        "sha256": "35f2635f8ea14c69bc03d8d729a6792d7b3707f7bfb7920b8ad81b973ba9052e"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_MENU_OPEN.png",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_MENU_OPEN.png",
+        "bytes": 37336,
+        "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "MENU_OPEN",
+        "evidence_type": "STATIC_VISUAL",
+        "actual": {
+          "bytes": 37336,
+          "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 37336,
+        "sha256": "65389d1581c2a10399bb63da5b36bf0f0e5949e9a86b19806593879d80893e97"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_COOKIE.png",
+      "expected": {
+        "group": "approval_core",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/approval_core/DOC-000_D32_390_COOKIE.png",
+        "bytes": 24902,
+        "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c",
+        "logical_width": 390,
+        "scale": 1,
+        "state": "COOKIE",
+        "evidence_type": "STATIC_VISUAL",
+        "actual": {
+          "bytes": 24902,
+          "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 24902,
+        "sha256": "7ab5930f8b84da3c965e58dc446a0d3298fe392b7da8d86c47f355779fb2cc9c"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/AGENTS.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/AGENTS.md",
+        "bytes": 13421,
+        "sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21",
+        "actual": {
+          "bytes": 13421,
+          "sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 13421,
+        "sha256": "41fb65301d69ec186b83086dc8848debc0883b5dbbea3d64fb45e09ee1722a21"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/PROJECT_CONTEXT.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/PROJECT_CONTEXT.md",
+        "bytes": 9673,
+        "sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27",
+        "actual": {
+          "bytes": 9673,
+          "sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 9673,
+        "sha256": "a63d499a5d1f2697e548567328b564f2c2e0cbe9daf5ca8017f5d4445b48aa27"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/01_PROJECT_INDEX.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/01_PROJECT_INDEX.md",
+        "bytes": 46982,
+        "sha256": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2",
+        "actual": {
+          "bytes": 46982,
+          "sha256": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 46982,
+        "sha256": "70e1f78c6198c29e298bc5c2635115fab9e1dd5a4757c2146534bdb1de5c51b2"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/superpowers/plans/2026-09-21-four-root-pages-d32-gate3-gate9.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/superpowers/plans/2026-09-21-four-root-pages-d32-gate3-gate9.md",
+        "bytes": 11148,
+        "sha256": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37",
+        "actual": {
+          "bytes": 11148,
+          "sha256": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 11148,
+        "sha256": "7962d744ffd872e60e35b2c2076169e69b9741ce72ec62687aa213f00f6e1c37"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/page-briefs/DOC-000_DOCUMENTS_COMPLIANCE_BRIEF_V0.6.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/page-briefs/DOC-000_DOCUMENTS_COMPLIANCE_BRIEF_V0.6.md",
+        "bytes": 11220,
+        "sha256": "561438171421419adfa50a20ebcaf26ebf4691ec85ac32a824cb2b2e81b4693f",
+        "actual": {
+          "bytes": 11220,
+          "sha256": "561438171421419adfa50a20ebcaf26ebf4691ec85ac32a824cb2b2e81b4693f"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 11220,
+        "sha256": "561438171421419adfa50a20ebcaf26ebf4691ec85ac32a824cb2b2e81b4693f"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/DOC-000_CONTENT_ARCHITECTURE_V0.10.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/pages/documents/04_planning/DOC-000_CONTENT_ARCHITECTURE_V0.10.md",
+        "bytes": 12654,
+        "sha256": "019881f75517f87b75283a4a14fa7bea3163b740db6196b3b5f3778b84164326",
+        "actual": {
+          "bytes": 12654,
+          "sha256": "019881f75517f87b75283a4a14fa7bea3163b740db6196b3b5f3778b84164326"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 12654,
+        "sha256": "019881f75517f87b75283a4a14fa7bea3163b740db6196b3b5f3778b84164326"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/05_review/DOC-000_POST_GATE9_FAQ_GRADE_ALIGNMENT_DECISION_V0.1.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/pages/documents/05_review/DOC-000_POST_GATE9_FAQ_GRADE_ALIGNMENT_DECISION_V0.1.md",
+        "bytes": 2388,
+        "sha256": "a6a7a14afd67d41464db3ae252b9224964243a2de601dceee8328264c32e7215",
+        "actual": {
+          "bytes": 2388,
+          "sha256": "a6a7a14afd67d41464db3ae252b9224964243a2de601dceee8328264c32e7215"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2388,
+        "sha256": "a6a7a14afd67d41464db3ae252b9224964243a2de601dceee8328264c32e7215"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/06_handoff/DOC-000_CURRENT_GATE7_BASELINE_MANIFEST_V0.2.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/pages/documents/06_handoff/DOC-000_CURRENT_GATE7_BASELINE_MANIFEST_V0.2.md",
+        "bytes": 5325,
+        "sha256": "5f85c4728a6f37c9c1b8e5d1c157173fc1ac90e8146f396fb7bd8817cb5635f2",
+        "actual": {
+          "bytes": 5325,
+          "sha256": "5f85c4728a6f37c9c1b8e5d1c157173fc1ac90e8146f396fb7bd8817cb5635f2"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 5325,
+        "sha256": "5f85c4728a6f37c9c1b8e5d1c157173fc1ac90e8146f396fb7bd8817cb5635f2"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/GATE3_AGENT_SKILL_CURRENT_BASELINE_MANIFEST_V1.14.md",
+        "bytes": 3394,
+        "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01",
+        "actual": {
+          "bytes": 3394,
+          "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 3394,
+        "sha256": "fd275cde95f23f9fb23fac4a6c1dd60a08038ee65e1ff11190ec3c83abe83f01"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md",
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18",
+        "actual": {
+          "bytes": 7235,
+          "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 7235,
+        "sha256": "cc236f47018a68771856fdbaf5553517f63959774e0e8819130e66e2b1049f18"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SHARED_COMPONENT_SPEC_V1.0.md",
+        "bytes": 13549,
+        "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f",
+        "actual": {
+          "bytes": 13549,
+          "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 13549,
+        "sha256": "e309fa21993701c87a7600826e7f1ad98d53cf86a27f688e94fe429cf5bb9e6f"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_OPEN_WHITE_SURFACE_ADDENDUM_V1.0.md",
+        "bytes": 2812,
+        "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720",
+        "actual": {
+          "bytes": 2812,
+          "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2812,
+        "sha256": "a665865572d9819c926c0e636f42d8fc8dd55b7dbd2905abbd5d1b7749f65720"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/ROOT_PAGE_HERO_SEVEN_PAGE_APPROVED_BASELINE_MANIFEST_V1.0.md",
+        "bytes": 4653,
+        "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580",
+        "actual": {
+          "bytes": 4653,
+          "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4653,
+        "sha256": "5e07a2c8f597ce92978144d1e6744a0a8783157f544863b7d515487197a10580"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/pages/home/HOME-001_CURRENT_GATE_BASELINE_MANIFEST_V1.12.md",
+        "bytes": 1289,
+        "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5",
+        "actual": {
+          "bytes": 1289,
+          "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 1289,
+        "sha256": "bcd8a2be0642b19abdeefc5fbd61ba531eb3b4d8e6acaf4c59d818ab2f4003e5"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/products/PRODUCT-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/pages/products/PRODUCT-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.2.md",
+        "bytes": 1747,
+        "sha256": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004",
+        "actual": {
+          "bytes": 1747,
+          "sha256": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 1747,
+        "sha256": "c1ae911694356429da3aec18d6e5dcdf2295658f4d9697724f3adad97b8ee004"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/pages/applications/APP-000_D32_CURRENT_GATE_BASELINE_MANIFEST_V0.4.md",
+        "bytes": 4502,
+        "sha256": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7",
+        "actual": {
+          "bytes": 4502,
+          "sha256": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4502,
+        "sha256": "0cb864edb57b3fb2405efff16c88c3d59b2ecbbc1638198964ba3569b45d35c7"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/brand/visual/TiO2_Malaysia_Visual_Standard_V1.0.md",
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec",
+        "actual": {
+          "bytes": 11671,
+          "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 11671,
+        "sha256": "75cf7bbd306a4b2bf2662414dfb28813b094b8552af8a7fe54231f3837e524ec"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/brand/visual/TIO2_MALAYSIA_PRIMARY_CTA_ACCESSIBILITY_ADDENDUM_V1.0.md",
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a",
+        "actual": {
+          "bytes": 1960,
+          "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 1960,
+        "sha256": "1f6cb1f9913bd78aed3cab30af56ce1eeabb0c46cb354f09f05e2d00a3897e9a"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/brand/logo/production/PRODUCTION_SVG_LOGO_MANIFEST_V1.0.md",
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894",
+        "actual": {
+          "bytes": 8090,
+          "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 8090,
+        "sha256": "81b73a5262269f618e8fb0667c9345279449a1bcb71647422b6a1d3f8ebfe894"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/GLOBAL_FOOTER_LEGAL_UTILITY_ADDENDUM_V1.0.md",
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633",
+        "actual": {
+          "bytes": 2310,
+          "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2310,
+        "sha256": "c1f0011408ed1d87cff6d36c11f7e9812cc9a803431a3f7030c771faf41bf633"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+        "actual": {
+          "bytes": 2409,
+          "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a",
+        "actual": {
+          "bytes": 11126,
+          "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+        "actual": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "actual": {
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+        "actual": {
+          "bytes": 3889,
+          "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+        "actual": {
+          "bytes": 2369,
+          "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+        "actual": {
+          "bytes": 1426,
+          "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+        "actual": {
+          "bytes": 5125,
+          "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+        "actual": {
+          "bytes": 455,
+          "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb",
+        "actual": {
+          "bytes": 5668,
+          "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+        "actual": {
+          "bytes": 4342,
+          "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected": {
+        "group": "input_or_shared",
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+        "actual": {
+          "bytes": 2725,
+          "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.html",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.html",
+        "bytes": 19294,
+        "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada",
+        "actual": {
+          "bytes": 19294,
+          "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 19294,
+        "sha256": "9e2521cb2b2094ce6f8e055a2552bc19b41f2dd3fb7eb920d4454c59e0b5eada"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.css",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_structure.css",
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552",
+        "actual": {
+          "bytes": 4181,
+          "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4181,
+        "sha256": "8ad839863f3e7e13d8114616cad7c48578c3b82f15cc470b26c19a1a93d4e552"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_behavior.js",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_behavior.js",
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e",
+        "actual": {
+          "bytes": 1634,
+          "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 1634,
+        "sha256": "c689d037e2592ba2d743972856bc4f6ae0d76783c1eda9d01f92ac492df1674e"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_build.cjs",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_build.cjs",
+        "bytes": 5880,
+        "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a",
+        "actual": {
+          "bytes": 5880,
+          "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 5880,
+        "sha256": "8a110e0320a5b68519f88a0233687341c07c3f24d1b92e073edc7b12a4ccd03a"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_verify.cjs",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_verify.cjs",
+        "bytes": 8235,
+        "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5",
+        "actual": {
+          "bytes": 8235,
+          "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 8235,
+        "sha256": "33d33308c48b8b2083cdf3a321af51cbaa2cc1679fa9bbf2f37d722a6188a8a5"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-package.json",
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50",
+        "actual": {
+          "bytes": 2409,
+          "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2409,
+        "sha256": "1148a05fa12fdbf038f456a1cf40d3c1cf3f1c967fae1384616342faaa2fdf50"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/consumer-smoke-fixture.html",
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a",
+        "actual": {
+          "bytes": 11126,
+          "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 11126,
+        "sha256": "439819f56f666465b2f38ac2c61cc6703109f7bbb72ad9e88725371aaecd452a"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-OFL.txt",
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+        "actual": {
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4377,
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/Inter-Variable.ttf",
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "actual": {
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 876576,
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/render-shared-chrome.cjs",
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085",
+        "actual": {
+          "bytes": 3889,
+          "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 3889,
+        "sha256": "a4115396e52d4e7500972efdce7c07d183832969cac8703dff940e5575c3e085"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-behavior.js",
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56",
+        "actual": {
+          "bytes": 2369,
+          "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2369,
+        "sha256": "63c3cb0bae379e7ac77d5cc6d2e60bc16654079e3e71f75f5fc5743034e85e56"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome-data.json",
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4",
+        "actual": {
+          "bytes": 1426,
+          "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 1426,
+        "sha256": "7db02ebb526a74bb757b6c2592ced519921e951c1be082d23377c5cca74fafb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-chrome.css",
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e",
+        "actual": {
+          "bytes": 5125,
+          "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 5125,
+        "sha256": "e8f8b7d2bc2d31ea562cd46b93f0f9a789942f2a8405d3a7175092df09eeac7e"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/shared-consent-data.json",
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c",
+        "actual": {
+          "bytes": 455,
+          "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 455,
+        "sha256": "2fb48b3cbfe42a27416471db46c982803d4fccab517b49429320e32ba0c2596c"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/docs/architecture/gate3-shared-consumer-v0.2/SHARED_GLOBAL_CHROME_GATE3_CONSUMER_MANIFEST_V0.2.md",
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb",
+        "actual": {
+          "bytes": 5668,
+          "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 5668,
+        "sha256": "eacb20113a0bad1c9022c5d618178ef6482aa8913fcd1197443dc7b596548eeb"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-primary-horizontal-v0.1.svg",
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c",
+        "actual": {
+          "bytes": 4342,
+          "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 4342,
+        "sha256": "eeed3a758e7ae1b847238d1c88e86eee7a8e67b863969af4d286747e9a72487c"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/brand/logo/candidates/v0.1/tio2-malaysia-reverse-monochrome-v0.1.svg",
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e",
+        "actual": {
+          "bytes": 2725,
+          "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 2725,
+        "sha256": "7cfaeafa02ac8469a006c9489db2f92b15b2621e4151b04efe1b30fc734c1b5e"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_PREFLIGHT_V0.1.json",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_PREFLIGHT_V0.1.json",
+        "bytes": 886,
+        "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4",
+        "actual": {
+          "bytes": 886,
+          "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 886,
+        "sha256": "53eaac8324b8f4c24bf8399ce4189b0d77cc7203042104859c7d7d1718397fb4"
+      },
+      "pass": true
+    },
+    {
+      "group": "prior_independent_record",
+      "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_INPUT_BINDING_V0.1.json",
+      "expected": {
+        "group": "freeze",
+        "path": "D:/23MySec/pages/documents/04_planning/d32-gate3-v0.1/DOC-000_D32_INPUT_BINDING_V0.1.json",
+        "bytes": 8092,
+        "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd",
+        "actual": {
+          "bytes": 8092,
+          "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd"
+        },
+        "pass": true
+      },
+      "actual": {
+        "bytes": 8092,
+        "sha256": "758b3b3635bc4626991014117ab5560c4bfa26b4ed8089ece296fd78f678d5bd"
+      },
+      "pass": true
+    }
+  ],
+  "parity": [
+    {
+      "width": 1440,
+      "independentBufferSha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+      "priorFormalSha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+      "authorParityFileSha256": "e2c4099081c8307128575adc1d77357c833e2b0f9df48c63f7deee93f83e6c2d",
+      "bytes": 383022
+    },
+    {
+      "width": 768,
+      "independentBufferSha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+      "priorFormalSha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+      "authorParityFileSha256": "3a6656cf2dc86449f838eb3ae3ec3a769716cfba1dc0adb0074e9da16c3f2c5e",
+      "bytes": 383896
+    },
+    {
+      "width": 390,
+      "independentBufferSha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+      "priorFormalSha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+      "authorParityFileSha256": "59f6222a121c1d566e873a598a32ccc501a725a9aba42b612d589be882741067",
+      "bytes": 362758
+    }
+  ],
+  "passed": 43,
+  "failed": 0,
+  "inheritedValidCoverage": 183,
+  "note": "No author scripts executed. Screenshot buffers hashed in memory; no duplicate raster set written. Original review is retained."
+}

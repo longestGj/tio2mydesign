@@ -1,0 +1,56 @@
+// Gate 3 planning verifier. This is not a WordPress implementation test.
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const base = __dirname;
+const sha = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const checks = [];
+function check(id, pass, actual) { checks.push({id, pass:!!pass, actual}); }
+const htmlFile = path.join(base, 'RES-000_D32_GATE3.html');
+check('editable_candidate_exists', fs.existsSync(htmlFile), htmlFile);
+if (!fs.existsSync(htmlFile)) {
+  const result = {mode:'AUTHOR_SELF_CHECK', phase:'RED', checks, failed:checks.filter(x=>!x.pass).length};
+  fs.writeFileSync(path.join(base,'RES-000_D32_RED.json'), JSON.stringify(result,null,2)+'\n');
+  console.log(JSON.stringify(result,null,2)); process.exit(1);
+}
+const {projectInventory} = require('./RES-000_D32_RESOURCE_MODEL.cjs');
+const now='2026-09-21';
+const origin={pageId:'RES-ORIGIN',scope:'tio2-my',language:'en',mappingApproved:true,urlApproved:true,contentApproved:true,claimApproved:true,publicApproved:true,routeLive:true,canonical:'https://tio2products.com/resources/non-china-titanium-dioxide/',url:'/resources/non-china-titanium-dioxide/',title:'Non-China Titanium Dioxide Supply Guide',summary:'Approved sourcing guide.',type:'guide',lastReviewed:'2026-09-20',nextReviewDue:'2027-03-19',featured:true};
+check('H0_empty',projectInventory([],now).state==='H0_NO_QUALIFIED_RESOURCE');
+check('H1_design_is_not_public',projectInventory([{...origin,publicApproved:false}],now).items.length===0);
+check('H2_single_no_duplicate',projectInventory([origin],now).featured.length===1&&projectInventory([origin],now).latest.length===0);
+for(const field of ['mappingApproved','urlApproved','contentApproved','claimApproved','publicApproved','routeLive'])check('fail_closed_'+field,projectInventory([{...origin,[field]:false}],now).items.length===0);
+check('foreign_scope',projectInventory([{...origin,scope:'tiovar'}],now).items.length===0);
+check('wrong_language',projectInventory([{...origin,language:'ms'}],now).items.length===0);
+check('canonical_mismatch',projectInventory([{...origin,canonical:'https://other.example/'}],now).items.length===0);
+check('review_due',projectInventory([{...origin,nextReviewDue:now}],now).items.length===0);
+check('future_review',projectInventory([{...origin,lastReviewed:'2026-10-01'}],now).items.length===0);
+const trade={...origin,pageId:'RES-TRADE-EU',url:'/resources/eu-titanium-dioxide-anti-dumping-duty/',canonical:'https://tio2products.com/resources/eu-titanium-dioxide-anti-dumping-duty/',type:'trade',market:'European Union',topic:'Titanium dioxide trade',officialSource:true,sourceName:'Official source fixture',sourceUrl:'https://example.invalid/official-fixture',sourceDate:'2026-09-19',productOriginScope:'Defined product and origin fixture',statusCopy:'Reviewed update',freshness:'CURRENT',factAnalysisLabel:'Official source summary',freshnessOwner:'FIXTURE_ONLY_EDITOR',nextReviewDue:'2026-10-19'};
+check('H4_qualified_trade',projectInventory([trade],now).items.length===1);
+for(const field of ['market','topic','officialSource','sourceName','sourceUrl','sourceDate','productOriginScope','statusCopy','lastReviewed','factAnalysisLabel'])check('trade_atomic_'+field,projectInventory([{...trade,[field]:null}],now).items.length===0);
+for(const freshness of ['REVIEW_DUE','STALE_HOLD','WITHDRAWN'])check('H5_'+freshness,projectInventory([{...trade,freshness}],now).items.length===0);
+check('comparison_audit',projectInventory([{...origin,type:'technical',technicalAudit:false,nonEquivalenceAudit:true}],now).items.length===0);
+const many=[origin,...[1,2,3,4].map((n)=>({...origin,pageId:'FIXTURE-'+n,url:'/resources/fixture-'+n+'/',canonical:'https://tio2products.com/resources/fixture-'+n+'/',lastReviewed:'2026-09-'+String(20-n).padStart(2,'0')}))];
+const h3=projectInventory(many,now);
+check('H3_max_three_featured',h3.featured.length===3);
+check('H3_no_duplicates',new Set([...h3.featured,...h3.latest].map(x=>x.pageId)).size===h3.items.length);
+check('H3_real_dates_order',h3.items[0].pageId==='RES-ORIGIN');
+check('unknown_type_fails',projectInventory([{...origin,type:'unknown'}],now).items.length===0);
+check('guide_max_180_days',projectInventory([{...origin,lastReviewed:'2025-01-01'}],now).items.length===0);
+check('trade_max_30_days',projectInventory([{...trade,lastReviewed:'2026-07-01'}],now).items.length===0);
+check('technical_max_90_days',projectInventory([{...origin,type:'technical',technicalAudit:true,nonEquivalenceAudit:true,lastReviewed:'2026-01-01'}],now).items.length===0);
+check('event_trigger_immediate',projectInventory([{...origin,eventReviewPending:true}],now).items.length===0);
+check('explicit_D32_origin',projectInventory([{...origin,canonical:'https://tio2products.com'+origin.url}],now,'https://tio2products.com').items.length===1);
+check('default_D32_origin',projectInventory([{...origin,canonical:'https://tio2products.com'+origin.url}],now).items.length===1);
+check('trade_owner_missing',projectInventory([{...trade,freshnessOwner:null}],now).items.length===0);
+check('H4_visual_fixture_exists',fs.existsSync(path.join(base,'RES-000_D32_H4_LOCAL_SIMULATION.html')));
+const html=fs.readFileSync(htmlFile,'utf8');
+check('H0_no_candidate_leak',!html.includes('Non-China Titanium Dioxide Supply Guide')&&!html.includes('ItemList')&&!html.includes('Featured procurement resources')&&!html.includes('Latest titanium dioxide research and procurement updates'));
+check('H0_anchor',html.includes('href="#research-paths"'));
+check('page_no_form',!/<form\b/.test(html));
+check('hero_shared_binding',html.includes('data-component="RootPageHero"')&&html.includes('data-variant="hub-dark"'));
+check('fixed_global_rfq',html.includes('/request-a-quote/'));
+const result={mode:'AUTHOR_SELF_CHECK',phase:'GREEN',time:new Date().toISOString(),candidateSha256:sha(htmlFile),checks,passed:checks.filter(x=>x.pass).length,failed:checks.filter(x=>!x.pass).length};
+fs.writeFileSync(path.join(base,'RES-000_D32_STATIC_GREEN.json'),JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify({passed:result.passed,failed:result.failed,failures:checks.filter(x=>!x.pass)},null,2));
+process.exitCode=result.failed?1:0;

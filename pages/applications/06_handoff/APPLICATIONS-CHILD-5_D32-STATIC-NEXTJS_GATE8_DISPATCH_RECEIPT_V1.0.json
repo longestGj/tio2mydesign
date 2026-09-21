@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "APP5-D32-STATIC-G8-DISPATCH-20260921-01",
+  "pages": [
+    "APP-COAT",
+    "APP-PLAS",
+    "APP-MB",
+    "APP-INK",
+    "APP-PAPER"
+  ],
+  "dispatch": {
+    "sent_at": "2026-09-21",
+    "acknowledged_at": "2026-09-21",
+    "sender_role": "Project Control",
+    "receiver_task_title": "03开发",
+    "receiver_task_id": "01a0be2a-838b-76c0-b116-6677b9cadb70",
+    "receiver_host": "local",
+    "status": "ACKNOWLEDGED / DELIVERY_RETURNED"
+  },
+  "closed_input": {
+    "package_path": "D:/23MySec/pages/applications/06_handoff/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE6_HANDOFF_PACKAGE_V1.0.md",
+    "package_sha256": "71153324f999035d3bb42357d3a44170651f49c9de4ae36bad054e16e36baa8c",
+    "gate6_closure_path": "D:/23MySec/pages/applications/05_review/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE6_CONTROLLER_CLOSURE_V1.0.md",
+    "gate6_decision": "APP5-D32-STATIC-G6-PC-CLOSURE-20260921-01",
+    "independent_review_path": "D:/23MySec/pages/applications/05_review/APPLICATIONS-CHILD-5_D32-STATIC-NEXTJS_GATE6_INDEPENDENT_REVIEW_V1.0.md",
+    "independent_review_sha256": "9f75b6f4d0cab0480ba828e668051a52a546ab57b43f1b9e406df31e18375420",
+    "acceptance_ids": "APP5-G9-01..APP5-G9-12"
+  },
+  "receiver_acknowledgement": {
+    "repository": "D:/32NextJS",
+    "old_wordpress_repository_excluded": true,
+    "baseline_branch": "develop",
+    "baseline_commit": "53280559074eab582aecabea6e2593aaf9ccd8ed",
+    "feature_branch": "codex/applications-child-5-gate8",
+    "worktree": "D:/32NextJS/.worktrees/applications-child-5-gate8",
+    "package_hash_match": true,
+    "parallel_worktrees_preserved": [
+      "RFQ",
+      "13 product detail pages"
+    ]
+  },
+  "gate8_return": {
+    "returned_at": "2026-09-21",
+    "implementation_commit": "b8b00e423d04c4143c967ffce86a5ba00e81338e",
+    "implementation_subject": "feat: add static application detail pages",
+    "implementation_parent": "53280559074eab582aecabea6e2593aaf9ccd8ed",
+    "worktree_clean_verified_by_d23": true,
+    "five_static_route_outputs_present": true,
+    "evidence_results": "D:/32NextJS/.worktrees/applications-child-5-gate8/docs/verification/applications-child-5-gate8/RESULTS.md",
+    "evidence_source_hashes": "D:/32NextJS/.worktrees/applications-child-5-gate8/docs/verification/applications-child-5-gate8/source-hashes.json",
+    "reported_checks": [
+      "git diff --check",
+      "npm run typecheck",
+      "npm run build",
+      "npm test: Node contracts 8/8 and Playwright 100/100"
+    ],
+    "first_return_develop_at_d23_readback": "ac6d076d6c2e40d53f5a801178f13fcf00d77242",
+    "integrated_candidate_commit": "0c117ee0941a3b307f761ff0db5ea67fc98b5a07",
+    "integrated_candidate_parents": [
+      "b8b00e423d04c4143c967ffce86a5ba00e81338e",
+      "28a2f5d28334a253d3d2fd0a73bf789c3b180ddb"
+    ],
+    "integrated_candidate_tree": "9033cf746f14154fc6895ed0d1357fcabbea07fa",
+    "integrated_results_sha256": "fca64e709cf2cc59b1726cbe26f46cb4c03d530adb07576952945212ab0afe06",
+    "integrated_worktree_clean_verified_by_d23": true,
+    "integrated_route_and_index_readback": "FIVE_ROUTES_PRESENT / INDEX_FOLLOW / FIVE_CANONICAL_SITEMAP_ENTRIES",
+    "integrated_reported_checks": [
+      "git diff --check",
+      "npm run typecheck",
+      "NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY=fixed-non-production-value npm run build",
+      "npm test: Node contracts 9/9; Playwright 158 passed and 1 intentional skip",
+      "Applications visual evidence 31/31"
+    ],
+    "post_return_develop_commit": "4beaf2f70daccd9d141fddb5a24f0185998613f8",
+    "post_return_develop_delta": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/gate8-handoff.md"
+    ],
+    "integration_note": "The later develop delta is documentation-only. Final develop merge still requires normal current-head reconciliation; it does not invalidate the returned runtime candidate or its tests."
+  },
+  "current_outcome": {
+    "gate8": "INTEGRATED_CANDIDATE_RETURNED / READY_FOR_GATE9_WHEN_AUTHORIZED",
+    "verified_delivery": true,
+    "gate9": "NOT_STARTED / NOT_AUTHORIZED",
+    "push_deploy_dns": "NOT_AUTHORIZED_BY_THIS_DISPATCH",
+    "indexing_contract": "IMPLEMENT_INDEX_FOLLOW_CANONICAL_ROBOTS_ALLOW_AND_SITEMAP; GOOGLE_ACTUAL_INDEXING_POST_RELEASE",
+    "next_required_return": "GATE9_AUTHORIZATION_OR_NORMAL_FINAL_DEVELOP_MERGE_DECISION"
+  }
+}

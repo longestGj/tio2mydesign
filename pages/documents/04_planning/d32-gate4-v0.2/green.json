@@ -1,0 +1,2386 @@
+{
+  "mode": "green",
+  "source_sha256": "2fa09d30d87870645752cde4f085d5113b63c97ef333534d184416d8cb6f0723",
+  "css_sha256": "cffdd929cffb9446319ab3ca39426e4fc1659be993cfff76f01e4a72d0d2ce03",
+  "browser": "Chromium",
+  "timestamp": "2026-09-21T01:51:26.618Z",
+  "passed": 140,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "1440:complete error/focus/no navigation",
+      "pass": true,
+      "actual": {
+        "state": "error",
+        "button": {
+          "x": 741.5,
+          "y": 876.203125,
+          "w": 289.765625,
+          "h": 50
+        },
+        "error": {
+          "x": 741.5,
+          "y": 816.203125,
+          "w": 545.5,
+          "h": 24
+        },
+        "selector": {
+          "x": 120,
+          "y": 673.71875,
+          "w": 1200,
+          "h": 341.484375
+        },
+        "text": "Select a product grade to continue.",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": "true",
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "1440:four-state Continue stability",
+      "pass": true,
+      "actual": [
+        {
+          "state": "initial",
+          "y": 876.203125,
+          "errorHeight": 24
+        },
+        {
+          "state": "error",
+          "y": 876.203125,
+          "errorHeight": 24
+        },
+        {
+          "state": "selected",
+          "y": 876.203125,
+          "errorHeight": 24
+        },
+        {
+          "state": "cleared",
+          "y": 876.203125,
+          "errorHeight": 24
+        }
+      ]
+    },
+    {
+      "id": "1440:unrelated FAQ retained",
+      "pass": true,
+      "actual": [
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "1440:no overlap/overflow/target loss",
+      "pass": true,
+      "actual": [
+        {
+          "x": 741.5,
+          "y": 876.203125,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 741.5,
+          "y": 876.203125,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 741.5,
+          "y": 876.203125,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 741.5,
+          "y": 876.203125,
+          "w": 289.765625,
+          "h": 50
+        }
+      ]
+    },
+    {
+      "id": "1440:clearing restores neutral",
+      "pass": true,
+      "actual": {
+        "state": "cleared",
+        "button": {
+          "x": 741.5,
+          "y": 876.203125,
+          "w": 289.765625,
+          "h": 50
+        },
+        "error": {
+          "x": 741.5,
+          "y": 816.203125,
+          "w": 545.5,
+          "h": 24
+        },
+        "selector": {
+          "x": 120,
+          "y": 673.71875,
+          "w": 1200,
+          "h": 341.484375
+        },
+        "text": "",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": null,
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "1440:route M-350",
+      "pass": true,
+      "actual": "/request-documents/?product=M-350"
+    },
+    {
+      "id": "1440:route M-510",
+      "pass": true,
+      "actual": "/request-documents/?product=M-510"
+    },
+    {
+      "id": "1440:route M-896",
+      "pass": true,
+      "actual": "/request-documents/?product=M-896"
+    },
+    {
+      "id": "1440:route M-996",
+      "pass": true,
+      "actual": "/request-documents/?product=M-996"
+    },
+    {
+      "id": "1440:route M-2196",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2196"
+    },
+    {
+      "id": "1440:route M-895",
+      "pass": true,
+      "actual": "/request-documents/?product=M-895"
+    },
+    {
+      "id": "1440:route M-200",
+      "pass": true,
+      "actual": "/request-documents/?product=M-200"
+    },
+    {
+      "id": "1440:route M-108",
+      "pass": true,
+      "actual": "/request-documents/?product=M-108"
+    },
+    {
+      "id": "1440:route M-210",
+      "pass": true,
+      "actual": "/request-documents/?product=M-210"
+    },
+    {
+      "id": "1440:route M-340",
+      "pass": true,
+      "actual": "/request-documents/?product=M-340"
+    },
+    {
+      "id": "1440:route M-886",
+      "pass": true,
+      "actual": "/request-documents/?product=M-886"
+    },
+    {
+      "id": "1440:route M-52",
+      "pass": true,
+      "actual": "/request-documents/?product=M-52"
+    },
+    {
+      "id": "1440:route M-2377",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2377"
+    },
+    {
+      "id": "1440:route CR-901",
+      "pass": true,
+      "actual": "/request-documents/?product=CR-901"
+    },
+    {
+      "id": "1440:unchanged H1 presentation",
+      "pass": true,
+      "actual": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "56px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "id": "1024:complete error/focus/no navigation",
+      "pass": true,
+      "actual": {
+        "state": "error",
+        "button": {
+          "x": 533.5,
+          "y": 944.96875,
+          "w": 289.765625,
+          "h": 50
+        },
+        "error": {
+          "x": 533.5,
+          "y": 884.96875,
+          "w": 425.5,
+          "h": 24
+        },
+        "selector": {
+          "x": 32,
+          "y": 742.484375,
+          "w": 960,
+          "h": 341.484375
+        },
+        "text": "Select a product grade to continue.",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": "true",
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "1024:four-state Continue stability",
+      "pass": true,
+      "actual": [
+        {
+          "state": "initial",
+          "y": 944.96875,
+          "errorHeight": 24
+        },
+        {
+          "state": "error",
+          "y": 944.96875,
+          "errorHeight": 24
+        },
+        {
+          "state": "selected",
+          "y": 944.96875,
+          "errorHeight": 24
+        },
+        {
+          "state": "cleared",
+          "y": 944.96875,
+          "errorHeight": 24
+        }
+      ]
+    },
+    {
+      "id": "1024:unrelated FAQ retained",
+      "pass": true,
+      "actual": [
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "1024:no overlap/overflow/target loss",
+      "pass": true,
+      "actual": [
+        {
+          "x": 533.5,
+          "y": 944.96875,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 533.5,
+          "y": 944.96875,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 533.5,
+          "y": 944.96875,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 533.5,
+          "y": 944.96875,
+          "w": 289.765625,
+          "h": 50
+        }
+      ]
+    },
+    {
+      "id": "1024:clearing restores neutral",
+      "pass": true,
+      "actual": {
+        "state": "cleared",
+        "button": {
+          "x": 533.5,
+          "y": 944.96875,
+          "w": 289.765625,
+          "h": 50
+        },
+        "error": {
+          "x": 533.5,
+          "y": 884.96875,
+          "w": 425.5,
+          "h": 24
+        },
+        "selector": {
+          "x": 32,
+          "y": 742.484375,
+          "w": 960,
+          "h": 341.484375
+        },
+        "text": "",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": null,
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "1024:route M-350",
+      "pass": true,
+      "actual": "/request-documents/?product=M-350"
+    },
+    {
+      "id": "1024:route M-510",
+      "pass": true,
+      "actual": "/request-documents/?product=M-510"
+    },
+    {
+      "id": "1024:route M-896",
+      "pass": true,
+      "actual": "/request-documents/?product=M-896"
+    },
+    {
+      "id": "1024:route M-996",
+      "pass": true,
+      "actual": "/request-documents/?product=M-996"
+    },
+    {
+      "id": "1024:route M-2196",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2196"
+    },
+    {
+      "id": "1024:route M-895",
+      "pass": true,
+      "actual": "/request-documents/?product=M-895"
+    },
+    {
+      "id": "1024:route M-200",
+      "pass": true,
+      "actual": "/request-documents/?product=M-200"
+    },
+    {
+      "id": "1024:route M-108",
+      "pass": true,
+      "actual": "/request-documents/?product=M-108"
+    },
+    {
+      "id": "1024:route M-210",
+      "pass": true,
+      "actual": "/request-documents/?product=M-210"
+    },
+    {
+      "id": "1024:route M-340",
+      "pass": true,
+      "actual": "/request-documents/?product=M-340"
+    },
+    {
+      "id": "1024:route M-886",
+      "pass": true,
+      "actual": "/request-documents/?product=M-886"
+    },
+    {
+      "id": "1024:route M-52",
+      "pass": true,
+      "actual": "/request-documents/?product=M-52"
+    },
+    {
+      "id": "1024:route M-2377",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2377"
+    },
+    {
+      "id": "1024:route CR-901",
+      "pass": true,
+      "actual": "/request-documents/?product=CR-901"
+    },
+    {
+      "id": "1024:unchanged H1 presentation",
+      "pass": true,
+      "actual": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "56px",
+        "weight": "700",
+        "lines": 3
+      }
+    },
+    {
+      "id": "768:complete error/focus/no navigation",
+      "pass": true,
+      "actual": {
+        "state": "error",
+        "button": {
+          "x": 68,
+          "y": 1185.4375,
+          "w": 289.765625,
+          "h": 50
+        },
+        "error": {
+          "x": 68,
+          "y": 1125.4375,
+          "w": 635,
+          "h": 24
+        },
+        "selector": {
+          "x": 32,
+          "y": 835.78125,
+          "w": 704,
+          "h": 488.65625
+        },
+        "text": "Select a product grade to continue.",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": "true",
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "768:four-state Continue stability",
+      "pass": true,
+      "actual": [
+        {
+          "state": "initial",
+          "y": 1185.4375,
+          "errorHeight": 24
+        },
+        {
+          "state": "error",
+          "y": 1185.4375,
+          "errorHeight": 24
+        },
+        {
+          "state": "selected",
+          "y": 1185.4375,
+          "errorHeight": 24
+        },
+        {
+          "state": "cleared",
+          "y": 1185.4375,
+          "errorHeight": 24
+        }
+      ]
+    },
+    {
+      "id": "768:unrelated FAQ retained",
+      "pass": true,
+      "actual": [
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "768:no overlap/overflow/target loss",
+      "pass": true,
+      "actual": [
+        {
+          "x": 68,
+          "y": 1185.4375,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 68,
+          "y": 1185.4375,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 68,
+          "y": 1185.4375,
+          "w": 289.765625,
+          "h": 50
+        },
+        {
+          "x": 68,
+          "y": 1185.4375,
+          "w": 289.765625,
+          "h": 50
+        }
+      ]
+    },
+    {
+      "id": "768:clearing restores neutral",
+      "pass": true,
+      "actual": {
+        "state": "cleared",
+        "button": {
+          "x": 68,
+          "y": 1185.4375,
+          "w": 289.765625,
+          "h": 50
+        },
+        "error": {
+          "x": 68,
+          "y": 1125.4375,
+          "w": 635,
+          "h": 24
+        },
+        "selector": {
+          "x": 32,
+          "y": 835.78125,
+          "w": 704,
+          "h": 488.65625
+        },
+        "text": "",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": null,
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "768:route M-350",
+      "pass": true,
+      "actual": "/request-documents/?product=M-350"
+    },
+    {
+      "id": "768:route M-510",
+      "pass": true,
+      "actual": "/request-documents/?product=M-510"
+    },
+    {
+      "id": "768:route M-896",
+      "pass": true,
+      "actual": "/request-documents/?product=M-896"
+    },
+    {
+      "id": "768:route M-996",
+      "pass": true,
+      "actual": "/request-documents/?product=M-996"
+    },
+    {
+      "id": "768:route M-2196",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2196"
+    },
+    {
+      "id": "768:route M-895",
+      "pass": true,
+      "actual": "/request-documents/?product=M-895"
+    },
+    {
+      "id": "768:route M-200",
+      "pass": true,
+      "actual": "/request-documents/?product=M-200"
+    },
+    {
+      "id": "768:route M-108",
+      "pass": true,
+      "actual": "/request-documents/?product=M-108"
+    },
+    {
+      "id": "768:route M-210",
+      "pass": true,
+      "actual": "/request-documents/?product=M-210"
+    },
+    {
+      "id": "768:route M-340",
+      "pass": true,
+      "actual": "/request-documents/?product=M-340"
+    },
+    {
+      "id": "768:route M-886",
+      "pass": true,
+      "actual": "/request-documents/?product=M-886"
+    },
+    {
+      "id": "768:route M-52",
+      "pass": true,
+      "actual": "/request-documents/?product=M-52"
+    },
+    {
+      "id": "768:route M-2377",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2377"
+    },
+    {
+      "id": "768:route CR-901",
+      "pass": true,
+      "actual": "/request-documents/?product=CR-901"
+    },
+    {
+      "id": "768:unchanged H1 presentation",
+      "pass": true,
+      "actual": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "44px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "id": "390:complete error/focus/no navigation",
+      "pass": true,
+      "actual": {
+        "state": "error",
+        "button": {
+          "x": 48,
+          "y": 1282.828125,
+          "w": 297,
+          "h": 50
+        },
+        "error": {
+          "x": 48,
+          "y": 1222.828125,
+          "w": 297,
+          "h": 24
+        },
+        "selector": {
+          "x": 20,
+          "y": 859.59375,
+          "w": 350,
+          "h": 563.015625
+        },
+        "text": "Select a product grade to continue.",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": "true",
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "390:four-state Continue stability",
+      "pass": true,
+      "actual": [
+        {
+          "state": "initial",
+          "y": 1282.828125,
+          "errorHeight": 24
+        },
+        {
+          "state": "error",
+          "y": 1282.828125,
+          "errorHeight": 24
+        },
+        {
+          "state": "selected",
+          "y": 1282.828125,
+          "errorHeight": 24
+        },
+        {
+          "state": "cleared",
+          "y": 1282.828125,
+          "errorHeight": 24
+        }
+      ]
+    },
+    {
+      "id": "390:unrelated FAQ retained",
+      "pass": true,
+      "actual": [
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "390:no overlap/overflow/target loss",
+      "pass": true,
+      "actual": [
+        {
+          "x": 48,
+          "y": 1282.828125,
+          "w": 297,
+          "h": 50
+        },
+        {
+          "x": 48,
+          "y": 1282.828125,
+          "w": 297,
+          "h": 50
+        },
+        {
+          "x": 48,
+          "y": 1282.828125,
+          "w": 297,
+          "h": 50
+        },
+        {
+          "x": 48,
+          "y": 1282.828125,
+          "w": 297,
+          "h": 50
+        }
+      ]
+    },
+    {
+      "id": "390:clearing restores neutral",
+      "pass": true,
+      "actual": {
+        "state": "cleared",
+        "button": {
+          "x": 48,
+          "y": 1282.828125,
+          "w": 297,
+          "h": 50
+        },
+        "error": {
+          "x": 48,
+          "y": 1222.828125,
+          "w": 297,
+          "h": 24
+        },
+        "selector": {
+          "x": 20,
+          "y": 859.59375,
+          "w": 350,
+          "h": 563.015625
+        },
+        "text": "",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": null,
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "390:route M-350",
+      "pass": true,
+      "actual": "/request-documents/?product=M-350"
+    },
+    {
+      "id": "390:route M-510",
+      "pass": true,
+      "actual": "/request-documents/?product=M-510"
+    },
+    {
+      "id": "390:route M-896",
+      "pass": true,
+      "actual": "/request-documents/?product=M-896"
+    },
+    {
+      "id": "390:route M-996",
+      "pass": true,
+      "actual": "/request-documents/?product=M-996"
+    },
+    {
+      "id": "390:route M-2196",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2196"
+    },
+    {
+      "id": "390:route M-895",
+      "pass": true,
+      "actual": "/request-documents/?product=M-895"
+    },
+    {
+      "id": "390:route M-200",
+      "pass": true,
+      "actual": "/request-documents/?product=M-200"
+    },
+    {
+      "id": "390:route M-108",
+      "pass": true,
+      "actual": "/request-documents/?product=M-108"
+    },
+    {
+      "id": "390:route M-210",
+      "pass": true,
+      "actual": "/request-documents/?product=M-210"
+    },
+    {
+      "id": "390:route M-340",
+      "pass": true,
+      "actual": "/request-documents/?product=M-340"
+    },
+    {
+      "id": "390:route M-886",
+      "pass": true,
+      "actual": "/request-documents/?product=M-886"
+    },
+    {
+      "id": "390:route M-52",
+      "pass": true,
+      "actual": "/request-documents/?product=M-52"
+    },
+    {
+      "id": "390:route M-2377",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2377"
+    },
+    {
+      "id": "390:route CR-901",
+      "pass": true,
+      "actual": "/request-documents/?product=CR-901"
+    },
+    {
+      "id": "390:unchanged H1 presentation",
+      "pass": true,
+      "actual": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "36px",
+        "weight": "700",
+        "lines": 3
+      }
+    },
+    {
+      "id": "341:complete error/focus/no navigation",
+      "pass": true,
+      "actual": {
+        "state": "error",
+        "button": {
+          "x": 48,
+          "y": 1377,
+          "w": 248,
+          "h": 74
+        },
+        "error": {
+          "x": 48,
+          "y": 1317,
+          "w": 248,
+          "h": 24
+        },
+        "selector": {
+          "x": 20,
+          "y": 927.375,
+          "w": 301,
+          "h": 613.40625
+        },
+        "text": "Select a product grade to continue.",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": "true",
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "341:four-state Continue stability",
+      "pass": true,
+      "actual": [
+        {
+          "state": "initial",
+          "y": 1377,
+          "errorHeight": 24
+        },
+        {
+          "state": "error",
+          "y": 1377,
+          "errorHeight": 24
+        },
+        {
+          "state": "selected",
+          "y": 1377,
+          "errorHeight": 24
+        },
+        {
+          "state": "cleared",
+          "y": 1377,
+          "errorHeight": 24
+        }
+      ]
+    },
+    {
+      "id": "341:unrelated FAQ retained",
+      "pass": true,
+      "actual": [
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "341:no overlap/overflow/target loss",
+      "pass": true,
+      "actual": [
+        {
+          "x": 48,
+          "y": 1377,
+          "w": 248,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1377,
+          "w": 248,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1377,
+          "w": 248,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1377,
+          "w": 248,
+          "h": 74
+        }
+      ]
+    },
+    {
+      "id": "341:clearing restores neutral",
+      "pass": true,
+      "actual": {
+        "state": "cleared",
+        "button": {
+          "x": 48,
+          "y": 1377,
+          "w": 248,
+          "h": 74
+        },
+        "error": {
+          "x": 48,
+          "y": 1317,
+          "w": 248,
+          "h": 24
+        },
+        "selector": {
+          "x": 20,
+          "y": 927.375,
+          "w": 301,
+          "h": 613.40625
+        },
+        "text": "",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": null,
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "341:route M-350",
+      "pass": true,
+      "actual": "/request-documents/?product=M-350"
+    },
+    {
+      "id": "341:route M-510",
+      "pass": true,
+      "actual": "/request-documents/?product=M-510"
+    },
+    {
+      "id": "341:route M-896",
+      "pass": true,
+      "actual": "/request-documents/?product=M-896"
+    },
+    {
+      "id": "341:route M-996",
+      "pass": true,
+      "actual": "/request-documents/?product=M-996"
+    },
+    {
+      "id": "341:route M-2196",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2196"
+    },
+    {
+      "id": "341:route M-895",
+      "pass": true,
+      "actual": "/request-documents/?product=M-895"
+    },
+    {
+      "id": "341:route M-200",
+      "pass": true,
+      "actual": "/request-documents/?product=M-200"
+    },
+    {
+      "id": "341:route M-108",
+      "pass": true,
+      "actual": "/request-documents/?product=M-108"
+    },
+    {
+      "id": "341:route M-210",
+      "pass": true,
+      "actual": "/request-documents/?product=M-210"
+    },
+    {
+      "id": "341:route M-340",
+      "pass": true,
+      "actual": "/request-documents/?product=M-340"
+    },
+    {
+      "id": "341:route M-886",
+      "pass": true,
+      "actual": "/request-documents/?product=M-886"
+    },
+    {
+      "id": "341:route M-52",
+      "pass": true,
+      "actual": "/request-documents/?product=M-52"
+    },
+    {
+      "id": "341:route M-2377",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2377"
+    },
+    {
+      "id": "341:route CR-901",
+      "pass": true,
+      "actual": "/request-documents/?product=CR-901"
+    },
+    {
+      "id": "341:unchanged H1 presentation",
+      "pass": true,
+      "actual": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "36px",
+        "weight": "700",
+        "lines": 4
+      }
+    },
+    {
+      "id": "340:complete error/focus/no navigation",
+      "pass": true,
+      "actual": {
+        "state": "error",
+        "button": {
+          "x": 48,
+          "y": 1398.46875,
+          "w": 247,
+          "h": 74
+        },
+        "error": {
+          "x": 48,
+          "y": 1316.28125,
+          "w": 247,
+          "h": 46.1875
+        },
+        "selector": {
+          "x": 20,
+          "y": 926.65625,
+          "w": 300,
+          "h": 635.59375
+        },
+        "text": "Select a product grade to continue.",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": "true",
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "340:four-state Continue stability",
+      "pass": true,
+      "actual": [
+        {
+          "state": "initial",
+          "y": 1398.46875,
+          "errorHeight": 46.1875
+        },
+        {
+          "state": "error",
+          "y": 1398.46875,
+          "errorHeight": 46.1875
+        },
+        {
+          "state": "selected",
+          "y": 1398.46875,
+          "errorHeight": 46.1875
+        },
+        {
+          "state": "cleared",
+          "y": 1398.46875,
+          "errorHeight": 46.1875
+        }
+      ]
+    },
+    {
+      "id": "340:unrelated FAQ retained",
+      "pass": true,
+      "actual": [
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "340:no overlap/overflow/target loss",
+      "pass": true,
+      "actual": [
+        {
+          "x": 48,
+          "y": 1398.46875,
+          "w": 247,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1398.46875,
+          "w": 247,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1398.46875,
+          "w": 247,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1398.46875,
+          "w": 247,
+          "h": 74
+        }
+      ]
+    },
+    {
+      "id": "340:clearing restores neutral",
+      "pass": true,
+      "actual": {
+        "state": "cleared",
+        "button": {
+          "x": 48,
+          "y": 1398.46875,
+          "w": 247,
+          "h": 74
+        },
+        "error": {
+          "x": 48,
+          "y": 1316.28125,
+          "w": 247,
+          "h": 46.1875
+        },
+        "selector": {
+          "x": 20,
+          "y": 926.65625,
+          "w": 300,
+          "h": 635.59375
+        },
+        "text": "",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": null,
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "340:route M-350",
+      "pass": true,
+      "actual": "/request-documents/?product=M-350"
+    },
+    {
+      "id": "340:route M-510",
+      "pass": true,
+      "actual": "/request-documents/?product=M-510"
+    },
+    {
+      "id": "340:route M-896",
+      "pass": true,
+      "actual": "/request-documents/?product=M-896"
+    },
+    {
+      "id": "340:route M-996",
+      "pass": true,
+      "actual": "/request-documents/?product=M-996"
+    },
+    {
+      "id": "340:route M-2196",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2196"
+    },
+    {
+      "id": "340:route M-895",
+      "pass": true,
+      "actual": "/request-documents/?product=M-895"
+    },
+    {
+      "id": "340:route M-200",
+      "pass": true,
+      "actual": "/request-documents/?product=M-200"
+    },
+    {
+      "id": "340:route M-108",
+      "pass": true,
+      "actual": "/request-documents/?product=M-108"
+    },
+    {
+      "id": "340:route M-210",
+      "pass": true,
+      "actual": "/request-documents/?product=M-210"
+    },
+    {
+      "id": "340:route M-340",
+      "pass": true,
+      "actual": "/request-documents/?product=M-340"
+    },
+    {
+      "id": "340:route M-886",
+      "pass": true,
+      "actual": "/request-documents/?product=M-886"
+    },
+    {
+      "id": "340:route M-52",
+      "pass": true,
+      "actual": "/request-documents/?product=M-52"
+    },
+    {
+      "id": "340:route M-2377",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2377"
+    },
+    {
+      "id": "340:route CR-901",
+      "pass": true,
+      "actual": "/request-documents/?product=CR-901"
+    },
+    {
+      "id": "340:unchanged H1 presentation",
+      "pass": true,
+      "actual": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "36px",
+        "weight": "700",
+        "lines": 4
+      }
+    },
+    {
+      "id": "320:complete error/focus/no navigation",
+      "pass": true,
+      "actual": {
+        "state": "error",
+        "button": {
+          "x": 48,
+          "y": 1434.671875,
+          "w": 227,
+          "h": 74
+        },
+        "error": {
+          "x": 48,
+          "y": 1352.484375,
+          "w": 227,
+          "h": 46.1875
+        },
+        "selector": {
+          "x": 20,
+          "y": 962.859375,
+          "w": 280,
+          "h": 635.59375
+        },
+        "text": "Select a product grade to continue.",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": "true",
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "320:four-state Continue stability",
+      "pass": true,
+      "actual": [
+        {
+          "state": "initial",
+          "y": 1434.671875,
+          "errorHeight": 46.1875
+        },
+        {
+          "state": "error",
+          "y": 1434.671875,
+          "errorHeight": 46.1875
+        },
+        {
+          "state": "selected",
+          "y": 1434.671875,
+          "errorHeight": 46.1875
+        },
+        {
+          "state": "cleared",
+          "y": 1434.671875,
+          "errorHeight": 46.1875
+        }
+      ]
+    },
+    {
+      "id": "320:unrelated FAQ retained",
+      "pass": true,
+      "actual": [
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "320:no overlap/overflow/target loss",
+      "pass": true,
+      "actual": [
+        {
+          "x": 48,
+          "y": 1434.671875,
+          "w": 227,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1434.671875,
+          "w": 227,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1434.671875,
+          "w": 227,
+          "h": 74
+        },
+        {
+          "x": 48,
+          "y": 1434.671875,
+          "w": 227,
+          "h": 74
+        }
+      ]
+    },
+    {
+      "id": "320:clearing restores neutral",
+      "pass": true,
+      "actual": {
+        "state": "cleared",
+        "button": {
+          "x": 48,
+          "y": 1434.671875,
+          "w": 227,
+          "h": 74
+        },
+        "error": {
+          "x": 48,
+          "y": 1352.484375,
+          "w": 227,
+          "h": 46.1875
+        },
+        "selector": {
+          "x": 20,
+          "y": 962.859375,
+          "w": 280,
+          "h": 635.59375
+        },
+        "text": "",
+        "focus": "product-grade",
+        "overflow": false,
+        "invalid": null,
+        "href": "#grade-selector",
+        "errorAssociated": true,
+        "errorClipped": false,
+        "faq": "true"
+      }
+    },
+    {
+      "id": "320:route M-350",
+      "pass": true,
+      "actual": "/request-documents/?product=M-350"
+    },
+    {
+      "id": "320:route M-510",
+      "pass": true,
+      "actual": "/request-documents/?product=M-510"
+    },
+    {
+      "id": "320:route M-896",
+      "pass": true,
+      "actual": "/request-documents/?product=M-896"
+    },
+    {
+      "id": "320:route M-996",
+      "pass": true,
+      "actual": "/request-documents/?product=M-996"
+    },
+    {
+      "id": "320:route M-2196",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2196"
+    },
+    {
+      "id": "320:route M-895",
+      "pass": true,
+      "actual": "/request-documents/?product=M-895"
+    },
+    {
+      "id": "320:route M-200",
+      "pass": true,
+      "actual": "/request-documents/?product=M-200"
+    },
+    {
+      "id": "320:route M-108",
+      "pass": true,
+      "actual": "/request-documents/?product=M-108"
+    },
+    {
+      "id": "320:route M-210",
+      "pass": true,
+      "actual": "/request-documents/?product=M-210"
+    },
+    {
+      "id": "320:route M-340",
+      "pass": true,
+      "actual": "/request-documents/?product=M-340"
+    },
+    {
+      "id": "320:route M-886",
+      "pass": true,
+      "actual": "/request-documents/?product=M-886"
+    },
+    {
+      "id": "320:route M-52",
+      "pass": true,
+      "actual": "/request-documents/?product=M-52"
+    },
+    {
+      "id": "320:route M-2377",
+      "pass": true,
+      "actual": "/request-documents/?product=M-2377"
+    },
+    {
+      "id": "320:route CR-901",
+      "pass": true,
+      "actual": "/request-documents/?product=CR-901"
+    },
+    {
+      "id": "320:unchanged H1 presentation",
+      "pass": true,
+      "actual": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "36px",
+        "weight": "700",
+        "lines": 4
+      }
+    }
+  ],
+  "states": [
+    {
+      "width": 1440,
+      "samples": [
+        {
+          "state": "initial",
+          "button": {
+            "x": 741.5,
+            "y": 876.203125,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 741.5,
+            "y": 816.203125,
+            "w": 545.5,
+            "h": 24
+          },
+          "selector": {
+            "x": 120,
+            "y": 673.71875,
+            "w": 1200,
+            "h": 341.484375
+          },
+          "text": "",
+          "focus": "faq-question-1",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "error",
+          "button": {
+            "x": 741.5,
+            "y": 876.203125,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 741.5,
+            "y": 816.203125,
+            "w": 545.5,
+            "h": 24
+          },
+          "selector": {
+            "x": 120,
+            "y": 673.71875,
+            "w": 1200,
+            "h": 341.484375
+          },
+          "text": "Select a product grade to continue.",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": "true",
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "selected",
+          "button": {
+            "x": 741.5,
+            "y": 876.203125,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 741.5,
+            "y": 816.203125,
+            "w": 545.5,
+            "h": 24
+          },
+          "selector": {
+            "x": 120,
+            "y": 673.71875,
+            "w": 1200,
+            "h": 341.484375
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "/request-documents/?product=M-2196",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "cleared",
+          "button": {
+            "x": 741.5,
+            "y": 876.203125,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 741.5,
+            "y": 816.203125,
+            "w": 545.5,
+            "h": 24
+          },
+          "selector": {
+            "x": 120,
+            "y": 673.71875,
+            "w": 1200,
+            "h": 341.484375
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        }
+      ],
+      "hero": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "56px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "width": 1024,
+      "samples": [
+        {
+          "state": "initial",
+          "button": {
+            "x": 533.5,
+            "y": 944.96875,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 533.5,
+            "y": 884.96875,
+            "w": 425.5,
+            "h": 24
+          },
+          "selector": {
+            "x": 32,
+            "y": 742.484375,
+            "w": 960,
+            "h": 341.484375
+          },
+          "text": "",
+          "focus": "faq-question-1",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "error",
+          "button": {
+            "x": 533.5,
+            "y": 944.96875,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 533.5,
+            "y": 884.96875,
+            "w": 425.5,
+            "h": 24
+          },
+          "selector": {
+            "x": 32,
+            "y": 742.484375,
+            "w": 960,
+            "h": 341.484375
+          },
+          "text": "Select a product grade to continue.",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": "true",
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "selected",
+          "button": {
+            "x": 533.5,
+            "y": 944.96875,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 533.5,
+            "y": 884.96875,
+            "w": 425.5,
+            "h": 24
+          },
+          "selector": {
+            "x": 32,
+            "y": 742.484375,
+            "w": 960,
+            "h": 341.484375
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "/request-documents/?product=M-2196",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "cleared",
+          "button": {
+            "x": 533.5,
+            "y": 944.96875,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 533.5,
+            "y": 884.96875,
+            "w": 425.5,
+            "h": 24
+          },
+          "selector": {
+            "x": 32,
+            "y": 742.484375,
+            "w": 960,
+            "h": 341.484375
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        }
+      ],
+      "hero": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "56px",
+        "weight": "700",
+        "lines": 3
+      }
+    },
+    {
+      "width": 768,
+      "samples": [
+        {
+          "state": "initial",
+          "button": {
+            "x": 68,
+            "y": 1185.4375,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 68,
+            "y": 1125.4375,
+            "w": 635,
+            "h": 24
+          },
+          "selector": {
+            "x": 32,
+            "y": 835.78125,
+            "w": 704,
+            "h": 488.65625
+          },
+          "text": "",
+          "focus": "faq-question-1",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "error",
+          "button": {
+            "x": 68,
+            "y": 1185.4375,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 68,
+            "y": 1125.4375,
+            "w": 635,
+            "h": 24
+          },
+          "selector": {
+            "x": 32,
+            "y": 835.78125,
+            "w": 704,
+            "h": 488.65625
+          },
+          "text": "Select a product grade to continue.",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": "true",
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "selected",
+          "button": {
+            "x": 68,
+            "y": 1185.4375,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 68,
+            "y": 1125.4375,
+            "w": 635,
+            "h": 24
+          },
+          "selector": {
+            "x": 32,
+            "y": 835.78125,
+            "w": 704,
+            "h": 488.65625
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "/request-documents/?product=M-2196",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "cleared",
+          "button": {
+            "x": 68,
+            "y": 1185.4375,
+            "w": 289.765625,
+            "h": 50
+          },
+          "error": {
+            "x": 68,
+            "y": 1125.4375,
+            "w": 635,
+            "h": 24
+          },
+          "selector": {
+            "x": 32,
+            "y": 835.78125,
+            "w": 704,
+            "h": 488.65625
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        }
+      ],
+      "hero": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "44px",
+        "weight": "700",
+        "lines": 2
+      }
+    },
+    {
+      "width": 390,
+      "samples": [
+        {
+          "state": "initial",
+          "button": {
+            "x": 48,
+            "y": 1282.828125,
+            "w": 297,
+            "h": 50
+          },
+          "error": {
+            "x": 48,
+            "y": 1222.828125,
+            "w": 297,
+            "h": 24
+          },
+          "selector": {
+            "x": 20,
+            "y": 859.59375,
+            "w": 350,
+            "h": 563.015625
+          },
+          "text": "",
+          "focus": "faq-question-1",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "error",
+          "button": {
+            "x": 48,
+            "y": 1282.828125,
+            "w": 297,
+            "h": 50
+          },
+          "error": {
+            "x": 48,
+            "y": 1222.828125,
+            "w": 297,
+            "h": 24
+          },
+          "selector": {
+            "x": 20,
+            "y": 859.59375,
+            "w": 350,
+            "h": 563.015625
+          },
+          "text": "Select a product grade to continue.",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": "true",
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "selected",
+          "button": {
+            "x": 48,
+            "y": 1282.828125,
+            "w": 297,
+            "h": 50
+          },
+          "error": {
+            "x": 48,
+            "y": 1222.828125,
+            "w": 297,
+            "h": 24
+          },
+          "selector": {
+            "x": 20,
+            "y": 859.59375,
+            "w": 350,
+            "h": 563.015625
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "/request-documents/?product=M-2196",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "cleared",
+          "button": {
+            "x": 48,
+            "y": 1282.828125,
+            "w": 297,
+            "h": 50
+          },
+          "error": {
+            "x": 48,
+            "y": 1222.828125,
+            "w": 297,
+            "h": 24
+          },
+          "selector": {
+            "x": 20,
+            "y": 859.59375,
+            "w": 350,
+            "h": 563.015625
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        }
+      ],
+      "hero": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "36px",
+        "weight": "700",
+        "lines": 3
+      }
+    },
+    {
+      "width": 341,
+      "samples": [
+        {
+          "state": "initial",
+          "button": {
+            "x": 48,
+            "y": 1377,
+            "w": 248,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1317,
+            "w": 248,
+            "h": 24
+          },
+          "selector": {
+            "x": 20,
+            "y": 927.375,
+            "w": 301,
+            "h": 613.40625
+          },
+          "text": "",
+          "focus": "faq-question-1",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "error",
+          "button": {
+            "x": 48,
+            "y": 1377,
+            "w": 248,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1317,
+            "w": 248,
+            "h": 24
+          },
+          "selector": {
+            "x": 20,
+            "y": 927.375,
+            "w": 301,
+            "h": 613.40625
+          },
+          "text": "Select a product grade to continue.",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": "true",
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "selected",
+          "button": {
+            "x": 48,
+            "y": 1377,
+            "w": 248,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1317,
+            "w": 248,
+            "h": 24
+          },
+          "selector": {
+            "x": 20,
+            "y": 927.375,
+            "w": 301,
+            "h": 613.40625
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "/request-documents/?product=M-2196",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "cleared",
+          "button": {
+            "x": 48,
+            "y": 1377,
+            "w": 248,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1317,
+            "w": 248,
+            "h": 24
+          },
+          "selector": {
+            "x": 20,
+            "y": 927.375,
+            "w": 301,
+            "h": 613.40625
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        }
+      ],
+      "hero": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "36px",
+        "weight": "700",
+        "lines": 4
+      }
+    },
+    {
+      "width": 340,
+      "samples": [
+        {
+          "state": "initial",
+          "button": {
+            "x": 48,
+            "y": 1398.46875,
+            "w": 247,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1316.28125,
+            "w": 247,
+            "h": 46.1875
+          },
+          "selector": {
+            "x": 20,
+            "y": 926.65625,
+            "w": 300,
+            "h": 635.59375
+          },
+          "text": "",
+          "focus": "faq-question-1",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "error",
+          "button": {
+            "x": 48,
+            "y": 1398.46875,
+            "w": 247,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1316.28125,
+            "w": 247,
+            "h": 46.1875
+          },
+          "selector": {
+            "x": 20,
+            "y": 926.65625,
+            "w": 300,
+            "h": 635.59375
+          },
+          "text": "Select a product grade to continue.",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": "true",
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "selected",
+          "button": {
+            "x": 48,
+            "y": 1398.46875,
+            "w": 247,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1316.28125,
+            "w": 247,
+            "h": 46.1875
+          },
+          "selector": {
+            "x": 20,
+            "y": 926.65625,
+            "w": 300,
+            "h": 635.59375
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "/request-documents/?product=M-2196",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "cleared",
+          "button": {
+            "x": 48,
+            "y": 1398.46875,
+            "w": 247,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1316.28125,
+            "w": 247,
+            "h": 46.1875
+          },
+          "selector": {
+            "x": 20,
+            "y": 926.65625,
+            "w": 300,
+            "h": 635.59375
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        }
+      ],
+      "hero": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "36px",
+        "weight": "700",
+        "lines": 4
+      }
+    },
+    {
+      "width": 320,
+      "samples": [
+        {
+          "state": "initial",
+          "button": {
+            "x": 48,
+            "y": 1434.671875,
+            "w": 227,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1352.484375,
+            "w": 227,
+            "h": 46.1875
+          },
+          "selector": {
+            "x": 20,
+            "y": 962.859375,
+            "w": 280,
+            "h": 635.59375
+          },
+          "text": "",
+          "focus": "faq-question-1",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "error",
+          "button": {
+            "x": 48,
+            "y": 1434.671875,
+            "w": 227,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1352.484375,
+            "w": 227,
+            "h": 46.1875
+          },
+          "selector": {
+            "x": 20,
+            "y": 962.859375,
+            "w": 280,
+            "h": 635.59375
+          },
+          "text": "Select a product grade to continue.",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": "true",
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "selected",
+          "button": {
+            "x": 48,
+            "y": 1434.671875,
+            "w": 227,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1352.484375,
+            "w": 227,
+            "h": 46.1875
+          },
+          "selector": {
+            "x": 20,
+            "y": 962.859375,
+            "w": 280,
+            "h": 635.59375
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "/request-documents/?product=M-2196",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        },
+        {
+          "state": "cleared",
+          "button": {
+            "x": 48,
+            "y": 1434.671875,
+            "w": 227,
+            "h": 74
+          },
+          "error": {
+            "x": 48,
+            "y": 1352.484375,
+            "w": 227,
+            "h": 46.1875
+          },
+          "selector": {
+            "x": 20,
+            "y": 962.859375,
+            "w": 280,
+            "h": 635.59375
+          },
+          "text": "",
+          "focus": "product-grade",
+          "overflow": false,
+          "invalid": null,
+          "href": "#grade-selector",
+          "errorAssociated": true,
+          "errorClipped": false,
+          "faq": "true"
+        }
+      ],
+      "hero": {
+        "text": "Documents for Product & Supplier Qualification",
+        "size": "36px",
+        "weight": "700",
+        "lines": 4
+      }
+    }
+  ]
+}

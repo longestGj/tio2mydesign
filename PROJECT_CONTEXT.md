@@ -1,9 +1,13 @@
 # TiO2 Malaysia · 项目背景速读
 
+2026-09-21：按[Gate 3/4合并决定](docs/architecture/GATE3_GATE4_MERGE_DECISION_V1.0.md)，Gate 4统一负责跨页一致性、结构、视觉和验证；Gate 5独立审查后总控关闭一次。新页从Gate 2批准组合进入，不要求单独Gate 3冻结。历史成果、仅旧Gate 3授权及暂停按原范围继承。
+
+> 2026-09-21 当前开发归属与架构：TiO2 Malaysia 全站后续开发由独立静态Next.js仓库`D:\32NextJS`承接；采用仓库内版本化内容，不使用WordPress、CMS、数据库或多站运行时内容系统。D23继续负责策划、交付规格和只读验收。旧D16及`D:\32Wordpress_new`代码、任务、运行与验收记录只证明其原对象，不代表当前静态站状态。单站不再执行原`tio2-my`多站隔离；所有开发完成并正式发布页面必须具备Google收录条件并进入发布后收录跟踪，见[静态单站与Google收录决定V1.0](docs/architecture/STATIC_NEXTJS_SINGLE_SITE_AND_GOOGLE_INDEXING_DECISION_V1.0.md)。页面开发、发布与外部操作仍按各自授权。
+
 > 2026-09-07当前批准方式：Gate 3、4、6按[总控常设关闭授权](docs/architecture/GATE_3_4_6_DELEGATED_CLOSURE_AUTHORITY_V1.0.md)执行独立审查与总控关闭，不再等待逐页用户批准；Gate 1/2/9/10不变。本文历史“用户批准”表述只保留原记录语境，当前三关关闭由该授权解释；内容事实决定、明确暂停、下一阶段启动与外发/开发/发布权限分别保留。
 
 
-> 当前阶段职责见[Gate工作流V3.2](docs/architecture/GATE_WORKFLOW_V3.2.md)：Gate 3验证结构；Gate 4完成视觉（4A内部检查、4B最终关闭），原Gate 5并入4；Gate 6总审并交付，原Gate 7并入6；Gate 8负责WordPress＋Next.js技术承接与实现，Gate 9独立只读验收，Gate 10另行发布授权。以下项目事实与页面状态不因此改变。
+> 当前阶段职责见[Gate工作流V3.6](docs/architecture/GATE_WORKFLOW_V3.6.md)：Gate 4统一完成一致性、结构和视觉（4A内部检查、4B冻结）；Gate 5独立审查后总控关闭同一设计组合，历史Gate 5制作并入4；Gate 6总审并交付，原Gate 7并入6；Gate 8由D32负责技术承接与实现，当前采用独立Next.js静态站和仓库内内容，Gate 9独立只读验收，Gate 10另行发布授权。以下项目事实与页面状态不因此改变。
 
 > 更新：2026-09-06。用途：让AI先了解已有项目，不重新向用户询问已经回答的问题。本文件是批准源的导航性摘要，不是第二份PRD、技术证据或授权记录；冲突按根AGENTS处理。本文的“四个环节”是全站前期工作，不等于某一页的Gate 1–4。
 
@@ -62,7 +66,7 @@
 
 2026-09-08按[批准新增决定](docs/architecture/SYS_404_CONV_THANK_PAGE_ADDITION_DECISION_V1.0.md)增加`SYS-404`（全站运行时fallback，无独立可索引`/404/`）和`CONV-THANK`（`/thank-you/`，Quote/Documents/Sample共享成功结果）。两页均为`NO_PRIMARY_KEYWORD`且不进sitemap；robots分别为`noindex, follow`和`noindex, nofollow`。该决定作为PRD V0.4页面清单的57→59批准增补；内容/行为设计批准与Gate 1、开发及发布授权分别记录。
 
-共享Header/Footer由Home/Global Chrome owner维护，页面消费，不各自开发；前台不展示“CURRENT”文字。WordPress/Next.js由独立开发项目实现，共享架构但严格隔离 `site_scope=tio2-my`。
+共享Header/Footer由Home/Global Chrome owner维护，页面消费，不各自开发；前台不展示“CURRENT”文字。开发由`D:\32NextJS`独立静态Next.js项目承接，内容在仓库内版本化；不使用WordPress、CMS、数据库或运行时远程内容链。旧D16和旧WordPress实现不自动成为当前技术基线。正式页面按当前决定实现`index, follow`、正式canonical、sitemap收录和发布后Google索引跟踪。
 
 来源：[PRD](docs/prd/TiO2_Malaysia_Website_PRD_V0.4.md)、[实施主表](research/keyword/11_page_keyword_master.csv)、[登记册](docs/architecture/PAGE_REGISTRY_V0.2.md)、[No-Terms批准增补](docs/architecture/LEGAL_PRIVACY_NO_TERMS_TITAN_PATTERN_DECISION_V1.0.md)、[Global Chrome V0.5](docs/architecture/GLOBAL_HEADER_FOOTER_SPEC_V0.5.md)。
 
@@ -75,3 +79,5 @@
 5. 未获该页下一阶段授权不自动推进；执行自检不代替总控或用户批准。
 
 根 [AGENTS](AGENTS.md) 决定怎么工作；[索引](01_PROJECT_INDEX.md) 找当前输入；[状态](00_PROJECT_STATUS.md)只在需要进度/授权时读。后续修改事实先改原责任文件，再更新本摘要与来源；不得把摘要更新当成新的事实批准。
+
+开发规则直接读取D32的[AGENTS.md](D:/32NextJS/AGENTS.md)、[CONTRIBUTING.md](D:/32NextJS/CONTRIBUTING.md)与[README.md](D:/32NextJS/README.md)。D23只保留策划及验收交接接口。
